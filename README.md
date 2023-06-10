@@ -1,6 +1,6 @@
 All The Mods 9
 ======
-This is the official repository and issue-tracker for All The Mods 91.20
+This is the official repository and issue-tracker for All The Mods 9 1.20
 
 Does "All The Mods" *really* contain ALL THE MODS? No, of course not.
 
