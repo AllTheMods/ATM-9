@@ -1,0 +1,173 @@
+{
+    "com.refinedmods.refinedstorage.screen.ControllerScreen": {
+        "playerSideOnly": true
+    },
+    "com.refinedmods.refinedstorage.screen.DiskDriveScreen": {
+        "playerSideOnly": true
+    },
+    "com.refinedmods.refinedstorage.screen.grid.GridScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 53
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 53
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 53
+            }
+        }
+    },
+    "com.refinedmods.refinedstorage.screen.ExternalStorageScreen": {
+        "playerSideOnly": true
+    },
+    "com.refinedmods.refinedstorage.screen.ImporterScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 37
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 37
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 37
+            }
+        }
+    },
+    "com.refinedmods.refinedstorage.screen.ExporterScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 37
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 37
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 37
+            }
+        }
+    },
+    "com.refinedmods.refinedstorage.screen.NetworkTransmitterScreen": {
+        "playerSideOnly": true
+    },
+    "com.refinedmods.refinedstorage.screen.RelayScreen": {
+        "playerSideOnly": true
+    },
+    "com.refinedmods.refinedstorage.screen.DetectorScreen": {
+        "playerSideOnly": true
+    },
+    "com.refinedmods.refinedstorage.screen.SecurityManagerScreen": {
+        "playerSideOnly": true
+    },
+    "com.refinedmods.refinedstorage.screen.InterfaceScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 36
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 36
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 36
+            }
+        }
+    },
+    "com.refinedmods.refinedstorage.screen.FluidInterfaceScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 36
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 36
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 36
+            }
+        }
+    },
+    "com.refinedmods.refinedstorage.screen.WirelessTransmitterScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 36
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 36
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 36
+            }
+        }
+    },
+    "com.refinedmods.refinedstorage.screen.ConstructorScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 36
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 36
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 36
+            }
+        }
+    },
+    "com.refinedmods.refinedstorage.screen.DestructorScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 36
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 36
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 36
+            }
+        }
+    },
+    "com.refinedmods.refinedstorage.screen.DiskManipulatorScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 36
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 36
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 36
+            }
+        }
+    },
+    "com.refinedmods.refinedstorage.screen.CrafterScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 36
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 36
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 37
+            }
+        }
+    },
+    "com.refinedmods.refinedstorage.screen.PriorityScreen": {
+        "ignore": true
+    },
+    "com.refinedmods.refinedstorage.screen.FilterScreen": {
+        "playerSideOnly": true
+    },
+    "com.refinedmods.refinedstorage.container.GridContainerMenu": {
+        "ignore": true
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "appeng.client.gui.implementations.EnergyLevelEmitterScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.ChestScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.CondenserScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.DriveScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.InscriberScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.InterfaceScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.MolecularAssemblerScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.PatternProviderScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.SpatialAnchorScreen": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.SpatialAnchorMenu": {
+        "ignore": true
+    },
+    "appeng.client.gui.implementations.VibrationChamberScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.QNBScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.me.common.MEStorageScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    },
+    "appeng.client.gui.implementations.IOBusScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.WirelessScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.SecurityStationScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    },
+    "appeng.menu.me.common.MEStorageMenu": {
+        "ignore": true
+    },
+    "de.mari_023.ae2wtlib.wct.WCTScreen": {
+        "ignore": true
+    },
+    "de.mari_023.ae2wtlib.wct.WCTMenu": {
+        "ignore": true,
+        "playerSideOnly": true
+    }
+}

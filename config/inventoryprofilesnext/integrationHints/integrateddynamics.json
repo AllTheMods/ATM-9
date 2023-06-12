@@ -1,0 +1,173 @@
+{
+    "org.cyclops.integrateddynamics.inventory.container.ContainerPartReader": {
+        "ignore": true
+    },
+    "org.cyclops.integrateddynamics.inventory.container.ContainerPartPanelVariableDriven": {
+        "ignore": true
+    },
+    "org.cyclops.integrateddynamics.inventory.container.ContainerPartWriter": {
+        "ignore": true
+    },
+    "org.cyclops.integratedterminals.client.gui.container.ContainerScreenTerminalStorage": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 20
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 2,
+                "top": 21
+            },
+            "SORT": {
+                "horizontalOffset": -10,
+                "top": 5
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -10,
+                "top": 5
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -10,
+                "top": 5
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 28,
+                "top": -5
+            }
+        }
+    },
+    "org.cyclops.integratedcrafting.inventory.container.ContainerPartInterfaceCrafting": {
+        "ignore": true
+    },
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenCoalGenerator": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "bottom": 39
+            },
+            "SORT_COLUMNS": {
+                "bottom": 39
+            },
+            "SORT_ROWS": {
+                "bottom": 39
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenLogicProgrammerPortable": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -41,
+                "bottom": 16
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -29,
+                "bottom": 4
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -17,
+                "bottom": -8
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenMaterializer": {
+        "playerSideOnly": true
+    },
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenProxy": {
+        "playerSideOnly": true
+    },
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenMechanicalSqueezer": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -41,
+                "bottom": -14
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -29,
+                "bottom": -27
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -17,
+                "bottom": -40
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenMechanicalDryingBasin": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -41,
+                "bottom": -14
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -29,
+                "bottom": -27
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -17,
+                "bottom": -40
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenDelay": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -42,
+                "bottom": -11
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -30,
+                "bottom": -24
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -18,
+                "bottom": -37
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenLabeller": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -42,
+                "bottom": -13
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -30,
+                "bottom": -26
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -18,
+                "bottom": -39
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -1,
+                "top": -2
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenLogicProgrammer": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -42,
+                "bottom": 17
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -30,
+                "bottom": 4
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -18,
+                "bottom": -9
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenVariablestore": {
+        "playerSideOnly": true
+    },
+    "org.cyclops.integratedterminals.inventory.container.ContainerTerminalStoragePart": {
+        "ignore": true
+    }
+}

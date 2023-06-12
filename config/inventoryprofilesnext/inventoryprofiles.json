@@ -1,0 +1,69 @@
+{
+    "ModSettings": {
+        "include_hotbar_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "move_all_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "move_focus_mach_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "move_just_refill_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "highlight_foused_items": false,
+        "enable_profiles": false,
+        "enable_lock_slots": false,
+        "enable_updates_check": false,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_inventory_editor_button": false,
+        "enable_inventory_settings_button": false,
+        "enable_profiles_ui": false,
+        "enable_profiles_announcement": false,
+        "enable_inventory_buttons": false
+    },
+    "LockedSlotsSettings": {
+        "locked_slots_empty_hotbar_as_semi_locked": false
+    },
+    "AutoRefillSettings": {
+        "refill_armor": false,
+        "refill_before_tool_break": false,
+        "visual_durability_notification": false,
+        "audio_durability_notification": false,
+        "visual_replace_success_notification": false,
+        "audio_replace_success_notification": false,
+        "visual_replace_failed_notification": false,
+        "audio_replace_failed_notification": false
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
+        },
+        "scroll_to_chest": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_to_inventory": {
+            "main": {
+                "keys": ""
+            }
+        }
+    },
+    "Tweaks": {
+        "container_swipe_moving_items": false
+    }
+}
