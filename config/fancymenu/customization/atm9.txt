@@ -21,9 +21,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = top-centered
-  x = 9
+  x = 12
   action = movebutton
-  y = 284
+  y = 185
 }
 
 customization {
@@ -58,9 +58,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = top-centered
-  x = -225
+  x = -222
   action = movebutton
-  y = 398
+  y = 299
 }
 
 customization {
@@ -90,9 +90,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = top-centered
-  x = 9
+  x = 12
   action = movebutton
-  y = 398
+  y = 299
 }
 
 customization {
@@ -127,9 +127,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = top-centered
-  x = -225
+  x = -222
   action = movebutton
-  y = 284
+  y = 185
 }
 
 customization {
@@ -237,12 +237,12 @@ customization {
 customization {
   path = config/fancymenu/customization/atm9.png
   orientation = top-centered
-  x = -110
-  width = 229
+  x = -66
+  width = 150
   action = addtexture
   actionid = 1fadc24d-d82c-4c67-9d31-5b484477460b1687134753018
-  y = 35
-  height = 229
+  y = 23
+  height = 150
 }
 
 customization {
@@ -254,11 +254,11 @@ customization {
   label = 
   advanced_width = 215
   loopbackgroundanimations = true
-  x = -225
+  x = -222
   width = 215
   action = addbutton
   actionid = 21e0503f-ec9e-4cde-a95e-b437dc17040c1687135515821
-  y = 341
+  y = 242
   backgroundnormal = config/fancymenu/customization/s1.png
   height = 50
 }
@@ -272,11 +272,11 @@ customization {
   label = 
   advanced_width = 215
   loopbackgroundanimations = true
-  x = 9
+  x = 12
   width = 215
   action = addbutton
   actionid = ef41a000-8a67-45ee-9c57-56ea32b049aa1687135888328
-  y = 341
+  y = 242
   backgroundnormal = config/fancymenu/customization/d1.png
   height = 50
 }
