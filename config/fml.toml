@@ -1,0 +1,20 @@
+#Early window height
+earlyWindowHeight = 768
+#Early window framebuffer scale
+earlyWindowFBScale = 1
+#Enable forge global version checking
+versionCheck = false
+#Early window provider
+earlyWindowProvider = "fmlearlywindow"
+#Early window width
+earlyWindowWidth = 1024
+#Early window starts maximized
+earlyWindowMaximized = true
+#Default config path for servers
+defaultConfigPath = "defaultconfigs"
+#Disables Optimized DFU client-side - already disabled on servers
+disableOptimizedDFU = true
+splashscreen = true
+#Max threads for early initialization parallelism,  -1 is based on processor count
+maxThreads = -1
+
