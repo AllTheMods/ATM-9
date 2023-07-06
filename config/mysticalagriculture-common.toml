@@ -1,0 +1,48 @@
+
+#General configuration options.
+[General]
+	#The amount of uses the basic Infusion Crystal should have.
+	#Range: > 10
+	infusionCrystalUses = 1000
+	#Should the Wither drop Cognizant Dust when killed with a Mystical Enlightenment enchanted essence weapon?
+	witherDropsCognizant = true
+	#Should vanilla crafting recipes for seeds be generated?
+	seedCraftingRecipes = false
+	#Should the Wither drop essence when killed with an essence weapon?
+	witherDropsEssence = false
+	#Should the Ender Dragon drop Cognizant Dust when killed with a Mystical Enlightenment enchanted essence weapon?
+	dragonDropsCognizant = true
+	#Should wearing a full set of Awakened Supremium armor grant the Plant Growth AOE set bonus?
+	awakenedSupremiumSetBonus = true
+	#Should Supremium Tools be enchantable in an Enchanting Table?
+	enchantableSupremiumTools = true
+	#The amount of time in seconds between each Growth Accelerator growth tick.
+	#Range: > 1
+	growthAcceleratorCooldown = 10
+	#Should fake players be able to use watering cans?
+	fakePlayerWatering = false
+	#Should the Ender Dragon drop essence when killed with an essence weapon?
+	dragonDropsEssence = false
+	#Should right clicking on Farmland with an Essence create Essence Farmland?
+	essenceFarmlandConversion = true
+	#Should crops have a chance of dropping a second seed when harvested?
+	secondarySeedDrops = false
+	#The percentage chance that harvesting a Resource Crop will drop a Fertilized Essence.
+	#Range: 0.0 ~ 1.0
+	fertilizedEssenceChance = 0.1
+	#The percentage chance that a passive or hostile mob will drop an Inferium Essence when killed.
+	#Range: 0.0 ~ 1.0
+	inferiumDropChance = 0.2
+
+#World generation options.
+[World]
+	#The percentage chance a Soulium Ore spawns in a Soulstone cluster.
+	#Range: 0.0 ~ 1.0
+	souliumOreChance = 0.05
+	#Should Inferium Ore generate in the world?
+	generateInferiumOre = true
+	#Should Prosperity Ore generate in the world?
+	generateProsperityOre = true
+	#Should Soulstone generate in the world?
+	generateSoulstone = true
+
