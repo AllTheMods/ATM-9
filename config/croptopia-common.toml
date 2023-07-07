@@ -1,0 +1,116 @@
+#allows the user to right click harvest crops
+rightClickHarvest = false
+#allows the user to disable salt generation in the world, default is false
+disableSaltGeneration = false
+
+#Croptopia tree generation
+[worldGeneration]
+
+	#Settings for orange_tree_configured
+	[worldGeneration.orange_tree_configured]
+		biomes = ["biomesoplenty:mediterranean_forest", "biomesoplenty:redwood_forest", "byg:aspen_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:pumpkin_patch", "biomesoplenty:woodland", "minecraft:flower_forest", "byg:orchard", "minecraft:plains", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_orchard", "minecraft:forest", "biomesoplenty:seasonal_forest", "byg:red_oak_forest", "minecraft:sunflower_plains", "minecraft:windswept_forest"]
+
+	#Settings for dragon_fruit_tree_configured
+	[worldGeneration.dragon_fruit_tree_configured]
+		biomes = ["minecraft:jungle", "byg:crag_gardens", "biomesoplenty:floodplain", "biomesoplenty:rainforest", "byg:tropical_islands", "biomesoplenty:rocky_rainforest", "minecraft:sparse_jungle", "biomesoplenty:fungal_jungle", "byg:tropical_rainforest"]
+
+	#Settings for kumquat_tree_configured
+	[worldGeneration.kumquat_tree_configured]
+		biomes = ["minecraft:jungle", "byg:crag_gardens", "biomesoplenty:floodplain", "biomesoplenty:rainforest", "byg:tropical_islands", "biomesoplenty:rocky_rainforest", "minecraft:sparse_jungle", "biomesoplenty:fungal_jungle", "byg:tropical_rainforest"]
+
+	#Settings for banana_tree_configured
+	[worldGeneration.banana_tree_configured]
+		biomes = ["minecraft:jungle", "byg:crag_gardens", "biomesoplenty:floodplain", "biomesoplenty:rainforest", "byg:tropical_islands", "biomesoplenty:rocky_rainforest", "minecraft:sparse_jungle", "biomesoplenty:fungal_jungle", "byg:tropical_rainforest"]
+
+	#Settings for plum_tree_configured
+	[worldGeneration.plum_tree_configured]
+		biomes = ["biomesoplenty:mediterranean_forest", "biomesoplenty:redwood_forest", "byg:aspen_forest", "byg:autumnal_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:pumpkin_patch", "biomesoplenty:woodland", "minecraft:flower_forest", "byg:orchard", "byg:autumnal_taiga", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_orchard", "byg:jacaranda_forest", "minecraft:forest", "biomesoplenty:seasonal_forest", "byg:red_oak_forest", "minecraft:windswept_forest"]
+
+	#Settings for date_tree_configured
+	[worldGeneration.date_tree_configured]
+		biomes = ["minecraft:jungle", "byg:crag_gardens", "biomesoplenty:floodplain", "biomesoplenty:rainforest", "byg:tropical_islands", "biomesoplenty:rocky_rainforest", "minecraft:sparse_jungle", "biomesoplenty:fungal_jungle", "byg:tropical_rainforest"]
+
+	#Settings for cashew_tree_configured
+	[worldGeneration.cashew_tree_configured]
+		biomes = ["biomesoplenty:highland", "byg:ebony_woods", "byg:dacite_ridges", "byg:twilight_meadow", "byg:weeping_witch_forest", "byg:maple_taiga", "minecraft:dark_forest"]
+
+	#Settings for mango_tree_configured
+	[worldGeneration.mango_tree_configured]
+		biomes = ["minecraft:jungle", "byg:crag_gardens", "biomesoplenty:floodplain", "biomesoplenty:rainforest", "byg:tropical_islands", "biomesoplenty:rocky_rainforest", "minecraft:sparse_jungle", "biomesoplenty:fungal_jungle", "byg:tropical_rainforest"]
+
+	#Settings for coconut_tree_configured
+	[worldGeneration.coconut_tree_configured]
+		biomes = ["minecraft:jungle", "byg:crag_gardens", "biomesoplenty:floodplain", "biomesoplenty:rainforest", "byg:tropical_islands", "biomesoplenty:rocky_rainforest", "minecraft:sparse_jungle", "biomesoplenty:fungal_jungle", "byg:tropical_rainforest"]
+
+	#Settings for apricot_tree_configured
+	[worldGeneration.apricot_tree_configured]
+		biomes = ["biomesoplenty:mediterranean_forest", "biomesoplenty:redwood_forest", "byg:aspen_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:pumpkin_patch", "biomesoplenty:woodland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_orchard", "minecraft:forest", "biomesoplenty:seasonal_forest", "byg:red_oak_forest", "minecraft:windswept_forest"]
+
+	#Settings for nutmeg_tree_configured
+	[worldGeneration.nutmeg_tree_configured]
+		biomes = ["minecraft:jungle", "byg:crag_gardens", "biomesoplenty:floodplain", "biomesoplenty:rainforest", "byg:tropical_islands", "biomesoplenty:rocky_rainforest", "minecraft:sparse_jungle", "biomesoplenty:fungal_jungle", "byg:tropical_rainforest"]
+
+	#Settings for persimmon_tree_configured
+	[worldGeneration.persimmon_tree_configured]
+		biomes = ["biomesoplenty:mediterranean_forest", "biomesoplenty:redwood_forest", "byg:aspen_forest", "byg:autumnal_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:pumpkin_patch", "biomesoplenty:woodland", "minecraft:flower_forest", "byg:orchard", "byg:autumnal_taiga", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_orchard", "byg:jacaranda_forest", "minecraft:forest", "biomesoplenty:seasonal_forest", "byg:red_oak_forest", "minecraft:windswept_forest"]
+
+	#Settings for almond_tree_configured
+	[worldGeneration.almond_tree_configured]
+		biomes = ["biomesoplenty:highland", "byg:ebony_woods", "byg:dacite_ridges", "byg:twilight_meadow", "byg:weeping_witch_forest", "byg:maple_taiga", "minecraft:dark_forest"]
+
+	#Settings for avocado_tree_configured
+	[worldGeneration.avocado_tree_configured]
+		biomes = ["biomesoplenty:mediterranean_forest", "biomesoplenty:redwood_forest", "byg:aspen_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:pumpkin_patch", "biomesoplenty:woodland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_orchard", "minecraft:forest", "biomesoplenty:seasonal_forest", "byg:red_oak_forest", "minecraft:windswept_forest"]
+
+	#Settings for fig_tree_configured
+	[worldGeneration.fig_tree_configured]
+		biomes = ["minecraft:jungle", "byg:crag_gardens", "biomesoplenty:floodplain", "biomesoplenty:rainforest", "byg:tropical_islands", "biomesoplenty:rocky_rainforest", "minecraft:sparse_jungle", "biomesoplenty:fungal_jungle", "byg:tropical_rainforest"]
+
+	#Settings for cinnamon_tree_configured
+	[worldGeneration.cinnamon_tree_configured]
+		biomes = ["biomesoplenty:bayou", "biomesoplenty:floodplain", "biomesoplenty:rainforest", "byg:tropical_islands", "byg:white_mangrove_marshes", "biomesoplenty:rocky_rainforest", "biomesoplenty:fungal_jungle", "byg:tropical_rainforest", "biomesoplenty:marsh", "minecraft:jungle", "byg:crag_gardens", "byg:cypress_swamplands", "minecraft:sparse_jungle", "byg:temperate_rainforest", "biomesoplenty:bog"]
+
+	#Settings for peach_tree_configured
+	[worldGeneration.peach_tree_configured]
+		biomes = ["minecraft:plains", "minecraft:sunflower_plains"]
+
+	#Settings for apple_tree_configured
+	[worldGeneration.apple_tree_configured]
+		biomes = ["biomesoplenty:fir_clearing", "biomesoplenty:maples_woods", "biomesoplenty:tundra", "biomesoplenty:field", "byg:prairie", "byg:coniferous_forest", "minecraft:plains", "minecraft:sunflower_plains", "biomesoplenty:bog"]
+
+	#Settings for pear_tree_configured
+	[worldGeneration.pear_tree_configured]
+		biomes = ["biomesoplenty:mediterranean_forest", "biomesoplenty:redwood_forest", "byg:aspen_forest", "byg:autumnal_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:pumpkin_patch", "biomesoplenty:woodland", "minecraft:flower_forest", "byg:orchard", "byg:autumnal_taiga", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_orchard", "byg:jacaranda_forest", "minecraft:forest", "biomesoplenty:seasonal_forest", "byg:red_oak_forest", "minecraft:windswept_forest"]
+
+	#Settings for grapefruit_tree_configured
+	[worldGeneration.grapefruit_tree_configured]
+		biomes = ["minecraft:jungle", "byg:crag_gardens", "biomesoplenty:floodplain", "biomesoplenty:rainforest", "byg:tropical_islands", "biomesoplenty:rocky_rainforest", "minecraft:sparse_jungle", "biomesoplenty:fungal_jungle", "byg:tropical_rainforest"]
+
+	#Settings for star_fruit_tree_configured
+	[worldGeneration.star_fruit_tree_configured]
+		biomes = ["biomesoplenty:mediterranean_forest", "biomesoplenty:redwood_forest", "byg:aspen_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:pumpkin_patch", "biomesoplenty:woodland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_orchard", "minecraft:forest", "biomesoplenty:seasonal_forest", "byg:red_oak_forest", "minecraft:windswept_forest"]
+
+	#Settings for nectarine_tree_configured
+	[worldGeneration.nectarine_tree_configured]
+		biomes = ["biomesoplenty:mediterranean_forest", "biomesoplenty:redwood_forest", "byg:aspen_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:pumpkin_patch", "biomesoplenty:woodland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_orchard", "minecraft:forest", "biomesoplenty:seasonal_forest", "byg:red_oak_forest", "minecraft:windswept_forest"]
+
+	#Settings for lemon_tree_configured
+	[worldGeneration.lemon_tree_configured]
+		biomes = ["biomesoplenty:mediterranean_forest", "biomesoplenty:redwood_forest", "byg:aspen_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:pumpkin_patch", "biomesoplenty:woodland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_orchard", "minecraft:forest", "biomesoplenty:seasonal_forest", "byg:red_oak_forest", "minecraft:windswept_forest"]
+
+	#Settings for cherry_tree_configured
+	[worldGeneration.cherry_tree_configured]
+		biomes = ["biomesoplenty:mediterranean_forest", "biomesoplenty:redwood_forest", "byg:aspen_forest", "byg:cherry_blossom_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:pumpkin_patch", "biomesoplenty:woodland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_orchard", "minecraft:forest", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:seasonal_forest", "byg:red_oak_forest", "minecraft:windswept_forest"]
+
+	#Settings for lime_tree_configured
+	[worldGeneration.lime_tree_configured]
+		biomes = ["biomesoplenty:mediterranean_forest", "biomesoplenty:redwood_forest", "byg:aspen_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:pumpkin_patch", "biomesoplenty:woodland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:mystic_grove", "biomesoplenty:seasonal_orchard", "minecraft:forest", "biomesoplenty:seasonal_forest", "byg:red_oak_forest", "minecraft:windswept_forest"]
+
+	#Settings for pecan_tree_configured
+	[worldGeneration.pecan_tree_configured]
+		biomes = ["biomesoplenty:highland", "byg:ebony_woods", "byg:dacite_ridges", "byg:twilight_meadow", "byg:weeping_witch_forest", "byg:maple_taiga", "minecraft:dark_forest"]
+
+	#Settings for walnut_tree_configured
+	[worldGeneration.walnut_tree_configured]
+		biomes = ["biomesoplenty:highland", "byg:ebony_woods", "byg:dacite_ridges", "byg:twilight_meadow", "byg:weeping_witch_forest", "byg:maple_taiga", "minecraft:dark_forest"]
+
