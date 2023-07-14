@@ -1,0 +1,77 @@
+
+[recipes]
+	#Stew pot cooking mininum time in ticks
+	#Range: > 1
+	potCookMinTicks = 100
+	#Stew pot mixture mininum time in ticks
+	#Range: > 1
+	potMixMinTicks = 50
+	#Pan frying mininum time in ticks
+	#Range: > 1
+	fryMinTicks = 100
+	#Tick interval between container input check
+	#Range: > 1
+	containTick = 10
+
+[chimney]
+	#How many ticks does a chimney pot needed to make a soot
+	ChimneySootTicks = 80
+	#Interval in ticks for a chimney to check it's validity
+	#Range: > 1
+	ChimneyCheckTicks = 20
+	#Max soot stored in a chimney
+	#Range: 1 ~ 64
+	ChimneySootStorage = 8
+
+[stoves]
+	#How many ticks should the stove pause burning when work is done
+	StovePauseTimer = 100
+	#Stove fuel value multiplier
+	StoveFuelMultiplier = 1.0
+
+[fumarole]
+	#Interval in ticks for a  fumarole vent to generate pumice bloom
+	#Range: > 1
+	FumaroleTicks = 100
+	#Interval in ticks for a fumarole vent to check its heat source
+	#Range: > 1
+	FumaroleCheckTicks = 20
+	#Fumarole heat value, set to 0 to disable fumarole heat.
+	#Range: > 0
+	FumaroleHeat = 1
+
+[hypocast]
+	#Actual expectation of experience per tick is change x exp
+	#How many exp add to bathing play when conditions meet, set 0 to disable
+	#Range: > 0
+	BathExperience = 1
+	#The chance add the exp to player per tick per caliduct block
+	#Range: 0.0 ~ 1.0
+	BathGetExpChance = 0.004999999888241291
+	#Interval for bath heat check
+	#Range: > 1
+	BathHeatTicks = 20
+	#Interval for wolf statue heat check
+	#Range: > 1
+	WolfTicks = 10
+	#Firebox heat conduct radius
+	#Range: > 0
+	FireboxRadius = 4
+	#Strict player in water check, player must be in water to get bonus.
+	StrictInWaterCheck = true
+
+[misc]
+	#Super secret special content
+	specialContents = true
+	#Add manual to player on start
+	addManual = false
+
+[compat]
+
+	[compat.diet]
+		#You would only need to modify this when diet mod installed, otherwist this does not take effect
+		#Benefitial diet value modifier for cooking food into stew
+		benefitialModifier = 1.2
+		#Harmful diet value modifier for cooking food into stew
+		harmfulModifier = 0.8
+
