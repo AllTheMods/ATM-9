@@ -73,7 +73,7 @@
 		# Allows users to change their display name, as well as admins to change nicknames for other users
 		nick: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to announce their recording or streaming status to the server by using commands
