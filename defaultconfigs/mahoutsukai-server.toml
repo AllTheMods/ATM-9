@@ -378,7 +378,7 @@
 		#Power Consolidation Damage Cap Tiers
 		POWER_CONSOLIDATION_TIERS = [100.0, 150.0, 200.0, 250.0, 300.0, 350.0, 400.0, 500.0, 600.0, 700.0, 800.0, 950.0, 1100.0, 1251.0, 1452.0, 1653.0, 1904.0, 2155.0, 2457.0, 2809.0, 3211.0, 3664.0, 4167.0, 4721.0, 5325.0, 6030.0, 6836.0, 7742.0, 8749.0, 9857.0, 11116.0, 12528.0, 14141.0, 15956.0, 17972.0, 20240.0, 22812.0, 25736.0, 29013.0, 32694.0, 36829.0, 41518.0, 46763.0, 52663.0, 59320.0, 66834.0, 75306.0, 84838.0, 95580.0, 107634.0, 121251.0, 136584.0, 153833.0, 173251.0, 195141.0, 219755.0, 247495.0, 278716.0, 313871.0, 353465.0, 398053.0, 448290.0, 504832.0, 568536.0, 640260.0, 721014.0, 811957.0, 914349.0, 1029654.0, 1159535.0, 1305759.0, 1470444.0, 1655911.0, 1864731.0, 2099881.0, 2364689.0, 2662889.0, 2998717.0, 3376864.0, 3802727.0, 4282259.0, 4822269.0, 5000000.0]
 		#Power Consolidation Tier Upgrade Items
-		POWER_CONSOLIDATION_TIER_UPGRADE_ITEM = ["minecraft:nether_star"]
+		POWER_CONSOLIDATION_TIER_UPGRADE_ITEM = ["irons_spellbooks:ender_upgrade_orb"]
 		#Words which are considered unholy by Caliburn and Rhongomyniad
 		UNHOLY_WORDS = ["zomb", "vampir", "demon", "devil", "skele", "lich", "evil", "curse", "undead", "wither"]
 
@@ -456,7 +456,7 @@
 
 	[projection."morgan and caliburn"]
 		#List of allowed pets that can be killed with Caliburn to create Morgan
-		MORGAN_TRANSFORM_ENTITY_WHITELIST = ["minecraft:wolf"]
+		MORGAN_TRANSFORM_ENTITY_WHITELIST = ["minecraft:warden"]
 		#All pet wolves are allowed for transformation to Morgan
 		MORGAN_TRANSFORM_WOLFS_ALLOWED = true
 		#How much damage Morgan gains from killing children
