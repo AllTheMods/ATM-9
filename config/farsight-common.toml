@@ -1,0 +1,6 @@
+
+["Config category"]
+	#The distance at which chunks are kept in memory, regardless of whether the server unloads them. default = 32, maximum = 512
+	#Range: 8 ~ 512
+	maxchunkdist = 20
+
