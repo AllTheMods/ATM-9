@@ -69,6 +69,10 @@ recipes:
   # Default: false
   removeVanillaBlockRecipes: false
 
+  # Whether to remove Vanilla TNT Recipe from the Crafting Table.
+  # Default: true
+  removeVanillaTNTRecipe: true
+
 worldgen:
   # Should all Stone Types drop unique Ore Item Blocks?
   # Default: false (meaning only Stone, Netherrack, and Endstone)
@@ -84,9 +88,28 @@ worldgen:
   # Default: 3
   oreVeinScanRadius: 3
 
+  # Maximum worldgen feature size in chunks
+  # if a vein is larger than this, Minecraft complains in logs.
+  # If that happens, either increase this or make your veins smaller.
+  # NOTE: Larger veins can cause noticeable worldgen lag!
+  # Default: 2
+  maxFeatureChunkSize: 2
+
   # Debug ore vein placement? (will print placed veins to server's debug.log)
   # Default: false (no placement printout in debug.log)
   debugWorldgen: false
+
+  # Rubber Tree spawn chance (% per chunk)
+  # Default: 0.5
+  rubberTreeSpawnChance: 0.5
+
+  # Prevents regular vanilla ores from being generated outside GregTech ore veins
+  # Default: true
+  removeVanillaOreGen: false
+
+  # Prevents vanilla's large ore veins from being generated
+  # Default: true
+  removeVanillaLargeOreVeins: false
 
 machines:
   # Whether insufficient energy supply should reset Machine recipe progress to zero.
