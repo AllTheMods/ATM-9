@@ -71,7 +71,7 @@ recipes:
 
   # Whether to remove Vanilla TNT Recipe from the Crafting Table.
   # Default: true
-  removeVanillaTNTRecipe: true
+  removeVanillaTNTRecipe: false
 
 worldgen:
   # Should all Stone Types drop unique Ore Item Blocks?
