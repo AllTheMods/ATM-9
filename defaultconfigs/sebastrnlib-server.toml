@@ -1,0 +1,4 @@
+#Set this to true to disable sending the thank you message that SebastrnLib shows when a player joins.
+#Note, that this stops showing the message for every player, even those that want to see them.
+disable_thanks_message = true
+
