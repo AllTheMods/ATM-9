@@ -1,0 +1,37 @@
+
+[Visuals]
+	#
+	# Should blue skies override the title screen panorama.
+	# Default: true
+	custom_panorama = false
+	#
+	# Whether or not brightness should be capped when inside the dimensions for aesthetic purposes.
+	# Default: true
+	limit_brightness = true
+
+["Inventory Tabs"]
+	#
+	# If set to true, inventory tabs will use simple buttons that can be placed anywhere on the screen.
+	# Default: false
+	use_simple_inventory_tabs = false
+
+	["Inventory Tabs"."Sliding Tabs"]
+		#
+		# If set to true, inventory tabs appear on the bottom left corner instead of the bottom right.
+		# Default: false
+		left_align = true
+
+	["Inventory Tabs".Buttons]
+		#
+		# The x position of the inventory tabs.
+		# Default: -88
+		x = -88
+		#
+		# The y position of the inventory tabs.
+		# Default: -83
+		y = -83
+		#
+		# If set to true, inventory tabs are sorted vertically. If set to false, they are sorted horizontally.
+		# Default: false
+		is_vertical = false
+
