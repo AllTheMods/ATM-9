@@ -1,0 +1,24 @@
+{
+	// Whether the Sculk Jaw can eat items or not (eating an item will cause it to disappear forever)
+	"sculk_jaw_eats_items": false,
+	"warden_armor": {
+		"warden_armor_toughness": 3.0,
+		"warden_armor_durability": 45,
+		"warden_armor_knockback_resistance": 0.5,
+		// How much strength/armor you get from the Soul Elytra
+		"soul_elytra_armor_modifier": 4.0,
+	},
+	"warden_tools": {
+		"warden_tools_durability": 2464,
+		"warden_tools_damage": 7.0,
+		"warden_tools_speed": 11.0,
+	},
+	"otherside": {
+		"sculk_centipede_spawning": true,
+		// Whether Sculk Blocks can spawn in the Otherside or not (Sculk Sensor, Sculk Vein, and Sculk Catalyst)
+		"sculk_blocks_in_otherside": true,
+		"phantom_spawning": true,
+		"sculk_snapper_spawning": false,
+		"shattered_spawning": true,
+	},
+}
