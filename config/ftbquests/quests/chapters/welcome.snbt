@@ -27,7 +27,7 @@
 			image: "atm:textures/questpics/welcome/whatthedrunkcharacter.png"
 			rotation: 0.0d
 			width: 3.75d
-			x: 0.0d
+			x: -2.5d
 			y: 5.0d
 		}
 		{
@@ -39,7 +39,7 @@
 			image: "atm:textures/questpics/welcome/enigmacharacter.png"
 			rotation: 0.0d
 			width: 3.75d
-			x: 5.0d
+			x: 2.5d
 			y: 5.0d
 		}
 		{
@@ -51,7 +51,7 @@
 			image: "atm:textures/questpics/welcome/thevortexcharacter.png"
 			rotation: 0.0d
 			width: 3.75d
-			x: 10.0d
+			x: 7.5d
 			y: 5.0d
 		}
 		{
@@ -63,7 +63,7 @@
 			image: "atm:textures/questpics/welcome/alfredcharacter.png"
 			rotation: 0.0d
 			width: 3.75d
-			x: 15.0d
+			x: 12.5d
 			y: 5.0d
 		}
 		{
@@ -75,19 +75,7 @@
 			image: "atm:textures/questpics/welcome/mitchell52character.png"
 			rotation: 0.0d
 			width: 3.75d
-			x: -5.0d
-			y: 5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 5.0d
-			hover: ["oly2o6"]
-			image: "atm:textures/questpics/welcome/oly206character.png"
-			rotation: 0.0d
-			width: 3.75d
-			x: -15.0d
+			x: -7.5d
 			y: 5.0d
 		}
 		{
@@ -99,7 +87,7 @@
 			image: "atm:textures/questpics/welcome/mutantgumdrop.png"
 			rotation: 0.0d
 			width: 3.75d
-			x: -10.0d
+			x: -12.5d
 			y: 5.0d
 		}
 		{
@@ -111,7 +99,7 @@
 			image: "atm:textures/questpics/welcome/signs/alfredgg_name.png"
 			rotation: 0.0d
 			width: 3.396039603960396d
-			x: 15.0d
+			x: 12.5d
 			y: 8.13d
 		}
 		{
@@ -123,7 +111,7 @@
 			image: "atm:textures/questpics/welcome/signs/thevortex_name.png"
 			rotation: 0.0d
 			width: 4.048543689320389d
-			x: 10.0d
+			x: 7.5d
 			y: 8.15d
 		}
 		{
@@ -135,7 +123,7 @@
 			image: "atm:textures/questpics/welcome/signs/mutant_name.png"
 			rotation: 0.0d
 			width: 5.515873015873016d
-			x: -10.0d
+			x: -12.5d
 			y: 8.26d
 		}
 		{
@@ -147,7 +135,7 @@
 			image: "atm:textures/questpics/welcome/signs/enigma_name.png"
 			rotation: 0.0d
 			width: 3.8412698412698414d
-			x: 5.0d
+			x: 2.5d
 			y: 8.29d
 		}
 		{
@@ -159,20 +147,8 @@
 			image: "atm:textures/questpics/welcome/signs/mitchell52_name.png"
 			rotation: 0.0d
 			width: 4.048543689320389d
-			x: -5.0d
+			x: -7.5d
 			y: 8.15d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.2d
-			hover: [ ]
-			image: "atm:textures/questpics/welcome/signs/oly2o6.png"
-			rotation: 0.0d
-			width: 2.457142857142857d
-			x: -15.0d
-			y: 8.27d
 		}
 		{
 			click: ""
@@ -183,7 +159,7 @@
 			image: "atm:textures/questpics/welcome/signs/whatthedrunk.png"
 			rotation: 0.0d
 			width: 5.601941747572815d
-			x: 0.0d
+			x: -2.5d
 			y: 8.15d
 		}
 		{
@@ -195,7 +171,7 @@
 			image: "atm:textures/questpics/welcome/signs/name_bar.png"
 			order: -1
 			rotation: 0.0d
-			width: 42.0d
+			width: 38.0d
 			x: 0.0d
 			y: 8.15d
 		}
@@ -209,7 +185,7 @@
 			order: -3
 			rotation: 0.0d
 			width: 4.0d
-			x: -5.0d
+			x: -7.5d
 			y: 5.0d
 		}
 		{
@@ -222,7 +198,7 @@
 			order: -3
 			rotation: 0.0d
 			width: 4.0d
-			x: -10.0d
+			x: -12.5d
 			y: 5.0d
 		}
 		{
@@ -235,7 +211,7 @@
 			order: -3
 			rotation: 0.0d
 			width: 4.0d
-			x: -15.0d
+			x: -2.5d
 			y: 5.0d
 		}
 		{
@@ -248,7 +224,7 @@
 			order: -3
 			rotation: 0.0d
 			width: 4.0d
-			x: 0.0d
+			x: 2.5d
 			y: 5.0d
 		}
 		{
@@ -261,7 +237,7 @@
 			order: -3
 			rotation: 0.0d
 			width: 4.0d
-			x: 5.0d
+			x: 7.5d
 			y: 5.0d
 		}
 		{
@@ -274,20 +250,7 @@
 			order: -3
 			rotation: 0.0d
 			width: 4.0d
-			x: 10.0d
-			y: 5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 6.0d
-			hover: [ ]
-			image: "ftbquests:textures/block/base_input.png"
-			order: -3
-			rotation: 0.0d
-			width: 4.0d
-			x: 15.0d
+			x: 12.5d
 			y: 5.0d
 		}
 		{
