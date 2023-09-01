@@ -2500,8 +2500,8 @@
 				type: "item"
 			}]
 			title: "Bronze Bees"
-			x: 2.0d
-			y: 13.0d
+			x: 1.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -3128,86 +3128,6 @@
 			title: "Rancher Bee"
 			x: 3.0d
 			y: 14.5d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			icon: "mekanism:ingot_refined_glowstone"
-			id: "15FCC8DA717BE348"
-			rewards: [{
-				id: "4AD432198ECFE2D9"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Osmium + Glowing"
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:refined_glowstone"
-						}
-					}
-				}
-				id: "636EAE7DCFA8D007"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:refined_glowstone"
-							}
-						}
-					}
-				}
-				title: "Refined Glowstone Comb"
-				type: "item"
-			}]
-			title: "Refined Glowstone Bee"
-			x: 0.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			icon: "mekanism:ingot_refined_obsidian"
-			id: "229B12FD9C537D9B"
-			rewards: [{
-				id: "49A9C8E6C948F13E"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Osmium + Obsidian"
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:refined_obsidian"
-						}
-					}
-				}
-				id: "4AF72F021060F09C"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:refined_obsidian"
-							}
-						}
-					}
-				}
-				title: "Refined Obsidian Comb"
-				type: "item"
-			}]
-			title: "Refined Obsidian Bee"
-			x: 1.0d
-			y: 13.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
