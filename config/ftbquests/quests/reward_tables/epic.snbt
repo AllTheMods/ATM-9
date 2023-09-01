@@ -1,0 +1,81 @@
+{
+	icon: "lootr:lootr_chest"
+	id: "617F6D802ED0FD00"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_3", weight: 3.0f }
+		{ item: "powah:thermo_generator_niotic" }
+		{ item: "powah:thermo_generator_spirited" }
+		{ item: "tempad:he_who_remains_tempad" }
+		{ item: "functionalstorage:netherite_upgrade", weight: 2.0f }
+		{ item: "quarryplus:quarry" }
+		{ item: "pipez:ultimate_upgrade", random_bonus: 2, weight: 2.0f }
+		{ item: "ironfurnaces:netherite_furnace" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "potionsmaster:allthemodium_sight"
+				}
+			}
+		}
+		{ item: "ironfurnaces:emerald_furnace" }
+		{ item: "artifacts:eternal_steak" }
+		{ item: "artifacts:superstitious_hat" }
+		{ item: "artifacts:lucky_scarf" }
+		{ item: "apotheosis:sigil_of_socketing" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{ count: 2, item: "apotheosis:epic_material", random_bonus: 4, weight: 3.0f }
+	]
+	title: "&dEpic Reward"
+	use_title: true
+}

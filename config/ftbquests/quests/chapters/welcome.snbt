@@ -1,0 +1,421 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "allthetweaks:atm_star"
+	id: "5B00676D79306EA2"
+	images: [
+		{
+			click: ""
+			corner: true
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "packmenu:textures/gui/logo.png"
+			rotation: 8.0d
+			width: 5.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["whatthedrunk"]
+			image: "atm:textures/questpics/welcome/whatthedrunkcharacter.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["EnigmaQuip"]
+			image: "atm:textures/questpics/welcome/enigmacharacter.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["theVortex"]
+			image: "atm:textures/questpics/welcome/thevortexcharacter.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			click: "https://www.youtube.com/c/alfredggmc"
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["AlfredGG"]
+			image: "atm:textures/questpics/welcome/alfredcharacter.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["mitchell52"]
+			image: "atm:textures/questpics/welcome/mitchell52character.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["MutantGumdrop"]
+			image: "atm:textures/questpics/welcome/mutantgumdrop.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/alfredgg_name.png"
+			rotation: 0.0d
+			width: 3.396039603960396d
+			x: 12.5d
+			y: 8.13d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/thevortex_name.png"
+			rotation: 0.0d
+			width: 4.048543689320389d
+			x: 7.5d
+			y: 8.15d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/mutant_name.png"
+			rotation: 0.0d
+			width: 5.515873015873016d
+			x: -12.5d
+			y: 8.26d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.1d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/enigma_name.png"
+			rotation: 0.0d
+			width: 3.8412698412698414d
+			x: 2.5d
+			y: 8.29d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/mitchell52_name.png"
+			rotation: 0.0d
+			width: 4.048543689320389d
+			x: -7.5d
+			y: 8.15d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/whatthedrunk.png"
+			rotation: 0.0d
+			width: 5.601941747572815d
+			x: -2.5d
+			y: 8.15d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.9083503054989817d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/name_bar.png"
+			order: -1
+			rotation: 0.0d
+			width: 38.0d
+			x: 0.0d
+			y: 8.15d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			click: "https://discord.gg/3paFjuRfz9"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Join the Discord!"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"ATM9 is a kitchensink pack that allows you to explore the world of modded Minecraft in your own way!"
+				""
+				"&lATM9 is currently in the alpha stages of modpack development&r. Mods will be added or removed as they get updated."
+				""
+				"If you have any questions or issues, feel free to join the ATM discord!"
+			]
+			icon: "allthetweaks:atm_star"
+			id: "3BC0A50886A3222B"
+			rewards: [{
+				id: "4956CB79E44FB523"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "5A1784C5676CDC62"
+				title: "Welcome to All The Mods 9!"
+				type: "checkmark"
+			}]
+			title: "&dWelcome to All The Mods 9!"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"In this modpack, Quests are optional. Mods are not gated behind completing any quests!"
+				""
+				"The individual questlines outside of the Main questline are meant to serve as mod guides. If you want to follow the progression, make sure to check out the Main Questline!"
+				""
+				"Most of the quests in the pack are also made by &2AlfredGG&r. Quests are hard work, so if you'd like to support him, you can click on his player image below!"
+			]
+			icon: "ftbquests:book"
+			id: "3708A4780ACEB34E"
+			min_width: 250
+			rewards: [{
+				id: "4A56DF6E0204666C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "52BB142F044075B4"
+				title: "Quests"
+				type: "checkmark"
+			}]
+			title: "Quests"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"There are plenty of helpful commands within ATM. Here are a few:"
+				""
+				"&e/sethome&r (name of home) | Let's you set a home that you can teleport back to using /home (name). Example: /sethome farm - then teleport with /home farm"
+				""
+				"&e/spawn&r | This will teleport you to the spawn of your overworld."
+				""
+				"&e/rtp&r | \"Random Teleport\" will teleport you to a random location in the world."
+				""
+				"Note: These commands have cooldowns and limits. If you'd like to change them, you can edit the config file which can be found here:"
+				""
+				"- For Singleplayer | &osaves/(name of save)/serverconfig/ftbessentials.snbt&r"
+				""
+				"- For Servers | &oworld/serverconfig/ftbessentials.snbt&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/settings.png"
+				}
+			}
+			id: "7658C1C663394E85"
+			min_width: 350
+			rewards: [{
+				id: "5007C73E170C4FF6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "10A16F89D4AD238D"
+				title: "Useful Commands"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"To claim chunks, open up your map using &6M&r, then click the &aClaim Map&r icon in the top left."
+				""
+				"To claim a chunk, left click and drag to claim. "
+				""
+				"To force load a chunk, shift-left click the chunk. If done properly, you'll see lines across the chunk."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/waypoint_home.png"
+				}
+			}
+			id: "0C93D7A607AB8B83"
+			rewards: [{
+				id: "1B044C35466AFAEF"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "103C42C743E2A2DB"
+				title: "Claiming Chunks"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			description: ["If you want to create a team for you and your friends, use the command &a/ftbteams party create (name of team)&r to create the team!"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "5AC1BE754210429E"
+			rewards: [{
+				id: "101D2FD24AB845AC"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4F13A02FB0055A62"
+				title: "Creating a Team"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+	]
+	title: "Welcome"
+}
