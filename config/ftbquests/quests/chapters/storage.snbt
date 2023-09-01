@@ -1,0 +1,1828 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "1AC60211DE7427FC"
+	icon: "minecraft:chest"
+	id: "1DB294A8F8686321"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 5.0d
+		hover: [ ]
+		image: "minecraft:textures/item/chest_minecart.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: 4.5d
+		y: -8.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5E4BC0F59C90433A"]
+			description: ["*Note: To upgrade an already placed vanilla chest to an Iron Sophisticated Chest, you will first need to convert the chest with a \"Basic Tier Upgrade.\""]
+			id: "58514FDE153FD971"
+			rewards: [
+				{
+					id: "56FA5A7CE451E586"
+					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "632C34D1F4CE965A"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "330E21D23165B829"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "A single chest the size of 2."
+			tasks: [{
+				id: "77A9435B6739348E"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["58514FDE153FD971"]
+			id: "3E33730DC2115D26"
+			rewards: [
+				{
+					id: "7BF7AC6177891566"
+					item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "2B0E611FC8E7C52F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B0B6F06B83B6A93"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "A lot more room for activities."
+			tasks: [{
+				id: "0427B441A750316F"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E33730DC2115D26"]
+			id: "4C0BDD483CCB40C4"
+			rewards: [
+				{
+					id: "7634B130CAFA493B"
+					item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "09194C282964BF5A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0415C90C635B77D4"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			subtitle: "A &olot&r more room for activities."
+			tasks: [{
+				id: "00ED02255105A973"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:diamond_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C0BDD483CCB40C4"]
+			description: ["Even MORE slots for storage and upgrades."]
+			id: "77F241BEE9902751"
+			rewards: [
+				{
+					id: "2084D6F08E608125"
+					item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "3E846FD78C055A89"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33035D9E5D284A72"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			subtitle: "So much room for activities!"
+			tasks: [{
+				id: "34B6EB0B801E4743"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:netherite_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["563CFA1EF74E52E9"]
+			description: ["Just like a vanilla chest, but has a slot for a Storage Upgrade!"]
+			id: "5E4BC0F59C90433A"
+			rewards: [
+				{
+					id: "67C504323225DDD8"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "5926ED11CED5896C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2BD2C0D43AE4AB58"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+			]
+			subtitle: "The Starting Chest"
+			tasks: [{
+				id: "5241AA0EF3C2EA94"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "\"Vanilla\" Chest"
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0682DC1F2417DAEB"]
+			description: ["Craft yourself a 1x1 drawer. This item holds a ton of stacks of 1 item."]
+			icon: "functionalstorage:oak_1"
+			id: "2746575C929B6C50"
+			rewards: [
+				{
+					id: "3F6E823825D51DAC"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+				{
+					id: "57814182F5AA0BAB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Stacks on Stacks"
+			tasks: [{
+				id: "79EC3CF180A5A940"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			title: "My First Drawer"
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			dependency_requirement: "one_started"
+			description: [
+				"This item can convert items placed inside to their nugget or block forms."
+				""
+				"For example: An Iron Ingot placed in this will allow you to pull out 9 nuggets, or if more iron is placed in, will covert it to Iron Blocks."
+			]
+			id: "2B422B7E0CE3590D"
+			rewards: [
+				{
+					id: "20DD94A587AC244E"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					id: "7438B1DD5423F325"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Auto-Convert to blocks."
+			tasks: [{
+				id: "4AC0DA5197DEBC7B"
+				item: "functionalstorage:compacting_drawer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			dependency_requirement: "one_started"
+			description: [
+				"When placed and connected with the &aLinking Tool&r to other drawers, this block acts as a \"Hub.\""
+				""
+				"If you double right-click this, all items within the Storage Drawers \"Network\" will be pulled from your inventory."
+			]
+			id: "6FBAE89EE782DABA"
+			rewards: [
+				{
+					count: 2
+					id: "0817D478F3584AB6"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					id: "577872850DA154AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64F4676E4C59322D"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "The Brain of the Drawers."
+			tasks: [{
+				id: "1872E00684ADC839"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Chests that work across dimensions."
+				""
+				"Can be color coded for security! (Right click on the block with the desired dye)."
+				""
+				"*Note: If someone else uses your color combination, they can get the contents!"
+			]
+			hide_dependency_lines: true
+			id: "3247179F0F0252A2"
+			rewards: [
+				{
+					id: "1C3AB68685A3FD62"
+					item: {
+						Count: 1b
+						id: "enderchests:ender_bag"
+						tag: {
+							code: "000"
+							open: 0b
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43FE4B654819B6C4"
+					item: {
+						Count: 1b
+						id: "endertanks:ender_bucket"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28FA25B2F1E211A3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0116B19B3CFFB4DD"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4E5DB7E53717FD3C"
+					item: {
+						Count: 1b
+						id: "enderchests:ender_chest"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "322CF20C9C5FB841"
+					item: {
+						Count: 1b
+						id: "endertanks:ender_tank"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ender Storage"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Welcome to the Basic Storage Chapter!"
+				""
+				"You'll find all of the basic ways to store items without power, as well as useful items for your storage needs!"
+			]
+			hide_dependency_lines: false
+			id: "5A94A2664BFDD7B9"
+			rewards: [{
+				id: "570FFAC4E65BBF46"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3E7F26D68D9A166B"
+				title: "Storage"
+				type: "checkmark"
+			}]
+			title: "Basic Storage"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["A way to destroy unwanted items, liquid, and power."]
+			hide_dependency_lines: true
+			id: "17DC77F7F8C68AE6"
+			rewards: [
+				{
+					id: "69AE6A259BD33878"
+					item: "trashcans:ultimate_trash_can"
+					type: "item"
+				}
+				{
+					id: "5828D3729B49DFEC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Getting Rid of The Excess"
+			tasks: [
+				{
+					id: "7F4087A08A6F82AC"
+					item: "trashcans:item_trash_can"
+					type: "item"
+				}
+				{
+					id: "6E37055D317DBBA9"
+					item: "trashcans:liquid_trash_can"
+					type: "item"
+				}
+				{
+					id: "736FE7C0E7C491E7"
+					item: "trashcans:energy_trash_can"
+					type: "item"
+				}
+			]
+			title: "Trash Cans"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "3D5852E6D0ADF651"
+			rewards: [
+				{
+					count: 4
+					id: "685834F0A29F6B78"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "36EA7EC9235E0AEA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BD9855705A23AEE"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "61F1446D2A460827"
+					item: "dimstorage:dimensional_chest"
+					type: "item"
+				}
+				{
+					id: "17FE9F196E4C6B44"
+					item: "dimstorage:dimensional_tank"
+					type: "item"
+				}
+			]
+			title: "Dimensional Storage"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			description: [
+				"Using a &aLinking Tool&r, you can link 2 Ender Drawers to sync up the contents."
+				""
+				"This works just like an Ender Chest, but for Drawers."
+				""
+				"To link, Right click the first Ender Drawer with the &aLinking Tool&r, then left click the second Ender Drawer to sync."
+			]
+			id: "1A4B1CA7EC15348E"
+			rewards: [
+				{
+					id: "0EEC38A1667399E0"
+					item: "functionalstorage:gold_upgrade"
+					type: "item"
+				}
+				{
+					id: "6F4D2071EA7C3055"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17243362CFFD8E23"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Dimensional Drawer.... if you will."
+			tasks: [{
+				id: "38E95D826B04DC4F"
+				item: "functionalstorage:ender_drawer"
+				type: "item"
+			}]
+			title: "Ender Drawers!"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Functional Storage is a mod for storing stacks of the same items."
+				""
+				"This is useful for items like Cobblestone, Dirt, etc."
+			]
+			icon: "functionalstorage:storage_controller"
+			id: "0682DC1F2417DAEB"
+			rewards: [{
+				id: "6E8586BE04F26897"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Storage Drawers Distant Relative"
+			tasks: [{
+				id: "4B299AC7F0233132"
+				title: "Storage Drawers"
+				type: "checkmark"
+			}]
+			title: "Functional Storage"
+			x: -11.25d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Sophisticated Chests allows you to upgrade your chests with metals to increase storage! You can also add upgrade filters to increase the functionality of the chest."
+				""
+				"No more vanilla double-chest rooms!"
+			]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:iron_chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "563CFA1EF74E52E9"
+			rewards: [{
+				id: "58CC2C987D56D7F8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Upgradable Chests!"
+			tasks: [{
+				id: "034F49638F207523"
+				title: "Iron Chests"
+				type: "checkmark"
+			}]
+			title: "Sophisticated Storage"
+			x: -11.25d
+			y: -1.5d
+		}
+		{
+			description: ["Sophisticated Backpacks offer upgradable backpacks that can also use filters to add nifty features!"]
+			id: "6A2B2C5E2ADCE366"
+			rewards: [{
+				id: "1B303584800CE582"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Sophisticated Backpacks"
+			tasks: [{
+				id: "213B187A9625C1C7"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -11.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A2B2C5E2ADCE366"]
+			id: "0E057B7F76401421"
+			rewards: [
+				{
+					count: 4
+					id: "5AE4783A5679A0EC"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "228B88E9317CB137"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5525286901EED45A"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "The First Upgrade"
+			tasks: [{
+				id: "256F1CCC79CEB2D5"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A2B2C5E2ADCE366"]
+			description: ["You will need these to make backpack filter upgrades."]
+			id: "1FE052F643401232"
+			rewards: [
+				{
+					count: 2
+					id: "5B9CB28C6BC4759D"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "4B2F25D7E70DD87F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "The Base for Backpack Filters"
+			tasks: [{
+				id: "6DDC631193C9A496"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0E0CAA31480EC0A1"
+			optional: true
+			rewards: [{
+				id: "7ADBF209091E5821"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			subtitle: "Allows the backpack to pickup items."
+			tasks: [{
+				id: "0789D160EF625FF5"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0E0CAA31480EC0A1"]
+			hide: true
+			id: "1985CFD1F0425E88"
+			optional: true
+			rewards: [{
+				id: "648AD42B15591F72"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "More Filtering Options"
+			tasks: [{
+				id: "666C188829301BE0"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "156FF8B7B724DC38"
+			optional: true
+			rewards: [{
+				id: "39BE377911DC6C3A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Adds a filter for items being pumped in or out of the backpack."
+			tasks: [{
+				id: "4DFC097C1EF485B3"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["156FF8B7B724DC38"]
+			hide: true
+			id: "57CF8C6C867B9BDA"
+			optional: true
+			rewards: [{
+				id: "3522A1F2B552FF21"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6530A152D9337A4C"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "110D27EA86CDA62B"
+			optional: true
+			rewards: [{
+				id: "3DAE7B9BA91F8520"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Magnets items into the backpack."
+			tasks: [{
+				id: "696764AB781624BD"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["110D27EA86CDA62B"]
+			hide: true
+			id: "11D57C768032E3F7"
+			optional: true
+			rewards: [{
+				id: "2B3FB31DDDCD1F45"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "14A8CEB60805E90A"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "5FA9BC0D8476D322"
+			optional: true
+			rewards: [{
+				id: "3AAACB23C7CE64C0"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Auto-feed with food in the backpack."
+			tasks: [{
+				id: "5D185C4E74A8717D"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5FA9BC0D8476D322"]
+			hide: true
+			id: "1A739D36D5E3B1AD"
+			optional: true
+			rewards: [{
+				id: "0B71DCC81A95305B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "41C87FC409006F13"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "1CD2C6AFD788C35E"
+			optional: true
+			rewards: [{
+				id: "4B5E3828A7FEE102"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Compacts items in the backpack to their 2x2 recipe. "
+			tasks: [{
+				id: "0F54AF81A481180B"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1CD2C6AFD788C35E"]
+			hide: true
+			id: "5E4FE420B6D2C97F"
+			optional: true
+			rewards: [{
+				id: "18BDC6FD268F1347"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Compacts items in the backpack to their 3x3 recipe. "
+			tasks: [{
+				id: "7CA41563003856B2"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7EFBFF5D0DA018E7"
+			optional: true
+			rewards: [{
+				id: "6A1B0E04AAE2BFF2"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Adds a filter for items you want to auto-delete in the backpack."
+			tasks: [{
+				id: "04491E89A571B16F"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7EFBFF5D0DA018E7"]
+			hide: true
+			id: "2FC15D3916DBF4E4"
+			optional: true
+			rewards: [{
+				id: "5989427C93E9266D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3A29FF1C2AD59B06"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			description: ["Adds a filter that allows you to tell the backpack which items it should keep stocked. Shift-Right Clicking an inventory will refill it."]
+			hide: true
+			hide_dependency_lines: true
+			id: "4B62AF0405F68041"
+			optional: true
+			rewards: [{
+				id: "4C3EB57AC444EC11"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Stocking Up"
+			tasks: [{
+				id: "2F5D0ABEF5F4EDEF"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4B62AF0405F68041"]
+			hide: true
+			id: "019CA0E35F888222"
+			optional: true
+			rewards: [{
+				id: "4F4574E228792C80"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "45492321B5D5A2D6"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			description: ["Shift-Right Click an inventory to empty."]
+			hide: true
+			hide_dependency_lines: true
+			id: "00DB5495C3A44999"
+			optional: true
+			rewards: [{
+				id: "573C3AE6F966E820"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Allows the backpack to be emptied."
+			tasks: [{
+				id: "68CED4583435FE43"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00DB5495C3A44999"]
+			hide: true
+			id: "4C0EAB9F795686D0"
+			optional: true
+			rewards: [{
+				id: "27CA65D1E2EEDA8A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3D7F2E1489EB84AA"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "33882172DA8021F6"
+			optional: true
+			rewards: [{
+				id: "773BA104B1822DAF"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Keeps the player's inventory stacked up from items in the backpack."
+			tasks: [{
+				id: "5F6536142CDA403C"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			description: [
+				"So we got a backpack upgrade to put your backpack in your backpack."
+				""
+				"So you can have your backpack in your backpack when you need your backpack in your backpack."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "7C07D6A33F7ADB02"
+			optional: true
+			rewards: [{
+				id: "251C508792472ABB"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "I heard you like backpacks in your backpacks."
+			tasks: [{
+				id: "4F04DC4226148B47"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "037415D5B965E214"
+			optional: true
+			rewards: [{
+				id: "16FFA5DD686C0084"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "The Backpack Cannot Die."
+			tasks: [{
+				id: "50348CD6A080A1D1"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "668C313FF46B6005"
+			optional: true
+			rewards: [{
+				id: "621E7721DC1187BF"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Adds a Smelting Tab to Backpack"
+			tasks: [{
+				id: "10C7C3214FFC012D"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["668C313FF46B6005"]
+			hide: true
+			id: "3A1D07AED2A841E4"
+			optional: true
+			rewards: [{
+				id: "278BE67D7B2DA41A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Auto-smelt items in the backpack."
+			tasks: [{
+				id: "4F90A434D3719DCB"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "26A9F402DAE15EA2"
+			optional: true
+			rewards: [{
+				id: "0F7536B588E4582A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Adds a smoker GUI to the backpack."
+			tasks: [{
+				id: "1ABC352A4A4313E5"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["26A9F402DAE15EA2"]
+			hide: true
+			id: "36BCE35215B2B6E9"
+			optional: true
+			rewards: [{
+				id: "3DA8FC30D52E42AE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4D0ACCBF77CC0846"
+				item: "sophisticatedbackpacks:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "1E499F94A2A193E1"
+			optional: true
+			rewards: [{
+				id: "003DF784F0E1EDE6"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Adds a blasting GUI to the backpack."
+			tasks: [{
+				id: "677DA84F4B304778"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1E499F94A2A193E1"]
+			hide: true
+			id: "26988E22BD019628"
+			optional: true
+			rewards: [{
+				id: "568084E6EBB1ABD0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "62BCE2BB281304DC"
+				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4A854CD5EC70733E"
+			optional: true
+			rewards: [{
+				id: "76DEF2900448AD2B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Adds a Crafting Table GUI to the backpack."
+			tasks: [{
+				id: "47BADC501A4E2AD7"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "52672B7FFFD51D16"
+			optional: true
+			rewards: [{
+				id: "641D01DBE66A27DF"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Adds a Stonecutting GUI to the backpack."
+			tasks: [{
+				id: "3BA31C5CD5C35ED5"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7E9E03274A88347D"
+			optional: true
+			rewards: [
+				{
+					id: "442C444707D2AD35"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7153DF647EE23793"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "Increases stack size in the backpack."
+			tasks: [{
+				id: "7E22C7FB2F953E70"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E9E03274A88347D"]
+			hide: false
+			id: "785951190FFDAA21"
+			optional: true
+			rewards: [
+				{
+					id: "246B4B8ABB20D8A7"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "667C0645CB59356D"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "15A92DA8E1A9106F"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["785951190FFDAA21"]
+			hide: false
+			id: "0298A17C2AAC5765"
+			optional: true
+			rewards: [
+				{
+					id: "5C6FA0134C10A5D6"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "248041164657FF8C"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "161AF6650325FA0A"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0298A17C2AAC5765"]
+			hide: false
+			id: "7AE3C8134F5ED726"
+			optional: true
+			rewards: [
+				{
+					id: "2E76A37774F0CEC5"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BF97F31AE8AE8FB"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36BEE5EDBA6FAF76"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "53F861876B991C36"
+			optional: true
+			rewards: [{
+				id: "3285596442FF6447"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Now we're jammin"
+			tasks: [{
+				id: "18F8BF7CC5B3126D"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "615B9062FE8CCD36"
+			optional: true
+			rewards: [{
+				id: "54802B4F6EE4412E"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Auto-Swap to the tool that is most effective for the block you are looking at."
+			tasks: [{
+				id: "24165D460DCC2212"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["615B9062FE8CCD36"]
+			hide: true
+			id: "15CD4BFDC56E9510"
+			optional: true
+			rewards: [{
+				id: "3198E65D369D203C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "700D630FE0FB8B9D"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0D4C64DD58567758"
+			optional: true
+			rewards: [{
+				id: "198BF862B3BF5ABA"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Adds a tank to the backpack."
+			tasks: [{
+				id: "6CA01A42CC183F87"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4C2A60FC1F1E0328"
+			optional: true
+			rewards: [{
+				id: "18E06C1A7BC76A3F"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Adds a battery to the backpack."
+			tasks: [{
+				id: "056ECFB6B80F6A37"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6E9041744C592573"
+			optional: true
+			rewards: [{
+				id: "2E57D243960C9A86"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Adds the ability to pump liquids from the tank upgrade."
+			tasks: [{
+				id: "0B9FAD684B03985A"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E9041744C592573"]
+			hide: true
+			id: "56B80A7EBFE21428"
+			optional: true
+			rewards: [{
+				id: "23887038DAC8A6EB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5B7A8E1F725C2815"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["56B80A7EBFE21428"]
+			hide: true
+			id: "6E3D53D1C4569A89"
+			optional: true
+			rewards: [{
+				id: "67BA8A35E56EB3F0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3B52B2670A826CE4"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E057B7F76401421"]
+			id: "2F9B0C642A6BE30C"
+			rewards: [
+				{
+					id: "588A8E368C4561A4"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "3895B4A009120165"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "158BE322A99DAC18"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7E9C8C24DD11EE7F"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F9B0C642A6BE30C"]
+			id: "45268A619787288F"
+			rewards: [
+				{
+					id: "1CD2A81868C15FC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2E794D147447A3E2"
+					item: "minecraft:diamond"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1821E984D977524B"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "040F32155AD31A4C"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["45268A619787288F"]
+			id: "67704F7341EDCC49"
+			optional: true
+			rewards: [
+				{
+					id: "06D60CD6970140F7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "0E9C01BFE4BB86F2"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "7214DB9CCE3BF452"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "040F46810BB6C345"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "62B16ED18AAB714F"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2746575C929B6C50"]
+			description: [
+				"Used to link Drawers to a controller and to link up Ender Drawers."
+				""
+				"To link Drawers to the Controller, right click the Controller block to start configuration. Right clicking Drawers will add them to the network."
+				""
+				"Holding the tool will show you what Drawers are connected to the Controller."
+			]
+			id: "072FBEB0F6F1BC48"
+			rewards: [
+				{
+					id: "7524181E415A05BB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3625DED76F225AAE"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "62C6F14FE6A82305"
+				item: {
+					Count: 1b
+					id: "functionalstorage:linking_tool"
+					tag: {
+						Action: "ADD"
+						Mode: "SINGLE"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2746575C929B6C50"]
+			id: "485D5664A17E16DF"
+			rewards: [
+				{
+					id: "389E00F11BC30473"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "367143472E975AC8"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6217BA32207183D1"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "x8 Storage Upgrade"
+			tasks: [{
+				id: "2F64FAD1FD2D3BAA"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["485D5664A17E16DF"]
+			id: "3B570B3DB5F6D2CB"
+			rewards: [
+				{
+					id: "419CCB3888465495"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "2DD72079356465CE"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CEB38F19FD621C4"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "x16 Storage Upgrade"
+			tasks: [{
+				id: "25677521E16A9A63"
+				item: "functionalstorage:gold_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3B570B3DB5F6D2CB"]
+			id: "1B72E95569B07E18"
+			rewards: [
+				{
+					id: "7DDEB81C6D62844E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "349616860CC71998"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66529711E25F3DB7"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "x24 Storage Upgrade"
+			tasks: [{
+				id: "5F8923D392E224BB"
+				item: "functionalstorage:diamond_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1B72E95569B07E18"]
+			id: "0E5AE195158CF344"
+			rewards: [
+				{
+					id: "36853439572CA76B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FC4E884680BC919"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D7ABAF9FA2AD2A9"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "x32 Storage Upgrade"
+			tasks: [{
+				id: "1E992354ECC75B6D"
+				item: "functionalstorage:netherite_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["563CFA1EF74E52E9"]
+			description: [
+				"To save you from having this &oentire quest section&r covered with filter upgrades, take a look at the Sophisticated Backpack upgrades."
+				""
+				"You'll need to make the Sophisticated Storage equivalent, but they function about the same."
+			]
+			id: "4007DFA7CC3A5FF2"
+			rewards: [
+				{
+					count: 2
+					id: "573A85406505C80F"
+					item: "sophisticatedstorage:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "34E6939A2878A929"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Utility for Chests"
+			tasks: [{
+				id: "57E17CFF237DB302"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			title: "Upgrade Base"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			description: [
+				"The Configuration Tool is used to lock drawers for them to remember the item it has inside."
+				""
+				"This is useful whenever you set up a system to pull and push from drawers. The locked drawer will not replace the item that was locked on it!"
+			]
+			id: "508A8366219175FE"
+			rewards: [
+				{
+					id: "2E141DF65F0D3931"
+					item: "functionalstorage:gold_upgrade"
+					type: "item"
+				}
+				{
+					id: "6A90B5A53F3FC368"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2F275302DA90D4E4"
+				item: {
+					Count: 1b
+					id: "functionalstorage:configuration_tool"
+					tag: {
+						Mode: "LOCKING"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Looking to create virtual storage using &9Refined Storage&r or &9Applied Energistics 2&r?"
+				""
+				"These are both great ways to upgrade your storage, but it is important to talk about &eNBT Items&r and the best way to store them."
+				""
+				"NBT items are items with extra tags attached to them. Enchanted items, items with durability, Apotheosis gems... these are all items with NBT tags attached to them. Because of this, they don't usually stack."
+				""
+				"When you store a lot of these into a storage system like RS or AE2, you run the chance of creating issues for your save or server."
+				""
+				"Because of this, it is best to store them in chests or bags!"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "7EF57BBEAA4B6B08"
+			min_width: 300
+			rewards: [
+				{
+					id: "709280A79BC54D7E"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "495C45D51AEDF931"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F1C07541B66F171"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "21FBC4E0F668347C"
+				title: "NBT and YOU!"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+	]
+	title: "Basic Storage"
+}
