@@ -8,106 +8,127 @@
 	quest_links: [ ]
 	quests: [
 		{
+			disable_toast: true
 			id: "67C9D2712EA1F637"
 			tasks: [{
 				id: "0FC66405B9208574"
 				item: "gtceu:ulv_machine_hull"
 				type: "item"
 			}]
+			title: "ULV Tier"
 			x: -4.0d
 			y: -7.5d
 		}
 		{
+			disable_toast: true
 			id: "35A014F1B4506CCA"
 			tasks: [{
 				id: "00578428C2997F33"
 				item: "gtceu:lv_machine_hull"
 				type: "item"
 			}]
+			title: "LV Tier"
 			x: -3.0d
 			y: -7.5d
 		}
 		{
+			disable_toast: true
 			id: "68B46D9369D9809B"
 			tasks: [{
 				id: "05A3B1FD9924D4F1"
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
+			title: "MV Tier"
 			x: -2.0d
 			y: -7.5d
 		}
 		{
+			disable_toast: true
 			id: "288DFEBCEFC6EEC6"
 			tasks: [{
 				id: "25FD45A2C8EF9157"
 				item: "gtceu:hv_machine_hull"
 				type: "item"
 			}]
+			title: "HV Tier"
 			x: -1.0d
 			y: -7.5d
 		}
 		{
+			disable_toast: true
 			id: "423B9571668C3953"
 			tasks: [{
 				id: "0A3DCB4AD3723536"
 				item: "gtceu:ev_machine_hull"
 				type: "item"
 			}]
+			title: "EV Tier"
 			x: 0.0d
 			y: -7.5d
 		}
 		{
+			disable_toast: true
 			id: "44454B2637069C9F"
 			tasks: [{
 				id: "61F5E8CF3007D7DF"
 				item: "gtceu:iv_machine_hull"
 				type: "item"
 			}]
+			title: "IV Tier"
 			x: 1.0d
 			y: -7.5d
 		}
 		{
+			disable_toast: true
 			id: "19B70E2F329AED83"
 			tasks: [{
 				id: "677F6463BA3B1C57"
 				item: "gtceu:luv_machine_hull"
 				type: "item"
 			}]
+			title: "LuV Tier"
 			x: 2.0d
 			y: -7.5d
 		}
 		{
+			disable_toast: true
 			id: "204D670BDAB0496A"
 			tasks: [{
 				id: "7F2217B9D3E2FB96"
 				item: "gtceu:zpm_machine_hull"
 				type: "item"
 			}]
+			title: "ZPM Tier"
 			x: 3.0d
 			y: -7.5d
 		}
 		{
+			disable_toast: true
 			id: "1828A4A9FE5EE87F"
 			tasks: [{
 				id: "351D916C6D504942"
 				item: "gtceu:uv_machine_hull"
 				type: "item"
 			}]
+			title: "UV Tier"
 			x: 4.0d
 			y: -7.5d
 		}
 		{
+			disable_toast: true
 			id: "7E8C36302FDD93C8"
 			tasks: [{
 				id: "69AE710C299A7754"
 				item: "gtceu:uhv_machine_hull"
 				type: "item"
 			}]
+			title: "UHV Tier"
 			x: 5.0d
 			y: -7.5d
 		}
 		{
+			disable_toast: true
 			id: "370457654E99F06E"
 			tasks: [{
 				id: "266D346A7661240C"
@@ -129,6 +150,7 @@
 		}
 		{
 			dependencies: ["370457654E99F06E"]
+			disable_toast: true
 			id: "43FF6706DA734CCB"
 			tasks: [{
 				id: "43E7B13CC7CF2D55"
@@ -140,6 +162,7 @@
 		}
 		{
 			dependencies: ["43FF6706DA734CCB"]
+			disable_toast: true
 			id: "74841E82E82522BC"
 			tasks: [{
 				id: "1610E0BD144606B9"
@@ -150,6 +173,7 @@
 			y: -5.5d
 		}
 		{
+			disable_toast: true
 			id: "237F09283F60E319"
 			tasks: [{
 				id: "18E6C0E2F1CAB6FB"
@@ -161,6 +185,7 @@
 		}
 		{
 			dependencies: ["237F09283F60E319"]
+			disable_toast: true
 			id: "0CA6344F1A4514BE"
 			tasks: [{
 				id: "116DBA468508D2F4"
@@ -172,6 +197,7 @@
 		}
 		{
 			dependencies: ["0CA6344F1A4514BE"]
+			disable_toast: true
 			id: "7D563D47D0A9FE64"
 			tasks: [{
 				id: "4C785A1C3EE06C88"
@@ -407,10 +433,11 @@
 			y: 2.5d
 		}
 		{
+			icon: "gtceu:lv_machine_hull"
 			id: "305696A8BCB74EB0"
 			tasks: [{
 				id: "275B8F5632BFF89A"
-				item: "gtceu:lv_machine_hull"
+				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
 			title: "Low Voltage Age"
@@ -418,8 +445,10 @@
 			y: -5.5d
 		}
 		{
+			icon: "gtceu:mv_machine_hull"
 			id: "55328778D7078E24"
 			tasks: [{
+				icon: "gtceu:good_electronic_circuit"
 				id: "4624DD134711376F"
 				item: "gtceu:mv_machine_hull"
 				type: "item"
@@ -429,10 +458,11 @@
 			y: -4.5d
 		}
 		{
+			icon: "gtceu:hv_machine_hull"
 			id: "41752862D7B29F80"
 			tasks: [{
 				id: "585CB0E673D06E18"
-				item: "gtceu:hv_machine_hull"
+				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
 			title: "High Voltage Age"
@@ -440,10 +470,11 @@
 			y: -3.5d
 		}
 		{
+			icon: "gtceu:ev_machine_hull"
 			id: "560D95D4C404A164"
 			tasks: [{
 				id: "689FFDF13C2B0B46"
-				item: "gtceu:ev_machine_hull"
+				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
 			title: "Extreme Voltage Age"
@@ -451,10 +482,11 @@
 			y: -2.5d
 		}
 		{
+			icon: "gtceu:iv_machine_hull"
 			id: "58F378384CEFCEF2"
 			tasks: [{
 				id: "6C0998ACE20654A7"
-				item: "gtceu:iv_machine_hull"
+				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
 			title: "Insane Voltage Age"
@@ -462,10 +494,11 @@
 			y: -1.5d
 		}
 		{
+			icon: "gtceu:luv_machine_hull"
 			id: "7A22F294077F6520"
 			tasks: [{
 				id: "4E25CCE778755753"
-				item: "gtceu:luv_machine_hull"
+				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
 			title: "Ludicrous Voltage Age"
@@ -473,10 +506,11 @@
 			y: -0.5d
 		}
 		{
+			icon: "gtceu:zpm_machine_hull"
 			id: "09C7343DCCD5157E"
 			tasks: [{
 				id: "19F80003BE37DAEF"
-				item: "gtceu:zpm_machine_hull"
+				item: "gtceu:quantum_processor_mainframe"
 				type: "item"
 			}]
 			title: "Zero Point Module Age"
@@ -484,10 +518,11 @@
 			y: 0.5d
 		}
 		{
+			icon: "gtceu:uv_machine_hull"
 			id: "0416C489903BCFFF"
 			tasks: [{
 				id: "2A88438324065C64"
-				item: "gtceu:uv_machine_hull"
+				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
 			title: "Ultra Voltage Age"
@@ -495,10 +530,11 @@
 			y: 1.5d
 		}
 		{
+			icon: "gtceu:uhv_machine_hull"
 			id: "49E5EB071E740C87"
 			tasks: [{
 				id: "714E6FAD60BAC742"
-				item: "gtceu:uhv_machine_hull"
+				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
 			title: "Ultra High Voltage Age"
@@ -506,6 +542,7 @@
 			y: 2.5d
 		}
 		{
+			disable_toast: true
 			id: "56D15505F80043D8"
 			tasks: [{
 				id: "47BA825EA97ECE84"
@@ -516,6 +553,7 @@
 			y: 3.5d
 		}
 		{
+			disable_toast: true
 			id: "7C7B1FAA523F19F2"
 			tasks: [{
 				id: "0E28075B4E87FE2E"
@@ -526,6 +564,7 @@
 			y: 4.5d
 		}
 		{
+			disable_toast: true
 			id: "1EB73508673AD0EC"
 			tasks: [{
 				id: "740E35A5781E43A7"
@@ -536,6 +575,7 @@
 			y: 3.5d
 		}
 		{
+			disable_toast: true
 			id: "3A837FB9E8BE00D3"
 			tasks: [{
 				id: "15DC25BCFCE78DE2"
@@ -546,6 +586,7 @@
 			y: 3.5d
 		}
 		{
+			disable_toast: true
 			id: "2442DF6C3D81962E"
 			tasks: [{
 				id: "1CC0983CB7DBE526"

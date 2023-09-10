@@ -88,20 +88,22 @@
 				"This also unlocks cheaper fine wire recipes"
 			]
 			id: "2A26032DC9C8CFD6"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6E917EAC6D910F41"
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
+			shape: "diamond"
 			subtitle: "Cheaper wires"
 			tasks: [{
 				id: "570680D6E9DF6FA7"
 				item: "gtceu:lv_wiremill"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: -0.8999999999999997d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -111,20 +113,22 @@
 				"Further processing of plates will turn them into foils"
 			]
 			id: "1906C5D1C80035E4"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "611C4B513D3D1ADF"
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
+			shape: "diamond"
 			subtitle: "Cheaper plates"
 			tasks: [{
 				id: "2077EC584FD16863"
 				item: "gtceu:lv_bender"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.5d
+			x: -2.8999999999999995d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -134,39 +138,59 @@
 				"For 1 sulfur dust and 9 raw rubber pulp you'll make the equivalent of 9 rubber ingots in fluid form"
 			]
 			id: "620C406CC24F179C"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "52F68D22D0F72D31"
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
+			shape: "diamond"
 			subtitle: "More rubber more better"
 			tasks: [{
 				id: "52A1256EE8999962"
 				item: "gtceu:lv_chemical_reactor"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.5d
+			x: -3.9000000000000017d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: ["This machine also uses Casting Molds to form the fluids into different shapes"]
+			icon: "gtceu:lv_fluid_solidifier"
 			id: "78C51E9B7B8315F6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3D8FA55D8F428E7B"
-				table_id: 4804065436311136435L
-				type: "loot"
-			}]
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D8FA55D8F428E7B"
+					table_id: 4804065436311136435L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "6F4A88033B4245E2"
+					item: "alltheores:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
 			subtitle: "Need that fluid to be solid?"
-			tasks: [{
-				id: "091F155D7F3E3BB9"
-				item: "gtceu:lv_fluid_solidifier"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 2.5d
+			tasks: [
+				{
+					id: "091F155D7F3E3BB9"
+					item: "gtceu:lv_fluid_solidifier"
+					type: "item"
+				}
+				{
+					id: "2DCDA83AF43F55A3"
+					item: "gtceu:ingot_casting_mold"
+					type: "item"
+				}
+			]
+			x: -1.3999999999999995d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -174,6 +198,8 @@
 				"A cheaper way to coat wires in rubber!"
 				""
 				"This machine is necessary to coat higher tier wires in rubber to make cables"
+				""
+				"You might want to use this to create your machine hulls once we get some polyethylene in MV"
 			]
 			id: "0718FA338E8BA792"
 			rewards: [{
@@ -188,26 +214,28 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: ["For all your rod production needs!"]
 			id: "601DA80C08C3F9AC"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2C6B38D702FD7813"
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
+			shape: "diamond"
 			subtitle: "Good ol' rod"
 			tasks: [{
 				id: "6B700066BC245B01"
 				item: "gtceu:lv_lathe"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: -3.3999999999999995d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -226,7 +254,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -315,7 +343,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7A8242E6D0BC6294"]
@@ -334,7 +362,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -482,7 +510,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -538,7 +566,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["439C8AEBE9E1C666"]
@@ -624,7 +652,7 @@
 				}
 			]
 			x: 1.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -642,13 +670,15 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
+			size: 1.25d
 			tasks: [{
 				id: "41E980F316610E20"
 				item: "gtceu:oxygen_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: 3.025d
+			y: -0.24999999999999997d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -729,7 +759,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6E2F24117ACF3694"]
@@ -755,7 +785,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -765,20 +795,22 @@
 				"Additionally, this will get you the raw rubber pulp"
 			]
 			id: "504DEE88DFDBD380"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "597248294BEF3E6F"
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
+			shape: "diamond"
 			subtitle: "Liquidizing your assets"
 			tasks: [{
 				id: "74FD2DABE6D932C9"
 				item: "gtceu:lv_extractor"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.5d
+			x: -1.8999999999999995d
+			y: 3.5d
 		}
 		{
 			dependencies: ["25DBFE887B041E94"]
@@ -814,13 +846,15 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [{
 				id: "7D2E6775D39566B8"
 				item: "gtceu:wrought_iron_nugget"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: -2.45d
+			y: -2.5500000000000003d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -842,48 +876,31 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["78C51E9B7B8315F6"]
-			id: "1CDD0F4C3B5622DE"
-			rewards: [{
-				count: 2
-				id: "1ED77C9DD6D31639"
-				item: "alltheores:steel_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "620CEA8D500C21DB"
-				item: "gtceu:ingot_casting_mold"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
 				"Why passively generate any resource? Because it is a good idea to generate common resources passively rather than order them on demand, that way you'll have what you need when you need it rather than having to wait a very long time for everything to run"
 				""
-				"Setup the Rock Crusher with water on the left and lava on the right in the world, then insert some cobblestone to make cobblestone"
+				"Setup the &aRock Crusher&r with water on the left and lava on the right in the world, then insert some cobblestone to make cobblestone"
 				""
-				"Output the cobblestone into a Forge Hammer to create gravel"
+				"Output the cobblestone into a &aForge Hammer&r to create gravel"
 				""
-				"Output the gravel into another Forge Hammer to create sand"
+				"Output the gravel into another &aForge Hammer&r to create sand"
 				""
-				"Output the sand into an Arc Furnace with some oxygen to make glass"
+				"Output the sand into an &aArc Furnace&r with some oxygen to make glass"
 				""
-				"Output the glass into a Macerator to turn it into glass dust"
+				"Output the glass into a &aMacerator&r to turn it into glass dust"
 				""
-				"Output the glass dust into a Centrifuge to get silicon dioxide"
+				"Output the glass dust into a &aCentrifuge&r to get silicon dioxide"
 				""
-				"Output the silicon dioxide into an Electrolyzer and get silicon dust and oxygen!"
+				"Output the silicon dioxide into an &aElectrolyzer&r and get silicon dust and oxygen!"
 				""
 				"All you need to get started is a little oxygen, given to you in the form of green sapphire dust!"
 			]
 			id: "0D99638C96AB2EEA"
-			min_width: 250
+			min_width: 400
 			optional: true
 			rewards: [
 				{
@@ -899,6 +916,8 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
+			size: 1.25d
 			subtitle: "You'll need it"
 			tasks: [
 				{
@@ -994,8 +1013,8 @@
 				}
 			]
 			title: "Passive Oxygen Line"
-			x: 0.5d
-			y: -1.5d
+			x: -2.4249999999999994d
+			y: 2.9000000000000004d
 		}
 	]
 	title: "Low Voltage"

@@ -20,9 +20,9 @@
 		{ item: "gtceu:arsenic_dust", random_bonus: 1, weight: 2.0f }
 		{ item: "gtceu:gallium_dust", random_bonus: 1, weight: 2.0f }
 		{ count: 3, item: "gtceu:cobaltite_dust", random_bonus: 2, weight: 5.0f }
-		{ count: 12, item: "gtceu:copper_single_wire", random_bonus: 12, weight: 10.0f }
+		{ count: 8, item: "gtceu:copper_single_wire", random_bonus: 8, weight: 10.0f }
 		{ item: "gtceu:lv_machine_casing", random_bonus: 1, weight: 8.0f }
-		{ count: 12, item: "alltheores:steel_plate", random_bonus: 12, weight: 10.0f }
+		{ count: 8, item: "alltheores:steel_plate", random_bonus: 4, weight: 10.0f }
 		{ count: 2, item: "gtceu:vacuum_tube", random_bonus: 2, weight: 6.0f }
 	]
 	title: "GT LV Basic Rewards"

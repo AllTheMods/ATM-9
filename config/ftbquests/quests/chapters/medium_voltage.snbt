@@ -29,7 +29,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 1.7d
+			y: 0.19999999999999996d
 		}
 		{
 			dependencies: [
@@ -85,7 +85,7 @@
 			]
 			title: "Advanced Integrated Circuit"
 			x: 7.050000000000001d
-			y: 1.65d
+			y: 3.1499999999999995d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -108,7 +108,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -130,7 +130,7 @@
 				type: "item"
 			}]
 			x: 1.5000000000000009d
-			y: 1.7d
+			y: 0.19999999999999996d
 		}
 		{
 			dependencies: ["100ADA8508F6502A"]
@@ -148,7 +148,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -3.0d
+			y: -1.4999999999999984d
 		}
 		{
 			dependencies: ["7EFA4F2C0A895502"]
@@ -166,7 +166,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -3.0d
+			y: -1.4999999999999984d
 		}
 		{
 			dependencies: [
@@ -196,12 +196,14 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5E90EF7FF530C477"]
 			description: [
 				"Ethylene with even more oxygen will make you Polyethylene"
+				""
+				"Do note you need to use &eProgram 1&r for this recipe"
 				""
 				"You could use air instead of oxygen, but you'll get less Polyethylene out"
 				""
@@ -220,10 +222,11 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.0d
+			y: 1.4d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
+			description: ["Once you've got polyethylene set up, you can switch to making machine hulls in the Assembler to save on some materials"]
 			id: "063F5023D56CA6B1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -231,13 +234,14 @@
 				table_id: 7083859357644513434L
 				type: "loot"
 			}]
+			subtitle: "Greggers, ASSEMBLE!"
 			tasks: [{
 				id: "37E2BCA62B82CFF5"
 				item: "gtceu:mv_assembler"
 				type: "item"
 			}]
 			x: -1.5d
-			y: 1.7d
+			y: 0.19999999999999996d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -261,7 +265,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -1.0d
+			y: 0.5000000000000004d
 		}
 		{
 			dependencies: [
@@ -280,7 +284,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -5.0d
+			y: -3.5000000000000018d
 		}
 		{
 			dependencies: [
@@ -306,10 +310,16 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -2.5d
+			y: -0.9999999999999989d
 		}
 		{
-			description: ["Careful that your EBF isn't set to Program 1, otherwise you may start processing silicon dust into hot silicon ingots rather than making the boule"]
+			description: [
+				"&e32x Silicon Dust&r and a &aSmall Pile of Gallium Arsenide Dust&r will make you one of these "
+				""
+				"Careful that your EBF isn't set to Program 1, otherwise you might start processing silicon dust into hot silicon ingots rather than making the boule"
+				""
+				"Might be worth making a new EBF, one for just Program 1 recipes"
+			]
 			id: "26D1F1ECF66194E6"
 			rewards: [{
 				count: 8
@@ -318,13 +328,14 @@
 				random_bonus: 8
 				type: "item"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "6A276D195CB7BAD1"
 				item: "gtceu:silicon_boule"
 				type: "item"
 			}]
 			x: 7.0d
-			y: -4.0d
+			y: -2.4999999999999973d
 		}
 		{
 			dependencies: [
@@ -349,7 +360,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -5.0d
+			y: -3.5000000000000018d
 		}
 		{
 			dependencies: [
@@ -368,7 +379,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -5.0d
+			y: -3.5000000000000018d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -391,7 +402,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -7.0d
+			y: -5.500000000000011d
 		}
 		{
 			dependencies: ["0D1A6B32FEB51FAD"]
@@ -407,7 +418,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -3.0d
+			y: -1.4999999999999984d
 		}
 		{
 			dependencies: ["0D1A6B32FEB51FAD"]
@@ -423,7 +434,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.0d
+			y: -1.4999999999999984d
 		}
 		{
 			dependencies: ["0D1A6B32FEB51FAD"]
@@ -432,7 +443,7 @@
 				""
 				"One way I would suggest is to extract fish oil from fish and then distill that into lubricant"
 				""
-				"Lubricant is very useful with a cutter because recipes using it are much faster than with water for example"
+				"Lubricant is very useful with a cutter because recipes using it are much faster compared to water for example"
 			]
 			id: "42FD79CEB3426861"
 			rewards: [{
@@ -448,7 +459,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 0.0d
+			y: 1.5000000000000013d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -470,14 +481,13 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
-			dependencies: [
-				"589F47DE51213920"
-				"2CBC21079AB18569"
-			]
+			dependencies: ["589F47DE51213920"]
 			description: [
+				"Put those dusts we just made into your electric blast furnace and get some hot silicon!"
+				""
 				"Holding a hot ingot will damage you, but you have to for this quest because I'm a little evil"
 				""
 				"You will need to cool it, in this case with a chemical bath"
@@ -492,10 +502,9 @@
 					type: "item"
 				}
 				{
-					count: 2
 					id: "0588356A9AC8BE93"
 					item: "gtceu:glass_dust"
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -506,7 +515,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -515,7 +524,7 @@
 				""
 				"Alternatively, you can acquire aluminium by processing a variety of items like bauxite in an electrolyzer for example"
 				""
-				"We'll also generate aluminium passively in the clay line process"
+				"We can also generate aluminium passively in the clay line process"
 			]
 			id: "1C1802ABF3EE3120"
 			rewards: [{
@@ -525,13 +534,16 @@
 				random_bonus: 4
 				type: "item"
 			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Aluminum is that you?"
 			tasks: [{
 				id: "7B46FA23AF26BF76"
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.0d
+			x: -7.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -552,7 +564,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -4.0d
+			y: -2.4999999999999973d
 		}
 		{
 			dependencies: [
@@ -573,7 +585,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -4.0d
+			y: -2.4999999999999973d
 		}
 		{
 			dependencies: [
@@ -581,7 +593,7 @@
 				"2C9C440AE26159DB"
 			]
 			description: [
-				"Ethanol + Sulfuric Acid in a Chemical Reactor makes Ethylene"
+				"Ethanol + Sulfuric Acid in a &eChemical Reactor&r makes Ethylene"
 				""
 				"There are other methods of course, but those involve petrochemistry which we aren't getting into quite yet"
 			]
@@ -597,7 +609,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -618,7 +630,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["13B7DF398994FA37"]
@@ -639,45 +651,51 @@
 				item: "gtceu:sulfuric_acid_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
-			description: ["Centrifuge glass dust to get silicon dioxide dust"]
-			id: "2CBC21079AB18569"
-			rewards: [{
-				count: 4
-				id: "465612CF293A1D56"
-				item: "minecraft:glass"
-				random_bonus: 4
-				type: "item"
-			}]
-			tasks: [{
-				id: "18EF327DBC31E961"
-				item: "gtceu:silicon_dioxide_dust"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.5d
-		}
-		{
-			description: ["Use that centrifuge with coal dust (made by using a mortar on some coal) to get this"]
+			description: [
+				"Use a &aMortar&r on some coal to get coal dust"
+				""
+				"Put your coal dust through the Centrifuge to get carbon dust"
+				""
+				"Use that Centrifuge again, with glass dust this time, to get silicon dioxide dust"
+			]
 			id: "589F47DE51213920"
-			rewards: [{
-				count: 4
-				id: "2FF0451D94263F24"
-				item: "minecraft:coal"
-				random_bonus: 4
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "7FFE2CFE2C3F5E41"
-				item: "gtceu:carbon_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "2FF0451D94263F24"
+					item: "minecraft:coal"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "29731F158AA059AB"
+					item: "minecraft:glass"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					count: 2L
+					id: "7FFE2CFE2C3F5E41"
+					item: "gtceu:carbon_dust"
+					type: "item"
+				}
+				{
+					id: "7C28E6CC97ACE6A3"
+					item: "gtceu:silicon_dioxide_dust"
+					type: "item"
+				}
+			]
+			title: "Silicon ingredients"
 			x: -0.5d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["662E0A84D755064F"]
@@ -693,7 +711,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -714,7 +732,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -736,7 +754,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -750,11 +768,27 @@
 			subtitle: "Not that kind of brewery"
 			tasks: [{
 				id: "47A9907066F31663"
-				item: "gtceu:mv_brewery"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_brewery"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_brewery"
+							}
+						]
+					}
+				}
+				title: "A Brewery"
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6300791605A757B0"]
@@ -776,14 +810,14 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["159F43C0C0D91776"]
 			description: [
 				"Chemical react sulfur dioxide with more oxygen to make sulfur trioxide"
 				""
-				"Oxygen is very important, you may want to dedicate an entire setup to passively produce it"
+				"Oxygen is very important, you may want to go back and dedicate an entire setup to passively produce it if you haven't already"
 			]
 			id: "13B7DF398994FA37"
 			rewards: [{
@@ -796,14 +830,15 @@
 				item: "gtceu:sulfur_trioxide_bucket"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 7.0d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["579A41570D610B07"]
 			description: [
-				"Hope you kept that Basic Chemical Reactor around! If you want you can upgrade it to an Advanced Chemical Reactor, but it isn't necessary for this recipe"
+				"Oxygen and sulfur dust in your &eChemical Reactor&r on &aprogram 2&r will make some sulfur dioxide"
 				""
-				"If you're having trouble keeping up with the sulfur requirements, you could centrifuge 2 blaze powder to make sulfur dust"
+				"If you're having trouble keeping up with the sulfur requirements, you could start centrifuging 2 blaze powder to make sulfur dust"
 			]
 			id: "159F43C0C0D91776"
 			rewards: [{
@@ -817,8 +852,8 @@
 				item: "gtceu:sulfur_dioxide_bucket"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 7.0d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -831,6 +866,8 @@
 				item: "minecraft:diorite"
 				type: "item"
 			}]
+			shape: "diamond"
+			size: 1.25d
 			subtitle: "Passive aluminium"
 			tasks: [{
 				id: "2D0B938BFFE7D76C"
@@ -838,8 +875,8 @@
 				type: "item"
 			}]
 			title: "The clayline"
-			x: -1.5d
-			y: -6.0d
+			x: -8.975000000000001d
+			y: 2.9749999999999996d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -857,8 +894,8 @@
 				item: "gtceu:mv_polarizer"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -1.0d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -875,13 +912,14 @@
 				table_id: 7083859357644513434L
 				type: "loot"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "0997C42AD73E0890"
 				item: "gtceu:mv_extruder"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 4.5d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0A2675CF16B6443B"]
@@ -894,13 +932,14 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "1724B18A1A47C232"
 				item: "gtceu:rotor_extruder_mold"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 6.0d
+			x: -6.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0A2675CF16B6443B"]
@@ -913,13 +952,14 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "74B66E8EEC327F1D"
 				item: "gtceu:normal_pipe_extruder_mold"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 6.0d
+			x: -6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0A2675CF16B6443B"]
@@ -932,13 +972,14 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "4366765C95E0F2DA"
 				item: "gtceu:bolt_extruder_mold"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 6.0d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1BD5B25B80EC0F97"]
@@ -955,8 +996,8 @@
 				item: "gtceu:magnetic_steel_rod"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -2.5d
+			x: -0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["72DACA35906D7E5B"]
@@ -969,14 +1010,15 @@
 				table_id: 7083859357644513434L
 				type: "loot"
 			}]
+			shape: "diamond"
 			subtitle: "A good source of silicon too"
 			tasks: [{
 				id: "1AF82AB8FAD6E515"
 				item: "gtceu:mv_electrolyzer"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -6.0d
+			x: -9.000000000000002d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -1000,14 +1042,15 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			shape: "diamond"
 			subtitle: "Auto import? Yes please"
 			tasks: [{
 				id: "4A4FD0588A9C3448"
 				item: "gtceu:lv_robot_arm"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -7.0d
+			x: -8.300000000000002d
+			y: 4.800000000000001d
 		}
 		{
 			dependencies: ["6275C90E5890C1E4"]
@@ -1018,13 +1061,14 @@
 			]
 			id: "6E9126ECA080E725"
 			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "026C2FC05C707BFF"
 				item: "gtceu:mv_macerator"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -6.0d
+			x: -9.000000000000002d
+			y: 4.100000000000001d
 		}
 		{
 			dependencies: ["6E9126ECA080E725"]
@@ -1037,13 +1081,14 @@
 			]
 			id: "72DACA35906D7E5B"
 			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "2F87D396311C6602"
 				item: "gtceu:mv_centrifuge"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.0d
+			x: -9.700000000000001d
+			y: 4.800000000000001d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -1073,7 +1118,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -1134,13 +1179,13 @@
 			}]
 			title: "MV Energy Converters"
 			x: -9.5d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			description: [
 				"Eight plants in a Compressor will create a plant ball"
 				""
-				"You can also get these as a chance output from the centrifuge"
+				"You can also get these as a chance output from the centrifuge when making glue"
 			]
 			id: "6300791605A757B0"
 			rewards: [{
@@ -1149,6 +1194,7 @@
 				item: "minecraft:potato"
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "Compressed plant matter"
 			tasks: [{
 				id: "577EEBAF4FACDCA1"
@@ -1156,7 +1202,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["24E3CB198F73524A"]
@@ -1175,7 +1221,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -1195,11 +1241,62 @@
 			subtitle: "Arcing electricity!"
 			tasks: [{
 				id: "77EF6FE6C54C104A"
-				item: "gtceu:mv_arc_furnace"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_arc_furnace"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_arc_furnace"
+							}
+						]
+					}
+				}
+				title: "Arc Furnace"
 				type: "item"
 			}]
 			x: -1.5d
-			y: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["This machine is going to see a lot of use, upgrading it is worth it to keep it processing recipes quickly"]
+			id: "579A41570D610B07"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C10D5F463B33C47"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			subtitle: "Where's your lab coat?"
+			tasks: [{
+				id: "3165B02F2BFFEDDA"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_chemical_reactor"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_chemical_reactor"
+							}
+						]
+					}
+				}
+				title: "Chemical Reactor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 	title: "Medium Voltage"
