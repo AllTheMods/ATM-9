@@ -30,7 +30,7 @@
 	allowWorkbenchExtraction = false
 	#Use simple chunk load function.
 	#If you have other chunk load system, please disable this and use other mods.
-	enableChunkLoader = true
+	enableChunkLoader = false
 	#Trace quarry work
 	logAllQuarryWork = false
 	#The max distance(unit: blocks) Flexible Marker can reach
