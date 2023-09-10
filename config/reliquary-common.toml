@@ -381,7 +381,7 @@ mobDropsEnabled = true
 		levelCapForLeveledFormula = 100
 		#The flat failure rate in case failure rate isn't influenced by player's level
 		#Range: 0 ~ 100
-		flatStealFailurePercentRate = 10
+		flatStealFailurePercentRate = 100
 		#If set to false it goes through additional 4 accessible slots and looks for items in case the one selected randomly was empty
 		stealFromVacantSlots = true
 		#Whether stealing from an empty slot triggers failure even if otherwise it would be successful
@@ -389,7 +389,7 @@ mobDropsEnabled = true
 		#Whether entities get angry at player if stealing fails
 		angerOnStealFailure = true
 		#Allows switching stealing from player on and off
-		stealFromPlayers = true
+		stealFromPlayers = false
 		#List of entities on which lyssa rod doesn't work - full registry name is required here
 		entityBlockList = []
 
