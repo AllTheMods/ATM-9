@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
       G: Ingredient.of('allthetweaks:improbable_probability_device').toJson(),
       H: Ingredient.of('allthetweaks:dimensional_seed').toJson(),
       I: Ingredient.of('allthetweaks:patrick_star').toJson(),
-      J: Ingredient.of('minecraft:bedrock').toJson(),
+      J: Ingredient.of('allthecompressed:nether_star_block_3x').toJson(),
       K: Ingredient.of('allthetweaks:philosophers_fuel').toJson(),
       L: Ingredient.of('mysticalagradditions:creative_essence').toJson(),
       M: Item.of('allthemodium:unobtainium_vibranium_alloy_block', "{HideFlags:1,display:{Name:'[{\"text\":\"Awakened Unobtainium-Vibranium Alloy Block\",\"italic\":false}]'}}").enchant('unbreaking', 1).strongNBT().toJson()
