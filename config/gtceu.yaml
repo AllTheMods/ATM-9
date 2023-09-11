@@ -86,7 +86,15 @@ worldgen:
   # Radius that ore veins will check for existing ones.
   # If one is found, the vein will not spawn.
   # Default: 3
-  oreVeinScanRadius: 3
+  oreVeinScanRadius: 2
+
+  # Multiplier to bedrock ore generation amount
+  # Default: 1.0f
+  bedrockOreMultiplier: 1.0
+
+  # Make bedrock ore/fluid veins infinite?
+  # Default: false
+  infiniteBedrockOresFluids: true
 
   # Maximum worldgen feature size in chunks
   # if a vein is larger than this, Minecraft complains in logs.
@@ -105,11 +113,11 @@ worldgen:
 
   # Prevents regular vanilla ores from being generated outside GregTech ore veins
   # Default: true
-  removeVanillaOreGen: false
+  removeVanillaOreGen: true
 
   # Prevents vanilla's large ore veins from being generated
   # Default: true
-  removeVanillaLargeOreVeins: false
+  removeVanillaLargeOreVeins: true
 
 machines:
   # Whether insufficient energy supply should reset Machine recipe progress to zero.
@@ -165,7 +173,7 @@ machines:
 
   # Wether to add a "Bedrock Ore Miner" (also enables bedrock ore generation)
   # Default: false
-  doBedrockOres: false
+  doBedrockOres: true
 
   # What Kind of material should the bedrock ore miner output?
   # Default: "raw"

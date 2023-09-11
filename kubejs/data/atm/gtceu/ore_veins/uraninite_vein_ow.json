@@ -1,0 +1,59 @@
+{
+    "cluster_size": 25,
+    "density": 1.0,
+    "weight": 25,
+    "layer": "deepslate",
+    "dimension_filter": "minecraft:overworld",
+    "height_range": {
+        "height": {
+            "type": "uniform",
+            "min_inclusive": {
+                "absolute": -64
+            },
+            "max_inclusive": {
+                "absolute": 10
+            }
+        }
+    },
+    "discard_chance_on_air_exposure": 0.0,
+    "biomes": "#minecraft:is_overworld",
+    "weight_modifier": {
+        "biomes": "#minecraft:is_forest",
+        "added_weight": 30
+    },
+    "generator": {
+        "type": "gtceu:veined",
+        "ore_blocks": [
+            {
+                "block": "uraninite",
+                "weight": 3
+            }
+        ],
+        "rare_blocks": [
+            {
+                "block": [
+                    {
+                        "target": {
+                            "predicate_type": "tag_match",
+                            "tag": "minecraft:deepslate_ore_replaceables"
+                        },
+                        "state": {
+                            "Name": "bigreactors:yellorite_ore"
+                        }
+                    }
+                ],
+                "weight": 1
+            }
+        ],
+        "min_y": -64,
+        "max_y": 10,
+        "veininess_treshold": 0.1,
+        "edge_roundoff_begin": 12,
+        "max_edge_roundoff": 0.2,
+        "min_richness": 0.2,
+        "max_richness": 0.5,
+        "max_richness_threshold": 0.4,
+        "rare_block_chance": 0.15,
+        "ore_gap_noise_skip_threshold": -0.3
+    }
+}
