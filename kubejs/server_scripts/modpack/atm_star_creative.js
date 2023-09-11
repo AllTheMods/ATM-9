@@ -50,18 +50,7 @@ ServerEvents.recipes(e => {
     M: 'ars_nouveau:source_gem_block'
   })
 
-  ///# Botania
-  e.shaped('botania:creative_pool', ['RMR', 'MSM', 'RMR'], {
-      S: 'allthetweaks:atm_star',
-      M: 'botania:mana_pool',
-      R: '#botania:runes'
-    }).id('kubejs:botania/creative_pool')
   
-  e.shaped(Item.of('botania:mana_tablet', '{creative:1b,mana:500000}'), ['RMR', 'MSM', 'RMR'], {
-    S: 'allthetweaks:atm_star',
-    M: 'botania:mana_tablet',
-    R: '#botania:runes'
-  }).id('kubejs:botania/creative_tablet')
   
   ///# Create
   e.custom({
@@ -100,66 +89,7 @@ ServerEvents.recipes(e => {
     result: Item.of('createaddition:creative_energy').toJson()
   }).id(`kubejs:energizing/createaddition_creative_energy`)
   
-  ///# Elementalcraft
-  e.custom({
-    "type": "elementalcraft:binding",
-    "element_amount": 60000,
-    "element_type": "fire",
-    "ingredients": [
-      {"item": "allthetweaks:atm_star"},
-      {"item": "elementalcraft:firecrystal"},
-      {"item": "elementalcraft:reservoir_fire"},
-      Item.of('elementalcraft:container', '{BlockEntityTag:{element_storage:{element_amount:100000,element_capacity:100000,element_type:"fire"}}}').strongNBT().toJson(),
-      {"item": "elementalcraft:reservoir_fire"},
-      {"item": "elementalcraft:firecrystal"}
-    ],
-    "output": Item.of('elementalcraft:creative_container', '{BlockEntityTag:{element_storage:{element_amount:1000000,element_capacity:1000000,element_type:"fire"}}}').toJson()
-  }).id('kubejs:elementalcraft/creative_fire_container')
-
-  e.custom({
-    "type": "elementalcraft:binding",
-    "element_amount": 60000,
-    "element_type": "water",
-    "ingredients": [
-      {"item": "allthetweaks:atm_star"},
-      {"item": "elementalcraft:watercrystal"},
-      {"item": "elementalcraft:reservoir_water"},
-      Item.of('elementalcraft:container', '{BlockEntityTag:{element_storage:{element_amount:100000,element_capacity:100000,element_type:"water"}}}').strongNBT().toJson(),
-      {"item": "elementalcraft:reservoir_water"},
-      {"item": "elementalcraft:watercrystal"}
-    ],
-    "output": Item.of('elementalcraft:creative_container', '{BlockEntityTag:{element_storage:{element_amount:1000000,element_capacity:1000000,element_type:"water"}}}').toJson()
-  }).id('kubejs:elementalcraft/creative_water_container')
-
-  e.custom({
-    "type": "elementalcraft:binding",
-    "element_amount": 60000,
-    "element_type": "earth",
-    "ingredients": [
-      {"item": "allthetweaks:atm_star"},
-      {"item": "elementalcraft:earthcrystal"},
-      {"item": "elementalcraft:reservoir_earth"},
-      Item.of('elementalcraft:container', '{BlockEntityTag:{element_storage:{element_amount:100000,element_capacity:100000,element_type:"earth"}}}').strongNBT().toJson(),
-      {"item": "elementalcraft:reservoir_earth"},
-      {"item": "elementalcraft:earthcrystal"}
-    ],
-    "output": Item.of('elementalcraft:creative_container', '{BlockEntityTag:{element_storage:{element_amount:1000000,element_capacity:1000000,element_type:"earth"}}}').toJson()
-  }).id('kubejs:elementalcraft/creative_earth_container')
-
-  e.custom({
-    "type": "elementalcraft:binding",
-    "element_amount": 60000,
-    "element_type": "air",
-    "ingredients": [
-      {"item": "allthetweaks:atm_star"},
-      {"item": "elementalcraft:aircrystal"},
-      {"item": "elementalcraft:reservoir_air"},
-      Item.of('elementalcraft:container', '{BlockEntityTag:{element_storage:{element_amount:100000,element_capacity:100000,element_type:"air"}}}').strongNBT().toJson(),
-      {"item": "elementalcraft:reservoir_air"},
-      {"item": "elementalcraft:aircrystal"}
-    ],
-    "output": Item.of('elementalcraft:creative_container', '{BlockEntityTag:{element_storage:{element_amount:1000000,element_capacity:1000000,element_type:"air"}}}').toJson()
-  }).id('kubejs:elementalcraft/creative_air_container')
+  
 
   ///# Integrated Dynamics
   e.custom({
@@ -175,73 +105,6 @@ ServerEvents.recipes(e => {
     result: Item.of('integrateddynamics:energy_battery_creative').toJson()
   }).id(`kubejs:energizing/integrateddynamics_energy_battery_creative`)
 
-  ///# IronJetpacks
-  e.shaped(Item.of('ironjetpacks:cell', { Id: "ironjetpacks:creative" }).strongNBT(), [
-    ' A ',
-    'BCB',
-    ' A '
-  ], {
-    A: '#forge:storage_blocks/redstone',
-    B: 'allthemodium:unobtainium_block',
-    C: 'powah:battery_nitro'
-  }).id('kubejs:ironjetpacks_creative_cell')
-
-  e.shaped(Item.of('ironjetpacks:thruster', { Id: "ironjetpacks:creative" }).strongNBT(), [
-    'ABA',
-    'BCB',
-    'ADA'
-  ], {
-    A: 'allthemodium:unobtainium_block',
-    B: 'powah:nitro_crystal_block',
-    C: Item.of('ironjetpacks:cell', { Id: "ironjetpacks:creative" }).strongNBT(),
-    D: 'ironfurnaces:unobtainium_furnace'
-  }).id('kubejs:ironjetpacks_creative_thruster')
-
-  e.shaped(Item.of('ironjetpacks:capacitor', { Id: "ironjetpacks:creative" }), [
-    'ACA',
-    'BDB',
-    'AEA'
-  ], {
-    A: 'allthemodium:unobtainium_block',
-    B: 'mekanism:sps_casing',
-    C: 'powah:reactor_nitro',
-    D: 'mekanism:ultimate_induction_cell',
-    E: 'powah:reactor_nitro'
-  }).id('kubejs:ironjetpacks_creative_capacator')
-
-  e.shaped(Item.of('ironjetpacks:jetpack', { Id: "ironjetpacks:creative" }).strongNBT(), [
-    'ACA',
-    'BFB',
-    'DED'
-  ], {
-    A: 'mysticalagradditions:creative_essence',
-    B: 'allthemodium:vibranium_allthemodium_alloy_block',
-    C: Item.of('ironjetpacks:capacitor', { Id: "ironjetpacks:creative" }).strongNBT(),
-    D: Item.of('ironjetpacks:thruster', { Id: "ironjetpacks:creative" }).strongNBT(),
-    E: 'allthetweaks:atm_star',
-    F: Item.of('ironjetpacks:jetpack', { Id: "ironjetpacks:emerald" }).strongNBT()
-  }).id('kubejs:ironjetpacks_creative_jetpack')
-
-  ///#Mekanism
-  e.shaped('mekanism:creative_energy_cube', ['ATA', 'UCU', 'ATA'], {
-    A: 'mekanism:alloy_atomic',
-    T: 'mekanism:energy_tablet',
-    U: 'allthemodium:unobtainium_block',
-    C: 'mekanism:ultimate_energy_cube'
-  }).id('kubejs:mekanism/creative_energy_cube')
-
-  e.custom({
-    type: 'powah:energizing',
-    ingredients: [
-      Ingredient.of('mekanism:creative_energy_cube',).toJson(),
-      Ingredient.of('mekanism:creative_energy_cube',).toJson(),
-      Ingredient.of('allthetweaks:atm_star').toJson(),
-      Ingredient.of('mekanism:creative_energy_cube',).toJson(),
-      Ingredient.of('mekanism:creative_energy_cube',).toJson(),
-    ],
-    energy: '2147483647',
-    result: Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}]}}').toJson()
-  }).id(`kubejs:energizing/mekanism_creative_energy_cube`)
 
   ///# Powah
   e.custom({
@@ -284,7 +147,6 @@ ServerEvents.recipes(e => {
 
 
   ///# Refined storage
-
   e.custom({
     type: 'powah:energizing',
     ingredients: [Ingredient.of('refinedstorage:wireless_grid').toJson()],
