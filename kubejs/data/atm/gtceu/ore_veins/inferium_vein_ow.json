@@ -1,0 +1,69 @@
+{
+    "cluster_size": 20,
+    "density": 0.5,
+    "weight": 25,
+    "layer": "stone",
+    "dimension_filter": "minecraft:overworld",
+    "height_range": {
+        "height": {
+            "type": "uniform",
+            "min_inclusive": {
+                "absolute": 30
+            },
+            "max_inclusive": {
+                "absolute": 128
+            }
+        }
+    },
+    "discard_chance_on_air_exposure": 0.0,
+    "biomes": "#minecraft:is_overworld",
+    "weight_modifier": {
+        "biomes": {
+            "type": "forge:any"
+        },
+        "added_weight": 100
+    },
+    "generator": {
+        "type": "gtceu:layer",
+        "layer_patterns": [
+            [
+                {
+                    "targets": [
+                        [
+                            {
+                                "target": {
+                                    "predicate_type": "tag_match",
+                                    "tag": "forge:stone_ore_replaceables"
+                                },
+                                "state": {
+                                    "Name": "mysticalagriculture:inferium_ore"
+                                }
+                            }
+                        ]
+                    ],
+                    "min_size": 1,
+                    "max_size": 4,
+                    "weight": 2
+                },
+                {
+                    "targets": [
+                        [
+                            {
+                                "target": {
+                                    "predicate_type": "tag_match",
+                                    "tag": "forge:stone_ore_replaceables"
+                                },
+                                "state": {
+                                    "Name": "mysticalagriculture:prosperity_ore"
+                                }
+                            }
+                        ]
+                    ],
+                    "min_size": 1,
+                    "max_size": 2,
+                    "weight": 1
+                }
+            ]
+        ]
+    }
+}
