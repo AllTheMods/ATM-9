@@ -103,7 +103,7 @@ worldgen:
     # Prevents vanilla's large ore veins from being generated
     # Default: true
     removeVanillaLargeOreVeins: false
-
+    
     # Multiplier to bedrock ore generation amount
     # Default: 1.0f
     bedrockOreMultiplier: 1.0
@@ -172,7 +172,7 @@ machines:
 
   # Wether to add a "Bedrock Ore Miner" (also enables bedrock ore generation)
   # Default: false
-  doBedrockOres: false
+  doBedrockOres: true
 
   # What Kind of material should the bedrock ore miner output?
   # Default: "raw"
