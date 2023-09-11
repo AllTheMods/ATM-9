@@ -1,0 +1,16 @@
+#No-fly zone checks happen every x player ticks, which can be taxing on the system when there's many players. Increase this number for better performance.
+#Range: > 1
+checkInterval = 10
+#Whether to allow flight using an elytra in a no flight zone
+allowElytraFlight = false
+#Whether to allow flight using a jetpack device in a no flight zone
+allowFlyingDevices = false
+#Allow player teleportation in a no flight zone
+allowTeleporting = true
+#For performance reasons biome checks are off by default. Set it to true to disallow biomes listed in the noflyzone:worldgen/biome/blacklist tag.
+enableBiomeCheck = false
+#For performance reasons structure checks are off by default. Set it to true to disallow structures listed in the noflyzone:worldgen/structure/blacklist tag.
+enableStructureCheck = false
+#A list of blacklisted dimensions.
+dimensions = ["allthemodium:the_other"]
+
