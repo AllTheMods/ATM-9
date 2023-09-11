@@ -3618,46 +3618,6 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "mekanism:fluorite_gem"
-			id: "3F635063EC5A6327"
-			rewards: [{
-				id: "1E107584870E108F"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Feed a Diamond Bee Fluorite!"
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:fluorite"
-						}
-					}
-				}
-				id: "46CFE7B294472FC9"
-				item: {
-					Count: 1b
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:fluorite"
-							}
-						}
-					}
-				}
-				title: "Fluorite Comb"
-				type: "item"
-			}]
-			title: "Fluorite Bee"
-			x: 6.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: "minecraft:ice"
 			id: "244ACD7024566001"
 			rewards: [{
@@ -3794,7 +3754,7 @@
 			}]
 			title: "ProsperiBee"
 			x: 6.0d
-			y: 15.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
