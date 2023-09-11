@@ -1,0 +1,168 @@
+
+#QuarryPlus Setting
+[common]
+	#The top of Nether
+	#Range: -256 ~ 256
+	netherTop = 127
+	#debug mode
+	debug = false
+	#no energy
+	noEnergy = false
+	#Whether quarry converts deepslate ore to normal ore.
+	convertDeepslateOres = false
+	#Spawner Controller Blacklist
+	spawnerBlacklist = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:area_effect_cloud", "minecraft:item", "minecraft:player"]
+	#The amount of energy[FE] that Solid Fuel Quarry generates in a tick.
+	#Range: 0.0 ~ 100.0
+	sfqEnergy = 2.0
+	#Remove common materials(Stone, Dirt, Grass, Sand, etc.) obtained by Chunk Destroyer
+	removeCommonMaterialsByCD = true
+	#Remove MarkerPlus guide line if player is too far from the marker.
+	reduceMarkerGuideLineIfPlayerIsFar = false
+	#Remove adjacent frames when quarry is removed.
+	removeFrameAfterQuarryIsRemoved = false
+	#Allow quarries to work in claimed chunk(FTB Chunks).
+	allowWorkInClaimedChunkByFBTChunks = false
+	#The range limit(unit: blocks) of ChunkDestroyer. Set -1 or 0 to remove limitation.
+	#Range: > -1
+	chunkDestroyerLimit = -1
+	#True to allow pipes to extract items in WorkbenchPlus
+	allowWorkbenchExtraction = false
+	#Use simple chunk load function.
+	#If you have other chunk load system, please disable this and use other mods.
+	enableChunkLoader = false
+	#Trace quarry work
+	logAllQuarryWork = false
+	#The max distance(unit: blocks) Flexible Marker can reach
+	#Range: 16 ~ 4096
+	flexMarkerMaxDistance = 256
+
+#QuarryPlus Machines. Set true to enable machine or item.
+[machines]
+	adv_pump = true
+	adv_quarry = true
+	book_mover = true
+	exp_module = true
+	exp_pump = true
+	filler = true
+	filler_module = true
+	filter_module = true
+	fuel_module_normal = true
+	mini_quarry = true
+	mining_well = true
+	mover = true
+	placer_plus = true
+	pump_module = true
+	pump_plus = true
+	quarry = true
+	remote_placer = false
+	remove_bedrock_module = false
+	replacer = false
+	replacer_module = false
+	solid_fuel_quarry = true
+	spawner_controller = false
+	workbench = true
+	repeat_tick_module = false
+
+#Power settings of each machines
+[powers]
+
+	[powers.mini_quarry]
+		#Range: 0.0 ~ 1.0E9
+		maxEnergy = 1000.0
+		#Range: 0.0 ~ 1.0E9
+		breakBlockBase = 20.0
+
+	[powers.solid_fuel_quarry]
+		#Range: 0.0 ~ 1.0E9
+		maxEnergy = 1000.0
+		#Range: 0.0 ~ 1.0E9
+		makeFrame = 15.0
+		#Range: 0.0 ~ 1.0E9
+		breakBlockBase = 25.0
+		#Range: 0.0 ~ 1.0E9
+		breakBlockFluid = 125.0
+		#Range: 0.0 ~ 1.0E9
+		moveHeadBase = 1.0
+		#Range: 0.0 ~ 1.0E9
+		expCollect = 2.5
+		#Range: 0.0 ~ 1.0E9
+		efficiencyCoefficient = 1.5848931924611136
+		#Range: 0.0 ~ 1.0E9
+		breakEfficiencyCoefficient = 1.379729661461215
+		#Range: 0.0 ~ 1.0E9
+		breakFortuneCoefficient = 1.5874010519681996
+		#Range: 0.0 ~ 1.0E9
+		breakSilktouchCoefficient = 4.0
+
+	[powers.adv_quarry]
+		#Range: 0.0 ~ 1.0E9
+		maxEnergy = 50000.0
+		#Range: 0.0 ~ 1.0E9
+		makeFrame = 15.0
+		#Range: 0.0 ~ 1.0E9
+		breakBlockBase = 25.0
+		#Range: 0.0 ~ 1.0E9
+		breakBlockFluid = 125.0
+		#Range: 0.0 ~ 1.0E9
+		moveHeadBase = 1.0
+		#Range: 0.0 ~ 1.0E9
+		expCollect = 2.5
+		#Range: 0.0 ~ 1.0E9
+		efficiencyCoefficient = 1.5848931924611136
+		#Range: 0.0 ~ 1.0E9
+		breakEfficiencyCoefficient = 1.379729661461215
+		#Range: 0.0 ~ 1.0E9
+		breakFortuneCoefficient = 1.5874010519681996
+		#Range: 0.0 ~ 1.0E9
+		breakSilktouchCoefficient = 4.0
+
+	[powers.filler]
+		#Range: 0.0 ~ 1.0E9
+		maxEnergy = 1000.0
+		#Range: 0.0 ~ 1.0E9
+		breakBlockBase = 15.0
+
+	[powers.book_mover]
+		#Range: 0.0 ~ 1.0E9
+		maxEnergy = 50000.0
+
+	[powers.workbench]
+		#Range: 0.0 ~ 1.0E9
+		maxEnergy = 5.0
+
+	[powers.quarry]
+		#Range: 0.0 ~ 1.0E9
+		maxEnergy = 10000.0
+		#Range: 0.0 ~ 1.0E9
+		makeFrame = 15.0
+		#Range: 0.0 ~ 1.0E9
+		breakBlockBase = 25.0
+		#Range: 0.0 ~ 1.0E9
+		breakBlockFluid = 125.0
+		#Range: 0.0 ~ 1.0E9
+		moveHeadBase = 1.0
+		#Range: 0.0 ~ 1.0E9
+		expCollect = 2.5
+		#Range: 0.0 ~ 1.0E9
+		efficiencyCoefficient = 1.5848931924611136
+		#Range: 0.0 ~ 1.0E9
+		breakEfficiencyCoefficient = 1.379729661461215
+		#Range: 0.0 ~ 1.0E9
+		breakFortuneCoefficient = 1.5874010519681996
+		#Range: 0.0 ~ 1.0E9
+		breakSilktouchCoefficient = 4.0
+
+#IC2 integration
+[ic2-integration]
+	#The rate to convert EU to nano FE. Default(4,000,000,000) is the rate of 1 EU = 4 FE
+	#Range: 1 ~ 9223372036854775807
+	conversionRate = 4000000000
+
+#Enchantments. Defines enchantments machines can accept.
+[enchantments]
+	quarry = ["minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:silk_touch"]
+	adv_quarry = ["minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:silk_touch"]
+	mini_quarry = ["minecraft:efficiency", "minecraft:unbreaking"]
+	adv_pump = ["minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune"]
+
