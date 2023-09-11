@@ -12,5 +12,5 @@ enableBiomeCheck = false
 #For performance reasons structure checks are off by default. Set it to true to disallow structures listed in the noflyzone:worldgen/structure/blacklist tag.
 enableStructureCheck = false
 #A list of blacklisted dimensions.
-dimensions = ["allthemodium:the_other"]
+dimensions = ["allthemodium:the_other", "blue_skies:everbright", "blue_skies:everdawn", "twilightforest:twilight_forest"]
 
