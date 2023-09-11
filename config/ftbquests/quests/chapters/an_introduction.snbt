@@ -11,6 +11,19 @@
 		}
 	}
 	id: "415BA265E2C00859"
+	images: [{
+		alpha: 150
+		click: ""
+		corner: false
+		dev: false
+		height: 5.0d
+		hover: [ ]
+		image: "gtceu:textures/gui/icon/gregtech_logo.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.1071428571428541d
+		y: 0.6607142857142847d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -37,7 +50,7 @@
 			}]
 			title: "Energy"
 			x: 0.0d
-			y: 0.0d
+			y: 0.55d
 		}
 		{
 			dependencies: ["4F086B3CF27D5C1A"]
@@ -64,8 +77,8 @@
 				title: "Voltage"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4F086B3CF27D5C1A"]
@@ -87,11 +100,14 @@
 				title: "Amperage"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["66D86E1EDEBF542B"]
+			dependencies: [
+				"66D86E1EDEBF542B"
+				"6635E4C76260C4CB"
+			]
 			description: [
 				"Wires and cables are imperfect and lose some of the energy they transport in the form of heat"
 				""
@@ -138,8 +154,8 @@
 				title: "Voltage Conversion"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -154,7 +170,7 @@
 				""
 				"Tools can also be repaired in anvils using the same material of the tool itself, like any vanilla tool"
 				""
-				"A hammer is used in manually crafting plates, which will be necessary for the next tools!"
+				"A &aHammer&r is used in manually crafting plates, which will be necessary for the next tools!"
 			]
 			hide_dependency_lines: true
 			id: "790F509BAA15A68E"
@@ -164,6 +180,7 @@
 				table_id: 487623848494439020L
 				type: "loot"
 			}]
+			subtitle: "An Introduction"
 			tasks: [{
 				id: "30443BA4C089AA8B"
 				item: {
@@ -173,21 +190,21 @@
 						value: "forge:tools/hammers"
 					}
 				}
-				title: "Any #forge:tools/hammers"
+				title: "Any GT Hammer"
 				type: "item"
 			}]
-			title: "Tools, an introduction"
+			title: "Tools"
 			x: -2.0d
-			y: -2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["790F509BAA15A68E"]
 			description: [
-				"The wrench is a crafting tool, sure, but it is also a mining tool for GT machines! Right clicking sets the output side of GT machines and crouch right clicking rotates them"
+				"The &aWrench&r is a crafting tool, sure, but it is also a mining tool for GT machines! Right clicking sets the output side of GT machines and crouch right clicking rotates them"
 				""
-				"The file is a crafting tool and that's all"
+				"The &aFile&r is a crafting tool and that's all"
 				""
-				"The saw is yet another crafting tool, but it can also get you 6 planks from one log!"
+				"The &aSaw&r is yet another crafting tool, but it can also get you 6 planks from one log!"
 			]
 			id: "5D3C8198D9756004"
 			rewards: [{
@@ -206,7 +223,7 @@
 							value: "forge:tools/wrenches"
 						}
 					}
-					title: "Any #forge:tools/wrenches"
+					title: "GT Wrenches"
 					type: "item"
 				}
 				{
@@ -218,7 +235,7 @@
 							value: "forge:tools/files"
 						}
 					}
-					title: "Any #forge:tools/files"
+					title: "GT Files"
 					type: "item"
 				}
 				{
@@ -230,37 +247,37 @@
 							value: "forge:tools/saws"
 						}
 					}
-					title: "Any #forge:tools/saws"
+					title: "GT Saws"
 					type: "item"
 				}
 			]
 			title: "Handy Tools"
 			x: 0.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5D3C8198D9756004"]
 			description: [
-				"Screwdrivers are a crafting tool and are used in special configuration of machines and Covers"
+				"&aScrewdrivers&r are a crafting tool and are used in special configuration of machines and Covers"
 				""
-				"Wire cutters are a crafting tool and right clicking on wires/cables will enable or disable connections to other blocks"
+				"&aWire cutters&r are a crafting tool and right clicking on wires/cables will enable or disable connections to other blocks"
 				""
-				"Mortars are a crafting tool to grind things to dust"
+				"&aMortars&r are a crafting tool to grind things to dust"
 				""
-				"Knives are also a crafting tool..."
+				"&aKnives&r are also a crafting tool..."
 				""
-				"Soft Mallets will pause and resume machines from working with right click"
+				"&eSoft Mallets&r will pause and resume machines from working with right click"
 				""
-				"Crowbars can be used to remove Covers from GT machines with a right click"
+				"&eCrowbars&r can be used to remove Covers from GT machines with a right click"
 				""
-				"Scythes can automatically break and re-plant crops in an area and doubles as a cool looking weapon!"
+				"&eScythes&r can automatically break and re-plant crops in an area and doubles as a cool looking weapon!"
 				""
-				"Plungers can clear stuck fluids from GT machines [NYI]"
+				"&ePlungers&r can clear stuck fluids from GT machines &c&l[NYI]&r&r"
 				""
-				"Butchery Knives have Looting III implicitly, useful for leather early on!"
+				"&eButchery Knives&r have Looting III implicitly, useful for leather early on!"
 			]
 			id: "17BA6F1E5179DB8C"
-			min_width: 300
+			min_width: 400
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "50B36A2E833872D2"
@@ -278,7 +295,7 @@
 							value: "forge:tools/screwdrivers"
 						}
 					}
-					title: "Any #forge:tools/screwdrivers"
+					title: "GT Screwdrivers"
 					type: "item"
 				}
 				{
@@ -290,7 +307,7 @@
 							value: "forge:tools/wire_cutters"
 						}
 					}
-					title: "Any #forge:tools/wire_cutters"
+					title: "GT Wire Cutters"
 					type: "item"
 				}
 				{
@@ -302,7 +319,7 @@
 							value: "forge:tools/mortars"
 						}
 					}
-					title: "Any #forge:tools/mortars"
+					title: "GT Mortars"
 					type: "item"
 				}
 				{
@@ -314,7 +331,7 @@
 							value: "forge:tools/knives"
 						}
 					}
-					title: "Any #forge:tools/knives"
+					title: "GT Knives"
 					type: "item"
 				}
 				{
@@ -326,7 +343,7 @@
 							value: "forge:tools/mallets"
 						}
 					}
-					title: "Any #forge:tools/mallets"
+					title: "GT Mallets"
 					type: "item"
 				}
 				{
@@ -338,7 +355,7 @@
 							value: "forge:tools/crowbars"
 						}
 					}
-					title: "Any #forge:tools/crowbars"
+					title: "GT Crowbars"
 					type: "item"
 				}
 				{
@@ -350,7 +367,7 @@
 							value: "forge:tools/scythes"
 						}
 					}
-					title: "Any #forge:tools/scythes"
+					title: "GT Scythes"
 					type: "item"
 				}
 				{
@@ -362,7 +379,7 @@
 							value: "forge:tools/plungers"
 						}
 					}
-					title: "Any #forge:tools/plungers"
+					title: "GT Plungers"
 					type: "item"
 				}
 				{
@@ -374,28 +391,21 @@
 							value: "forge:tools/butchery_knives"
 						}
 					}
-					title: "Any #forge:tools/butchery_knives"
+					title: "GT Butchery Knives"
 					type: "item"
 				}
 			]
 			title: "All the tools!"
 			x: 2.0d
-			y: -2.0d
+			y: -4.5d
 		}
 		{
-			dependencies: [
-				"459787E9F1029CC6"
-				"33590A79C5C554C8"
-				"66D86E1EDEBF542B"
-				"4F086B3CF27D5C1A"
-				"6635E4C76260C4CB"
-			]
 			description: [
 				"Ores generate in veins at varying heights spaced apart by every 3 chunks"
 				""
 				"Ore veins are often comprised of 3 or more different ores"
 			]
-			hide_dependency_lines: true
+			disable_toast: true
 			icon: "minecraft:grass_block"
 			id: "072FA02152FBC5B1"
 			invisible_until_tasks: 5
@@ -411,62 +421,10 @@
 				type: "checkmark"
 			}]
 			x: -5.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
-			dependencies: [
-				"66D86E1EDEBF542B"
-				"4F086B3CF27D5C1A"
-				"6635E4C76260C4CB"
-				"459787E9F1029CC6"
-				"33590A79C5C554C8"
-			]
-			description: ["3 chunks apart, now with void to cause them not to spawn sometimes! "]
-			hide_dependency_lines: true
-			icon: "minecraft:end_stone"
-			id: "051C57BE08D1C835"
-			rewards: [{
-				id: "0AA86C49401B6B9A"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "6D333109F49ACF86"
-				optional_task: true
-				title: "End Ores"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"66D86E1EDEBF542B"
-				"4F086B3CF27D5C1A"
-				"6635E4C76260C4CB"
-				"459787E9F1029CC6"
-				"33590A79C5C554C8"
-			]
-			description: ["Every 3 chunks you'll find another ore vein, occasionally lava will prevent a vein from spawning though"]
-			hide_dependency_lines: true
-			icon: "minecraft:netherrack"
-			id: "487B03D1DA18D07C"
-			rewards: [{
-				id: "26CCA95CAEF9A1DC"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "1E051923E36135D3"
-				optional_task: true
-				title: "Nether Ores"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["051C57BE08D1C835"]
+			dependencies: ["244220A5D9F4C702"]
 			icon: "gtceu:endstone_bauxite_ore"
 			id: "68B6B946B6BA24CB"
 			subtitle: "Aluminium be here"
@@ -512,7 +470,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["051C57BE08D1C835"]
+			dependencies: ["244220A5D9F4C702"]
 			icon: "gtceu:endstone_magnetite_ore"
 			id: "27E9F48972741701"
 			tasks: [{
@@ -565,7 +523,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["051C57BE08D1C835"]
+			dependencies: ["244220A5D9F4C702"]
 			icon: "gtceu:endstone_naquadah_ore"
 			id: "037BB7C486D2D360"
 			subtitle: "Indeed"
@@ -603,7 +561,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["051C57BE08D1C835"]
+			dependencies: ["244220A5D9F4C702"]
 			icon: "gtceu:endstone_pitchblende_ore"
 			id: "3F69CB46311A37C8"
 			tasks: [{
@@ -640,7 +598,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["051C57BE08D1C835"]
+			dependencies: ["244220A5D9F4C702"]
 			icon: "gtceu:endstone_scheelite_ore"
 			id: "4300938A4E8AF937"
 			tasks: [{
@@ -685,7 +643,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["051C57BE08D1C835"]
+			dependencies: ["244220A5D9F4C702"]
 			icon: "gtceu:endstone_cooperite_ore"
 			id: "0C78FB6EB275960B"
 			tasks: [{
@@ -738,7 +696,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["487B03D1DA18D07C"]
+			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_goethite_ore"
 			id: "5B64384E4CE27851"
 			subtitle: "Banded Iron Vein"
@@ -785,10 +743,10 @@
 			}]
 			title: "Goethite Vein"
 			x: 7.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["487B03D1DA18D07C"]
+			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_beryllium_ore"
 			id: "61B3730E93DD24DB"
 			tasks: [{
@@ -818,10 +776,10 @@
 			}]
 			title: "Beryllium Vein"
 			x: 8.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["487B03D1DA18D07C"]
+			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_certus_quartz_ore"
 			id: "1DFD4712153C1A55"
 			tasks: [{
@@ -855,10 +813,10 @@
 			}]
 			title: "Certus Quartz Vein"
 			x: 8.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["487B03D1DA18D07C"]
+			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_grossular_ore"
 			id: "109E34AE0BE0F266"
 			subtitle: "A nutritious source of manganese"
@@ -901,10 +859,10 @@
 			}]
 			title: "Grossular Vein"
 			x: 7.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["487B03D1DA18D07C"]
+			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_molybdenum_ore"
 			id: "554389C781241743"
 			tasks: [{
@@ -954,10 +912,10 @@
 			}]
 			title: "Molybdenum Vein"
 			x: 6.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["487B03D1DA18D07C"]
+			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_bastnasite_ore"
 			id: "4F8E090CB349A681"
 			tasks: [{
@@ -991,10 +949,10 @@
 			}]
 			title: "Bastnasite Vein"
 			x: 5.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["487B03D1DA18D07C"]
+			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_quartzite_ore"
 			id: "2B5733BDAF83B2D4"
 			tasks: [{
@@ -1020,10 +978,10 @@
 			}]
 			title: "Quartzite Vein"
 			x: 4.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["487B03D1DA18D07C"]
+			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_redstone_ore"
 			id: "354012CD62D346E5"
 			subtitle: "5x redstone from one raw ore!"
@@ -1066,10 +1024,10 @@
 			}]
 			title: "Redstone Vein"
 			x: 4.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["487B03D1DA18D07C"]
+			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_saltpeter_ore"
 			id: "3F064B466CC4914B"
 			tasks: [{
@@ -1119,10 +1077,10 @@
 			}]
 			title: "Saltpeter Vein"
 			x: 4.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["487B03D1DA18D07C"]
+			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_sulfur_ore"
 			id: "333D2A9F20B2E738"
 			tasks: [{
@@ -1164,10 +1122,10 @@
 			}]
 			title: "Sulfur Vein"
 			x: 5.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["487B03D1DA18D07C"]
+			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_tetrahedrite_ore"
 			id: "2A2ED3B4BE8C7E67"
 			tasks: [{
@@ -1201,10 +1159,10 @@
 			}]
 			title: "Tetrahedrite Vein"
 			x: 6.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["487B03D1DA18D07C"]
+			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_topaz_ore"
 			id: "34E8D3AD37BB76C5"
 			tasks: [{
@@ -1250,7 +1208,7 @@
 			}]
 			title: "Topaz Vein"
 			x: 8.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["072FA02152FBC5B1"]
@@ -2160,7 +2118,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["55C47B868C5ECF54"]
@@ -2196,7 +2154,43 @@
 				type: "item"
 			}]
 			x: 2.0d
+			y: 5.5d
+		}
+		{
+			description: ["Every 3 chunks you'll find another ore vein, occasionally lava will prevent a vein from spawning though"]
+			icon: "minecraft:netherrack"
+			id: "0D20644407244A60"
+			rewards: [{
+				id: "0A80DD25662434D8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "500548E772861A58"
+				type: "dimension"
+			}]
+			title: "Nether Ores"
+			x: 6.0d
 			y: 3.5d
+		}
+		{
+			description: ["3 chunks apart, now with void to cause them not to spawn sometimes! "]
+			icon: "minecraft:end_stone"
+			id: "244220A5D9F4C702"
+			rewards: [{
+				id: "056FC6F179E3B43C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "540231448A4DE43B"
+				type: "dimension"
+			}]
+			title: "End Ores"
+			x: 6.0d
+			y: -2.5d
 		}
 	]
 	title: "Getting Started"

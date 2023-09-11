@@ -204,14 +204,15 @@
 				table_id: 4444697382338980938L
 				type: "loot"
 			}]
+			shape: "diamond"
 			subtitle: "Useful for squishing things"
 			tasks: [{
 				id: "731F6F20A3582633"
 				item: "gtceu:lp_steam_forge_hammer"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7F9131107E7F9AC8"]
@@ -224,14 +225,15 @@
 				table_id: 4444697382338980938L
 				type: "loot"
 			}]
+			shape: "diamond"
 			subtitle: "Furnaces for every occasion"
 			tasks: [{
 				id: "3820B5F114B12CD5"
 				item: "gtceu:lp_steam_furnace"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7F9131107E7F9AC8"]
@@ -257,7 +259,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7F9131107E7F9AC8"]
@@ -274,13 +276,14 @@
 				table_id: 4444697382338980938L
 				type: "loot"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "4B1AA0FF29878B0E"
 				item: "gtceu:lp_steam_rock_crusher"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -321,6 +324,7 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
 			size: 1.5d
 			subtitle: "The final boss of STEAM"
 			tasks: [{
@@ -329,8 +333,8 @@
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -362,14 +366,15 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			subtitle: "Slime farm?"
 			tasks: [{
 				id: "6D9971A5B71CBD4F"
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -394,15 +399,17 @@
 				item: "gtceu:raw_rubber_dust"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"6ECBB6F5D0D99DEE"
-				"6F92BC048F36392D"
+			dependencies: ["6ECBB6F5D0D99DEE"]
+			description: [
+				"Smash some glass with a hammer and alloy smelt the dust with a casting mold to make a glass tube"
+				""
+				"You can get steel ingots by using a blast furnace and smelting iron ingots"
 			]
-			description: ["Smash some glass with a hammer and alloy smelt the dust with a casting mold to make a glass tube"]
+			icon: "gtceu:glass_tube"
 			id: "7A62C1B9385DF643"
 			rewards: [{
 				count: 2
@@ -411,16 +418,25 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			tasks: [{
-				id: "5FE10BFA77D53B4C"
-				item: "gtceu:glass_tube"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 2.5d
+			tasks: [
+				{
+					id: "7D6A7F80D911E032"
+					item: "gtceu:ball_casting_mold"
+					type: "item"
+				}
+				{
+					id: "6EB6D2BE3ADAC972"
+					item: "gtceu:glass_tube"
+					type: "item"
+				}
+			]
+			title: "Glass Tube"
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7A62C1B9385DF643"]
+			description: ["Does anyone remember those old CRT televisions anymore? Those things used vacuum tubes"]
 			id: "506360EEA2268E82"
 			rewards: [
 				{
@@ -443,10 +459,11 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["60069A897F2B0F78"]
+			description: ["Don't worry, you don't need to craft resistors with different resistances"]
 			id: "73FC1166FBD6C30D"
 			rewards: [
 				{
@@ -463,35 +480,63 @@
 					type: "item"
 				}
 			]
+			subtitle: "Ohmmmm"
 			tasks: [{
 				id: "64598EA96BFA992A"
 				item: "gtceu:resistor"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
-				"6ECBB6F5D0D99DEE"
 				"0D3DF9C8F742AE0D"
-				"27E3DD2268CCDCD2"
+				"6ECBB6F5D0D99DEE"
 			]
-			description: ["Put your raw rubber pulp and sulfur dust into an alloy smelter and get your first bit of rubber"]
+			description: [
+				"You can find sulfur ore in the nether and then smelt it to get sulfur dust. There are also bees!"
+				""
+				"Put your raw rubber pulp and sulfur dust into an alloy smelter and get your first bit of rubber"
+			]
+			icon: "gtceu:rubber_ingot"
 			id: "71B1416A45FBBE40"
-			rewards: [{
-				id: "785274FE73892E39"
-				item: "gtceu:rubber_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "79E8579D64101EFF"
-				item: "gtceu:rubber_ingot"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 1.5d
+			rewards: [
+				{
+					id: "785274FE73892E39"
+					item: "gtceu:rubber_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4F57BD95D084CD38"
+					item: "chemlib:sulfur_dust"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "48C19477CB216AD4"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/sulfur"
+						}
+					}
+					title: "Sulfur Dust"
+					type: "item"
+				}
+				{
+					id: "7E516EDDAA975CC8"
+					item: "gtceu:rubber_ingot"
+					type: "item"
+				}
+			]
+			title: "Rubber"
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -512,7 +557,7 @@
 				item: "gtceu:wood_plate"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -531,16 +576,17 @@
 				item: "gtceu:wood_dust"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"6ECBB6F5D0D99DEE"
-				"71B1416A45FBBE40"
-				"3A47E7B364F13B46"
+			dependencies: ["71B1416A45FBBE40"]
+			description: [
+				"Two rubber ingots and the casting mold in the alloy smelter will make sheets of rubber"
+				""
+				"These will come in handy when you need to start coating wires in rubber to make cables"
 			]
-			description: ["Two rubber ingots and the casting mold in the alloy smelter will make sheets of rubber"]
+			icon: "gtceu:rubber_plate"
 			id: "6CE157D05F59A994"
 			rewards: [{
 				id: "49F77B7C44DA42D0"
@@ -548,13 +594,20 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			tasks: [{
-				id: "61B056192AC9B3D6"
-				item: "gtceu:rubber_plate"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 2.0d
+			tasks: [
+				{
+					id: "61B056192AC9B3D6"
+					item: "gtceu:rubber_plate"
+					type: "item"
+				}
+				{
+					id: "11BCA8CFBA47D094"
+					item: "gtceu:plate_casting_mold"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -573,11 +626,12 @@
 				item: "gtceu:resin_circuit_board"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3BEE6BE4F91FA1B0"]
+			description: ["And here I thought we'd be using breadboards"]
 			id: "1E811D532BC593F2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -591,7 +645,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4DE719FC2E4C69AB"]
@@ -621,72 +675,6 @@
 			}]
 			x: -6.5d
 			y: -2.0d
-		}
-		{
-			description: [
-				"You can find sulfur ore in the nether and then smelt it to get sulfur dust"
-				""
-				"There are also bees!"
-			]
-			id: "27E3DD2268CCDCD2"
-			rewards: [{
-				id: "68CE003ECD32F136"
-				item: "chemlib:sulfur_dust"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "590AFB75FCFC02F3"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:dusts/sulfur"
-					}
-				}
-				title: "Any #forge:dusts/sulfur"
-				type: "item"
-			}]
-			title: "Sulfur Dust"
-			x: 2.5d
-			y: 1.0d
-		}
-		{
-			description: ["A blast furnace with iron ingots can make you some steel if you don't have any"]
-			id: "3A47E7B364F13B46"
-			rewards: [{
-				count: 2
-				id: "3E84D97D124B85B7"
-				item: "alltheores:steel_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			subtitle: "Hope you have some steel handy"
-			tasks: [{
-				id: "65B5A14FC7F779A7"
-				item: "gtceu:plate_casting_mold"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 1.5d
-		}
-		{
-			description: ["Put iron in a blast furnace to get some steel ingots"]
-			id: "6F92BC048F36392D"
-			rewards: [{
-				count: 2
-				id: "41BDF614019575FD"
-				item: "alltheores:steel_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "3757C613D770887B"
-				item: "gtceu:ball_casting_mold"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 3.5d
 		}
 	]
 	title: "Steam Age"
