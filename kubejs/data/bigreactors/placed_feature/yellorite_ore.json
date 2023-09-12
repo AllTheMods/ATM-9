@@ -1,0 +1,31 @@
+{
+    "feature":"bigreactors:yellorite_ore",
+    "placement":[
+        {
+            "type":"count",
+            "count":{
+                "type":"constant",
+                "value":5
+            }
+        },
+        {
+            "type":"in_square"
+        },
+        {
+            "type":"height_range",
+            "height":{
+                "type":"uniform",
+                "min_inclusive":{
+                    "above_bottom":15,
+                    "absolute": 0,
+                    "below_top": 0
+                },
+                "max_inclusive":{
+                    "absolute":32,
+                    "above_bottom":0,
+                    "below_top": 0
+                }
+            }
+        }
+    ]
+}

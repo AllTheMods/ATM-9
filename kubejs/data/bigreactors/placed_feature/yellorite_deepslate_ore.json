@@ -1,0 +1,31 @@
+{
+    "feature":"bigreactors:yellorite_deepslate_ore",
+    "placement":[
+        {
+            "type":"count",
+            "count":{
+                "type":"constant",
+                "value":3
+            }
+        },
+        {
+            "type":"in_square"
+        },
+        {
+            "type":"height_range",
+            "height":{
+                "type":"uniform",
+                "min_inclusive":{
+                    "absolute":-64,
+                    "above_bottom":15,
+                    "below_top": 0
+                },
+                "max_inclusive":{
+                    "absolute":-48,
+                    "above_bottom":0,
+                    "below_top": 0
+                }
+            }
+        }
+    ]
+}
