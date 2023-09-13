@@ -36,26 +36,26 @@ ServerEvents.recipes(event => {
 
   // Philosopher's Fuel
   event.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
-    A: 'chemlib:oganesson',
+  A: 'chemlib:oganesson',
 	B: 'bloodmagic:bettercapacityrune2' ,
-	C: 'minecraft:bedrock' ,
+	C: 'bigreactors:insanite_block' ,
 	D: Item.of('evilcraft:flesh_rejuvenated', '{Fluid:{Amount:0,FluidName:"minecraft:empty"},capacity:10000}'),
 	E: 'mysticalagradditions:insanium_coal_block',
-    F: 'minecraft:bedrock',
+  F: 'forbidden_arcanus:deorum_block',
 	G: 'mysticalagriculture:awakened_supremium_furnace',
 	H: 'twilightforest:twilight_portal_miniature_structure',
-    I: 'minecraft:bedrock'
+  I: 'silentgear:tyrian_steel_block'
   }).id('kubejs:allthetweaks/philosophers_fuel')
 
   // Improbable Probaility Device
   event.shaped('allthetweaks:improbable_probability_device', ['ABA', 'CGE', 'FDF'], {
-    A: 'minecraft:bedrock',
+  A: 'minecraft:bedrock',
 	B: 'computercraft:pocket_computer_advanced',
-    C: ['extradisks:1048576k_storage_part', 'extradisks:1048576k_fluid_storage_part', 'megacells:cell_component_256m'],
-    D: 'advgenerators:power_capacitor_tier3',
+  C: ['extradisks:1048576k_storage_part', 'extradisks:1048576k_fluid_storage_part', 'megacells:cell_component_256m'],
+  D: 'advgenerators:power_capacitor_tier3',
 	E: 'rftoolsutility:flight_module',
-    F: Item.of('powah:battery_nitro', '{powah_tile_data:{energy_stored_main_energy:2000000000L}}').strongNBT(),
-    G: 'minecraft:bedrock'
+  F: Item.of('powah:battery_nitro', '{powah_tile_data:{energy_stored_main_energy:2000000000L}}').strongNBT(),
+  G: 'minecraft:bedrock'
   }).id('kubejs:allthetweaks/improbable_probability_device')
 
   // Nexium Emitter
@@ -73,12 +73,12 @@ ServerEvents.recipes(event => {
   event.custom({
     type: 'pneumaticcraft:pressure_chamber',
     inputs: [
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:bedrock', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'irons_spellbooks:fire_upgrade_orb', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'ae2:quantum_ring', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'pneumaticcraft:micromissiles', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:bedrock', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'forbidden_arcanus:dark_rune_block', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:nether_star', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:bedrock', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'quarryplus:adv_quarry', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'industrialforegoing:infinity_nuke', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'apotheosis:vial_of_expulsion', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'evilcraft:lightning_bomb', 'count': 1 }
