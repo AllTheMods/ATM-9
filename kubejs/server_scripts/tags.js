@@ -24,6 +24,10 @@ ServerEvents.tags('item', event => {
   event.add('forge:dusts', 'alltheores:netherite_dust')
   event.add('forge:dusts/netherite', 'alltheores:netherite_dust')
 
+  event.add('forbidden_arcanus:modifier/eternal_incompatible',[
+    '#alltheores:ore_hammers','@ftbic','minecraft:nether_star','bloodmagic:sanguinereverter'
+  ])
+
 })
 
 ServerEvents.tags('block', event => {
@@ -63,7 +67,7 @@ ServerEvents.tags('fluid', event => {
 })
 
 ServerEvents.tags('entity_type', event => {
-  event.add('kubejs:mob_blacklist', [/productivebees:.+/, 'allthemodium:piglich', 'artifacts:mimic', 'minecraft:iron_golem'])
+  event.add('kubejs:mob_blacklist', [/productivebees:.+/, 'allthemodium:piglich', 'artifacts:mimic', 'minecraft:iron_golem','minecraft:wither'])
   event.add('mob_grinding_utils:no_swab', '#kubejs:mob_blacklist')
   event.add('mob_grinding_utils:no_spawn', '#kubejs:mob_blacklist')
   event.add('pneumaticcraft:vacuum_trap_blacklisted', '#kubejs:mob_blacklist')
