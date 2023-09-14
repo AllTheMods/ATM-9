@@ -8,7 +8,6 @@ ServerEvents.recipes(event => {
   })*/
   // Tags still blah on first load
   let xpFluid = [
-    'cofh_core:experience',
     'industrialforegoing:essence',
     'mob_grinding_utils:fluid_xp',
     'pneumaticcraft:memory_essence',
