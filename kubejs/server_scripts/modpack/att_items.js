@@ -31,13 +31,13 @@ ServerEvents.recipes(event => {
       B: 'industrialforegoing:wither_builder',
       C: 'deeperdarker:heart_of_the_deep',
       D: 'minecraft:bedrock',
-      E: 'bloodmagic:sacrificerune2'
+      E: 'minecraft:bedrock'
     }).id('kubejs:allthetweaks/withers_compass')
 
   // Philosopher's Fuel
   event.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
   A: 'chemlib:oganesson',
-	B: 'bloodmagic:bettercapacityrune2' ,
+	B: 'minecraft:bedrock' ,
 	C: 'bigreactors:insanite_block' ,
 	D: Item.of('evilcraft:flesh_rejuvenated', '{Fluid:{Amount:0,FluidName:"minecraft:empty"},capacity:10000}'),
 	E: 'mysticalagradditions:insanium_coal_block',
