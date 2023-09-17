@@ -16,7 +16,7 @@
 		# Allows admins to toggle flying status using a command, without having to use Creative Mode
 		fly: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to toggle invincibility using a command, without having to use Creative Mode
