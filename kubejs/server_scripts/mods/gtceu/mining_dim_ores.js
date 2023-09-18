@@ -4,12 +4,8 @@ const $WorldGenLayers = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.
 const $HashBiMap = Java.loadClass('com.google.common.collect.HashBiMap');
 const $VeinedVeinGenerator = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.generator.VeinedVeinGenerator');
 const $DikeVeinGenerator = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.generator.DikeVeinGenerator');
-const $RegistryOps = Java.loadClass('net.minecraft.resources.RegistryOps');
-const $JsonOps = Java.loadClass('com.mojang.serialization.JsonOps');
-const $LDlPlatform = Java.loadClass('com.lowdragmc.lowdraglib.Platform');
 
 GTCEuServerEvents.oreVeins(event => {
-    var registryOps = $RegistryOps.create($JsonOps.INSTANCE, $LDlPlatform.frozenRegistry);
     //$ChemicalHelper.ORES_INVERSE.put(Blocks.AIR.defaultBlockState(), TagPrefix.ore)
     $HashBiMap.create(GTRegistries.ORE_VEINS.registry()).forEach((veinId, vein) => {
         let startY;
