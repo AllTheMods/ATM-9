@@ -4,6 +4,7 @@
     "alltheores",
     "allthemodium",
     "kubejs",
+    "gtceu",
     "thermal",
     "mekanism",
     "create",
@@ -117,7 +118,16 @@
     "zinc"
   ],
   "priorityOverrides": {},
-  "tagOwnerships": {},
+  "tagOwnerships": {
+    "forge:ingots/aluminum":["forge:ingots/aluminium"],
+    "forge:dusts/aluminum":["forge:dusts/aluminium"],
+    "forge:rods/aluminum":["forge:rods/aluminium"],
+    "forge:gears/aluminum":["forge:gears/aluminium"],
+    "forge:plates/aluminum":["forge:plates/aluminium"],
+    "forge:raw_materials/aluminum":["forge:raw_materials/aluminium"],
+    "forge:storage_blocks/raw_aluminum":["forge:storage_blocks/raw_aluminium"],
+    "forge:storage_blocks/aluminum":["forge:storage_blocks/aluminium"]
+  },
   "itemTagInheritanceMode": "ALLOW",
   "itemTagInheritance": {},
   "blockTagInheritanceMode": "ALLOW",
