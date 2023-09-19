@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
     type: 'powah:energizing',
     ingredients: [
       Ingredient.of('allthemodium:allthemodium_block').toJson(),
-      Ingredient.of('kubejs:piglich_heart_block').toJson(),
+      Ingredient.of('allthemodium:piglich_heart_block').toJson(),
       Ingredient.of('allthemodium:vibranium_block').toJson()
     ],
     energy: '8100000000',
@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
     type: 'powah:energizing',
     ingredients: [
       Ingredient.of('allthemodium:allthemodium_block').toJson(),
-      Ingredient.of('kubejs:piglich_heart_block').toJson(),
+      Ingredient.of('allthemodium:piglich_heart_block').toJson(),
       Ingredient.of('allthemodium:unobtainium_block').toJson()
     ],
     energy: '8100000000',
@@ -66,7 +66,7 @@ event.custom({
   type: 'powah:energizing',
   ingredients: [
     Ingredient.of('allthemodium:vibranium_block').toJson(),
-    Ingredient.of('kubejs:piglich_heart_block').toJson(),
+    Ingredient.of('allthemodium:piglich_heart_block').toJson(),
     Ingredient.of('allthemodium:unobtainium_block').toJson()
   ],
   energy: '8100000000',

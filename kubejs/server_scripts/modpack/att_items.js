@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     D: 'occultism:soul_gem',
     A: 'ends_delight:non_hatchable_dragon_egg',
     S: [Item.of('blue_skies:poison_arc', '{ArcLevel:1}').strongNBT(),Item.of('blue_skies:poison_arc', '{ArcLevel:2}').strongNBT(),'twilightforest:snow_queen_trophy'],
-    N: 'allthemodium:piglich_heart',
+    N: 'allthemodium:piglich_heart_block',
     I: [Item.of('blue_skies:nature_arc', '{ArcLevel:1}').strongNBT(),Item.of('blue_skies:nature_arc', '{ArcLevel:2}').strongNBT(),'twilightforest:snow_queen_trophy'],
     B: 'minecraft:dragon_breath',
 	G: 'productivebees:inactive_dragon_egg',
@@ -27,17 +27,17 @@ ServerEvents.recipes(event => {
 
     // Withers Compass
     event.shaped('allthetweaks:withers_compass', ['DCD', 'ABA', 'DED'], {
-      A: 'minecraft:bedrock',
+      A: 'cataclysm:abyssal_sacrifice',
       B: 'industrialforegoing:wither_builder',
       C: 'deeperdarker:heart_of_the_deep',
-      D: 'minecraft:bedrock',
-      E: 'minecraft:bedrock'
+      D: 'bloodmagic:speedrune2',
+      E: 'cataclysm:void_forge'
     }).id('kubejs:allthetweaks/withers_compass')
 
   // Philosopher's Fuel
   event.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
-  A: 'chemlib:oganesson',
-	B: 'minecraft:bedrock' ,
+  A: 'generatorgalore:ender_generator',
+	B: 'ironfurnaces:million_furnace'  ,
 	C: 'bigreactors:insanite_block' ,
 	D: Item.of('evilcraft:flesh_rejuvenated', '{Fluid:{Amount:0,FluidName:"minecraft:empty"},capacity:10000}'),
 	E: 'mysticalagradditions:insanium_coal_block',
@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
   D: 'advgenerators:power_capacitor_tier3',
 	E: 'rftoolsutility:flight_module',
   F: Item.of('powah:battery_nitro', '{powah_tile_data:{energy_stored_main_energy:2000000000L}}').strongNBT(),
-  G: 'minecraft:bedrock'
+  G: 'ad_astra:jet_suit'
   }).id('kubejs:allthetweaks/improbable_probability_device')
 
   // Nexium Emitter
@@ -93,7 +93,7 @@ ServerEvents.recipes(event => {
 
   // Oblivion Shard
   event.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
-    A: 'minecraft:bedrock',
+    A: 'forbidden_arcanus:eternal_stella',
     C: 'naturesaura:end_flower',
     B: 'naturesaura:chunk_loader'
   }).id('kubejs:allthetweaks/oblivion_shard')
