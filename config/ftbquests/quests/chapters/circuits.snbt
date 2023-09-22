@@ -139,6 +139,7 @@
 			y: -6.5d
 		}
 		{
+			disable_toast: true
 			id: "3054C2EE03C6A808"
 			tasks: [{
 				id: "57256C4A1C4B9A92"
@@ -208,6 +209,7 @@
 			y: -4.5d
 		}
 		{
+			disable_toast: true
 			id: "0A73BB97755CFC45"
 			tasks: [{
 				id: "156D59C67732F155"
@@ -218,6 +220,7 @@
 			y: -3.5d
 		}
 		{
+			disable_toast: true
 			id: "4B40D39B0CEC9D85"
 			tasks: [{
 				id: "37F01316CD043FF5"
@@ -229,6 +232,7 @@
 		}
 		{
 			dependencies: ["4B40D39B0CEC9D85"]
+			disable_toast: true
 			id: "3A6EC5903B620549"
 			tasks: [{
 				id: "6A956C371D74BF60"
@@ -240,6 +244,7 @@
 		}
 		{
 			dependencies: ["3A6EC5903B620549"]
+			disable_toast: true
 			id: "0B0A1657FAB2F27F"
 			tasks: [{
 				id: "6600B262526220E4"

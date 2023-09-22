@@ -28,8 +28,16 @@
 			size: 1.5d
 			subtitle: "And so it begins"
 			tasks: [{
+				icon: "alltheores:bronze_plate"
 				id: "107ADEF19CD50661"
-				item: "alltheores:bronze_plate"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates/bronze"
+					}
+				}
+				title: "Bronze Plate"
 				type: "item"
 			}]
 			title: "The Steam Age"
@@ -407,7 +415,7 @@
 			description: [
 				"Smash some glass with a hammer and alloy smelt the dust with a casting mold to make a glass tube"
 				""
-				"You can get steel ingots by using a blast furnace and smelting iron ingots"
+				"You can get steel ingots by smelting steel dust, made by mixing iron dust with coal"
 			]
 			icon: "gtceu:glass_tube"
 			id: "7A62C1B9385DF643"
@@ -652,17 +660,21 @@
 			description: [
 				"Rather than live in a crafting grid making plates and wires, it is often easier to automate these"
 				""
-				"Applied Energistics can handle this nicely when you set \"Use Substitutions\" to Yes"
+				"&5Applied Energistics&r can handle this nicely when you set \"Use Substitutions\" to Yes"
+				"&eNote:&r If you find channels limiting, consider setting the channelmode to 4x or infinite with the following commands (you'll need OP on a server or cheats enabled on singleplayer)"
+				"&o/ae2 channelmode x4&r"
+				"&o/ae2 channelmode infinite&r"
 				""
-				"Refined Storage struggles in this regard because it will not use the same tool twice due to NBT"
+				"&bRefined Storage&r struggles in this regard because it will not use the same tool twice due to NBT"
 				""
-				"An alternative here could be to set up your autocrafting in something like an RFTools Crafter"
+				"An alternative here could be to set up your autocrafting in something like an &aRFTools Crafter&r"
 				""
 				"Automation is highly recommended, especially when we begin dealing with fluids"
 				""
-				"You can set machines to automatically output back into a pattern provider/crafter, just be sure to toggle the \"Allow Inputs from Output Side\" setting in the GUI"
+				"You can set &6LV+ Machines&r to automatically output back into a pattern provider, just be sure to toggle the \"Allow Inputs from Output Side\" setting in the GUI. Steam machines aren't smart enough to auto output, so you'll need something to &cimport&r back into the system for now"
 			]
 			id: "12F916CDC2FB7A79"
+			min_width: 350
 			rewards: [{
 				id: "31599B5243F888C0"
 				type: "xp"

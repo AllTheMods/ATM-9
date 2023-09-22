@@ -22,7 +22,7 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Welcome to MV"
+			subtitle: "Welcome to &bMV&r"
 			tasks: [{
 				id: "7DECEDB572639CFF"
 				item: "gtceu:good_electronic_circuit"
@@ -207,7 +207,7 @@
 				""
 				"You could use air instead of oxygen, but you'll get less Polyethylene out"
 				""
-				"This stuff is very versatile, we'll be using a lot of it, so be sure to make a bunch"
+				"This stuff is very versatile, we'll be using a lot of it, so be sure to make a bunch or better yet make it passively"
 			]
 			id: "6A82827978D3483B"
 			rewards: [{
@@ -272,6 +272,7 @@
 				"4DD7F3508B757EF0"
 				"1F92F7314DF3C3E2"
 			]
+			description: ["One ruby plate in the Lathe will make a Ruby Lens"]
 			id: "26004F997C758011"
 			rewards: [{
 				id: "7742DCB74500D3F7"
@@ -341,6 +342,7 @@
 			dependencies: [
 				"545959C8C28C6F2B"
 				"26004F997C758011"
+				"644B16B9618B41BE"
 			]
 			description: [
 				"Uses a laser and specific lenses to engrave different patterns on the wafers"
@@ -367,6 +369,7 @@
 				"1ACD6672F72664D6"
 				"1F92F7314DF3C3E2"
 			]
+			description: ["Process one of those emerald plates in a Lathe to get your Emerald Lens!"]
 			id: "545959C8C28C6F2B"
 			rewards: [{
 				id: "16950710D10185F1"
@@ -406,6 +409,7 @@
 		}
 		{
 			dependencies: ["0D1A6B32FEB51FAD"]
+			description: ["Use the cutter with a block of emerald to get emerald plates"]
 			id: "1ACD6672F72664D6"
 			rewards: [{
 				id: "4165234EDBAE1A23"
@@ -422,6 +426,7 @@
 		}
 		{
 			dependencies: ["0D1A6B32FEB51FAD"]
+			description: ["Insert a block of ruby into your cutter to get nine ruby plates"]
 			id: "4DD7F3508B757EF0"
 			rewards: [{
 				id: "16A756955B6CB9B8"
@@ -658,7 +663,7 @@
 			description: [
 				"Use a &aMortar&r on some coal to get coal dust"
 				""
-				"Put your coal dust through the Centrifuge to get carbon dust"
+				"Put your coal dust through the &eCentrifuge&r to get carbon dust"
 				""
 				"Use that Centrifuge again, with glass dust this time, to get silicon dioxide dust"
 			]
@@ -739,7 +744,7 @@
 			description: [
 				"Distills compounds into other substances - note the programmed circuit setting for the available recipes"
 				""
-				"There is a Distillation Tower, but we will get into that in the next chapter"
+				"There is a Distillation Tower, but we will get into that later on"
 			]
 			id: "22AC248B6BB88486"
 			rewards: [{
@@ -861,11 +866,19 @@
 			icon: "gtceu:mv_rock_crusher"
 			id: "6275C90E5890C1E4"
 			optional: true
-			rewards: [{
-				id: "32792BF84A213FBF"
-				item: "minecraft:diorite"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "32792BF84A213FBF"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "294610D7D543A42E"
+					table_id: 7083859357644513434L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			size: 1.25d
 			subtitle: "Passive aluminium"
@@ -1061,6 +1074,12 @@
 			]
 			id: "6E9126ECA080E725"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50081BD1D618A429"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "026C2FC05C707BFF"
@@ -1081,6 +1100,12 @@
 			]
 			id: "72DACA35906D7E5B"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27269BEDB3689DA1"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2F87D396311C6602"
@@ -1220,7 +1245,7 @@
 				item: "gtceu:annealed_copper_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -5.5d
 		}
 		{
@@ -1265,7 +1290,11 @@
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
-			description: ["This machine is going to see a lot of use, upgrading it is worth it to keep it processing recipes quickly"]
+			description: [
+				"This machine is going to see a lot of use, upgrading it is worth it to keep it processing recipes quickly"
+				""
+				"Consider making multiple of these to help process recipes in parallel"
+			]
 			id: "579A41570D610B07"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1297,6 +1326,133 @@
 			}]
 			x: -1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["4E1D5EC061A4AE55"]
+			description: [
+				"Still crafting resistors in a crafting grid? "
+				""
+				"Take that annealed copper, turn it into fine wire, then add a little glue and carbon to make 4 resistors at once in your Assembler"
+				""
+				"Talk about a recipe upgrade!"
+			]
+			id: "4AE05E80142C12A6"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "0F34F1836D2E1927"
+				item: "gtceu:resistor"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "2F26EFD73DE0E8A1"
+					item: "gtceu:annealed_copper_fine_wire"
+					type: "item"
+				}
+				{
+					id: "427138127BEBAEAF"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:carbon_dust"
+								}
+								{
+									Count: 1b
+									id: "chemlib:carbon_dust"
+								}
+								{
+									Count: 1b
+									id: "gtceu:charcoal_dust"
+								}
+								{
+									Count: 1b
+									id: "railcraft:charcoal_dust"
+								}
+								{
+									Count: 1b
+									id: "gtceu:coal_dust"
+								}
+								{
+									Count: 1b
+									id: "chemlib:coal_dust"
+								}
+								{
+									Count: 1b
+									id: "enderio:powdered_coal"
+								}
+								{
+									Count: 1b
+									id: "railcraft:coal_dust"
+								}
+							]
+						}
+					}
+					title: "Carbon dust"
+					type: "item"
+				}
+			]
+			title: "Resistors Revisited"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"A new setup for ore processing! "
+				""
+				"[ \"\", { \"text\": \"The \" }, { \"text\": \"Sifter \", \"color\":\"yellow\" }, { \"text\": \"replaces the Thermal Centrifuge and 2nd Macerator in the \" }, { \"text\":\"Ore Processing Setup\", \"color\":\"gold\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"25DBFE887B041E94\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } } ]"
+				""
+				"You don't have to build a new setup just for this if you are clever with filters and your item flow, but a new setup is probably less work"
+			]
+			id: "51DB667E991E51F0"
+			tasks: [{
+				id: "0ED34925D7A494BF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_sifter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_sifter"
+							}
+						]
+					}
+				}
+				title: "Sifter"
+				type: "item"
+			}]
+			x: 7.699999999999999d
+			y: -4.300000000000001d
+		}
+		{
+			dependencies: ["51DB667E991E51F0"]
+			description: [
+				"Process &aRaw Emerald&r or silk-touched &aNether Emerald Ore&r through a Macerator, then Ore Washer the crushed ore, then start &esifting&r the purified ore for &bExquisite&r or &bFlawless&r gems"
+				""
+				"It does have to be GregTech's emerald ore, you can't use regular silk-touched emerald ore for this"
+				""
+				"&e&lHint:&r To find GregTech™ emeralds, look for &dberyllium&r in the Nether &cbetween y=5 and y=30&r, or you can check the Mining Dimension in the netherrack layer!"
+			]
+			id: "644B16B9618B41BE"
+			min_width: 250
+			tasks: [{
+				id: "4DB8770CF9F924C5"
+				item: "gtceu:emerald_flawless_gem"
+				type: "item"
+			}]
+			x: 6.4d
+			y: -4.300000000000001d
 		}
 	]
 	title: "Medium Voltage"
