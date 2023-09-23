@@ -312,12 +312,12 @@
 	#Generation Settings for fluorite ore.
 	[world_generation.fluorite]
 		#Determines if fluorite ore should be added to world generation.
-		shouldGenerate = false
+		shouldGenerate = true
 
 		#normal fluorite vein Generation Settings.
 		[world_generation.fluorite.normal]
 			#Determines if normal fluorite veins should be added to world generation. Note: Requires generating fluorite ore to be enabled.
-			shouldGenerate = false
+			shouldGenerate = true
 			#Chance that normal fluorite veins generates in a chunk.
 			#Range: 1 ~ 256
 			perChunk = 5
@@ -358,7 +358,7 @@
 		#buried fluorite vein Generation Settings.
 		[world_generation.fluorite.buried]
 			#Determines if buried fluorite veins should be added to world generation. Note: Requires generating fluorite ore to be enabled.
-			shouldGenerate = false
+			shouldGenerate = true
 			#Chance that buried fluorite veins generates in a chunk.
 			#Range: 1 ~ 256
 			perChunk = 3
@@ -445,7 +445,7 @@
 	#Generation Settings for salt.
 	[world_generation.salt]
 		#Determines if salt should be added to world generation.
-		shouldGenerate = false
+		shouldGenerate = true
 		#Chance that salt generates in a chunk.
 		#Range: 1 ~ 256
 		perChunk = 2

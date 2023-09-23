@@ -40,9 +40,9 @@
 	#Range: 0.0 ~ 1.0
 	souliumOreChance = 0.05
 	#Should Inferium Ore generate in the world?
-	generateInferiumOre = false
+	generateInferiumOre = true
 	#Should Prosperity Ore generate in the world?
-	generateProsperityOre = false
+	generateProsperityOre = true
 	#Should Soulstone generate in the world?
 	generateSoulstone = true
 
