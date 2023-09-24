@@ -862,7 +862,7 @@
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
-			description: ["Put water on the left and lava on the right of your rock crusher, in the world, then insert diorite in the rock crusher, and watch it create more diorite for you"]
+			description: ["Put water on the left and lava on the right of your &erock crusher&r, in the world, then insert a single diorite block in the rock crusher, and watch it create more diorite for you"]
 			icon: "gtceu:mv_rock_crusher"
 			id: "6275C90E5890C1E4"
 			optional: true
@@ -1041,7 +1041,7 @@
 			description: [
 				"Our first cover! Covers alter the behavior of machines in a multitude of ways, but this isn't the place to get into all of that"
 				""
-				"The robot arm cover will allow you to export (by default) or import items into a machine. In this case, using that buffer chest/barrel from before, you can import specifically diorite dust"
+				"The &arobot arm&r cover will allow you to export (by default) or import items into a machine. In this case, using that buffer chest/barrel from before, you can import specifically diorite dust"
 				""
 				"Why is this LV when we're in MV? Well, because it is cheaper to make and covers don't explode despite the voltage difference"
 			]
