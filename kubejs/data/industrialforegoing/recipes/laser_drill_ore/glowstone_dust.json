@@ -1,0 +1,25 @@
+{
+  "output": {
+    "tag": "forge:dusts/glowstone"
+  },
+  "rarity": [
+    {
+      "whitelist": {
+        "type": "minecraft:worldgen/biome",
+        "values": [
+          "minecraft:warped_forest",
+          "minecraft:crimson_forest"
+        ]
+      },
+      "blacklist": {},
+      "depth_min": 100,
+      "depth_max": 123,
+      "weight": 99
+    }
+  ],
+  "pointer": 0,
+  "catalyst": {
+    "item": "industrialforegoing:laser_lens13"
+  },
+  "type": "industrialforegoing:laser_drill_ore"
+}

@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     D: 'occultism:soul_gem',
     A: 'ends_delight:non_hatchable_dragon_egg',
     S: [Item.of('blue_skies:poison_arc', '{ArcLevel:1}').strongNBT(),Item.of('blue_skies:poison_arc', '{ArcLevel:2}').strongNBT(),'twilightforest:snow_queen_trophy'],
-    N: 'allthemodium:piglich_heart',
+    N: 'allthemodium:piglich_heart_block',
     I: [Item.of('blue_skies:nature_arc', '{ArcLevel:1}').strongNBT(),Item.of('blue_skies:nature_arc', '{ArcLevel:2}').strongNBT(),'twilightforest:snow_queen_trophy'],
     B: 'minecraft:dragon_breath',
 	G: 'productivebees:inactive_dragon_egg',
@@ -27,58 +27,58 @@ ServerEvents.recipes(event => {
 
     // Withers Compass
     event.shaped('allthetweaks:withers_compass', ['DCD', 'ABA', 'DED'], {
-      A: 'minecraft:bedrock',
+      A: 'cataclysm:abyssal_sacrifice',
       B: 'industrialforegoing:wither_builder',
       C: 'deeperdarker:heart_of_the_deep',
-      D: 'minecraft:bedrock',
-      E: 'bloodmagic:sacrificerune2'
+      D: 'bloodmagic:speedrune2',
+      E: 'cataclysm:void_forge'
     }).id('kubejs:allthetweaks/withers_compass')
 
   // Philosopher's Fuel
   event.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
-    A: 'chemlib:oganesson',
-	B: 'bloodmagic:bettercapacityrune2' ,
-	C: 'minecraft:bedrock' ,
+  A: 'generatorgalore:ender_generator',
+	B: 'ironfurnaces:million_furnace'  ,
+	C: 'bigreactors:insanite_block' ,
 	D: Item.of('evilcraft:flesh_rejuvenated', '{Fluid:{Amount:0,FluidName:"minecraft:empty"},capacity:10000}'),
 	E: 'mysticalagradditions:insanium_coal_block',
-    F: 'minecraft:bedrock',
+  F: 'forbidden_arcanus:deorum_block',
 	G: 'mysticalagriculture:awakened_supremium_furnace',
 	H: 'twilightforest:twilight_portal_miniature_structure',
-    I: 'minecraft:bedrock'
+  I: 'silentgear:tyrian_steel_block'
   }).id('kubejs:allthetweaks/philosophers_fuel')
 
-  // Improbable Probaility Device
+  // Improbable Probability Device
   event.shaped('allthetweaks:improbable_probability_device', ['ABA', 'CGE', 'FDF'], {
-    A: 'minecraft:bedrock',
-	B: 'computercraft:pocket_computer_advanced',
+    A: 'enderio:prescient_powder',
+      B: 'computercraft:pocket_computer_advanced',
     C: ['extradisks:1048576k_storage_part', 'extradisks:1048576k_fluid_storage_part', 'megacells:cell_component_256m'],
     D: 'advgenerators:power_capacitor_tier3',
-	E: 'rftoolsutility:flight_module',
+      E: 'rftoolsutility:flight_module',
     F: Item.of('powah:battery_nitro', '{powah_tile_data:{energy_stored_main_energy:2000000000L}}').strongNBT(),
-    G: 'minecraft:bedrock'
-  }).id('kubejs:allthetweaks/improbable_probability_device')
-
-  // Nexium Emitter
-  event.shaped('allthetweaks:nexium_emitter', ['A B', ' CF', 'GED'], {
-    A: 'powah:player_transmitter_nitro',
-    B: [Item.of('ae2wtlib:wireless_universal_terminal', '{crafting:1b,internalMaxPower:4800000.0d,pattern_access:1b,pattern_encoding:1b}'), Item.of('universalgrid:wireless_universal_grid', '{gridType:0}')],
-    C: 'minecraft:bedrock',
-    D: 'minecraft:bedrock',
-    E: 'ae2:singularity',
-    F: 'minecraft:bedrock',
-    G: 'minecraft:bedrock'
-  }).id('kubejs:allthetweaks/nexium_emitter')
+    G: 'ad_astra:jet_suit'
+    }).id('kubejs:allthetweaks/improbable_probability_device')
+  
+    // Nexium Emitter
+    event.shaped('allthetweaks:nexium_emitter', ['A B', ' CF', 'GED'], {
+      A: 'powah:player_transmitter_nitro',
+      B: [Item.of('ae2wtlib:wireless_universal_terminal', '{crafting:1b,internalMaxPower:4800000.0d,pattern_access:1b,pattern_encoding:1b}'), Item.of('universalgrid:wireless_universal_grid', '{gridType:0}')],
+      C: [Item.of('gtceu:hv_emitter')], // TODO: Add Mek/Thermal alternative
+      D: 'create:mechanical_arm',
+      E: 'ae2:singularity',
+      F: 'integrateddynamics:part_connector_omni_directional',
+      G: 'exchangers:end_exchanger'
+    }).id('kubejs:allthetweaks/nexium_emitter')
 
   // Pulsating Black Hole
   event.custom({
     type: 'pneumaticcraft:pressure_chamber',
     inputs: [
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:bedrock', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'irons_spellbooks:fire_upgrade_orb', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'ae2:quantum_ring', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'pneumaticcraft:micromissiles', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:bedrock', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'forbidden_arcanus:dark_rune_block', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:nether_star', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:bedrock', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'quarryplus:adv_quarry', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'industrialforegoing:infinity_nuke', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'apotheosis:vial_of_expulsion', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'evilcraft:lightning_bomb', 'count': 1 }
@@ -93,7 +93,7 @@ ServerEvents.recipes(event => {
 
   // Oblivion Shard
   event.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
-    A: 'minecraft:bedrock',
+    A: 'forbidden_arcanus:eternal_stella',
     C: 'naturesaura:end_flower',
     B: 'naturesaura:chunk_loader'
   }).id('kubejs:allthetweaks/oblivion_shard')

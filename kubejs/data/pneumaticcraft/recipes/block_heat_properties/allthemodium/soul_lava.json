@@ -1,0 +1,10 @@
+{
+    "type": "pneumaticcraft:heat_properties",
+    "block": "allthemodium:soul_lava",
+    "temperature": 9273.15,
+    "thermalResistance": 2700,
+    "transformCold": {
+      "block": "allthemodium:ancient_stone"
+    },
+    "heatCapacity": 120000
+  }

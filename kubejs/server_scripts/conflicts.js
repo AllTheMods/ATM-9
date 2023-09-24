@@ -10,5 +10,10 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'gtceu:shapeless/gem_to_gem_flawedgem_lapis' })
   event.shaped('2x gtceu:lapis_flawed_gem', ['LL'], { L: 'minecraft:lapis_lazuli' })
 
+  // GT Duplicate Removals
+  event.remove({ id: 'gtceu:shapeless/block_compress_nether_star' })
+  event.remove({ id: 'gtceu:shapeless/block_compress_ender_pearl' })
+  event.remove({ id: 'gtceu:shapeless/block_compress_flint' })
+
 })
 

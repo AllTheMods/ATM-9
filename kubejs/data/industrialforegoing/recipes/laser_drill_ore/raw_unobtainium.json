@@ -1,0 +1,24 @@
+{
+    "output": {
+      "tag": "forge:raw_materials/unobtainium"
+    },
+    "rarity": [
+      {
+        "whitelist": {
+          "type": "minecraft:worldgen/biome",
+          "values": [
+            "minecraft:end_highlands"
+          ]
+        },
+        "blacklist": {},
+        "depth_min": 30,
+        "depth_max": 60,
+        "weight": 1
+      }
+    ],
+    "pointer": 0,
+    "catalyst": {
+      "item": "industrialforegoing:laser_lens10"
+    },
+    "type": "industrialforegoing:laser_drill_ore"
+  }
