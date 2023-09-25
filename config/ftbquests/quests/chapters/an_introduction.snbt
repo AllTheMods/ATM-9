@@ -2127,6 +2127,7 @@
 			rewards: [{
 				id: "6ECEEE679E6910B8"
 				item: "gtceu:polyethylene_bucket"
+				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
@@ -2168,6 +2169,7 @@
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "500548E772861A58"
+				title: "Go to the Nether"
 				type: "dimension"
 			}]
 			title: "Nether Ores"
@@ -2186,6 +2188,7 @@
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "540231448A4DE43B"
+				title: "Visit the End"
 				type: "dimension"
 			}]
 			title: "End Ores"

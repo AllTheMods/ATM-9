@@ -12,7 +12,7 @@
 			description: [
 				"Upgrading your machines will grant you access to new recipes and increase their processing speed"
 				""
-				"This is called overclocking and can be configured in the GUI of the machine if you do not want to overclock (to conserve power for example)"
+				"This is called &boverclocking&r and can be configured in the GUI of the machine if you do not want to overclock (to conserve power for example)"
 				""
 				"Overclocking a recipe results in it processing twice as fast but using four times as much power - overall this means twice as much energy is used"
 			]
@@ -34,7 +34,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Welcome to LV"
+			subtitle: "Welcome to &7LV&r"
 			tasks: [{
 				id: "08EA6CE798092CE9"
 				item: "gtceu:basic_electronic_circuit"
@@ -401,9 +401,11 @@
 				""
 				"In that instance, you could make Energy Converters to turn that RF into EU and cable this to your machines"
 				""
-				"By default it is set to convert EU to RF, so you will need to thwack it with a soft mallet to change it to RF to EU conversion"
+				"By default it is set to convert EU to RF, so you will need to thwack it with a &asoft mallet&r to change it to RF to EU conversion"
 				""
-				"The red side is the EU side and the green sides are for RF/FE. Keep in mind you can rotate the converter by crouch right clicking with a wrench"
+				"The red side is the EU side and the green sides are for RF/FE. Keep in mind you can rotate the converter by crouch right clicking with a &awrench&r"
+				""
+				"&e&lNote:&r&r Use &awirecutters&r to enable and disable wire connections to blocks and each other"
 			]
 			id: "01339A8C26CC6E0C"
 			optional: true
@@ -519,7 +521,9 @@
 				""
 				"You'll find the option to change the programmed circuit setting in the machine's GUI, just select the program that corresponds to the recipe you are running and it will start running"
 				""
-				"Often it is easier to dedicate a machine to a specific program setting and make a new one rather than change program settings"
+				"&6&lYou don't need to craft a programmed circuit&r&r"
+				""
+				"Often it is easier to dedicate a machine to a specific program setting and make a new one rather than change program settings manually for different crafting recipes"
 			]
 			icon: {
 				Count: 1b
@@ -529,6 +533,7 @@
 				}
 			}
 			id: "4875FB6628C1FCDC"
+			min_width: 300
 			rewards: [{
 				id: "2190B18F4B77EA5B"
 				type: "xp"
@@ -581,6 +586,7 @@
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "6E2F24117ACF3694"
+			min_width: 350
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -650,6 +656,12 @@
 					item: "gtceu:heatproof_machine_casing"
 					type: "item"
 				}
+				{
+					icon: "ftbquests:barrier"
+					id: "3F5D1730023562C7"
+					title: "Observe Formed EBF"
+					type: "custom"
+				}
 			]
 			x: 1.5d
 			y: 1.0d
@@ -665,6 +677,7 @@
 				"Alternatively, you could build a Basic Gas Collector and use that to collect air, which you would then centrifuge into oxygen. Water can also be electrolyzed into oxygen, but be aware, these methods are quite slow"
 			]
 			id: "7D5F805A6F2551F0"
+			min_width: 250
 			rewards: [{
 				id: "5EB301581155D469"
 				type: "xp"
@@ -690,8 +703,11 @@
 				"Byproducts are often used for recipes further on, so be sure to keep them!"
 				""
 				"There are many ways to automate this setup, so it is left as an exercise for the reader"
+				""
+				"[ \"\", { \"text\": \"Note: \", \"color\":\"#FFFF55\", \"bold\":\"true\" }, { \"text\": \"The Ore Washer requires \" }, { \"text\": \"water\", \"color\":\"#5555FF\" }, { \"text\": \" and a \" }, { \"text\":\"Programmed Circuit\", \"color\":\"#FFAA00\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"4875FB6628C1FCDC\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } }, { \"text\":\" setting to run\" } ]"
 			]
 			id: "25DBFE887B041E94"
+			min_width: 350
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7275D97C107F982C"
@@ -740,7 +756,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["74EE98F95F483C37"]
+			dependencies: ["512BD9BCA43AEE83"]
 			description: [
 				"If you get lucky, you may find Realgar which can be turned into arsenic directly in a centrifuge"
 				""
@@ -759,7 +775,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6E2F24117ACF3694"]
@@ -817,7 +833,7 @@
 			description: [
 				"Processing bauxite or sphalerite are the main methods of obtaining gallium"
 				""
-				"Eventually you will want to start making sodium persulfate and a Chemical Bath to replace the Ore Washer in a separate Ore Processing Setup for a higher chance at gallium dust"
+				"Eventually you might want to start making &9Sodium Persulfate&r to put in a &eChemical Bath&r, replacing the Ore Washer in a separate Ore Processing Setup for a higher chance at &dgallium dust&r when processing &6bauxite&r"
 			]
 			id: "402B0C7242A00309"
 			rewards: [{
@@ -1015,6 +1031,29 @@
 			title: "Passive Oxygen Line"
 			x: -2.4249999999999994d
 			y: 2.9000000000000004d
+		}
+		{
+			dependencies: ["74EE98F95F483C37"]
+			description: [
+				"The electrolyzer will separate compounds into constituent compounds based on their electric charge"
+				""
+				"In our case, it will separate the &dArsenic Trioxide&r into &eArsenic&r and &bOxygen&r"
+			]
+			id: "512BD9BCA43AEE83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E0610F2A25EA1CB"
+				table_id: 4804065436311136435L
+				type: "loot"
+			}]
+			subtitle: "Shock me like an electric eel"
+			tasks: [{
+				id: "4DE768EBE8A565BA"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
 		}
 	]
 	title: "Low Voltage"
