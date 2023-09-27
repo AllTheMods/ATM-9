@@ -15,5 +15,10 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'gtceu:shapeless/block_compress_ender_pearl' })
   event.remove({ id: 'gtceu:shapeless/block_compress_flint' })
 
+// GT Uraninite
+  event.remove({ id: 'gtceu:blasting/smelt_raw_uraninite_ore_to_ingot' })
+  event.remove({ id: 'gtceu:smelting/smelt_raw_uraninite_ore_to_ingot' })
+  event.remove({ id: 'gtceu:shaped/compress_uraninite_to_ore_block' })
+
 })
 
