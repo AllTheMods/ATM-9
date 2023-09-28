@@ -18,7 +18,9 @@ ServerEvents.recipes(event => {
   // GT conflicts, Powah Uraninite
   event.remove({ id: 'gtceu:smelting/smelt_raw_uraninite_ore_to_ingot'})
   event.remove({ id: 'gtceu:blasting/smelt_raw_uraninite_ore_to_ingot'})
+  event.remove({ id: 'gtceu:shaped/compress_uraninite_to_ore_block' })
   event.smelting('gtceu:uraninite_dust', 'gtceu:raw_uraninite').id('atm9:gtceu/smelting_smelt_raw_uraninite_ore_to_ingot')
   event.blasting('gtceu:uraninite_dust', 'gtceu:raw_uraninite').id('atm9:gtceu/blasting_smelt_raw_uraninite_ore_to_ingot')
+  event.shapeless('gtceu:raw_uraninite_block', '9x gtceu:raw_uraninite').id('atm9:gtceu/shaped_compress_uraninite_to_ore_block')
 })
 
