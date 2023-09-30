@@ -27,6 +27,31 @@ ServerEvents.tags('item', event => {
   event.add('forbidden_arcanus:modifier/eternal_incompatible',[
     '#alltheores:ore_hammers','@ftbic','minecraft:nether_star','bloodmagic:sanguinereverter'
   ])
+  event.add('forge:storage_blocks_ores', [
+  '#forge:storage_blocks/raw_aluminum', 
+  '#forge:storage_blocks/raw_iridium', 
+  '#forge:storage_blocks/raw_lead', 
+  '#forge:storage_blocks/raw_nickel', 
+  '#forge:storage_blocks/raw_osmium', 
+  '#forge:storage_blocks/raw_platinum', 
+  '#forge:storage_blocks/raw_silver', 
+  '#forge:storage_blocks/raw_tin', 
+  '#forge:storage_blocks/raw_uranium', 
+  '#forge:storage_blocks/raw_zinc', 
+  '#forge:storage_blocks/raw_copper', 
+  '#forge:storage_blocks/raw_iron', 
+  '#forge:storage_blocks/raw_gold', 
+  '#forge:storage_blocks/raw_calorite', 
+  '#forge:storage_blocks/raw_desh', 
+  '#forge:storage_blocks/raw_ostrum', 
+  '#forge:storage_blocks/raw_allthemodium', 
+  '#forge:storage_blocks/raw_unobtainium', 
+  '#forge:storage_blocks/raw_vibranium', 
+  '#forge:storage_blocks/raw_azure_silver', 
+  '#forge:storage_blocks/raw_crimson_iron', 
+  '#forge:storage_blocks/raw_cloggrum', 
+  '#forge:storage_blocks/raw_froststeel'
+  ])
 
 })
 
