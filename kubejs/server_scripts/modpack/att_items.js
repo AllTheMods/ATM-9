@@ -49,11 +49,11 @@ ServerEvents.recipes(event => {
 
   // Improbable Probability Device
   event.shaped('allthetweaks:improbable_probability_device', ['ABA', 'CGE', 'FDF'], {
-    A: 'enderio:prescient_powder',
-      B: 'computercraft:pocket_computer_advanced',
+    A: 'mekanism:pellet_antimatter',
+    B: 'computercraft:pocket_computer_advanced',
     C: ['extradisks:1048576k_storage_part', 'extradisks:1048576k_fluid_storage_part', 'megacells:cell_component_256m'],
     D: 'advgenerators:power_capacitor_tier3',
-      E: 'rftoolsutility:flight_module',
+    E: 'rftoolsutility:flight_module',
     F: Item.of('powah:battery_nitro', '{powah_tile_data:{energy_stored_main_energy:2000000000L}}').strongNBT(),
     G: 'ad_astra:jet_suit'
     }).id('kubejs:allthetweaks/improbable_probability_device')
@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
     event.shaped('allthetweaks:nexium_emitter', ['A B', ' CF', 'GED'], {
       A: 'powah:player_transmitter_nitro',
       B: [Item.of('ae2wtlib:wireless_universal_terminal', '{crafting:1b,internalMaxPower:4800000.0d,pattern_access:1b,pattern_encoding:1b}'), Item.of('universalgrid:wireless_universal_grid', '{gridType:0}')],
-      C: [Item.of('gtceu:hv_emitter')], // TODO: Add Mek/Thermal alternative
+      C: [Item.of('mekanism:module_teleportation_unit')], // TODO: Add Mek/Thermal alternative
       D: 'create:mechanical_arm',
       E: 'ae2:singularity',
       F: 'integrateddynamics:part_connector_omni_directional',
