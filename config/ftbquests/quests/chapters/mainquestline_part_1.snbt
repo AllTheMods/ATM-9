@@ -2638,11 +2638,13 @@
 		{
 			dependencies: ["1FD4C32B3937E1C7"]
 			description: [
-				"&6Allthemodium&r allows you to create a &dTeleport Pad&r to travel to 2 new dimensions: the Mining Dimension and the Other."
+				"&6Allthemodium&r allows you to create a &dTeleport Pad&r to travel to 3 new dimensions: the Mining Dimension, the Other, and the Beyond."
 				""
 				"To get to the Mining Dimension, place down the Teleport Pad in the Overworld and sneak-right click it with empty HANDS. Both hands need to be empty."
 				""
 				"To get to the Other, place the Teleport Pad down in the Nether and sneak-right click it with empty hands."
+				""
+				"To get to the Beyond, place the Teleport Pad down in the End and sneak-right click it with empty hands."
 			]
 			id: "7B74D36B9C69B63E"
 			rewards: [
@@ -2722,6 +2724,31 @@
 			title: "&aThe&r &dOther&r &aDimension&r"
 			x: 12.5d
 			y: 12.5d
+		}
+		{
+			dependencies: ["7B74D36B9C69B63E"]
+			description: [
+				"Situated past the edge of the End, is the Beyond, a completely unavoidable space for those builders that want a lot of clear area to work in."
+				""
+				"Similar to the overworld->Nether, there is a block ratio of 1:50 for the End->Beyond"
+			]
+			icon: "voidtotem:totem_of_void_undying"
+			id: "4D160570DC0C8898"
+			rewards: [{
+				id: "4D320FE983E58193"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				dimension: "allthemodium:the_beyond"
+				id: "3F76760927159DF0"
+				type: "dimension"
+			}]
+			title: "&aThe&r &dBeyond&r"
+			x: 13.5d
+			y: 13.5d
 		}
 	]
 	title: "&aPart 1&r: &bGetting Started&r"

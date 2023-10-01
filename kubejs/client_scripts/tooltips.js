@@ -17,7 +17,8 @@ ItemEvents.tooltip(event => {
     Text.of('Place the pad down in the specified Dimension'),
     Text.of('Sneak Right Click with both hands empty to teleport'),
     Text.of('§aOverworld TO Mining Dimension').red(),
-    Text.of('§cThe Nether TO The Other').red()
+    Text.of('§cThe Nether TO The Other').red(),
+    Text.of('§bThe End TO The Beyond')
   ])
   
   //Mekanism
