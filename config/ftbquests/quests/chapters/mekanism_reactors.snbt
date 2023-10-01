@@ -194,7 +194,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "mob_grinding_utils:blocks/fan_front_on"
+			image: "mob_grinding_utils:block/fan_front_on"
 			rotation: -45.0d
 			width: 1.0d
 			x: 11.0d
@@ -206,7 +206,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "mob_grinding_utils:blocks/fan_front_on"
+			image: "mob_grinding_utils:block/fan_front_on"
 			rotation: -45.0d
 			width: 1.0d
 			x: 11.0d
@@ -262,7 +262,7 @@
 			y: -4.0d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -338,14 +338,12 @@
 					command: "/create ponder mekanismgenerators:fission_reactor_casing"
 					icon: "ftbquests:barrier"
 					id: "747F4E333BDC5563"
-					player_command: false
 					title: "Click Me To See How To Build!"
 					type: "command"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "42378432B647A5A8"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -397,14 +395,12 @@
 					command: "/create ponder mekanismgenerators:fission_reactor_port"
 					icon: "mekanismgenerators:fission_reactor_port"
 					id: "5B0B515B95ACDB8C"
-					player_command: false
 					title: "Click Me To Learn More!"
 					type: "command"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "6AC80E7D1E9239A7"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -471,7 +467,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "27BB1242A6E08E5D"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -524,7 +519,6 @@
 					command: "/create ponder mekanismgenerators:fission_reactor_logic_adapter"
 					icon: "mekanismgenerators:fission_reactor_logic_adapter"
 					id: "4CE5F77418DBFFFB"
-					player_command: false
 					title: "Click Me To Learn More!"
 					type: "command"
 				}
@@ -641,7 +635,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4A0CA5788E093C63"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -676,7 +669,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "42A731D3881A8723"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -713,7 +705,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4B0908AEDBA24DDF"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -798,7 +789,7 @@
 				""
 				"Next, we'll combine &bWater Vapor&r with the Sulfur Trioxide to make &2Sulfuric Acid&r."
 			]
-			icon: "thermal:sulfur_dust"
+			icon: "gtceu:sulfur_dust"
 			id: "31EEE2875595F315"
 			progression_mode: "linear"
 			rewards: [{
@@ -844,7 +835,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "15D4F213191722DE"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -887,7 +877,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "0BF80354A244B222"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -927,7 +916,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7380540E354FD0C5"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -968,7 +956,7 @@
 				""
 				"If you're ready to go, hit that &eActivate&r button! You can also adjust the &3Burn Rate&r to produce more Nuclear Waste, but start slow."
 			]
-			icon: "engineersdecor:sign_radioactive"
+			icon: "chipped:hazard_red_concrete"
 			id: "3591EAA8E397F992"
 			min_width: 300
 			rewards: [{
@@ -1004,7 +992,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "408EC838E6C92754"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1037,7 +1024,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "291CFA4139F71658"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1068,7 +1054,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "1CEED939AAFB06F3"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1102,7 +1087,6 @@
 					command: "/create ponder mekanism:sps_casing"
 					icon: "ftbquests:barrier"
 					id: "5B0D10312C328B83"
-					player_command: false
 					title: "Click Me to Learn How To Build!"
 					type: "command"
 				}
@@ -1114,7 +1098,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "1E091230BBDA9D73"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1173,14 +1156,12 @@
 					command: "/say Hi, @p!/create ponder mekanismgenerators:fusion_reactor_frame"
 					icon: "ftbquests:barrier"
 					id: "7A58D77A4EDACC40"
-					player_command: false
 					title: "Click Me To See How To Build!"
 					type: "command"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "102EAA274E939BB1"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1241,7 +1222,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "448388A7D1EF49D7"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1281,7 +1261,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "08B5E0576E25FAAD"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1354,14 +1333,12 @@
 					command: "/create ponder mekanismgenerators:laser_focus_matrix"
 					icon: "mekanism:laser"
 					id: "7C62F20073317501"
-					player_command: false
 					title: "Click Me To See It In Action!"
 					type: "command"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "1EDDDFB8DA186ABC"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1395,7 +1372,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "50ECD100B9BCD26C"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1428,7 +1404,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "6C772F5609C6BFFD"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1468,7 +1443,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7118999FC75270C1"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1502,7 +1476,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "3DD4ABE973CF2F79"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1572,7 +1545,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "5E8B928DA02C26C9"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1638,7 +1610,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "717D37340F864405"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1677,14 +1648,12 @@
 					command: "/create ponder mekanismgenerators:turbine_casing"
 					icon: "ftbquests:barrier"
 					id: "268F36DC559527FD"
-					player_command: false
 					title: "Click Me To Learn How To Build!"
 					type: "command"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "3178D34B3E9ED19C"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1728,7 +1697,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "079119F5F2925E2E"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1779,7 +1747,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "5FCF42CDCA222B28"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1830,7 +1797,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "29C9FF0DAC44A134"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1872,7 +1838,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4C5DD65195702E52"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1909,7 +1874,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4DA0A0C799C02F80"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -1948,14 +1912,12 @@
 					command: "/create ponder mekanism:induction_casing"
 					icon: "ftbquests:barrier"
 					id: "1B37826ECEC743AB"
-					player_command: false
 					title: "Click Me To See How To Build!"
 					type: "command"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "613F17C233D08DE6"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -2010,7 +1972,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "250D8106ACD732CF"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
@@ -2101,7 +2062,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "2871E7A5B590DB95"
-					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
