@@ -327,20 +327,11 @@
 				"The edges of the outer shell &bmust&r be made out of &aFission Reactor Casings&r, while the faces can be either casings or &bReactor Glass&r, Reactor Ports, or Reactor Logic Adapters. We'll get to those later."
 				""
 				"For now, let's build a basic 5x5x5 Fission Reactor!"
-				""
-				"Need more help building it? Holding &dw&r while hovering over the Fission Reactor Casing will show you the Ponder that can help you build it."
 			]
 			hide: false
 			id: "1482F2D45E8F761D"
 			min_width: 300
 			rewards: [
-				{
-					command: "/create ponder mekanismgenerators:fission_reactor_casing"
-					icon: "ftbquests:barrier"
-					id: "747F4E333BDC5563"
-					title: "Click Me To See How To Build!"
-					type: "command"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "42378432B647A5A8"
@@ -391,13 +382,6 @@
 			id: "0696B725E840B996"
 			min_width: 400
 			rewards: [
-				{
-					command: "/create ponder mekanismgenerators:fission_reactor_port"
-					icon: "mekanismgenerators:fission_reactor_port"
-					id: "5B0B515B95ACDB8C"
-					title: "Click Me To Learn More!"
-					type: "command"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "6AC80E7D1E9239A7"
@@ -516,20 +500,12 @@
 			optional: true
 			rewards: [
 				{
-					command: "/create ponder mekanismgenerators:fission_reactor_logic_adapter"
-					icon: "mekanismgenerators:fission_reactor_logic_adapter"
-					id: "4CE5F77418DBFFFB"
-					title: "Click Me To Learn More!"
-					type: "command"
-				}
-				{
 					id: "102A352650624E7C"
 					type: "xp"
 					xp: 100
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Need a visual? Watch the Ponder!"
 			tasks: [
 				{
 					count: 2L
@@ -1084,13 +1060,6 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					command: "/create ponder mekanism:sps_casing"
-					icon: "ftbquests:barrier"
-					id: "5B0D10312C328B83"
-					title: "Click Me to Learn How To Build!"
-					type: "command"
-				}
-				{
 					id: "34DCA3CB7F03E0E4"
 					item: "mekanism:sps_port"
 					type: "item"
@@ -1152,13 +1121,6 @@
 			min_width: 500
 			progression_mode: "linear"
 			rewards: [
-				{
-					command: "/say Hi, @p!/create ponder mekanismgenerators:fusion_reactor_frame"
-					icon: "ftbquests:barrier"
-					id: "7A58D77A4EDACC40"
-					title: "Click Me To See How To Build!"
-					type: "command"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "102EAA274E939BB1"
@@ -1242,7 +1204,7 @@
 		{
 			dependencies: ["2331FCDD2F2B709A"]
 			description: [
-				"With all of the gathered blocks, it's time to build this thing. Below is a text guide, or you can watch the Ponder!"
+				"With all of the gathered blocks, it's time to build this thing. Below is a text guide."
 				""
 				"The SPS will be 7x7 when built, but it isn't a cube. It follows a simple pattern, which you can follow the images below as a build guide. The pattern looks like this: "
 				""
@@ -1314,8 +1276,6 @@
 		{
 			dependencies: ["79757F66DF263FA0"]
 			description: [
-				"To see a visual, check out the Ponder by holding &aW&r while hovering over the Laser Focus Matrix."
-				""
 				"The goal is to aim each Laser into a Laser Amplifier. Using one is pretty slow, so we're going to make a few."
 				""
 				"In the image below, you can see an example of how this is setup. Sticking the Lasers directly on a power source like an Energy Cube works, or you can have them on pipes or cables. You want to give it a block of empty space between the lasers and the Laser Amplifier."
@@ -1329,13 +1289,6 @@
 			id: "320CC038A64A3195"
 			min_width: 400
 			rewards: [
-				{
-					command: "/create ponder mekanismgenerators:laser_focus_matrix"
-					icon: "mekanism:laser"
-					id: "7C62F20073317501"
-					title: "Click Me To See It In Action!"
-					type: "command"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "1EDDDFB8DA186ABC"
@@ -1645,13 +1598,6 @@
 			min_width: 300
 			rewards: [
 				{
-					command: "/create ponder mekanismgenerators:turbine_casing"
-					icon: "ftbquests:barrier"
-					id: "268F36DC559527FD"
-					title: "Click Me To Learn How To Build!"
-					type: "command"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "3178D34B3E9ED19C"
 					type: "loot"
@@ -1900,7 +1846,7 @@
 				""
 				"You'll need to make a rectangular prism structure. The edges must be made out of &8Induction Casings&r. The faces can be made of either Casings, &aStructural Glass&r, or &cInduction Ports&r. It's best to have 2 Ports: one for input, and one for output. These can be changed using the &eConfigurator&r."
 				""
-				"For this build, we'll be making a 5x5x5. This quest requires the exact amount of materials needed to build this. Need help? &nCheck out the Ponder!&r"
+				"For this build, we'll be making a 5x5x5. This quest requires the exact amount of materials needed to build this."
 				""
 				"{image:atm:textures/questpics/mek/induction_matrix.png width:200 height:200 align:1}"
 			]
@@ -1908,13 +1854,6 @@
 			id: "673FCBF8685D0EEE"
 			min_width: 300
 			rewards: [
-				{
-					command: "/create ponder mekanism:induction_casing"
-					icon: "ftbquests:barrier"
-					id: "1B37826ECEC743AB"
-					title: "Click Me To See How To Build!"
-					type: "command"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "613F17C233D08DE6"
