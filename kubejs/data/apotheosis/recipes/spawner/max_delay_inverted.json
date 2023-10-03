@@ -5,12 +5,16 @@
 		"module": "spawner"
 	}],
 	"mainhand": {
-		"item": "allthemodium:unobtainium_block"
+		"item": "allthemodium:unobtainium_ingot"
 	},
+	"offhand": {
+		"item": "minecraft:quartz"
+	},
+	"consumes_offhand": false,
 	"stat_changes": [{
 		"id": "max_delay",
-		"value": -10,
-		"min": 100,
+		"value": 10,
+		"min": -1,
 		"max": -1
 	}]
 }
