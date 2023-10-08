@@ -18,7 +18,8 @@
 		"lens_of_ender": true,
 		// List of fluids used in the Magmator.
 		"magmatic_fluids": {
-			"minecraft:lava": 10000
+			"minecraft:lava": 10000,
+			"allthemodium:soul_lava": 90000
 		},
 		// List of coolant fluids used in the Reactor and the Thermo Generator.
 		"coolant_fluids": {
@@ -26,9 +27,9 @@
 		},
 		// List of heat source blocks used under Thermo Generator.
 		"heat_blocks": {
+			"minecraft:lava": 1000,
 			"minecraft:magma_block": 800,
 			"powah:blazing_crystal_block": 2800,
-			"minecraft:lava": 1000,
 			"allthemodium:soul_lava": 9000
 		},
 		// Energy produced per fuel tick in the Furnator.
@@ -52,19 +53,19 @@
 				"nitro": 40000000
 			},
 			"transfer_rates": {
-				"starter": 80,
-				"basic": 320,
-				"hardened": 800,
-				"blazing": 3200,
+				"starter": 240,
+				"basic": 480,
+				"hardened": 1600,
+				"blazing": 4000,
 				"niotic": 8000,
 				"spirited": 32000,
 				"nitro": 160000
 			},
 			"generation_rates": {
-				"starter": 20,
-				"basic": 80,
-				"hardened": 200,
-				"blazing": 800,
+				"starter": 80,
+				"basic": 160,
+				"hardened": 400,
+				"blazing": 1000,
 				"niotic": 2000,
 				"spirited": 8000,
 				"nitro": 20000
@@ -81,19 +82,19 @@
 				"nitro": 40000000
 			},
 			"transfer_rates": {
-				"starter": 80,
-				"basic": 320,
-				"hardened": 800,
-				"blazing": 3200,
+				"starter": 240,
+				"basic": 480,
+				"hardened": 1600,
+				"blazing": 4000,
 				"niotic": 8000,
 				"spirited": 32000,
 				"nitro": 160000
 			},
 			"generation_rates": {
-				"starter": 20,
-				"basic": 80,
-				"hardened": 200,
-				"blazing": 800,
+				"starter": 80,
+				"basic": 160,
+				"hardened": 400,
+				"blazing": 1000,
 				"niotic": 2000,
 				"spirited": 8000,
 				"nitro": 20000
@@ -139,22 +140,22 @@
 				"nitro": 40000000
 			},
 			"transfer_rates": {
-				"starter": 80,
-				"basic": 320,
-				"hardened": 800,
-				"blazing": 3200,
-				"niotic": 8000,
-				"spirited": 32000,
-				"nitro": 160000
+				"starter": 160,
+				"basic": 480,
+				"hardened": 1600,
+				"blazing": 6000,
+				"niotic": 20000,
+				"spirited": 64000,
+				"nitro": 200000
 			},
 			"generation_rates": {
-				"starter": 20,
-				"basic": 60,
-				"hardened": 180,
-				"blazing": 540,
-				"niotic": 1620,
-				"spirited": 5000,
-				"nitro": 20000
+				"starter": 40,
+				"basic": 120,
+				"hardened": 400,
+				"blazing": 1500,
+				"niotic": 5000,
+				"spirited": 16000,
+				"nitro": 50000
 			}
 		},
 		"thermo_generators": {
@@ -168,7 +169,7 @@
 				"nitro": 40000000
 			},
 			"transfer_rates": {
-				"starter": 80,
+				"starter": 160,
 				"basic": 320,
 				"hardened": 800,
 				"blazing": 3200,
@@ -177,13 +178,13 @@
 				"nitro": 160000
 			},
 			"generation_rates": {
-				"starter": 20,
-				"basic": 60,
-				"hardened": 100,
-				"blazing": 200,
-				"niotic": 400,
-				"spirited": 800,
-				"nitro": 2000
+				"starter": 40,
+				"basic": 80,
+				"hardened": 150,
+				"blazing": 300,
+				"niotic": 600,
+				"spirited": 1500,
+				"nitro": 3500
 			}
 		}
 	},

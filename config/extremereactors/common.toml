@@ -27,7 +27,7 @@
 		maxReactorSize = 32
 		#A multiplier for balancing Reactor power production. Stacks with powerProductionMultiplier.
 		#Range: 0.5 ~ 100.0
-		reactorPowerProductionMultiplier = 1.0
+		reactorPowerProductionMultiplier = 3.0
 
 	#Define how Turbines works
 	[common.turbine]
