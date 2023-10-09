@@ -1423,7 +1423,7 @@
 			description: [
 				"This generator can burn both Hydrogen and Ethylene to produce power."
 				""
-				"Note: Burning Hydrogen will not produce more power than it costs to run an Electrolytic Separator. Use for Ethylene instead."
+				"Note: Burning Hydrogen will not produce more power than it costs to run an Electrolytic Separator and Ethylene can no longer be produced."
 			]
 			id: "3EC9D0DA61B45328"
 			rewards: [
