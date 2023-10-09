@@ -2743,7 +2743,7 @@
 		}
 		{
 			dependencies: ["66C52B137A4FF869"]
-			hide: true
+			hide: false
 			hide_dependency_lines: true
 			id: "67DBE6C59C0D9D1B"
 			rewards: [
@@ -3552,7 +3552,7 @@
 				"33D23C65E7274A8F"
 				"1CF8263756EE8F2A"
 			]
-			hide: true
+			hide: false
 			hide_dependency_lines: false
 			icon: "mysticalagriculture:awakened_supremium_essence"
 			id: "7A103577EAE7B3F1"
@@ -3660,7 +3660,6 @@
 		{
 			dependencies: ["67DBE6C59C0D9D1B"]
 			description: ["This special &eDust&r is dropped from the Wither and the Ender Dragon when killed by an &dEssence Weapon&r enchanted with &dMystical Enlightenment&r."]
-			hide: true
 			hide_dependency_lines: false
 			id: "1CF8263756EE8F2A"
 			rewards: [

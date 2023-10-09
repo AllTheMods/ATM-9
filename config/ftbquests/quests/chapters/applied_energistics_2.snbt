@@ -2219,9 +2219,9 @@
 		{
 			dependencies: ["2B31E6C1707D8195"]
 			description: [
-				"the &bWireless Terminal&f functions identically to a regular terminal, but wirelessly. Go figure."
+				"The &bWireless Terminal&f functions identically to a regular terminal, but wirelessly."
 				""
-				"Before a wireless terminal can be used to access a network, it must first be &elinked&f to the network via the &eSecurity Terminal&f you made earlier. If it is not linked to a network, or is out of either range or power, the terminal will not function."
+				"Before it can be used to access a network, it must first be &elinked&f to the network by placing it into the top-right slot of the &eWireless Access Point&r. If it is not linked to a network, or is out of either range or power, the terminal will not function."
 				""
 				"Wireless terminals can also be upgraded with &eEnergy Cards&f to provide a larger internal battery."
 			]
