@@ -12,7 +12,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('star_forge', 'multiblock')
 		.rotationState(RotationState.NON_Y_AXIS)
 		.recipeTypes('star_forge')
-		.recipeModifier(GTRecipeModifiers.PARALLEL_HATCH.apply(OverclockingLogic.PERFECT_OVERCLOCK, GTRecipeModifiers.ELECTRIC_OVERCLOCK))
+		.recipeModifier(GTRecipeModifiers.PARALLEL_HATCH.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK, GTRecipeModifiers.ELECTRIC_OVERCLOCK))
 		.appearanceBlock(GTBlocks.CASING_TUNGSTENSTEEL_ROBUST) /*$GCyMBlocks.CASING_ATOMIC*/
 		.pattern(definition => FactoryBlockPattern.start()																               
 		.aisle("               ","               ","               ","               ","               ","      W W      ","     CWEWC     ","      W W      ","               ","               ","               ","               ","               ")
