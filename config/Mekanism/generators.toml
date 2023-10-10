@@ -11,7 +11,7 @@
 	#Bio Generator Settings
 	[generators.bio_generator]
 		#Amount of energy in Joules the Bio Generator produces per tick.
-		bioGeneration = "350"
+		bioGeneration = "1250"
 		#The capacity in mB of the fluid tank in the Bio Generator.
 		#Range: > 1
 		tankCapacity = 24000
@@ -37,9 +37,9 @@
 		tankCapacity = 18000
 		#The number of ticks each mB of Ethylene burns for in the Gas-Burning Generator.
 		#Range: > 1
-		ethyleneBurnTicks = 40
+		ethyleneBurnTicks = 20
 		#Multiplier for calculating the energy density of Ethylene (1 mB Hydrogen + 2 * bioGeneration * densityMultiplier).
-		ethyleneDensityMultiplier = "40"
+		ethyleneDensityMultiplier = "0.50"
 
 	#Turbine Settings
 	[generators.turbine]

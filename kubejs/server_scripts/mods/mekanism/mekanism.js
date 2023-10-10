@@ -20,10 +20,25 @@ ServerEvents.recipes(e => {
   // remove combiner recipes for ores
   e.remove({ type: 'mekanism:combining', id: /ore/ })
   // delete ethylene
+  /*
   e.remove({ id: 'mekanism:reaction/substrate/water_hydrogen'})
   e.remove({ id: 'mekanism:reaction/substrate/ethene_oxygen'})
   e.remove({ id: 'mekanism:reaction/substrate/water_ethene'})
+  */
+  
+  // GBG Recipe Change | Alfred
+  e.remove({ id: 'mekanismgenerators:generator/gas_burning' })
+  e.shaped( 'mekanismgenerators:gas_burning_generator', ['UBU', 'TDT', 'UBU'], {
+	U: 'mekanism:ingot_refined_obsidian',
+    B: 'mekanism:alloy_atomic',
+    T: 'mekanismgenerators:bio_generator',
+    D: 'mekanism:electrolytic_core'
+  }).id('kubejs:mekanismgenerators/gas_burning_gen')
+  
+  
   //substrate
+  
+  /*
   e.custom({
     "type": "mekanism:reaction",
     "duration": 100,
@@ -93,5 +108,5 @@ ServerEvents.recipes(e => {
     "itemOutput": {
       "item": "mekanism:hdpe_pellet"
     }
-  })
+  }) */
 })
