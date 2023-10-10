@@ -8,7 +8,7 @@
 	}
 	id: "06C4634E81851A6C"
 	loot_size: 1
-	order_index: 9
+	order_index: 12
 	rewards: [
 		{ item: "botanypots:terracotta_hopper_botany_pot", weight: 5.0f }
 		{ item: "mysticalagriculture:imperium_essence" }
@@ -314,26 +314,36 @@
 		{ item: "ae2:flawless_budding_quartz" }
 		{
 			command: "/sgear_random_gear @p silentgear:hammer 2"
+			elevate_perms: true
+			silent: true
 			type: "command"
 			weight: 5.0f
 		}
 		{
 			command: "/sgear_random_gear @p silentgear:hammer 3"
+			elevate_perms: true
+			silent: true
 			type: "command"
 			weight: 3.0f
 		}
 		{
 			command: "/sgear_random_gear @p silentgear:pickaxe 2"
+			elevate_perms: true
+			silent: true
 			type: "command"
 			weight: 7.0f
 		}
 		{
 			command: "/sgear_random_gear @p silentgear:pickaxe 3"
+			elevate_perms: true
+			silent: true
 			type: "command"
 			weight: 5.0f
 		}
 		{
 			command: "/sgear_random_gear @p silentgear:paxel 3"
+			elevate_perms: true
+			silent: true
 			type: "command"
 			weight: 3.0f
 		}

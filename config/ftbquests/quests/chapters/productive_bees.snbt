@@ -405,7 +405,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			description: ["When placed in the Nether, the Glowstone Nest will lure in a Glowing Bee."]
+			description: ["When placed in the Nether and given Glowstone, the Glowstone Nest will lure in a Glowing Bee."]
 			hide: false
 			hide_dependency_lines: true
 			id: "41CF7CAEE4F60CCD"
@@ -433,7 +433,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Lures in Ghostly Bees when placed in the Nether"
+			subtitle: "Lures in Ghostly Bees when placed in the Nether and given Ghast Tears"
 			tasks: [{
 				id: "432B3806B0D8F356"
 				item: "productivebees:soul_sand_nest"
@@ -445,7 +445,7 @@
 		{
 			dependencies: ["120BDCB70AD352AC"]
 			description: [
-				"This nest attracts &eCrystalline Bees&r."
+				"This nest attracts &eCrystalline Bees&r. You'll need Nether Quartz instead of using Honey Treats to attract the Bee."
 				""
 				"The easiest way to get a quartz block is by mining it with a Silk Touch pick."
 				""
@@ -470,7 +470,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			description: ["Placing the Nether Brick Nest in the Nether will lure in a Magmatic Bee."]
+			description: ["Placing the Nether Brick Nest in the Nether will lure in a Magmatic Bee when given Magma Cream."]
 			hide: false
 			hide_dependency_lines: true
 			id: "349D19F2FCC34B84"
@@ -490,6 +490,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
+			description: ["To attract Bees to this nest, you'll need Popped Chorus Fruit instead of Honey Treats."]
 			hide: false
 			hide_dependency_lines: true
 			id: "1E9BD4B74DAEA9FC"
@@ -509,7 +510,11 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			description: ["The Obsidian Nest will lure in Draconic Bees when placed in the End."]
+			description: [
+				"The Obsidian Nest will lure in Draconic Bees when placed in the End."
+				""
+				"These do not accept Honey Treats, but instead use Dragon's Breath."
+			]
 			hide: false
 			hide_dependency_lines: true
 			id: "3155E4212045BC8E"
@@ -831,7 +836,7 @@
 				""
 				"Instead, you spawn them using Nests with &6Honey Treats&r."
 				""
-				"With these, you'll create yourself some Nests and right click them with the treats to lure Bees in."
+				"With these, you'll create yourself some Nests and right click them with the treats to lure Bees in. Some Nests require special items instead of Honey Treats, so make sure to check JEI for more info!"
 				""
 				"Make sure to check out which biome you need to be in to lure in the right bees!"
 			]
@@ -937,7 +942,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Increases Bee Productivity by 140%"
+			subtitle: "Increases Bee Productivity by 120%"
 			tasks: [{
 				id: "23697EE31757EBEB"
 				item: "productivebees:upgrade_productivity"
@@ -1140,9 +1145,11 @@
 		{
 			dependencies: ["7C169A4A39F37FAC"]
 			description: [
-				"While you can definitely just use a regular &9Centrifuge&r in the beginning, getting a &6Powered Centrifuge&r soon after is a must."
+				"The &9Centrifuge&r is used to process Combs from Bees into useful items and honey! While you can definitely just use a regular &9Centrifuge&r in the beginning, getting a &6Powered Centrifuge&r soon after is a must. This is a faster Centrifuge that runs off of power!"
 				""
-				"The Centrifuge is used to process Honeycombs into useful items, honey, and wax."
+				"If you're looking for the best way to process your Combs, the &cHeated Centrifuge&r is even faster and can even process &aComb Blocks&r!"
+				""
+				"These can all be made faster by using Speed Upgrades."
 			]
 			id: "33A0E06FE5CFD8F3"
 			rewards: [
@@ -1161,8 +1168,28 @@
 			]
 			subtitle: "Processing Honeycombs"
 			tasks: [{
-				id: "01233EB4BF20A278"
-				item: "productivebees:powered_centrifuge"
+				id: "65D52E6A67DD11EB"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "productivebees:centrifuge"
+							}
+							{
+								Count: 1b
+								id: "productivebees:powered_centrifuge"
+							}
+							{
+								Count: 1b
+								id: "productivebees:heated_centrifuge"
+							}
+						]
+					}
+				}
+				title: "Centrifuges"
 				type: "item"
 			}]
 			x: 0.0d
@@ -2822,15 +2849,9 @@
 			}]
 			subtitle: "Yellow + Green Carpenter Bee"
 			tasks: [{
-				id: "5569927ACA7F6486"
-				item: {
-					Count: 1b
-					id: "productivebees:wood_chip"
-					tag: {
-						productivebees_woodtype: "minecraft:dark_oak_log"
-					}
-				}
-				type: "item"
+				id: "6047113DC2263E46"
+				title: "Lumber Bee"
+				type: "checkmark"
 			}]
 			title: "Lumber Bee"
 			x: 3.0d
@@ -3048,22 +3069,9 @@
 			}]
 			subtitle: "Chocolate Mining + Digger"
 			tasks: [{
-				icon: {
-					Count: 1b
-					id: "productivebees:stone_chip"
-					tag: {
-						productivebees_woodtype: "minecraft:dirt"
-					}
-				}
-				id: "25C3E86C4FE954C6"
-				item: {
-					Count: 1b
-					id: "productivebees:stone_chip"
-					tag: {
-						productivebees_woodtype: "minecraft:dirt"
-					}
-				}
-				type: "item"
+				id: "471F062B01D0DDA1"
+				title: "Quarry Bee"
+				type: "checkmark"
 			}]
 			title: "Quarry Bee"
 			x: 0.0d
@@ -4265,6 +4273,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
+			description: ["Instead of using Honey Treats, this hive requires Gold Ingots to attract Bees."]
 			hide_dependency_lines: true
 			id: "160BD0185954C891"
 			rewards: [{
@@ -4280,6 +4289,78 @@
 			}]
 			x: -9.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["6DBF9CAB37B9BBF3"]
+			id: "01A0612C516B4F7F"
+			rewards: [
+				{
+					id: "78311D0F7C60994E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53466516293198D5"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "123810EB2AEB0EAB"
+				item: "productivebees:upgrade_productivity_2"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["01A0612C516B4F7F"]
+			id: "58ACADCBA57BC1DB"
+			rewards: [
+				{
+					id: "0156FA9A01DFAC03"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DFAC9BC1DF0F99D"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0F962A0E762836D4"
+				item: "productivebees:upgrade_productivity_3"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58ACADCBA57BC1DB"]
+			id: "4DDF647FE6494DE1"
+			rewards: [
+				{
+					id: "78E6295E2CD504BD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C1C2FCB825216F2"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3FD59559C494AE6B"
+				item: "productivebees:upgrade_productivity_4"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
 		}
 	]
 	title: "Productive Bees"

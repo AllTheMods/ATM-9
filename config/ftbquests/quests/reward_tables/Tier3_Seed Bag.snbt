@@ -2,7 +2,7 @@
 	icon: "mysticalagriculture:tertium_gemstone"
 	id: "6B7F78B9150AFFEE"
 	loot_size: 1
-	order_index: 17
+	order_index: 20
 	rewards: [
 		{ item: "mysticalagriculture:tertium_farmland", weight: 5.0f }
 		{ item: "mysticalagriculture:iron_seeds", weight: 2.0f }
@@ -23,9 +23,6 @@
 		{ item: "mysticalagriculture:creeper_seeds" }
 		{ item: "mysticalagriculture:skeleton_seeds", weight: 3.0f }
 		{ item: "mysticalagriculture:lead_seeds", weight: 3.0f }
-		{ item: "mysticalagriculture:blizz_seeds" }
-		{ item: "mysticalagriculture:blitz_seeds" }
-		{ item: "mysticalagriculture:basalz_seeds" }
 		{ item: "mysticalagriculture:certus_quartz_seeds", weight: 2.0f }
 		{ item: "mysticalagriculture:quartz_enriched_iron_seeds" }
 		{ item: "mysticalagriculture:no_fall_damage_augment" }
