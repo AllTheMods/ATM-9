@@ -20,7 +20,9 @@
     "botania",
     "ad_astra",
     "thermal_extra",
-    "undergarden"
+    "undergarden",
+    "industrialforegoing",
+    "pneaumaticcraft"
   ],
   "stoneStrata": [
     "stone",
@@ -44,7 +46,8 @@
     "forge:storage_blocks/{material}",
     "forge:storage_blocks/raw_{material}",
     "forge:silicon",
-    "forge:rubber"
+    "forge:rubber",
+    "forge:plastic"
   ],
   "materials": [
     "aeternium",
@@ -118,15 +121,35 @@
     "zinc"
   ],
   "priorityOverrides": {},
+  "customTags": {},
   "tagOwnerships": {
-    "forge:ingots/aluminum":["forge:ingots/aluminium"],
-    "forge:dusts/aluminum":["forge:dusts/aluminium"],
-    "forge:rods/aluminum":["forge:rods/aluminium"],
-    "forge:gears/aluminum":["forge:gears/aluminium"],
-    "forge:plates/aluminum":["forge:plates/aluminium"],
-    "forge:raw_materials/aluminum":["forge:raw_materials/aluminium"],
-    "forge:storage_blocks/raw_aluminum":["forge:storage_blocks/raw_aluminium"],
-    "forge:storage_blocks/aluminum":["forge:storage_blocks/aluminium"]
+    "forge:rods/aluminum": [
+      "forge:rods/aluminium"
+    ],
+    "forge:storage_blocks/aluminum": [
+      "forge:storage_blocks/aluminium"
+    ],
+    "forge:raw_materials/aluminum": [
+      "forge:raw_materials/aluminium"
+    ],
+    "forge:ingots/aluminum": [
+      "forge:ingots/aluminium"
+    ],
+    "forge:gears/aluminum": [
+      "forge:gears/aluminium"
+    ],
+    "forge:dusts/aluminum": [
+      "forge:dusts/aluminium"
+    ],
+    "forge:storage_blocks/raw_aluminum": [
+      "forge:storage_blocks/raw_aluminium"
+    ],
+    "forge:plates/aluminum": [
+      "forge:plates/aluminium"
+    ],
+    "forge:plastic": [
+      "pneumaticcraft:plastic_sheets"
+    ]
   },
   "itemTagInheritanceMode": "ALLOW",
   "itemTagInheritance": {},
