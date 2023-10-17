@@ -244,13 +244,12 @@
 			y: 0.19999999999999996d
 		}
 		{
-			dependencies: ["262AE37765B139BE"]
+			dependencies: ["707EBA5717938515"]
 			description: [
 				"Turn blocks into plates with this one trick!"
 				""
 				"Also very useful for making silicon wafers and wafer chips, which we'll get into shortly"
 			]
-			hide_dependency_lines: true
 			id: "0D1A6B32FEB51FAD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1018,10 +1017,11 @@
 			id: "41FCD7F5B7E6E261"
 			optional: true
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "2C3CE24B38434A44"
-				table_id: 7083859357644513434L
-				type: "loot"
+				count: 3
+				id: "59E36712DBB6484F"
+				item: "gtceu:silicon_dust"
+				random_bonus: 2
+				type: "item"
 			}]
 			shape: "diamond"
 			subtitle: "A good source of silicon too"
@@ -1453,6 +1453,75 @@
 			}]
 			x: 6.4d
 			y: -4.300000000000001d
+		}
+		{
+			dependencies: [
+				"63621F0189B6EB1B"
+				"7963008B930D84BB"
+			]
+			id: "707EBA5717938515"
+			rewards: [
+				{
+					count: 2
+					id: "049FA0E13A9C9EB8"
+					item: "gtceu:chromium_dust"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "20B01BB434069711"
+					item: "gtceu:vanadium_dust"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "72380DD47A0B98BD"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["Making &bvanadium steel dust&r is an MV recipe in the Mixer, so it is time for an upgrade! "]
+			hide_dependency_lines: true
+			id: "63621F0189B6EB1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43720EC35D614D1C"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "72EB03DB951E83D4"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["This machine is very useful for acquiring &dchromium dust&r, which we'll need to make &bstainless steel dust&r and &bvanadium steel dust&r"]
+			hide_dependency_lines: true
+			id: "7963008B930D84BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DF8C2DC3E30CD77"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0AEB920BEAD1C447"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
 		}
 	]
 	title: "Medium Voltage"
