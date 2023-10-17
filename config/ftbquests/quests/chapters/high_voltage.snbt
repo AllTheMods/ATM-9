@@ -228,7 +228,7 @@
 				""
 				"Don't forget the &eEnergy Hatch&r, &eMaintenance Hatch&r, and &eIron Door&r!"
 				""
-				"You &ndon't need&r &6Passthrough Hatches&r"
+				"You &ndon't need&r &6Passthrough Hatches&r if you can figure out wireless transfer"
 				""
 				"&3Diodes&r are necessary if you are using &9Generators&r for your EU needs because a Generator is too dirty to go into a Cleanroom"
 				""
@@ -736,7 +736,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["09B4068CB657AE8C"]
 			description: [
 				"Back to that &bAdvanced Mixer&r but on a different &aProgram Circuit&r setting. As a reminder, you could make a new one just for &dProgram 2&r recipes"
 				""
@@ -1101,10 +1100,6 @@
 			y: 8.5d
 		}
 		{
-			dependencies: [
-				"09B4068CB657AE8C"
-				"7963008B930D84BB"
-			]
 			description: [
 				"You can make this with a combination of iron, nickel or invar, manganese, and chromium dusts in an &bAdvanced Mixer&r with a &aProgram Circuit&r setting"
 				""
@@ -1118,12 +1113,14 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 2
 					id: "28038032F33B2E27"
 					item: "gtceu:manganese_dust"
 					random_bonus: 2
 					type: "item"
 				}
 				{
+					count: 2
 					id: "180190869A816D67"
 					item: "gtceu:chromium_dust"
 					random_bonus: 2
@@ -1137,42 +1134,6 @@
 			}]
 			x: -7.5d
 			y: -5.5d
-		}
-		{
-			description: ["You didn't &ohave&r to upgrade this in &bMV&r, but now you certainly do to get into &6HV&r"]
-			id: "09B4068CB657AE8C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6681C6F49D018EAF"
-				table_id: 7083859357644513434L
-				type: "loot"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "3C9F988949B07F26"
-				item: "gtceu:mv_mixer"
-				type: "item"
-			}]
-			x: -8.5d
-			y: -6.5d
-		}
-		{
-			description: ["This machine is very useful for making &dchromium dust&r, which we'll need to make the &bstainless steel dust&r"]
-			id: "7963008B930D84BB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5DF8C2DC3E30CD77"
-				table_id: 7083859357644513434L
-				type: "loot"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "0AEB920BEAD1C447"
-				item: "gtceu:mv_electrolyzer"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -6.5d
 		}
 		{
 			dependencies: [

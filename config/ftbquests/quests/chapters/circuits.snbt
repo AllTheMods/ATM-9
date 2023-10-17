@@ -4,7 +4,7 @@
 	filename: "circuits"
 	group: "1DA67E79B40AB130"
 	id: "560EF4C38DEACA03"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -256,6 +256,7 @@
 		}
 		{
 			dependencies: ["0B0A1657FAB2F27F"]
+			disable_toast: true
 			id: "35FF52379AC802F8"
 			tasks: [{
 				id: "0F78C211E200CDAE"
@@ -266,6 +267,7 @@
 			y: -2.5d
 		}
 		{
+			disable_toast: true
 			id: "7F4B8E279A9B042A"
 			tasks: [{
 				id: "69F4602F644528C7"
@@ -277,6 +279,7 @@
 		}
 		{
 			dependencies: ["7F4B8E279A9B042A"]
+			disable_toast: true
 			id: "3BB333BE6C087472"
 			tasks: [{
 				id: "621FA365B700E157"
@@ -288,6 +291,7 @@
 		}
 		{
 			dependencies: ["3BB333BE6C087472"]
+			disable_toast: true
 			id: "6FCDB6DC3116410C"
 			tasks: [{
 				id: "449E286FAE4B7C4C"
@@ -299,6 +303,7 @@
 		}
 		{
 			dependencies: ["6FCDB6DC3116410C"]
+			disable_toast: true
 			id: "6EF00359D597EA15"
 			tasks: [{
 				id: "2C7A195E6D332091"
@@ -309,6 +314,7 @@
 			y: -1.5d
 		}
 		{
+			disable_toast: true
 			id: "3C31FA990D387437"
 			tasks: [{
 				id: "736FFE305F69BE59"
@@ -320,6 +326,7 @@
 		}
 		{
 			dependencies: ["3C31FA990D387437"]
+			disable_toast: true
 			id: "396D2F4ACC475C80"
 			tasks: [{
 				id: "2F1C0959E3D12B93"
@@ -331,6 +338,7 @@
 		}
 		{
 			dependencies: ["396D2F4ACC475C80"]
+			disable_toast: true
 			id: "22CFDFD1FB8A2298"
 			tasks: [{
 				id: "3E4E56877891C389"
@@ -342,6 +350,7 @@
 		}
 		{
 			dependencies: ["22CFDFD1FB8A2298"]
+			disable_toast: true
 			id: "6F17FA543C36A520"
 			tasks: [{
 				id: "386BE1E124A5E01A"
@@ -352,6 +361,7 @@
 			y: -0.5d
 		}
 		{
+			disable_toast: true
 			id: "73D0E6F7A59B873F"
 			tasks: [{
 				id: "34341D545F7FD49D"
@@ -363,6 +373,7 @@
 		}
 		{
 			dependencies: ["73D0E6F7A59B873F"]
+			disable_toast: true
 			id: "098C64EC6DE06AF1"
 			tasks: [{
 				id: "030057C4C8583879"
@@ -374,6 +385,7 @@
 		}
 		{
 			dependencies: ["098C64EC6DE06AF1"]
+			disable_toast: true
 			id: "16C3295B64CA4522"
 			tasks: [{
 				id: "72A8205F1198225D"
@@ -385,6 +397,7 @@
 		}
 		{
 			dependencies: ["16C3295B64CA4522"]
+			disable_toast: true
 			id: "233FEC2426765665"
 			tasks: [{
 				id: "03D7ED864ADBCC99"
@@ -395,6 +408,7 @@
 			y: 0.5d
 		}
 		{
+			disable_toast: true
 			id: "507F0902EE5E1F53"
 			tasks: [{
 				id: "11A07BC0B1166C2E"
@@ -406,6 +420,7 @@
 		}
 		{
 			dependencies: ["507F0902EE5E1F53"]
+			disable_toast: true
 			id: "40FCF122AB900473"
 			tasks: [{
 				id: "46D5998D9BD7DA16"
@@ -417,6 +432,7 @@
 		}
 		{
 			dependencies: ["40FCF122AB900473"]
+			disable_toast: true
 			id: "5DA2D177CCD90B18"
 			tasks: [{
 				id: "5B69360D91D7C031"
@@ -428,6 +444,7 @@
 		}
 		{
 			dependencies: ["5DA2D177CCD90B18"]
+			disable_toast: true
 			id: "620E6D375642DCC6"
 			tasks: [{
 				id: "77DAE0F918CC4D69"
@@ -475,6 +492,7 @@
 			y: -3.5d
 		}
 		{
+			disable_toast: true
 			icon: "gtceu:ev_machine_hull"
 			id: "560D95D4C404A164"
 			tasks: [{
@@ -487,6 +505,7 @@
 			y: -2.5d
 		}
 		{
+			disable_toast: true
 			icon: "gtceu:iv_machine_hull"
 			id: "58F378384CEFCEF2"
 			tasks: [{
@@ -499,6 +518,7 @@
 			y: -1.5d
 		}
 		{
+			disable_toast: true
 			icon: "gtceu:luv_machine_hull"
 			id: "7A22F294077F6520"
 			tasks: [{
@@ -511,6 +531,7 @@
 			y: -0.5d
 		}
 		{
+			disable_toast: true
 			icon: "gtceu:zpm_machine_hull"
 			id: "09C7343DCCD5157E"
 			tasks: [{
@@ -523,6 +544,7 @@
 			y: 0.5d
 		}
 		{
+			disable_toast: true
 			icon: "gtceu:uv_machine_hull"
 			id: "0416C489903BCFFF"
 			tasks: [{
@@ -535,6 +557,7 @@
 			y: 1.5d
 		}
 		{
+			disable_toast: true
 			icon: "gtceu:uhv_machine_hull"
 			id: "49E5EB071E740C87"
 			tasks: [{
@@ -561,8 +584,16 @@
 			disable_toast: true
 			id: "7C7B1FAA523F19F2"
 			tasks: [{
+				icon: "alltheores:bronze_ingot"
 				id: "0E28075B4E87FE2E"
-				item: "alltheores:bronze_ingot"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/bronze"
+					}
+				}
+				title: "Bronze Ingot"
 				type: "item"
 			}]
 			x: -4.0d
@@ -572,8 +603,16 @@
 			disable_toast: true
 			id: "1EB73508673AD0EC"
 			tasks: [{
+				icon: "alltheores:steel_ingot"
 				id: "740E35A5781E43A7"
-				item: "alltheores:steel_ingot"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Steel Ingot"
 				type: "item"
 			}]
 			x: -3.0d
@@ -583,8 +622,16 @@
 			disable_toast: true
 			id: "3A837FB9E8BE00D3"
 			tasks: [{
+				icon: "gtceu:aluminium_ingot"
 				id: "15DC25BCFCE78DE2"
-				item: "gtceu:aluminium_ingot"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/aluminum"
+					}
+				}
+				title: "Aluminium Ingot"
 				type: "item"
 			}]
 			x: -2.0d
@@ -594,14 +641,23 @@
 			disable_toast: true
 			id: "2442DF6C3D81962E"
 			tasks: [{
+				icon: "gtceu:gallium_ingot"
 				id: "1CC0983CB7DBE526"
-				item: "gtceu:gallium_ingot"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/gallium"
+					}
+				}
+				title: "Gallium Ingot"
 				type: "item"
 			}]
 			x: -2.0d
 			y: 4.5d
 		}
 		{
+			disable_toast: true
 			id: "787E4ADFB77F5766"
 			tasks: [{
 				id: "720978F39AA618C6"
@@ -612,6 +668,7 @@
 			y: 5.5d
 		}
 		{
+			disable_toast: true
 			id: "725250A1C6A1CA5A"
 			tasks: [{
 				id: "34B88D742105A68C"
@@ -622,6 +679,7 @@
 			y: 6.5d
 		}
 		{
+			disable_toast: true
 			id: "475AEFDB5F1A1E14"
 			tasks: [{
 				id: "59E34DB346D0188E"
@@ -632,6 +690,7 @@
 			y: 6.5d
 		}
 		{
+			disable_toast: true
 			id: "569B2585CA9E8C5F"
 			tasks: [{
 				id: "7BEB4A258BB8C759"
@@ -659,6 +718,7 @@
 		}
 		{
 			dependencies: ["787E4ADFB77F5766"]
+			disable_toast: true
 			id: "53C2CC669C4AFD50"
 			tasks: [{
 				id: "59A039053AB7E8A3"
@@ -670,6 +730,7 @@
 		}
 		{
 			dependencies: ["53C2CC669C4AFD50"]
+			disable_toast: true
 			id: "67ACFC4FB22FC85C"
 			tasks: [{
 				id: "0AFDD145E16F443F"
@@ -681,6 +742,7 @@
 		}
 		{
 			dependencies: ["67ACFC4FB22FC85C"]
+			disable_toast: true
 			id: "3F591BADFF8585FE"
 			tasks: [{
 				id: "3371F13082C01141"
@@ -692,6 +754,7 @@
 		}
 		{
 			dependencies: ["3F591BADFF8585FE"]
+			disable_toast: true
 			id: "6EA6824479C8F61A"
 			tasks: [{
 				id: "5EC64D6A271D48EE"
@@ -703,6 +766,7 @@
 		}
 		{
 			dependencies: ["6EA6824479C8F61A"]
+			disable_toast: true
 			id: "30F662E3FBB5C20F"
 			tasks: [{
 				id: "138209C493410D49"
@@ -714,6 +778,7 @@
 		}
 		{
 			dependencies: ["30F662E3FBB5C20F"]
+			disable_toast: true
 			id: "5ECB2E614051CC8F"
 			tasks: [{
 				id: "3A435ACB914B9050"
@@ -725,6 +790,7 @@
 		}
 		{
 			dependencies: ["5ECB2E614051CC8F"]
+			disable_toast: true
 			id: "07A4F8681CCBD0B6"
 			tasks: [{
 				id: "004CAF4EA2CAD754"
@@ -735,6 +801,7 @@
 			y: 5.5d
 		}
 		{
+			disable_toast: true
 			id: "7F06F3B30451DFEC"
 			tasks: [{
 				id: "4C19BE1F6BE4376B"
@@ -746,6 +813,7 @@
 		}
 		{
 			dependencies: ["7F06F3B30451DFEC"]
+			disable_toast: true
 			id: "08DE4AABDFBB304A"
 			tasks: [{
 				id: "16D398FF3C5A3774"
@@ -757,6 +825,7 @@
 		}
 		{
 			dependencies: ["08DE4AABDFBB304A"]
+			disable_toast: true
 			id: "05CA2C1068B49DD7"
 			tasks: [{
 				id: "5B0DE680ED5DA77C"
@@ -768,6 +837,7 @@
 		}
 		{
 			dependencies: ["283528F3A6FAB5FC"]
+			disable_toast: true
 			id: "5A8B03FAA0B75BA4"
 			tasks: [{
 				id: "1AEA96E7FC587592"
@@ -779,6 +849,7 @@
 		}
 		{
 			dependencies: ["05CA2C1068B49DD7"]
+			disable_toast: true
 			id: "2441D37240E87818"
 			tasks: [{
 				id: "4359AF6297455DF6"
@@ -790,6 +861,7 @@
 		}
 		{
 			dependencies: ["2441D37240E87818"]
+			disable_toast: true
 			id: "283528F3A6FAB5FC"
 			tasks: [{
 				id: "2D4A510F5C8CA52F"
@@ -800,6 +872,7 @@
 			y: 6.5d
 		}
 		{
+			disable_toast: true
 			id: "2C3815F9194AC1D5"
 			tasks: [{
 				id: "1ABDFF521F7303A8"
@@ -810,26 +883,45 @@
 			y: 3.5d
 		}
 		{
+			disable_toast: true
 			id: "168510D25E3A0E88"
 			tasks: [{
+				icon: "gtceu:titanium_ingot"
 				id: "0B298C73448F3DA6"
-				item: "gtceu:titanium_ingot"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/titanium"
+					}
+				}
+				title: "Titanium Ingot"
 				type: "item"
 			}]
 			x: 0.0d
 			y: 3.5d
 		}
 		{
+			disable_toast: true
 			id: "31F55263F748A65F"
 			tasks: [{
+				icon: "alltheores:platinum_ingot"
 				id: "282B4264413EFB2D"
-				item: "alltheores:platinum_ingot"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/platinum"
+					}
+				}
+				title: "Platinum Ingot"
 				type: "item"
 			}]
 			x: 0.0d
 			y: 4.5d
 		}
 		{
+			disable_toast: true
 			id: "3E392C5BDB907F23"
 			tasks: [{
 				id: "43C2BBEC648D64FA"
@@ -840,6 +932,7 @@
 			y: 3.5d
 		}
 		{
+			disable_toast: true
 			id: "7FDCD92EC9F916BE"
 			tasks: [{
 				id: "340279EB93DFB48A"
@@ -850,6 +943,7 @@
 			y: 3.5d
 		}
 		{
+			disable_toast: true
 			id: "4A012874313141DC"
 			tasks: [{
 				id: "796EA04E4CC866A4"
@@ -860,6 +954,7 @@
 			y: 3.5d
 		}
 		{
+			disable_toast: true
 			id: "26E0BBE6C184CFEC"
 			tasks: [{
 				id: "27625A6D550DAC67"
@@ -870,6 +965,7 @@
 			y: 3.5d
 		}
 		{
+			disable_toast: true
 			id: "3173C8C998E6FD34"
 			tasks: [{
 				id: "250BD4D4E44C0AA8"
@@ -880,10 +976,19 @@
 			y: 3.5d
 		}
 		{
+			disable_toast: true
 			id: "41B376AFE2564807"
 			tasks: [{
+				icon: "gtceu:tungsten_ingot"
 				id: "2D9B8AF6C76D9CEA"
-				item: "chemlib:tungsten_ingot"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/tungsten"
+					}
+				}
+				title: "Tungsten Ingot"
 				type: "item"
 			}]
 			x: 1.0d
