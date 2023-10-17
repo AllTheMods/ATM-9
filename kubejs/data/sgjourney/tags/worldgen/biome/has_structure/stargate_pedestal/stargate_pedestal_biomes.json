@@ -1,0 +1,50 @@
+{
+	"replace": false,
+	
+	"_comment": " This biome tag can specify the biome directly. Or specify another biome tag by starting with # ",
+	"values":
+	[
+		"#minecraft:is_beach",
+		"#minecraft:is_deep_ocean",
+    		"#minecraft:is_forest",
+    		"#minecraft:is_hill",
+    		"#minecraft:is_mountain",
+    		"#minecraft:is_ocean",
+    		"#minecraft:is_river",
+    		"#minecraft:is_savanna",
+		
+		"minecraft:taiga",
+		"minecraft:old_growth_pine_taiga",
+		"minecraft:old_growth_spruce_taiga",
+    		"minecraft:stony_shore",
+    		"minecraft:swamp",
+    		"minecraft:mangrove_swamp",
+    		"minecraft:plains",
+    		"minecraft:sunflower_plains",
+    		"minecraft:dripstone_caves",
+    		"minecraft:lush_caves",
+		
+		"#forge:is_cave",
+		"#forge:is_coniferous",
+		"#forge:is_dense",
+		"#forge:is_dry",
+		"#forge:is_hot",
+		"#forge:is_lush",
+		"#forge:is_mountain",
+		"#forge:is_peak",
+		"#forge:is_plains",
+		"#forge:is_plateau",
+		"#forge:is_rare",
+		"#forge:is_slope",
+		"#forge:is_sparse",
+		"#forge:is_spooky",
+		"#forge:is_swamp",
+		"#forge:is_underground",
+		"#forge:is_wasteland",
+		"#forge:is_water",
+		"#forge:is_wet",
+		
+		"sgjourney:milky_way_forest",
+		"sgjourney:milky_way_plains"
+    ]
+}

@@ -5,6 +5,416 @@
 	group: "2084F3F6FB861C5B"
 	icon: "minecraft:crafting_table"
 	id: "732824E03978A934"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "waystones:item/warp_stone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.97d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "atm:textures/questpics/gettingstarted/titleimage1.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.671d
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.01d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 15.4d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "integrateddynamics:aspect/read/list/inventory/itemstacks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "farmersdelight:item/hamburger"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tombstone:item/bag_of_seeds"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 9.23d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tombstone:item/bag_of_seeds"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.573d
+			y: 9.23d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mysticalagriculture:item/awakened_supremium_essence"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "sophisticatedbackpacks:item/advanced_magnet_upgrade"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "atm:textures/questpics/gettingstarted/sniffer3.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/torchflower"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/torchflower"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/torchflower"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.6845d
+			y: 13.8523d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "apotheosis:items/gem_dust"
+			rotation: 0.0d
+			width: 0.75d
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "irons_spellbooks:item/rotten_spell_book"
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:item/upgrade_orb_fire"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "ironfurnaces:block/iron_furnace_front_on_smoke"
+			rotation: 0.0d
+			width: 0.75d
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "alltheores:item/iron_dust"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.25d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "alltheores:item/iron_dust"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.75d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "atm:textures/questpics/gettingstarted/wither2.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 22.5d
+			y: 7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "atm:textures/questpics/gettingstarted/enderdragon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 21.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "atm:textures/questpics/gettingstarted/warden_roar.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 21.5d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/torchflower"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "allthemodium:block/fluid/atm_molten_still"
+			rotation: 45.0d
+			width: 1.25d
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "allthemodium:block/fluid/atm_molten_still"
+			rotation: 0.0d
+			width: 1.25d
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "chipped:block/deepslate/ctm/cut_deepslate_column_ctm/0"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "chipped:block/deepslate/ctm/cut_deepslate_column_ctm/0"
+			order: -1
+			rotation: 45.0d
+			width: 1.5d
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "gtceu:block/overlay/machine/overlay_pipe_out"
+			rotation: 0.0d
+			width: 3.0d
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "atm:textures/questpics/gettingstarted/confused1.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ars_nouveau:block/source_still"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "sophisticatedstorage:block/gold_barrel_bottom"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "naturesaura:block/blast_furnace_booster_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.0d
+			y: 3.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -318,7 +728,14 @@
 			}]
 			tasks: [{
 				id: "01A7709155C7564E"
-				item: "minecraft:crafting_table"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:workbench"
+					}
+				}
+				title: "Crafting Table"
 				type: "item"
 			}]
 			title: "Putting the Craft in Minecraft"
@@ -2156,7 +2573,7 @@
 					type: "loot"
 				}
 			]
-			shape: "pentagon"
+			shape: "octagon"
 			size: 1.5d
 			tasks: [{
 				id: "4F5479637B945F88"

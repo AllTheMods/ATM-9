@@ -91,12 +91,13 @@ ServerEvents.recipes(event => {
     if (global.loaded.Thermal_Loaded) {
         // add blast chiller recipes? cross check with tconstruct
     }*/
-    // remove crafting recipes not using atm hammer
+    /*
+    // remove crafting recipes not using atm hammer, need to add GT outputs to whitelist
     event.forEachRecipe({ type: 'minecraft:crafting_shaped', output: rod }, recipe => {
       if (!recipe.hasInput('#alltheores:ore_hammers')) {
         event.remove({ id: recipe.getId() })
       }
-    })
+    })*/
   })
   if (global.devLogging) {
     console.log(`Added Rod Recipes - CreateAdditions: ${rodCount.create}, FTBIC: ${rodCount.ftbic}, IE: ${rodCount.ie}, Thermal: ${rodCount.thermal}`)
