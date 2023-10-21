@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
       block.type = blockString.substring(0, 1) === "#" ? "tag" : "block";
     return block;
   }
-  function removeUnder(crop) {
+  function removeUnderCrop(crop) {
     if (crop.includes("_")) {
       const base = `sushigocrafting:${crop.split("_")[0]}_crop`;
       return blockConvert(base, false);
@@ -23,14 +23,17 @@ ServerEvents.recipes((event) => {
       return blockConvert(`sushigocrafting:${crop}_crop`, false);
     }
   }
+  function removeUnderSeed(crop) {
+    return crop.includes("_") ? `sushigocrafting:${crop.split("_")[0]}_seeds` : `sushigocrafting:${crop}_seeds`;
+  }
   crops.forEach((crop) => {
     event.custom({
       type: "botanypots:crop",
-      seed: Ingredient.of(`sushigocrafting:${crop}_seeds`).toJson(),
+      seed: Ingredient.of(removeUnderSeed(crop)).toJson(),
       categories: categories(crop),
       growthTicks: 1200,
       //display: blockConvert(`sushigocrafting:${crop}_crop`, false),
-      display: removeUnder(crop),
+      display: removeUnderCrop(crop),
       drops: [
         {
           chance: 1.0,
