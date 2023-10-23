@@ -4,7 +4,9 @@ const mapGTMachineIdToTaskId = {
 	"gtceu:distillation_tower": "6DE94C2C7F4B9AC7",
 	"gtceu:pyrolyse_oven": "5FAE011B2417FAAA",
 	"gtceu:cracker": "04E3568175E66B6D",
-	"gtceu:vacuum_freezer": "7536DA5A948671F2"
+	"gtceu:vacuum_freezer": "7536DA5A948671F2",
+	"gtceu:large_chemical_reactor": "1038F300D9F8EF3C",
+	"gtceu:iv_processing_array": "188A83D9504A8470"
 }
 
 const $MetaMachine = Java.loadClass('com.gregtechceu.gtceu.api.blockentity.MetaMachineBlockEntity')
