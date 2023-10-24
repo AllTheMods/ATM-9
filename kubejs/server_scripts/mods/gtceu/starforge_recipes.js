@@ -61,6 +61,33 @@ ServerEvents.recipes(event => {
 		.duration(432000)
 		.EUt(ULV)
 	
+	event.recipes.gtceu.star_forge('atm_star_from_shards')
+		.itemInputs(
+			[
+				'54x allthetweaks:atm_star_shard',
+				'allthetweaks:patrick_star'
+			])
+		.itemOutputs('allthetweaks:atm_star')
+		.chancedOutput(Item.of('allthetweaks:atm_star'), 20, 20)
+		.duration(108000)
+		.EUt(ULV)
+	
+	event.recipes.gtceu.star_forge('patrick_star')
+		.itemInputs(
+			[
+				'11x minecraft:pink_concrete',
+				'5x minecraft:pink_concrete_powder',
+				'13x minecraft:magenta_concrete',
+				'8x minecraft:magenta_concrete_powder',
+				'2x minecraft:lime_concrete',
+				'8x minecraft:green_concrete',
+				'8x minecraft:green_concrete_powder'
+			])
+		.itemOutputs('allthetweaks:patrick_star')
+		.chancedOutput(Item.of('allthetweaks:patrick_star'), 20, 20)
+		.duration(432000)
+		.EUt(ULV)
+	
 	// Star Forge Controller Block Recipe
 	event.recipes.gtceu.assembly_line('star_forge')
 		.itemInputs(
