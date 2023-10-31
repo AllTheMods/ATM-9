@@ -1,0 +1,22 @@
+ServerEvents.recipes(event => {
+    event.recipes.gtceu.chemical_bath('kubejs:chem_bath/inert_star')
+        .itemInputs('minecraft:wither_skeleton_skull')
+        .inputFluids(Fluid.of('gtceu:polyethylene', 1000))
+        .itemOutputs('kubejs:inert_nether_star')
+        .duration(1000)
+        .EUt(IV)
+    
+    event.recipes.gtceu.mixer('kubejs:mixer/inert_fluid')
+        .itemInputs('kubejs:inert_nether_star')
+        .inputFluids(Fluid.of('gtceu:aqua_regia', 2000))
+        .outputFluids(Fluid.of('gtceu:inert_nether_essence', 2304))
+        .duration(600)
+        .EUt(IV)
+    
+    event.recipes.gtceu.autoclave('kubejs:autoclave/nether_star')
+        .itemInputs('gtceu:polybenzimidazole_dust')
+        .inputFluids(Fluid.of('gtceu:inert_nether_essence', 144))
+        .itemOutputs('minecraft:nether_star')
+        .duration(1200)
+        .EUt(EV)
+})
