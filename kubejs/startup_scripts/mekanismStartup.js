@@ -7,14 +7,6 @@
 */
 
 global.mekStackAdditions = [
-  {material:'allthemodium', color:'#fed95a', makeDust: false},
-  {material:'vibranium', color:'#26de88', makeDust: false},
-  {material:'unobtainium', color:'#d152e3', makeDust: false},
-  {material:'aluminum', color:'#b1b9ba', makeDust: false},
-  {material:'nickel', color:'#d4cf9b', makeDust: false},
-  {material:'platinum', color:'#72cbec', makeDust: false},
-  {material:'silver', color:'#748494', makeDust: false},
-  {material:'zinc', color:'#487048', makeDust: false},
   {material:'crimson_iron', color:'#fc9aad', makeDust: false},
   {material:'azure_silver', color:'#e89ffc', makeDust: false}
 ]
