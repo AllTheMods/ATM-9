@@ -101,7 +101,7 @@ ServerEvents.recipes(e => {
       }
     },
     "gasInput": {
-      "amount": 10,
+      "amount": 1,
       "gas": "mekanism:antimatter"
     },
     "output": {
