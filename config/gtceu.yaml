@@ -172,7 +172,7 @@ machines:
 
   # Wether to add a "Bedrock Ore Miner" (also enables bedrock ore generation)
   # Default: false
-  doBedrockOres: true
+  doBedrockOres: false
 
   # What Kind of material should the bedrock ore miner output?
   # Default: "raw"
