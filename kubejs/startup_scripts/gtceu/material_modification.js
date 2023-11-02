@@ -7,9 +7,9 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     GTMaterials.NetherStar.setProperty($PropertyKey.FLUID, new $FluidProperty())
     GTMaterials.NetherStar.getProperty($PropertyKey.FLUID).storage.enqueueRegistration($FluidStorageKeys.LIQUID, new GTFluidBuilder())
 
+    GTMaterials.Trinium.setProperty($PropertyKey.ORE, new $OreProperty(1, 1, true))
+
     event.create('inert_nether_essence')
         .fluid()
         .color(0x500bbf)
-
-    GTMaterials.Trinium.setProperty($PropertyKey.ORE, new $OreProperty(1, 1, true))
 })

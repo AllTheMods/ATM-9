@@ -9,7 +9,7 @@ StartupEvents.registry('item', event => {
     // Micro Universe Orb
     event.create('micro_universe_catalyst')
         .displayName('Micro Universe Catalyst')
-        .tooltips({translate: 'item.kubejs.micro_universe_catalyst.tooltip', italic: true, color: 'red'})
+        .tooltip({translate: 'item.kubejs.micro_universe_catalyst.tooltip', italic: true, color: 'red'})
     event.create('micro_universe_drill_ship')
         .displayName('Micro Universe Drill Ship')
 })

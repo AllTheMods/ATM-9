@@ -41,6 +41,7 @@ ServerEvents.recipes(event => {
   let CropRegistryInstance = CropRegistry.getInstance()
   for (const Name in cropInfo.disabled) {
     let Crop = CropRegistryInstance.getCropByName(Name)
+    if (Crop == null) continue;
     Crop.setEnabled(false)
     event.remove({ id: `mysticalagriculture:seed/infusion/${Name}` })
   }

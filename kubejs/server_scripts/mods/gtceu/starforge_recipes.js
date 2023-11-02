@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
 	starForge('cable_of_hyperconductivity', 1000, ZPM, 'kubejs:cable_of_hyperconductivity', ['8x gtceu:manganese_phosphide_hex_wire', '8x gtceu:magnesium_diboride_hex_wire', '8x gtceu:mercury_barium_calcium_cuprate_hex_wire', '8x gtceu:uranium_triplatinum_hex_wire', '8x gtceu:samarium_iron_arsenic_oxide_hex_wire', '8x gtceu:indium_tin_barium_titanium_cuprate_hex_wire', '8x gtceu:uranium_rhodium_dinaquadide_hex_wire','8x gtceu:enriched_naquadah_trinium_europium_duranide_hex_wire'], [Fluid.of('gtceu:styrene_butadiene_rubber', 16000), Fluid.of('gtceu:silicone_rubber', 32000), Fluid.of('gtceu:rubber', 64000)])
 
 	//Micro Universe Orb
-	starForge('micro_universe_catalyst', 2000, UV, 'kubejs:micro_universe_catalyst', ['16x gtceu:naquadria_plate', '64x gtceu:uv_piston', '8x gtceu:gravi_star'], [Fluid.of('gtceu:neutronium', 144 * 32), Fluid.of('#forge:hydrogen', 100000), Fluid.of('#forge:helium', 50000), Fluid.of('#forge:oxygen', 50000), Fluid.of('#forge:radon', 10000)])
+	starForge('micro_universe_catalyst', 2000, UV, 'kubejs:micro_universe_catalyst', ['16x gtceu:naquadria_plate', '64x gtceu:uv_electric_piston', '8x gtceu:gravi_star'], [Fluid.of('gtceu:neutronium', 144 * 32), Fluid.of('gtceu:hydrogen', 100000), Fluid.of('gtceu:helium', 50000), Fluid.of('gtceu:oxygen', 50000), Fluid.of('gtceu:radon', 10000)])
 
 	//Gregstar
 	starForge('gregstar', 1280000, ULV, 'allthetweaks:greg_star', 
