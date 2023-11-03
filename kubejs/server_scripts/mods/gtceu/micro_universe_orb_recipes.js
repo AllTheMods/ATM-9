@@ -7,30 +7,32 @@ ServerEvents.recipes(event => {
             '8x gtceu:advanced_power_thruster',
             '2x gtceu:hsse_drill_head',
             '4x gtceu:uv_field_generator',
-            '4x gtceu:wetware_processor_mainframe',
+            '4x #forge:circuits/uhv',
             '32x gtceu:ruthenium_trinium_americium_neutronate_single_wire'
-        ]).inputFluids(
-            [
-                Fluid.of('gtceu:naquadria', 2592),
-                Fluid.of('gtceu:soldering_alloy', 1152)
-            ])
+        ])
+        .inputFluids([
+            Fluid.of('gtceu:naquadria', 2592),
+            Fluid.of('gtceu:soldering_alloy', 1152)
+        ])
         .itemOutputs('1x kubejs:micro_universe_drill_ship')
-		.duration(2400).EUt(UHV)
-    
+        .duration(2400).EUt(UHV)
+
     event.recipes.gtceu.assembly_line('micro_universe_energy_transmitter')
         .itemInputs([
             '1x gtceu:atomic_casing',
             '24x gtceu:tungsten_steel_screw',
             '6x gtceu:rhodium_plated_palladium_dense_plate',
             '16x gtceu:enriched_naquadah_trinium_europium_duranide_hex_wire',
+            '4x gtceu:uv_field_generator',
             '2x gtceu:fusion_coil',
             '1x kubejs:absolute_reaction_plating'
-        ]).inputFluids([
+        ])
+        .inputFluids([
             Fluid.of('gtceu:europium', 1296),
             Fluid.of('gtceu:soldering_alloy', 6912)
         ])
         .itemOutputs('1x kubejs:micro_universe_energy_transmitter')
-		.duration(2400).EUt(UV)
+        .duration(2400).EUt(UV)
 
     event.recipes.gtceu.assembly_line('micro_universe_focus_lens')
         .itemInputs([
@@ -40,13 +42,34 @@ ServerEvents.recipes(event => {
             '1x #forge:lenses/orange',
             '1x kubejs:superthermal_transference_coil',
             '1x kubejs:absolute_reaction_plating'
-        ]).inputFluids([
+        ])
+        .inputFluids([
             Fluid.of('gtceu:neutronium', 1296),
             Fluid.of('gtceu:soldering_alloy', 6912)
         ])
         .itemOutputs('1x kubejs:micro_universe_focus_lens')
-		.duration(2400).EUt(UV)
+        .duration(2400).EUt(UV)
 
+
+    event.recipes.gtceu.assembly_line('micro_universe_orb')
+        .itemInputs([
+            '1x allthetweaks:greg_star',
+            '1x gtceu:uhv_machine_hull',
+            '4x kubejs:micro_universe_catalyst',
+            '4x gtceu:atomic_casing',
+            '6x #forge:circuits/uhv',
+            '8x gtceu:gravi_star',
+            '64x gtceu:uhpic_chip',
+            '64x gtceu:uhpic_chip'
+        ])
+        .inputFluids([
+            Fluid.of('gtceu:neutronium', 144 * 32),
+            Fluid.of('gtceu:europium', 2592),
+            Fluid.of('gtceu:soldering_alloy', 4608),
+            Fluid.of('gtceu:naquadria', 2304)
+        ])
+        .itemOutputs('1x gtceu:micro_universe_orb')
+        .duration(3000).EUt(UV)
 
     // Resource Generation
     event.recipes.gtceu.micro_universe_collector('otherworldy_ore')

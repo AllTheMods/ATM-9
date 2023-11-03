@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
 	starForge('cable_of_hyperconductivity', 1000, ZPM, 'kubejs:cable_of_hyperconductivity', ['8x gtceu:manganese_phosphide_hex_wire', '8x gtceu:magnesium_diboride_hex_wire', '8x gtceu:mercury_barium_calcium_cuprate_hex_wire', '8x gtceu:uranium_triplatinum_hex_wire', '8x gtceu:samarium_iron_arsenic_oxide_hex_wire', '8x gtceu:indium_tin_barium_titanium_cuprate_hex_wire', '8x gtceu:uranium_rhodium_dinaquadide_hex_wire','8x gtceu:enriched_naquadah_trinium_europium_duranide_hex_wire'], [Fluid.of('gtceu:styrene_butadiene_rubber', 16000), Fluid.of('gtceu:silicone_rubber', 32000), Fluid.of('gtceu:rubber', 64000)])
 
 	//Micro Universe Orb
-	starForge('micro_universe_catalyst', 2000, UV, 'kubejs:micro_universe_catalyst', ['16x gtceu:naquadria_plate', '64x gtceu:uv_electric_piston', '8x gtceu:gravi_star'], [Fluid.of('gtceu:neutronium', 144 * 32), Fluid.of('gtceu:hydrogen', 100000), Fluid.of('gtceu:helium', 50000), Fluid.of('gtceu:oxygen', 50000), Fluid.of('gtceu:radon', 10000)])
+	starForge('micro_universe_catalyst', 2000, UV, 'kubejs:micro_universe_catalyst', ['16x gtceu:naquadria_plate', '32x gtceu:uv_electric_piston', '8x gtceu:gravi_star'], [Fluid.of('gtceu:neutronium', 144 * 32), Fluid.of('gtceu:hydrogen', 100000), Fluid.of('gtceu:helium', 50000), Fluid.of('gtceu:oxygen', 50000), Fluid.of('gtceu:radon', 10000)])
 
 	//Gregstar
 	starForge('gregstar', 1280000, ULV, 'allthetweaks:greg_star', 
@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
 		.itemInputs(
 			[
 				'gtceu:uhv_machine_hull',
-				'4x gtceu:wetware_processor_mainframe',
+                '4x #forge:circuits/uhv',
 				'4x gtceu:gravi_star',
 				'4x gtceu:uv_field_generator',
 				'64x gtceu:uhpic_chip',
@@ -117,15 +117,15 @@ ServerEvents.recipes(event => {
 		.itemInputs(
 			[
 				'gtceu:naquadah_alloy_frame',
-				'6x gtceu:naquadah_alloy_plate'
+				'6x gtceu:trinaquadalloy_plate'
 			])
 		.itemOutputs('2x gtceu:atomic_casing')
 		.circuit(6)
 		.duration(50)
-		.EUt(LV)
+		.EUt(16)
 	// Shaped Crafting Grid Recipe
 	event.shaped('2x gtceu:atomic_casing', ['ABA', 'ACA', 'ADA'], {
-		A: 'gtceu:naquadah_alloy_plate',
+		A: 'gtceu:trinaquadalloy_plate',
 		B: '#forge:tools/hammers',
 		C: 'gtceu:naquadah_alloy_frame',
 		D: '#forge:tools/wrenches',

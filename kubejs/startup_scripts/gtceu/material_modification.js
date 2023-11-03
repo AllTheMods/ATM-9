@@ -12,4 +12,11 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('inert_nether_essence')
         .fluid()
         .color(0x500bbf)
+
+    event.create("trinaquadalloy")
+        .ingot().fluid()
+        .color(0x281832).iconSet(GTMaterialIconSet.BRIGHT)
+        .flags(GTMaterialFlags.GENERATE_PLATE)
+        .components('6x trinium', '2x naquadah', '1x carbon')
+        .blastTemp(8747, 'higher', GTValues.VA[GTValues.ZPM], 1200)
 })
