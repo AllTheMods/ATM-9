@@ -11,9 +11,9 @@ ServerEvents.recipes(event => {
   event.shaped('2x gtceu:lapis_flawed_gem', ['LL'], { L: 'minecraft:lapis_lazuli' })
 
   // GT Duplicate Removals
-  event.remove({ id: 'gtceu:shapeless/block_compress_nether_star' })
-  event.remove({ id: 'gtceu:shapeless/block_compress_ender_pearl' })
-  event.remove({ id: 'gtceu:shapeless/block_compress_flint' })
+  event.remove({ id: 'gtceu:shaped/block_compress_nether_star' })
+  event.remove({ id: 'gtceu:shaped/block_compress_ender_pearl' })
+  event.remove({ id: 'gtceu:shaped/block_compress_flint' })
 
   // GT conflicts, Powah Uraninite
   event.remove({ id: 'gtceu:smelting/smelt_raw_uraninite_ore_to_ingot'})
