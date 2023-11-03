@@ -9,14 +9,14 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('micro_universe_reactor')
         .category('gregstar')
         .setEUIO('out')
-        .setMaxIOSize(12, 6, 0, 0)
+        .setMaxIOSize(12, 0, 6, 0)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ARC);
     event.create('micro_universe_collector')
         .category('gregstar')
         .setEUIO('in')
-        .setMaxIOSize(12, 6, 12, 6)
+        .setMaxIOSize(12, 12, 6, 6)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ARC);
