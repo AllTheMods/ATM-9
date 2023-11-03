@@ -105,6 +105,73 @@ ServerEvents.recipes(e => {
     result: Item.of('integrateddynamics:energy_battery_creative').toJson()
   }).id(`kubejs:energizing/integrateddynamics_energy_battery_creative`)
 
+  ///# IronJetpacks
+  e.shaped(Item.of('ironjetpacks:cell', { Id: "ironjetpacks:creative" }).strongNBT(), [
+    ' A ',
+    'BCB',
+    ' A '
+  ], {
+    A: '#forge:storage_blocks/redstone',
+    B: 'allthemodium:unobtainium_block',
+    C: 'powah:battery_nitro'
+  }).id('kubejs:ironjetpacks_creative_cell')
+
+  e.shaped(Item.of('ironjetpacks:thruster', { Id: "ironjetpacks:creative" }).strongNBT(), [
+    'ABA',
+    'BCB',
+    'ADA'
+  ], {
+    A: 'allthemodium:unobtainium_block',
+    B: 'powah:nitro_crystal_block',
+    C: Item.of('ironjetpacks:cell', { Id: "ironjetpacks:creative" }).strongNBT(),
+    D: 'ironfurnaces:unobtainium_furnace'
+  }).id('kubejs:ironjetpacks_creative_thruster')
+
+  e.shaped(Item.of('ironjetpacks:capacitor', { Id: "ironjetpacks:creative" }), [
+    'ACA',
+    'BDB',
+    'AEA'
+  ], {
+    A: 'allthemodium:unobtainium_block',
+    B: 'mekanism:sps_casing',
+    C: 'powah:reactor_nitro',
+    D: 'mekanism:ultimate_induction_cell',
+    E: 'powah:reactor_nitro'
+  }).id('kubejs:ironjetpacks_creative_capacator')
+
+  e.shaped(Item.of('ironjetpacks:jetpack', { Id: "ironjetpacks:creative" }).strongNBT(), [
+    'ACA',
+    'BFB',
+    'DED'
+  ], {
+    A: 'mysticalagradditions:creative_essence',
+    B: 'allthemodium:vibranium_allthemodium_alloy_block',
+    C: Item.of('ironjetpacks:capacitor', { Id: "ironjetpacks:creative" }).strongNBT(),
+    D: Item.of('ironjetpacks:thruster', { Id: "ironjetpacks:creative" }).strongNBT(),
+    E: 'allthetweaks:atm_star',
+    F: Item.of('ironjetpacks:jetpack', { Id: "ironjetpacks:unobtainium" }).strongNBT()
+  }).id('kubejs:ironjetpacks_creative_jetpack')
+
+  ///#Mekanism
+  e.shaped('mekanism:creative_energy_cube', ['ATA', 'UCU', 'ATA'], {
+    A: 'mekanism:alloy_atomic',
+    T: 'mekanism:energy_tablet',
+    U: 'allthemodium:unobtainium_block',
+    C: 'mekanism:ultimate_energy_cube'
+  }).id('kubejs:mekanism/creative_energy_cube')
+
+  e.custom({
+    type: 'powah:energizing',
+    ingredients: [
+      Ingredient.of('mekanism:creative_energy_cube',).toJson(),
+      Ingredient.of('mekanism:creative_energy_cube',).toJson(),
+      Ingredient.of('allthetweaks:atm_star').toJson(),
+      Ingredient.of('mekanism:creative_energy_cube',).toJson(),
+      Ingredient.of('mekanism:creative_energy_cube',).toJson(),
+    ],
+    energy: '2147483647',
+    result: Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}]}}').toJson()
+  }).id(`kubejs:energizing/mekanism_creative_energy_cube`)
 
   ///# Powah
   e.custom({
