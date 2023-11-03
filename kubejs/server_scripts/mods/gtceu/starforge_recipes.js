@@ -1,4 +1,4 @@
-const [ ULV, LV, MV, HV, EV, IV, LuV, ZPM, UV, UHV, UEV ] = GTValues.VA
+const [ ULV, LV, MV, HV, EV, IV, LuV, ZPM, UV, UHV, UEV, UIV, UXV, OpV, MAX ] = GTValues.VA
 ServerEvents.recipes(event => {
     function starForge(id, duration, eu, output, item, fluid) {
 		event.recipes.gtceu.star_forge(id)

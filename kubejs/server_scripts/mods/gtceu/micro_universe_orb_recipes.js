@@ -105,10 +105,10 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.micro_universe_reactor('uhv_power')
         .itemInputs(['16x kubejs:micro_universe_catalyst', '1x kubejs:micro_universe_drill_ship', '256x gtceu:naquadria_ingot', '128x gtceu:neutronium_ingot', '1x #forge:batteries/uv'])
         .inputFluids(Fluid.of('gtceu:nether_star', 144 * 16))
-        .duration(18000).EUt(-(UHV * 16))
+        .duration(18000).EUt(-(UEV * 16))
 
     event.recipes.gtceu.micro_universe_reactor('uev_power')
         .itemInputs(['16x kubejs:micro_universe_catalyst', '1x kubejs:micro_universe_drill_ship', '256x gtceu:tritanium_ingot', '128x gtceu:neutronium_ingot', '1x #forge:batteries/uhv'])
         .inputFluids(Fluid.of('gtceu:nether_star', 144 * 16))
-        .duration(18000).EUt(-(UEV * 16))
+        .duration(18000).EUt(-(UIV * 16))
 })
