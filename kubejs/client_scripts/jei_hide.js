@@ -1,3 +1,11 @@
+let cropRemove = [
+  'tungsten',
+  'titanium',
+  'invar',
+  'steel',
+  'iridium'
+]
+
 JEIEvents.hideItems(event => {
   event.hide(/extrastorage:(block|disk|storagepart)_.+/)
   event.hide(/rebornstorage:(small|medium|large|larger)_(item|fluid)_disk.*/)
@@ -27,4 +35,8 @@ JEIEvents.hideItems(event => {
     event.hide('mekanism:dimensional_stabilizer')
     event.hide('ae2:spatial_anchor')
   }
+
+  cropRemove.forEach(id => {
+    event.hide(`mysticalagriculture:${id}_seeds`)
+  })
 })
