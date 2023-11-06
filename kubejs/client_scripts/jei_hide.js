@@ -1,3 +1,40 @@
+let cropRemove = [
+    'steel',
+    'tungsten',
+    'titanium',
+    'invar',
+    'iridium',
+    "bronze",
+    "brass",
+    "certus_quartz",
+    "fluix",
+    "constantan",
+    "cyanite",
+    "yellorium",
+    "graphite",
+    "rubber",
+    "grains_of_infinity",
+]
+
+let chemlibRemove = [
+    "aluminum",
+    "chromium",
+    "europium",
+    "iridium",
+    "neodymium",
+    "niobium",
+    "osmium",
+    "palladium",
+    "rhodium",
+    "ruthenium",
+    "samarium",
+    "silicon",
+    "titanium",
+    "tungsten",
+    "vanadium",
+    "yttrium",
+]
+
 JEIEvents.hideItems(event => {
   event.hide(/extrastorage:(block|disk|storagepart)_.+/)
   event.hide(/rebornstorage:(small|medium|large|larger)_(item|fluid)_disk.*/)
@@ -27,4 +64,15 @@ JEIEvents.hideItems(event => {
     event.hide('mekanism:dimensional_stabilizer')
     event.hide('ae2:spatial_anchor')
   }
+
+  cropRemove.forEach(id => {
+    event.hide(`mysticalagriculture:${id}_seeds`)
+  })
+
+  chemlibRemove.forEach(id => {
+    event.hide(`chemlib:${id}_nugget`)
+    event.hide(`chemlib:${id}_ingot`)
+    event.hide(`chemlib:${id}_plate`)
+    event.hide(`chemlib:${id}_block`)
+  })
 })

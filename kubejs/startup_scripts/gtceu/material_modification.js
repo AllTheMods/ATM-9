@@ -19,4 +19,14 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .flags(GTMaterialFlags.GENERATE_PLATE)
         .components('6x trinium', '2x naquadah', '1x carbon')
         .blastTemp(8747, 'higher', GTValues.VA[GTValues.ZPM], 1200)
+
+    event.create('fluorite')
+        .gem().ore()
+        .color(0x0c9949).iconSet('diamond')
+        .components('1x calcium', '2x fluorine')
+
+    event.create('dolomite')
+        .dust().ore()
+        .color(0xf2e4bd).iconSet('rough')
+        .components('1x calcium', '1x magnesium', '1x carbon','3x oxygen')
 })
