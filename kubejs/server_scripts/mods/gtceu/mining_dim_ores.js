@@ -5,7 +5,6 @@ const $HashBiMap = Java.loadClass('com.google.common.collect.HashBiMap');
 const $VeinedVeinGenerator = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.generator.VeinedVeinGenerator');
 const $DikeVeinGenerator = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.generator.DikeVeinGenerator');
 const $DikeBlockDefinition = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.generator.DikeVeinGenerator$DikeBlockDefinition');
-const $Either = Java.loadClass('com.mojang.datafixers.util.Either');
 
 GTCEuServerEvents.oreVeins(event => {
     event.add("fluorite_vein", builder => {
@@ -28,10 +27,10 @@ GTCEuServerEvents.oreVeins(event => {
                 }
             })
             .generator(builder.generatorBuilder("gtceu:dike")
-                .withBlock(new $DikeBlockDefinition($Either.right(GTMaterials.get("fluorite")), 3, -64, 320))
-                .withBlock(new $DikeBlockDefinition($Either.right(GTMaterials.get("sulfur")), 1, -64, 320))
-                .withBlock(new $DikeBlockDefinition($Either.right(GTMaterials.get("gypsum")), 2, -64, 320))
-                .withBlock(new $DikeBlockDefinition($Either.right(GTMaterials.get("dolomite")), 1, -64, 320))
+                .withBlock($DikeBlockDefinition['<init>(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("fluorite"), 3, -64, 320))
+                .withBlock($DikeBlockDefinition['<init>(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("sulfur"), 1, -64, 320))
+                .withBlock($DikeBlockDefinition['<init>(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("gypsum"), 2, -64, 320))
+                .withBlock($DikeBlockDefinition['<init>(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("dolomite"), 1, -64, 320))
                 .minYLevel(-50)
                 .maxYLevel(10))
         })
