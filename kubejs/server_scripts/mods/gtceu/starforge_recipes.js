@@ -11,17 +11,18 @@ ServerEvents.recipes(event => {
 			fluid = null
 		}
 	} 
-	//Gregstar Components
+	// Gregstar Components
 	starForge('robust_star_housing', 4000, ZPM, 'kubejs:star_housing', ['allthetweaks:patrick_star', '32x gtceu:tungsten_steel_double_plate', '64x gtceu:tungsten_steel_screw'], [Fluid.of('gtceu:oxygen_plasma', 2880), Fluid.of('gtceu:nitrogen_plasma', 2880), Fluid.of('gtceu:argon_plasma', 2880), Fluid.of('gtceu:helium_plasma', 2880)])
 	starForge('absolute_reaction_plating', 1000, ZPM, 'kubejs:absolute_reaction_plating', ['gtceu:neutronium_block', '16x gtceu:fusion_coil', '16x gtceu:fusion_casing_mk3', '16x gtceu:fusion_glass'], Fluid.of('gtceu:uranium_235', 2000))
 	starForge('star_compression_module', 1000, ZPM, 'kubejs:star_compression_module', ['allthetweaks:atm_star', '16x gtceu:energy_cluster', '4x gtceu:uv_transformer_16a', '4x gtceu:uv_energy_input_hatch_16a'])
 	starForge('superthermal_transference_coil', 1000, ZPM, 'kubejs:superthermal_transference_coil', ['16x gtceu:uv_voltage_coil', '16x gtceu:tritanium_coil_block', '4x gtceu:uv_naquadria_battery'], Fluid.of('gtceu:europium', 2000))
 	starForge('cable_of_hyperconductivity', 1000, ZPM, 'kubejs:cable_of_hyperconductivity', ['8x gtceu:manganese_phosphide_hex_wire', '8x gtceu:magnesium_diboride_hex_wire', '8x gtceu:mercury_barium_calcium_cuprate_hex_wire', '8x gtceu:uranium_triplatinum_hex_wire', '8x gtceu:samarium_iron_arsenic_oxide_hex_wire', '8x gtceu:indium_tin_barium_titanium_cuprate_hex_wire', '8x gtceu:uranium_rhodium_dinaquadide_hex_wire','8x gtceu:enriched_naquadah_trinium_europium_duranide_hex_wire'], [Fluid.of('gtceu:styrene_butadiene_rubber', 16000), Fluid.of('gtceu:silicone_rubber', 32000), Fluid.of('gtceu:rubber', 64000)])
 
-	//Micro Universe Orb
+
+	// Micro Universe Orb
 	starForge('micro_universe_catalyst', 2000, UV, 'kubejs:micro_universe_catalyst', ['16x gtceu:naquadria_plate', '32x gtceu:uv_electric_piston', '8x gtceu:gravi_star'], [Fluid.of('gtceu:neutronium', 144 * 32), Fluid.of('gtceu:hydrogen', 100000), Fluid.of('gtceu:helium', 50000), Fluid.of('gtceu:oxygen', 50000), Fluid.of('gtceu:radon', 10000)])
 
-	//Gregstar
+	// Gregstar
 	starForge('gregstar', 1280000, ULV, 'allthetweaks:greg_star', 
 		[
 			'kubejs:star_housing',
@@ -38,9 +39,32 @@ ServerEvents.recipes(event => {
 		], 
 		[
 			Fluid.of('gtceu:europium', 10000)
-		])
+		]
+	)
 
-	//Other Star Forge Recipes
+	// Gregstar shards
+	event.recipes.gtceu.macerator('gregstar_shards')
+		.itemInputs('allthetweaks:greg_star')
+		.itemOutputs('5x kubejs:greg_star_shard')
+		.chancedOutput(Item.of('4x kubejs:greg_star_shard'), 5000, 750)
+		.chancedOutput(Item.of('3x kubejs:greg_star_shard'), 2500, 500)
+		.chancedOutput(Item.of('2x kubejs:greg_star_shard'), 1250, 250)
+		.duration(120)
+		.EUt(ZPM)
+
+	// Gregstar creative uses
+	starForge('infinite_polonium', 4000, ZPM, 
+		Item.of('mekanism:creative_chemical_tank', '{mekData: {GasTanks: [{Tank: 0b, stored: {gasName: "mekanism:polonium", amount: 9223372036854775807L}}]}}'),
+		['1000x mekanism:pellet_polonium',
+		'2x kubejs:greg_star_shard'],
+	)
+	starForge('infinite_plutonium', 4000, ZPM, 
+		Item.of('mekanism:creative_chemical_tank', '{mekData: {GasTanks: [{Tank: 0b, stored: {gasName: "mekanism:plutonium", amount: 9223372036854775807L}}]}}'),
+		['1000x mekanism:pellet_plutonium',
+		'2x kubejs:greg_star_shard'],
+	)
+
+	// Other Star Forge Recipes
 	event.recipes.gtceu.star_forge('atm_star')
 		.itemInputs(
 			[
@@ -112,7 +136,7 @@ ServerEvents.recipes(event => {
 		.EUt(ZPM)
 	
 	// Atomic Casing Recipes
-	// Assembly Line Recipe
+	// Assembler Recipe
 	event.recipes.gtceu.assembler('atomic_casing')
 		.itemInputs(
 			[
