@@ -52,12 +52,12 @@ ServerEvents.recipes(event => {
 	starForge('infinite_polonium', 4000, ZPM, 
 		Item.of('mekanism:creative_chemical_tank', '{mekData: {GasTanks: [{Tank: 0b, stored: {gasName: "mekanism:polonium", amount: 9223372036854775807L}}]}}'),
 		['1000x mekanism:pellet_polonium',
-		'allthetweaks:greg_star'],
+		'2x allthetweaks:greg_star_shard'],
 	)
 	starForge('infinite_plutonium', 4000, ZPM, 
 		Item.of('mekanism:creative_chemical_tank', '{mekData: {GasTanks: [{Tank: 0b, stored: {gasName: "mekanism:plutonium", amount: 9223372036854775807L}}]}}'),
 		['1000x mekanism:pellet_plutonium',
-		'allthetweaks:greg_star'],
+		'2x allthetweaks:greg_star_shard'],
 	)
 
 	// Other Star Forge Recipes

@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
         .EUt(IV)
     
     event.recipes.gtceu.autoclave('kubejs:autoclave/nether_star')
-        .itemInputs('gtceu:polybenzimidazole_dust')
+        .itemInputs('gtceu:polyethylene_dust')
         .inputFluids(Fluid.of('gtceu:inert_nether_essence', 144))
         .itemOutputs('minecraft:nether_star')
         .duration(6)
