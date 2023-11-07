@@ -29,7 +29,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .components('1x calcium', '1x magnesium', '1x carbon','3x oxygen')
     
     event.create('star_matter')
-        .fluid(GTFluidStorageKeys.PLASMA, new GTFluidBuilder().state(GTFluidState.PLASMA).customStill())
+        ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)'](GTFluidStorageKeys.PLASMA, new GTFluidBuilder().state(GTFluidState.PLASMA).customStill())
         .color(0xb219d1)
         
 })

@@ -1,8 +1,8 @@
 let cropRemove = [
-    'steel',
     'tungsten',
     'titanium',
     'invar',
+    'steel',
     'iridium',
     "bronze",
     "brass",
@@ -14,10 +14,10 @@ let cropRemove = [
     "graphite",
     "rubber",
     "grains_of_infinity",
-		"soularium",
-		"dark_steel",
-		"pulsating_alloy",
-		"energetic_alloy",
+	"soularium",
+	"dark_steel",
+	"pulsating_alloy",
+	"energetic_alloy",
 ]
 
 let chemlibRemove = [

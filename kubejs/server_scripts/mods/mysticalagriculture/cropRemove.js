@@ -1,10 +1,10 @@
 // priority: 10
 
 let cropRemove = [
-    'steel',
     'tungsten',
     'titanium',
     'invar',
+    'steel',
     'iridium',
     "bronze",
     "brass",
