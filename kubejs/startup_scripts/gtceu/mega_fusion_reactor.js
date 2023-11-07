@@ -1,3 +1,5 @@
+const $FusionReactorMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine")
+
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('mega_fusion_reactor')
         .category('gregstar')
@@ -15,7 +17,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 })
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('mega_fusion_reactor', 'multiblock')
+    event.create('mega_fusion_reactor', 'multiblock', (holder) => new $FusionReactorMachine(holder, GTValues.UHV))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeTypes(GTRecipeTypes.get('mega_fusion_reactor'))
         .recipeModifier(GTRecipeModifiers.PARALLEL_HATCH.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK, GTRecipeModifiers.ELECTRIC_OVERCLOCK))
@@ -52,10 +54,10 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('H', Predicates.blocks(GTBlocks.FUSION_COIL.get()))
             .where("C", Predicates.blocks(GTBlocks.FUSION_CASING_MK3.get()))
             .where('G', Predicates.blocks(GTBlocks.FUSION_GLASS.get()))
-        ["where(char,net.minecraft.world.level.block.state.BlockState)"]('U', Block.getBlock("mekanism:supercharged_coil").defaultBlockState().setValue(BlockProperties.FACING, Direction.EAST))
-        ["where(char,net.minecraft.world.level.block.state.BlockState)"]('u', Block.getBlock("mekanism:supercharged_coil").defaultBlockState().setValue(BlockProperties.FACING, Direction.WEST))
-        ["where(char,net.minecraft.world.level.block.state.BlockState)"]('S', Block.getBlock("mekanism:supercharged_coil").defaultBlockState().setValue(BlockProperties.FACING, Direction.DOWN))
-        ["where(char,net.minecraft.world.level.block.state.BlockState)"]('s', Block.getBlock("mekanism:supercharged_coil").defaultBlockState().setValue(BlockProperties.FACING, Direction.UP))
+            ["where(char,net.minecraft.world.level.block.state.BlockState)"]('U', Block.getBlock("mekanism:supercharged_coil").defaultBlockState().setValue(BlockProperties.FACING, Direction.EAST))
+            ["where(char,net.minecraft.world.level.block.state.BlockState)"]('u', Block.getBlock("mekanism:supercharged_coil").defaultBlockState().setValue(BlockProperties.FACING, Direction.WEST))
+            ["where(char,net.minecraft.world.level.block.state.BlockState)"]('S', Block.getBlock("mekanism:supercharged_coil").defaultBlockState().setValue(BlockProperties.FACING, Direction.DOWN))
+            ["where(char,net.minecraft.world.level.block.state.BlockState)"]('s', Block.getBlock("mekanism:supercharged_coil").defaultBlockState().setValue(BlockProperties.FACING, Direction.UP))
             .where('E', GTMachines.ENERGY_INPUT_HATCH[6], Direction.WEST)
             .where('A', Block.getBlock("gtceu:atomic_casing"))
             .where('F', GTMachines.FLUID_IMPORT_HATCH[6], Direction.UP)
