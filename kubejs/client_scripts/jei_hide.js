@@ -14,6 +14,10 @@ let cropRemove = [
     "graphite",
     "rubber",
     "grains_of_infinity",
+		"soularium",
+		"dark_steel",
+		"pulsating_alloy",
+		"energetic_alloy",
 ]
 
 let chemlibRemove = [
