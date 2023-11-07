@@ -4,15 +4,26 @@
     "tertiaryColor": "#919191",
     "renderer": "default_shell",
     "size": 4.20,
+    "selfbreed": false,
+    "selfheal": true,
+    "fireproof": true,
     "flowerTag": "gtceu:doughnut_mk3",
-    "name": "Not a Neutrpnium",
+    "name": "Not a Neutronium",
     "invulnerability": [
         "mekanism.radiation"
     ],
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "productivebees"
+            "modid": "allthemodium"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "allthetweaks"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gtceu"
         }
     ]
 }
