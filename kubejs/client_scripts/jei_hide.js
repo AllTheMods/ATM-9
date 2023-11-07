@@ -27,7 +27,6 @@ let chemlibRemove = [
     "iridium",
     "neodymium",
     "niobium",
-    "osmium",
     "palladium",
     "rhodium",
     "ruthenium",
