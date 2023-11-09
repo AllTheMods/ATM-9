@@ -29,3 +29,4 @@ When reporting an issue put the version number before the issue title! Such as [
 + [![All the Mods 7](http://cf.way2muchnoise.eu/426926.svg "ATM7") All The Mods 7 - ATM7](https://www.curseforge.com/minecraft/modpacks/all-the-mods-7)
 + [![All the Mods 7sky](http://cf.way2muchnoise.eu/655739.svg "ATM7S") All the Mods 7 - To the Sky](https://www.curseforge.com/minecraft/modpacks/all-the-mods-7-to-the-sky)
 + [![All the Mods 8](http://cf.way2muchnoise.eu/520914.svg "ATM8") All The Mods 8 - ATM8](https://www.curseforge.com/minecraft/modpacks/all-the-mods-8)
++ [![All the Mods 9](http://cf.way2muchnoise.eu/715572.svg "ATM8") All The Mods 9 - ATM9](https://www.curseforge.com/minecraft/modpacks/all-the-mods-9)
