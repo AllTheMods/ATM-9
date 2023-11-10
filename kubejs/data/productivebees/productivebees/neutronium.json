@@ -1,0 +1,29 @@
+{
+    "primaryColor": "#fafafa",
+    "secondaryColor": "#c9c9c9",
+    "tertiaryColor": "#919191",
+    "renderer": "default_shell",
+    "size": 4.20,
+    "selfbreed": false,
+    "selfheal": true,
+    "fireproof": true,
+    "flowerTag": "gtceu:doughnut_mk3",
+    "name": "Not a Neutronium",
+    "invulnerability": [
+        "mekanism.radiation"
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "allthemodium"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "allthetweaks"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gtceu"
+        }
+    ]
+}
