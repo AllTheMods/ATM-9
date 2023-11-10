@@ -39,4 +39,7 @@ ServerEvents.recipes(event => {
         */
         event.remove({id:`alchemistry:compactor/${material}_dust`})
     })
+
+    event.remove({id: "alchemistry:fusion_core"})
+    event.shaped('alchemistry:fusion_core', ['TNT','TNT','TNT',], {'T': 'chemlib:cobalt_ingot', 'N': 'minecraft:netherite_scrap'}).id('kubejs:chemlib/fusion_core')
 })
