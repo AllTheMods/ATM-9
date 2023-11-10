@@ -71,11 +71,12 @@ JEIEvents.hideItems(event => {
   cropRemove.forEach(id => {
     event.hide(`mysticalagriculture:${id}_seeds`)
   })
-  
+  /*
   chemlibRemove.forEach(id => {
     event.hide(`chemlib:${id}_nugget`)
     event.hide(`chemlib:${id}_ingot`)
     event.hide(`chemlib:${id}_plate`)
     event.hide(`chemlib:${id}_block`)
   })
+  */
 })
