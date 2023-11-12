@@ -16,6 +16,7 @@ let chemlibRemove = [
     "tungsten",
     "vanadium",
     "yttrium",
+    //"osmium", // nope, mek uses this
 ]
 /*
 ServerEvents.tags("item", event => {
@@ -41,5 +42,5 @@ ServerEvents.recipes(event => {
     })
 
     event.remove({id: "alchemistry:fusion_core"})
-    event.shaped('alchemistry:fusion_core', ['TNT','TNT','TNT',], {'T': 'chemlib:cobalt_ingot', 'N': 'minecraft:netherite_scrap'}).id('kubejs:chemlib/fusion_core')
+    event.shaped('alchemistry:fusion_core', ['TNT','TNT','TNT',], {'T': 'chemlib:potassium_ingot', 'N': 'minecraft:netherite_scrap'}).id('kubejs:chemlib/fusion_core')
 })
