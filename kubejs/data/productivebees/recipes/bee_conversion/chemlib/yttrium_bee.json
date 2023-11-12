@@ -1,0 +1,14 @@
+{
+    "type": "productivebees:bee_conversion",
+    "source": "productivebees:potassium",
+    "result": "productivebees:yttrium",
+    "item": {
+      "item": "chemlib:yttrium"
+    },
+    "conditions": [
+      {
+        "type": "productivebees:bee_exists",
+        "bee": "productivebees:yttrium"
+      }
+    ]
+  }

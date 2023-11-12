@@ -2,7 +2,7 @@
     "primaryColor": "#bfb1e6",
     "particleColor": "#c3beea",
     "beeTexture": "productivebees:textures/entity/bee/niobium/bee",
-    "flowerTag": "forge:storage_blocks/niobium",
+    "flowerItem": "chemlib:niobium",
     "conditions": [
       {
         "type": "forge:mod_loaded",

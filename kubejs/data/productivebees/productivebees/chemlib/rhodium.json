@@ -3,7 +3,7 @@
     "particleColor": "#cccac1",
     "beeTexture": "productivebees:textures/entity/bee/rhodium/bee",
     "description": "productivebees.ingredient.description.only_spawnegg",
-    "flowerTag": "forge:storage_blocks/rhodium",
+    "flowerItem": "chemlib:rhodium",
     "conditions": [
       {
         "type": "forge:mod_loaded",
