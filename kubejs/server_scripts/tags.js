@@ -5,7 +5,7 @@ function register_greg_ore(event, type, oretag) {
   plain = plain.replace("nether_","")
   plain = plain.replace("endstone_","")
   var tag = `forge:ores/${type}/${plain}`
-  console.info(`${oretag} as ${tag}`)
+  //console.info(`${oretag} as ${tag}`)
   event.add(tag, oretag)
 }
 
@@ -15,12 +15,18 @@ function registerCustomBlocksForGregtech(event) {
     'minecraft:gold_ore',
     'minecraft:emerald_ore',
     'minecraft:copper_ore',
-    "alltheores:aluminium_ore",
-    "alltheores:lead_ore",
-    "alltheores:nickel_ore",
-    "alltheores:platinum_ore",
-    "alltheores:silver_ore",
-    "alltheores:tin_ore",
+    'minecraft:coal_ore',
+    'minecraft:redstone_ore',
+    'minecraft:lapis_ore',
+    'minecraft:diamond_ore',
+    'alltheores:aluminum_ore',
+    'alltheores:lead_ore',
+    'alltheores:nickel_ore',
+    'alltheores:platinum_ore',
+    'alltheores:silver_ore',
+    'alltheores:tin_ore',
+    'alltheores:ruby_ore',
+    'alltheores:sapphire_ore',
   ];
 
   var ores_deepslate = [
@@ -28,24 +34,32 @@ function registerCustomBlocksForGregtech(event) {
     'minecraft:deepslate_gold_ore',
     'minecraft:deepslate_emerald_ore',
     'minecraft:deepslate_copper_ore',
-    "alltheores:deepslate_lead_ore",
-    "alltheores:deepslate_nickel_ore",
-    "alltheores:deepslate_platinum_ore",
-    "alltheores:deepslate_silver_ore",
-    "alltheores:deepslate_tin_ore",
+    'minecraft:deepslate_coal_ore',
+    'minecraft:deepslate_redstone_ore',
+    'minecraft:deepslate_lapis_ore',
+    'minecraft:deepslate_diamond_ore',
+    'alltheores:deepslate_lead_ore',
+    'alltheores:deepslate_nickel_ore',
+    'alltheores:deepslate_platinum_ore',
+    'alltheores:deepslate_silver_ore',
+    'alltheores:deepslate_tin_ore',
+    'alltheores:deepslate_ruby_ore',
+    'alltheores:deepslate_sapphire_ore',
   ]
 
   var ores_nether = [
-    "alltheores:nether_aluminium_ore",
-    "alltheores:nether_lead_ore",
-    "alltheores:nether_nickel_ore",
-    "alltheores:nether_platinum_ore",
-    "alltheores:nether_silver_ore",
-    "alltheores:nether_tin_ore",
+    'minecraft:nether_gold_ore',
+    'minecraft:nether_quartz_ore',
+    'alltheores:nether_aluminum_ore',
+    'alltheores:nether_lead_ore',
+    'alltheores:nether_nickel_ore',
+    'alltheores:nether_platinum_ore',
+    'alltheores:nether_silver_ore',
+    'alltheores:nether_tin_ore',
   ]
 
   var ores_end = [
-    "alltheores:endstone_aluminium_ore"
+    'alltheores:endstone_aluminum_ore'
   ]
   
   ores_stone.forEach(function(v_ore) {
