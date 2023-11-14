@@ -1,0 +1,13 @@
+{
+    "primaryColor": "#cccac9",
+    "particleColor": "#cccac1",
+    "beeTexture": "productivebees:textures/entity/bee/rhodium/bee",
+    "description": "productivebees.ingredient.description.only_spawnegg",
+    "flowerItem": "chemlib:rhodium",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "chemlib"
+      }
+    ]
+  }

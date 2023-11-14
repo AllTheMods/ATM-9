@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
 
 
 	// Micro Universe Orb
-	starForge('micro_universe_catalyst', 2000, UV, 'kubejs:micro_universe_catalyst', ['16x gtceu:naquadria_plate', '32x gtceu:uv_electric_piston', '8x gtceu:gravi_star'], [Fluid.of('gtceu:neutronium', 144 * 32), Fluid.of('gtceu:hydrogen', 100000), Fluid.of('gtceu:helium', 50000), Fluid.of('gtceu:oxygen', 50000), Fluid.of('gtceu:radon', 10000)])
+	starForge('micro_universe_catalyst', 2000, UV, 'kubejs:micro_universe_catalyst', ['16x gtceu:naquadria_plate', '32x gtceu:uv_electric_piston', '8x gtceu:gravi_star'], [Fluid.of('gtceu:neutronium', 144 * 32), Fluid.of('gtceu:star_matter_plasma', 10000)])
 
 	// Gregstar
 	starForge('gregstar', 1280000, ULV, 'allthetweaks:greg_star', 

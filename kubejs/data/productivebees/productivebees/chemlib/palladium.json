@@ -1,0 +1,12 @@
+{
+    "primaryColor": "#b78187",
+    "particleColor": "#c3989a",
+    "beeTexture": "productivebees:textures/entity/bee/palladium/bee",
+    "flowerItem": "chemlib:palladium",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "chemlib"
+      }
+    ]
+  }

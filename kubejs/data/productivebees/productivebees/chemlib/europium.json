@@ -1,0 +1,13 @@
+{
+    "primaryColor": "#6067d3",
+    "particleColor": "#e2d91e",
+    "size:": 0.8,
+    "beeTexture": "productivebees:textures/entity/bee/europium/bee",
+    "flowerItem": "chemlib:europium",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "chemlib"
+      }
+    ]
+  }

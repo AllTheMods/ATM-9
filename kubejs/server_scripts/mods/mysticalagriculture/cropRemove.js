@@ -1,9 +1,25 @@
+// priority: 10
+
 let cropRemove = [
     'tungsten',
     'titanium',
     'invar',
     'steel',
-    'iridium'
+    'iridium',
+    //"bronze",
+    //"brass",
+    //"certus_quartz",
+    //"fluix",
+    "constantan",
+    "cyanite",
+    "yellorium",
+    "graphite",
+    //"rubber",
+    //"grains_of_infinity",
+    //"soularium",
+    //"dark_steel",
+    //"pulsating_alloy",
+    //"energetic_alloy",
 ]
 
 ServerEvents.recipes(event => {
