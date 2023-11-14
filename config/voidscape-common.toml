@@ -1,0 +1,7 @@
+#Prevent standing on bedrock at low Y levels from teleporting you to the void from these dimensions
+#Example: minecraft:overworld
+#
+bedrockTeleportationDimensionBlacklist = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end", "allthemodium:mining", "allthemodium:the_other", "deeperdarker:otherside", "lostcities:lostcity", "blue_skies:everdawn", "blue_skies:everbright", "twilightforest:twilight_forest", "undergarden:undergarden"]
+#Changes the bedrock teleportation dimension blacklist config to be a whitelist instead
+bedrockTeleportationDimensionWhitelist = true
+

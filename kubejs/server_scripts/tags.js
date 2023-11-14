@@ -56,6 +56,8 @@ ServerEvents.tags('block', event => {
     'allthemodium:unobtainium_vibranium_alloy_block',
     'allthetweaks:atm_star_block'
   ])
+
+  event.add('gtceu:doughnut_mk3', 'gtceu:uv_fusion_reactor')
 })
 
 ServerEvents.tags('fluid', event => {

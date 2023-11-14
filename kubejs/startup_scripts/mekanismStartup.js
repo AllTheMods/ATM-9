@@ -7,14 +7,16 @@
 */
 
 global.mekStackAdditions = [
-  //{material:'crimson_iron', color:'#fc9aad', makeDust: false},
-  //{material:'azure_silver', color:'#e89ffc', makeDust: false}
+  {material:'crimson_iron', color:'#fc9aad', makeDust: false},
+  {material:'azure_silver', color:'#e89ffc', makeDust: false}
 ]
 
 // DO NOT EDIT BELOW THIS LINE
 
 const $Slurry = Java.loadClass('mekanism.api.chemical.slurry.Slurry')
 const $SlurryBuilder = Java.loadClass('mekanism.api.chemical.slurry.SlurryBuilder')
+const $Gas = Java.loadClass('mekanism.api.chemical.gas.Gas')
+const $GasBuilder = Java.loadClass('mekanism.api.chemical.gas.GasBuilder')
 
 StartupEvents.registry('item', event => {
   const mekItems = ['clump', 'crystal', 'dirty_dust', 'shard']
@@ -44,7 +46,11 @@ StartupEvents.registry('item', event => {
 
 StartupEvents.registry('mekanism:slurry', event => {
   global.mekStackAdditions.forEach(entry => {
-    event.createCustom(`clean_${entry.material}`, () => $Slurry($SlurryBuilder.clean().ore(`forge:ores/${entry.material}`).color(Color.of(entry.color).getRgbJS())))
-    event.createCustom(`dirty_${entry.material}`, () => $Slurry($SlurryBuilder.dirty().ore(`forge:ores/${entry.material}`).color(Color.of(entry.color).getRgbJS())))
+    event.createCustom(`clean_${entry.material}`, () => $Slurry($SlurryBuilder.clean().ore(`forge:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
+    event.createCustom(`dirty_${entry.material}`, () => $Slurry($SlurryBuilder.dirty().ore(`forge:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
   })
+})
+
+StartupEvents.registry('mekanism:gas', event => {
+  event.createCustom(`neutron_gas`, () => $Gas($GasBuilder.builder()))
 })
