@@ -1,3 +1,84 @@
+function register_greg_ore(event, type, oretag) {
+  var plain = oretag.split(":")[1]
+  plain = plain.replace("_ore","")
+  plain = plain.replace("deepslate_","")
+  plain = plain.replace("nether_","")
+  plain = plain.replace("endstone_","")
+  var tag = `forge:ores/${type}/${plain}`
+  //console.info(`${oretag} as ${tag}`)
+  event.add(tag, oretag)
+}
+
+function registerCustomBlocksForGregtech(event) {
+  var ores_stone = [
+    'minecraft:iron_ore',
+    'minecraft:gold_ore',
+    'minecraft:emerald_ore',
+    'minecraft:copper_ore',
+    'minecraft:coal_ore',
+    'minecraft:redstone_ore',
+    'minecraft:lapis_ore',
+    'minecraft:diamond_ore',
+    'alltheores:aluminum_ore',
+    'alltheores:lead_ore',
+    'alltheores:nickel_ore',
+    'alltheores:platinum_ore',
+    'alltheores:silver_ore',
+    'alltheores:tin_ore',
+    'alltheores:ruby_ore',
+    'alltheores:sapphire_ore',
+  ];
+
+  var ores_deepslate = [
+    'minecraft:deepslate_iron_ore',
+    'minecraft:deepslate_gold_ore',
+    'minecraft:deepslate_emerald_ore',
+    'minecraft:deepslate_copper_ore',
+    'minecraft:deepslate_coal_ore',
+    'minecraft:deepslate_redstone_ore',
+    'minecraft:deepslate_lapis_ore',
+    'minecraft:deepslate_diamond_ore',
+    'alltheores:deepslate_lead_ore',
+    'alltheores:deepslate_nickel_ore',
+    'alltheores:deepslate_platinum_ore',
+    'alltheores:deepslate_silver_ore',
+    'alltheores:deepslate_tin_ore',
+    'alltheores:deepslate_ruby_ore',
+    'alltheores:deepslate_sapphire_ore',
+  ]
+
+  var ores_nether = [
+    'minecraft:nether_gold_ore',
+    'minecraft:nether_quartz_ore',
+    'alltheores:nether_aluminum_ore',
+    'alltheores:nether_lead_ore',
+    'alltheores:nether_nickel_ore',
+    'alltheores:nether_platinum_ore',
+    'alltheores:nether_silver_ore',
+    'alltheores:nether_tin_ore',
+  ]
+
+  var ores_end = [
+    'alltheores:endstone_aluminum_ore'
+  ]
+  
+  ores_stone.forEach(function(v_ore) {
+    register_greg_ore(event,"stone",v_ore)
+  });
+
+  ores_deepslate.forEach(function(v_ore) {
+    register_greg_ore(event,"deepslate",v_ore)
+  });
+
+  ores_nether.forEach(function(v_ore) {
+    register_greg_ore(event,"netherrack",v_ore)
+  });
+
+  ores_end.forEach(function(v_ore) {
+    register_greg_ore(event,"endstone",v_ore)
+  });
+}
+
 ServerEvents.tags('item', event => {
   event.add('minecraft:boats', /byg:\w+?_boat/)
   event.add('minecraft:chest_boats', /byg:.+?_chest_boat/)
@@ -28,6 +109,8 @@ ServerEvents.tags('item', event => {
     '#alltheores:ore_hammers','@ftbic','minecraft:nether_star','bloodmagic:sanguinereverter'
   ])
 
+  
+  registerCustomBlocksForGregtech(event)
 })
 
 ServerEvents.tags('block', event => {
@@ -58,6 +141,10 @@ ServerEvents.tags('block', event => {
   ])
 
   event.add('gtceu:doughnut_mk3', 'gtceu:uv_fusion_reactor')
+
+
+  registerCustomBlocksForGregtech(event)
+  
 })
 
 ServerEvents.tags('fluid', event => {
