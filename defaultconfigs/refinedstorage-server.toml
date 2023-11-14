@@ -1,0 +1,275 @@
+
+[upgrades]
+	#The additional energy used by the Range Upgrade
+	#Range: > 0
+	rangeUpgradeUsage = 8
+	#The additional energy used by the Speed Upgrade
+	#Range: > 0
+	speedUpgradeUsage = 2
+	#The additional energy used by the Crafting Upgrade
+	#Range: > 0
+	craftingUpgradeUsage = 5
+	#The additional energy used by the Stack Upgrade
+	#Range: > 0
+	stackUpgradeUsage = 12
+	#The additional energy used by the Silk Touch Upgrade
+	#Range: > 0
+	silkTouchUpgradeUsage = 15
+	#The additional energy used by the Fortune 1 Upgrade
+	#Range: > 0
+	fortune1UpgradeUsage = 10
+	#The additional energy used by the Fortune 2 Upgrade
+	#Range: > 0
+	fortune2UpgradeUsage = 12
+	#The additional energy used by the Fortune 3 Upgrade
+	#Range: > 0
+	fortune3UpgradeUsage = 14
+	#The additional energy used by the Regulator Upgrade
+	#Range: > 0
+	regulatorUpgradeUsage = 15
+
+[controller]
+	#Whether the Controller uses energy
+	useEnergy = true
+	#The energy capacity of the Controller
+	#Range: > 0
+	capacity = 64000
+	#The base energy used by the Controller
+	#Range: > 0
+	baseUsage = 0
+	#The maximum energy that the Controller can receive
+	#Range: > 0
+	maxTransfer = 2147483647
+
+[cable]
+	#The energy used by the Cable
+	#Range: > 0
+	usage = 0
+
+[grid]
+	#The energy used by Grids
+	#Range: > 0
+	gridUsage = 2
+	#The energy used by Crafting Grids
+	#Range: > 0
+	craftingGridUsage = 4
+	#The energy used by Pattern Grids
+	#Range: > 0
+	patternGridUsage = 4
+	#The energy used by Fluid Grids
+	#Range: > 0
+	fluidGridUsage = 2
+
+[diskDrive]
+	#The energy used by the Disk Drive
+	#Range: > 0
+	usage = 0
+	#The energy used per disk in the Disk Drive
+	#Range: > 0
+	diskUsage = 1
+
+[storageBlock]
+	#The energy used by the 1k Storage Block
+	#Range: > 0
+	oneKUsage = 2
+	#The energy used by the 4k Storage Block
+	#Range: > 0
+	fourKUsage = 4
+	#The energy used by the 16k Storage Block
+	#Range: > 0
+	sixteenKUsage = 6
+	#The energy used by the 64k Storage Block
+	#Range: > 0
+	sixtyFourKUsage = 8
+	#The energy used by the Creative Storage Block
+	#Range: > 0
+	creativeUsage = 10
+
+[fluidStorageBlock]
+	#The energy used by the 64k Fluid Storage Block
+	#Range: > 0
+	sixtyFourKUsage = 2
+	#The energy used by the 256k Fluid Storage Block
+	#Range: > 0
+	twoHundredFiftySixKUsage = 4
+	#The energy used by the 1024k Fluid Storage Block
+	#Range: > 0
+	thousandTwentyFourKUsage = 6
+	#The energy used by the 4096k Fluid Storage Block
+	#Range: > 0
+	fourThousandNinetySixKUsage = 8
+	#The energy used by the Creative Fluid Storage Block
+	#Range: > 0
+	creativeUsage = 10
+
+[externalStorage]
+	#The energy used by the External Storage
+	#Range: > 0
+	usage = 6
+
+[importer]
+	#The energy used by the Importer
+	#Range: > 0
+	usage = 1
+
+[exporter]
+	#The energy used by the Exporter
+	#Range: > 0
+	usage = 1
+
+[networkReceiver]
+	#The energy used by the Network Receiver
+	#Range: > 0
+	usage = 0
+
+[networkTransmitter]
+	#The energy used by the Network Transmitter
+	#Range: > 0
+	usage = 64
+
+[relay]
+	#The energy used by the Relay
+	#Range: > 0
+	usage = 1
+
+[detector]
+	#The energy used by the Detector
+	#Range: > 0
+	usage = 2
+
+[securityManager]
+	#The energy used by the Security Manager
+	#Range: > 0
+	usage = 4
+	#The additional energy used by Security Cards in the Security Manager
+	#Range: > 0
+	usagePerCard = 10
+
+[interface]
+	#The energy used by the Interface
+	#Range: > 0
+	usage = 2
+
+[fluidInterface]
+	#The energy used by the Fluid Interface
+	#Range: > 0
+	usage = 2
+
+[wirelessTransmitter]
+	#The energy used by the Wireless Transmitter
+	#Range: > 0
+	usage = 8
+	#The base range of the Wireless Transmitter
+	#Range: > 0
+	baseRange = 16
+	#The additional range per Range Upgrade in the Wireless Transmitter
+	#Range: > 0
+	rangePerUpgrade = 8
+
+[storageMonitor]
+	#The energy used by the Storage Monitor
+	#Range: > 0
+	usage = 3
+
+[wirelessGrid]
+	#Whether the Wireless Grid uses energy
+	useEnergy = true
+	#The energy capacity of the Wireless Grid
+	#Range: > 0
+	capacity = 3200
+	#The energy used by the Wireless Grid to open
+	#Range: > 0
+	openUsage = 30
+	#The energy used by the Wireless Grid to extract items
+	#Range: > 0
+	extractUsage = 5
+	#The energy used by the Wireless Grid to insert items
+	#Range: > 0
+	insertUsage = 5
+
+[wirelessFluidGrid]
+	#Whether the Wireless Fluid Grid uses energy
+	useEnergy = true
+	#The energy capacity of the Wireless Fluid Grid
+	#Range: > 0
+	capacity = 3200
+	#The energy used by the Wireless Fluid Grid to open
+	#Range: > 0
+	openUsage = 30
+	#The energy used by the Wireless Fluid Grid to extract fluids
+	#Range: > 0
+	extractUsage = 5
+	#The energy used by the Wireless Fluid Grid to insert fluids
+	#Range: > 0
+	insertUsage = 5
+
+[constructor]
+	#The energy used by the Constructor
+	#Range: > 0
+	usage = 3
+
+[destructor]
+	#The energy used by the Destructor
+	#Range: > 0
+	usage = 3
+
+[diskManipulator]
+	#The energy used by the Disk Manipulator
+	#Range: > 0
+	usage = 4
+
+[portableGrid]
+	#Whether the Portable Grid uses energy
+	useEnergy = true
+	#The energy capacity of the Portable Grid
+	#Range: > 0
+	capacity = 3200
+	#The energy used by the Portable Grid to open
+	#Range: > 0
+	openUsage = 30
+	#The energy used by the Portable Grid to extract items or fluids
+	#Range: > 0
+	extractUsage = 5
+	#The energy used by the Portable Grid to insert items or fluids
+	#Range: > 0
+	insertUsage = 5
+
+[crafter]
+	#The energy used by the Crafter
+	#Range: > 0
+	usage = 4
+	#The energy used for every Pattern in the Crafter
+	#Range: > 0
+	patternUsage = 1
+
+[crafterManager]
+	#The energy used by the Crafter Manager
+	#Range: > 0
+	usage = 8
+
+[craftingMonitor]
+	#The energy used by the Crafting Monitor
+	#Range: > 0
+	usage = 8
+
+[wirelessCraftingMonitor]
+	#Whether the Wireless Crafting Monitor uses energy
+	useEnergy = true
+	#The energy capacity of the Wireless Crafting Monitor
+	#Range: > 0
+	capacity = 3200
+	#The energy used by the Wireless Crafting Monitor to open
+	#Range: > 0
+	openUsage = 30
+	#The energy used by the Wireless Crafting Monitor to cancel a crafting task
+	#Range: > 0
+	cancelUsage = 5
+	#The energy used by the Wireless Crafting Monitor to cancel all crafting tasks
+	#Range: > 0
+	cancelAllUsage = 10
+
+[autocrafting]
+	#The autocrafting calculation timeout in milliseconds, crafting tasks taking longer than this to calculate are cancelled to avoid server strain
+	#Range: > 5000
+	calculationTimeoutMs = 5000
+
