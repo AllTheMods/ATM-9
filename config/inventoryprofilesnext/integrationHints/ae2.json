@@ -74,10 +74,39 @@
         "ignore": true
     },
     "de.mari_023.ae2wtlib.wct.WCTScreen": {
+        "playerSideOnly": true,
+        "ignore": true
+    },
+    "de.mari_023.ae2wtlib.wct.WETScreen": {
+        "playerSideOnly": true,
+        "ignore": true
+    },
+    "de.mari_023.ae2wtlib.wct.WATScreen": {
+        "playerSideOnly": true,
         "ignore": true
     },
     "de.mari_023.ae2wtlib.wct.WCTMenu": {
-        "ignore": true,
-        "playerSideOnly": true
+        "playerSideOnly": true,
+        "ignore": true
+    },
+    "appeng.client.gui.me.items.PatternEncodingTermScreen": {
+        "playerSideOnly": true,
+        "ignore": true
+    },
+    "appeng.client.gui.me.items.CraftingTermScreen": {
+        "playerSideOnly": true,
+        "ignore": true
+    },
+    "com.github.glodblock.epp.client.gui.GuiExPatternTerminal": {
+        "playerSideOnly": true,
+        "ignore": true
+    },
+    "com.github.glodblock.epp.client.gui.GuiExPatternProvider": {
+        "playerSideOnly": true,
+        "ignore": true
+    },
+    "com.github.glodblock.epp.client.gui.GuiExInterface": {
+        "playerSideOnly": true,
+        "ignore": true
     }
 }
