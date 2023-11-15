@@ -1,10 +1,10 @@
 {
     "type": "occultism:miner",
     "ingredient": {
-      "tag": "occultism:miners/ores"
+      "tag": "occultism:miners/master"
     },
     "result": {
       "item": "allthemodium:vibranium_nugget"
     },
-    "weight": 5
+    "weight": 200
 }
