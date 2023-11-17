@@ -1,0 +1,19 @@
+{
+    "type": "occultism:miner",
+    "ingredient": {
+      "tag": "occultism:miners/deeps"
+    },
+    "result": {
+      "item": "gtceu:deepslate_tantalite_ore"
+    },
+    "weight": 166,
+    "conditions": [
+      {
+        "type": "forge:not",
+        "value": {
+          "type": "forge:tag_empty",
+          "tag": "forge:ores/tantalite"
+        }
+      }
+    ]
+  }

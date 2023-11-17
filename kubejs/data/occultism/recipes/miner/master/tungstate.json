@@ -1,0 +1,19 @@
+{
+    "type": "occultism:miner",
+    "ingredient": {
+      "tag": "occultism:miners/master"
+    },
+    "result": {
+      "item": "gtceu:endstone_tungstate_ore"
+    },
+    "weight": 166,
+    "conditions": [
+      {
+        "type": "forge:not",
+        "value": {
+          "type": "forge:tag_empty",
+          "tag": "forge:ores/tungstate"
+        }
+      }
+    ]
+  }

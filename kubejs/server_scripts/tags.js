@@ -106,7 +106,7 @@ ServerEvents.tags('item', event => {
   event.add('forge:dusts/netherite', 'alltheores:netherite_dust')
 
   event.add('forbidden_arcanus:modifier/eternal_incompatible',[
-    '#alltheores:ore_hammers','@ftbic','minecraft:nether_star','bloodmagic:sanguinereverter'
+    '#alltheores:ore_hammers','@ftbic','minecraft:nether_star','bloodmagic:sanguinereverter','#occultism:miners/ores','apotheosis:potion_charm'
   ])
 
   

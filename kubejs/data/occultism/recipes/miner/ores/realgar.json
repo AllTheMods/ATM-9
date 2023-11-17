@@ -1,0 +1,19 @@
+{
+    "type": "occultism:miner",
+    "ingredient": {
+      "tag": "occultism:miners/ores"
+    },
+    "result": {
+      "item": "gtceu:realgar_ore"
+    },
+    "weight": 100,
+    "conditions": [
+      {
+        "type": "forge:not",
+        "value": {
+          "type": "forge:tag_empty",
+          "tag": "forge:ores/realgar"
+        }
+      }
+    ]
+  }

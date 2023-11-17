@@ -1,0 +1,19 @@
+{
+    "type": "occultism:miner",
+    "ingredient": {
+      "tag": "occultism:miners/deeps"
+    },
+    "result": {
+      "item": "gtceu:deepslate_pollusite_ore"
+    },
+    "weight": 100,
+    "conditions": [
+      {
+        "type": "forge:not",
+        "value": {
+          "type": "forge:tag_empty",
+          "tag": "forge:ores/pollusite"
+        }
+      }
+    ]
+  }
