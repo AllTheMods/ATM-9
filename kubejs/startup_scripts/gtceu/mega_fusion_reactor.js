@@ -33,7 +33,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .aisle("                                 ", "                                 ", "C  N C                     C N  C", "C  N C                     C N  C", "C  N C                     C N  C", "C  N C                     C N  C", "                                 ", "                                 ")
             .where('M', Predicates.controller(Predicates.blocks(definition.get())))
             .where('H', Predicates.blocks("gtceu:fusion_coil"))
-            .where('T', Predicates.blocks("gtceu:tritanium_coil"))
+            .where('T', Predicates.blocks(GTBlocks.COIL_TRITANIUM.get()))
             .where('N', Predicates.blocks("gtceu:heatproof_machine_casing"))
             .where('C', Predicates.blocks("gtceu:fusion_casing_mk3"))
             .where('G', Predicates.blocks("gtceu:fusion_glass"))
