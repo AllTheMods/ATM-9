@@ -31,5 +31,13 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('star_matter')
         ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)'](GTFluidStorageKeys.PLASMA, new GTFluidBuilder().state(GTFluidState.PLASMA).customStill())
         .color(0xb219d1)
+
+    event.create('nitinol')
+        .ingot().fluid()
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .colorAverage()
+        .flags(GTMaterialFlags.GENERATE_PLATE)
+        .components('4x nickel', '6x titanium')
+        .blastTemp(1583, 'high', GTValues.VA[GTValues.IV], 1200)
         
 })
