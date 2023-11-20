@@ -1876,7 +1876,7 @@
 			]
 			shape: "square"
 			tasks: [{
-				id: "24C3F8F9D2382B89"
+				id: "1960B985B54B9FBD"
 				item: {
 					Count: 1b
 					id: "itemfilters:or"
@@ -1888,15 +1888,20 @@
 							}
 							{
 								Count: 1b
+								id: "pipez:energy_pipe"
+							}
+							{
+								Count: 1b
 								id: "powah:energy_cable_starter"
 							}
 							{
 								Count: 1b
-								id: "pipez:energy_pipe"
+								id: "mekanism:basic_universal_cable"
 							}
 						]
 					}
 				}
+				title: "Basic Power Cables"
 				type: "item"
 			}]
 			title: "Power Cables"
