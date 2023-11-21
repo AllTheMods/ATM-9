@@ -6,12 +6,12 @@ ServerEvents.recipes(event => {
             '8x gtceu:uv_machine_hull',
             '8x gtceu:advanced_power_thruster',
             '2x gtceu:hsse_drill_head',
-            '4x gtceu:uv_field_generator',
-            '4x #forge:circuits/uhv',
+            '2x gtceu:uv_field_generator',
+            '2x #forge:circuits/uhv',
             '32x gtceu:ruthenium_trinium_americium_neutronate_single_wire'
         ])
         .inputFluids([
-            Fluid.of('gtceu:naquadria', 2592),
+            Fluid.of('gtceu:naquadria', 1296),
             Fluid.of('gtceu:soldering_alloy', 1152)
         ])
         .itemOutputs('1x kubejs:micro_universe_drill_ship')
