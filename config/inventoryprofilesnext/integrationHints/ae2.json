@@ -81,8 +81,14 @@
         "playerSideOnly": true,
         "ignore": true
     },
+	"de.mari_023.ae2wtlib.wet.WETMenu": {
+        "ignore": true
+    },
     "de.mari_023.ae2wtlib.wct.WATScreen": {
         "playerSideOnly": true,
+        "ignore": true
+    },
+    "de.mari_023.ae2wtlib.wat.WATMenu": {
         "ignore": true
     },
     "de.mari_023.ae2wtlib.wct.WCTMenu": {
