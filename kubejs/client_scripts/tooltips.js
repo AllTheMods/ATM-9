@@ -107,5 +107,11 @@ ItemEvents.tooltip(event => {
     [Text.of('Gas:').darkGray(), ' ', Text.of('40,000').gray(), ' ', Text.of('mB/t').darkGray()],
     [Text.of('Energy:').darkGray(), ' ', Text.of('131,072').gray(), ' ', Text.of('FE/t').darkGray()],
   ])
-
+  
+  //GTCEu
+    event.add('gtceu:advanced_large_chemical_reactor',
+      [
+        Text.of('ALCR a LCR that can parallelize.')
+      ]
+    )
 })

@@ -37,17 +37,6 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.recipes(event => {
-  let cropInfo = JsonIO.read('kubejs/server_scripts/mods/mysticalagriculture/cropInfo.json')
-  let CropRegistryInstance = CropRegistry.getInstance()
-  for (const Name in cropInfo.disabled) {
-    let Crop = CropRegistryInstance.getCropByName(Name)
-    if (Crop == null) continue;
-    Crop.setEnabled(false)
-    event.remove({ id: `mysticalagriculture:seed/infusion/${Name}` })
-  }
-})
-
-ServerEvents.recipes(event => {
   let JsonExport = { enabled: [], disabled: [] }
   let CropRegistryInstance = CropRegistry.getInstance()
   let CropList = CropRegistryInstance.getCrops()

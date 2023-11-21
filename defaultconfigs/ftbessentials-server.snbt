@@ -125,7 +125,7 @@
 			# You can override this with FTB Ranks using ftbessentials.home.cooldown
 			# Default: 10
 			# Range: 0 ~ 604800
-			cooldown: 10000
+			cooldown: 1800
 			
 			# Default: true
 			enabled: true
@@ -150,7 +150,7 @@
 			# You can override this with FTB Ranks using ftbessentials.rtp.cooldown
 			# Default: 600
 			# Range: 0 ~ 604800
-			cooldown: 60000
+			cooldown: 7200
 			
 			# Blacklisted dimension ID's for /rtp (player *must not* be in any of these dimensions)
 			# Wildcarded dimensions (e.g. 'somemod:*') are supported
@@ -210,10 +210,10 @@
 			# You can override this with FTB Ranks using ftbessentials.tpa.cooldown
 			# Default: 10
 			# Range: 0 ~ 604800
-			cooldown: 10
+			cooldown: 600
 			
 			# Default: true
-			enabled: false
+			enabled: true
 			
 			# Warm-up time before /tpa command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.tpa.warmup

@@ -1,9 +1,9 @@
 let cropRemove = [
-  'tungsten',
-  'titanium',
-  'invar',
-  'steel',
-  'iridium'
+    'tungsten',
+    'titanium',
+    'invar',
+    'iridium',
+    "yellorium",
 ]
 
 JEIEvents.hideItems(event => {

@@ -1,0 +1,717 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "creative"
+	group: ""
+	icon: "functionalstorage:creative_vending_upgrade"
+	id: "16956970FF49BB4D"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "atm:textures/questpics/creative.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "allthetweaks:textures/item/atm_star.png"
+			rotation: 20.0d
+			width: 2.0d
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "allthetweaks:textures/item/atm_star.png"
+			rotation: -20.0d
+			width: 2.0d
+			x: -4.0d
+			y: -3.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2CF11A70229000AB"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0CF133CEADDC504C"
+					item: "create:creative_motor"
+					type: "item"
+				}
+				{
+					id: "72936F6095FF124A"
+					item: "create:creative_blaze_cake"
+					type: "item"
+				}
+			]
+			title: "Getting Create-ive."
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			id: "314537C71B1B5741"
+			rewards: [
+				{
+					id: "398125AAF450E6E0"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "5D91D6BA0A43CDB8"
+					item: {
+						Count: 1b
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of Creation\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E67E7028A90F200"
+					table_id: 7025454341029952768L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "4F7E4F430154E96E"
+				item: "mysticalagradditions:creative_essence"
+				type: "item"
+			}]
+			title: "Master of Creation"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "088E6EA318D25659"
+			rewards: [
+				{
+					id: "4D0E3B723F4F7569"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "5EE93B9969BDE61D"
+					item: {
+						Count: 1b
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of The Sky\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C75ED9B4A7749CC"
+					table_id: 7025454341029952768L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "48CC30220D7FC2C9"
+				item: "allthetweaks:nexium_emitter"
+				type: "item"
+			}]
+			title: "Master of The Sky"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "29FFA090ADB56195"
+			rewards: [
+				{
+					id: "2609BCC306245807"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "52F653A7E72EFC5B"
+					item: {
+						Count: 1b
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of The Elements\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00AD263752FFCF7C"
+					table_id: 7175652334583451871L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "3F1E9259BB90D044"
+				item: "allthetweaks:philosophers_fuel"
+				type: "item"
+			}]
+			title: "Master of The Elements"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "296E89E2DF857B25"
+			rewards: [
+				{
+					id: "405BF0FCC81D5658"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "356705C6E0F0F388"
+					item: {
+						Count: 1b
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of Space\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "599218366225810D"
+					table_id: 7175652334583451871L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "56F3DEFF2D46B881"
+				item: "allthetweaks:pulsating_black_hole"
+				type: "item"
+			}]
+			title: "Master of Space"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "794EC696A3B7DAC3"
+			rewards: [
+				{
+					id: "44165A6E4A341DF6"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "27D843D0710D4CD6"
+					item: {
+						Count: 1b
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of The Universe\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C0357D6C72283DA"
+					table_id: 7025454341029952768L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "10834451DAC877C5"
+				item: "allthetweaks:dimensional_seed"
+				type: "item"
+			}]
+			title: "Master of The Universe"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"29FFA090ADB56195"
+				"4A629299C15E7E81"
+				"314537C71B1B5741"
+				"24CE3AF373180CC9"
+				"794EC696A3B7DAC3"
+				"296E89E2DF857B25"
+				"20408CB5A15237EA"
+				"5477FBAEBDE2D10B"
+				"3615BAFD4F2AD479"
+				"088E6EA318D25659"
+				"3047DB8DF8454D18"
+				"7F3C377120EF35B8"
+			]
+			description: [
+				"The ATM Star."
+				""
+				"This is needed to craft Creative items."
+			]
+			id: "464D0C17601E8A2B"
+			rewards: [
+				{
+					id: "1A44EDC903F8E8D7"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "382984099BD8DCEF"
+					item: "allthetweaks:trophy_atm"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Take over the world."
+			tasks: [{
+				id: "5F6988D125AAB233"
+				item: "allthetweaks:atm_star"
+				type: "item"
+			}]
+			title: "&6ATM Star"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "24CE3AF373180CC9"
+			rewards: [
+				{
+					id: "67087A134C6947DF"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "7A79D37078705E41"
+					item: {
+						Count: 1b
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "sharpness"
+									lvl: 5
+								}
+								{
+									id: "looting"
+									lvl: 3
+								}
+								{
+									id: "sweeping"
+									lvl: 3
+								}
+							]
+							display: {
+								Name: "\"Master of...Patrick?\""
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D026B4AC588B08C"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "7222BF35C9281295"
+				item: "allthetweaks:patrick_star"
+				type: "item"
+			}]
+			title: "Master of....Patrick?"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "20408CB5A15237EA"
+			rewards: [
+				{
+					id: "7812BBD0CC80C2A8"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "2C5AB04570DBEC0C"
+					item: {
+						Count: 1b
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of Oblivion\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5782E3663FC50E5F"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "64A1AE71DDC8F0B0"
+				item: "allthetweaks:oblivion_shard"
+				type: "item"
+			}]
+			title: "Master of Oblivion"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			hide: false
+			id: "4A629299C15E7E81"
+			rewards: [
+				{
+					id: "2EFB7B4F97D220BF"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "28AA46A8D4DD01E6"
+					item: {
+						Count: 1b
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of Reality\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "517C037090107437"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "52DDA8A874F605CB"
+				item: "allthetweaks:improbable_probability_device"
+				type: "item"
+			}]
+			title: "Master of Reality"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "3615BAFD4F2AD479"
+			rewards: [
+				{
+					id: "7952CD1C4621CA26"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "26B9DA9F21EE83C4"
+					item: {
+						Count: 1b
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of Dragons\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17722771164A4D2C"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "48CE28F5C1683093"
+				item: "allthetweaks:dragon_soul"
+				type: "item"
+			}]
+			title: "Master of Dragons"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "5477FBAEBDE2D10B"
+			rewards: [
+				{
+					id: "5241889A5D8B8931"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "180F365B4EDFF409"
+					item: {
+						Count: 1b
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of The Undead\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62D680E24CAAD6F4"
+					table_id: 5196609362437981520L
+					title: "Random Mythic Reward"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "042808E2D5E02DED"
+				item: "allthetweaks:withers_compass"
+				type: "item"
+			}]
+			title: "Master of The Undead"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2CF11A70229000AB"
+				"464D0C17601E8A2B"
+			]
+			description: ["If you make 9 Stars, or enough to make an ATM Star Block, you'll be able to create a &dStarry Bee&r. This bee gives you &6ATM Star Shards&r from their combs. They will also need another ATM Star Block for their flower!"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6E6FDF551EA4FF1A"
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Enough to make everything in the pack?"
+			tasks: [
+				{
+					id: "529AEED3E1A07228"
+					item: "allthetweaks:atm_star_block"
+					type: "item"
+				}
+				{
+					id: "5C995984E37F6C5A"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:starry"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Set For Life"
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			id: "7F3C377120EF35B8"
+			rewards: [
+				{
+					id: "654E148667B50941"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "6415E5859663BDA3"
+					item: {
+						Count: 1b
+						id: "allthemodium:alloy_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of The Alloy\",\"italic\":false}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BC90DAF90BA1F33"
+					table_id: 7025454341029952768L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					count: 28L
+					id: "44051D66A5EF2F12"
+					item: "allthemodium:unobtainium_allthemodium_alloy_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6BBB6B41C0B4F68B"
+					item: {
+						Count: 1b
+						id: "allthemodium:unobtainium_vibranium_alloy_block"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 1s
+							}]
+							HideFlags: 1
+							display: {
+								Name: "[{\"text\":\"Awakened Unobtainium-Vibranium Alloy Block\",\"italic\":false}]"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Building The Frame"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "3047DB8DF8454D18"
+			rewards: [
+				{
+					id: "65E1A5BDD454B39F"
+					item: {
+						Count: 1b
+						id: "minecraft:nether_star"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Star of The Gods\",\"italic\":false,\"color\":\"dark_purple\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C5B50A2C82FD978"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				count: 15L
+				id: "15781E3FD52A7921"
+				item: "allthecompressed:nether_star_block_3x"
+				type: "item"
+			}]
+			title: "Harnessing the Power of the Nether"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			hide: true
+			hide_dependency_lines: true
+			id: "3DA9649DC32DDF7C"
+			rewards: [{
+				id: "1483F0383FB2B474"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "425542D0B83DFC9E"
+				item: "allthetweaks:atm_star_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			hide: true
+			hide_dependency_lines: true
+			id: "695C8159D28F16B7"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2E44EAD876619015"
+				item: "ars_nouveau:creative_source_jar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			hide: true
+			hide_dependency_lines: true
+			id: "3F833B656A0DBB0E"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5973E65E0C940E27"
+				item: "ars_nouveau:creative_spell_book"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+	]
+	title: "&dCreative "
+}

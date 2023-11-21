@@ -1,9 +1,11 @@
+// priority: 10
+
 let cropRemove = [
     'tungsten',
     'titanium',
     'invar',
-    'steel',
-    'iridium'
+    'iridium',
+    "yellorium",
 ]
 
 ServerEvents.recipes(event => {

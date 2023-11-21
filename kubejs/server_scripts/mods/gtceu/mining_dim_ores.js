@@ -4,8 +4,37 @@ const $WorldGenLayers = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.
 const $HashBiMap = Java.loadClass('com.google.common.collect.HashBiMap');
 const $VeinedVeinGenerator = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.generator.VeinedVeinGenerator');
 const $DikeVeinGenerator = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.generator.DikeVeinGenerator');
+const $DikeBlockDefinition = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.generator.DikeVeinGenerator$DikeBlockDefinition');
 
 GTCEuServerEvents.oreVeins(event => {
+    event.add("fluorite_vein", builder => {
+        builder.clusterSize(35)
+            .weight(30)
+            .density(0.75)
+            .discardChanceOnAirExposure(0.0)
+            .layer('deepslate')
+            .addSpawnDimension('allthemodium:mining')
+            .addSpawnBiome('#allthemodium:mining_features/mining_biomes')
+            .heightRange({
+                height: {
+                    type: "uniform",
+                    min_inclusive: {
+                        absolute: -50
+                    },
+                    max_inclusive: {
+                        absolute: 10
+                    }
+                }
+            })
+            .generator(builder.generatorBuilder("gtceu:dike")
+                .withBlock(new $DikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("fluorite"), 3, -64, 320))
+                .withBlock(new $DikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("sulfur"), 1, -64, 320))
+                .withBlock(new $DikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("gypsum"), 2, -64, 320))
+                .withBlock(new $DikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("dolomite"), 1, -64, 320))
+                .minYLevel(-50)
+                .maxYLevel(10))
+        })
+
     //$ChemicalHelper.ORES_INVERSE.put(Blocks.AIR.defaultBlockState(), TagPrefix.ore)
     $HashBiMap.create(GTRegistries.ORE_VEINS.registry()).forEach((veinId, vein) => {
         let startY;

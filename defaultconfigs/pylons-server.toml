@@ -30,19 +30,19 @@
 	infusionAppliedDuration = 20
 	#Whether the Infusion Pylon chunkloads itself.
 	#This is limited to one pylon per player, while the player is online.
-	infusionChunkloads = false
+	infusionChunkloads = true
 	#Effects that may be used in the Infusion Pylon.
 	#List may include either effect IDs (like `minecraft:strength`) or an entire namespace (like `minecraft`).
 	#If the list is empty, then all effects will be allowed except for those specifically denied.
 	infusionAllowedEffects = []
 	#Effects that may not be used in the Infusion Pylon.
 	#This list will override the allowed effect list.
-	infusionDeniedEffects = []
+	infusionDeniedEffects = ["minecraft:absorption", "tombstone:ghostly_shape"]
 
 [harvester_pylon]
 	#Delay between harvest attempts (in ticks).
 	#Range: 10 ~ 120
-	harvesterWorkDelay = 60
+	harvesterWorkDelay = 20
 	#Whether the harvester requires a hoe to work.
 	#If enabled, it will use 1 durability per harvest action
 	harvesterRequiresTool = true

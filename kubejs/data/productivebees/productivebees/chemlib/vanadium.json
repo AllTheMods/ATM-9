@@ -1,0 +1,12 @@
+{
+    "primaryColor": "#9da1d6",
+    "particleColor": "#adafd5",
+    "beeTexture": "productivebees:textures/entity/bee/vanadium/bee",
+    "flowerItem": "chemlib:vanadium",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "chemlib"
+      }
+    ]
+  }

@@ -1,0 +1,13 @@
+{
+    "primaryColor": "#998784",
+    "particleColor": "#ab9d9a",
+    "beeTexture": "productivebees:textures/entity/bee/neodymium/bee",
+    "description": "productivebees.ingredient.description.only_spawnegg",
+    "flowerItem": "chemlib:neodymium",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "chemlib"
+      }
+    ]
+  }
