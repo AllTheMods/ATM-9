@@ -95,7 +95,7 @@ ServerEvents.recipes(e => {
   e.custom({
     "type": "mekanism:nucleosynthesizing",
     "itemInput": {
-      "amount": 1,
+      "amount": 16,
       "ingredient": {
         "item": "kubejs:inert_nether_star"
       }
@@ -105,7 +105,7 @@ ServerEvents.recipes(e => {
       "gas": "mekanism:antimatter"
     },
     "output": {
-      "count": 1,
+      "count": 16,
       "item": "minecraft:nether_star"
     },
     "duration": 200
