@@ -6,12 +6,12 @@ ServerEvents.recipes(event => {
             '8x gtceu:uv_machine_hull',
             '8x gtceu:advanced_power_thruster',
             '2x gtceu:hsse_drill_head',
-            '4x gtceu:uv_field_generator',
-            '4x #forge:circuits/uhv',
+            '2x gtceu:uv_field_generator',
+            '2x #forge:circuits/uhv',
             '32x gtceu:ruthenium_trinium_americium_neutronate_single_wire'
         ])
         .inputFluids([
-            Fluid.of('gtceu:naquadria', 2592),
+            Fluid.of('gtceu:naquadria', 1296),
             Fluid.of('gtceu:soldering_alloy', 1152)
         ])
         .itemOutputs('1x kubejs:micro_universe_drill_ship')
@@ -73,28 +73,32 @@ ServerEvents.recipes(event => {
 
     // Resource Generation
     event.recipes.gtceu.micro_universe_collector('otherworldy_ore')
-        .itemInputs(['16x kubejs:micro_universe_catalyst', '1x kubejs:micro_universe_drill_ship', '16x #forge:ingots/uranium_235'])
+        .notConsumable('16x kubejs:micro_universe_catalyst')
+        .itemInputs(['1x kubejs:micro_universe_drill_ship', '16x #forge:ingots/uranium_235'])
         .inputFluids([Fluid.of('gtceu:rocket_fuel', 10000), Fluid.of('gtceu:nether_star', 144 * 16)])
         .itemOutputs(['288x gtceu:neutronium_nugget', '126x allthemodium:allthemodium_nugget', '126x allthemodium:unobtainium_nugget', '126x gtceu:naquadria_nugget'])
         .outputFluids([Fluid.of('gtceu:samarium', 12960), Fluid.of('gtceu:darmstadtium', 4608)])
         .duration(12000).EUt(UHV * 36)
 
     event.recipes.gtceu.micro_universe_collector('end_ore')
-        .itemInputs(['16x kubejs:micro_universe_catalyst', '1024x minecraft:end_stone', '1x kubejs:micro_universe_drill_ship'])
+        .notConsumable('16x kubejs:micro_universe_catalyst')
+        .itemInputs(['1x kubejs:micro_universe_drill_ship', '1024x minecraft:end_stone'])
         .inputFluids([Fluid.of('gtceu:rocket_fuel', 10000), Fluid.of('gtceu:ender_air', 1000000), Fluid.of('gtceu:nether_star', 144 * 64)])
         .itemOutputs(['512x gtceu:endstone_naquadah_ore', '512x gtceu:endstone_trinium_ore', '512x gtceu:endstone_plutonium_ore', '1024x gtceu:endstone_tungstate_ore'])
         .outputFluids([Fluid.of('gtceu:liquid_ender_air', 64000), Fluid.of('gtceu:tritium', 32000)])
         .duration(18000).EUt(UHV * 36)
 
     event.recipes.gtceu.micro_universe_collector('nether_ore')
-        .itemInputs(['16x kubejs:micro_universe_catalyst', '1024x minecraft:netherrack', '1x kubejs:micro_universe_drill_ship'])
+        .notConsumable('16x kubejs:micro_universe_catalyst')
+        .itemInputs(['1x kubejs:micro_universe_drill_ship', '1024x minecraft:netherrack'])
         .inputFluids([Fluid.of('gtceu:rocket_fuel', 10000), Fluid.of('gtceu:nether_air', 1000000), Fluid.of('gtceu:nether_star', 144 * 16)])
         .itemOutputs(['1024x gtceu:netherrack_sulfur_ore', '1024x gtceu:netherrack_tetrahedrite_ore', '512x gtceu:netherrack_sphalerite_ore', '512x gtceu:netherrack_gold_ore'])
         .outputFluids([Fluid.of('gtceu:liquid_nether_air', 64000), Fluid.of('minecraft:lava', 100000), Fluid.of('gtceu:inert_nether_essence', 16000)])
         .duration(12000).EUt(UHV * 12)
 
     event.recipes.gtceu.micro_universe_collector('overworld_ore')
-        .itemInputs(['16x kubejs:micro_universe_catalyst', '1024x minecraft:stone', '1x kubejs:micro_universe_drill_ship'])
+        .notConsumable('16x kubejs:micro_universe_catalyst')
+        .itemInputs(['1x kubejs:micro_universe_drill_ship', '1024x minecraft:stone'])
         .inputFluids([Fluid.of('gtceu:rocket_fuel', 10000), Fluid.of('gtceu:air', 1000000), Fluid.of('gtceu:nether_star', 144 * 16)])
         .itemOutputs(['1280x gtceu:copper_ore', '1024x gtceu:tin_ore', '512x gtceu:iron_ore', '512x gtceu:diamond_ore', '16x allthemodium:allthemodium_ore'])
         .outputFluids([Fluid.of('gtceu:liquid_air', 64000), Fluid.of('gtceu:oil', 100000)])
@@ -103,12 +107,14 @@ ServerEvents.recipes(event => {
 
     // Energy Generation
     event.recipes.gtceu.micro_universe_reactor('uhv_power')
-        .itemInputs(['16x kubejs:micro_universe_catalyst', '1x kubejs:micro_universe_drill_ship', '256x gtceu:naquadria_ingot', '128x gtceu:neutronium_ingot', '1x #forge:batteries/uv'])
+        .notConsumable('16x kubejs:micro_universe_catalyst')
+        .itemInputs(['1x kubejs:micro_universe_drill_ship', '256x gtceu:naquadria_ingot', '128x gtceu:neutronium_ingot', '1x #forge:batteries/uv'])
         .inputFluids(Fluid.of('gtceu:nether_star', 144 * 16))
         .duration(18000).EUt(-(GTValues.V[GTValues.UEV] * 16))
 
     event.recipes.gtceu.micro_universe_reactor('uev_power')
-        .itemInputs(['16x kubejs:micro_universe_catalyst', '1x kubejs:micro_universe_drill_ship', '256x gtceu:tritanium_ingot', '128x gtceu:neutronium_ingot', '1x #forge:batteries/uhv'])
+        .notConsumable('16x kubejs:micro_universe_catalyst')
+        .itemInputs(['1x kubejs:micro_universe_drill_ship', '256x gtceu:tritanium_ingot', '128x gtceu:neutronium_ingot', '1x #forge:batteries/uhv'])
         .inputFluids(Fluid.of('gtceu:nether_star', 144 * 16))
         .duration(18000).EUt(-(GTValues.V[GTValues.UIV] * 16))
 })

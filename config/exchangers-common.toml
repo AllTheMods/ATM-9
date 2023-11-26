@@ -1,0 +1,523 @@
+
+#Exchangers Config
+[modules]
+	#If true, enables Vanilla-based exchangers.
+	vanillaModule = true
+	#If true, enables Ender IO-based exchangers (Requires Ender IO to be installed).
+	enderIOModule = true
+	#If true, enables Ender IO Endergy-based exchangers (Requires Ender IO Endergy to be installed).
+	enderIOEndergyModule = true
+	#If true, enables Thermal Series-based exchangers (Requires Thermal Foundation and Thermal Innovation to be installed).
+	thermalModule = true
+	#If true, enables Mekanism-based exchangers (Requires Mekanism to be installed).
+	mekanismModule = true
+	#If true, enables Immersive Engineering-based exchangers (Requires Immersive Engineering to be installed).
+	immersiveEngineeringModule = true
+	#If true, enables special exchangers (e.g. Tuberous Exchanger).
+	specialModule = true
+
+[vanilla_tweaks]
+	#Set the max harvest level for Wooden Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	woodenExchangerMaxHarvestLevel = "minecraft:wood"
+	#Set the max range for Wooden Exchanger
+	#Range: 0 ~ 12
+	woodenExchangerMaxRange = 0
+	#Set the max harvest level for Stone Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	stoneExchangerMaxHarvestLevel = "minecraft:stone"
+	#Set the max range for Stone Exchanger
+	#Range: 0 ~ 12
+	stoneExchangerMaxRange = 1
+	#Set the max harvest level for Golden Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	goldenExchangerMaxHarvestLevel = "minecraft:stone"
+	#Set the max range for Golden Exchanger
+	#Range: 0 ~ 12
+	goldenExchangerMaxRange = 2
+	#Set the max harvest level for Iron Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	ironExchangerMaxHarvestLevel = "minecraft:iron"
+	#Set the max range for Iron Exchanger
+	#Range: 0 ~ 12
+	ironExchangerMaxRange = 3
+	#Set the max harvest level for Copper Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	copperExchangerMaxHarvestLevel = "minecraft:iron"
+	#Set the max range for Copper Exchanger
+	#Range: 0 ~ 12
+	copperExchangerMaxRange = 3
+	#Set the max harvest level for Diamond Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	diamondExchangerMaxHarvestLevel = "minecraft:diamond"
+	#Set the max range for Diamond Exchanger
+	#Range: 0 ~ 12
+	diamondExchangerMaxRange = 4
+	#Set the max harvest level for Emerald Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	emeraldExchangerMaxHarvestLevel = "minecraft:diamond"
+	#Set the max range for Emerald Exchanger
+	#Range: 0 ~ 12
+	emeraldExchangerMaxRange = 5
+	#Set the max harvest level for Obsidian Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	obsidianExchangerMaxHarvestLevel = "minecraft:diamond"
+	#Set the max range for Obsidian Exchanger
+	#Range: 0 ~ 12
+	obsidianExchangerMaxRange = 6
+	#Set the max harvest level for Amethyst Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	amethystExchangerMaxHarvestLevel = "minecraft:diamond"
+	#Set the max range for Amethyst Exchanger
+	#Range: 0 ~ 12
+	amethystExchangerMaxRange = 6
+	#Set the max harvest level for Netherite Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	netheriteExchangerMaxHarvestLevel = "minecraft:netherite"
+	#Set the max range for Netherite Exchanger
+	#Range: 0 ~ 12
+	netheriteExchangerMaxRange = 7
+	#Set the max harvest level for End Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	endExchangerMaxHarvestLevel = "minecraft:netherite"
+	#Set the max range for End Exchanger
+	#Range: 0 ~ 12
+	endExchangerMaxRange = 7
+
+[ender_io_tweaks]
+	#Set the energy capacity for Copper Alloy Exchanger
+	#Range: > 1000
+	copperAlloyExchangerMaxEnergy = 50000
+	#Set the energy consumption per block for Copper Alloy Exchanger
+	#Range: > 1
+	copperAlloyExchangerPerBlockUse = 50
+	#Set the max harvest level for Copper Alloy Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	copperAlloyExchangerMaxHarvestLevel = "minecraft:stone"
+	#Set the max range for Copper Alloy Exchanger
+	#Range: 0 ~ 12
+	copperAlloyExchangerMaxRange = 1
+	#Set the energy capacity for Conductive Exchanger
+	#Range: > 1000
+	conductiveExchangerMaxEnergy = 250000
+	#Set the energy consumption per block for Conductive Exchanger
+	#Range: > 1
+	conductiveExchangerPerBlockUse = 100
+	#Set the max harvest level for Conductive Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	conductiveExchangerMaxHarvestLevel = "minecraft:iron"
+	#Set the max range for Conductive Exchanger
+	#Range: 0 ~ 12
+	conductiveExchangerMaxRange = 2
+	#Set the energy capacity for Pulsating Exchanger
+	#Range: > 1000
+	pulsatingExchangerMaxEnergy = 1000000
+	#Set the energy consumption per block for Pulsating Exchanger
+	#Range: > 1
+	pulsatingExchangerPerBlockUse = 500
+	#Set the max harvest level for Pulsating Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	pulsatingExchangerMaxHarvestLevel = "minecraft:diamond"
+	#Set the max range for Pulsating Exchanger
+	#Range: 0 ~ 12
+	pulsatingExchangerMaxRange = 4
+	#Set the energy capacity for Energetic Exchanger
+	#Range: > 1000
+	energeticExchangerMaxEnergy = 5000000
+	#Set the energy consumption per block for Energetic Exchanger
+	#Range: > 1
+	energeticExchangerPerBlockUse = 1000
+	#Set the max harvest level for Energetic Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	energeticExchangerMaxHarvestLevel = "minecraft:diamond"
+	#Set the max range for Energetic Exchanger
+	#Range: 0 ~ 12
+	energeticExchangerMaxRange = 5
+	#Set the energy capacity for Dark Steel Exchanger
+	#Range: > 1000
+	darkSteelExchangerMaxEnergy = 10000000
+	#Set the energy consumption per block for Dark Steel Exchanger
+	#Range: > 1
+	darkSteelExchangerPerBlockUse = 1500
+	#Set the max harvest level for Dark Steel Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	darkSteelExchangerMaxHarvestLevel = "minecraft:netherite"
+	#Set the max range for Dark Steel Exchanger
+	#Range: 0 ~ 12
+	darkSteelExchangerMaxRange = 6
+	#Set the energy capacity for Vibrant Exchanger
+	#Range: > 1000
+	vibrantExchangerMaxEnergy = 25000000
+	#Set the energy consumption per block for Vibrant Exchanger
+	#Range: > 1
+	vibrantExchangerPerBlockUse = 2500
+	#Set the max harvest level for Vibrant Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	vibrantExchangerMaxHarvestLevel = "minecraft:netherite"
+	#Set the max range for Vibrant Exchanger
+	#Range: 0 ~ 12
+	vibrantExchangerMaxRange = 7
+	#Set the energy capacity for End Steel Exchanger
+	#Range: > 1000
+	endSteelExchangerMaxEnergy = 50000000
+	#Set the energy consumption per block for End Steel Exchanger
+	#Range: > 1
+	endSteelExchangerPerBlockUse = 5000
+	#Set the max harvest level for End Steel Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	endSteelExchangerMaxHarvestLevel = "minecraft:netherite"
+	#Set the max range for End Steel Exchanger
+	#Range: 0 ~ 12
+	endSteelExchangerMaxRange = 7
+
+[ender_io_endergy_tweaks]
+	#Set the energy capacity for Crude Steel Exchanger
+	#Range: > 1000
+	crudeSteelExchangerMaxEnergy = 50000
+	#Set the energy consumption per block for Crude Steel Exchanger
+	#Range: > 1
+	crudeSteelExchangerPerBlockUse = 50
+	#Set the max harvest level for Crude Steel Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	crudeSteelExchangerMaxHarvestLevel = "minecraft:stone"
+	#Set the max range for Crude Steel Exchanger
+	#Range: 0 ~ 12
+	crudeSteelExchangerMaxRange = 1
+	#Set the energy capacity for Energetic Silver Exchanger
+	#Range: > 1000
+	energeticSilverExchangerMaxEnergy = 250000
+	#Set the energy consumption per block for Energetic Silver Exchanger
+	#Range: > 1
+	energeticSilverExchangerPerBlockUse = 100
+	#Set the max harvest level for Energetic Silver Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	energeticSilverExchangerMaxHarvestLevel = "minecraft:iron"
+	#Set the max range for Energetic Silver Exchanger
+	#Range: 0 ~ 12
+	energeticSilverExchangerMaxRange = 2
+	#Set the energy capacity for Vivid Exchanger
+	#Range: > 1000
+	vividExchangerMaxEnergy = 1000000
+	#Set the energy consumption per block for Vivid Exchanger
+	#Range: > 1
+	vividExchangerPerBlockUse = 500
+	#Set the max harvest level for Vivid Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	vividExchangerMaxHarvestLevel = "minecraft:diamond"
+	#Set the max range for Vivid Exchanger
+	#Range: 0 ~ 12
+	vividExchangerMaxRange = 4
+	#Set the energy capacity for Crystalline Exchanger
+	#Range: > 1000
+	crystallineExchangerMaxEnergy = 10000000
+	#Set the energy consumption per block for Crystalline Exchanger
+	#Range: > 1
+	crystallineExchangerPerBlockUse = 1500
+	#Set the max harvest level for Crystalline Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	crystallineExchangerMaxHarvestLevel = "minecraft:diamond"
+	#Set the max range for Crystalline Exchanger
+	#Range: 0 ~ 12
+	crystallineExchangerMaxRange = 5
+	#Set the energy capacity for Melodic Exchanger
+	#Range: > 1000
+	melodicExchangerMaxEnergy = 50000000
+	#Set the energy consumption per block for Melodic Exchanger
+	#Range: > 1
+	melodicExchangerPerBlockUse = 2500
+	#Set the max harvest level for Melodic Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	melodicExchangerMaxHarvestLevel = "minecraft:netherite"
+	#Set the max range for Melodic Exchanger
+	#Range: 0 ~ 12
+	melodicExchangerMaxRange = 7
+	#Set the energy capacity for Stellar Exchanger
+	#Range: > 1000
+	stellarExchangerMaxEnergy = 100000000
+	#Set the energy consumption per block for Stellar Exchanger
+	#Range: > 1
+	stellarExchangerPerBlockUse = 5000
+	#Set the max harvest level for Stellar Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	stellarExchangerMaxHarvestLevel = "minecraft:netherite"
+	#Set the max range for Stellar Exchanger
+	#Range: 0 ~ 12
+	stellarExchangerMaxRange = 9
+
+[thermal_tweaks]
+	#Set the energy capacity for Leadstone Exchanger
+	#Range: > 1000
+	leadstoneExchangerMaxEnergy = 100000
+	#Set the energy consumption per block for Leadstone Exchanger
+	#Range: > 1
+	leadstoneExchangerPerBlockUse = 50
+	#Set the max harvest level for Leadstone Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	leadstoneExchangerMaxHarvestLevel = "minecraft:stone"
+	#Set the max range for Leadstone Exchanger
+	#Range: 0 ~ 12
+	leadstoneExchangerMaxRange = 1
+	#Set the energy capacity for Hardened Exchanger
+	#Range: > 1000
+	hardenedExchangerMaxEnergy = 500000
+	#Set the energy consumption per block for Hardened Exchanger
+	#Range: > 1
+	hardenedExchangerPerBlockUse = 150
+	#Set the max harvest level for Hardened Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	hardenedExchangerMaxHarvestLevel = "minecraft:iron"
+	#Set the max range for Hardened Exchanger
+	#Range: 0 ~ 12
+	hardenedExchangerMaxRange = 3
+	#Set the energy capacity for Reinforced Exchanger
+	#Range: > 1000
+	reinforcedExchangerMaxEnergy = 1000000
+	#Set the energy consumption per block for Reinforced Exchanger
+	#Range: > 1
+	reinforcedExchangerPerBlockUse = 250
+	#Set the max harvest level for Reinforced Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	reinforcedExchangerMaxHarvestLevel = "minecraft:diamond"
+	#Set the max range for Reinforced Exchanger
+	#Range: 0 ~ 12
+	reinforcedExchangerMaxRange = 5
+	#Set the energy capacity for Signalum Exchanger
+	#Range: > 1000
+	signalumExchangerMaxEnergy = 10000000
+	#Set the energy consumption per block for Signalum Exchanger
+	#Range: > 1
+	signalumExchangerPerBlockUse = 500
+	#Set the max harvest level for Signalum Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	signalumExchangerMaxHarvestLevel = "minecraft:netherite"
+	#Set the max range for Signalum Exchanger
+	#Range: 0 ~ 12
+	signalumExchangerMaxRange = 6
+	#Set the energy capacity for Resonant Exchanger
+	#Range: > 1000
+	resonantExchangerMaxEnergy = 25000000
+	#Set the energy consumption per block for Resonant Exchanger
+	#Range: > 1
+	resonantExchangerPerBlockUse = 1500
+	#Set the max harvest level for Resonant Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	resonantExchangerMaxHarvestLevel = "minecraft:netherite"
+	#Set the max range for Resonant Exchanger
+	#Range: 0 ~ 12
+	resonantExchangerMaxRange = 7
+
+[mekanism_tweaks]
+	#Set the energy capacity for Basic Exchanger
+	#Range: > 1000
+	basicExchangerMaxEnergy = 250000
+	#Set the energy consumption per block for Basic Exchanger
+	#Range: > 1
+	basicExchangerPerBlockUse = 50
+	#Set the max harvest level for Basic Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	basicExchangerMaxHarvestLevel = "minecraft:stone"
+	#Set the max range for Basic Exchanger
+	#Range: 0 ~ 12
+	basicExchangerMaxRange = 3
+	#Set the energy capacity for Advanced Exchanger
+	#Range: > 1000
+	advancedExchangerMaxEnergy = 1000000
+	#Set the energy consumption per block for Advanced Exchanger
+	#Range: > 1
+	advancedExchangerPerBlockUse = 150
+	#Set the max harvest level for Advanced Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	advancedExchangerMaxHarvestLevel = "minecraft:iron"
+	#Set the max range for Advanced Exchanger
+	#Range: 0 ~ 12
+	advancedExchangerMaxRange = 5
+	#Set the energy capacity for Elite Exchanger
+	#Range: > 1000
+	eliteExchangerMaxEnergy = 5000000
+	#Set the energy consumption per block for Elite Exchanger
+	#Range: > 1
+	eliteExchangerPerBlockUse = 500
+	#Set the max harvest level for Elite Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	eliteExchangerMaxHarvestLevel = "minecraft:diamond"
+	#Set the max range for Elite Exchanger
+	#Range: 0 ~ 12
+	eliteExchangerMaxRange = 6
+	#Set the energy capacity for Ultimate Exchanger
+	#Range: > 1000
+	ultimateExchangerMaxEnergy = 10000000
+	#Set the energy consumption per block for Ultimate Exchanger
+	#Range: > 1
+	ultimateExchangerPerBlockUse = 1000
+	#Set the max harvest level for Ultimate Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	ultimateExchangerMaxHarvestLevel = "minecraft:netherite"
+	#Set the max range for Ultimate Exchanger
+	#Range: 0 ~ 12
+	ultimateExchangerMaxRange = 7
+
+[immersive_engineering_tweaks]
+	#Set the energy capacity for LV Exchanger
+	#Range: > 1000
+	lvExchangerMaxEnergy = 100000
+	#Set the energy consumption per block for LV Exchanger
+	#Range: > 1
+	lvExchangerPerBlockUse = 50
+	#Set the max harvest level for LV Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	lvExchangerMaxHarvestLevel = "minecraft:iron"
+	#Set the max range for LV Exchanger
+	#Range: 0 ~ 12
+	lvExchangerMaxRange = 3
+	#Set the energy capacity for MV Exchanger
+	#Range: > 1000
+	mvExchangerMaxEnergy = 500000
+	#Set the energy consumption per block for MV Exchanger
+	#Range: > 1
+	mvExchangerPerBlockUse = 250
+	#Set the max harvest level for MV Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	mvExchangerMaxHarvestLevel = "minecraft:diamond"
+	#Set the max range for MV Exchanger
+	#Range: 0 ~ 12
+	mvExchangerMaxRange = 5
+	#Set the energy capacity for HV Exchanger
+	#Range: > 1000
+	hvExchangerMaxEnergy = 2500000
+	#Set the energy consumption per block for HV Exchanger
+	#Range: > 1
+	hvExchangerPerBlockUse = 500
+	#Set the max harvest level for HV Exchanger
+	#Valid Vanilla values are: minecraft:wood, minecraft:stone, minecraft:iron, minecraft:diamond, minecraft:netherite
+	#For modded values, please check the tool tiers for the mod that you want to use
+	#Entering an incorrect value will result in the Exchanger using the default value to prevent crashes
+	hvExchangerMaxHarvestLevel = "minecraft:netherite"
+	#Set the max range for HV Exchanger
+	#Range: 0 ~ 12
+	hvExchangerMaxRange = 7
+
+[recipe_tweaks]
+	#Set the recipes type for Vanilla-based exchangers:
+	#'easy'     Easy recipes, non-progressive, lowest recipe costs.
+	#'normal'   Normal recipes, progressive, moderate recipe costs.
+	#'hard'     Hard recipes, progressive, expensive recipe costs.
+	vanillaRecipesType = "normal"
+	#Set the recipes type for Ender IO-based exchangers:
+	#'easy'     Easy recipes, non-progressive, lowest recipe costs.
+	#'normal'   Normal recipes, progressive, moderate recipe costs.
+	#'hard'     Hard recipes, progressive, expensive recipe costs.
+	enderIORecipesType = "normal"
+	#Set the recipes type for Ender IO Endergy-based exchangers:
+	#'easy'     Easy recipes, non-progressive, lowest recipe costs.
+	#'normal'   Normal recipes, progressive, moderate recipe costs.
+	#'hard'     Hard recipes, progressive, expensive recipe costs.
+	enderIOEndergyRecipesType = "normal"
+	#Set the recipes type for Thermal Series-based exchangers:
+	#'easy'     Easy recipes, non-progressive, lowest recipe costs.
+	#'normal'   Normal recipes, progressive, moderate recipe costs.
+	#'hard'     Hard recipes, progressive, expensive recipe costs.
+	thermalRecipesType = "normal"
+	#Set the recipes type for Mekanism-based exchangers:
+	#'easy'     Easy recipes, non-progressive, lowest recipe costs.
+	#'normal'   Normal recipes, progressive, moderate recipe costs.
+	#'hard'     Hard recipes, progressive, expensive recipe costs.
+	mekanismRecipesType = "normal"
+	#Set the recipes type for Immersive Engineering-based exchangers:
+	#'easy'     Easy recipes, non-progressive, lowest recipe costs.
+	#'normal'   Normal recipes, progressive, moderate recipe costs.
+	#'hard'     Hard recipes, progressive, expensive recipe costs.
+	immersiveEngineeringRecipesType = "normal"
+
+[misc]
+	#Certain blocks might be blacklisted by Exchangers if they're Tile Entities.
+	#Put a list of block registry names that you wish to be whitelisted from Exchangers.
+	#Separate each entry with semicolon.
+	#(e.g. "tconstruct:seared;thermal:energy_cell;minecraft:conduit")
+	blocksWhitelist = "tconstruct:seared"
+	#Put a list of block registry names that you wish to be blacklisted from Exchangers.
+	#Note: Blacklisting a block will prevent it from being selected or being exchanged.
+	#Separate each entry with semicolon.
+	#(e.g. "minecraft:grass;minecraft:cake;minecraft:dragon_egg")
+	blocksBlacklist = "voidscape:voidic_crystal_ore;voidscape:thunderrock;voidscape:thunder_nylium"
+	#If true, allows the Holding Enchantment from CoFH Core to be used on Powered Exchangers
+	#Calculation formula: Base Energy + (Base Energy * Enchantment Level / 2)
+	holdingEnchantment = true
+	#If true, allows Unbreaking Enchantment to affect Powered Exchangers
+	unbreakingPoweredExchangers = true
+	#If true, enables Silk Touch (gets the blocks itself rather than drops) on all Exchangers
+	doExchangersSilkTouch = true
+	#Set the energy unit shown on Powered Exchangers:
+	#'FE'     Forge Energy
+	#'RF'     Redstone Flux
+	energyUnit = "FE"
+

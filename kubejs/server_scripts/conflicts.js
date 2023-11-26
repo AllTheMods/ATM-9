@@ -22,5 +22,12 @@ ServerEvents.recipes(event => {
   event.smelting('gtceu:uraninite_dust', 'gtceu:raw_uraninite').id('atm9:gtceu/smelting_smelt_raw_uraninite_ore_to_ingot')
   event.blasting('gtceu:uraninite_dust', 'gtceu:raw_uraninite').id('atm9:gtceu/blasting_smelt_raw_uraninite_ore_to_ingot')
   event.shapeless('gtceu:raw_uraninite_block', '9x gtceu:raw_uraninite').id('atm9:gtceu/shaped_compress_uraninite_to_ore_block')
+
+  // Reborn Storage conflicts
+  event.remove({ output: /rebornstorage:(small|medium|large|larger)_(item|fluid)_disk.*/ })
+
+  // Extra Storage conflicts
+  event.remove({ output: /extrastorage:(block|disk|storagepart)_.+/ })
+  event.remove({ output: /extrastorage:advanced_(importer|exporter)/ })
 })
 
