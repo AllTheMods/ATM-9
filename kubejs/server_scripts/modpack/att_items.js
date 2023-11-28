@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
     S: [Item.of('blue_skies:poison_arc', '{ArcLevel:1}').strongNBT(),Item.of('blue_skies:poison_arc', '{ArcLevel:2}').strongNBT(),'twilightforest:snow_queen_trophy'],
     N: 'allthemodium:piglich_heart_block',
     I: [Item.of('blue_skies:nature_arc', '{ArcLevel:1}').strongNBT(),Item.of('blue_skies:nature_arc', '{ArcLevel:2}').strongNBT(),'twilightforest:snow_queen_trophy'],
-    B: 'minecraft:dragon_breath',
+    B: 'botania:life_essence',
 	G: 'productivebees:inactive_dragon_egg',
     E: 'ars_nouveau:summon_focus'
   }).id('kubejs:allthetweaks/dragon_soul')
@@ -17,11 +17,11 @@ ServerEvents.recipes(event => {
     A: 'allthecompressed:netherrack_6x',
     B: 'allthecompressed:dirt_6x',
     C: 'allthecompressed:obsidian_5x',
-    D: 'allthemodium:teleport_pad',
+    D: 'allthetweaks:mini_exit',
     E: 'allthetweaks:mini_nether',
     F: 'allthetweaks:mini_end',
     G: 'allthecompressed:end_stone_5x',
-    H: 'allthecompressed:emerald_block_5x',
+    H: 'allthecompressed:emerald_block_4x',
     I: 'allthecompressed:diamond_block_4x'
   }).id('kubejs:allthetweaks/dimensional_seed')
 
@@ -62,10 +62,10 @@ ServerEvents.recipes(event => {
     event.shaped('allthetweaks:nexium_emitter', ['A B', ' CF', 'GED'], {
       A: 'powah:player_transmitter_nitro',
       B: [Item.of('ae2wtlib:wireless_universal_terminal', '{crafting:1b,internalMaxPower:4800000.0d,pattern_access:1b,pattern_encoding:1b}'), Item.of('universalgrid:wireless_universal_grid', '{gridType:0}')],
-      C: [Item.of('mekanism:module_teleportation_unit')], // TODO: Add Mek/Thermal alternative
+      F: [Item.of('mekanism:module_gravitational_modulating_unit')],
       D: 'create:mechanical_arm',
       E: 'ae2:singularity',
-      F: 'integrateddynamics:part_connector_omni_directional',
+      C: 'immersiveengineering:railgun',
       G: 'exchangers:end_exchanger'
     }).id('kubejs:allthetweaks/nexium_emitter')
 
