@@ -46,7 +46,6 @@ ServerEvents.recipes(event => {
       JsonExport.enabled.push(CropName)
     } else {
       JsonExport.disabled.push(CropName)
-      event.remove({ id: `mysticalagriculture:seed/infusion/${CropName}` })
     }
   }
   JsonIO.write('kubejs/server_scripts/mods/mysticalagriculture/cropInfo.json', JsonExport)
@@ -55,6 +54,7 @@ ServerEvents.recipes(event => {
   if (Platform.isLoaded('botanypots')) {
     let seenSeeds = []
     let crux = {}
+    let disabledSeedRecipes = []
 
     // Fix drops, fix cruxes, check for missing
     event.forEachRecipe({ type: 'botanypots:crop' }, recipe => {
@@ -80,6 +80,11 @@ ServerEvents.recipes(event => {
         }
         recipe.json.add('drops', newDrops)
         seenSeeds.push(seedName)
+
+        // add disabled seed recipes by recipe ID to an array
+        if (JsonExport.disabled.find((name) => name === Crop.getName())) {
+          disabledSeedRecipes.push(recipe.getId())
+        }
       }
     })
 
@@ -122,6 +127,11 @@ ServerEvents.recipes(event => {
         growthModifier: 1.0
       }).id(`kubejs:botanypots/mysticalagriculture/crux/${category}`)
     }
+
+    // remove disabled seed recipes by id using that array we made earlier
+    disabledSeedRecipes.forEach(id => {
+      event.remove({id: id})
+    })
   }
 
   // Thermal Insolator
