@@ -1,4 +1,8 @@
 ServerEvents.recipes(event => {
+
+  // Yellorium
+  event.remove({ id: 'bigreactors:crafting/yellorium_component_to_storage' })
+  event.remove({ id: 'bigreactors:crafting/yellorium_ingot_to_nugget' })
   
   // Fire for Standing Torch
   event.remove({ id: 'additional_lights:fire_for_standing_torch_s' })
