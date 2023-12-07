@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:wither",
+    "name": "entity.minecraft.wither",
+    "name_color": "0x343434",
+    "gui_scale": 0.5,
+    "gui_x_offset": 0,
+    "gui_y_offset": -0.33,
+    "gui_z_offset": 0,
+    "sim_cost": 2560,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:end_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.wither",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:nether_star",
+            "count": 1
+        },
+        {
+            "optional": true,
+            "item": "bhc:yellow_heart",
+            "count": 1
+        }
+    ]
+}
