@@ -314,11 +314,9 @@
 		}
 		{
 			description: [
-				"&e32x Silicon Dust&r and a &aSmall Pile of Gallium Arsenide Dust&r will make you one of these "
+				"&e32x Silicon Dust&r and a &aSmall Pile of Gallium Arsenide Dust&r on &bProgram 2&r will make you one of these "
 				""
-				"Careful that your EBF isn't set to Program 1, otherwise you might start processing silicon dust into hot silicon ingots rather than making the boule"
-				""
-				"Might be worth making a new EBF, one for just Program 1 recipes"
+				"It might be worth making a new EBF, one for just Program 1 recipes"
 			]
 			id: "26D1F1ECF66194E6"
 			rewards: [{
@@ -524,26 +522,34 @@
 		{
 			dependencies: ["262AE37765B139BE"]
 			description: [
-				"You can find raw aluminium in the End"
+				"You can find raw aluminium in the End, and raw aluminum just about everywhere!"
 				""
-				"Alternatively, you can acquire aluminium by processing a variety of items like bauxite in an electrolyzer for example"
+				"Alternatively, you can acquire aluminum by processing a variety of items like bauxite in an electrolyzer for example"
 				""
-				"We can also generate aluminium passively in the clay line process"
+				"We can also generate aluminum passively in the clay line process"
 			]
 			id: "1C1802ABF3EE3120"
 			rewards: [{
 				count: 8
 				id: "350821400A1DBB6F"
-				item: "gtceu:raw_aluminium"
+				item: "alltheores:raw_aluminum"
 				random_bonus: 4
 				type: "item"
 			}]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Aluminum is that you?"
+			subtitle: "Aluminium is that you?"
 			tasks: [{
+				icon: "alltheores:aluminum_ingot"
 				id: "7B46FA23AF26BF76"
-				item: "gtceu:aluminium_ingot"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/aluminum"
+					}
+				}
+				title: "Aluminum Ingot"
 				type: "item"
 			}]
 			x: -7.5d
@@ -594,7 +600,7 @@
 		{
 			dependencies: [
 				"629DC8DED0F6B578"
-				"2C9C440AE26159DB"
+				"579A41570D610B07"
 			]
 			description: [
 				"Ethanol + Sulfuric Acid in a &eChemical Reactor&r makes Ethylene"
@@ -635,28 +641,6 @@
 			}]
 			x: 0.5d
 			y: 3.5d
-		}
-		{
-			dependencies: ["13B7DF398994FA37"]
-			description: [
-				"Chemical react water with sulfur trioxide to get sulfuric acid"
-				""
-				"You can get infinite water in your digital storage system by connecting to a Kitchen Sink - just make sure it is set to extract only! Otherwise it will void fluids on insert"
-			]
-			id: "2C9C440AE26159DB"
-			rewards: [{
-				id: "23EC39029825B627"
-				item: "gtceu:sulfur_trioxide_bucket"
-				type: "item"
-			}]
-			subtitle: "Just add water!"
-			tasks: [{
-				id: "0B4B674DD94E5837"
-				item: "gtceu:sulfuric_acid_bucket"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 1.5d
 		}
 		{
 			description: [
@@ -815,49 +799,6 @@
 			}]
 			x: -1.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["159F43C0C0D91776"]
-			description: [
-				"Chemical react sulfur dioxide with more oxygen to make sulfur trioxide"
-				""
-				"Oxygen is very important, you may want to go back and dedicate an entire setup to passively produce it if you haven't already"
-			]
-			id: "13B7DF398994FA37"
-			rewards: [{
-				id: "198D68DCB96F5248"
-				item: "gtceu:sulfur_dioxide_bucket"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7FB3A9BBCC42661A"
-				item: "gtceu:sulfur_trioxide_bucket"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["579A41570D610B07"]
-			description: [
-				"Oxygen and sulfur dust in your &eChemical Reactor&r on &aprogram 2&r will make some sulfur dioxide"
-				""
-				"If you're having trouble keeping up with the sulfur requirements, you could start centrifuging 2 blaze powder to make sulfur dust"
-			]
-			id: "159F43C0C0D91776"
-			rewards: [{
-				id: "6DDD4C022DDE3A33"
-				item: "chemlib:sulfur_dust"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "28C79E2C1FEEEAA8"
-				item: "gtceu:sulfur_dioxide_bucket"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 1.0d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -1305,22 +1246,7 @@
 			subtitle: "Where's your lab coat?"
 			tasks: [{
 				id: "3165B02F2BFFEDDA"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_chemical_reactor"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_chemical_reactor"
-							}
-						]
-					}
-				}
+				item: "gtceu:mv_chemical_reactor"
 				title: "Chemical Reactor"
 				type: "item"
 			}]

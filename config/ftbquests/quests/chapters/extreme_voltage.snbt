@@ -212,6 +212,7 @@
 				""
 				"&l&eNote:&r&r A little reminder to double check the temperature requirement for ingot recipes; this one requires something better than Cupronickel Coils, like &bKanthal Coils&r"
 			]
+			icon: "gtceu:titanium_ingot"
 			id: "78A295D4D1A21BCA"
 			min_width: 300
 			rewards: [{
@@ -240,6 +241,7 @@
 		}
 		{
 			description: ["The &dPlatLine™&r is something we'll get into later on, for now be thankful that platinum is plentiful"]
+			icon: "alltheores:platinum_ingot"
 			id: "7C134F7838C23059"
 			shape: "square"
 			tasks: [{
@@ -295,6 +297,7 @@
 			}]
 			shape: "square"
 			tasks: [{
+				icon: "gtceu:tantalum_dust"
 				id: "309F610CA713BB20"
 				item: {
 					Count: 1b
@@ -906,6 +909,11 @@
 			dependencies: ["3B4F326D72E794D3"]
 			description: ["&aDistill&r your &eLightly Steam Cracked Naphtha&r to acquire &0Benzene&r"]
 			id: "7D6AC042FFD0B6D6"
+			rewards: [{
+				id: "4123B08AF0AC72D8"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4CFDA0E86F6528A5"
 				item: "gtceu:benzene_bucket"
@@ -918,6 +926,11 @@
 			dependencies: ["3B4F326D72E794D3"]
 			description: ["&aDistill&r your &eLightly Steam Cracked Naphtha&r to acquire &6Butadiene&r"]
 			id: "3619CD5AAD5E3691"
+			rewards: [{
+				id: "2435330DB710A010"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "672E91EAB979F7AF"
 				item: "gtceu:butadiene_bucket"
@@ -930,6 +943,11 @@
 			dependencies: ["7D6AC042FFD0B6D6"]
 			description: ["Benzene + Ethylene in a &eChemical Reactor&r will result in &bStyrene&r"]
 			id: "46F1A93B071CD980"
+			rewards: [{
+				id: "1C74698CCB18BA0B"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "56A08496E54BC1A4"
 				item: "gtceu:styrene_bucket"
@@ -994,8 +1012,15 @@
 				"This is where the &aCracker&r comes in handy, as it doesn't lose any of your hard earned Naphtha when cracking"
 				""
 				"An alternative is to use a &eChemical Reactor&r, but that loses half the Naphtha!"
+				""
+				"You probably want to make another &aDistillation Tower&r to distill this"
 			]
 			id: "3B4F326D72E794D3"
+			rewards: [{
+				id: "444110B4CC50435E"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "155D71F4D5E47CF7"
 				item: "gtceu:lightly_steam_cracked_naphtha_bucket"
@@ -1008,6 +1033,11 @@
 			dependencies: ["6805E4C7F6FBAC77"]
 			description: ["&eChemical React&r the &6Sulfuric Naphtha&r with &9Hydrogen&r to rid it of the sulfur"]
 			id: "7A0A7DC1C2655EA6"
+			rewards: [{
+				id: "66D525B2A26063DE"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "09220F4C339567B8"
 				item: "gtceu:naphtha_bucket"
@@ -1042,6 +1072,11 @@
 				"This gets us more steam than those boilers did though"
 			]
 			id: "228D1C880563CCBB"
+			rewards: [{
+				id: "556A321FB75D9F76"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7B7128EECA64BD03"
 				item: "gtceu:steam_bucket"
@@ -1146,6 +1181,11 @@
 				"A alternative but slower route might be to &eCentrifuge&r mushrooms or &eDistill&r Fermented Biomass even"
 			]
 			id: "6A54E73E212BB1AF"
+			rewards: [{
+				id: "3D51C447126057E3"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6AEF501966EBB44B"
 				item: "gtceu:methane_bucket"

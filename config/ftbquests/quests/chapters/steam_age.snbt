@@ -14,10 +14,15 @@
 				""
 				"There are High Pressure and Low Pressure variants of machines. Low Pressure machines will take twice as long to process a recipe but consume less steam."
 				""
-				"&l&4NOTE:&r&r after every recipe, steam machines need to vent the used steam. By default this is located on the back, but with your handy-dandy wrench you can change which side the exhaust port faces! If the exhaust port is blocked, then the machine will fail to vent and stop working."
+				"&l&4NOTE:&r&r After every recipe, &n&6steam machines need to vent the used steam&r "
+				""
+				"By default the vent is located on the back, but with your handy-dandy &bwrench&r you can change which side the exhaust port faces! "
+				""
+				"If the exhaust port is blocked, then the machine will fail to vent and stop working."
 			]
 			icon: "alltheores:bronze_plate"
 			id: "4DE719FC2E4C69AB"
+			min_width: 250
 			rewards: [{
 				count: 4
 				id: "11D5E446B48BCB06"
@@ -47,13 +52,16 @@
 		{
 			dependencies: ["4DE719FC2E4C69AB"]
 			description: [
-				"Give a boiler some water, input a fuel source, watch it heat up, and it will start creating steam!"
+				"Give the &eBoiler&r some &bwater&r, input a &6fuel source&r, watch it heat up, and it will start creating &7steam&r!"
+				""
+				"You could use any kind of water source, like a &dSink&r connected with a &aFluid Pipe&r from Pipez!"
 				""
 				"It is very important you put the water in first, as water piped into an already hot boiler will make the boiler &c&lexplode&r&r"
 				""
 				"A solid boiler uses solid fuels like coal, whereas the liquid boiler uses liquid fuels like lava."
 			]
 			id: "672B308FD1DC0F45"
+			min_width: 250
 			rewards: [
 				{
 					id: "7987E2F8CE314F65"
@@ -108,7 +116,9 @@
 			description: [
 				"Now that you have steam, you need something to transfer it around!"
 				""
-				"Placing these will allow you to transfer steam from your boiler to a machine. Use a wrench to add or remove connections as necessary."
+				"Placing these will allow you to transfer steam from your boiler to a machine"
+				""
+				"Use a &bwrench&r to add or remove connections as necessary"
 			]
 			id: "7F9131107E7F9AC8"
 			rewards: [{

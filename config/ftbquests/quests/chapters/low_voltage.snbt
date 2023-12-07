@@ -77,8 +77,8 @@
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.09999999999999998d
+			x: 7.5d
+			y: -0.8999999999999999d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -102,7 +102,7 @@
 				item: "gtceu:lv_wiremill"
 				type: "item"
 			}]
-			x: -0.8999999999999997d
+			x: -4.0d
 			y: 3.5d
 		}
 		{
@@ -127,7 +127,7 @@
 				item: "gtceu:lv_bender"
 				type: "item"
 			}]
-			x: -2.8999999999999995d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -138,21 +138,19 @@
 				"For 1 sulfur dust and 9 raw rubber pulp you'll make the equivalent of 9 rubber ingots in fluid form"
 			]
 			id: "620C406CC24F179C"
-			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "52F68D22D0F72D31"
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
-			shape: "diamond"
 			subtitle: "More rubber more better"
 			tasks: [{
 				id: "52A1256EE8999962"
 				item: "gtceu:lv_chemical_reactor"
 				type: "item"
 			}]
-			x: -3.9000000000000017d
+			x: 0.5d
 			y: 3.5d
 		}
 		{
@@ -189,7 +187,7 @@
 					type: "item"
 				}
 			]
-			x: -1.3999999999999995d
+			x: -1.5d
 			y: 3.0d
 		}
 		{
@@ -214,7 +212,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -234,7 +232,7 @@
 				item: "gtceu:lv_lathe"
 				type: "item"
 			}]
-			x: -3.3999999999999995d
+			x: -3.5d
 			y: 3.0d
 		}
 		{
@@ -254,7 +252,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -278,8 +276,8 @@
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -297,7 +295,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0F9829B0A5EEE67B"]
@@ -328,8 +326,8 @@
 				item: "gtceu:diode"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["59BE2AD1CD0C4ECE"]
@@ -346,8 +344,8 @@
 				item: "gtceu:phenolic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 7.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7A8242E6D0BC6294"]
@@ -365,8 +363,8 @@
 				item: "gtceu:glue_bucket"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.5d
+			x: 5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -515,8 +513,8 @@
 				item: "gtceu:phenolic_circuit_board"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -574,8 +572,8 @@
 				item: "gtceu:arsenic_trioxide_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["439C8AEBE9E1C666"]
@@ -668,7 +666,7 @@
 				}
 			]
 			x: 1.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -694,17 +692,19 @@
 				item: "gtceu:oxygen_bucket"
 				type: "item"
 			}]
-			x: 3.025d
-			y: -0.24999999999999997d
+			x: 4.525d
+			y: -1.25d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
 				"Macerator -> Ore Washer -> Thermal Centrifuge -> Macerator"
 				""
-				"This is one setup for ore processing that will get you many byproducts"
+				"This is one setup for ore processing, you can check JEI for other possible setups! "
 				""
-				"Byproducts are often used for recipes further on, so be sure to keep them!"
+				"Once you have this setup built at &6HV&r you will get many byproducts"
+				""
+				"Byproducts are often used for recipes further on, so be sure to revisit this at HV and keep them!"
 				""
 				"There are many ways to automate this setup, so it is left as an exercise for the reader"
 				""
@@ -738,11 +738,15 @@
 			]
 			title: "Ore Processing"
 			x: 0.5d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["25DBFE887B041E94"]
-			description: ["Cobaltite dust can come from processing cobaltite or cobalt"]
+			description: [
+				"Cobaltite dust can come from ore processing cobaltite"
+				""
+				"You can find Cobaltite Ore by mining in the Overworld between -10 and 60, it should be mixed in with Garnierite, Nickel, and Pentlandite ores"
+			]
 			id: "14C017569BECA2CE"
 			rewards: [{
 				count: 4
@@ -756,8 +760,8 @@
 				item: "gtceu:cobaltite_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["512BD9BCA43AEE83"]
@@ -778,7 +782,7 @@
 				item: "gtceu:arsenic_dust"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -788,11 +792,14 @@
 				""
 				"With the appropriate tools you can click on the maintenance hatch to rectify any and all issues"
 				""
+				"Which tools you ask? When you open the GUI of the Maintenance Hatch you should see a little wrench icon floating off on the right, mouse over it and it will tell you"
+				""
 				"Once that is done, your new EBF is all ready to use!"
 				""
 				"Be aware, problems can arise again, but it is not often and is easy to fix"
 			]
 			id: "23B55A8C7D6482FF"
+			min_width: 300
 			rewards: [{
 				id: "47DE96702DC29027"
 				type: "xp"
@@ -805,7 +812,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -829,15 +836,19 @@
 				item: "gtceu:lv_extractor"
 				type: "item"
 			}]
-			x: -1.8999999999999995d
+			x: -2.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["25DBFE887B041E94"]
+			dependencies: [
+				"25DBFE887B041E94"
+				"4059373B88845C6F"
+				"7B8ADB4104E7C440"
+			]
 			description: [
-				"Processing bauxite or sphalerite are the main methods of obtaining gallium"
+				"You have to start making &9Sodium Persulfate&r to put in a &eChemical Bath&r, replacing the Ore Washer in a separate Ore Processing Setup for a chance at &dGallium Dust&r when processing &6Bauxite&r"
 				""
-				"Eventually you might want to start making &9Sodium Persulfate&r to put in a &eChemical Bath&r, replacing the Ore Washer in a separate Ore Processing Setup for a higher chance at &dgallium dust&r when processing &6bauxite&r"
+				"At &6HV+&r you can &aOre Process&r Bauxite or Sphalerite as another method of obtaining gallium"
 			]
 			id: "402B0C7242A00309"
 			rewards: [{
@@ -852,8 +863,8 @@
 				item: "gtceu:gallium_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -896,7 +907,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -1033,7 +1044,7 @@
 				}
 			]
 			title: "Passive Oxygen Line"
-			x: -2.4249999999999994d
+			x: -2.5249999999999995d
 			y: 2.9000000000000004d
 		}
 		{
@@ -1056,8 +1067,130 @@
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["620C406CC24F179C"]
+			description: [
+				"Oxygen and sulfur dust in your &eChemical Reactor&r on &aprogram 2&r will make some sulfur dioxide"
+				""
+				"If you're having trouble keeping up with the sulfur requirements, you could start centrifuging 2 blaze powder to make sulfur dust"
+			]
+			id: "64314EEB9916CAB1"
+			rewards: [{
+				id: "26B12B2CFCFA4919"
+				item: "gtceu:sulfur_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "7198853CC3A9DEAC"
+				item: "gtceu:sulfur_dioxide_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64314EEB9916CAB1"]
+			description: [
+				"Chemical react sulfur dioxide with more oxygen to make sulfur trioxide"
+				""
+				"Oxygen is very important, you may want to go back and dedicate an entire setup to passively produce it if you haven't already"
+			]
+			id: "5143E0F48520D41B"
+			rewards: [{
+				id: "203401EB866852ED"
+				item: "gtceu:sulfur_dioxide_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D9AA8DF5ECCFCAC"
+				item: "gtceu:sulfur_trioxide_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5143E0F48520D41B"]
+			description: [
+				"Chemical react water with sulfur trioxide to get sulfuric acid"
+				""
+				"You can get infinite water in your digital storage system by connecting to a Kitchen Sink - just make sure it is set to extract only! Otherwise it will void fluids on insert"
+			]
+			id: "17A935989A9505E1"
+			rewards: [{
+				id: "1A9E73CE0805E879"
+				item: "gtceu:sulfur_trioxide_bucket"
+				type: "item"
+			}]
+			subtitle: "Just add water!"
+			tasks: [{
+				id: "75017109130EE055"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["The &eChemical Bath&r is used in &aOre Processing&r lines to get certain &dbyproducts&r by washing crushed ores in mercury or sodium persulfate"]
+			id: "4059373B88845C6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CE93A5EA7A30FA3"
+				table_id: 4804065436311136435L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "58FC9BE9F7D8485C"
+				item: "gtceu:lv_chemical_bath"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"620C406CC24F179C"
+				"17A935989A9505E1"
+			]
+			description: ["Salt and Sulfuric Acid on Program 1 will make Sodium Bisulfate"]
+			id: "4835BE1596B65206"
+			rewards: [{
+				count: 3
+				id: "247CDED45EA75B54"
+				item: "gtceu:sodium_bisulfate_dust"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "55065DC2687DC4D2"
+				item: "gtceu:sodium_bisulfate_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4835BE1596B65206"]
+			description: ["[ \"You need to \", { \"text\": \"Electrolyze\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"512BD9BCA43AEE83\" } }, \" the Sodium Bisulfate\" ]"]
+			id: "7B8ADB4104E7C440"
+			rewards: [{
+				id: "0E2AB9F3A1583996"
+				item: "gtceu:sodium_persulfate_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64890DABF420C352"
+				item: "gtceu:sodium_persulfate_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
 		}
 	]
 	title: "Low Voltage"
