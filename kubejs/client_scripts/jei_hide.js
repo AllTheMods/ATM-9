@@ -1,11 +1,3 @@
-let cropRemove = [
-    'tungsten',
-    'titanium',
-    'invar',
-    'iridium',
-    "yellorium",
-]
-
 JEIEvents.hideItems(event => {
   event.hide(/extrastorage:(block|disk|storagepart)_.+/)
   event.hide(/rebornstorage:(small|medium|large|larger)_(item|fluid)_disk.*/)
@@ -15,7 +7,6 @@ JEIEvents.hideItems(event => {
   event.hide('spirit:compressed_soul_sand')
   event.hide('reliquary:rod_of_lyssa')
   event.hide('mekanism:upgrade_anchor')
-  event.hide(['mysticalagradditions:gaia_spirit_crux', 'mysticalagradditions:awakened_draconium_crux'])
   event.hide('ars_nouveau:glyph_animate_block')
   event.hide([
     'absentbydesign:slab_tuff',
@@ -35,8 +26,4 @@ JEIEvents.hideItems(event => {
     event.hide('mekanism:dimensional_stabilizer')
     event.hide('ae2:spatial_anchor')
   }
-
-  cropRemove.forEach(id => {
-    event.hide(`mysticalagriculture:${id}_seeds`)
-  })
 })

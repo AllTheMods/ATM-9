@@ -140,11 +140,6 @@ ServerEvents.tags('block', event => {
     'allthetweaks:atm_star_block'
   ])
 
-  event.add('gtceu:doughnut_mk3', 'gtceu:uv_fusion_reactor')
-
-
-  registerCustomBlocksForGregtech(event)
-  
 })
 
 ServerEvents.tags('fluid', event => {

@@ -16,28 +16,11 @@ let chemlibRemove = [
     "tungsten",
     "vanadium",
     "yttrium",
-    //"osmium", // nope, mek uses this
 ]
-/*
-ServerEvents.tags("item", event => {
-    chemlibRemove.forEach(material => {
-        event.remove(`forge:ingots/${material}`, `chemlib:${material}_ingot`)
-        event.remove(`forge:plates/${material}`, `chemlib:${material}_plate`)
-        event.remove(`forge:storage_blocks/${material}`, `chemlib:${material}_block`)
-        event.remove(`forge:nuggets/${material}`, `chemlib:${material}_nugget`)
-    })
-})
-*/
 ServerEvents.recipes(event => {
     chemlibRemove.forEach(material => {
         event.remove({id:`chemlib:${material}_ingot_from_smelting_${material}_dust`})
         event.remove({id:`chemlib:${material}_ingot_from_blasting_${material}_dust`})
-        /*
-        event.remove({id:`chemlib:${material}_block_to_ingot`})
-        event.remove({id:`chemlib:${material}_ingot_to_block`})
-        event.remove({id:`chemlib:${material}_ingot_to_nugget`})
-        event.remove({id:`chemlib:${material}_nugget_to_ingot`})
-        */
         event.remove({id:`alchemistry:compactor/${material}_dust`})
     })
 
