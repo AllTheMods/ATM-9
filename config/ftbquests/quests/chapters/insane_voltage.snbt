@@ -1,0 +1,2274 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "insane_voltage"
+	group: "1DA67E79B40AB130"
+	icon: "gtceu:micro_processor_mainframe"
+	id: "00E59A3B38CB7EEA"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"So there I was, knee deep in salsa and covered in motor oil"
+				""
+				"Anyway, I hope you are ready to do a lot of work with fluids!"
+			]
+			id: "64F77D41B2D057B8"
+			rewards: [
+				{
+					count: 16
+					id: "4A52F07AC21B87A7"
+					item: "gtceu:ram_chip"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1113B413B2540E61"
+					item: "gtceu:smd_diode"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 3
+					id: "437C2DC8C857BE2B"
+					item: "gtceu:smd_inductor"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Time to d&1IV&re deep"
+			tasks: [{
+				id: "6625077A99326B9D"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4993431DBE076E1B"
+				"239E32216382AA5D"
+				"1809493D8765E67A"
+				"2CC2E23077A0509F"
+				"46542F4A273E64EB"
+				"12D84337AEB56002"
+				"1896B90F5FD66AFA"
+			]
+			description: [
+				"The final form of the HV circuits, but not the most cost efficient - yet"
+				""
+				"For now you'll be using these to make the higher tier circuits, up to LuV!"
+			]
+			id: "2BE754C8D2C0C76E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27B451F27389D57B"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "23FD670B4CA5374A"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.7999999999999954d
+		}
+		{
+			dependencies: [
+				"4993431DBE076E1B"
+				"2BE754C8D2C0C76E"
+				"239E32216382AA5D"
+				"574019B5B7CA43E0"
+			]
+			description: ["Cheaper EV circuits! Don't forget to update your recipes!"]
+			id: "19CD3E69746F2849"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A8846449D3DD62C"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1B983DA0344AF5F1"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.7999999999999954d
+		}
+		{
+			dependencies: [
+				"4993431DBE076E1B"
+				"19CD3E69746F2849"
+				"1A73520CB284217F"
+				"15A1D6D05A785919"
+			]
+			description: ["Easier IV circuits, but why stop here! Pushing onwards and you'll achieve the coveted Ludicrous Voltage circuits!"]
+			id: "592113082337004B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5ADAACCEC401ECAA"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5C457C02EC77E036"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.7999999999999954d
+		}
+		{
+			dependencies: [
+				"592113082337004B"
+				"4993431DBE076E1B"
+			]
+			description: ["Finally, the &dLuV&r age has arrived - congratulations!"]
+			id: "2ACB94B77EF072EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CD88B51F862BAF8"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7351298A63054CA3"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 9.999999999999998d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"64F77D41B2D057B8"
+				"692C9BA71EA0F0A7"
+				"540B4CE165EE4D5B"
+			]
+			description: [
+				"Finally, Tungstensteel, now you can make IV Machines!"
+				""
+				"This also allows for a coil upgrade for the EBF!"
+			]
+			id: "12905D5778274DEE"
+			rewards: [{
+				count: 8
+				id: "042553192AA896F7"
+				item: "gtceu:tungsten_steel_ingot"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "2FDC7161CD796F5B"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.8000000000000003d
+		}
+		{
+			dependencies: ["540B4CE165EE4D5B"]
+			description: ["What good is regular Tungsten? Well, since you asked, it is an integral component of many IV Machines, primarily in the form of Tungsten Cables"]
+			icon: "gtceu:tungsten_ingot"
+			id: "08D48D7C2C6EEF54"
+			rewards: [{
+				count: 8
+				id: "219B073AAA2814B2"
+				item: "gtceu:tungsten_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				icon: "gtceu:tungsten_ingot"
+				id: "36397CBA6D39DC0D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/tungsten"
+					}
+				}
+				title: "Tungsten Ingot"
+				type: "item"
+			}]
+			x: -9.67142857142858d
+			y: 2.3392857142857153d
+		}
+		{
+			dependencies: [
+				"533DB1666B11489A"
+				"12905D5778274DEE"
+			]
+			description: ["With 16 of these on your &eElectric Blast Furnace&r you can cook recipes up to &c4500 Kelvin&r! That's 4227 Celsius or 7640 Fahrenheit!"]
+			id: "0A848E0B9F485B2C"
+			rewards: [
+				{
+					count: 6
+					id: "393AD63D08C4587C"
+					item: "gtceu:vanadium_dust"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2561A6499CDB6E06"
+					item: "gtceu:tungsten_steel_dust"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DABFD3310034563"
+				item: "gtceu:tungstensteel_coil_block"
+				type: "item"
+			}]
+			x: -4.800000000000001d
+			y: 0.7999999999999998d
+		}
+		{
+			dependencies: [
+				"4AE3A2326EA07B7A"
+				"74D47A8DF93294E4"
+			]
+			description: [
+				"Polybenzimidazole is a type of plastic known for its heat resistance"
+				""
+				"You'll use it for many applications as you progress, especially at the ZPM and above tiers, but the primary use will be making advanced circuit components!"
+			]
+			hide_dependent_lines: true
+			id: "1D9194E89D14BA85"
+			rewards: [
+				{
+					id: "7454CBA7D956781A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Amount: 16000
+								FluidName: "gtceu:polybenzimidazole"
+								capacity: 16000
+							}
+						}
+						id: "evilcraft:dark_tank"
+						tag: {
+							Fluid: {
+								Amount: 16000
+								FluidName: "gtceu:polybenzimidazole"
+							}
+							capacity: 16000
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "765B73430C8BD292"
+					table_id: 6202000790833671070L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "PBI at long last"
+			tasks: [{
+				id: "02B34C5571D15E05"
+				item: "gtceu:polybenzimidazole_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.200000000000005d
+		}
+		{
+			dependencies: [
+				"64F77D41B2D057B8"
+				"587B4048E0BCEB27"
+			]
+			description: [
+				"The EV Circuit Assembler, the next major step in making higher tier circuits and making lower tier circuits even cheaper!"
+				""
+				"You've still got a ways to go with fluids before you make the &3Nanoprocessor&r tier of circuits"
+			]
+			id: "4993431DBE076E1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "241A825C518CA7D1"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "52D651790115A82E"
+				item: "gtceu:ev_circuit_assembler"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"64F77D41B2D057B8"
+				"15A1D6D05A785919"
+				"77AAC2F643E92A88"
+			]
+			description: [
+				"The &aProcessing Array&r can run 16 recipes &din parallel&r for any of the single block machines you can make!"
+				""
+				"Why run in &bParallel&r when you can &6Overclock&r you ask? Well, parallelization is superior here because it doesn't use more power unlike overclocking"
+				""
+				"Additionally, you can utilize the &cDistinct Bus Mode&r with the (up to 10) different Input Busses on different Programmed Circuits for easier pattern automation with Extruders, Laser Engravers, etc"
+				""
+				"&e&lNote:&r&r Many of the single block machines have multiblock variants that are better, but I'm not going to go into those (yet)"
+			]
+			icon: "gtceu:iv_processing_array"
+			id: "72A2AA6274D6FA9A"
+			min_width: 300
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D3E931FEC790115"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7B799249998BA7E4"
+					item: "gtceu:iv_processing_array"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "188A83D9504A8470"
+					title: "Observe completed IV Processing Array"
+					type: "custom"
+				}
+			]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"41EE8B40BA43DADE"
+				"1D9194E89D14BA85"
+				"6F0AD70D3748D8D2"
+				"45D9E32D75F5ACAE"
+			]
+			description: ["Don't forget, once you've made these you can update those old circuit recipes that used regular Transistors to use the Advanced Transistor"]
+			id: "1809493D8765E67A"
+			rewards: [{
+				count: 4
+				id: "092E25B584C9B2A5"
+				item: "gtceu:hssg_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AD1E09D72AD01E3"
+				item: "gtceu:advanced_smd_transistor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1D9194E89D14BA85"
+				"45D9E32D75F5ACAE"
+			]
+			description: [
+				"Before you were able to make 32 SMD Resistors at a time, and now it is down to 16 Advanced SMD Resistors"
+				""
+				"Is this really a boost? Yes! Mainly because you use fewer of the Advanced SMD Resistors, but also because the regular kind won't be usable forever..."
+			]
+			id: "2CC2E23077A0509F"
+			rewards: [{
+				count: 4
+				id: "1559A17E6BEF564D"
+				item: "gtceu:graphene_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "3667F2D12BD686DD"
+				item: "gtceu:advanced_smd_resistor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"599BABC83E76A711"
+				"1D9194E89D14BA85"
+				"45D9E32D75F5ACAE"
+			]
+			description: [
+				"Finally, this unlocks the HV circuit at the Nanoprocessor tier!"
+				""
+				"Well, technically you could've made it without using the Advanced SMD components, but where's the fun in that?"
+			]
+			id: "239E32216382AA5D"
+			rewards: [{
+				count: 4
+				id: "261F7E2E3450A321"
+				item: "gtceu:hsss_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "38023F3A53A1FFF3"
+				item: "gtceu:advanced_smd_capacitor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1D9194E89D14BA85"
+				"7E7FAA72581D2186"
+				"4AA6D19469FB306F"
+				"45D9E32D75F5ACAE"
+			]
+			description: [
+				"Finally, the last of the Advanced SMD Components"
+				""
+				"Be sure going forward that you make recipes using the Advanced SMD Components because they are cheaper"
+			]
+			id: "1A73520CB284217F"
+			rewards: [{
+				count: 4
+				id: "4A67FAA8B49E8FDF"
+				item: "gtceu:niobium_titanium_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "6971A717F3A6343E"
+				item: "gtceu:advanced_smd_diode"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"546F6933699B9BF3"
+				"4720F9EDF894330C"
+				"1D9194E89D14BA85"
+				"45D9E32D75F5ACAE"
+			]
+			description: ["The Advanced Inductor! Keep updating those old recipes"]
+			id: "574019B5B7CA43E0"
+			rewards: [{
+				count: 8
+				id: "26CA1388FAD74DE1"
+				item: "gtceu:palladium_dust"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "227F895573C8DCA9"
+				item: "gtceu:advanced_smd_inductor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&dPalladium Ore&r is quite rare, some alternative methods to acquiring it might be to give &bCrushed Platinum&r or &6Crushed Sheldonite Ore&r a &eChemical Bath&r in &cMercury&r"
+				""
+				"Mercury you can get easily by &eCentrifuging&r Redstone Dust"
+			]
+			id: "546F6933699B9BF3"
+			rewards: [{
+				count: 16
+				id: "2990B163CA334434"
+				item: "gtceu:raw_palladium"
+				random_bonus: 16
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:palladium_dust"
+				id: "64A8B8EDC7F58D0D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/palladium"
+					}
+				}
+				title: "Palladium Dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["64F77D41B2D057B8"]
+			description: ["Double check you &l&n&cdon't&r&r&r have the &aEBF&r set to &bProgram 1&r, or else it can start cooking the Silicon dust into ingots"]
+			id: "2CC82170BCE61940"
+			rewards: [
+				{
+					count: 4
+					id: "59836EEDB97CB0A0"
+					item: "gtceu:arsenic_dust"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					count: 8
+					id: "123D68DC491E126E"
+					item: "gtceu:gallium_dust"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CFE79284D3FFB61"
+				item: "gtceu:phosphorus_boule"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2CC82170BCE61940"]
+			description: [
+				"More wafers per boule and higher tier chips are possible with this!"
+				""
+				"Time to upgrade those old silicon boule wafer recipes? I think so!"
+			]
+			id: "5F270891C953486E"
+			rewards: [{
+				count: 8
+				id: "3487CEB26A6EE0B9"
+				item: "gtceu:phosphorus_wafer"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "03BCFA5724D80E16"
+				item: "gtceu:phosphorus_wafer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F270891C953486E"]
+			description: [
+				"Another lens for the collection!"
+				""
+				"SoC stands for System on Chip"
+			]
+			id: "3CA2D15D1EC4D852"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00E8E0CE1D800A29"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					icon: "gtceu:hv_laser_engraver"
+					id: "783B177BEB5F921E"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:hv_laser_engraver"
+								}
+								{
+									Count: 1b
+									id: "gtceu:ev_laser_engraver"
+								}
+								{
+									Count: 1b
+									id: "gtceu:iv_laser_engraver"
+								}
+							]
+						}
+					}
+					title: "HV or EV or IV Laser Engraver"
+					type: "item"
+				}
+				{
+					id: "5409F09E8903E29E"
+					item: "gtceu:yellow_glass_lens"
+					type: "item"
+				}
+				{
+					id: "57C79A6CB61B5A7E"
+					item: "gtceu:soc_wafer"
+					type: "item"
+				}
+				{
+					id: "6AB0EDD32811CF42"
+					item: "gtceu:soc"
+					type: "item"
+				}
+			]
+			title: "System on Chip"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3CA2D15D1EC4D852"
+				"4993431DBE076E1B"
+			]
+			description: ["Finally, with this you have achieved the cheapest LV circuit - congrats!"]
+			id: "143BF8A4944C471D"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "7FE9B479172D31D9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Cheaper than ever!"
+			tasks: [{
+				id: "12938981FF431405"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62F4355AE3E08FD9"]
+			description: [
+				"&eChemical React&r that &aTetrafluoroethylene&r with a little Air or better yet, &bOxygen Gas&r, to receive the final product of &6Polytetrafluoroethylene&r!"
+				""
+				"Finally, PTFE! This forms as the basis for making Chemically Inert Casings, which we'll use shortly to make the &aLarge Chemical Reactor&r"
+				""
+				"Once you have the &aLCR&r you can also make more PTFE at a time by adding in some &cTitanium Tetrachloride&r"
+			]
+			id: "329916B2CB8342B2"
+			rewards: [
+				{
+					id: "642AC2D4AF44CD23"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Amount: 16000
+								FluidName: "gtceu:polytetrafluoroethylene"
+								capacity: 16000
+							}
+						}
+						id: "evilcraft:dark_tank"
+						tag: {
+							Fluid: {
+								Amount: 16000
+								FluidName: "gtceu:polytetrafluoroethylene"
+							}
+							capacity: 16000
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "226C5A86F8DC5DBB"
+					table_id: 6202000790833671070L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "524E5BA2E040B028"
+				item: "gtceu:polytetrafluoroethylene_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.700000000000001d
+		}
+		{
+			dependencies: ["64F77D41B2D057B8"]
+			description: [
+				"If you didn't make the &5EV Assembler&r before now, then now is the time to do it!"
+				""
+				"You'll use this to make the &9Tungstensteel Coil&r for your &aEBF&r"
+			]
+			id: "533DB1666B11489A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4430812BC676F0A3"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3EC0D7EE35B856B9"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: -4.800000000000001d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41EE8B40BA43DADE"]
+			description: [
+				"You'll smelt this and flatten it into &bFoils&r to make the delicate layers that comprise the &dAdvanced SMD Capacitor&r"
+				""
+				"If you're having a hard time finding &aIridium&r, you can get a head start on the &ePlatLine™&r which won't be covered until the next chapter because this one is already quite full"
+			]
+			id: "599BABC83E76A711"
+			rewards: [{
+				count: 6
+				id: "138DF43E45BCBD66"
+				item: "alltheores:iridium_dust"
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [{
+				id: "04CE037EB56DFF14"
+				item: "gtceu:hsss_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6517B8748E3A6831"]
+			description: ["The first tier of &3High Speed Steel&r, you'll end up making a LOT of this stuff as it serves as the base for the other variants of HSS Dusts"]
+			id: "41EE8B40BA43DADE"
+			rewards: [
+				{
+					count: 16
+					id: "6A763543C172EE2F"
+					item: "gtceu:raw_molybdenum"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0781A410E8911398"
+					item: "gtceu:tungsten_steel_dust"
+					random_bonus: 16
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "753FCEFC65478AE3"
+				item: "gtceu:hssg_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"0907800ED4793F96"
+				"64F77D41B2D057B8"
+			]
+			description: [
+				"[ \"You'll need \", { \"text\": \"Laminated Glass\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0907800ED4793F96\" } }, \" to make this\" ]"
+				""
+				"Once you have the &eMixer&r, it is time to make some &dHigh Speed Steel&r (HSS) variants!"
+			]
+			hide_dependency_lines: true
+			id: "6517B8748E3A6831"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76037C8D92CC42FF"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "04E1415B59A1A150"
+				item: "gtceu:iv_mixer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"&aOre Processing&r Pyrochlore, Pyrolusite, and Tantalite all give Niobium as byproducts"
+				""
+				"You could also &eElectrolyze&r the Pyrochlore for guaranteed Niobium!"
+				""
+				"Be sure to stockpile this stuff, you'll use a lot of it in &dFoil&r and &2Fine Wire&r forms as you progress"
+			]
+			id: "4AA6D19469FB306F"
+			rewards: [
+				{
+					count: 16
+					id: "0337587DBD2054B7"
+					item: "gtceu:raw_tantalite"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6C9F07642B8CB709"
+					item: "gtceu:raw_pyrochlore"
+					random_bonus: 16
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C40CC44FAE84350"
+				item: "gtceu:niobium_titanium_dust"
+				type: "item"
+			}]
+			x: 11.3d
+			y: -2.6000000000000014d
+		}
+		{
+			dependencies: ["17C2D1915C2D0B4C"]
+			description: [
+				"&eMix&r together your &dIndium&r, &bGallium&r, and &6Phosphorus&r dusts on &aProgram 1&r"
+				""
+				"This stuff will replace the Gallium Arsenide for the &3Advanced SMD Diode&r as well as be used extensively upgrading &cMPIC wafers&r to the higher voltage tiers"
+			]
+			hide_dependent_lines: true
+			id: "7E7FAA72581D2186"
+			rewards: [{
+				count: 6
+				id: "2A637109039BCDE1"
+				item: "gtceu:indium_gallium_phosphide_dust"
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [{
+				id: "13EC865DB73C17C9"
+				item: "gtceu:indium_gallium_phosphide_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5999999999999996d
+		}
+		{
+			dependencies: ["677B8753B7904E95"]
+			description: [
+				"&eChemical React&r that &dIndium Concentrate&r with &bAluminum Dust&r to get &3Small Pile of Indium Dust&r"
+				""
+				"Then you can either manually craft 4 of those into one &3Indium Dust&r or automate it with a &ePacker&r on &aProgram 1&r"
+			]
+			id: "17C2D1915C2D0B4C"
+			rewards: [{
+				count: 4
+				id: "69609DC8E28B6F94"
+				item: "gtceu:indium_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DF2279A961A2744"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.6999999999999993d
+		}
+		{
+			dependencies: ["41EE8B40BA43DADE"]
+			description: [
+				"I honestly don't know what the E, G, or S letters mean... but this is still High Speed Steel!"
+				""
+				"You'll have to smelt this and then turn it into &bRings&r for the &dAdvanced SMD Inductor&r"
+			]
+			id: "4720F9EDF894330C"
+			rewards: [{
+				count: 6
+				id: "51FF1B9CA03B0275"
+				item: "gtceu:hsse_dust"
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F79A05731E4FE40"
+				item: "gtceu:hsse_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&bPurified Sphalerite&r and &5Purified Galena&r &eMixed&r with &6Sulfuric Acid&r will get you the start of one of the most coveted resources, &dIndium Concentrate&r"
+				""
+				"This stuff is important enough to warrant a separate &aOre Processing&r setup"
+			]
+			id: "677B8753B7904E95"
+			rewards: [
+				{
+					count: 16
+					id: "5F954A0EC859F3A3"
+					item: "gtceu:raw_sphalerite"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3DD5E0AACAFE6DDA"
+					item: "gtceu:raw_galena"
+					random_bonus: 16
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "50AC2C6F8B887369"
+				item: "gtceu:indium_concentrate_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"07E750F8184C4362"
+				"1C19DD6B3E34012E"
+			]
+			description: ["You know the drill, we'll &eChemical React&r the &3Hydrofluoric Acid&r with the &5Chloroform&r and make &dTetrafluoroethylene&r"]
+			id: "62F4355AE3E08FD9"
+			rewards: [{
+				id: "7B90B13C8CD31B5A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6209FBB5F559FC96"
+				item: "gtceu:tetrafluoroethylene_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.200000000000001d
+		}
+		{
+			description: ["&3Chlorine&r and &cMethane&r together in a &eChemical Reactor&r on &aProgram 1&r makes &5Chloroform&r"]
+			id: "1C19DD6B3E34012E"
+			rewards: [{
+				id: "0B623B35DB9095E2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "66EB810BCE505C9F"
+				item: "gtceu:chloroform_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.200000000000001d
+		}
+		{
+			dependencies: ["43EBA1D735267C85"]
+			description: [
+				"&eChemical React&r Hydrogen with Fluorine Gas to make this"
+				""
+				"Later on you can also set up reprocessing of &5Titanium Trifluoride&r with Hydrogen in an &aEBF&r to get some Hydrofluoric Acid back"
+			]
+			id: "07E750F8184C4362"
+			rewards: [{
+				id: "1BADDD52EB152112"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5EF03747135E0D8F"
+				item: "gtceu:hydrofluoric_acid_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.200000000000001d
+		}
+		{
+			description: ["My favorite source of Fluorine Gas? Easy, &eElectrolyzing&r &2Fluorite Dust&r"]
+			id: "43EBA1D735267C85"
+			rewards: [{
+				count: 16
+				id: "2127226B7DCD7DB7"
+				item: "gtceu:raw_fluorite"
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "682A3DC9CB37D399"
+				item: "gtceu:fluorine_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.200000000000001d
+		}
+		{
+			dependencies: ["62E7B8817D22678F"]
+			description: ["Another &eChemical Reactor&r recipe, this time using &6Electrum Foil&r and either &9Sodium Persulfate&r or &0Iron III Chloride&r"]
+			id: "46542F4A273E64EB"
+			rewards: [{
+				count: 16
+				id: "46B29861549EBC3B"
+				item: "gtceu:electrum_foil"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "5134D69523321A94"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.7999999999999954d
+		}
+		{
+			dependencies: ["56B7CC072B8E9B48"]
+			description: [
+				"That's right, another recipe for the &eChemical Reactor&r"
+				""
+				"500mB Sulfuric Acid + 8 Gold Foil + Epoxy Sheet = 1 Epoxy Circuit Board"
+			]
+			id: "62E7B8817D22678F"
+			rewards: [{
+				count: 3
+				id: "1194D1487287AB33"
+				item: "gtceu:epoxy_plate"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FF97EF9CC8D0F44"
+				item: "gtceu:epoxy_circuit_board"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.7999999999999954d
+		}
+		{
+			dependencies: [
+				"79E97623309DEF84"
+				"2A32CA82627E5FA7"
+			]
+			description: [
+				"Sodium Hydroxide Dust is useful yet again! &eChemical React&r it with the Epichlorohydrin and Bisphenol A to make liquid Epoxy"
+				""
+				"You can then &eFluid Solidify&r the Epoxy into plates directly"
+				""
+				"We'll use these as a base for the &bNanoprocessor&r circuit boards"
+			]
+			id: "56B7CC072B8E9B48"
+			rewards: [{
+				count: 12
+				id: "6D06B3FF8E27033D"
+				item: "gtceu:sodium_hydroxide_dust"
+				random_bonus: 12
+				type: "item"
+			}]
+			tasks: [{
+				id: "722CEDC6467CBF31"
+				item: "gtceu:epoxy_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.7999999999999954d
+		}
+		{
+			dependencies: [
+				"225F77308C834EA8"
+				"05F0FCBBEADA8489"
+			]
+			description: [
+				"A key ingredient in making &6Epoxy&r"
+				""
+				"Acetone, Phenol, and Hydrochloric Acid come together in the &eChemical Reactor&r on &aProgram 1&r to make this"
+			]
+			id: "79E97623309DEF84"
+			rewards: [{
+				id: "2747EA249191EA85"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7D13ABA27E15B6A3"
+				item: "gtceu:bisphenol_a_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.20000000000000462d
+		}
+		{
+			dependencies: ["32E9B33C9D7981ED"]
+			description: [
+				"&2Glycerol&r + &7Hydrochloric Acid&r in the &eChemical Reactor&r make &cEpichlorohydrin&r"
+				""
+				"There is an alternate recipe that uses Allyl Chloride and Hypochlorous Acid, if you so choose to go that route"
+			]
+			id: "2A32CA82627E5FA7"
+			rewards: [{
+				id: "6698F36A022322C2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6E63FE29D8A9A884"
+				item: "gtceu:epichlorohydrin_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.20000000000000462d
+		}
+		{
+			dependencies: ["47871110028991D3"]
+			description: [
+				"Okay yes, you could've made Glycerol&r without the &aLCR&r, but then you wouldn't be able to make it in large batches!"
+				""
+				"One Sodium Hydroxide Dust with &654 Buckets of Fish Oil&r and &c9 Buckets of Ethanol&r is my go to for &d9 Buckets of Glycerol&r"
+				""
+				"This also makes a load of Bio Diesel, which can be a fantastic fuel source, especially if you make it Cetane Boosted Diesel"
+			]
+			id: "32E9B33C9D7981ED"
+			rewards: [{
+				count: 32
+				id: "40E6CFF065A57E47"
+				item: "minecraft:tropical_fish"
+				random_bonus: 32
+				type: "item"
+			}]
+			tasks: [{
+				id: "4319527D23F45B63"
+				item: "gtceu:glycerol_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.2000000000000046d
+		}
+		{
+			dependencies: ["329916B2CB8342B2"]
+			description: [
+				"As you make this, keep in mind that Chemical Reactor recipes can be generalized to &d3 Input Hatches&r, &53 Output Hatches&r, &e1 Input Bus&r, and &61 Output Bus&r"
+				""
+				"After making a lot of PTFE, finally, the &aLarge Chemical Reactor&r is ready to rumble!"
+				""
+				"You'll find that some chemical reactions can only be done in an &aLCR&r, specifically the chemicals needed in making &3Polybenzimidazole&r (PBI for short)"
+			]
+			icon: "gtceu:large_chemical_reactor"
+			id: "47871110028991D3"
+			min_width: 300
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "686ED1EA06DFDE2D"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "74509DEDE480E6D3"
+					item: "gtceu:large_chemical_reactor"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "1038F300D9F8EF3C"
+					title: "Observe formed Large Chemical Reactor"
+					type: "custom"
+				}
+			]
+			x: 2.0d
+			y: -2.200000000000001d
+		}
+		{
+			dependencies: ["6AD5F24DA80B93A8"]
+			description: [
+				"Have you been &eElectrolyzing&r &9Salt Water&r? It is a great source of Chlorine Gas, which comes in handy especially with making Dichlorobenzene, and as a byproduct you'll get this &3Sodium Hydroxide Dust&r"
+				""
+				"You can then &eChemical React&r the Sodium Hydroxide Dust with your Dichlorobenzene to create &6Phenol&r!"
+			]
+			id: "225F77308C834EA8"
+			rewards: [{
+				id: "25070EA1DD56541C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E39727CD1515BC8"
+				item: "gtceu:phenol_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.7000000000000046d
+		}
+		{
+			dependencies: ["646918F4D700749B"]
+			description: ["You can use a &eFluid Heater&r or a &eDistillery&r on &aProgram 1&r to turn the &3Dissolved Calcium Acetate&r into &cAcetone&r"]
+			id: "05F0FCBBEADA8489"
+			rewards: [{
+				id: "10DB38A855C00F8C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "58219164CA17C0ED"
+				item: "gtceu:acetone_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.2999999999999954d
+		}
+		{
+			dependencies: [
+				"225F77308C834EA8"
+				"38BD153513DC2334"
+			]
+			description: ["You'll get half the &6Phenol&r back when you turn this into &3Polybenzimidazole&r"]
+			id: "4AE3A2326EA07B7A"
+			rewards: [{
+				id: "1BCFE363242C28DA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:phenol"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:phenol"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "How do you pronounce this?"
+			tasks: [{
+				id: "07267D8026DD87B4"
+				item: "gtceu:diphenyl_isophthalate_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.2000000000000046d
+		}
+		{
+			dependencies: [
+				"47871110028991D3"
+				"0D68FA968FD2BEF4"
+			]
+			description: [
+				"Now you need that &aLarge Chemical Reactor&r to make this"
+				""
+				"Note that the Zinc Dust is &c&lNot Consumed&r, meaning you should not include it in the recipe for autocrafting this - instead put one in your Input Bus and leave it there"
+				""
+				"&3Ammonia&r can come from &eChemical Reacting&r &9Hydrogen&r with &bNitrogen Gas&r which you can get from a &eGas Collector&r in the &2Overworld&r, feeding a &aVacuum Freezer&r, feeding a &aDistillation Tower&r"
+			]
+			id: "74D47A8DF93294E4"
+			min_width: 300
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B036AF2C512A810"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2F89534B88E0DF3F"
+				item: "gtceu:diaminobenzidine_bucket"
+				type: "item"
+			}]
+			x: 0.7000000000000006d
+			y: -3.3000000000000043d
+		}
+		{
+			dependencies: ["2483DD28AC6E7EA2"]
+			description: [
+				"If you've already made the &aLarge Chemical Reactor&r you can make this stuff in bulk!"
+				""
+				"Otherwise, you're stuck using the &eChemical Reactor&r with a &6Tiny Pile of Copper Dust&r, &9Hydrogen&r, and &2Nitrochlorobenzene&r"
+			]
+			id: "0D68FA968FD2BEF4"
+			rewards: [{
+				id: "5204075D54036125"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "12F0E44FF6E412B9"
+				item: "gtceu:dichlorobenzidine_bucket"
+				type: "item"
+			}]
+			x: 0.6999999999999997d
+			y: -4.400000000000002d
+		}
+		{
+			dependencies: [
+				"72DC025BC059DF96"
+				"6F8E6D84D31651D5"
+			]
+			description: [
+				"&eChemical React&r Chlorobenzene with the Nitration Mixture to make &2Nitrochlorobenzene&r"
+				""
+				"You'll also get &6Diluted Sulfuric Acid&r, which you can &eDistill&r back into full strength Sulfuric Acid"
+			]
+			id: "2483DD28AC6E7EA2"
+			rewards: [{
+				id: "7BEAB6689E33EC52"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4DAAE03F1A961070"
+				item: "gtceu:nitrochlorobenzene_bucket"
+				type: "item"
+			}]
+			x: 0.7000000000000002d
+			y: -5.600000000000001d
+		}
+		{
+			dependencies: ["39B625FA20EAA025"]
+			description: ["Mixing &6Nitric Acid&r with &cSulfuric Acid&r makes a &eNitration Mixture&r"]
+			id: "72DC025BC059DF96"
+			rewards: [{
+				id: "1A0A4F758AA39803"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "70F5FC5B8C666064"
+				item: "gtceu:nitration_mixture_bucket"
+				type: "item"
+			}]
+			x: 0.6999999999999997d
+			y: -6.800000000000001d
+		}
+		{
+			description: [
+				"You're going to need either &9Ammonia&r and a &aLarge Chemical Reactor&r or a lot of &bNitrogen Dioxide&r"
+				""
+				"Thankfully, Nitrogen Dioxide is easy to come by, all you need is an &6HV&r &eGas Collector&r in &3The End&r on &2Program 3&r, a &aVacuum Freezer&r at IV, and a &aDistillation Tower&r also at IV"
+			]
+			id: "39B625FA20EAA025"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "794F78C0C2915F25"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "68D0BF02B52C546A"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: 0.6999999999999997d
+			y: -8.0d
+		}
+		{
+			description: [
+				"Chlorine and Benzene in a &eChemical Reactor&r on &aProgram 1&r will make you &2Chlorobenzene&r"
+				""
+				"Do you need more &0Benzene&r? You might try &aDistilling&r &6Severely-Steam Cracked Heavy Fuel&r"
+			]
+			id: "6F8E6D84D31651D5"
+			rewards: [{
+				id: "0249677FD8FC36BD"
+				item: "gtceu:benzene_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "061565CB40A69AB3"
+				item: "gtceu:chlorobenzene_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.600000000000005d
+		}
+		{
+			dependencies: ["7E407CDBFD85E65F"]
+			description: ["[ \"Some \", { \"text\": \"Acetic Acid\", \"underlined\": \"true\", \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7E407CDBFD85E65F\" }, \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for the Acetic Acid quest\" } } }, \" and Calcite Dust in a \", { \"text\": \"Chemical Reactor\", \"color\":\"yellow\" }, \" will get you this\" ]"]
+			hide_dependency_lines: true
+			id: "646918F4D700749B"
+			rewards: [{
+				count: 8
+				id: "0CDEE0ED9ACFE836"
+				item: "gtceu:raw_calcite"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A05D01D8AD64CFC"
+				item: "gtceu:dissolved_calcium_acetate_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.30000000000000004d
+		}
+		{
+			description: ["Running low on &0Benzene&r? A good source can come from &aDistilling&r &6Severely Steam Cracked Heavy Fuel&r"]
+			id: "6AD5F24DA80B93A8"
+			rewards: [{
+				id: "166126D39E35DF1A"
+				item: "gtceu:benzene_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35D4D665BA3535F7"
+				item: "gtceu:dichlorobenzene_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.7000000000000046d
+		}
+		{
+			dependencies: ["6A86F8FB2B3A3425"]
+			description: [
+				"6 Tin dust, 3 Lead dust, and 1 Antimony dust all combine in a &eMixer&r on &aProgram 3&r to make 10 Soldering Alloy Dust"
+				""
+				"This will allow us to make circuits for less tin overall, as well as some items that require specifically soldering alloy!"
+				""
+				"You can use an &eExtractor&r on the dust to get it in liquid form"
+			]
+			id: "12D84337AEB56002"
+			rewards: [{
+				count: 5
+				id: "3CBCA6B1206AD6EE"
+				item: "gtceu:soldering_alloy_dust"
+				random_bonus: 5
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BA1E80264EF114C"
+				item: "gtceu:soldering_alloy_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&aOre Process&r &cStibnite&r for a chance at Antimony"
+				""
+				"Put Stibnite dust through a &eCentrifuge&r for guaranteed Antimony"
+				""
+				"Antimony becomes incredibly important later on, so be sure to stock up and don't turn it all into soldering alloy!"
+			]
+			id: "6A86F8FB2B3A3425"
+			rewards: [{
+				count: 16
+				id: "0FCE0E5A7C7D9469"
+				item: "gtceu:antimony_dust"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				icon: "gtceu:antimony_dust"
+				id: "5934DBB2E4ED1CCA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/antimony"
+					}
+				}
+				title: "Antimony Dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"00BF4E98A328801D"
+				"07FC106AFE76E766"
+			]
+			description: [
+				"Primarily, we'll use this dust to make &dTungstensteel&r by &eMixing&r it with steel dust"
+				""
+				"Sometimes though, we'll need to throw this dust into the &eEBF&r on &aProgram 1&r to get the hot ingot, then cool it off in the &eVacuum Freezer&r to acquire the &3Tungsten Ingot&r"
+			]
+			icon: "gtceu:tungsten_dust"
+			id: "540B4CE165EE4D5B"
+			rewards: [{
+				count: 16
+				id: "5DEF392D66887C7A"
+				item: "gtceu:tungsten_dust"
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				icon: "gtceu:tungsten_dust"
+				id: "29C1F4339267D35B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/tungsten"
+					}
+				}
+				title: "Tungsten Dust"
+				type: "item"
+			}]
+			x: -9.7d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"4321E32D0EA3367C"
+				"0299E59D23F16ACB"
+			]
+			description: [
+				"Give that dust an acid bath with &bHydrochloric Acid&r in the &eChemical Bath&r to make this"
+				""
+				"You'll then need to &eElectrolyze&r it to get the &dTungsten&r out"
+			]
+			id: "00BF4E98A328801D"
+			rewards: [
+				{
+					count: 16
+					id: "4E0E2BD8FB1470F5"
+					item: "gtceu:raw_tungstate"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7D8D05AF9F7547FF"
+					item: "gtceu:raw_scheelite"
+					random_bonus: 16
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AB2FCA85A20F48C"
+				item: "gtceu:tungstic_acid_dust"
+				type: "item"
+			}]
+			x: -9.700000000000001d
+			y: -2.0d
+		}
+		{
+			description: [
+				"You know what to do, &aOre Process&r some tungstate or some scheelite ore down into dust form"
+				""
+				"The raw ores are found in &5The End&r, between y levels 20 and 60, mixed in with Lithium"
+			]
+			id: "0299E59D23F16ACB"
+			rewards: [
+				{
+					count: 16
+					id: "2E226ED22CDBCC65"
+					item: "gtceu:raw_tungstate"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1C24E6A8D8B2A4A8"
+					item: "gtceu:raw_scheelite"
+					random_bonus: 16
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54231849B7094A32"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:tungstate_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:scheelite_dust"
+							}
+						]
+					}
+				}
+				title: "Tungstate or Scheelite Dust"
+				type: "item"
+			}]
+			x: -9.7d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19BA973FECFA3B06"]
+			description: [
+				"A quick chemical bath of your Ender Eyes in Radon will net you these &dQuantum Eyes&r"
+				""
+				"Don't worry about making a bunch of these unless you want to upgrade all your &eLaser Engravers&r to EV (IV is the better upgrade though)"
+			]
+			id: "587B4048E0BCEB27"
+			rewards: [
+				{
+					id: "5E94E1957ABD2CF7"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "73B592A0EFE989B7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "411CD5BC3965C8DF"
+				item: "gtceu:quantum_eye"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"There are two main ways to acquire &dRadon Gas&r"
+				""
+				"The best (because of the other outputs) is to use an &6HV&r &eGas Collector&r in &bThe End&r dimension, &aVacuum Freezer&r the collected &eEnder Air&r into &9Liquid Ender Air&r at &1IV&r, and then run that through a &aDistillation Tower&r at IV and receive Radon Gas"
+				""
+				"The alternative is to create the &aLarge Chemical Reactor&r and just react &3Air&r with some Uranium Dust and Plutonium Ingots - you even get the plutonium back!"
+			]
+			hide_dependency_lines: true
+			id: "19BA973FECFA3B06"
+			min_width: 300
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04C6CC2C47B853A4"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "08FD542F3DED5422"
+				item: "gtceu:radon_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64F77D41B2D057B8"]
+			description: ["Upgrading this machine to &5EV&r unlocks recipes necessary for eventually making &bTungsten&r"]
+			hide_dependency_lines: true
+			id: "4321E32D0EA3367C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AF0E3294F739382"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "738F3984052AAF67"
+				item: "gtceu:ev_chemical_bath"
+				type: "item"
+			}]
+			x: -8.2d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64F77D41B2D057B8"]
+			description: ["You need the &5EV Electrolyzer&r to get Tungsten Dust from the Tungstic Acid"]
+			hide_dependency_lines: true
+			id: "07FC106AFE76E766"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "175694EB574CA428"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6FAA7B053A5B7226"
+				item: "gtceu:ev_electrolyzer"
+				type: "item"
+			}]
+			x: -11.3d
+			y: 0.7999999999999999d
+		}
+		{
+			dependencies: ["64F77D41B2D057B8"]
+			description: ["You need this tier of Mixer to make &3Tungstensteel Dust&r as well as &dVanadium Gallium Dust&r"]
+			hide_dependency_lines: true
+			id: "692C9BA71EA0F0A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "656E72FBB3C85963"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			subtitle: "Where's the dough hook?"
+			tasks: [{
+				id: "7DC755D1965AD27F"
+				item: "gtceu:ev_mixer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.1999999999999993d
+		}
+		{
+			dependencies: ["175B7F7D98D45208"]
+			description: ["Two of these can get your multiblocks up to IV!"]
+			id: "273DC98BA2785BD6"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5517968C529A888F"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "105F1E2F7F3CE430"
+				item: "gtceu:ev_energy_input_hatch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4B16C957EADC183B"]
+			description: ["&l&6Remember&r: Each of these can accept 2 Amps, so if you have two of these Energy Hatches on a multiblock you can actually tier up to &dLuV&r!"]
+			id: "2F1DF3971B75E63C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "554BB706DA3D06A6"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "306674A64BA37598"
+				item: "gtceu:iv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["273DC98BA2785BD6"]
+			description: ["One block stop for powering your multiblocks at IV!"]
+			id: "2BE364CCE684AD45"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C5CEAA5B106A9BC"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2EDF8035D4375117"
+				item: "gtceu:ev_energy_input_hatch_4a"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F1DF3971B75E63C"]
+			description: ["Why have 2 Energy Hatches when just one will do? This energy hatch accepts 4 Amps of IV all on its own!"]
+			id: "653260450BEDB6AB"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "423BAB711C8CA031"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "55672931C894C132"
+				item: "gtceu:iv_energy_input_hatch_4a"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["692C9BA71EA0F0A7"]
+			description: [
+				"3 Vanadium dust + 1 Gallium dust on &aProgram 1&r makes this stuff"
+				""
+				"You'll need plenty of this later on, but for now it is used in making advanced surface mount devices"
+				""
+				"Vanadium you can get by &eCentrifuging&r &2Vanadium Magnetite Dust&r, which you can find in &6The End&r or &3The Overworld&r"
+				""
+				"Alternatively, you could &eCentrifuge&r &cRuby&r or &9Sapphire&r slurries"
+			]
+			id: "465F4502C4D5DCFE"
+			rewards: [{
+				count: 8
+				id: "683127D56633C2C9"
+				item: "gtceu:gallium_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B93FC8915128873"
+				item: "gtceu:vanadium_gallium_dust"
+				type: "item"
+			}]
+			x: -4.800000000000001d
+			y: -1.1999999999999993d
+		}
+		{
+			dependencies: ["5F270891C953486E"]
+			description: ["This wafer serves as the basis for all higher tier PIC wafers, you'll make very many of these in due time"]
+			id: "4838AD09C9590D2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D5442A16257DFD6"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "37417147A0F312A1"
+					item: "gtceu:mpic_wafer"
+					type: "item"
+				}
+				{
+					id: "06D2B23E601FD4EA"
+					item: "gtceu:brown_glass_lens"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["64F77D41B2D057B8"]
+			hide_dependency_lines: true
+			id: "5873949AB76FBF85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42B1F28669A2172B"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "43BC5F4CF9C41D05"
+				item: "gtceu:ev_cutter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4838AD09C9590D2F"
+				"5873949AB76FBF85"
+			]
+			id: "175B7F7D98D45208"
+			rewards: [{
+				count: 2
+				id: "75F11CAED241B7CA"
+				item: "gtceu:mpic_chip"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "26B441421818B730"
+				item: "gtceu:mpic_chip"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"465F4502C4D5DCFE"
+				"0A848E0B9F485B2C"
+			]
+			description: ["You'll need this for many things once you get to &cZPM&r, but for now we'll use it to make the &dAdvanced SMD Transistors&r and &6HPIC Wafers&r"]
+			hide_dependent_lines: true
+			id: "6F0AD70D3748D8D2"
+			rewards: [{
+				count: 5
+				id: "57DFE01303D76273"
+				item: "gtceu:vanadium_gallium_ingot"
+				random_bonus: 5
+				type: "item"
+			}]
+			tasks: [{
+				id: "41E7743A2A8A0476"
+				item: "gtceu:vanadium_gallium_ingot"
+				type: "item"
+			}]
+			x: -3.3999999999999995d
+			y: -0.19999999999999973d
+		}
+		{
+			dependencies: [
+				"4838AD09C9590D2F"
+				"03C756EB123CA953"
+				"7E7FAA72581D2186"
+				"6F0AD70D3748D8D2"
+			]
+			description: ["Upgrading the MPIC to achieve even higher tiers of power!"]
+			id: "4F8C6F49F9D7EE4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E575D413B2B7579"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6F81ED6B43252DC6"
+				item: "gtceu:hpic_wafer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["64F77D41B2D057B8"]
+			description: [
+				"We'll use this to upgrade the Medium Power Integrated Circuit (&aMPIC&r) Wafer to the High Power (&6HPIC&r) variant, allowing for larger energy hatches!"
+				""
+				"This will need to go into your &bCleanroom&r to run the recipe"
+			]
+			id: "03C756EB123CA953"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3553FD26F2E02470"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "783D93D534AFC84F"
+				item: "gtceu:iv_chemical_reactor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0907800ED4793F96"]
+			description: [
+				"Speaking of machines needing Laminated Glass... This is the first one we'll make!"
+				""
+				"You need a higher tier cutter to cut the higher tier chips to achieve higher tiers of power"
+			]
+			id: "6D6AA1A0D8AB01DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C21FC6E62426E6E"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "657DC3B9C2057A7A"
+				item: "gtceu:iv_cutter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2D3A6B7907FDB9B1"]
+			description: [
+				"Finally, you have achieved the next tier of glass, &dLaminated Glass&r!"
+				""
+				"This stuff is used to make many IV and LuV machines"
+			]
+			id: "0907800ED4793F96"
+			rewards: [{
+				count: 3
+				id: "048A0310B5446608"
+				item: "gtceu:laminated_glass"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "24AEE48613787976"
+				item: "gtceu:laminated_glass"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4C83B804A6AEB033"
+				"4EF3FD6C59413C49"
+			]
+			description: ["This is the last &eChemical Reaction&r in this chain, ultimately for the coveted &dLaminated Glass&r"]
+			id: "2D3A6B7907FDB9B1"
+			rewards: [{
+				id: "143F393D3CEC9FF3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "470744DC5229F216"
+				item: "gtceu:polyvinyl_butyral_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5C38DAD6BA43A7F1"]
+			description: [
+				"You could mix regular old &3Air&r with &eVinyl Acetate&r and get a 1:1 ratio of &6Polyvinyl Acetate&r, but why do that when using &bOxygen&r will boost output to 3:2"
+				""
+				"Why stop at just using Oxygen though! Adding a smidgen of &dTitanium Tetrachloride&r boosts the ratio to 2:1!"
+				""
+				"Regardless of which approach you take, keep note of which &aProgrammed Circuit&r is required to run the recipe"
+			]
+			id: "4EF3FD6C59413C49"
+			min_width: 300
+			rewards: [{
+				id: "4512EA5EA6BDF96D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "751A81792263724C"
+				item: "gtceu:polyvinyl_acetate_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"&eElectrolyze&r Propane to acquire &6Propene&r"
+				""
+				"&aDistill&r &bSeverely Steam Cracked Naphtha&r for Propene"
+				""
+				"&9Carbon Monoxide&r can come from &aDistillation&r of &cLiquid Nether Air&r if you'd like a practically infinite source of the stuff"
+			]
+			id: "4C83B804A6AEB033"
+			rewards: [{
+				id: "6354612EE7F9CC4B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1DFC03AF10A7050D"
+				item: "gtceu:butyraldehyde_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7E407CDBFD85E65F"]
+			description: ["Take that Acetic Acid and add more Ethylene and Oxygen, this time on &aProgram 3&r in a &eChemical Reactor&r"]
+			id: "5C38DAD6BA43A7F1"
+			rewards: [{
+				id: "382E158E2107DADA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4A3A4DC6D4C4A556"
+				item: "gtceu:vinyl_acetate_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			description: ["Oxygen + Ethylene on &aProgram 2&r in your &eChemical Reactor&r is one way to make Acetic Acid"]
+			id: "7E407CDBFD85E65F"
+			rewards: [{
+				id: "5135899D8594558A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "47D630FAA125ACD5"
+				item: "gtceu:acetic_acid_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5F270891C953486E"]
+			description: ["Did you know that NOR logic gates can be used to make every other logic gate? That's why we use it so much for making circuits!"]
+			hide_dependent_lines: true
+			id: "15A1D6D05A785919"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D9864200223A08B"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "610265C7A4A5EF5F"
+					item: "gtceu:nor_memory_wafer"
+					type: "item"
+				}
+				{
+					id: "26A237A47DBC5F09"
+					item: "gtceu:pink_glass_lens"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5F270891C953486E"]
+			description: ["Add another Laser Engraver to the stack, this time for the NAND chip! Useful for data storage and the Crystal Processor Supercomputer - more on that later though!"]
+			hide_dependent_lines: true
+			id: "77AAC2F643E92A88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06F533E1F4E6C6DD"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "024376E20D2E1DA1"
+					item: "gtceu:nand_memory_wafer"
+					type: "item"
+				}
+				{
+					id: "0E307E705A9C051A"
+					item: "gtceu:gray_glass_lens"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4F8C6F49F9D7EE4D"
+				"6D6AA1A0D8AB01DE"
+			]
+			id: "4B16C957EADC183B"
+			rewards: [{
+				id: "215390373F2BFC50"
+				item: "gtceu:hpic_chip"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "0558EEA3CB72F59F"
+				item: "gtceu:hpic_chip"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["13BAD4B9C69117C6"]
+			description: [
+				"We'll &eChemical React&r the &0Raw Carbon Fibers&r with &6Liquid Glowstone&r and a &bCPU Wafer&r to make the &3Nano CPU Wafer&r"
+				""
+				"Glowstone dust through an &eExtractor&r makes liquid glowstone"
+			]
+			id: "1896B90F5FD66AFA"
+			rewards: [
+				{
+					count: 2
+					id: "23B211F5E5B530B7"
+					item: "gtceu:cpu_wafer"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4140E59E9F9A5CBE"
+					item: "gtceu:carbon_fibers"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75671C8E193FB933"
+				item: "gtceu:nano_cpu_wafer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56B7CC072B8E9B48"]
+			description: [
+				"There are multiple ways to make Raw Carbon Fibers"
+				""
+				"One way is to use &69 mB Epoxy&r and 4 Carbon Dust in an &eAutoclave&r to get 4 out"
+				""
+				"Doing it this way is fine, but you also have the option of using &d9mB Polybenzimidazole&r and 8 Carbon Dust &2to get 16!&r"
+			]
+			id: "13BAD4B9C69117C6"
+			rewards: [{
+				count: 12
+				id: "0D64031DC03EA6CD"
+				item: "gtceu:carbon_dust"
+				random_bonus: 12
+				type: "item"
+			}]
+			tasks: [{
+				id: "3126CA0CD31A6EA2"
+				item: "gtceu:carbon_fibers"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47871110028991D3"]
+			description: [
+				"You can choose to either acquire &3Napthalene&r or &2Dimethylbenzene,&r both have their merits"
+				""
+				"One route that avoids the &aPyrolyse Oven&r could be to use &0Charcoal&r with an &eExtractor&r to make &8Wood Tar&r and &aDistill&r that into &2Dimethylbenzene&r"
+				""
+				"But really you'd be better off making the &aPyrolyse Oven&r and burning logs or coal and &aDistilling&r the outputs"
+			]
+			id: "38BD153513DC2334"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F9B95BA289B80CE"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "70C9A799B2294DAC"
+				item: "gtceu:phthalic_acid_bucket"
+				type: "item"
+			}]
+			x: 0.7d
+			y: -2.2d
+		}
+		{
+			dependencies: ["64F77D41B2D057B8"]
+			description: [
+				"Is it really time for an upgrade already? Well, yes it turns out"
+				""
+				"We need the &eAssembler&r at &1IV&r to make any of the &dAdvanced Surface Mount Devices&r (SMDs)"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "45D9E32D75F5ACAE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5ACB560F9E15C52F"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3C372FDBEAEDA75B"
+				item: "gtceu:iv_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+	]
+	title: "Insane Voltage"
+}

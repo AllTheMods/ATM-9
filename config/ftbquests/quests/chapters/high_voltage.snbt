@@ -680,7 +680,7 @@
 		{
 			dependencies: ["68526BA198AADD8E"]
 			description: [
-				"Silver and 4 electrotine dust in a &eMixer&r on &aProgram 2&r will create 5 blue alloy dust"
+				"Silver and 4 electrotine dust in a &eMixer&r on &aProgram 2&r will create &bBlue Alloy Dust&r"
 				""
 				"You can just smelt this dust in a furnace to get the ingot"
 			]
@@ -1166,12 +1166,9 @@
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
-			description: [
-				"This item is an ingredient in the &dNexium Emitter&r which is used to make the &6ATM Star&r"
-				""
-				"Why isn't this quest optional like the &aProspector&r? Well, because even if you don't use it now, you will in the next chapter!"
-			]
+			description: [""]
 			id: "7D2033E579767AF8"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -1188,7 +1185,7 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
+			shape: "diamond"
 			tasks: [{
 				id: "63D4F36863D9FC65"
 				item: "gtceu:hv_emitter"
@@ -1228,6 +1225,44 @@
 				}
 			]
 			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["70C952B8FF3418F6"]
+			description: [
+				"Finally, at &6HV&r you get access to the &dByproducts&r"
+				""
+				"These byproducts are often incredibly useful and will come in handy multiple times as you progress"
+			]
+			id: "63E4149FF75592C8"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CE55F08FEE1B6BB"
+				table_id: 822291801189586703L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "06B18A65A44DCFCE"
+					item: "gtceu:hv_macerator"
+					type: "item"
+				}
+				{
+					id: "4EDC2FF341141AC8"
+					item: "gtceu:hv_ore_washer"
+					type: "item"
+				}
+				{
+					id: "4F10C6E54812EBC1"
+					item: "gtceu:hv_thermal_centrifuge"
+					type: "item"
+				}
+			]
+			title: "Ore Processing Upgrade"
+			x: -7.5d
 			y: 2.5d
 		}
 	]
