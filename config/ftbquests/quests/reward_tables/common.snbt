@@ -71,6 +71,9 @@
 		{ item: "sophisticatedstorage:upgrade_base", weight: 5.0f }
 		{ item: "sophisticatedbackpacks:upgrade_base", weight: 5.0f }
 		{ item: "pipez:basic_upgrade", weight: 7.0f }
+		{ item: "mekanism:basic_tier_installer", weight: 3.0f }
+		{ item: "mekanism:upgrade_speed", weight: 3.0f }
+		{ item: "mekanism:upgrade_energy", weight: 3.0f }
 		{ item: "productivebees:sturdy_bee_cage", weight: 5.0f }
 		{
 			item: {
@@ -97,6 +100,7 @@
 		{ count: 8, item: "minecraft:redstone", random_bonus: 8, weight: 5.0f }
 		{ item: "mysticalagriculture:tertium_essence", weight: 2.0f }
 		{ count: 2, item: "mysticalagriculture:prudentium_essence", random_bonus: 1, weight: 3.0f }
+		{ item: "mekanismgenerators:wind_generator", weight: 5.0f }
 		{ count: 4, item: "minecraft:torch", random_bonus: 8, weight: 10.0f }
 		{
 			item: {

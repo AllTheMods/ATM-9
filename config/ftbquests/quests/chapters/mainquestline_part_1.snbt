@@ -261,7 +261,7 @@
 			image: "atm:textures/questpics/gettingstarted/wither2.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 22.5d
+			x: 26.5d
 			y: 7.5d
 		}
 		{
@@ -1315,6 +1315,7 @@
 				""
 				"- &9Powah's&r Furnator: Powah has several options for power, with the Furnator being one of the starter options. This machine burns items like Coal or Wood into power."
 			]
+			hide_dependent_lines: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1594,7 +1595,7 @@
 			]
 			shape: "square"
 			tasks: [{
-				id: "15A5D469A3290F94"
+				id: "3C95552D03C16F3D"
 				item: {
 					Count: 1b
 					id: "itemfilters:or"
@@ -1602,11 +1603,7 @@
 						items: [
 							{
 								Count: 1b
-								id: "powah:energy_cell_starter"
-							}
-							{
-								Count: 1b
-								id: "rftoolspower:cell1"
+								id: "rftoolspower:dimensionalcell_simple"
 							}
 							{
 								Count: 1b
@@ -1614,7 +1611,15 @@
 							}
 							{
 								Count: 1b
-								id: "rftoolspower:dimensionalcell_simple"
+								id: "rftoolspower:cell1"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cell_starter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_energy_cube"
 							}
 						]
 					}
@@ -3097,9 +3102,9 @@
 			description: [
 				"The &aMining&r Dimension is a great place for mining. Who knew?"
 				""
-				"It is a flat world that is several layers deep. Here, you can find all kinds of ores, including Overworld, Nether, and End ores all in one."
+				"It is a flat world that is several layers deep. Here, you can find all kinds of ores, including Overworld, Nether, and End ores all in one place."
 				""
-				"However, you will not find Vibranium or Unobtanium here. &6Allthemodium&r, however, is more common in the deepslate layer!"
+				"Note: Vibranium and Unobtainium can't be found here."
 			]
 			icon: "allthemodium:alloy_pick"
 			id: "3FDB414F277C8BC1"
@@ -3122,7 +3127,7 @@
 		}
 		{
 			dependencies: ["7B74D36B9C69B63E"]
-			description: ["The &dOther&r is home to several dungeons filled to the brim with loot and spawners. You can also find the boss of Allthemodiums, the &5Piglich&r. Good luck killing this guy!"]
+			description: ["The &dOther&r is home to several dungeons filled to the brim with loot and spawners. You can also find the boss of the ATM packs, the &5Piglich&r. Good luck killing this guy!"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -3172,6 +3177,135 @@
 			x: 13.5d
 			y: 13.5d
 		}
+		{
+			dependencies: ["4E178CCAC7F85F54"]
+			description: [
+				"Once you have some &6Allthemodium&r, the next upgrade will take &dVibranium&r. "
+				""
+				"You can find this rare ore in the Nether above Y64 along the ceiling and walls of any biome."
+				""
+				"You can also find it in any biome in the Other, between Y0 and Y40 along cave walls and ceilings."
+				""
+				"Note: The ore will only be found exposed to air!"
+			]
+			id: "56A5C102BDD74ED8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F60D92333BD6A57"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "7D418AF91CB716B9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6F222A2906776DFE"
+				item: "allthemodium:raw_vibranium"
+				type: "item"
+			}]
+			title: "Vibranium Ore"
+			x: 9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4E178CCAC7F85F54"]
+			description: [
+				"Vibranium stuff is cool, but you can do better."
+				""
+				"The next upgrade will take &dUnobtainium&r, which is an extremely rare ore that can only be found in the End Highlands biome in the End."
+			]
+			id: "17FCF0E1AA82E296"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BF82D303CC74EE1"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "1286386E3AF87098"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2D04277650830C69"
+				item: "allthemodium:raw_unobtainium"
+				type: "item"
+			}]
+			title: "&dUnobtainium Ore&r"
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4E178CCAC7F85F54"]
+			description: [
+				"To upgrade an &6Allthemodium&r tool or armor piece, you'll need to get the brand new &aSmithing Templates&r for them."
+				""
+				"The &dVibranium&r Smithing Template can be found in the Nether inside of &5Bastions&r. Look for &aSuspecious Soul Sand&r and brush the template out!"
+				""
+				"For the &dUnobtainium&r Smithing Template, you'll need to make your way to &dThe Other&r. Locate the Dungeon and make your way to the Library. Here, you'll find loot chests that have a chance to have the template in them. "
+			]
+			id: "4C2E9478545AAB38"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17826C2D2F6A4488"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "3DC03EDFFE7D7305"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "15A688893DFADCBC"
+					item: "allthemodium:vibranium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "534DF8CF9B8A0012"
+					item: "allthemodium:unobtainium_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "&dUpgrading Allthemodium&r"
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"69A517AB8A801939"
+				"6D09511D64DDC282"
+				"6EE5BE5693E8ACE4"
+				"2D879A34A5788CCC"
+			]
+			description: ["Once you've defeated the main bosses of MC, created some basic power, and hopefully found some &6Allthemodium&r, it's time for you to take the next step in your journey."]
+			icon: "allthetweaks:atm_star"
+			id: "585502BC014E420F"
+			rewards: [{
+				id: "50EF2FE79AC5FB74"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			size: 3.0d
+			subtitle: "Unlocking Chapter 2"
+			tasks: [{
+				id: "4EBF6B68ED8C9B40"
+				title: "&6To The ATM Star&r!"
+				type: "checkmark"
+			}]
+			x: 22.5d
+			y: 7.5d
+		}
 	]
-	title: "&aPart 1&r: &bGetting Started&r"
+	title: "&aChapter 1&r: &bThe Beginning&r"
 }

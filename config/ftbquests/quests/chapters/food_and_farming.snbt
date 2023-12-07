@@ -151,7 +151,7 @@
 			y: -5.5d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -301,7 +301,7 @@
 		{
 			dependencies: ["3EA883C0BB7BD38F"]
 			description: [
-				"Markets provide you with a villager than can sell you anything, if you have the right amount of emeralds."
+				"Markets provide you with a villager than can sell you anything if you have the right amount of emeralds."
 				""
 				"Spoiler: It's usually just 1 Emerald per item. BUT THEY HAVE EVERYTHING."
 			]

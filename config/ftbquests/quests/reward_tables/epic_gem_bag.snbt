@@ -1,0 +1,197 @@
+{
+	icon: {
+		Count: 1b
+		id: "apotheosis:gem"
+		tag: {
+			gem: "apotheosis:the_nether/inferno"
+			rarity: "epic"
+		}
+	}
+	id: "101AB5CE5A067BA6"
+	loot_size: 1
+	order_index: 47
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/ballast"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/brawlers"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/breach"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/combatant"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/guardian"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/lightning"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/samurai"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/splendor"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/tyrannical"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/warlord"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:overworld/earth"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:overworld/royalty"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:the_end/endersurge"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:the_end/mageslayer"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:the_nether/blood_lord"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:the_nether/inferno"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:twilight/forest"
+					rarity: "epic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:twilight/queen"
+					rarity: "epic"
+				}
+			}
+		}
+	]
+	title: "Epic Gem Bag"
+	use_title: true
+}

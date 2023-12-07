@@ -320,8 +320,20 @@
 			x: 12.5d
 			y: 2.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: ["Needed for the ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 6.0d
+			y: 5.5d
+		}
 	]
-	order_index: 2
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

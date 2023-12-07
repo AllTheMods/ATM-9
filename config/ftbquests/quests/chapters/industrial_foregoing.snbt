@@ -5,7 +5,33 @@
 	group: "2B51AC12041E3F89"
 	icon: "industrialforegoing:common_black_hole_unit"
 	id: "193F91842D2ED7D9"
-	order_index: 1
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: ["Needed for the ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 11.5d
+			y: 11.1d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: ["Needed for the ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 10.5d
+			y: -3.5d
+		}
+	]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

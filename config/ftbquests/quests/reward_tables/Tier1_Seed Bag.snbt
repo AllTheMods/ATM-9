@@ -2,7 +2,7 @@
 	icon: "mysticalagriculture:inferium_gemstone"
 	id: "5AF0FD7302DEC2B1"
 	loot_size: 1
-	order_index: 15
+	order_index: 18
 	rewards: [
 		{ count: 2, item: "mysticalagriculture:inferium_essence", random_bonus: 2, weight: 10.0f }
 		{ item: "mysticalagriculture:inferium_seeds", random_bonus: 1, weight: 5.0f }

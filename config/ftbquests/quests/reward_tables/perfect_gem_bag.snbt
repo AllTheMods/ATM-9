@@ -1,0 +1,197 @@
+{
+	icon: {
+		Count: 1b
+		id: "apotheosis:gem"
+		tag: {
+			gem: "apotheosis:the_nether/blood_lord"
+			rarity: "ancient"
+		}
+	}
+	id: "537D8392179350C8"
+	loot_size: 1
+	order_index: 51
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/ballast"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/brawlers"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/breach"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/combatant"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/guardian"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/lightning"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/samurai"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/splendor"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/tyrannical"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/warlord"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:overworld/earth"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:overworld/royalty"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:the_end/endersurge"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:the_end/mageslayer"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:the_nether/blood_lord"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:the_nether/inferno"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:twilight/forest"
+					rarity: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:twilight/queen"
+					rarity: "ancient"
+				}
+			}
+		}
+	]
+	title: "Perfect Gem Bag"
+	use_title: true
+}

@@ -6,19 +6,33 @@
 	group: "6614EE2378B8AFB9"
 	icon: "mysticalagriculture:inferium_essence"
 	id: "5C764279146E5E66"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 0.3d
-		hover: ["&dNeeded for the ATM Star&r"]
-		image: "allthetweaks:item/atm_star"
-		rotation: 0.0d
-		width: 0.3d
-		x: 1.5d
-		y: 2.85d
-	}]
-	order_index: 1
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: ["Needed for the ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 1.5d
+			y: 2.85d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: ["Needed for the ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 7.75d
+			y: -1.5d
+		}
+	]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -28,7 +42,6 @@
 				""
 				"Placing the Altar down first will show you where to put the Pedestals. To craft a seed, place the required mats in each pedestal, then give a redstone signal to the Altar."
 			]
-			hide: true
 			id: "6D750A38944E9B68"
 			rewards: [
 				{
@@ -309,7 +322,6 @@
 				""
 				"Alternatively, you can fill Soul Jars inside of the &3Soul Extractor&r by inserting a jar and using mob items to fill them. For example, adding Rotten Flesh will give a portion of a Zombie Soul."
 			]
-			hide: true
 			id: "75560045ED084900"
 			rewards: [
 				{
@@ -1756,7 +1768,6 @@
 				""
 				"Augments can be made using the Infusion Altar. Just like the Essences, Augments have tiers!"
 			]
-			hide: true
 			id: "6A4C49AE72E98727"
 			rewards: [
 				{
@@ -1840,7 +1851,6 @@
 				""
 				"Eventually, you'll be able to make an Infusion Crystal that works for all tiers and doesn't break!"
 			]
-			hide: true
 			id: "05618FE80F2E0372"
 			rewards: [
 				{
@@ -2653,7 +2663,6 @@
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: ["This is the Tier 2 Essence, made by combining 4 Inferium together with an Inferium Infusion Crystal."]
-			hide: true
 			hide_dependency_lines: true
 			id: "73350AD668200E99"
 			rewards: [
@@ -2683,7 +2692,6 @@
 		}
 		{
 			dependencies: ["73350AD668200E99"]
-			hide: true
 			hide_dependency_lines: true
 			id: "2C9C9CB71941DC01"
 			rewards: [
@@ -2713,7 +2721,6 @@
 		}
 		{
 			dependencies: ["2C9C9CB71941DC01"]
-			hide: true
 			hide_dependency_lines: true
 			id: "66C52B137A4FF869"
 			rewards: [
@@ -2773,7 +2780,6 @@
 		}
 		{
 			dependencies: ["67DBE6C59C0D9D1B"]
-			hide: true
 			hide_dependency_lines: true
 			id: "202B1F54D3F06DAB"
 			rewards: [
@@ -3692,7 +3698,6 @@
 				""
 				"You'll find these from mining!"
 			]
-			hide: true
 			id: "54D6F7F8FE859729"
 			rewards: [{
 				id: "6C00F85D73FBE858"

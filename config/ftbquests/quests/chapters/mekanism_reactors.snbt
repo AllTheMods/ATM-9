@@ -261,8 +261,32 @@
 			x: 13.0d
 			y: -4.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: ["Needed for the ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: ["Needed for the ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 4.0d
+			y: 0.15d
+		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -573,7 +597,7 @@
 				""
 				"The easiest way to do this is by giving the Reactor &9Water&r from a Sink. The Sink is an infinite water source, which is &oreally nice for a situation like this&r."
 				""
-				"Pump out the water into one of the Reactor's Ports that is set to &ainput&r to fill up the Reactor with water. This will be heated while the Reactor is running and get converted to &bSteam&r, which you can use to create power with in an &9Industrial Turbine&r."
+				"Pump out the water into one of the Reactor's Ports that is set to &ainput&r to fill up the Reactor with water. This will be heated while the Reactor is running and get converted to &bSteam&r, which you can use to create power within an &9Industrial Turbine&r."
 				""
 				"&eSodium&r can also be used as a much more efficient coolant. This allows for higher burn rates and lower core temperatures."
 			]
@@ -610,7 +634,7 @@
 				"3F5010269469EBE0"
 			]
 			description: [
-				"Once you've finish placing in all of the required blocks to build the Reactor, it should give off red particles to show that it is complete."
+				"Once you've finished placing in all of the required blocks to build the Reactor, it should give off red particles to show that it is complete."
 				""
 				"Right clicking anywhere on the Reactor will open up the &aInterface&r. This will have all of the information you need to run the Reactor properly, as well as two buttons to turn on and off the Reactor."
 				""
@@ -854,7 +878,14 @@
 			tasks: [
 				{
 					id: "452FBF76102210BD"
-					item: "mekanism:fluorite_gem"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:gems/fluorite"
+						}
+					}
+					title: "Any #forge:gems/fluorite"
 					type: "item"
 				}
 				{
@@ -1149,7 +1180,7 @@
 				"To build the Fusion Reactor, we need to follow a simple pattern. Each face will look like this:"
 				"{image:atm:textures/questpics/mek/fusion_pattern.png width:175 height:175 align:1}"
 				""
-				"For the top, we want replace the middle block with the Fusion Reactor Controller."
+				"For the top, we want to replace the middle block with the Fusion Reactor Controller."
 				""
 				"For the ports, you can replace any of the Reactor Glass on the sides. For this setup, we'll need two ports to input &cDeuterium&r and &eTritium&r, then a port to output power. "
 				""
@@ -1321,7 +1352,7 @@
 				""
 				"The goal is to aim each Laser into a Laser Amplifier. Using one is pretty slow, so we're going to make a few."
 				""
-				"In the image below, you can see an example of how this is setup. Sticking the Lasers directly on a power source like an Energy Cube works, or you can have them on pipes or cables. You want to give it a block of empty space between the lasers and the Laser Amplifier."
+				"In the image below, you can see an example of how this is set up. Sticking the Lasers directly on a power source like an Energy Cube works, or you can have them on pipes or cables. You want to give it a block of empty space between the lasers and the Laser Amplifier."
 				""
 				"The Laser Amplifier has a red dot on one of the faces. This is what you want to point towards the Laser Focus Matrix."
 				""
@@ -1433,7 +1464,7 @@
 				"4ABF0727AA569DD9"
 			]
 			description: [
-				"To kick start the Fusion Reactor, we'll need a quick-shot of D-T fuel. This is made by combining &cDeuterium&r and &eTritium&r together in a Chemical Infuser."
+				"To kick start the Fusion Reactor, we'll need a quick shot of D-T fuel. This is made by combining &cDeuterium&r and &eTritium&r together in a Chemical Infuser."
 				""
 				"Start by making a &4Hohlraum&r and place it into the Infuser (where the plus symbol is) to fill it with D-T fuel. Now we're ready to jumpstart the Reactor!"
 			]
@@ -1684,7 +1715,7 @@
 			description: [
 				"&9Turbine Valves&r are used to pump in &bSteam&r, as well as pumping out the power that the Turbine creates."
 				""
-				"&8Turbine Vents&r are used to pump out excess water when using &aSaturating Condensers&r. Otherwise, these help increase the overall flow of steam within the Turbine. The total number of Vents also limit the total Steam Flow Rate. Vents can also be used on the top face of the Turbine, but for this build, we'll just be using them on the outside faces."
+				"&8Turbine Vents&r are used to pump out excess water when using &aSaturating Condensers&r. Otherwise, these help increase the overall flow of steam within the Turbine. The total number of Vents also limits the total Steam Flow Rate. Vents can also be used on the top face of the Turbine, but for this build, we'll just be using them on the outside faces."
 				""
 				"&aSaturating Condensers&r are used to convert &bSteam&r back into water. These are placed on or above the layer containing the Electromagnetic Coils."
 			]
@@ -1789,7 +1820,7 @@
 			description: [
 				"The &9Electromagnetic Coil&r is placed directly on top of the &aRotational Complex&r to convert the kinetic energy into power."
 				""
-				"You can use multiple, with 5 being the max. These must either touch another Coil, or the Rotational Complex."
+				"You can use multiple, with 7 being the max with a Turbine using 28 blades. These must either touch another Coil, or the Rotational Complex."
 			]
 			id: "7C61906C6C87C97D"
 			rewards: [

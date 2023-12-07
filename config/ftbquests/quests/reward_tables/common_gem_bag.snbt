@@ -1,0 +1,107 @@
+{
+	icon: {
+		Count: 1b
+		id: "apotheosis:gem"
+		tag: {
+			gem: "apotheosis:overworld/earth"
+			rarity: "rare"
+		}
+	}
+	id: "5B39DB9E88926050"
+	loot_size: 1
+	order_index: 42
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/ballast"
+					rarity: "uncommon"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/brawlers"
+					rarity: "uncommon"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/breach"
+					rarity: "uncommon"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/combatant"
+					rarity: "uncommon"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/guardian"
+					rarity: "uncommon"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/samurai"
+					rarity: "uncommon"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/splendor"
+					rarity: "uncommon"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/tyrannical"
+					rarity: "uncommon"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "apotheosis:core/warlord"
+					rarity: "uncommon"
+				}
+			}
+		}
+	]
+	title: "Common Gem Bag"
+	use_title: true
+}
