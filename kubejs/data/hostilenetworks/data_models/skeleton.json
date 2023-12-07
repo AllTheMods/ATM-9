@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:skeleton",
+    "subtypes": [
+        "minecraft:stray"
+    ],
+    "name": "entity.minecraft.skeleton",
+    "name_color": "0xBCBCBC",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.skeleton",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:arrow",
+            "count": 32
+        },
+        {
+            "item": "minecraft:bone",
+            "count": 24
+        },
+        {
+            "item": "minecraft:skeleton_skull",
+            "count": 4
+        },
+        {
+            "optional": true,
+            "item": "reliquary:rib_bone",
+            "count": 2
+        },
+        {
+            "optional": true,
+            "item": "bhc:red_heart",
+            "count": 1
+        }
+    ]
+}
