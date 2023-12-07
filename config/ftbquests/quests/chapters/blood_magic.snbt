@@ -4,6 +4,18 @@
 	filename: "blood_magic"
 	group: "02FE661031A105D8"
 	id: "004F28C5C85F467B"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 0.3d
+		hover: ["Needed for the ATM Star"]
+		image: "allthetweaks:item/atm_star"
+		rotation: 0.0d
+		width: 0.3d
+		x: -9.5d
+		y: -1.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

@@ -8,24 +8,8 @@
 	}
 	id: "4D37FFAF33DF678A"
 	loot_size: 1
-	order_index: 11
+	order_index: 14
 	rewards: [
-		{ item: "sophisticatedbackpacks:everlasting_upgrade" }
-		{ item: "sophisticatedbackpacks:stack_upgrade_tier_2", weight: 5.0f }
-		{
-			item: {
-				Count: 1b
-				id: "sophisticatedstorage:diamond_chest"
-				tag: {
-					woodType: "oak"
-				}
-			}
-			weight: 5.0f
-		}
-		{ item: "sophisticatedstorage:stack_upgrade_tier_2", weight: 7.0f }
-		{ item: "sophisticatedbackpacks:advanced_magnet_upgrade", weight: 3.0f }
-		{ item: "industrialforegoing:laser_drill" }
-		{ item: "functionalstorage:diamond_upgrade", weight: 3.0f }
 		{
 			item: {
 				Count: 1b
@@ -37,6 +21,7 @@
 					}]
 				}
 			}
+			weight: 3.0f
 		}
 		{
 			item: {
@@ -49,53 +34,26 @@
 					}]
 				}
 			}
+			weight: 3.0f
 		}
-		{ item: "pipez:advanced_upgrade", random_bonus: 2, weight: 5.0f }
-		{ item: "productivebees:upgrade_productivity", weight: 2.0f }
+		{ item: "productivebees:upgrade_productivity", random_bonus: 2, weight: 2.0f }
 		{ item: "minecraft:dragon_egg", weight: 2.0f }
 		{ item: "minecraft:dragon_head" }
-		{ item: "artifacts:charm_of_sinking" }
 		{ item: "artifacts:vampiric_glove", weight: 2.0f }
 		{ item: "artifacts:umbrella" }
-		{ item: "artifacts:night_vision_goggles" }
+		{ item: "artifacts:night_vision_goggles", weight: 2.0f }
 		{ item: "artifacts:golden_hook", weight: 2.0f }
-		{ item: "artifacts:crystal_heart" }
+		{ item: "artifacts:crystal_heart", weight: 2.0f }
 		{ item: "ironfurnaces:diamond_furnace", weight: 3.0f }
 		{ item: "ironfurnaces:emerald_furnace" }
 		{ item: "alltheores:enderium_ingot", random_bonus: 3, weight: 5.0f }
-		{ item: "alltheores:invar_ingot", random_bonus: 3, weight: 5.0f }
-		{ count: 8, item: "minecraft:obsidian", random_bonus: 8, weight: 10.0f }
-		{ count: 2, item: "fluxnetworks:flux_dust", random_bonus: 2, weight: 10.0f }
-		{ item: "fluxnetworks:flux_block", random_bonus: 1, weight: 3.0f }
-		{ item: "fluxnetworks:flux_point", weight: 5.0f }
-		{ item: "fluxnetworks:flux_plug", weight: 3.0f }
-		{ item: "fluxnetworks:basic_flux_storage", weight: 3.0f }
+		{ count: 8, item: "fluxnetworks:flux_dust", random_bonus: 16, weight: 10.0f }
+		{ item: "fluxnetworks:flux_block", random_bonus: 3, weight: 3.0f }
+		{ item: "fluxnetworks:flux_point", random_bonus: 2, weight: 5.0f }
+		{ item: "fluxnetworks:flux_plug", random_bonus: 2, weight: 3.0f }
 		{ item: "fluxnetworks:herculean_flux_storage" }
-		{ item: "pipez:ultimate_upgrade", random_bonus: 1 }
-		{ item: "minecraft:diamond_block", random_bonus: 2, weight: 7.0f }
-		{ item: "minecraft:emerald_block", random_bonus: 1, weight: 5.0f }
-		{
-			item: {
-				Count: 1b
-				id: "apotheosis:potion_charm"
-				tag: {
-					Damage: 0
-					Potion: "potionsmaster:diamond_sight"
-				}
-			}
-			weight: 3.0f
-		}
-		{
-			item: {
-				Count: 1b
-				id: "apotheosis:potion_charm"
-				tag: {
-					Damage: 0
-					Potion: "potionsmaster:emerald_sight"
-				}
-			}
-			weight: 2.0f
-		}
+		{ count: 8, item: "mekanism:ultimate_universal_cable", random_bonus: 8, weight: 5.0f }
+		{ count: 4, item: "mekanism:ingot_refined_obsidian", random_bonus: 4, weight: 5.0f }
 		{
 			item: {
 				Count: 1b
@@ -108,41 +66,8 @@
 		}
 		{ item: "minecraft:beacon", weight: 2.0f }
 		{ item: "minecraft:nether_star", random_bonus: 2, weight: 2.0f }
-		{
-			item: {
-				Count: 1b
-				id: "ars_nouveau:enchanters_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{ item: "ars_nouveau:basic_spell_turret" }
-		{ item: "ars_nouveau:apprentice_spell_book", weight: 2.0f }
-		{
-			item: {
-				Count: 1b
-				id: "ars_nouveau:wand"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "ars_nouveau:enchanters_shield"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{ item: "sophisticatedbackpacks:stack_upgrade_tier_3" }
-		{ item: "sophisticatedstorage:stack_upgrade_tier_3" }
-		{ item: "functionalstorage:netherite_upgrade" }
 		{ item: "tempad:tempad" }
-		{ item: "functionalstorage:gold_upgrade", random_bonus: 1, weight: 5.0f }
-		{ item: "minecraft:ghast_tear", random_bonus: 3, weight: 5.0f }
-		{ item: "ars_nouveau:source_gem_block", weight: 3.0f }
-		{ item: "minecraft:budding_amethyst", random_bonus: 2, weight: 5.0f }
+		{ item: "ars_nouveau:source_gem_block", random_bonus: 2, weight: 3.0f }
 		{
 			item: {
 				Count: 1b
@@ -159,6 +84,11 @@
 			}
 		}
 		{ count: 2, item: "apotheosis:rare_material", random_bonus: 4, weight: 5.0f }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_4" }
+		{ item: "functionalstorage:netherite_upgrade" }
+		{ item: "pipez:ultimate_upgrade" }
+		{ item: "apotheosis:mythic_material", random_bonus: 2, weight: 2.0f }
+		{ count: 4, item: "apotheosis:gem_dust", random_bonus: 4, weight: 5.0f }
 	]
 	title: "&9Rare Reward"
 	use_title: true

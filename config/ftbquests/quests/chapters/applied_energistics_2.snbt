@@ -5,6 +5,32 @@
 	group: "1AC60211DE7427FC"
 	icon: "ae2:controller"
 	id: "07210DDF872160BA"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["Needed For The ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 5.0d
+			y: 5.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["Needed For The ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.0d
+			y: 4.25d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -349,6 +375,7 @@
 				"All cables can also be crafted with dye to colour them. Uncoloured (\"Fluix\") cables can connect to any other colour of cable, but otherwise differently-coloured cables will never connect to one another."
 			]
 			id: "5C22E3103544B120"
+			min_width: 300
 			rewards: [
 				{
 					id: "23EF97F2F01671B6"
@@ -1408,7 +1435,7 @@
 		}
 		{
 			dependencies: ["2F556E7919582D2D"]
-			description: ["The &bOverflow Destruction Card&f is a cell upgrade that allows storage cells to delete (void) any items of a type already contained within them, when try to move into the cell and the cell is already full."]
+			description: ["The &bOverflow Destruction Card&f is a cell upgrade that allows storage cells to delete (void) any items of a type already contained within them when trying to move into the cell and the cell is already full."]
 			id: "33ADE41526C39AFD"
 			rewards: [
 				{
@@ -1434,7 +1461,7 @@
 		{
 			dependencies: ["361CCBD353D6FF34"]
 			description: [
-				"&bPortable Cells&f function identically to regular cells in that they can they be inserted into a chest or drive and filled accordingly."
+				"&bPortable Cells&f function identically to regular cells in that they can be inserted into a chest or drive and filled accordingly."
 				""
 				"However, unlike regular cells, their contents can also be accessed standalone via the cell item itself, a bit like a digital ME-flavoured backpack."
 			]
@@ -1494,7 +1521,7 @@
 		{
 			dependencies: ["74FC0DDDB91DB172"]
 			description: [
-				"An important concept within AE2 is a technique known as \"&esubnetting&f\", wherein an extra separate ME network (a &esubnetwork&f) acts in conjuction with the main network to perform some specialised function or process."
+				"An important concept within AE2 is a technique known as \"&esubnetting&f\", wherein an extra separate ME network (a &esubnetwork&f) acts in conjunction with the main network to perform some specialised function or process."
 				""
 				"What separates a subnetwork from a completely detached separate network is usually the use of the &bQuartz Fiber&f as a cable part. When placed between two otherwise unconnected lengths of cable, the Quartz Fiber transfers no data or channels between the two whatsoever, instead only transmitting power."
 				""
@@ -1633,7 +1660,7 @@
 			description: [
 				"Individual ME devices can also be configured to respond to redstone signals. When upgraded with a &bRedstone Card&f, a device can be configured to do work only when powered with redstone or otherwise as needed."
 				""
-				"This behavour can also apply to entire &osections&r of an ME network by using an &bME Toggle Bus&f. This allows a section of the network on the other side of the bus to come online only when the bus is powered by redstone, or to go offline if using an &einverted&f toggle bus."
+				"This behavior can also apply to entire &osections&r of an ME network by using an &bME Toggle Bus&f. This allows a section of the network on the other side of the bus to come online only when the bus is powered by redstone, or to go offline if using an &einverted&f toggle bus."
 			]
 			id: "1AAF0B31B47AF23D"
 			rewards: [
@@ -1998,10 +2025,11 @@
 				""
 				"Cable Anchors can also be used to craft &bCable Facades&f, allowing you to disguise cables within walls by covering them with the face of an arbitrary block. While facade recipes are hidden in JEI, you can still craft them by taking any regular block and surrounding it with 4 cable anchors in the crafting grid."
 				""
-				"Aside from crafting anchors, the cutting knife also has another use: right-clicking with the knife will open a small GUI that allows you craft &bInscriber Name Presses&f. When given a name, these presses can be used inside of an Inscriber to rename any input item with the name of the press. Two of these presses can be concatenated in the inscriber to rename the item to the name of the top press, followed by the bottom one."
+				"Aside from crafting anchors, the cutting knife also has another use: right-clicking with the knife will open a small GUI that allows you to craft &bInscriber Name Presses&f. When given a name, these presses can be used inside of an Inscriber to rename any input item with the name of the press. Two of these presses can be concatenated in the inscriber to rename the item to the name of the top press, followed by the bottom one."
 			]
 			icon: "ae2:cable_anchor"
 			id: "6144202A97C6CD1C"
+			min_width: 300
 			rewards: [
 				{
 					id: "4330FAC592266D62"

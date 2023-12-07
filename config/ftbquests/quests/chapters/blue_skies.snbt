@@ -5,7 +5,7 @@
 	group: "752CDE464613A1ED"
 	icon: "blue_skies:poison_key"
 	id: "7739373308A83503"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -735,7 +735,7 @@
 		{
 			dependencies: ["229455730219F7B1"]
 			description: [
-				"This is used to upgrade and enchance tools from Blue Skies."
+				"This is used to upgrade and enhance tools from Blue Skies."
 				""
 				"You can use Falsite to increase the durability of a tool, or you can use any stick from the mod to swap out on a tool. Yes, different wood types have different uses."
 			]
@@ -846,7 +846,7 @@
 			description: [
 				"Ever wanted a forge that just smelts things without fuel?"
 				""
-				"Me too. Technically, this does need a \"fuel\" per-se. It has a charge, and can be recharged using Sunstone or anything made from Horizonite."
+				"Me too. Technically, this does need a \"fuel\" per se. It has a charge, and can be recharged using Sunstone or anything made from Horizonite."
 				""
 				"The forge must be empty to recharge."
 			]

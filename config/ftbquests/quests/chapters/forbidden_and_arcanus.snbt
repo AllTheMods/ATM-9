@@ -11,7 +11,19 @@
 		}
 	}
 	id: "34E8FF3196478229"
-	order_index: 3
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 0.3d
+		hover: ["Needed for the ATM Star"]
+		image: "allthetweaks:item/atm_star"
+		rotation: 0.0d
+		width: 0.3d
+		x: 9.5d
+		y: 2.25d
+	}]
+	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

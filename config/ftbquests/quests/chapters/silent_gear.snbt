@@ -5,18 +5,32 @@
 	group: "22FB35B0FEF1343D"
 	icon: "silentgear:pickaxe_blueprint"
 	id: "1D42B373285DEF81"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 4.0d
-		hover: [ ]
-		image: "silentgear:textures/item/blueprint_package.png"
-		rotation: 0.0d
-		width: 4.0d
-		x: 4.0d
-		y: -3.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "silentgear:textures/item/blueprint_package.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["Needed For The ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 11.0d
+			y: -0.75d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -853,7 +867,7 @@
 			description: [
 				"The tip upgrade is used to increase the mining level of the tool."
 				""
-				"For example: If you have an iron pickaxe with 1 diamond, you can make a Diamond Tip Upgrade, and place it on your pickaxe. This will allow it to mine obsidian, as well as giving it a stat boost."
+				"For example: If you have an iron pickaxe with 1 diamond, you can make a Diamond Tip Upgrade, and place it on your pickaxe. This will allow it to mine obsidian, as well as give it a stat boost."
 			]
 			id: "158B24939A269D83"
 			shape: "diamond"
@@ -1257,7 +1271,7 @@
 				""
 				"To create a full pickaxe, you can either add a stick to the crafting table, or create your own custom handle using a &9Tool Rod Template&r instead of using a stick."
 				""
-				"*Note: You can always search up the templates and then pressing U on it, then navigate to the \"Gear Crafting\" tab. This will show you how to make gear parts."
+				"*Note: You can always search up the templates and then press U on it, then navigate to the \"Gear Crafting\" tab. This will show you how to make gear parts."
 			]
 			icon: "silentgear:pickaxe_template"
 			id: "15DE3BF0CBD8E0B4"

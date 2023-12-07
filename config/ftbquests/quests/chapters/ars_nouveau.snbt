@@ -5,6 +5,18 @@
 	group: "02FE661031A105D8"
 	icon: "ars_nouveau:creative_spell_book"
 	id: "6AEDA2F9BEB57759"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 0.3d
+		hover: ["Needed for the ATM Star"]
+		image: "allthetweaks:item/atm_star"
+		rotation: 0.0d
+		width: 0.3d
+		x: 7.51d
+		y: 7.6d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -1524,7 +1536,7 @@
 			description: [
 				"This is the next upgrade to your Spellbook!"
 				""
-				"This will increase your overall mana and mana regen, as well as unlocking the ability to create and use Tier 2 Glyphs."
+				"This will increase your overall mana and mana regen, as well as allowing you to create and use Tier 2 Glyphs."
 			]
 			id: "0D330FAD6C993DBC"
 			rewards: [
@@ -2733,7 +2745,7 @@
 				""
 				"The &6Jar of Voiding&r destroys items you pick up in exchange for mana. This can be filtered."
 				""
-				"To add or remove an item to be detroyed by the jar, use the jar with the item in your off hand, or use an item on the Scribe's Table with the jar placed on it."
+				"To add or remove an item to be destroyed by the jar, use the jar with the item in your off hand, or use an item on the Scribe's Table with the jar placed on it."
 				""
 				"The jar must be on your hotbar to function."
 			]

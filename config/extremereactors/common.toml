@@ -57,7 +57,7 @@
 		#A multiplier for balancing turbine power production.
 		#Stacks with powerProductionMultiplier.
 		#Range: 0.5 ~ 10.0
-		turbinePowerProductionMultiplier = 1.0
+		turbinePowerProductionMultiplier = 3.0
 
 	#Define how Fluidizer works
 	[common.fluidizer]

@@ -59,29 +59,16 @@
 			description: [
 				"&9Extreme Reactors&r offers multi-block reactors that are completely customizable in size, efficiency, and more."
 				""
-				"To learn more about getting started with Extreme Reactors, check out the guidebook for the mod!"
+				"To learn more about getting started with Extreme Reactors, check out the questline for the mod!"
 			]
 			hide_dependency_lines: false
 			icon: "bigreactors:basic_reactorchargingportfe"
 			id: "6D6E07564D8FDD8D"
-			rewards: [
-				{
-					id: "1C7FBA6844D50ABA"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "7EFBAD8247301507"
-					item: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "bigreactors:erguide"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1C7FBA6844D50ABA"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			subtitle: "Customizable Reactors!"
 			tasks: [{
@@ -704,12 +691,6 @@
 					xp: 100
 				}
 				{
-					id: "62CFFE975A4D6072"
-					item: "pipez:basic_upgrade"
-					random_bonus: 2
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2C5A013A4D52E1A4"
 					table_id: 487623848494439020L
@@ -825,7 +806,6 @@
 		{
 			dependencies: ["35CC898E0E49FE58"]
 			description: ["In this mod, you'll need &aFlux Cores&r and &aFlux Blocks&r to craft the core parts of your network. Make a few of each!"]
-			hide: true
 			id: "1BE26A00A420DAE3"
 			rewards: [
 				{
@@ -1068,5 +1048,5 @@
 			y: 7.5d
 		}
 	]
-	title: "Basic Power"
+	title: "AllThePower"
 }

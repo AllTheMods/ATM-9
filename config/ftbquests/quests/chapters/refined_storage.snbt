@@ -1419,7 +1419,7 @@
 			dependencies: ["12A43F82FC67A289"]
 			dependency_requirement: "one_started"
 			description: [
-				"It's time to create the \"Hard Drives\" of Refined Storage. To do this, we'll need a &9Storage Housing&r that we'll combine with a &aStorage Part&r to create a &dStorage Disk&r. Just simply make the desired size of part, then combine with the housing to create a disk."
+				"It's time to create the \"Hard Drives\" of Refined Storage. To do this, we'll need a &9Storage Housing&r that we'll combine with a &aStorage Part&r to create a &dStorage Disk&r. Just simply make the desired size of the part, then combine with the housing to create a disk."
 				""
 				"The Storage Disk is used to store your items virtually once placed inside of the Disk Drive. It has to be put in a Disk Drive. The Storage Disk won’t despawn when dropped in the world."
 			]
@@ -1456,7 +1456,7 @@
 				""
 				"&9Transmitters&r should be connected to your main system, wherever your Controller is."
 				""
-				"The &9Receiver&r should go wherever you want your external network to be. For exmample, this can be a separate part of your base where you have Bees, a mob farm, etc."
+				"The &9Receiver&r should go wherever you want your external network to be. For example, this can be a separate part of your base where you have Bees, a mob farm, etc."
 				""
 				"To connect the Receiver to your main network, you'll need to use a &eNetwork Card&r. To bind the Network Card, right-click on the Network Receiver, and then place the Network Card into the Network Transmitter that is attached to your main system."
 			]
@@ -1560,7 +1560,7 @@
 				""
 				"Whatever items end up in the block will be stored inside whenever you break it as well."
 				""
-				"If you want to uncraft it, you can sneak right click while holding it."
+				"If you want to un-craft it, you can sneak right click while holding it."
 			]
 			id: "62625CAF6649AB53"
 			optional: true

@@ -17,7 +17,7 @@
 		x: 9.0d
 		y: -5.5d
 	}]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -1705,7 +1705,7 @@
 				""
 				"There are several methods to increase the temperature of the plant, including building them in a desert!"
 				""
-				"The &aFuelwood Heater&r burns buckets of Lava, which can them be piped in using a pipe that transfers heat."
+				"The &aFuelwood Heater&r burns buckets of Lava, which can then be piped in using a pipe that transfers heat."
 				""
 				"The &aResistive Heater&r uses RF/FE to produce heat, and can be set to use whatever RF/FE you want it to use."
 			]
@@ -1746,8 +1746,8 @@
 				type: "item"
 			}]
 			title: "Heating Up our Brine Production"
-			x: 4.5d
-			y: -4.5d
+			x: 5.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
@@ -2566,7 +2566,7 @@
 			description: [
 				"When Bio Fuel is combined with Water and Hydrogen in a &aPressurized Reaction Chamber&r it creates Substrates. It also creates Ethylene as a by-product."
 				""
-				"These are needed to create HDPE pellets, which is used for end-game crafts like the Meka-suit."
+				"These are needed to create HDPE pellets, which are used for end-game crafts like the Meka-suit."
 			]
 			id: "5047792C6EF6D2AD"
 			rewards: [

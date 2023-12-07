@@ -5,7 +5,7 @@
 	group: "752CDE464613A1ED"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "7732CF7AAA63DB3A"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -69,7 +69,7 @@
 			description: [
 				"In the Twilight Forest, there are a bunch of new entities to discover."
 				""
-				"One of the worst is the Cicada. I suggest on killing this for the achievement, but killing any Twilight Forest mob will work."
+				"One of the worst is the Cicada. I suggest killing this for the achievement, but killing any Twilight Forest mob will work."
 			]
 			hide: true
 			id: "575E405B270BBCBC"
@@ -444,10 +444,9 @@
 			description: [
 				"Inside the Dark Forest, you'll find a structure that leads underground."
 				""
-				"To enter, you'll need to place one of the trophies you've acquired on the nearby pedastal."
+				"To enter, you'll need to place one of the trophies you've acquired on the nearby pedestal."
 				""
 				"On the 3rd layer, you'll find the Knight Phantoms. Defeat these to unlock the next boss."
-				""
 			]
 			id: "3DCF26B53AE1EBF6"
 			rewards: [
@@ -479,7 +478,7 @@
 				""
 				"To enter, look for the reappearing blocks at the base. Find your way through the maze all the way to the final floor to fight the Ur-Ghast."
 				""
-				"The Ur-Ghast is recommended to kill with a ranged weapon. There are 4 Ghast traps found on boss floor, which can be used to damage the Ur-Ghast."
+				"The Ur-Ghast is recommended to kill with a ranged weapon. There are 4 Ghast traps found on the boss floor, which can be used to damage the Ur-Ghast."
 				""
 				"These are charged with Ghastling kills, then activating with redstone. You don't have to use them, but they can prove useful."
 			]
@@ -559,7 +558,7 @@
 				""
 				"At the top of the Aurora Palace, the Snow Queen will summon ice crystals to protect herself."
 				""
-				"She'll also slam ice blocks down that destroys the floor and deals massive damage."
+				"She'll also slam ice blocks down that destroy the floor and deal massive damage."
 				""
 				"You'll only be able to hit her top half, as she's protected by ice blocks."
 				""
@@ -922,7 +921,7 @@
 			dependencies: ["4F66DF6B494BEFF3"]
 			dependency_requirement: "one_completed"
 			description: [
-				"This map is a must have for the Twlight Forest."
+				"This map is a must have for the Twilight Forest."
 				""
 				"Using a Blank Magic Map will give you a map that shows icons for nearby bosses and structures."
 			]
@@ -1396,7 +1395,7 @@
 		}
 		{
 			dependencies: ["4B95D48D7525FFAD"]
-			description: ["This item will prevent you from losing the items in your main and off hand, as well as your armor when you die."]
+			description: ["This item will prevent you from losing the items in your main and off-hand, as well as your armor when you die."]
 			id: "610F9E9D0B5131C7"
 			rewards: [{
 				id: "4CA93BA5E85DAA73"
