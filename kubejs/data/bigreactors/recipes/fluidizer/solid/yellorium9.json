@@ -1,0 +1,13 @@
+{
+    "type": "bigreactors:fluidizersolid",
+    "ingredient": {
+      "count": 1,
+      "ingredient": {
+        "item": "alltheores:uranium_block"
+      }
+    },
+    "result": {
+      "count": 9000,
+      "fluid": "bigreactors:yellorium"
+    }
+  }
