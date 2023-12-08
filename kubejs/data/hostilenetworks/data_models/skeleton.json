@@ -1,10 +1,10 @@
 {
-    "type": "minecraft:skeleton",
-    "subtypes": [
+    "entity": "minecraft:skeleton",
+    "variants": [
         "minecraft:stray"
     ],
     "name": "entity.minecraft.skeleton",
-    "name_color": "0xBCBCBC",
+    "name_color": "#BCBCBC",
     "gui_scale": 1,
     "gui_x_offset": 0,
     "gui_y_offset": 0,
@@ -31,12 +31,10 @@
             "count": 4
         },
         {
-            "optional": true,
             "item": "reliquary:rib_bone",
             "count": 2
         },
         {
-            "optional": true,
             "item": "bhc:red_heart",
             "count": 1
         }

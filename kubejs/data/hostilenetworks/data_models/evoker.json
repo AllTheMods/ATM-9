@@ -1,8 +1,8 @@
 {
-    "type": "minecraft:evoker",
-    "subtypes": [],
+    "entity": "minecraft:evoker",
+    "variants": [],
     "name": "entity.minecraft.evoker",
-    "name_color": "0xBCA341",
+    "name_color": "#BCA341",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
@@ -27,7 +27,6 @@
             "count": 16
         },
         {
-            "optional": true,
             "item": "bhc:blue_heart",
             "count": 1
         }
