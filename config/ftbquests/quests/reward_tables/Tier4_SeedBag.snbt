@@ -2,7 +2,7 @@
 	icon: "mysticalagriculture:imperium_gemstone"
 	id: "61F8686E9D8EFEB7"
 	loot_size: 1
-	order_index: 18
+	order_index: 19
 	rewards: [
 		{ item: "mysticalagriculture:imperium_farmland", weight: 7.0f }
 		{ item: "mysticalagriculture:gold_seeds", weight: 2.0f }
@@ -14,14 +14,9 @@
 		{ item: "mysticalagriculture:enderman_seeds", weight: 2.0f }
 		{ item: "mysticalagriculture:steel_seeds", weight: 2.0f }
 		{ item: "mysticalagriculture:nickel_seeds", weight: 3.0f }
-		{ item: "mysticalagriculture:constantan_seeds" }
-		{ item: "mysticalagriculture:electrum_seeds" }
-		{ item: "mysticalagriculture:invar_seeds" }
 		{ item: "mysticalagriculture:uranium_seeds", weight: 2.0f }
 		{ item: "mysticalagriculture:ruby_seeds", weight: 3.0f }
 		{ item: "mysticalagriculture:sapphire_seeds", weight: 3.0f }
-		{ item: "mysticalagriculture:signalum_seeds" }
-		{ item: "mysticalagriculture:lumium_seeds" }
 		{ item: "mysticalagriculture:osmium_seeds", weight: 3.0f }
 		{ item: "mysticalagriculture:fluorite_seeds", weight: 3.0f }
 		{ item: "mysticalagriculture:refined_glowstone_seeds", weight: 2.0f }

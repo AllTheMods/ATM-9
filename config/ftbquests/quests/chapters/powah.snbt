@@ -3551,14 +3551,15 @@
 			id: "2C9EE7BE03767976"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3F7F46D78D1EC985"
-					type: "random"
-				}
-				{
 					id: "084A23000B1F4C8A"
 					type: "xp"
 					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EBFFE8FD0DE1E38"
+					table_id: 1432029627393651571L
+					type: "loot"
 				}
 			]
 			tasks: [{

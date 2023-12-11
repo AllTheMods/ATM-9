@@ -422,6 +422,7 @@
 				"4D3D96B6019CA7F9"
 				"4A3DF999B969C875"
 				"73EFADE932DFEF86"
+				"7790E599B42A5DE5"
 			]
 			id: "048F2942436D3C46"
 			rewards: [
@@ -1371,7 +1372,6 @@
 		{
 			dependencies: [
 				"4F1575600E7CD512"
-				"7790E599B42A5DE5"
 				"69E96EE9A9A2F423"
 			]
 			id: "32DC639415E45075"
@@ -2024,8 +2024,6 @@
 				"One of the best ways to generate resources is by using &aMob Farms&r. While you can grab spawners and change them using Spawn Eggs, the mod &aHostile Neural Networks&r offers a way to convert power into &aMob Drops&r using Simulations."
 				""
 				"This is one of the best ways to generate the &a98,415 Nether Stars&r you need to make the &6Star&r. :)"
-				""
-				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"0A52D0932DA3F809\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
 			id: "258B387107AEB2EB"
 			rewards: [{
@@ -3708,7 +3706,7 @@
 			description: [
 				"If you like playing with plants, but wished they could do a little more than create dyes, &dBotania&r has you covered. You'll need to advance through the mod to make the &6Star&r!"
 				""
-				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"1883B79BDB2AAE5D\"}, \"text\": \"Click here to check out the Ars Nouveau questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"1883B79BDB2AAE5D\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
