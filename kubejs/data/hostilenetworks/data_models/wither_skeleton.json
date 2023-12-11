@@ -1,7 +1,8 @@
 {
-    "type": "minecraft:wither_skeleton",
+    "entity": "minecraft:wither_skeleton",
+    "variants": [],
     "name": "entity.minecraft.wither_skeleton",
-    "name_color": "0x343434",
+    "name_color": "#343434",
     "gui_scale": 0.85,
     "gui_x_offset": 0,
     "gui_y_offset": 0,
@@ -16,7 +17,6 @@
     "trivia": "hostilenetworks.trivia.wither_skeleton",
     "fabricator_drops": [
         {
-            "optional": true,
             "item": "wstweaks:fragment",
             "count": 32
         },
@@ -33,12 +33,10 @@
             "count": 3
         },
         {
-            "optional": true,
             "item": "reliquary:withered_rib",
             "count": 2
         },
         {
-            "optional": true,
             "item": "bhc:wither_bone",
             "count": 2
         }

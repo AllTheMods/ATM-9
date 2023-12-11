@@ -1,12 +1,12 @@
 {
-    "type": "minecraft:zombie",
-    "subtypes": [
+    "entity": "minecraft:zombie",
+    "variants": [
         "minecraft:husk",
         "minecraft:zombie_villager",
         "twilightforest:rising_zombie"
     ],
     "name": "entity.minecraft.zombie",
-    "name_color": "0x3B622F",
+    "name_color": "#3B622F",
     "gui_scale": 1,
     "gui_x_offset": 0,
     "gui_y_offset": 0,
@@ -37,12 +37,10 @@
             "count": 16
         },
         {
-            "optional": true,
             "item": "reliquary:zombie_heart",
             "count": 2
         },
         {
-            "optional": true,
             "item": "bhc:red_heart",
             "count": 1
         }

@@ -1,7 +1,8 @@
 {
-    "type": "minecraft:wither",
+    "entity": "minecraft:wither",
+    "variants": [],
     "name": "entity.minecraft.wither",
-    "name_color": "0x343434",
+    "name_color": "#343434",
     "gui_scale": 0.5,
     "gui_x_offset": 0,
     "gui_y_offset": -0.33,
@@ -20,7 +21,6 @@
             "count": 1
         },
         {
-            "optional": true,
             "item": "bhc:yellow_heart",
             "count": 1
         }

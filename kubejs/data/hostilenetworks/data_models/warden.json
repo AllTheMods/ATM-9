@@ -1,8 +1,8 @@
 {
-    "type": "minecraft:warden",
-    "subtypes": [],
+    "entity": "minecraft:warden",
+    "variants": [],
     "name": "entity.minecraft.warden",
-    "name_color": "0x05343F",
+    "name_color": "#05343F",
     "gui_scale": 0.65,
     "gui_x_offset": 0.0,
     "gui_y_offset": -0.15,
@@ -19,17 +19,14 @@
     "trivia": "hostilenetworks.trivia.warden",
     "fabricator_drops": [
         {
-            "optional": true,
             "item": "deeperdarker:heart_of_the_deep",
             "count": 1
         },
         {
-            "optional": true,
             "item": "deeperdarker:warden_carapace",
             "count": 1
         },
         {
-            "optional": true,
             "item": "apotheosis:warden_tendril",
             "count": 1
         },
@@ -38,7 +35,6 @@
             "count": 2
         },
         {
-            "optional": true,
             "item": "bhc:blue_heart",
             "count": 1
         }
