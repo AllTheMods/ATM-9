@@ -89,6 +89,24 @@
 		{ item: "pipez:ultimate_upgrade" }
 		{ item: "apotheosis:mythic_material", random_bonus: 2, weight: 2.0f }
 		{ count: 4, item: "apotheosis:gem_dust", random_bonus: 4, weight: 5.0f }
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:basic_fluid_tank"
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								Amount: 32000
+								FluidName: "allthemodium:soul_lava"
+							}
+						}]
+						editMode: 0
+					}
+				}
+			}
+		}
 	]
 	title: "&9Rare Reward"
 	use_title: true

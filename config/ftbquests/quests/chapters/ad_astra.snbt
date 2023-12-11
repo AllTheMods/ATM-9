@@ -1039,18 +1039,19 @@
 					type: "item"
 				}
 				{
-					id: "59B916E97B7D4A1E"
+					id: "789B41F56AB4EF00"
 					item: {
 						Count: 1b
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "ad_astra_giselle_addon:space_breathing"
-								lvl: 1s
+								lvl: 1
 							}]
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			title: "Don't Want To Use A Space Suit?"
