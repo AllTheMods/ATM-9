@@ -1,0 +1,16 @@
+##[zoom]
+
+[The base zoom factor before zooming in or out.]
+D:base_zoom_factor = '0.45';
+[Caps the maximum FOV when zooming out, so you can't zoom out more than your normal FOV. Default = true]
+B:zoom_out_cap = 'true';
+[If the camera should move smoothly when zoomed.]
+B:smooth_camera_on_zoom = 'false';
+[How much to zoom out per scroll.]
+D:zoom_out_per_scroll = '0.05';
+[If the zoom factor should reset to the base zoom factor when stop zooming. Default = true]
+B:reset_zoom_factor = 'true';
+[How much to zoom in per scroll.]
+D:zoom_in_per_scroll = '0.05';
+[How fast the zoom should interpolate between the current FOV and the modified/zoomed FOV. Higher values mean faster interpolation. Default = 0.1 (10 frames), Min = 0.01 (100 frames), Max = 1 (1 frame)]
+D:lerp_amount = '1';
