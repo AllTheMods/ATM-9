@@ -127,8 +127,8 @@ ServerEvents.highPriorityData(event => {
     ]
 
     addMeteorWithCore('intricate_parts', 12, { "item": "bloodmagic:hellforgedparts" }, "bloodmagic:dungeon_ore", 1, 3, "bloodmagic:dungeon_stone", speedRuneMap, 5000000)
-    addMeteor('endGTOres', 6, { "item": "gtceu:naquadah_ingot" }, 3, "minecraft:endstone", endMap, 2500000)
-    addMeteor('netherGTOres', 8, { "item": "gtceu:titanium_ingot" }, 4, "minecraft:netherrack", netherMap, 1250000)
-    addMeteor('overworldGTOres', 8, { "item": "gtceu:arsenic_dust" }, 4, "minecraft:cobblestone", overworldMap, 625000)
+    addMeteor('endgtores', 6, { "item": "gtceu:naquadah_ingot" }, 3, "minecraft:endstone", endMap, 2500000)
+    addMeteor('nethergtores', 8, { "item": "gtceu:titanium_ingot" }, 4, "minecraft:netherrack", netherMap, 1250000)
+    addMeteor('overworldgtores', 8, { "item": "gtceu:arsenic_dust" }, 4, "minecraft:cobblestone", overworldMap, 625000)
     addMeteor('allthemodium', 12, { "item": "allthemodium:unobtainium_ingot" }, 3, "allthemodium:ancient_stone", atmMap, 2500000)
 })
