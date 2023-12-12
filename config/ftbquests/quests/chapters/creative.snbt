@@ -419,7 +419,12 @@
 			optional: true
 			rewards: [
 				{
-					id: "3D5020DCC6F98ECB"
+					id: "0F1BEDEC9A4A479D"
+					type: "xp_levels"
+					xp_levels: 50000
+				}
+				{
+					id: "58A1003D401A788F"
 					item: {
 						Count: 1b
 						id: "gtceu:neutronium_plunger"
@@ -450,16 +455,11 @@
 								]]
 							}
 							display: {
-								Name: "{\"text\":\"Neutronium Plunger of Pain\"}"
+								Name: "{\"text\":\"Jebraltar's Neutronium Plunger of Pain\"}"
 							}
 						}
 					}
 					type: "item"
-				}
-				{
-					id: "0F1BEDEC9A4A479D"
-					type: "xp_levels"
-					xp_levels: 50000
 				}
 			]
 			size: 3.0d

@@ -9,15 +9,17 @@
 	}
 	id: "537D8392179350C8"
 	loot_size: 1
-	order_index: 51
+	order_index: 52
 	rewards: [
 		{
 			item: {
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:core/ballast"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -26,8 +28,10 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:core/brawlers"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -36,8 +40,10 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:core/breach"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -46,8 +52,10 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:core/combatant"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -56,8 +64,10 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:core/guardian"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -66,8 +76,10 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:core/lightning"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -76,8 +88,22 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/lunar"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:core/samurai"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -86,8 +112,34 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/slipstream"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/solar"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:core/splendor"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -96,8 +148,10 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:core/tyrannical"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -106,8 +160,10 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:core/warlord"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -116,8 +172,22 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:intelligent"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:overworld/earth"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -126,8 +196,10 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:overworld/royalty"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -136,8 +208,10 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:the_end/endersurge"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -146,8 +220,10 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:the_end/mageslayer"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -156,8 +232,10 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:the_nether/blood_lord"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -166,8 +244,10 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:the_nether/inferno"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -176,8 +256,10 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:twilight/forest"
-					rarity: "ancient"
 				}
 			}
 		}
@@ -186,8 +268,10 @@
 				Count: 1b
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
 					gem: "apotheosis:twilight/queen"
-					rarity: "ancient"
 				}
 			}
 		}
