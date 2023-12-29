@@ -1,0 +1,31 @@
+
+[Materials]
+	#If TRUE, Thermal Series' Rose Gold material and recipes are enabled.
+	"Rose Gold" = true
+	#If TRUE, Thermal Series' Steel material and recipes are enabled.
+	Steel = true
+
+["Mod Compatibility"]
+	#If TRUE, mod integration support for Biomes O' Plenty is enabled, if the mod is loaded.
+	"Biomes O' Plenty" = true
+	#If TRUE, mod integration support for Create is enabled, if the mod is loaded.
+	Create = true
+	#If TRUE, mod integration support for Dyenamics is enabled, if the mod is loaded.
+	Dyenamics = true
+	#If TRUE, mod integration support for Farmer's Delight is enabled, if the mod is loaded.
+	"Farmer's Delight" = true
+	#If TRUE, mod integration support for Immersive Engineering is enabled, if the mod is loaded.
+	"Immersive Engineering" = true
+	#If TRUE, mod integration support for Quark is enabled, if the mod is loaded.
+	Quark = true
+	#If TRUE, mod integration support for Refined Storage is enabled, if the mod is loaded.
+	"Refined Storage" = true
+	#If TRUE, mod integration support for Tinker's Construct is enabled, if the mod is loaded.
+	"Tinker's Construct" = true
+	#If TRUE, mod integration support for Mekanism is enabled, if the mod is loaded.
+	Mekanism = true
+	#If TRUE, mod integration support for Mystical Agriculture is enabled, if the mod is loaded.
+	"Mystical Agriculture" = false
+	#If TRUE, mod integration support for Redstone Arsenal is enabled, if the mod is loaded.
+	"Redstone Arsenal" = true
+
