@@ -65,6 +65,9 @@
 	specialContents = true
 	#Add manual to player on start
 	addManual = false
+	#Leaden walnut tranformation rate
+	#Range: 0.0 ~ 1.0
+	leadenGenRate = 0.05
 
 [compat]
 
