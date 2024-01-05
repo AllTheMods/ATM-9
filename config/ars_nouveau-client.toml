@@ -18,27 +18,31 @@
 	#Example entry: minecraft:stick=15
 	item_lights = ["minecraft:redstone_torch=10", "minecraft:soul_lantern=12", "minecraft:glow_ink_sac=10", "minecraft:verdant_froglight=15", "minecraft:blaze_rod=10", "minecraft:shroomlight=10", "minecraft:lantern=14", "minecraft:soul_torch=10", "minecraft:glow_berries=8", "minecraft:glowstone_dust=8", "minecraft:pearlescent_froglight=15", "minecraft:nether_star=14", "minecraft:glowstone=15", "minecraft:torch=14", "minecraft:ochre_froglight=15", "minecraft:lava_bucket=15"]
 
-	#Overlay
-	[lights.overlays]
-		#X offset for the tooltip
-		#Range: > -2147483648
-		xTooltip = 20
-		#Y offset for the tooltip
-		#Range: > -2147483648
-		yTooltip = 0
-		#X offset for the Mana Bar
-		#Range: > -2147483648
-		xManaBar = 0
-		#Y offset for the Mana Bar
-		#Range: > -2147483648
-		yManaBar = 0
-		#If the Storage Lectern should show the recipe book icon
-		showRecipeBook = true
+#Overlay
+[overlays]
+	#X offset for the tooltip
+	#Range: > -2147483648
+	xTooltip = 20
+	#Y offset for the tooltip
+	#Range: > -2147483648
+	yTooltip = 0
+	#X offset for the Mana Bar
+	#Range: > -2147483648
+	xManaBar = 0
+	#Y offset for the Mana Bar
+	#Range: > -2147483648
+	yManaBar = 0
+	#If the Storage Lectern should show the recipe book icon
+	showRecipeBook = true
+	#Inform the player of Dynamic lights once.
+	informLights = false
 
-		#Misc
-		[lights.overlays.misc]
-			#Use simplified renderer for Warp Portals
-			no_end_portal_render = false
-			#Disables the skyweave renderer. Disable if your sky is broken with shaders.
-			disable_skyweave = false
+#Misc
+[misc]
+	#Use simplified renderer for Warp Portals
+	no_end_portal_render = false
+	#Disables the skyweave renderer. Disable if your sky is broken with shaders.
+	disable_skyweave = false
+	#Enables transparent/opaque rendering of elements in the book GUI. Disable if it leads to crash with Sodium derivatives
+	gui_transparency = true
 
