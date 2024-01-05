@@ -71,7 +71,9 @@
   },
   "PowerRatios": {
     "ForgeEnergy": 0.5,
-    "UsageMultiplier": 1.0
+    "UsageMultiplier": 1.0,
+    "GridEnergyStoragePerNode_comment": "How much energy can the internal grid buffer storage per node attached to the grid.",
+    "GridEnergyStoragePerNode": 25.0
   },
   "Condenser": {
     "MatterBalls": 256,
