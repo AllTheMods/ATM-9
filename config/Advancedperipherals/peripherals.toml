@@ -5,13 +5,15 @@
 	[Peripherals.Player_Detector]
 		#Enable the Player Detector or not.
 		enablePlayerDetector = true
-		#The max range of the player detector functions. If anyone use a higher range, the detector will use this max range
-		#Range: 0 ~ 100000000
+		#The max range of the player detector functions. If anyone use a higher range, the detector will use this max range. -1 for unlimited
+		#Range: > -1
 		playerDetMaxRange = 100000000
 		#Activates the "getPlayerPos" function of the Player Detector
 		enablePlayerPosFunction = true
 		#Adds more information to `getPlayerPos` of the Player Detector. Like rotation and dimension
 		morePlayerInformation = true
+		#If true, the player detector can observe players which aren't in the same dimension as the detector itself. `playerDetMaxRange` needs to be infinite(-1) for it to work.
+		chatBoxMultiDimensional = true
 
 	[Peripherals.Energy_Detector]
 		#Enable the Energy Detector or not.
@@ -33,12 +35,20 @@
 		#Time in seconds, while loaded chunk can be consider as valid without touch
 		#Range: > 60
 		chunkLoadValidTime = 600
+		#Radius in chunks a single chunky turtle will load. The default value (0) only loads the chunk the turtle is in, 1 would also load the 8 surrounding chunks (9 in total) and so on
+		#Range: 0 ~ 16
+		chunkyTurtleRadius = 0
 
 	[Peripherals.Chat_Box]
 		#Enable the Chat Box or not.
 		enableChatBox = true
 		#Defines default chatbox prefix
 		defaultChatBoxPrefix = "AP"
+		#Defines the maximal range of the chat box in blocks. -1 for infinite. If the range is not -1, players in other dimensions won't able to receive messages
+		#Range: -1 ~ 30000000
+		chatBoxMaxRange = -1
+		#If true, the chat box is able to send messages to other dimensions than its own
+		chatBoxMultiDimensional = true
 
 	[Peripherals.ME_Bridge]
 		#Enable the Me Bridge or not.
@@ -120,20 +130,24 @@
 		warpCost = 1
 		#Range: > 1000
 		scanBlocksCooldown = 2000
-		#Range: 1 ~ 64
+		#Range: > 1
 		scanBlocksMaxFreeRadius = 8
-		#Range: 1 ~ 64
+		#Range: > 1
 		scanBlocksMaxCostRadius = 16
 		#Range: 0.1 ~ 1.7976931348623157E308
 		scanBlocksExtraBlockCost = 0.17
 		#Range: > 1000
 		scanEntitiesCooldown = 2000
-		#Range: 1 ~ 64
+		#Range: > 1
 		scanEntitiesMaxFreeRadius = 8
-		#Range: 1 ~ 64
+		#Range: > 1
 		scanEntitiesMaxCostRadius = 16
 		#Range: 0.1 ~ 1.7976931348623157E308
 		scanEntitiesExtraBlockCost = 0.17
 		#Range: > 1000
-		chatMessageCooldown = 100
+		chatMessageCooldown = 1000
+
+	[Peripherals.Pocket_Peripherals]
+		#If true, pockets will have infinite fuel
+		disablePocketFuelConsumption = true
 
