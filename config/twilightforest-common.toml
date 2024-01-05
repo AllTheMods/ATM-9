@@ -24,8 +24,14 @@ uuid_locking = false
 skull_candles = false
 #If false, items that come enchanted when you craft them (such as ironwood or steeleaf gear) will not show this way in the creative inventory.
 #Please note that this doesnt affect the crafting recipes themselves, you will need a datapack to change those.
-#
 default_item_enchantments = true
+#If true, Twilight Forest's bosses will put their drops inside of a chest where they originally spawned instead of dropping the loot directly.
+#Note that the Knight Phantoms are not affected by this as their drops work differently.
+boss_drop_chests = true
+#Dictates how many blocks down from a cloud block should the game logic check for handling weather related code.
+#Lower if experiencing low tick rate. Set to 0 to turn all cloud precipitation logic off.
+#Range: > 0
+cloudBlockPrecipitationDistance = 32
 
 #Settings that are not reversible without consequences.
 ["Dimension Settings"]
@@ -62,8 +68,14 @@ default_item_enchantments = true
 	#If true, the uncrafting table will also be allowed to uncraft shapeless recipes.
 	#The table was originally intended to only take shaped recipes, but this option remains for people who wish to keep the functionality.
 	enableShapelessCrafting = false
-	#Disable the uncrafting function of the uncrafting table. Recommended as a last resort if there's too many things to change about its behavior.
+	#Disables the uncrafting function of the uncrafting table. Recommended as a last resort if there's too many things to change about its behavior (or you're just lazy, I dont judge).
+	#Do note that special uncrafting recipes are not disabled as the mod relies on them for other things.
 	disableUncrafting = true
+	#Disables any usage of the uncrafting table, as well as prevents it from showing up in loot or crafted.
+	#Please note that table has more uses than just uncrafting, you can read about them here! http://benimatic.com/tfwiki/index.php?title=Uncrafting_Table
+	#It is highly recommended to keep the table enabled as the mod has special uncrafting exclusive recipes, but the option remains for people that dont want the table to be functional at all.
+	#If you are looking to just prevent normal crafting recipes from being reversed, consider using the 'disableUncrafting' option instead.
+	disableUncraftingTable = false
 
 #Settings for all things related to the magic trees.
 ["Magic Trees"]
