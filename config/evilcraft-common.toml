@@ -83,7 +83,7 @@
 
 	[machine.purifier]
 		#The duration limit in ticks for which potion effect can be collected. Set to a negative value to allow any duration.
-		maxPotionEffectDuration = 36000
+		maxPotionEffectDuration = 1
 		#Item that can not be disenchanted. Regular expressions are allowed.
 		disenchantBlacklist = ["tetra:.*"]
 
