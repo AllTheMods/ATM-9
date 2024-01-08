@@ -5,8 +5,6 @@
 	dimensionBlacklist = []
 	#Spawn a book in the players inventory on login
 	spawnBook = false
-	#Inform the player of Dynamic lights once.
-	informLights = true
 	#How much mana whirlisprigs consume per generation
 	#Range: 0 ~ 10000
 	sylphManaCost = 250
@@ -49,6 +47,9 @@
 [item]
 	#Spawn Caster Tomes in Dungeon Loot?
 	spawnTomes = true
+	#How much mana the Ring of Jumping consumes per jump
+	#Range: 0 ~ 10000
+	jumpRingCost = 30
 
 #Blocks
 [block]
