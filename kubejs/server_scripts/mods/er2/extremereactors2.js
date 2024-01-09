@@ -20,4 +20,17 @@ ServerEvents.recipes(event => {
         R: 'minecraft:redstone',
         P: 'minecraft:piston'
     }).id('bigreactors:fluidizersolidinjector')
+
+    event.remove('bigreactors:reactor/basic/casing')
+    event.shaped('4x bigreactors:basic_reactorcasing', ['IGI', 'GSG', 'IGI'], {
+        I: '#forge:ingots/iron',
+        G: '#forge:ingots/graphite',
+        S: '#forge:sand'
+    })
+    event.remove('bigreactors:reactor/reinforced/casing')
+    event.shaped('4x bigreactors:reinforced_reactorcasing', ['SGS', 'GIG', 'SGS'], {
+        S: '#forge:ingots/steel',
+        G: '#forge:ingots/graphite',
+        I: 'minecraft:iron_block'
+    })
 })
