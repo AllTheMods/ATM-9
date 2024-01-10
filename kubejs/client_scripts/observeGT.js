@@ -9,9 +9,9 @@ const mapGTMachineIdToTaskId = {
 	"gtceu:iv_processing_array": "188A83D9504A8470"
 }
 
-const $MetaMachine = Java.loadClass('com.gregtechceu.gtceu.api.blockentity.MetaMachineBlockEntity')
-const $MultiController = Java.loadClass('com.gregtechceu.gtceu.api.machine.feature.multiblock.IMultiController')
-const $CompoundTag = Java.loadClass('net.minecraft.nbt.CompoundTag')
+const $MetaMachine = Java.tryLoadClass('com.gregtechceu.gtceu.api.blockentity.MetaMachineBlockEntity')
+const $MultiController = Java.tryLoadClass('com.gregtechceu.gtceu.api.machine.feature.multiblock.IMultiController')
+const $CompoundTag = Java.tryLoadClass('net.minecraft.nbt.CompoundTag')
 
 ClientEvents.tick(event => {
     if (Client.hitResult != null && Client.hitResult.getType() == 'BLOCK') {
