@@ -1,0 +1,12 @@
+
+#General settings
+[general]
+	#Sets the range in blocks in which the structure compasses can locate structures [default: 10000]
+	#Range: > 0
+	compassRange = 10000
+	#Defines if the structure compass should locate unexplored structures [default: false]
+	locateUnexplored = false
+	#Defines which structures can't be searched with the Structure Compass
+	#(Supports wildcard *, Example: 'minecraft:*' will blacklist anything in the minecraft domain)
+	structureBlacklist = ["minecraft:monument"]
+
