@@ -1,5 +1,12 @@
 ServerEvents.tags("item", (event) => {
   global.chests = event.get("forge:chests/wooden").getObjectIds();
+
+  // Fix the Twigs mod cobblestone slabs not having relevant item tags.
+  event.add("minecraft:slabs", "twigs:cobblestone_brick_slab");
+  event.add("minecolonies:stonemason_product", "twigs:cobblestone_brick_slab");
+  event.add("minecolonies:stonesmeltry_ingredient", "twigs:cobblestone_brick_slab");
+  event.add("minecolonies:stonemason_ingredient", "twigs:cobblestone_brick_slab",);
+  event.add("minecolonies:blacksmith_product_excluded", "twigs:cobblestone_brick_slab");
 });
 ServerEvents.recipes((event) => {
   // 2x logs and 5x Iron Ingots -> 1x hopper through shaped crafting
