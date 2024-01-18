@@ -1,0 +1,39 @@
+{
+	"name": "common_stargates:milky_way_stargate_pedestal_desert",
+	
+	"fallback": "minecraft:empty",
+	
+	"elements":
+	[
+		{
+			"weight": 1,
+			"element":
+			{
+				"location": "common_stargates:common_stargate/milky_way/pedestal/milky_way_stargate_pedestal_desert_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		},
+		{
+			"weight": 1,
+			"element":
+			{
+				"location": "common_stargates:common_stargate/milky_way/pedestal/milky_way_stargate_pedestal_desert_2",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		},
+		{
+			"weight": 1,
+			"element":
+			{
+				"location": "common_stargates:common_stargate/milky_way/pedestal/milky_way_stargate_pedestal_desert_3",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		}
+	]
+}
