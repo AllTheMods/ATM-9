@@ -1,0 +1,114 @@
+
+#Storage Settings
+[storage]
+	#The amount of slots the storage stabilizer tier 1 provides.
+	stabilizerTier1Slots = 256
+	#The amount of slots the storage stabilizer tier 2 provides.
+	stabilizerTier2Slots = 512
+	#The amount of slots the storage stabilizer tier 3 provides.
+	stabilizerTier3Slots = 1024
+	#The amount of slots the storage stabilizer tier 4 provides.
+	stabilizerTier4Slots = 2048
+	#The amount of slots the storage actuator provides.
+	controllerBaseSlots = 128
+	#The stack size the storage actuator uses.
+	controllerStackSize = 1024
+	#True to use the configured controllerStackSize for all items, instead of the stack sizes provided by item type (such as 16 for ender pearls, 64 for iron ingot). WARNING: Setting this to false may have a negative impact on performance.
+	overrideItemStackSizes = true
+	#True to use the configured controllerStackSize for all items, instead of the stack sizes provided by item type (such as 16 for ender pearls, 64 for iron ingot). WARNING: Setting this to false may have a negative impact on performance.
+	unlinkWormholeOnBreak = false
+
+#Spirit Job Settings
+[spirit_job]
+	#The duration for the slow falling effect applied by a drikwing.
+	drikwingFamiliarSlowFallingSeconds = 15
+	#The multiplier to each crushing recipe's crushing_time for Tier 1 (Foliot) Crusher Spirits.
+	tier1CrusherTimeMultiplier = 2.0
+	#The multiplier to each crushing recipe's crushing_time for Tier 2 (Djinni) Crusher Spirits.
+	tier2CrusherTimeMultiplier = 1.0
+	#Currently unused. The multiplier to each crushing recipe's crushing_time for Tier 3 (Afrit) Crusher Spirits.
+	tier3CrusherTimeMultiplier = 0.5
+	#Currently unused. The multiplier to each crushing recipe's crushing_time for Tier 4 (Marid) Crusher Spirits.
+	tier4CrusherTimeMultiplier = 0.2
+	#The multiplier to each crushing recipe's output count for Tier 1 (Foliot) Crusher Spirits.
+	tier1CrusherOutputMultiplier = 1.0
+	#The multiplier to each crushing recipe's output count for Tier 2 (Djinni) Crusher Spirits.
+	tier2CrusherOutputMultiplier = 1.5
+	#The multiplier to each crushing recipe's output count for Tier 3 (Afrit) Crusher Spirits.
+	tier3CrusherOutputMultiplier = 2.0
+	#The multiplier to each crushing recipe's output count for Tier 4 (Marid) Crusher Spirits.
+	tier4CrusherOutputMultiplier = 3.0
+	#The minimum ticks before a crusher can pick up an item it dropped. Default is 3 Seconds = 3 * 20 Ticks.
+	crusherResultPickupDelay = 60
+	#The chance for a blacksmith familiar to repair an item (by 2 durability) whenever stone is picked up. 1.0 = 100%, 0.0 = 0%.
+	blacksmithFamiliarRepairChance = 0.05
+	#The amount of iron required for a blacksmith familiar to upgrade another familiar.
+	blacksmithFamiliarUpgradeCost = 18
+	#The cooldown for a blacksmith familiar to upgrade another familiar.
+	blacksmithFamiliarUpgradeCooldown = 400
+
+#Ritual Settings
+[rituals]
+	#Enables the ritual to clear rainy weather.
+	enableClearWeatherRitual = true
+	#Enables the ritual to start rainy weather.
+	enableRainWeatherRitual = true
+	#Enables the ritual to start a thunderstorm.
+	enableThunderWeatherRitual = true
+	#Enables the ritual to set time to day.
+	enableDayTimeRitual = true
+	#Enables the ritual to set time to night.
+	enableNightTimeRitual = true
+	#If enabled, rituals are interrupted if *more* ingredients are present than needed. This should usually be disabled, but can improve performance if (very very) many rituals are running.
+	enableRemainingIngredientCountMatching = false
+	#Set a value below 1.0 to speed up rituals.
+	#Range: 0.05 ~ 1.7976931348623157E308
+	ritualDurationMultiplier = 0.25
+	#By default spirit names are generated randomly. This list can be used as an additional source of spirit names, or even a full replacement, depending on the configuration of "usePossibleSpiritNamesChance".
+	possibleSpiritNames = []
+	#0.0 (default) to only use random names.
+	#1.0 to only use the names in "possibleSpiritNames"
+	#0.1-0.9 to use a mix of both, the higher the value the higher the chance of using a name from this list instead of a random name.
+	#Will be ignored if "possibleSpiritNames" is empty.
+	#Range: 0.0 ~ 1.0
+	usePossibleSpiritNamesChance = 0.0
+
+#Dimensional Mineshaft Settings
+[dimensional_mineshaft]
+
+	#Miner Spirit Settings
+	[dimensional_mineshaft.miner_foliot_unspecialized]
+		#The amount of time it takes the spirit to perform one mining operation.
+		maxMiningTime = 400
+		#The amount of blocks the spirit will obtain per mining operation
+		rollsPerOperation = 1
+		#The amount of mining operations the spirit can perform before breaking.
+		durability = 1000
+
+	#Miner Spirit Settings
+	[dimensional_mineshaft.miner_djinni_ores]
+		#The amount of time it takes the spirit to perform one mining operation.
+		maxMiningTime = 300
+		#The amount of blocks the spirit will obtain per mining operation
+		rollsPerOperation = 1
+		#The amount of mining operations the spirit can perform before breaking.
+		durability = 400
+
+	#Miner Spirit Settings
+	[dimensional_mineshaft.miner_afrit_deeps]
+		#The amount of time it takes the spirit to perform one mining operation.
+		maxMiningTime = 200
+		#The amount of blocks the spirit will obtain per mining operation
+		rollsPerOperation = 1
+		#The amount of mining operations the spirit can perform before breaking.
+		durability = 800
+
+	#Miner Spirit Settings
+	[dimensional_mineshaft.miner_marid_master]
+		#The amount of time it takes the spirit to perform one mining operation.
+		maxMiningTime = 100
+		#The amount of blocks the spirit will obtain per mining operation
+		rollsPerOperation = 1
+		#The amount of mining operations the spirit can perform before breaking.
+		durability = 1600
+
