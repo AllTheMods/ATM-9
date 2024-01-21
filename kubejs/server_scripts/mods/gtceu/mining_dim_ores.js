@@ -56,15 +56,15 @@ GTCEuServerEvents.oreVeins(event => {
                 veinGen.maxYLevel = endY;
             }
 
-            newVein.clusterSize(vein.clusterSize)
-                .weight(vein.weight)
-                .density(vein.density)
-                .layer(vein.layer)
-                .heightRangeUniform(startY, endY)
-                .discardChanceOnAirExposure(vein.discardChanceOnAirExposure)
-                .dimensions('allthemodium:mining')
-                .biomes('#allthemodium:mining_features/mining_biomes')
-            newVein.veinGenerator = veinGen
+            newVein.clusterSize(vein.clusterSize())
+            newVein.weight(vein.weight())
+            newVein.density(vein.density())
+            newVein.layer(vein.layer())
+            newVein.heightRangeUniform(startY, endY)
+            newVein.discardChanceOnAirExposure(vein.discardChanceOnAirExposure())
+            newVein.dimensions('allthemodium:mining')
+            newVein.biomes('#allthemodium:mining_features/mining_biomes')
+            newVein['veinGenerator(com.gregtechceu.gtceu.api.data.worldgen.generator.VeinGenerator)'](veinGen)
         })
     })
 
