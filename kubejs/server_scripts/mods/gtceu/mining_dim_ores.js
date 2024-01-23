@@ -2,27 +2,10 @@ const $VeinedVeinGenerator = Java.loadClass('com.gregtechceu.gtceu.api.data.worl
 const $DikeVeinGenerator = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.generator.veins.DikeVeinGenerator');
 
 GTCEuServerEvents.oreVeins(event => {
-    event.add("fluorite_vein", builder => {
-        builder.clusterSize(35)
-            .weight(30)
-            .density(0.75)
-            .discardChanceOnAirExposure(0.0)
-            .layer('deepslate')
-            .dimensions('allthemodium:mining')
-            .biomes('#allthemodium:mining_features/mining_biomes')
-            .heightRangeUniform(-50, 10)
-            .dikeVeinGenerator(generator => 
-                generator.withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("fluorite"), 3, -64, 320))
-                        .withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("sulfur"), 1, -64, 320))
-                        .withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("gypsum"), 2, -64, 320))
-                        .withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("dolomite"), 1, -64, 320))
-            )
-        })
-
     event.modifyAll((veinId, vein) => {
         let startY;
         let endY;
-        switch(vein.layer) {
+        switch(vein.layer()) {
             case GTWorldGenLayers.ENDSTONE:
                 startY = -63;
                 endY = 0;
@@ -44,7 +27,8 @@ GTCEuServerEvents.oreVeins(event => {
                 endY = 320;
                 break;
         }
-        event.add(veinId.toString() + '_mining', newVein => {
+
+        event.add(veinId + '_mining', newVein => {
             let veinGen = vein.veinGenerator();
             if (veinGen instanceof $VeinedVeinGenerator) {
                 veinGen = veinGen.copy()
@@ -68,4 +52,20 @@ GTCEuServerEvents.oreVeins(event => {
         })
     })
 
+    event.add("fluorite_vein", builder => {
+        builder.clusterSize(35)
+            .weight(30)
+            .density(0.75)
+            .discardChanceOnAirExposure(0.0)
+            .layer('deepslate')
+            .dimensions('allthemodium:mining')
+            .biomes('#allthemodium:mining_features/mining_biomes')
+            .heightRangeUniform(-50, 10)
+            .dikeVeinGenerator(generator => 
+                generator.withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("fluorite"), 3, -64, 320))
+                        .withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("sulfur"), 1, -64, 320))
+                        .withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("gypsum"), 2, -64, 320))
+                        .withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("dolomite"), 1, -64, 320))
+            )
+        })
 })
