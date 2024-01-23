@@ -9,10 +9,10 @@ ServerEvents.recipes(event => {
   event.shaped('additional_lights:fire_for_standing_torch_s', ['S', 'C'], { S: '#forge:rods/wooden', C: '#minecraft:coals' })
 
   // GT Flawed Gems
-  event.remove({ id: 'gtceu:shapeless/gem_to_gem_flawed_gem_coal' })
-  event.shaped('2x gtceu:flawed_coal_gem', ['CC'], { C: 'minecraft:coal' })
-  event.remove({ id: 'gtceu:shapeless/gem_to_gem_flawed_gem_lapis' })
-  event.shaped('2x gtceu:flawed_lapis_gem', ['LL'], { L: 'minecraft:lapis_lazuli' })
+  event.remove({ id: 'gtceu:shapeless/gem_to_gem_flawedgem_coal' })
+  event.shaped('2x gtceu:coal_flawed_gem', ['CC'], { C: 'minecraft:coal' })
+  event.remove({ id: 'gtceu:shapeless/gem_to_gem_flawedgem_lapis' })
+  event.shaped('2x gtceu:lapis_flawed_gem', ['LL'], { L: 'minecraft:lapis_lazuli' })
 
   // GT Duplicate Removals
   event.remove({ id: 'gtceu:shaped/block_compress_nether_star' })
