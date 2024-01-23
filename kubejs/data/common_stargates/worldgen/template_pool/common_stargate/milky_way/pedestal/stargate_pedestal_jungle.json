@@ -1,0 +1,19 @@
+{
+	"name": "common_stargates:milky_way_stargate_pedestal_jungle",
+	
+	"fallback": "minecraft:empty",
+	
+	"elements":
+	[
+		{
+			"weight": 1,
+			"element":
+			{
+				"location": "common_stargates:common_stargate/milky_way/pedestal/milky_way_stargate_pedestal_jungle_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		}
+	]
+}

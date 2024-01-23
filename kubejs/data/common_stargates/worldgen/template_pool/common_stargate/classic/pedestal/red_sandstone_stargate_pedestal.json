@@ -1,0 +1,19 @@
+{
+	"name": "common_stargates:classic_red_sandstone_stargate_pedestal",
+	
+	"fallback": "minecraft:empty",
+	
+	"elements":
+	[
+		{
+			"weight": 1,
+			"element":
+			{
+				"location": "common_stargates:common_stargate/classic/pedestal/classic_stargate_smooth_red_sandstone_pedestal_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "overworld_cartouches:sandstone_cartouche_monument",
+	
+	"fallback": "minecraft:empty",
+	
+	"elements":
+	[
+		{
+			"weight": 1,
+			"element":
+			{
+				"location": "overworld_cartouches:cartouche/sandstone_cartouche_monument",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		}
+	]
+}

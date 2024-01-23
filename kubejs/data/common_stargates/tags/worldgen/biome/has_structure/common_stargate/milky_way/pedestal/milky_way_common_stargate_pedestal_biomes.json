@@ -1,0 +1,27 @@
+{
+	"replace": false,
+	
+	"_comment": " This biome tag can specify the biome directly. Or specify another biome tag by starting with # ",
+	"values":
+	[
+		"#minecraft:is_beach",
+		"#minecraft:is_deep_ocean",
+    		"#minecraft:is_forest",
+    		"#minecraft:is_hill",
+    		"#minecraft:is_mountain",
+    		"#minecraft:is_ocean",
+    		"#minecraft:is_river",
+    		"#minecraft:is_savanna",
+		
+		"minecraft:taiga",
+		"minecraft:old_growth_pine_taiga",
+		"minecraft:old_growth_spruce_taiga",
+    		"minecraft:stony_shore",
+    		"minecraft:swamp",
+    		"minecraft:mangrove_swamp",
+    		"minecraft:plains",
+    		"minecraft:sunflower_plains",
+    		"minecraft:dripstone_caves",
+    		"minecraft:lush_caves"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+	"type": "sgjourney:common_stargate",
+	
+	"start_pool": "common_stargates:common_stargate/milky_way/pedestal/stargate_pedestal_jungle",
+	
+	"size": 1,
+	
+	"max_distance_from_center": 80,
+	
+	"biomes": "#common_stargates:has_structure/common_stargate/milky_way/pedestal/milky_way_common_stargate_pedestal_jungle_biomes",
+	
+	"step": "strongholds",
+	
+	"start_height":
+	{
+		"absolute": 0
+	},
+
+	"project_start_to_heightmap": "OCEAN_FLOOR_WG",
+	
+	"use_expansion_hack": false,
+	
+	"spawn_overrides":
+	{
+		"monster":
+		{
+			"bounding_box": "piece",
+			"spawns":
+			[]
+		}
+	},
+	"terrain_adaptation": "beard_thin"
+}
