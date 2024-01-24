@@ -75,7 +75,7 @@ cloudBlockPrecipitationDistance = 32
 	#Please note that table has more uses than just uncrafting, you can read about them here! http://benimatic.com/tfwiki/index.php?title=Uncrafting_Table
 	#It is highly recommended to keep the table enabled as the mod has special uncrafting exclusive recipes, but the option remains for people that dont want the table to be functional at all.
 	#If you are looking to just prevent normal crafting recipes from being reversed, consider using the 'disableUncrafting' option instead.
-	disableUncraftingTable = false
+	disableUncraftingTable = True
 
 #Settings for all things related to the magic trees.
 ["Magic Trees"]
