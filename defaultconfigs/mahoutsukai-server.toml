@@ -174,6 +174,8 @@
 		#This is how often a Scrying tile entity will send updates
 		#Range: 0 ~ 100000000
 		SCRYING_BLOCK_CYCLE = 4
+		#This is whether the scrying circle can scry non players
+		SCRY_NON_PLAYERS = true
 
 [projection]
 
@@ -361,7 +363,7 @@
 		POWER_CONSOLIDATION_SWEEP_RADIUS = 6
 		#The highest attack Caliburn can go to
 		#Range: 0 ~ 100000000
-		POWER_CONSOLIDATION_ATTACK_CAP = 5000000
+		POWER_CONSOLIDATION_ATTACK_CAP = 5000
 		#Entities must be this close to the wielder of Caliburn's look vector to be affected by the sweep.
 		#Range: 0 ~ 100000000
 		POWER_CONSOLIDATION_SWEEP_LOOK_RADIUS = 3
@@ -376,7 +378,7 @@
 		#Power Consolidation Enchant Blacklist
 		POWER_CONSOLIDATION_ENCHANT_BLACKLIST = ["minecraft:mending"]
 		#Power Consolidation Damage Cap Tiers
-		POWER_CONSOLIDATION_TIERS = [100.0, 150.0, 200.0, 250.0, 300.0, 350.0, 400.0, 500.0, 600.0, 700.0, 800.0, 950.0, 1100.0, 1251.0, 1452.0, 1653.0, 1904.0, 2155.0, 2457.0, 2809.0, 3211.0, 3664.0, 4167.0, 4721.0, 5325.0, 6030.0, 6836.0, 7742.0, 8749.0, 9857.0, 11116.0, 12528.0, 14141.0, 15956.0, 17972.0, 20240.0, 22812.0, 25736.0, 29013.0, 32694.0, 36829.0, 41518.0, 46763.0, 52663.0, 59320.0, 66834.0, 75306.0, 84838.0, 95580.0, 107634.0, 121251.0, 136584.0, 153833.0, 173251.0, 195141.0, 219755.0, 247495.0, 278716.0, 313871.0, 353465.0, 398053.0, 448290.0, 504832.0, 568536.0, 640260.0, 721014.0, 811957.0, 914349.0, 1029654.0, 1159535.0, 1305759.0, 1470444.0, 1655911.0, 1864731.0, 2099881.0, 2364689.0, 2662889.0, 2998717.0, 3376864.0, 3802727.0, 4282259.0, 4822269.0, 5000000.0]
+		POWER_CONSOLIDATION_TIERS = [100.0, 150.0, 200.0, 250.0, 300.0, 350.0, 400.0, 450.0, 500.0, 550.0, 600.0, 650.0, 700.0, 750.0, 800.0, 850.0, 900.0, 950.0, 1000.0, 1500.0, 2000.0, 2500.0, 3000.0, 3500.0, 4000.0, 4500.0, 5000.0]
 		#Power Consolidation Tier Upgrade Items
 		POWER_CONSOLIDATION_TIER_UPGRADE_ITEM = ["irons_spellbooks:ender_upgrade_orb"]
 		#Words which are considered unholy by Caliburn and Rhongomyniad
@@ -457,8 +459,6 @@
 	[projection."morgan and caliburn"]
 		#List of allowed pets that can be killed with Caliburn to create Morgan
 		MORGAN_TRANSFORM_ENTITY_WHITELIST = ["minecraft:warden"]
-		#All pet wolves are allowed for transformation to Morgan
-		MORGAN_TRANSFORM_WOLFS_ALLOWED = true
 		#How much damage Morgan gains from killing children
 		#Range: 0.0 ~ 1.0E8
 		MORGAN_CHILD_INCREASE = 1.0
@@ -694,6 +694,9 @@
 		#Delay between firing on AOE Mode of Explosion Staff
 		#Range: 0 ~ 10000000
 		MYSTIC_STAFF_AOE_DELAY = 3
+		#Mystic Staff AOE Scaling Mana Factor
+		#Range: 0.0 ~ 1.0E7
+		MYSTIC_STAFF_AOE_SCALING_MANA = 0.0
 
 	[mystic.beam]
 		#Mystic Staff Beam Mana Per Tick
@@ -712,6 +715,9 @@
 		MYSTIC_STAFF_BEAM_MAX_BLOCK_BREAK_PER_TICK = 90
 		#Mystic Staff Beam Block Whitelist
 		MYSTIC_STAFF_BEAM_BLOCK_WHITELIST = []
+		#Mystic Staff Beam Scaling Mana Factor
+		#Range: 0.0 ~ 1.0E7
+		MYSTIC_STAFF_BEAM_SCALING_MANA = 0.0
 
 	[mystic."rho aias"]
 		#This is the cost of using the scroll

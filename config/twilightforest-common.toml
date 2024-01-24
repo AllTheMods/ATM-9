@@ -76,7 +76,6 @@ cloudBlockPrecipitationDistance = 32
 	#It is highly recommended to keep the table enabled as the mod has special uncrafting exclusive recipes, but the option remains for people that dont want the table to be functional at all.
 	#If you are looking to just prevent normal crafting recipes from being reversed, consider using the 'disableUncrafting' option instead.
 	disableUncraftingTable = true
-
 #Settings for all things related to the magic trees.
 ["Magic Trees"]
 	#If true, prevents the Timewood Core from functioning.
