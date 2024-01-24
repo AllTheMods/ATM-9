@@ -70,12 +70,12 @@ cloudBlockPrecipitationDistance = 32
 	enableShapelessCrafting = false
 	#Disables the uncrafting function of the uncrafting table. Recommended as a last resort if there's too many things to change about its behavior (or you're just lazy, I dont judge).
 	#Do note that special uncrafting recipes are not disabled as the mod relies on them for other things.
-	disableUncrafting = true
+	disableUncrafting = false
 	#Disables any usage of the uncrafting table, as well as prevents it from showing up in loot or crafted.
 	#Please note that table has more uses than just uncrafting, you can read about them here! http://benimatic.com/tfwiki/index.php?title=Uncrafting_Table
 	#It is highly recommended to keep the table enabled as the mod has special uncrafting exclusive recipes, but the option remains for people that dont want the table to be functional at all.
 	#If you are looking to just prevent normal crafting recipes from being reversed, consider using the 'disableUncrafting' option instead.
-	disableUncraftingTable = false
+	disableUncraftingTable = true
 
 #Settings for all things related to the magic trees.
 ["Magic Trees"]
