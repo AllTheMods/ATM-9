@@ -1,0 +1,27 @@
+
+[IFSoulsMachines]
+
+	[IFSoulsMachines.ConfigSoulSurge]
+		#How long in ticks a soul last to accelerate ticks
+		#Range: > 1
+		SOUL_TIME = 300
+		#How many extra ticks the surge will accelerate
+		#Range: > 1
+		ACCELERATION_TICK = 2
+
+	[IFSoulsMachines.ConfigSoulLaserBase]
+		#Max soul storage tank amount
+		#Range: > 1
+		SOUL_STORAGE_AMOUNT = 1350
+		#Max progress of the machine
+		#Range: > 1
+		MAX_PROGRESS = 20
+		#Kill the warden when it's life reaches near to 0 or keep it alive
+		KILL_WARDEN = true
+		#Damage done to the warden when an operation is done
+		#Range: > 0
+		DAMAGE_PER_OPERATION = 4
+		#Souls generated when an operation is done
+		#Range: > 1
+		SOULS_PER_OPERATION = 1
+
