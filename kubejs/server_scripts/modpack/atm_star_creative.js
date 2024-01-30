@@ -51,6 +51,19 @@ ServerEvents.recipes(e => {
   })
 
   
+    ///# Botania
+    e.shaped('botania:creative_pool', ['RMR', 'MSM', 'RMR'], {
+      S: 'allthetweaks:atm_star',
+      M: 'botania:mana_pool',
+      R: '#botania:runes'
+    }).id('kubejs:botania/creative_pool')
+  
+  e.shaped(Item.of('botania:mana_tablet', '{creative:1b,mana:500000}'), ['RMR', 'MSM', 'RMR'], {
+    S: 'allthetweaks:atm_star',
+    M: 'botania:mana_tablet',
+    R: '#botania:runes'
+  }).id('kubejs:botania/creative_tablet')
+
   
   ///# Create
   e.custom({
