@@ -1,0 +1,6 @@
+	[Holidays]
+		#If TRUE, some Mobs will have festive hats on certain days. Disabling this will disable it for ALL mobs, including vanilla. May require client restart.
+		"Festive Mobs" = false
+		#If TRUE, some vanilla Mobs will also have festive hats on certain days. May require client restart.
+		"Festive Vanilla Mobs" = false
+
