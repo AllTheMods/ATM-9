@@ -119,19 +119,20 @@ ServerEvents.recipes(event => {
     // ad astra compressor
     if (global.loaded.AdAstra_Loaded) {
       let count = event.recipeStream({ type: 'ad_astra:compressing' }).mapToInt(recipe => {
-        if (plate.equalsIgnoringCount(Item.of(recipe.json.get('output').get('id')))) { return 1 }
+        if (plate.equalsIgnoringCount(Item.of(recipe.json.get('result').get('id')))) { return 1 }
         return 0
       }).sum()
 
       if (count == 0) {
         event.custom({
           type: 'ad_astra:compressing',
-          input: ingotTag.toJson(),
-          output: {
-            id: plate.id,
-            count: plate.count
-          },
-          cookTime: 200
+          cookingtime: 100,
+          energy: 20,
+          ingredient: ingotTag.toJson(),
+          result: {
+            count: plate.count,
+            id: plate.id
+          }
         }).id(`kubejs:ad_astra/compressing/${material}_plate_from_compressing_${material}_ingot`)
         plateCount.adastra++
       }
