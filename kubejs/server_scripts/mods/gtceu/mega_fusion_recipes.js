@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
         .itemInputs([
             '2x gtceu:uv_fusion_reactor',
             '4x gtceu:fusion_coil',
-            '4x #forge:circuits/uhv',
+            '4x #gtceu:circuits/uhv',
             '2x gtceu:neutronium_plate',
             '4x gtceu:uv_field_generator',
             '8x gtceu:gravi_star',
