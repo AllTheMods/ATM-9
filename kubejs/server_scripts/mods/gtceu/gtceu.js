@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
 
     // ALCR
     event.recipes.gtceu.assembly_line('advanced_large_chemical_reactor')
-        .itemInputs('gtceu:large_chemical_reactor', '3x #forge:circuits/iv', '15x gtceu:nitinol_plate', '4x gtceu:platinum_single_cable')
+        .itemInputs('gtceu:large_chemical_reactor', '3x #gtceu:circuits/iv', '15x gtceu:nitinol_plate', '4x gtceu:platinum_single_cable')
         .itemOutputs('gtceu:advanced_large_chemical_reactor')
         .inputFluids(
             Fluid.of('gtceu:copper', 4608),

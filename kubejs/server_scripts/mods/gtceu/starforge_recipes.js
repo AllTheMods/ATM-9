@@ -120,7 +120,7 @@ ServerEvents.recipes(event => {
 		.itemInputs(
 			[
 				'gtceu:uhv_machine_hull',
-                '4x #forge:circuits/uhv',
+                '4x #gtceu:circuits/uhv',
 				'4x gtceu:gravi_star',
 				'4x gtceu:uv_field_generator',
 				'64x gtceu:uhpic_chip',

@@ -42,7 +42,7 @@
 			dev: false
 			height: 7.0d
 			hover: [ ]
-			image: "ad_astra:textures/sky/milky_way.png"
+			image: "sgjourney:textures/environment/galaxy.png"
 			rotation: 0.0d
 			width: 7.0d
 			x: 0.0d
@@ -476,12 +476,24 @@
 				""
 				"If you want to get off the ground, you'll need a lot of &aSteel&r to get going! There are several ways to make this, like using &eMekanism's Metallurgic Infuser&r to make &3Steel Dust&r first, or just making the dust using Iron Dust, 4 Coal, and a Hammer in a crafting grid."
 			]
-			icon: "ad_astra:astrodux"
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "ad_astra:astrodux"
+				}
+			}
 			id: "0D8AC4FB1F61B07A"
 			rewards: [
 				{
 					id: "1856194492635B78"
-					item: "ad_astra:astrodux"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "ad_astra:astrodux"
+						}
+					}
 					type: "item"
 				}
 				{
@@ -511,7 +523,7 @@
 			]
 			icon: {
 				Count: 1b
-				id: "ad_astra:hammer"
+				id: "immersiveengineering:hammer"
 				tag: {
 					Damage: 0
 				}
@@ -536,7 +548,7 @@
 					id: "18AECBDA4AC04E06"
 					item: {
 						Count: 1b
-						id: "ad_astra:hammer"
+						id: "immersiveengineering:hammer"
 						tag: {
 							Damage: 0
 						}
