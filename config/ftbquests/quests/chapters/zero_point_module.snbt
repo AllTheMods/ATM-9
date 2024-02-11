@@ -1512,6 +1512,7 @@
 			y: 2.5d
 		}
 		{
+			description: ["We have used a bunch of chromium already. But we again need to call on this highly resistive and high hardness metal, except in its liquid form."]
 			id: "4CE6CABCB2334C0E"
 			rewards: [{
 				id: "45E335E5F6E878E8"
@@ -1535,6 +1536,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "Liquid Chromium"
 			tasks: [{
 				id: "2BC07C65FA9A108B"
 				item: "gtceu:chromium_bucket"
@@ -1548,6 +1550,7 @@
 				"49A42093EB18E7EB"
 				"06CD5693FF52270F"
 			]
+			description: ["This is an odd element. It is extremely resistant to corrosion in dry climates, but its not resistant in moist climates. "]
 			id: "28F49121DEB0000A"
 			rewards: [{
 				id: "443A6F81AD167386"
@@ -1571,6 +1574,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "Liquid Lutetium"
 			tasks: [{
 				id: "41A278CBAEF5905A"
 				item: "gtceu:lutetium_bucket"
@@ -1580,6 +1584,7 @@
 			y: 9.0d
 		}
 		{
+			description: ["This semi-conductor will be put to good use in order for our Fusion Reactor to produce a useful byproduct."]
 			id: "49A42093EB18E7EB"
 			rewards: [{
 				id: "4B699265D7AD0B09"
@@ -1603,6 +1608,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "Liquid Silicon"
 			tasks: [{
 				id: "2D272075B7FD3525"
 				item: "gtceu:silicon_bucket"
@@ -1612,6 +1618,11 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"Lanthanum is a soft and ductile, silvery-white metal that tarnishes slowly when exposed to air. "
+				""
+				"Here we will use its liquid form so the Fusion Reactor can form a byproduct for us."
+			]
 			id: "06CD5693FF52270F"
 			rewards: [{
 				id: "1E5709704DA97514"
@@ -1635,6 +1646,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "Liquid Lanthanum"
 			tasks: [{
 				id: "243F9F9151B0E49B"
 				item: "gtceu:lanthanum_bucket"
@@ -1648,6 +1660,11 @@
 				"4CE6CABCB2334C0E"
 				"28F49121DEB0000A"
 			]
+			description: [
+				"Americium is typically used as a particle detector in Smoke Detectors."
+				""
+				"The amount is incredibly tiny and harmless to people, but is very effective at detecting smoke, which is why it is used."
+			]
 			id: "5AD33290313151D6"
 			rewards: [{
 				count: 4
@@ -1656,6 +1673,7 @@
 				random_bonus: 8
 				type: "item"
 			}]
+			subtitle: "Liquid Americium"
 			tasks: [{
 				id: "56FF9905F151C1C3"
 				item: "gtceu:americium_bucket"
@@ -1694,6 +1712,11 @@
 				"21F5EED683499B71"
 				"4B82B3DAB03C1729"
 			]
+			description: [
+				"Now were talking!"
+				""
+				"Our Fusion Reactor is making the good stuff now! "
+			]
 			id: "097735604CB11E83"
 			rewards: [{
 				id: "559BE511F5D982CE"
@@ -1717,6 +1740,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "Liquid Naquadria"
 			tasks: [{
 				id: "65C1C5D7EF816179"
 				item: "gtceu:naquadria_bucket"
@@ -1750,6 +1774,11 @@
 			y: 2.5d
 		}
 		{
+			description: [
+				"We are going to need many different types of Naquadah, this being one of them."
+				""
+				"Make sure you have a good system in place that can harvest a lot of Naquadah."
+			]
 			id: "4B82B3DAB03C1729"
 			rewards: [{
 				id: "11332098833BF62D"
@@ -1773,6 +1802,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "Liquid Enriched Naquadah"
 			tasks: [{
 				id: "3326BF7B105FFB89"
 				item: "gtceu:enriched_naquadah_bucket"
@@ -1782,6 +1812,11 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"Were going to need quite a bit of Radon Moving forwards. "
+				""
+				"If you havn't already, get a Distillation tower running to process some Liquid Ender Air for its Radon."
+			]
 			id: "21F5EED683499B71"
 			rewards: [{
 				id: "504C7CBF13DD8453"
@@ -1805,6 +1840,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "Radon"
 			tasks: [{
 				id: "7C588411F4BA45B3"
 				item: "gtceu:radon_bucket"

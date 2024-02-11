@@ -91,6 +91,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
+			shape: "diamond"
 			size: 1.5d
 			subtitle: "Make &dLuV&r, not War!"
 			tasks: [{
@@ -120,6 +121,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
+			shape: "diamond"
 			size: 1.5d
 			subtitle: "QuantumMan!"
 			tasks: [{
@@ -271,6 +273,7 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
 			subtitle: "2 for 1! What a deal!"
 			tasks: [
 				{
@@ -369,6 +372,8 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
+			shape: "gear"
+			size: 1.3d
 			subtitle: "Finally!"
 			tasks: [{
 				id: "23CB55FBD259329B"
@@ -504,13 +509,14 @@
 				random_bonus: 8
 				type: "item"
 			}]
+			subtitle: "HSLA Dust"
 			tasks: [{
 				id: "064427F3DA197068"
 				item: "gtceu:hsla_steel_dust"
 				type: "item"
 			}]
 			x: -31.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			description: ["Titanium Carbide dust for Titanium Carbide plates are the second item needed for the Alloy Blast Furnace walls. "]
@@ -523,6 +529,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
+			subtitle: "High Strength Titanium"
 			tasks: [{
 				id: "541D07490AA62BEE"
 				item: "gtceu:titanium_carbide_dust"
@@ -542,13 +549,14 @@
 				random_bonus: 4
 				type: "item"
 			}]
+			subtitle: "High Strength Tantalum"
 			tasks: [{
 				id: "50A6905F7674B30C"
 				item: "gtceu:tantalum_carbide_dust"
 				type: "item"
 			}]
 			x: -29.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -556,6 +564,7 @@
 				"7353DB3A9820C92F"
 				"64E271AA238B131F"
 				"29417616D8F673D5"
+				"17773F43631748A9"
 			]
 			description: ["Complete an Alloy Blast Smelter and assemble the Multiblock Structure."]
 			icon: "gtceu:alloy_blast_smelter"
@@ -574,6 +583,7 @@
 					xp: 500
 				}
 			]
+			subtitle: "ABS Time"
 			tasks: [
 				{
 					id: "59F1C28384FA8C70"
@@ -768,6 +778,8 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
+			shape: "gear"
+			size: 1.3d
 			subtitle: "&dLuV Energy Hatch at Last!"
 			tasks: [{
 				id: "58D5F07484D64D7F"
@@ -966,6 +978,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
+			shape: "gear"
 			subtitle: "GregTech'ers... Assemble!!"
 			tasks: [
 				{
@@ -1125,6 +1138,7 @@
 				type: "xp"
 				xp: 1000
 			}]
+			subtitle: "Scaling Up"
 			tasks: [{
 				id: "2E2650592A4C3640"
 				type: "checkmark"
@@ -1657,6 +1671,12 @@
 			]
 			id: "22DB72BE40115A95"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32E44D4235EBDDF3"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
 			subtitle: "Make sure to LAF often!"
 			tasks: [
 				{
@@ -2089,6 +2109,13 @@
 			]
 			id: "308D5AC7562E09BA"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "3410C1F18E09A290"
+				item: "gtceu:zeron_100_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
 			subtitle: "Resistant Steel"
 			tasks: [{
 				id: "0E5A6D219CCE742F"
@@ -2128,6 +2155,13 @@
 			]
 			id: "759446116655756C"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "62A787EC4A9E9378"
+				item: "gtceu:incoloy_ma_956_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
 			subtitle: "Its a Bird! Its a Plane! No, its Super Steel!"
 			tasks: [{
 				id: "741F54CBB037D211"
@@ -2142,6 +2176,13 @@
 			description: ["Hastelloy X is a wrought nickel base alloy with excellent high temperature strength and oxidation resistance. All of the product forms are excellent in terms of forming and welding."]
 			id: "54EB576C8EAF2C28"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "192EB3E5791306C6"
+				item: "gtceu:hastelloy_x_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
 			subtitle: "Wrought Iron? No. Wrought Nickel."
 			tasks: [{
 				id: "2433F601D6375EA3"
@@ -2160,6 +2201,13 @@
 			]
 			id: "7759519157B8C1D8"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "4062C4052794EE59"
+				item: "gtceu:hsla_steel_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
 			subtitle: "Anti-Acidic Steel"
 			tasks: [{
 				id: "29602A66206D9EFF"
@@ -2178,6 +2226,13 @@
 			]
 			id: "34C931DFFBF608DB"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "769407941E855F73"
+				item: "gtceu:stellite_100_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
 			subtitle: "Carbonated Steel. LUL"
 			tasks: [{
 				id: "63A80C7EE9F59B2B"
@@ -2215,6 +2270,13 @@
 			description: ["Titanium Tungsten Carbide is Ultra high purity mixed carbide additive for Cutting tool and wear part product. This alloy contains a high level of hardness and HT strength making it an incredibly strong and durable alloy."]
 			id: "743B72CC181776EC"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "5AE6A407D72B0437"
+				item: "gtceu:titanium_tungsten_carbide_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
 			subtitle: "Pure High Durability Alloys! Crazy!!"
 			tasks: [{
 				id: "3A321EC2A283C517"
@@ -2235,6 +2297,13 @@
 			]
 			id: "319D3A14D62225BC"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "2BCA926CC045B21D"
+				item: "gtceu:hastelloy_c_276_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
 			subtitle: "Crazy Corrosion Resistance!"
 			tasks: [{
 				id: "4712FB4684E4F6D5"
@@ -2253,6 +2322,13 @@
 			]
 			id: "08F7825DA7DC2185"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "495ED7059EF67648"
+				item: "gtceu:maraging_steel_300_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
 			subtitle: "Stronks!"
 			tasks: [{
 				id: "3824062A512AEC3B"
@@ -2271,6 +2347,7 @@
 				type: "xp"
 				xp: 1000
 			}]
+			subtitle: "Skidding without ABS"
 			tasks: [{
 				id: "1CAC89F6DFC2AB72"
 				title: "Non-ABS Multiblocks"
@@ -2366,6 +2443,29 @@
 			}]
 			x: -26.5d
 			y: 7.0d
+		}
+		{
+			description: [
+				"Were going to need some Molybdenum Disilicide to make the casings for the ABS. "
+				""
+				"This dust can easily be made in an EV Mixer and then EBF'd with EV and Kanthal Coils."
+			]
+			id: "17773F43631748A9"
+			rewards: [{
+				count: 4
+				id: "43053B3B07F5E09E"
+				item: "gtceu:molybdenum_disilicide_dust"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Molybdenum Disilicide"
+			tasks: [{
+				id: "2265F0C34D77C253"
+				item: "gtceu:molybdenum_disilicide_dust"
+				type: "item"
+			}]
+			x: -31.5d
+			y: 8.5d
 		}
 	]
 	title: "Ludicrous Voltage"
