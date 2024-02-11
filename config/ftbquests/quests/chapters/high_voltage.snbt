@@ -837,6 +837,9 @@
 					id: "gtceu:titanium_wrench"
 					tag: {
 						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
 					}
 				}
 				type: "item"
@@ -1266,5 +1269,5 @@
 			y: 2.5d
 		}
 	]
-	title: "High Voltage"
+	title: "{atm9.chapters.29.title}"
 }

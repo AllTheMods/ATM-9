@@ -12,9 +12,9 @@
 			dependencies: ["731686C758AD9A99"]
 			dependency_requirement: "one_completed"
 			description: [
-				"This lucrative ore starts your journey to becoming overpowered!"
+				"{atm9.quest.allthemodium.desc.atm_ore1}"
 				""
-				"It is found in Deep Dark biomes along ceilings and walls, or in the Mining Dimension within the deepslate layer."
+				"{atm9.quest.allthemodium.desc.atm_ore2}"
 			]
 			hide: false
 			hide_dependency_lines: false
@@ -44,7 +44,7 @@
 				item: "allthemodium:raw_allthemodium"
 				type: "item"
 			}]
-			title: "Allthemodium Ore"
+			title: "{atm9.quest.allthemodium.atm_ore}"
 			x: -1.5d
 			y: 0.5d
 		}
@@ -52,13 +52,13 @@
 			dependencies: ["5BDBE666E604FCAC"]
 			dependency_requirement: "one_started"
 			description: [
-				"The next step in our adventure to become (nearly) invincible."
+				"{atm9.quest.allthemodium.desc.vib_ore1}"
 				""
-				"Find this rare ore in the Nether above Y64 along the ceiling and walls of any biome."
+				"{atm9.quest.allthemodium.desc.vib_ore2}"
 				""
-				"You can also find this ore in any biome in the Other, between Y0 and Y40 along cave walls and ceilings."
+				"{atm9.quest.allthemodium.desc.vib_ore3}"
 				""
-				"Note: The ore will only be found exposed to air!"
+				"{atm9.quest.allthemodium.desc.vib_ore4}"
 			]
 			hide_dependency_lines: false
 			id: "2DF64CB9298E91EA"
@@ -88,12 +88,13 @@
 				title: "Vibranium Ore"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.vib_ore}"
 			x: 0.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["2DF64CB9298E91EA"]
-			description: ["An extremely rare ore that can only be found in the End Highlands biome."]
+			description: ["{atm9.quest.allthemodium.desc.unob_ore}"]
 			hide_dependency_lines: false
 			id: "4F6E6AF1D9E74CB7"
 			rewards: [
@@ -121,11 +122,12 @@
 				item: "allthemodium:raw_unobtainium"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.unob_ore}"
 			x: 1.5d
 			y: 0.5d
 		}
 		{
-			description: ["The &6Allthemodium Metals&r can be used to make extremely fast furnaces!"]
+			description: ["{atm9.quest.allthemodium.desc.furnace}"]
 			hide_dependency_lines: false
 			id: "2CC97CF32D9C017B"
 			rewards: [{
@@ -161,6 +163,7 @@
 				title: "&dFaster Furnaces&r"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.furnace}"
 			x: -3.0d
 			y: 3.0d
 		}
@@ -213,15 +216,15 @@
 				title: "&6Allthemodium Armor&r"
 				type: "item"
 			}]
-			title: "&6Allthemodium Armor&r"
+			title: "{atm9.quest.allthemodium.atm_armor}"
 			x: -1.5d
 			y: 4.0d
 		}
 		{
 			description: [
-				"&dAllthemodium&r is the core mod in all Allthemods modpacks. This mod adds endgame ores to the world that amplify your modded experience."
+				"{atm9.quest.allthemodium.desc.intro1}"
 				""
-				"You can find more info on the mod in the &9Allthemodium&r book."
+				"{atm9.quest.allthemodium.desc.intro2}"
 			]
 			icon: {
 				Count: 1b
@@ -257,7 +260,7 @@
 				title: "Exist!"
 				type: "dimension"
 			}]
-			title: "Intro to Allthemodium!"
+			title: "{atm9.quest.allthemodium.intro}"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -283,6 +286,7 @@
 				item: "allthemodium:allthemodium_apple"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.apple}"
 			x: 3.0d
 			y: 4.0d
 		}
@@ -308,12 +312,13 @@
 				item: "allthemodium:allthemodium_carrot"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.carrot}"
 			x: -3.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5BDBE666E604FCAC"]
-			description: ["Note: While the &aUpgrade Template&r is not needed to make the initial tool, it will save you a lot of &6Allthemodium Ingots&r!"]
+			description: ["{atm9.quest.allthemodium.desc.atm_tools}"]
 			hide: false
 			hide_dependency_lines: true
 			id: "30E6C6825D78B5F1"
@@ -365,18 +370,19 @@
 				title: "&6Allthemodium Tools&r"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.atm_tools}"
 			x: -1.5d
 			y: 5.5d
 		}
 		{
 			description: [
-				"The Teleport Pad is used to teleport to 3 new dimensions added by the ATM pack."
+				"{atm9.quest.allthemodium.desc.teleport1}"
 				""
-				"You can use it to get to the &aMining Dimension&r by placing it in the overworld, then shift right clicking with an empty hand."
+				"{atm9.quest.allthemodium.desc.teleport2}"
 				""
-				"To go to the &cOther&r, do the same thing but in the Nether."
+				"{atm9.quest.allthemodium.desc.teleport3}"
 				""
-				"To get to the &5Beyond&r, use the Teleport Pad in the End."
+				"{atm9.quest.allthemodium.desc.teleport4}"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -401,17 +407,18 @@
 				item: "allthemodium:teleport_pad"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.teleport}"
 			x: 0.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["3C322474D2F2BA99"]
 			description: [
-				"You'll find a ton of ore in the Other. It's filled to the brim with amazing ore generation, as well as Ancient Forests."
+				"{atm9.quest.allthemodium.desc.other1}"
 				""
-				"Within these forests, you can find Ancient Berries that grant Night Vision."
+				"{atm9.quest.allthemodium.desc.other2}"
 				""
-				"This is also the only dimension that has Soul Lava and Pigliches!"
+				"{atm9.quest.allthemodium.desc.other3}"
 			]
 			hide_dependency_lines: false
 			icon: "allthemodium:piglich_heart"
@@ -434,16 +441,16 @@
 				item: "allthemodium:ancient_stone"
 				type: "item"
 			}]
-			title: "The Other"
+			title: "{atm9.quest.allthemodium.other}"
 			x: 1.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["3C322474D2F2BA99"]
 			description: [
-				"The &9Mining Dimension&r has several layers for finding ores!"
+				"{atm9.quest.allthemodium.desc.mining1}"
 				""
-				"This dimension comes with the regular &3Stone&r and &3Deepslate&r Overworld layers, as well as a &cNetherrack&r layer for finding Nether ores, and finally an &eEnd Stone&r layer for End ores."
+				"{atm9.quest.allthemodium.desc.mining2}"
 			]
 			hide_dependency_lines: false
 			icon: {
@@ -464,12 +471,12 @@
 				title: "The Mining Dimension"
 				type: "checkmark"
 			}]
-			title: "The Mining Dimension"
+			title: "{atm9.quest.allthemodium.mining}"
 			x: -1.5d
 			y: 7.0d
 		}
 		{
-			description: ["Need more of the &6ATM Metals&r? Make some bees!"]
+			description: ["{atm9.quest.allthemodium.desc.bees}"]
 			hide_dependency_lines: false
 			id: "5D8A3491889F2C4E"
 			rewards: [
@@ -527,6 +534,7 @@
 				title: "&6Productive ATM Bees&r"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.bees}"
 			x: 3.0d
 			y: 3.0d
 		}
@@ -545,6 +553,7 @@
 				item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.atm_unob}"
 			x: 0.0d
 			y: 10.5d
 		}
@@ -563,6 +572,7 @@
 				item: "allthemodium:unobtainium_vibranium_alloy_ingot"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.vib_unob}"
 			x: 1.5d
 			y: 10.0d
 		}
@@ -581,6 +591,7 @@
 				item: "allthemodium:vibranium_allthemodium_alloy_ingot"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.atm_vib}"
 			x: -1.5d
 			y: 10.0d
 		}
@@ -604,6 +615,7 @@
 				item: "allthemodium:alloy_sword"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.sword}"
 			x: -0.7000000000000001d
 			y: 13.5d
 		}
@@ -627,6 +639,7 @@
 				item: "allthemodium:alloy_axe"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.axe}"
 			x: 0.7000000000000001d
 			y: 13.5d
 		}
@@ -650,6 +663,7 @@
 				item: "allthemodium:alloy_pick"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.pickaxe}"
 			x: -2.0d
 			y: 13.5d
 		}
@@ -673,6 +687,7 @@
 				item: "allthemodium:alloy_shovel"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.shovel}"
 			x: 2.0d
 			y: 13.5d
 		}
@@ -698,12 +713,13 @@
 				item: "allthemodium:alloy_paxel"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.paxel}"
 			x: 0.0d
 			y: 12.000000000000002d
 		}
 		{
 			dependencies: ["5BDBE666E604FCAC"]
-			description: ["This can be found by &2brushing&r &aSuspicious Clay&r in the &dAncient City&r."]
+			description: ["{atm9.quest.allthemodium.desc.atm_smith}"]
 			hide_dependency_lines: false
 			id: "2BF9B347D1FC037A"
 			rewards: [
@@ -726,13 +742,13 @@
 				item: "allthemodium:allthemodium_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "&6AllTheModium Upgrades&r"
+			title: "{atm9.quest.allthemodium.atm_smith}"
 			x: -1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["2DF64CB9298E91EA"]
-			description: ["This can be found by &2brushing&r &aSuspicious Soul Sand&r in &dBastions&r within the &cNether&r."]
+			description: ["{atm9.quest.allthemodium.desc.vib_smith}"]
 			hide_dependency_lines: false
 			id: "0C1EC499EB16C604"
 			rewards: [
@@ -755,12 +771,13 @@
 				item: "allthemodium:vibranium_upgrade_smithing_template"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.vib_smith}"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4F6E6AF1D9E74CB7"]
-			description: ["This item can be found as loot inside of the libraries in the Other &aDungeons&r."]
+			description: ["{atm9.quest.allthemodium.desc.unob_smith}"]
 			hide_dependency_lines: false
 			id: "1E92D4FEB8E96BBF"
 			rewards: [
@@ -783,6 +800,7 @@
 				item: "allthemodium:unobtainium_upgrade_smithing_template"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.unob_smith}"
 			x: 1.5d
 			y: 2.5d
 		}
@@ -834,7 +852,7 @@
 				title: "&bVibranium Armor&r"
 				type: "item"
 			}]
-			title: "&bVibranium Armor&r"
+			title: "{atm9.quest.allthemodium.vib_armor}"
 			x: 0.0d
 			y: 4.5d
 		}
@@ -886,7 +904,7 @@
 				title: "&dUnobtainium Armor&r"
 				type: "item"
 			}]
-			title: "&dUnobtainium Armor&r"
+			title: "{atm9.quest.allthemodium.unob_armor}"
 			x: 1.5d
 			y: 4.0d
 		}
@@ -942,6 +960,7 @@
 				title: "&bVibranium Tools&r"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.vib_tools}"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -997,15 +1016,16 @@
 				title: "&dUnobtainium Tools&r"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.unob_tools}"
 			x: 1.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["3C322474D2F2BA99"]
 			description: [
-				"Situated past the edge of the End, is the Beyond, a completely unavoidable space for those builders that want a lot of clear area to work in."
+				"{atm9.quest.allthemodium.desc.beyond1}"
 				""
-				"Similar to the overworld->Nether, there is a block ratio of 1:50 for the End->Beyond"
+				"{atm9.quest.allthemodium.desc.beyond2}"
 			]
 			hide_dependency_lines: false
 			icon: "voidtotem:totem_of_void_undying"
@@ -1021,10 +1041,10 @@
 				id: "5B673FC6B4C064ED"
 				type: "dimension"
 			}]
-			title: "&5The Beyond&r"
+			title: "{atm9.quest.allthemodium.beyond}"
 			x: 0.0d
 			y: 9.0d
 		}
 	]
-	title: "&eAllthemodium"
+	title: "{atm9.chapters.2.title}"
 }

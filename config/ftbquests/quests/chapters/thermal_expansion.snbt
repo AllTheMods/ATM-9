@@ -5,7 +5,7 @@
 	group: "2B51AC12041E3F89"
 	icon: "thermal:machine_frame"
 	id: "658721DF03EC997D"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -52,7 +52,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "47FB9A5E8CA0DEBF"
-				table_id: 4084485630345500261L
 				type: "random"
 			}]
 			subtitle: "Powered Furnace"
@@ -72,7 +71,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3A6A6FD904C5D807"
-				table_id: 4084485630345500261L
 				type: "random"
 			}]
 			subtitle: "Breaks Ores into Dusts"
@@ -95,7 +93,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "579CC37AC45E0F27"
-				table_id: 4084485630345500261L
 				type: "random"
 			}]
 			subtitle: "The Alloy Maker"
@@ -146,7 +143,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "37C6557D14C3B84F"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -174,7 +170,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "55D2678D9291832E"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -206,7 +201,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "41E6EC8E3C06061C"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -240,7 +234,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7926D9E21CB2619E"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -273,7 +266,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "29522020DC292C43"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -306,7 +298,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "2891293FF4320701"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -338,7 +329,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "41F233A7DA531268"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -370,7 +360,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "5BBF7DC26AAA8E5C"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -398,7 +387,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7FDD47DE35B3118B"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -426,7 +414,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "2EFF31E232EEE6C9"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -453,7 +440,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "597BC09E9D2C10DC"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -486,7 +472,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "40CEEE4ADD1FA55B"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -517,7 +502,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "039D39732BBFAFFB"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -547,7 +531,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "227035926BB39B13"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -573,7 +556,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "67F7D9F5A2A94DB0"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -599,7 +581,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "097275F0B8627600"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -627,7 +608,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "47F4FA57FE1B3D31"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -653,7 +633,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "2E52AE90CF44C0E3"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -680,7 +659,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "65153D6D043E2D48"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -724,7 +702,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "09F8387B75BF87D2"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -759,7 +736,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1E92C5CEFFE3E4B3"
-				table_id: 4084485630345500261L
 				type: "random"
 			}]
 			shape: "diamond"
@@ -785,7 +761,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "01159A5ECFD5CEE3"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -845,7 +820,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4E5306A22F3CF335"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -904,7 +878,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4E3CCEFC8C513A96"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -957,7 +930,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1D4FCF5F1807C976"
-				table_id: 4084485630345500261L
 				type: "random"
 			}]
 			shape: "diamond"
@@ -1013,7 +985,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6F92134E16107738"
-				table_id: 4084485630345500261L
 				type: "random"
 			}]
 			shape: "diamond"
@@ -1039,7 +1010,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "0C6D5A95AEB654E7"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1094,7 +1064,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4F9A9048D6B1E122"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1149,7 +1118,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "14B2F6450484E4A2"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1206,7 +1174,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "30529159C71287AD"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1251,7 +1218,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "67A2BAD4D9983E26"
-				table_id: 4084485630345500261L
 				type: "random"
 			}]
 			shape: "diamond"
@@ -1277,7 +1243,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "62C2FF95B4AFD290"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1332,7 +1297,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "632467CB1FB36C7C"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1381,7 +1345,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0162FC16A134829D"
-				table_id: 4084485630345500261L
 				type: "random"
 			}]
 			shape: "diamond"
@@ -1434,7 +1397,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "138DAAFCD3B6FA02"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1460,7 +1422,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "088924775D906D4F"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1481,7 +1442,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1F383E05B6EC4EBA"
-				table_id: 4084485630345500261L
 				type: "random"
 			}]
 			shape: "diamond"
@@ -1512,7 +1472,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "33791EEB04481324"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1536,7 +1495,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "122EF97CC1EE4796"
-				table_id: 4084485630345500261L
 				type: "random"
 			}]
 			shape: "diamond"
@@ -1562,7 +1520,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "1542C8A8F5D61DF4"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1593,7 +1550,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "14D5E1E129094120"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1620,7 +1576,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "60A961BFD670E1CB"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1647,7 +1602,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7098EB6DA90F8839"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1673,7 +1627,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "154618A70AD2759D"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1701,7 +1654,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "275B06A629DE52A9"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1732,7 +1684,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "719A845ADA2DE52B"
-					table_id: 4084485630345500261L
 					type: "random"
 				}
 			]
@@ -1757,7 +1708,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1CAE757FEEC6C318"
-				table_id: 4084485630345500261L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -1771,5 +1721,5 @@
 			y: 2.0d
 		}
 	]
-	title: "Thermal Series"
+	title: "{atm9.chapters.24.title}"
 }

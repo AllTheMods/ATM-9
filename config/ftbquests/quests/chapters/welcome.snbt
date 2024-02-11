@@ -36,11 +36,11 @@
 	quests: [
 		{
 			description: [
-				"ATM9 is a kitchensink pack that allows you to explore the world of modded Minecraft in your own way!"
+				"{atm9.quest.welcome.desc.welcome1}"
 				""
-				"&lATM9 is currently in the beta stages of modpack development&r. Mods will be added or removed as they get updated."
+				"{atm9.quest.welcome.desc.welcome2}"
 				""
-				"If you have any questions or issues, feel free to join the ATM discord!"
+				"{atm9.quest.welcome.desc.welcome3}"
 			]
 			icon: "allthetweaks:atm_star"
 			id: "3BC0A50886A3222B"
@@ -56,17 +56,17 @@
 				title: "Welcome to All The Mods 9!"
 				type: "checkmark"
 			}]
-			title: "&dWelcome to All The Mods 9!"
+			title: "{atm9.quest.welcome.welcome}"
 			x: 0.0d
 			y: -0.5d
 		}
 		{
 			description: [
-				"In this modpack, Quests are optional. Mods are not gated behind completing any quests!"
+				"{atm9.quest.welcome.desc.quests1}"
 				""
-				"The individual questlines outside of the Main questline are meant to serve as mod guides. If you want to follow the progression, make sure to check out the Main Questline!"
+				"{atm9.quest.welcome.desc.quests2}"
 				""
-				"Most of the quests in the pack are also made by &2AlfredGG&r. Quests are hard work, so if you'd like to support him, you can click on his player image below!"
+				"{atm9.quest.welcome.desc.quests3}"
 			]
 			icon: "ftbquests:book"
 			id: "3708A4780ACEB34E"
@@ -83,25 +83,25 @@
 				title: "Quests"
 				type: "checkmark"
 			}]
-			title: "Quests"
+			title: "{atm9.quest.welcome.quests}"
 			x: 2.5d
 			y: -0.5d
 		}
 		{
 			description: [
-				"There are plenty of helpful commands within ATM. Here are a few:"
+				"{atm9.quest.welcome.desc.commands1}"
 				""
-				"&e/sethome&r (name of home) | Let's you set a home that you can teleport back to using /home (name). Example: /sethome farm - then teleport with /home farm"
+				"{atm9.quest.welcome.desc.commands2}"
 				""
-				"&e/spawn&r | This will teleport you to the spawn of your overworld."
+				"{atm9.quest.welcome.desc.commands3}"
 				""
-				"&e/rtp&r | \"Random Teleport\" will teleport you to a random location in the world."
+				"{atm9.quest.welcome.desc.commands4}"
 				""
-				"Note: These commands have cooldowns and limits. If you'd like to change them, you can edit the config file which can be found here:"
+				"{atm9.quest.welcome.desc.commands5}"
 				""
-				"- For Singleplayer | &osaves/(name of save)/serverconfig/ftbessentials.snbt&r"
+				"{atm9.quest.welcome.desc.commands6}"
 				""
-				"- For Servers | &oworld/serverconfig/ftbessentials.snbt&r"
+				"{atm9.quest.welcome.desc.commands7}"
 			]
 			icon: {
 				Count: 1b
@@ -124,16 +124,17 @@
 				title: "Useful Commands"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.welcome.commands}"
 			x: -2.5d
 			y: -0.5d
 		}
 		{
 			description: [
-				"To claim chunks, open up your map using &6M&r, then click the &aClaim Map&r icon in the top left."
+				"{atm9.quest.welcome.desc.claims1}"
 				""
-				"To claim a chunk, left click and drag to claim. "
+				"{atm9.quest.welcome.desc.claims2}"
 				""
-				"To force load a chunk, shift-left click the chunk. If done properly, you'll see lines across the chunk."
+				"{atm9.quest.welcome.desc.claims3}"
 			]
 			icon: {
 				Count: 1b
@@ -154,11 +155,12 @@
 				title: "Claiming Chunks"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.welcome.claims}"
 			x: 4.5d
 			y: -0.5d
 		}
 		{
-			description: ["If you want to create a team for you and your friends, use the command &a/ftbteams party create (name of team)&r to create the team!"]
+			description: ["{atm9.quest.welcome.desc.team}"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -178,9 +180,10 @@
 				title: "Creating a Team"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.welcome.team}"
 			x: -4.5d
 			y: -0.5d
 		}
 	]
-	title: "Welcome"
+	title: "{atm9.chapters.1.title}"
 }

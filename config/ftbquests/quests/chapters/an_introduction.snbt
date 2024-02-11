@@ -8,6 +8,9 @@
 		id: "gtceu:iron_hammer"
 		tag: {
 			Damage: 0
+			GT.Tool: {
+				Damage: 0
+			}
 		}
 	}
 	id: "415BA265E2C00859"
@@ -2196,5 +2199,5 @@
 			y: -2.5d
 		}
 	]
-	title: "Getting Started"
+	title: "{atm9.chapters.25.title}"
 }
