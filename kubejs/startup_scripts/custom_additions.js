@@ -14,3 +14,16 @@ StartupEvents.modifyCreativeTab('ironfurnaces:ironfurnaces_tab', event => {
 	event.add('ironfurnaces:upgrade_vibranium')
 	event.add('ironfurnaces:upgrade_unobtainium')
 })
+
+StartupEvents.modifyCreativeTab('functional_blocks', event => {
+    [
+    'ancient',      'azalea',       'blossom',          'oak',
+    'spruce',       'birch',        'jungle',           'acacia',
+    'dark_oak',     'crimson',      'warped',           'mangrove',
+    'bamboo',       'cherry',       'nether_brick',     'prismarine', 
+    'purpur'
+    ].forEach(type => {
+        event.add(`quark:${type}_chest`)
+        event.add(`quark:${type}_trapped_chest`)       
+    })
+})
