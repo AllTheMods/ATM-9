@@ -268,7 +268,7 @@
 			id: "0F9829B0A5EEE67B"
 			rewards: [{
 				id: "5779FAD09110C8D8"
-				item: "gtceu:gallium_arsenide_small_dust"
+				item: "gtceu:small_gallium_arsenide_dust"
 				type: "item"
 			}]
 			tasks: [{
@@ -309,7 +309,7 @@
 				{
 					count: 2
 					id: "1DBCAADC256D6736"
-					item: "gtceu:copper_fine_wire"
+					item: "gtceu:fine_copper_wire"
 					random_bonus: 2
 					type: "item"
 				}
@@ -1193,5 +1193,5 @@
 			y: 3.0d
 		}
 	]
-	title: "Low Voltage"
+	title: "{atm9.chapters.27.title}"
 }

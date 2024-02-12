@@ -15,8 +15,8 @@
 			image: "gtceu:item/zpm_solar_panel"
 			rotation: 0.0d
 			width: 3.0d
-			x: -3.5d
-			y: -1.5d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
 			click: ""
@@ -27,7 +27,7 @@
 			image: "gtceu:item/zpm_sensor"
 			rotation: 0.0d
 			width: 3.0d
-			x: 0.0d
+			x: 11.5d
 			y: -7.0d
 		}
 		{
@@ -39,7 +39,7 @@
 			image: "gtceu:item/zpm_emitter"
 			rotation: 0.0d
 			width: 3.0d
-			x: -10.0d
+			x: 4.0d
 			y: -7.0d
 		}
 		{
@@ -51,7 +51,7 @@
 			image: "gtceu:item/zpm_robot_arm"
 			rotation: 0.0d
 			width: 3.0d
-			x: -19.0d
+			x: -4.5d
 			y: -7.0d
 		}
 		{
@@ -63,7 +63,7 @@
 			image: "gtceu:item/zpm_fluid_regulator"
 			rotation: 0.0d
 			width: 3.0d
-			x: -27.5d
+			x: -13.0d
 			y: -7.0d
 		}
 		{
@@ -75,7 +75,7 @@
 			image: "gtceu:block/multiblock/fusion_reactor/fusion/overlay_front"
 			rotation: 0.0d
 			width: 3.0d
-			x: -26.5d
+			x: -10.0d
 			y: 5.5d
 		}
 	]
@@ -102,7 +102,7 @@
 				item: "gtceu:quantum_processor_mainframe"
 				type: "item"
 			}]
-			x: -25.0d
+			x: -13.5d
 			y: 2.5d
 		}
 		{
@@ -123,7 +123,7 @@
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 13.5d
 			y: 2.5d
 		}
 		{
@@ -148,7 +148,7 @@
 				item: "gtceu:luv_circuit_assembler"
 				type: "item"
 			}]
-			x: -4.5d
+			x: 7.0d
 			y: 2.5d
 		}
 		{
@@ -171,7 +171,7 @@
 				item: "gtceu:crystal_processor"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 9.0d
 			y: 2.5d
 		}
 		{
@@ -193,7 +193,7 @@
 				item: "gtceu:crystal_processor_assembly"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 10.5d
 			y: 2.5d
 		}
 		{
@@ -219,13 +219,14 @@
 				item: "gtceu:crystal_processor_computer"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 12.0d
 			y: 2.5d
 		}
 		{
 			dependencies: [
 				"4DDFD3BAA86DC342"
 				"574E65B7954A13D0"
+				"7936FF3ED75DCA59"
 			]
 			description: [
 				"Now we can bring a new Tier of power to our Multiblocks!"
@@ -245,8 +246,8 @@
 				item: "gtceu:zpm_energy_input_hatch"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 5.0d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["303A3AFA49DAC64F"]
@@ -268,8 +269,8 @@
 				item: "gtceu:zpm_energy_input_hatch_4a"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 5.0d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3EDDF34A71CD78B9"]
@@ -288,8 +289,8 @@
 				item: "gtceu:zpm_energy_input_hatch_16a"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 5.0d
+			x: -4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["18FEFB1BC6DFE49C"]
@@ -308,8 +309,8 @@
 				item: "gtceu:zpm_substation_output_hatch_64a"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 4.0d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -360,7 +361,7 @@
 					type: "observation"
 				}
 			]
-			x: -18.0d
+			x: -6.5d
 			y: 1.0d
 		}
 		{
@@ -381,8 +382,8 @@
 				item: "gtceu:uhpic_wafer"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 4.5d
+			x: -6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["53C5CE6433E201BD"]
@@ -399,14 +400,13 @@
 				item: "gtceu:uhpic_chip"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 4.5d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"37A1137A59A2086B"
 				"4DDFD3BAA86DC342"
-				"56180F60F8E3D879"
 			]
 			description: [
 				"Fusion Reactions are the opposite of typical Nuclear reactions. Rather than splitting an atom, which causes massive amounts of energy to be released, Fusion is the merging of 2 atoms nuclei, which also causes a massive release of energy, and results in the creation of new materials."
@@ -427,7 +427,7 @@
 				item: "gtceu:luv_fusion_reactor"
 				type: "item"
 			}]
-			x: -14.5d
+			x: -3.0d
 			y: -0.5d
 		}
 		{
@@ -452,7 +452,7 @@
 				item: "gtceu:fusion_glass"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -1.0d
 			y: -0.5d
 		}
 		{
@@ -480,7 +480,7 @@
 				item: "gtceu:fusion_casing"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -2.0d
 			y: -0.5d
 		}
 		{
@@ -503,7 +503,7 @@
 				item: "gtceu:superconducting_coil"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -2.5d
 			y: -1.5d
 		}
 		{
@@ -528,7 +528,7 @@
 				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -546,85 +546,8 @@
 				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 10.5d
 			y: -1.5d
-		}
-		{
-			dependencies: [
-				"7936FF3ED75DCA59"
-				"64D61C038B2DDF7C"
-				"4DDFD3BAA86DC342"
-				"45D3D29701BC8B70"
-			]
-			description: [
-				"With the LuV version of the Array, you can insert up to 64 of a Machine to parallelize recipies. "
-				""
-				"You can have up to 12 Inputs, and set each Input Buses Programmed Circuits separately. Check the \"Distinct Buses\" Box and you can have the Array process multiple recipies all at the same time. "
-				""
-				"Ex: 64 IV Assemblers. On Input Bus Circuit 6 the other Circuit 8. Add in Tungstensteel Plates and Tungstensteel Frames and you will get Robust Tungstensteel Machine Casing, and IV Machine Casing, at insane speeds."
-			]
-			icon: "gtceu:luv_processing_array"
-			id: "06FDC9070DC737CF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4AB54276E62FBF6B"
-				table_id: 7041264405549027492L
-				type: "loot"
-			}]
-			shape: "gear"
-			size: 1.0d
-			subtitle: "The Processing Array is an incredibly powerful tool. "
-			tasks: [
-				{
-					id: "47EF75C9AFBC59CE"
-					item: "gtceu:luv_processing_array"
-					type: "item"
-				}
-				{
-					count: 7L
-					id: "6F8F641709AF076A"
-					item: "gtceu:sturdy_machine_casing"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "522ED53E0BE6B49F"
-					item: "gtceu:cleanroom_glass"
-					type: "item"
-				}
-				{
-					id: "366FE3D36004A51F"
-					item: "gtceu:iv_energy_input_hatch"
-					type: "item"
-				}
-				{
-					id: "5362E3D6F1FC8D85"
-					item: "gtceu:maintenance_hatch"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "7532070E7F4EEEA2"
-					item: "gtceu:lv_output_bus"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "2D6E4D7FE39CB320"
-					item: "gtceu:hv_input_bus"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "4BDB36752643CC5A"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:luv_processing_array"
-					type: "observation"
-				}
-			]
-			x: -20.0d
-			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -635,7 +558,7 @@
 			description: [
 				"Now that we have the Fusion Reactor Mk1 running, we can obtain Rare Resources that are needed to advance us further into the next tiers!"
 				""
-				"In this case, we have Europium. Which we can use to make Sturdy HSS-E Casings for the LuV Tier Processing Array."
+				"In this case, we have Europium. Which will be used frequently as we continue to climb up the tiers, and is even a component of the GregStar!"
 			]
 			id: "74510B6C9C16A628"
 			rewards: [{
@@ -668,7 +591,7 @@
 				item: "gtceu:europium_bucket"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -691,7 +614,7 @@
 				item: "gtceu:neutron_reflector"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -715,7 +638,7 @@
 				item: "gtceu:double_beryllium_plate"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -0.5d
 			y: -2.0d
 		}
 		{
@@ -738,14 +661,14 @@
 				item: "gtceu:beryllium_dust"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -0.5d
 			y: -3.0d
 		}
 		{
 			description: [
 				"Naquadah is going to be an extremely vital component of this Tier as well as future tiers."
 				""
-				"Naquadah or Naq in short is used in its many various forms from ZPM and onwards. If you know the origins of Naquadah, than all of these references make sense."
+				"Naquadah or Naq in short is used in its many various forms from ZPM and onwards. If you know the origins of Naquadah, then all of these references make sense."
 			]
 			id: "7D972F334DCE5626"
 			rewards: [{
@@ -761,7 +684,7 @@
 				item: "gtceu:naquadah_dust"
 				type: "item"
 			}]
-			x: -22.0d
+			x: -10.5d
 			y: -4.0d
 		}
 		{
@@ -800,7 +723,7 @@
 				item: "gtceu:fluoroantimonic_acid_bucket"
 				type: "item"
 			}]
-			x: -24.5d
+			x: -13.0d
 			y: -3.0d
 		}
 		{
@@ -844,7 +767,7 @@
 				item: "gtceu:impure_enriched_naquadah_solution_bucket"
 				type: "item"
 			}]
-			x: -24.0d
+			x: -12.5d
 			y: -2.0d
 		}
 		{
@@ -868,7 +791,7 @@
 				item: "gtceu:antimony_trifluoride_dust"
 				type: "item"
 			}]
-			x: -24.5d
+			x: -13.0d
 			y: -4.0d
 		}
 		{
@@ -891,7 +814,7 @@
 				item: "gtceu:antimony_trioxide_dust"
 				type: "item"
 			}]
-			x: -24.5d
+			x: -13.0d
 			y: -5.0d
 		}
 		{
@@ -918,7 +841,7 @@
 				item: "gtceu:trinium_sulfide_dust"
 				type: "item"
 			}]
-			x: -24.0d
+			x: -12.5d
 			y: -1.0d
 		}
 		{
@@ -941,7 +864,7 @@
 				item: "gtceu:trinium_ingot"
 				type: "item"
 			}]
-			x: -23.0d
+			x: -11.5d
 			y: -1.0d
 		}
 		{
@@ -963,7 +886,7 @@
 				item: "gtceu:luv_centrifuge"
 				type: "item"
 			}]
-			x: -25.0d
+			x: -13.5d
 			y: -1.0d
 		}
 		{
@@ -988,7 +911,7 @@
 				item: "gtceu:zpm_machine_hull"
 				type: "item"
 			}]
-			x: -22.0d
+			x: -10.5d
 			y: 2.5d
 		}
 		{
@@ -1008,7 +931,7 @@
 				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -3.5d
 			y: -3.0d
 		}
 		{
@@ -1031,25 +954,27 @@
 				item: "gtceu:luv_assembler"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -3.5d
 			y: -2.0d
 		}
 		{
-			dependencies: ["7D972F334DCE5626"]
+			dependencies: ["57D12E37E980FDBB"]
 			description: ["Optimize your Naq line, as your going to need quite a bit of Naquadah Plates for your ZPM Machine Hulls"]
 			id: "61BC5BBD1657D409"
 			rewards: [{
+				count: 6
 				id: "66650E2532E3DD67"
-				item: "gtceu:naquadah_plate"
+				item: "gtceu:naquadah_alloy_plate"
+				random_bonus: 6
 				type: "item"
 			}]
 			subtitle: "Naq Plates for Days"
 			tasks: [{
 				id: "4BA9F1DA1ADA2496"
-				item: "gtceu:naquadah_plate"
+				item: "gtceu:naquadah_alloy_plate"
 				type: "item"
 			}]
-			x: -22.0d
+			x: -10.5d
 			y: 1.5d
 		}
 		{
@@ -1069,7 +994,7 @@
 				item: "gtceu:crystal_cpu"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 9.0d
 			y: 3.5d
 		}
 		{
@@ -1089,7 +1014,7 @@
 				item: "gtceu:engraved_crystal_chip"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 9.0d
 			y: 4.5d
 		}
 		{
@@ -1127,8 +1052,8 @@
 				item: "gtceu:biomass_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 6.5d
+			x: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -1153,8 +1078,8 @@
 				item: "gtceu:luv_distillery"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 5.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			description: ["Nothing special to see here. Just Distilling some water."]
@@ -1170,8 +1095,8 @@
 				item: "gtceu:distilled_water_bucket"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 5.5d
+			x: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["039DBFD0172076AB"]
@@ -1205,8 +1130,8 @@
 				item: "gtceu:bacteria_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.5d
+			x: 7.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["54118BE76738EB6D"]
@@ -1229,8 +1154,8 @@
 				item: "gtceu:raw_crystal_chip"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 7.0d
+			x: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1256,7 +1181,7 @@
 				item: "gtceu:raw_crystal_chip_parts"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 9.0d
 			y: 5.5d
 		}
 		{
@@ -1275,8 +1200,8 @@
 				item: "gtceu:exquisite_emerald_gem"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 8.0d
+			x: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3B0BC233A6C81B73"]
@@ -1294,7 +1219,7 @@
 				item: "gtceu:luv_forge_hammer"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 8.0d
 			y: 6.0d
 		}
 		{
@@ -1330,15 +1255,15 @@
 				item: "gtceu:bacterial_sludge_bucket"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 6.0d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2036ED4A823C1456"]
 			description: [
 				"The Large Naquadah pipe is just one of many components out of the many various types of Naquadah. "
 				""
-				"But for now, we just need the Large Naquadah pipe for our LuV Processing Array."
+				"But for now, we are planning ahead for the UV Electric Pump."
 			]
 			id: "64D61C038B2DDF7C"
 			rewards: [{
@@ -1353,8 +1278,8 @@
 				item: "gtceu:naquadah_large_fluid_pipe"
 				type: "item"
 			}]
-			x: -20.0d
-			y: -1.0d
+			x: -8.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["49262C7C4E9EF712"]
@@ -1372,12 +1297,13 @@
 				item: "gtceu:zpm_voltage_coil"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 6.5d
+			x: -3.700000000000001d
+			y: 4.9d
 		}
 		{
+			dependencies: ["7244FA69157727AF"]
 			description: [
-				"Naquadah Alloy is very important for us to be able to make comoponents for multiblocks and other machines."
+				"Naquadah Alloy is very important for us to be able to make components for multiblocks and other machines."
 				""
 				"We will need a lot of Naq Alloy, so we can make all of the Naq Alloy Frames needed for the Rotary Hearth."
 			]
@@ -1395,8 +1321,8 @@
 				item: "gtceu:naquadah_alloy_dust"
 				type: "item"
 			}]
-			x: -18.5d
-			y: -5.0d
+			x: -10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["30CD69FC601F26B5"]
@@ -1419,7 +1345,7 @@
 				item: "gtceu:naquadah_alloy_frame"
 				type: "item"
 			}]
-			x: -6.5d
+			x: 5.0d
 			y: -4.0d
 		}
 		{
@@ -1439,14 +1365,11 @@
 				item: "gtceu:fine_europium_wire"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 5.0d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
-			dependencies: [
-				"74510B6C9C16A628"
-				"238CC42F61006CE9"
-			]
+			dependencies: ["74510B6C9C16A628"]
 			description: ["Now that we have a solidified version of our Europium we can further process it into componentes for our Machines and Multiblocks!"]
 			id: "603ABA13788E2216"
 			rewards: [{
@@ -1462,7 +1385,7 @@
 				item: "gtceu:europium_ingot"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -2.0d
 			y: 2.5d
 		}
 		{
@@ -1485,7 +1408,7 @@
 				item: "gtceu:zpm_electric_motor"
 				type: "item"
 			}]
-			x: -10.0d
+			x: 1.5d
 			y: 2.5d
 		}
 		{
@@ -1508,10 +1431,11 @@
 				type: "checkmark"
 			}]
 			title: "Onward to ZPM Machines"
-			x: -6.5d
+			x: 5.0d
 			y: 2.5d
 		}
 		{
+			dependencies: ["56180F60F8E3D879"]
 			description: ["We have used a bunch of chromium already. But we again need to call on this highly resistive and high hardness metal, except in its liquid form."]
 			id: "4CE6CABCB2334C0E"
 			rewards: [{
@@ -1542,8 +1466,8 @@
 				item: "gtceu:chromium_bucket"
 				type: "item"
 			}]
-			x: -24.0d
-			y: 8.0d
+			x: -5.700000000000003d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -1580,8 +1504,8 @@
 				item: "gtceu:lutetium_bucket"
 				type: "item"
 			}]
-			x: -24.0d
-			y: 9.0d
+			x: -5.700000000000003d
+			y: 8.0d
 		}
 		{
 			description: ["This semi-conductor will be put to good use in order for our Fusion Reactor to produce a useful byproduct."]
@@ -1614,8 +1538,8 @@
 				item: "gtceu:silicon_bucket"
 				type: "item"
 			}]
-			x: -25.5d
-			y: 8.0d
+			x: -7.200000000000003d
+			y: 7.0d
 		}
 		{
 			description: [
@@ -1652,8 +1576,8 @@
 				item: "gtceu:lanthanum_bucket"
 				type: "item"
 			}]
-			x: -25.5d
-			y: 9.0d
+			x: -7.200000000000003d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1679,11 +1603,10 @@
 				item: "gtceu:americium_bucket"
 				type: "item"
 			}]
-			x: -23.0d
-			y: 9.0d
+			x: -4.700000000000003d
+			y: 8.0d
 		}
 		{
-			dependencies: ["4CE6CABCB2334C0E"]
 			description: [
 				"The following are all resulting resources from processing in the Fusion Reactor. "
 				""
@@ -1704,8 +1627,8 @@
 				title: "Fusion Reactor Resources"
 				type: "checkmark"
 			}]
-			x: -24.0d
-			y: 7.0d
+			x: -5.700000000000003d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1746,32 +1669,8 @@
 				item: "gtceu:naquadria_bucket"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["603ABA13788E2216"]
-			description: [
-				"We have been waiting on these in order to make our Sturdy HSS-E Machine Casing, so we can finally piece together our LuV Tier Processing Array's!"
-				""
-				"Remember, Processing Arrays are Incredibly powerful and super benefical if you are using Single Block Machines!"
-			]
-			id: "45D3D29701BC8B70"
-			rewards: [{
-				count: 4
-				id: "7A62759723EC3D17"
-				item: "gtceu:europium_frame"
-				random_bonus: 4
-				type: "item"
-			}]
-			subtitle: "Sturdy!"
-			tasks: [{
-				id: "5625514CF56BB7B1"
-				item: "gtceu:europium_frame"
-				type: "item"
-			}]
-			x: -15.0d
-			y: 2.5d
+			x: -2.6999999999999993d
+			y: 8.0d
 		}
 		{
 			description: [
@@ -1808,8 +1707,8 @@
 				item: "gtceu:enriched_naquadah_bucket"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 8.0d
+			x: -1.1999999999999993d
+			y: 7.0d
 		}
 		{
 			description: [
@@ -1846,8 +1745,8 @@
 				item: "gtceu:radon_bucket"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 9.0d
+			x: -1.1999999999999993d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1890,8 +1789,8 @@
 				item: "gtceu:neutronium_bucket"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 7.5d
+			x: -3.6999999999999993d
+			y: 6.5d
 		}
 		{
 			dependencies: ["278252472B5B94D4"]
@@ -1914,7 +1813,7 @@
 				item: "gtceu:normal_laser_pipe"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -6.5d
 			y: -0.5d
 		}
 		{
@@ -1938,7 +1837,7 @@
 				item: "gtceu:zpm_256a_laser_source_hatch"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -6.5d
 			y: -1.5d
 		}
 		{
@@ -1962,7 +1861,7 @@
 				item: "gtceu:luv_256a_laser_source_hatch"
 				type: "item"
 			}]
-			x: -19.0d
+			x: -7.5d
 			y: -0.5d
 		}
 		{
@@ -1981,7 +1880,7 @@
 				item: "gtceu:zpm_emitter"
 				type: "item"
 			}]
-			x: -7.0d
+			x: 4.5d
 			y: -2.5d
 		}
 		{
@@ -2000,7 +1899,7 @@
 				item: "gtceu:zpm_sensor"
 				type: "item"
 			}]
-			x: -6.0d
+			x: 5.5d
 			y: -2.5d
 		}
 		{
@@ -2019,7 +1918,7 @@
 				item: "gtceu:naquadah_alloy_ingot"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -0.5d
 			y: -4.0d
 		}
 		{
@@ -2039,7 +1938,7 @@
 				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -3.5d
 			y: -4.0d
 		}
 		{
@@ -2062,12 +1961,11 @@
 				item: "gtceu:indium_tin_barium_titanium_cuprate_dust"
 				type: "item"
 			}]
-			x: -17.5d
+			x: -6.0d
 			y: -5.0d
 		}
 		{
 			dependencies: [
-				"57D12E37E980FDBB"
 				"29706E3681616E41"
 				"2036ED4A823C1456"
 			]
@@ -2086,7 +1984,7 @@
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -6.5d
 			y: -4.0d
 		}
 		{
@@ -2110,7 +2008,7 @@
 				item: "gtceu:naquadah_ingot"
 				type: "item"
 			}]
-			x: -20.0d
+			x: -8.5d
 			y: -4.0d
 		}
 	]

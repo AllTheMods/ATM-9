@@ -109,6 +109,9 @@ ServerEvents.tags('item', event => {
     '#alltheores:ore_hammers','@ftbic','minecraft:nether_star','bloodmagic:sanguinereverter','#occultism:miners/ores','apotheosis:potion_charm'
   ])
 
+  event.remove('forge:ingots/naquadah', 'sgjourney:naquadah')
+  event.remove('forge:ingots/naquadah_alloy', 'sgjourney:naquadah')
+
   
   registerCustomBlocksForGregtech(event)
 })

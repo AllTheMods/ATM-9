@@ -152,14 +152,14 @@
 				{
 					count: 8
 					id: "7A8C4DEF04A1497F"
-					item: "gtceu:platinum_fine_wire"
+					item: "gtceu:fine_platinum_wire"
 					random_bonus: 8
 					type: "item"
 				}
 				{
 					count: 2
 					id: "07FD547CFCD64325"
-					item: "gtceu:gallium_arsenide_small_dust"
+					item: "gtceu:small_gallium_arsenide_dust"
 					random_bonus: 2
 					type: "item"
 				}
@@ -1229,5 +1229,5 @@
 			y: 5.5d
 		}
 	]
-	title: "Extreme Voltage"
+	title: "{atm9.chapters.30.title}"
 }
