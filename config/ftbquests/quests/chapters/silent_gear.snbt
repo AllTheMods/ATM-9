@@ -31,7 +31,7 @@
 			y: -0.75d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -1437,5 +1437,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Silent Gear"
+	title: "{atm9.chapters.9.title}"
 }

@@ -1,0 +1,402 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis_gear"
+	group: "22FB35B0FEF1343D"
+	icon: "apotheosis:mythic_material"
+	id: "6693050B0EE71CEB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5A0305BB1F8EA932"]
+			description: ["{atm9.quest.affixes.desc.dust}"]
+			id: "40926361B5A17F74"
+			rewards: [{
+				count: 5
+				id: "2579209BE96C413A"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2610766334068246"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.dust}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40926361B5A17F74"]
+			description: ["{atm9.quest.affixes.desc.vials_and_sigils}"]
+			id: "6BB9490E23CBD287"
+			rewards: [{
+				count: 3
+				id: "002EA5A58F916932"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "472F56378989C26F"
+				title: "Vials and Sigils"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.affixes.vials_and_sigils}"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6BB9490E23CBD287"]
+			description: ["{atm9.quest.affixes.desc.vialS}"]
+			id: "6631947900DB54E9"
+			rewards: [{
+				id: "4AC1747180F51F65"
+				item: "apotheosis:vial_of_expulsion"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6518962A5B0E9512"
+				item: "apotheosis:vial_of_expulsion"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.vialS}"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BB9490E23CBD287"]
+			description: ["{atm9.quest.affixes.desc.vialA}"]
+			id: "3FC0042D2284242B"
+			rewards: [{
+				id: "62A325FB7DF0ACB9"
+				item: "apotheosis:vial_of_extraction"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78DC43B1B647D02E"
+				item: "apotheosis:vial_of_extraction"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.vialA}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6BB9490E23CBD287"]
+			description: ["{atm9.quest.affixes.desc.vialU}"]
+			id: "1124A964E1B8E0EE"
+			rewards: [{
+				id: "3CED5BFC09C57FF8"
+				item: "minecraft:name_tag"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59D07BFACCEB130D"
+				item: "apotheosis:vial_of_unnaming"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.vialU}"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6BB9490E23CBD287"]
+			description: ["{atm9.quest.affixes.desc.sigil}"]
+			id: "482190A9DBE834BE"
+			rewards: [{
+				id: "22A4AC549D2F3233"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1354E0A2E840D42D"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.sigil}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["482190A9DBE834BE"]
+			description: ["{atm9.quest.affixes.desc.superior_sigil}"]
+			id: "1770FF93638B3F22"
+			rewards: [{
+				id: "1CDEB24AB78F7763"
+				item: "apotheosis:superior_sigil_of_socketing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "528DE40DB533970E"
+				item: "apotheosis:superior_sigil_of_socketing"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.superior_sigil}"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: ["{atm9.quest.affixes.desc.gems}"]
+			id: "5A0305BB1F8EA932"
+			shape: "octagon"
+			tasks: [{
+				advancement: "apotheosis:affix/gem"
+				criterion: ""
+				id: "61A0FDFECECB6FFF"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.affixes.gems}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40926361B5A17F74"]
+			description: ["{atm9.quest.affixes.desc.salvaging_table}"]
+			id: "1A507E77BF750F60"
+			tasks: [{
+				id: "14B79330933FD83E"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.salvaging_table}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "70D60687AAB145FE"
+			rewards: [{
+				count: 3
+				id: "26ABC6C223985753"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.affixes.subt.common}"
+			tasks: [{
+				id: "650CAE5254152FB9"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			title: "&7Mysterious Scrap Materials&n"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "0A70CC1A0F4F1CD1"
+			rewards: [{
+				count: 3
+				id: "4BBFAD124EE92BED"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.affixes.subt.uncommon}"
+			tasks: [{
+				id: "70594E0D8666EB60"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.uncommon}"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "40C8A9DF4581FF8C"
+			rewards: [{
+				count: 3
+				id: "0B6CB6E01FDAC37E"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.affixes.subt.rare}"
+			tasks: [{
+				id: "71D7450548341CEB"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.rare}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "061244C38F05CBFE"
+			rewards: [{
+				count: 3
+				id: "5D401F212458026B"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.affixes.subt.epic}"
+			tasks: [{
+				id: "6BED70FB7EF343B8"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.epic}"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "738FB4AC92679507"
+			rewards: [{
+				id: "151067FE2B8D5BEE"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.affixes.subt.mythic}"
+			tasks: [{
+				id: "68C43D5FAB4FB1FB"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.mythic}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A70CC1A0F4F1CD1"]
+			description: ["{atm9.quest.affixes.desc.simple}"]
+			id: "375359043E71349C"
+			rewards: [{
+				count: 3
+				id: "79DD1566F31F63C9"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D2CA0A0899233C5"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.simple}"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"375359043E71349C"
+				"061244C38F05CBFE"
+			]
+			description: ["{atm9.quest.affixes.desc.reforge}"]
+			id: "166DF03D93BC11F1"
+			rewards: [{
+				count: 3
+				id: "705ACD5F9E420F18"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34D325EA464BEEEC"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.reforge}"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["359E1FFAB18FE50F"]
+			description: ["{atm9.quest.affixes.desc.gem_cutting}"]
+			id: "544011D1C48D8E65"
+			rewards: [{
+				count: 10
+				id: "3B0E731D612ECA80"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4241A0F3897E9DF0"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.gem_cutting}"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["40926361B5A17F74"]
+			description: ["{atm9.quest.affixes.desc.smith}"]
+			id: "359E1FFAB18FE50F"
+			rewards: [{
+				count: 2
+				id: "52E0A2CFCA537D12"
+				item: "minecraft:smooth_stone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69CF59A7A4E03D1F"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			title: "{atm9.quest.affixes.smith}"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["544011D1C48D8E65"]
+			description: ["{atm9.quest.affixes.desc.flawless}"]
+			id: "47317516A98016C0"
+			rewards: [{
+				id: "314A0EB4D43A8162"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "apotheosis:affix/mythic_gem"
+				criterion: ""
+				id: "2CA5B077B6357FB0"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.affixes.flawless}"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["40926361B5A17F74"]
+			description: ["{atm9.quest.affixes.desc.affix}"]
+			id: "67422A235EBAD4CF"
+			rewards: [{
+				count: 9
+				id: "28175FB7B29B97F4"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "apotheosis:affix/root"
+				criterion: ""
+				id: "1129E77C7FCEC1CA"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.affixes.affix}"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67422A235EBAD4CF"]
+			description: ["{atm9.quest.affixes.desc.ancient}"]
+			id: "68DD99B788216006"
+			rewards: [{
+				id: "078C3AA7A00D3A57"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "apotheosis:affix/ancient"
+				criterion: ""
+				id: "2FF1889B361964B9"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.affixes.ancient}"
+			x: -3.5d
+			y: 1.5d
+		}
+	]
+	title: "{atm9.chapters.8.title}"
+}
