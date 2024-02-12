@@ -131,12 +131,12 @@
 				xp: 100
 			}]
 			tasks: [{
-				dimension: "blue_skies:everbright"
-				icon: "blue_skies:everbright_portal"
-				id: "62DD5D0E09A4B07B"
-				type: "dimension"
+				advancement: "blue_skies:everbright/enter"
+				criterion: ""
+				id: "083086610639994F"
+				title: "To &9Everbright&r!"
+				type: "advancement"
 			}]
-			title: "To the Everbright!"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -156,12 +156,12 @@
 				xp: 100
 			}]
 			tasks: [{
-				dimension: "blue_skies:everdawn"
-				icon: "blue_skies:everdawn_portal"
-				id: "42C206777B8EFBD1"
-				type: "dimension"
+				advancement: "blue_skies:everdawn/enter"
+				criterion: ""
+				id: "10AA43B1500FAAAA"
+				title: "To &6Everdawn&r!"
+				type: "advancement"
 			}]
-			title: "To the Everdawn!"
 			x: 4.0d
 			y: 1.5d
 		}
@@ -1717,5 +1717,5 @@
 			y: 3.5d
 		}
 	]
-	title: "Blue Skies"
+	title: "{atm9.chapters.41.title}"
 }
