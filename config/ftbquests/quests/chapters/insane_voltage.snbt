@@ -314,6 +314,48 @@
 		}
 		{
 			dependencies: [
+				"64F77D41B2D057B8"
+				"15A1D6D05A785919"
+				"77AAC2F643E92A88"
+			]
+			description: [
+				"The &aProcessing Array&r can run 16 recipes &din parallel&r for any of the single block machines you can make!"
+				""
+				"Why run in &bParallel&r when you can &6Overclock&r you ask? Well, parallelization is superior here because it doesn't use more power unlike overclocking"
+				""
+				"Additionally, you can utilize the &cDistinct Bus Mode&r with the (up to 10) different Input Busses on different Programmed Circuits for easier pattern automation with Extruders, Laser Engravers, etc"
+				""
+				"&e&lNote:&r&r Many of the single block machines have multiblock variants that are better, but I'm not going to go into those (yet)"
+			]
+			icon: "gtceu:iv_processing_array"
+			id: "72A2AA6274D6FA9A"
+			min_width: 300
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D3E931FEC790115"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7B799249998BA7E4"
+					item: "gtceu:iv_processing_array"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "188A83D9504A8470"
+					title: "Observe completed IV Processing Array"
+					type: "custom"
+				}
+			]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
 				"41EE8B40BA43DADE"
 				"1D9194E89D14BA85"
 				"6F0AD70D3748D8D2"
