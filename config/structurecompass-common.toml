@@ -8,5 +8,5 @@
 	locateUnexplored = false
 	#Defines which structures can't be searched with the Structure Compass
 	#(Supports wildcard *, Example: 'minecraft:*' will blacklist anything in the minecraft domain)
-	structureBlacklist = ["minecraft:monument"]
+	structureBlacklist = ["minecraft:*"]
 
