@@ -77,9 +77,9 @@ ServerEvents.recipes(event => {
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'ae2:quantum_ring', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'pneumaticcraft:micromissiles', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'forbidden_arcanus:dark_rune_block', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:nether_star', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'quarryplus:adv_quarry', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'industrialforegoing:infinity_nuke', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'thermal_extra:rf_coil_xfer_augment_5', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'occultism:stable_wormhole', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'mythicbotany:mjoellnir', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'apotheosis:vial_of_expulsion', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'evilcraft:lightning_bomb', 'count': 1 }
     ],
