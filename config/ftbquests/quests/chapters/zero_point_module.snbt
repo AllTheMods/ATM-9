@@ -1,0 +1,2016 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zero_point_module"
+	group: "1DA67E79B40AB130"
+	icon: "gtceu:quantum_processor_mainframe"
+	id: "220BE62A7F8EA359"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "gtceu:item/zpm_solar_panel"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "gtceu:item/zpm_sensor"
+			rotation: 0.0d
+			width: 3.0d
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "gtceu:item/zpm_emitter"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "gtceu:item/zpm_robot_arm"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "gtceu:item/zpm_fluid_regulator"
+			rotation: 0.0d
+			width: 3.0d
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "gtceu:block/multiblock/fusion_reactor/fusion/overlay_front"
+			rotation: 0.0d
+			width: 3.0d
+			x: -10.0d
+			y: 5.5d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Now that we are in the Quantum Age, Our machines are flying! "
+				""
+				"But With greater processing, comes more complications. Power, resources, and processing lines. That doesnt deter us though, right? Thats exactly why we are here!"
+			]
+			id: "57B5100C11F76EE9"
+			rewards: [{
+				id: "40310A9DED8DFBED"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "diamond"
+			size: 1.6d
+			subtitle: "What comes after Quantum?"
+			tasks: [{
+				id: "75C56E1C5E4AEB0C"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["400E51BB469CB023"]
+			description: ["Now this is the future! We are making progress, and stepping towards the Unknown!"]
+			id: "72082D70F5D22632"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71A04B1584677E3F"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.75d
+			subtitle: "Crystal Mainframe!"
+			tasks: [{
+				id: "53856B29BA2E6B12"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E9CD5C38BF5970F"]
+			description: [
+				"We have been waiting a while for this one. "
+				""
+				"But that makes the LuV Tier Circuit Assembler just that much more valuable! "
+				""
+				"And now we can utilize it to make our next tier of Circuits! Did someone say... Progress??"
+			]
+			id: "23B9FE196A09B587"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13761E04ED96D8DB"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Circuits Galore!"
+			tasks: [{
+				id: "70B2E5E51F183692"
+				item: "gtceu:luv_circuit_assembler"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"23B9FE196A09B587"
+				"41AE8AEA3EB144F3"
+				"5A3FF46A2B275049"
+			]
+			description: ["For now we get 2 of these, but with a few advancements in the next tier up, we can get 4 IV Processors per set of crafting items! Worth!"]
+			id: "279BC6FAF7827738"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D10BF5E4DD57A65"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "IV"
+			tasks: [{
+				id: "4915ABC2F75766F6"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"279BC6FAF7827738"
+				"41AE8AEA3EB144F3"
+			]
+			description: ["Finally! We now have a crafting recipe that gives us 2 LuV processors for 1 Craft! Lets Gooo!"]
+			id: "2943989C642F93AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74263AF1FC22DD46"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "&dLuV"
+			tasks: [{
+				id: "115662BF32B8E428"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2943989C642F93AE"
+				"41AE8AEA3EB144F3"
+			]
+			description: [
+				"Still at 2 for 1 with ZPM, but we are making progress. "
+				""
+				"Soon enough we will be in the next tier and will get a far better return on our craft!"
+			]
+			id: "400E51BB469CB023"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ECE14BB3713B06B"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "ZPM"
+			tasks: [{
+				id: "1C65673B6A316C26"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4DDFD3BAA86DC342"
+				"574E65B7954A13D0"
+				"7936FF3ED75DCA59"
+			]
+			description: [
+				"Now we can bring a new Tier of power to our Multiblocks!"
+				""
+				"Keep following this quest line!"
+			]
+			id: "303A3AFA49DAC64F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64D8E1362F7C77AA"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "More Power!"
+			tasks: [{
+				id: "78EB177A110F9E51"
+				item: "gtceu:zpm_energy_input_hatch"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["303A3AFA49DAC64F"]
+			description: [
+				"Another power up? So soon?!"
+				""
+				"Now we can run our Multiblocks at UV Tier power?!?! Our EBF's are going to be super happy!"
+			]
+			id: "3EDDF34A71CD78B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "709C19F8279FE409"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Again?!"
+			tasks: [{
+				id: "258A3BEF6FBAFBB0"
+				item: "gtceu:zpm_energy_input_hatch_4a"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EDDF34A71CD78B9"]
+			description: ["Brining more power output to our Substations, which as we progress will help immensely in ensuring our equipment stays running!"]
+			id: "18FEFB1BC6DFE49C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1020536FE2F1506D"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Substation Tier up!"
+			tasks: [{
+				id: "7AF951909BFD274A"
+				item: "gtceu:zpm_energy_input_hatch_16a"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["18FEFB1BC6DFE49C"]
+			description: ["Now we can push 64Amps from our substations at the ZPM tier!"]
+			id: "30D97EABFE772604"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29263578DA00972C"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Big Substation Tier UP!"
+			tasks: [{
+				id: "4505631DDCFA5057"
+				item: "gtceu:zpm_substation_output_hatch_64a"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3BD5C517AD024A45"
+				"4DDFD3BAA86DC342"
+			]
+			description: [
+				"&3Active Transformers&r are the most efficient way to transmit EU across Gregtech based Infrastructure. "
+				""
+				"There are some rules to making sure it will function. "
+				"1.) The pipes/laser can only travel in straight lines. You can use another &3Active Transformer&r to divert the Laser to a different direction."
+				"2.) The pipes &0&lMUST&r&r be colored to function. This is accomplished by using the Gregtech Spray Can."
+			]
+			icon: "gtceu:active_transformer"
+			id: "278252472B5B94D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "251F2E5A2D1BC26D"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Fricken Lasers"
+			tasks: [
+				{
+					id: "0E7925D7F1B3A06B"
+					item: "gtceu:active_transformer"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "4300336FCC6BB7F3"
+					item: "gtceu:high_power_casing"
+					type: "item"
+				}
+				{
+					id: "447E86A2C00AC55F"
+					item: "gtceu:superconducting_coil"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "77FDB19DF051089A"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:active_transformer"
+					type: "observation"
+				}
+			]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"These Wafers make the highest tier traditional Semi-Conductor chip, the UHPIC or Ultra High Power IC (Integrated Circuit). "
+				""
+				"There will be a great demand on these chips from many of the machines we create from here on out."
+			]
+			id: "53C5CE6433E201BD"
+			rewards: [{
+				id: "303D615EB146BB20"
+				item: "gtceu:uhpic_wafer"
+				type: "item"
+			}]
+			subtitle: "Ultra High Power Integrated Circuit"
+			tasks: [{
+				id: "12F678374AA282E7"
+				item: "gtceu:uhpic_wafer"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53C5CE6433E201BD"]
+			description: ["The UHPIC chip once the wafer is broken down into chips by a Cutting machine."]
+			id: "4DDFD3BAA86DC342"
+			rewards: [{
+				id: "7D7D55F821BEDD38"
+				item: "gtceu:uhpic_chip"
+				type: "item"
+			}]
+			subtitle: "Semi-Conductors are Fun!"
+			tasks: [{
+				id: "461A7534464550FF"
+				item: "gtceu:uhpic_chip"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"37A1137A59A2086B"
+				"4DDFD3BAA86DC342"
+			]
+			description: [
+				"Fusion Reactions are the opposite of typical Nuclear reactions. Rather than splitting an atom, which causes massive amounts of energy to be released, Fusion is the merging of 2 atoms nuclei, which also causes a massive release of energy, and results in the creation of new materials."
+				""
+				"Thats what we will be using the Fusion Reactor for. We want the resultant materials for further processing and use in recipies!"
+			]
+			id: "2F4258088CBFC399"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "592051FE656E1B8C"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			size: 1.0d
+			subtitle: "Gotta get yourself a Mr. Fusion!"
+			tasks: [{
+				id: "59D732639645233B"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6DA0ABBC89711536"]
+			description: [
+				"Obviously with a process like Fusion Reaction, you need some good support materials. But what happens when you still want to see whats happening inside?"
+				""
+				"Well, you get this block."
+			]
+			id: "6410CE6C57CA5B54"
+			rewards: [{
+				count: 4
+				id: "629C81E2FD46DC59"
+				item: "gtceu:fusion_glass"
+				random_bonus: 4
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Thats some Thicc Glass!"
+			tasks: [{
+				id: "3C7811110903AE68"
+				item: "gtceu:fusion_glass"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6DA0ABBC89711536"
+				"37A1137A59A2086B"
+			]
+			description: [
+				"I &dLuV&r how dedicated the previous tier is, to helping us advance through ZPM!"
+				""
+				"Using some components we can already craft, and some new materials, we are able to make the casings which will surround the Fusion Reactor!"
+			]
+			id: "22D8C29095C81DFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26D45E1ECFDFD078"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			size: 1.0d
+			subtitle: "Gotta make the Mr. Fusion out of something."
+			tasks: [{
+				count: 79L
+				id: "26DE362441100777"
+				item: "gtceu:fusion_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E8CFF0A41DF824D"]
+			description: [
+				"This superconducting coil has many uses with many different multiblocks, and within many different recipies! There are 3 different recipies for it as well."
+				""
+				"In this use case, we are going to utilize the lowest tier, which has the highest resource cost, but is easiest format for us right now."
+			]
+			id: "37A1137A59A2086B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EF50A1AD9F875F1"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Superconductors!"
+			tasks: [{
+				id: "022330425EF7131D"
+				item: "gtceu:superconducting_coil"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7EE14ED04C64E2AA"]
+			description: [
+				"We are almost there!"
+				""
+				"Now we have our Multi-Layered Fiber Reinforced Printed Circuit Boards, and we can direcly use them in our next Tier of Processors!"
+			]
+			id: "41AE8AEA3EB144F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63A3B1E5622F2745"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finish em!"
+			tasks: [{
+				id: "2D632FE10CBB8E16"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["If we take the Fiber Reinforced Circuit Boards we made in the LuV tier, and change the recipe a bit, we can create a Multi-Layered Fiber Reinforced Circuit Board"]
+			id: "7EE14ED04C64E2AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3249BFEB689D3910"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Change up"
+			tasks: [{
+				id: "320F25520D6B4B61"
+				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2F4258088CBFC399"
+				"22D8C29095C81DFF"
+				"6410CE6C57CA5B54"
+			]
+			description: [
+				"Now that we have the Fusion Reactor Mk1 running, we can obtain Rare Resources that are needed to advance us further into the next tiers!"
+				""
+				"In this case, we have Europium. Which will be used frequently as we continue to climb up the tiers, and is even a component of the GregStar!"
+			]
+			id: "74510B6C9C16A628"
+			rewards: [{
+				id: "46606992F7508705"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:europium"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:europium"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Getting Super Rare Elements!"
+			tasks: [{
+				id: "565E8ACA3EBFC082"
+				item: "gtceu:europium_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35FF7974C6DD1D9F"]
+			description: [
+				"Neutron reflector is vital to the operations of any reactor. In this case we will be utilizing Iridium as the material for our Neutron Reflector. "
+				""
+				"These refelectors keep neutrons within the field of reaction, causing the chain to continue. "
+			]
+			id: "6DA0ABBC89711536"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B65E946D64E0AC0"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Neutron Reflectors?? Things are getting serious..."
+			tasks: [{
+				id: "7D941CD3F5CB3F94"
+				item: "gtceu:neutron_reflector"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A8BF9BE08F54513"]
+			description: [
+				"The Demon Core was an item that was the epicenter for one of the quickest (in time of reaction) nuclear accidents to happen. The Demon core was manufactured by the Manhattan Project during World War II and the intent was to use it to learn more about Nuclear Radiation and Moderation."
+				""
+				"The core iteself was made of Plutonium, but the 2 hemispheres that surrounded the core were made of a Neutron Moderator, Beryllium. Beryllium is an attractive material for Neutrons and reduces the energy of Neutrons. "
+			]
+			id: "35FF7974C6DD1D9F"
+			rewards: [{
+				count: 8
+				id: "582AEC4B901EF28D"
+				item: "gtceu:double_beryllium_plate"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "The Demon Core"
+			tasks: [{
+				id: "225DC73DA26D4318"
+				item: "gtceu:double_beryllium_plate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Beryllium can be obtained many ways. Some of you may already have a good backstock of &2Beryllium&r from processing Enderpearl dust in an Electrolyzer. "
+				""
+				"This is a good way to obtain a decent amount of &2Beryllium&r, as well as other resources that are helpful and used in other recipies, such as Nitrogen Dioxide."
+			]
+			id: "3A8BF9BE08F54513"
+			rewards: [{
+				count: 12
+				id: "27D53CE56ECB2827"
+				item: "gtceu:beryllium_dust"
+				random_bonus: 12
+				type: "item"
+			}]
+			subtitle: "\"By Grabthar's hammer...!\""
+			tasks: [{
+				id: "4F5F584CA7F7AB16"
+				item: "gtceu:beryllium_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Naquadah is going to be an extremely vital component of this Tier as well as future tiers."
+				""
+				"Naquadah or Naq in short is used in its many various forms from ZPM and onwards. If you know the origins of Naquadah, then all of these references make sense."
+			]
+			id: "7D972F334DCE5626"
+			rewards: [{
+				count: 12
+				id: "125C754C72B6AB6A"
+				item: "gtceu:naquadah_dust"
+				random_bonus: 12
+				type: "item"
+			}]
+			subtitle: "Must Make More Naq!"
+			tasks: [{
+				id: "4F60C9A2E9323E94"
+				item: "gtceu:naquadah_dust"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2462AE2029F3C8E8"]
+			description: [
+				"Now we have Fluoroantimonic Acid. This is the catalyst that we were processing towards for our Naq processing line."
+				""
+				"Make sure that you passive this in a renewable manner, as we will need to keep the Naq processing line running."
+			]
+			id: "3C9E93426D6412E0"
+			rewards: [{
+				id: "27FCCE5E79FD8F97"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:fluoroantimonic_acid"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:fluoroantimonic_acid"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Converting to Liquid"
+			tasks: [{
+				id: "78E198546E2EFDCC"
+				item: "gtceu:fluoroantimonic_acid_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3C9E93426D6412E0"
+				"7D972F334DCE5626"
+			]
+			description: [
+				"Using a Large Chemical Reactor to mix the Naquadah Dust and the Fluoroantimonic Acid will net you 3 resources. We are after the Impure Enriched Naquadah Solution. "
+				""
+				"You can take the Titanium Trifluoride and EBF it to recoup some Hydrochloric Acid as well as a Titanium Ingot."
+				""
+				"Save the Impure Naquadah Solution, as we will further process that down for Naquadria solution/Naquadria Ingots later on."
+			]
+			id: "0E73B4A4A1CC6B0F"
+			rewards: [{
+				id: "41BF54932E10D1DA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:impure_enriched_naquadah_solution"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:impure_enriched_naquadah_solution"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Impure but Enriched"
+			tasks: [{
+				id: "0FBFFB359759ECBC"
+				item: "gtceu:impure_enriched_naquadah_solution_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17148E654DD28A94"]
+			description: [
+				"Shifting the Trioxide to Trifluoride. "
+				""
+				"Getting closer to the catalyst that we need for the Naq line."
+			]
+			id: "2462AE2029F3C8E8"
+			rewards: [{
+				count: 8
+				id: "74A1B9514588B54C"
+				item: "gtceu:antimony_trifluoride_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Three Fluorides"
+			tasks: [{
+				id: "0640CF3032CDC41C"
+				item: "gtceu:antimony_trifluoride_dust"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Antimony Trioxide is needed for the Naq processing line. "
+				""
+				"I challenge you to keep the Antimony part of the processing line all housed within GregTech."
+			]
+			id: "17148E654DD28A94"
+			rewards: [{
+				count: 6
+				id: "288ABA25C7CF459C"
+				item: "gtceu:antimony_trioxide_dust"
+				random_bonus: 12
+				type: "item"
+			}]
+			subtitle: "Anti-Money"
+			tasks: [{
+				id: "090C7C48D571C273"
+				item: "gtceu:antimony_trioxide_dust"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6206EE9A045553CC"
+				"0E73B4A4A1CC6B0F"
+			]
+			description: [
+				"Trinium Sulfide is a byproduct of our Naq line processing, but its a very necessary by product that will be used in great amounts. "
+				""
+				"As previously stated, you should really figure out how to passive the processing line. To be fair, at this point, everything should be passived."
+			]
+			id: "2D65DC315CCC60C8"
+			rewards: [{
+				count: 8
+				id: "74F77DBF440B0C32"
+				item: "gtceu:trinium_sulfide_dust"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "By Products"
+			tasks: [{
+				id: "5449CB95FD9E6F0E"
+				item: "gtceu:trinium_sulfide_dust"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2D65DC315CCC60C8"
+				"238CC42F61006CE9"
+			]
+			description: ["Take that Trinium Sulfide we got in the last quest, and put it in an EBF with Zinc, and out will pop a Hot Trinium Inogt. Cool that down and now we have the Trinium we are after."]
+			id: "7244FA69157727AF"
+			rewards: [{
+				count: 8
+				id: "705E46130095E8CD"
+				item: "gtceu:trinium_ingot"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Smelted Trinium"
+			tasks: [{
+				id: "5177EC853F097069"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Use the Centrifuge to spin the &cTrinium Sulfide&r out of the &2Impure Enriched Naquadah solution&r. "
+				""
+				"There are 2 other processing methods, but neither of them produce Trinium, which is a vital resource in moving through the ZPM Tier. "
+			]
+			id: "6206EE9A045553CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CBFDAA0A3DC155D"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Increasing the RPM's"
+			tasks: [{
+				id: "4A12CC1F7C5C5512"
+				item: "gtceu:luv_centrifuge"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"57B5100C11F76EE9"
+				"61BC5BBD1657D409"
+			]
+			description: [
+				"Now that we can make ZPM Tier Hulls, we can prepare to get some crazy powerful machines. "
+				""
+				"We arent at the top tier yet, but still, you will notice that these machines are running processes from previous tiers at incredible rates!"
+			]
+			id: "7936FF3ED75DCA59"
+			rewards: [{
+				id: "76A3B129144684E7"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			subtitle: "New Tier, New Machines!"
+			tasks: [{
+				id: "05267F2419255ADD"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E697FE6A6C8B4EE"]
+			description: ["The last Superconductor we made was a while back. But now each tier's Superconductor will become more important, as well as allow us to have no Amperage loss cabling!"]
+			id: "3BD5C517AD024A45"
+			rewards: [{
+				count: 8
+				id: "11777A53DC0E744E"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Recall"
+			tasks: [{
+				id: "093845766C9697B7"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3BD5C517AD024A45"]
+			description: [
+				"I would have recommended to make the ZPM tier assembler, but unfortunately we cannot do that quite yet. Part of the reason we need this, is so that we can fire up this Fusion Reactor."
+				""
+				"One of the Resulting Resource by products from the Reactor will allow us to craft some new items allowing us to progress!"
+			]
+			id: "1E8CFF0A41DF824D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E88999ABF37859D"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Still got LuV "
+			tasks: [{
+				id: "74A6D0BFB223308F"
+				item: "gtceu:luv_assembler"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57D12E37E980FDBB"]
+			description: ["Optimize your Naq line, as your going to need quite a bit of Naquadah Plates for your ZPM Machine Hulls"]
+			id: "61BC5BBD1657D409"
+			rewards: [{
+				count: 6
+				id: "66650E2532E3DD67"
+				item: "gtceu:naquadah_alloy_plate"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "Naq Plates for Days"
+			tasks: [{
+				id: "4BA9F1DA1ADA2496"
+				item: "gtceu:naquadah_alloy_plate"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F2B9938B63A7029"]
+			description: ["We are at the edge of Technology, and now we need to utilize Crystal Chip's to make some new Processors!!"]
+			id: "5A3FF46A2B275049"
+			rewards: [{
+				count: 4
+				id: "7509EBAF01F9CE8B"
+				item: "gtceu:crystal_cpu"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Shiny Crystal"
+			tasks: [{
+				id: "1B6CE8D8008B8887"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A22E94DD83B12AE"]
+			description: ["Once you have some Raw Crystal chips, run them through an EBF with Emerald Plates, and you can pick up your Crystal CPU's!"]
+			id: "2F2B9938B63A7029"
+			rewards: [{
+				count: 6
+				id: "2BFE1936B5A5C790"
+				item: "gtceu:engraved_crystal_chip"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "Time to add Heat"
+			tasks: [{
+				id: "718A7339E4C71E22"
+				item: "gtceu:engraved_crystal_chip"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"We have already made a bunch of Biomass when we were first making our Ethylene. "
+				""
+				"So this should be old news, and hard to obtain."
+			]
+			id: "1323E846A2B82BE1"
+			rewards: [{
+				id: "3F4B60F8967A71F8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:biomass"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:biomass"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Old News"
+			tasks: [{
+				id: "003113D235795313"
+				item: "gtceu:biomass_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4E67C04AD43EB70D"
+				"5F167E9F2A2891E1"
+			]
+			description: [
+				"This question has been asked previously, but it will be asked again..."
+				""
+				"Can this thing brew some beers?"
+			]
+			id: "039DBFD0172076AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59946D44F26B4969"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Distillery you say?"
+			tasks: [{
+				id: "077C38692C57DA37"
+				item: "gtceu:luv_distillery"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: ["Nothing special to see here. Just Distilling some water."]
+			id: "5F167E9F2A2891E1"
+			rewards: [{
+				id: "04FF5FA54F58A1B3"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Distilled Water"
+			tasks: [{
+				id: "097613F7654D6601"
+				item: "gtceu:distilled_water_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["039DBFD0172076AB"]
+			description: ["You may want to avoid falling into the Bacteria Solutoin. Youll probably survive, assuming you dont have any open cuts..."]
+			id: "2B6AE772B72E6DD3"
+			rewards: [{
+				id: "1025416F26F8AD46"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:bacteria"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:bacteria"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Dont Fall In"
+			tasks: [{
+				id: "4AF64C66272C1D79"
+				item: "gtceu:bacteria_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54118BE76738EB6D"]
+			description: [
+				"Your First Raw Crystal Chip may take quite a few tries to get. "
+				""
+				"But once you get it, you can reliably duplicate them using a simple loop of crafting a Raw Crystal Chip, Forge Hammering it, into Raw Crystal Chip parts, then processing those into more Raw Crystal Chips, and repeating. "
+			]
+			id: "3B0BC233A6C81B73"
+			rewards: [{
+				count: 4
+				id: "35DAC4E38666F727"
+				item: "gtceu:raw_crystal_chip"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Low Odds"
+			tasks: [{
+				id: "338730546AC68CBA"
+				item: "gtceu:raw_crystal_chip"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0E7193213FAE3CCE"
+				"0EF593963F0769F9"
+			]
+			description: [
+				"The Bacterial Sludge was added as an option. Its not necessary, as once you have Europium you dont need to use the Bacterial Sludge."
+				""
+				"It was added since its a quicker, and far cheaper product to make. Yes you lose 20% chance on producing the Circuit, but at the savings of time and resources, its well worth it!"
+			]
+			id: "7A22E94DD83B12AE"
+			rewards: [{
+				count: 6
+				id: "7B2F6BC77F293A7D"
+				item: "gtceu:raw_crystal_chip_parts"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "Just an Option"
+			tasks: [{
+				id: "74EC90490A985995"
+				item: "gtceu:raw_crystal_chip_parts"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			description: ["Get together a dozen or so of these Equisite Emeralds, as they will help immensely in these next few steps."]
+			id: "54118BE76738EB6D"
+			rewards: [{
+				count: 2
+				id: "43FB15EF0B3AF968"
+				item: "gtceu:exquisite_emerald_gem"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Exquisite Might I say?"
+			tasks: [{
+				id: "7DB2AC2D17860702"
+				item: "gtceu:exquisite_emerald_gem"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3B0BC233A6C81B73"]
+			description: ["This will help us to multiply endlessly the Raw Crystal Chip's. Yes there still a few other processing steps, but the return rate wont be as bad as the initial rate of 10%."]
+			id: "0EF593963F0769F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71666087FE1F001E"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Hammah Time!"
+			tasks: [{
+				id: "1A1317C3B958F1CB"
+				item: "gtceu:luv_forge_hammer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1323E846A2B82BE1"
+				"2B6AE772B72E6DD3"
+			]
+			id: "0E7193213FAE3CCE"
+			rewards: [{
+				id: "24E1AA5A5E87DE14"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:bacterial_sludge"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:bacterial_sludge"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44B71430CC6B80EC"
+				item: "gtceu:bacterial_sludge_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2036ED4A823C1456"]
+			description: [
+				"The Large Naquadah pipe is just one of many components out of the many various types of Naquadah. "
+				""
+				"But for now, we are planning ahead for the UV Electric Pump."
+			]
+			id: "64D61C038B2DDF7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "584D859A964A6D8C"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "One of many Naq Components"
+			tasks: [{
+				id: "4D61809FD3C8FD08"
+				item: "gtceu:naquadah_large_fluid_pipe"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["49262C7C4E9EF712"]
+			description: ["A necessary Component in order for us to be able to craft our next tier of Energy Hatches!"]
+			id: "574E65B7954A13D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B0BBB0A6E9936D3"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Zero Points!"
+			tasks: [{
+				id: "6A14169A3E8ADE2B"
+				item: "gtceu:zpm_voltage_coil"
+				type: "item"
+			}]
+			x: -3.700000000000001d
+			y: 4.9d
+		}
+		{
+			dependencies: ["7244FA69157727AF"]
+			description: [
+				"Naquadah Alloy is very important for us to be able to make components for multiblocks and other machines."
+				""
+				"We will need a lot of Naq Alloy, so we can make all of the Naq Alloy Frames needed for the Rotary Hearth."
+			]
+			id: "57D12E37E980FDBB"
+			rewards: [{
+				count: 8
+				id: "6243FFE5B0489563"
+				item: "gtceu:naquadah_alloy_dust"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "This is Naq the alloy you were looking for"
+			tasks: [{
+				id: "1984C87F86501555"
+				item: "gtceu:naquadah_alloy_dust"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30CD69FC601F26B5"]
+			description: [
+				"These Naquadah Frames will have a lot of uses as a component and building block. "
+				""
+				"Maybe passive these, as we are going to need a lot of them."
+			]
+			id: "71060904C6A86C68"
+			rewards: [{
+				count: 8
+				id: "434AECD069EE5174"
+				item: "gtceu:naquadah_alloy_frame"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Ive Been Framed!!"
+			tasks: [{
+				id: "257CD37E55BFB902"
+				item: "gtceu:naquadah_alloy_frame"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["603ABA13788E2216"]
+			description: ["Finally we have the means to make our next Voltage coil for Energy hatches as well as ZPM Motors for other ZPM tier Covers!"]
+			id: "49262C7C4E9EF712"
+			rewards: [{
+				count: 16
+				id: "662F4646FD708262"
+				item: "gtceu:fine_europium_wire"
+				random_bonus: 32
+				type: "item"
+			}]
+			subtitle: "Super Rare Fine Wire"
+			tasks: [{
+				id: "4731362FCD25A516"
+				item: "gtceu:fine_europium_wire"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74510B6C9C16A628"]
+			description: ["Now that we have a solidified version of our Europium we can further process it into componentes for our Machines and Multiblocks!"]
+			id: "603ABA13788E2216"
+			rewards: [{
+				count: 6
+				id: "361E56D1AA154B38"
+				item: "gtceu:europium_ingot"
+				random_bonus: 12
+				type: "item"
+			}]
+			subtitle: "Its the Final Countdown!"
+			tasks: [{
+				id: "3F8CA5C8FDF15BCB"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49262C7C4E9EF712"]
+			description: [
+				"Now that we have the resources to craft ZPM Motors, we can craft other ZPM components, which will allow us to craft ZPM machines! "
+				""
+				"Were getting there, one step at a time!"
+			]
+			id: "4E67C04AD43EB70D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AE6609DC1C63304"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Tesla aint got nothing on this motor!"
+			tasks: [{
+				id: "6322B8613D117DA8"
+				item: "gtceu:zpm_electric_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4E67C04AD43EB70D"
+				"7166F2CA3C5DA720"
+				"7C04AA69BE44BCE8"
+			]
+			description: ["And we should be able to craft ZPM machines and process out all of the ZPM tier components!"]
+			id: "7E9CD5C38BF5970F"
+			rewards: [{
+				id: "24AE360752563CDF"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "3 ZPM components now"
+			tasks: [{
+				id: "7C91AC93D782A4BE"
+				title: "Stage 2 EBF"
+				type: "checkmark"
+			}]
+			title: "Onward to ZPM Machines"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["56180F60F8E3D879"]
+			description: ["We have used a bunch of chromium already. But we again need to call on this highly resistive and high hardness metal, except in its liquid form."]
+			id: "4CE6CABCB2334C0E"
+			rewards: [{
+				id: "45E335E5F6E878E8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:chromium"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:chromium"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Liquid Chromium"
+			tasks: [{
+				id: "2BC07C65FA9A108B"
+				item: "gtceu:chromium_bucket"
+				type: "item"
+			}]
+			x: -5.700000000000003d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"49A42093EB18E7EB"
+				"06CD5693FF52270F"
+			]
+			description: ["This is an odd element. It is extremely resistant to corrosion in dry climates, but its not resistant in moist climates. "]
+			id: "28F49121DEB0000A"
+			rewards: [{
+				id: "443A6F81AD167386"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:lutetium"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:lutetium"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Liquid Lutetium"
+			tasks: [{
+				id: "41A278CBAEF5905A"
+				item: "gtceu:lutetium_bucket"
+				type: "item"
+			}]
+			x: -5.700000000000003d
+			y: 8.0d
+		}
+		{
+			description: ["This semi-conductor will be put to good use in order for our Fusion Reactor to produce a useful byproduct."]
+			id: "49A42093EB18E7EB"
+			rewards: [{
+				id: "4B699265D7AD0B09"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:silicon"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:silicon"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Liquid Silicon"
+			tasks: [{
+				id: "2D272075B7FD3525"
+				item: "gtceu:silicon_bucket"
+				type: "item"
+			}]
+			x: -7.200000000000003d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Lanthanum is a soft and ductile, silvery-white metal that tarnishes slowly when exposed to air. "
+				""
+				"Here we will use its liquid form so the Fusion Reactor can form a byproduct for us."
+			]
+			id: "06CD5693FF52270F"
+			rewards: [{
+				id: "1E5709704DA97514"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:lanthanum"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:lanthanum"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Liquid Lanthanum"
+			tasks: [{
+				id: "243F9F9151B0E49B"
+				item: "gtceu:lanthanum_bucket"
+				type: "item"
+			}]
+			x: -7.200000000000003d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4CE6CABCB2334C0E"
+				"28F49121DEB0000A"
+			]
+			description: [
+				"Americium is typically used as a particle detector in Smoke Detectors."
+				""
+				"The amount is incredibly tiny and harmless to people, but is very effective at detecting smoke, which is why it is used."
+			]
+			id: "5AD33290313151D6"
+			rewards: [{
+				count: 4
+				id: "38B64226FDD87086"
+				item: "gtceu:americium_bucket"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Liquid Americium"
+			tasks: [{
+				id: "56FF9905F151C1C3"
+				item: "gtceu:americium_bucket"
+				type: "item"
+			}]
+			x: -4.700000000000003d
+			y: 8.0d
+		}
+		{
+			description: [
+				"The following are all resulting resources from processing in the Fusion Reactor. "
+				""
+				"We need to keep working down the processing line of these resources but they arent all needed quite yet. "
+				""
+				"That being said, getting an early start on processing them will greatly benefit you later on."
+			]
+			hide_dependent_lines: true
+			id: "56180F60F8E3D879"
+			rewards: [{
+				id: "13AD3A4D2496C925"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Reactor Resources"
+			tasks: [{
+				id: "39AB837F238D57BD"
+				title: "Fusion Reactor Resources"
+				type: "checkmark"
+			}]
+			x: -5.700000000000003d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"21F5EED683499B71"
+				"4B82B3DAB03C1729"
+			]
+			description: [
+				"Now were talking!"
+				""
+				"Our Fusion Reactor is making the good stuff now! "
+			]
+			id: "097735604CB11E83"
+			rewards: [{
+				id: "559BE511F5D982CE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:naquadria"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:naquadria"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Liquid Naquadria"
+			tasks: [{
+				id: "65C1C5D7EF816179"
+				item: "gtceu:naquadria_bucket"
+				type: "item"
+			}]
+			x: -2.6999999999999993d
+			y: 8.0d
+		}
+		{
+			description: [
+				"We are going to need many different types of Naquadah, this being one of them."
+				""
+				"Make sure you have a good system in place that can harvest a lot of Naquadah."
+			]
+			id: "4B82B3DAB03C1729"
+			rewards: [{
+				id: "11332098833BF62D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:enriched_naquadah"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:enriched_naquadah"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Liquid Enriched Naquadah"
+			tasks: [{
+				id: "3326BF7B105FFB89"
+				item: "gtceu:enriched_naquadah_bucket"
+				type: "item"
+			}]
+			x: -1.1999999999999993d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Were going to need quite a bit of Radon Moving forwards. "
+				""
+				"If you havn't already, get a Distillation tower running to process some Liquid Ender Air for its Radon."
+			]
+			id: "21F5EED683499B71"
+			rewards: [{
+				id: "504C7CBF13DD8453"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:radon"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:radon"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Radon"
+			tasks: [{
+				id: "7C588411F4BA45B3"
+				item: "gtceu:radon_bucket"
+				type: "item"
+			}]
+			x: -1.1999999999999993d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"097735604CB11E83"
+				"5AD33290313151D6"
+			]
+			description: [
+				"While we we dont have a direct need for Neutronium yet, it would be beneficial to start processing out some Neutronium."
+				""
+				"You can use the neutronium, americicium and other resources to make some superconductors, but again, its not necessary... Yet..."
+			]
+			id: "695E846B663EC185"
+			rewards: [{
+				id: "0C7A433FBA240813"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:neutronium"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:neutronium"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.75d
+			subtitle: "Neutronium!!!"
+			tasks: [{
+				id: "273FC653514D8BC2"
+				item: "gtceu:neutronium_bucket"
+				type: "item"
+			}]
+			x: -3.6999999999999993d
+			y: 6.5d
+		}
+		{
+			dependencies: ["278252472B5B94D4"]
+			description: [
+				"These are the pipes for the Active Transformer."
+				""
+				"Again, they &0&lMUST&r&r be colored in order to function, and cannot make turns. You will need more Active Transformers to change directions of the laser."
+			]
+			id: "7F2D4C5BEFE3DDD3"
+			rewards: [{
+				count: 16
+				id: "6676F747CC517749"
+				item: "gtceu:normal_laser_pipe"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "Yet More Pipes"
+			tasks: [{
+				id: "1251249FA97FD527"
+				item: "gtceu:normal_laser_pipe"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7F2D4C5BEFE3DDD3"]
+			description: [
+				"And if 256Amps seems like a lot, than think again. At least with Active Transformers. "
+				""
+				"This is the lowest tier Laser Source Hatch in Amperage. They run all they way up to 4096A Hatches. Now thats some Power!"
+			]
+			id: "1194FF35ADAA9957"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AD4747FBF3B08E8"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Sharks with Laser beams?"
+			tasks: [{
+				id: "630A6BAE13801D9A"
+				item: "gtceu:zpm_256a_laser_source_hatch"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F2D4C5BEFE3DDD3"]
+			description: [
+				"This is the reason why the Active Transformer is the best method of EU transmission using GT infrastructure."
+				""
+				"Its ability to transmit &nMASSIVE&r Amperage around is unrivaled."
+			]
+			id: "72FA90C181139957"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AA38C20471912F2"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "Thats some power!"
+			tasks: [{
+				id: "5E8AFBD479A7F707"
+				item: "gtceu:luv_256a_laser_source_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71060904C6A86C68"]
+			description: ["This ZPM Component pairs up nicely with the ZPM Sensor!"]
+			id: "7166F2CA3C5DA720"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64850BD986E2AEC0"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Emitting Emitters"
+			tasks: [{
+				id: "57F6B185EC9D9470"
+				item: "gtceu:zpm_emitter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["71060904C6A86C68"]
+			description: ["This ZPM Component pairs up nicely with the ZPM Emitter!"]
+			id: "7C04AA69BE44BCE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B72113DD85CE526"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Sensing Sensors"
+			tasks: [{
+				id: "623204898436F305"
+				item: "gtceu:zpm_sensor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["238CC42F61006CE9"]
+			description: ["Now just 1 more processing step before you can finally craft the Naquadah Alloy Frame&l"]
+			id: "30CD69FC601F26B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4730CEA4D0ED5C42"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "Naq Alloy Time!"
+			tasks: [{
+				id: "56CC8F3A91DA9F7B"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["238CC42F61006CE9"]
+			description: ["These LuV Tier Superconductor ingots will serve us well in making Superconductor Wires, and Fine Wire. "]
+			id: "7E697FE6A6C8B4EE"
+			rewards: [{
+				count: 6
+				id: "46860F5306D9FCE3"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "With Ingots we have options!"
+			tasks: [{
+				id: "2DF19D9748DD24BB"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"The Wire choices for LuV Tier arent great, in terms of Amperage Loss. "
+				""
+				"For that Reason is reocmmended to use the SuperConductor cable, which doesnt need to be covered by rubber, and also has no Amperage Loss."
+			]
+			id: "29706E3681616E41"
+			rewards: [{
+				count: 4
+				id: "02851C5158880EF1"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Thats a Lot of Different Dusts!"
+			tasks: [{
+				id: "01F6E99509DFC141"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"29706E3681616E41"
+				"2036ED4A823C1456"
+			]
+			description: ["Now we can make a Super conductor, Naquadah Alloy, Trinium, and Europium ingots!"]
+			id: "238CC42F61006CE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61D0294B38B0E710"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "We Need More Heat!"
+			tasks: [{
+				count: 16L
+				id: "78F54B8FDB45EA7D"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D972F334DCE5626"]
+			description: [
+				"Were going to need more. A LOT more Naquadah. "
+				""
+				"At least we can get our Naquadah Coils going now, and help our EBF's to process more metals!"
+			]
+			id: "2036ED4A823C1456"
+			rewards: [{
+				count: 12
+				id: "050633E74A894C31"
+				item: "gtceu:naquadah_ingot"
+				random_bonus: 24
+				type: "item"
+			}]
+			subtitle: "Were going to need more Naq"
+			tasks: [{
+				id: "6DE235DDD37EA552"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+	]
+	title: "Zero Point Module"
+}

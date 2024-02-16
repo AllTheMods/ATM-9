@@ -4,7 +4,7 @@
 	filename: "circuits"
 	group: "1DA67E79B40AB130"
 	id: "560EF4C38DEACA03"
-	order_index: 7
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -552,7 +552,7 @@
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
-			title: "Ultra Voltage Age"
+			title: "Ultimate Voltage Age"
 			x: -5.0d
 			y: 1.5d
 		}
@@ -746,7 +746,7 @@
 			id: "3F591BADFF8585FE"
 			tasks: [{
 				id: "3371F13082C01141"
-				item: "gtceu:tungstensteel_coil_block"
+				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
 			x: 1.0d
