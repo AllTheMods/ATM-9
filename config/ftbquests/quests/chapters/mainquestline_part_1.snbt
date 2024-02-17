@@ -365,18 +365,6 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
-			height: 8.0d
-			hover: [ ]
-			image: "atm:textures/questpics/gettingstarted/confused1.png"
-			rotation: 0.0d
-			width: 8.0d
-			x: -9.0d
-			y: 3.5d
-		}
-		{
 			alpha: 200
 			click: ""
 			corner: false
@@ -464,7 +452,7 @@
 				type: "item"
 			}]
 			title: "&eWelcome to the Getting Started Chapter&r!"
-			x: -3.0d
+			x: -9.0d
 			y: 3.0d
 		}
 		{
@@ -728,18 +716,12 @@
 			}]
 			tasks: [{
 				id: "01A7709155C7564E"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:workbench"
-					}
-				}
+				item: "minecraft:crafting_table"
 				title: "Crafting Table"
 				type: "item"
 			}]
 			title: "Putting the Craft in Minecraft"
-			x: 0.0d
+			x: -3.0d
 			y: 3.0d
 		}
 		{
