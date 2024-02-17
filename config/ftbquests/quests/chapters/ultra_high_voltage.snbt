@@ -1,0 +1,1161 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ultra_high_voltage"
+	group: "1DA67E79B40AB130"
+	icon: "gtceu:wetware_processor_mainframe"
+	id: "60A9BBC993EB2FD2"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"I know it seems odd that we Finished off the last section and started this section with just the Supercomputer. But there is a reason for that."
+				""
+				"There were components that are needed for the Wetware Processor Mainframe, which will be covered in this section. "
+			]
+			id: "2EA74A823D55D472"
+			rewards: [{
+				id: "138C41B0779E8FD9"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Wheres the Main Frame?"
+			tasks: [{
+				id: "393B796BC1144684"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3D89F65537D7CA1E"
+				"69B74D404B331A14"
+				"2555BA914C466B5C"
+				"0CBF5A49066468DD"
+			]
+			description: ["So much of the work that has been done was directly to support being able to construct the &n&l&5Star Forge!&r&r&r"]
+			icon: "gtceu:star_forge"
+			id: "7AE6AF0B5D3390E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B8BCAA279AE6AF3"
+				table_id: 8781463007120195614L
+				type: "loot"
+			}]
+			shape: "heart"
+			size: 2.0d
+			subtitle: "Crafting the Cosmos"
+			tasks: [
+				{
+					id: "618354EF9636D820"
+					item: "gtceu:star_forge"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "454F7D74D75CD02E"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					count: 38L
+					id: "73DEF8CD08315211"
+					item: "gtceu:superconducting_coil"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "333856BA249BF370"
+					item: "gtceu:trinium_coil_block"
+					type: "item"
+				}
+				{
+					count: 225L
+					id: "5B999D1E4E018709"
+					item: "gtceu:atomic_casing"
+					type: "item"
+				}
+				{
+					count: 224L
+					id: "084BFE437F0F086D"
+					item: "connectedglass:clear_glass_black"
+					type: "item"
+				}
+				{
+					id: "34D497643849738F"
+					item: "allthetweaks:atm_star_block"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "5D68D1F844ED048B"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:star_forge"
+					type: "observation"
+				}
+			]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3D89F65537D7CA1E"
+				"51DBD03FB5F3E26F"
+				"6E18951E41103391"
+				"2555BA914C466B5C"
+			]
+			description: [
+				"Yes. We have Fusion Reactors Mk.I Mk.II and Mk.III. Now there is the Mega Fusion Reactor. "
+				""
+				"All play their own parts, and all are vital to us moving forwards. So again, get at it, and Make yourself the Mega Fusion Reactor. "
+			]
+			icon: "gtceu:mega_fusion_reactor"
+			id: "39CD35C91F07258C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F44AB57C50B81A8"
+				table_id: 8781463007120195614L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.6d
+			subtitle: "Mega Fusion Reactor"
+			tasks: [
+				{
+					id: "6B99152931C28CF4"
+					item: "gtceu:mega_fusion_reactor"
+					type: "item"
+				}
+				{
+					id: "38001A0BC813A12F"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					id: "15645CCCFD36B3FD"
+					item: "gtceu:fusion_glass"
+					type: "item"
+				}
+				{
+					id: "1DF6ABF3DEA03113"
+					item: "gtceu:fusion_casing_mk3"
+					type: "item"
+				}
+				{
+					id: "1CEE1CF49EB683A2"
+					item: "gtceu:fusion_coil"
+					type: "item"
+				}
+				{
+					id: "2F1FE1A604A2BF82"
+					item: "gtceu:tritanium_coil_block"
+					type: "item"
+				}
+				{
+					id: "2952CCEFEE9245AB"
+					item: "gtceu:atomic_casing"
+					type: "item"
+				}
+				{
+					id: "11920FFB5235E181"
+					item: "gtceu:heatproof_machine_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "271B87AFF66246B5"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:mega_fusion_reactor"
+					type: "observation"
+				}
+			]
+			x: -13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2B8E66760514BE77"]
+			description: [
+				"The Fusion Reactor Mk. III. Im sure you have already seen what is to come. So you understand that parts of this is necessary. "
+				""
+				"While that is true of whats to come, that doesnt mean the Mk.III isnt of value to us in its intended use. "
+				""
+				"Make at least 1 Mk.III Reactor. It will serve you well."
+			]
+			id: "6E18951E41103391"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "689AC54A19B9EE50"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "Mk. III"
+			tasks: [
+				{
+					id: "1786D0D015C3884C"
+					item: "gtceu:uv_fusion_reactor"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4E15B886A44A5574"
+					item: "gtceu:uv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5192F226B2AF2787"
+					item: "gtceu:uv_output_hatch"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "56277CAE203BB9F4"
+					item: "gtceu:uv_input_hatch"
+					type: "item"
+				}
+				{
+					count: 79L
+					id: "272F201D0A7BA036"
+					item: "gtceu:fusion_casing_mk3"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4700909D84885E86"
+					item: "gtceu:fusion_coil"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["69B74D404B331A14"]
+			description: [
+				"Yes, it may seem odd to Craft the UV tier Circuit Assembler, since the Mainframe used the Assembly Line, but this will be incredibly beneficial."
+				""
+				"The UV Circuit Assembler will allow you to craft 4x LuV Wetware Processors in 1 craft! Thats a huge savings and double the return!"
+			]
+			id: "0CBF5A49066468DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D7A9F44A20C359E"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "Do we Need this?"
+			tasks: [{
+				id: "3C9575096E4E44E0"
+				item: "gtceu:uv_circuit_assembler"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1DBC5E74958A62E6"]
+			description: [
+				"UHV Energy Hatch. We have finally reached the Pinnacle of Energy Hatches!"
+				""
+				"Now we can set our Multiblocks up to be able to processes any tier of power requirements!"
+			]
+			id: "5561EB1E3DD77EC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B3038B536DADF24"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "Finally at the Top"
+			tasks: [{
+				id: "3009E94D530487D4"
+				item: "gtceu:uhv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5561EB1E3DD77EC5"]
+			description: [
+				"While the UHV Energy Hatch is the Pinnacle of Energy Delivery, we still have the 4A UHV Energy Hatch."
+				""
+				"And yes, this follows the same function as the previous Tiers, and will act like 2x Energy Hatches allowing you to power at a Higher Level."
+			]
+			id: "6F8E58FF4D96C4BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E7C3514A700FF15"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "Wait... I thought we were at the top?"
+			tasks: [{
+				id: "5D50568CB2796302"
+				item: "gtceu:uhv_energy_input_hatch_4a"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2B8E66760514BE77"
+				"454F2BF7F2E25D83"
+			]
+			description: [
+				"Those other Battery companies have nothing on this!"
+				""
+				"This is the Ultimate Battery, and its UHV Tier! For all your power hungry devices (at UHV tier of course)"
+			]
+			id: "0DB92C70D04725BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D073546ECACAEB6"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "Duracell Eat your heart out"
+			tasks: [{
+				id: "5103FF4986087F40"
+				item: "gtceu:max_battery"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["337B492F974628A4"]
+			description: [
+				"These monster Coils are the end of the line for coils. "
+				""
+				"With these Coils we can now processes the UHV Superconductors, and finally make them into ingots! "
+			]
+			id: "44EE336BC265D21C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48D1C1DAECEAAB94"
+				table_id: 341947171990021391L
+				type: "random"
+			}]
+			subtitle: "Tritanium Coils"
+			tasks: [{
+				id: "204D0E0D57E23E89"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Well if 64 Parallel processes werent enough, how about 256? Because thats exactly what this block does. It allows you to run 256 Parallel tasks!"
+				""
+				"This is the highest tier Parallel Control Hatch there is!"
+			]
+			id: "0D59094D0C23C44F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28EC4958E4D86290"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "64 Wasnt enough?"
+			tasks: [{
+				id: "685632AB2A3AFA5C"
+				item: "gtceu:uv_parallel_hatch"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The UV Field Generator is the last Field Generator you will be building. "
+				""
+				"Plan accordingly to craft a fair amount of these."
+			]
+			id: "3D89F65537D7CA1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "379BAF8D63EAA251"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "Last Field Generator"
+			tasks: [{
+				id: "26F1CE1C23672A2A"
+				item: "gtceu:uv_field_generator"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3D89F65537D7CA1E"
+				"69B74D404B331A14"
+				"089D22E6B361EBA4"
+			]
+			description: ["While we wont necessarily be utilizing this ship immediately, it would be better to get it crafted now, and have it on stand by for when we are ready to use it."]
+			id: "7ADFAC678D21E6B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "461318EE614DBFC9"
+				table_id: 8781463007120195614L
+				type: "loot"
+			}]
+			subtitle: "One Epic Ship"
+			tasks: [{
+				id: "5AF88AB39AF171DE"
+				item: "kubejs:micro_universe_drill_ship"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"51DBD03FB5F3E26F"
+				"2EA74A823D55D472"
+			]
+			description: [
+				"Great! Now we can craft the UHV Hull. "
+				""
+				"But there doesnt seem to be UHV Machines. Why do we need this hull? Well for the Hatches and Buses of course!"
+			]
+			id: "337B492F974628A4"
+			rewards: [{
+				id: "2504A95AFC702921"
+				item: "gtceu:uhv_machine_hull"
+				type: "item"
+			}]
+			subtitle: "Wheres the Machines?"
+			tasks: [{
+				id: "10FC27F148761FA1"
+				item: "gtceu:uhv_machine_hull"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			description: ["Now these are some high tier plates! But its reasonable for the Highest tier Machine Hull to require the highest tier plates."]
+			id: "51DBD03FB5F3E26F"
+			rewards: [{
+				count: 8
+				id: "525141329895304D"
+				item: "gtceu:neutronium_plate"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "High Quality Plates"
+			tasks: [{
+				id: "51F75BD7EA96A2A7"
+				item: "gtceu:neutronium_plate"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["702CE73E39E4D4BD"]
+			description: [
+				"Just like all the other tiers, the UHV tier has its own Superconductor wire. "
+				""
+				"Thats exactly what we have here. "
+			]
+			id: "69B74D404B331A14"
+			rewards: [{
+				count: 4
+				id: "45ACB50EC233BEB8"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_single_wire"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "UHV Superconductor"
+			tasks: [{
+				id: "46C18FB5D95D423F"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_single_wire"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			description: ["Preparing components for the Micro Universe Drill Ship."]
+			id: "089D22E6B361EBA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0362B4A318F18771"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "Thrusters to Full!"
+			tasks: [
+				{
+					id: "43C5FD69AD640DC2"
+					item: "gtceu:advanced_power_thruster"
+					type: "item"
+				}
+				{
+					id: "388507895A3EC71E"
+					item: "gtceu:hsse_drill_head"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["44EE336BC265D21C"]
+			description: [
+				"This is one complex ingot. We have many different metals mixed into this alloy. But for good reason."
+				""
+				"With this ingot, now we can make some high tier components!"
+			]
+			id: "702CE73E39E4D4BD"
+			rewards: [{
+				count: 4
+				id: "1ED0731892366C24"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_ingot"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Things are complicated..."
+			tasks: [{
+				id: "2EDA6683F4114183"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_ingot"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44EE336BC265D21C"]
+			description: [
+				"Again we visit yet another very complex Alloy. "
+				""
+				"But as weve seen with other complex alloys, they are always extremeley beneficial to us, though complicated. This one is no different."
+			]
+			id: "30954ADF34DB05A7"
+			rewards: [{
+				count: 8
+				id: "09A65B9DDFB8CFF3"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Complex Alloy"
+			tasks: [{
+				id: "20552163E8FFCF03"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69B74D404B331A14"]
+			description: [
+				"Take the UHV superconductor wire we just made and craft it into a 2x."
+				""
+				"We need the 2x version for our next items we will be crafting up."
+			]
+			id: "1DBC5E74958A62E6"
+			rewards: [{
+				count: 4
+				id: "28994BA3975D3E62"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_double_wire"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Double It an pass it to the next person"
+			tasks: [{
+				id: "254F1C854907FCD7"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_double_wire"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"009041EBAD28D526"
+				"0D59094D0C23C44F"
+			]
+			description: [
+				"Im sure you have made a whole lot of EBF's during your journey to get here."
+				""
+				"There is a whole lot more to go. But now,  you can make yourself a Rotary Hearth Furnace, and get some Parallel tasks running! Lets speed that processing up!"
+			]
+			icon: "gtceu:mega_blast_furnace"
+			id: "625B5E3CDDAECFFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72E4BA4940848225"
+				table_id: 8781463007120195614L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Massive EBF!"
+			tasks: [
+				{
+					id: "66D7D97C3FAA17D4"
+					item: "gtceu:mega_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 132L
+					id: "0F5FC4C9058975BD"
+					item: "gtceu:naquadah_alloy_frame"
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "7541ECC2507CE71C"
+					item: "gtceu:tungstensteel_firebox_casing"
+					type: "item"
+				}
+				{
+					count: 40L
+					id: "11597D8C8B61CF67"
+					item: "gtceu:extreme_engine_intake_casing"
+					type: "item"
+				}
+				{
+					count: 96L
+					id: "06C01CB26C01E667"
+					item: "gtceu:cupronickel_coil_block"
+					type: "item"
+				}
+				{
+					count: 72L
+					id: "7B2A32F3AA195AB7"
+					item: "gtceu:tungstensteel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "17C7595ADF6B7BAB"
+					item: "gtceu:heat_vent"
+					type: "item"
+				}
+				{
+					count: 382L
+					id: "727FA76459DBE141"
+					item: "gtceu:high_temperature_smelting_casing"
+					type: "item"
+				}
+				{
+					count: 88L
+					id: "30BE3BCD9E872FB8"
+					item: "gtceu:robust_machine_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "647F2A845A62F6B6"
+					observe_type: 0
+					timer: 0L
+					title: "Observe a Rotary Hearth Furnace"
+					to_observe: "gtceu:rotary_hearth_furnace"
+					type: "observation"
+				}
+			]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"009041EBAD28D526"
+				"0D59094D0C23C44F"
+			]
+			description: [
+				"Now, with all those processing tasks being done by your new Rotary Hearth Furnace, you are going to need a multiblock that can keep up in cooling down your ingots."
+				""
+				"Thats where the Bulk Blast Chiller comes into play!"
+			]
+			icon: "gtceu:mega_vacuum_freezer"
+			id: "67AA17BCDE37DFAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23F4A6D4A8E87215"
+				table_id: 8781463007120195614L
+				type: "loot"
+			}]
+			shape: "gear"
+			subtitle: "Pairs well with the RHF"
+			tasks: [
+				{
+					id: "28EEC6756486D379"
+					item: "gtceu:mega_vacuum_freezer"
+					type: "item"
+				}
+				{
+					count: 74L
+					id: "1237C1C3D4F81E76"
+					item: "gtceu:tungstensteel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "33A1A44710F78A0D"
+					item: "gtceu:heat_vent"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "21CC962B100848B4"
+					item: "gtceu:tempered_glass"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "613FCC5D29BA60B8"
+					item: "gtceu:clean_machine_casing"
+					type: "item"
+				}
+				{
+					count: 154L
+					id: "068B1FF9F58C3C18"
+					item: "gtceu:frostproof_machine_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "3DCD4DD728EB87C6"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:bulk_blast_chiller"
+					type: "observation"
+				}
+			]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DBC5E74958A62E6"]
+			description: [
+				"While this does take up quite a bit of the UHV Superconductors we just made, its absolutely necessary."
+				""
+				"Trust me, you will be glad to have crafted these once you see what they are going to be used for."
+			]
+			id: "009041EBAD28D526"
+			rewards: [{
+				count: 4
+				id: "7D0C9B8FF1D6847E"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_quadruple_wire"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Now were at 4x"
+			tasks: [{
+				id: "752C8E0366A00BB3"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_quadruple_wire"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30954ADF34DB05A7"]
+			description: [
+				"Now we have the UV Superconductor Wire! Used to craft many different components, some of which are necessary for us to proceed. "
+				""
+				"More Wires.... Yay."
+			]
+			id: "2B8E66760514BE77"
+			rewards: [{
+				count: 8
+				id: "46ACF990FF292361"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "UV Superconductor"
+			tasks: [{
+				id: "6C4C914784FB64DC"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"While this may be one of the more complex crafts, having a crafting life spanning numerous Tiers, it is a required item. "
+				""
+				"Yes, Theres a lot that goes into making 1 of these, but try optimizing the Crafting path. Trust, youll give thanks afterwards."
+			]
+			id: "454F2BF7F2E25D83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35C2A7CABA21D940"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "Compex Energy"
+			tasks: [{
+				id: "0B711F2A4A5DCE95"
+				item: "gtceu:energy_cluster"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3D40D91D7D948714"]
+			description: ["I am sure that  you now see why these plates will be vital. But as you already know, they will provide a great benefit."]
+			id: "2555BA914C466B5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C723C9FAE82468A"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "The Best Casing"
+			tasks: [{
+				id: "3DF016CBFB16E05C"
+				item: "gtceu:atomic_casing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7F5DAB3EDB6E9592"]
+			description: ["There is going to be a high demand for these plates. Figuring out how to supply yourself with a bunch of these plates may be a challenge, but well worth it."]
+			id: "3D40D91D7D948714"
+			rewards: [{
+				count: 4
+				id: "3893B82B1CA8161B"
+				item: "gtceu:trinaquadalloy_plate"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "The dishes Plating matters"
+			tasks: [{
+				id: "5137EB9F0E75A746"
+				item: "gtceu:trinaquadalloy_plate"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0CF6D11016BAF3D0"]
+			description: [
+				"There is going to be a lot of Trinaquah being made."
+				""
+				"Figuring out how to optimize the process for speed and efficiency will probably be necessary."
+			]
+			id: "7F5DAB3EDB6E9592"
+			rewards: [{
+				count: 4
+				id: "7A29C802031CEB87"
+				item: "gtceu:trinaquadalloy_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Cooling Alloys"
+			tasks: [{
+				id: "74258E10C48FAA93"
+				item: "gtceu:trinaquadalloy_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			description: ["Now we are producing some complex Naquadah. Just like all the other complex resources we are working on, this one provides a significant benefit to the factor."]
+			id: "0CF6D11016BAF3D0"
+			rewards: [{
+				id: "7BB30A393756D2D3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:trinaquadalloy"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:trinaquadalloy"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Complex Naquadah"
+			tasks: [{
+				id: "747C0465749AAB2C"
+				item: "gtceu:trinaquadalloy_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6F8E58FF4D96C4BC"]
+			description: [
+				"You read that right. This is a 16A UHV Energy Hatch. 4x the potencey of the 4A Energy Hatch."
+				""
+				"And it provides all the overclocking you could dream of!"
+			]
+			id: "0DB21D996607BD8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FDB3BAF2DB98AE3"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "16A UHV Energy Hatch?!"
+			tasks: [{
+				id: "1FE57FC0C5BBD345"
+				item: "gtceu:uhv_energy_input_hatch_16a"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0DB21D996607BD8D"]
+			description: ["This has the powerflow your Substations were looking for! Now you can give it All the Amps!"]
+			id: "4576043B8297BDB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25F28455CCB66C56"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "1.21 Gigawatts!"
+			tasks: [{
+				id: "48694D5AFCE1004C"
+				item: "gtceu:uhv_substation_input_hatch_64a"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1FEB1ECDDDD8AD0E"
+				"418E02FFE241A734"
+				"79E29CFE2399AE96"
+			]
+			description: [
+				"Now we are talking!"
+				""
+				"Yes, we are not direclty utilizing this immediately. But setting it up now to craft and collect will be very beneficial, and save you a ton of time!"
+			]
+			id: "0A1BACA070EB5264"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "381F47984205C92E"
+					table_id: 341947171990021391L
+					type: "loot"
+				}
+				{
+					id: "3A692A70D38C3533"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Amount: 16000
+								FluidName: "gtceu:star_matter_plasma"
+								capacity: 16000
+							}
+						}
+						id: "evilcraft:dark_tank"
+						tag: {
+							Fluid: {
+								Amount: 16000
+								FluidName: "gtceu:star_matter_plasma"
+							}
+							capacity: 16000
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Star Matter"
+			tasks: [{
+				id: "5D4E3E64BF2AF1FE"
+				item: "gtceu:star_matter_plasma_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -10.0d
+		}
+		{
+			description: ["Liquid Iron Plasma may seem like an odd resource, but its necessary for what you are going to make."]
+			id: "1FEB1ECDDDD8AD0E"
+			rewards: [{
+				id: "45C6CD8552FBD30E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:iron"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:iron"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "All"
+			tasks: [{
+				id: "3E9D00BCF9710B1B"
+				item: "gtceu:iron_bucket"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2C9DDB3AAA30E02A"]
+			description: ["Liquid Helium Plasma. Ensure your processing lines are making enough Helium"]
+			id: "418E02FFE241A734"
+			rewards: [{
+				id: "3437B1764F2C8CB3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:helium_plasma"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:helium_plasma"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The"
+			tasks: [{
+				id: "06BCA11DE67C5D89"
+				item: "gtceu:helium_plasma_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -9.0d
+		}
+		{
+			description: ["Liquid Oxygen Plasma. We have used a ton of Oxygen by now, but we still have more to use!"]
+			id: "79E29CFE2399AE96"
+			rewards: [{
+				id: "49A3DC24BAC9CCED"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:oxygen_plasma"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:oxygen_plasma"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Plasma"
+			tasks: [{
+				id: "1E765ED0D810792E"
+				item: "gtceu:oxygen_plasma_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["39CD35C91F07258C"]
+			description: [
+				"In the next section we are going to need to make a bunch of Micro Universe Catalysts. "
+				""
+				"This component uses Star Matter Plasma to make the Catalysts."
+				""
+				"Although you dont need to make it now, it certainly would be very helpful, since we are going to need a bunch of Star Matter Plasma to make the 16x Catalysts."
+			]
+			id: "2C9DDB3AAA30E02A"
+			rewards: [{
+				id: "1DC2112E52BF01A3"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Start Now"
+			tasks: [{
+				id: "6F07606E3F7BE160"
+				title: "Jump Start"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2B8E66760514BE77"]
+			description: [
+				"You did it!"
+				""
+				"This is it! The Highest tier Processor you can make! "
+				""
+				"But you're not done yet... This may be the last processor, but theres still more to come. Its going to get even more fun from this point on!"
+			]
+			id: "054D2D3C20C2D32F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10481F8A04D25540"
+				table_id: 8781463007120195614L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Great Success!!!"
+			tasks: [{
+				id: "61316E46DA048A55"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -2.5d
+		}
+	]
+	title: "Ultra High Voltage"
+}
