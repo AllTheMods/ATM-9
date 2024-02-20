@@ -613,11 +613,7 @@
 		}
 		{
 			dependencies: ["1E7D0E40D0E2B026"]
-			description: [
-				"Using the &aAwakening Altars&r from &2Mystical Agriculture&r, you can fuse Vibranium and Unobtainium blocks together."
-				""
-				"You'll need 2 of these &cAwakened&r blocks!"
-			]
+			description: ["{atm9.quest.chapter2.desc.awakened_blocks}"]
 			id: "3109C8221B6FA608"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -704,7 +700,7 @@
 		}
 		{
 			dependencies: ["60452F698F2D4845"]
-			description: ["Tip: You might need some Melons and Candles..."]
+			description: ["{atm9.quest.chapter2.desc.mini_end}"]
 			hide_dependent_lines: true
 			id: "627A39E62DD49CD8"
 			rewards: [
@@ -877,7 +873,7 @@
 		}
 		{
 			dependencies: ["3178C46D9BD7FA88"]
-			description: ["Note: To make the Flight Module needed for this, you'll need to first make a &aSyringe&r and then fill it by attacking &bGhasts&r with it."]
+			description: ["{atm9.quest.chapter2.desc.reality}"]
 			id: "6EBCCC78DC682CC6"
 			rewards: [
 				{
@@ -923,7 +919,7 @@
 				"3B13BBC38696D452"
 			]
 			dependency_requirement: "one_completed"
-			description: ["No matter which path you took for your Digital Storage, one of these is needed to make the &6Star&r!"]
+			description: ["{atm9.quest.chapter2.desc.LDS}"]
 			hide_dependent_lines: true
 			id: "272CB4EDED35C47B"
 			optional: true
@@ -964,7 +960,7 @@
 		}
 		{
 			dependencies: ["42E5B5C27799DD93"]
-			description: ["Make sure to fill these up!"]
+			description: ["{atm9.quest.chapter2.desc.batteries}"]
 			hide_dependent_lines: true
 			id: "3178C46D9BD7FA88"
 			rewards: [{
@@ -1011,7 +1007,7 @@
 				"3B13BBC38696D452"
 			]
 			dependency_requirement: "one_completed"
-			description: ["No matter which path you took for your Digital Storage, one of these is needed to make the &6Star&r!"]
+			description: ["{atm9.quest.chapter2.desc.wireless}"]
 			hide_dependent_lines: true
 			id: "16E4EA08B647E8E0"
 			optional: true
@@ -1097,13 +1093,7 @@
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
-			description: [
-				"&aPneumaticCraft&r is all about Pressure!"
-				""
-				"To get started, you'll need to craft some &3Compressed Iron Ingots&r! The easiest way to do this is to make a hole in the ground, throw in some iron ingots (or blocks) and then blow it up with some TNT!"
-				""
-				"Some might get lost in the explosion, but that's a risk we'll have to take!"
-			]
+			description: ["{atm9.quest.chapter2.desc.PC}"]
 			hide_dependency_lines: true
 			id: "088D80D8790DBD90"
 			rewards: [
@@ -1231,13 +1221,7 @@
 				"777AEC7C551B7188"
 				"65A9D3648C7B01A4"
 			]
-			description: [
-				"Once you've built the Ritual, place the required items for the &dWorld's Eye&r on the Wooden Stands."
-				""
-				"Plant any kind of Sapling in the center and wait for it to grow. You can also just bone meal it."
-				""
-				"Once it grows, it'll absorb the items and aura from around it to create the item!"
-			]
+			description: ["{atm9.quest.chapter2.desc.world_eye}"]
 			hide_dependent_lines: true
 			id: "6827CD2484040402"
 			rewards: [{
@@ -1258,11 +1242,7 @@
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
-			description: [
-				"Once you've defeated the &5Ender Dragon&r, you'll start noticing some flowers popping up in The End. You'll need at least one to make the &6Star&r."
-				""
-				"You should also make a &eBottle and Cork&r to make some &5Bottled Darkness&r. Just take the Bottle and use it in The End."
-			]
+			description: ["{atm9.quest.chapter2.desc.end}"]
 			hide_dependency_lines: true
 			id: "777AEC7C551B7188"
 			rewards: [{
@@ -1415,11 +1395,7 @@
 		}
 		{
 			dependencies: ["70AD39D14657C1B5"]
-			description: [
-				"While you've probably struggled to increase your &dArcana&r or keep down your &cQuanta&r, the &dDraconic Endshelf&r allows you to increase your Enchanting lvl without adding to either property."
-				""
-				"You can only have a max of 5 of these bookshelves in your setup."
-			]
+			description: ["{atm9.quest.chapter2.desc.endshelf}"]
 			id: "60452F698F2D4845"
 			rewards: [
 				{
@@ -1447,7 +1423,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"Part of making the &6Star&r requires adventuring to the &dTwilight Forest&r!"
+				"{atm9.quest.chapter2.desc.twilight_forest}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"7732CF7AAA63DB3A\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -1512,13 +1488,7 @@
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
-			description: [
-				"You might want to fight the &dEnder Dragon&r a few more times...."
-				""
-				"You'll need a few &dDragon Eggs&r and several other items like &dDragon Scales&r to make the &6Star&r!"
-				""
-				"Pro Tip: Try using &aHostile Neural Networks&r to make either Dragon Eggs or Dragon's Breath so you don't have to keep coming back to fight her!"
-			]
+			description: ["{atm9.quest.chapter2.desc.Edragon}"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "22D716F330A6D4CE"
@@ -1572,9 +1542,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"&dMekanism&r is a mod that you can start from the beginning, and still be working on it right before you complete the pack."
-				""
-				"To make the Star, you'll need 5 total pieces of &dAnitmatter&r, so you might as well get started soon! Need some help getting started?"
+				"{atm9.quest.chapter2.desc.meka}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"23983F4DC524B14B\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -1599,9 +1567,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"&dPowah&r is exactly what you think it is: all about getting UNLIMITED POWAH!!!"
-				""
-				"You'll need to advance further into the mod to create some of the advanced items needed for the Star."
+				"{atm9.quest.chapter2.desc.powah}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\"}, \"text\": \"Click here to check out the Powah questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -1644,11 +1610,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"What's your power generation looking like? Is it at least close to 100 Million RF/t? No? Well we need to change that."
-				""
-				"There are plenty of ways to generate all of the power you'll need to create the &6Star&r, so let's make some of those."
-				""
-				"If you haven't checked out the &aAllThePower&r section, this will help you learn more about the power options!"
+				"{atm9.quest.chapter2.desc.power}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"5D045EF1AB73DF70\"}, \"text\": \"Click here to check out the AllThePower questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -1722,11 +1684,7 @@
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
-			description: [
-				"Are you prepared to gather MILLIONS of items? I hope you still aren't using basic chests!"
-				""
-				"The first step is to upgrade to a Virtual Storage mod. This can be &9Refined Storage&r or &9Applied Energistics 2&r. You'll want to use one of these for the ability to &2autocraft&r items!"
-			]
+			description: ["{atm9.quest.chapter2.desc.storage}"]
 			icon: "ars_nouveau:archwood_chest"
 			id: "0F0145C3745A796F"
 			rewards: [{
@@ -1748,7 +1706,7 @@
 		{
 			dependencies: ["0F0145C3745A796F"]
 			description: [
-				"&9Refined Storage&r is a mass storage mod that offers a simple network-based storage system."
+				"{atm9.quest.chapter2.desc.RS}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"15AAF17B6665223D\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -1772,9 +1730,7 @@
 		{
 			dependencies: ["0F0145C3745A796F"]
 			description: [
-				"Applied Energistics 2 (or &oAE2&r for short) is an incredibly versatile &bdigital storage&f mod!"
-				""
-				"Even if you've chosen to go the &aRS&r route, you'll still need to make a few items from the mod to make the &6Star&r."
+				"{atm9.quest.chapter2.desc.AE2}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"07210DDF872160BA\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -1797,11 +1753,7 @@
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
-			description: [
-				"If you want to make the &6ATM Star&r, you'll need a ton of resources!"
-				""
-				"The ATM packs provide a variety of ways to generate tons of resources using various mods! While some of these aren't required for the Star itself, this quest branches out to show you all of the different ways to generate the resources you'll need!"
-			]
+			description: ["{atm9.quest.chapter2.desc.resource_generation}"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1829,9 +1781,7 @@
 		{
 			dependencies: ["46B515C90C13A72F"]
 			description: [
-				"&2Mystical Agriculture&r allows you to grow most resources as a Crop! This includes Diamonds, Quartz, or even modded materials like &6ATM Metals&r!"
-				""
-				"You'll also need to create the &5Creative Essence&r from Inferium, so this is required!"
+				"{atm9.quest.chapter2.desc.MA}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"5C764279146E5E66\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -1854,13 +1804,7 @@
 		}
 		{
 			dependencies: ["46B515C90C13A72F"]
-			description: [
-				"Why generate resources when you can just harvest the world for them?"
-				""
-				"These &aQuarries&r are some of the most commonly used ways to mine out large portions of the world to gather tons of resources, with the &dChunk Destroyer&r being one of the best!"
-				""
-				"If you plan on using these, it is best to use them in the &aMining Dimension&r!"
-			]
+			description: ["{atm9.quest.chapter2.desc.quarries}"]
 			id: "54E812911D10AA51"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1908,11 +1852,7 @@
 		{
 			dependencies: ["46B515C90C13A72F"]
 			description: [
-				"&aIndustrial Foregoing&r offers one of the only ways to generate resources from the \"void\"."
-				""
-				"Using an &aOre Laser Base&r, you can create a customizable multiblock of &aLaser Drills&r attached to the Base to generate as many resources as you need! Using a colored &aLaser Lens&r, you can increase the chances for certain ores to be generated."
-				""
-				"This is also one of the only ways to generate &6Allthemodium&r, &6Vibranium&r, and &6Unobtainium&r ore!"
+				"{atm9.quest.chapter2.desc.drills}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -2020,11 +1960,7 @@
 		}
 		{
 			dependencies: ["46B515C90C13A72F"]
-			description: [
-				"One of the best ways to generate resources is by using &aMob Farms&r. While you can grab spawners and change them using Spawn Eggs, the mod &aHostile Neural Networks&r offers a way to convert power into &aMob Drops&r using Simulations."
-				""
-				"This is one of the best ways to generate the &a98,415 Nether Stars&r you need to make the &6Star&r. :)"
-			]
+			description: ["{atm9.quest.chapter2.desc.mobs}"]
 			id: "258B387107AEB2EB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2044,9 +1980,7 @@
 		{
 			dependencies: ["46B515C90C13A72F"]
 			description: [
-				"&2Productive Bees&r is a mod that allows you to convert Bees into Bees that produce resources like Iron, Diamonds, and more!"
-				""
-				"You'll need to create an &dInactive Dragon Egg&r from the mod to make the &6Star&r."
+				"{atm9.quest.chapter2.desc.bees}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"26E6ED94168A05C4\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -2068,15 +2002,7 @@
 		}
 		{
 			dependencies: ["585502BC014E420F"]
-			description: [
-				"The journey to the &6ATM Star&r takes a LOT of time and materials, so how do you get started?"
-				""
-				"There isn't one path to the Star, but all paths will eventually lead you there."
-				""
-				"To get started, we'll need to take a look at the 3 most important factors in your playthrough:"
-				""
-				"&cPower&r, &aStorage&r, and &2Resource Generation&r."
-			]
+			description: ["{atm9.quest.chapter2.desc.next}"]
 			icon: "minecraft:dragon_egg"
 			id: "11B8C5F88DCB3BF5"
 			rewards: [
@@ -2104,11 +2030,7 @@
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
-			description: [
-				"To create the &dOblivion Shard&r for the Star, you'll need to learn how to tap into &aNature's Aura&r using rituals."
-				""
-				"For that, we'll need to make some shiny trees! Make &6Brilliant Fiber&r and use it on the crown of the tree . Over time, it will spread to the rest of the leaves and you can harvest the tree for &6Gold Leaves&r!"
-			]
+			description: ["{atm9.quest.chapter2.desc.nature}"]
 			hide_dependency_lines: true
 			icon: "naturesaura:gold_leaf"
 			id: "1DE0769EA393A72A"
@@ -2150,13 +2072,7 @@
 		}
 		{
 			dependencies: ["1DE0769EA393A72A"]
-			description: [
-				"Now that you have the guidebook for Nature's Aura, we can start a ritual!"
-				""
-				"Navigate to the &2Ritual of the Forest&r in the &aBook of Natural Aura&r. This is a very basic ritual that requires growing a tree! You can click &6Visualize&r on the Ritual to use as a guide while building it out!"
-				""
-				"You'll need 16 &6Gold Powder&r from Gold Leaves and 8 &eWooden Stands&r. These are where you put your items for the Ritual!"
-			]
+			description: ["{atm9.quest.chapter2.desc.ritual}"]
 			id: "65A9D3648C7B01A4"
 			min_width: 300
 			rewards: [{
@@ -2190,7 +2106,7 @@
 		}
 		{
 			dependencies: ["2543F16043EE2777"]
-			description: ["Tip: Use the Ritual Tablet on the brazier first, then right click with one of each of the Wilden mob drops, then activate the ritual to summon the Wilden Chimera."]
+			description: ["{atm9.quest.chapter2.desc.summon_wilden}"]
 			id: "5A912903E09F664F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2216,9 +2132,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"For the Star, we'll need to explore the world of Magic using the mod &dArs Nouveau&r!"
-				""
-				"Along your journey, you'll create your very own Spellbook, upgrade it for more powerful spells, and even fight the &dWilden Chimera&r!"
+				"{atm9.quest.chapter2.desc.ars}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\"}, \"text\": \"Click here to check out the Ars Nouveau questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -2243,9 +2157,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"&cEvilCraft&r is not really that Evil.... just uses a lot of blood. &oFrom your enemies&r."
-				""
-				"In the journey to craft the powerful items needed for the Star, you'll need &oa lot&r of blood. Need help getting started?"
+				"{atm9.quest.chapter2.desc.evilcraft}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"3456E0C530C0038E\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -2269,11 +2181,7 @@
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
-			description: [
-				"Deep in the Other, you'll find one of the hardest dungeons in the pack: &6The Allthemodium Pyramid&r."
-				""
-				"This Pyramid houses the strongest mob in ATM, the &5Piglich&r. You'll need to find a way to defeat them and gather their &6Piglich Hearts&r to make the best alloys in the pack!"
-			]
+			description: ["{atm9.quest.chapter2.desc.ancient_pyramid}"]
 			hide_dependency_lines: false
 			icon: {
 				Count: 1b
@@ -2323,9 +2231,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"Do you need some Demon friends? &dOccultism&r offers just that!"
-				""
-				"In your Demonic journey, you'll summon some new friends to help you create the powerful items needed to create the Star."
+				"{atm9.quest.chapter2.desc.occultism}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"4C507C004144BFEE\"}, \"text\": \"Click here to check out the Occultism questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -2349,11 +2255,7 @@
 		}
 		{
 			dependencies: ["1149F92182DC2A54"]
-			description: [
-				"Using &9Powah&r, you can create the most powerful &6Alloys&r in the pack by mixing together &6Allthemodium&r, &6Vibranium&r, and &6Unobtainium&r ingots with &dPiglich Hearts&r."
-				""
-				"Pro Tip: You'll need at least 252 &dUnobtainium-Allthemodium Alloy Ingots&r (or 28 Blocks) to make part of the &6Star&r recipe!"
-			]
+			description: ["{atm9.quest.chapter2.desc.atm_alloys}"]
 			id: "1E7D0E40D0E2B026"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2467,9 +2369,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"&2Industrial Foregoing&r is a mod aimed at helping you through your entire journey in modded."
-				""
-				"You'll make tons of plastic, mob farms for Pink Slime, and even world-ending nukes just to make the Star. Need help getting started?"
+				"{atm9.quest.chapter2.desc.IF}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -2493,11 +2393,7 @@
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
-			description: [
-				"&dApotheosis&r is the ultimate mod for creating god-like armor and weapons. It also overhauls Enchanting, Spawners, and so much more that it's best to give you this guide book!"
-				""
-				"You're going to need it!"
-			]
+			description: ["{atm9.quest.chapter2.desc.apotheosis}"]
 			hide_dependency_lines: true
 			id: "6EDC47E6F752C1C1"
 			rewards: [
@@ -2539,13 +2435,11 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"Making the &6ATM Star&r requires a massive recipe using 55 &aCreate&r &eMechanical Crafters&r."
-				""
-				"While you won't need to be a master at &aCreate&r to set this up, you'll need a basic understanding of the mod to power it."
+				"{atm9.quest.chapter2.desc.create1}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"100C477F4E63F20A\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 				""
-				"Note: You can power this with Large Water Wheels."
+				"{atm9.quest.chapter2.desc.create2}"
 			]
 			hide_dependency_lines: true
 			id: "695A0DC585FB6E97"
@@ -2576,19 +2470,7 @@
 		}
 		{
 			dependencies: ["71E08AA81089133B"]
-			description: [
-				"Next up, we're going to need to make a &aPressure Chamber&r to craft items with, most importantly the &dPulsating Black Hole&r for the &6Star&r."
-				""
-				"This is a basic 5x5x5 multiblock made up of &ePressure Chamber Walls&r. Just like most multiblocks, you can replace the faces with Pressure Chamber Glass, but the frame must be made up of Walls."
-				""
-				"To pipe in air to create pressure in the chamber, we'll need to make a &aValve&r and place it on one of the faces. Make sure to put a &aSecurity Upgrade&r in the Valve to prevent explosions!"
-				""
-				"To input and output items, we'll need &aPressure Chamber Interfaces&r, one for each. How you place these matter!"
-				""
-				"If you want to input items, make sure the Blue part of the Interface is facing &eoutside of the Chamber&r. If you want to output items from the chamber, make sure the Gold part of the Interface is facing out."
-				""
-				"Now you can pump in air from your Air Compressors to increase the pressure. We need it to hit 4.9 to craft the Black Hole!"
-			]
+			description: ["{atm9.quest.chapter2.desc.pressure}"]
 			id: "04C7B49076E48841"
 			min_width: 400
 			rewards: [{
@@ -2622,15 +2504,7 @@
 		}
 		{
 			dependencies: ["088D80D8790DBD90"]
-			description: [
-				"This isn't going to go in depth on the mod, but it will cover what you'll need to make the &6Star&r."
-				""
-				"We'll need a few things to start creating Pressure, and the &aAir Compressor&r is the best place to start. These will create air to increase pressure, which can be piped out using the &ePressure Tubes&r."
-				""
-				"Oh, and everything can explode if you aren't careful. That's what the &aSecurity Upgrade&r is for! Place these in the Compressors to stop them from exploding if the pressure gets too high. The Tubes will blow up instead!"
-				""
-				"You should honestly place these in everything you can. Unless you want it all to blow up, of course."
-			]
+			description: ["{atm9.quest.chapter2.desc.air}"]
 			id: "71E08AA81089133B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2660,13 +2534,7 @@
 		}
 		{
 			dependencies: ["04C7B49076E48841"]
-			description: [
-				"To get the &aMicromissiles&r we need to craft the &dPulsating Black Hole&r, we have several options:"
-				""
-				"- Craft it manually by going through &aPneumaticCraft&r by making PCBs"
-				""
-				"- Find one as loot in loot chests"
-			]
+			description: ["{atm9.quest.chapter2.desc.micromissiles}"]
 			hide_dependent_lines: true
 			id: "5D0C944F84E341BE"
 			min_width: 300
@@ -2692,7 +2560,7 @@
 		}
 		{
 			dependencies: ["68F03C08B1AE45FF"]
-			description: ["You'll need this to hold a &dWither&r in place so you can extract &bEther Gas&r from it!"]
+			description: ["{atm9.quest.chapter2.desc.stasis}"]
 			id: "519604E883E6B620"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2710,13 +2578,7 @@
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
-			description: [
-				"We'll need a &dRail Gun&r from the mod &aImmersive Engineering&r to create the &6Star&r!"
-				""
-				"To get started, craft your first Engineer's Hammer."
-				""
-				"This quest also gives you the complete guidebook for the mod. If you ever get lost, make sure to check it out."
-			]
+			description: ["{atm9.quest.chapter2.desc.IE}"]
 			hide_dependency_lines: true
 			id: "09EF804D70C856FB"
 			rewards: [
@@ -2750,13 +2612,7 @@
 		}
 		{
 			dependencies: ["09EF804D70C856FB"]
-			description: [
-				"The first thing we need to make is &aCreosote Oil&r!"
-				""
-				"To make this, make a &aCoke Oven&r by placing 27 Coke Bricks to build a 3x3x3 block, then right-clicking it with the Engineer's Hammer to convert it into an Oven. From there, you can throw in coal to convert it to Coal Coke."
-				""
-				"This will be used to make &2Treated Wood&r, which we'll need to make our workbench!"
-			]
+			description: ["{atm9.quest.chapter2.desc.creosote}"]
 			id: "11C0233861D3DD0C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2805,13 +2661,7 @@
 		}
 		{
 			dependencies: ["09EF804D70C856FB"]
-			description: [
-				"In this mod, you'll build custom multiblock machines to create the resources you need. To learn how to build them, check out the &aHeavy Machinery&r section of the &aEngineer's Manual&r"
-				""
-				"These multiblocks are made up of several core blocks, such as the &eLight Engineering Block&r or the &cRedstone Engineering Block&r. Each \"heavy machine\" will require a different amount of building blocks, so get used to crafting a lot of them!"
-				""
-				"Each multiblock machine will have a place for you to &aright click&r with the Engineer's Hammer to convert the multiblock into the machine! They'll also need power."
-			]
+			description: ["{atm9.quest.chapter2.desc.multiblocks}"]
 			id: "27E52482C789280F"
 			min_width: 300
 			rewards: [{
@@ -2858,11 +2708,7 @@
 		}
 		{
 			dependencies: ["323F39FC300F7E30"]
-			description: [
-				"Navigating through our &aEngineer's Manual&r, you can find the &aSqueezer&r in the &eHeavy Machinery&r category."
-				""
-				"This is a multiblock structure that we'll use to squeeze out the &3Coke Dust&r into &3HOP Graphite Dust&r. Smelt this down to create the ingot!"
-			]
+			description: ["{atm9.quest.chapter2.desc.squeezer}"]
 			id: "0D2C935F99D1A1FE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2889,7 +2735,7 @@
 		}
 		{
 			dependencies: ["0D2C935F99D1A1FE"]
-			description: ["Using all of the materials we've gathered so far, we can make the first piece of the &dRailgun&r needed for the &6Star&r!"]
+			description: ["{atm9.quest.chapter2.desc.accumulater}"]
 			id: "1AADF0A1B42AD511"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2910,7 +2756,7 @@
 				"2CBEEDDD4B6DDDD9"
 				"1AADF0A1B42AD511"
 			]
-			description: ["With everything we've made so far, you'll be able to craft the final item we need: the &dRailgun&r!"]
+			description: ["{atm9.quest.chapter2.desc.railgun}"]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "4A3DF999B969C875"
@@ -2946,11 +2792,7 @@
 		}
 		{
 			dependencies: ["11C0233861D3DD0C"]
-			description: [
-				"The &aEngineer's Workbench&r is what you'll need to make use of several &eEngineering Blueprints&r."
-				""
-				"You'll need to make a few of the basic Blueprints!"
-			]
+			description: ["{atm9.quest.chapter2.desc.workbench}"]
 			id: "33E3574096820D99"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2992,13 +2834,7 @@
 		}
 		{
 			dependencies: ["33E3574096820D99"]
-			description: [
-				"Now that we've made some Creosote Oil, we should also have some &3Coal Coke&r to go along with it."
-				""
-				"We'll need to crush this down into &aCoke Dust&r. You can either do this by using &aCrushing Wheels&r from the mod &dCreate&r, or by building a &aCrusher&r using Immersive Engineering."
-				""
-				"If you want to build the Crusher, navigate to the &aHeavy Machinery&r section in your &eEngineer's Manual&r to learn how to build the multiblock!"
-			]
+			description: ["{atm9.quest.chapter2.desc.coke}"]
 			id: "323F39FC300F7E30"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -3016,13 +2852,7 @@
 		}
 		{
 			dependencies: ["27E52482C789280F"]
-			description: [
-				"Using our new building blocks, we can create our first multiblock machine!"
-				""
-				"Navigate through your &aEngineer's Manual&r and find the &aFermenter&r in the &eHeavy Machinery&r category."
-				""
-				"This can be given different kinds of plants to break down into &bEthanol&r!"
-			]
+			description: ["{atm9.quest.chapter2.desc.fermenter}"]
 			id: "20D4341820B44B91"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -3042,13 +2872,7 @@
 		}
 		{
 			dependencies: ["20D4341820B44B91"]
-			description: [
-				"Next up, we need to find the &aRefinery&r in the &eHeavy Machinery&r category of our manual."
-				""
-				"This multiblock will be used to convert the &bEthanol&r into &aAcetaldehyde&r using Silver Plates!"
-				""
-				"Note: To pump liquids out of this machine, use a Fluid Pipe out of the front!"
-			]
+			description: ["{atm9.quest.chapter2.desc.refinery}"]
 			id: "407E853A5B322E13"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -3075,15 +2899,7 @@
 		}
 		{
 			dependencies: ["407E853A5B322E13"]
-			description: [
-				"You'll need to build another &aRefinery&r to further refine the &aAcetaldehyde&r into &cPhenolic Resin&r."
-				""
-				"Once you've acquired this liquid, you'll want to build one last multiblock machine: the &aBottling Machine&r."
-				""
-				"Once built, you can insert the Resin using a bucket on the machine."
-				""
-				"Using your Engineer's Workbench, make the &aPlate Mold&r and throw it onto the conveyer belts. If done properly, the mold will fill with Resin and give you a &dDuroplast Sheet&r!"
-			]
+			description: ["{atm9.quest.chapter2.desc.duroplast}"]
 			id: "2CBEEDDD4B6DDDD9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -3126,11 +2942,7 @@
 				"67E154DC24F54854"
 				"73CD6CE2B10830B9"
 			]
-			description: [
-				"The ATM Star. The Ultimate Achievement in ATM9. Congratulations!"
-				""
-				"With this, you can now make &dCreative&r items! Check out the &dCreative&r Quest chapter to find out more!"
-			]
+			description: ["{atm9.quest.chapter2.desc.ATM_Star}"]
 			hide_dependency_lines: true
 			id: "464D0C17601E8A2B"
 			rewards: [
@@ -3159,7 +2971,7 @@
 			]
 			shape: "gear"
 			size: 4.0d
-			subtitle: "Take over the world."
+			subtitle: "{atm9.quest.chapter2.atm_star}"
 			tasks: [{
 				id: "5F6988D125AAB233"
 				item: "allthetweaks:atm_star"
@@ -3171,11 +2983,7 @@
 		}
 		{
 			dependencies: ["6EDC47E6F752C1C1"]
-			description: [
-				"The first step is to make regular &2Bookshelves&r so you can get to lvl 30 Enchanting, which takes 15 total shelves."
-				""
-				"To get to lvl 45, you'll need to replace some of those bookshelves with either &cHellshelves&r or &bSeashelves&r. With enough of these, the max level will go to 45."
-			]
+			description: ["{atm9.quest.chapter2.desc.45}"]
 			id: "5BA20A6FE5A8F890"
 			rewards: [
 				{
@@ -3190,7 +2998,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Lvl 30 to 45"
+			subtitle: "{atm9.quest.chapter2.subt.45}"
 			tasks: [{
 				id: "71189F31741DB475"
 				item: {
@@ -3218,15 +3026,7 @@
 		}
 		{
 			dependencies: ["5BA20A6FE5A8F890"]
-			description: [
-				"Once you hit lvl 45 Enchanting, you unlock &dInfusion Enchanting&r."
-				""
-				"To upgrade to a higher Enchanting level, we'll need to enchant our upgraded bookshelves with the &dInfusion&r enchant."
-				""
-				"These can be used to make even better bookshelves, which allow you to reach lvl 60 Enchanting."
-				""
-				"Infusion Enchanting requires certain properties to line up, not just overall enchanting level. You'll need a certain amount of &dArcana&r or &cQuanta&r for each Infusion Enchant, which you can read more about in the &dApotheosis&r guidebook."
-			]
+			description: ["{atm9.quest.chapter2.desc.60}"]
 			id: "672F89F4889904E1"
 			min_width: 300
 			rewards: [
@@ -3242,7 +3042,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Lvl 45 to 60"
+			subtitle: "{atm9.quest.chapter2.subt.60}"
 			tasks: [
 				{
 					id: "46FBB89D1BBC5153"
@@ -3301,11 +3101,7 @@
 		}
 		{
 			dependencies: ["672F89F4889904E1"]
-			description: [
-				"At lvl 60, you can enchant a &aDormant Deepshelf&r with &dInfusion&r to make a &dDeepshelf&r."
-				""
-				"These can be upgraded to even better bookshelves, which can bring our Enchanting level to 80."
-			]
+			description: ["{atm9.quest.chapter2.desc.80}"]
 			id: "2D0C8A9F1700B788"
 			rewards: [
 				{
@@ -3320,7 +3116,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "Lvl 60 to 80"
+			subtitle: "{atm9.quest.chapter2.subt.80}"
 			tasks: [
 				{
 					id: "18F11055499B8750"
@@ -3355,11 +3151,7 @@
 		}
 		{
 			dependencies: ["2D0C8A9F1700B788"]
-			description: [
-				"At lvl 80, we can finally &dInfuse&r Dragon's Breath."
-				""
-				"Using the &dInfused Dragon's Breath&r, we can create some of the best bookshelves in the mod, &eEndshelves&r. "
-			]
+			description: ["{atm9.quest.chapter2.desc.100}"]
 			id: "70AD39D14657C1B5"
 			rewards: [
 				{
@@ -3374,7 +3166,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Lvl 80 to 100"
+			subtitle: "{atm9.quest.chapter2.subt.100}"
 			tasks: [
 				{
 					id: "00AE304849819405"
@@ -3394,7 +3186,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"&dExtreme Reactors&r is all about creating customizable multiblock reactors and turbines for all of your power needs!"
+				"{atm9.quest.chapter2.desc.reactors}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"3C78926E5D301BA0\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -3420,7 +3212,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"&bSilent Gear&r helps you create your own custom tools and armor! It can also combine several ingots into strong alloys, which you'll need for the Star."
+				"{atm9.quest.chapter2.desc.SG}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"1D42B373285DEF81\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -3439,9 +3231,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"&dAd Astra&r will take you out of this world! Literally!"
-				""
-				"You'll travel from planet to planet mining new metals on your adventure."
+				"{atm9.quest.chapter2.desc.ad_astra}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"769974FDAD5DBEB1\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -3528,13 +3318,7 @@
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
-			description: [
-				"If you love magic, you'll love playing around with this mod!"
-				""
-				"To create this item, you'll need to adventure into the structures in the mod to find &dRunestones&r."
-				""
-				"You'll also need to travel to the Nether to kill &5Ancient Knights&r for their Cinder Essence. This is used to make the &dUpgrade Orb&r. You can find the other items needed in loot chests or from mining in the Overworld."
-			]
+			description: ["{atm9.quest.chapter2.desc.spells}"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "124BDAF91DA74910"
@@ -3564,9 +3348,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"&dForbidden \\&\\ Arcanus&r is a beautiful magic mod that can help you create some overpowered items!"
-				""
-				"You'll need to advance further into the mod to create some of the advanced items needed for the Star."
+				"{atm9.quest.chapter2.desc.FA}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"34E8FF3196478229\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -3670,7 +3452,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"&cBlood Magic&r is about using &cBlood&r to create magical items. This time, you might even use your own blood."
+				"{atm9.quest.chapter2.desc.blood}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"004F28C5C85F467B\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -3704,7 +3486,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"If you like playing with plants, but wished they could do a little more than create dyes, &dBotania&r has you covered. You'll need to advance through the mod to make the &6Star&r!"
+				"{atm9.quest.chapter2.desc.botania}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"1883B79BDB2AAE5D\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
@@ -3730,13 +3512,7 @@
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
-			description: [
-				"The &dAbyssal Sacrifice&r is an item used to summon the &5Leviathan&r."
-				""
-				"To make one, you'll need to locate a &aSunken Temple&r in the Overworld. Once there, you can obtain the drops from &eDeepling Priests&r and &2Coralssus&r mobs."
-				""
-				"Note: You can either make a &dStructure Compass&r to locate the Temple, or by using &dEyes of the Abyss&r like you would an Eye of Ender."
-			]
+			description: ["{atm9.quest.chapter2.desc.abyssal_sacrifice}"]
 			hide_dependency_lines: true
 			id: "266AB725974E464C"
 			rewards: [
@@ -3765,25 +3541,13 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"To make the &dVoid Forge&r we need for the &6Star&r, we'll need to go on an adventure first!"
-				""
-				"The first part of this trip will take you to the &dSoul Forge&r in the Nether. Defeat the &cNetherite Monstrosity&r there and claim the &dInfernal Forge&r as a drop!"
-				""
-				"Note: You can use &dEyes of Monstrosity&r to find the structure as well as a Structure Compass."
-				""
-				"On to the next page!"
+				"{atm9.quest.chapter2.desc.void_forge1}"
 				""
 				"{@pagebreak}"
-				"For the next step, we need to head back to the Overworld to locate the &dHarbinger&r. You can find this boss in the &aAncient Factory&r structure. This is like fighting the Wither, but on hard mode. :)"
-				""
-				"Once you've found the structure, use a &dNether Star&r to active the boss, and good luck!"
-				""
-				"If you manage to defeat it, you'll get a &6Witherite Block&r which we'll use to make the &6Mechanical Fusion Anvil&r with."
-				""
-				"To the next page!"
+				"{atm9.quest.chapter2.desc.void_forge2}"
 				""
 				"{@pagebreak}"
-				"We want to use the Fusion Anvil we made to upgrade our &dInfernal Forge&r to a &dVoid Forge&r... but we're missing one crucial piece: a &5Void Core&r. To get this, head to the End and locate the &eRuined Citadel&r. Defeat the &dEnder Golem&r inside and make your &dVoid Forge&r!"
+				"{atm9.quest.chapter2.desc.void_forge3}"
 			]
 			hide_dependency_lines: true
 			icon: {

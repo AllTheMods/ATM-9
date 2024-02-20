@@ -120,7 +120,7 @@
 			rewards: [{
 				count: 4
 				id: "0477033EDE72D79B"
-				item: "gtceu:tin_fine_wire"
+				item: "gtceu:fine_tin_wire"
 				random_bonus: 6
 				type: "item"
 			}]
@@ -513,7 +513,7 @@
 			subtitle: "Hot potato"
 			tasks: [{
 				id: "00676E5631ED2A66"
-				item: "gtceu:silicon_hot_ingot"
+				item: "gtceu:hot_silicon_ingot"
 				type: "item"
 			}]
 			x: 0.5d
@@ -1275,7 +1275,7 @@
 				{
 					count: 4L
 					id: "2F26EFD73DE0E8A1"
-					item: "gtceu:annealed_copper_fine_wire"
+					item: "gtceu:fine_annealed_copper_wire"
 					type: "item"
 				}
 				{
@@ -1374,7 +1374,7 @@
 			min_width: 250
 			tasks: [{
 				id: "4DB8770CF9F924C5"
-				item: "gtceu:emerald_flawless_gem"
+				item: "gtceu:flawless_emerald_gem"
 				type: "item"
 			}]
 			x: 6.4d

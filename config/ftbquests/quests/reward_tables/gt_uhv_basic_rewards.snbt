@@ -1,0 +1,32 @@
+{
+	id: "04BED724266A250F"
+	loot_size: 1
+	order_index: 39
+	rewards: [
+		{ item: "gtceu:wetware_processor_mainframe", weight: 3.0f }
+		{ item: "gtceu:uv_robot_arm", weight: 3.0f }
+		{ count: 4, item: "gtceu:advanced_smd_capacitor", random_bonus: 8, weight: 4.0f }
+		{ count: 4, item: "gtceu:advanced_smd_transistor", random_bonus: 8, weight: 4.0f }
+		{ count: 4, item: "gtceu:wetware_printed_circuit_board", random_bonus: 8, weight: 4.0f }
+		{ item: "gtceu:uv_electric_pump", weight: 5.0f }
+		{ item: "gtceu:uv_electric_piston", weight: 5.0f }
+		{ item: "gtceu:uv_conveyor_module", weight: 5.0f }
+		{ item: "gtceu:wetware_processor_computer", weight: 5.0f }
+		{ item: "gtceu:uv_electric_motor", weight: 5.0f }
+		{ count: 6, item: "gtceu:highly_advanced_soc", random_bonus: 12, weight: 6.0f }
+		{ count: 4, item: "gtceu:highly_advanced_soc_wafer", random_bonus: 8, weight: 6.0f }
+		{ count: 4, item: "gtceu:neutronium_dust", random_bonus: 8, weight: 6.0f }
+		{ item: "gtceu:wetware_processor_assembly", weight: 8.0f }
+		{ count: 6, item: "gtceu:advanced_smd_inductor", random_bonus: 12, weight: 8.0f }
+		{ count: 6, item: "gtceu:advanced_smd_diode", random_bonus: 12, weight: 8.0f }
+		{ count: 6, item: "gtceu:advanced_smd_resistor", random_bonus: 12, weight: 8.0f }
+		{ count: 4, item: "gtceu:crystal_soc", random_bonus: 8, weight: 8.0f }
+		{ count: 4, item: "gtceu:neutronium_wafer", random_bonus: 4, weight: 10.0f }
+		{ item: "gtceu:uhv_machine_hull", weight: 10.0f }
+		{ count: 6, item: "gtceu:tritanium_ingot", random_bonus: 12, weight: 10.0f }
+		{ count: 4, item: "gtceu:neutronium_ingot", random_bonus: 4, weight: 10.0f }
+		{ item: "gtceu:uhv_machine_casing", weight: 12.0f }
+		{ count: 4, item: "gtceu:neuro_processing_unit", random_bonus: 4, weight: 10.0f }
+	]
+	title: "GT UHV Basic Rewards"
+}
