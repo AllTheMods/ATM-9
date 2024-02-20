@@ -1,0 +1,19 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+      {"item": "ae2:certus_quartz_crystal"},
+      {"item": "ae2:certus_quartz_crystal"},
+      {"item": "ae2:certus_quartz_crystal"}
+  ],
+  "energy": 60000,
+  "result": {
+    "item": "ae2:charged_certus_quartz_crystal",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
+}
