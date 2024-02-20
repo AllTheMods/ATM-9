@@ -1,0 +1,15 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "minecraft:iron_block"
+    },
+    "top": {
+      "item": "kubejs:universal_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "kubejs:universal_press"
+  }
+}
