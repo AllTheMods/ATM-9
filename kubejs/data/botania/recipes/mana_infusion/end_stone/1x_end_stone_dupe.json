@@ -1,0 +1,15 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:conjuration_catalyst"
+  },
+  "input": {
+    "item": "allthecompressed:end_stone_1x"
+  },
+  "mana": 18000,
+  "output": {
+    "count": 2,
+    "item": "allthecompressed:end_stone_1x"
+  }
+}
