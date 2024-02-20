@@ -28,28 +28,44 @@ GTCEuServerEvents.oreVeins(event => {
                 break;
         }
 
-        event.add(veinId + '_mining', newVein => {
-            let veinGen = vein.veinGenerator();
-            if (veinGen instanceof $VeinedVeinGenerator) {
-                veinGen = veinGen.copy()
-                veinGen.minYLevel = startY;
-                veinGen.maxYLevel = endY;
-            } else if (veinGen instanceof $DikeVeinGenerator) {
-                veinGen = veinGen.copy()
-                veinGen.minYLevel = startY;
-                veinGen.maxYLevel = endY;
-            }
+        let veinGen = vein.veinGenerator();
+        if (veinGen instanceof $VeinedVeinGenerator) {
+            veinGen = veinGen.copy()
+            veinGen.minYLevel = startY;
+            veinGen.maxYLevel = endY;
+        } else if (veinGen instanceof $DikeVeinGenerator) {
+            veinGen = veinGen.copy()
+            veinGen.minYLevel = startY;
+            veinGen.maxYLevel = endY;
+        }
+        
+        vein.heightRangeUniform(startY, endY)
+        vein.dimensions('allthemodium:mining')
+        vein.biomes('#allthemodium:mining_features/mining_biomes')
+        vein['veinGenerator(com.gregtechceu.gtceu.api.data.worldgen.generator.VeinGenerator)'](veinGen)
 
-            newVein.clusterSize(vein.clusterSize())
-            newVein.weight(vein.weight())
-            newVein.density(vein.density())
-            newVein.layer(vein.layer())
-            newVein.heightRangeUniform(startY, endY)
-            newVein.discardChanceOnAirExposure(vein.discardChanceOnAirExposure())
-            newVein.dimensions('allthemodium:mining')
-            newVein.biomes('#allthemodium:mining_features/mining_biomes')
-            newVein['veinGenerator(com.gregtechceu.gtceu.api.data.worldgen.generator.VeinGenerator)'](veinGen)
-        })
+        // event.add(veinId + '_mining', newVein => {
+        //     let veinGen = vein.veinGenerator();
+        //     if (veinGen instanceof $VeinedVeinGenerator) {
+        //         veinGen = veinGen.copy()
+        //         veinGen.minYLevel = startY;
+        //         veinGen.maxYLevel = endY;
+        //     } else if (veinGen instanceof $DikeVeinGenerator) {
+        //         veinGen = veinGen.copy()
+        //         veinGen.minYLevel = startY;
+        //         veinGen.maxYLevel = endY;
+        //     }
+
+        //     newVein.clusterSize(vein.clusterSize())
+        //     newVein.weight(vein.weight())
+        //     newVein.density(vein.density())
+        //     newVein.layer(vein.layer())
+        //     newVein.heightRangeUniform(startY, endY)
+        //     newVein.discardChanceOnAirExposure(vein.discardChanceOnAirExposure())
+        //     newVein.dimensions('allthemodium:mining')
+        //     newVein.biomes('#allthemodium:mining_features/mining_biomes')
+        //     newVein['veinGenerator(com.gregtechceu.gtceu.api.data.worldgen.generator.VeinGenerator)'](veinGen)
+        // })
     })
 
     event.add("fluorite_vein", builder => {
