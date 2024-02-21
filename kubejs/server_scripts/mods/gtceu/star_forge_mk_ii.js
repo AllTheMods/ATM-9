@@ -1,11 +1,14 @@
 ServerEvents.recipes(event => {
+    //Same recipes as the MK I but faster, it was also tested on a server to make sure there were no compatibility issue
+    //it's all the same tier of voltage as the mk1
+
     function starForgeMK_II(id, duration, eu, output, item, fluid) {
         id+="_mk_ii"
         event.recipes.gtceu.star_forge_mk_ii(id)
             .itemInputs(item)
             .inputFluids(fluid)
             .itemOutputs(output)
-            .duration(duration/4)
+            .duration(duration/4)//same recipes but 4times as fast
             .EUt(eu)
         if(fluid = '') {
             fluid = null
@@ -23,7 +26,7 @@ ServerEvents.recipes(event => {
     starForgeMK_II('micro_universe_catalyst', 2000, GTValues.VA[8], 'kubejs:micro_universe_catalyst', ['16x gtceu:naquadria_plate', '32x gtceu:uv_electric_piston', '8x gtceu:gravi_star'], [Fluid.of('gtceu:neutronium', 144 * 32), Fluid.of('gtceu:star_matter_plasma', 10000)])
 
     // Gregstar
-    starForgeMK_II('gregstar', 1280000/4, GTValues.VA[0], 'allthetweaks:greg_star',
+    starForgeMK_II('gregstar', 1280000, GTValues.VA[0], 'allthetweaks:greg_star',
         [
             'kubejs:star_housing',
             'gtceu:nan_certificate',
@@ -86,7 +89,7 @@ ServerEvents.recipes(event => {
             ])
         .itemOutputs('allthetweaks:atm_star')
         .chancedOutput(Item.of('allthetweaks:atm_star'), 20, 20)
-        .duration(12000/9)// after all it's one of the only reason why you would build the mk2
+        .duration(12000/9)// after all it's one of the only reason why you would build the mk2 so I thought x9 would be a good thing (it's for those that want to make the 9x block)
         .EUt(GTValues.VA[0])
 
     event.recipes.gtceu.star_forge_mk_ii('patrick_star_in_starforge_mk_ii')

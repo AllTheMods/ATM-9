@@ -31,21 +31,21 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .aisle("               ", "               ", "               ", "               ", "      GCG      ", "     CWCWC     ", "   CCPPPPPCC   ", "     CWCWC     ", "      GCG      ", "               ", "               ", "               ", "               ")
             .aisle("               ", "               ", "               ", "               ", "               ", "      W W      ", "     AWMWA     ", "      W W      ", "               ", "               ", "               ", "               ", "               ")
             .where('M', Predicates.controller(Predicates.blocks(definition.get())))
-            .where('W', Predicates.blocks(GTBlocks.COIL_TRITANIUM.get()))
+            .where('W', Predicates.blocks(GTBlocks.COIL_TRITANIUM.get()))                       //upgraded from trinium to tritanium
             .where("P", Predicates.blocks(GTBlocks.SUPERCONDUCTING_COIL.get()))
             .where('G', Predicates.blocks("connectedglass:clear_glass_black"))
-            .where('I', Predicates.blocks("kubejs:gregstar_block"))
+            .where('I', Predicates.blocks("kubejs:gregstar_block"))                             //replaced the atm star block with the custom GregStar block
             .where('S', Predicates.blocks("mekanism:supercharged_coil"))
             .where('E', Predicates.abilities(PartAbility.INPUT_ENERGY).setMinGlobalLimited(2)
-                .or(Predicates.blocks('gtceu:atomic_casing'))) /*$GCyMBlocks.CASING_ATOMIC.get()*/
+                .or(Predicates.blocks('gtceu:atomic_casing'))) 
             .where('C', Predicates.blocks('gtceu:atomic_casing')
-                .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setExactLimit(1))) /*$GCyMBlocks.CASING_ATOMIC.get()*/
+                .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setExactLimit(1)))         // tried putting 2 Max parallel energy hatch doesn't make it go to 512 sadly so I kept it to 1
             .where('F', Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(5)
-                .or(Predicates.blocks('gtceu:atomic_casing'))) /*$GCyMBlocks.CASING_ATOMIC.get()*/
+                .or(Predicates.blocks('gtceu:atomic_casing'))) 
             .where('A', Predicates.abilities(PartAbility.IMPORT_ITEMS).setExactLimit(1)
                 .or(Predicates.abilities(PartAbility.EXPORT_ITEMS)).setExactLimit(1)
-                .or(Predicates.blocks('gtceu:atomic_casing'))) /*$GCyMBlocks.CASING_ATOMIC.get()*/
-            .where('B',Predicates.blocks("mekanismgenerators:laser_focus_matrix"))
+                .or(Predicates.blocks('gtceu:atomic_casing'))) 
+            .where('B',Predicates.blocks("mekanismgenerators:laser_focus_matrix"))              // Felt like "focusing" more on the GregStar block with this would add a touch
             .where(' ', Predicates.any())
             .build())
         .shapeInfo(controller => MultiblockShapeInfo.builder()
@@ -82,7 +82,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('F', GTMachines.FLUID_IMPORT_HATCH[6], Direction.UP)
             .where('A', GTMachines.ITEM_IMPORT_BUS[6], Direction.SOUTH)
             .where('B', GTMachines.ITEM_EXPORT_BUS[6], Direction.SOUTH)
-            .where('D',Block.getBlock("mekanismgenerators:laser_focus_matrix"))
+            .where('D',Block.getBlock("mekanismgenerators:laser_focus_matrix"))                 // Same thing but with the laser_focus_matrix around the block in the middle
             .where(' ', Block.getBlock("minecraft:air"))
             .build())
         .workableCasingRenderer("gtceu:block/casings/gcym/atomic_casing",
