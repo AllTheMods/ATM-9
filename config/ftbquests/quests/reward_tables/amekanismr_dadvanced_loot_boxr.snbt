@@ -12,7 +12,11 @@
 		string_id: "mekanism_advanced_loot_box"
 	}
 	loot_size: 1
+<<<<<<< HEAD
 	order_index: 45
+=======
+	order_index: 42
+>>>>>>> 4ce28e0114269e55cc60eb6c6858f3518feba7b2
 	rewards: [
 		{ count: 4, item: "alltheores:steel_ingot", random_bonus: 4, weight: 100.0f }
 		{ item: "alltheores:steel_block", random_bonus: 1, weight: 75.0f }

@@ -365,18 +365,6 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
-			height: 8.0d
-			hover: [ ]
-			image: "atm:textures/questpics/gettingstarted/confused1.png"
-			rotation: 0.0d
-			width: 8.0d
-			x: -9.0d
-			y: 3.5d
-		}
-		{
 			alpha: 200
 			click: ""
 			corner: false
@@ -459,8 +447,13 @@
 				title: "Gather Wood"
 				type: "item"
 			}]
+<<<<<<< HEAD
 			title: "{atm9.quest.chapter1.welcome}"
 			x: -3.0d
+=======
+			title: "&eWelcome to the Getting Started Chapter&r!"
+			x: -9.0d
+>>>>>>> 4ce28e0114269e55cc60eb6c6858f3518feba7b2
 			y: 3.0d
 		}
 		{
@@ -695,12 +688,22 @@
 				xp: 10
 			}]
 			tasks: [{
+<<<<<<< HEAD
 				id: "746C44D800F4E4FB"
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.crafting}"
 			x: 0.0d
+=======
+				id: "01A7709155C7564E"
+				item: "minecraft:crafting_table"
+				title: "Crafting Table"
+				type: "item"
+			}]
+			title: "Putting the Craft in Minecraft"
+			x: -3.0d
+>>>>>>> 4ce28e0114269e55cc60eb6c6858f3518feba7b2
 			y: 3.0d
 		}
 		{

@@ -1,7 +1,11 @@
 {
 	id: "28A9C4EA22B6DBD7"
 	loot_size: 1
+<<<<<<< HEAD
 	order_index: 40
+=======
+	order_index: 39
+>>>>>>> 4ce28e0114269e55cc60eb6c6858f3518feba7b2
 	rewards: [
 		{ count: 4, item: "botania:livingrock" }
 		{ count: 4, item: "botania:livingwood_log" }

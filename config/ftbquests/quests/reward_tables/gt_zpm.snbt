@@ -1,7 +1,11 @@
 {
 	id: "4F8F8962A8812CD6"
 	loot_size: 1
+<<<<<<< HEAD
 	order_index: 58
+=======
+	order_index: 55
+>>>>>>> 4ce28e0114269e55cc60eb6c6858f3518feba7b2
 	rewards: [
 		{ item: "gtceu:quantum_processor_mainframe", weight: 3.0f }
 		{ item: "gtceu:zpm_robot_arm", weight: 3.0f }
