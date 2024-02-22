@@ -35,13 +35,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Silent Gear is a tool and armor mod that makes crafting gear easy."
-				""
-				"Each gear piece is customizable, allowing you to upgrade it with special traits or repair it on the go!"
-				""
-				"You can also convert vanilla tools like an iron pickaxe to a Silent Gear pickaxe by putting it into a crafting table!"
-			]
+			description: ["{atm9.quest.SG.desc.SG}"]
 			id: "52EB902E76829EBB"
 			rewards: [{
 				id: "383D184AE6F5236A"
@@ -50,22 +44,19 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Simple Tool Crafting"
+			subtitle: "{atm9.quest.SG.subt.SG}"
 			tasks: [{
 				id: "2639F0B573ACEBB6"
 				title: "Silent Gear Weapons, Tools and Armor"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.SG.SG}"
 			x: -7.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["15DE3BF0CBD8E0B4"]
-			description: [
-				"You can't use template boards forever!!!"
-				""
-				"Blueprint paper is used to make blueprints, which are reusable, unlike template boards."
-			]
+			description: ["{atm9.quest.SG.desc.blueprint}"]
 			id: "64AB1E133E218173"
 			rewards: [
 				{
@@ -94,24 +85,20 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "The Schematic Maker"
+			subtitle: "{atm9.quest.SG.subt.blueprint}"
 			tasks: [{
 				count: 8L
 				id: "28223BD9AC4D64EA"
 				item: "silentgear:blueprint_paper"
 				type: "item"
 			}]
-			title: "Blueprint Paper"
+			title: "{atm9.quest.SG.blueprint}"
 			x: -0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["64AB1E133E218173"]
-			description: [
-				"Everyone loves the sword."
-				""
-				"With this blueprint, you can make the basic sword! Reliable damage, reliable speed."
-			]
+			description: ["{atm9.quest.SG.desc.sword}"]
 			id: "0DF4B01CC5B49E4E"
 			rewards: [
 				{
@@ -126,18 +113,19 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Ol' Reliable"
+			subtitle: "{atm9.quest.SG.subt.sword}"
 			tasks: [{
 				id: "6916F3E24E09B0BE"
 				item: "silentgear:sword_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.sword}"
 			x: -0.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0DF4B01CC5B49E4E"]
-			description: ["Slightly faster than a sword, but lower damage."]
+			description: ["{atm9.quest.SG.desc.katana}"]
 			id: "3722B43822F80470"
 			rewards: [{
 				id: "569FE8789232CF20"
@@ -145,18 +133,19 @@
 				xp: 5
 			}]
 			shape: "diamond"
-			subtitle: "Release Your Inner Samurai"
+			subtitle: "{atm9.quest.SG.subt.katana}"
 			tasks: [{
 				id: "7929CED2B31B3355"
 				item: "silentgear:katana_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.katana}"
 			x: -0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0DF4B01CC5B49E4E"]
-			description: ["More damage than a sword, but slower."]
+			description: ["{atm9.quest.SG.desc.machete}"]
 			id: "39B85DB54B1037FE"
 			rewards: [{
 				id: "736360B6DCAC64DA"
@@ -164,18 +153,19 @@
 				xp: 5
 			}]
 			shape: "diamond"
-			subtitle: "Thicc Sword"
+			subtitle: "{atm9.quest.SG.subt.machete}"
 			tasks: [{
 				id: "5849539271864159"
 				item: "silentgear:machete_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.machete}"
 			x: -1.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["0DF4B01CC5B49E4E"]
-			description: ["Less damage than a sword, but longer reach."]
+			description: ["{atm9.quest.SG.desc.spear}"]
 			id: "405DCD3E36232EEA"
 			rewards: [{
 				id: "54C35AD7C673B8BD"
@@ -183,18 +173,19 @@
 				xp: 5
 			}]
 			shape: "diamond"
-			subtitle: "Release Your Inner Spartan"
+			subtitle: "{atm9.quest.SG.subt.spear}"
 			tasks: [{
 				id: "233073F39E676B83"
 				item: "silentgear:spear_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.spear}"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["0DF4B01CC5B49E4E"]
-			description: ["Higher Durability than a dagger, but lower damage and speed."]
+			description: ["{atm9.quest.SG.desc.knife}"]
 			id: "0D26E5EF6CFCFDBF"
 			rewards: [{
 				id: "480C996B6EF91910"
@@ -202,18 +193,19 @@
 				xp: 5
 			}]
 			shape: "diamond"
-			subtitle: "Stabby."
+			subtitle: "{atm9.quest.SG.subt.knife}"
 			tasks: [{
 				id: "27B86914A7EC8AFB"
 				item: "silentgear:knife_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.knife}"
 			x: 0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0DF4B01CC5B49E4E"]
-			description: [" Low damage, very high attack speed. Reduces the invincibility time of the target."]
+			description: ["{atm9.quest.SG.desc.dagger}"]
 			id: "3D2C6FF462B17205"
 			rewards: [{
 				id: "6F242ECEA2C8AB26"
@@ -221,12 +213,13 @@
 				xp: 5
 			}]
 			shape: "diamond"
-			subtitle: "Stabby Stabby"
+			subtitle: "{atm9.quest.SG.subt.dagger}"
 			tasks: [{
 				id: "07A58F926DAA9F86"
 				item: "silentgear:dagger_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.dagger}"
 			x: -1.5d
 			y: -2.0d
 		}
@@ -245,6 +238,7 @@
 				item: "silentgear:pickaxe_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.pick}"
 			x: -5.0d
 			y: 2.0d
 		}
@@ -263,6 +257,7 @@
 				item: "silentgear:shovel_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.shovel}"
 			x: -3.0d
 			y: 2.0d
 		}
@@ -281,6 +276,7 @@
 				item: "silentgear:axe_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.axe}"
 			x: -4.0d
 			y: 1.5d
 		}
@@ -294,12 +290,13 @@
 				xp: 5
 			}]
 			shape: "hexagon"
-			subtitle: "The All In One Tool"
+			subtitle: "{atm9.quest.SG.subt.paxel}"
 			tasks: [{
 				id: "05E69F9C3D0DC0DD"
 				item: "silentgear:paxel_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.paxel}"
 			x: -3.0d
 			y: 3.0d
 		}
@@ -313,12 +310,13 @@
 				xp: 5
 			}]
 			shape: "hexagon"
-			subtitle: "3x3 Mining"
+			subtitle: "{atm9.quest.SG.subt.hammer}"
 			tasks: [{
 				id: "640B83A35EB10103"
 				item: "silentgear:hammer_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.hammer}"
 			x: -4.0d
 			y: 3.5d
 		}
@@ -332,12 +330,13 @@
 				xp: 5
 			}]
 			shape: "hexagon"
-			subtitle: "3x3 Digging!"
+			subtitle: "{atm9.quest.SG.subt.excavator}"
 			tasks: [{
 				id: "0378C9FD1C97FC8E"
 				item: "silentgear:excavator_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.excavator}"
 			x: -5.0d
 			y: 3.0d
 		}
@@ -351,12 +350,13 @@
 				xp: 5
 			}]
 			shape: "hexagon"
-			subtitle: "Versatile Hoe"
+			subtitle: "{atm9.quest.SG.subt.mattock}"
 			tasks: [{
 				id: "7BAEC1CCE541863A"
 				item: "silentgear:mattock_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.mattock}"
 			x: -5.0d
 			y: 4.0d
 		}
@@ -371,12 +371,13 @@
 				xp: 5
 			}]
 			shape: "hexagon"
-			subtitle: "It's a Lawn Mower."
+			subtitle: "{atm9.quest.SG.subt.scythe}"
 			tasks: [{
 				id: "1BD87FE9B7C97844"
 				item: "silentgear:sickle_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.sickle}"
 			x: -4.0d
 			y: 2.5d
 		}
@@ -395,6 +396,7 @@
 				item: "silentgear:shears_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.shears}"
 			x: -3.0d
 			y: 4.0d
 		}
@@ -414,6 +416,7 @@
 				item: "silentgear:fishing_rod_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.fish}"
 			x: -4.0d
 			y: 4.5d
 		}
@@ -432,6 +435,7 @@
 				item: "silentgear:bow_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.bow}"
 			x: -3.5d
 			y: -1.5d
 		}
@@ -451,6 +455,7 @@
 				item: "silentgear:crossbow_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.crossbow}"
 			x: -3.5d
 			y: -2.5d
 		}
@@ -470,6 +475,7 @@
 				item: "silentgear:slingshot_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.slingshot}"
 			x: -4.5d
 			y: -1.5d
 		}
@@ -488,6 +494,7 @@
 				item: "silentgear:shield_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.shield}"
 			x: 7.0d
 			y: -3.5d
 		}
@@ -506,6 +513,7 @@
 				item: "silentgear:helmet_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.helmet}"
 			x: 8.0d
 			y: -4.5d
 		}
@@ -524,6 +532,7 @@
 				item: "silentgear:chestplate_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.chestplate}"
 			x: 8.0d
 			y: -3.5d
 		}
@@ -542,6 +551,7 @@
 				item: "silentgear:leggings_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.leggings}"
 			x: 8.0d
 			y: -2.5d
 		}
@@ -560,6 +570,7 @@
 				item: "silentgear:boots_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.boots}"
 			x: 8.0d
 			y: -1.5d
 		}
@@ -578,6 +589,7 @@
 				item: "silentgear:elytra_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.elytra}"
 			x: 9.0d
 			y: -3.5d
 		}
@@ -596,6 +608,7 @@
 				item: "silentgear:arrow_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.arrow}"
 			x: -4.0d
 			y: -3.5d
 		}
@@ -614,6 +627,7 @@
 				item: "silentgear:ring_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.ring}"
 			x: 7.0d
 			y: -2.5d
 		}
@@ -633,6 +647,7 @@
 				item: "silentgear:bracelet_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.bracelet}"
 			x: 9.0d
 			y: -2.5d
 		}
@@ -661,24 +676,19 @@
 			]
 			shape: "square"
 			size: 1.25d
-			subtitle: "Breaks down items into their components."
+			subtitle: "{atm9.quest.SG.subt.salvager}"
 			tasks: [{
 				id: "0A289918540442AE"
 				item: "silentgear:salvager"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.salvager}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2EB96FF06627FD9A"]
-			description: [
-				"Placing an ingot in this with a Grader Catalyst will give the material a grade."
-				""
-				"The better the grade, the better the stats are on the material."
-				""
-				"The best grade is MAX. "
-			]
+			description: ["{atm9.quest.SG.desc.material_grader}"]
 			id: "6A393C7A24899E3E"
 			rewards: [
 				{
@@ -700,12 +710,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "The Material Tester"
+			subtitle: "{atm9.quest.SG.subt.material_grader}"
 			tasks: [{
 				id: "202BA9A48D4D4B79"
 				item: "silentgear:material_grader"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.material_grader}"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -731,7 +742,7 @@
 				item: "silentgear:glowing_dust"
 				type: "item"
 			}]
-			title: "Tier 1 Grader Catalyst"
+			title: "{atm9.quest.SG.tier1GC}"
 			x: 7.5d
 			y: 1.0d
 		}
@@ -757,7 +768,7 @@
 				item: "silentgear:blazing_dust"
 				type: "item"
 			}]
-			title: "Tier 2 Grader Catalyst"
+			title: "{atm9.quest.SG.tier2GC}"
 			x: 8.0d
 			y: 1.5d
 		}
@@ -783,7 +794,7 @@
 				item: "silentgear:glittery_dust"
 				type: "item"
 			}]
-			title: "Tier 3 Grader Catalyst"
+			title: "{atm9.quest.SG.tier3GC}"
 			x: 8.5d
 			y: 1.0d
 		}
@@ -803,7 +814,7 @@
 					xp: 5
 				}
 			]
-			subtitle: "Stores all of your blueprints!"
+			subtitle: "{atm9.quest.SG.subt.book}"
 			tasks: [{
 				id: "2226DC0E053E8631"
 				item: {
@@ -815,21 +826,13 @@
 				}
 				type: "item"
 			}]
-			title: "Blueprint Book"
+			title: "{atm9.quest.SG.book}"
 			x: -0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3930404D5C8B44EB"]
-			description: [
-				"The Starlight Charger can \"enchant\" materials with the \"Star Charged\" enchantment."
-				""
-				"A structure must be built with the Starlight Charger in the middle in view of the night sky. It only gains Starlight Power during the night."
-				""
-				"The Charger must be placed in the middle of a 7x7 structure, with a Pillar in each corner. Each pillar must have a \"Starlight Charger Cap\"."
-				""
-				"It also requires a charger catalyst per material."
-			]
+			description: ["{atm9.quest.SG.desc.starlight_charger}"]
 			id: "7C3D763CF22D167A"
 			rewards: [
 				{
@@ -852,49 +855,43 @@
 			]
 			shape: "diamond"
 			size: 1.75d
-			subtitle: "\"Enchanting\" Materials"
+			subtitle: "{atm9.quest.SG.subt.starlight_charger}"
 			tasks: [{
 				id: "03C944C082828C47"
 				item: "silentgear:starlight_charger"
 				type: "item"
 			}]
-			title: "&5Starlight Charger"
+			title: "{atm9.quest.SG.starlight_charger}"
 			x: 14.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["657B3116A6419420"]
-			description: [
-				"The tip upgrade is used to increase the mining level of the tool."
-				""
-				"For example: If you have an iron pickaxe with 1 diamond, you can make a Diamond Tip Upgrade, and place it on your pickaxe. This will allow it to mine obsidian, as well as give it a stat boost."
-			]
+			description: ["{atm9.quest.SG.desc.tip}"]
 			id: "158B24939A269D83"
 			shape: "diamond"
-			subtitle: "For when you didn't find 3 diamonds."
+			subtitle: "{atm9.quest.SG.subt.tip}"
 			tasks: [{
 				id: "4ECD1D119E695CBD"
 				item: "silentgear:tip_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.tip}"
 			x: -1.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["657B3116A6419420"]
-			description: [
-				"Coats an item or tool."
-				""
-				"Netherite makes a great coating material."
-			]
+			description: ["{atm9.quest.SG.desc.coating}"]
 			id: "0947B4ED95B0267E"
 			shape: "diamond"
-			subtitle: "Totally not just for Netherite."
+			subtitle: "{atm9.quest.SG.subt.coating}"
 			tasks: [{
 				id: "3179733D8ACBDA86"
 				item: "silentgear:coating_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.coating}"
 			x: -1.0d
 			y: 4.5d
 		}
@@ -902,12 +899,13 @@
 			dependencies: ["657B3116A6419420"]
 			id: "6BFD7854F078BF16"
 			shape: "diamond"
-			subtitle: "Get a Grip."
+			subtitle: "{atm9.quest.SG.subt.grip}"
 			tasks: [{
 				id: "14B8204814A42B33"
 				item: "silentgear:grip_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.grip}"
 			x: 0.0d
 			y: 4.5d
 		}
@@ -915,12 +913,13 @@
 			dependencies: ["657B3116A6419420"]
 			id: "22A0A9C81A5C85A1"
 			shape: "diamond"
-			subtitle: "It holds everything together."
+			subtitle: "{atm9.quest.SG.subt.binding}"
 			tasks: [{
 				id: "551DBAFE45DC4804"
 				item: "silentgear:binding_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.binding}"
 			x: 0.5d
 			y: 4.0d
 		}
@@ -940,6 +939,7 @@
 				item: "silentgear:lining_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.lining}"
 			x: 10.0d
 			y: -3.0d
 		}
@@ -958,6 +958,7 @@
 				item: "silentgear:fletching_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.fletching}"
 			x: -4.5d
 			y: -2.5d
 		}
@@ -969,22 +970,19 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Create your own Handle!"
+			subtitle: "{atm9.quest.SG.subt.toolrod}"
 			tasks: [{
 				id: "146DFBC42B522A36"
 				item: "silentgear:rod_blueprint"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.toolrod}"
 			x: -0.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6A393C7A24899E3E"]
-			description: [
-				"This is used to create custom alloys."
-				""
-				"It is also the only way to get Tyrian Steel!"
-			]
+			description: ["{atm9.quest.SG.desc.alloyer}"]
 			id: "3930404D5C8B44EB"
 			rewards: [
 				{
@@ -1005,18 +1003,19 @@
 					type: "random"
 				}
 			]
-			subtitle: "Combines Materials"
+			subtitle: "{atm9.quest.SG.subt.alloyer}"
 			tasks: [{
 				id: "7F18323AEA5BF486"
 				item: "silentgear:metal_alloyer"
 				type: "item"
 			}]
+			title: "{atm9.quest.SG.alloyer}"
 			x: 11.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7C3D763CF22D167A"]
-			description: ["This is a Tier 1 Pillar Cap for the Starlight Charger structure."]
+			description: ["{atm9.quest.SG.desc.tier1SGCPC}"]
 			id: "7E13007340A818C5"
 			rewards: [
 				{
@@ -1044,13 +1043,13 @@
 				item: "silentgear:crimson_steel_block"
 				type: "item"
 			}]
-			title: "Tier 1 Starlight Charger Pillar Cap"
+			title: "{atm9.quest.SG.tier1SGCPC}"
 			x: 12.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7C3D763CF22D167A"]
-			description: ["This is a Tier 2 Pillar Cap for the Starlight Charger structure."]
+			description: ["{atm9.quest.SG.desc.tier2SGCPC}"]
 			id: "29131C3532610ADF"
 			rewards: [
 				{
@@ -1078,13 +1077,13 @@
 				item: "silentgear:azure_electrum_block"
 				type: "item"
 			}]
-			title: "Tier 2 Starlight Charger Pillar Cap"
+			title: "{atm9.quest.SG.tier2SGCPC}"
 			x: 14.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7C3D763CF22D167A"]
-			description: ["This is a Tier 3 Pillar Cap for the Starlight Charger structure."]
+			description: ["{atm9.quest.SG.desc.tier3SGCPC}"]
 			id: "3B560B2ECE331CAF"
 			rewards: [
 				{
@@ -1112,7 +1111,7 @@
 				item: "silentgear:tyrian_steel_block"
 				type: "item"
 			}]
-			title: "Tier 3 Starlight Charger Pillar Cap"
+			title: "{atm9.quest.SG.tier3SGCPC}"
 			x: 16.5d
 			y: -2.0d
 		}
@@ -1138,7 +1137,7 @@
 				item: "silentgear:blaze_gold_dust"
 				type: "item"
 			}]
-			title: "Tier 1 Starlight Charger Catalyst"
+			title: "{atm9.quest.SG.tier1SGC}"
 			x: 13.5d
 			y: -1.0d
 		}
@@ -1164,7 +1163,7 @@
 				item: "silentgear:azure_silver_dust"
 				type: "item"
 			}]
-			title: "Tier 2 Starlight Charger Catalyst"
+			title: "{atm9.quest.SG.tier2SGC}"
 			x: 14.5d
 			y: -1.5d
 		}
@@ -1190,19 +1189,13 @@
 				item: "silentgear:starmetal_dust"
 				type: "item"
 			}]
-			title: "Tier 3 Starlight Charger Catalyst"
+			title: "{atm9.quest.SG.tier3SGC}"
 			x: 15.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["52EB902E76829EBB"]
-			description: [
-				"Silent Gear items can be repaired using a &9Repair Kit&r."
-				""
-				"To repair an item, place the Repair Kit into a crafting table, then place the materials needed to repair the tool inside the table with it. This will \"fill\" the Repair Kit."
-				""
-				"To repair the tool, combine the filled Repair Kit with the tool you'd like to repair in a crafting grid."
-			]
+			description: ["{atm9.quest.SG.desc.repairkit}"]
 			hide_dependency_lines: true
 			id: "11B0B93D725ABE43"
 			rewards: [{
@@ -1211,7 +1204,7 @@
 				xp: 5
 			}]
 			size: 1.5d
-			subtitle: "Your First Repair Kit"
+			subtitle: "{atm9.quest.SG.subt.repairkit}"
 			tasks: [{
 				id: "123B475266C035CC"
 				item: {
@@ -1260,19 +1253,13 @@
 				title: "Any Silent Gear Repair Kit"
 				type: "item"
 			}]
-			title: "Repairing Items"
+			title: "{atm9.quest.SG.repairkit}"
 			x: 4.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7B690431CF1B87D0"]
-			description: [
-				"To make your first tool, take your Pickaxe Head part and put it into the crafting table."
-				""
-				"To create a full pickaxe, you can either add a stick to the crafting table, or create your own custom handle using a &9Tool Rod Template&r instead of using a stick."
-				""
-				"*Note: You can always search up the templates and then press U on it, then navigate to the \"Gear Crafting\" tab. This will show you how to make gear parts."
-			]
+			description: ["{atm9.quest.SG.desc.SGTool}"]
 			icon: "silentgear:pickaxe_template"
 			id: "15DE3BF0CBD8E0B4"
 			rewards: [{
@@ -1280,7 +1267,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Or At Least How To Make It"
+			subtitle: "{atm9.quest.SG.subt.SGTool}"
 			tasks: [{
 				id: "2ADE9DBE9448AC7F"
 				item: {
@@ -1365,21 +1352,13 @@
 				title: "Any Silent Gear Pickaxe"
 				type: "item"
 			}]
-			title: "Your First Tool!"
+			title: "{atm9.quest.SG.SGTool}"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["52EB902E76829EBB"]
-			description: [
-				"To get started with gear crafting in the early game, we'll need to make some &9Template Boards&r to create our first &eTemplate&r."
-				""
-				"Templates are single-use \"blueprints\" for creating tool parts. Using the basic boards, craft yourself a &aPickaxe Template&r."
-				""
-				"If you combine the Pickaxe Template with 3 of most materials*, you can create a Pickaxe Head part."
-				""
-				"*Note: Material must have a Silent Gear Material tooltip with the Main type."
-			]
+			description: ["{atm9.quest.SG.desc.template}"]
 			icon: {
 				Count: 1b
 				id: "silentgear:pickaxe_head"
@@ -1432,7 +1411,7 @@
 					type: "item"
 				}
 			]
-			title: "Template Boards"
+			title: "{atm9.quest.SG.template}"
 			x: -5.0d
 			y: 0.0d
 		}

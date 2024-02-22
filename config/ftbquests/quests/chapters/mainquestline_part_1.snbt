@@ -695,15 +695,8 @@
 				xp: 10
 			}]
 			tasks: [{
-				id: "01A7709155C7564E"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:workbench"
-					}
-				}
-				title: "Crafting Table"
+				id: "746C44D800F4E4FB"
+				item: "minecraft:crafting_table"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.crafting}"
