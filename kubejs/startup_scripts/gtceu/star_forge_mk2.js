@@ -39,7 +39,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('E', Predicates.abilities(PartAbility.INPUT_ENERGY).setMinGlobalLimited(2)
                 .or(Predicates.blocks('gtceu:atomic_casing'))) 
             .where('C', Predicates.blocks('gtceu:atomic_casing')
-                .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setExactLimit(1)))         // tried putting 2 Max parallel energy hatch doesn't make it go to 512 sadly so I kept it to 1
+                .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setExactLimit(1)))         // tried putting 2 Max parallel hatch doesn't make it go to 512 sadly so I kept it to 1
             .where('F', Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(5)
                 .or(Predicates.blocks('gtceu:atomic_casing'))) 
             .where('A', Predicates.abilities(PartAbility.IMPORT_ITEMS).setExactLimit(1)
