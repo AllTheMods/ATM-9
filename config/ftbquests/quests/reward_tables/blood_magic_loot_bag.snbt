@@ -2,11 +2,7 @@
 	icon: "bloodmagic:mastercore"
 	id: "4F7310810CCDCD00"
 	loot_size: 1
-<<<<<<< HEAD
 	order_index: 51
-=======
-	order_index: 48
->>>>>>> 4ce28e0114269e55cc60eb6c6858f3518feba7b2
 	rewards: [
 		{ item: "bloodmagic:blankslate", random_bonus: 3, weight: 100.0f }
 		{ item: "bloodmagic:reinforcedslate", random_bonus: 1, weight: 50.0f }
