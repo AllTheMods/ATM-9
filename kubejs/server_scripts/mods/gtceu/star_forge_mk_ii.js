@@ -109,6 +109,6 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[0])
     
     // Star Forge MK2 Controller Block Recipe
-	starForgeMK_II('star_forge_mk_ii', 10000/4, GTValues.VA[9], 'gtceu:star_forge_mk_ii', ['gtceu:star_forge','64x kubejs:cable_of_hyperconductivity','36x kubejs:superthermal_transference_coil','128x gtceu:uhpic_chip','gtceu:max_battery','24x #gtceu:circuits/uhv'], [Fluid.of('gtceu:star_matter_plasma', 3000)])
+	starForgeMK_II('star_forge_mk_ii', 10000, GTValues.VA[9], 'gtceu:star_forge_mk_ii', ['gtceu:star_forge','64x kubejs:cable_of_hyperconductivity','36x kubejs:superthermal_transference_coil','128x gtceu:uhpic_chip','gtceu:max_battery','24x #gtceu:circuits/uhv'], [Fluid.of('gtceu:star_matter_plasma', 3000)])
 
 })
