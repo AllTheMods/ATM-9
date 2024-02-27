@@ -1,0 +1,18 @@
+{
+    "primaryColor": "#80B425",
+    "secondaryColor": "#bb8d23",
+    "particleColor": "#80B425",
+    "flowerTag": "forge:pellets/antimatter",
+    "flowerBlock": "minecraft:air",
+    "description": "productivebees.ingredient.description.wasted_radioactive_bee",
+    "irradiated": true,
+    "particleType": "pop",
+    "useGlowLayer": true,
+    "selfBreed": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "mekanism"
+      }
+    ]
+  }
