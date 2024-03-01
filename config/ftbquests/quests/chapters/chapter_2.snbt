@@ -270,6 +270,7 @@
 		}
 	]
 	order_index: 1
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -312,7 +313,7 @@
 				item: "allthetweaks:oblivion_shard"
 				type: "item"
 			}]
-			title: "&6Master of Oblivion&r"
+			title: "{atm9.quest.chapter2.oblivion}"
 			x: 0.0d
 			y: -3.5d
 		}
@@ -365,7 +366,7 @@
 				item: "allthetweaks:dragon_soul"
 				type: "item"
 			}]
-			title: "&6Master of Dragons&r"
+			title: "{atm9.quest.chapter2.dragons}"
 			x: -2.0d
 			y: -3.0d
 		}
@@ -412,7 +413,7 @@
 				item: "allthetweaks:pulsating_black_hole"
 				type: "item"
 			}]
-			title: "&6Master of Space&r"
+			title: "{atm9.quest.chapter2.space}"
 			x: 2.0d
 			y: -3.0d
 		}
@@ -459,7 +460,7 @@
 				item: "allthetweaks:nexium_emitter"
 				type: "item"
 			}]
-			title: "&6Master of The Sky&r"
+			title: "{atm9.quest.chapter2.sky}"
 			x: -3.0d
 			y: -1.0d
 		}
@@ -514,7 +515,7 @@
 				item: "allthetweaks:patrick_star"
 				type: "item"
 			}]
-			title: "&6Master of... Patrick?&r"
+			title: "{atm9.quest.chapter2.patrick}"
 			x: 0.0d
 			y: 3.5d
 		}
@@ -566,7 +567,7 @@
 				item: "allthetweaks:dimensional_seed"
 				type: "item"
 			}]
-			title: "&6Master of The Universe&r"
+			title: "{atm9.quest.chapter2.universe}"
 			x: 3.0d
 			y: 1.0d
 		}
@@ -607,7 +608,7 @@
 				item: "mysticalagradditions:creative_essence"
 				type: "item"
 			}]
-			title: "&6Master of Creation&r"
+			title: "{atm9.quest.chapter2.creation}"
 			x: 2.0d
 			y: 3.0d
 		}
@@ -640,7 +641,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6Awakened Alloys&r"
+			title: "{atm9.quest.chapter2.awakened_blocks}"
 			x: -1.0d
 			y: 7.0d
 		}
@@ -668,6 +669,7 @@
 				item: "allthetweaks:mini_nether"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.mini_nether}"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -695,6 +697,7 @@
 				item: "allthetweaks:mini_exit"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.mini_exit}"
 			x: 7.5d
 			y: 0.5d
 		}
@@ -723,6 +726,7 @@
 				item: "allthetweaks:mini_end"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.mini_end}"
 			x: 8.0d
 			y: 1.0d
 		}
@@ -742,6 +746,7 @@
 				item: "occultism:storage_controller"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.dimstorage}"
 			x: -4.0d
 			y: -6.0d
 		}
@@ -763,6 +768,7 @@
 				item: "allthecompressed:netherrack_6x"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.netherrack}"
 			x: -2.0d
 			y: 20.0d
 		}
@@ -784,6 +790,7 @@
 				item: "allthecompressed:end_stone_5x"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.endstone}"
 			x: 3.5d
 			y: 18.5d
 		}
@@ -805,6 +812,7 @@
 				item: "allthecompressed:emerald_block_4x"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.emerald}"
 			x: 3.5d
 			y: 16.5d
 		}
@@ -826,6 +834,7 @@
 				item: "allthecompressed:diamond_block_4x"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.diamonds}"
 			x: -3.5d
 			y: 16.5d
 		}
@@ -847,6 +856,7 @@
 				item: "allthecompressed:obsidian_5x"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.obsidian}"
 			x: -3.5d
 			y: 18.5d
 		}
@@ -868,6 +878,7 @@
 				item: "allthecompressed:dirt_6x"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.dirt}"
 			x: 2.0d
 			y: 20.0d
 		}
@@ -909,7 +920,7 @@
 				item: "allthetweaks:improbable_probability_device"
 				type: "item"
 			}]
-			title: "&6Master of Reality&r"
+			title: "{atm9.quest.chapter2.reality}"
 			x: -2.0d
 			y: 3.0d
 		}
@@ -954,7 +965,7 @@
 				title: "Large Digital Storage Parts"
 				type: "item"
 			}]
-			title: "Large Digital Storage"
+			title: "{atm9.quest.chapter2.LDS}"
 			x: -7.0d
 			y: 13.0d
 		}
@@ -980,6 +991,7 @@
 				match_nbt: false
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.batteries}"
 			x: -4.0d
 			y: 6.0d
 		}
@@ -998,6 +1010,7 @@
 				item: "powah:player_transmitter_nitro"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.transmitter}"
 			x: -6.0d
 			y: 4.0d
 		}
@@ -1038,7 +1051,7 @@
 				title: "Wireless Terminals"
 				type: "item"
 			}]
-			title: "Wireless Terminals"
+			title: "{atm9.quest.chapter2.wireless}"
 			x: -5.5d
 			y: 13.0d
 		}
@@ -1057,6 +1070,7 @@
 				item: "ae2:singularity"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.singularity}"
 			x: -4.5d
 			y: 11.0d
 		}
@@ -1088,6 +1102,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.nuke}"
 			x: 6.5d
 			y: 1.5d
 		}
@@ -1121,7 +1136,7 @@
 				item: "pneumaticcraft:ingot_iron_compressed"
 				type: "item"
 			}]
-			title: "&dPneumaticCraft&r"
+			title: "{atm9.quest.chapter2.PC}"
 			x: 11.0d
 			y: -4.0d
 		}
@@ -1140,6 +1155,7 @@
 				item: "ae2:quantum_ring"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.quantum_ring}"
 			x: -6.5d
 			y: 11.0d
 		}
@@ -1182,6 +1198,7 @@
 				item: "allthecompressed:nether_star_block_3x"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.nether_stars}"
 			x: 0.0d
 			y: 21.0d
 		}
@@ -1213,6 +1230,7 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.chapter2.weather}"
 			x: 4.0d
 			y: -6.0d
 		}
@@ -1236,7 +1254,7 @@
 				item: "naturesaura:chunk_loader"
 				type: "item"
 			}]
-			title: "&dEyes of the World&r"
+			title: "{atm9.quest.chapter2.world_eye}"
 			x: 0.0d
 			y: -6.5d
 		}
@@ -1276,7 +1294,7 @@
 					type: "item"
 				}
 			]
-			title: "&dRevisiting The End&r"
+			title: "{atm9.quest.chapter2.end}"
 			x: 1.5d
 			y: -7.5d
 		}
@@ -1299,6 +1317,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.soul_gem}"
 			x: -6.0d
 			y: -4.0d
 		}
@@ -1345,7 +1364,7 @@
 				item: "allthetweaks:philosophers_fuel"
 				type: "item"
 			}]
-			title: "&6Master of The Elements&r"
+			title: "{atm9.quest.chapter2.elements}"
 			x: -3.0d
 			y: 1.0d
 		}
@@ -1389,7 +1408,7 @@
 				item: "allthetweaks:withers_compass"
 				type: "item"
 			}]
-			title: "&6Master of The Undead&r"
+			title: "{atm9.quest.chapter2.undead}"
 			x: 3.0d
 			y: -1.0d
 		}
@@ -1416,7 +1435,7 @@
 				item: "apotheosis:draconic_endshelf"
 				type: "item"
 			}]
-			title: "&dDraconic Endshelves&r"
+			title: "{atm9.quest.chapter2.endshelf}"
 			x: 9.0d
 			y: 0.5d
 		}
@@ -1448,6 +1467,7 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.chapter2.twilight_forest}"
 			x: -5.0d
 			y: -5.0d
 		}
@@ -1483,6 +1503,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.flesh}"
 			x: 6.0d
 			y: -4.0d
 		}
@@ -1517,7 +1538,7 @@
 					type: "item"
 				}
 			]
-			title: "&dPieces of the Ender Dragon&r"
+			title: "{atm9.quest.chapter2.Edragon}"
 			x: -1.5d
 			y: -7.5d
 		}
@@ -1536,6 +1557,7 @@
 				item: "industrialforegoing:wither_builder"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.wither_builder}"
 			x: 6.5d
 			y: 2.5d
 		}
@@ -1560,7 +1582,7 @@
 				item: "mekanism:supercharged_coil"
 				type: "item"
 			}]
-			title: "&dMekanism&r"
+			title: "{atm9.quest.chapter2.meka}"
 			x: 12.0d
 			y: -2.0d
 		}
@@ -1585,7 +1607,7 @@
 				item: "powah:energizing_orb"
 				type: "item"
 			}]
-			title: "&dPowah&r"
+			title: "{atm9.quest.chapter2.powah}"
 			x: -6.0d
 			y: 6.0d
 		}
@@ -1604,6 +1626,7 @@
 				item: "ars_nouveau:summon_focus"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.FOS}"
 			x: -6.5d
 			y: -2.5d
 		}
@@ -1678,7 +1701,7 @@
 				title: "Power Options"
 				type: "item"
 			}]
-			title: "&cPower&r"
+			title: "{atm9.quest.chapter2.power}"
 			x: 3.5d
 			y: 13.0d
 		}
@@ -1699,7 +1722,7 @@
 				item: "ae2:silicon"
 				type: "item"
 			}]
-			title: "&aStorage&r"
+			title: "{atm9.quest.chapter2.storage}"
 			x: -3.5d
 			y: 13.0d
 		}
@@ -1723,7 +1746,7 @@
 				item: "refinedstorage:controller"
 				type: "item"
 			}]
-			title: "RS"
+			title: "{atm9.quest.chapter2.RS}"
 			x: -5.5d
 			y: 14.0d
 		}
@@ -1747,7 +1770,7 @@
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
 			}]
-			title: "AE2"
+			title: "{atm9.quest.chapter2.AE2}"
 			x: -5.5d
 			y: 12.0d
 		}
@@ -1774,7 +1797,7 @@
 				title: "Resource Gathering"
 				type: "checkmark"
 			}]
-			title: "&2Resource Generation&r"
+			title: "{atm9.quest.chapter2.resource_generation}"
 			x: 0.0d
 			y: 16.5d
 		}
@@ -1798,7 +1821,7 @@
 				item: "mysticalagriculture:prosperity_seed_base"
 				type: "item"
 			}]
-			title: "&2Mystical Agriculture&r"
+			title: "{atm9.quest.chapter2.MA}"
 			x: 1.5d
 			y: 18.0d
 		}
@@ -1845,7 +1868,7 @@
 				title: "Example Quarries"
 				type: "item"
 			}]
-			title: "&aQuarrying The World&r"
+			title: "{atm9.quest.chapter2.quarries}"
 			x: -2.0d
 			y: 16.5d
 		}
@@ -1954,7 +1977,7 @@
 					type: "item"
 				}
 			]
-			title: "&dVoid Mining&r"
+			title: "{atm9.quest.chapter2.drills}"
 			x: 2.0d
 			y: 16.5d
 		}
@@ -1973,7 +1996,7 @@
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			title: "&eMob Farming&r"
+			title: "{atm9.quest.chapter2.mobs}"
 			x: -1.5d
 			y: 18.0d
 		}
@@ -1996,7 +2019,7 @@
 				item: "productivebees:advanced_oak_beehive"
 				type: "item"
 			}]
-			title: "&eProductive Bees&r"
+			title: "{atm9.quest.chapter2.bees}"
 			x: 0.0d
 			y: 19.0d
 		}
@@ -2025,6 +2048,7 @@
 				title: "What Happens Next?"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.chapter2.next}"
 			x: 0.0d
 			y: 13.0d
 		}
@@ -2066,7 +2090,7 @@
 					type: "item"
 				}
 			]
-			title: "&6Golden Trees&r"
+			title: "{atm9.quest.chapter2.nature}"
 			x: 0.0d
 			y: -9.5d
 		}
@@ -2100,7 +2124,7 @@
 					type: "item"
 				}
 			]
-			title: "&2Natural Rituals&r"
+			title: "{atm9.quest.chapter2.ritual}"
 			x: 0.0d
 			y: -8.0d
 		}
@@ -2126,6 +2150,7 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.chapter2.summon_wilden}"
 			x: -8.0d
 			y: -2.5d
 		}
@@ -2150,7 +2175,7 @@
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			title: "&9Ars Nouveau&r"
+			title: "{atm9.quest.chapter2.ars}"
 			x: -9.0d
 			y: -4.0d
 		}
@@ -2175,7 +2200,7 @@
 				item: "evilcraft:dark_gem"
 				type: "item"
 			}]
-			title: "&dEvilCraft&r"
+			title: "{atm9.quest.chapter2.evilcraft}"
 			x: 6.0d
 			y: -6.0d
 		}
@@ -2224,7 +2249,7 @@
 					type: "item"
 				}
 			]
-			title: "&6The Allthemodium Pyramid&r"
+			title: "{atm9.quest.chapter2.ancient_pyramid}"
 			x: 0.0d
 			y: 10.0d
 		}
@@ -2249,7 +2274,7 @@
 				item: "occultism:datura_seeds"
 				type: "item"
 			}]
-			title: "&dOccultism&r"
+			title: "{atm9.quest.chapter2.occultism}"
 			x: -6.0d
 			y: -6.0d
 		}
@@ -2280,7 +2305,7 @@
 					type: "item"
 				}
 			]
-			title: "&6The ATM Alloys&r"
+			title: "{atm9.quest.chapter2.atm_alloys}"
 			x: 0.0d
 			y: 8.0d
 		}
@@ -2326,7 +2351,7 @@
 				item: "allthemodium:unobtainium_allthemodium_alloy_block"
 				type: "item"
 			}]
-			title: "&6The Casing of the Star&r"
+			title: "{atm9.quest.chapter2.star_casing}"
 			x: 1.0d
 			y: 7.0d
 		}
@@ -2345,6 +2370,7 @@
 				item: "mekanism:pellet_antimatter"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.antimatter}"
 			x: 10.0d
 			y: -1.0d
 		}
@@ -2363,6 +2389,7 @@
 				item: "mekanism:module_gravitational_modulating_unit"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.gravity}"
 			x: 8.0d
 			y: -1.0d
 		}
@@ -2387,7 +2414,7 @@
 				item: "industrialforegoing:dissolution_chamber"
 				type: "item"
 			}]
-			title: "&dIndustrial Foregoing&r"
+			title: "{atm9.quest.chapter2.IF}"
 			x: 9.0d
 			y: 4.0d
 		}
@@ -2428,7 +2455,7 @@
 					type: "item"
 				}
 			]
-			title: "&dApotheosis&r"
+			title: "{atm9.quest.chapter2.apotheosis}"
 			x: 14.5d
 			y: 0.5d
 		}
@@ -2464,7 +2491,7 @@
 					type: "item"
 				}
 			]
-			title: "&dCreate&r"
+			title: "{atm9.quest.chapter2.create}"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -2498,7 +2525,7 @@
 					type: "item"
 				}
 			]
-			title: "&aThe Pressure Chamber&r"
+			title: "{atm9.quest.chapter2.pressure}"
 			x: 8.0d
 			y: -2.5d
 		}
@@ -2529,6 +2556,7 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.chapter2.air}"
 			x: 9.5d
 			y: -2.5d
 		}
@@ -2555,6 +2583,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.micromissiles}"
 			x: 6.5d
 			y: -2.5d
 		}
@@ -2573,6 +2602,7 @@
 				item: "industrialforegoing:stasis_chamber"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.stasis}"
 			x: 8.0d
 			y: 2.5d
 		}
@@ -2606,7 +2636,7 @@
 				}
 				type: "item"
 			}]
-			title: "&dImmersive Engineering&r"
+			title: "{atm9.quest.chapter2.IE}"
 			x: -16.5d
 			y: 0.0d
 		}
@@ -2655,7 +2685,7 @@
 					type: "item"
 				}
 			]
-			title: "Creosote Oil"
+			title: "{atm9.quest.chapter2.creosote}"
 			x: -14.5d
 			y: -1.0d
 		}
@@ -2702,7 +2732,7 @@
 					type: "item"
 				}
 			]
-			title: "Building Multiblocks"
+			title: "{atm9.quest.chapter2.multiblocks}"
 			x: -14.5d
 			y: 1.0d
 		}
@@ -2730,6 +2760,7 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.chapter2.squeezer}"
 			x: -10.0d
 			y: -1.0d
 		}
@@ -2748,6 +2779,7 @@
 				item: "immersiveengineering:capacitor_hv"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.accumulater}"
 			x: -8.5d
 			y: -1.0d
 		}
@@ -2787,6 +2819,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.railgun}"
 			x: -7.0d
 			y: 0.0d
 		}
@@ -2829,6 +2862,7 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.chapter2.workbench}"
 			x: -13.0d
 			y: -1.0d
 		}
@@ -2847,6 +2881,7 @@
 				item: "immersiveengineering:dust_coke"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.coke}"
 			x: -11.5d
 			y: -1.0d
 		}
@@ -2866,7 +2901,7 @@
 				id: "45723AB59D9FC1B7"
 				type: "advancement"
 			}]
-			title: "Fermenter"
+			title: "{atm9.quest.chapter2.fermenter}"
 			x: -12.0d
 			y: 1.0d
 		}
@@ -2894,6 +2929,7 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.chapter2.refinery}"
 			x: -10.0d
 			y: 1.0d
 		}
@@ -2925,7 +2961,7 @@
 					type: "item"
 				}
 			]
-			title: "&dDuroplast Sheets&r"
+			title: "{atm9.quest.chapter2.duroplast}"
 			x: -8.5d
 			y: 1.0d
 		}
@@ -2977,7 +3013,7 @@
 				item: "allthetweaks:atm_star"
 				type: "item"
 			}]
-			title: "&6ATM Star"
+			title: "{atm9.quest.chapter2.ATM_Star}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -3020,7 +3056,7 @@
 				title: "Better Bookshelves"
 				type: "item"
 			}]
-			title: "Upgrading Our &2Bookshelves&r"
+			title: "{atm9.quest.chapter2.45}"
 			x: 13.0d
 			y: 0.5d
 		}
@@ -3095,7 +3131,7 @@
 					type: "item"
 				}
 			]
-			title: "&dInfusion&r &eEnchanting&r"
+			title: "{atm9.quest.chapter2.60}"
 			x: 12.0d
 			y: 0.5d
 		}
@@ -3145,7 +3181,7 @@
 					type: "item"
 				}
 			]
-			title: "Going Deeper"
+			title: "{atm9.quest.chapter2.80}"
 			x: 11.0d
 			y: 0.5d
 		}
@@ -3179,7 +3215,7 @@
 					type: "item"
 				}
 			]
-			title: "Dragon &dInfusion&r"
+			title: "{atm9.quest.chapter2.100}"
 			x: 10.0d
 			y: 0.5d
 		}
@@ -3205,7 +3241,7 @@
 				item: "bigreactors:insanite_block"
 				type: "item"
 			}]
-			title: "&dExtreme Reactors&r"
+			title: "{atm9.quest.chapter2.reactors}"
 			x: 6.0d
 			y: 6.0d
 		}
@@ -3224,7 +3260,7 @@
 				item: "silentgear:tyrian_steel_block"
 				type: "item"
 			}]
-			title: "&aSilent Gear&r"
+			title: "{atm9.quest.chapter2.SG}"
 			x: 5.0d
 			y: -5.0d
 		}
@@ -3248,7 +3284,7 @@
 				}
 				type: "item"
 			}]
-			title: "&dAd Astra&r"
+			title: "{atm9.quest.chapter2.ad_astra}"
 			x: -5.0d
 			y: 5.0d
 		}
@@ -3312,7 +3348,7 @@
 					type: "item"
 				}
 			]
-			title: "Items to Craft for the Star"
+			title: "{atm9.quest.chapter2.extras}"
 			x: 4.0d
 			y: 6.0d
 		}
@@ -3341,7 +3377,7 @@
 				item: "irons_spellbooks:fire_upgrade_orb"
 				type: "item"
 			}]
-			title: "&dIron's Spells n' Spellbooks&r"
+			title: "{atm9.quest.chapter2.spells}"
 			x: 6.0d
 			y: 4.0d
 		}
@@ -3365,7 +3401,7 @@
 				item: "forbidden_arcanus:arcane_crystal_dust"
 				type: "item"
 			}]
-			title: "&dForbidden \\&\\ Arcanus&r"
+			title: "{atm9.quest.chapter2.FA}"
 			x: -7.5d
 			y: 4.0d
 		}
@@ -3390,6 +3426,7 @@
 				item: "forbidden_arcanus:deorum_block"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.deorum}"
 			x: -6.5d
 			y: 3.0d
 		}
@@ -3414,6 +3451,7 @@
 				item: "forbidden_arcanus:dark_rune_block"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.dark_rune}"
 			x: -7.5d
 			y: 2.5d
 		}
@@ -3446,6 +3484,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.eternal_stella}"
 			x: -6.5d
 			y: 2.0d
 		}
@@ -3479,7 +3518,7 @@
 				item: "bloodmagic:speedrune2"
 				type: "item"
 			}]
-			title: "&cBlood Magic&r"
+			title: "{atm9.quest.chapter2.blood}"
 			x: 2.5d
 			y: -6.0d
 		}
@@ -3506,7 +3545,7 @@
 				item: "botania:life_essence"
 				type: "item"
 			}]
-			title: "&dBotania&r"
+			title: "{atm9.quest.chapter2.botania}"
 			x: -2.5d
 			y: -6.0d
 		}
@@ -3535,6 +3574,7 @@
 				item: "cataclysm:abyssal_sacrifice"
 				type: "item"
 			}]
+			title: "{atm9.quest.chapter2.abyssal_sacrifice}"
 			x: -2.5d
 			y: 8.0d
 		}
@@ -3608,7 +3648,7 @@
 					type: "item"
 				}
 			]
-			title: "&5Void Forge&r"
+			title: "{atm9.quest.chapter2.void_forge}"
 			x: 2.5d
 			y: 8.0d
 		}

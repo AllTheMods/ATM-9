@@ -6,6 +6,7 @@
 	icon: "apotheosis:mythic_material"
 	id: "6693050B0EE71CEB"
 	order_index: 0
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -139,6 +140,7 @@
 		{
 			description: ["{atm9.quest.affixes.desc.gems}"]
 			id: "5A0305BB1F8EA932"
+			progression_mode: "flexible"
 			shape: "octagon"
 			tasks: [{
 				advancement: "apotheosis:affix/gem"
