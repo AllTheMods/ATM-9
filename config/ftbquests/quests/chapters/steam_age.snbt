@@ -308,6 +308,7 @@
 				"73FC1166FBD6C30D"
 				"506360EEA2268E82"
 				"1E811D532BC593F2"
+				"49D740C5B5EB593C"
 			]
 			description: [
 				"All LV Machines are gated behind this circuit"
@@ -352,7 +353,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -450,7 +451,7 @@
 			]
 			title: "Glass Tube"
 			x: 0.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7A62C1B9385DF643"]
@@ -477,7 +478,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["60069A897F2B0F78"]
@@ -697,6 +698,45 @@
 			}]
 			x: -6.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["6ECBB6F5D0D99DEE"]
+			description: ["One &6Copper Ingot&r and four &cRedstone Dust&r in the &eAlloy Smelter&r creates this lovely ingot"]
+			id: "3302A9306CAD659A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B3B4D9925B69097"
+				table_id: 4444697382338980938L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4F21E8821A465876"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3302A9306CAD659A"
+				"6CE157D05F59A994"
+			]
+			description: ["Red Alloy Cable is an integral part of crafting the &bLV Circuit&r and getting out of the Steam Age"]
+			id: "49D740C5B5EB593C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "393B393299331031"
+				table_id: 4444697382338980938L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "31DEB8892D2B486F"
+				item: "gtceu:red_alloy_single_cable"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
 		}
 	]
 	title: "{atm9.chapters.26.title}"

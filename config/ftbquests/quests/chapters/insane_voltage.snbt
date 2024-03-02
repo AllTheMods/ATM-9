@@ -207,6 +207,7 @@
 			dependencies: [
 				"533DB1666B11489A"
 				"12905D5778274DEE"
+				"1FF8B0E2D10C88E9"
 			]
 			description: ["With 16 of these on your &eElectric Blast Furnace&r you can cook recipes up to &c4500 Kelvin&r! That's 4227 Celsius or 7640 Fahrenheit!"]
 			id: "0A848E0B9F485B2C"
@@ -214,16 +215,29 @@
 				{
 					count: 6
 					id: "393AD63D08C4587C"
-					item: "gtceu:vanadium_dust"
+					item: "gtceu:molybdenum_dust"
 					random_bonus: 6
 					type: "item"
 				}
 				{
 					count: 8
 					id: "2561A6499CDB6E06"
-					item: "gtceu:tungsten_steel_dust"
+					item: "gtceu:ruthenium_dust"
 					random_bonus: 8
 					type: "item"
+				}
+				{
+					count: 8
+					id: "0BE7E36683619E3D"
+					item: "gtceu:chromium_dust"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2212F4C424085656"
+					table_id: 6202000790833671070L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -231,8 +245,8 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			x: -4.800000000000001d
-			y: 0.7999999999999998d
+			x: -2.5d
+			y: 0.7999999999999999d
 		}
 		{
 			dependencies: [
@@ -717,7 +731,7 @@
 				item: "gtceu:ev_assembler"
 				type: "item"
 			}]
-			x: -4.800000000000001d
+			x: -2.5d
 			y: 2.0d
 		}
 		{
@@ -1813,8 +1827,8 @@
 				item: "gtceu:vanadium_gallium_dust"
 				type: "item"
 			}]
-			x: -4.800000000000001d
-			y: -1.1999999999999993d
+			x: -7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5F270891C953486E"]
@@ -1900,8 +1914,8 @@
 				item: "gtceu:vanadium_gallium_ingot"
 				type: "item"
 			}]
-			x: -3.3999999999999995d
-			y: -0.19999999999999973d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -2268,6 +2282,245 @@
 			}]
 			x: 4.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["64F77D41B2D057B8"]
+			description: ["While not necessary, the IV Macerator will give you a speed boost on processing Sheldonite, as this processing line can be quite &n&l&2TimeConsuming.&r&r&r"]
+			hide_dependency_lines: true
+			id: "16B44F78707E148E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7771EA6688348CD0"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Hey, Macerator, Yaaah!"
+			tasks: [{
+				id: "783804D20825EC31"
+				item: "gtceu:iv_macerator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.1d
+		}
+		{
+			dependencies: ["16B44F78707E148E"]
+			description: ["Processing Sheldonite and purifying it will allow you to get the highest return on Platinum Group Sludge. This Sludge contains resources you need to progress."]
+			id: "2FDACD6F153D5B64"
+			rewards: [{
+				count: 16
+				id: "02F35F6C06C59F87"
+				item: "gtceu:raw_cooperite"
+				random_bonus: 32
+				type: "item"
+			}]
+			subtitle: "My Friend Sheldon went to a club on nite."
+			tasks: [{
+				id: "3E85E016A9FC831F"
+				item: "gtceu:raw_cooperite"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.1d
+		}
+		{
+			dependencies: ["2FDACD6F153D5B64"]
+			description: ["&l&6Aqua Regia&r&r is a mixture of Concentrated Nitric Acid and Hydrochloric Acid, usually one part to three parts, respectively. The Mixture was given its name (literally \"Royal Water\") by alchemists because of its ability to dissovle &l&eGold&r&r."]
+			id: "0DD389A24F5F8CDD"
+			rewards: [{
+				id: "2BD13756A8D0E6D0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:aqua_regia"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:aqua_regia"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Im a Barbie Girl, In a Barbie world... If you know, you know."
+			tasks: [{
+				id: "167A231788D5F833"
+				item: "gtceu:aqua_regia_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0500000000000007d
+		}
+		{
+			dependencies: ["2FDACD6F153D5B64"]
+			description: ["Platinum Group Sludge will process down into a bunch of great resources that will help you moving forward."]
+			id: "4632DA3CE9D95064"
+			rewards: [{
+				count: 8
+				id: "029845A689A9ED7D"
+				item: "gtceu:platinum_group_sludge_dust"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "Money! *Mister Krabs*"
+			tasks: [{
+				id: "6D5FD9D06E3AD241"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0500000000000007d
+		}
+		{
+			dependencies: [
+				"4632DA3CE9D95064"
+				"20A01B6A6B1177CB"
+				"0DD389A24F5F8CDD"
+			]
+			description: [
+				"This wont be inert for long! Once processed you will have a BUNCH of new resources in hand, which can be further processed into very useful materials!"
+				""
+				"Make sure to get a passive processing line of this going, as you will need quite a bit of the resulting resources."
+			]
+			id: "7CC3BD5F3D66A637"
+			rewards: [{
+				count: 6
+				id: "1B047E534CB265CB"
+				item: "gtceu:inert_metal_mixture_dust"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "A cloud of radon floats into a cafe. The waiter says, \"we don't serve inert gases here\". There was no reaction from the radon."
+			tasks: [{
+				id: "2F0E1D0E62D27DF0"
+				item: "gtceu:inert_metal_mixture_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0500000000000007d
+		}
+		{
+			dependencies: ["64F77D41B2D057B8"]
+			description: [
+				"Another tier up, another boost to processing time. But again, theres no time to get comfortable. The new resources we will be processing will need further advancements to bring those processing times down. So keep at it!"
+				""
+				"You are doing great!!"
+			]
+			hide_dependency_lines: true
+			id: "20A01B6A6B1177CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BBA9D4D6693F074"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			subtitle: "You Spin me Right Round... Oh Come on, you knew it was coming..."
+			tasks: [{
+				id: "7609E81C3C3C8F78"
+				item: "gtceu:iv_centrifuge"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CC3BD5F3D66A637"]
+			description: ["Now that we have broken down the Inert Metal mixure, we have 2 new resources, both of which are extremely valuable to us in the &dLuv&r Tier! Make sure to get a passive line going so we have a constant supply of these resources flowing in!"]
+			id: "439556C571592D81"
+			rewards: [
+				{
+					id: "36D580AD734CBBA6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Amount: 16000
+								FluidName: "gtceu:rhodium_sulfate"
+								capacity: 16000
+							}
+						}
+						id: "evilcraft:dark_tank"
+						tag: {
+							Fluid: {
+								Amount: 16000
+								FluidName: "gtceu:rhodium_sulfate"
+							}
+							capacity: 16000
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "775ACF8F8D043BB8"
+					item: "gtceu:ruthenium_tetroxide_dust"
+					random_bonus: 6
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "2 for 1! What a deal!"
+			tasks: [
+				{
+					id: "195C8E82DDC275B1"
+					item: "gtceu:ruthenium_tetroxide_dust"
+					type: "item"
+				}
+				{
+					id: "18C94C4E8484B27A"
+					item: "gtceu:rhodium_sulfate_bucket"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0500000000000007d
+		}
+		{
+			dependencies: ["439556C571592D81"]
+			description: ["Now that we have pure Ruthenium, we can make it dirty again! Haha! Use a mixer to turn this into Ruridit. We will need quite a bit of Ruridit for other processes and items, including the Assembly Line!"]
+			id: "40249CD28957E7EB"
+			rewards: [{
+				count: 6
+				id: "09A68E6B45224827"
+				item: "gtceu:ruthenium_dust"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "Cleaned up the Dust"
+			tasks: [{
+				id: "270A0E25457E1C36"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40249CD28957E7EB"]
+			id: "1FF8B0E2D10C88E9"
+			rewards: [{
+				count: 6
+				id: "3FB909CCA3040943"
+				item: "gtceu:ruthenium_dust"
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [{
+				id: "0020D722D78214B3"
+				item: "gtceu:rtm_alloy_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
 		}
 	]
 	title: "{atm9.chapters.31.title}"
