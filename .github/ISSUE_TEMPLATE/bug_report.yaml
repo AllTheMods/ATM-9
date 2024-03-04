@@ -20,7 +20,7 @@ body:
         - "No"
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: pack-version
     attributes:
       label: Modpack Version
