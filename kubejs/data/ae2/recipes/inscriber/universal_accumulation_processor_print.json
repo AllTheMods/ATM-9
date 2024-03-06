@@ -1,0 +1,15 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "megacells:sky_steel_ingot"
+    },
+    "top": {
+      "item": "kubejs:universal_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "megacells:printed_accumulation_processor"
+  }
+}
