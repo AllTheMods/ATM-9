@@ -987,7 +987,7 @@
 					id: "29711CF4D4E5241C"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_wire_factory"
+					to_observe: "gtceu:large_wiremill"
 					type: "observation"
 				}
 			]
@@ -1031,7 +1031,7 @@
 					id: "578BB941AE6A7856"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_solidification_array"
+					to_observe: "gtceu:large_solidifier"
 					type: "observation"
 				}
 			]
@@ -1081,7 +1081,7 @@
 					id: "65FE174D4A5F484C"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_extrusion_machine"
+					to_observe: "gtceu:large_extruder"
 					type: "observation"
 				}
 			]
@@ -1126,7 +1126,7 @@
 					observe_type: 2
 					timer: 0L
 					title: "Observe Complete Large Extraction Machine"
-					to_observe: "gtceu:large_extraction_machine"
+					to_observe: "gtceu:large_extractor"
 					type: "observation"
 				}
 			]
@@ -1173,7 +1173,7 @@
 					id: "3787DE68318D9E46"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_fractioning_distillery"
+					to_observe: "gtceu:large_distillery"
 					type: "observation"
 				}
 			]
@@ -1223,7 +1223,7 @@
 					id: "034EAE3D86F06F1C"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_cutting_saw"
+					to_observe: "gtceu:large_cutter"
 					type: "observation"
 				}
 			]
@@ -1365,7 +1365,7 @@
 					id: "553C54B8B3A652D0"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_crystallization_chamber"
+					to_observe: "gtceu:large_autoclave"
 					type: "observation"
 				}
 			]
@@ -1571,7 +1571,7 @@
 					id: "51A72B7982E04028"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_circuit_assembling_facility"
+					to_observe: "gtceu:large_circuit_assembler"
 					type: "observation"
 				}
 			]
@@ -1619,7 +1619,7 @@
 					id: "763B8BD528C50FF3"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_assembling_factory"
+					to_observe: "gtceu:large_assembler"
 					type: "observation"
 				}
 			]
@@ -1715,7 +1715,7 @@
 					id: "7FC8BBB169091341"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_electrolysis_chamber"
+					to_observe: "gtceu:large_electrolyzer"
 					type: "observation"
 				}
 			]
@@ -1771,7 +1771,7 @@
 					id: "1E34B345EFB46198"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_mixing_vessel"
+					to_observe: "gtceu:large_mixer"
 					type: "observation"
 				}
 			]
@@ -1815,7 +1815,7 @@
 					id: "040583DD9EFA80F1"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_centrifugal_unit"
+					to_observe: "gtceu:large_centrifuge"
 					type: "observation"
 				}
 			]
