@@ -377,13 +377,21 @@
 			]
 			description: ["Don't forget, once you've made these you can update those old circuit recipes that used regular Transistors to use the Advanced Transistor"]
 			id: "1809493D8765E67A"
-			rewards: [{
-				count: 4
-				id: "092E25B584C9B2A5"
-				item: "gtceu:hssg_dust"
-				random_bonus: 4
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "092E25B584C9B2A5"
+					item: "gtceu:hssg_dust"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C5E99E3A5CF135D"
+					table_id: 6202000790833671070L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "4AD1E09D72AD01E3"
 				item: "gtceu:advanced_smd_transistor"
@@ -403,13 +411,21 @@
 				"Is this really a boost? Yes! Mainly because you use fewer of the Advanced SMD Resistors, but also because the regular kind won't be usable forever..."
 			]
 			id: "2CC2E23077A0509F"
-			rewards: [{
-				count: 4
-				id: "1559A17E6BEF564D"
-				item: "gtceu:graphene_dust"
-				random_bonus: 4
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "1559A17E6BEF564D"
+					item: "gtceu:graphene_dust"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "754E11897AC4D998"
+					table_id: 6202000790833671070L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "3667F2D12BD686DD"
 				item: "gtceu:advanced_smd_resistor"
@@ -420,9 +436,10 @@
 		}
 		{
 			dependencies: [
-				"599BABC83E76A711"
 				"1D9194E89D14BA85"
 				"45D9E32D75F5ACAE"
+				"599BABC83E76A711"
+				"1AB86FD8776634D0"
 			]
 			description: [
 				"Finally, this unlocks the HV circuit at the Nanoprocessor tier!"
@@ -430,13 +447,21 @@
 				"Well, technically you could've made it without using the Advanced SMD components, but where's the fun in that?"
 			]
 			id: "239E32216382AA5D"
-			rewards: [{
-				count: 4
-				id: "261F7E2E3450A321"
-				item: "gtceu:hsss_dust"
-				random_bonus: 4
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "261F7E2E3450A321"
+					item: "gtceu:hsss_dust"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24F7EAB4EA5990C0"
+					table_id: 6202000790833671070L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "38023F3A53A1FFF3"
 				item: "gtceu:advanced_smd_capacitor"
@@ -458,13 +483,21 @@
 				"Be sure going forward that you make recipes using the Advanced SMD Components because they are cheaper"
 			]
 			id: "1A73520CB284217F"
-			rewards: [{
-				count: 4
-				id: "4A67FAA8B49E8FDF"
-				item: "gtceu:niobium_titanium_dust"
-				random_bonus: 4
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "4A67FAA8B49E8FDF"
+					item: "gtceu:niobium_titanium_dust"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15067CF3E3F6062F"
+					table_id: 6202000790833671070L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "6971A717F3A6343E"
 				item: "gtceu:advanced_smd_diode"
@@ -479,16 +512,25 @@
 				"4720F9EDF894330C"
 				"1D9194E89D14BA85"
 				"45D9E32D75F5ACAE"
+				"1AB86FD8776634D0"
 			]
 			description: ["The Advanced Inductor! Keep updating those old recipes"]
 			id: "574019B5B7CA43E0"
-			rewards: [{
-				count: 8
-				id: "26CA1388FAD74DE1"
-				item: "gtceu:palladium_dust"
-				random_bonus: 8
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "26CA1388FAD74DE1"
+					item: "gtceu:palladium_dust"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "377F61DFB3FDCCD7"
+					table_id: 6202000790833671070L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "227F895573C8DCA9"
 				item: "gtceu:advanced_smd_inductor"
@@ -735,27 +777,41 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["41EE8B40BA43DADE"]
+			dependencies: [
+				"41EE8B40BA43DADE"
+				"4632DA3CE9D95064"
+				"47871110028991D3"
+			]
 			description: [
 				"You'll smelt this and flatten it into &bFoils&r to make the delicate layers that comprise the &dAdvanced SMD Capacitor&r"
 				""
-				"If you're having a hard time finding &aIridium&r, you can get a head start on the &ePlatLine™&r which won't be covered until the next chapter because this one is already quite full"
+				"If you're having a hard time finding &aIridium Ore&r, then you can work towards the &5Iridium Bee&r, or start on processing the &eRarest Metal Mixture&r from the &6PlatLine™&r"
 			]
+			hide_dependency_lines: true
 			id: "599BABC83E76A711"
-			rewards: [{
-				count: 6
-				id: "138DF43E45BCBD66"
-				item: "alltheores:iridium_dust"
-				random_bonus: 6
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "138DF43E45BCBD66"
+					item: "alltheores:raw_iridium"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 12
+					id: "5C2C7A388507B5C3"
+					item: "gtceu:hsss_dust"
+					random_bonus: 12
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "04CE037EB56DFF14"
 				item: "gtceu:hsss_dust"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 6.199999999999999d
+			y: -2.8999999999999995d
 		}
 		{
 			dependencies: ["6517B8748E3A6831"]
@@ -900,10 +956,10 @@
 			]
 			id: "4720F9EDF894330C"
 			rewards: [{
-				count: 6
+				count: 12
 				id: "51FF1B9CA03B0275"
 				item: "gtceu:hsse_dust"
-				random_bonus: 6
+				random_bonus: 12
 				type: "item"
 			}]
 			tasks: [{
@@ -2521,6 +2577,49 @@
 			}]
 			x: -3.5d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"41EE8B40BA43DADE"
+				"45D9E32D75F5ACAE"
+			]
+			description: [
+				"That's right, two &eEBF&r coil upgrades in one chapter! "
+				""
+				"You'll have to make these coils to smelt the High Speed Steel S and E variants for the Advanced SMD Components"
+				""
+				"&l&eNote:&r&r Making the Advanced SMD Components is not strictly necessary to make the Nanoprocessors"
+			]
+			id: "1AB86FD8776634D0"
+			rewards: [
+				{
+					count: 16
+					id: "0FCE644F73F35583"
+					item: "gtceu:tungsten_dust"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1DC9FB0667F710A0"
+					item: "gtceu:hssg_dust"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47CD64F1B76FEC3C"
+					table_id: 6202000790833671070L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "231B87784B7EC352"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.4999999999999996d
 		}
 	]
 	title: "{atm9.chapters.31.title}"
