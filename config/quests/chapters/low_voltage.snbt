@@ -1,0 +1,1198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "low_voltage"
+	group: "1DA67E79B40AB130"
+	icon: "gtceu:basic_electronic_circuit"
+	id: "37A28F4697946CB4"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Upgrading your machines will grant you access to new recipes and increase their processing speed"
+				""
+				"This is called &boverclocking&r and can be configured in the GUI of the machine if you do not want to overclock (to conserve power for example)"
+				""
+				"Overclocking a recipe results in it processing twice as fast but using four times as much power - overall this means twice as much energy is used"
+			]
+			id: "5C1BB559DD83E88F"
+			rewards: [
+				{
+					count: 8
+					id: "63DE356D2C74A10A"
+					item: "gtceu:tin_single_cable"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 8
+					id: "02B5C3D33312FDA2"
+					item: "gtceu:copper_single_wire"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Welcome to &7LV&r"
+			tasks: [{
+				id: "08EA6CE798092CE9"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"11D16434F78D2C2C"
+				"7480A00B82C5DDB5"
+			]
+			description: [
+				"You've been remembering to batch craft things, right?"
+				""
+				"I'll give you a pass this time and assume you have"
+			]
+			id: "4D6885EFA4EE272F"
+			rewards: [
+				{
+					count: 2
+					id: "39993B4D19452515"
+					item: "gtceu:basic_electronic_circuit"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5C954CCCF1770A9A"
+					item: "gtceu:diode"
+					random_bonus: 6
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Onwards to MV!"
+			tasks: [{
+				id: "312B4A8B539DCD5D"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.8999999999999999d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: [
+				"With a wiremill you can turn an ingot into two 1x wires"
+				""
+				"This also unlocks cheaper fine wire recipes"
+			]
+			id: "2A26032DC9C8CFD6"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E917EAC6D910F41"
+				table_id: 4804065436311136435L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "Cheaper wires"
+			tasks: [{
+				id: "570680D6E9DF6FA7"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: [
+				"With this machine you can turn one ingot into one plate easy-peasy"
+				""
+				"Further processing of plates will turn them into foils"
+			]
+			id: "1906C5D1C80035E4"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "611C4B513D3D1ADF"
+				table_id: 4804065436311136435L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "Cheaper plates"
+			tasks: [{
+				id: "2077EC584FD16863"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: [
+				"This bad boy unlocks a cheaper rubber crafting recipe!"
+				""
+				"For 1 sulfur dust and 9 raw rubber pulp you'll make the equivalent of 9 rubber ingots in fluid form"
+			]
+			id: "620C406CC24F179C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52F68D22D0F72D31"
+				table_id: 4804065436311136435L
+				type: "loot"
+			}]
+			subtitle: "More rubber more better"
+			tasks: [{
+				id: "52A1256EE8999962"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["This machine also uses Casting Molds to form the fluids into different shapes"]
+			icon: "gtceu:lv_fluid_solidifier"
+			id: "78C51E9B7B8315F6"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D8FA55D8F428E7B"
+					table_id: 4804065436311136435L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "6F4A88033B4245E2"
+					item: "alltheores:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Need that fluid to be solid?"
+			tasks: [
+				{
+					id: "091F155D7F3E3BB9"
+					item: "gtceu:lv_fluid_solidifier"
+					type: "item"
+				}
+				{
+					id: "2DCDA83AF43F55A3"
+					item: "gtceu:ingot_casting_mold"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: [
+				"A cheaper way to coat wires in rubber!"
+				""
+				"This machine is necessary to coat higher tier wires in rubber to make cables"
+				""
+				"You might want to use this to create your machine hulls once we get some polyethylene in MV"
+			]
+			id: "0718FA338E8BA792"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6435CAC26D2AE960"
+				table_id: 4804065436311136435L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1F057DDA8380A19B"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["For all your rod production needs!"]
+			id: "601DA80C08C3F9AC"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C6B38D702FD7813"
+				table_id: 4804065436311136435L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "Good ol' rod"
+			tasks: [{
+				id: "6B700066BC245B01"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["The centrifuge lets you separate compounds into their respective materials by spinning very fast"]
+			id: "7A8242E6D0BC6294"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2611E3D86AEBB72F"
+				table_id: 4804065436311136435L
+				type: "loot"
+			}]
+			subtitle: "You spin me right round"
+			tasks: [{
+				id: "367EC7D585D98AA3"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2BE4B6F1CCAA36AC"
+				"2E2B6921723681C7"
+				"402B0C7242A00309"
+			]
+			description: [
+				"Finally, the diode is within reach"
+				""
+				"You'll need to turn this into small piles of gallium arsenide dust, or set up a recipe to do that for you"
+			]
+			id: "0F9829B0A5EEE67B"
+			rewards: [{
+				id: "5779FAD09110C8D8"
+				item: "gtceu:small_gallium_arsenide_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D26B60F4283057A"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["The mixer takes multiple materials and mixes them into a new material, very useful for higher quality steels and metal mixtures"]
+			id: "2BE4B6F1CCAA36AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E15475C8EC7E18A"
+				table_id: 4804065436311136435L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "18293B4BFE73030A"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0F9829B0A5EEE67B"]
+			description: [
+				"You can use an &eExtractor&r to get glass in a liquid state for making the &bdiode&r"
+				""
+				"We'll get to polyethylene later on, so keep in mind that you can upgrade this recipe!"
+			]
+			id: "11D16434F78D2C2C"
+			rewards: [
+				{
+					count: 2
+					id: "1DBCAADC256D6736"
+					item: "gtceu:fine_copper_wire"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "731C849551B7E97E"
+					table_id: 4804065436311136435L
+					type: "loot"
+				}
+			]
+			subtitle: "MV is close at hand!"
+			tasks: [{
+				id: "61B743E1BD9B2C2A"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59BE2AD1CD0C4ECE"]
+			id: "7480A00B82C5DDB5"
+			rewards: [{
+				count: 2
+				id: "2ED65BD250ADB8EB"
+				item: "gtceu:silver_single_wire"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "783AA495FA7BB3DD"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A8242E6D0BC6294"]
+			id: "0251FD45582C3164"
+			rewards: [{
+				count: 3
+				id: "040F3CC75232341A"
+				item: "gtceu:sticky_resin"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Don't sniff this"
+			tasks: [{
+				id: "198DCF429BE2642F"
+				item: "gtceu:glue_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["Take that steam you were making and turn it into EU!"]
+			id: "1A000021C07943C4"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "44700E5D3BE7BFB9"
+					item: "alltheores:bronze_plate"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0FBE44A202516001"
+					item: "alltheores:steel_plate"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			subtitle: "No Power No Problem"
+			tasks: [{
+				id: "630369075AEDE4C6"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: [
+				"Do you already have a setup for RF/FE power generation? "
+				""
+				"In that instance, you could make Energy Converters to turn that RF into EU and cable this to your machines"
+				""
+				"By default it is set to convert EU to RF, so you will need to thwack it with a &asoft mallet&r to change it to RF to EU conversion"
+				""
+				"The red side is the EU side and the green sides are for RF/FE. Keep in mind you can rotate the converter by crouch right clicking with a &awrench&r"
+				""
+				"&e&lNote:&r&r Use &awirecutters&r to enable and disable wire connections to blocks and each other"
+			]
+			id: "01339A8C26CC6E0C"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "3B1BB8375B8C17BE"
+					item: "gtceu:red_alloy_single_wire"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1D6C384DF92D080D"
+					item: "gtceu:tin_single_wire"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3C0F3AFEB9EE2CD2"
+					item: "alltheores:steel_plate"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52AFA2CE57617039"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_1a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_4a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_8a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_16a_energy_converter"
+							}
+						]
+					}
+				}
+				title: "Any LV Energy Converter"
+				type: "item"
+			}]
+			title: "Energy Converters"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A000021C07943C4"]
+			description: ["Eventually you'll want more steam than the single block boilers can provide. When that happens, make way for the Large Bronze Boiler!"]
+			id: "4E55A1169742B901"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "55AC853EA70BCE2A"
+					item: "alltheores:bronze_plate"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "51DD260C78F55705"
+					item: "gtceu:tin_single_cable"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Steam producing Multiblock"
+			tasks: [{
+				id: "003E27141ED2E7DB"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0718FA338E8BA792"
+				"0251FD45582C3164"
+			]
+			id: "59BE2AD1CD0C4ECE"
+			rewards: [{
+				id: "08120615CAF1096F"
+				item: "gtceu:wood_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BFAFA9C71807BEC"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: [
+				"Many machines use a programmed circuit setting to determine what recipes can be processed"
+				""
+				"You'll find the option to change the programmed circuit setting in the machine's GUI, just select the program that corresponds to the recipe you are running and it will start running"
+				""
+				"&6&lYou don't need to craft a programmed circuit&r&r"
+				""
+				"Often it is easier to dedicate a machine to a specific program setting and make a new one rather than change program settings manually for different crafting recipes"
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:programmed_circuit"
+				tag: {
+					Configuration: 0
+				}
+			}
+			id: "4875FB6628C1FCDC"
+			min_width: 300
+			rewards: [{
+				id: "2190B18F4B77EA5B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "71AF3878DBC0AB29"
+				title: "Programmed Circuits"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7D5F805A6F2551F0"
+				"14C017569BECA2CE"
+				"6E2F24117ACF3694"
+			]
+			description: [
+				"Put that cobaltite dust with 3 buckets of oxygen in your Electric Blast Furnace to acquire Arsenic Trioxide dust"
+				""
+				"This also produces Cobalt Oxide and some Sulfur Dioxide which can be further processed to get some of that oxygen back"
+			]
+			id: "74EE98F95F483C37"
+			rewards: [{
+				id: "5C651B2AB9D6925B"
+				item: "gtceu:arsenic_trioxide_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D82282268F050A6"
+				item: "gtceu:arsenic_trioxide_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["439C8AEBE9E1C666"]
+			description: [
+				"Gather the listed materials and then check JEI's Multiblock Info page (you can find this by looking at the uses for the EBF controller block) to see how to build it"
+				""
+				"Each LV Energy Hatch accepts 2 Amps of LV. Together that makes 4 Amps of LV, which in this case will allow the EBF to process MV recipes as if it were powered by 1 Amp of MV!"
+				""
+				"The Multiblock Info page shows one possible configuration of the multiblock, but often it is not the desired configuration. Be sure to check which blocks are valid at the various positions"
+				""
+				"You'll know it is formed when the input and output blocks change color to match the controller and casings"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "6E2F24117ACF3694"
+			min_width: 350
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B35E2C6F42DFF49"
+					table_id: 4804065436311136435L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "7EB932BBDF978DF9"
+					item: "gtceu:tin_octal_cable"
+					type: "item"
+				}
+			]
+			subtitle: "The first multiblock"
+			tasks: [
+				{
+					id: "4C753457114B1DEF"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "26560CEB97AF9425"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "25E39941CF0E60F0"
+					item: "gtceu:cupronickel_coil_block"
+					type: "item"
+				}
+				{
+					id: "50C5803D3BF1B2BC"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "7A8AEC45CF09062F"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "162FB1B27E0828BC"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "14DAA8338634372F"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "4F425DAD0F9D4FC4"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "35A54E0FF0FEE7FD"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "691D046D2C4AC344"
+					item: "gtceu:heatproof_machine_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "3F5D1730023562C7"
+					title: "Observe Formed EBF"
+					type: "custom"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Passiving oxygen early on is highly recommended, as it is used a lot"
+				""
+				"There are many ways to get oxygen, when looking in JEI make sure the recipe states &lUsage: LV&r or &lUsage: ULV&r"
+				""
+				"Goethite dust can be centrifuged for oxygen, or perhaps electrolyzing sapphire dust is more your speed"
+				""
+				"Alternatively, you could build a Basic Gas Collector and use that to collect air, which you would then centrifuge into oxygen. Water can also be electrolyzed into oxygen, but be aware, these methods are quite slow"
+			]
+			id: "7D5F805A6F2551F0"
+			min_width: 250
+			rewards: [{
+				id: "5EB301581155D469"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.25d
+			tasks: [{
+				id: "41E980F316610E20"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 4.525d
+			y: -1.25d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: [
+				"Macerator -> Ore Washer -> Thermal Centrifuge -> Macerator"
+				""
+				"This is one setup for ore processing, you can check JEI for other possible setups! "
+				""
+				"Once you have this setup built at &6HV&r you will get many byproducts"
+				""
+				"Byproducts are often used for recipes further on, so be sure to revisit this at HV and keep them!"
+				""
+				"There are many ways to automate this setup, so it is left as an exercise for the reader"
+				""
+				"[ \"\", { \"text\": \"Note: \", \"color\":\"#FFFF55\", \"bold\":\"true\" }, { \"text\": \"The Ore Washer requires \" }, { \"text\": \"water\", \"color\":\"#5555FF\" }, { \"text\": \" and a \" }, { \"text\":\"Programmed Circuit\", \"color\":\"#FFAA00\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"4875FB6628C1FCDC\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } }, { \"text\":\" setting to run\" } ]"
+			]
+			id: "25DBFE887B041E94"
+			min_width: 350
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7275D97C107F982C"
+				table_id: 4804065436311136435L
+				type: "loot"
+			}]
+			subtitle: "The basics"
+			tasks: [
+				{
+					id: "30667DF7F6540C0B"
+					item: "gtceu:lv_macerator"
+					type: "item"
+				}
+				{
+					id: "0BFF441E2D88D565"
+					item: "gtceu:lv_ore_washer"
+					type: "item"
+				}
+				{
+					id: "72F6075E2C976BE5"
+					item: "gtceu:lv_thermal_centrifuge"
+					type: "item"
+				}
+			]
+			title: "Ore Processing"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25DBFE887B041E94"]
+			description: [
+				"Cobaltite dust can come from ore processing cobaltite"
+				""
+				"You can find Cobaltite Ore by mining in the Overworld between -10 and 60, it should be mixed in with Garnierite, Nickel, and Pentlandite ores"
+			]
+			id: "14C017569BECA2CE"
+			rewards: [{
+				count: 4
+				id: "1A770CEE35A99BEA"
+				item: "gtceu:raw_cobaltite"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FC622A82F527A54"
+				item: "gtceu:cobaltite_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["512BD9BCA43AEE83"]
+			description: [
+				"If you get lucky, you may find Realgar which can be turned into arsenic directly in a centrifuge"
+				""
+				"Cobaltite can be electrolyzed directly to get arsenic, but that's at MV. Also you'll get more arsenic for your cobaltite by making arsenic trioxide dust and electrolyzing that"
+			]
+			id: "2E2B6921723681C7"
+			rewards: [{
+				count: 2
+				id: "1E0C65C8BDFA9A54"
+				item: "gtceu:realgar_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26E1467CEA5DF223"
+				item: "gtceu:arsenic_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E2F24117ACF3694"]
+			description: [
+				"Grab your tools and open up the maintenance hatch, there are problems to fix!"
+				""
+				"With the appropriate tools you can click on the maintenance hatch to rectify any and all issues"
+				""
+				"Which tools you ask? When you open the GUI of the Maintenance Hatch you should see a little wrench icon floating off on the right, mouse over it and it will tell you"
+				""
+				"Once that is done, your new EBF is all ready to use!"
+				""
+				"Be aware, problems can arise again, but it is not often and is easy to fix"
+			]
+			id: "23B55A8C7D6482FF"
+			min_width: 300
+			rewards: [{
+				id: "47DE96702DC29027"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "That's right, it is broken"
+			tasks: [{
+				id: "0362C10508FC4615"
+				title: "Maintenance"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: [
+				"Similar to the steam age, this will turn solid metals into their fluid form"
+				""
+				"Additionally, this will get you the raw rubber pulp"
+			]
+			id: "504DEE88DFDBD380"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "597248294BEF3E6F"
+				table_id: 4804065436311136435L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "Liquidizing your assets"
+			tasks: [{
+				id: "74FD2DABE6D932C9"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"25DBFE887B041E94"
+				"4059373B88845C6F"
+				"7B8ADB4104E7C440"
+			]
+			description: [
+				"You have to start making &9Sodium Persulfate&r to put in a &eChemical Bath&r, replacing the Ore Washer in a separate Ore Processing Setup for a chance at &dGallium Dust&r when processing &6Bauxite&r"
+				""
+				"At &6HV+&r you can &aOre Process&r Bauxite or Sphalerite as another method of obtaining gallium"
+			]
+			id: "402B0C7242A00309"
+			rewards: [{
+				count: 4
+				id: "7C44EBCF5BBBA3EE"
+				item: "gtceu:raw_bauxite"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "41846B8B240030AE"
+				item: "gtceu:gallium_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["To make wrought iron you need to smelt iron nuggets into wrought iron nuggets"]
+			id: "313AA0A45CD2BBB9"
+			rewards: [{
+				count: 2
+				id: "50FC7B684543C55A"
+				item: "gtceu:wrought_iron_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "7D2E6775D39566B8"
+				item: "gtceu:wrought_iron_nugget"
+				type: "item"
+			}]
+			x: -2.45d
+			y: -2.5500000000000003d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: [
+				"I hope you still have that alloy smelter handy!"
+				""
+				"Copper and Nickel together in an alloy smelter make cupronickel, which you'll need to create the Coils for the Electric Blast Furnace"
+			]
+			id: "439C8AEBE9E1C666"
+			rewards: [{
+				id: "418875730A8386DC"
+				item: "gtceu:cupronickel_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E797E24FD42DB71"
+				item: "gtceu:cupronickel_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: [
+				"Why passively generate any resource? Because it is a good idea to generate common resources passively rather than order them on demand, that way you'll have what you need when you need it rather than having to wait a very long time for everything to run"
+				""
+				"Setup the &aRock Crusher&r with water on the left and lava on the right in the world, then insert some cobblestone to make cobblestone"
+				""
+				"Output the cobblestone into a &aForge Hammer&r to create gravel"
+				""
+				"Output the gravel into another &aForge Hammer&r to create sand"
+				""
+				"Output the sand into an &aArc Furnace&r with some oxygen to make glass"
+				""
+				"Output the glass into a &aMacerator&r to turn it into glass dust"
+				""
+				"Output the glass dust into a &aCentrifuge&r to get silicon dioxide"
+				""
+				"Output the silicon dioxide into an &aElectrolyzer&r and get silicon dust and oxygen!"
+				""
+				"All you need to get started is a little oxygen, given to you in the form of green sapphire dust!"
+			]
+			id: "0D99638C96AB2EEA"
+			min_width: 400
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BC86ED902460525"
+					table_id: 4804065436311136435L
+					type: "loot"
+				}
+				{
+					count: 5
+					id: "7E5734BA79A85F7B"
+					item: "gtceu:green_sapphire_dust"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "You'll need it"
+			tasks: [
+				{
+					id: "00648047034C9531"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_rock_crusher"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lp_steam_rock_crusher"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hp_steam_rock_crusher"
+								}
+							]
+						}
+					}
+					title: "Rock Crusher"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6D9C084B63F0AE29"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_forge_hammer"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lp_steam_forge_hammer"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hp_steam_forge_hammer"
+								}
+							]
+						}
+					}
+					title: "Forge Hammers"
+					type: "item"
+				}
+				{
+					id: "357F4A0BA739F0F3"
+					item: "gtceu:lv_arc_furnace"
+					type: "item"
+				}
+				{
+					id: "016BA8271625AE36"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_macerator"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lp_steam_macerator"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hp_steam_macerator"
+								}
+							]
+						}
+					}
+					title: "Macerator"
+					type: "item"
+				}
+				{
+					id: "75D597970DB148DA"
+					item: "gtceu:lv_centrifuge"
+					type: "item"
+				}
+				{
+					id: "50AD676E09AE6D96"
+					item: "gtceu:lv_electrolyzer"
+					type: "item"
+				}
+			]
+			title: "Passive Oxygen Line"
+			x: -2.5249999999999995d
+			y: 2.9000000000000004d
+		}
+		{
+			dependencies: ["74EE98F95F483C37"]
+			description: [
+				"The electrolyzer will separate compounds into constituent compounds based on their electric charge"
+				""
+				"In our case, it will separate the &dArsenic Trioxide&r into &eArsenic&r and &bOxygen&r"
+			]
+			id: "512BD9BCA43AEE83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E0610F2A25EA1CB"
+				table_id: 4804065436311136435L
+				type: "loot"
+			}]
+			subtitle: "Shock me like an electric eel"
+			tasks: [{
+				id: "4DE768EBE8A565BA"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["620C406CC24F179C"]
+			description: [
+				"Oxygen and sulfur dust in your &eChemical Reactor&r on &aprogram 2&r will make some sulfur dioxide"
+				""
+				"If you're having trouble keeping up with the sulfur requirements, you could start centrifuging 2 blaze powder to make sulfur dust"
+			]
+			id: "64314EEB9916CAB1"
+			rewards: [{
+				id: "26B12B2CFCFA4919"
+				item: "gtceu:sulfur_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "7198853CC3A9DEAC"
+				item: "gtceu:sulfur_dioxide_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64314EEB9916CAB1"]
+			description: [
+				"Chemical react sulfur dioxide with more oxygen to make sulfur trioxide"
+				""
+				"Oxygen is very important, you may want to go back and dedicate an entire setup to passively produce it if you haven't already"
+			]
+			id: "5143E0F48520D41B"
+			rewards: [{
+				id: "203401EB866852ED"
+				item: "gtceu:sulfur_dioxide_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D9AA8DF5ECCFCAC"
+				item: "gtceu:sulfur_trioxide_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5143E0F48520D41B"]
+			description: [
+				"Chemical react water with sulfur trioxide to get sulfuric acid"
+				""
+				"You can get infinite water in your digital storage system by connecting to a Kitchen Sink - just make sure it is set to extract only! Otherwise it will void fluids on insert"
+			]
+			id: "17A935989A9505E1"
+			rewards: [{
+				id: "1A9E73CE0805E879"
+				item: "gtceu:sulfur_trioxide_bucket"
+				type: "item"
+			}]
+			subtitle: "Just add water!"
+			tasks: [{
+				id: "75017109130EE055"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["The &eChemical Bath&r is used in &aOre Processing&r lines to get certain &dbyproducts&r by washing crushed ores in mercury or sodium persulfate"]
+			id: "4059373B88845C6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CE93A5EA7A30FA3"
+				table_id: 4804065436311136435L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "58FC9BE9F7D8485C"
+				item: "gtceu:lv_chemical_bath"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"620C406CC24F179C"
+				"17A935989A9505E1"
+			]
+			description: ["Salt and Sulfuric Acid on Program 1 will make Sodium Bisulfate"]
+			id: "4835BE1596B65206"
+			rewards: [{
+				count: 3
+				id: "247CDED45EA75B54"
+				item: "gtceu:sodium_bisulfate_dust"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "55065DC2687DC4D2"
+				item: "gtceu:sodium_bisulfate_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4835BE1596B65206"]
+			description: ["[ \"You need to \", { \"text\": \"Electrolyze\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"512BD9BCA43AEE83\" } }, \" the Sodium Bisulfate\" ]"]
+			id: "7B8ADB4104E7C440"
+			rewards: [{
+				id: "0E2AB9F3A1583996"
+				item: "gtceu:sodium_persulfate_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64890DABF420C352"
+				item: "gtceu:sodium_persulfate_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+	]
+	title: "{atm9.chapters.27.title}"
+}

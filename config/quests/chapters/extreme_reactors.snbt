@@ -1,0 +1,1740 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extreme_reactors"
+	group: "2B51AC12041E3F89"
+	icon: "bigreactors:wrench"
+	id: "3C78926E5D301BA0"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["Needed For The ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "atm:textures/questpics/extremereactors/title2.png"
+			rotation: 0.0d
+			width: 10.156626506024097d
+			x: -12.5d
+			y: 12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "atm:textures/questpics/extremereactors/titleimage2.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.4903078677309d
+			x: -12.5d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 90.0d
+			width: 1.75d
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			click: ""
+			color: 14679808
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 1.75d
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.25d
+			hover: [ ]
+			image: "forbidden_arcanus:block/clibano_combustion/soul_fire/clibano_center_front"
+			rotation: 180.0d
+			width: 2.25d
+			x: -2.0d
+			y: 15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "bigreactors:fluid/fluid.fuelcolumn.flowing"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "bloodmagic:block/liquid_doubt_flowing"
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:block/base_input"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:block/base_input"
+			order: -1
+			rotation: 45.0d
+			width: 2.0d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "mob_grinding_utils:block/fan_front_on"
+			order: -1
+			rotation: 45.0d
+			width: 1.5d
+			x: -0.5d
+			y: 0.5d
+		}
+	]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Based off of the original mod &eBig Reactors&r, &aExtreme Reactors&r allows you to build customizable multiblock Reactors!"
+				""
+				"The main element is of course, Uranium. You'll need this and a lot of coal and iron to get building."
+				""
+				"If you're ever lost along the way, refer to &aThe Extreme Book&r for help! "
+			]
+			id: "7C4E4793DA887DE4"
+			rewards: [
+				{
+					id: "5D196EE2BB1E921E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1C213B4FE894781D"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "bigreactors:erguide"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7ECE44526077F3C9"
+				item: "alltheores:uranium_ingot"
+				type: "item"
+			}]
+			title: "Welcome to &9Extreme Reactors&r!"
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C4E4793DA887DE4"]
+			description: [
+				"Before we can start building our reactor, we'll need to smelt some coal (or charcoal) to create &9Graphite Ingots&r."
+				""
+				"Graphite, coupled with Iron, is one of the main materials when making a Reactor."
+			]
+			id: "4FA6BEA4E646B742"
+			rewards: [
+				{
+					id: "07500C1CA8341D60"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E406BC76180F481"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "Hardened Carbon"
+			tasks: [{
+				count: 16L
+				id: "4B83A0D1C2C3C226"
+				item: "bigreactors:graphite_ingot"
+				type: "item"
+			}]
+			title: "Graphite for Casings"
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75AD0CEBC1335915"]
+			description: [
+				"We're going to build the smallest passive reactor possible, the &93x3x3&r. The requirements for the quest are the exact amounts for what you'll need to build one."
+				""
+				"To build this, you start by building a 3x3x3 frame made out of Casings. In the middle of the bottom face, you can just use another Reactor Casing. You'll want each outer wall to have a &9reactor component&r, like an Active Power Tap or Solid Access Port."
+				""
+				"Next Page!"
+				""
+				"{@pagebreak}"
+				"Every reactor you build will require exactly 1 &6Reactor Controller&r, which is usually put in the middle of the front wall. Next, we'll place 1 &aFuel Rod&r in the center of the multiblock, and 1 &eControl Rod&r above it on the top face."
+				""
+				"You will need a way to input and output waste, which is done by using &9Reactor Solid Access Ports&r. For this build, place one on the left side and one on the right."
+				""
+				"To extract power, we'll place the &cActive Power Tap&r on the middle of the back wall. Once placed, the reactor should complete! You can now right click the Controller to open up the interface and turn it on!"
+				""
+				"Note: The biggest reactor you can make using &aBasic Reactor Parts&r is 5x5x5. To build a larger reactor, you will need &eReinforced Reactor Parts&r."
+				""
+				"{@pagebreak}"
+				"This is what a 3x3x3 reactor will look like!"
+				""
+				"{image:atm:textures/questpics/extremereactors/3x3sample.png width:150 height:150 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "bigreactors:block/reactor/reinforced/controller_off"
+				}
+			}
+			id: "4AD8363D7359A072"
+			min_width: 300
+			rewards: [
+				{
+					id: "3FEA5D1C2E8907D8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C32A80527EB8A8F"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Learning the Basics"
+			tasks: [
+				{
+					count: 21L
+					id: "70D705C81989D87C"
+					item: "bigreactors:basic_reactorcasing"
+					type: "item"
+				}
+				{
+					id: "1D03F9FD56B01515"
+					item: "bigreactors:basic_reactorcontroller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2ADB404DAFBD7AC5"
+					item: "bigreactors:basic_reactorsolidaccessport"
+					type: "item"
+				}
+				{
+					id: "6E7930A4B00563C9"
+					item: "bigreactors:basic_reactorpowertapfe_active"
+					type: "item"
+				}
+				{
+					id: "1C89B070388F3ADF"
+					item: "bigreactors:basic_reactorcontrolrod"
+					type: "item"
+				}
+				{
+					id: "368FDD7ECB8C06CD"
+					item: "bigreactors:basic_reactorfuelrod"
+					type: "item"
+				}
+			]
+			title: "&dOur First Reactor"
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4FA6BEA4E646B742"]
+			description: [
+				"To build a reactor, you'll need to start by making &6Reactor Casings&r."
+				""
+				"These make up the frame and walls of your reactor, although the walls can be replaced by &9Reactor Glass&r if you'd like to see inside of your reactor."
+				""
+				"For future reference, when a part says \"Basic\", this means that it can only be used with other basic parts. The \"Basic\" parts can also only be used to build smaller reactors, as it has a certain size limit. Keep this in mind!"
+			]
+			id: "4B9E9497E44D0096"
+			rewards: [
+				{
+					id: "0303247B6A6C3F08"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "19C423870DAAA0DB"
+					item: "bigreactors:basic_reactorcasing"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "76E0779D896F146B"
+					item: "bigreactors:basic_reactorcasing"
+					type: "item"
+				}
+				{
+					id: "4EA3FF4654F9D9FF"
+					item: "bigreactors:basic_reactorglass"
+					type: "item"
+				}
+			]
+			title: "Reactor Building Components"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4B9E9497E44D0096"]
+			description: [
+				"To extract power or items from your reactor, or even input fuel, you'll need these &crequired&r blocks."
+				""
+				"The &cPower Tap&r provides a way for you to \"tap\" into the power that a &9passive&r reactor makes. You can attach pipes and cables to extract the power from it."
+				""
+				"The &aAccess Ports&r are required for every reactor, and allows you to both input fuel from the reactor, or extract waste. It's usually a good idea to have 2 per reactor, one for each job."
+			]
+			id: "2A20000FAEC2E16A"
+			rewards: [
+				{
+					count: 2
+					id: "772EB41C198591C5"
+					item: "bigreactors:basic_reactorcasing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1FA7A1D6E690613A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "565CF24C6904CC2A"
+					item: "bigreactors:basic_reactorpowertapfe_active"
+					type: "item"
+				}
+				{
+					id: "0649EBB6E6516B4C"
+					item: "bigreactors:basic_reactorsolidaccessport"
+					type: "item"
+				}
+			]
+			title: "Interacting with the Reactor"
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4B9E9497E44D0096"]
+			description: [
+				"The &dReactor Controller&r is the heart of the reactor. When a reactor is formed, you can right-click the terminal to open up the reactor interface."
+				""
+				"Depending on if it is a &9Passively Cooled&r or an &eActively Cooled&r reactor, the interface will change. Passively Cooled reactors are used to produce power directly by burning fuel. Actively Cooled Reactors use the heat created to vaporize the coolant, which is then sent into a Turbine to create power."
+				""
+				"In the interface of a passive reactor, you can see and toggle the status and waste ejection. You'll also see the temps, how much FE/t the reactor is producing, and how much fuel the reactor is burning per tick."
+			]
+			id: "75AD0CEBC1335915"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "2975B436F7D91A8A"
+					item: "bigreactors:basic_reactorcasing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "38C141F047926833"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5508199460B01082"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "The Heart of the Reactor"
+			tasks: [{
+				id: "62A0FE4CFAB9621B"
+				item: "bigreactors:basic_reactorcontroller"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4B9E9497E44D0096"]
+			description: [
+				"Every reactor needs &9Reactor Control Rods&r and &9Fuel Rods&r. These control how fuel is inserted into the reactor."
+				""
+				"The Control Rods are placed on the top face of the reactor. You can also have more than one per reactor, but you must have at least 1. Typically, the more you have, the more fuel the reactor can use and burn. That can mean more overall power, but at the cost of higher burn rates, depending on the setup of your reactor."
+				""
+				"For every Control Rod, you'll need enough Fuel Rods to extend to the base of the reactor. For example, if your reactor is 5 blocks tall, you'll need 3 Fuel Rods extending from each Control Rod."
+				""
+				"If you right-click on a Control Rod, you can control how much fuel is burned in the reactor by inserting or retracting the fuel rods. The further that you extend the rods, the less fuel that will be burned."
+			]
+			id: "7B4AAC741F0A6073"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "3165C37A9C6F4AA4"
+					item: "bigreactors:basic_reactorcasing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "332E2A363D91F6E9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1FC2120A22A7BAEC"
+					item: "bigreactors:basic_reactorcontrolrod"
+					type: "item"
+				}
+				{
+					id: "14C67262D9F8A9A8"
+					item: "bigreactors:basic_reactorfuelrod"
+					type: "item"
+				}
+			]
+			title: "Reactor Control Rods"
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4AD8363D7359A072"]
+			description: [
+				"To insert fuel into the reactor, you'll need to pick one of the sides that has a &9Reactor Solid Access Port&r and pump in &eUranium&r from an inventory."
+				""
+				"The easiest way to do this is to use something like a &aStorage Drawer&r or even just a &aChest&r with an &9Item Pipe&r connected at the top, like the image shown below."
+				""
+				"{image:atm:textures/questpics/extremereactors/importexample.png width:150 height:150 align:1}"
+			]
+			id: "14E5349DD740D026"
+			min_width: 400
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "55FBD6A7422569AB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29C27647CB5FC0F6"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "159251A23C881D83"
+				item: "alltheores:uranium_ingot"
+				type: "item"
+			}]
+			title: "Fueling our Passive Reactor"
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4AD8363D7359A072"]
+			description: ["When the reactor burns up fuel, it creates &9waste&r or a &dReactant&r that you'll also want to extract. That is what the other Solid Access Port is for! Make sure to set it to output, then pipe it into some type of storage."]
+			id: "4745152F6FF242B3"
+			rewards: [
+				{
+					id: "3C59017024A58441"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A7EFCB386FBB78B"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			subtitle: "Waste Not Want Not or something...."
+			tasks: [{
+				id: "77F79D09A76CFF15"
+				item: "bigreactors:cyanite_ingot"
+				type: "item"
+			}]
+			title: "Dealing with Waste"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4745152F6FF242B3"]
+			description: [
+				"Now that we have some Cyanite from our baby reactor, we'll want a way to reprocess that waste into something useful."
+				""
+				"To do this, we'll need to build another multiblock: the &aReprocessor&r."
+				""
+				"This takes a lot of Cyanite, so start stocking up! You might want to upgrade to a bigger reactor as well. "
+			]
+			id: "354086C858E10154"
+			rewards: [
+				{
+					id: "601D8AF8D45F9818"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "080EADDE6EB76EAC"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0577F2FA32B65E00"
+				item: "bigreactors:reprocessorcasing"
+				type: "item"
+			}]
+			title: "Reprocessing our Waste"
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"With Cyanite, we can create the heart of the Turbine, the &9Turbine Controller&r."
+				""
+				"Turbines are multi-block structures, just like Reactors! They input vapors like &7Steam&r made by &dActively Cooled&r Reactors to create TONS of power! We'll need a few other pieces to be able to build our first one."
+				""
+				"Note: Basic Turbine parts can only be used to build a max size Turbine of 5x5x10. To build a bigger Turbine, you must use &aReinforced Turbine Parts&r."
+			]
+			id: "4415C9F8DA2D7E68"
+			rewards: [
+				{
+					count: 2
+					id: "6EE855A0C663EDDF"
+					item: "bigreactors:basic_turbinecasing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5C20A5831F6F1EE9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01FB731CE2FD9481"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "3FD4E648D3560D1B"
+					item: "bigreactors:basic_turbinecasing"
+					type: "item"
+				}
+				{
+					id: "738B3094737D9A6A"
+					item: "bigreactors:basic_turbinecontroller"
+					type: "item"
+				}
+			]
+			title: "Making Turbines"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4AD8363D7359A072"]
+			description: [
+				"Reactor &9Moderators&r are materials placed inside of a reactor to change how it performs, based on the properties of the moderator. These are placed &linside&r of the reactor during construction."
+				""
+				"Typically, the rarer the material is, the better of a Moderator it is. Leaving the reactor empty means you are using the air inside as a moderator, which isn't that great."
+				""
+				"If you are looking for something cheap in the early game, try using &3Graphite Blocks&r!"
+			]
+			id: "73362EDC984B8A0F"
+			min_width: 300
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "56D7ED254FC3A540"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6150F69F6D20EBFB"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			subtitle: "They are Moderators, not Coolants."
+			tasks: [{
+				id: "0D4AE8FBAA953732"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:iron_block"
+							}
+							{
+								Count: 1b
+								id: "minecraft:gold_block"
+							}
+							{
+								Count: 1b
+								id: "minecraft:emerald_block"
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_block"
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_block"
+							}
+							{
+								Count: 1b
+								id: "minecraft:copper_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:platinum_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:osmium_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:nickel_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:lead_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:aluminum_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:silver_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:tin_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:zinc_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:steel_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:invar_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:electrum_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:bronze_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:enderium_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:lumium_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:signalum_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:brass_block"
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_block"
+							}
+							{
+								Count: 1b
+								id: "botania:terrasteel_block"
+							}
+							{
+								Count: 1b
+								id: "botania:elementium_block"
+							}
+							{
+								Count: 1b
+								id: "bigreactors:graphite_block"
+							}
+						]
+					}
+				}
+				title: "Example Moderators"
+				type: "item"
+			}]
+			title: "Reactor Moderators"
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4415C9F8DA2D7E68"
+				"4745152F6FF242B3"
+			]
+			description: [
+				"Reactors can also be used to heat up &bcoolants&r like water to create &bvapor&r, like &bSteam&r."
+				""
+				"To do this, you'll need to build a reinforced reactor. This is built in the same way that you built your 3x3x3 reactor, but all of the parts will need to be &aReinforced Reactor Parts&r instead. I'd also suggest on it being bigger than a 3x3x3."
+				""
+				"To input a coolant, you'll need a &9Forge Fluid Port&r. This will port in any fluids like Water into the reactor. This will also be used to export the vapor created in the reactor."
+				""
+				"If you want, you can create a &aMekanism Fluid Port&r to convert the fluid Steam into the Mekanism gas Steam instead."
+			]
+			id: "476755275B948A5F"
+			min_width: 300
+			rewards: [
+				{
+					id: "450F59D9CB0FEF7A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44BF0BA518FE9E1D"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "To Make Steam!!"
+			tasks: [
+				{
+					id: "122E3BB7DB314F68"
+					item: "bigreactors:reinforced_reactorcasing"
+					type: "item"
+				}
+				{
+					id: "3A52CAA0728D629A"
+					item: "bigreactors:reinforced_reactorfluidport_forge_active"
+					type: "item"
+				}
+			]
+			title: "Building An Actively Cooled Reactor"
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4AD8363D7359A072"]
+			description: [
+				"Reactors are multi-block structures, meaning you can create your own custom size!"
+				""
+				"If you're using &aBasic Reactor Parts&r, the largest size reactor you can build is 5x5x5."
+				""
+				"The &lBiggest&r Reactor that you can make using &eReinforced Reactor Parts&r is 32x32x48. There are a lot of variables that contribute to the overall output of a reactor, so make sure to experiment!"
+				""
+				"Some overall tips:"
+				""
+				"The taller the reactor, the more fuel it can hold and burn because there are more fuel rods, meaning more overall power. This also means a higher &cburn rate&r."
+				""
+				"The wider the reactor, the more efficient it is, as long as you don't add more fuel rods to the design. This means less consumption overall."
+			]
+			id: "3F9D553C9FA64F2A"
+			min_width: 300
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "2D71A6EF1CA59FA7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52181A03434A605B"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "52294DB4AE793F9C"
+				item: "bigreactors:basic_reactorcasing"
+				type: "item"
+			}]
+			title: "Expanding Our Reactors"
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4415C9F8DA2D7E68"]
+			description: [
+				"To interact with our Turbine, we'll need several &6Ports&r."
+				""
+				"The &9Fluid Port&r is used to insert vapors like &bSteam&r, or extract exhaust, like &9water&r. Because of this, you'll need two for your Turbine."
+				""
+				"The &cPower Tap&r extracts power, and is required to complete the multiblock."
+			]
+			id: "186731580B14F9D2"
+			rewards: [
+				{
+					count: 4
+					id: "6F76A59F202AD944"
+					item: "bigreactors:basic_turbinecasing"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "7BC028EFCCFAF39A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2L
+					id: "5E9CEEEE330B1DE0"
+					item: "bigreactors:basic_turbinefluidport_forge_active"
+					type: "item"
+				}
+				{
+					id: "18EB6570007F534A"
+					item: "bigreactors:basic_turbinepowertapfe_active"
+					type: "item"
+				}
+			]
+			title: "Turbine Ports"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4415C9F8DA2D7E68"]
+			description: [
+				"To get a Turbine spinning, we'll need these &crequired&r components:"
+				""
+				"- &9Rotor Bearings&r are placed at one end of the shaft of the turbine. This can be on any face, but dictates where the shaft extrude from. This is typically placed in the center of the bottom face."
+				""
+				"- &eRotor Shafts&r extend from one Rotor Bearing to the opposite side of the turbine, all the way to a single Turbine Housing block, creating the shaft for the Turbine."
+				""
+				"- &9Rotor Blades&r make the rotor spin. These are placed onto the Rotor Shafts and can be multiple blocks in length. Each Blade can handle a certain amount of vapor, and determines how many are needed based on your reactor's production rates."
+				""
+				"Here is an example of a Vertical Shaft setup for a Turbine, with the Turbine Coil of Lead on the top."
+				""
+				"{image:atm:textures/questpics/extremereactors/maxbasicturbine.png width:100 height:150 align:1}"
+			]
+			id: "67AFCBCE7AAC3089"
+			min_width: 300
+			rewards: [
+				{
+					id: "433D5587FE499E95"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EAE5391E041D455"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "69497C419271A8F2"
+					item: "bigreactors:basic_turbinerotorbearing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "05559BFC34BEBF4A"
+					item: "bigreactors:basic_turbinerotorshaft"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "42F16075D25E4A94"
+					item: "bigreactors:basic_turbinerotorblade"
+					type: "item"
+				}
+			]
+			title: "Creating The Turbine Shaft"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4415C9F8DA2D7E68"]
+			description: [
+				"&dTurbine Coils&r are blocks placed around the end of the Turbine Shaft, closest to the Housing block. These are required to generate power from the turbine. You can have up to 3 coils per turbine, and can mix and match different coil blocks."
+				""
+				"This quest requires at least one of the acceptable blocks you can use as coils."
+				""
+			]
+			id: "3FC7FDAF84871963"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "54346236C9443772"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2719368F51041BAD"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5D6A9AD111A612EE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:iron_block"
+							}
+							{
+								Count: 1b
+								id: "minecraft:gold_block"
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_block"
+							}
+							{
+								Count: 1b
+								id: "minecraft:copper_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:platinum_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:osmium_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:nickel_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:lead_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:aluminum_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:silver_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:tin_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:zinc_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:steel_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:invar_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:electrum_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:bronze_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:enderium_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:lumium_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:signalum_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:brass_block"
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_block"
+							}
+							{
+								Count: 1b
+								id: "botania:terrasteel_block"
+							}
+							{
+								Count: 1b
+								id: "botania:elementium_block"
+							}
+							{
+								Count: 1b
+								id: "bigreactors:ludicrite_block"
+							}
+							{
+								Count: 1b
+								id: "bigreactors:ridiculite_block"
+							}
+							{
+								Count: 1b
+								id: "bigreactors:inanite_block"
+							}
+							{
+								Count: 1b
+								id: "bigreactors:insanite_block"
+							}
+						]
+					}
+				}
+				title: "Turbine Coils"
+				type: "item"
+			}]
+			title: "Turbine Coils"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3FC7FDAF84871963"
+				"67AFCBCE7AAC3089"
+				"186731580B14F9D2"
+				"775D176081DD75F5"
+			]
+			description: [
+				"Instead of building the smallest Turbine at this point, it's better to build a Turbine based off of the design of your &9Reactor&r."
+				""
+				"For starters, you want to build a Turbine that can handle the &9Vapor Production Rate&r of your reactor. To get the most power out of it, it'll need to maintain either 900RPM or 1800RPM as well. This takes a lot of experimenting with different coils, # of blades, and overall size of the Turbine!"
+				""
+				"Note: To complete this quest, you'll need to create a &dTask Screen&r of any size. Once placed, you can right-click the screen and select this quest as the requirement, then output power into the task screen block to fill it up and complete the quest."
+				""
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "bigreactors:block/turbine/basic/controller_off"
+				}
+			}
+			id: "4ED36AA3766E842B"
+			min_width: 300
+			rewards: [
+				{
+					id: "5AE542B84586D0BA"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6612F39435CC428F"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A94CC9DA47A370C"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ftbquests:screen_1"
+								}
+								{
+									Count: 1b
+									id: "ftbquests:screen_3"
+								}
+								{
+									Count: 1b
+									id: "ftbquests:screen_5"
+								}
+								{
+									Count: 1b
+									id: "ftbquests:screen_7"
+								}
+							]
+						}
+					}
+					title: "Quest Task Screens"
+					type: "item"
+				}
+				{
+					id: "24146672439051F5"
+					max_input: 1000000L
+					type: "forge_energy"
+					value: 1000000L
+				}
+			]
+			title: "&dOur First Turbine"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4415C9F8DA2D7E68"]
+			description: ["Just like the Reactor, the frame must be built out of &dCasings&r, but the walls can be &9Turbine Glass&r instead!"]
+			id: "2D592669F4D41793"
+			rewards: [
+				{
+					count: 2
+					id: "01C09E75947CCBF5"
+					item: "bigreactors:basic_turbineglass"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "46A906727C46868C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "2FC2A5929C2E0EA9"
+				item: "bigreactors:basic_turbineglass"
+				type: "item"
+			}]
+			title: "Turbine Construction"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4415C9F8DA2D7E68"]
+			description: [
+				"Right-clicking on a Turbine Controller when it is fully built will show you the Turbine Interface."
+				""
+				"Here, you can see all of the stats for the Turbine. Hovering over each will tell you more info about each one."
+				""
+				"On the bottom left, you'll have 2 arrows to control the &9Flow Rate&r. This controls how much heated vapor is pumped into the Turbine. To know how much you should set this to, check your reactor's &dVapor Production Rate&r as a starting point. "
+				""
+				"{image:atm:textures/questpics/extremereactors/turbineui.png width:200 height:150 align:1}"
+			]
+			id: "775D176081DD75F5"
+			min_width: 400
+			rewards: [{
+				id: "7CD6A1F962D2C310"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2905C4386A407A1E"
+				title: "The Turbine Interface"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["354086C858E10154"]
+			description: [
+				"The &aReprocessor&r is a 3x3x7 multiblock structure that has specific rules to complete the construction of the multiblock."
+				""
+				"The heart of this multiblock is the &aController&r, and can be placed on any vertical face as long as it isn't on the frame."
+			]
+			id: "2AF31F1769085641"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61047858BC63EC82"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "5FAF55F5CF1BA345"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2DBC9E20BFE7F058"
+				item: "bigreactors:reprocessorcontroller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2AF31F1769085641"]
+			description: [
+				"To build the frame for the &aReprocessor&r, you'll need a lot of Casings. This also means a lot of Cyanite."
+				""
+				"Start by building a hollow 3 block wide, 3 block deep, and 7 block tall structure. This is the frame."
+				""
+				"If done right, you'll have an empty spot in the middle of the bottom and top face. For the vertical faces, you can either use &aReprocessor Glass&r or one of the required &aReprocessor&r parts like the Power Port, Controller, etc."
+				""
+				"If you'd like to see an image of what the frame will look like, check out the next page!"
+				""
+				"{@pagebreak}"
+				"The frame of the Reprocessor multiblock."
+				""
+				"{image:atm:textures/questpics/extremereactors/reprocessorframe.png width:100 height:175 align:1}"
+				""
+				"{@pagebreak}"
+				"A fully built Reprocessor."
+				""
+				""
+				"{image:atm:textures/questpics/extremereactors/reprocessorfull.png width:100 height:150 align:1}"
+			]
+			id: "69642A3618E86DED"
+			rewards: [
+				{
+					id: "5C7121F82848C273"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FBCFDF7DDF64A60"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 52L
+				id: "5DF9AA03A22C4F77"
+				item: "bigreactors:reprocessorcasing"
+				type: "item"
+			}]
+			title: "Building The Frame"
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2AF31F1769085641"]
+			description: [
+				"When building the &aReprocessor&r, you will need at least one &eCollector&r and &9Waste Injector&r."
+				""
+				"The &eReprocessor Collector&r must be placed in the center of the bottom face of the structure."
+				""
+				"The &9Waste Injector&r must go in the center of the top face, which is where you'll pipe in or insert waste like &9Cyanite Ingots&r."
+			]
+			id: "2598273041353196"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52893569CB2AE712"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "18F8A508E2A08534"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "72B74F6051CD53A1"
+					item: "bigreactors:reprocessorcollector"
+					type: "item"
+				}
+				{
+					id: "221816504F2573A5"
+					item: "bigreactors:reprocessorwasteinjector"
+					type: "item"
+				}
+			]
+			title: "Importing Waste"
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2AF31F1769085641"]
+			description: [
+				"While the other &aReprocessor Parts&r have a mandatory spot when building, these three parts can be placed on any vertical face as long as they aren't on the frame!"
+				""
+				"The &cPower Port&r is used to give power to the multiblock machine to process waste."
+				""
+				"The &9Fluid Injector Port&r is used to inject the liquid needed, which will depend on the type of waste injected. For Cyanite, that means water!"
+				""
+				"The &aOutput Port&r is used to output the reprocessed material. You can right click it to grab the material out by hand, or pipe it out for automation."
+			]
+			id: "3C3FE45CEF5E242B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6261A65DF856A6A7"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "6FE2DA9F00DF8EED"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "475BD29336FB98E8"
+					item: "bigreactors:reprocessorpowerport"
+					type: "item"
+				}
+				{
+					id: "530111623A8C7C58"
+					item: "bigreactors:reprocessorfluidinjector"
+					type: "item"
+				}
+				{
+					id: "41D67C2BF92A876A"
+					item: "bigreactors:reprocessoroutputport"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["69642A3618E86DED"]
+			description: [
+				"Once you've built a fully functional &aReprocessor&r, you can pump in power, water, and &9Cyanite&r to create &dBlutonium&r."
+				""
+				"This can be used as a fuel for your reactor, and creates its own waste called &9Magentite&r. "
+			]
+			id: "7E07C5A6FA6B6B1F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B170A7928434E99"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "1437F7CBCB818A17"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "37BB2B7853E319A3"
+				item: "bigreactors:blutonium_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4AD8363D7359A072"]
+			description: [
+				"Now that we are collecting some &9waste&r from our reactor, part of the progression requires you to \"Fluidize\" some of the ingots you get. You know what that means?"
+				""
+				"We need to make a &aFluidizer&r! The main component is the &aFluidizer Controller&r. Once built, you can right-click on this to open up the interface. Here, you can turn it on or off, see what's inside, and the current power level."
+			]
+			id: "25D4406CB86C8CBB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79B399A941B2BAE4"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "0A9859E493DA20A2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "4A123A454CDD7120"
+				item: "bigreactors:fluidizercontroller"
+				type: "item"
+			}]
+			title: "The Fluidizer"
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["25D4406CB86C8CBB"]
+			description: ["The &aFluidizer&r is a customizable multiblock that has a minimum size of 3x3x3. Just like the other multiblocks, the frame will need to be made out of Casings, while the faces can be made out of Glass."]
+			id: "501C6B7580453410"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31DAA5C4FB8A443F"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "739312C574871639"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "1088144C68D87424"
+					item: "bigreactors:fluidizercasing"
+					type: "item"
+				}
+				{
+					id: "36D35DE85B71D5EC"
+					item: "bigreactors:fluidizerglass"
+					type: "item"
+				}
+			]
+			title: "Fluidizer Construction"
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["25D4406CB86C8CBB"]
+			description: [
+				"The &aFluidizer&r can operate in one of 3 modes: Solid to Fluid, Combining 2 Solids into a Fluid, or combining 2 Fluids into a new Fluid. This all depends on the type of &aInjectors&r you use for the multiblock."
+				""
+				"For example, if you want to convert &dBlutonium&r into a fluid, you can use 1 &aSolid Injector&r."
+				""
+				"If you want to combine two solids together into something new, you'll build the multiblock with 2 &aSolid Injectors&r."
+				""
+				"If you want to combine two fluids, you'll use 2 &9Fluid Injectors&r."
+				""
+				"This might seem confusing, but is important for progression. For example, you'll want to convert Magentite into a fluid in the Fluidizer first, then send it to a &aReprocessor&r with Ludicrite to create Ridiculite."
+			]
+			id: "5914D015D8543875"
+			min_width: 400
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A7A5CA3C15445E0"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "3858004802200429"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "730D5AE0E7A04CFB"
+					item: "bigreactors:fluidizersolidinjector"
+					type: "item"
+				}
+				{
+					id: "4A714BB3605492B9"
+					item: "bigreactors:fluidizerfluidinjector"
+					type: "item"
+				}
+			]
+			title: "Operational Modes"
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["25D4406CB86C8CBB"]
+			description: [
+				"If you want to get your hands on the product the &aFluidizer&r makes, you'll need an &aOutput Port&r on one of the faces."
+				""
+				"The &aFluidizer&r will need power to operate, so a &cPower Port&r is required to complete the structure."
+			]
+			id: "55DCA040C84DCEF3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1AAD62FA59F57405"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "79AC0F7350F14F50"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "52C86777BD3D8867"
+					item: "bigreactors:fluidizeroutputport"
+					type: "item"
+				}
+				{
+					id: "32703B3E70D87917"
+					item: "bigreactors:fluidizerpowerport"
+					type: "item"
+				}
+			]
+			title: "Required Ports"
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7E07C5A6FA6B6B1F"]
+			description: [
+				"Using the &aReprocessor&r, we can combine everything we've made so far to make a few new ingots."
+				""
+				"Note: You might need a &9Fluidizer&r to complete this step!"
+			]
+			id: "5A615BB74A5CD332"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31C7AA56815F4583"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "0694F5807F48509A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "184BDD80596398A0"
+					item: "bigreactors:ludicrite_ingot"
+					type: "item"
+				}
+				{
+					id: "0C1C624F8D84DE63"
+					item: "bigreactors:ridiculite_ingot"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"5914D015D8543875"
+				"55DCA040C84DCEF3"
+				"501C6B7580453410"
+			]
+			description: [
+				"By using the &aFluidizer&r, we can combine &dBlutonium&r with &eYellorium&r to make &2Verderium."
+				""
+				"When used as fuel in a reactor, &2Verderium&r produces &cRossinite&r as a reactant. We need this!"
+				""
+				"To use &2Verderium&r as a fuel, you'll need to make &cFuel Injection Ports&r for your reactor. "
+				"Note: You might need to empty out the fuel currently in your reactor, or make a new reactor for this purpose. "
+			]
+			id: "7C4D8AA107780795"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BD7DA0DA8DB5C19"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "7B3F79DA7988E2AC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "52B5D97C5675BBA7"
+				item: "bigreactors:reinforced_reactorfluidaccessport"
+				type: "item"
+			}]
+			title: "Rossinite"
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"7C4D8AA107780795"
+				"5A615BB74A5CD332"
+			]
+			description: [
+				"Combining &9Ridiculite Ingots&r with &cRossinite&r in a &aFluidizer&r will create &dInanite Ingots&r."
+				""
+				"We can now use these to make a block of &dInanite&r."
+			]
+			id: "6ADDFD55AD0DF7D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "111AA42FC55BC26C"
+					table_id: 7025454341029952768L
+					type: "loot"
+				}
+				{
+					id: "7FD3F44901EA7315"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "544C4964F5B857B1"
+				item: "bigreactors:inanite_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"0B1DF8A040826D87"
+				"6ADDFD55AD0DF7D4"
+			]
+			description: [
+				"One of the hardest materials to get in the mod!"
+				""
+				"This is also used to create the &6ATM Star&r!"
+			]
+			id: "5AD80D3242DD3F60"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F7036222F535785"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+				{
+					id: "01A038407420AF20"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "53B5B370425018EC"
+				item: "bigreactors:insanite_block"
+				type: "item"
+			}]
+			title: "&dInsanite Block&r"
+			x: -2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7C4D8AA107780795"]
+			description: [
+				"Now that you have &cRossinite&r, you can mix it with &aBenitoite&r to create &dInsanite&r ingots."
+				""
+				"&aBenitoite Ore&r can be found in the Nether."
+			]
+			id: "0B1DF8A040826D87"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13B2AA15441877E6"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "2065E13D53308BF3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "22922E479FED9E43"
+				item: "bigreactors:insanite_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 15.5d
+		}
+	]
+	title: "{atm9.chapters.19.title}"
+}

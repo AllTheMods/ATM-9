@@ -1,0 +1,1234 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extreme_voltage"
+	group: "1DA67E79B40AB130"
+	icon: "gtceu:micro_processor_computer"
+	id: "489F28A71282B3E7"
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"We'll pretend that it's fine"
+				""
+				"At &5EV&r we're dealing with more than 1000 Volts! We're practically electrical linemen, just please don't try this at home"
+			]
+			id: "5241693278027FFD"
+			rewards: [
+				{
+					count: 4
+					id: "2C401089E546A2F9"
+					item: "gtceu:ram_chip"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7406D49AC20EEC56"
+					item: "gtceu:diode"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0ED1F7FD56E7CF43"
+					item: "gtceu:plastic_printed_circuit_board"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "This is fine, &5EV&rerything is fine"
+			tasks: [{
+				id: "17E7D25D83B98E80"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6805CC8AD6010F33"]
+			description: [
+				"&c&lStop! Do not pass Go! Do not collect $200!&r&r"
+				""
+				"Did you complete all the other quests in this chapter already? "
+				""
+				"Oh, you did? "
+				""
+				"Good work, off you go then!"
+			]
+			id: "2E47C92E3E8D826A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17353B52C1E760AD"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			size: 1.5d
+			subtitle: "Onwards to IV!"
+			tasks: [{
+				id: "23FFAB356FE1CA42"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7ACC4E777A75E043"
+			]
+			id: "0262E0D49A12F817"
+			rewards: [{
+				count: 2
+				id: "1E0A51D6BF3DF098"
+				item: "gtceu:gallium_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Upgrades!"
+			tasks: [{
+				id: "4CB14D90753F710B"
+				item: "gtceu:smd_transistor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7ACC4E777A75E043"
+			]
+			id: "6445DEC19DD55A34"
+			rewards: [{
+				count: 2
+				id: "1DCF548413B4AAB7"
+				item: "gtceu:tantalum_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Recipe"
+			tasks: [{
+				id: "466FF2FF107AFDFA"
+				item: "gtceu:smd_resistor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7ACC4E777A75E043"
+			]
+			id: "3D9B7855B5616DCE"
+			rewards: [{
+				count: 3
+				id: "4AC575760AE4F1BF"
+				item: "gtceu:polyvinyl_chloride_foil"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Circuit"
+			tasks: [{
+				id: "0774AA33B0CA149F"
+				item: "gtceu:smd_capacitor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7C134F7838C23059"
+			]
+			id: "0D9D1462C676C050"
+			rewards: [
+				{
+					count: 8
+					id: "7A8C4DEF04A1497F"
+					item: "gtceu:fine_platinum_wire"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 2
+					id: "07FD547CFCD64325"
+					item: "gtceu:small_gallium_arsenide_dust"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Time"
+			tasks: [{
+				id: "23F7124635FE5FC8"
+				item: "gtceu:smd_diode"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7ACC4E777A75E043"
+			]
+			id: "11AAA1DCB452DFFC"
+			rewards: [{
+				count: 2
+				id: "3ED7AAC94A1DF8F8"
+				item: "gtceu:tantalum_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "For"
+			tasks: [{
+				id: "210478A03F540A6B"
+				item: "gtceu:smd_inductor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6D082AE4CF9A56DC"
+				"7B27B87A520E38B0"
+				"5241693278027FFD"
+			]
+			description: [
+				"A little &dMagnesium dust&r with your Titanium Tetrachloride inside the &aElectric Blast Furnace&r will give you a very &lHOT&r ingot"
+				""
+				"Magnesium you can get from &6Ore Processing&r many things, but my personal favorite is &eElectrolyzing&r Obsidian dust"
+				""
+				"You can reclaim that magnesium and chlorine back by &eElectrolyzing&r the Magnesium Chloride you get"
+				""
+				"You'll need to cool the ingot off in the &aVacuum Freezer&r before you can use it for anything"
+				""
+				"&l&eNote:&r&r A little reminder to double check the temperature requirement for ingot recipes; this one requires something better than Cupronickel Coils, like &bKanthal Coils&r"
+			]
+			icon: "gtceu:titanium_ingot"
+			id: "78A295D4D1A21BCA"
+			min_width: 300
+			rewards: [{
+				count: 4
+				id: "12436A8F60A5F9E1"
+				item: "gtceu:magnesium_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "7AB26B5B4167E5EC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/titanium"
+					}
+				}
+				title: "Titanium Ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.75d
+		}
+		{
+			description: ["The &dPlatLine™&r is something we'll get into later on, for now be thankful that platinum is plentiful"]
+			icon: "alltheores:platinum_ingot"
+			id: "7C134F7838C23059"
+			shape: "square"
+			tasks: [{
+				id: "5C915E839949FED6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/platinum"
+					}
+				}
+				title: "Platinum Ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33DAA602B385A55D"]
+			description: [
+				"Have you been having any voltage issues? Well, this wire will help!"
+				""
+				"This wire is &3superconducting&r, so it does not lose any voltage no matter how far the wire travels"
+			]
+			id: "0F6FB959B352121D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "039842C09E329415"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F3BEAA5602BA0CD"
+				item: "gtceu:mercury_barium_calcium_cuprate_single_wire"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&eElectrolyze&r &btantalite dust&r to acquire &dtantalum dust&r"
+				""
+				"Also comes as a byproduct of tantalite ore processing!"
+			]
+			id: "7ACC4E777A75E043"
+			rewards: [{
+				count: 8
+				id: "7A19A486962CBAB5"
+				item: "gtceu:raw_tantalite"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:tantalum_dust"
+				id: "309F610CA713BB20"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/tantalum"
+					}
+				}
+				title: "Tantalum Dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60736D37F7705B39"]
+			description: [
+				"Another &aEBF&r upgrade? Yep!"
+				""
+				"Two upgrades in one chapter because we didn't upgrade it in the last chapter when we could have... whoops"
+			]
+			id: "5500BDFA7A5D04EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DDBA3FEF3F6198A"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 16L
+				id: "261D5EF68A314309"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 1.2000000000000002d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5241693278027FFD"
+				"0D573979B25FAC48"
+			]
+			description: [
+				"The &aDistillation Tower&r serves as the foundation for &dOil Processing&r which can turn oil into many more useful forms"
+				""
+				"When building the Tower, you will need it to be &c1 + Fluid Outputs tall&r to process recipes correctly"
+				""
+				"&eFor example&r, if the recipe you want to run outputs 5 fluids, then your tower must be at least 6 tall with 5 output hatches "
+				""
+				"The max size is a 3x3x13 structure"
+				""
+				"&bRemember:&r For how to build multiblocks, look at the uses of the multiblock controller in JEI for the &3Multiblock Info&r page"
+				""
+				"How you get the oil is left up to you! A couple options are outlined in the quests below"
+			]
+			icon: "gtceu:distillation_tower"
+			id: "3BEDF19CD79D53D5"
+			min_width: 300
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "221D254BFC0257F7"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			subtitle: "Ah finally, real fluid processing"
+			tasks: [
+				{
+					id: "2A5387EF0991FC1D"
+					item: "gtceu:distillation_tower"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "6DE94C2C7F4B9AC7"
+					title: "Observe completed Distillation Tower"
+					type: "custom"
+				}
+			]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			description: [
+				"Once you start blasting ingots at temperatures above &c1800K&r they become too hot to be cooled in a simple bath"
+				""
+				"Enter, the &eVacuum Freezer&r, for all your cooling needs! "
+				""
+				"This machine is great at cooling hot ingots and can even turn many gasses into liquids"
+			]
+			icon: "gtceu:vacuum_freezer"
+			id: "6D082AE4CF9A56DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "108EAAF040BA7990"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "74FCADB757C762B9"
+					item: "gtceu:vacuum_freezer"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "7536DA5A948671F2"
+					title: "Observe completed Vacuum Freezer"
+					type: "custom"
+				}
+				{
+					id: "5F18E278ABC418FE"
+					item: "gtceu:auto_maintenance_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"72E5439299E957A8"
+				"0911814AFFFCF885"
+				"6D082AE4CF9A56DC"
+			]
+			description: [
+				"That is one hot ingot! Cool it off in your &aVacuum Freezer&r"
+				""
+				"Requires those Kanthal Coil Blocks on your &aEBF&r"
+			]
+			id: "60736D37F7705B39"
+			tasks: [{
+				id: "0EEE381F78288115"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			x: 1.2000000000000002d
+			y: -1.0d
+		}
+		{
+			description: ["4 Nickel dust and 1 Chromium dust in a &eMixer&r is all you'll need for some Nichrome!"]
+			id: "0911814AFFFCF885"
+			rewards: [{
+				id: "2DF63FCEAFE5F977"
+				item: "gtceu:chromium_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4127FE4279C4DF22"
+				item: "gtceu:nichrome_dust"
+				type: "item"
+			}]
+			x: 1.2000000000000002d
+			y: 0.09999999999999998d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			description: [
+				"This unlocks a single recipe for us, the &1IV&r Circuit!"
+				""
+				"Don't rush ahead and just craft this and the circuit thinking that you can skip this age though"
+			]
+			id: "6805CC8AD6010F33"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B422B9AD9E7D9FE"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "271929662CF5AC0D"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			description: [
+				"Upgrading your &eAssembler&r means you can make Surface Mounted Devices, or &bSMDs&r for short. These things mean cheaper circuit components!"
+				""
+				"Additionally, this unlocks higher tier energy hatches, time to upgrade your multiblocks!"
+			]
+			id: "71D4B261AF487062"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F111E8360C6F822"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "443C9F78D6B49249"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:hv_assembler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_assembler"
+							}
+						]
+					}
+				}
+				title: "HV or EV Assembler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "40DC4C8DF9616F97"
+			shape: "square"
+			tasks: [{
+				id: "3A68557D0E516D4E"
+				item: "gtceu:black_bronze_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"&eChemical react&r some sodium dust and potassium dust together to get... sodium potassium"
+				""
+				"&bPotassium dust&r you can get by making tiny piles of the stuff from the salt water with ghast tears in a &eChemical Reactor&r recipe"
+			]
+			id: "1E8D496B1CC4F69B"
+			shape: "square"
+			tasks: [{
+				id: "2C4A50B1A9AF4A84"
+				item: "gtceu:sodium_potassium_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["40DC4C8DF9616F97"]
+			id: "61A16C4CF0B7A9B2"
+			rewards: [{
+				count: 3
+				id: "06CB661C0124B64B"
+				item: "alltheores:steel_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E66CBEB7C8E7539"
+				item: "gtceu:black_steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"61A16C4CF0B7A9B2"
+				"1E8D496B1CC4F69B"
+				"71D4B261AF487062"
+				"5D58E5CB4F4BDAD5"
+			]
+			description: [
+				"Keep in mind, each Energy Hatch can accept 2 Amps of power"
+				""
+				"Many machines accept two (or more) Energy Hatches, which means you can feed 4 Amps in and unlock processing at a higher voltage tier!"
+			]
+			id: "0D573979B25FAC48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D0E700C7A93D217"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5E6E95015D19F4FE"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D10AA6EF07087B5"]
+			description: ["Add another lens to the collection! Laser Engravers abound if you've been making one per lens"]
+			id: "5D58E5CB4F4BDAD5"
+			rewards: [{
+				count: 2
+				id: "3FE559E167225891"
+				item: "gtceu:silicon_wafer"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "3459093D8C9EAE43"
+					item: "gtceu:orange_glass_lens"
+					type: "item"
+				}
+				{
+					id: "48B9848EBF024C1A"
+					item: "gtceu:lpic_wafer"
+					type: "item"
+				}
+				{
+					id: "20363BBDFECB5221"
+					item: "gtceu:lpic_chip"
+					type: "item"
+				}
+			]
+			title: "Low Power Integrated Chip"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["358706CA93DC2A9C"]
+			description: [
+				"Use that &eExtractor&r to get your copper in a liquid state"
+				""
+				"&eWire Cut&r the Kanthal ingots"
+				""
+				"&eBend&r that Aluminium"
+				""
+				"Then put it all together in your &eAssembler&r!"
+				""
+				"Replace the Cupronickel Coils on your &aEBF&r with this stuff"
+			]
+			id: "72E5439299E957A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C29ED861964C9EC"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 16L
+				id: "6C8DCC0E471D0163"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 3.000000000000001d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1812BF72305CFFCF"]
+			description: ["Cook the dust up in the &aEBF&r and cool it down in the &eChemical Bath&r or &aVacuum Freezer&r"]
+			id: "358706CA93DC2A9C"
+			tasks: [{
+				id: "4E1E15185D672109"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
+			x: 3.000000000000001d
+			y: -2.5000000000000004d
+		}
+		{
+			description: ["Put Aluminium dust, Iron dust, and Chromium dust together in a &eMixer&r and watch it blend!"]
+			id: "1812BF72305CFFCF"
+			rewards: [{
+				id: "74819F7F2D53028B"
+				item: "gtceu:chromium_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2CF35B15AD75E179"
+				item: "gtceu:kanthal_dust"
+				type: "item"
+			}]
+			x: 3.000000000000001d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5500BDFA7A5D04EB"
+				"7220835BD1F8EBA7"
+				"6D082AE4CF9A56DC"
+			]
+			description: ["A very hot ingot indeed! This one requires the &bNichrome Coil Blocks&r on your &aEBF&r to process!"]
+			id: "33DAA602B385A55D"
+			tasks: [{
+				id: "1E5B05165E5A0236"
+				item: "gtceu:mercury_barium_calcium_cuprate_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&dBarium dust&r you can get by &eElectrolyzing&r &bBarite dust&r"
+				""
+				"&dMercury&r can come from &eCentrifuging&r Redstone dust or Cinnabar dust"
+				""
+				"In a bind for &dCalcium dust&r? You could always &eElectrolyze&r bone meal!"
+			]
+			id: "7220835BD1F8EBA7"
+			rewards: [{
+				count: 3
+				id: "39F1DE4C40F09307"
+				item: "gtceu:barium_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "04D48A6EC98F1CAD"
+				item: "gtceu:mercury_barium_calcium_cuprate_dust"
+				type: "item"
+			}]
+			x: 1.2000000000000002d
+			y: -4.0d
+		}
+		{
+			description: [
+				"I hope you've been keeping up with your ore gathering and processing!"
+				""
+				"You can get &dRutile Dust&r from several methods:"
+				"&eElectrolyzing&r 15 Bauxite dust"
+				"[ \"\", { \"text\": \"EBF \", \"color\": \"green\", \"hoverEvent\": { \"action\": \"show_text\", \"contents\": { \"text\": \"Electric Blast Furnace\" } } }, { \"text\": \"10 Ilmenite and 4 Carbon together\" }]"
+				"&6Ore Process&r Ilmenite or Bauxite for a chanced output"
+				"&eChemical Bath&r Aluminium in &3Sodium Persulfate&r for a higher chanced output"
+				""
+				"&cRemember:&r Chanced outputs increase with the tier of the machine"
+			]
+			id: "03B5D467E76C5B8A"
+			min_width: 300
+			rewards: [
+				{
+					count: 4
+					id: "491962ED7FE39994"
+					item: "gtceu:raw_bauxite"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3B0A0D8407FA285B"
+					item: "gtceu:raw_ilmenite"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "More like futile dust"
+			tasks: [{
+				id: "2B956FA18DAF1BD8"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03B5D467E76C5B8A"]
+			description: ["You'll need an &6HV Chemical Reactor&r with some Chlorine, Carbon dust, and your Rutile dust to make this"]
+			id: "7B27B87A520E38B0"
+			rewards: [
+				{
+					count: 2
+					id: "0522455DB01E3725"
+					item: "gtceu:rutile_dust"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "44AA9F0AC065A628"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Amount: 16000
+								FluidName: "gtceu:chlorine"
+								capacity: 16000
+							}
+						}
+						id: "evilcraft:dark_tank"
+						tag: {
+							Fluid: {
+								Amount: 16000
+								FluidName: "gtceu:chlorine"
+							}
+							capacity: 16000
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01CFC3E97122E03C"
+				item: "gtceu:titanium_tetrachloride_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3BEDF19CD79D53D5"]
+			description: ["Burning 16 logs on &bProgram 3&r will produce Heavy Oil"]
+			icon: "gtceu:pyrolyse_oven"
+			id: "130DDACA0E38A8E8"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23F2A4B5063BA3AB"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "72661F65A697879A"
+					item: "gtceu:pyrolyse_oven"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "5FAE011B2417FAAA"
+					title: "Observe completed Pyrolyse Oven"
+					type: "custom"
+				}
+			]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3BEDF19CD79D53D5"]
+			description: ["The &aCracker&r doesn't get you oil, but it does allow for processing the byproducts more efficiently! "]
+			icon: "gtceu:cracker"
+			id: "3762F8137BFD5A74"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3708022293D107D8"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5BACD43DF65C2FA9"
+					item: "gtceu:cracker"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "04E3568175E66B6D"
+					title: "Observe completed Cracker"
+					type: "custom"
+				}
+			]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3BEDF19CD79D53D5"]
+			description: [
+				"Slap one of these down and start drilling! This will unearth the ancient oils from beneath the crust of bedrock"
+				""
+				"The majority of what you'll find with this is &eRaw Oil&r, but you can also find Natural Gas and other oil variants! You can use the &6HV Prospector&r in &bFluid Mode&r to determine what lies beneath"
+				""
+				"Do keep in mind, the oils in the chunk will deplete over time, so you will need to move the Fluid Drilling Rig occasionally"
+			]
+			id: "450B3C0520D6B2BB"
+			min_width: 300
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27E92BF29DF6FBD4"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "12A161B884B5653F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:mv_fluid_drilling_rig"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_fluid_drilling_rig"
+							}
+						]
+					}
+				}
+				title: "Fluid Drilling Rig"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3B4F326D72E794D3"]
+			description: ["&aDistill&r your &eLightly Steam Cracked Naphtha&r to acquire &0Benzene&r"]
+			id: "7D6AC042FFD0B6D6"
+			rewards: [{
+				id: "4123B08AF0AC72D8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4CFDA0E86F6528A5"
+				item: "gtceu:benzene_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3B4F326D72E794D3"]
+			description: ["&aDistill&r your &eLightly Steam Cracked Naphtha&r to acquire &6Butadiene&r"]
+			id: "3619CD5AAD5E3691"
+			rewards: [{
+				id: "2435330DB710A010"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "672E91EAB979F7AF"
+				item: "gtceu:butadiene_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D6AC042FFD0B6D6"]
+			description: ["Benzene + Ethylene in a &eChemical Reactor&r will result in &bStyrene&r"]
+			id: "46F1A93B071CD980"
+			rewards: [{
+				id: "1C74698CCB18BA0B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "56A08496E54BC1A4"
+				item: "gtceu:styrene_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"46F1A93B071CD980"
+				"3619CD5AAD5E3691"
+			]
+			description: [
+				"Styrene + Butadiene + Oxygen or Air in a &eChemical Reactor&r gets you the raw dust of the highest tier of rubber available"
+				""
+				"It is recommended you use Oxygen rather than Air here, as you get the most that way"
+			]
+			id: "2DDA8AC73C2D50B4"
+			rewards: [{
+				id: "4FA7BFC6C564DEBD"
+				item: "gtceu:butadiene_bucket"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "72F5202F8FDF0E53"
+				item: "gtceu:raw_styrene_butadiene_rubber_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2DDA8AC73C2D50B4"]
+			description: [
+				"Finally, the highest tier of rubber, &dStyrene Butadiene Rubber&r"
+				""
+				"You can coat wires using very little of this, and it will come in handy later on when making higher tier conveyor modules"
+			]
+			id: "511FB322F176D88C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31DF63BA959C435B"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1F18BEE43B4DC9A4"
+				item: "gtceu:styrene_butadiene_rubber_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A0A7DC1C2655EA6"
+				"228D1C880563CCBB"
+			]
+			description: [
+				"This is where the &aCracker&r comes in handy, as it doesn't lose any of your hard earned Naphtha when cracking"
+				""
+				"An alternative is to use a &eChemical Reactor&r, but that loses half the Naphtha!"
+				""
+				"You probably want to make another &aDistillation Tower&r to distill this"
+			]
+			id: "3B4F326D72E794D3"
+			rewards: [{
+				id: "444110B4CC50435E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "155D71F4D5E47CF7"
+				item: "gtceu:lightly_steam_cracked_naphtha_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6805E4C7F6FBAC77"]
+			description: ["&eChemical React&r the &6Sulfuric Naphtha&r with &9Hydrogen&r to rid it of the sulfur"]
+			id: "7A0A7DC1C2655EA6"
+			rewards: [{
+				id: "66D525B2A26063DE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "09220F4C339567B8"
+				item: "gtceu:naphtha_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3BEDF19CD79D53D5"]
+			description: ["Distilling &bRaw Oil&r results in the most &eSulfuric Naphtha&r, but you can get it from the other oil types too"]
+			id: "6805E4C7F6FBAC77"
+			rewards: [{
+				id: "46BA643BC3DEF2E9"
+				item: "gtceu:oil_medium_bucket"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DA49DF52B6D150A"
+				item: "gtceu:sulfuric_naphtha_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0FFF764AA07D6DFC"]
+			description: [
+				"Ah, this brings me back, it's almost like we're back in the Steam Age"
+				""
+				"This gets us more steam than those boilers did though"
+			]
+			id: "228D1C880563CCBB"
+			rewards: [{
+				id: "556A321FB75D9F76"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7B7128EECA64BD03"
+				item: "gtceu:steam_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			description: ["A little &9water&r on &aProgram 1&r with this will get you plenty of &7Steam&r"]
+			id: "0FFF764AA07D6DFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19EC7F834936C81F"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3AC5F6DC531CCE3D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_fluid_heater"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_fluid_heater"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_fluid_heater"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_fluid_heater"
+							}
+						]
+					}
+				}
+				title: "Any Fluid Heater"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3406646DF9585AB8"]
+			description: [
+				"The mid-tier rubber! You probably won't use it for this, as you have access to the highest tier of rubber"
+				""
+				"Some recipes in the future do require specifically &9Silicone Rubber&r, which is why we made it"
+			]
+			id: "6338544F8530118F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29369FEABD94841B"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3E090FF6659CAE97"
+				item: "gtceu:silicone_rubber_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A54E73E212BB1AF"]
+			description: ["Silicon dust, water, methane, and chlorine combine in your &eChemical Reactor&r on &aProgram 2&r to make this "]
+			id: "3406646DF9585AB8"
+			rewards: [{
+				count: 3
+				id: "053DB92E1E479427"
+				item: "gtceu:polydimethylsiloxane_dust"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Try saying this 3 times fast"
+			tasks: [{
+				id: "1717E9A6D23CF49C"
+				item: "gtceu:polydimethylsiloxane_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3BEDF19CD79D53D5"]
+			description: [
+				"&6Sulfuric Gas&r from &aOil Distillation&r can be made into &7Refinery Gas&r"
+				""
+				"Refinery Gas can then be &aCracked&r into a different form depending on what you want to distill out of it"
+				""
+				"&3Light Hydro Cracked Gas&r is a great source of &dMethane&r and Hydrogen!"
+				""
+				"A alternative but slower route might be to &eCentrifuge&r mushrooms or &eDistill&r Fermented Biomass even"
+			]
+			id: "6A54E73E212BB1AF"
+			rewards: [{
+				id: "3D51C447126057E3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6AEF501966EBB44B"
+				item: "gtceu:methane_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "7D10AA6EF07087B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EC35F01615CB33B"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:hv_cutter"
+				id: "5685DB13CE250DBA"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:hv_cutter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_cutter"
+							}
+						]
+					}
+				}
+				title: "HV or EV Cutter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+	]
+	title: "{atm9.chapters.30.title}"
+}
