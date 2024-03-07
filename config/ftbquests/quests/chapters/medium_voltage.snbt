@@ -200,7 +200,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.0d
+			y: -0.1d
 		}
 		{
 			dependencies: ["5E90EF7FF530C477"]
@@ -245,7 +245,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.19999999999999996d
+			y: 0.5d
 		}
 		{
 			dependencies: ["707EBA5717938515"]
@@ -487,7 +487,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -1.0d
+			y: -1.3000000000000003d
 		}
 		{
 			dependencies: [
@@ -524,7 +524,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -1.0d
+			y: -1.3000000000000003d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -690,7 +690,7 @@
 			]
 			title: "Silicon ingredients"
 			x: 0.5d
-			y: -2.0d
+			y: -2.2d
 		}
 		{
 			dependencies: ["662E0A84D755064F"]
@@ -707,7 +707,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.0d
+			y: -0.1d
 		}
 		{
 			dependencies: [
@@ -1419,7 +1419,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -3.5d
+			y: -3.6d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -1437,7 +1437,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -2.0d
+			y: -2.2d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -1459,7 +1459,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -3.0d
+			y: -3.1d
 		}
 		{
 			dependencies: ["63621F0189B6EB1B"]
@@ -1478,12 +1478,13 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -2.0d
+			y: -2.2d
 		}
 		{
 			dependencies: [
 				"1812BF72305CFFCF"
 				"54A164C737660C4E"
+				"3DCCEDC5A817EBEB"
 			]
 			description: ["Cook the dust up in the &aEBF&r and cool it down in the &eChemical Bath&r"]
 			id: "358706CA93DC2A9C"
@@ -1500,7 +1501,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -1.0d
+			y: -1.3000000000000003d
 		}
 		{
 			dependencies: ["358706CA93DC2A9C"]
@@ -1530,7 +1531,89 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -1.0d
+			y: -1.3000000000000003d
+		}
+		{
+			dependencies: ["1F92F7314DF3C3E2"]
+			description: [
+				"Follow the same steps as the Emerald/Ruby lens to make the &9Sapphire Lens&r"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"4DD7F3508B757EF0\"}, \"text\": \"How to make the gem plate\", \"color\": \"green\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } }}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"26004F997C758011\"}, \"text\": \"How to make the gem lens\", \"color\": \"yellow\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } }}"
+			]
+			hide_dependency_lines: true
+			id: "20A0A574F51EEF74"
+			tasks: [{
+				id: "71285AC928BBD40E"
+				item: "gtceu:sapphire_lens"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["20A0A574F51EEF74"]
+			description: ["That's right, another &eLaser Engraver&r recipe... these quests are becoming non-linear"]
+			id: "5B92DA55541B168B"
+			rewards: [{
+				count: 2
+				id: "0B4A34429F4F377A"
+				item: "gtceu:silicon_wafer"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B0A35D87D18E3A1"
+				item: "gtceu:ulpic_wafer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.4d
+		}
+		{
+			dependencies: ["5B92DA55541B168B"]
+			description: ["Back into the &ecutter&r!"]
+			id: "4E5FE40373675AED"
+			rewards: [{
+				id: "27DFB41D8F75BF3B"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "1C973641E5F60EB4"
+				item: "gtceu:ulpic_chip"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.4d
+		}
+		{
+			dependencies: ["4E5FE40373675AED"]
+			description: [
+				"You can use a GT Assembler or a regular crafting grid to make this. Since pattern space is precious, especially for the GT Assembler, perhaps a Crafter or Molecular Assembler can handle putting it together"
+				""
+				"Swap out the LV Energy Hatches on your &eElectric Blast Furnace&r for these and your EBF can now process &6HV&r recipes! "
+				""
+				"Make sure you upgrade your power source too! "
+			]
+			id: "3DCCEDC5A817EBEB"
+			min_width: 250
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FF28AC1A353565C"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			subtitle: "EBF Upgrades"
+			tasks: [{
+				count: 2L
+				id: "3E686316F9E6B29E"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.20000000000000004d
 		}
 	]
 	title: "{atm9.chapters.28.title}"

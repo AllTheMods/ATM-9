@@ -20,8 +20,8 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.mega_fusion_reactor('star_matter')
         .inputFluids([
-            Fluid.of('gtceu:hydrogen_plasma', 10000), 
-            Fluid.of('gtceu:helium_plasma', 2500), 
+            Fluid.of('gtceu:helium_plasma', 10000), 
+            Fluid.of('gtceu:nitrogen_plasma', 2500), 
             Fluid.of('gtceu:oxygen_plasma', 1500), 
             Fluid.of('gtceu:iron_plasma', 250)
         ])
