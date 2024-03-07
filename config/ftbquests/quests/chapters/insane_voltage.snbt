@@ -777,17 +777,14 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"41EE8B40BA43DADE"
-				"4632DA3CE9D95064"
-				"47871110028991D3"
-			]
+			dependencies: ["41EE8B40BA43DADE"]
 			description: [
 				"You'll smelt this and flatten it into &bFoils&r to make the delicate layers that comprise the &dAdvanced SMD Capacitor&r"
 				""
 				"If you're having a hard time finding &aIridium Ore&r, then you can work towards the &5Iridium Bee&r, or start on processing the &eRarest Metal Mixture&r from the &6PlatLine™&r"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"2EE52FD7129D3D87\"}, \"text\": \"How to: Rarest Metal Mixture\", \"color\": \"yellow\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here to open the quest!\" } }}"
 			]
-			hide_dependency_lines: true
 			id: "599BABC83E76A711"
 			rewards: [
 				{
@@ -1036,7 +1033,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -5.200000000000001d
+			y: -6.199999999999999d
 		}
 		{
 			dependencies: ["43EBA1D735267C85"]
@@ -2620,6 +2617,114 @@
 			}]
 			x: 7.0d
 			y: -3.4999999999999996d
+		}
+		{
+			dependencies: ["4632DA3CE9D95064"]
+			description: [
+				"Iridium Ore is truly quite rare, so I wouldn't be surprised if you have not found any"
+				""
+				"As such, we can work on more of the &6PlatLine™&r to acquire Iridium"
+			]
+			hide_dependency_lines: true
+			id: "2EE52FD7129D3D87"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "2BB47D5128FF5D50"
+				item: "gtceu:rarest_metal_mixture_dust"
+				random_bonus: 16
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2AF36DE65F7CBA3C"
+				item: "gtceu:rarest_metal_mixture_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2EE52FD7129D3D87"
+				"47871110028991D3"
+			]
+			description: [
+				"Only the &eLarge Chemical Reactor&r can handle this reaction!"
+				""
+				"We won't use the Acidic Osmium Solution because Osmium is plentiful"
+			]
+			id: "7C9D8120B5C5BD9B"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "3B3D8C01C31D63D8"
+				item: "gtceu:iridium_metal_residue_dust"
+				random_bonus: 16
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "35F58171ECC99A6A"
+				item: "gtceu:iridium_metal_residue_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7C9D8120B5C5BD9B"]
+			description: [
+				"This step is easy, we just &eCentrifuge&r our Residue and we're left with Iridium Chloride and some sludge"
+				""
+				"You can further process that sludge if you want to, but it isn't necessary to get the coveted Iridium"
+			]
+			id: "6E6D9527AC093199"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "04637191A807D0C9"
+				item: "gtceu:iridium_chloride_dust"
+				random_bonus: 16
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4671D5F7C6163DF9"
+				item: "gtceu:iridium_chloride_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E6D9527AC093199"]
+			description: ["All that is left to do is use a &eChemical Reaction&r to pull the Chlorine off the Iridium!"]
+			id: "02190383FEE793ED"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "73F219D4D8F72B5A"
+					item: "alltheores:iridium_dust"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35A9005AF56D5554"
+					table_id: 6202000790833671070L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "074663BA515D70DF"
+				item: "alltheores:iridium_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
 		}
 	]
 	title: "{atm9.chapters.31.title}"
