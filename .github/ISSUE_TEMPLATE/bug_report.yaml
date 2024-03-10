@@ -37,18 +37,18 @@ body:
     validations:
       required: true
   - type: input
-    id: link
-    attributes:
-      label: Dev link
-      description: Can this bug be attributed to a single mod?, if so, please add the link to the Issue on the Mod Developers Github
-      placeholder: https://github.com/
-    validations:
-      required: false
-  - type: input
     id: logs
     attributes:
       label: latest.log
       description: Please upload your 'latest.log' file to  https://gist.github.com/ and leave the link here.
       placeholder: https://gist.github.com/
+    validations:
+      required: false
+  - type: input
+    id: link
+    attributes:
+      label: Developer reports
+      description: Can this bug be attributed to a single mod?, if so, please add the link to the Issue on the Mod Developers Github
+      placeholder: https://github.com/
     validations:
       required: false
