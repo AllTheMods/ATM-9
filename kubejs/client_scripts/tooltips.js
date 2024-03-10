@@ -232,6 +232,14 @@ ItemEvents.tooltip(event => {
     Text.of('Works across dimensions')
   ])
 
+  // Extradisks
+  event.add('extradisks:infinite_storage_disk', [Text.of('Recipe disabled').red()])
+  event.add('extradisks:infinite_storage_block', [Text.of('Recipe disabled').red()])
+  event.add('extradisks:infinite_storage_part', [Text.of('Recipe disabled').red()])
+  event.add('extradisks:infinite_fluid_storage_disk', [Text.of('Recipe disabled').red()])
+  event.add('extradisks:infinite_fluid_storage_block', [Text.of('Recipe disabled').red()])
+  event.add('extradisks:infinite_fluid_storage_part', [Text.of('Recipe disabled').red()])
+
   //pipes
   event.add('pipez:item_pipe', [
     [Text.of('Default:'), ' ', Text.of('4'), ' ', Text.of('items/20t')],
