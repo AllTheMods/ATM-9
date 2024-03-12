@@ -14,7 +14,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: What happened?
+      label: Describe the issue
       description: Please give a thorough explanation of what happened. Attach/Link relevant images/files in relation to the issue!
       placeholder: Tell us what you see!
     validations:
