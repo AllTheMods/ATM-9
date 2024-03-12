@@ -109,6 +109,12 @@ ServerEvents.tags('item', event => {
     '#alltheores:ore_hammers','@ftbic','minecraft:nether_star','bloodmagic:sanguinereverter','#occultism:miners/ores','apotheosis:potion_charm'
   ])
 
+  //Fix Mythicbotany tags
+  event.add('forge:raw_materials/elementium', 'mythicbotany:raw_elementium')
+  event.add('forge:storage_blocks/raw_elementium', 'mythicbotany:raw_elementium_block')
+
+  event.remove('forge:shears', 'allthemodium:alloy_paxel')
+  
   event.remove('forge:ingots/naquadah', 'sgjourney:naquadah')
   event.remove('forge:ingots/naquadah_alloy', 'sgjourney:naquadah')
 
@@ -143,6 +149,8 @@ ServerEvents.tags('block', event => {
     'allthetweaks:atm_star_block'
   ])
 
+  event.add('entangled:invalid_targets', ['@megacells','@expatternprovider','@cabletiers','mekanism:radioactive_waste_barrel'])
+
 })
 
 ServerEvents.tags('fluid', event => {
@@ -150,7 +158,8 @@ ServerEvents.tags('fluid', event => {
     'ad_astra:oil','ad_astra:flowing_oil',
     'ad_astra:cryo_fuel','ad_astra:flowing_cryo_fuel',
     'ad_astra:fuel','ad_astra:flowing_fuel',
-    'createaddition:flowing_seed_oil','createaddition:seed_oil'])
+    'createaddition:flowing_seed_oil','createaddition:seed_oil',
+    'createaddition:bioethanol','createaddition:flowing_bioethanol'])
 })
 
 ServerEvents.tags('entity_type', event => {
@@ -161,4 +170,11 @@ ServerEvents.tags('entity_type', event => {
   event.add('industrialforegoing:mob_duplicator_blacklist', '#kubejs:mob_blacklist')
   event.add('ars_nouveau:drygmy_blacklist', [/productivebees:.+/, 'artifacts:mimic'])
   event.add('spirit:soul_cage_blacklisted', '#kubejs:mob_blacklist')
+})
+
+ServerEvents.tags('worldgen/biome', event => {
+  event.add('botania:mystical_flower_spawnlist', 'allthemodium:mining')
+  event.add('botania:mystical_mushroom_spawnlist', [
+    'allthemodium:the_other', 'allthemodium:soul_sand_valley', 'allthemodium:warped_forest',
+    'allthemodium:desert_hills', 'allthemodium:desert', 'allthemodium:crimson_forest', 'allthemodium:basalt_deltas'])
 })
