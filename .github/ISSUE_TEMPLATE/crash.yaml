@@ -36,7 +36,7 @@ body:
     validations:
       required: true
   - type: input
-    id: logs
+    id: crash-log
     attributes:
       label: Crash Log
       description: Please upload your crash log to  https://gist.github.com/ and leave the link here. Located in `/<instance name>/crash-reports/`
@@ -44,7 +44,7 @@ body:
     validations:
       required: true
   - type: input
-    id: logs
+    id: latest-log
     attributes:
       label: Latest.Log 
       description: Please upload your latest.log to  https://gist.github.com/ and leave the link here. Note this file is different to a crash report. Located in `/<instance name>/logs/`.
