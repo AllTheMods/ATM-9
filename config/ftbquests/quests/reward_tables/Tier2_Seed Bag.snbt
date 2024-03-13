@@ -1,0 +1,43 @@
+{
+	icon: "mysticalagriculture:prudentium_gemstone"
+	id: "21B1896C13F84C09"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ item: "mysticalagriculture:nature_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:dye_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:nether_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:coal_seeds" }
+		{ item: "mysticalagriculture:honey_seeds" }
+		{ item: "mysticalagriculture:amethyst_seeds", weight: 2.0f }
+		{ item: "mysticalagriculture:aluminum_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:apatite_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:mystical_flower_seeds", weight: 2.0f }
+		{ item: "mysticalagradditions:prudentium_apple", weight: 7.0f }
+		{ item: "mysticalagradditions:prudentium_coal_block", weight: 3.0f }
+		{ item: "mysticalagriculture:mining_aoe_i_augment" }
+		{ item: "mysticalagriculture:speed_i_augment" }
+		{ item: "mysticalagriculture:health_boost_ii_augment" }
+		{ item: "mysticalagriculture:water_breathing_augment" }
+		{ item: "mysticalagriculture:night_vision_augment" }
+		{ item: "mysticalagriculture:menril_seeds", weight: 2.0f }
+		{ item: "mysticalagriculture:limestone_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:prudentium_block", weight: 3.0f }
+		{ item: "mysticalagriculture:prudentium_farmland", weight: 7.0f }
+		{ item: "mysticalagriculture:prudentium_growth_accelerator", weight: 5.0f }
+		{ item: "mysticalagriculture:prudentium_furnace", weight: 5.0f }
+		{ count: 4, item: "mysticalagriculture:prudentium_essence", random_bonus: 4, weight: 10.0f }
+		{ item: "mysticalagriculture:prudentium_ingot", random_bonus: 2, weight: 7.0f }
+		{ item: "mysticalagriculture:prudentium_gemstone", weight: 5.0f }
+		{ item: "mysticalagriculture:pig_seeds" }
+		{ item: "mysticalagriculture:chicken_seeds" }
+		{ item: "mysticalagriculture:cow_seeds" }
+		{ item: "mysticalagriculture:sheep_seeds" }
+		{ item: "mysticalagriculture:squid_seeds" }
+		{ item: "mysticalagriculture:fish_seeds" }
+		{ item: "mysticalagriculture:slime_seeds" }
+		{ item: "mysticalagriculture:turtle_seeds" }
+	]
+	title: "&2Tier 2 Seed Bag"
+	use_title: true
+}

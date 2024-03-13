@@ -1,0 +1,2206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "an_introduction"
+	group: "1DA67E79B40AB130"
+	icon: {
+		Count: 1b
+		id: "gtceu:iron_hammer"
+		tag: {
+			Damage: 0
+			GT.Tool: {
+				Damage: 0
+			}
+		}
+	}
+	id: "415BA265E2C00859"
+	images: [{
+		alpha: 150
+		click: ""
+		corner: false
+		dev: false
+		height: 5.0d
+		hover: [ ]
+		image: "gtceu:textures/gui/icon/gregtech_logo.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.1071428571428541d
+		y: 0.6607142857142847d
+	}]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Energy in GT is measured in Energy Units (EU)"
+				""
+				"Energy utilization is measured in EU/t"
+				""
+				"You can produce energy in GT which will naturally be in EU, or you can choose to make energy with another mod like Powah and convert it to EU (more on that later)"
+			]
+			id: "4F086B3CF27D5C1A"
+			rewards: [{
+				id: "1DE4C6A260259E85"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			subtitle: "For your safety, please read"
+			tasks: [{
+				id: "7B1C0F47F1D43B20"
+				title: "Energy Concepts"
+				type: "checkmark"
+			}]
+			title: "Energy"
+			x: 0.0d
+			y: 0.55d
+		}
+		{
+			dependencies: ["4F086B3CF27D5C1A"]
+			description: [
+				"Machines and cables/wires are rated for operating at &lspecific Voltage tiers&l"
+				""
+				"Giving a machine too much voltage makes it &c&lexplode!&r&r"
+				""
+				"Giving a wire or cable too much voltage makes it burn out"
+				""
+				"LV is 32 Volts (32 EU/t/A)"
+				"MV is 128 V"
+				"HV is 512 V"
+				"and so on"
+			]
+			id: "66D86E1EDEBF542B"
+			rewards: [{
+				id: "43A69E40F972B3FA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0F0F3C716F921B64"
+				title: "Voltage"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4F086B3CF27D5C1A"]
+			description: [
+				"Amps are like packets of power (EU/t) and can come in different voltage tiers (LV, MV, HV, etc)"
+				""
+				"Machines which receive extra amps will not explode"
+				""
+				"Cables and wires will burn if given more amps than they are rated for"
+			]
+			id: "6635E4C76260C4CB"
+			rewards: [{
+				id: "285CB9EE3130A1B3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "58DC240BC9900646"
+				title: "Amperage"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"66D86E1EDEBF542B"
+				"6635E4C76260C4CB"
+			]
+			description: [
+				"Wires and cables are imperfect and lose some of the energy they transport in the form of heat"
+				""
+				"You can mitigate some of this loss by covering your wires in rubber to make cables"
+				""
+				"The exception here are superconductors! They have no energy loss"
+			]
+			id: "459787E9F1029CC6"
+			rewards: [{
+				id: "7F31B0D07E8F2421"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "A meter = one block"
+			tasks: [{
+				id: "4CC5C3088A4F5C7D"
+				title: "Voltage Loss"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66D86E1EDEBF542B"]
+			description: [
+				"You may have noticed that 4A of LV (32 EU/t/A) would be 128 EU/t"
+				""
+				"1A of MV is also 128 EU/t"
+				""
+				"Can they be exchanged? Kind of!"
+				""
+				"The Electric Blast Furnace (EBF) is one example of this - two LV Energy Hatches can accept 2A of LV each, resulting in the EBF being able to process MV recipes! This is a key aspect to progressing up voltage tiers in GT."
+				""
+				"Alternatively, you have to craft a Voltage Transformer"
+			]
+			id: "33590A79C5C554C8"
+			rewards: [{
+				id: "0145C8D4665C08CA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4BE4C9994786C1D0"
+				title: "Voltage Conversion"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"66D86E1EDEBF542B"
+				"4F086B3CF27D5C1A"
+				"6635E4C76260C4CB"
+				"459787E9F1029CC6"
+				"33590A79C5C554C8"
+			]
+			description: [
+				"Tools can be made of MANY materials, the first of which could be iron!"
+				""
+				"Tools can also be repaired in anvils using the same material of the tool itself, like any vanilla tool"
+				""
+				"A &aHammer&r is used in manually crafting plates, which will be necessary for the next tools!"
+			]
+			hide_dependency_lines: true
+			id: "790F509BAA15A68E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C46CF2729A805AC"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			subtitle: "An Introduction"
+			tasks: [{
+				id: "30443BA4C089AA8B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/hammers"
+					}
+				}
+				title: "Any GT Hammer"
+				type: "item"
+			}]
+			title: "Tools"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["790F509BAA15A68E"]
+			description: [
+				"The &aWrench&r is a crafting tool, sure, but it is also a mining tool for GT machines! Right clicking sets the output side of GT machines and crouch right clicking rotates them"
+				""
+				"The &aFile&r is a crafting tool and that's all"
+				""
+				"The &aSaw&r is yet another crafting tool, but it can also get you 6 planks from one log!"
+			]
+			id: "5D3C8198D9756004"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FD9DE6BC79E6ADB"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "491DC7AF3356B0AE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/wrenches"
+						}
+					}
+					title: "GT Wrenches"
+					type: "item"
+				}
+				{
+					id: "3CEA3285F2CD5680"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/files"
+						}
+					}
+					title: "GT Files"
+					type: "item"
+				}
+				{
+					id: "5270CD1653E1BAC6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/saws"
+						}
+					}
+					title: "GT Saws"
+					type: "item"
+				}
+			]
+			title: "Handy Tools"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5D3C8198D9756004"]
+			description: [
+				"&aScrewdrivers&r are a crafting tool and are used in special configuration of machines and Covers"
+				""
+				"&aWire cutters&r are a crafting tool and right clicking on wires/cables will enable or disable connections to other blocks"
+				""
+				"&aMortars&r are a crafting tool to grind things to dust"
+				""
+				"&aKnives&r are also a crafting tool..."
+				""
+				"&eSoft Mallets&r will pause and resume machines from working with right click"
+				""
+				"&eCrowbars&r can be used to remove Covers from GT machines with a right click"
+				""
+				"&eScythes&r can automatically break and re-plant crops in an area and doubles as a cool looking weapon!"
+				""
+				"&ePlungers&r can clear stuck fluids from GT machines &c&l[NYI]&r&r"
+				""
+				"&eButchery Knives&r have Looting III implicitly, useful for leather early on!"
+			]
+			id: "17BA6F1E5179DB8C"
+			min_width: 400
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50B36A2E833872D2"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			subtitle: "You'll need these eventually for something"
+			tasks: [
+				{
+					id: "15389D4D64D19ACA"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/screwdrivers"
+						}
+					}
+					title: "GT Screwdrivers"
+					type: "item"
+				}
+				{
+					id: "3B9FECB49AF6F450"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/wire_cutters"
+						}
+					}
+					title: "GT Wire Cutters"
+					type: "item"
+				}
+				{
+					id: "4EEBD6ABA3D55379"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mortars"
+						}
+					}
+					title: "GT Mortars"
+					type: "item"
+				}
+				{
+					id: "33B208F02F05BF09"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/knives"
+						}
+					}
+					title: "GT Knives"
+					type: "item"
+				}
+				{
+					id: "65A04FD7D3F264DD"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mallets"
+						}
+					}
+					title: "GT Mallets"
+					type: "item"
+				}
+				{
+					id: "1B670B474AD80852"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/crowbars"
+						}
+					}
+					title: "GT Crowbars"
+					type: "item"
+				}
+				{
+					id: "5F8C9C7E6DFA0E6C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/scythes"
+						}
+					}
+					title: "GT Scythes"
+					type: "item"
+				}
+				{
+					id: "25E539125A1C5D69"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/plungers"
+						}
+					}
+					title: "GT Plungers"
+					type: "item"
+				}
+				{
+					id: "465C43AE595A1A9F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/butchery_knives"
+						}
+					}
+					title: "GT Butchery Knives"
+					type: "item"
+				}
+			]
+			title: "All the tools!"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Ores generate in veins at varying heights spaced apart by every 3 chunks"
+				""
+				"Ore veins are often comprised of 3 or more different ores"
+				""
+				"All GT Ore veins were moved to the Mining Dimension from every other dimension"
+			]
+			disable_toast: true
+			icon: "minecraft:grass_block"
+			id: "072FA02152FBC5B1"
+			invisible_until_tasks: 5
+			rewards: [{
+				id: "45B4971B15822AF8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				dimension: "allthemodium:mining"
+				id: "5E966121508B53EA"
+				type: "dimension"
+			}]
+			title: "Overworld Layer Ores"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["244220A5D9F4C702"]
+			icon: "gtceu:endstone_bauxite_ore"
+			id: "68B6B946B6BA24CB"
+			subtitle: "Aluminium be here"
+			tasks: [{
+				id: "5FF14D712FF20F3A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:endstone_bauxite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_bauxite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:endstone_ilmenite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_ilmenite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:endstone_aluminium_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_aluminium"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Bauxite Vein"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["244220A5D9F4C702"]
+			icon: "gtceu:endstone_magnetite_ore"
+			id: "27E9F48972741701"
+			tasks: [{
+				id: "18CA627A460E3E4E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:endstone_magnetite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_magnetite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:endstone_vanadium_magnetite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_vanadium_magnetite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:endstone_chromite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_chromite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:endstone_gold_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_gold"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Magnetite Vein"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["244220A5D9F4C702"]
+			icon: "gtceu:endstone_naquadah_ore"
+			id: "037BB7C486D2D360"
+			subtitle: "Indeed"
+			tasks: [{
+				id: "71DDF8155FD8FCAA"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:endstone_naquadah_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_naquadah"
+							}
+							{
+								Count: 1b
+								id: "gtceu:endstone_plutonium_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_plutonium"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Naquadah Vein"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["244220A5D9F4C702"]
+			icon: "gtceu:endstone_pitchblende_ore"
+			id: "3F69CB46311A37C8"
+			tasks: [{
+				id: "125DE9E99E5DC392"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:endstone_pitchblende_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_pitchblende"
+							}
+							{
+								Count: 1b
+								id: "gtceu:endstone_uraninite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_uraninite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Pitchblende Vein"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["244220A5D9F4C702"]
+			icon: "gtceu:endstone_scheelite_ore"
+			id: "4300938A4E8AF937"
+			tasks: [{
+				id: "70DEDB210CBD79D9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:endstone_scheelite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_scheelite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:endstone_tungstate_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_tungstate"
+							}
+							{
+								Count: 1b
+								id: "gtceu:endstone_lithium_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_lithium"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Scheelite Vein"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["244220A5D9F4C702"]
+			icon: "gtceu:endstone_cooperite_ore"
+			id: "0C78FB6EB275960B"
+			tasks: [{
+				id: "508A2B09B32E5244"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:endstone_bornite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_bornite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:endstone_cooperite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_cooperite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:endstone_platinum_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_platinum"
+							}
+							{
+								Count: 1b
+								id: "gtceu:endstone_palladium_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_palladium"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Sheldonite Vein"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D20644407244A60"]
+			icon: "gtceu:netherrack_goethite_ore"
+			id: "5B64384E4CE27851"
+			subtitle: "Banded Iron Vein"
+			tasks: [{
+				id: "7FA60EE3F8F0C57B"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:netherrack_goethite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_goethite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_yellow_limonite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_yellow_limonite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_hematite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_hematite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_gold_ore"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Goethite Vein"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D20644407244A60"]
+			icon: "gtceu:netherrack_beryllium_ore"
+			id: "61B3730E93DD24DB"
+			tasks: [{
+				id: "083DE18D8C046344"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:netherrack_beryllium_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_beryllium"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_emerald_ore"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Beryllium Vein"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D20644407244A60"]
+			icon: "gtceu:netherrack_certus_quartz_ore"
+			id: "1DFD4712153C1A55"
+			tasks: [{
+				id: "3AC1607997CAAAAC"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:netherrack_certus_quartz_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:certus_quartz_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_barite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_barite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Certus Quartz Vein"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D20644407244A60"]
+			icon: "gtceu:netherrack_grossular_ore"
+			id: "109E34AE0BE0F266"
+			subtitle: "A nutritious source of manganese"
+			tasks: [{
+				id: "047722F89EBCC4DE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:netherrack_grossular_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:grossular_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_pyrolusite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_pyrolusite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_tantalite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_tantalite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Grossular Vein"
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D20644407244A60"]
+			icon: "gtceu:netherrack_molybdenum_ore"
+			id: "554389C781241743"
+			tasks: [{
+				id: "589F9B25E0FC4A24"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:netherrack_wulfenite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_wulfenite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_molybdenite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_molybdenite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_molybdenum_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_molybdenum"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_powellite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_powellite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Molybdenum Vein"
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D20644407244A60"]
+			icon: "gtceu:netherrack_bastnasite_ore"
+			id: "4F8E090CB349A681"
+			tasks: [{
+				id: "5711092D4CD64197"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:netherrack_bastnasite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_bastnasite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_neodymium_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_neodymium"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Bastnasite Vein"
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D20644407244A60"]
+			icon: "gtceu:netherrack_quartzite_ore"
+			id: "2B5733BDAF83B2D4"
+			tasks: [{
+				id: "1791DBA7A318DE68"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:netherrack_quartzite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:quartzite_gem"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Quartzite Vein"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D20644407244A60"]
+			icon: "gtceu:netherrack_redstone_ore"
+			id: "354012CD62D346E5"
+			subtitle: "5x redstone from one raw ore!"
+			tasks: [{
+				id: "778C0EDD0752F465"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:netherrack_redstone_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_redstone"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_ruby_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ruby_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_cinnabar_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:cinnabar_gem"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Redstone Vein"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0D20644407244A60"]
+			icon: "gtceu:netherrack_saltpeter_ore"
+			id: "3F064B466CC4914B"
+			tasks: [{
+				id: "6A623C45C3A556B6"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:netherrack_saltpeter_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_saltpeter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_diatomite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_diatomite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_electrotine_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_electrotine"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_alunite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_alunite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Saltpeter Vein"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D20644407244A60"]
+			icon: "gtceu:netherrack_sulfur_ore"
+			id: "333D2A9F20B2E738"
+			tasks: [{
+				id: "3A75356E8DE59132"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:netherrack_sulfur_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_sulfur"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_pyrite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_pyrite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_sphalerite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_sphalerite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Sulfur Vein"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D20644407244A60"]
+			icon: "gtceu:netherrack_tetrahedrite_ore"
+			id: "2A2ED3B4BE8C7E67"
+			tasks: [{
+				id: "5DED626D70F7EE98"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:netherrack_tetrahedrite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_tetrahedrite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_stibnite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_stibnite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Tetrahedrite Vein"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D20644407244A60"]
+			icon: "gtceu:netherrack_topaz_ore"
+			id: "34E8D3AD37BB76C5"
+			tasks: [{
+				id: "556A070D9E9A67E5"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:netherrack_topaz_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:topaz_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_blue_topaz_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:blue_topaz_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_chalcocite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_chalcocite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:netherrack_bornite_ore"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Topaz Vein"
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:apatite_ore"
+			id: "5E1FA88B5AC652DC"
+			tasks: [{
+				id: "044F6F66134EEFAB"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:apatite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:apatite_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:tricalcium_phosphate_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_tricalcium_phosphate"
+							}
+							{
+								Count: 1b
+								id: "gtceu:pyrochlore_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_pyrochlore"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Apatite Vein"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:cassiterite_ore"
+			id: "30F16A6BD3C7F4FC"
+			tasks: [{
+				id: "015B712B90E69E36"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:cassiterite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_cassiterite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Cassiterite Vein"
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:chalcopyrite_ore"
+			id: "6A0D1E9D534958B8"
+			rewards: [{
+				count: 2
+				id: "3041712FFF09D1EF"
+				item: "gtceu:realgar_gem"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D18011DF2D3F338"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:chalcopyrite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_chalcopyrite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:zeolite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_zeolite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:realgar_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:realgar_gem"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Chalcopyrite Vein"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:galena_ore"
+			id: "411759CC8C320C19"
+			tasks: [{
+				id: "1B94E7A224A87F29"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:galena_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_galena"
+							}
+							{
+								Count: 1b
+								id: "gtceu:silver_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_silver"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lead_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_lead"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Galena Vein"
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:garnet_sand_ore"
+			id: "5E56B9758F8365B4"
+			tasks: [{
+				id: "6E16C4B0E9B4CEC0"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:garnet_sand_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_garnet_sand"
+							}
+							{
+								Count: 1b
+								id: "gtceu:asbestos_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_asbestos"
+							}
+							{
+								Count: 1b
+								id: "gtceu:diatomite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_diatomite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Garnet Sand Vein"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:red_garnet_ore"
+			id: "51494B3023705E54"
+			tasks: [{
+				id: "2E62FDEF3A6A88B8"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:red_garnet_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:red_garnet_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:yellow_garnet_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:yellow_garnet_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:amethyst_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:opal_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:opal_gem"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Garnet Vein"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:goethite_ore"
+			id: "53BBE717148C0B18"
+			subtitle: "Lots of iron in these ores"
+			tasks: [{
+				id: "6029CFFA9BD91661"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:goethite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_goethite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:yellow_limonite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_yellow_limonite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hematite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_hematite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:malachite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:malachite_gem"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Goethite Vein"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:soapstone_ore"
+			id: "2A54256CA9A23BB3"
+			subtitle: "Useful for making lubricant"
+			tasks: [{
+				id: "0AABC07011A622BB"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:soapstone_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_soapstone"
+							}
+							{
+								Count: 1b
+								id: "gtceu:talc_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_talc"
+							}
+							{
+								Count: 1b
+								id: "gtceu:glauconite_sand_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_glauconite_sand"
+							}
+							{
+								Count: 1b
+								id: "gtceu:pentlandite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_pentlandite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Soapstone Vein"
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:magnetite_ore"
+			id: "14276334DCF898D6"
+			tasks: [{
+				id: "31A7661D828CB33C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:magnetite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_magnetite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:vanadium_magnetite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_vanadium_magnetite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Magnetite Vein"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:basaltic_mineral_sand_ore"
+			id: "0D47F491C27BBD5E"
+			tasks: [{
+				id: "4730AB96AAD93282"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:basaltic_mineral_sand_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_basaltic_mineral_sand"
+							}
+							{
+								Count: 1b
+								id: "gtceu:granitic_mineral_sand_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_granitic_mineral_sand"
+							}
+							{
+								Count: 1b
+								id: "gtceu:fullers_earth_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_fullers_earth"
+							}
+							{
+								Count: 1b
+								id: "gtceu:gypsum_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_gypsum"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Mineral Sand Vein"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:garnierite_ore"
+			id: "0BA5A0DDD4A5363C"
+			rewards: [{
+				id: "37391F97F144C822"
+				item: "gtceu:cobaltite_ore"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Cobaltite be here"
+			tasks: [{
+				id: "0430C905BE3CA0CF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:garnierite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_garnierite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:cobaltite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_cobaltite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Garnierite Vein"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:rock_salt_ore"
+			id: "4F2BBB75E5B5EAD8"
+			tasks: [{
+				id: "6962BAEF473C8C18"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:rock_salt_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:rock_salt_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:salt_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:salt_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lepidolite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_lepidolite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:spodumene_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_spodumene"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Salts Vein"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:graphite_ore"
+			id: "1BE2CB4684AF7DFB"
+			rewards: [{
+				count: 2
+				id: "28E95708986F70B6"
+				item: "minecraft:diamond"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Diamonds may be hidden in here"
+			tasks: [{
+				id: "7B87E500C6FB74B3"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:graphite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_graphite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Graphite Vein"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:lazurite_ore"
+			id: "246DC099F4457712"
+			subtitle: "Find these with some lapis"
+			tasks: [{
+				id: "3A308744C31E3ED4"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lazurite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lazurite_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:sodalite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:sodalite_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:calcite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_calcite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Lazurite Vein"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:kyanite_ore"
+			id: "7AFEEC895FB293D6"
+			tasks: [{
+				id: "529FF9EA2C01FB6E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:kyanite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_kyanite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mica_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_mica"
+							}
+							{
+								Count: 1b
+								id: "gtceu:bauxite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_bauxite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:pollucite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_pollucite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Kyanite Vein"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:grossular_ore"
+			id: "03B842E4A2A6B2C9"
+			subtitle: "Good for manganese"
+			tasks: [{
+				id: "0CD83CD8CF777CB9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:grossular_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:grossular_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:spessartine_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:spessartine_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:pyrolusite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_pyrolusite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:tantalite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_tantalite"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Grossular Vein"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:bentonite_ore"
+			id: "2EEEA951011D523D"
+			tasks: [{
+				id: "69ED2BD3D6D30648"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:bentonite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_bentonite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:olivine_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:olivine_gem"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Bentonite Vein"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:cinnabar_ore"
+			id: "4BACAC18E4B982DA"
+			tasks: [{
+				id: "56F3B3D1E09A31E9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:cinnabar_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:cinnabar_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ruby_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ruby_gem"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Cinnabar Vein"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072FA02152FBC5B1"]
+			icon: "gtceu:almandine_ore"
+			id: "7255B9A6E1319DCA"
+			rewards: [{
+				id: "7CDE77676C561B5D"
+				item: "gtceu:green_sapphire_ore"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Sapphires"
+			tasks: [{
+				id: "3D55C5B20C7CFDA9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:almandine_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:almandine_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:pyrope_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:pyrope_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:sapphire_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:sapphire_gem"
+							}
+							{
+								Count: 1b
+								id: "gtceu:green_sapphire_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:green_sapphire_gem"
+							}
+						]
+					}
+				}
+				title: "Valid Ores"
+				type: "item"
+			}]
+			title: "Almandine Vein"
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"66D86E1EDEBF542B"
+				"4F086B3CF27D5C1A"
+				"6635E4C76260C4CB"
+				"459787E9F1029CC6"
+				"33590A79C5C554C8"
+			]
+			description: ["Need help finding ores? Make yourself one of these and charge it up by placing it in any machine's energy slot"]
+			hide_dependency_lines: true
+			id: "55C47B868C5ECF54"
+			rewards: [{
+				count: 2
+				id: "222FD5D0F6323720"
+				item: "gtceu:realgar_gem"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F29F3E1EB2B25FD"
+				item: "gtceu:prospector.lv"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["55C47B868C5ECF54"]
+			description: ["Looking for fluids to unearth? This prospector has a fluid mode to help with just such a task!"]
+			id: "55F0472830CC6BF6"
+			rewards: [{
+				id: "6ECEEE679E6910B8"
+				item: "gtceu:polyethylene_bucket"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "683EF14A8FA0F178"
+				item: "gtceu:prospector.hv"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["55F0472830CC6BF6"]
+			description: ["The all in one, big battery, big range ore/fluid finder"]
+			id: "2E5EF984B9CE0CB9"
+			rewards: [{
+				count: 8
+				id: "3D56EC2CF0D1E941"
+				item: "gtceu:rhodium_dust"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "559399984984CE67"
+				item: "gtceu:prospector.luv"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			description: ["Every 3 chunks you'll find another ore vein!"]
+			icon: "minecraft:netherrack"
+			id: "0D20644407244A60"
+			rewards: [{
+				id: "0A80DD25662434D8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				dimension: "allthemodium:mining"
+				id: "500548E772861A58"
+				title: "Nether Layer Ores"
+				type: "dimension"
+			}]
+			title: "Nether Layer Ores"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			description: ["3 chunks apart, in case you didn't know that already"]
+			icon: "minecraft:end_stone"
+			id: "244220A5D9F4C702"
+			rewards: [{
+				id: "056FC6F179E3B43C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				dimension: "allthemodium:mining"
+				id: "540231448A4DE43B"
+				title: "End Layer Ores"
+				type: "dimension"
+			}]
+			title: "End Layer Ores"
+			x: 6.0d
+			y: -2.5d
+		}
+	]
+	title: "{atm9.chapters.25.title}"
+}

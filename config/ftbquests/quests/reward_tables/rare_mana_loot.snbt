@@ -1,0 +1,18 @@
+{
+	id: "72D242FB70CF9896"
+	loot_size: 1
+	order_index: 46
+	rewards: [
+		{ item: "botania:manasteel_ingot", random_bonus: 3, weight: 25.0f }
+		{ item: "botania:manasteel_block", weight: 10.0f }
+		{ item: "botania:mana_diamond", random_bonus: 2, weight: 10.0f }
+		{ item: "botania:mana_diamond_block" }
+		{ item: "botania:mana_pearl", random_bonus: 2, weight: 10.0f }
+		{ item: "botania:terrasteel_nugget", random_bonus: 1 }
+		{ item: "botania:mana_quartz", weight: 5.0f }
+		{ item: "botania:black_lotus", weight: 2.0f }
+		{ item: "botania:blacker_lotus" }
+	]
+	title: "&9Rare Mana Materials Loot Bag&r"
+	use_title: true
+}

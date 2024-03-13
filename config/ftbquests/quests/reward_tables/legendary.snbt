@@ -1,0 +1,116 @@
+{
+	icon: "lootr:trophy"
+	id: "639509C7B28C90DF"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ item: "apotheosis:library" }
+		{ count: 4, item: "apotheosis:mythic_material", random_bonus: 8, weight: 2.0f }
+		{ item: "apotheosis:superior_sigil_of_socketing", random_bonus: 1 }
+		{ item: "powah:thermo_generator_nitro" }
+		{ item: "allthecompressed:nether_star_block_1x" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:spawner"
+				tag: {
+					BlockEntityTag: {
+						Delay: 20s
+						ForgeCaps: { }
+						MaxNearbyEntities: 32s
+						MaxSpawnDelay: 20s
+						MinSpawnDelay: 20s
+						RequiredPlayerRange: 16s
+						SpawnCount: 16s
+						SpawnData: {
+							entity: {
+								id: "minecraft:trader_llama"
+							}
+						}
+						SpawnPotentials: [{
+							data: {
+								entity: {
+									id: "minecraft:trader_llama"
+								}
+							}
+							weight: 1
+						}]
+						SpawnRange: 4s
+						ignore_conditions: 1b
+						ignore_light: 0b
+						ignore_players: 1b
+						no_ai: 1b
+						redstone_control: 1b
+						silent: 1b
+					}
+				}
+			}
+		}
+		{ item: "powah:solar_panel_nitro" }
+		{ count: 36, item: "powah:reactor_niotic" }
+		{
+			item: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:allthemodium"
+					}
+				}
+			}
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 100
+		}
+		{
+			item: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:vibranium"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:unobtainium"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						data: 54
+						id: "hostilenetworks:ender_dragon"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						data: 54
+						id: "hostilenetworks:wither"
+					}
+				}
+			}
+		}
+		{ item: "apotheosis:draconic_endshelf" }
+	]
+	title: "&6Legendary Reward"
+	use_title: true
+}

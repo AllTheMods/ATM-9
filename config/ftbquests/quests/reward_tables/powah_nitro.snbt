@@ -1,0 +1,18 @@
+{
+	id: "13DF975BE0A23373"
+	loot_size: 1
+	order_index: 34
+	rewards: [
+		{ item: "powah:capacitor_nitro", random_bonus: 1, weight: 10.0f }
+		{ item: "powah:crystal_nitro", random_bonus: 3, weight: 25.0f }
+		{ item: "powah:crystal_spirited", random_bonus: 2, weight: 25.0f }
+		{ item: "powah:spirited_crystal_block", weight: 2.0f }
+		{ item: "powah:energizing_rod_nitro", weight: 5.0f }
+		{ item: "powah:energizing_rod_spirited", weight: 5.0f }
+		{ count: 2, item: "powah:energy_cable_nitro", random_bonus: 2, weight: 10.0f }
+		{ item: "powah:nitro_crystal_block" }
+		{ item: "powah:solar_panel_nitro" }
+	]
+	title: "Powah: Nitro Loot Reward"
+	use_title: true
+}

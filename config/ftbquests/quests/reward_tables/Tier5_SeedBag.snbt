@@ -1,0 +1,29 @@
+{
+	icon: "mysticalagriculture:supremium_gemstone"
+	id: "3256FDEE1B753EE1"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ item: "mysticalagriculture:diamond_seeds" }
+		{ item: "mysticalagriculture:supremium_farmland", weight: 10.0f }
+		{ item: "mysticalagriculture:emerald_seeds" }
+		{ item: "mysticalagriculture:netherite_seeds" }
+		{ item: "mysticalagriculture:wither_skeleton_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:platinum_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:enderium_seeds" }
+		{ item: "mysticalagriculture:uraninite_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:supremium_furnace", weight: 3.0f }
+		{ item: "mysticalagriculture:supremium_growth_accelerator", weight: 5.0f }
+		{ item: "mysticalagriculture:supremium_block" }
+		{ item: "mysticalagradditions:supremium_apple", weight: 10.0f }
+		{ item: "mysticalagradditions:supremium_coal", weight: 7.0f }
+		{ item: "mysticalagradditions:supremium_coal_block", weight: 5.0f }
+		{ item: "mysticalagriculture:strength_iii_augment", weight: 3.0f }
+		{ item: "mysticalagriculture:health_boost_v_augment", weight: 3.0f }
+		{ item: "mysticalagriculture:flight_augment" }
+		{ item: "mysticalagriculture:supremium_essence", random_bonus: 1, weight: 10.0f }
+		{ item: "mysticalagriculture:supremium_ingot", random_bonus: 2, weight: 5.0f }
+		{ item: "mysticalagriculture:supremium_gemstone", random_bonus: 1, weight: 5.0f }
+	]
+	title: "&4Tier 5 Seed Bag"
+}

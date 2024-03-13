@@ -1,0 +1,19 @@
+{
+	id: "0595EDDADDEA1407"
+	loot_size: 1
+	order_index: 50
+	rewards: [
+		{ item: "botania:elementium_ingot", random_bonus: 1, weight: 25.0f }
+		{ item: "botania:pixie_dust", random_bonus: 1, weight: 25.0f }
+		{ item: "botania:quartz_elven", random_bonus: 1, weight: 25.0f }
+		{ item: "botania:elf_glass", random_bonus: 1, weight: 25.0f }
+		{ item: "botania:dreamwood_log", random_bonus: 1, weight: 25.0f }
+		{ item: "botania:dreamwood", random_bonus: 1, weight: 25.0f }
+		{ item: "botania:dragonstone", random_bonus: 1, weight: 10.0f }
+		{ item: "botania:life_essence", random_bonus: 1, weight: 5.0f }
+		{ item: "botania:gaia_ingot" }
+		{ item: "botania:terrasteel_ingot", weight: 3.0f }
+	]
+	title: "&6Legendary Mana Loot Bag&r"
+	use_title: true
+}

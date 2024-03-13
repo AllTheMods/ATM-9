@@ -1,0 +1,36 @@
+{
+	id: "6AF94D0F814BF4CC"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "ars_nouveau:glyph_ignite" }
+		{ item: "ars_nouveau:glyph_underfoot" }
+		{ item: "ars_nouveau:glyph_bounce" }
+		{ item: "ars_nouveau:glyph_craft" }
+		{ item: "ars_nouveau:glyph_rune" }
+		{ item: "ars_nouveau:glyph_snare" }
+		{ item: "ars_nouveau:glyph_freeze" }
+		{ item: "ars_nouveau:glyph_summon_steed" }
+		{ item: "ars_nouveau:glyph_amplify" }
+		{ item: "ars_nouveau:glyph_harvest" }
+		{ item: "ars_nouveau:glyph_sensitive" }
+		{ item: "ars_nouveau:glyph_toss" }
+		{ item: "ars_nouveau:glyph_delay" }
+		{ item: "ars_nouveau:glyph_light" }
+		{ item: "ars_nouveau:glyph_place_block" }
+		{ item: "ars_nouveau:glyph_summon_wolves" }
+		{ item: "ars_nouveau:glyph_cut" }
+		{ item: "ars_nouveau:glyph_interact" }
+		{ item: "ars_nouveau:glyph_phantom_block" }
+		{ item: "ars_nouveau:glyph_evaporate" }
+		{ item: "ars_nouveau:glyph_leap" }
+		{ item: "ars_nouveau:glyph_redstone_signal" }
+		{ item: "ars_nouveau:glyph_pickup" }
+		{ item: "ars_nouveau:glyph_launch" }
+		{ item: "ars_nouveau:glyph_dispel" }
+		{ item: "ars_nouveau:glyph_pull" }
+		{ item: "ars_nouveau:glyph_gust" }
+	]
+	title: "Random Tier 1 Glyph"
+	use_title: true
+}

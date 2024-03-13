@@ -1,0 +1,30 @@
+{
+	id: "42AB780FB10EA8B3"
+	loot_size: 1
+	order_index: 38
+	rewards: [
+		{ count: 3, item: "gtceu:resistor", random_bonus: 2, weight: 6.0f }
+		{ count: 4, item: "gtceu:wrought_iron_plate", random_bonus: 4, weight: 10.0f }
+		{ item: "gtceu:lv_machine_hull", random_bonus: 1, weight: 6.0f }
+		{ count: 8, item: "gtceu:sticky_resin", random_bonus: 4, weight: 10.0f }
+		{ item: "gtceu:diode", random_bonus: 1 }
+		{ item: "gtceu:basic_electronic_circuit", random_bonus: 2, weight: 2.0f }
+		{ count: 2, item: "gtceu:rubber_plate", random_bonus: 4, weight: 8.0f }
+		{ count: 8, item: "gtceu:rubber_ingot", random_bonus: 4, weight: 10.0f }
+		{ item: "gtceu:lv_electric_piston", random_bonus: 2, weight: 6.0f }
+		{ item: "gtceu:lv_electric_motor", random_bonus: 2, weight: 6.0f }
+		{ count: 8, item: "minecraft:diamond", random_bonus: 4, weight: 10.0f }
+		{ count: 8, item: "minecraft:sticky_piston", random_bonus: 4, weight: 10.0f }
+		{ count: 8, item: "gtceu:tin_single_cable", random_bonus: 8, weight: 8.0f }
+		{ count: 8, item: "gtceu:tin_single_wire", random_bonus: 8, weight: 10.0f }
+		{ item: "gtceu:arsenic_dust", random_bonus: 1, weight: 2.0f }
+		{ item: "gtceu:gallium_dust", random_bonus: 1, weight: 2.0f }
+		{ count: 3, item: "gtceu:cobaltite_dust", random_bonus: 2, weight: 5.0f }
+		{ count: 8, item: "gtceu:copper_single_wire", random_bonus: 8, weight: 10.0f }
+		{ item: "gtceu:lv_machine_casing", random_bonus: 1, weight: 8.0f }
+		{ count: 8, item: "alltheores:steel_plate", random_bonus: 4, weight: 10.0f }
+		{ count: 2, item: "gtceu:vacuum_tube", random_bonus: 2, weight: 6.0f }
+	]
+	title: "GT LV Basic Rewards"
+	use_title: true
+}

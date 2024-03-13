@@ -1,0 +1,1831 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "1AC60211DE7427FC"
+	icon: "minecraft:chest"
+	id: "1DB294A8F8686321"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 5.0d
+		hover: [ ]
+		image: "minecraft:textures/item/chest_minecart.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: 4.5d
+		y: -8.0d
+	}]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5E4BC0F59C90433A"]
+			description: ["{atm9.quest.storage.desc.iron}"]
+			id: "58514FDE153FD971"
+			rewards: [
+				{
+					id: "56FA5A7CE451E586"
+					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "632C34D1F4CE965A"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "330E21D23165B829"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "{atm9.quest.storage.subt.iron}"
+			tasks: [{
+				id: "77A9435B6739348E"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.iron}"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["58514FDE153FD971"]
+			id: "3E33730DC2115D26"
+			rewards: [
+				{
+					id: "7BF7AC6177891566"
+					item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "2B0E611FC8E7C52F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B0B6F06B83B6A93"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "{atm9.quest.storage.subt.gold}"
+			tasks: [{
+				id: "0427B441A750316F"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.gold}"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E33730DC2115D26"]
+			id: "4C0BDD483CCB40C4"
+			rewards: [
+				{
+					id: "7634B130CAFA493B"
+					item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "09194C282964BF5A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0415C90C635B77D4"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			subtitle: "{atm9.quest.storage.subt.diamond}"
+			tasks: [{
+				id: "00ED02255105A973"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:diamond_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.diamond}"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C0BDD483CCB40C4"]
+			description: ["{atm9.quest.storage.desc.netherite}"]
+			id: "77F241BEE9902751"
+			rewards: [
+				{
+					id: "2084D6F08E608125"
+					item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "3E846FD78C055A89"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33035D9E5D284A72"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			subtitle: "{atm9.quest.storage.subt.netherite}"
+			tasks: [{
+				id: "34B6EB0B801E4743"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:netherite_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.netherite}"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["563CFA1EF74E52E9"]
+			description: ["{atm9.quest.storage.desc.chest}"]
+			id: "5E4BC0F59C90433A"
+			rewards: [
+				{
+					id: "67C504323225DDD8"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "5926ED11CED5896C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2BD2C0D43AE4AB58"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+			]
+			subtitle: "{atm9.quest.storage.subt.chest}"
+			tasks: [{
+				id: "5241AA0EF3C2EA94"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.chest}"
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0682DC1F2417DAEB"]
+			description: ["{atm9.quest.storage.desc.drawer}"]
+			icon: "functionalstorage:oak_1"
+			id: "2746575C929B6C50"
+			rewards: [
+				{
+					id: "3F6E823825D51DAC"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+				{
+					id: "57814182F5AA0BAB"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "{atm9.quest.storage.subt.drawer}"
+			tasks: [{
+				id: "79EC3CF180A5A940"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.drawer}"
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			dependency_requirement: "one_started"
+			description: ["{atm9.quest.storage.desc.compacting}"]
+			id: "2B422B7E0CE3590D"
+			rewards: [
+				{
+					id: "20DD94A587AC244E"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					id: "7438B1DD5423F325"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.storage.subt.compacting}"
+			tasks: [{
+				id: "4AC0DA5197DEBC7B"
+				item: "functionalstorage:compacting_drawer"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.compacting}"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			dependency_requirement: "one_started"
+			description: ["{atm9.quest.storage.desc.controller}"]
+			id: "6FBAE89EE782DABA"
+			rewards: [
+				{
+					count: 2
+					id: "0817D478F3584AB6"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					id: "577872850DA154AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64F4676E4C59322D"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.storage.subt.controller}"
+			tasks: [{
+				id: "1872E00684ADC839"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.controller}"
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			description: ["{atm9.quest.storage.desc.ender}"]
+			hide_dependency_lines: true
+			id: "3247179F0F0252A2"
+			rewards: [
+				{
+					id: "1C3AB68685A3FD62"
+					item: {
+						Count: 1b
+						id: "enderchests:ender_bag"
+						tag: {
+							code: "000"
+							open: 0b
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43FE4B654819B6C4"
+					item: {
+						Count: 1b
+						id: "endertanks:ender_bucket"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28FA25B2F1E211A3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0116B19B3CFFB4DD"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4E5DB7E53717FD3C"
+					item: {
+						Count: 1b
+						id: "enderchests:ender_chest"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "322CF20C9C5FB841"
+					item: {
+						Count: 1b
+						id: "endertanks:ender_tank"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.storage.ender}"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			description: ["{atm9.quest.storage.desc.basic}"]
+			hide_dependency_lines: false
+			id: "5A94A2664BFDD7B9"
+			rewards: [{
+				id: "570FFAC4E65BBF46"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3E7F26D68D9A166B"
+				title: "Storage"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.storage.basic}"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["{atm9.quest.storage.desc.trash}"]
+			hide_dependency_lines: true
+			id: "17DC77F7F8C68AE6"
+			rewards: [
+				{
+					id: "69AE6A259BD33878"
+					item: "trashcans:ultimate_trash_can"
+					type: "item"
+				}
+				{
+					id: "5828D3729B49DFEC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.storage.subt.trash}"
+			tasks: [
+				{
+					id: "7F4087A08A6F82AC"
+					item: "trashcans:item_trash_can"
+					type: "item"
+				}
+				{
+					id: "6E37055D317DBBA9"
+					item: "trashcans:liquid_trash_can"
+					type: "item"
+				}
+				{
+					id: "736FE7C0E7C491E7"
+					item: "trashcans:energy_trash_can"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.storage.trash}"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "3D5852E6D0ADF651"
+			rewards: [
+				{
+					count: 4
+					id: "685834F0A29F6B78"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "36EA7EC9235E0AEA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BD9855705A23AEE"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "61F1446D2A460827"
+					item: "dimstorage:dimensional_chest"
+					type: "item"
+				}
+				{
+					id: "17FE9F196E4C6B44"
+					item: "dimstorage:dimensional_tank"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.storage.dim}"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			description: ["{atm9.quest.storage.desc.ender}"]
+			id: "1A4B1CA7EC15348E"
+			rewards: [
+				{
+					id: "0EEC38A1667399E0"
+					item: "functionalstorage:gold_upgrade"
+					type: "item"
+				}
+				{
+					id: "6F4D2071EA7C3055"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17243362CFFD8E23"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.storage.subt.enderdrawer}"
+			tasks: [{
+				id: "38E95D826B04DC4F"
+				item: "functionalstorage:ender_drawer"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.enderdrawer}"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			description: ["{atm9.quest.storage.desc.functional}"]
+			icon: "functionalstorage:storage_controller"
+			id: "0682DC1F2417DAEB"
+			rewards: [{
+				id: "6E8586BE04F26897"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.storage.subt.functional}"
+			tasks: [{
+				id: "4B299AC7F0233132"
+				title: "Storage Drawers"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.storage.functional}"
+			x: -11.25d
+			y: -5.0d
+		}
+		{
+			description: ["{atm9.quest.storage.desc.sophisticated}"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:iron_chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "563CFA1EF74E52E9"
+			rewards: [{
+				id: "58CC2C987D56D7F8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.storage.subt.sophisticated}"
+			tasks: [{
+				id: "034F49638F207523"
+				title: "Iron Chests"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.storage.sophisticated}"
+			x: -11.25d
+			y: -1.5d
+		}
+		{
+			description: ["{atm9.quest.storage.desc.backpack}"]
+			id: "6A2B2C5E2ADCE366"
+			rewards: [{
+				id: "1B303584800CE582"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.storage.subt.backpack}"
+			tasks: [{
+				id: "213B187A9625C1C7"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.backpack}"
+			x: -11.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A2B2C5E2ADCE366"]
+			id: "0E057B7F76401421"
+			rewards: [
+				{
+					count: 4
+					id: "5AE4783A5679A0EC"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "228B88E9317CB137"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5525286901EED45A"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "{atm9.quest.storage.subt.ironBP}"
+			tasks: [{
+				id: "256F1CCC79CEB2D5"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.ironBP}"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A2B2C5E2ADCE366"]
+			description: ["{atm9.quest.storage.desc.upgrade_base}"]
+			id: "1FE052F643401232"
+			rewards: [
+				{
+					count: 2
+					id: "5B9CB28C6BC4759D"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "4B2F25D7E70DD87F"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "{atm9.quest.storage.subt.upgrade_base}"
+			tasks: [{
+				id: "6DDC631193C9A496"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.upgrade_base}"
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0E0CAA31480EC0A1"
+			optional: true
+			rewards: [{
+				id: "7ADBF209091E5821"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			subtitle: "{atm9.quest.storage.subt.pickup}"
+			tasks: [{
+				id: "0789D160EF625FF5"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.pickup}"
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0E0CAA31480EC0A1"]
+			hide: true
+			id: "1985CFD1F0425E88"
+			optional: true
+			rewards: [{
+				id: "648AD42B15591F72"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.Apickup}"
+			tasks: [{
+				id: "666C188829301BE0"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.Apickup}"
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "156FF8B7B724DC38"
+			optional: true
+			rewards: [{
+				id: "39BE377911DC6C3A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.filter}"
+			tasks: [{
+				id: "4DFC097C1EF485B3"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.filter}"
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["156FF8B7B724DC38"]
+			hide: true
+			id: "57CF8C6C867B9BDA"
+			optional: true
+			rewards: [{
+				id: "3522A1F2B552FF21"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6530A152D9337A4C"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.Afilter}"
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "110D27EA86CDA62B"
+			optional: true
+			rewards: [{
+				id: "3DAE7B9BA91F8520"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.magnet}"
+			tasks: [{
+				id: "696764AB781624BD"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.magnet}"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["110D27EA86CDA62B"]
+			hide: true
+			id: "11D57C768032E3F7"
+			optional: true
+			rewards: [{
+				id: "2B3FB31DDDCD1F45"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "14A8CEB60805E90A"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.Amagnet}"
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "5FA9BC0D8476D322"
+			optional: true
+			rewards: [{
+				id: "3AAACB23C7CE64C0"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.feeding}"
+			tasks: [{
+				id: "5D185C4E74A8717D"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.feeding}"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5FA9BC0D8476D322"]
+			hide: true
+			id: "1A739D36D5E3B1AD"
+			optional: true
+			rewards: [{
+				id: "0B71DCC81A95305B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "41C87FC409006F13"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.Afeeding}"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "1CD2C6AFD788C35E"
+			optional: true
+			rewards: [{
+				id: "4B5E3828A7FEE102"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.bpcompacting}"
+			tasks: [{
+				id: "0F54AF81A481180B"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.bpcompacting}"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1CD2C6AFD788C35E"]
+			hide: true
+			id: "5E4FE420B6D2C97F"
+			optional: true
+			rewards: [{
+				id: "18BDC6FD268F1347"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.Acompacting}"
+			tasks: [{
+				id: "7CA41563003856B2"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.Acompacting}"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7EFBFF5D0DA018E7"
+			optional: true
+			rewards: [{
+				id: "6A1B0E04AAE2BFF2"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.void}"
+			tasks: [{
+				id: "04491E89A571B16F"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.void}"
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7EFBFF5D0DA018E7"]
+			hide: true
+			id: "2FC15D3916DBF4E4"
+			optional: true
+			rewards: [{
+				id: "5989427C93E9266D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3A29FF1C2AD59B06"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.Avoid}"
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			description: ["Adds a filter that allows you to tell the backpack which items it should keep stocked. Shift-Right Clicking an inventory will refill it."]
+			hide: true
+			hide_dependency_lines: true
+			id: "4B62AF0405F68041"
+			optional: true
+			rewards: [{
+				id: "4C3EB57AC444EC11"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.restock}"
+			tasks: [{
+				id: "2F5D0ABEF5F4EDEF"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.restock}"
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4B62AF0405F68041"]
+			hide: true
+			id: "019CA0E35F888222"
+			optional: true
+			rewards: [{
+				id: "4F4574E228792C80"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "45492321B5D5A2D6"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.Arestock}"
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			description: ["Shift-Right Click an inventory to empty."]
+			hide: true
+			hide_dependency_lines: true
+			id: "00DB5495C3A44999"
+			optional: true
+			rewards: [{
+				id: "573C3AE6F966E820"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.deposit}"
+			tasks: [{
+				id: "68CED4583435FE43"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.deposit}"
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00DB5495C3A44999"]
+			hide: true
+			id: "4C0EAB9F795686D0"
+			optional: true
+			rewards: [{
+				id: "27CA65D1E2EEDA8A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3D7F2E1489EB84AA"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.Adeposit}"
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "33882172DA8021F6"
+			optional: true
+			rewards: [{
+				id: "773BA104B1822DAF"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.refill}"
+			tasks: [{
+				id: "5F6536142CDA403C"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.refill}"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			description: [
+				"So we got a backpack upgrade to put your backpack in your backpack."
+				""
+				"So you can have your backpack in your backpack when you need your backpack in your backpack."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "7C07D6A33F7ADB02"
+			optional: true
+			rewards: [{
+				id: "251C508792472ABB"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.inception}"
+			tasks: [{
+				id: "4F04DC4226148B47"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.inception}"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "037415D5B965E214"
+			optional: true
+			rewards: [{
+				id: "16FFA5DD686C0084"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.everlasting}"
+			tasks: [{
+				id: "50348CD6A080A1D1"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.everlasting}"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "668C313FF46B6005"
+			optional: true
+			rewards: [{
+				id: "621E7721DC1187BF"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.smelting}"
+			tasks: [{
+				id: "10C7C3214FFC012D"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.smelting}"
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["668C313FF46B6005"]
+			hide: true
+			id: "3A1D07AED2A841E4"
+			optional: true
+			rewards: [{
+				id: "278BE67D7B2DA41A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.Asmelting}"
+			tasks: [{
+				id: "4F90A434D3719DCB"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.Asmelting}"
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "26A9F402DAE15EA2"
+			optional: true
+			rewards: [{
+				id: "0F7536B588E4582A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.smoking}"
+			tasks: [{
+				id: "1ABC352A4A4313E5"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.smoking}"
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["26A9F402DAE15EA2"]
+			hide: true
+			id: "36BCE35215B2B6E9"
+			optional: true
+			rewards: [{
+				id: "3DA8FC30D52E42AE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4D0ACCBF77CC0846"
+				item: "sophisticatedbackpacks:auto_smoking_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.Asmoking}"
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "1E499F94A2A193E1"
+			optional: true
+			rewards: [{
+				id: "003DF784F0E1EDE6"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.blasting}"
+			tasks: [{
+				id: "677DA84F4B304778"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.blasting}"
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1E499F94A2A193E1"]
+			hide: true
+			id: "26988E22BD019628"
+			optional: true
+			rewards: [{
+				id: "568084E6EBB1ABD0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "62BCE2BB281304DC"
+				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.Ablasting}"
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4A854CD5EC70733E"
+			optional: true
+			rewards: [{
+				id: "76DEF2900448AD2B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.crafting}"
+			tasks: [{
+				id: "47BADC501A4E2AD7"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.crafting}"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "52672B7FFFD51D16"
+			optional: true
+			rewards: [{
+				id: "641D01DBE66A27DF"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.stonecutting}"
+			tasks: [{
+				id: "3BA31C5CD5C35ED5"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.stonecutting}"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7E9E03274A88347D"
+			optional: true
+			rewards: [
+				{
+					id: "442C444707D2AD35"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7153DF647EE23793"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "{atm9.quest.storage.subt.stack1}"
+			tasks: [{
+				id: "7E22C7FB2F953E70"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.stack1}"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E9E03274A88347D"]
+			hide: false
+			id: "785951190FFDAA21"
+			optional: true
+			rewards: [
+				{
+					id: "246B4B8ABB20D8A7"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "667C0645CB59356D"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "15A92DA8E1A9106F"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.stack2}"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["785951190FFDAA21"]
+			hide: false
+			id: "0298A17C2AAC5765"
+			optional: true
+			rewards: [
+				{
+					id: "5C6FA0134C10A5D6"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "248041164657FF8C"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "161AF6650325FA0A"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.stack3}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0298A17C2AAC5765"]
+			hide: false
+			id: "7AE3C8134F5ED726"
+			optional: true
+			rewards: [
+				{
+					id: "2E76A37774F0CEC5"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BF97F31AE8AE8FB"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36BEE5EDBA6FAF76"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.stack4}"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "53F861876B991C36"
+			optional: true
+			rewards: [{
+				id: "3285596442FF6447"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.jukebox}"
+			tasks: [{
+				id: "18F8BF7CC5B3126D"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.jukebox}"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "615B9062FE8CCD36"
+			optional: true
+			rewards: [{
+				id: "54802B4F6EE4412E"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.tool}"
+			tasks: [{
+				id: "24165D460DCC2212"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.tool}"
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["615B9062FE8CCD36"]
+			hide: true
+			id: "15CD4BFDC56E9510"
+			optional: true
+			rewards: [{
+				id: "3198E65D369D203C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "700D630FE0FB8B9D"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.Atool}"
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0D4C64DD58567758"
+			optional: true
+			rewards: [{
+				id: "198BF862B3BF5ABA"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.tank}"
+			tasks: [{
+				id: "6CA01A42CC183F87"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.tank}"
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4C2A60FC1F1E0328"
+			optional: true
+			rewards: [{
+				id: "18E06C1A7BC76A3F"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.battery}"
+			tasks: [{
+				id: "056ECFB6B80F6A37"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.battery}"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FE052F643401232"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6E9041744C592573"
+			optional: true
+			rewards: [{
+				id: "2E57D243960C9A86"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{atm9.quest.storage.subt.PU}"
+			tasks: [{
+				id: "0B9FAD684B03985A"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.PU}"
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E9041744C592573"]
+			hide: true
+			id: "56B80A7EBFE21428"
+			optional: true
+			rewards: [{
+				id: "23887038DAC8A6EB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5B7A8E1F725C2815"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.APU}"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["56B80A7EBFE21428"]
+			hide: true
+			id: "6E3D53D1C4569A89"
+			optional: true
+			rewards: [{
+				id: "67BA8A35E56EB3F0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3B52B2670A826CE4"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.EPU}"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E057B7F76401421"]
+			id: "2F9B0C642A6BE30C"
+			rewards: [
+				{
+					id: "588A8E368C4561A4"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "3895B4A009120165"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "158BE322A99DAC18"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7E9C8C24DD11EE7F"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.goldBP}"
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F9B0C642A6BE30C"]
+			id: "45268A619787288F"
+			rewards: [
+				{
+					id: "1CD2A81868C15FC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2E794D147447A3E2"
+					item: "minecraft:diamond"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1821E984D977524B"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "040F32155AD31A4C"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.diamondBP}"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["45268A619787288F"]
+			id: "67704F7341EDCC49"
+			optional: true
+			rewards: [
+				{
+					id: "06D60CD6970140F7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "0E9C01BFE4BB86F2"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "7214DB9CCE3BF452"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "040F46810BB6C345"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "62B16ED18AAB714F"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.netheriteBP}"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2746575C929B6C50"]
+			description: ["{atm9.quest.storage.desc.link}"]
+			id: "072FBEB0F6F1BC48"
+			rewards: [
+				{
+					id: "7524181E415A05BB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3625DED76F225AAE"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "62C6F14FE6A82305"
+				item: {
+					Count: 1b
+					id: "functionalstorage:linking_tool"
+					tag: {
+						Action: "ADD"
+						Mode: "SINGLE"
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.link}"
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2746575C929B6C50"]
+			id: "485D5664A17E16DF"
+			rewards: [
+				{
+					id: "389E00F11BC30473"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "367143472E975AC8"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6217BA32207183D1"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.storage.subt.8}"
+			tasks: [{
+				id: "2F64FAD1FD2D3BAA"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.8}"
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["485D5664A17E16DF"]
+			id: "3B570B3DB5F6D2CB"
+			rewards: [
+				{
+					id: "419CCB3888465495"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "2DD72079356465CE"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CEB38F19FD621C4"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.storage.subt.16}"
+			tasks: [{
+				id: "25677521E16A9A63"
+				item: "functionalstorage:gold_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.16}"
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3B570B3DB5F6D2CB"]
+			id: "1B72E95569B07E18"
+			rewards: [
+				{
+					id: "7DDEB81C6D62844E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "349616860CC71998"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66529711E25F3DB7"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.storage.subt.24}"
+			tasks: [{
+				id: "5F8923D392E224BB"
+				item: "functionalstorage:diamond_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.24}"
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1B72E95569B07E18"]
+			id: "0E5AE195158CF344"
+			rewards: [
+				{
+					id: "36853439572CA76B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FC4E884680BC919"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D7ABAF9FA2AD2A9"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.storage.subt.32}"
+			tasks: [{
+				id: "1E992354ECC75B6D"
+				item: "functionalstorage:netherite_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.32}"
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["563CFA1EF74E52E9"]
+			description: ["{atm9.quest.storage.desc.upgrade}"]
+			id: "4007DFA7CC3A5FF2"
+			rewards: [
+				{
+					count: 2
+					id: "573A85406505C80F"
+					item: "sophisticatedstorage:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "34E6939A2878A929"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.storage.subt.upgrade}"
+			tasks: [{
+				id: "57E17CFF237DB302"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.upgrade}"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			description: ["{atm9.quest.storage.desc.configurator}"]
+			id: "508A8366219175FE"
+			rewards: [
+				{
+					id: "2E141DF65F0D3931"
+					item: "functionalstorage:gold_upgrade"
+					type: "item"
+				}
+				{
+					id: "6A90B5A53F3FC368"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2F275302DA90D4E4"
+				item: {
+					Count: 1b
+					id: "functionalstorage:configuration_tool"
+					tag: {
+						Mode: "LOCKING"
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.configurator}"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			description: ["{atm9.quest.storage.desc.NBT}"]
+			icon: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "7EF57BBEAA4B6B08"
+			min_width: 300
+			rewards: [
+				{
+					id: "709280A79BC54D7E"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "495C45D51AEDF931"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F1C07541B66F171"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "21FBC4E0F668347C"
+				title: "NBT and YOU!"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.storage.NBT}"
+			x: 4.5d
+			y: 0.5d
+		}
+	]
+	title: "{atm9.chapters.10.title}"
+}

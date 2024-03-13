@@ -1,0 +1,1192 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "high_voltage"
+	group: "1DA67E79B40AB130"
+	icon: "gtceu:advanced_integrated_circuit"
+	id: "37A5A4A81CCB67E5"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to HV! Things are starting to get exciting around here! "
+				""
+				"First things first, let's work towards making stainless steel so we can make HV machines"
+			]
+			id: "70C952B8FF3418F6"
+			rewards: [
+				{
+					count: 2
+					id: "3DD4C1CB19B61BC0"
+					item: "gtceu:good_electronic_circuit"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "560585DB784F4FE1"
+					item: "gtceu:transistor"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Buckle up for &6HV&r"
+			tasks: [{
+				id: "12A2731FC755513E"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5FAA73C52082DC48"
+				"39ACF4D6503067F3"
+				"0AC6B223857CAE94"
+			]
+			description: [
+				"Recipes that used the vacuum tube can now use this instead!"
+				""
+				"&eTip:&r You can search through all the different circuits in JEI by typing &b$circuits&r or even specific tiers of circuits with &b$circuits/ulv&r"
+			]
+			id: "54EDFCD65E088296"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A4D6DC9EE76A564"
+				table_id: 822291801189586703L
+				type: "loot"
+			}]
+			subtitle: "ULV on the cheap"
+			tasks: [{
+				id: "28B1CB0A8A7BDC67"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5FAA73C52082DC48"
+				"0AC6B223857CAE94"
+				"3FDC2A2BBAC0EF1B"
+			]
+			description: [
+				"You may be wondering, why bother making an LV chip? Isn't this &6HV&r?"
+				""
+				"Well, yes, but what if you wanted a new LV machine? Wouldn't you rather get it for less resources than you were previously?"
+				""
+				"Operating 40 LV machines is 4 times more energy efficient than operating 10 HV machines, so long as the recipe runs at LV"
+			]
+			id: "4DA2B92417DD41F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13EFD18BC1202874"
+				table_id: 822291801189586703L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "194037A529925A4E"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5FAA73C52082DC48"
+				"0AC6B223857CAE94"
+				"3FDC2A2BBAC0EF1B"
+			]
+			description: [
+				"The &bMV&r circuit, in its final form!"
+				""
+				"&eNote:&r You won't be able to make the cheapest recipe for these quite yet, that comes at IV"
+			]
+			id: "19DB4970B3D11C1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6180BBEBBF79201E"
+				table_id: 822291801189586703L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "48BE641C2530BA61"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"19DB4970B3D11C1B"
+				"5FAA73C52082DC48"
+				"0AC6B223857CAE94"
+				"791E5CB36B5C1E73"
+				"0DF9014435C8F4D2"
+			]
+			description: [
+				"Upgrading our &6HV&r circuit recipe!"
+				""
+				"Is it actually cheaper than before? Yes! You can compare recipes if you don't believe me"
+			]
+			id: "732D201794C228DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BDA4E315F8989B4"
+				table_id: 822291801189586703L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3C92729C9842C491"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"732D201794C228DD"
+				"46F5DC6A7FF02DF2"
+				"5FAA73C52082DC48"
+				"62BBF61C9849CA26"
+			]
+			description: ["Move that &bAdvanced Circuit Assembler&r into your &eCleanroom&r and welcome yourself to the &5EV&r Age!"]
+			id: "0DB4226BA23A5C09"
+			rewards: [
+				{
+					count: 8
+					id: "02B6BDFD96A5521C"
+					item: "gtceu:inductor"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 6
+					id: "73F7B222D3532B0D"
+					item: "gtceu:capacitor"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					count: 5
+					id: "43A2B5C5388A39EE"
+					item: "gtceu:diode"
+					random_bonus: 5
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Can this supercomputer win at chess?"
+			tasks: [{
+				id: "7497784245BE7D72"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70C952B8FF3418F6"]
+			description: [
+				"The only MV machine that requires HV circuits to craft"
+				""
+				"This machine allows you to start working towards crafting the next tier of circuits, the &6microprocessors!&r"
+			]
+			id: "0AC6B223857CAE94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44A07D73596C22E2"
+				table_id: 822291801189586703L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7004B0FA13A8D4D1"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1DF42E30A24A9DEC"
+				"6F49C691CF79D4B8"
+				"012366E4E4095FC4"
+				"70C952B8FF3418F6"
+			]
+			description: [
+				"The minimum size is 5x5x5 and the maximum size is 15x15x15, and anywhere in between is valid!"
+				""
+				"The &aCleanroom&r multiblock is hollow because you put machines in it to run any recipe that requires a Cleanroom - for example, the &5EV Circuit&r requires the &bCircuit Assembler&r &ninside&r the Cleanroom"
+				""
+				"Don't forget the &eEnergy Hatch&r, &eMaintenance Hatch&r, and &eIron Door&r!"
+				""
+				"You &ndon't need&r &6Passthrough Hatches&r if you can figure out wireless transfer"
+				""
+				"&3Diodes&r are necessary if you are using &9Generators&r for your EU needs because a Generator is too dirty to go into a Cleanroom"
+				""
+				"You &ndon't need&r Diodes if you use &cEnergy Converters&r because an Energy Converter is... clean?"
+			]
+			icon: "gtceu:cleanroom"
+			id: "62BBF61C9849CA26"
+			min_width: 300
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FAE59F32C8DD482"
+				table_id: 822291801189586703L
+				type: "loot"
+			}]
+			subtitle: "Squeaky Clean"
+			tasks: [
+				{
+					id: "564B0D84C5688FF2"
+					item: "gtceu:cleanroom"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "3DA6D564BBFB1F50"
+					title: "Observe Completed Cleanroom"
+					type: "custom"
+				}
+			]
+			x: 1.0d
+			y: 5.500000000000005d
+		}
+		{
+			dependencies: ["681110DE6B4E6ED8"]
+			description: [
+				"Cover a steel frame with plastic sheets then smother it in concrete and let it set into &bPlascrete&r"
+				""
+				"The edges and floor of the Cleanroom needs to be Plascrete"
+			]
+			id: "1DF42E30A24A9DEC"
+			tasks: [{
+				id: "1945295F5A5C547D"
+				item: "gtceu:plascrete"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.500000000000005d
+		}
+		{
+			description: ["Cleanroom Glass can be used for the walls in place of the Plascrete, just not the edges or floor"]
+			id: "6F49C691CF79D4B8"
+			shape: "square"
+			tasks: [{
+				id: "71760579D96768C3"
+				item: "gtceu:cleanroom_glass"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.500000000000005d
+		}
+		{
+			dependencies: [
+				"70C952B8FF3418F6"
+				"4FD6092D9C2A485C"
+			]
+			description: ["Finally, with stainless steel we can begin crafting &6HV&r machines!"]
+			id: "61262BC1C525E6F1"
+			rewards: [
+				{
+					count: 8
+					id: "3B4D781A444552F6"
+					item: "gtceu:raw_tantalite"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3ED98AFAB9371EFA"
+					item: "gtceu:raw_chromite"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "2BBF580104DF2C41"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.9500000000000002d
+		}
+		{
+			dependencies: [
+				"124C2A904BF84254"
+				"0BAD21557994331D"
+			]
+			description: [
+				"In your handy-dandy &eChemical Reactor&r insert the Plastic Circuit Board, some Copper Foil, and the Iron III Chloride you made to get the Plastic Printed Circuit Board"
+				""
+				"This serves as the base for all the microprocessor circuits"
+			]
+			id: "5FAA73C52082DC48"
+			rewards: [
+				{
+					count: 4
+					id: "564C05DF78F326F8"
+					item: "gtceu:copper_foil"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "2BD51BAAEA3CF3B8"
+					item: "gtceu:plastic_circuit_board"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "418A5680FB2534F3"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["54BEC01D84237DBC"]
+			description: [
+				"Hydrochloric acid and iron dust will &echemical react&r to give you Iron III Chloride"
+				""
+				"Plus you get some hydrogen back!"
+				""
+				"Don't forget your &aprogram setting&r, it should be 1 for this"
+				""
+				"It's recommended you set a &bRequester&r up for this"
+			]
+			id: "0BAD21557994331D"
+			rewards: [{
+				id: "240F4D3E97A3FF81"
+				item: "gtceu:iron_iii_chloride_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CBFE2B699BFEC8F"
+				item: "gtceu:iron_iii_chloride_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"You'll need thin sheets and foil to make this, both of which can be made in a &eBender&r"
+				""
+				"You could &eFluid Solidify&r your polyethylene into sheets directly, or perhaps you solidify it into ingots to make blocks to then &eCutter&r into 9 sheets at once"
+				""
+				"By now you've seen that there are many roads we can take to achieve the same end result, so feel free to experiment and make things in different ways!"
+			]
+			id: "791E5CB36B5C1E73"
+			min_width: 250
+			rewards: [{
+				id: "3F393D71E9CA863A"
+				item: "gtceu:polyethylene_bucket"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3A9CA36D3074377E"
+				item: "gtceu:capacitor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["12F24C9C6D2AF887"]
+			description: [
+				"You might be wondering why I forced Nickel Zinc Ferrite ingots on you, and this recipe is exactly why! "
+				""
+				"You get the most bang for your buck when using Nickel Zinc Ferrite and Annealed Copper, both of which you can make!"
+				""
+				"You've got some options when it comes to making the NZF rings and the fine wire, an &eExtruder&r will get you the most rings for one ingot and a &eWiremill&r will turn ingots into wire and wire into fine wire"
+			]
+			id: "0DF9014435C8F4D2"
+			min_width: 250
+			rewards: [{
+				count: 2
+				id: "07C9E792514A730A"
+				item: "gtceu:fine_annealed_copper_wire"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DB9A596BBFFF2FD"
+				item: "gtceu:inductor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.8d
+		}
+		{
+			description: [
+				"Yep, another lens added to the collection for the &eLaser Engraver&r... If you haven't yet, maybe make a few of those"
+				""
+				"As a reminder, the &eengraver&r makes the wafer, the &ecutter&r makes the chip"
+			]
+			id: "3FDC2A2BBAC0EF1B"
+			rewards: [{
+				count: 2
+				id: "2BB66AF9D7458521"
+				item: "gtceu:silicon_wafer"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "3265E94FDBE6EF04"
+					item: "gtceu:diamond_lens"
+					type: "item"
+				}
+				{
+					id: "2AF7637FB5C18FF9"
+					item: "gtceu:cpu_wafer"
+					type: "item"
+				}
+				{
+					id: "24283490238E0432"
+					item: "gtceu:cpu_chip"
+					type: "item"
+				}
+			]
+			title: "CPU Chip"
+			x: 3.2d
+			y: 0.20000000000000018d
+		}
+		{
+			dependencies: ["0B54990168F9B136"]
+			description: ["&eCut&r that wafer into a proper chip"]
+			id: "39ACF4D6503067F3"
+			rewards: [{
+				id: "18F7C546E935D265"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "31899448B5C51F55"
+				item: "gtceu:simple_soc"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16154B77454631F4"]
+			description: [
+				"This little guy will allow us to make the ULV circuit as cheap as possible"
+				""
+				"That's right, there is a ULV circuit, the predecessor is the vacuum tube"
+				""
+				"&eExtra info&r: SoC or System on Chip is basically a mini computer on a chip, it handles all the computing work"
+			]
+			id: "0B54990168F9B136"
+			rewards: [{
+				count: 2
+				id: "5AA67878AA880DF6"
+				item: "gtceu:silicon_wafer"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DFF6A6EA91263D1"
+				item: "gtceu:simple_soc_wafer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62161044F3F3AB87"]
+			description: ["Another day, another lens for the &eLaser Engraver&r"]
+			id: "16154B77454631F4"
+			rewards: [{
+				id: "3C750604EAB74C87"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "69AB81B8D1A9F5B1"
+				item: "gtceu:cyan_glass_lens"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["78DC12C2EB504E56"]
+			description: ["Back to the &eLathe&r to turn that plate into a lens"]
+			id: "1AF005E292E409D1"
+			rewards: [{
+				id: "1D704E20CBE202D5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "76B5D119B25F6C72"
+				item: "gtceu:glass_lens"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"There are a few ways to make this, pick the one that works best for you!"
+				""
+				"&eExtracting&r glass into a liquid and then &efluid solidifying&r that into a plate"
+				""
+				"&aMacerating&r glass into glass dust and then &aalloy smelting&r that into a plate"
+				""
+				"Using a &bcutter&r to turn glass directly into a glass plate"
+			]
+			id: "78DC12C2EB504E56"
+			rewards: [{
+				count: 4
+				id: "57A66EDD265A39CA"
+				item: "minecraft:glass"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "180F78B65C332EB0"
+				item: "gtceu:glass_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["503E5B82A6C89278"]
+			description: [
+				"Use your polyvinyl chloride in a &efluid solidifier&r to get a sheet of it"
+				""
+				"Throw that plus some copper foil and sulfuric acid together in your &echemical reactor&r and you'll get 2 plastic circuit boards! "
+				""
+				"Keep your eyes peeled, we'll eventually upgrade this recipe to get the coveted 8 plastic circuit boards at once"
+			]
+			id: "124C2A904BF84254"
+			rewards: [{
+				count: 2
+				id: "63194085296077A3"
+				item: "gtceu:copper_foil"
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EB80E78DF5EF7E8"
+				item: "gtceu:plastic_circuit_board"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["68526BA198AADD8E"]
+			description: [
+				"Silver and 4 electrotine dust in a &eMixer&r on &aProgram 2&r will create &bBlue Alloy Dust&r"
+				""
+				"You can just smelt this dust in a furnace to get the ingot"
+			]
+			id: "46F5DC6A7FF02DF2"
+			rewards: [{
+				count: 2
+				id: "0228AFD949216481"
+				item: "gtceu:blue_alloy_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F1D7E8BE88CEE72"
+				item: "gtceu:blue_alloy_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			description: ["If you cannot find &belectrotine&r in the Nether, you can create it by mixing electrum and redstone in a &eMixer&r on &aProgram 1&r"]
+			id: "68526BA198AADD8E"
+			rewards: [{
+				id: "5CD5715A50ED58A6"
+				item: "gtceu:electrotine_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2A56E86FD7FAD5C3"
+				item: "gtceu:electrotine_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A243EDB2A99C76D"]
+			description: ["Two buckets of &boxygen&r plus the &bferrite mixture dust&r in your &eElectric Blast Furnace&r gets you the ingot - no cooling necessary!"]
+			id: "12F24C9C6D2AF887"
+			rewards: [{
+				id: "619CB50531BF872F"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "440EC85E5B64E941"
+				item: "gtceu:nickel_zinc_ferrite_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.8d
+		}
+		{
+			description: [
+				"Back to that &bAdvanced Mixer&r but on a different &aProgram Circuit&r setting. As a reminder, you could make a new one just for &dProgram 2&r recipes"
+				""
+				"This time you'll need iron, nickel, and zinc dusts"
+			]
+			hide_dependency_lines: true
+			id: "6A243EDB2A99C76D"
+			rewards: [{
+				id: "2A3E3F5D7F7AA750"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "3C4BC945B9C3088A"
+				item: "gtceu:ferrite_mixture_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.8d
+		}
+		{
+			dependencies: ["70C952B8FF3418F6"]
+			description: [
+				"Keep in mind that &e4 RF : 1 EU&r conversion factor! We're at 512 EU at HV, so 2048 RF"
+				""
+				"Some recipes will use all of that per tick to process, so make sure your energy production can keep up!"
+			]
+			id: "7F64202F2C0BAD2A"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "2C1ED2430A00AD96"
+					item: "gtceu:gold_single_wire"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 2
+					id: "62E8644FD3999AA8"
+					item: "gtceu:red_alloy_single_wire"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 3
+					id: "249C9FBBE6B1A11F"
+					item: "gtceu:stainless_steel_plate"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Got power?"
+			tasks: [{
+				id: "30ECDAAF21DA2EA9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:hv_1a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_4a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_8a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_16a_energy_converter"
+							}
+						]
+					}
+				}
+				title: "Any HV Energy Converter"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Filter Casings are necessary to actually filter out bad particulates from the air and make the room &eclean&r"
+				""
+				"When building your cleanroom, use a &awrench&r to break these otherwise they will not drop when broken"
+				""
+				"All of the ceiling needs to be Filter Casings, minus 1 for where the Cleanroom controller block goes"
+			]
+			id: "012366E4E4095FC4"
+			rewards: [{
+				id: "1ED49BD4715F5C22"
+				item: {
+					Count: 1b
+					id: "gtceu:titanium_wrench"
+					tag: {
+						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2BEFA1048918A566"
+				item: "gtceu:filter_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.500000000000005d
+		}
+		{
+			dependencies: ["0115271C840CD387"]
+			description: ["At some point you will probably want to switch off of steam to producing Benzene or High Octane Gasoline and gas or combustion generators"]
+			id: "1AE7E363AFDC976B"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D4A3C0082C83545"
+				table_id: 822291801189586703L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "158C08BCA0775AAB"
+				item: "gtceu:steel_large_boiler"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70C952B8FF3418F6"]
+			description: ["Time to upgrade that boiler perhaps?"]
+			id: "0115271C840CD387"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "1DCAD5968AC33349"
+					item: "alltheores:steel_ingot"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1DCFFAFE732C70A5"
+					item: "gtceu:stainless_steel_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "So much steam"
+			tasks: [{
+				id: "419FB15F3A540B74"
+				item: "gtceu:hv_steam_turbine"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"A little sulfuric acid with cyan dye and 2 salt dust will make the liquid cyan dye"
+				""
+				"Don't worry, I won't make you grab a bucket of the stuff"
+			]
+			id: "5B1C5C9F9CCC51EB"
+			rewards: [{
+				id: "1B5919E9C28B7CC3"
+				item: "gtceu:salt_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "341403FEFBFC92C0"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dyes/cyan"
+						}
+					}
+					title: "Cyan Dye"
+					type: "item"
+				}
+				{
+					count: 2L
+					icon: "gtceu:salt_dust"
+					id: "4BF92CAB53EAFC26"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:salt_dust"
+								}
+								{
+									Count: 1b
+									id: "railcraft:saltpeter_dust"
+								}
+							]
+						}
+					}
+					title: "Salt Dust"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1957A39483E15508"]
+			description: [
+				"A little oxygen with your vinyl chloride will get you Polyvinyl Chloride"
+				""
+				"&e&lTip:&r&r This is worth setting up a &bRequester&r for!"
+			]
+			id: "503E5B82A6C89278"
+			rewards: [{
+				id: "6857F83D8FD3F6B1"
+				item: "gtceu:polyvinyl_chloride_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E1447D81D30B2DC"
+				item: "gtceu:polyvinyl_chloride_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6A2D7380E340B77D"]
+			description: [
+				"Skipping how to make ethylene because we covered that previously"
+				""
+				"Let's combine ethylene with chlorine in the &echemical reactor&r and get some Vinyl Chloride"
+			]
+			id: "1957A39483E15508"
+			rewards: [{
+				id: "7158F0108957AFA6"
+				item: "gtceu:ethylene_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17068C6DBE553D0C"
+				item: "gtceu:vinyl_chloride_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Chlorine comes from many sources! To name a few, you could &eelectrolyze&r sodalite, rock salt, salt dust, apatite dust, or regular old salt water"
+				""
+				"If you go the salt water route, you may wonder how to get salt water - look no further! If you have a steady supply of &dghast tears&r, you can &echemical react&r them with water"
+				""
+				"Alternatively, a &emixer&r with salt dust and water will also produce salt water, but at that point you might as well &eelectrolyze&r the salt dust"
+			]
+			id: "6A2D7380E340B77D"
+			min_width: 250
+			rewards: [{
+				id: "318C0812568DBB25"
+				item: "gtceu:salt_water_bucket"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "66B862CA537DB886"
+				item: "gtceu:chlorine_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5B1C5C9F9CCC51EB"
+				"70C952B8FF3418F6"
+				"1AF005E292E409D1"
+			]
+			description: ["That liquid &bcyan dye&r plus the Glass Lens in this machine will dye it into a &bGlass Lens (Cyan)&r"]
+			id: "62161044F3F3AB87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07A027709277FDBF"
+				table_id: 822291801189586703L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "47CB7449CC8F0EF6"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4AAF27F0C27FBDB3"
+				"6A2D7380E340B77D"
+			]
+			description: ["A little hydrogen and chlorine together in a &echemical reactor&r will result in some HCl"]
+			id: "54BEC01D84237DBC"
+			rewards: [{
+				id: "0D1FCABDF38F8263"
+				item: "gtceu:chlorine_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16F0BF8BAA58100B"
+				item: "gtceu:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Hydrogen, like chlorine, can come from many sources"
+				""
+				"For example, you could try &ecentrifuging&r goethite or yellow limonite dust, or perhaps &eelectrolyzing&r is more your speed. "
+				""
+				"Both water and salt water are good sources of hydrogen, and salt water comes with the added benefit of giving you chlorine too!"
+			]
+			id: "4AAF27F0C27FBDB3"
+			rewards: [{
+				id: "0B6945E709A80205"
+				item: "gtceu:salt_water_bucket"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "526401AFE4B0A3E0"
+				item: "gtceu:hydrogen_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"[ \"\", { \"text\": \"If you made the \" }, { \"text\":\"Clay Processing Line\", \"color\":\"aqua\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"6275C90E5890C1E4\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } }, { \"text\":\" earlier, you can simply pause the \" }, { \"text\":\"Electrolyzer\", \"color\":\"yellow\" }, { \"text\":\" briefly to acquire clay dust to mix with your stone dust\" } ]"
+				""
+				"At least making this stuff doesn't ruin the bucket or mixer"
+			]
+			id: "681110DE6B4E6ED8"
+			shape: "square"
+			tasks: [{
+				id: "472EA07FB476A589"
+				item: "gtceu:concrete_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.500000000000005d
+		}
+		{
+			description: [
+				"You can make this with a combination of iron, nickel or invar, manganese, and chromium dusts in an &bAdvanced Mixer&r with a &aProgram Circuit&r setting"
+				""
+				"&eManganese dust&r is a byproduct of ore processing tungstate, spessartine, olivine, tantalite, pyrolusite, wulfenite, or scheelite"
+				""
+				"&cLooking ahead&r, I'd recommend processing tantalite and tungstate"
+				""
+				"&dChromium dust&r can be gained by ore processing chromite or ruby, both of which can also be further processed in an electrolyzer to get more chromium!"
+			]
+			id: "4FD6092D9C2A485C"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "28038032F33B2E27"
+					item: "gtceu:manganese_dust"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "180190869A816D67"
+					item: "gtceu:chromium_dust"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75E95ED497B33048"
+				item: "gtceu:stainless_steel_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7D2033E579767AF8"
+				"7985FD6195CF45FD"
+			]
+			description: [
+				"Tired of hunting around for ores and hoping you'll strike it rich? Are you looking for the oil that lies beneath? You need the &6HV&r &bProspector&r! "
+				""
+				"This tool will scan the area around you in a 4 chunk radius and tell you where to find the ore you are looking for"
+				""
+				"Additionally, you can sneak + right-click to change to Fluid Detection mode and find oil pools that lie beneath bedrock, all you'll need is a &eFluid Drilling Rig&r to access all that oil!"
+			]
+			id: "464110726B823072"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DE357DECB5408EE"
+				table_id: 822291801189586703L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "01D4B896D65C8BBB"
+				item: "gtceu:prospector.hv"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["70C952B8FF3418F6"]
+			description: [""]
+			id: "7D2033E579767AF8"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "4CF3A9A09A04A0C5"
+					item: "gtceu:chromium_dust"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "40C3128ACE20CD10"
+					item: "gtceu:gold_single_wire"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "63D4F36863D9FC65"
+				item: "gtceu:hv_emitter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70C952B8FF3418F6"]
+			description: [
+				"&cEnergium Dust&r inside an &6HV Autoclave&r will make an &bEnergium Battery&r"
+				""
+				"Energium Batteries hold up to &a10 minutes&r of HV power"
+			]
+			icon: "gtceu:hv_autoclave"
+			id: "7985FD6195CF45FD"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "426B997417B7B1C0"
+				table_id: 822291801189586703L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "701BFCC15D8BB682"
+					item: "gtceu:hv_autoclave"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1656EF71F486E929"
+					item: "gtceu:energium_dust"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70C952B8FF3418F6"]
+			description: [
+				"Finally, at &6HV&r you get access to the &dByproducts&r from the &eMacerator&r"
+				""
+				"These byproducts are often incredibly useful and will come in handy multiple times as you progress"
+			]
+			id: "63E4149FF75592C8"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CE55F08FEE1B6BB"
+				table_id: 822291801189586703L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "06B18A65A44DCFCE"
+					item: "gtceu:hv_macerator"
+					type: "item"
+				}
+				{
+					id: "4EDC2FF341141AC8"
+					item: "gtceu:hv_ore_washer"
+					type: "item"
+				}
+				{
+					id: "4F10C6E54812EBC1"
+					item: "gtceu:hv_thermal_centrifuge"
+					type: "item"
+				}
+			]
+			title: "Ore Processing Upgrade"
+			x: -7.5d
+			y: 4.5d
+		}
+	]
+	title: "{atm9.chapters.29.title}"
+}

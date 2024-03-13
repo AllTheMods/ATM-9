@@ -1,0 +1,218 @@
+{
+	icon: "minecraft:nether_star"
+	id: "481E10AEAC95C550"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ item: "mekanism:pellet_antimatter" }
+		{ item: "mysticalagriculture:awakened_supremium_block", random_bonus: 1 }
+		{ item: "mysticalagriculture:allthemodium_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:vibranium_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:unobtainium_seeds", weight: 3.0f }
+		{ item: "kubejs:magical_soil", random_bonus: 2, weight: 3.0f }
+		{ item: "allthecompressed:nether_star_block_2x" }
+		{ item: "allthemodium:unobtainium_allthemodium_alloy_block", random_bonus: 1, weight: 3.0f }
+		{ item: "mekanism:ultimate_induction_cell", weight: 2.0f }
+		{ item: "mekanism:ultimate_induction_provider", weight: 2.0f }
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:wasted_radioactive"
+					}
+				}
+			}
+			random_bonus: 3
+			weight: 3.0f
+		}
+		{ item: "botania:dice", weight: 2.0f }
+		{ count: 36, item: "powah:reactor_nitro", weight: 2.0f }
+		{
+			item: {
+				Count: 1b
+				id: "allthemodium:alloy_sword"
+				tag: {
+					affix_data: {
+						affixes: {
+							"apotheosis:durable": 0.73f
+							"apotheosis:socket": 2.0f
+							"apotheosis:sword/attribute/elongated": 0.85489064f
+							"apotheosis:sword/attribute/glacial": 0.14216435f
+							"apotheosis:sword/attribute/intricate": 0.8090417f
+							"apotheosis:sword/attribute/lacerating": 0.98741335f
+							"apotheosis:sword/attribute/piercing": 0.95980805f
+							"apotheosis:sword/mob_effect/sophisticated": 0.33794326f
+							"apotheosis:sword/mob_effect/weakening": 0.6003846f
+							"apotheosis:sword/special/festive": 0.05302018f
+							"apotheosis:sword/special/thunderstruck": 0.014283717f
+						}
+						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:sword/attribute/intricate\"},\"\",{\"translate\":\"affix.apotheosis:sword/attribute/glacial.suffix\"}]}"
+						rarity: "ancient"
+						uuids: [[I;
+							-2031333617
+							480725750
+							-1840465454
+							888090631
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "allthemodium:alloy_axe"
+				tag: {
+					affix_data: {
+						affixes: {
+							"apotheosis:durable": 0.75f
+							"apotheosis:heavy_weapon/attribute/berserking": 0.4974252f
+							"apotheosis:heavy_weapon/attribute/decimating": 0.7945931f
+							"apotheosis:heavy_weapon/attribute/forceful": 0.55899656f
+							"apotheosis:heavy_weapon/attribute/giant_slaying": 0.2867335f
+							"apotheosis:heavy_weapon/attribute/nullifying": 0.9218933f
+							"apotheosis:heavy_weapon/mob_effect/bloodletting": 0.3663811f
+							"apotheosis:heavy_weapon/special/executing": 0.1903069f
+							"apotheosis:socket": 3.0f
+							"apotheosis:sword/mob_effect/elusive": 0.41748703f
+							"apotheosis:sword/mob_effect/weakening": 0.5375767f
+						}
+						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:sword/mob_effect/elusive\"},\"\",{\"translate\":\"affix.apotheosis:sword/mob_effect/weakening.suffix\"}]}"
+						rarity: "ancient"
+						uuids: [[I;
+							-121922779
+							252989166
+							-2142870923
+							-758475871
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "allthemodium:allthemodium_boots"
+				tag: {
+					affix_data: {
+						affixes: {
+							"apotheosis:armor/attribute/aquatic": 0.82155675f
+							"apotheosis:armor/attribute/elastic": 0.6213249f
+							"apotheosis:armor/attribute/fortunate": 0.77634436f
+							"apotheosis:armor/attribute/stalwart": 0.290222f
+							"apotheosis:armor/attribute/steel_touched": 0.13261014f
+							"apotheosis:armor/dmg_reduction/feathery": 0.28605968f
+							"apotheosis:armor/mob_effect/nimble": 0.46427995f
+							"apotheosis:durable": 0.72f
+							"apotheosis:socket": 4.0f
+						}
+						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/dmg_reduction/feathery\"},\"\",{\"translate\":\"affix.apotheosis:armor/mob_effect/nimble.suffix\"}]}"
+						rarity: "ancient"
+						uuids: [[I;
+							1819268669
+							781468608
+							-1097470744
+							1967161402
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "allthemodium:allthemodium_leggings"
+				tag: {
+					affix_data: {
+						affixes: {
+							"apotheosis:armor/attribute/fortunate": 0.5392455f
+							"apotheosis:armor/attribute/ironforged": 0.73820835f
+							"apotheosis:armor/attribute/spiritual": 0.40667433f
+							"apotheosis:armor/attribute/stalwart": 0.8879348f
+							"apotheosis:armor/attribute/steel_touched": 0.7234405f
+							"apotheosis:armor/dmg_reduction/blast_forged": 0.690976f
+							"apotheosis:armor/dmg_reduction/blockading": 0.8093422f
+							"apotheosis:armor/dmg_reduction/dwarven": 0.89473104f
+							"apotheosis:armor/mob_effect/revitalizing": 0.42083818f
+							"apotheosis:durable": 0.77f
+							"apotheosis:socket": 5.0f
+						}
+						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/fortunate\"},\"\",{\"translate\":\"affix.apotheosis:armor/attribute/stalwart.suffix\"}]}"
+						rarity: "ancient"
+						uuids: [[I;
+							757261460
+							2142519499
+							-1792455440
+							-61737911
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "allthemodium:allthemodium_chestplate"
+				tag: {
+					affix_data: {
+						affixes: {
+							"apotheosis:armor/attribute/blessed": 0.28241175f
+							"apotheosis:armor/attribute/ironforged": 0.49947667f
+							"apotheosis:armor/attribute/spiritual": 0.6402667f
+							"apotheosis:armor/attribute/stalwart": 0.9614721f
+							"apotheosis:armor/attribute/steel_touched": 0.21885413f
+							"apotheosis:armor/dmg_reduction/blast_forged": 0.40757203f
+							"apotheosis:armor/dmg_reduction/blockading": 0.44201344f
+							"apotheosis:armor/dmg_reduction/dwarven": 0.8801219f
+							"apotheosis:armor/mob_effect/revitalizing": 0.5552426f
+							"apotheosis:durable": 0.74f
+							"apotheosis:socket": 3.0f
+						}
+						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/stalwart\"},\"\",{\"translate\":\"affix.apotheosis:armor/attribute/blessed.suffix\"}]}"
+						rarity: "ancient"
+						uuids: [[I;
+							1370735257
+							220416342
+							-1312451949
+							1292699076
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "allthemodium:allthemodium_helmet"
+				tag: {
+					affix_data: {
+						affixes: {
+							"apotheosis:armor/attribute/blessed": 0.84155154f
+							"apotheosis:armor/attribute/fortunate": 0.998058f
+							"apotheosis:armor/attribute/ironforged": 0.6378598f
+							"apotheosis:armor/attribute/stalwart": 0.6440308f
+							"apotheosis:armor/attribute/steel_touched": 0.11399037f
+							"apotheosis:armor/dmg_reduction/runed": 0.8986178f
+							"apotheosis:armor/mob_effect/blinding": 0.09419179f
+							"apotheosis:durable": 0.72f
+							"apotheosis:socket": 3.0f
+						}
+						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/blessed\"},\"\",{\"translate\":\"affix.apotheosis:armor/dmg_reduction/runed.suffix\"}]}"
+						rarity: "ancient"
+						uuids: [[I;
+							-370265463
+							703221486
+							-1585586250
+							-1427299350
+						]]
+					}
+				}
+			}
+		}
+	]
+	title: "&5Mythic Reward"
+	use_title: true
+}

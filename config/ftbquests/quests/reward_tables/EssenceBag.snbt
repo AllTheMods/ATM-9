@@ -1,0 +1,81 @@
+{
+	icon: "mysticalagriculture:inferium_essence"
+	id: "49E8BD91A6A936C5"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{ count: 8, item: "mysticalagriculture:inferium_essence", random_bonus: 8, weight: 250.0f }
+		{ count: 2, item: "mysticalagriculture:prudentium_essence", random_bonus: 2, weight: 150.0f }
+		{ count: 2, item: "mysticalagriculture:tertium_essence", random_bonus: 2, weight: 50.0f }
+		{ count: 2, item: "mysticalagriculture:imperium_essence", random_bonus: 2, weight: 25.0f }
+		{ item: "mysticalagriculture:supremium_essence", random_bonus: 1, weight: 5.0f }
+		{ count: 5, item: "mysticalagriculture:fertilized_essence", random_bonus: 10, weight: 150.0f }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "mysticalagriculture:mystical_enlightenment"
+						lvl: 1s
+					}]
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "mysticalagriculture:mystical_enlightenment"
+						lvl: 2s
+					}]
+				}
+			}
+			weight: 50.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "mysticalagriculture:mystical_enlightenment"
+						lvl: 3s
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "mysticalagriculture:mystical_enlightenment"
+						lvl: 4s
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "mysticalagriculture:mystical_enlightenment"
+						lvl: 5s
+					}]
+				}
+			}
+			weight: 5.0f
+		}
+	]
+	title: "&5Essence Bag"
+	use_title: true
+}

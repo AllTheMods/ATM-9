@@ -1,0 +1,41 @@
+{
+	icon: "mysticalagriculture:tertium_gemstone"
+	id: "6B7F78B9150AFFEE"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{ item: "mysticalagriculture:tertium_farmland", weight: 5.0f }
+		{ item: "mysticalagriculture:iron_seeds", weight: 2.0f }
+		{ item: "mysticalagriculture:copper_seeds", weight: 5.0f }
+		{ item: "mysticalagriculture:nether_quartz_seeds", weight: 2.0f }
+		{ item: "mysticalagriculture:glowstone_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:redstone_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:obsidian_seeds" }
+		{ item: "mysticalagriculture:prismarine_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:zombie_seeds", weight: 2.0f }
+		{ item: "mysticalagriculture:silver_seeds", weight: 2.0f }
+		{ item: "mysticalagriculture:brass_seeds" }
+		{ item: "mysticalagriculture:zinc_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:bronze_seeds" }
+		{ item: "mysticalagriculture:tin_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:rabbit_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:spider_seeds", weight: 2.0f }
+		{ item: "mysticalagriculture:creeper_seeds" }
+		{ item: "mysticalagriculture:skeleton_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:lead_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:certus_quartz_seeds", weight: 2.0f }
+		{ item: "mysticalagriculture:quartz_enriched_iron_seeds" }
+		{ item: "mysticalagriculture:no_fall_damage_augment" }
+		{ item: "mysticalagriculture:mining_aoe_ii_augment" }
+		{ item: "mysticalagriculture:tertium_essence", random_bonus: 2, weight: 10.0f }
+		{ item: "mysticalagriculture:tertium_furnace" }
+		{ item: "mysticalagriculture:tertium_ingot", random_bonus: 1, weight: 7.0f }
+		{ item: "mysticalagriculture:tertium_gemstone", weight: 5.0f }
+		{ item: "mysticalagriculture:tertium_block" }
+		{ item: "mysticalagradditions:tertium_apple", random_bonus: 2, weight: 7.0f }
+		{ item: "mysticalagradditions:tertium_coal", random_bonus: 3, weight: 5.0f }
+		{ item: "mysticalagradditions:tertium_coal_block", weight: 3.0f }
+	]
+	title: "&cTier 3 Seed Bag"
+	use_title: true
+}

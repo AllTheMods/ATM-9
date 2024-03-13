@@ -1,0 +1,20 @@
+{
+	id: "3DAEBCB8606C6C4A"
+	loot_size: 1
+	order_index: 36
+	rewards: [
+		{ count: 8, item: "alltheores:bronze_plate", random_bonus: 8, weight: 10.0f }
+		{ count: 3, item: "gtceu:bronze_small_fluid_pipe", random_bonus: 2, weight: 10.0f }
+		{ count: 3, item: "gtceu:bronze_normal_fluid_pipe", random_bonus: 2, weight: 4.0f }
+		{ count: 3, item: "chemlib:sulfur_dust", random_bonus: 6, weight: 6.0f }
+		{ count: 2, item: "gtceu:rubber_ingot", random_bonus: 4, weight: 4.0f }
+		{ count: 3, item: "gtceu:sticky_resin", random_bonus: 6, weight: 6.0f }
+		{ item: "gtceu:resistor", random_bonus: 2 }
+		{ count: 2, item: "gtceu:vacuum_tube", random_bonus: 2, weight: 2.0f }
+		{ count: 2, item: "gtceu:glass_tube", random_bonus: 2, weight: 2.0f }
+		{ count: 3, item: "gtceu:wood_plate", random_bonus: 6, weight: 4.0f }
+		{ count: 8, item: "gtceu:raw_rubber_dust", random_bonus: 8, weight: 8.0f }
+	]
+	title: "GT Steam Basic Rewards"
+	use_title: true
+}

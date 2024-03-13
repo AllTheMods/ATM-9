@@ -1,0 +1,11 @@
+{
+	id: "18240B67396BDC49"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ item: "extradisks:withering_processor", random_bonus: 2, weight: 10.0f }
+		{ item: "extrastorage:neural_processor", random_bonus: 2, weight: 50.0f }
+	]
+	title: "RS Advanced Parts"
+	use_title: true
+}

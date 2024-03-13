@@ -1,0 +1,1621 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "medium_voltage"
+	group: "1DA67E79B40AB130"
+	icon: "gtceu:good_electronic_circuit"
+	id: "574AC3A76DC03364"
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Remember: Overclocking runs a recipe twice as fast but at four times power consumption"
+				""
+				"As you start replacing machines, you can put the old ones in a macerator to reclaim some of the ingredients used in crafting it"
+			]
+			id: "262AE37765B139BE"
+			rewards: [{
+				count: 2
+				id: "73FAB82D3EDC2227"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Welcome to &bMV&r"
+			tasks: [{
+				id: "7DECEDB572639CFF"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.19999999999999996d
+		}
+		{
+			dependencies: [
+				"57F1B60DEA622275"
+				"2B9BA85662BF637C"
+				"246882DD125868EC"
+				"0E603F1FE596DB2A"
+				"4E1D5EC061A4AE55"
+			]
+			description: [
+				"               Congratulations! "
+				""
+				"With the Advanced Integrated Circuit you have successfully made it to High Voltage!"
+				""
+				"You can toss out those old recipes for Basic Electronic Circuits and Good Electronic Circuits and replace them with their Integrated versions"
+			]
+			icon: "gtceu:advanced_integrated_circuit"
+			id: "2C28217E1131A63A"
+			rewards: [
+				{
+					count: 2
+					id: "502F2B7FE7D13923"
+					item: "gtceu:good_integrated_circuit"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3FFB6FD2118C84F0"
+					item: "gtceu:transistor"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "A new era"
+			tasks: [
+				{
+					id: "3948D4991F8810F6"
+					item: "gtceu:basic_integrated_circuit"
+					type: "item"
+				}
+				{
+					id: "2E681E532E087237"
+					item: "gtceu:good_integrated_circuit"
+					type: "item"
+				}
+				{
+					id: "74F24FDAA9C6153D"
+					item: "gtceu:advanced_integrated_circuit"
+					type: "item"
+				}
+			]
+			title: "Advanced Integrated Circuit"
+			x: 7.050000000000001d
+			y: 3.1499999999999995d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"I know, this is an LV machine in the MV age, but trust me, it is worth the MV circuits it takes to craft this"
+				""
+				"Circuits become cheaper to craft with the Circuit Assembler, and you will need a lot of circuits"
+			]
+			id: "246882DD125868EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42AECA3A8E8FE1E2"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			subtitle: "Cheaper circuits!"
+			tasks: [{
+				id: "2BA5756D55310A03"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"063F5023D56CA6B1"
+				"6A82827978D3483B"
+				"06BBD7B736C564C1"
+			]
+			description: [
+				"Transistors are truly a modern marvel and have allowed the electronic age to boom"
+				""
+				"They allow for much more complex electronics by amplifying signals and acting as a switch, introducing the capability for logic programming!"
+				""
+				"In our case, they allow us to make the Integrated Circuit!"
+			]
+			id: "0E603F1FE596DB2A"
+			rewards: [{
+				count: 4
+				id: "0477033EDE72D79B"
+				item: "gtceu:fine_tin_wire"
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EFE2448BBA41309"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["100ADA8508F6502A"]
+			description: ["That wafer needs to be cut into chips now, so back to the Cutter with these"]
+			id: "57F1B60DEA622275"
+			rewards: [{
+				id: "2884EBF95CB39508"
+				item: "gtceu:silicon_wafer"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "5805B28FB0547910"
+				item: "gtceu:ilc_chip"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.4999999999999984d
+		}
+		{
+			dependencies: ["7EFA4F2C0A895502"]
+			description: ["Engraved wafers need to be cut into the appropriate size, so back to the Cutter we go!"]
+			id: "2B9BA85662BF637C"
+			rewards: [{
+				id: "4B04D1AC6BF7DCB3"
+				item: "gtceu:silicon_wafer"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "2900399703D087CC"
+				item: "gtceu:ram_chip"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.4999999999999984d
+		}
+		{
+			dependencies: ["2AB457E29360E3B8"]
+			description: ["Once cooled we can begin to shape the ingot into more useful materials"]
+			id: "662E0A84D755064F"
+			rewards: [
+				{
+					count: 2
+					id: "0E5BD83CE089A46E"
+					item: "gtceu:carbon_dust"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3418DD325855E266"
+					item: "gtceu:silicon_dioxide_dust"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B2434CAA46B1B5E"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.1d
+		}
+		{
+			dependencies: ["5E90EF7FF530C477"]
+			description: [
+				"Ethylene with even more oxygen will make you Polyethylene"
+				""
+				"Do note you need to use &eProgram 1&r for this recipe"
+				""
+				"You could use air instead of oxygen, but you'll get less Polyethylene out"
+				""
+				"This stuff is very versatile, we'll be using a lot of it, so be sure to make a bunch or better yet make it passively"
+			]
+			id: "6A82827978D3483B"
+			rewards: [{
+				id: "0E430B94CAD6455B"
+				item: "gtceu:ethylene_bucket"
+				type: "item"
+			}]
+			subtitle: "Even more oxygen"
+			tasks: [{
+				id: "6A3EF1D7987AA6BB"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["Once you've got polyethylene set up, you can switch to making machine hulls in the Assembler to save on some materials"]
+			id: "063F5023D56CA6B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "266B8E9D3694AAA1"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			subtitle: "Greggers, ASSEMBLE!"
+			tasks: [{
+				id: "37E2BCA62B82CFF5"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["707EBA5717938515"]
+			description: [
+				"Turn blocks into plates with this one trick!"
+				""
+				"Also very useful for making silicon wafers and wafer chips, which we'll get into shortly"
+			]
+			id: "0D1A6B32FEB51FAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71B383C6E1AE918A"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			subtitle: "The cutting edge"
+			tasks: [{
+				id: "7BE3C637D0A738EF"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5000000000000004d
+		}
+		{
+			dependencies: [
+				"4DD7F3508B757EF0"
+				"1F92F7314DF3C3E2"
+			]
+			description: ["One ruby plate in the Lathe will make a Ruby Lens"]
+			id: "26004F997C758011"
+			rewards: [{
+				id: "7742DCB74500D3F7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6719992674D5E9F1"
+				item: "gtceu:ruby_lens"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5000000000000018d
+		}
+		{
+			dependencies: [
+				"0D1A6B32FEB51FAD"
+				"26D1F1ECF66194E6"
+			]
+			description: [
+				"The cutter will make quick work of the boule and turn it into 16 wafers"
+				""
+				"You can also use these wafers to make cheaper diodes - time to upgrade that recipe!"
+			]
+			id: "688AFF76CF5E599A"
+			rewards: [{
+				count: 2
+				id: "76BF16038E87E38E"
+				item: "gtceu:silicon_wafer"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "5205FCBDC094E2F2"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.9999999999999989d
+		}
+		{
+			description: [
+				"&e32x Silicon Dust&r and a &aSmall Pile of Gallium Arsenide Dust&r on &bProgram 2&r will make you one of these "
+				""
+				"It might be worth making a new EBF, one for just Program 1 recipes"
+			]
+			id: "26D1F1ECF66194E6"
+			rewards: [{
+				count: 8
+				id: "2E36296F10252C53"
+				item: "gtceu:silicon_dust"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6A276D195CB7BAD1"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.4999999999999973d
+		}
+		{
+			dependencies: [
+				"545959C8C28C6F2B"
+				"26004F997C758011"
+				"644B16B9618B41BE"
+			]
+			description: [
+				"Uses a laser and specific lenses to engrave different patterns on the wafers"
+				""
+				"You might want to make one of these per lens we make, so you don't have to change out the lenses manually when automating"
+			]
+			id: "11F7D3DDF5683EB3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50742DF1F39731AC"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "699D8FAFFE29593C"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5000000000000018d
+		}
+		{
+			dependencies: [
+				"1ACD6672F72664D6"
+				"1F92F7314DF3C3E2"
+			]
+			description: ["Process one of those emerald plates in a Lathe to get your Emerald Lens!"]
+			id: "545959C8C28C6F2B"
+			rewards: [{
+				id: "16950710D10185F1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "26EADF8B321DFAA6"
+				item: "gtceu:emerald_lens"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5000000000000018d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"Insert gem plate and get gem lens"
+				""
+				"Still makes rods too!"
+			]
+			hide_dependency_lines: true
+			id: "1F92F7314DF3C3E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49C7CE1D4F1883BC"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "79464C2A1BC4AF5A"
+				item: "gtceu:mv_lathe"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.500000000000011d
+		}
+		{
+			dependencies: ["0D1A6B32FEB51FAD"]
+			description: ["Use the cutter with a block of emerald to get emerald plates"]
+			id: "1ACD6672F72664D6"
+			rewards: [{
+				id: "4165234EDBAE1A23"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "08D29D56F156C82E"
+				item: "gtceu:emerald_plate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.4999999999999984d
+		}
+		{
+			dependencies: ["0D1A6B32FEB51FAD"]
+			description: ["Insert a block of ruby into your cutter to get nine ruby plates"]
+			id: "4DD7F3508B757EF0"
+			rewards: [{
+				id: "16A756955B6CB9B8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "56729AE1F5992DB7"
+				item: "gtceu:ruby_plate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.4999999999999984d
+		}
+		{
+			dependencies: ["0D1A6B32FEB51FAD"]
+			description: [
+				"There are many ways to make lubricant"
+				""
+				"One way I would suggest is to extract fish oil from fish and then distill that into lubricant"
+				""
+				"Lubricant is very useful with a cutter because recipes using it are much faster compared to water for example"
+			]
+			id: "42FD79CEB3426861"
+			rewards: [{
+				count: 8
+				id: "782AFBC0CD345E5F"
+				item: "minecraft:tropical_fish"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DA40BBA92BE3271"
+				item: "gtceu:lubricant_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5000000000000013d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"This is typically used in Ore Processing lines to get alternative byproducts by washing crushed ore in mercury or sodium persulfate"
+				""
+				"In this case though, it can also be used to cool hot silicon ingots"
+			]
+			id: "54A164C737660C4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77EA140702841EC6"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "67DE2F5E9646F51B"
+				item: "gtceu:mv_chemical_bath"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.3000000000000003d
+		}
+		{
+			dependencies: [
+				"589F47DE51213920"
+				"72E5439299E957A8"
+			]
+			description: [
+				"Put those dusts we just made into your electric blast furnace and get some hot silicon!"
+				""
+				"Holding a hot ingot will damage you, but you have to for this quest because I'm a little evil"
+				""
+				"You will need to cool it, in this case with a chemical bath"
+			]
+			id: "2AB457E29360E3B8"
+			rewards: [
+				{
+					count: 2
+					id: "08C5A61C36B2D91B"
+					item: "gtceu:coal_dust"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0588356A9AC8BE93"
+					item: "gtceu:glass_dust"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Hot potato"
+			tasks: [{
+				id: "00676E5631ED2A66"
+				item: "gtceu:hot_silicon_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.3000000000000003d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"You can find raw aluminium in the End, and raw aluminum just about everywhere!"
+				""
+				"Alternatively, you can acquire aluminum by processing a variety of items like bauxite in an electrolyzer for example"
+				""
+				"We can also generate aluminum passively in the clay line process"
+			]
+			id: "1C1802ABF3EE3120"
+			rewards: [{
+				count: 8
+				id: "350821400A1DBB6F"
+				item: "alltheores:raw_aluminum"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Aluminium is that you?"
+			tasks: [{
+				icon: "alltheores:aluminum_ingot"
+				id: "7B46FA23AF26BF76"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/aluminum"
+					}
+				}
+				title: "Aluminum Ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"11F7D3DDF5683EB3"
+				"688AFF76CF5E599A"
+			]
+			description: ["A Glass Lens (Green) can also make this, but making the colored glass lens is an HV recipe"]
+			id: "7EFA4F2C0A895502"
+			rewards: [{
+				id: "096F7065F33494AC"
+				item: "gtceu:silicon_wafer"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "412F8874629333ED"
+				item: "gtceu:ram_wafer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.4999999999999973d
+		}
+		{
+			dependencies: [
+				"11F7D3DDF5683EB3"
+				"688AFF76CF5E599A"
+			]
+			description: ["A Glass Lens (Red) can also make this, but making glass lenses is an HV recipe"]
+			id: "100ADA8508F6502A"
+			rewards: [{
+				id: "1D619C5D74EE82D7"
+				item: "gtceu:silicon_wafer"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B29B51417A0773F"
+				item: "gtceu:ilc_wafer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.4999999999999973d
+		}
+		{
+			dependencies: [
+				"629DC8DED0F6B578"
+				"579A41570D610B07"
+			]
+			description: [
+				"Ethanol + Sulfuric Acid in a &eChemical Reactor&r makes Ethylene"
+				""
+				"There are other methods of course, but those involve petrochemistry which we aren't getting into quite yet"
+			]
+			id: "5E90EF7FF530C477"
+			rewards: [{
+				id: "2A6A82A57A3FBD42"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D9C137DC559E76F"
+				item: "gtceu:ethylene_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"307F92868E0F4EB3"
+				"22AC248B6BB88486"
+			]
+			description: ["Distilling biomass results in ethanol, which is alcohol, but don't tell anyone I told you"]
+			id: "629DC8DED0F6B578"
+			rewards: [{
+				id: "09DBB95EA63243FB"
+				item: "gtceu:biomass_bucket"
+				type: "item"
+			}]
+			subtitle: "Not for drinking"
+			tasks: [{
+				id: "70555BDDBADF02A3"
+				item: "gtceu:ethanol_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Use a &aMortar&r on some coal to get coal dust"
+				""
+				"Put your coal dust through the &eCentrifuge&r to get carbon dust"
+				""
+				"Use that Centrifuge again, with glass dust this time, to get silicon dioxide dust"
+			]
+			id: "589F47DE51213920"
+			rewards: [
+				{
+					count: 4
+					id: "2FF0451D94263F24"
+					item: "minecraft:coal"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "29731F158AA059AB"
+					item: "minecraft:glass"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					count: 2L
+					id: "7FFE2CFE2C3F5E41"
+					item: "gtceu:carbon_dust"
+					type: "item"
+				}
+				{
+					id: "7C28E6CC97ACE6A3"
+					item: "gtceu:silicon_dioxide_dust"
+					type: "item"
+				}
+			]
+			title: "Silicon ingredients"
+			x: 0.5d
+			y: -2.2d
+		}
+		{
+			dependencies: ["662E0A84D755064F"]
+			description: ["This Silicon Plate will allow us to make the Transistor! A new electrical component, yay!"]
+			id: "06BBD7B736C564C1"
+			rewards: [{
+				id: "7154B2B74B4F5FAC"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76730D2C8D492CAA"
+				item: "gtceu:silicon_plate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.1d
+		}
+		{
+			dependencies: [
+				"492386DF6CA892BD"
+				"53AF056139DAACDB"
+			]
+			description: ["Biomass is useful for many things like ethanol and methanol production"]
+			id: "307F92868E0F4EB3"
+			rewards: [{
+				count: 2
+				id: "6993315CE1780B9F"
+				item: "gtceu:bio_chaff"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17A555336A386EDA"
+				item: "gtceu:biomass_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"Distills compounds into other substances - note the programmed circuit setting for the available recipes"
+				""
+				"There is a Distillation Tower, but we will get into that later on"
+			]
+			id: "22AC248B6BB88486"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E623304DC884B9A"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6DA7AD27CA056906"
+				item: "gtceu:mv_distillery"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			id: "492386DF6CA892BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "498F5EA3939A2A64"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			subtitle: "Not that kind of brewery"
+			tasks: [{
+				id: "47A9907066F31663"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_brewery"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_brewery"
+							}
+						]
+					}
+				}
+				title: "A Brewery"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6300791605A757B0"]
+			description: [
+				"Macerate those plant balls and make some bio chaff"
+				""
+				"When automating this, make sure you set the output to only 2 bio chaff and not 4. The chance outputs will confuse the autocrafting setup otherwise"
+			]
+			id: "53AF056139DAACDB"
+			rewards: [{
+				count: 2
+				id: "54C08D8193833F66"
+				item: "gtceu:plant_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "646E2D0A688D28AD"
+				item: "gtceu:bio_chaff"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["Put water on the left and lava on the right of your &erock crusher&r, in the world, then insert a single diorite block in the rock crusher, and watch it create more diorite for you"]
+			icon: "gtceu:mv_rock_crusher"
+			id: "6275C90E5890C1E4"
+			optional: true
+			rewards: [
+				{
+					id: "32792BF84A213FBF"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "294610D7D543A42E"
+					table_id: 7083859357644513434L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Passive aluminium"
+			tasks: [{
+				id: "2D0B938BFFE7D76C"
+				item: "gtceu:mv_rock_crusher"
+				type: "item"
+			}]
+			title: "The clayline"
+			x: -8.975000000000001d
+			y: 2.9749999999999996d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["Also makes those magnetic iron rods for just some energy - save your redstone!"]
+			id: "1BD5B25B80EC0F97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CB7824290DDD795"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			subtitle: "Magnetizing!"
+			tasks: [{
+				id: "4C32A748A4630A95"
+				item: "gtceu:mv_polarizer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"Extruders force ingots into various shapes with the use of the extruder mold"
+				""
+				"It is often cheaper to use the extruder to make crafting components like rotors for example"
+			]
+			id: "0A2675CF16B6443B"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1922767923C7B993"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0997C42AD73E0890"
+				item: "gtceu:mv_extruder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A2675CF16B6443B"]
+			id: "53E1B892386DD42F"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "1C768CA0AE2851DA"
+				item: "alltheores:steel_plate"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1724B18A1A47C232"
+				item: "gtceu:rotor_extruder_mold"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A2675CF16B6443B"]
+			id: "54A619012A5FD814"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "1B73202C86C5ADAE"
+				item: "alltheores:steel_plate"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "74B66E8EEC327F1D"
+				item: "gtceu:normal_pipe_extruder_mold"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A2675CF16B6443B"]
+			id: "1E5032F8420016AB"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "53CDC4546DC8F088"
+				item: "alltheores:steel_plate"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4366765C95E0F2DA"
+				item: "gtceu:bolt_extruder_mold"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1BD5B25B80EC0F97"]
+			description: ["You'll need these for MV Electric Motors, a component for many MV machines"]
+			id: "497028C92F886AE0"
+			rewards: [{
+				id: "7A94DDAC0325A87A"
+				item: "gtceu:magnetic_steel_rod"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "638FE467700933F2"
+				item: "gtceu:magnetic_steel_rod"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["72DACA35906D7E5B"]
+			description: ["Finally, it is time to electrolyze the clay dust and get that sweet, sweet aluminium dust"]
+			id: "41FCD7F5B7E6E261"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "59E36712DBB6484F"
+				item: "gtceu:silicon_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "A good source of silicon too"
+			tasks: [{
+				id: "1AF82AB8FAD6E515"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			x: -9.000000000000002d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6E9126ECA080E725"
+				"72DACA35906D7E5B"
+			]
+			description: [
+				"Our first cover! Covers alter the behavior of machines in a multitude of ways, but this isn't the place to get into all of that"
+				""
+				"The &arobot arm&r cover will allow you to export (by default) or import items into a machine. In this case, using that buffer chest/barrel from before, you can import specifically diorite dust"
+				""
+				"Why is this LV when we're in MV? Well, because it is cheaper to make and covers don't explode despite the voltage difference"
+			]
+			icon: "gtceu:lv_robot_arm"
+			id: "2341D611975C58AF"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "5B1A93B5FB22A8D6"
+				item: "alltheores:steel_rod"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Auto import? Yes please"
+			tasks: [{
+				id: "4A4FD0588A9C3448"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
+			x: -8.300000000000002d
+			y: 4.800000000000001d
+		}
+		{
+			dependencies: ["6275C90E5890C1E4"]
+			description: [
+				"Grind that diorite into diorite dust! You'll also get a small chance at stone dust, which you will need to account for"
+				""
+				"It is recommended that you auto output into a buffer chest/barrel and just trash the stone dust"
+			]
+			id: "6E9126ECA080E725"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50081BD1D618A429"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "026C2FC05C707BFF"
+				item: "gtceu:mv_macerator"
+				type: "item"
+			}]
+			x: -9.000000000000002d
+			y: 4.100000000000001d
+		}
+		{
+			dependencies: ["6E9126ECA080E725"]
+			description: [
+				"Centrifuge the diorite dust to get clay dust and mirabilite dust"
+				""
+				"The mirabilite can be saved for later processing, if you like"
+				""
+				"The next step just uses clay dust, so you'll have to do something with that mirabilite dust"
+			]
+			id: "72DACA35906D7E5B"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27269BEDB3689DA1"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2F87D396311C6602"
+				item: "gtceu:mv_centrifuge"
+				type: "item"
+			}]
+			x: -9.700000000000001d
+			y: 4.800000000000001d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["This uses even more steam! It might be time to build another boiler"]
+			id: "2AEDB489A017AAF9"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "30E05DCEB338719C"
+					item: "alltheores:steel_plate"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					count: 3
+					id: "744C49134916734F"
+					item: "gtceu:aluminium_plate"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Full steam ahead!"
+			tasks: [{
+				id: "28BC15EC9BCAB1B6"
+				item: "gtceu:mv_steam_turbine"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["When powering multiple machines, keep in mind cable loss!"]
+			id: "428C034C78923B6C"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "4E427896A544A91E"
+					item: "gtceu:red_alloy_single_wire"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0B1328663DAC2B0E"
+					item: "gtceu:copper_single_wire"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 3
+					id: "09A0EA5857D5AE4D"
+					item: "gtceu:aluminium_plate"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71567A9437A86C2F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:mv_1a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_4a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_8a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_16a_energy_converter"
+							}
+						]
+					}
+				}
+				title: "Any MV Energy Converter"
+				type: "item"
+			}]
+			title: "MV Energy Converters"
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Eight plants in a Compressor will create a plant ball"
+				""
+				"You can also get these as a chance output from the centrifuge when making glue"
+			]
+			id: "6300791605A757B0"
+			rewards: [{
+				count: 8
+				id: "7E0D1BD5A8DFD24A"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Compressed plant matter"
+			tasks: [{
+				id: "577EEBAF4FACDCA1"
+				item: "gtceu:plant_ball"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["24E3CB198F73524A"]
+			description: ["A copper ingot and 63mB of oxygen in your arc furnace will make an annealed copper ingot"]
+			id: "4E1D5EC061A4AE55"
+			rewards: [{
+				count: 2
+				id: "34166C7A9BD6EC7C"
+				item: "gtceu:annealed_copper_bolt"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CB8068643C87602"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"A little oxygen and some electricity and you can anneal copper"
+				""
+				"This will also allow you to break down old machines into ingot forms rather than dust like in the macerator"
+			]
+			icon: "gtceu:mv_arc_furnace"
+			id: "24E3CB198F73524A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "617745FCC8063446"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			subtitle: "Arcing electricity!"
+			tasks: [{
+				id: "77EF6FE6C54C104A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_arc_furnace"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_arc_furnace"
+							}
+						]
+					}
+				}
+				title: "Arc Furnace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"This machine is going to see a lot of use, upgrading it is worth it to keep it processing recipes quickly"
+				""
+				"Consider making multiple of these to help process recipes in parallel"
+			]
+			id: "579A41570D610B07"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C10D5F463B33C47"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			subtitle: "Where's your lab coat?"
+			tasks: [{
+				id: "3165B02F2BFFEDDA"
+				item: "gtceu:mv_chemical_reactor"
+				title: "Chemical Reactor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E1D5EC061A4AE55"]
+			description: [
+				"Still crafting resistors in a crafting grid? "
+				""
+				"Take that annealed copper, turn it into fine wire, then add a little glue and carbon to make 4 resistors at once in your Assembler"
+				""
+				"Talk about a recipe upgrade!"
+			]
+			id: "4AE05E80142C12A6"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "0F34F1836D2E1927"
+				item: "gtceu:resistor"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "2F26EFD73DE0E8A1"
+					item: "gtceu:fine_annealed_copper_wire"
+					type: "item"
+				}
+				{
+					id: "427138127BEBAEAF"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:carbon_dust"
+								}
+								{
+									Count: 1b
+									id: "chemlib:carbon_dust"
+								}
+								{
+									Count: 1b
+									id: "gtceu:charcoal_dust"
+								}
+								{
+									Count: 1b
+									id: "railcraft:charcoal_dust"
+								}
+								{
+									Count: 1b
+									id: "gtceu:coal_dust"
+								}
+								{
+									Count: 1b
+									id: "chemlib:coal_dust"
+								}
+								{
+									Count: 1b
+									id: "enderio:powdered_coal"
+								}
+								{
+									Count: 1b
+									id: "railcraft:coal_dust"
+								}
+							]
+						}
+					}
+					title: "Carbon dust"
+					type: "item"
+				}
+			]
+			title: "Resistors Revisited"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"A new setup for ore processing! "
+				""
+				"[ \"\", { \"text\": \"The \" }, { \"text\": \"Sifter \", \"color\":\"yellow\" }, { \"text\": \"replaces the Thermal Centrifuge and 2nd Macerator in the \" }, { \"text\":\"Ore Processing Setup\", \"color\":\"gold\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"25DBFE887B041E94\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } } ]"
+				""
+				"You don't have to build a new setup just for this if you are clever with filters and your item flow, but a new setup is probably less work"
+			]
+			id: "51DB667E991E51F0"
+			tasks: [{
+				id: "0ED34925D7A494BF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_sifter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_sifter"
+							}
+						]
+					}
+				}
+				title: "Sifter"
+				type: "item"
+			}]
+			x: 7.699999999999999d
+			y: -4.300000000000001d
+		}
+		{
+			dependencies: ["51DB667E991E51F0"]
+			description: [
+				"Process &aRaw Emerald&r or silk-touched &aNether Emerald Ore&r through a Macerator, then Ore Washer the crushed ore, then start &esifting&r the purified ore for &bExquisite&r or &bFlawless&r gems"
+				""
+				"It does have to be GregTech's emerald ore, you can't use regular silk-touched emerald ore for this"
+				""
+				"&e&lHint:&r To find GregTech™ emeralds, look for &dberyllium&r in the Nether &cbetween y=5 and y=30&r, or you can check the Mining Dimension in the netherrack layer!"
+			]
+			id: "644B16B9618B41BE"
+			min_width: 250
+			tasks: [{
+				id: "4DB8770CF9F924C5"
+				item: "gtceu:flawless_emerald_gem"
+				type: "item"
+			}]
+			x: 6.4d
+			y: -4.300000000000001d
+		}
+		{
+			dependencies: [
+				"63621F0189B6EB1B"
+				"7963008B930D84BB"
+			]
+			description: ["A necessary component for the &bMV Cutter&r"]
+			hide_dependent_lines: true
+			id: "707EBA5717938515"
+			rewards: [
+				{
+					count: 2
+					id: "049FA0E13A9C9EB8"
+					item: "gtceu:chromium_dust"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "20B01BB434069711"
+					item: "gtceu:vanadium_dust"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "72380DD47A0B98BD"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.6d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: ["Making &bvanadium steel dust&r is an MV recipe in the Mixer, so it is time for an upgrade! "]
+			id: "63621F0189B6EB1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43720EC35D614D1C"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "72EB03DB951E83D4"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.2d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			description: [
+				"This machine is very useful for acquiring &dchromium dust&r, which we'll need to make &bstainless steel dust&r and &bvanadium steel dust&r"
+				""
+				"You could chain process Redstone Dust for Ruby Dust to then &eElectrolyze&r for &dChromium Dust&r"
+			]
+			id: "7963008B930D84BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DF8C2DC3E30CD77"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0AEB920BEAD1C447"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.1d
+		}
+		{
+			dependencies: ["63621F0189B6EB1B"]
+			description: ["Put Aluminium dust, Iron dust, and Chromium dust together in a &eMixer&r and watch it blend!"]
+			id: "1812BF72305CFFCF"
+			rewards: [{
+				count: 4
+				id: "74819F7F2D53028B"
+				item: "gtceu:chromium_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CF35B15AD75E179"
+				item: "gtceu:kanthal_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.2d
+		}
+		{
+			dependencies: [
+				"1812BF72305CFFCF"
+				"54A164C737660C4E"
+				"3DCCEDC5A817EBEB"
+			]
+			description: ["Cook the dust up in the &aEBF&r and cool it down in the &eChemical Bath&r"]
+			id: "358706CA93DC2A9C"
+			rewards: [{
+				count: 4
+				id: "71E792F83E0444B2"
+				item: "gtceu:chromium_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E1E15185D672109"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.3000000000000003d
+		}
+		{
+			dependencies: ["358706CA93DC2A9C"]
+			description: [
+				"Use that &eExtractor&r to get your copper in a liquid state"
+				""
+				"&eWire Cut&r the Kanthal ingots"
+				""
+				"&eBend&r that Aluminium"
+				""
+				"Then put it all together in your &eAssembler&r!"
+				""
+				"Replace the Cupronickel Coils on your &aEBF&r with this stuff"
+			]
+			id: "72E5439299E957A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "086F84F7B79F7B8B"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 16L
+				id: "6C8DCC0E471D0163"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.3000000000000003d
+		}
+		{
+			dependencies: ["1F92F7314DF3C3E2"]
+			description: [
+				"Follow the same steps as the Emerald/Ruby lens to make the &9Sapphire Lens&r"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"4DD7F3508B757EF0\"}, \"text\": \"How to make the gem plate\", \"color\": \"green\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } }}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"26004F997C758011\"}, \"text\": \"How to make the gem lens\", \"color\": \"yellow\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } }}"
+			]
+			hide_dependency_lines: true
+			id: "20A0A574F51EEF74"
+			tasks: [{
+				id: "71285AC928BBD40E"
+				item: "gtceu:sapphire_lens"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["20A0A574F51EEF74"]
+			description: ["That's right, another &eLaser Engraver&r recipe... these quests are becoming non-linear"]
+			id: "5B92DA55541B168B"
+			rewards: [{
+				count: 2
+				id: "0B4A34429F4F377A"
+				item: "gtceu:silicon_wafer"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B0A35D87D18E3A1"
+				item: "gtceu:ulpic_wafer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.4d
+		}
+		{
+			dependencies: ["5B92DA55541B168B"]
+			description: ["Back into the &ecutter&r!"]
+			id: "4E5FE40373675AED"
+			rewards: [{
+				id: "27DFB41D8F75BF3B"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "1C973641E5F60EB4"
+				item: "gtceu:ulpic_chip"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.4d
+		}
+		{
+			dependencies: ["4E5FE40373675AED"]
+			description: [
+				"You can use a GT Assembler or a regular crafting grid to make this. Since pattern space is precious, especially for the GT Assembler, perhaps a Crafter or Molecular Assembler can handle putting it together"
+				""
+				"Swap out the LV Energy Hatches on your &eElectric Blast Furnace&r for these and your EBF can now process &6HV&r recipes! "
+				""
+				"Make sure you upgrade your power source too! "
+			]
+			id: "3DCCEDC5A817EBEB"
+			min_width: 250
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FF28AC1A353565C"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			subtitle: "EBF Upgrades"
+			tasks: [{
+				count: 2L
+				id: "3E686316F9E6B29E"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.20000000000000004d
+		}
+	]
+	title: "{atm9.chapters.28.title}"
+}

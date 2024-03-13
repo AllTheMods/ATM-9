@@ -1,0 +1,26 @@
+{
+	id: "51D81405A1552C58"
+	loot_size: 1
+	order_index: 33
+	rewards: [
+		{ count: 3, item: "botania:white_petal" }
+		{ count: 3, item: "botania:orange_petal" }
+		{ count: 3, item: "botania:magenta_petal" }
+		{ count: 3, item: "botania:light_blue_petal" }
+		{ count: 3, item: "botania:yellow_petal" }
+		{ count: 3, item: "botania:lime_petal" }
+		{ count: 3, item: "botania:pink_petal" }
+		{ count: 3, item: "botania:gray_petal" }
+		{ count: 3, item: "botania:light_gray_petal" }
+		{ count: 3, item: "botania:cyan_petal" }
+		{ count: 3, item: "botania:purple_petal" }
+		{ count: 3, item: "botania:blue_petal" }
+		{ count: 3, item: "botania:brown_petal" }
+		{ count: 3, item: "botania:green_petal" }
+		{ count: 3, item: "botania:red_petal" }
+		{ count: 3, item: "botania:black_petal" }
+		{ count: 2, item: "botania:fertilizer" }
+	]
+	title: "Flower Petal Loot Bag"
+	use_title: true
+}

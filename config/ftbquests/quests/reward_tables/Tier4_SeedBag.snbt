@@ -1,0 +1,37 @@
+{
+	icon: "mysticalagriculture:imperium_gemstone"
+	id: "61F8686E9D8EFEB7"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ item: "mysticalagriculture:imperium_farmland", weight: 7.0f }
+		{ item: "mysticalagriculture:gold_seeds", weight: 2.0f }
+		{ item: "mysticalagriculture:lapis_lazuli_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:end_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:experience_seeds" }
+		{ item: "mysticalagriculture:blaze_seeds", weight: 2.0f }
+		{ item: "mysticalagriculture:ghast_seeds" }
+		{ item: "mysticalagriculture:enderman_seeds", weight: 2.0f }
+		{ item: "mysticalagriculture:steel_seeds", weight: 2.0f }
+		{ item: "mysticalagriculture:nickel_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:uranium_seeds", weight: 2.0f }
+		{ item: "mysticalagriculture:ruby_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:sapphire_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:osmium_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:fluorite_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:refined_glowstone_seeds", weight: 2.0f }
+		{ item: "mysticalagriculture:refined_obsidian_seeds" }
+		{ item: "mysticalagriculture:fluix_seeds", weight: 2.0f }
+		{ item: "mysticalagradditions:imperium_coal", random_bonus: 3, weight: 7.0f }
+		{ item: "mysticalagradditions:imperium_coal_block", weight: 5.0f }
+		{ item: "mysticalagradditions:imperium_apple", random_bonus: 2, weight: 10.0f }
+		{ item: "mysticalagriculture:imperium_essence", random_bonus: 3, weight: 7.0f }
+		{ item: "mysticalagriculture:imperium_block" }
+		{ item: "mysticalagriculture:imperium_growth_accelerator", weight: 5.0f }
+		{ item: "mysticalagriculture:imperium_furnace", weight: 5.0f }
+		{ item: "mysticalagriculture:imperium_ingot", random_bonus: 1, weight: 5.0f }
+		{ item: "mysticalagriculture:imperium_gemstone", weight: 5.0f }
+	]
+	title: "&9Tier 4 Seed Bag"
+	use_title: true
+}
