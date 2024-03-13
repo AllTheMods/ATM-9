@@ -2,7 +2,7 @@
 #General settings
 [general]
 	#Dimensions where hostile mobs will not spawn. Ex: ["minecraft:overworld", "undergarden:undergarden"]. . Run /forge dimensions for a list.
-	dimensionBlacklist = []
+	dimensionBlacklist = ["twilightforest:twilight_forest", "ae2:spatial_storage", "mythicbotany:alfheim", "bloodmagic:dungeon"]
 	#Spawn a book in the players inventory on login
 	spawnBook = false
 	#How much mana whirlisprigs consume per generation

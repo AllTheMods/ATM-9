@@ -17,6 +17,12 @@ WorldgenEvents.remove(event => {
       "occultism:silver_ore",
       "occultism:silver_ore_deepslate",
       "bigreactors:yellorite_ore"
+      "eidolon:lead_ore",
+      "eidolon:deep_lead_ore",
+      "eidolon:silver_ore",
+      "eidolon:deep_silver_ore",
+      "immersiveengineering:ore_aluminum",
+      "immersiveengineering:deepslate_ore_aluminum"
     ];
   });
 });
