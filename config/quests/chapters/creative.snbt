@@ -1,0 +1,464 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "creative"
+	group: "2084F3F6FB861C5B"
+	icon: "functionalstorage:creative_vending_upgrade"
+	id: "16956970FF49BB4D"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: ["What do I do with the ATM Star?"]
+			image: "atm:textures/questpics/creative.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "allthetweaks:textures/item/atm_star.png"
+			rotation: 20.0d
+			width: 2.0d
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "allthetweaks:textures/item/atm_star.png"
+			rotation: -20.0d
+			width: 2.0d
+			x: -4.0d
+			y: -3.5d
+		}
+	]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			description: ["{atm9.quest.chapter3.desc.welcome}"]
+			hide_dependency_lines: true
+			id: "6E6FDF551EA4FF1A"
+			rewards: [
+				{
+					id: "625FC1DFA2B2A8B3"
+					type: "xp_levels"
+					xp_levels: 10000
+				}
+				{
+					id: "13C7B1760109C468"
+					item: {
+						Count: 1b
+						id: "allthemodium:alloy_axe"
+						tag: {
+							affix_data: {
+								affixes: {
+									"apotheosis:durable": 0.8f
+									"apotheosis:heavy_weapon/attribute/annihilating": 0.20009226f
+									"apotheosis:heavy_weapon/attribute/berserking": 0.34490293f
+									"apotheosis:heavy_weapon/attribute/giant_slaying": 0.80212396f
+									"apotheosis:heavy_weapon/attribute/murderous": 0.9636011f
+									"apotheosis:heavy_weapon/attribute/shredding": 0.52882904f
+									"apotheosis:heavy_weapon/special/cleaving": 0.57667243f
+									"apotheosis:heavy_weapon/special/executing": 0.42035472f
+									"apotheosis:sword/mob_effect/elusive": 0.27058095f
+								}
+								name: "{\"color\":\"rainbow\",\"translate\":\"%2$s\",\"with\":[\"\",\"\"]}"
+								rarity: "apotheosis:ancient"
+								sockets: 5
+								uuids: [[I;
+									458049447
+									-427996311
+									-1781331551
+									1681014930
+								]]
+							}
+							display: {
+								Name: "{\"text\":\"Ultimate Axe of AlfredGG\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AC6632FD554B8F2"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "{atm9.quest.chapter3.subt.welcome}"
+			tasks: [
+				{
+					count: 2L
+					id: "529AEED3E1A07228"
+					item: "allthetweaks:atm_star_block"
+					type: "item"
+				}
+				{
+					id: "5C995984E37F6C5A"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:starry"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter3.welcome}"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			id: "4F420AB27F056D9C"
+			optional: true
+			rewards: [
+				{
+					id: "7AABD1369C9574CC"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F0A6F37DB362775"
+					table_id: 7175652334583451871L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "23419C4DB7C1E5CB"
+				item: "pipez:infinity_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter3.power}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			hide_dependency_lines: true
+			id: "3F833B656A0DBB0E"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64982F4157A67B93"
+				table_id: 7175652334583451871L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5973E65E0C940E27"
+				item: "ars_nouveau:creative_spell_book"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter3.spells}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			hide_dependency_lines: true
+			id: "2CF11A70229000AB"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A639A768F7EF8FC"
+				table_id: 7175652334583451871L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0CF133CEADDC504C"
+					item: "create:creative_motor"
+					type: "item"
+				}
+				{
+					id: "72936F6095FF124A"
+					item: "create:creative_blaze_cake"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter3.create}"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			hide_dependency_lines: true
+			id: "5C7B81756CA58056"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B5F42272CCB9F9D"
+				table_id: 7175652334583451871L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "775BD503F830BB6C"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter3.mana}"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			id: "695C8159D28F16B7"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2208E7A037EAB0CE"
+				table_id: 7175652334583451871L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2E44EAD876619015"
+				item: "ars_nouveau:creative_source_jar"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter3.source}"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			id: "653487501398DECA"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "743B3A79F4825FDD"
+				table_id: 7175652334583451871L
+				type: "choice"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5C777F84736455DA"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:creative"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter3.jetpack}"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			id: "58095E9EBC6FF9B2"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DAEDC2E98F1482B"
+				table_id: 7175652334583451871L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "317121010F937E4F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "integrateddynamics:energy_battery_creative"
+							}
+							{
+								Count: 1b
+								id: "mekanism:creative_energy_cube"
+								tag: {
+									mekData: {
+										EnergyContainers: [{
+											Container: 0b
+											stored: "18446744073709551615.9999"
+										}]
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:creative_energy_cell"
+							}
+							{
+								Count: 1b
+								id: "createaddition:creative_energy"
+							}
+						]
+					}
+				}
+				title: "Creative Power Options"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter3.powah}"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			id: "721EA7CB1CBBFD14"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14CC40665D74FF8C"
+				table_id: 7175652334583451871L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "19CB734FC0897E75"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "refinedstorage:creative_controller"
+								tag: {
+									Energy: 32000
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:creative_energy_cell"
+							}
+						]
+					}
+				}
+				title: "Creative Virtual Storage Power"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter3.storage}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			id: "6C706326381CE611"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2578E2D5023264B9"
+				table_id: 7175652334583451871L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "7052974A3E7D3DF2"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:creative_compressor"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:creative_compressed_iron_block"
+							}
+						]
+					}
+				}
+				title: "Creative Pressure"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter3.pressure}"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E6FDF551EA4FF1A"]
+			description: ["{atm9.quest.chapter3.desc.blocks}"]
+			hide_dependency_lines: true
+			id: "0019BAE826902B4A"
+			optional: true
+			size: 3.0d
+			tasks: [{
+				id: "05EDE3C0706A89A7"
+				item: "allthecompressed:atm_star_block_9x"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter3.blocks}"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			id: "39BD43AAEFBD5609"
+			optional: true
+			rewards: [
+				{
+					id: "0F1BEDEC9A4A479D"
+					type: "xp_levels"
+					xp_levels: 50000
+				}
+				{
+					id: "04566CE860FF3B61"
+					item: {
+						Count: 1b
+						id: "gtceu:polybenzimidazole_plunger"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 0.0f
+								AttackSpeed: -2.4f
+								Damage: 0
+								MaxDamage: 127
+							}
+							HideFlags: 2
+							display: {
+								Name: "{\"text\":\"Not a Neutronium Plunger\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "{atm9.quest.chapter3.subt.greg}"
+			tasks: [{
+				id: "45119551D2C9EE55"
+				item: "allthetweaks:greg_star"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter3.greg}"
+			x: 2.5d
+			y: 2.5d
+		}
+	]
+	title: "{atm9.chapters.7.title}"
+}

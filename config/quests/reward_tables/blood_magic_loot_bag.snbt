@@ -1,0 +1,64 @@
+{
+	icon: "bloodmagic:mastercore"
+	id: "4F7310810CCDCD00"
+	loot_size: 1
+	order_index: 51
+	rewards: [
+		{ item: "bloodmagic:blankslate", random_bonus: 3, weight: 100.0f }
+		{ item: "bloodmagic:reinforcedslate", random_bonus: 1, weight: 50.0f }
+		{ item: "bloodmagic:infusedslate", weight: 10.0f }
+		{ item: "bloodmagic:demonslate" }
+		{ item: "bloodmagic:blankrune", random_bonus: 3, weight: 50.0f }
+		{ item: "bloodmagic:speedrune", weight: 50.0f }
+		{ item: "bloodmagic:sacrificerune", weight: 50.0f }
+		{ item: "bloodmagic:selfsacrificerune", weight: 50.0f }
+		{ item: "bloodmagic:altarcapacityrune", weight: 25.0f }
+		{
+			item: {
+				Count: 1b
+				id: "bloodmagic:basemonstersoul"
+				tag: {
+					souls: 5.0d
+				}
+			}
+			random_bonus: 2
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bloodmagic:basemonstersoul"
+				tag: {
+					souls: 25.0d
+				}
+			}
+			random_bonus: 2
+			weight: 50.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bloodmagic:basemonstersoul"
+				tag: {
+					souls: 50.0d
+				}
+			}
+			random_bonus: 1
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "bloodmagic:basemonstersoul"
+				tag: {
+					souls: 100.0d
+				}
+			}
+		}
+		{ item: "bloodmagic:simplekey", weight: 20.0f }
+		{ item: "bloodmagic:ritualstone", random_bonus: 3, weight: 25.0f }
+		{ item: "bloodmagic:soulsnare", random_bonus: 3, weight: 100.0f }
+	]
+	title: "&cBlood Magic Loot Box"
+	use_title: true
+}

@@ -1,0 +1,601 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "tips_and_tricks"
+	group: ""
+	id: "1BE666F01EFFC00D"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "atm:textures/questpics/tips_and_tricks.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 1.0d
+		y: 1.0d
+	}]
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{atm9.quest.tips.desc.sink}"]
+			id: "722978AC0C1B2649"
+			rewards: [
+				{
+					id: "145F9B3A17676EAA"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "1159FE6CDF262C46"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.tips.subt.sink}"
+			tasks: [{
+				id: "6855AE257D62AA37"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "{atm9.quest.tips.sink}"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.shrink}"]
+			id: "7EC8814940C4C3D7"
+			rewards: [
+				{
+					id: "156D559B0B56BA9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BCF264E89365C5D"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.tips.subt.shrink}"
+			tasks: [{
+				id: "30C938C85BED7956"
+				item: {
+					Count: 1b
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tips.shrink}"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.sleep}"]
+			id: "14C8FC3F19190054"
+			rewards: [
+				{
+					count: 2
+					id: "34037270BA530831"
+					item: "comforts:rope_and_nail"
+					type: "item"
+				}
+				{
+					id: "0CA8B7411485A9D0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.tips.subt.sleep}"
+			tasks: [
+				{
+					id: "51AA3A27028426C5"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "comforts:hammock_white"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_orange"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_magenta"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_light_blue"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_yellow"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_lime"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_pink"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_gray"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_light_gray"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_cyan"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_purple"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_blue"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_brown"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_green"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_red"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_black"
+								}
+							]
+						}
+					}
+					title: "Hammock"
+					type: "item"
+				}
+				{
+					id: "04903282E935F3D3"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_white"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_orange"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_magenta"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_light_blue"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_yellow"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_lime"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_pink"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_gray"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_cyan"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_light_gray"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_purple"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_blue"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_brown"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_green"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_red"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_black"
+								}
+							]
+						}
+					}
+					title: "Sleeping Bags"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.tips.sleep}"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.belt}"]
+			id: "378C95C18798D413"
+			rewards: [
+				{
+					count: 2
+					id: "40BCE4D56FE98018"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+				{
+					id: "4E495FC797AED7A4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "7FD9A02EA29669F6"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			title: "{atm9.quest.tips.belt}"
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.wand}"]
+			id: "2A2E3D020B1F5126"
+			rewards: [{
+				id: "03F64743F4F59499"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "176150A0FE674662"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "constructionwand:stone_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:iron_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:infinity_wand"
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+				title: "Construction Wands"
+				type: "item"
+			}]
+			title: "{atm9.quest.tips.wand}"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"722978AC0C1B2649"
+				"7EC8814940C4C3D7"
+				"14C8FC3F19190054"
+				"378C95C18798D413"
+				"2A2E3D020B1F5126"
+				"05F186C95510BD4B"
+				"0060BCEDABC9BE2E"
+			]
+			hide_dependency_lines: true
+			id: "0F8F37D7E12078F5"
+			rewards: [{
+				id: "032158E75A1291D8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "circle"
+			subtitle: "{atm9.quest.tips.subt.tipped_out}"
+			tasks: [{
+				id: "42DA8E971B27ACED"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.tips.tipped_out}"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.tricks}"]
+			id: "0C856BBB1679A7DD"
+			rewards: [{
+				id: "5FA6EA3609ABF6BE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{atm9.quest.tips.subt.tricks}"
+			tasks: [{
+				id: "3DC008A578A93CCF"
+				title: "Tips and Tricks!"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.tips.tricks}"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.magnet}"]
+			id: "3FC002E5A6C08DCC"
+			rewards: [
+				{
+					id: "0F5B656ED410D441"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36D0962726704052"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "{atm9.quest.tips.subt.magnet}"
+			tasks: [{
+				id: "27CB2988681DB62C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplemagnets:basicmagnet"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "simplemagnets:advancedmagnet"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Simple Magnets"
+				type: "item"
+			}]
+			title: "{atm9.quest.tips.magnet}"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.compass}"]
+			id: "70B6C9409AE69284"
+			rewards: [
+				{
+					id: "554BFA90C78DEDD5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "262AC9191FD415A3"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "{atm9.quest.tips.subt.compass}"
+			tasks: [{
+				id: "595B3FA9F32B712D"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tips.compass}"
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.mobs}"]
+			id: "05F186C95510BD4B"
+			rewards: [
+				{
+					id: "2EA020DC0A263031"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "466A0AFE85E7A5D4"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6418A273A57B203C"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			title: "{atm9.quest.tips.mobs}"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.exp}"]
+			id: "0060BCEDABC9BE2E"
+			rewards: [{
+				id: "57949E0DF2C7478A"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "189B87AF99321862"
+				item: "utilitix:experience_crystal"
+				type: "item"
+			}]
+			title: "{atm9.quest.tips.exp}"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.stick}"]
+			id: "0790D3BB481162A6"
+			rewards: [{
+				id: "2D7265C36210BDDB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "6038387EA35404CD"
+					item: "crafting_on_a_stick:crafting_table"
+					type: "item"
+				}
+				{
+					id: "0BF4F9C40FF717DE"
+					item: "crafting_on_a_stick:smithing_table"
+					type: "item"
+				}
+				{
+					id: "405411318EA7A80C"
+					item: "crafting_on_a_stick:anvil"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.tips.stick}"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.powah}"]
+			icon: "mekanismgenerators:gas_burning_generator"
+			id: "437AF6A8A63413A8"
+			rewards: [{
+				id: "4CDC7F753855B46A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.tips.subt.powah}"
+			tasks: [{
+				id: "2C621D97D1ED56DE"
+				title: "RF Generation"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.tips.powah}"
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.mahou}"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_ATTACK_CAP: 0.0d
+						MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+					}
+				}
+				id: "mahoutsukai:morgan"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "51CEE80605BFF40C"
+			rewards: [{
+				id: "2E8A795741E4854D"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.tips.subt.mahou}"
+			tasks: [{
+				id: "655D747AB2AECCF2"
+				title: "Mahou Tsukai"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.tips.mahou}"
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.spawner}"]
+			icon: "minecraft:spawner"
+			id: "600CFCF3612AEE9A"
+			min_width: 370
+			rewards: [{
+				id: "50C8D9EC8D53EB82"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.tips.subt.spawner}"
+			tasks: [{
+				id: "30F1C1BC1AD18EA5"
+				title: "Apotheosis"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.tips.spawner}"
+			x: 5.5d
+			y: 5.0d
+		}
+	]
+	title: "{atm9.chapters.4.title}"
+}

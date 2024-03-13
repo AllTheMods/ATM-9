@@ -1,0 +1,1421 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "silent_gear"
+	group: "22FB35B0FEF1343D"
+	icon: "silentgear:pickaxe_blueprint"
+	id: "1D42B373285DEF81"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "silentgear:textures/item/blueprint_package.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["Needed For The ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 11.0d
+			y: -0.75d
+		}
+	]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{atm9.quest.SG.desc.SG}"]
+			id: "52EB902E76829EBB"
+			rewards: [{
+				id: "383D184AE6F5236A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.SG.subt.SG}"
+			tasks: [{
+				id: "2639F0B573ACEBB6"
+				title: "Silent Gear Weapons, Tools and Armor"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.SG.SG}"
+			x: -7.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15DE3BF0CBD8E0B4"]
+			description: ["{atm9.quest.SG.desc.blueprint}"]
+			id: "64AB1E133E218173"
+			rewards: [
+				{
+					id: "5079BE02B6810490"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "3B33A6AFBCBD24E2"
+					item: {
+						Count: 1b
+						id: "silentgear:blueprint_package"
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "silentgear:starter_blueprints"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "479CB5F180B816A2"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			subtitle: "{atm9.quest.SG.subt.blueprint}"
+			tasks: [{
+				count: 8L
+				id: "28223BD9AC4D64EA"
+				item: "silentgear:blueprint_paper"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.blueprint}"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			description: ["{atm9.quest.SG.desc.sword}"]
+			id: "0DF4B01CC5B49E4E"
+			rewards: [
+				{
+					id: "3B6BDE76C5A9446F"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "16720CCB3ED1C3A2"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			subtitle: "{atm9.quest.SG.subt.sword}"
+			tasks: [{
+				id: "6916F3E24E09B0BE"
+				item: "silentgear:sword_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.sword}"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DF4B01CC5B49E4E"]
+			description: ["{atm9.quest.SG.desc.katana}"]
+			id: "3722B43822F80470"
+			rewards: [{
+				id: "569FE8789232CF20"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.SG.subt.katana}"
+			tasks: [{
+				id: "7929CED2B31B3355"
+				item: "silentgear:katana_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.katana}"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DF4B01CC5B49E4E"]
+			description: ["{atm9.quest.SG.desc.machete}"]
+			id: "39B85DB54B1037FE"
+			rewards: [{
+				id: "736360B6DCAC64DA"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.SG.subt.machete}"
+			tasks: [{
+				id: "5849539271864159"
+				item: "silentgear:machete_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.machete}"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0DF4B01CC5B49E4E"]
+			description: ["{atm9.quest.SG.desc.spear}"]
+			id: "405DCD3E36232EEA"
+			rewards: [{
+				id: "54C35AD7C673B8BD"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.SG.subt.spear}"
+			tasks: [{
+				id: "233073F39E676B83"
+				item: "silentgear:spear_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.spear}"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0DF4B01CC5B49E4E"]
+			description: ["{atm9.quest.SG.desc.knife}"]
+			id: "0D26E5EF6CFCFDBF"
+			rewards: [{
+				id: "480C996B6EF91910"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.SG.subt.knife}"
+			tasks: [{
+				id: "27B86914A7EC8AFB"
+				item: "silentgear:knife_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.knife}"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DF4B01CC5B49E4E"]
+			description: ["{atm9.quest.SG.desc.dagger}"]
+			id: "3D2C6FF462B17205"
+			rewards: [{
+				id: "6F242ECEA2C8AB26"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.SG.subt.dagger}"
+			tasks: [{
+				id: "07A58F926DAA9F86"
+				item: "silentgear:dagger_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.dagger}"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "766C80E5D7B7A916"
+			rewards: [{
+				id: "69E8C6F8D3BFA819"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5456E2D6253496B4"
+				item: "silentgear:pickaxe_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.pick}"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "52CDB46F6CBF007B"
+			rewards: [{
+				id: "2D85F22E09FDB6A2"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3BA93EF95C2D2AC7"
+				item: "silentgear:shovel_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.shovel}"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "69383DA579901E7E"
+			rewards: [{
+				id: "5AE2EB88B968AB84"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "75DA720893D281E2"
+				item: "silentgear:axe_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.axe}"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "63CAD77A4488F2CE"
+			rewards: [{
+				id: "69B3A90EBE7C08A0"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.SG.subt.paxel}"
+			tasks: [{
+				id: "05E69F9C3D0DC0DD"
+				item: "silentgear:paxel_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.paxel}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "262036FE8E87F50A"
+			rewards: [{
+				id: "350D7AB75BA2D89D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.SG.subt.hammer}"
+			tasks: [{
+				id: "640B83A35EB10103"
+				item: "silentgear:hammer_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.hammer}"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "3F39BEB788175CEF"
+			rewards: [{
+				id: "165EDC4330665C22"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.SG.subt.excavator}"
+			tasks: [{
+				id: "0378C9FD1C97FC8E"
+				item: "silentgear:excavator_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.excavator}"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "427516AA3E8C9442"
+			rewards: [{
+				id: "55313BAC0ABC7732"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.SG.subt.mattock}"
+			tasks: [{
+				id: "7BAEC1CCE541863A"
+				item: "silentgear:mattock_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.mattock}"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "083ABBA1C45FF960"
+			optional: true
+			rewards: [{
+				id: "2A72A2E5EBC9E64D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.SG.subt.scythe}"
+			tasks: [{
+				id: "1BD87FE9B7C97844"
+				item: "silentgear:sickle_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.sickle}"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "67216EC5274F08B9"
+			rewards: [{
+				id: "430D04B092F804E9"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "71F08CAC734CFABA"
+				item: "silentgear:shears_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.shears}"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "462C1F75A2FB9F02"
+			optional: true
+			rewards: [{
+				id: "73AECD6F2CB1CA8B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2BC129A5A112714B"
+				item: "silentgear:fishing_rod_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.fish}"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "6D9CDB4D81DC164D"
+			rewards: [{
+				id: "4362F9342267B09D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C2EB1E97E1F7C9D"
+				item: "silentgear:bow_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.bow}"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "1E8357755479E259"
+			optional: true
+			rewards: [{
+				id: "267E1DA2BC5DB5C5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49B566024C78B433"
+				item: "silentgear:crossbow_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.crossbow}"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "1E2F1E036716C031"
+			optional: true
+			rewards: [{
+				id: "6DCC64F4FCD87ECA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F4C79848F8548D5"
+				item: "silentgear:slingshot_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.slingshot}"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "78C112170E17FBF4"
+			rewards: [{
+				id: "696D8973F3FD3B0A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3DA37B5163894911"
+				item: "silentgear:shield_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.shield}"
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "6E2806D8DC61C46F"
+			rewards: [{
+				id: "1E2C85D526645FBE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "359631F5009F3B9F"
+				item: "silentgear:helmet_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.helmet}"
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "35E8C65CCA676E76"
+			rewards: [{
+				id: "20589A9B4D86DD65"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "583FCEF23D524EB6"
+				item: "silentgear:chestplate_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.chestplate}"
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "22C51025DC42CDE2"
+			rewards: [{
+				id: "1243D0195D23CDB0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7379282EA5C084B4"
+				item: "silentgear:leggings_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.leggings}"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "6912C0E3D092DD27"
+			rewards: [{
+				id: "50004D6B21F8E849"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6C02D97660F0347C"
+				item: "silentgear:boots_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.boots}"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "5AB8651FCB1E2F72"
+			rewards: [{
+				id: "5CD4106705C41360"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "761B3590C99B461E"
+				item: "silentgear:elytra_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.elytra}"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "3844877F6C1AFE77"
+			rewards: [{
+				id: "32FDE909916929D7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19547966CF66B82B"
+				item: "silentgear:arrow_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.arrow}"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "74FA25B2E087BEC4"
+			rewards: [{
+				id: "6A8BDD8F692F157C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "316B266E606B709C"
+				item: "silentgear:ring_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.ring}"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "21234BB40DB05C78"
+			optional: true
+			rewards: [{
+				id: "6BE21A7766B057B1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F72BC1DF6CBCDED"
+				item: "silentgear:bracelet_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.bracelet}"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			description: [""]
+			id: "2EB96FF06627FD9A"
+			rewards: [
+				{
+					count: 2
+					id: "4A6DD2BFE7AB5AA1"
+					item: "silentgear:crimson_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "1CB3949F1C926540"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1876A75C33CE8313"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.25d
+			subtitle: "{atm9.quest.SG.subt.salvager}"
+			tasks: [{
+				id: "0A289918540442AE"
+				item: "silentgear:salvager"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.salvager}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EB96FF06627FD9A"]
+			description: ["{atm9.quest.SG.desc.material_grader}"]
+			id: "6A393C7A24899E3E"
+			rewards: [
+				{
+					count: 4
+					id: "2E59EBB44FCD4372"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "426DA90F446231C4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "355393E9C515534F"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.SG.subt.material_grader}"
+			tasks: [{
+				id: "202BA9A48D4D4B79"
+				item: "silentgear:material_grader"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.material_grader}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A393C7A24899E3E"]
+			id: "6B78378BC8036227"
+			rewards: [
+				{
+					count: 4
+					id: "64AC530B334F9AD3"
+					item: "silentgear:glowing_dust"
+					type: "item"
+				}
+				{
+					id: "5A302D12635EF77B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "53E64C8F26258C07"
+				item: "silentgear:glowing_dust"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.tier1GC}"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A393C7A24899E3E"]
+			id: "002D65E4D7E8F62B"
+			rewards: [
+				{
+					count: 4
+					id: "256E614120A82059"
+					item: "silentgear:blazing_dust"
+					type: "item"
+				}
+				{
+					id: "12A3F753875AE51A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "425E8DACC9DD35E7"
+				item: "silentgear:blazing_dust"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.tier2GC}"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A393C7A24899E3E"]
+			id: "7D690A7D0FF6E328"
+			rewards: [
+				{
+					count: 4
+					id: "02ADE8B6A9044835"
+					item: "silentgear:glittery_dust"
+					type: "item"
+				}
+				{
+					id: "7CDD443193BF52FB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "699AAD43DA73386D"
+				item: "silentgear:glittery_dust"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.tier3GC}"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			id: "7860FD3D3273351F"
+			rewards: [
+				{
+					count: 8
+					id: "704BACF5602FB682"
+					item: "silentgear:blueprint_paper"
+					type: "item"
+				}
+				{
+					id: "151BDF4BB67DB85D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "{atm9.quest.SG.subt.book}"
+			tasks: [{
+				id: "2226DC0E053E8631"
+				item: {
+					Count: 1b
+					id: "silentgear:blueprint_book"
+					tag: {
+						Inventory: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.book}"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3930404D5C8B44EB"]
+			description: ["{atm9.quest.SG.desc.starlight_charger}"]
+			id: "7C3D763CF22D167A"
+			rewards: [
+				{
+					count: 3
+					id: "514A9B0ACDD05365"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "5920F91CCD994BE4"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "049404B484FEF767"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.75d
+			subtitle: "{atm9.quest.SG.subt.starlight_charger}"
+			tasks: [{
+				id: "03C944C082828C47"
+				item: "silentgear:starlight_charger"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.starlight_charger}"
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["657B3116A6419420"]
+			description: ["{atm9.quest.SG.desc.tip}"]
+			id: "158B24939A269D83"
+			shape: "diamond"
+			subtitle: "{atm9.quest.SG.subt.tip}"
+			tasks: [{
+				id: "4ECD1D119E695CBD"
+				item: "silentgear:tip_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.tip}"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["657B3116A6419420"]
+			description: ["{atm9.quest.SG.desc.coating}"]
+			id: "0947B4ED95B0267E"
+			shape: "diamond"
+			subtitle: "{atm9.quest.SG.subt.coating}"
+			tasks: [{
+				id: "3179733D8ACBDA86"
+				item: "silentgear:coating_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.coating}"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["657B3116A6419420"]
+			id: "6BFD7854F078BF16"
+			shape: "diamond"
+			subtitle: "{atm9.quest.SG.subt.grip}"
+			tasks: [{
+				id: "14B8204814A42B33"
+				item: "silentgear:grip_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.grip}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["657B3116A6419420"]
+			id: "22A0A9C81A5C85A1"
+			shape: "diamond"
+			subtitle: "{atm9.quest.SG.subt.binding}"
+			tasks: [{
+				id: "551DBAFE45DC4804"
+				item: "silentgear:binding_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.binding}"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "2098D8BFADB55D2A"
+			optional: true
+			rewards: [{
+				id: "37525488AF6404B2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CB5441C8E4480CC"
+				item: "silentgear:lining_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.lining}"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "3F56A5253D477B97"
+			rewards: [{
+				id: "2828EA8C5A180BAC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58407186583371FA"
+				item: "silentgear:fletching_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.fletching}"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7860FD3D3273351F"]
+			id: "657B3116A6419420"
+			rewards: [{
+				id: "3144F2282E53F770"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.SG.subt.toolrod}"
+			tasks: [{
+				id: "146DFBC42B522A36"
+				item: "silentgear:rod_blueprint"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.toolrod}"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6A393C7A24899E3E"]
+			description: ["{atm9.quest.SG.desc.alloyer}"]
+			id: "3930404D5C8B44EB"
+			rewards: [
+				{
+					count: 2
+					id: "02BF731EB9C877A9"
+					item: "silentgear:crimson_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "2A50AB8483F114F2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DAB130AC2130247"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			subtitle: "{atm9.quest.SG.subt.alloyer}"
+			tasks: [{
+				id: "7F18323AEA5BF486"
+				item: "silentgear:metal_alloyer"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.alloyer}"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C3D763CF22D167A"]
+			description: ["{atm9.quest.SG.desc.tier1SGCPC}"]
+			id: "7E13007340A818C5"
+			rewards: [
+				{
+					count: 4
+					id: "726D3F0AFC299157"
+					item: "silentgear:blaze_gold_dust"
+					type: "item"
+				}
+				{
+					id: "34EE0AC149807BBB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "699B2AC65718F5FA"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "20B21CAF35324E56"
+				item: "silentgear:crimson_steel_block"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.tier1SGCPC}"
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C3D763CF22D167A"]
+			description: ["{atm9.quest.SG.desc.tier2SGCPC}"]
+			id: "29131C3532610ADF"
+			rewards: [
+				{
+					count: 4
+					id: "26F88065FA41600C"
+					item: "silentgear:azure_silver_dust"
+					type: "item"
+				}
+				{
+					id: "1215998307A8C44F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66C9FB40FE94B925"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "5EB5C4ECB49D1A4B"
+				item: "silentgear:azure_electrum_block"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.tier2SGCPC}"
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C3D763CF22D167A"]
+			description: ["{atm9.quest.SG.desc.tier3SGCPC}"]
+			id: "3B560B2ECE331CAF"
+			rewards: [
+				{
+					count: 4
+					id: "5B4F394C75229DA8"
+					item: "silentgear:starmetal_dust"
+					type: "item"
+				}
+				{
+					id: "78F9F7CA7518C4EB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77E1C346FB26B6E5"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "68EF78DC95598D3B"
+				item: "silentgear:tyrian_steel_block"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.tier3SGCPC}"
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C3D763CF22D167A"]
+			id: "48D358470A019E7A"
+			rewards: [
+				{
+					count: 3
+					id: "11895ED684B965A5"
+					item: "silentgear:blaze_gold_dust"
+					type: "item"
+				}
+				{
+					id: "672ECAB1F0B4ACA5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "2276AE38B913787C"
+				item: "silentgear:blaze_gold_dust"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.tier1SGC}"
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C3D763CF22D167A"]
+			id: "2BF119DD5D977409"
+			rewards: [
+				{
+					count: 3
+					id: "628BD6D6D899D5E2"
+					item: "silentgear:azure_silver_dust"
+					type: "item"
+				}
+				{
+					id: "02A08961EBFACBAB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "0948B07BD000E2A2"
+				item: "silentgear:azure_silver_dust"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.tier2SGC}"
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C3D763CF22D167A"]
+			id: "0FEAD3CA2CC4A8B1"
+			rewards: [
+				{
+					count: 3
+					id: "149C0884AF0F9C96"
+					item: "silentgear:starmetal_dust"
+					type: "item"
+				}
+				{
+					id: "3645936047468429"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "4B244AC889982750"
+				item: "silentgear:starmetal_dust"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.tier3SGC}"
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52EB902E76829EBB"]
+			description: ["{atm9.quest.SG.desc.repairkit}"]
+			hide_dependency_lines: true
+			id: "11B0B93D725ABE43"
+			rewards: [{
+				id: "221CA06C59187F0D"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			subtitle: "{atm9.quest.SG.subt.repairkit}"
+			tasks: [{
+				id: "123B475266C035CC"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "silentgear:very_crude_repair_kit"
+								tag: {
+									Storage: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "silentgear:crude_repair_kit"
+								tag: {
+									Storage: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "silentgear:sturdy_repair_kit"
+								tag: {
+									Storage: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "silentgear:crimson_repair_kit"
+								tag: {
+									Storage: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "silentgear:azure_repair_kit"
+								tag: {
+									Storage: { }
+								}
+							}
+						]
+					}
+				}
+				title: "Any Silent Gear Repair Kit"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.repairkit}"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B690431CF1B87D0"]
+			description: ["{atm9.quest.SG.desc.SGTool}"]
+			icon: "silentgear:pickaxe_template"
+			id: "15DE3BF0CBD8E0B4"
+			rewards: [{
+				id: "55AD7084DF68E820"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.SG.subt.SGTool}"
+			tasks: [{
+				id: "2ADE9DBE9448AC7F"
+				item: {
+					Count: 1b
+					id: "silentgear:pickaxe"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										ID: "silentgear:pickaxe_head"
+										Item: {
+											Count: 1b
+											id: "silentgear:pickaxe_head"
+											tag: {
+												Damage: 0
+												Materials: [{
+													ID: "silentgear:iron"
+												}]
+											}
+										}
+									}
+									{
+										ID: "silentgear:rod"
+										Item: {
+											Count: 1b
+											id: "silentgear:rod"
+											tag: {
+												Materials: [{
+													ID: "silentgear:wood"
+												}]
+											}
+										}
+									}
+								]
+								Tier: 2
+							}
+							Properties: {
+								LockStats: 0b
+								ModVersion: "3.1.5"
+								Stats: {
+									"silentgear:attack_reach": 3.0f
+									"silentgear:attack_speed": -2.8f
+									"silentgear:charging_value": 0.7f
+									"silentgear:durability": 250.0f
+									"silentgear:enchantment_value": 14.0f
+									"silentgear:harvest_level": 2.0f
+									"silentgear:harvest_speed": 6.0f
+									"silentgear:magic_damage": 1.0f
+									"silentgear:melee_damage": 3.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magnetic"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+							}
+						}
+						SGear_UUID: [I;
+							-560392768
+							258428253
+							-1359164164
+							685076305
+						]
+					}
+				}
+				title: "Any Silent Gear Pickaxe"
+				type: "item"
+			}]
+			title: "{atm9.quest.SG.SGTool}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52EB902E76829EBB"]
+			description: ["{atm9.quest.SG.desc.template}"]
+			icon: {
+				Count: 1b
+				id: "silentgear:pickaxe_head"
+				tag: {
+					Damage: 0
+					Materials: [{
+						ID: "silentgear:example"
+					}]
+				}
+			}
+			id: "7B690431CF1B87D0"
+			rewards: [
+				{
+					count: 8
+					id: "02F9EAB98F91686F"
+					item: "silentgear:template_board"
+					type: "item"
+				}
+				{
+					id: "70451634EBBAFA04"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "1ABEFFE6204BD2AD"
+					item: "silentgear:template_board"
+					type: "item"
+				}
+				{
+					id: "3599BAFFC6D53F5E"
+					item: "silentgear:pickaxe_template"
+					type: "item"
+				}
+				{
+					id: "46CF8A25D6B2713A"
+					item: {
+						Count: 1b
+						id: "silentgear:pickaxe_head"
+						tag: {
+							Damage: 0
+							Materials: [{
+								ID: "silentgear:example"
+							}]
+						}
+					}
+					title: "Any Pickaxe Head Part"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.SG.template}"
+			x: -5.0d
+			y: 0.0d
+		}
+	]
+	title: "{atm9.chapters.9.title}"
+}

@@ -1,0 +1,31 @@
+{
+	id: "624EEC8DCB3A609A"
+	loot_size: 1
+	order_index: 41
+	rewards: [
+		{ item: "gtceu:mv_machine_casing", weight: 12.0f }
+		{ item: "gtceu:mv_machine_hull", weight: 10.0f }
+		{ count: 4, item: "alltheores:aluminum_ingot", random_bonus: 4, weight: 12.0f }
+		{ count: 2, item: "gtceu:basic_electronic_circuit", random_bonus: 2, weight: 8.0f }
+		{ item: "gtceu:good_electronic_circuit", random_bonus: 1, weight: 6.0f }
+		{ count: 8, item: "gtceu:copper_single_wire", random_bonus: 8, weight: 12.0f }
+		{ count: 8, item: "alltheores:steel_plate", random_bonus: 4, weight: 12.0f }
+		{ item: "gtceu:diode", random_bonus: 2, weight: 4.0f }
+		{ count: 3, item: "gtceu:resistor", random_bonus: 2, weight: 8.0f }
+		{ count: 3, item: "gtceu:vacuum_tube", random_bonus: 2, weight: 8.0f }
+		{ item: "gtceu:mv_electric_motor", weight: 8.0f }
+		{ item: "gtceu:mv_electric_pump", weight: 5.0f }
+		{ item: "gtceu:mv_conveyor_module", weight: 5.0f }
+		{ item: "gtceu:mv_electric_piston", weight: 5.0f }
+		{ item: "gtceu:mv_robot_arm", weight: 3.0f }
+		{ count: 4, item: "gtceu:silicon_dust", random_bonus: 4, weight: 8.0f }
+		{ count: 2, item: "gtceu:silicon_ingot", random_bonus: 2, weight: 8.0f }
+		{ count: 2, item: "gtceu:small_gallium_arsenide_dust", random_bonus: 2, weight: 5.0f }
+		{ count: 2, item: "gtceu:silicon_wafer", random_bonus: 2, weight: 3.0f }
+		{ count: 2, item: "gtceu:fine_electrum_wire", random_bonus: 2, weight: 4.0f }
+		{ count: 2, item: "gtceu:annealed_copper_bolt", random_bonus: 3, weight: 6.0f }
+		{ item: "gtceu:transistor", random_bonus: 1 }
+	]
+	title: "GT MV Basic Rewards"
+	use_title: true
+}

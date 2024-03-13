@@ -1,0 +1,36 @@
+{
+	id: "5611EEDC12552B9E"
+	loot_size: 1
+	order_index: 49
+	rewards: [
+		{ item: "gtceu:micro_processor_mainframe", weight: 3.0f }
+		{ item: "gtceu:iv_robot_arm", weight: 3.0f }
+		{ count: 4, item: "gtceu:smd_capacitor", random_bonus: 4, weight: 4.0f }
+		{ count: 4, item: "gtceu:smd_inductor", random_bonus: 4, weight: 4.0f }
+		{ count: 4, item: "gtceu:plastic_printed_circuit_board", random_bonus: 4, weight: 4.0f }
+		{ item: "gtceu:iv_electric_pump", weight: 4.0f }
+		{ item: "gtceu:iv_electric_piston", weight: 4.0f }
+		{ item: "gtceu:iv_conveyor_module", weight: 4.0f }
+		{ item: "gtceu:micro_processor_computer", random_bonus: 1, weight: 4.0f }
+		{ item: "gtceu:iv_electric_motor", weight: 4.0f }
+		{ count: 12, item: "gtceu:ram_chip", random_bonus: 12, weight: 5.0f }
+		{ count: 2, item: "gtceu:ram_wafer", random_bonus: 2, weight: 5.0f }
+		{ count: 2, item: "gtceu:gallium_arsenide_dust", random_bonus: 2, weight: 6.0f }
+		{ count: 2, item: "gtceu:micro_processor_assembly", random_bonus: 2, weight: 6.0f }
+		{ count: 4, item: "gtceu:smd_transistor", random_bonus: 4, weight: 8.0f }
+		{ count: 6, item: "gtceu:smd_diode", random_bonus: 6, weight: 8.0f }
+		{ count: 6, item: "gtceu:smd_resistor", random_bonus: 6, weight: 8.0f }
+		{ count: 6, item: "gtceu:silicon_wafer", random_bonus: 6, weight: 10.0f }
+		{ item: "gtceu:iv_machine_hull", weight: 10.0f }
+		{ count: 12, item: "gtceu:tungsten_steel_ingot", random_bonus: 12, weight: 10.0f }
+		{ count: 6, item: "gtceu:cpu_chip", random_bonus: 6, weight: 10.0f }
+		{ count: 3, item: "gtceu:cpu_wafer", random_bonus: 3, weight: 10.0f }
+		{ count: 12, item: "gtceu:tungsten_steel_plate", random_bonus: 12, weight: 10.0f }
+		{ count: 16, item: "gtceu:raw_tungstate", random_bonus: 16, weight: 12.0f }
+		{ count: 16, item: "gtceu:raw_scheelite", random_bonus: 16, weight: 12.0f }
+		{ item: "gtceu:iv_machine_casing", weight: 12.0f }
+		{ count: 16, item: "gtceu:raw_neodymium", random_bonus: 16, weight: 10.0f }
+		{ count: 6, item: "gtceu:graphene_dust", random_bonus: 6, weight: 10.0f }
+	]
+	title: "GT IV Basic Rewards"
+}

@@ -1,0 +1,34 @@
+{
+	id: "499D88D44DAF4820"
+	loot_size: 1
+	order_index: 48
+	rewards: [
+		{ count: 4, item: "gtceu:capacitor", random_bonus: 4, weight: 5.0f }
+		{ count: 4, item: "gtceu:inductor", random_bonus: 4, weight: 5.0f }
+		{ item: "gtceu:ev_robot_arm", weight: 4.0f }
+		{ count: 4, item: "gtceu:silicon_wafer", random_bonus: 4, weight: 10.0f }
+		{ count: 2, item: "gtceu:plastic_printed_circuit_board", random_bonus: 2, weight: 5.0f }
+		{ count: 4, item: "gtceu:transistor", random_bonus: 4, weight: 8.0f }
+		{ count: 6, item: "gtceu:ram_chip", random_bonus: 6, weight: 6.0f }
+		{ item: "gtceu:ram_wafer", random_bonus: 2, weight: 6.0f }
+		{ item: "gtceu:ev_electric_pump", weight: 5.0f }
+		{ item: "gtceu:ev_electric_piston", weight: 5.0f }
+		{ item: "gtceu:ev_conveyor_module", weight: 5.0f }
+		{ count: 4, item: "gtceu:small_gallium_arsenide_dust", random_bonus: 4, weight: 7.0f }
+		{ count: 2, item: "gtceu:plastic_circuit_board", random_bonus: 2, weight: 7.0f }
+		{ count: 2, item: "gtceu:micro_processor", random_bonus: 2, weight: 7.0f }
+		{ item: "gtceu:micro_processor_assembly", random_bonus: 2, weight: 5.0f }
+		{ item: "gtceu:micro_processor_computer", weight: 3.0f }
+		{ count: 6, item: "gtceu:diode", random_bonus: 6, weight: 8.0f }
+		{ count: 6, item: "gtceu:resistor", random_bonus: 6, weight: 8.0f }
+		{ item: "gtceu:ev_electric_motor", weight: 5.0f }
+		{ count: 12, item: "gtceu:rutile_dust", random_bonus: 12, weight: 12.0f }
+		{ item: "gtceu:ev_machine_hull", weight: 10.0f }
+		{ item: "gtceu:ev_machine_casing", weight: 12.0f }
+		{ count: 12, item: "gtceu:titanium_ingot", random_bonus: 12, weight: 10.0f }
+		{ count: 4, item: "gtceu:cpu_chip", random_bonus: 4, weight: 10.0f }
+		{ count: 2, item: "gtceu:cpu_wafer", random_bonus: 2, weight: 10.0f }
+		{ count: 12, item: "gtceu:titanium_plate", random_bonus: 12, weight: 10.0f }
+	]
+	title: "GT EV Basic Rewards"
+}
