@@ -31,18 +31,34 @@ GTCEuServerEvents.oreVeins(event => {
         let veinGen = vein.veinGenerator();
         if (veinGen instanceof $VeinedVeinGenerator) {
             veinGen = veinGen.copy()
-            veinGen.minYLevel = startY;
-            veinGen.maxYLevel = endY;
+            veinGen.minYLevel(startY);
+            veinGen.maxYLevel(endY);
+            // veinGen.minYLevel = startY;
+            // veinGen.maxYLevel = endY;
         } else if (veinGen instanceof $DikeVeinGenerator) {
             veinGen = veinGen.copy()
-            veinGen.minYLevel = startY;
-            veinGen.maxYLevel = endY;
+            veinGen.minYLevel(startY);
+            veinGen.maxYLevel(endY);
+            var blocks = veinGen.getAllEntries()
+            blocks.forEach((block) => {
+                veinGen.withBlock(new GTDikeBlockDefinition['(com.mojang.datafixers.util.Either,int,int,int)'](block.key, block.value, startY, endY))
+            })
+            // veinGen.minYLevel = startY;
+            // veinGen.maxYLevel = endY;
         }
+
+        
         
         vein.heightRangeUniform(startY, endY)
         vein.dimensions('allthemodium:mining')
         vein.biomes('#allthemodium:mining_features/mining_biomes')
         vein['veinGenerator(com.gregtechceu.gtceu.api.data.worldgen.generator.VeinGenerator)'](veinGen)
+        // vein.surfaceIndicatorGenerator(indicator => indicator
+        //     .block(Block.getBlock("minecraft:air"))
+        //     .placement("above")
+        //     .density(0.4)
+        //     .radius(5))
+
 
         // event.add(veinId + '_mining', newVein => {
         //     let veinGen = vein.veinGenerator();
@@ -76,12 +92,12 @@ GTCEuServerEvents.oreVeins(event => {
             .layer('deepslate')
             .dimensions('allthemodium:mining')
             .biomes('#allthemodium:mining_features/mining_biomes')
-            .heightRangeUniform(-50, 10)
+            .heightRangeUniform(65, 128)
             .dikeVeinGenerator(generator => 
-                generator.withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("fluorite"), 3, -64, 320))
-                        .withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("sulfur"), 1, -64, 320))
-                        .withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("gypsum"), 2, -64, 320))
-                        .withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("dolomite"), 1, -64, 320))
+                generator.withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("fluorite"), 3, 65, 128))
+                        .withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("sulfur"), 1, 65, 128))
+                        .withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("gypsum"), 2, 65, 128))
+                        .withBlock(new GTDikeBlockDefinition['(com.gregtechceu.gtceu.api.data.chemical.material.Material,int,int,int)'](GTMaterials.get("dolomite"), 1, 65, 128))
             )
         })
 })

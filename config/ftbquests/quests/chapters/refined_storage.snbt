@@ -1497,58 +1497,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["718A2040D868E09F"]
-			description: ["Infinite item storage!"]
-			hide_dependency_lines: false
-			id: "61D4080EC66A57DE"
-			rewards: [
-				{
-					id: "4B33D2CCD34DB34B"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-				{
-					id: "72250B23E6B0E5F4"
-					table_id: 1739527894044761161L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "4A52CA691C535DE8"
-				item: "extradisks:infinite_storage_part"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["49772923B8AF0F1F"]
-			description: ["Infinite fluid storage!"]
-			hide_dependency_lines: false
-			id: "1D483A4F8A2E48C5"
-			rewards: [
-				{
-					id: "0FED744A44F71189"
-					table_id: 3567941291661635734L
-					type: "random"
-				}
-				{
-					id: "0315A15FD7D5B1AC"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "48E0006E9C8D0BC9"
-				item: "extradisks:infinite_fluid_storage_part"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 4.5d
-		}
-		{
 			dependencies: [
 				"4B81E84CAE814BA9"
 				"4101F8275B41C79B"

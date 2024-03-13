@@ -407,6 +407,8 @@
 				"Ores generate in veins at varying heights spaced apart by every 3 chunks"
 				""
 				"Ore veins are often comprised of 3 or more different ores"
+				""
+				"All GT Ore veins were moved to the Mining Dimension from every other dimension"
 			]
 			disable_toast: true
 			icon: "minecraft:grass_block"
@@ -418,11 +420,11 @@
 				xp: 10
 			}]
 			tasks: [{
-				id: "6AA2E87093C3A36F"
-				optional_task: true
-				title: "Overworld Ores"
-				type: "checkmark"
+				dimension: "allthemodium:mining"
+				id: "5E966121508B53EA"
+				type: "dimension"
 			}]
+			title: "Overworld Layer Ores"
 			x: -5.5d
 			y: 0.5d
 		}
@@ -2161,7 +2163,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["Every 3 chunks you'll find another ore vein, occasionally lava will prevent a vein from spawning though"]
+			description: ["Every 3 chunks you'll find another ore vein!"]
 			icon: "minecraft:netherrack"
 			id: "0D20644407244A60"
 			rewards: [{
@@ -2170,17 +2172,17 @@
 				xp: 10
 			}]
 			tasks: [{
-				dimension: "minecraft:the_nether"
+				dimension: "allthemodium:mining"
 				id: "500548E772861A58"
-				title: "Go to the Nether"
+				title: "Nether Layer Ores"
 				type: "dimension"
 			}]
-			title: "Nether Ores"
+			title: "Nether Layer Ores"
 			x: 6.0d
 			y: 3.5d
 		}
 		{
-			description: ["3 chunks apart, now with void to cause them not to spawn sometimes! "]
+			description: ["3 chunks apart, in case you didn't know that already"]
 			icon: "minecraft:end_stone"
 			id: "244220A5D9F4C702"
 			rewards: [{
@@ -2189,12 +2191,12 @@
 				xp: 10
 			}]
 			tasks: [{
-				dimension: "minecraft:the_end"
+				dimension: "allthemodium:mining"
 				id: "540231448A4DE43B"
-				title: "Visit the End"
+				title: "End Layer Ores"
 				type: "dimension"
 			}]
-			title: "End Ores"
+			title: "End Layer Ores"
 			x: 6.0d
 			y: -2.5d
 		}
