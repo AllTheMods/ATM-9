@@ -108,7 +108,7 @@
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -0.5d
 			y: -4.5d
 		}
 		{
@@ -116,6 +116,13 @@
 				"063F5023D56CA6B1"
 				"6A82827978D3483B"
 				"06BBD7B736C564C1"
+			]
+			description: [
+				"Transistors are truly a modern marvel and have allowed the electronic age to boom"
+				""
+				"They allow for much more complex electronics by amplifying signals and acting as a switch, introducing the capability for logic programming!"
+				""
+				"In our case, they allow us to make the Integrated Circuit!"
 			]
 			id: "0E603F1FE596DB2A"
 			rewards: [{
@@ -130,8 +137,8 @@
 				item: "gtceu:transistor"
 				type: "item"
 			}]
-			x: 1.5000000000000009d
-			y: 0.19999999999999996d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["100ADA8508F6502A"]
@@ -170,11 +177,8 @@
 			y: -1.4999999999999984d
 		}
 		{
-			dependencies: [
-				"54A164C737660C4E"
-				"2AB457E29360E3B8"
-			]
-			description: [""]
+			dependencies: ["2AB457E29360E3B8"]
+			description: ["Once cooled we can begin to shape the ingot into more useful materials"]
 			id: "662E0A84D755064F"
 			rewards: [
 				{
@@ -196,8 +200,8 @@
 				item: "gtceu:silicon_ingot"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: 1.5d
+			y: -0.1d
 		}
 		{
 			dependencies: ["5E90EF7FF530C477"]
@@ -222,8 +226,8 @@
 				item: "gtceu:polyethylene_bucket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.4d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -242,7 +246,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.19999999999999996d
+			y: 0.5d
 		}
 		{
 			dependencies: ["707EBA5717938515"]
@@ -484,10 +488,13 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -1.0d
+			y: -1.3000000000000003d
 		}
 		{
-			dependencies: ["589F47DE51213920"]
+			dependencies: [
+				"589F47DE51213920"
+				"72E5439299E957A8"
+			]
 			description: [
 				"Put those dusts we just made into your electric blast furnace and get some hot silicon!"
 				""
@@ -517,8 +524,8 @@
 				item: "gtceu:hot_silicon_ingot"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.0d
+			x: 1.5d
+			y: -1.3000000000000003d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
@@ -683,11 +690,12 @@
 				}
 			]
 			title: "Silicon ingredients"
-			x: -0.5d
-			y: -2.0d
+			x: 0.5d
+			y: -2.2d
 		}
 		{
 			dependencies: ["662E0A84D755064F"]
+			description: ["This Silicon Plate will allow us to make the Transistor! A new electrical component, yay!"]
 			id: "06BBD7B736C564C1"
 			rewards: [{
 				id: "7154B2B74B4F5FAC"
@@ -699,8 +707,8 @@
 				item: "gtceu:silicon_plate"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 2.5d
+			y: -0.1d
 		}
 		{
 			dependencies: [
@@ -848,7 +856,7 @@
 				item: "gtceu:mv_polarizer"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -6.0d
 			y: -3.0d
 		}
 		{
@@ -950,8 +958,8 @@
 				item: "gtceu:magnetic_steel_rod"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.0d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["72DACA35906D7E5B"]
@@ -1386,6 +1394,8 @@
 				"63621F0189B6EB1B"
 				"7963008B930D84BB"
 			]
+			description: ["A necessary component for the &bMV Cutter&r"]
+			hide_dependent_lines: true
 			id: "707EBA5717938515"
 			rewards: [
 				{
@@ -1409,13 +1419,12 @@
 				item: "gtceu:vanadium_steel_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.5d
+			x: -0.5d
+			y: -3.6d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
 			description: ["Making &bvanadium steel dust&r is an MV recipe in the Mixer, so it is time for an upgrade! "]
-			hide_dependency_lines: true
 			id: "63621F0189B6EB1B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1428,13 +1437,16 @@
 				item: "gtceu:mv_mixer"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -0.5d
+			x: -1.5d
+			y: -2.2d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
-			description: ["This machine is very useful for acquiring &dchromium dust&r, which we'll need to make &bstainless steel dust&r and &bvanadium steel dust&r"]
-			hide_dependency_lines: true
+			description: [
+				"This machine is very useful for acquiring &dchromium dust&r, which we'll need to make &bstainless steel dust&r and &bvanadium steel dust&r"
+				""
+				"You could chain process Redstone Dust for Ruby Dust to then &eElectrolyze&r for &dChromium Dust&r"
+			]
 			id: "7963008B930D84BB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1447,8 +1459,162 @@
 				item: "gtceu:mv_electrolyzer"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.5d
+			x: -1.5d
+			y: -3.1d
+		}
+		{
+			dependencies: ["63621F0189B6EB1B"]
+			description: ["Put Aluminium dust, Iron dust, and Chromium dust together in a &eMixer&r and watch it blend!"]
+			id: "1812BF72305CFFCF"
+			rewards: [{
+				count: 4
+				id: "74819F7F2D53028B"
+				item: "gtceu:chromium_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CF35B15AD75E179"
+				item: "gtceu:kanthal_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.2d
+		}
+		{
+			dependencies: [
+				"1812BF72305CFFCF"
+				"54A164C737660C4E"
+				"3DCCEDC5A817EBEB"
+			]
+			description: ["Cook the dust up in the &aEBF&r and cool it down in the &eChemical Bath&r"]
+			id: "358706CA93DC2A9C"
+			rewards: [{
+				count: 4
+				id: "71E792F83E0444B2"
+				item: "gtceu:chromium_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E1E15185D672109"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.3000000000000003d
+		}
+		{
+			dependencies: ["358706CA93DC2A9C"]
+			description: [
+				"Use that &eExtractor&r to get your copper in a liquid state"
+				""
+				"&eWire Cut&r the Kanthal ingots"
+				""
+				"&eBend&r that Aluminium"
+				""
+				"Then put it all together in your &eAssembler&r!"
+				""
+				"Replace the Cupronickel Coils on your &aEBF&r with this stuff"
+			]
+			id: "72E5439299E957A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "086F84F7B79F7B8B"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 16L
+				id: "6C8DCC0E471D0163"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.3000000000000003d
+		}
+		{
+			dependencies: ["1F92F7314DF3C3E2"]
+			description: [
+				"Follow the same steps as the Emerald/Ruby lens to make the &9Sapphire Lens&r"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"4DD7F3508B757EF0\"}, \"text\": \"How to make the gem plate\", \"color\": \"green\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } }}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"26004F997C758011\"}, \"text\": \"How to make the gem lens\", \"color\": \"yellow\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } }}"
+			]
+			hide_dependency_lines: true
+			id: "20A0A574F51EEF74"
+			tasks: [{
+				id: "71285AC928BBD40E"
+				item: "gtceu:sapphire_lens"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["20A0A574F51EEF74"]
+			description: ["That's right, another &eLaser Engraver&r recipe... these quests are becoming non-linear"]
+			id: "5B92DA55541B168B"
+			rewards: [{
+				count: 2
+				id: "0B4A34429F4F377A"
+				item: "gtceu:silicon_wafer"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B0A35D87D18E3A1"
+				item: "gtceu:ulpic_wafer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.4d
+		}
+		{
+			dependencies: ["5B92DA55541B168B"]
+			description: ["Back into the &ecutter&r!"]
+			id: "4E5FE40373675AED"
+			rewards: [{
+				id: "27DFB41D8F75BF3B"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "1C973641E5F60EB4"
+				item: "gtceu:ulpic_chip"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.4d
+		}
+		{
+			dependencies: ["4E5FE40373675AED"]
+			description: [
+				"You can use a GT Assembler or a regular crafting grid to make this. Since pattern space is precious, especially for the GT Assembler, perhaps a Crafter or Molecular Assembler can handle putting it together"
+				""
+				"Swap out the LV Energy Hatches on your &eElectric Blast Furnace&r for these and your EBF can now process &6HV&r recipes! "
+				""
+				"Make sure you upgrade your power source too! "
+			]
+			id: "3DCCEDC5A817EBEB"
+			min_width: 250
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FF28AC1A353565C"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			subtitle: "EBF Upgrades"
+			tasks: [{
+				count: 2L
+				id: "3E686316F9E6B29E"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.20000000000000004d
 		}
 	]
 	title: "{atm9.chapters.28.title}"

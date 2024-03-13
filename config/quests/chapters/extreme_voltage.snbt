@@ -421,7 +421,6 @@
 		}
 		{
 			dependencies: [
-				"72E5439299E957A8"
 				"0911814AFFFCF885"
 				"6D082AE4CF9A56DC"
 			]
@@ -621,65 +620,6 @@
 			title: "Low Power Integrated Chip"
 			x: 1.0d
 			y: 4.5d
-		}
-		{
-			dependencies: ["358706CA93DC2A9C"]
-			description: [
-				"Use that &eExtractor&r to get your copper in a liquid state"
-				""
-				"&eWire Cut&r the Kanthal ingots"
-				""
-				"&eBend&r that Aluminium"
-				""
-				"Then put it all together in your &eAssembler&r!"
-				""
-				"Replace the Cupronickel Coils on your &aEBF&r with this stuff"
-			]
-			id: "72E5439299E957A8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5C29ED861964C9EC"
-				table_id: 5304546381530089504L
-				type: "loot"
-			}]
-			tasks: [{
-				count: 16L
-				id: "6C8DCC0E471D0163"
-				item: "gtceu:kanthal_coil_block"
-				type: "item"
-			}]
-			x: 3.000000000000001d
-			y: -1.0d
-		}
-		{
-			dependencies: ["1812BF72305CFFCF"]
-			description: ["Cook the dust up in the &aEBF&r and cool it down in the &eChemical Bath&r or &aVacuum Freezer&r"]
-			id: "358706CA93DC2A9C"
-			tasks: [{
-				id: "4E1E15185D672109"
-				item: "gtceu:kanthal_ingot"
-				type: "item"
-			}]
-			x: 3.000000000000001d
-			y: -2.5000000000000004d
-		}
-		{
-			description: ["Put Aluminium dust, Iron dust, and Chromium dust together in a &eMixer&r and watch it blend!"]
-			id: "1812BF72305CFFCF"
-			rewards: [{
-				id: "74819F7F2D53028B"
-				item: "gtceu:chromium_dust"
-				random_bonus: 2
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "2CF35B15AD75E179"
-				item: "gtceu:kanthal_dust"
-				type: "item"
-			}]
-			x: 3.000000000000001d
-			y: -4.0d
 		}
 		{
 			dependencies: [

@@ -40,7 +40,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -67,7 +67,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -95,7 +95,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -121,7 +121,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -149,7 +149,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -191,7 +191,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
@@ -213,7 +213,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -259,7 +259,7 @@
 				}
 			]
 			x: 1.0d
-			y: 7.5d
+			y: 5.500000000000005d
 		}
 		{
 			dependencies: ["681110DE6B4E6ED8"]
@@ -275,7 +275,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 8.5d
+			y: 6.500000000000005d
 		}
 		{
 			description: ["Cleanroom Glass can be used for the walls in place of the Plascrete, just not the edges or floor"]
@@ -287,11 +287,10 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 8.5d
+			y: 6.500000000000005d
 		}
 		{
 			dependencies: [
-				"3DCCEDC5A817EBEB"
 				"70C952B8FF3418F6"
 				"4FD6092D9C2A485C"
 			]
@@ -321,88 +320,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -3.95d
-		}
-		{
-			dependencies: ["4E5FE40373675AED"]
-			description: [
-				"You can use a GT Assembler or a regular crafting grid to make this. Since pattern space is precious, especially for the GT Assembler, perhaps a Crafter or Molecular Assembler can handle putting it together"
-				""
-				"Swap out the LV Energy Hatches on your &eElectric Blast Furnace&r for these and your EBF can now process &6HV&r recipes! "
-				""
-				"Make sure you upgrade your power source too! "
-			]
-			id: "3DCCEDC5A817EBEB"
-			min_width: 250
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "06054F7242DCA321"
-				table_id: 822291801189586703L
-				type: "loot"
-			}]
-			subtitle: "EBF Upgrades"
-			tasks: [{
-				count: 2L
-				id: "3E686316F9E6B29E"
-				item: "gtceu:mv_energy_input_hatch"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["5B92DA55541B168B"]
-			description: ["Back into the &ecutter&r!"]
-			id: "4E5FE40373675AED"
-			rewards: [{
-				id: "27DFB41D8F75BF3B"
-				type: "xp"
-				xp: 250
-			}]
-			tasks: [{
-				id: "1C973641E5F60EB4"
-				item: "gtceu:ulpic_chip"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["20A0A574F51EEF74"]
-			description: ["That's right, another &eLaser Engraver&r recipe..."]
-			id: "5B92DA55541B168B"
-			rewards: [{
-				count: 2
-				id: "0B4A34429F4F377A"
-				item: "gtceu:silicon_wafer"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "0B0A35D87D18E3A1"
-				item: "gtceu:ulpic_wafer"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -4.0d
-		}
-		{
-			description: [
-				"Follow the same steps in MV for the Emerald/Ruby lens to make the &9Sapphire Lens&r"
-				""
-				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"4DD7F3508B757EF0\"}, \"text\": \"How to make the gem plate\", \"color\": \"green\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } }}"
-				""
-				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"26004F997C758011\"}, \"text\": \"How to make the gem lens\", \"color\": \"yellow\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } }}"
-			]
-			id: "20A0A574F51EEF74"
-			shape: "square"
-			tasks: [{
-				id: "71285AC928BBD40E"
-				item: "gtceu:sapphire_lens"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -3.0d
+			y: -1.9500000000000002d
 		}
 		{
 			dependencies: [
@@ -436,7 +354,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["54BEC01D84237DBC"]
@@ -461,7 +379,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -7.0d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -486,7 +404,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["12F24C9C6D2AF887"]
@@ -511,8 +429,8 @@
 				item: "gtceu:inductor"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.0d
+			x: 7.5d
+			y: 2.8d
 		}
 		{
 			description: [
@@ -548,7 +466,7 @@
 			]
 			title: "CPU Chip"
 			x: 3.2d
-			y: -1.7999999999999998d
+			y: 0.20000000000000018d
 		}
 		{
 			dependencies: ["0B54990168F9B136"]
@@ -565,7 +483,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["16154B77454631F4"]
@@ -590,7 +508,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["62161044F3F3AB87"]
@@ -607,7 +525,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["78DC12C2EB504E56"]
@@ -624,7 +542,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -651,7 +569,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -8.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["503E5B82A6C89278"]
@@ -676,7 +594,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["68526BA198AADD8E"]
@@ -699,7 +617,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			description: ["If you cannot find &belectrotine&r in the Nether, you can create it by mixing electrum and redstone in a &eMixer&r on &aProgram 1&r"]
@@ -717,7 +635,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6A243EDB2A99C76D"]
@@ -733,8 +651,8 @@
 				item: "gtceu:nickel_zinc_ferrite_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.0d
+			x: 6.5d
+			y: 2.8d
 		}
 		{
 			description: [
@@ -754,8 +672,8 @@
 				item: "gtceu:ferrite_mixture_dust"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 5.5d
+			y: 2.8d
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
@@ -820,7 +738,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 1.0d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -852,7 +770,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 6.5d
+			y: 4.500000000000005d
 		}
 		{
 			dependencies: ["0115271C840CD387"]
@@ -871,7 +789,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
@@ -901,7 +819,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -954,7 +872,7 @@
 				}
 			]
 			x: -1.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1957A39483E15508"]
@@ -975,7 +893,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6A2D7380E340B77D"]
@@ -996,7 +914,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -1020,7 +938,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -1042,7 +960,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -1062,7 +980,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -1085,7 +1003,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -1101,7 +1019,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 8.5d
+			y: 6.500000000000005d
 		}
 		{
 			description: [
@@ -1137,7 +1055,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1166,7 +1084,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
@@ -1196,7 +1114,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
@@ -1229,12 +1147,12 @@
 				}
 			]
 			x: -8.5d
-			y: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
 			description: [
-				"Finally, at &6HV&r you get access to the &dByproducts&r"
+				"Finally, at &6HV&r you get access to the &dByproducts&r from the &eMacerator&r"
 				""
 				"These byproducts are often incredibly useful and will come in handy multiple times as you progress"
 			]
@@ -1267,7 +1185,7 @@
 			]
 			title: "Ore Processing Upgrade"
 			x: -7.5d
-			y: 2.5d
+			y: 4.5d
 		}
 	]
 	title: "{atm9.chapters.29.title}"
