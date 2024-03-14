@@ -10,13 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"&9Refined Storage&r is a mass storage mod that offers a network-based storage system."
-				""
-				"To get started with the mod, you'll want to make the &6Controller&r."
-				""
-				"The Controller is the \"Core\" of your storage network. When provided with power, it gives life to all RS components connected. Each network can only have one Controller."
-			]
+			description: ["{atm9.quest.rs.desc.refined}"]
 			id: "01F18150EC923482"
 			rewards: [
 				{
@@ -32,19 +26,19 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Getting Started"
+			subtitle: "{atm9.quest.rs.subt.refined}"
 			tasks: [{
 				id: "196B8B6D59ABFC74"
 				item: "refinedstorage:controller"
 				type: "item"
 			}]
-			title: "&dRefined Storage"
+			title: "{atm9.quest.rs.refined}"
 			x: -6.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7604D8B3C9FCCFD9"]
-			description: ["The 1k Storage Disk can store 1000 items."]
+			description: ["{atm9.quest.rs.desc.1kstorage}"]
 			id: "4101F8275B41C79B"
 			rewards: [{
 				id: "0E75917E7E00D711"
@@ -57,12 +51,13 @@
 				item: "refinedstorage:1k_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.1kstorage}"
 			x: -0.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4101F8275B41C79B"]
-			description: ["The 4k Storage Disk can store 4000 items."]
+			description: ["{atm9.quest.rs.desc.4kstorage}"]
 			id: "3FD801D7DE9176FB"
 			rewards: [
 				{
@@ -82,12 +77,13 @@
 				item: "refinedstorage:4k_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.4kstorage}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3FD801D7DE9176FB"]
-			description: ["The 16k Storage Disk can store 16000 items."]
+			description: ["{atm9.quest.rs.desc.16kstorage}"]
 			id: "03C78165C5CBD9E1"
 			rewards: [
 				{
@@ -107,12 +103,13 @@
 				item: "refinedstorage:16k_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.16kstorage}"
 			x: -0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["03C78165C5CBD9E1"]
-			description: ["The 64k Storage Disk can store 64000 items."]
+			description: ["{atm9.quest.rs.desc.64kstorage}"]
 			id: "3F8EEE1AD4420702"
 			rewards: [
 				{
@@ -132,12 +129,13 @@
 				item: "refinedstorage:64k_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.64kstorage}"
 			x: -0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["123807F4BBE75120"]
-			description: ["The 65536k Storage Disk can store 65536000 items."]
+			description: ["{atm9.quest.rs.desc.65536kstorage}"]
 			id: "1D2700821045CCF2"
 			rewards: [
 				{
@@ -157,12 +155,13 @@
 				item: "extradisks:65536k_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.65536kstorage}"
 			x: 0.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["7DD638E4111D66E7"]
-			description: ["The 256k Storage Disk can store 256000 items."]
+			description: ["{atm9.quest.rs.desc.256kstorage}"]
 			id: "4C1F13F5A0E273EF"
 			rewards: [{
 				id: "03F16EB9DA9624AD"
@@ -175,12 +174,13 @@
 				item: "extradisks:256k_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.256kstorage}"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["4C1F13F5A0E273EF"]
-			description: ["The 1024k Storage Disk can store 1024000 items."]
+			description: ["{atm9.quest.rs.desc.1024kstorage}"]
 			id: "7C94F6AE2A793858"
 			rewards: [{
 				id: "12217A7AEFD0B703"
@@ -193,12 +193,13 @@
 				item: "extradisks:1024k_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.1024kstorage}"
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7C94F6AE2A793858"]
-			description: ["The 4096k Storage Disk can store 4096000 items."]
+			description: ["{atm9.quest.rs.desc.4096kstorage}"]
 			id: "52ACADDFCB0E22AB"
 			rewards: [
 				{
@@ -218,12 +219,13 @@
 				item: "extradisks:4096k_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.4096kstorage}"
 			x: 1.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["52ACADDFCB0E22AB"]
-			description: ["The 16384k Storage Disk can store 16384000 items."]
+			description: ["{atm9.quest.rs.desc.16384kstorage}"]
 			id: "123807F4BBE75120"
 			rewards: [
 				{
@@ -243,12 +245,13 @@
 				item: "extradisks:16384k_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.16384kstorage}"
 			x: 0.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1D2700821045CCF2"]
-			description: ["The 262m Storage Disk can store.... well....  262m items."]
+			description: ["{atm9.quest.rs.desc.262mstorage}"]
 			id: "4966162FBA933453"
 			rewards: [
 				{
@@ -273,16 +276,13 @@
 				item: "extradisks:262144k_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.262mstorage}"
 			x: -0.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["4966162FBA933453"]
-			description: [
-				"You won't believe this."
-				""
-				"The 1048m Storage Disk can store 1048m items."
-			]
+			description: ["{atm9.quest.rs.desc.1048mstorage}"]
 			id: "718A2040D868E09F"
 			rewards: [
 				{
@@ -312,6 +312,7 @@
 				item: "extradisks:1048576k_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.1048mstorage}"
 			x: -1.0d
 			y: 4.5d
 		}
@@ -321,11 +322,7 @@
 				"3F8EEE1AD4420702"
 			]
 			dependency_requirement: "one_completed"
-			description: [
-				"It's like the regular one but ADVANCED."
-				""
-				"These are used to house the larger Disk Drives. "
-			]
+			description: ["{atm9.quest.rs.desc.advanced_housing}"]
 			id: "7DD638E4111D66E7"
 			rewards: [{
 				id: "1D1650B2B18131E3"
@@ -339,16 +336,13 @@
 				item: "extradisks:advanced_storage_housing"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.advanced_housing}"
 			x: -1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["65C8A43FEDBA3835"]
-			description: [
-				"The &9Crafter&r is how we store patterns for our Network to know how to craft items. Once a recipe is placed into the crafter, you'll be able to \"Request\" an item to be crafted from your Grid. You can do this by hitting CTRL+Shift when clicking on the item you have a recipe for to bring up the crafting GUI."
-				""
-				"This block can also be placed facing a machine to use &6Processing Patterns&r. For example, if you point the Crafter at a Furnace, you can put a recipe inside for a recipe you need a furnace for, like smelting raw processors. As long as the crafter is attached to your system and the Furnace has an importer attached to it, the Crafter will allow you to request the smelted version of the Processor!"
-			]
+			description: ["{atm9.quest.rs.desc.crafter}"]
 			id: "44881E39AB1D62AA"
 			min_width: 300
 			rewards: [
@@ -366,18 +360,19 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "Automated crafting!"
+			subtitle: "{atm9.quest.rs.subt.crafter}"
 			tasks: [{
 				id: "202A7EA0318662C5"
 				item: "refinedstorage:crafter"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.crafter}"
 			x: 2.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["44881E39AB1D62AA"]
-			description: ["An upgraded crafter that holds more patterns and has an increased crafting speed."]
+			description: ["{atm9.quest.rs.desc.iron}"]
 			hide: true
 			id: "45FF08E4DB6F7F0E"
 			rewards: [
@@ -398,12 +393,13 @@
 				item: "extrastorage:iron_crafter"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.iron}"
 			x: 1.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["45FF08E4DB6F7F0E"]
-			description: ["An upgraded crafter that holds more patterns and has an increased crafting speed."]
+			description: ["{atm9.quest.rs.desc.gold}"]
 			hide: true
 			id: "4A198E875A6B0A64"
 			rewards: [
@@ -424,12 +420,13 @@
 				item: "extrastorage:gold_crafter"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.gold}"
 			x: 1.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["4A198E875A6B0A64"]
-			description: ["An upgraded crafter that holds more patterns and has an increased crafting speed."]
+			description: ["{atm9.quest.rs.desc.diamond}"]
 			hide: true
 			id: "189018F641FBB44E"
 			rewards: [
@@ -450,12 +447,13 @@
 				item: "extrastorage:diamond_crafter"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.diamond}"
 			x: 2.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["189018F641FBB44E"]
-			description: ["An upgraded crafter that holds more patterns and has an increased crafting speed."]
+			description: ["{atm9.quest.rs.desc.netherite}"]
 			hide: true
 			id: "24BD32102AFA1691"
 			rewards: [
@@ -476,34 +474,32 @@
 				item: "extrastorage:netherite_crafter"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.netherite}"
 			x: 2.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["01F18150EC923482"]
-			description: ["The &9Wrench&r is used to rotate blocks, instantly break Refined Storage blocks, or break Covers."]
+			description: ["{atm9.quest.rs.desc.wrench}"]
 			id: "3FAD086F7D9CCAE9"
 			rewards: [{
 				id: "182081F231AA3B51"
 				table_id: 4001436279668650237L
 				type: "random"
 			}]
-			subtitle: "You spin me right round'"
+			subtitle: "{atm9.quest.rs.subt.wrench}"
 			tasks: [{
 				id: "411F819314EF6C57"
 				item: "refinedstorage:wrench"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.wrench}"
 			x: -5.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["01F18150EC923482"]
-			description: [
-				"&9Cables&r are used to connect blocks and items to your system."
-				""
-				"In the beginning, you can get by with placing blocks next to each other to connect them to your system, but Cables allow you to extend out! This is a staple for any Refined Storage Network."
-			]
+			description: ["{atm9.quest.rs.desc.cables}"]
 			id: "6904EC449FBEE387"
 			rewards: [
 				{
@@ -521,27 +517,19 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "Connecting The System"
+			subtitle: "{atm9.quest.rs.subt.cables}"
 			tasks: [{
 				id: "1A2C2B95FDA9D2DA"
 				item: "refinedstorage:cable"
 				type: "item"
 			}]
-			title: "Cables"
+			title: "{atm9.quest.rs.cables}"
 			x: -6.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["6904EC449FBEE387"]
-			description: [
-				"The &9Importer&r is used to pull items from a connected block."
-				""
-				"For example, you can use these on Furnaces to pull the finished product out into your system."
-				""
-				"Make sure to grab some &6Speed&r or &6Stack&r upgrades for them!"
-				""
-				"You can also filter what items are pulled. Need more filter slots? Upgrade it!"
-			]
+			description: ["{atm9.quest.rs.desc.importer}"]
 			hide: true
 			id: "532229D285CA4858"
 			rewards: [{
@@ -550,22 +538,19 @@
 				type: "random"
 			}]
 			shape: "hexagon"
-			subtitle: "Importing Items!"
+			subtitle: "{atm9.quest.rs.subt.importer}"
 			tasks: [{
 				id: "0E57EE9B975D05C3"
 				item: "refinedstorage:importer"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.importer}"
 			x: -6.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["6904EC449FBEE387"]
-			description: [
-				"This interface will automatically break the block it is attached to."
-				""
-				"You can also set it to whitelist blocks, which is useful for automating certain processes, like making casings in Create."
-			]
+			description: ["{atm9.quest.rs.desc.destructor}"]
 			hide: true
 			id: "6092490EC9008A05"
 			rewards: [{
@@ -574,22 +559,19 @@
 				type: "random"
 			}]
 			shape: "hexagon"
-			subtitle: "Breaking Blocks!"
+			subtitle: "{atm9.quest.rs.subt.destructor}"
 			tasks: [{
 				id: "5762E9CE9A7D3FCA"
 				item: "refinedstorage:destructor"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.destructor}"
 			x: -4.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["6904EC449FBEE387"]
-			description: [
-				"This interface will place the designated block in the direction it is pointed."
-				""
-				"You can designate the block within the GUI. This is useful for automation!"
-			]
+			description: ["{atm9.quest.rs.desc.constructor}"]
 			hide: true
 			id: "2CFEE04BA574921E"
 			rewards: [{
@@ -598,24 +580,19 @@
 				type: "random"
 			}]
 			shape: "hexagon"
-			subtitle: "Placing Blocks!"
+			subtitle: "{atm9.quest.rs.subt.constructor}"
 			tasks: [{
 				id: "2BB33FEBA2B071DF"
 				item: "refinedstorage:constructor"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.constructor}"
 			x: -5.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["6904EC449FBEE387"]
-			description: [
-				"The &9Exporter&r is used to push items from your system into a block from your Network storage."
-				""
-				"This can be used to fill Furnaces with ores or fuel, push materials into designated chests, etc."
-				""
-				"You can also filter what items are pushed. Need more filter slots? Upgrade it!"
-			]
+			description: ["{atm9.quest.rs.desc.exporter}"]
 			hide: true
 			id: "4CD83943865018EA"
 			rewards: [{
@@ -624,12 +601,13 @@
 				type: "random"
 			}]
 			shape: "hexagon"
-			subtitle: "Exporting Items!"
+			subtitle: "{atm9.quest.rs.subt.exporter}"
 			tasks: [{
 				id: "528F054C15BB7191"
 				item: "refinedstorage:exporter"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.exporter}"
 			x: -7.5d
 			y: -6.0d
 		}
@@ -647,6 +625,7 @@
 				item: "cabletiers:elite_importer"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.eliteI}"
 			x: -6.5d
 			y: -7.5d
 		}
@@ -664,12 +643,13 @@
 				item: "cabletiers:ultra_importer"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.ultraI}"
 			x: -6.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["6092490EC9008A05"]
-			description: ["Has 18 filter slots and works 2x faster."]
+			description: ["{atm9.quest.rs.desc.eliteD}"]
 			id: "6D81DF90E9C2C049"
 			rewards: [{
 				id: "37B580B60ADC023E"
@@ -682,12 +662,13 @@
 				item: "cabletiers:elite_destructor"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.eliteD}"
 			x: -4.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["6D81DF90E9C2C049"]
-			description: ["Has 36 filter slots and works 6x faster."]
+			description: ["{atm9.quest.rs.desc.ultraD}"]
 			id: "0D4FE97640F2CA60"
 			rewards: [{
 				id: "13DA1147475AF6BF"
@@ -700,12 +681,13 @@
 				item: "cabletiers:ultra_destructor"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.ultraD}"
 			x: -4.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["2CFEE04BA574921E"]
-			description: ["Has 2 slots for Constructing."]
+			description: ["{atm9.quest.rs.desc.eliteC}"]
 			id: "6DB06E3984D0CF97"
 			rewards: [{
 				id: "15DEC3015C064B0E"
@@ -718,12 +700,13 @@
 				item: "cabletiers:elite_constructor"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.eliteC}"
 			x: -5.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["6DB06E3984D0CF97"]
-			description: ["Has 4 slots for Constructing."]
+			description: ["{atm9.quest.rs.desc.ultraC}"]
 			id: "1F55A483008F74FE"
 			rewards: [{
 				id: "6E7CC639224A46F1"
@@ -736,12 +719,13 @@
 				item: "cabletiers:ultra_constructor"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.ultraC}"
 			x: -5.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["4CD83943865018EA"]
-			description: ["Has 9 more filter slots and is 2x faster than the regular Exporter."]
+			description: ["{atm9.quest.rs.desc.eliteE}"]
 			id: "6973A5923AF7BF05"
 			rewards: [{
 				id: "18AB4575E10AC20E"
@@ -754,12 +738,13 @@
 				item: "cabletiers:elite_exporter"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.eliteE}"
 			x: -7.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["6973A5923AF7BF05"]
-			description: ["Has 27 more filter slots and is 6x faster than the regular Exporter. Also has the Stack Upgrade integrated."]
+			description: ["{atm9.quest.rs.desc.ultraE}"]
 			id: "5BB7648DC10E1E08"
 			rewards: [{
 				id: "7E7CF0891D09698A"
@@ -772,12 +757,13 @@
 				item: "cabletiers:ultra_exporter"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.ultraE}"
 			x: -7.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["7604D8B3C9FCCFD9"]
-			description: ["The 64k Fluid Storage Part is used to craft the 64k Fluid Storage Disk."]
+			description: ["{atm9.quest.rs.desc.64kfluid}"]
 			id: "4B81E84CAE814BA9"
 			rewards: [{
 				id: "2DAA28CC2526657D"
@@ -790,12 +776,13 @@
 				item: "refinedstorage:64k_fluid_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.64kfluid}"
 			x: -2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4B81E84CAE814BA9"]
-			description: ["The 256k Fluid Storage Part is used to craft the 256k Fluid Storage Disk."]
+			description: ["{atm9.quest.rs.desc.256kfluid}"]
 			id: "39C8E1705EF1CD31"
 			rewards: [{
 				id: "2F50B3D8AFF81B1E"
@@ -808,12 +795,13 @@
 				item: "refinedstorage:256k_fluid_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.256kfluid}"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["39C8E1705EF1CD31"]
-			description: ["The 1024k Fluid Storage Part is used to craft the 1024k Fluid Storage Disk."]
+			description: ["{atm9.quest.rs.desc.1024kfluid}"]
 			id: "60244F26B9ABED49"
 			rewards: [{
 				id: "5A3901DB229F523B"
@@ -826,12 +814,13 @@
 				item: "refinedstorage:1024k_fluid_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.1024kfluid}"
 			x: -2.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["60244F26B9ABED49"]
-			description: ["The 4096k Fluid Storage Part is used to craft the 4096k Fluid Storage Disk."]
+			description: ["{atm9.quest.rs.desc.4096kfluid}"]
 			id: "3751015CD5C84134"
 			rewards: [{
 				id: "1BF095899A5270F5"
@@ -844,12 +833,13 @@
 				item: "refinedstorage:4096k_fluid_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.4096kfluid}"
 			x: -2.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7DD638E4111D66E7"]
-			description: ["The 16384k Fluid Storage Part is used to craft the 16384k Fluid Storage Disk."]
+			description: ["{atm9.quest.rs.desc.16384kfluid}"]
 			id: "53CA0D6B4D5A17D5"
 			rewards: [{
 				id: "632DE7C72BB9103B"
@@ -862,12 +852,13 @@
 				item: "extradisks:16384k_fluid_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.16384kfluid}"
 			x: -3.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["53CA0D6B4D5A17D5"]
-			description: ["The 65536k Fluid Storage Part is used to craft the 65536k Fluid Storage Disk."]
+			description: ["{atm9.quest.rs.desc.65536kfluid}"]
 			id: "64D6C395B6304F40"
 			rewards: [{
 				id: "78883095DF1F6CC5"
@@ -880,12 +871,13 @@
 				item: "extradisks:65536k_fluid_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.65536kfluid}"
 			x: -4.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["64D6C395B6304F40"]
-			description: ["The 262m Fluid Storage Part is used to craft the 262m Fluid Storage Disk."]
+			description: ["{atm9.quest.rs.desc.262mfluid}"]
 			id: "17920C436DDBBD07"
 			rewards: [
 				{
@@ -905,12 +897,13 @@
 				item: "extradisks:262144k_fluid_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.262mfluid}"
 			x: -3.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["17920C436DDBBD07"]
-			description: ["The 1048m Fluid Storage Part is used to craft the 1048m Fluid Storage Disk."]
+			description: ["{atm9.quest.rs.desc.1048mfluid}"]
 			id: "49772923B8AF0F1F"
 			rewards: [
 				{
@@ -930,20 +923,13 @@
 				item: "extradisks:1048576k_fluid_storage_part"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.1048mfluid}"
 			x: -2.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6904EC449FBEE387"]
-			description: [
-				"This type of cable interface is probably the most important item one can make in their Refined Storage journey."
-				""
-				"This type of cable interface connects an external storage to your Refined Storage Network. It basically lets RS look into the storage container to let you access it within your grid!"
-				""
-				"This works on many things, including but not limited to: Chests, Barrels, Drawers, Drawer Controllers, and more!"
-				""
-				"If you can't make drives and have a bunch of chests everywhere, this is your best bet in creating a storage Network!"
-			]
+			description: ["{atm9.quest.rs.desc.external}"]
 			hide: true
 			id: "253657BE5D9D9162"
 			min_width: 300
@@ -958,18 +944,13 @@
 				item: "refinedstorage:external_storage"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.external}"
 			x: -7.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["01F18150EC923482"]
-			description: [
-				"The &9Security Manager&r allows you to grant access and permissions to users within your network."
-				""
-				"When placed in your system, you'll need to create a &9Security Card&r for each player you'd like to configure permissions for. When no cards are present, everyone has access to all permissions."
-				""
-				"To restrict permissions and access to all unconfigured players, configure a card that isn't bound to a player and put it into the manager. The person who placed the Security Manager will always have access to it."
-			]
+			description: ["{atm9.quest.rs.desc.security}"]
 			id: "3B84215240D9F2CB"
 			min_width: 300
 			optional: true
@@ -990,22 +971,19 @@
 					type: "random"
 				}
 			]
-			subtitle: "Secure your grid!"
+			subtitle: "{atm9.quest.rs.subt.security}"
 			tasks: [{
 				id: "20F3020C07C9D22B"
 				item: "refinedstorage:security_manager"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.security}"
 			x: -7.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["12A43F82FC67A289"]
-			description: [
-				"Great! We can store items virtually, but how do we see what is on the network?"
-				""
-				"To access the system, you'll need to create a &9Grid&r. The Grid is the most basic form of \"Display\" for the items in your inventory."
-			]
+			description: ["{atm9.quest.rs.desc.network}"]
 			id: "43E8912CB307E421"
 			rewards: [
 				{
@@ -1026,17 +1004,13 @@
 				item: "refinedstorage:grid"
 				type: "item"
 			}]
-			title: "Accessing Our Network Storage"
+			title: "{atm9.quest.rs.network}"
 			x: 2.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["43E8912CB307E421"]
-			description: [
-				"This lets you access your storage, but with a crafting table!"
-				""
-				"Let's be honest, no one just uses regular Grids."
-			]
+			description: ["{atm9.quest.rs.desc.crafting_grid}"]
 			id: "0F00BBDF3618B3BA"
 			rewards: [
 				{
@@ -1056,20 +1030,13 @@
 				item: "refinedstorage:crafting_grid"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.crafting_grid}"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["59F5ED931FD70C55"]
-			description: [
-				"This grid allows you to imprint recipes onto patterns for your network."
-				""
-				"The easiest way to create a recipe for a pattern is to look up the item in JEI, then click the \"+\" button in the bottom right of the recipe. This will then place the recipe into the grid."
-				""
-				"On the right side, the top slot is used for storing blank Patterns. With a blank Pattern inside, you should be able to click the Arrow underneath to imprint the recipe onto the pattern."
-				""
-				"You'll then want to put the Pattern into a crafter!"
-			]
+			description: ["{atm9.quest.rs.desc.pattern_grid}"]
 			hide: true
 			id: "65C8A43FEDBA3835"
 			min_width: 300
@@ -1084,16 +1051,13 @@
 				item: "refinedstorage:pattern_grid"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.pattern_grid}"
 			x: 2.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["43E8912CB307E421"]
-			description: [
-				"Plan on storing Liquids? You'll need a &9Fluid Grid&r to be able to see what fluids you have in your Fluid Disks. "
-				""
-				"Pro Tip: If you want to store gases from Mekanism, see if you can turn it into a liquid first using a Rotary Condensentrator. "
-			]
+			description: ["{atm9.quest.rs.desc.fluid_grid}"]
 			id: "51E9D03CD755A607"
 			rewards: [
 				{
@@ -1113,12 +1077,13 @@
 				item: "refinedstorage:fluid_grid"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.fluid_grid}"
 			x: 2.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6B04FC81351CD1AB"]
-			description: ["Allows you to access your storage wirelessly."]
+			description: ["{atm9.quest.rs.desc.WG}"]
 			id: "15ECBC8E174FA39B"
 			rewards: [
 				{
@@ -1138,12 +1103,13 @@
 				item: "refinedstorage:wireless_grid"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.WG}"
 			x: 5.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["6B04FC81351CD1AB"]
-			description: ["Allows you to access your fluid grid wirelessly."]
+			description: ["{atm9.quest.rs.desc.WFG}"]
 			id: "7FA85713C86166DA"
 			rewards: [
 				{
@@ -1163,12 +1129,13 @@
 				item: "refinedstorage:wireless_fluid_grid"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.WFG}"
 			x: 6.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["6B04FC81351CD1AB"]
-			description: ["Allows you to access your grid wirelessly but with a crafting table built-in."]
+			description: ["{atm9.quest.rs.desc.WCG}"]
 			id: "744842B2AED28344"
 			rewards: [
 				{
@@ -1188,12 +1155,13 @@
 				item: "refinedstorageaddons:wireless_crafting_grid"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.WCG}"
 			x: 4.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["43E8912CB307E421"]
-			description: ["The Portable Grid is a portable storage that isn’t connected to a network. It allows you to interact with a Storage Disk while not being connected to a network."]
+			description: ["{atm9.quest.rs.desc.portable_grid}"]
 			hide: false
 			hide_dependency_lines: false
 			id: "66D85424EC74EDCC"
@@ -1204,7 +1172,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "On-The-Go Grid"
+			subtitle: "{atm9.quest.rs.subt.portable_grid}"
 			tasks: [{
 				id: "301E0669A3CD84EF"
 				item: {
@@ -1214,16 +1182,13 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.portable_grid}"
 			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["01F18150EC923482"]
-			description: [
-				"To store your items, you'll need to create disks that are stored in a &aDisk Drive&r. You can attach this to your network by placing it beside your Controller, or by using pipes."
-				""
-				"These have 8 slots for Storage Drives. "
-			]
+			description: ["{atm9.quest.rs.desc.virtual_storage}"]
 			id: "12A43F82FC67A289"
 			rewards: [
 				{
@@ -1239,19 +1204,19 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Floppy time!"
+			subtitle: "{atm9.quest.rs.subt.disk_manipulator}"
 			tasks: [{
 				id: "3724447C3E0F9942"
 				item: "refinedstorage:disk_drive"
 				type: "item"
 			}]
-			title: "Creating Virtual Storage"
+			title: "{atm9.quest.rs.virtual_storage}"
 			x: -1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["12A43F82FC67A289"]
-			description: ["Allows you to take items and fluids from one disk into another grid's disks."]
+			description: ["{atm9.quest.rs.desc.disk_manipulator}"]
 			hide: true
 			id: "4844DEF57A2287B4"
 			rewards: [{
@@ -1265,12 +1230,13 @@
 				item: "refinedstorage:disk_manipulator"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.disk_manipulator}"
 			x: -1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["43E8912CB307E421"]
-			description: ["&9Patterns&r are the bread and butter of autocrafting. These store recipes to let your RS network know how to craft items."]
+			description: ["{atm9.quest.rs.desc.autocrafting}"]
 			id: "59F5ED931FD70C55"
 			rewards: [
 				{
@@ -1292,13 +1258,13 @@
 				item: "refinedstorage:pattern"
 				type: "item"
 			}]
-			title: "Autocrafting!"
+			title: "{atm9.quest.rs.autocrafting}"
 			x: 2.0d
 			y: -4.449999999999999d
 		}
 		{
 			dependencies: ["6904EC449FBEE387"]
-			description: ["When connected to your system, this block will display the current number of an item within your network."]
+			description: ["{atm9.quest.rs.desc.monitor}"]
 			hide: true
 			id: "64E85274D24FE394"
 			optional: true
@@ -1320,17 +1286,14 @@
 				item: "refinedstorage:storage_monitor"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.monitor}"
 			x: -5.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["43E8912CB307E421"]
 			dependency_requirement: "one_started"
-			description: [
-				"If you want to access your Refined Storage network wirelessly, you'll need to start by creating a &9Wireless Transmitter&r."
-				""
-				"You can attach this anywhere on your system. This is needed to use wireless grids."
-			]
+			description: ["{atm9.quest.rs.desc.wireless}"]
 			hide_dependency_lines: false
 			id: "6B04FC81351CD1AB"
 			rewards: [{
@@ -1339,13 +1302,13 @@
 				type: "random"
 			}]
 			shape: "hexagon"
-			subtitle: "Storage, at a distance"
+			subtitle: "{atm9.quest.rs.subt.wireless}"
 			tasks: [{
 				id: "48935A6041672A29"
 				item: "refinedstorage:wireless_transmitter"
 				type: "item"
 			}]
-			title: "&5Wireless Access"
+			title: "{atm9.quest.rs.wireless}"
 			x: 5.5d
 			y: -2.5d
 		}
@@ -1364,6 +1327,7 @@
 				item: "cabletiers:elite_disk_manipulator"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.eliteDM}"
 			x: -1.5d
 			y: -5.0d
 		}
@@ -1382,18 +1346,13 @@
 				item: "cabletiers:ultra_disk_manipulator"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.ultraDM}"
 			x: -1.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["2E2811D1A0F2A492"]
-			description: [
-				"\"I need more RANGE!!!\""
-				""
-				"Well, slap one of these bad boys in your Wireless Transmitter and you'll be able to access your network storage with infinite range."
-				""
-				"This, however, does not extend to other dimensions....."
-			]
+			description: ["{atm9.quest.rs.desc.infiniterange}"]
 			id: "3E0D29502690E02F"
 			rewards: [
 				{
@@ -1413,17 +1372,14 @@
 				item: "rsinfinitybooster:infinity_card"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.infiniterange}"
 			x: 5.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["12A43F82FC67A289"]
 			dependency_requirement: "one_started"
-			description: [
-				"It's time to create the \"Hard Drives\" of Refined Storage. To do this, we'll need a &9Storage Housing&r that we'll combine with a &aStorage Part&r to create a &dStorage Disk&r. Just simply make the desired size of the part, then combine with the housing to create a disk."
-				""
-				"The Storage Disk is used to store your items virtually once placed inside of the Disk Drive. It has to be put in a Disk Drive. The Storage Disk won’t despawn when dropped in the world."
-			]
+			description: ["{atm9.quest.rs.desc.housing}"]
 			hide: true
 			id: "7604D8B3C9FCCFD9"
 			min_width: 300
@@ -1445,22 +1401,13 @@
 				item: "refinedstorage:storage_housing"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.housing}"
 			x: -1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["01F18150EC923482"]
-			description: [
-				"Because of the Controller limit, you'll probably end up wanting to connect different systems to your main hub without a billion cables connecting them."
-				""
-				"This is done using &6Network Transmitters&r and &6Receivers&r."
-				""
-				"&9Transmitters&r should be connected to your main system, wherever your Controller is."
-				""
-				"The &9Receiver&r should go wherever you want your external network to be. For example, this can be a separate part of your base where you have Bees, a mob farm, etc."
-				""
-				"To connect the Receiver to your main network, you'll need to use a &eNetwork Card&r. To bind the Network Card, right-click on the Network Receiver, and then place the Network Card into the Network Transmitter that is attached to your main system."
-			]
+			description: ["{atm9.quest.rs.desc.grid}"]
 			id: "3E890BABC4C41370"
 			min_width: 300
 			rewards: [
@@ -1480,7 +1427,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Wirelessly Connecting Networks!"
+			subtitle: "{atm9.quest.rs.subt.grid}"
 			tasks: [
 				{
 					id: "2E028480454ECBB5"
@@ -1493,7 +1440,7 @@
 					type: "item"
 				}
 			]
-			title: "Grid Networks"
+			title: "{atm9.quest.rs.grid}"
 			x: -6.0d
 			y: -1.0d
 		}
@@ -1502,15 +1449,7 @@
 				"4B81E84CAE814BA9"
 				"4101F8275B41C79B"
 			]
-			description: [
-				"Don't like storing things in drives?"
-				""
-				"You can create storage &9Blocks&r instead and just slap the block down somewhere in your system."
-				""
-				"Whatever items end up in the block will be stored inside whenever you break it as well."
-				""
-				"If you want to un-craft it, you can sneak right click while holding it."
-			]
+			description: ["{atm9.quest.rs.desc.1kstorage_block}"]
 			id: "62625CAF6649AB53"
 			optional: true
 			rewards: [{
@@ -1524,16 +1463,13 @@
 				item: "refinedstorage:1k_storage_block"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.1kstorage_block}"
 			x: -1.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6092490EC9008A05"]
-			description: [
-				"These upgrades add enchantments to your Destructor."
-				""
-				"Wondering why you would use this? Imagine having a Builder or Quarry pump Silk-Touched Ores into your system. You can have a Constructor place these ores, then a Destructor with Fortune on it to break it for even more raw ores."
-			]
+			description: ["{atm9.quest.rs.desc.destructor_upgrade}"]
 			hide_dependency_lines: false
 			id: "787415570026FFAA"
 			min_width: 300
@@ -1556,18 +1492,14 @@
 					type: "item"
 				}
 			]
-			title: "Destructor Upgrades"
+			title: "{atm9.quest.rs.destructor_upgrade}"
 			x: -3.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["6904EC449FBEE387"]
 			dependency_requirement: "one_completed"
-			description: [
-				"The &9Speed Upgrade&r does exactly what it says it does. It will increase the speed at which the interface/block works. Need an importer to pull faster? Want your crafters to work faster? This is the upgrade!"
-				""
-				"The &6Stack Upgrade&r increases the speed of transfer by a stack of items rather than just one. Combine with Speed Upgrades!"
-			]
+			description: ["{atm9.quest.rs.desc.speeding}"]
 			hide: true
 			id: "2B27E4E04A628C60"
 			rewards: [
@@ -1595,13 +1527,13 @@
 					type: "item"
 				}
 			]
-			title: "Speeding Everything Up!"
+			title: "{atm9.quest.rs.speeding}"
 			x: -7.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["6904EC449FBEE387"]
-			description: ["The &9Filter&r is an item used in a Grid to specify which items or fluids can be visible."]
+			description: ["{atm9.quest.rs.desc.filter}"]
 			hide: true
 			id: "35EC08D610382860"
 			optional: true
@@ -1615,16 +1547,13 @@
 				item: "refinedstorage:filter"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.filter}"
 			x: -4.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["6B04FC81351CD1AB"]
-			description: [
-				"To increase the range of your wireless connection to your system, you'll need to craft &9Range Upgrades&r."
-				""
-				"The Wireless Transmitter can only hold 4 total. Here's one on the house."
-			]
+			description: ["{atm9.quest.rs.desc.range}"]
 			hide: true
 			id: "2E2811D1A0F2A492"
 			rewards: [
@@ -1640,23 +1569,19 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "I mean Transmitting Range"
+			subtitle: "{atm9.quest.rs.subt.range}"
 			tasks: [{
 				id: "7AB53C2469B768E0"
 				item: "refinedstorage:range_upgrade"
 				type: "item"
 			}]
-			title: "Increasing Wifi Range"
+			title: "{atm9.quest.rs.range}"
 			x: 5.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3E0D29502690E02F"]
-			description: [
-				"But this one does!"
-				""
-				"This allows your RS system to be accessed wirelessly from any dimension."
-			]
+			description: ["{atm9.quest.rs.desc.dimension}"]
 			id: "3EE9958D84A1252C"
 			rewards: [
 				{
@@ -1676,18 +1601,13 @@
 				item: "rsinfinitybooster:dimension_card"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.dimension}"
 			x: 5.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6904EC449FBEE387"]
-			description: [
-				"The &9Regulator Upgrade&r allows you to maintain a certain amount of items within a block or machine. A great example of this is telling your network that you want to keep 64 Coal within a Furnace. You'd place the upgrade in the exporter attached to the furnace, and set it to 64. Your system will then try to keep the furnace full of fuel!"
-				""
-				"But what if you need an item that is crafted? The &9Crafting Upgrade&r does exactly this. If you have the recipe learned inside of a crafter, adding this upgrade to an interface will let it know to craft it if you run out."
-				""
-				"Using our example from before, let's say we have a Mystical Ag farm going and have Coal Essence. We can then put the Coal recipe in a crafter connected to our system, then place this upgrade in the same exporter that is keeping the Furnace fueled. If you run out of Coal in your system, the crafting upgrade allows your system to craft some more!"
-			]
+			description: ["{atm9.quest.rs.desc.upgrades}"]
 			hide: true
 			hide_dependency_lines: true
 			id: "30700E99091B712A"
@@ -1721,17 +1641,13 @@
 					type: "item"
 				}
 			]
-			title: "Regulating Items in Interfaces"
+			title: "{atm9.quest.rs.upgrades}"
 			x: -8.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["65C8A43FEDBA3835"]
-			description: [
-				"When attached to your system, the &9Crafting Monitor&r allows you to see what items are currently in your crafting queue."
-				""
-				"You'll need one of these if you want to be able to cancel crafts that aren't working or are bugged. "
-			]
+			description: ["{atm9.quest.rs.desc.crafting_monitor}"]
 			id: "7044EAB5EDF32BBC"
 			rewards: [
 				{
@@ -1751,7 +1667,7 @@
 				item: "refinedstorage:crafting_monitor"
 				type: "item"
 			}]
-			title: "Monitoring the Crafting Queue"
+			title: "{atm9.quest.rs.crafting_monitor}"
 			x: 1.0d
 			y: -6.5d
 		}

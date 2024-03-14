@@ -33,11 +33,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"This chapter is dedicated to all things power related!"
-				""
-				"In this section, you'll find the basic ways to generate, store, and transfer power."
-			]
+			description: ["{atm9.quest.power.desc.ATP}"]
 			icon: "minecraft:redstone_torch"
 			id: "4AB0DD227471FDBF"
 			rewards: [{
@@ -49,19 +45,16 @@
 			size: 2.0d
 			tasks: [{
 				id: "4800DD5A7039B8B7"
-				title: "All Things Power!"
+				title: "{atm9.quest.power.ATP}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.power.ATP}"
 			x: -3.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["5E41363F9AE243F3"]
-			description: [
-				"&9Extreme Reactors&r offers multi-block reactors that are completely customizable in size, efficiency, and more."
-				""
-				"To learn more about getting started with Extreme Reactors, check out the questline for the mod!"
-			]
+			description: ["{atm9.quest.power.desc.reactors}"]
 			hide_dependency_lines: false
 			icon: "bigreactors:basic_reactorchargingportfe"
 			id: "6D6E07564D8FDD8D"
@@ -71,25 +64,19 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "Customizable Reactors!"
+			subtitle: "{atm9.quest.power.subt.reactors}"
 			tasks: [{
 				id: "70CC25EA15DBE615"
 				title: "Bigger Reactors"
 				type: "checkmark"
 			}]
-			title: "Extreme Reactors"
+			title: "{atm9.quest.power.reactors}"
 			x: -0.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["42D173B9FF8D16E4"]
-			description: [
-				"Mekanism provides several ways to make power using renewable resources."
-				""
-				"The &9Solar Generators&r harness the power of the sun to provide basic power needs. It does not work during the night, and must have access to the sky. Glass is okay."
-				""
-				"The &9Wind Generator&r provides power via the wind. Unless you've figured out a way for your character to manually spin this, the speed it spins is based off of the Y lvl it is placed at. It also needs direct access to the sky without any blocks above it."
-			]
+			description: ["{atm9.quest.power.desc.meka}"]
 			hide_dependency_lines: false
 			id: "48DC9E8E9D21A2FA"
 			rewards: [
@@ -106,7 +93,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Using the Sun"
+			subtitle: "{atm9.quest.power.subt.meka}"
 			tasks: [{
 				id: "59DE118DD6597A4E"
 				item: {
@@ -132,19 +119,13 @@
 				title: "Renewable Energy Gens"
 				type: "item"
 			}]
-			title: "Mekanism: Renewable Energy"
+			title: "{atm9.quest.power.meka}"
 			x: -5.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["42D173B9FF8D16E4"]
-			description: [
-				"&aMekanism's&r Heat Generator is a different take on basic power production. It has two modes of creating power:"
-				""
-				"&9Passive:&r Surrounding the generator with lava source or flowing blocks creates passive power over time through heat. Place one lava source block on top and let it flow over the sides. Make sure to have pipes connected for energy first!"
-				""
-				"&9Active:&r Placing combustible materials such as coal or wood into the generator will burn the fuel to create power. This is not very efficient."
-			]
+			description: ["{atm9.quest.power.desc.heat}"]
 			id: "11D09E918015355C"
 			rewards: [
 				{
@@ -160,22 +141,19 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Mekanism's Starter Power Solution"
+			subtitle: "{atm9.quest.power.subt.heat}"
 			tasks: [{
 				id: "44999798D86177A3"
 				item: "mekanismgenerators:heat_generator"
 				type: "item"
 			}]
+			title: "{atm9.quest.power.heat}"
 			x: -6.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["42D173B9FF8D16E4"]
-			description: [
-				"The RFTools Coal Generator is one of the easiest coal-burning generators to make."
-				""
-				"It is very simple to use and creates a decent amount of power based on the combustible material you input. It automatically distributes power to adjacent blocks as well."
-			]
+			description: ["{atm9.quest.power.desc.coal}"]
 			id: "0BB367839D28607D"
 			rewards: [
 				{
@@ -196,15 +174,12 @@
 				item: "rftoolspower:coalgenerator"
 				type: "item"
 			}]
+			title: "{atm9.quest.power.coal}"
 			x: -6.0d
 			y: 4.0d
 		}
 		{
-			description: [
-				"Looking for early game power options? These are good ways to get you started with generating power."
-				""
-				"These don't produce a ton of power, but they are typically easy or cheap to get in the early game!"
-			]
+			description: ["{atm9.quest.power.desc.early}"]
 			hide_dependency_lines: true
 			icon: "minecraft:coal"
 			id: "42D173B9FF8D16E4"
@@ -215,25 +190,19 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Starter Power"
+			subtitle: "{atm9.quest.power.subt.early}"
 			tasks: [{
 				id: "55F3497E936C4885"
 				title: "Burning Fuel for Power"
 				type: "checkmark"
 			}]
-			title: "Early Game Power Options"
+			title: "{atm9.quest.power.early}"
 			x: -5.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1F81EA5E45424308"]
-			description: [
-				"These are simple pipes that can be upgraded with Pipe Upgrades."
-				""
-				"To \"extract\" power from a block, place the pipe down next to the block, and on the side that is connected, shift+right-click with the pipe wrench to set the pipe to extract."
-				""
-				"The &9Pipez&r mod also offers ways to transport items, gases, and liquids as well! Or you can make an All-In-One Pipe called the &aUniversal Pipe&r. "
-			]
+			description: ["{atm9.quest.power.desc.pipez}"]
 			id: "4EEAB467C722ECE7"
 			rewards: [
 				{
@@ -261,17 +230,13 @@
 					type: "item"
 				}
 			]
-			title: "&9Using Pipez: &aEnergy Pipe"
+			title: "{atm9.quest.power.pipez}"
 			x: -10.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["1F81EA5E45424308"]
-			description: [
-				"Mekanism offers a nice looking cable to transfer your power."
-				""
-				"If the machine you are connecting to already pulls or pushes power, you will not need to configure the cable. Otherwise, you'll need a &9Configurator&r to configure the pipe. Shift+right-clicking will change the cable to pull or push mode. "
-			]
+			description: ["{atm9.quest.power.desc.cables}"]
 			id: "5C47935A3B2877FF"
 			rewards: [
 				{
@@ -286,7 +251,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Mekanism's Energy Transfer Pipe"
+			subtitle: "{atm9.quest.power.subt.cables}"
 			tasks: [{
 				id: "6C4B8A2662030CB0"
 				item: {
@@ -316,16 +281,12 @@
 				title: "Universal Cables"
 				type: "item"
 			}]
-			title: "&9Using Mekanism:&a Basic Universal Cable"
+			title: "{atm9.quest.power.cables}"
 			x: -7.5d
 			y: 0.5d
 		}
 		{
-			description: [
-				"If you're looking for different ways to get power out of your machines, this is where you can find it!"
-				""
-				"There are several options, both &awired&r and &9wireless&r, for transferring power."
-			]
+			description: ["{atm9.quest.power.desc.moving}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -349,20 +310,16 @@
 			size: 1.5d
 			tasks: [{
 				id: "6D3C243268479EE9"
-				title: "Transferring Power"
+				title: "{atm9.quest.power.moving}"
 				type: "checkmark"
 			}]
-			title: "Transferring Power"
+			title: "{atm9.quest.power.moving}"
 			x: -9.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["1F81EA5E45424308"]
-			description: [
-				"With a little work into Mekanism, this machine allows you to transfer anything wirelessly."
-				""
-				"You can set specific channels to transfer individual items, energy, or even gases from Mekanism. It's pretty cool."
-			]
+			description: ["{atm9.quest.power.desc.QE}"]
 			id: "7FE969CB4B419FC6"
 			rewards: [
 				{
@@ -378,18 +335,18 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Also works for items, gases, liquids, and heat."
+			subtitle: "{atm9.quest.power.subt.QE}"
 			tasks: [{
 				id: "3E843C44C9CD3ACC"
 				item: "mekanism:quantum_entangloporter"
 				type: "item"
 			}]
-			title: "&9Wireless Transfer: &6Quantum Entangloporter"
+			title: "{atm9.quest.power.QE}"
 			x: -10.0d
 			y: 1.5d
 		}
 		{
-			description: ["This section shows you different ways to store your power!"]
+			description: ["{atm9.quest.power.desc.storage}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -409,19 +366,13 @@
 				title: "Storing Power"
 				type: "checkmark"
 			}]
-			title: "Storing Power"
+			title: "{atm9.quest.power.storage}"
 			x: 3.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["76EA017B12E8F01B"]
-			description: [
-				"Mekanism is one of the best mods for energy storage, especially in the early game."
-				""
-				"The Basic Energy Cube is easy to configure, easy to craft, and stores a lot of power. It can also be upgraded, and can charge items inside of the interface!"
-				""
-				"To learn more about upgrading the Energy Cube as well as the mod, head over to the &aMekanism&r questline!"
-			]
+			description: ["{atm9.quest.power.desc.cube}"]
 			id: "477B411F84342EEA"
 			rewards: [
 				{
@@ -442,7 +393,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Mekanism"
+			subtitle: "{atm9.quest.power.subt.cube}"
 			tasks: [{
 				id: "76378687551A79C3"
 				item: {
@@ -472,17 +423,13 @@
 				title: "Energy Cubes"
 				type: "item"
 			}]
-			title: "Mekanism's Energy Cubes"
+			title: "{atm9.quest.power.cube}"
 			x: 3.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["76EA017B12E8F01B"]
-			description: [
-				"RFToolsPower has &9Powercells&r to store power, which are multi-block storage units that can be customized and upgraded to store power."
-				""
-				"You will need a wrench to determine inputs and outputs for power."
-			]
+			description: ["{atm9.quest.power.desc.cells}"]
 			id: "05B6DB75AEC01187"
 			rewards: [
 				{
@@ -498,7 +445,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "RFTools"
+			subtitle: "{atm9.quest.power.subt.cells}"
 			tasks: [{
 				id: "7CA8741CA073C1DA"
 				item: {
@@ -524,13 +471,13 @@
 				title: "Powercells"
 				type: "item"
 			}]
-			title: "Powercells from RFTools"
+			title: "{atm9.quest.power.cells}"
 			x: 4.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["76EA017B12E8F01B"]
-			description: ["&9IntegratedDynamics&r provides a simple power storage system. The batteries can even be combined in a crafting grid to increase the overall storage!"]
+			description: ["{atm9.quest.power.desc.battery}"]
 			id: "72EA25D05C46D39A"
 			rewards: [
 				{
@@ -546,7 +493,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Integrated Dynamics"
+			subtitle: "{atm9.quest.power.subt.battery}"
 			tasks: [{
 				id: "460A67B09BD45CF4"
 				item: {
@@ -558,38 +505,28 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.power.battery}"
 			x: 2.0d
 			y: 1.5d
 		}
 		{
-			description: [
-				"You can't power your base off of Coal forever! If you've got a decent amount of resources available, it's time to upgrade your power setup!"
-				""
-				"These options usually require a little setting up, but produce enough power to carry you far into your playthrough."
-			]
+			description: ["{atm9.quest.power.desc.mid}"]
 			icon: "powah:dielectric_casing"
 			id: "5E41363F9AE243F3"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "5A8F474927CC1E80"
-				title: "Mid Game Power Options"
+				title: "{atm9.quest.power.mid}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.power.mid}"
 			x: -2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5E41363F9AE243F3"]
-			description: [
-				"If you've ever heard of someone talking about \"Melon Power\", this is it. Mekanism's &9Gas-Burning Generator&r can produce a good amount power by pumping in &9Ethylene&r made from Melon Slices."
-				""
-				"To produce &dEthylene&r, start by crushing organic materials in a &eCrusher&r to create &6Bio Fuel&r. Melon Slices are typically used for this! This is then pumped into a &dPressurized Reaction Chamber&r (PRC for short)."
-				""
-				"The PRC needs Water, Bio Fuel, and some Hydrogen to create Ethylene. You can get the Hydrogen from separating water in an &9Electrolytic Separator&r. "
-				""
-				"Once you've started producing the Ethylene, pump it into the Gas-Burning Generator to start generating power!"
-			]
+			description: ["{atm9.quest.power.desc.gas}"]
 			id: "0AEC181F5E21A299"
 			min_width: 300
 			rewards: [
@@ -612,23 +549,19 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "The Power of the Melon"
+			subtitle: "{atm9.quest.power.subt.gas}"
 			tasks: [{
 				id: "2ADE2B487637FA3F"
 				item: "mekanismgenerators:gas_burning_generator"
 				type: "item"
 			}]
-			title: "&eMekanism's&r &dGas-Burning Generator&r"
+			title: "{atm9.quest.power.gas}"
 			x: -2.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5E41363F9AE243F3"]
-			description: [
-				"Believe it or not, the &dPowah&r mod has some great options for getting... powah."
-				""
-				"Make sure to check out the &cPowah&r Chapter to learn more!"
-			]
+			description: ["{atm9.quest.power.desc.powah}"]
 			icon: "powah:book"
 			id: "35ABB0DEE70DF7FD"
 			min_width: 300
@@ -643,18 +576,12 @@
 				title: "Powah"
 				type: "checkmark"
 			}]
-			title: "Need more &9Powah&r"
+			title: "{atm9.quest.power.powah}"
 			x: -1.0d
 			y: 4.0d
 		}
 		{
-			description: [
-				"If you're looking to generate a ton of power, you can start by scaling up some of the options from the &9Mid Game Power&r section. Make your &eExtreme Reactors&r bigger. Upgrade your &9Thermo Gens&r to Nitro. Go wild."
-				""
-				"&9Mekanism&r also has an end game power option that is tough to beat."
-				""
-				"The &dFusion Reactor&r can produce up to 200MRF/t, and if you want to learn how to build it, make sure to check out the &aMekanism:&r &dAdvanced&r Chapter!"
-			]
+			description: ["{atm9.quest.power.desc.end}"]
 			icon: "mekanismgenerators:fusion_reactor_controller"
 			id: "3BDB94F17765EE77"
 			min_width: 300
@@ -665,24 +592,19 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "More Power Than You'll Need"
+			subtitle: "{atm9.quest.power.subt.end}"
 			tasks: [{
 				id: "03A4FFC4CFCA5DB7"
-				title: "End Game Power Options"
+				title: "{atm9.quest.power.end}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.power.end}"
 			x: -3.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4EEAB467C722ECE7"]
-			description: [
-				"To make your pipes extract more power, you'll want to make it an upgrade."
-				""
-				"Once you've shift+right-clicked a pipe to set it to extract, you can insert a pipe upgrade into it by right-clicking the pipe with the upgrade. You can also right-click with an empty hand and add it using the GUI!"
-				""
-				"To be able to set filters, you'll need at least an &9Advanced Pipe Upgrade&r. "
-			]
+			description: ["{atm9.quest.power.desc.betterpipez}"]
 			hide: true
 			id: "1409C17773B6A131"
 			rewards: [
@@ -727,21 +649,19 @@
 				title: "Pipe Upgrades"
 				type: "item"
 			}]
-			title: "Upgrading our Pipez"
+			title: "{atm9.quest.power.betterpipez}"
 			x: -11.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["477B411F84342EEA"]
 			description: [
-				"&9Mekanism's&r &aInduction Matrix&r is the ultimate way to store your power."
-				""
-				"If you're looking for the best power storage in the game, check out the &aMekanism:&r &dAdvanced&r Chapter."
+				"{atm9.quest.power.desc.more}"
 				""
 				"{image:atm:textures/questpics/mek/mek_induction_matrix_small.png width:125 height:150 align:1}"
 			]
 			id: "682034C680FDEDC2"
-			min_width: 500
+			min_width: 300
 			rewards: [{
 				id: "4897BCA1A6B1D623"
 				type: "xp"
@@ -754,21 +674,13 @@
 				title: "Advanced Mekanism Chapter"
 				type: "checkmark"
 			}]
-			title: "Need more storage?"
+			title: "{atm9.quest.power.more}"
 			x: 3.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["1F81EA5E45424308"]
-			description: [
-				"&9Flux Networks&r is a mod that aims to be the solution to all of your wireless power needs."
-				""
-				"The mod itself does not have a way to generate power, but it can store and wirelessly transmit power, even across dimensions. It can even charge your items in your inventory."
-				""
-				"You can even charge your jetpack while you are flying with this mod. HOW COOL IS THAT?"
-				""
-				"To get started with the mod, you'll need some Flux Dust. Head to bedrock level, then throw some redstone on top of a block of bedrock. Place a block of obsidian right above the floating redstone, then left click the obsidian."
-			]
+			description: ["{atm9.quest.power.desc.flux}"]
 			id: "35CC898E0E49FE58"
 			min_width: 300
 			rewards: [
@@ -793,20 +705,20 @@
 			]
 			shape: "pentagon"
 			size: 1.25d
-			subtitle: "The Ultimate Wireless Power Solution"
+			subtitle: "{atm9.quest.power.subt.flux}"
 			tasks: [{
 				count: 4L
 				id: "0F0CBAF912DE462F"
 				item: "fluxnetworks:flux_dust"
 				type: "item"
 			}]
-			title: "Flux Networks"
+			title: "{atm9.quest.power.flux}"
 			x: -9.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["35CC898E0E49FE58"]
-			description: ["In this mod, you'll need &aFlux Cores&r and &aFlux Blocks&r to craft the core parts of your network. Make a few of each!"]
+			description: ["{atm9.quest.power.desc.core}"]
 			id: "1BE26A00A420DAE3"
 			rewards: [
 				{
@@ -835,21 +747,13 @@
 					type: "item"
 				}
 			]
-			title: "The \"Core\" Crafting Materials"
+			title: "{atm9.quest.power.core}"
 			x: -9.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["1BE26A00A420DAE3"]
-			description: [
-				"The first item you'll need to start your Flux Network is a &9Flux Plug&r. "
-				""
-				"The Plug is used to \"draw\" power from the block it is attached to. Aside from a small buffer, the Plug does not store power itself, so don't worry about it zapping up all of your power."
-				""
-				"It is suggested to place the Plug on a power storage block like an energy cube. It can connect to cables, pipes, or the output of any power producing machine."
-				""
-				"To learn how to set up your first network, check the next quest!"
-			]
+			description: ["{atm9.quest.power.desc.plug}"]
 			id: "5F078A574A783B02"
 			rewards: [
 				{
@@ -874,19 +778,13 @@
 				item: "fluxnetworks:flux_plug"
 				type: "item"
 			}]
-			title: "Starting Your Network"
+			title: "{atm9.quest.power.plug}"
 			x: -9.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["5F078A574A783B02"]
-			description: [
-				"Right-click on your plug and you'll see the Flux Network UI. On the far top-right corner, click on the + button to create your first network. You'll need to set a password to create the network, but you can also set a color!"
-				""
-				"From here, you can go to the Network Selection tab to activate your network on the plug. If the plug is attached to a power source, you can now harness that power anywhere in your system using a Flux Point!"
-				""
-				"Pro Tip: You can create multiple networks if you want to have different power sources powering different parts of your systems!"
-			]
+			description: ["{atm9.quest.power.desc.network}"]
 			icon: "fluxnetworks:flux_configurator"
 			id: "36DEA17CBB696CC7"
 			min_width: 300
@@ -903,22 +801,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "You're a Network Admin Now!"
+			subtitle: "{atm9.quest.power.subt.network}"
 			tasks: [{
 				id: "2D0212699F99459F"
-				title: "My First Network"
+				title: "{atm9.quest.power.network}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.power.network}"
 			x: -9.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["36DEA17CBB696CC7"]
-			description: [
-				"With our plug set up, we can now tap into the power from our network. The &9Flux Point&r does exactly that. It points the power from your network to whatever block it is attached to, including pipes or cables, or just directly on machines!"
-				""
-				"Once you've placed your point on the machine or block you want to power, right click on it and select your network in the Network Selection tab. Just like the plug, you can adjust how much power it pulls, priority level, etc."
-			]
+			description: ["{atm9.quest.power.desc.point}"]
 			id: "56B6ABF3D6EA0D84"
 			rewards: [
 				{
@@ -945,17 +840,13 @@
 				item: "fluxnetworks:flux_point"
 				type: "item"
 			}]
-			title: "Accessing Network Power"
+			title: "{atm9.quest.power.point}"
 			x: -9.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["36DEA17CBB696CC7"]
-			description: [
-				"Flux Networks does provide a way to store the power you generate for your network!"
-				""
-				"These hold massive amounts of power overall, and can be upgraded to store even more!"
-			]
+			description: ["{atm9.quest.power.desc.flux_storage}"]
 			id: "79AD74A863EA43CB"
 			rewards: [
 				{
@@ -971,26 +862,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Storing Power"
+			subtitle: "{atm9.quest.power.subt.flux_storage}"
 			tasks: [{
 				id: "3C574DDC057353DF"
 				item: "fluxnetworks:basic_flux_storage"
 				type: "item"
 			}]
+			title: "{atm9.quest.power.flux_storage}"
 			x: -8.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["36DEA17CBB696CC7"]
 			description: [
-				"Right clicking a functional Flux Network block will give you this UI."
-				""
-				"Each Plug or Point can be named, have a custom priority level, and have a custom power transfer limit. This allows complete control over all parts of your system."
-				""
-				"&aPower Surge&r sets the specific point or plug to ignore set priorities within the system."
-				"&aBypass Limit&r ignores the limit set."
-				""
-				"There are several other tabs to check out, mostly for statistics on your network!"
+				"{atm9.quest.power.desc.UI}"
 				""
 				"{image:atm:textures/questpics/flux/flux_ui.png width:125 height:150 align:1}"
 			]
@@ -1006,20 +891,17 @@
 			shape: "diamond"
 			tasks: [{
 				id: "3D721B55E8D33FE8"
-				title: "The Flux Networks UI"
+				title: "{atm9.quest.power.UI}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.power.UI}"
 			x: -10.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["36DEA17CBB696CC7"]
 			description: [
-				"Flux Networks also provides a way to charge your items wirelessly, even across dimensions!"
-				""
-				"Once you have a Plug attached to your power system, you'll want to make the &9Flux Controller&r and place it down."
-				""
-				"Right click to bring up the interface, and go to the \"Wireless Charging\" tab. From here, you can select each section of your inventory you'd like to keep charged. To activate, make sure to hit the toggle at the bottom to Enable Wireless charging, then click apply!"
+				"{atm9.quest.power.desc.controller}"
 				""
 				"{image:atm:textures/questpics/flux/wireless_ui.png width:125 height:150 align:1}"
 			]
@@ -1044,7 +926,7 @@
 				item: "fluxnetworks:flux_controller"
 				type: "item"
 			}]
-			title: "Wireless Charging"
+			title: "{atm9.quest.power.controller}"
 			x: -9.0d
 			y: 7.5d
 		}
