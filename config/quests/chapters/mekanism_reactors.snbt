@@ -1918,15 +1918,9 @@
 			]
 			shape: "hexagon"
 			tasks: [{
+				count: 4L
 				id: "31A1425AA09C33F8"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:dusts/lithium"
-					}
-				}
-				title: "Lithium Dust"
+				item: "mekanism:dust_lithium"
 				type: "item"
 			}]
 			title: "Advanced Power Storage"

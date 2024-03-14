@@ -767,7 +767,7 @@
 					id: "0DE204C9101E0A72"
 					item: {
 						Count: 1b
-						id: "ad_astra:gas_tank"
+						id: "ad_astra:oxygen_tank"
 						tag: {
 							BotariumData: { }
 						}
@@ -1079,5 +1079,5 @@
 			y: 5.5d
 		}
 	]
-	title: "{atm9.chapters.45.title}"
+	title: "{atm9.chapters.40.title}"
 }

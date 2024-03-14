@@ -372,12 +372,11 @@
 		}
 		{
 			dependencies: [
+				"6279DD34051D7C78"
 				"6E29BA2E8642AF53"
 				"71B824BEA02C4A34"
 				"5D0C944F84E341BE"
 				"124BDAF91DA74910"
-				"356F450F4ADD22D7"
-				"73EFADE932DFEF86"
 			]
 			id: "73990028197AF1AB"
 			rewards: [
@@ -525,6 +524,7 @@
 				"627A39E62DD49CD8"
 				"709F1FA492703463"
 				"6BDBF4D6086513C1"
+				"356F450F4ADD22D7"
 				"6CD7A3760C6D87E6"
 				"106A3D79B1CDE895"
 				"0A6378C7455E45B1"
@@ -741,12 +741,9 @@
 				type: "loot"
 			}]
 			tasks: [{
+				count: 2L
 				id: "44CFFE38FD3BBED3"
-				item: {
-					Count: 1b
-					id: "occultism:stable_wormhole"
-					tag: { }
-				}
+				item: "occultism:storage_controller"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter2.dimstorage}"
@@ -1078,6 +1075,38 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["519604E883E6B620"]
+			hide_dependent_lines: true
+			id: "6279DD34051D7C78"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A1B6CD62D0A6473"
+				table_id: 5564196992594175882L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "432B51525158B3C8"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_nuke"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.nuke}"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: ["{atm9.quest.chapter2.desc.PC}"]
 			hide_dependency_lines: true
@@ -1132,7 +1161,6 @@
 		}
 		{
 			dependencies: ["46B515C90C13A72F"]
-			description: ["You didn't hear it from me, but there are some interesting ways to make &5Inert Nether Stars&r which can be turned into Nether Stars"]
 			hide_dependency_lines: true
 			id: "0A37761737B01BFD"
 			rewards: [
@@ -3277,12 +3305,6 @@
 					type: "xp"
 					xp: 100
 				}
-				{
-					exclude_from_claim_all: true
-					id: "7476D0F37A40883B"
-					table_id: 5564196992594175882L
-					type: "loot"
-				}
 			]
 			shape: "square"
 			tasks: [
@@ -3323,16 +3345,6 @@
 							voidItems: 0b
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "3C5F97640A5789B6"
-					item: "mythicbotany:mjoellnir"
-					type: "item"
-				}
-				{
-					id: "241075340C282F2D"
-					item: "thermal_extra:rf_coil_xfer_augment_5"
 					type: "item"
 				}
 			]

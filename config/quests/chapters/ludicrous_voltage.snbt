@@ -131,7 +131,167 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["3B1268D75B34A0F6"]
+			dependencies: ["2FDACD6F153D5B64"]
+			description: ["&l&6Aqua Regia&r&r is a mixture of Concentrated Nitric Acid and Hydrochloric Acid, usually one part to three parts, respectively. The Mixture was given its name (literally \"Royal Water\") by alchemists because of its ability to dissovle &l&eGold&r&r."]
+			id: "0DD389A24F5F8CDD"
+			rewards: [{
+				id: "2BD13756A8D0E6D0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:aqua_regia"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:aqua_regia"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Im a Barbie Girl, In a Barbie world... If you know, you know."
+			tasks: [{
+				id: "167A231788D5F833"
+				item: "gtceu:aqua_regia_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FDACD6F153D5B64"]
+			description: ["Platinum Group Sludge will process down into a bunch of great resources that will help you moving forward."]
+			id: "4632DA3CE9D95064"
+			rewards: [{
+				count: 8
+				id: "029845A689A9ED7D"
+				item: "gtceu:platinum_group_sludge_dust"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "Money! *Mister Krabs*"
+			tasks: [{
+				id: "6D5FD9D06E3AD241"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4632DA3CE9D95064"
+				"20A01B6A6B1177CB"
+				"0DD389A24F5F8CDD"
+			]
+			description: [
+				"This wont be inert for long! Once processed you will have a BUNCH of new resources in hand, which can be further processed into very useful materials!"
+				""
+				"Make sure to get a passive processing line of this going, as you will need quite a bit of the resulting resources."
+			]
+			id: "7CC3BD5F3D66A637"
+			rewards: [{
+				count: 6
+				id: "1B047E534CB265CB"
+				item: "gtceu:inert_metal_mixture_dust"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "A cloud of radon floats into a cafe. The waiter says, \"we don't serve inert gases here\". There was no reaction from the radon."
+			tasks: [{
+				id: "2F0E1D0E62D27DF0"
+				item: "gtceu:inert_metal_mixture_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Another tier up, another boost to processing time. But again, theres no time to get comfortable. The new resources we will be processing will need further advancements to bring those processing times down. So keep at it!"
+				""
+				"You are doing great!!"
+			]
+			id: "20A01B6A6B1177CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "217A286DEB4D851D"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "You Spin me Right Round... Oh Come on, you knew it was coming..."
+			tasks: [{
+				id: "7609E81C3C3C8F78"
+				item: "gtceu:iv_centrifuge"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7CC3BD5F3D66A637"]
+			description: ["Now that we have broken down the Inert Metal mixure, we have 2 new resources, both of which are extremely valuable to us in the &dLuv&r Tier! Make sure to get a passive line going so we have a constant supply of these resources flowing in!"]
+			id: "439556C571592D81"
+			rewards: [
+				{
+					id: "36D580AD734CBBA6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Amount: 16000
+								FluidName: "gtceu:rhodium_sulfate"
+								capacity: 16000
+							}
+						}
+						id: "evilcraft:dark_tank"
+						tag: {
+							Fluid: {
+								Amount: 16000
+								FluidName: "gtceu:rhodium_sulfate"
+							}
+							capacity: 16000
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "775ACF8F8D043BB8"
+					item: "gtceu:ruthenium_tetroxide_dust"
+					random_bonus: 6
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "2 for 1! What a deal!"
+			tasks: [
+				{
+					id: "195C8E82DDC275B1"
+					item: "gtceu:ruthenium_tetroxide_dust"
+					type: "item"
+				}
+				{
+					id: "18C94C4E8484B27A"
+					item: "gtceu:rhodium_sulfate_bucket"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"439556C571592D81"
+				"3B1268D75B34A0F6"
+			]
 			description: ["Now that we have Rhodium, we can mix it with Palladium to get Rhodium plated Palladium, and process those into ingots, then plates, and then we can make &dLuV&r tier Hulls, meaning &dLuV&r Tier machines!!"]
 			id: "639B1F99D7271C07"
 			rewards: [{
@@ -151,7 +311,6 @@
 			y: -1.7999999999999998d
 		}
 		{
-			dependencies: ["5A658F239928850E"]
 			description: [
 				"Now were talking! Our machines have some Horsepower behind them. However, even if it seems ridiculous, we are going to need more!"
 				""
@@ -170,7 +329,7 @@
 				item: "gtceu:iv_electrolyzer"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -4.5d
 			y: -1.7999999999999998d
 		}
 		{
@@ -297,6 +456,46 @@
 			}]
 			x: 7.599999999999994d
 			y: 1.5d
+		}
+		{
+			dependencies: ["16B44F78707E148E"]
+			description: ["Processing Sheldonite and purifying it will allow you to get the highest return on Platinum Group Sludge. This Sludge contains resources you need to progress."]
+			id: "2FDACD6F153D5B64"
+			rewards: [{
+				count: 16
+				id: "02F35F6C06C59F87"
+				item: "gtceu:raw_cooperite"
+				random_bonus: 32
+				type: "item"
+			}]
+			subtitle: "My Friend Sheldon went to a club on nite."
+			tasks: [{
+				id: "3E85E016A9FC831F"
+				item: "gtceu:raw_cooperite"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			description: ["While not necessary, the IV Macerator will give you a speed boost on processing Sheldonite, as this processing line can be quite &n&l&2TimeConsuming.&r&r&r"]
+			id: "16B44F78707E148E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E7B794FA4D3FC19"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Hey, Macerator, Yaaah!"
+			tasks: [{
+				id: "783804D20825EC31"
+				item: "gtceu:iv_macerator"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.9500000000000002d
 		}
 		{
 			description: ["We need to mix up some HSLA to make Plates for the Alloy Blast Smelter's walls."]
@@ -447,7 +646,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["033BF8D12E32A5E5"]
+			dependencies: ["40249CD28957E7EB"]
 			description: ["Youll need quite a bit of Ruridit. Passive your lines to keep a steady supply."]
 			id: "1DBF5A76DCDF5E49"
 			rewards: [{
@@ -988,7 +1187,7 @@
 					id: "29711CF4D4E5241C"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_wiremill"
+					to_observe: "gtceu:large_wire_factory"
 					type: "observation"
 				}
 			]
@@ -1032,7 +1231,7 @@
 					id: "578BB941AE6A7856"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_solidifier"
+					to_observe: "gtceu:large_solidification_array"
 					type: "observation"
 				}
 			]
@@ -1082,7 +1281,7 @@
 					id: "65FE174D4A5F484C"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_extruder"
+					to_observe: "gtceu:large_extrusion_machine"
 					type: "observation"
 				}
 			]
@@ -1127,7 +1326,7 @@
 					observe_type: 2
 					timer: 0L
 					title: "Observe Complete Large Extraction Machine"
-					to_observe: "gtceu:large_extractor"
+					to_observe: "gtceu:large_extraction_machine"
 					type: "observation"
 				}
 			]
@@ -1174,7 +1373,7 @@
 					id: "3787DE68318D9E46"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_distillery"
+					to_observe: "gtceu:large_fractioning_distillery"
 					type: "observation"
 				}
 			]
@@ -1224,7 +1423,7 @@
 					id: "034EAE3D86F06F1C"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_cutter"
+					to_observe: "gtceu:large_cutting_saw"
 					type: "observation"
 				}
 			]
@@ -1366,7 +1565,7 @@
 					id: "553C54B8B3A652D0"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_autoclave"
+					to_observe: "gtceu:large_crystallization_chamber"
 					type: "observation"
 				}
 			]
@@ -1572,7 +1771,7 @@
 					id: "51A72B7982E04028"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_circuit_assembler"
+					to_observe: "gtceu:large_circuit_assembling_facility"
 					type: "observation"
 				}
 			]
@@ -1620,7 +1819,7 @@
 					id: "763B8BD528C50FF3"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_assembler"
+					to_observe: "gtceu:large_assembling_factory"
 					type: "observation"
 				}
 			]
@@ -1716,7 +1915,7 @@
 					id: "7FC8BBB169091341"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_electrolyzer"
+					to_observe: "gtceu:large_electrolysis_chamber"
 					type: "observation"
 				}
 			]
@@ -1772,7 +1971,7 @@
 					id: "1E34B345EFB46198"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_mixer"
+					to_observe: "gtceu:large_mixing_vessel"
 					type: "observation"
 				}
 			]
@@ -1816,7 +2015,7 @@
 					id: "040583DD9EFA80F1"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:large_centrifuge"
+					to_observe: "gtceu:large_centrifugal_unit"
 					type: "observation"
 				}
 			]
@@ -2218,6 +2417,26 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["439556C571592D81"]
+			description: ["Now that we have pure Ruthenium, we can make it dirty again! Haha! Use a mixer to turn this into Ruridit. We will need quite a bit of Ruridit for other processes and items, including the Assembly Line!"]
+			id: "40249CD28957E7EB"
+			rewards: [{
+				count: 6
+				id: "09A68E6B45224827"
+				item: "gtceu:ruthenium_dust"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "Cleaned up the Dust"
+			tasks: [{
+				id: "270A0E25457E1C36"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
 			dependencies: ["318B71954A49DC27"]
 			description: [
 				"Parallelizing Hatches are going to be incredibly Important, especially moving forward with Large multiblock Structures!"
@@ -2268,26 +2487,6 @@
 			x: -4.5d
 			y: 3.5d
 		}
-		{
-			dependencies: ["5A658F239928850E"]
-			description: ["Take that Ruthenium Dust and get to mixing! "]
-			hide_dependency_lines: true
-			id: "033BF8D12E32A5E5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4965B994720787A2"
-				table_id: 7041264405549027492L
-				type: "loot"
-			}]
-			subtitle: "All Mixed Up"
-			tasks: [{
-				id: "633D4D70BEFCEE0C"
-				item: "gtceu:iv_mixer"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.0d
-		}
 	]
-	title: "{atm9.chapters.32.title}"
+	title: "Ludicrous Voltage"
 }

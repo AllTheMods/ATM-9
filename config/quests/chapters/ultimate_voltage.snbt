@@ -897,7 +897,7 @@
 					id: "36D48825566366AE"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:zpm_fusion_reactor"
+					to_observe: "gtceu:fusion_reactor_mk_ii"
 					type: "observation"
 				}
 			]
@@ -2068,5 +2068,5 @@
 			y: -2.0d
 		}
 	]
-	title: "{atm9.chapters.34.title}"
+	title: "Ultimate Voltage"
 }
