@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
         .itemInputs([
             '1x gtceu:atomic_casing',
             '24x gtceu:tungsten_steel_screw',
-            '6x gtceu:rhodium_plated_palladium_dense_plate',
+            '6x gtceu:dense_rhodium_plated_palladium_plate',
             '16x gtceu:enriched_naquadah_trinium_europium_duranide_hex_wire',
             '4x gtceu:uv_field_generator',
             '2x gtceu:fusion_coil',
@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
         .itemInputs([
             '1x gtceu:atomic_casing',
             '24x gtceu:tungsten_steel_screw',
-            '6x gtceu:rhodium_plated_palladium_dense_plate',
+            '6x gtceu:dense_rhodium_plated_palladium_plate',
             '1x #forge:lenses/orange',
             '1x kubejs:superthermal_transference_coil',
             '1x kubejs:absolute_reaction_plating'
