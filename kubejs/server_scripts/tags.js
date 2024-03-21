@@ -82,7 +82,6 @@ function registerCustomBlocksForGregtech(event) {
 ServerEvents.tags('item', event => {
   event.add('minecraft:boats', /byg:\w+?_boat/)
   event.add('minecraft:chest_boats', /byg:.+?_chest_boat/)
-  event.add('forge:cheese', '#forge:cheeses')
   event.add('forge:plastic', 'pneumaticcraft:plastic')
   event.add('forge:dusts/ender', 'ae2:ender_dust')
   event.add('ars_nouveau:golem/shard', ['minecraft:amethyst_shard', 'ae2:certus_quartz_crystal'])
