@@ -160,6 +160,7 @@ ServerEvents.tags('fluid', event => {
     'ad_astra:fuel','ad_astra:flowing_fuel',
     'createaddition:flowing_seed_oil','createaddition:seed_oil',
     'createaddition:bioethanol','createaddition:flowing_bioethanol'])
+  event.add('forge:oil', 'thermal:crude_oil')
 })
 
 ServerEvents.tags('entity_type', event => {

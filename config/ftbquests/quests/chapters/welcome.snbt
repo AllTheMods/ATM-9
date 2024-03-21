@@ -89,21 +89,7 @@
 			y: -0.5d
 		}
 		{
-			description: [
-				"{atm9.quest.welcome.desc.commands1}"
-				""
-				"{atm9.quest.welcome.desc.commands2}"
-				""
-				"{atm9.quest.welcome.desc.commands3}"
-				""
-				"{atm9.quest.welcome.desc.commands4}"
-				""
-				"{atm9.quest.welcome.desc.commands5}"
-				""
-				"{atm9.quest.welcome.desc.commands6}"
-				""
-				"{atm9.quest.welcome.desc.commands7}"
-			]
+			description: ["{atm9.quest.welcome.desc.commands}"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
