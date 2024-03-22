@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
     C: ['extradisks:1048576k_storage_part', 'extradisks:1048576k_fluid_storage_part', 'megacells:cell_component_256m'],
     D: 'advgenerators:power_capacitor_tier3',
     E: 'rftoolsutility:flight_module',
-    F: Item.of('powah:battery_nitro', '{powah_tile_data:{energy_stored_main_energy:2000000000L}}').strongNBT(),
+    F: Item.of('powah:battery_nitro', '{powah_tile_data:{energy_stored_main_energy:2000000000L}}').weakNBT(),
     G: 'ad_astra:jet_suit'
     }).id('kubejs:allthetweaks/improbable_probability_device')
   
