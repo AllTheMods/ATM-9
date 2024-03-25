@@ -381,7 +381,7 @@
 		}
 		{
 			dependencies: ["67422A235EBAD4CF"]
-			description: ["{atm9.quest.affixes.desc.ancient}"]
+			description: ["{atm9.quest.affixes.desc.mythic}"]
 			id: "68DD99B788216006"
 			rewards: [{
 				id: "078C3AA7A00D3A57"
@@ -390,12 +390,12 @@
 			}]
 			shape: "octagon"
 			tasks: [{
-				advancement: "apotheosis:affix/ancient"
+				advancement: "apotheosis:affix/mythic"
 				criterion: ""
 				id: "2FF1889B361964B9"
 				type: "advancement"
 			}]
-			title: "{atm9.quest.affixes.ancient}"
+			title: "{atm9.quest.affixes.mythic}"
 			x: -3.5d
 			y: 1.5d
 		}
