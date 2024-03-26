@@ -105,6 +105,17 @@ ServerEvents.recipes(event => {
 		.duration(108000)
 		.EUt(ULV)
 	
+	event.recipes.gtceu.star_forge('greg_star_from_shards')
+		.itemInputs(
+			[
+				'54x kubejs:greg_star_shard',
+				'kubejs:star_housing'
+			])
+		.itemOutputs('allthetweaks:greg_star')
+		.chancedOutput(Item.of('allthetweaks:greg_star'), 20, 20)
+		.duration(108000)
+		.EUt(ULV)
+	
 	event.recipes.gtceu.star_forge('patrick_star')
 		.itemInputs(
 			[

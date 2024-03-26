@@ -1,0 +1,19 @@
+{
+    "type": "occultism:miner",
+    "conditions": [
+      {
+        "type": "forge:not",
+        "value": {
+          "type": "forge:tag_empty",
+          "tag": "forge:ores/topaz"
+        }
+      }
+    ],
+    "ingredient": {
+      "tag": "occultism:miners/ores"
+    },
+    "result": {
+      "item": "gtceu:netherrack_topaz_ore"
+    },
+    "weight": 200
+  }
