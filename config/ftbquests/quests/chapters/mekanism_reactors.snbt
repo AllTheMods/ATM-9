@@ -375,13 +375,13 @@
 			subtitle: "Casings and Glass"
 			tasks: [
 				{
-					count: 53L
+					count: 44L
 					id: "19447D5D621A8D89"
 					item: "mekanismgenerators:fission_reactor_casing"
 					type: "item"
 				}
 				{
-					count: 41L
+					count: 50L
 					id: "0765AB709CC3C6E2"
 					item: "mekanismgenerators:reactor_glass"
 					type: "item"
@@ -1155,15 +1155,15 @@
 					type: "item"
 				}
 				{
-					count: 122L
-					id: "6236D6215419A2EF"
-					item: "mekanismgenerators:reactor_glass"
-					type: "item"
-				}
-				{
 					count: 3L
 					id: "769C396EE20CD89D"
 					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					count: 122L
+					id: "576747F4F4C34535"
+					item: "mekanism:structural_glass"
 					type: "item"
 				}
 			]
