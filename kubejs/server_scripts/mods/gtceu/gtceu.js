@@ -386,4 +386,12 @@ ServerEvents.recipes(event => {
         .chancedOutput('gtceu:deepslate_dust', 6700, 800)
         .duration(400)
         .EUt(2)
+    
+    event.recipes.gtceu.macerator('macerate_salt_ore')
+        .itemInputs('railcraft:saltpeter_ore')
+        .itemOutputs('4x gtceu:crushed_salt_ore')
+        .chancedOutput('gtceu:rock_salt_gem', 1400, 850)
+        .chancedOutput('gtceu:stone_dust', 6700, 800)
+        .duration(400)
+        .EUt(2)
 })
