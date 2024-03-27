@@ -112,6 +112,11 @@ ServerEvents.tags('item', event => {
   event.add('forge:raw_materials/elementium', 'mythicbotany:raw_elementium')
   event.add('forge:storage_blocks/raw_elementium', 'mythicbotany:raw_elementium_block')
 
+  // Add 'dust' tag to Inferium essence, 'gem' tag to Dark Gem (EvilCraft) and Prosperity Shard (MA)
+  event.add('forge:dusts', 'mysticalagriculture:inferium_essence')
+  event.add('forge:gems', 'evilcraft:dark_gem')
+  event.add('forge:gems', 'mysticalagriculture:prosperity_shard')
+
   event.remove('forge:shears', 'allthemodium:alloy_paxel')
   
   event.remove('forge:ingots/naquadah', 'sgjourney:naquadah')
