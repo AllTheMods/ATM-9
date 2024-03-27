@@ -94,8 +94,8 @@ ServerEvents.recipes(event => {
   // Oblivion Shard
   event.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
     A: 'forbidden_arcanus:eternal_stella',
-    C: 'naturesaura:end_flower',
-    B: 'naturesaura:chunk_loader'
+    C: Item.of('evilcraft:mace_of_destruction', '{Fluid: {FluidName: "evilcraft:blood", Amount: 4000}}').weakNBT(),
+    B: 'evilcraft:piercing_vengeance_focus'
   }).id('kubejs:allthetweaks/oblivion_shard')
 
   // Creative Essence
