@@ -1,0 +1,16 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "minecraft:blue_ice"},
+  {"item": "minecraft:blue_ice"},
+	{"item": "minecraft:blue_ice"},
+	{"item": "minecraft:blue_ice"},
+	{"item": "minecraft:blue_ice"},
+	{"item": "minecraft:blue_ice"}
+  ],
+  "energy": 30000,
+  "result": {
+	"item": "powah:dry_ice",
+  "count": 3
+  }
+}

@@ -1,0 +1,18 @@
+	[common.backpackSettings]
+		enableTierUpgrades = true
+		#Enables wearing backpack directly from ground
+		enableBackpackBlockWearable = true
+		#Enables unequipping the backpack when player clicks with empty hand on the ground
+		enableBackpackRightClickUnequip = false
+		#Backpack immune to any damage source (lava, fire), can't be destroyed, never disappears as floating item
+		invulnerableBackpack = true
+		toolSlotsAcceptSwords = true
+		#List of items that can be put in tool slots (Use registry names, for example: minecraft:apple, minecraft:flint)
+		toolSlotsAcceptableItems = []
+		#List of items that can't be put in backpack inventory (Use registry names, for example: minecraft:apple, minecraft:flint)
+		blacklistedItems = []
+		allowShulkerBoxes = false
+		#Prevents backpack disappearing in void
+		voidProtection = true
+		#Places backpack at place where player died
+		backpackDeathPlace = false

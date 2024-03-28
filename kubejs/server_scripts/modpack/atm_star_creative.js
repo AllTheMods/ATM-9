@@ -19,11 +19,11 @@ ServerEvents.recipes(e => {
   e.custom({
     type: 'powah:energizing',
     ingredients: [
-      Ingredient.of('ae2:dense_energy_cell').toJson(),
-      Ingredient.of('ae2:dense_energy_cell').toJson(),
+      Ingredient.of('megacells:mega_energy_cell').toJson(),
+      Ingredient.of('megacells:mega_energy_cell').toJson(),
       Ingredient.of('allthetweaks:atm_star').toJson(),
-      Ingredient.of('ae2:dense_energy_cell').toJson(),
-      Ingredient.of('ae2:dense_energy_cell').toJson(),
+      Ingredient.of('megacells:mega_energy_cell').toJson(),
+      Ingredient.of('megacells:mega_energy_cell').toJson(),
     ],
     energy: '2147483647',
     result: Item.of('ae2:creative_energy_cell').toJson()
