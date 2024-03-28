@@ -66,4 +66,72 @@ ServerEvents.recipes(event => {
             "weighted": false
         }
     })
+    
+    event.custom({
+        "type": "alchemistry:dissolver",
+        "group": "alchemistry:dissolver",
+        "input": {
+            "count": 1,
+            "ingredient": {
+              "item": "'theurgy:mercury_shard'"
+            }
+        },
+        "output": {
+            "groups": [
+                {
+                    "probability": 100.0,
+                    "results": [
+                        {
+                            "count": 1,
+                            "item": "chemlib:mercury"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1,
+            "weighted": false
+        }
+    })
+
+    event.custom({
+        "type": "alchemistry:dissolver",
+        "group": "alchemistry:dissolver",
+        "input": {
+            "count": 1,
+            "ingredient": {
+              "item": "'theurgy:mercury_shard'"
+            }
+        },
+        "output": {
+            "groups": [
+                {
+                    "probability": 100.0,
+                    "results": [
+                        {
+                            "count": 1,
+                            "item": "chemlib:mercury"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1,
+            "weighted": false
+        }
+    })
+    
+    event.custom({
+	  "type": "alchemistry:combiner",
+	  "group": "alchemistry:combiner",
+	  "input": [
+		{
+		  "count": 1,
+		  "ingredient": {
+		    "item": "chemlib:mercury"
+		  }
+		}
+	  ],
+	  "result": {
+		"item": "theurgy:mercury_shard"
+	  }
+	})
 })
