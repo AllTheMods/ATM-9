@@ -1,0 +1,32 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+      "type": "forge:nbt",
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": {
+        "EntityTag": {
+          "type": "productivebees:gregstar"
+        }
+      }
+    },
+    "outputs": [
+      {
+        "item": {
+          "item": "kubejs:greg_star_shard"
+        },
+        "chance": 5
+      },
+      {
+        "fluid": {
+          "fluid": "productivebees:honey"
+        },
+        "amount": 50
+      }
+    ],
+    "conditions": [
+      {
+        "type": "productivebees:bee_exists",
+        "bee": "productivebees:gregstar"
+      }
+    ]
+  }
