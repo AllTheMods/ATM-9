@@ -12,6 +12,9 @@
 	#The duration of the Ghostly Shape effect in seconds [0..MAX|default:120]
 	#Range: > 0
 	ghostly_shape_duration = 120
+	#Rarity for Easter Eggs to spawn during Easter [1000..100000|default:5000]
+	#Range: 1000 ~ 100000
+	easter_egg_spawn_rarity = 100000
 
 #Allows to customize or disable the enchantments
 [enchantments]
