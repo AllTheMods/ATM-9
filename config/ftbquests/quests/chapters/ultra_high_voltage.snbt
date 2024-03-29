@@ -668,7 +668,7 @@
 					observe_type: 0
 					timer: 0L
 					title: "Observe a Rotary Hearth Furnace"
-					to_observe: "gtceu:rotary_hearth_furnace"
+					to_observe: "gtceu:mega_blast_furnace"
 					type: "observation"
 				}
 			]
@@ -736,7 +736,7 @@
 					id: "3DCD4DD728EB87C6"
 					observe_type: 0
 					timer: 0L
-					to_observe: "gtceu:bulk_blast_chiller"
+					to_observe: "gtceu:mega_vacuum_freezer"
 					type: "observation"
 				}
 			]
