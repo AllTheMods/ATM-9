@@ -113,7 +113,7 @@ ServerEvents.recipes(event => {
         event.custom({
           type: 'thermal:press',
           ingredients: [
-            nuggetTag.withCount(9).toJson(),
+            Item.of(nuggetTag.getFirst()).withCount(9),
             Ingredient.of('thermal:press_packing_3x3_die').toJson(),
           ],
           result: [ingot.toJson()],
