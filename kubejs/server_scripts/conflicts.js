@@ -13,6 +13,11 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'gtceu:shaped/block_compress_ender_pearl' })
   event.remove({ id: 'gtceu:shaped/block_compress_flint' })
 
+  // GT Duplicate Dusts
+  event.remove({ id: 'gtceu:shapeless/dust_bronze'})
+  event.remove({ id: 'gtceu:shapeless/dust_brass'})
+
+
   // GT conflicts, Powah Uraninite
   event.remove({ id: 'gtceu:smelting/smelt_raw_uraninite_ore_to_ingot'})
   event.remove({ id: 'gtceu:blasting/smelt_raw_uraninite_ore_to_ingot'})
@@ -162,5 +167,19 @@ ServerEvents.recipes(event => {
   event.remove({id: 'deeperdarker:raw_iron_from_smelting_gloomslate_iron_ore'})
   event.remove({id: 'deeperdarker:raw_gold_from_smelting_gloomslate_gold_ore'})
   event.remove({id: 'deeperdarker:raw_copper_from_smelting_gloomslate_copper_ore'})
-  
+
+  // Duplicate dust recipes, remove/fix/unify
+  event.remove({id: 'thermal:signalum_dust_4'})
+  event.remove({id: 'thermal:lumium_dust_4'})
+
+  //enderium
+  event.remove({id: 'thermal:enderium_dust_2'})
+  event.remove({id: 'alltheores:enderium_dust_from_alloy_blending'})
+  event.shaped('4x #forge:dusts/enderium',['LLL','DEE',"H  "],{
+    L: '#forge:dusts/lead',
+    D: '#forge:dusts/diamond',
+    E: '#forge:ender_pearls',
+    H: '#alltheores:ore_hammers'
+  }).id('allthemods9:enderium_dust_handblend')
+
 })
