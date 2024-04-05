@@ -102,6 +102,11 @@ ServerEvents.recipes(event => {
     energy: 400
   })
 
+  // add recipe to make turtle eggs from turtle essence
+  event.shaped('4x minecraft:turtle_egg', ['   ', '   ', 'EEE'], {
+    E: 'mysticalagriculture:turtle_essence'
+  }).id('kubejs:mysticalagriculture/turtle_egg')
+
   // remove gaia crux
   event.remove({ id: "mysticalagradditions:gaia_spirit_crux" })
 })
