@@ -23,7 +23,7 @@
 		x: 9.5d
 		y: 2.25d
 	}]
-	order_index: 5
+	order_index: 6
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -1038,7 +1038,7 @@
 			size: 1.5d
 			tasks: [
 				{
-					count: 45L
+					count: 48L
 					id: "2429D427160A65D5"
 					item: "forbidden_arcanus:polished_darkstone"
 					type: "item"
