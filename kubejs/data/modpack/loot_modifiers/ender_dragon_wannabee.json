@@ -5,7 +5,7 @@
         "loot_table_id": "minecraft:entities/ender_dragon"
       },
       {
-        "condition": "productivebees:killed_by_uuid",
+        "condition": "productivelib:killed_by_uuid",
         "uuid": "bf699a99-b67c-35dc-981f-fb67fe089dbd"
       }
     ],
