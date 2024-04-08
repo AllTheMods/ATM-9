@@ -41,11 +41,11 @@ ServerEvents.recipes(event => {
             let affix = input.split(':')
             if (affix[0].includes('mystical')) {
                 // do nothing, MA taken care of below
-                console.log("skipping over MA " + input)
+                // console.log("skipping over MA " + input)
             } else {
                 if ((rawRecipe.getId().split(':')[0].includes('botanytrees') && input.includes('croptopia')) || rawRecipe.getId().split(':')[0].includes('supplementaries')) {
                     // do nothing because these are duplicate recipes
-                    console.log("skipping over recipe " + rawRecipe.getId())
+                    // console.log("skipping over recipe " + rawRecipe.getId())
                 } else {
                     var recipeBuilder = event.recipes.gtceu.greenhouse('kubejs:gtceu/greenhouse/' + affix[0] + "/" + affix[1])
                     recipeBuilder.EUt(MV)
@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
                 }
             }
         } else { // special cases - pitcher plant, chorus, torchflower
-            console.log('seed has no item property for recipe ' + rawRecipe.getId())
+            // console.log('seed has no item property for recipe ' + rawRecipe.getId())
             let input = recipe.seed[1].item
             let affix = input.split(':')
             var recipeBuilder = event.recipes.gtceu.greenhouse('kubejs:gtceu/greenhouse/' + affix[0] + "/" + affix[1])
