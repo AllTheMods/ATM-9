@@ -49,6 +49,115 @@ ServerEvents.recipes(event => {
         .duration(200)
         .EUt(UHV)
     
+    // fluix and sky steel dust maceration
+    event.recipes.gtceu.macerator('macerate_fluix')
+        .itemInputs('ae2:fluix_crystal')
+        .itemOutputs('ae2:fluix_dust')
+        .duration(80)
+        .EUt(ULV)
+    
+    event.recipes.gtceu.macerator('macerate_sky_stone')
+        .itemInputs('ae2:sky_stone_block')
+        .itemOutputs('ae2:sky_dust')
+        .duration(80)
+        .EUt(ULV)
+    
+    // AE2 charger recipe for GT certus
+    event.custom({
+        type: "ae2:charger",
+        ingredient: { item: "gtceu:certus_quartz_gem" },
+        result: { item: "ae2:charged_certus_quartz_crystal" }
+    })
+
+    // AE2 printed circuits in forming press
+    event.recipes.gtceu.forming_press('ae2/printed_logic_circuit')
+        .itemInputs('minecraft:gold_ingot')
+        .notConsumable('ae2:logic_processor_press')
+        .itemOutputs('ae2:printed_logic_processor')
+        .duration(80)
+        .EUt(MV)
+    
+    event.recipes.gtceu.forming_press('ae2/universal/printed_logic_circuit')
+        .itemInputs('minecraft:gold_ingot')
+        .notConsumable('kubejs:universal_press')
+        .itemOutputs('ae2:printed_logic_processor')
+        .duration(80)
+        .EUt(MV)
+    
+    event.recipes.gtceu.forming_press('ae2/printed_silicon_circuit')
+        .itemInputs('ae2:silicon')
+        .notConsumable('ae2:silicon_press')
+        .itemOutputs('ae2:printed_silicon')
+        .duration(80)
+        .EUt(MV)
+    
+    event.recipes.gtceu.forming_press('ae2/universal/printed_silicon_circuit')
+        .itemInputs('ae2:silicon')
+        .notConsumable('kubejs:universal_press')
+        .itemOutputs('ae2:printed_silicon')
+        .duration(80)
+        .EUt(MV)
+    
+    event.recipes.gtceu.forming_press('ae2/printed_engineering_circuit')
+        .itemInputs('minecraft:diamond')
+        .notConsumable('ae2:engineering_processor_press')
+        .itemOutputs('ae2:printed_engineering_processor')
+        .duration(80)
+        .EUt(MV)
+    
+    event.recipes.gtceu.forming_press('ae2/universal/printed_engineering_circuit')
+        .itemInputs('minecraft:diamond')
+        .notConsumable('kubejs:universal_press')
+        .itemOutputs('ae2:printed_engineering_processor')
+        .duration(80)
+        .EUt(MV)
+
+    event.recipes.gtceu.forming_press('ae2/printed_calculation_circuit')
+        .itemInputs('ae2:certus_quartz_crystal')
+        .notConsumable('ae2:calculation_processor_press')
+        .itemOutputs('ae2:printed_calculation_processor')
+        .duration(80)
+        .EUt(MV)
+    
+    event.recipes.gtceu.forming_press('ae2/universal/printed_calculation_circuit')
+        .itemInputs('ae2:certus_quartz_crystal')
+        .notConsumable('kubejs:universal_press')
+        .itemOutputs('ae2:printed_calculation_processor')
+        .duration(80)
+        .EUt(MV)
+
+    event.recipes.gtceu.forming_press('megacells/printed_accumulation_circuit')
+        .itemInputs('megacells:sky_steel_ingot')
+        .notConsumable('megacells:accumulation_processor_press')
+        .itemOutputs('megacells:printed_accumulation_processor')
+        .duration(80)
+        .EUt(EV)
+    
+    // AE2 processors in forming press
+    event.recipes.gtceu.forming_press('ae2/logic_circuit')
+        .itemInputs(['ae2:printed_logic_processor', 'minecraft:redstone', 'ae2:printed_silicon'])
+        .itemOutputs('ae2:logic_processor')
+        .duration(80)
+        .EUt(MV)
+    
+    event.recipes.gtceu.forming_press('ae2/engineering_circuit')
+        .itemInputs(['ae2:printed_engineering_processor', 'minecraft:redstone', 'ae2:printed_silicon'])
+        .itemOutputs('ae2:engineering_processor')
+        .duration(80)
+        .EUt(MV)
+
+    event.recipes.gtceu.forming_press('ae2/calculation_circuit')
+        .itemInputs(['ae2:printed_calculation_processor', 'minecraft:redstone', 'ae2:printed_silicon'])
+        .itemOutputs('ae2:calculation_processor')
+        .duration(80)
+        .EUt(MV)
+
+    event.recipes.gtceu.forming_press('megacells/accumulation_circuit')
+        .itemInputs(['megacells:printed_accumulation_processor', 'ae2:fluix_dust', 'ae2:printed_silicon'])
+        .itemOutputs('megacells:accumulation_processor')
+        .duration(80)
+        .EUt(EV)
+
     // ATO and vanilla silk touched ore maceration recipes
     // Minecraft stone/deepslate/nether ores
     event.recipes.gtceu.macerator('macerate_iron_ore')
