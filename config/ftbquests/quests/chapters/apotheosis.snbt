@@ -592,12 +592,6 @@
 					type: "item"
 				}
 				{
-					count: 5L
-					id: "7DD85566E61EDA94"
-					item: "apotheosis:soul_touched_deepshelf"
-					type: "item"
-				}
-				{
 					count: 3L
 					id: "2E6B0A322132B9FC"
 					item: "apotheosis:rectifier_t3"
@@ -606,6 +600,12 @@
 				{
 					id: "78831B3CE3EE431C"
 					item: "apotheosis:treasure_shelf"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "00BB332C3BC31EF3"
+					item: "apotheosis:soul_touched_sculkshelf"
 					type: "item"
 				}
 			]

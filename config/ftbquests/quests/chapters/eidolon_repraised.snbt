@@ -6,6 +6,7 @@
 	icon: "eidolon:codex"
 	id: "1B8E80D09BFBD0C0"
 	order_index: 4
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -488,5 +489,5 @@
 			y: 3.0d
 		}
 	]
-	title: "Eidolon: Repraised"
+	title: "{atm9.chapters.51.title}"
 }
