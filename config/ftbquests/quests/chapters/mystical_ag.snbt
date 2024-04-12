@@ -28,8 +28,8 @@
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
-			x: 7.75d
-			y: -1.5d
+			x: 3.6030612244897924d
+			y: -2.08163265306122d
 		}
 	]
 	order_index: 3
@@ -1707,7 +1707,7 @@
 				item: "mysticalagradditions:insanium_farmland"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: -3.5d
 		}
 		{
@@ -1733,7 +1733,7 @@
 				item: "mysticalagriculture:nether_star_seeds"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -4.5d
 		}
 		{
@@ -1759,7 +1759,7 @@
 				item: "mysticalagriculture:dragon_egg_seeds"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -4.5d
 		}
 		{
@@ -2251,8 +2251,8 @@
 				item: "mysticalagradditions:insanium_apple"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.5d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
@@ -2640,7 +2640,7 @@
 				item: "mysticalagradditions:nether_star_crux"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -5.5d
 		}
 		{
@@ -2658,7 +2658,7 @@
 				item: "mysticalagradditions:dragon_egg_crux"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -5.5d
 		}
 		{
@@ -2805,7 +2805,7 @@
 				type: "item"
 			}]
 			title: "&1Insanium Essence"
-			x: 5.0d
+			x: 5.5d
 			y: -1.5d
 		}
 		{
@@ -3623,8 +3623,8 @@
 				item: "mysticalagradditions:creative_essence"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.5d
+			x: 3.582653061224491d
+			y: -1.5102040816326507d
 		}
 		{
 			dependencies: ["67DBE6C59C0D9D1B"]
@@ -3714,6 +3714,127 @@
 			title: "Prosperity Shards"
 			x: -19.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["1A828B972744E6D1"]
+			description: ["Requires a Crux (Next Quest)"]
+			id: "403A2FDE4D14E489"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57D94347B868256E"
+					table_id: 3663852184954822005L
+					type: "loot"
+				}
+				{
+					id: "417CBE337A51A135"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "077FDB913A47CDAF"
+				item: "mysticalagriculture:allthemodium_seeds"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A828B972744E6D1"]
+			description: ["Requires a Crux (Next Quest)"]
+			id: "2CA6E04FD56BDB20"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7855AB60ADCEDC25"
+					table_id: 3663852184954822005L
+					type: "loot"
+				}
+				{
+					id: "0AD521A9FACDB554"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "270A169DC6ECC7B4"
+				item: "mysticalagriculture:vibranium_seeds"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A828B972744E6D1"]
+			description: ["Requires a Crux (Next Quest)"]
+			id: "5D4EA1DE55C8423C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "422DD20E612A4BA7"
+					table_id: 3663852184954822005L
+					type: "loot"
+				}
+				{
+					id: "692F7F5D163A4DA5"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "1B3717FFF6E93D0C"
+				item: "mysticalagriculture:unobtainium_seeds"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["202B1F54D3F06DAB"]
+			id: "1A828B972744E6D1"
+			rewards: [
+				{
+					id: "7D31A3F2E9F5E969"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D154A2F300E7BF1"
+					table_id: 5325714992629626565L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0CEBCF92B3FC6B7E"
+				item: "mysticalagradditions:insanium_block"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"403A2FDE4D14E489"
+				"2CA6E04FD56BDB20"
+				"5D4EA1DE55C8423C"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Place this under the soil to allow Magical Tier Seeds to grow."]
+			id: "1B04BF1C3AB07419"
+			rewards: [{
+				id: "118056B4D409F6DF"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "4B724B39643D9ACD"
+				item: "kubejs:magical_soil"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
 		}
 	]
 	title: "{atm9.chapters.16.title}"
