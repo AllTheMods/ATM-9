@@ -15,8 +15,8 @@
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
-			x: 11.5d
-			y: 11.1d
+			x: 12.506802721088391d
+			y: 7.437925170068027d
 		}
 		{
 			click: ""
@@ -27,8 +27,351 @@
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
-			x: 10.5d
+			x: 11.5d
 			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [
+				"Mycelial Reactor consists of all the Mycelial generators working at the same time, near the reactor block."
+				"It generates 25MFE/t."
+			]
+			image: "industrialforegoing:block/reactor_front_mycelial"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Crimed Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_crimed"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Culinary Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_culinary"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Death Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_death"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Disenchantment Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_disenchantment"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Ender Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_ender"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Explosive Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_explosive"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Frosty Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_frosty"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 17.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Furnace Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_furnace"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 18.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Halitosis Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_halitosis"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 19.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Magma Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_magmatic"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 19.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Meatallurgic Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_meatallurgic"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 19.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Netherstar Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_netherstar"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 19.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Pink Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_pink"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 18.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Potion Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_potion"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 17.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Rocket Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_rocket"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Slimey Mycelial Generator"]
+			image: "industrialforegoing:block/generators/generator_front_slimey"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 15.5d
+		}
+		{
+			click: "#0EC2053B191C55C6"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Fluid Extractor - Extracts Latex from logs, some give more latex than others"]
+			image: "industrialforegoing:block/tree_fluid_extractor_back"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.3346938775509756d
+			y: 2.910034013605461d
+		}
+		{
+			click: "#294C729B9EBD7A3C"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Block Placer - to automate the log placing"]
+			image: "industrialforegoing:block/block_placer_back"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.4367346938775043d
+			y: 2.01207482993199d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Acacia Logs give the most latex"]
+			image: "chipped:block/acacia_log/firewood_acacia_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.4399659863945189d
+			y: 2.909523809523833d
+		}
+		{
+			click: "#0EC2053B191C55C6"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Fluid Extractor - Extracts Latex from logs, some give more latex than others"]
+			image: "industrialforegoing:block/tree_fluid_extractor_back"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.4367346938775043d
+			y: 3.828401360544234d
+		}
+		{
+			click: "#0EC2053B191C55C6"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Fluid Extractor - Extracts Latex from logs, some give more latex than others"]
+			image: "industrialforegoing:block/tree_fluid_extractor_back"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.461224489795967d
+			y: 2.910034013605461d
+		}
+		{
+			click: "#6FF04DD735346BED"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Latex Processing Unit"]
+			image: "industrialforegoing:block/latex_processing_unit_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.1301020408163396d
+			y: 2.9013605442176953d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.130612244897911d
+			y: 2.8896258503401455d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "atm:textures/questpics/industrialforegoing/mycelial_reactor.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 18.0d
+			y: 17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.0d
+			hover: [
+				"Wither in Stasis - Fluid Drill on top"
+				"This is how you get Ether Gas"
+			]
+			image: "atm:textures/questpics/industrialforegoing/ether_gas_setup.png"
+			order: 10
+			rotation: 0.0d
+			width: 8.0d
+			x: 21.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/furnace_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.967346938775449d
+			y: 2.8896258503401455d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.028571428571368d
+			y: 2.8896258503401455d
 		}
 	]
 	order_index: 2
@@ -57,29 +400,37 @@
 				type: "checkmark"
 			}]
 			title: "Industrial Foregoing"
-			x: 0.0d
-			y: 0.0d
+			x: 1.007653061224488d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6E616DB197387C86"]
 			description: [
 				"Extracts latex from logs."
 				""
-				"Check JEI for acceptable logs and latex amounts."
+				"Check JEI for acceptable logs and latex amounts. Best log to use is Acacia."
 			]
 			id: "0EC2053B191C55C6"
-			rewards: [{
-				id: "2D3F9D6C16FE7EAF"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "2D3F9D6C16FE7EAF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62522B4A46251119"
+					table_id: 5124217649411489500L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "3CEAE2B50AD7C5ED"
 				item: "industrialforegoing:fluid_extractor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 0.9872448979591795d
+			y: 0.0034013605442169137d
 		}
 		{
 			dependencies: ["55820773BDD5319D"]
@@ -95,8 +446,8 @@
 				item: "industrialforegoing:machine_frame_pity"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 1.0d
+			y: -1.8299319727891188d
 		}
 		{
 			dependencies: ["6E616DB197387C86"]
@@ -113,23 +464,31 @@
 				item: "industrialforegoing:pitiful_generator"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["321FA7348E532F4E"]
 			id: "6FF04DD735346BED"
-			rewards: [{
-				id: "0FB5D498F42B6185"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0FB5D498F42B6185"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "165FAC8C2F75A7F9"
+					table_id: 5124217649411489500L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "163B2434699EEF1A"
 				item: "industrialforegoing:latex_processing_unit"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -162,8 +521,8 @@
 				}
 			]
 			title: "Item \\& Fluid Transport"
-			x: 1.5d
-			y: 1.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0EC2053B191C55C6"]
@@ -215,11 +574,12 @@
 				item: "industrialforegoing:latex_bucket"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 2.155102040816274d
+			y: 0.007993197278921116d
 		}
 		{
 			dependencies: ["6FF04DD735346BED"]
+			description: ["When smelted, gives Plastic, which is the main resource in Industrial Foregoing"]
 			id: "0EA9E52B67B533DF"
 			rewards: [{
 				id: "2152C5EA52C0D06F"
@@ -231,18 +591,26 @@
 				item: "industrialforegoing:dryrubber"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0EA9E52B67B533DF"]
 			id: "690CFF61CE787D43"
-			rewards: [{
-				count: 5
-				id: "41FDECEBC7DDB3F6"
-				item: "industrialforegoing:plastic"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "41FDECEBC7DDB3F6"
+					item: "industrialforegoing:plastic"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10813338F04C0398"
+					table_id: 5124217649411489500L
+					type: "loot"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "77579FFDFEA734EB"
@@ -274,27 +642,45 @@
 			]
 			title: "Common Black Hole Storage"
 			x: 9.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
 			id: "57C4A0BAE739E903"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B87BEEF76D40DA7"
+				table_id: 5124217649411489500L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "47C0E765FD874FCC"
 				item: "industrialforegoing:dissolution_chamber"
 				type: "item"
 			}]
 			x: 7.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
+			description: [
+				"Passive Mobs -> More Pink Slime"
+				"Hostile Mobs -> More Meat"
+			]
 			id: "1823CC81D613892B"
-			rewards: [{
-				id: "222D5521FF5BCB8C"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "222D5521FF5BCB8C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DDA30E9635266E1"
+					table_id: 5124217649411489500L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "4CEA3179A4BE3336"
 				item: "industrialforegoing:mob_slaughter_factory"
@@ -364,7 +750,7 @@
 				}
 			]
 			title: "Pink Slime \\& Liquid Meat"
-			x: 10.5d
+			x: 11.5d
 			y: 0.0d
 		}
 		{
@@ -381,7 +767,7 @@
 				item: "industrialforegoing:conveyor"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 6.5d
 			y: 1.0d
 		}
 		{
@@ -406,8 +792,8 @@
 				}
 			]
 			title: "Conveyor Insertion \\& Extraction"
-			x: 9.8d
-			y: 1.2999999999999998d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["616CFD4078D67B51"]
@@ -447,8 +833,8 @@
 				}
 			]
 			title: "Other Conveyor Upgrades"
-			x: 8.8d
-			y: 2.3d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
@@ -473,10 +859,11 @@
 			]
 			title: "Fluids"
 			x: 9.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
+			description: ["Automate block placing/breaking using these, especially usefull when automating latex."]
 			id: "2CCFEE98FE3B2E97"
 			optional: true
 			rewards: [{
@@ -498,7 +885,7 @@
 			]
 			title: "Blocks"
 			x: 8.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
@@ -528,7 +915,7 @@
 			]
 			title: "Animals"
 			x: 6.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
@@ -553,7 +940,7 @@
 			]
 			title: "Plants"
 			x: 6.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
@@ -578,7 +965,7 @@
 			]
 			title: "Bio Power"
 			x: 5.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
@@ -603,27 +990,39 @@
 			]
 			title: "Other Machines"
 			x: 7.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["690CFF61CE787D43"]
+			dependencies: [
+				"690CFF61CE787D43"
+				"1823CC81D613892B"
+			]
+			description: ["Meat through a tube, yummy"]
 			id: "4C366515E3CCB0B2"
 			tasks: [{
 				id: "381C116FAD6B2236"
 				item: "industrialforegoing:meat_feeder"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["57C4A0BAE739E903"]
 			id: "3514E9C1A8C7400C"
-			rewards: [{
-				id: "3CB88390179E68C1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3CB88390179E68C1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DD952E9DAB7B8A7"
+					table_id: 5124217649411489500L
+					type: "loot"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "719FBA82094C5EC2"
@@ -631,7 +1030,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -640,9 +1039,10 @@
 			]
 			id: "0BCCDE24D378F260"
 			rewards: [{
-				id: "7368A06045782F5F"
-				type: "xp_levels"
-				xp_levels: 1
+				exclude_from_claim_all: true
+				id: "7A3A00513891003C"
+				table_id: 8352280757313595670L
+				type: "loot"
 			}]
 			shape: "rsquare"
 			tasks: [{
@@ -650,83 +1050,118 @@
 				item: "industrialforegoing:machine_frame_advanced"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 3.0d
+			x: 11.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3514E9C1A8C7400C"]
 			id: "22702838FC507A2E"
 			optional: true
+			rewards: [{
+				id: "3BA98A7B936CA54C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7BC5A77A97F5FEA3"
 				item: "industrialforegoing:hydroponic_bed"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.0d
+			x: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3514E9C1A8C7400C"]
 			id: "0D2DD9AA960843A3"
 			optional: true
+			rewards: [{
+				id: "6EC4D088A0648FD0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "782FFDDEED06401F"
 				item: "industrialforegoing:plant_fertilizer"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.0d
+			x: 9.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3514E9C1A8C7400C"]
 			id: "0AD768E4CC10358C"
 			optional: true
+			rewards: [{
+				id: "774E775539F872B9"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "183086ACEB713E82"
 				item: "industrialforegoing:mycelial_furnace"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3514E9C1A8C7400C"]
 			id: "605A5AC65BC7E864"
+			rewards: [{
+				id: "739A3B6C7097D073"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0B132D9A270D8A51"
 				item: "industrialforegoing:marine_fisher"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.0d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3514E9C1A8C7400C"]
 			id: "377F505175DFB790"
 			optional: true
+			rewards: [{
+				id: "20AD506FD5ACFE33"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "54E7A3F21AE2CA54"
 				item: "industrialforegoing:mycelial_culinary"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 7.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3514E9C1A8C7400C"]
 			id: "45DA9A3DA47AF2F0"
 			optional: true
+			rewards: [{
+				id: "2F665DF88E574553"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3ECC5C50C2436DB2"
 				item: "industrialforegoing:mycelial_frosty"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 7.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["3514E9C1A8C7400C"]
 			id: "0B7E3FD8B8CB04A2"
+			rewards: [{
+				id: "2D71CD1E71EBE9EC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "2A17E5658713BB56"
@@ -740,44 +1175,59 @@
 				}
 			]
 			title: "Simple Black Hole Storage"
-			x: 5.5d
-			y: 4.0d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3514E9C1A8C7400C"]
 			id: "224C07AC71C5F40E"
 			optional: true
+			rewards: [{
+				id: "6C877D1A3C5DA88E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "353C9F6B5E56C76E"
 				item: "industrialforegoing:fermentation_station"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.0d
+			x: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3514E9C1A8C7400C"]
 			id: "29C9EBD333E59A35"
 			optional: true
+			rewards: [{
+				id: "06E705400BFA0E5C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "345746E883043F2A"
 				item: "industrialforegoing:mycelial_pink"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3514E9C1A8C7400C"]
 			id: "1684D52FDAAC894B"
 			optional: true
+			rewards: [{
+				id: "0DC27341E5CC2E46"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "720D4B73408CD1F0"
 				item: "industrialforegoing:mob_detector"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: 9.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0E8647B8EB4AAC41"]
@@ -792,7 +1242,7 @@
 				item: "industrialforegoing:pink_slime_ingot"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.5d
 			y: 0.0d
 		}
 		{
@@ -801,17 +1251,29 @@
 				"0BCCDE24D378F260"
 			]
 			id: "0B35172E47705205"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D6B326AA5539931"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "79D439E38B286B8E"
 				item: "industrialforegoing:washing_factory"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 0.0d
+			x: 14.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "418E57E34FFC19E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69FCF0A4D6B92D47"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "21285C89735F67FC"
@@ -830,19 +1292,26 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
-			y: 4.5d
+			title: "Laser Drills (Void Miner)"
+			x: 12.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "2E8E292ED596A104"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "594B225D020201DC"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7B6F79D3A759D5D5"
 				item: "industrialforegoing:laser_lens10"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.5d
+			x: 11.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -855,84 +1324,62 @@
 			]
 			id: "7E39FB9F3E973009"
 			rewards: [{
-				id: "3F01AE70E8D45133"
-				item: {
-					Count: 1b
-					id: "mekanism:basic_fluid_tank"
-					tag: {
-						BlockEntityTag: {
-							FluidTanks: [{
-								Tank: 0b
-								stored: {
-									Amount: 14000
-									FluidName: "industrialforegoing:ether_gas"
-								}
-							}]
-							ForgeCaps: { }
-							Items: [ ]
-							activeState: 0b
-							currentRedstone: 15
-							editMode: 0
-							id: "mekanism:basic_fluid_tank"
-							redstone: 0b
-							updateDelay: 0
-						}
-						display: {
-							Lore: ["\"(+NBT)\""]
-						}
-						mekData: {
-							FluidTanks: [{
-								Tank: 0b
-								stored: {
-									Amount: 14000
-									FluidName: "industrialforegoing:ether_gas"
-								}
-							}]
-							Items: [ ]
-							securityMode: 0
-						}
-					}
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "0DFE99C957A9D7C7"
+				table_id: 8352280757313595670L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "1225664C1E9E28D3"
 				item: "industrialforegoing:ether_gas_bucket"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 6.0d
+			x: 11.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7B4AF35313D7D779"]
 			id: "0F8FE6692717AA6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ABB19B5E00E3E6D"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2FD098DEE8336866"
 				item: "industrialforegoing:mycelial_reactor"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["7E39FB9F3E973009"]
 			id: "7B4AF35313D7D779"
 			rewards: [{
-				id: "3A2DA002948C28DF"
-				type: "xp_levels"
-				xp_levels: 1
+				exclude_from_claim_all: true
+				id: "3D2DF24F9574CC0B"
+				table_id: 8352280757313595670L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "0DC23FAFFD8954C2"
 				item: "industrialforegoing:machine_frame_supreme"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 7.5d
+			x: 11.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "1D5895CD14AB88EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E1D6D1D640EEF09"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "0F4D170395901E5C"
@@ -945,281 +1392,350 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
-			y: 4.0d
+			x: 15.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "65C5D30F48B77D20"
 			optional: true
 			rewards: [{
-				id: "6DFF5F139145071E"
-				type: "xp"
-				xp: 100
+				exclude_from_claim_all: true
+				id: "149850904760F703"
+				table_id: 8352280757313595670L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "285EB289271FF17A"
 				item: "industrialforegoing:mycelial_death"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 3.0d
+			x: 18.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "7DC044EFFDC208D7"
 			optional: true
 			rewards: [{
-				id: "5EF23943495FF756"
-				type: "xp"
-				xp: 100
+				exclude_from_claim_all: true
+				id: "1A72C528C5669C74"
+				table_id: 8352280757313595670L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "4AF8DF7BC38E419B"
 				item: "industrialforegoing:mycelial_slimey"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 2.0d
+			x: 14.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "014262BDF1BBA54D"
 			optional: true
 			rewards: [{
-				id: "51DAF57217E578E2"
-				type: "xp"
-				xp: 100
+				exclude_from_claim_all: true
+				id: "44298E7999EB7B94"
+				table_id: 8352280757313595670L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "56ACF4EA4F91E75C"
 				item: "industrialforegoing:mycelial_rocket"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 22.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "5186CB4CD85B530C"
 			optional: true
 			rewards: [{
-				id: "5F1811CD65E2047F"
-				type: "xp"
-				xp: 100
+				exclude_from_claim_all: true
+				id: "227F6EF7AE909565"
+				table_id: 8352280757313595670L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "1E468D6A624E64E2"
 				item: "industrialforegoing:mycelial_potion"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 2.0d
+			x: 15.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "287B47E27EBC2C18"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20881D56F5192E84"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "4F813C90DC8DE4F0"
 				item: "industrialforegoing:enchantment_factory"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 4.0d
+			x: 14.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "776EE1F5C4565146"
 			optional: true
 			rewards: [{
-				id: "22719C30558DBF7B"
-				type: "xp"
-				xp: 100
+				exclude_from_claim_all: true
+				id: "298134FBAFA1E326"
+				table_id: 8352280757313595670L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "6F96A800F8BDA3FD"
 				item: "industrialforegoing:mycelial_crimed"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 3.0d
+			x: 21.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "3AFDE3396861A944"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "759BBDD0EC70369D"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "74E4102326A71945"
 				item: "industrialforegoing:enchantment_applicator"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 4.0d
+			x: 15.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "4A8C60412E59E971"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "211F476F3CB6AE8E"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "18A5C86DE82D9671"
 				item: "industrialforegoing:enchantment_sorter"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 4.0d
+			x: 16.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "2DC012EF21FB359E"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C6011376A9A8C7B"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "45B306381A723562"
 				item: "industrialforegoing:enchantment_extractor"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 4.0d
+			x: 17.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "272E27EFE40C913A"
 			optional: true
 			rewards: [{
-				id: "02982A3B61029BA0"
-				type: "xp"
-				xp: 100
+				exclude_from_claim_all: true
+				id: "6351B04D5DB904AC"
+				table_id: 8352280757313595670L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "0D2B10E4838ACFA2"
 				item: "industrialforegoing:mycelial_ender"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 3.0d
+			x: 20.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "7CB4D47ABC295B92"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61BD7D63BC90F9D2"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "43C5F3AECB9F88F1"
 				item: "industrialforegoing:mob_crusher"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 3.0d
+			x: 16.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "15551AC6C68E12E0"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28036A4A8587E827"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "532B0FD90F4D6AF6"
 				item: "industrialforegoing:mob_duplicator"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 3.0d
+			x: 15.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "393A7BA6768A3F56"
 			optional: true
 			rewards: [{
-				id: "41D2AB7FDF96F0BD"
-				type: "xp"
-				xp: 100
+				exclude_from_claim_all: true
+				id: "6750356BF00D4D8C"
+				table_id: 8352280757313595670L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "185FE487EF5B3069"
 				item: "industrialforegoing:mycelial_disenchantment"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 2.0d
+			x: 16.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "1BF511A13DF35C3A"
 			optional: true
 			rewards: [{
-				id: "4C75EC03132D7098"
-				type: "xp"
-				xp: 100
+				exclude_from_claim_all: true
+				id: "35B1C843F3FA5B7A"
+				table_id: 8352280757313595670L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "2C993EEE2B11D440"
 				item: "industrialforegoing:mycelial_magma"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 2.0d
+			x: 17.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "38FF05B6A26DB2EC"
 			optional: true
 			rewards: [{
-				id: "00B92D4CB603062C"
-				type: "xp"
-				xp: 100
+				exclude_from_claim_all: true
+				id: "0C0798BE81F2F11E"
+				table_id: 8352280757313595670L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "04F5D3F7B29D441B"
 				item: "industrialforegoing:mycelial_explosive"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 2.0d
+			x: 19.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "06F84E2C484FAC5B"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7919B502DD10AFCE"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5949367631EAD828"
 				item: "industrialforegoing:material_stonework_factory"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 4.0d
+			x: 16.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "4F3EF1574F31A7E2"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40F175309FD9450A"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0D1F3F6898F4E776"
 				item: "industrialforegoing:stasis_chamber"
 				type: "item"
 			}]
 			x: 17.5d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "2782EA80C1C74EBD"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "661D05D57C1FF7DF"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "3EFA144FCF33A935"
 				item: "industrialforegoing:potion_brewer"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 2.0d
+			x: 14.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "34AA079FFAFC64BD"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B005F23D46A4F76"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "363855E6A408A2E5"
 				item: "industrialforegoing:fluid_sieving_machine"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 4.0d
+			x: 17.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0E8647B8EB4AAC41"]
@@ -1229,7 +1745,7 @@
 				item: "industrialforegoing:infinity_charger"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.5d
 			y: -1.5d
 		}
 		{
@@ -1332,59 +1848,89 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 11.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7B4AF35313D7D779"]
 			id: "60719C4317D39E5A"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66568091CEBF968A"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "42FC1011D077857F"
 				item: "industrialforegoing:mycelial_netherstar"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 10.5d
+			x: 12.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7B4AF35313D7D779"]
 			id: "3A97E99FEC78E9C2"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36AEF3332136C672"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "26CFE6CE592741D6"
 				item: "industrialforegoing:mycelial_halitosis"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 9.5d
+			x: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7B4AF35313D7D779"]
 			id: "7342B2669D96C509"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B90E8101E9805A5"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "077D65D9C7397844"
 				item: "industrialforegoing:mycelial_meatallurgic"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 8.5d
+			x: 11.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7B4AF35313D7D779"]
 			id: "28B3591BFC0FA08B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50CB633BE2D20F53"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "12A0A25980EA485E"
 				item: "industrialforegoing:wither_builder"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 10.5d
+			x: 12.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7B4AF35313D7D779"]
 			id: "30BEF473F5C25983"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0467AE9BA58557C7"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "01FE619C47E82C71"
@@ -1397,19 +1943,120 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
+			x: 10.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["7B4AF35313D7D779"]
 			id: "4F846973EFB95FA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3625368F9EFEB946"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5A45E3CD864C4DA1"
 				item: "industrialforegoing:black_hole_controller"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 9.5d
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"776EE1F5C4565146"
+				"377F505175DFB790"
+				"65C5D30F48B77D20"
+				"393A7BA6768A3F56"
+				"272E27EFE40C913A"
+				"38FF05B6A26DB2EC"
+				"45DA9A3DA47AF2F0"
+				"0AD768E4CC10358C"
+				"3A97E99FEC78E9C2"
+				"1BF511A13DF35C3A"
+				"7342B2669D96C509"
+				"60719C4317D39E5A"
+				"29C9EBD333E59A35"
+				"5186CB4CD85B530C"
+				"014262BDF1BBA54D"
+				"7DC044EFFDC208D7"
+				"0F8FE6692717AA6A"
+			]
+			description: [
+				"The &bMycelial Reactor&r consists of all the Mycelial Generators working at the same time, near the reactor block, and it produces a total of &a25MFE/t&r."
+				""
+				"All sounds good, but you need to automate some stuff to get it working, see what each Mycelial Generator consumes to work, and automate it, most things are simple, but others, not that much... &olooking at Disenchanting Mycelial Generator&r."
+				""
+				"But after you get it all automated, you don't need to stop at one, you can make more reactors."
+			]
+			id: "0FAAE744E156D8EF"
+			rewards: [{
+				id: "4072266D7E2B23B7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1F1A69738DE70DB6"
+				title: "Mycelial Reactor, huh?"
+				type: "checkmark"
+			}]
+			title: "Mycelial Reactor? Huh?"
+			x: 11.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"4F3EF1574F31A7E2"
+				"418E57E34FFC19E1"
+				"2E8E292ED596A104"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"Getting your first &bEther Gas&r is going to be scary."
+				"&bEther Gas&r is made from drilling a &0Wither&r, using a Fluid Drill with &5Purple Lens&r."
+				""
+				"But worry not, Industrial Foregoing has a machine just to help you in that task: &4Stasis Chamber&r - this machine freezes in place anything that is on top, in a 3x3 area, so spawning a wither on there is safe."
+				""
+				"&cHope you don't run out of power, because if you do... well... i hope you are ready to fight the &0Wither&r."
+			]
+			id: "3CB7884B7B32CF00"
+			rewards: [{
+				id: "5B9934DE176BAC74"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "335D80E83360A7DB"
+				title: "Ether Gas? Huh?"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Welcome to &bIndustrial Foregoing&r, one of the main resources in this mod, is &fLatex.&r Its used to craft machine frames, needed to make.. well... machines, and upgrades. "
+				""
+				"&oJEI is your friend&r"
+				""
+				"Making Latex is pretty simple, &aFluid Extractor&r extracts Latex from &6Logs&r (Acacia gives the most)."
+				""
+				"------------------------"
+				""
+				"Now about making Plastic: Plastic results from smelting Dry Rubber - which is made in the &aLatex Processing Unit&r, that transforms Latex into Dry Rubber."
+				""
+				"&bSo basically Latex -> Dry Rubber -> Plastic.&r"
+			]
+			id: "1BA3D15FFE7DBE59"
+			tasks: [{
+				id: "391AB5CA0E5C35FD"
+				title: "Latex? Huh?"
+				type: "checkmark"
+			}]
+			title: "Latex and Plastic? Huh?"
+			x: 3.130612244897911d
+			y: 1.603911564625868d
 		}
 	]
 	title: "{atm9.chapters.20.title}"
