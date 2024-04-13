@@ -1,0 +1,50 @@
+{
+	id: "471CE0CD88F57EDC"
+	loot_size: 1
+	order_index: 61
+	rewards: [
+		{ item: "industrialforegoing:machine_frame_pity", weight: 0.3f }
+		{ item: "industrialforegoing:machine_frame_simple", weight: 0.2f }
+		{ count: 20, item: "industrialforegoing:plastic", weight: 1.5f }
+		{ item: "industrialforegoing:mob_imprisonment_tool" }
+		{
+			item: {
+				Count: 1b
+				id: "industrialforegoing:speed_addon_1"
+				tag: {
+					TitaniumAugment: {
+						Speed: 2.0f
+					}
+				}
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "industrialforegoing:efficiency_addon_1"
+				tag: {
+					TitaniumAugment: {
+						Efficiency: 0.9f
+					}
+				}
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "industrialforegoing:processing_addon_1"
+				tag: {
+					TitaniumAugment: {
+						Processing: 2.0f
+					}
+				}
+			}
+			weight: 0.8f
+		}
+		{ item: "industrialforegoing:pink_slime_bucket", weight: 0.3f }
+		{ count: 5, item: "industrialforegoing:pink_slime", weight: 0.5f }
+	]
+	title: "&aIndustrial Foregoing&r &9Basic Bag"
+}
