@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern":
+	[
+		"  P",
+		"NR ",
+		"AN "
+	],
+	"key":
+	{
+		"P": {"item": "sgjourney:plasma_converter"},
+		"R": {"item": "sgjourney:naquadah_rod"},
+		"N": {"item": "sgjourney:naquadah_alloy"},
+		"A": {"item": "minecraft:amethyst_shard"}
+	},
+	"result":
+	{
+		"item": "sgjourney:matok"
+	}
+}

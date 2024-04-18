@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern":
+	[
+		"ANA",
+		"ABA",
+		"ARA"
+	],
+	
+	"key": 
+	{
+		"A": { "item": "sgjourney:naquadah_alloy" },
+		"N": { "item": "sgjourney:naquadah" },
+		"B": { "item": "minecraft:bucket" },
+		"R": { "item": "sgjourney:reaction_chamber" }
+	},
+	
+	"result": { "item": "sgjourney:naquadah_liquidizer" }
+}

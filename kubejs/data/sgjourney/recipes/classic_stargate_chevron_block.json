@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern":
+	[
+		"ATA",
+		"NEN",
+		"ARA"
+	],
+	
+	"key": 
+	{
+		"N": { "item": "sgjourney:naquadah" },
+		"A": { "item": "sgjourney:naquadah_alloy" },
+		"E": { "item": "sgjourney:materialization_crystal" },
+		"T": { "item": "sgjourney:transfer_crystal" },
+		"R": { "item": "sgjourney:energy_crystal" }
+		
+	},
+	
+	"result": { "item": "sgjourney:classic_stargate_chevron_block" }
+}

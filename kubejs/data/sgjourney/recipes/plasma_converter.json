@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern":
+	[
+		" R ",
+		"ADA",
+		"ACA"
+	],
+	
+	"key": 
+	{
+		"A": { "item": "sgjourney:naquadah_alloy" },
+		"C": { "item": "sgjourney:reaction_chamber" },
+		"R": { "item": "minecraft:redstone" },
+		"D": { "item": "minecraft:diamond" }
+	},
+	
+	"result": { "item": "sgjourney:plasma_converter", "count": 1 }
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern":
+	[
+		"NON",
+		"MCM",
+		"AAA"
+	],
+	
+	"key": 
+	{
+		"O": { "item": "sgjourney:control_crystal" },
+		"N": { "item": "sgjourney:naquadah" },
+		"A": { "item": "sgjourney:naquadah_alloy" },
+		"C": { "item": "sgjourney:crystallizer" },
+		"M": { "item": "sgjourney:materialization_crystal" }
+		
+	},
+	
+	"result": { "item": "sgjourney:advanced_crystallizer" }
+}
