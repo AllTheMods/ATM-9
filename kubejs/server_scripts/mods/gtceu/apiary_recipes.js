@@ -429,16 +429,14 @@ ServerEvents.recipes(event => {
             } else if (output.hasOwnProperty('item')) {
                 // handle items, should have either item or tag key
                 if (output.item.hasOwnProperty('tag')) {
-                    // make a UnificationEntry from the tag
-                    let tagItem = ChemicalHelper["getUnificationEntry(net.minecraft.tags.TagKey)"](Tags.item(output.item.tag))
                     if (chance != 10000) {
-                        combRecipeBuilder.chancedOutput(tagItem.tagPrefix, tagItem.material, count, chance, 0)
-                        combBlockRecipeBuilder.chancedOutput(tagItem.tagPrefix, tagItem.material, count * 4, chance, 0)
+                        combRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count).kjs$asIngredient(), chance, 0)
+                        combBlockRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count * 4).kjs$asIngredient(), chance, 0)
                     } else {
-                        combRecipeBuilder.itemOutput(tagItem, count)
+                        combRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(count).kjs$asIngredient())
                         if (output.item.tag != 'forge:wax') {
                             // don't give wax for combBlockRecipes
-                            combBlockRecipeBuilder.itemOutput(tagItem, count * 4)
+                            combBlockRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(count * 4).kjs$asIngredient())
                         }
                     }
                 } else if (output.item.hasOwnProperty('item')) {
