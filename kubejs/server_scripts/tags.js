@@ -35,6 +35,10 @@ ServerEvents.tags('item', event => {
   
   event.remove('forge:ingots/naquadah', 'sgjourney:naquadah')
   event.remove('forge:ingots/naquadah_alloy', 'sgjourney:naquadah')
+  event.remove('forge:ingots/naquadah_alloy', 'sgjourney:naquadah_alloy')
+  event.remove('forge:purified_ores/naquadah', 'sgjourney:pure_naquadah')
+  event.remove('forge:rods/naquadah_alloy', 'sgjourney:naquadah_rod')
+  event.remove('forge:raw_materials/naquadah', 'sgjourney:raw_naquadah')
 })
 
 ServerEvents.tags('block', event => {
