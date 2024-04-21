@@ -1,0 +1,493 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eidolon_repraised"
+	group: "02FE661031A105D8"
+	icon: "eidolon:codex"
+	id: "1B8E80D09BFBD0C0"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This is Eidolon. A Dark Magic Mod that encompasses rituals through Braziers and Soul Harvesting. "
+				"You may have this book in the Akashic Tome, but creating this book will serve a special purpose."
+				"You will need to throw this book at a Witch (yes, that hostile one), she'll add a Sign needed for later."
+				"And then throw the book at a Cleric Villager. Your best bet of this is finding/crafting a Brewing Stand and placing a bed next to it for a Villager to change jobs."
+			]
+			icon: "eidolon:codex"
+			id: "63E611810240C792"
+			rewards: [
+				{
+					id: "04816704EE612B75"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1223057599
+									1414090141
+									-1109509241
+									1019046394
+								]
+								Name: "ZephyrWindSpirit"
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwMDA4MTE0MDQwMCwKICAicHJvZmlsZUlkIiA6ICI0OGU2NjBiZjU0NDk0ZDlkYmRkZTNiODczY2JkNjlmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZXBoeXJXaW5kU3Bpcml0IiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RhZTU4MzgxMTcyZmY4NzA4NjYzM2U1MWM4NTMwZmNlZGZmYjgyZWU3ZDY2ODBmOTQ1MDZlMjJiMzg0YjliNmIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ=="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1633A5863267257D"
+					item: "eidolon:codex"
+					type: "item"
+				}
+			]
+			subtitle: "Secrets of the Dark Arts"
+			tasks: [{
+				id: "15ED5ED72A7965B5"
+				title: "Welcome to Eidolon"
+				type: "checkmark"
+			}]
+			title: "Ars Ecclesia - Welcome to Eidolon"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["63E611810240C792"]
+			description: [
+				"Disregard the above text, you cannot eat the ingot."
+				"But you will need Pewter, an alloy of Iron and Lead. Craft the 2 ingots together and then smelt it. This ingot is the basis of the mod."
+			]
+			id: "14E7D8E642DE7463"
+			rewards: [{
+				count: 8
+				id: "6BFFDB1E54F3378C"
+				item: "eidolon:pewter_ingot"
+				type: "item"
+			}]
+			subtitle: "A dense alloy ingot with magic in every bite."
+			tasks: [{
+				id: "158C7AED9CD3E86A"
+				item: "eidolon:pewter_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14E7D8E642DE7463"]
+			description: [
+				"To start our first ritual, you'll need Soul Shards."
+				"Craft a Brazier, this will burn the \"important\" item to start a ritual. "
+				"Craft 8 hands. These will serve as outside method of added items for rituals. Or decorative if you like hands."
+			]
+			id: "158F13367C2E0C6D"
+			subtitle: "A rumbly in my tumbleys that only hands may satisfy."
+			tasks: [
+				{
+					id: "031FAAB3C7C5C8DB"
+					item: "eidolon:brazier"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "148FCAF279EB2ED4"
+					item: "eidolon:stone_hand"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["158F13367C2E0C6D"]
+			description: [
+				"With this special workbench, you can craft magical items. "
+				"Inlays can be crafted in a normal bench, but here is just fine."
+			]
+			id: "1F317D3C47F4543B"
+			subtitle: "Also works as a normal Workbench"
+			tasks: [
+				{
+					id: "578D3B745F4E4831"
+					item: "eidolon:worktable"
+					type: "item"
+				}
+				{
+					id: "2E8C05046A579ED3"
+					item: "eidolon:pewter_inlay"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["158F13367C2E0C6D"]
+			description: [
+				"With the Ritual of Crystallization. We sacrifice bonemeal in the Brazier with 2 redstone on 2 hands."
+				"Light the Brazier, it will consume the items."
+				"Make sure you're surrounded with Undead enemies (piglin zombies work too), and the Ritual will instantly kill them, and give Soul Shards."
+			]
+			id: "19E0397F810D8787"
+			rewards: [{
+				count: 8
+				id: "0DF6391080C32CAA"
+				item: "eidolon:soul_shard"
+				type: "item"
+			}]
+			subtitle: "Only the undead give these vibes. Dead ones."
+			tasks: [{
+				id: "238EAD6EF1ACEF40"
+				item: "eidolon:soul_shard"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1F317D3C47F4543B"]
+			description: [
+				"Crucible requires a heat source beneath. Netherrack or a campfire will suffice."
+				"When following recipes, they are to the exact, you cannot throw a full stack and expect a full stack."
+				""
+				"General help: if it requires 2 items dropped before next step, it means both items together (within a second), changes color, then drop in next item(s) and it should give the new item."
+				"-If it requires stirring, the stirring is done before the current step items dissolve (so throw item in, stir 2 times then it changes color for next step)"
+				"-If left alone for more then 4 seconds, it will boil off, any materials put in are wasted."
+				"If you have a way to drop items precisely into the crucible, it helps to avoid anything missing in that 4 second time. "
+			]
+			id: "704184F62CA78E1E"
+			subtitle: "It's complicated. "
+			tasks: [{
+				id: "1852A283F796E3F8"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["704184F62CA78E1E"]
+			description: [
+				"Your first item with the Crucible is Arcane Gold."
+				"First fill with bucket of water, wait to boil."
+				"Once boiling, drop 2 redstone and a Soul Shard."
+				"Once it changes color, throw in your 2 Gold Ingots. If all is well, you should get 2 Arcane Gold Ingots."
+				"You may need a bunch of this."
+			]
+			id: "4224CC1F101E4069"
+			rewards: [{
+				count: 4
+				id: "614320CA7EE28596"
+				item: "eidolon:arcane_gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Magical Gold"
+			tasks: [{
+				id: "25257D6AE74BDAE8"
+				item: "eidolon:arcane_gold_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["704184F62CA78E1E"]
+			description: [
+				"In this portion, chanting to the gods to get power (well, not actual super powers)."
+				"First make an Effigy, 6 Altar tables. Place on them 2 Candlesticks, Effigy, wither (or best skull), Goblet and 2 Potted wither roses (or best \"flower\" you can from book)."
+				"Be a lesson to tell you that these can only be done once a day."
+				"Start with clicking Wicked Sign 3 times, then click Chant."
+				"You will get a new symbol if done right, with the Effigy's eyes glow."
+			]
+			id: "54423ED491F170B5"
+			subtitle: "HAY HOO ZAE LA"
+			tasks: [
+				{
+					id: "5252EBBF0EAAAA46"
+					item: "eidolon:straw_effigy"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "229DCAEB0CCEB98D"
+					item: "eidolon:wooden_altar"
+					type: "item"
+				}
+				{
+					id: "58932969AB4DC25C"
+					item: "eidolon:goblet"
+					type: "item"
+				}
+			]
+			title: "Dark Worship"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54423ED491F170B5"]
+			description: [
+				"Once you've learned the Soul symbol, you can do \"animal\" sacrifice. Kill an animal while near the altar, its blood will fill the Goblet."
+				"Then chant \"Animal Sacrifice\" on a new day, you should learn how to make Unholy Symbols."
+				"Drop a Pewter Inlay on the ground, then Chant on it, should turn into a Unholy Symbol."
+				"You only need 1 for all your crafting needs. Can make more if you like putting them in frames."
+			]
+			id: "4699B9569F9E65A0"
+			subtitle: "Let the darkness flow!"
+			tasks: [{
+				id: "4FEA60CE9D5B55D0"
+				item: "eidolon:unholy_symbol"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4699B9569F9E65A0"]
+			description: [
+				"With some smooth stone slabs, stone, soul shards and your unholy smybol (portrayed in book), you will upgrade your altar and Effigy."
+				"Your effigy requires the Unholy Symbol and Gold inlays with the stone, to make Elder Statue"
+				"Wiht soul shard, stone slabs, stone and Pewter Inlay, make some Altars."
+			]
+			id: "29ED1116682B0D10"
+			subtitle: "Authentic Stone from Deep South"
+			tasks: [
+				{
+					id: "663CAF4D8465C3EA"
+					item: "eidolon:stone_altar"
+					type: "item"
+				}
+				{
+					id: "576A96AD2808C6D3"
+					item: "eidolon:unholy_effigy"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4699B9569F9E65A0"]
+			description: [
+				"(does not inflict fire damage, just song theme)"
+				"Disregarding that, this Scythe is unique. It allows you to get Soul shards with out the Crystallization Ritual."
+				"It is affected by Looting. Please apply Smite with Sharpness (Apotheosis only), Looting and Mending to get the most out of it."
+			]
+			id: "609DC65F437B72F1"
+			subtitle: "I'm burning, I'm burning, I'm Burning for yooooou"
+			tasks: [{
+				id: "6C74160C4B74BE50"
+				item: {
+					Count: 1b
+					id: "eidolon:reaper_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4699B9569F9E65A0"]
+			description: ["Creating this axe allows it's user to dish more damage, and occassionally drop the enemies skull."]
+			id: "2CA71999959C0184"
+			subtitle: "Gives head yo."
+			tasks: [{
+				id: "3E7EFAF49B775EE7"
+				item: {
+					Count: 1b
+					id: "eidolon:cleaving_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["704184F62CA78E1E"]
+			id: "75903AEA7C36C209"
+			tasks: [{
+				id: "3B8ED7645C39F42F"
+				item: "eidolon:shadow_gem"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["704184F62CA78E1E"]
+			description: [""]
+			id: "691A7545CC65BEAE"
+			tasks: [{
+				id: "6205A7CD340F55EC"
+				item: "eidolon:lesser_soul_gem"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19741B9F0C926D68"]
+			description: ["This special armor increases your mobility, reduces effectiveness of enemy magic, and heals you if you inflict Wither on enemies."]
+			id: "3FB61F95260D6B7B"
+			subtitle: "You do the work, now you gotta look the part!"
+			tasks: [
+				{
+					id: "7089173717BAE4EB"
+					item: {
+						Count: 1b
+						id: "eidolon:warlock_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FCBCFBD2BFF4DE8"
+					item: {
+						Count: 1b
+						id: "eidolon:warlock_cloak"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AB3C0AD792A8AD3"
+					item: {
+						Count: 1b
+						id: "eidolon:warlock_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Warlock's Suit"
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4699B9569F9E65A0"
+				"75903AEA7C36C209"
+			]
+			id: "19741B9F0C926D68"
+			tasks: [{
+				id: "4D34FF4F4E5B076C"
+				item: "eidolon:wicked_weave"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["691A7545CC65BEAE"]
+			id: "17740696B9284520"
+			subtitle: "Terraria's Wand of Sparking got nothing on this."
+			tasks: [{
+				id: "05B7B38C6F1C626A"
+				item: {
+					Count: 1b
+					id: "eidolon:soulfire_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["691A7545CC65BEAE"]
+			id: "5DC9848CC15DCACB"
+			subtitle: "Chill of the thrill"
+			tasks: [{
+				id: "5507C36A909C47F6"
+				item: {
+					Count: 1b
+					id: "eidolon:bonechill_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19741B9F0C926D68"]
+			description: ["This charm will increase your Reach distance."]
+			id: "1F09F091F5CF4711"
+			subtitle: "Reach out and Touch Faith. With your personal... Jesus."
+			tasks: [{
+				id: "16645F2195151BDD"
+				item: "eidolon:prestigious_palm"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["691A7545CC65BEAE"]
+			description: ["For real, this would be for normal play. It increases your damage by double, but you take 5 times more damage."]
+			id: "56CD54A4422FF473"
+			subtitle: "I WOULD NOT SUGGEST USING THIS WITH CURSED RING CHALLENGE"
+			tasks: [{
+				id: "63B1DB35E2D14E6F"
+				item: "eidolon:glass_hand"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4224CC1F101E4069"]
+			description: [
+				"This special Enchanter enchants using the shards. It uses your levels and shards."
+				"It lets you decide enchants to put on. And lets you level them up."
+				"If you end up not able to use anymore, it may be \"completed\", consider using this in tandem of Apotheosis enchanting for absurd enchants."
+			]
+			id: "04C01A5FF3DAC326"
+			subtitle: "Consider this your gateway to Apotheosis"
+			tasks: [{
+				id: "5DADA59471D036E5"
+				item: "eidolon:soul_enchanter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["158F13367C2E0C6D"]
+			description: ["Use the holy symbol three times to ignite what you are looking at."]
+			id: "3A88906FC2E72528"
+			subtitle: "Forgot a flint and steel in the caves?"
+			tasks: [{
+				id: "308A6145877C4E0A"
+				item: "bloodmagic:holy_water_anointment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+	]
+	title: "{atm9.chapters.51.title}"
+}

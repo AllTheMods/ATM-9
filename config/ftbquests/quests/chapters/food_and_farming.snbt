@@ -156,11 +156,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Welcome to the Food and Farming chapter!"
-				""
-				"Here, you'll find different ways for you to grow and make food!"
-			]
+			description: ["{atm9.quest.farm.desc.food}"]
 			icon: "minecraft:emerald"
 			id: "1827DEEA2DF1B144"
 			rewards: [
@@ -183,12 +179,13 @@
 				title: "Food and Farming"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.farm.food}"
 			x: 0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["43021923E220CF68"]
-			description: ["Let's gather some seeds."]
+			description: ["{atm9.quest.farm.desc.grass}"]
 			id: "72717D1135486D7F"
 			rewards: [
 				{
@@ -210,13 +207,13 @@
 				item: "minecraft:wheat_seeds"
 				type: "item"
 			}]
-			title: "Punch the Grass."
+			title: "{atm9.quest.farm.grass}"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18EADBAFC932F864"]
-			description: ["Let's gather some pieces of wool!"]
+			description: ["{atm9.quest.farm.desc.wool}"]
 			icon: "minecraft:white_wool"
 			id: "3EA883C0BB7BD38F"
 			rewards: [
@@ -246,7 +243,7 @@
 				title: "Any #minecraft:wool"
 				type: "item"
 			}]
-			title: "Mary had a Little Lamb"
+			title: "{atm9.quest.farm.wool}"
 			x: 5.5d
 			y: 0.0d
 		}
@@ -269,13 +266,13 @@
 				}
 				type: "item"
 			}]
-			title: "It's Clippin' Time"
+			title: "{atm9.quest.farm.sheep}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2E9C035EEE7E5C34"]
-			description: ["I don't wanna know how you got these."]
+			description: ["{atm9.quest.farm.desc.cows}"]
 			id: "635620A03E3505BF"
 			rewards: [
 				{
@@ -295,17 +292,13 @@
 				item: "minecraft:leather"
 				type: "item"
 			}]
-			title: "But....Cows can't be sheared..."
+			title: "{atm9.quest.farm.cows}"
 			x: 4.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3EA883C0BB7BD38F"]
-			description: [
-				"Markets provide you with a villager than can sell you anything if you have the right amount of emeralds."
-				""
-				"Spoiler: It's usually just 1 Emerald per item. BUT THEY HAVE EVERYTHING."
-			]
+			description: ["{atm9.quest.farm.desc.market}"]
 			id: "1F114EB0AAB86DB4"
 			rewards: [
 				{
@@ -333,16 +326,12 @@
 				item: "farmingforblockheads:market"
 				type: "item"
 			}]
-			title: "Purchasing Farm Supplies"
+			title: "{atm9.quest.farm.market}"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			description: [
-				"The classic Lead. Use this to get animals into your farm area."
-				""
-				"This isn't the same thing found in paint."
-			]
+			description: ["{atm9.quest.farm.desc.animals}"]
 			id: "2E9C035EEE7E5C34"
 			rewards: [{
 				id: "04DF879E17A497AD"
@@ -356,17 +345,13 @@
 				item: "minecraft:lead"
 				type: "item"
 			}]
-			title: "We're doing this the old fashioned way."
+			title: "{atm9.quest.farm.animals}"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["635620A03E3505BF"]
-			description: [
-				"Find a cow and Right Click it with a bucket."
-				""
-				"Seriously, why no bulls?"
-			]
+			description: ["{atm9.quest.farm.desc.milk}"]
 			id: "73B8A70240E6070E"
 			rewards: [
 				{
@@ -387,19 +372,13 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			title: "Find a cow. Milk the cow. Profit."
+			title: "{atm9.quest.farm.milk}"
 			x: 6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2E9C035EEE7E5C34"]
-			description: [
-				"Chickens will lay these naturally. I guess it's not really considered naturally..."
-				""
-				"I guess the chickens are just getting... &oEggs-ercise!!!&r."
-				""
-				":)"
-			]
+			description: ["{atm9.quest.farm.desc.chicken}"]
 			id: "1D2EF12FD7FDD217"
 			rewards: [
 				{
@@ -421,7 +400,7 @@
 				item: "minecraft:egg"
 				type: "item"
 			}]
-			title: "I'm not gonna make an Egg pun."
+			title: "{atm9.quest.farm.chicken}"
 			x: 4.0d
 			y: 1.0d
 		}
@@ -455,7 +434,7 @@
 					type: "item"
 				}
 			]
-			title: "The Chickens Must Go"
+			title: "{atm9.quest.farm.egg}"
 			x: 6.0d
 			y: 1.0d
 		}
@@ -490,6 +469,7 @@
 				title: "The Planter"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.farm.farming}"
 			x: -1.5749999999999997d
 			y: 0.0d
 		}
@@ -516,7 +496,7 @@
 				item: "minecraft:wheat"
 				type: "item"
 			}]
-			title: "Wheat."
+			title: "{atm9.quest.farm.wheat}"
 			x: -5.0d
 			y: 0.0d
 		}
@@ -543,13 +523,13 @@
 				item: "minecraft:bread"
 				type: "item"
 			}]
-			title: "The Bread of Life"
+			title: "{atm9.quest.farm.bread}"
 			x: -6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["72717D1135486D7F"]
-			description: ["&2Flax Seeds&r are a great way to get string in the early game!"]
+			description: ["{atm9.quest.farm.desc.flax}"]
 			id: "5A51E26D66D1273B"
 			rewards: [{
 				id: "6A184032CC7F6E17"
@@ -562,13 +542,13 @@
 				item: "supplementaries:flax_seeds"
 				type: "item"
 			}]
-			title: "Flax Seeds"
+			title: "{atm9.quest.farm.flax}"
 			x: -5.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["72717D1135486D7F"]
-			description: ["Find some sugar cane!"]
+			description: ["{atm9.quest.farm.desc.cane}"]
 			id: "361DFDB1E1352D6B"
 			rewards: [
 				{
@@ -589,12 +569,12 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			title: "Sugar Sugar."
+			title: "{atm9.quest.farm.cane}"
 			x: -5.5d
 			y: 1.0d
 		}
 		{
-			description: ["Go ahead. Put a book in a furnace."]
+			description: ["{atm9.quest.farm.desc.book}"]
 			id: "45F83C2750F70F9B"
 			rewards: [{
 				id: "54B713BDF265A213"
@@ -609,17 +589,13 @@
 				item: "cookingforblockheads:recipe_book"
 				type: "item"
 			}]
-			title: "Making a Kitchen, with a book."
+			title: "{atm9.quest.farm.book}"
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["45F83C2750F70F9B"]
-			description: [
-				"Craft the next version of the book. I promise you, it's worth it."
-				""
-				"I'll even give you a Diamond back."
-			]
+			description: ["{atm9.quest.farm.desc.cookbook}"]
 			id: "58D5BD3106BFD94A"
 			rewards: [
 				{
@@ -645,19 +621,13 @@
 				item: "cookingforblockheads:crafting_book"
 				type: "item"
 			}]
-			title: "Cooking with the power of Diamonds"
+			title: "{atm9.quest.farm.cookbook}"
 			x: 0.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["58D5BD3106BFD94A"]
-			description: [
-				"This block is part of a multi-block kitchen."
-				""
-				"This will show you every recipe that is available to you with the food you have in your inventory, or stored in the kitchen multi-block."
-				""
-				"You can finally create a nice kitchen in Minecraft."
-			]
+			description: ["{atm9.quest.farm.desc.kitchen}"]
 			id: "28C9EDBF6607E180"
 			rewards: [
 				{
@@ -680,17 +650,13 @@
 				item: "cookingforblockheads:cooking_table"
 				type: "item"
 			}]
-			title: "THE BEST THING SINCE SLICED BREAD"
+			title: "{atm9.quest.farm.kitchen}"
 			x: 0.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			description: [
-				"This works just like the kitchen counter, except in the air."
-				""
-				"And you can't put things on top of it."
-			]
+			description: ["{atm9.quest.farm.desc.cabinet}"]
 			hide_dependency_lines: true
 			id: "58495CFBF4F20CE9"
 			rewards: [
@@ -719,17 +685,13 @@
 				item: "cookingforblockheads:cabinet"
 				type: "item"
 			}]
-			title: "Even More Storage"
+			title: "{atm9.quest.farm.cabinet}"
 			x: 0.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			description: [
-				"This block stores items for cooking."
-				""
-				"You can also place other kitchen multi-block items on it, like toasters and a Cow in a Jar."
-			]
+			description: ["{atm9.quest.farm.desc.counter}"]
 			hide_dependency_lines: true
 			id: "37CA6F9F0226F10E"
 			rewards: [
@@ -758,17 +720,13 @@
 				item: "cookingforblockheads:counter"
 				type: "item"
 			}]
-			title: "I need more cooking space."
+			title: "{atm9.quest.farm.counter}"
 			x: 2.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			description: [
-				"Stores items in the multi-block kitchen. Stack them on top of each other!"
-				""
-				"You can also shift-right click on it to open then door, and you can just right click items right in."
-			]
+			description: ["{atm9.quest.farm.desc.fridge}"]
 			hide_dependency_lines: true
 			id: "66815AB6FDACCAB7"
 			rewards: [
@@ -798,13 +756,13 @@
 				item: "cookingforblockheads:fridge"
 				type: "item"
 			}]
-			title: "The Fridge"
+			title: "{atm9.quest.farm.fridge}"
 			x: -0.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			description: ["This block enables smelting recipes in your kitchen multi-block!"]
+			description: ["{atm9.quest.farm.desc.stove}"]
 			hide_dependency_lines: true
 			id: "7CB3FCD789747EF5"
 			rewards: [
@@ -833,19 +791,13 @@
 				item: "cookingforblockheads:oven"
 				type: "item"
 			}]
-			title: "Honey, there's a Furnace in the Kitchen"
+			title: "{atm9.quest.farm.stove}"
 			x: 1.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			description: [
-				"This block produces milk over time, and enables milk recipes for the kitchen multi-block."
-				""
-				"To get a cow in the jar, place the jar in a hole. Lure the cow to fall in said hole above the jar, then drop an anvil on it."
-				""
-				"I have no clue what this glass is made of, but it's stronger than my relationship with Chicken."
-			]
+			description: ["{atm9.quest.farm.desc.jar}"]
 			hide_dependency_lines: true
 			id: "47764EFC822E462A"
 			rewards: [
@@ -873,13 +825,13 @@
 				item: "cookingforblockheads:cow_jar"
 				type: "item"
 			}]
-			title: "A Cow in a Jar"
+			title: "{atm9.quest.farm.jar}"
 			x: 0.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["7CB3FCD789747EF5"]
-			description: ["Allows you to attach power to the Stove."]
+			description: ["{atm9.quest.farm.desc.heat}"]
 			id: "1515B32545F51266"
 			rewards: [
 				{
@@ -906,13 +858,13 @@
 				item: "cookingforblockheads:heating_unit"
 				type: "item"
 			}]
-			title: "Heating Upgrade"
+			title: "{atm9.quest.farm.heat}"
 			x: 1.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["66815AB6FDACCAB7"]
-			description: ["Provides Ice and Snow recipes!"]
+			description: ["{atm9.quest.farm.desc.cool}"]
 			id: "13AFCD3B6F62B986"
 			optional: true
 			rewards: [
@@ -940,13 +892,13 @@
 				item: "cookingforblockheads:ice_unit"
 				type: "item"
 			}]
-			title: "Ice, Ice, Baby"
+			title: "{atm9.quest.farm.cool}"
 			x: 0.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["5A51E26D66D1273B"]
-			description: ["Flax turns into String!"]
+			description: ["{atm9.quest.farm.desc.string}"]
 			id: "1CBEB3ABB4260CC2"
 			rewards: [{
 				id: "3AE014AE6CF77A06"
@@ -959,12 +911,12 @@
 				item: "minecraft:string"
 				type: "item"
 			}]
-			title: "String from Seeds!"
+			title: "{atm9.quest.farm.string}"
 			x: -7.0d
 			y: -1.0d
 		}
 		{
-			description: ["But he usually closes by 5, so who cares."]
+			description: ["{atm9.quest.farm.desc.fish}"]
 			id: "1DCAA0310AA55F1C"
 			rewards: [{
 				id: "7BB398F5B3A25045"
@@ -985,7 +937,7 @@
 				}
 				type: "item"
 			}]
-			title: "The Start of a Fisher"
+			title: "{atm9.quest.farm.fish}"
 			x: -1.57d
 			y: 4.0d
 		}
@@ -1016,6 +968,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.iron}"
 			x: -2.5d
 			y: 5.0d
 		}
@@ -1046,6 +999,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.gold}"
 			x: -3.5d
 			y: 6.0d
 		}
@@ -1076,6 +1030,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.diamond}"
 			x: -5.0d
 			y: 6.0d
 		}
@@ -1106,6 +1061,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.neptune}"
 			x: -6.5d
 			y: 6.0d
 		}
@@ -1114,7 +1070,7 @@
 				"659A903F97F93BE2"
 				"1D48298525EEADC9"
 			]
-			description: ["Time to bake a cake, if you've got some milk and eggs ready."]
+			description: ["{atm9.quest.farm.desc.cake}"]
 			id: "0893EFCAC7031FEA"
 			rewards: [
 				{
@@ -1141,13 +1097,13 @@
 				item: "minecraft:cake"
 				type: "item"
 			}]
-			title: "You can have your Cake and Eat it too."
+			title: "{atm9.quest.farm.cake}"
 			x: -8.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["361DFDB1E1352D6B"]
-			description: ["You should have everything you need already."]
+			description: ["{atm9.quest.farm.desc.sugar}"]
 			id: "1D48298525EEADC9"
 			rewards: [
 				{
@@ -1169,17 +1125,13 @@
 				item: "minecraft:sugar"
 				type: "item"
 			}]
-			title: "You so sweet."
+			title: "{atm9.quest.farm.sugar}"
 			x: -7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			description: [
-				"This block provides water to the multi-block kitchen."
-				""
-				"It can also provide infinite water by pumping water out via cables or pipes."
-			]
+			description: ["{atm9.quest.farm.desc.sink}"]
 			hide_dependency_lines: true
 			id: "0EFF1AA37772156B"
 			rewards: [
@@ -1207,16 +1159,12 @@
 				item: "cookingforblockheads:sink"
 				type: "item"
 			}]
-			title: "The Sink = Infinite Water"
+			title: "{atm9.quest.farm.sink}"
 			x: -1.0d
 			y: 8.0d
 		}
 		{
-			description: [
-				"&9Botany Pots&r makes it easy to grow your resources!"
-				""
-				"These pots auto-grow almost anything you put into them, and can even be upgraded for automation!"
-			]
+			description: ["{atm9.quest.farm.desc.pot}"]
 			id: "01B70A4F230ED036"
 			rewards: [
 				{
@@ -1238,13 +1186,13 @@
 				item: "botanypots:terracotta_botany_pot"
 				type: "item"
 			}]
-			title: "Botany Pots"
+			title: "{atm9.quest.farm.pot}"
 			x: 2.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["01B70A4F230ED036"]
-			description: ["Hopper pots will automatically output into the storage beneath it. This can be used to automate all of your crops!"]
+			description: ["{atm9.quest.farm.desc.botany}"]
 			id: "2715BECC5E6FFA64"
 			rewards: [
 				{
@@ -1264,7 +1212,7 @@
 				item: "botanypots:terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			title: "Automating the Pots"
+			title: "{atm9.quest.farm.botany}"
 			x: 3.5d
 			y: 5.0d
 		}

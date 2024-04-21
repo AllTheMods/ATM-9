@@ -6,6 +6,7 @@
 	icon: "cataclysm:the_incinerator"
 	id: "59395B6806F2A98A"
 	order_index: 2
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -949,8 +950,9 @@
 			icon: "cataclysm:the_prowler_spawn_egg"
 			id: "3459CAEB59CBD60E"
 			rewards: [{
-				id: "1DE2170C72D03AA5"
-				item: "cataclysm:emp"
+				count: 3
+				id: "01151EB7D6518750"
+				item: "minecraft:iron_block"
 				type: "item"
 			}]
 			tasks: [{
