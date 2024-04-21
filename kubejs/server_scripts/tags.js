@@ -64,7 +64,7 @@ ServerEvents.tags('block', event => {
     'allthetweaks:atm_star_block'
   ])
 
-  event.add('entangled:invalid_targets', ['@megacells','@expatternprovider','@cabletiers'])
+  event.add('entangled:invalid_targets', ['@megacells','@expatternprovider','@cabletiers','@ae2','@refinedstorage'])
 
 })
 
