@@ -1,3 +1,6 @@
+const $EnergyHatchPartMachine = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.part.EnergyHatchPartMachine')
+const $IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
+
 StartupEvents.registry('block', event => {
     event.create('micro_universe_energy_transmitter')
         .displayName('Micro Universe Energy Transmitter')
@@ -101,4 +104,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .build())
         .workableCasingRenderer("gtceu:block/casings/gcym/atomic_casing",
             "gtceu:block/multiblock/assembly_line", false)
+    
+    event.create('energy_input_hatch', 'custom', (holder, tier) => { return new $EnergyHatchPartMachine(holder, tier, $IO.IN, 2) }, GTValues.MAX)
+        .rotationState(RotationState.ALL)
+        .abilities(PartAbility.INPUT_ENERGY)
+        .overlayTieredHullRenderer("energy_hatch.input")
 })
