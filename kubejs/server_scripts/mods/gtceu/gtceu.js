@@ -132,6 +132,13 @@ ServerEvents.recipes(event => {
         .itemOutputs('megacells:printed_accumulation_processor')
         .duration(80)
         .EUt(HV)
+
+    event.recipes.gtceu.forming_press('appflux/printed_energy_circuit')
+        .itemInputs('appflux:charged_redstone')
+        .notConsumable('appflux:energy_processor_press')
+        .itemOutputs('appflux:printed_energy_processor')
+        .duration(80)
+        .EUt(MV)
     
     // AE2 processors in forming press
     event.recipes.gtceu.forming_press('ae2/logic_circuit')
@@ -157,6 +164,12 @@ ServerEvents.recipes(event => {
         .itemOutputs('megacells:accumulation_processor')
         .duration(80)
         .EUt(HV)
+
+    event.recipes.gtceu.forming_press('appflux/energy_circuit')
+        .itemInputs(['appflux:printed_energy_processor', 'minecraft:redstone', 'ae2:printed_silicon'])
+        .itemOutputs('appflux:energy_processor')
+        .duration(80)
+        .EUt(MV)
 
     // ATO and vanilla silk touched ore maceration recipes
     // Minecraft stone/deepslate/nether ores
