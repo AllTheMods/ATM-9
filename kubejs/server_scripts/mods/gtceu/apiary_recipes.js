@@ -333,7 +333,7 @@ ServerEvents.recipes(event => {
     // copy all centrifuge recipes
     event.forEachRecipe({type: 'productivebees:centrifuge'}, rawRecipe => {
         let recipe = JSON.parse(rawRecipe.json)
-        let duration = 300 // default centrifuge processing time in ticks = 300
+        let duration = 300 / 9 // default centrifuge processing time in ticks = 300, heated centrifuge is 9 times faster
         let inputObj = recipe.ingredient // ingredient should always exist
         let input
         let inputBlock
