@@ -110,6 +110,8 @@ ServerEvents.recipes(e => {
     },
     "duration": 200
   }).id('kubejs:nucleosynthesizing/nether_star')
+
+  e.shapeless('4x mekanism:salt', ['mekanism:block_salt'])
   
   //substrate
   
