@@ -1,0 +1,71 @@
+extreme_voltage.snbt,310,					title: "{atm9.quest.gregtech.tantalumDust}Tantalum Dust"
+extreme_voltage.snbt,318,				description: [
+extreme_voltage.snbt,319,					"{atm9.quest.gregtech.desc.ebfUpgrade.1}Another &aEBF&r upgrade? Yep! "
+extreme_voltage.snbt,321,					"{atm9.quest.gregtech.desc.ebfUpgrade.2}This will allow us to smelt higher tier ingots, like HV Superconducting metal!"
+extreme_voltage.snbt,322,				]
+extreme_voltage.snbt,344,				description: [
+extreme_voltage.snbt,345,					"{atm9.quest.gregtech.desc.distillationTower.1}The &aDistillation Tower&r serves as the foundation for &dOil Processing&r which can turn oil into many more useful forms"
+extreme_voltage.snbt,347,					"{atm9.quest.gregtech.desc.distillationTower.2}When building the Tower, you will need it to be &c1 + Fluid Outputs tall&r to process recipes correctly"
+extreme_voltage.snbt,349,					"{atm9.quest.gregtech.desc.distillationTower.3}&eFor example&r, if the recipe you want to run outputs 5 fluids, then your tower must be at least 6 tall with 5 output hatches "
+extreme_voltage.snbt,351,					"{atm9.quest.gregtech.desc.distillationTower.4}The max size is a 3x3x13 structure"
+extreme_voltage.snbt,353,					"{atm9.quest.gregtech.desc.distillationTower.5}&bRemember:&r For how to build multiblocks, look at the uses of the multiblock controller in JEI for the &3Multiblock Info&r page"
+extreme_voltage.snbt,355,					"{atm9.quest.gregtech.desc.distillationTower.6}How you get the oil is left up to you! A couple options are outlined in the quests below"
+extreme_voltage.snbt,356,				]
+extreme_voltage.snbt,366,				subtitle: "{atm9.quest.gregtech.subt.realFluidProcessing}Ah finally, real fluid processing"
+extreme_voltage.snbt,376,						title: "{atm9.quest.gregtech.observeDistillationTower}Observe completed Distillation Tower"
+extreme_voltage.snbt,385,				description: [
+extreme_voltage.snbt,386,					"{atm9.quest.gregtech.desc.vacuumFreezer.1}Once you start blasting ingots at temperatures above &c1800K&r they become too hot to be cooled in a simple bath"
+extreme_voltage.snbt,388,					"{atm9.quest.gregtech.desc.vacuumFreezer.2}Enter, the &eVacuum Freezer&r, for all your cooling needs! "
+extreme_voltage.snbt,390,					"{atm9.quest.gregtech.desc.vacuumFreezer.3}This machine is great at cooling hot ingots and can even turn many gasses into liquids"
+extreme_voltage.snbt,391,				]
+extreme_voltage.snbt,409,						title: "{atm9.quest.gregtech.observeVacuumFreezer}Observe completed Vacuum Freezer"
+extreme_voltage.snbt,427,				description: [
+extreme_voltage.snbt,428,					"{atm9.quest.gregtech.desc.coolHotIngot.1}That is one hot ingot! Cool it off in your &aVacuum Freezer&r"
+extreme_voltage.snbt,430,					"{atm9.quest.gregtech.desc.coolHotIngot.2}Requires those Kanthal Coil Blocks on your &aEBF&r"
+extreme_voltage.snbt,431,				]
+extreme_voltage.snbt,442,				description: ["{atm9.quest.gregtech.desc.nichromeMixer}4 Nickel dust and 1 Chromium dust in a &eMixer&r is all you'll need for some Nichrome!"]
+extreme_voltage.snbt,461,				description: [
+extreme_voltage.snbt,462,					"{atm9.quest.gregtech.desc.ivCircuit.1}This unlocks a single recipe for us, the &1IV&r Circuit!"
+extreme_voltage.snbt,464,					"{atm9.quest.gregtech.desc.ivCircuit.2}Don't rush ahead and just craft this and the circuit thinking that you can skip this age though"
+extreme_voltage.snbt,465,				]
+extreme_voltage.snbt,483,				description: [
+extreme_voltage.snbt,484,					"{atm9.quest.gregtech.desc.assemblerUpgrade.1}Upgrading your &eAssembler&r means you can make Surface Mounted Devices, or &bSMDs&r for short. These things mean cheaper circuit components!"
+extreme_voltage.snbt,486,					"{atm9.quest.gregtech.desc.assemblerUpgrade.2}Additionally, this unlocks higher tier energy hatches, time to upgrade your multiblocks!"
+extreme_voltage.snbt,487,				]
+extreme_voltage.snbt,513,					title: "{atm9.quest.gregtech.hvEvAssembler}HV or EV Assembler"
+extreme_voltage.snbt,531,				description: [
+extreme_voltage.snbt,532,					"{atm9.quest.gregtech.desc.chemicalReaction.1}&eChemical react&r some sodium dust and potassium dust together to get... sodium potassium"
+extreme_voltage.snbt,534,					"{atm9.quest.gregtech.desc.chemicalReaction.2}&bPotassium dust&r you can get by making tiny piles of the stuff from the salt water with ghast tears in a &eChemical Reactor&r recipe"
+extreme_voltage.snbt,535,				]
+extreme_voltage.snbt,571,				description: [
+extreme_voltage.snbt,572,					"{atm9.quest.gregtech.desc.energyHatch.1}Keep in mind, each Energy Hatch can accept 2 Amps of power"
+extreme_voltage.snbt,574,					"{atm9.quest.gregtech.desc.energyHatch.2}Many machines accept two (or more) Energy Hatches, which means you can feed 4 Amps in and unlock processing at a higher voltage tier!"
+extreme_voltage.snbt,575,				]
+extreme_voltage.snbt,593,				description: ["{atm9.quest.gregtech.desc.laserEngravers}Add another lens to the collection! Laser Engravers abound if you've been making one per lens"]
+extreme_voltage.snbt,620,				title: "{atm9.quest.gregtech.lowPowerChip}Low Power Integrated Chip"
+extreme_voltage.snbt,630,				description: ["{atm9.quest.gregtech.desc.hotIngotNichrome}A very hot ingot indeed! This one requires the &bNichrome Coil Blocks&r on your &aEBF&r to process!"]
+extreme_voltage.snbt,641,				description: [
+extreme_voltage.snbt,642,					"{atm9.quest.gregtech.desc.bariumDust.1}&dBarium dust&r you can get by &eElectrolyzing&r &bBarite dust&r"
+extreme_voltage.snbt,644,					"{atm9.quest.gregtech.desc.bariumDust.2}&dMercury&r can come from &eCentrifuging&r Redstone dust or Cinnabar dust"
+extreme_voltage.snbt,646,					"{atm9.quest.gregtech.desc.bariumDust.3}In a bind for &dCalcium dust&r? You could always &eElectrolyze&r bone meal!"
+extreme_voltage.snbt,647,				]
+extreme_voltage.snbt,666,				description: [
+extreme_voltage.snbt,667,					"{atm9.quest.gregtech.desc.rutileDust.1}I hope you've been keeping up with your ore gathering and processing!"
+extreme_voltage.snbt,669,					"{atm9.quest.gregtech.desc.rutileDust.2}You can get &dRutile Dust&r from several methods:"
+extreme_voltage.snbt,670,					"{atm9.quest.gregtech.desc.rutileDust.3}&eElectrolyzing&r 15 Bauxite dust"
+extreme_voltage.snbt,671,					"[ \"\", { \"text\": \"EBF \", \"color\": \"green\", \"hoverEvent\": { \"action\": \"show_text\", \"contents\": { \"text\": \"Electric Blast Furnace\" } } }, { \"text\": \"10 Ilmenite and 4 Carbon together\" }]"
+extreme_voltage.snbt,672,					"{atm9.quest.gregtech.desc.rutileDust.4}&6Ore Process&r Ilmenite or Bauxite for a chanced output"
+extreme_voltage.snbt,673,					"{atm9.quest.gregtech.desc.rutileDust.5}&eChemical Bath&r Aluminium in &3Sodium Persulfate&r for a higher chanced output"
+extreme_voltage.snbt,675,					"{atm9.quest.gregtech.desc.rutileDust.6}&cRemember:&r Chanced outputs increase with the tier of the machine"
+extreme_voltage.snbt,676,				]
+extreme_voltage.snbt,696,				subtitle: "{atm9.quest.gregtech.subt.futileDust}More like futile dust"
+extreme_voltage.snbt,707,				description: ["{atm9.quest.gregtech.desc.hvChemicalReactor}You'll need an &6HV Chemical Reactor&r with some Chlorine, Carbon dust, and your Rutile dust to make this"]
+extreme_voltage.snbt,750,				description: ["{atm9.quest.gregtech.desc.heavyOil}Burning 16 logs on &bProgram 3&r will produce Heavy Oil"]
+extreme_voltage.snbt,770,						title: "{atm9.quest.gregtech.observePyrolyseOven}Observe completed Pyrolyse Oven"
+extreme_voltage.snbt,779,				description: ["{atm9.quest.gregtech.desc.cracker}The &aCracker&r doesn't get you oil, but it does allow for processing the byproducts more efficiently! "]
+extreme_voltage.snbt,799,						title: "{atm9.quest.gregtech.observeCracker}Observe completed Cracker"
+extreme_voltage.snbt,808,				description: [
+extreme_voltage.snbt,809,					"{atm9.quest.gregtech.desc.fluidDrillingRig.1}Slap one of these down and start drilling! This will unearth the ancient oils from beneath the crust of bedrock"
+extreme_voltage.snbt,811,					"{atm9.quest.gregtech.desc.fluidDrillingRig.2}The majority of what you'll find with this is &eRaw Oil&r, but you can also find Natural Gas and other oil variants! You can use the &6HV Prospector&r in &bFluid Mode&r to determine what lies beneath"
+extreme_voltage.snbt,813,					"{atm9.quest.gregtech.desc.fluidDrillingRig.3}Do keep in mind, the oils in the chunk will deplete over time, so you will need to move the Fluid Drilling Rig occasionally"
+extreme_voltage.snbt,814,				]

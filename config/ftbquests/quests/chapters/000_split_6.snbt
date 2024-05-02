@@ -1,0 +1,72 @@
+extreme_voltage.snbt,843,					title: "{atm9.quest.gregtech.title.fluidDrillingRig}Fluid Drilling Rig"
+extreme_voltage.snbt,851,				description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.1}&aDistill&r your &eLightly Steam Cracked Naphtha&r to acquire &0Benzene&r"]
+extreme_voltage.snbt,868,				description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.2}&aDistill&r your &eLightly Steam Cracked Naphtha&r to acquire &6Butadiene&r"]
+extreme_voltage.snbt,885,				description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.3}Benzene + Ethylene in a &eChemical Reactor&r will result in &bStyrene&r"]
+extreme_voltage.snbt,905,				description: [
+extreme_voltage.snbt,906,					"{atm9.quest.gregtech.desc.fluidDrillingRig.4}Styrene + Butadiene + Oxygen or Air in a &eChemical Reactor&r gets you the raw dust of the highest tier of rubber available"
+extreme_voltage.snbt,908,					"{atm9.quest.gregtech.desc.fluidDrillingRig.5}It is recommended you use Oxygen rather than Air here, as you get the most that way"
+extreme_voltage.snbt,909,				]
+extreme_voltage.snbt,927,				description: [
+extreme_voltage.snbt,928,					"{atm9.quest.gregtech.desc.fluidDrillingRig.6}Finally, the highest tier of rubber, &dStyrene Butadiene Rubber&r"
+extreme_voltage.snbt,930,					"{atm9.quest.gregtech.desc.fluidDrillingRig.7}You can coat wires using very little of this, and it will come in handy later on when making higher tier conveyor modules"
+extreme_voltage.snbt,931,				]
+extreme_voltage.snbt,952,				description: [
+extreme_voltage.snbt,953,					"{atm9.quest.gregtech.desc.fluidDrillingRig.8}This is where the &aCracker&r comes in handy, as it doesn't lose any of your hard earned Naphtha when cracking"
+extreme_voltage.snbt,955,					"{atm9.quest.gregtech.desc.fluidDrillingRig.9}An alternative is to use a &eChemical Reactor&r, but that loses half the Naphtha!"
+extreme_voltage.snbt,957,					"{atm9.quest.gregtech.desc.fluidDrillingRig.10}You probably want to make another &aDistillation Tower&r to distill this"
+extreme_voltage.snbt,958,				]
+extreme_voltage.snbt,975,				description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.11}&eChemical React&r the &6Sulfuric Naphtha&r with &9Hydrogen&r to rid it of the sulfur"]
+extreme_voltage.snbt,992,				description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.12}Distilling &bRaw Oil&r results in the most &eSulfuric Naphtha&r, but you can get it from the other oil types too"]
+extreme_voltage.snbt,1010,				description: [
+extreme_voltage.snbt,1011,					"{atm9.quest.gregtech.desc.fluidDrillingRig.13}Ah, this brings me back, it's almost like we're back in the Steam Age"
+extreme_voltage.snbt,1013,					"{atm9.quest.gregtech.desc.fluidDrillingRig.14}This gets us more steam than those boilers did though"
+extreme_voltage.snbt,1014,				]
+extreme_voltage.snbt,1030,				description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.15}A little &9water&r on &aProgram 1&r with this will get you plenty of &7Steam&r"]
+extreme_voltage.snbt,1065,					title: "{atm9.quest.gregtech.title.anyFluidHeater}Any Fluid Heater"
+extreme_voltage.snbt,1073,				description: [
+extreme_voltage.snbt,1074,					"{atm9.quest.gregtech.desc.anyFluidHeater.1}The mid-tier rubber! You probably won't use it for this, as you have access to the highest tier of rubber"
+extreme_voltage.snbt,1076,					"{atm9.quest.gregtech.desc.anyFluidHeater.2}Some recipes in the future do require specifically &9Silicone Rubber&r, which is why we made it"
+extreme_voltage.snbt,1077,				]
+extreme_voltage.snbt,1095,				description: ["{atm9.quest.gregtech.desc.anyFluidHeater.3}Silicon dust, water, methane, and chlorine combine in your &eChemical Reactor&r on &aProgram 2&r to make this "]
+extreme_voltage.snbt,1104,				subtitle: "{atm9.quest.gregtech.subt.trySayingThisFast}Try saying this 3 times fast"
+extreme_voltage.snbt,1115,				description: [
+extreme_voltage.snbt,1116,					"{atm9.quest.gregtech.desc.oilDistillation.1}&6Sulfuric Gas&r from &aOil Distillation&r can be made into &7Refinery Gas&r"
+extreme_voltage.snbt,1118,					"{atm9.quest.gregtech.desc.oilDistillation.2}Refinery Gas can then be &aCracked&r into a different form depending on what you want to distill out of it"
+extreme_voltage.snbt,1120,					"{atm9.quest.gregtech.desc.oilDistillation.3}&3Light Hydro Cracked Gas&r is a great source of &dMethane&r and Hydrogen!"
+extreme_voltage.snbt,1122,					"{atm9.quest.gregtech.desc.oilDistillation.4}A alternative but slower route might be to &eCentrifuge&r mushrooms or &eDistill&r Fermented Biomass even"
+extreme_voltage.snbt,1123,				]
+extreme_voltage.snbt,1166,					title: "{atm9.quest.gregtech.title.hvOrEvCutter}HV or EV Cutter"
+extreme_reactors.snbt,28,				image: "atm:textures/questpics/extremereactors/title2.png"
+extreme_reactors.snbt,40,				image: "atm:textures/questpics/extremereactors/titleimage2.png"
+extreme_reactors.snbt,153,				description: [
+extreme_reactors.snbt,154,					"{atm9.quest.gregtech.desc.extremeReactors.1}Based off of the original mod &eBig Reactors&r, &aExtreme Reactors&r allows you to build customizable multiblock Reactors!"
+extreme_reactors.snbt,156,					"{atm9.quest.gregtech.desc.extremeReactors.2}The main element is of course, Uranium. You'll need this and a lot of coal and iron to get building."
+extreme_reactors.snbt,158,					"{atm9.quest.gregtech.desc.extremeReactors.3}If you're ever lost along the way, refer to &aThe Extreme Book&r for help! "
+extreme_reactors.snbt,159,				]
+extreme_reactors.snbt,186,				title: "{atm9.quest.gregtech.title.welcomeToExtremeReactors}Welcome to &9Extreme Reactors&r!"
+extreme_reactors.snbt,192,				description: [
+extreme_reactors.snbt,193,					"{atm9.quest.gregtech.desc.welcomeToExtremeReactors.1}Before we can start building our reactor, we'll need to smelt some coal (or charcoal) to create &9Graphite Ingots&r."
+extreme_reactors.snbt,195,					"{atm9.quest.gregtech.desc.welcomeToExtremeReactors.2}Graphite, coupled with Iron, is one of the main materials when making a Reactor."
+extreme_reactors.snbt,196,				]
+extreme_reactors.snbt,211,				subtitle: "{atm9.quest.gregtech.subt.hardenedCarbon}Hardened Carbon"
+extreme_reactors.snbt,218,				title: "{atm9.quest.gregtech.title.graphiteForCasings}Graphite for Casings"
+extreme_reactors.snbt,224,				description: [
+extreme_reactors.snbt,225,					"{atm9.quest.gregtech.desc.graphiteForCasings.1}We're going to build the smallest passive reactor possible, the &93x3x3&r. The requirements for the quest are the exact amounts for what you'll need to build one."
+extreme_reactors.snbt,227,					"{atm9.quest.gregtech.desc.graphiteForCasings.2}To build this, you start by building a 3x3x3 frame made out of Casings. In the middle of the bottom face, you can just use another Reactor Casing. You'll want each outer wall to have a &9reactor component&r, like an Active Power Tap or Solid Access Port."
+extreme_reactors.snbt,229,					"{atm9.quest.gregtech.desc.graphiteForCasings.3}Next Page!"
+extreme_reactors.snbt,231,					"{atm9.quest.gregtech.desc.graphiteForCasings.4}{@pagebreak}"
+extreme_reactors.snbt,232,					"{atm9.quest.gregtech.desc.graphiteForCasings.5}Every reactor you build will require exactly 1 &6Reactor Controller&r, which is usually put in the middle of the front wall. Next, we'll place 1 &aFuel Rod&r in the center of the multiblock, and 1 &eControl Rod&r above it on the top face."
+extreme_reactors.snbt,234,					"{atm9.quest.gregtech.desc.graphiteForCasings.6}You will need a way to input and output waste, which is done by using &9Reactor Solid Access Ports&r. For this build, place one on the left side and one on the right."
+extreme_reactors.snbt,236,					"{atm9.quest.gregtech.desc.graphiteForCasings.7}To extract power, we'll place the &cActive Power Tap&r on the middle of the back wall. Once placed, the reactor should complete! You can now right click the Controller to open up the interface and turn it on!"
+extreme_reactors.snbt,238,					"{atm9.quest.gregtech.desc.graphiteForCasings.8}Note: The biggest reactor you can make using &aBasic Reactor Parts&r is 5x5x5. To build a larger reactor, you will need &eReinforced Reactor Parts&r."
+extreme_reactors.snbt,240,					"{atm9.quest.gregtech.desc.graphiteForCasings.9}{@pagebreak}"
+extreme_reactors.snbt,241,					"{atm9.quest.gregtech.desc.graphiteForCasings.10}This is what a 3x3x3 reactor will look like!"
+extreme_reactors.snbt,243,					"{image:atm:textures/questpics/extremereactors/3x3sample.png width:150 height:150 align:1}"
+extreme_reactors.snbt,244,				]
+extreme_reactors.snbt,269,				subtitle: "{atm9.quest.gregtech.subt.learningTheBasics}Learning the Basics"
+extreme_reactors.snbt,304,				title: "{atm9.quest.gregtech.title.ourFirstReactor}&dOur First Reactor"
+extreme_reactors.snbt,310,				description: [
+extreme_reactors.snbt,311,					"{atm9.quest.gregtech.desc.ourFirstReactor.1}To build a reactor, you'll need to start by making &6Reactor Casings&r."
+extreme_reactors.snbt,313,					"{atm9.quest.gregtech.desc.ourFirstReactor.2}These make up the frame and walls of your reactor, although the walls can be replaced by &9Reactor Glass&r if you'd like to see inside of your reactor."
+extreme_reactors.snbt,315,					"{atm9.quest.gregtech.desc.ourFirstReactor.3}For future reference, when a part says \"Basic\", this means that it can only be used with other basic parts. The \"Basic\" parts can also only be used to build smaller reactors, as it has a certain size limit. Keep this in mind!"
+extreme_reactors.snbt,316,				]

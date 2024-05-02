@@ -1,0 +1,73 @@
+extreme_reactors.snbt,1454,				description: ["{atm9.quest.gregtech.desc.fluidizerIntro.1}The &aFluidizer&r is a customizable multiblock that has a minimum size of 3x3x3. Just like the other multiblocks, the frame will need to be made out of Casings, while the faces can be made out of Glass."]
+extreme_reactors.snbt,1482,				title: "{atm9.quest.gregtech.fluidizerConstruction}Fluidizer Construction"
+extreme_reactors.snbt,1488,				description: [
+extreme_reactors.snbt,1489,					"{atm9.quest.gregtech.desc.fluidizerModes.1}The &aFluidizer&r can operate in one of 3 modes: Solid to Fluid, Combining 2 Solids into a Fluid, or combining 2 Fluids into a new Fluid. This all depends on the type of &aInjectors&r you use for the multiblock."
+extreme_reactors.snbt,1491,					"{atm9.quest.gregtech.desc.fluidizerModes.2}For example, if you want to convert &dBlutonium&r into a fluid, you can use 1 &aSolid Injector&r."
+extreme_reactors.snbt,1493,					"{atm9.quest.gregtech.desc.fluidizerModes.3}If you want to combine two solids together into something new, you'll build the multiblock with 2 &aSolid Injectors&r."
+extreme_reactors.snbt,1495,					"{atm9.quest.gregtech.desc.fluidizerModes.4}If you want to combine two fluids, you'll use 2 &9Fluid Injectors&r."
+extreme_reactors.snbt,1497,					"{atm9.quest.gregtech.desc.fluidizerModes.5}This might seem confusing, but is important for progression. For example, you'll want to convert Magentite into a fluid in the Fluidizer first, then send it to a &aReprocessor&r with Ludicrite to create Ridiculite."
+extreme_reactors.snbt,1498,				]
+extreme_reactors.snbt,1526,				title: "{atm9.quest.gregtech.operationalModes}Operational Modes"
+extreme_reactors.snbt,1532,				description: [
+extreme_reactors.snbt,1533,					"{atm9.quest.gregtech.desc.fluidizerOutput.1}If you want to get your hands on the product the &aFluidizer&r makes, you'll need an &aOutput Port&r on one of the faces."
+extreme_reactors.snbt,1535,					"{atm9.quest.gregtech.desc.fluidizerOutput.2}The &aFluidizer&r will need power to operate, so a &cPower Port&r is required to complete the structure."
+extreme_reactors.snbt,1536,				]
+extreme_reactors.snbt,1563,				title: "{atm9.quest.gregtech.requiredPorts}Required Ports"
+extreme_reactors.snbt,1569,				description: [
+extreme_reactors.snbt,1570,					"{atm9.quest.gregtech.desc.reprocessorUsage.1}Using the &aReprocessor&r, we can combine everything we've made so far to make a few new ingots."
+extreme_reactors.snbt,1572,					"{atm9.quest.gregtech.desc.reprocessorUsage.2}Note: You might need a &9Fluidizer&r to complete this step!"
+extreme_reactors.snbt,1573,				]
+extreme_reactors.snbt,1609,				description: [
+extreme_reactors.snbt,1610,					"{atm9.quest.gregtech.desc.verderiumCreation.1}By using the &aFluidizer&r, we can combine &dBlutonium&r with &eYellorium&r to make &2Verderium."
+extreme_reactors.snbt,1612,					"{atm9.quest.gregtech.desc.verderiumCreation.2}When used as fuel in a reactor, &2Verderium&r produces &cRossinite&r as a reactant. We need this!"
+extreme_reactors.snbt,1614,					"{atm9.quest.gregtech.desc.verderiumCreation.3}To use &2Verderium&r as a fuel, you'll need to make &cFuel Injection Ports&r for your reactor. "
+extreme_reactors.snbt,1615,					"{atm9.quest.gregtech.desc.verderiumCreation.4}Note: You might need to empty out the fuel currently in your reactor, or make a new reactor for this purpose. "
+extreme_reactors.snbt,1616,				]
+extreme_reactors.snbt,1638,				title: "{atm9.quest.gregtech.rossinite}Rossinite"
+extreme_reactors.snbt,1647,				description: [
+extreme_reactors.snbt,1648,					"{atm9.quest.gregtech.desc.inaniteCreation.1}Combining &9Ridiculite Ingots&r with &cRossinite&r in a &aFluidizer&r will create &dInanite Ingots&r."
+extreme_reactors.snbt,1650,					"{atm9.quest.gregtech.desc.inaniteCreation.2}We can now use these to make a block of &dInanite&r."
+extreme_reactors.snbt,1651,				]
+extreme_reactors.snbt,1679,				description: [
+extreme_reactors.snbt,1680,					"{atm9.quest.gregtech.desc.insaniteMaterial.1}One of the hardest materials to get in the mod!"
+extreme_reactors.snbt,1682,					"{atm9.quest.gregtech.desc.insaniteMaterial.2}This is also used to create the &6ATM Star&r!"
+extreme_reactors.snbt,1683,				]
+extreme_reactors.snbt,1705,				title: "{atm9.quest.gregtech.insaniteBlock}&dInsanite Block&r"
+extreme_reactors.snbt,1711,				description: [
+extreme_reactors.snbt,1712,					"{atm9.quest.gregtech.desc.insaniteCreation.1}Now that you have &cRossinite&r, you can mix it with &aBenitoite&r to create &dInsanite&r ingots."
+extreme_reactors.snbt,1714,					"{atm9.quest.gregtech.desc.insaniteCreation.2}&aBenitoite Ore&r can be found in the Nether."
+extreme_reactors.snbt,1715,				]
+insane_voltage.snbt,13,				description: [
+insane_voltage.snbt,14,					"{atm9.quest.gregtech.desc.salsaIncident.1}So there I was, knee deep in salsa and covered in motor oil"
+insane_voltage.snbt,16,					"{atm9.quest.gregtech.desc.salsaIncident.2}Anyway, I hope you are ready to do a lot of work with fluids!"
+insane_voltage.snbt,17,				]
+insane_voltage.snbt,43,				subtitle: "{atm9.quest.gregtech.subt.diveDeep}Time to d&1IV&re deep"
+insane_voltage.snbt,62,				description: [
+insane_voltage.snbt,63,					"{atm9.quest.gregtech.desc.hvCircuits.1}The final form of the HV circuits, but not the most cost efficient - yet"
+insane_voltage.snbt,65,					"{atm9.quest.gregtech.desc.hvCircuits.2}For now you'll be using these to make the higher tier circuits, up to LuV!"
+insane_voltage.snbt,66,				]
+insane_voltage.snbt,89,				description: ["{atm9.quest.gregtech.desc.evCircuits}Cheaper EV circuits! Don't forget to update your recipes!"]
+insane_voltage.snbt,112,				description: ["{atm9.quest.gregtech.desc.ivCircuits}Easier IV circuits, but why stop here! Pushing onwards and you'll achieve the coveted Ludicrous Voltage circuits!"]
+insane_voltage.snbt,133,				description: ["{atm9.quest.gregtech.desc.luvAge}Finally, the &dLuV&r age has arrived - congratulations!"]
+insane_voltage.snbt,156,				description: [
+insane_voltage.snbt,157,					"{atm9.quest.gregtech.desc.tungstensteel.1}Finally, Tungstensteel, now you can make IV Machines!"
+insane_voltage.snbt,159,					"{atm9.quest.gregtech.desc.tungstensteel.2}This also allows for a coil upgrade for the EBF!"
+insane_voltage.snbt,160,				]
+insane_voltage.snbt,181,				description: ["{atm9.quest.gregtech.desc.tungstenUsage}What good is regular Tungsten? Well, since you asked, it is an integral component of many IV Machines, primarily in the form of Tungsten Cables"]
+insane_voltage.snbt,201,					title: "{atm9.quest.gregtech.tungstenIngot}Tungsten Ingot"
+insane_voltage.snbt,213,				description: ["{atm9.quest.gregtech.desc.ebfTemperature}With 16 of these on your &eElectric Blast Furnace&r you can cook recipes up to &c4500 Kelvin&r! That's 4227 Celsius or 7640 Fahrenheit!"]
+insane_voltage.snbt,257,				description: [
+insane_voltage.snbt,258,					"{atm9.quest.gregtech.desc.polybenzimidazole.1}Polybenzimidazole is a type of plastic known for its heat resistance"
+insane_voltage.snbt,260,					"{atm9.quest.gregtech.desc.polybenzimidazole.2}You'll use it for many applications as you progress, especially at the ZPM and above tiers, but the primary use will be making advanced circuit components!"
+insane_voltage.snbt,261,				]
+insane_voltage.snbt,296,				subtitle: "{atm9.quest.gregtech.subt.pbi}PBI at long last"
+insane_voltage.snbt,310,				description: [
+insane_voltage.snbt,311,					"{atm9.quest.gregtech.desc.evAssembler.1}The EV Circuit Assembler, the next major step in making higher tier circuits and making lower tier circuits even cheaper!"
+insane_voltage.snbt,313,					"{atm9.quest.gregtech.desc.evAssembler.2}You've still got a ways to go with fluids before you make the &3Nanoprocessor&r tier of circuits"
+insane_voltage.snbt,314,				]
+insane_voltage.snbt,336,				description: [
+insane_voltage.snbt,337,					"{atm9.quest.gregtech.desc.processingArray.1}The &aProcessing Array&r can run 16 recipes &din parallel&r for any of the single block machines you can make!"
+insane_voltage.snbt,339,					"{atm9.quest.gregtech.desc.processingArray.2}Why run in &bParallel&r when you can &6Overclock&r you ask? Well, parallelization is superior here because it doesn't use more power unlike overclocking"
+insane_voltage.snbt,341,					"{atm9.quest.gregtech.desc.processingArray.3}Additionally, you can utilize the &cDistinct Bus Mode&r with the (up to 10) different Input Busses on different Programmed Circuits for easier pattern automation with Extruders, Laser Engravers, etc"
+insane_voltage.snbt,343,					"{atm9.quest.gregtech.desc.processingArray.4}&e&lNote:&r&r Many of the single block machines have multiblock variants that are better, but I'm not going to go into those (yet)"
+insane_voltage.snbt,344,				]

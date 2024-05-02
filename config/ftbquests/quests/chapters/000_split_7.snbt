@@ -1,0 +1,71 @@
+extreme_reactors.snbt,347,				title: "{atm9.quest.gregtech.reactorBuildingComponents}Reactor Building Components"
+extreme_reactors.snbt,353,				description: [
+extreme_reactors.snbt,354,					"{atm9.quest.gregtech.desc.reactorBuildingComponents.1}To extract power or items from your reactor, or even input fuel, you'll need these &crequired&r blocks."
+extreme_reactors.snbt,356,					"{atm9.quest.gregtech.desc.reactorBuildingComponents.2}The &cPower Tap&r provides a way for you to \"tap\" into the power that a &9passive&r reactor makes. You can attach pipes and cables to extract the power from it."
+extreme_reactors.snbt,358,					"{atm9.quest.gregtech.desc.reactorBuildingComponents.3}The &aAccess Ports&r are required for every reactor, and allows you to both input fuel from the reactor, or extract waste. It's usually a good idea to have 2 per reactor, one for each job."
+extreme_reactors.snbt,359,				]
+extreme_reactors.snbt,388,				title: "{atm9.quest.gregtech.interactingWithReactor}Interacting with the Reactor"
+extreme_reactors.snbt,394,				description: [
+extreme_reactors.snbt,395,					"{atm9.quest.gregtech.desc.interactingWithReactor.1}The &dReactor Controller&r is the heart of the reactor. When a reactor is formed, you can right-click the terminal to open up the reactor interface."
+extreme_reactors.snbt,397,					"{atm9.quest.gregtech.desc.interactingWithReactor.2}Depending on if it is a &9Passively Cooled&r or an &eActively Cooled&r reactor, the interface will change. Passively Cooled reactors are used to produce power directly by burning fuel. Actively Cooled Reactors use the heat created to vaporize the coolant, which is then sent into a Turbine to create power."
+extreme_reactors.snbt,399,					"{atm9.quest.gregtech.desc.interactingWithReactor.3}In the interface of a passive reactor, you can see and toggle the status and waste ejection. You'll also see the temps, how much FE/t the reactor is producing, and how much fuel the reactor is burning per tick."
+extreme_reactors.snbt,400,				]
+extreme_reactors.snbt,424,				subtitle: "{atm9.quest.gregtech.subt.heartOfReactor}The Heart of the Reactor"
+extreme_reactors.snbt,435,				description: [
+extreme_reactors.snbt,436,					"{atm9.quest.gregtech.desc.heartOfReactor.1}Every reactor needs &9Reactor Control Rods&r and &9Fuel Rods&r. These control how fuel is inserted into the reactor."
+extreme_reactors.snbt,438,					"{atm9.quest.gregtech.desc.heartOfReactor.2}The Control Rods are placed on the top face of the reactor. You can also have more than one per reactor, but you must have at least 1. Typically, the more you have, the more fuel the reactor can use and burn. That can mean more overall power, but at the cost of higher burn rates, depending on the setup of your reactor."
+extreme_reactors.snbt,440,					"{atm9.quest.gregtech.desc.heartOfReactor.3}For every Control Rod, you'll need enough Fuel Rods to extend to the base of the reactor. For example, if your reactor is 5 blocks tall, you'll need 3 Fuel Rods extending from each Control Rod."
+extreme_reactors.snbt,442,					"{atm9.quest.gregtech.desc.heartOfReactor.4}If you right-click on a Control Rod, you can control how much fuel is burned in the reactor by inserting or retracting the fuel rods. The further that you extend the rods, the less fuel that will be burned."
+extreme_reactors.snbt,443,				]
+extreme_reactors.snbt,473,				title: "{atm9.quest.gregtech.reactorControlRods}Reactor Control Rods"
+extreme_reactors.snbt,479,				description: [
+extreme_reactors.snbt,480,					"{atm9.quest.gregtech.desc.reactorControlRods.1}To insert fuel into the reactor, you'll need to pick one of the sides that has a &9Reactor Solid Access Port&r and pump in &eUranium&r from an inventory."
+extreme_reactors.snbt,482,					"{atm9.quest.gregtech.desc.reactorControlRods.2}The easiest way to do this is to use something like a &aStorage Drawer&r or even just a &aChest&r with an &9Item Pipe&r connected at the top, like the image shown below."
+extreme_reactors.snbt,484,					"{image:atm:textures/questpics/extremereactors/importexample.png width:150 height:150 align:1}"
+extreme_reactors.snbt,485,				]
+extreme_reactors.snbt,508,				title: "{atm9.quest.gregtech.fuelingOurPassiveReactor}Fueling our Passive Reactor"
+extreme_reactors.snbt,514,				description: ["{atm9.quest.gregtech.desc.fuelingOurPassiveReactor.1}When the reactor burns up fuel, it creates &9waste&r or a &dReactant&r that you'll also want to extract. That is what the other Solid Access Port is for! Make sure to set it to output, then pipe it into some type of storage."]
+extreme_reactors.snbt,529,				subtitle: "{atm9.quest.gregtech.subt.wasteNotWantNot}Waste Not Want Not or something...."
+extreme_reactors.snbt,535,				title: "{atm9.quest.gregtech.dealingWithWaste}Dealing with Waste"
+extreme_reactors.snbt,541,				description: [
+extreme_reactors.snbt,542,					"{atm9.quest.gregtech.desc.dealingWithWaste.1}Now that we have some Cyanite from our baby reactor, we'll want a way to reprocess that waste into something useful."
+extreme_reactors.snbt,544,					"{atm9.quest.gregtech.desc.dealingWithWaste.2}To do this, we'll need to build another multiblock: the &aReprocessor&r."
+extreme_reactors.snbt,546,					"{atm9.quest.gregtech.desc.dealingWithWaste.3}This takes a lot of Cyanite, so start stocking up! You might want to upgrade to a bigger reactor as well. "
+extreme_reactors.snbt,547,				]
+extreme_reactors.snbt,567,				title: "{atm9.quest.gregtech.reprocessingOurWaste}Reprocessing our Waste"
+extreme_reactors.snbt,572,				description: [
+extreme_reactors.snbt,573,					"{atm9.quest.gregtech.desc.reprocessingOurWaste.1}With Cyanite, we can create the heart of the Turbine, the &9Turbine Controller&r."
+extreme_reactors.snbt,575,					"{atm9.quest.gregtech.desc.reprocessingOurWaste.2}Turbines are multi-block structures, just like Reactors! They input vapors like &7Steam&r made by &dActively Cooled&r Reactors to create TONS of power! We'll need a few other pieces to be able to build our first one."
+extreme_reactors.snbt,577,					"{atm9.quest.gregtech.desc.reprocessingOurWaste.3}Note: Basic Turbine parts can only be used to build a max size Turbine of 5x5x10. To build a bigger Turbine, you must use &aReinforced Turbine Parts&r."
+extreme_reactors.snbt,578,				]
+extreme_reactors.snbt,614,				title: "{atm9.quest.gregtech.makingTurbines}Making Turbines"
+extreme_reactors.snbt,620,				description: [
+extreme_reactors.snbt,621,					"{atm9.quest.gregtech.desc.makingTurbines.1}Reactor &9Moderators&r are materials placed inside of a reactor to change how it performs, based on the properties of the moderator. These are placed &linside&r of the reactor during construction."
+extreme_reactors.snbt,623,					"{atm9.quest.gregtech.desc.makingTurbines.2}Typically, the rarer the material is, the better of a Moderator it is. Leaving the reactor empty means you are using the air inside as a moderator, which isn't that great."
+extreme_reactors.snbt,625,					"{atm9.quest.gregtech.desc.makingTurbines.3}If you are looking for something cheap in the early game, try using &3Graphite Blocks&r!"
+extreme_reactors.snbt,626,				]
+extreme_reactors.snbt,643,				subtitle: "{atm9.quest.gregtech.subt.moderatorsNotCoolants}They are Moderators, not Coolants."
+extreme_reactors.snbt,758,					title: "{atm9.quest.gregtech.exampleModerators}Example Moderators"
+extreme_reactors.snbt,761,				title: "{atm9.quest.gregtech.reactorModerators}Reactor Moderators"
+extreme_reactors.snbt,770,				description: [
+extreme_reactors.snbt,771,					"{atm9.quest.gregtech.desc.reactorModerators.1}Reactors can also be used to heat up &bcoolants&r like water to create &bvapor&r, like &bSteam&r."
+extreme_reactors.snbt,773,					"{atm9.quest.gregtech.desc.reactorModerators.2}To do this, you'll need to build a reinforced reactor. This is built in the same way that you built your 3x3x3 reactor, but all of the parts will need to be &aReinforced Reactor Parts&r instead. I'd also suggest on it being bigger than a 3x3x3."
+extreme_reactors.snbt,775,					"{atm9.quest.gregtech.desc.reactorModerators.3}To input a coolant, you'll need a &9Forge Fluid Port&r. This will port in any fluids like Water into the reactor. This will also be used to export the vapor created in the reactor."
+extreme_reactors.snbt,777,					"{atm9.quest.gregtech.desc.reactorModerators.4}If you want, you can create a &aMekanism Fluid Port&r to convert the fluid Steam into the Mekanism gas Steam instead."
+extreme_reactors.snbt,778,				]
+extreme_reactors.snbt,794,				subtitle: "{atm9.quest.gregtech.subt.toMakeSteam}To Make Steam!!"
+extreme_reactors.snbt,807,				title: "{atm9.quest.gregtech.buildingAnActivelyCooledReactor}Building An Actively Cooled Reactor"
+extreme_reactors.snbt,813,				description: [
+extreme_reactors.snbt,814,					"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.1}Reactors are multi-block structures, meaning you can create your own custom size!"
+extreme_reactors.snbt,816,					"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.2}If you're using &aBasic Reactor Parts&r, the largest size reactor you can build is 5x5x5."
+extreme_reactors.snbt,818,					"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.3}The &lBiggest&r Reactor that you can make using &eReinforced Reactor Parts&r is 32x32x48. There are a lot of variables that contribute to the overall output of a reactor, so make sure to experiment!"
+extreme_reactors.snbt,820,					"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.4}Some overall tips:"
+extreme_reactors.snbt,822,					"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.5}The taller the reactor, the more fuel it can hold and burn because there are more fuel rods, meaning more overall power. This also means a higher &cburn rate&r."
+extreme_reactors.snbt,824,					"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.6}The wider the reactor, the more efficient it is, as long as you don't add more fuel rods to the design. This means less consumption overall."
+extreme_reactors.snbt,825,				]
+extreme_reactors.snbt,848,				title: "{atm9.quest.gregtech.expandingOurReactors}Expanding Our Reactors"
+extreme_reactors.snbt,854,				description: [
+extreme_reactors.snbt,855,					"{atm9.quest.gregtech.desc.expandingOurReactors.1}To interact with our Turbine, we'll need several &6Ports&r."
+extreme_reactors.snbt,857,					"{atm9.quest.gregtech.desc.expandingOurReactors.2}The &9Fluid Port&r is used to insert vapors like &bSteam&r, or extract exhaust, like &9water&r. Because of this, you'll need two for your Turbine."
+extreme_reactors.snbt,859,					"{atm9.quest.gregtech.desc.expandingOurReactors.3}The &cPower Tap&r extracts power, and is required to complete the multiblock."
+extreme_reactors.snbt,860,				]

@@ -1,0 +1,73 @@
+ludicrous_voltage.snbt,2211,				subtitle: "{atm9.quest.gregtech.subt.hoarder}I swear, I am not a hoarder! I just like collecting things!"
+ludicrous_voltage.snbt,2214,					title: "{atm9.quest.gregtech.reOrganization}Re-Organization"
+ludicrous_voltage.snbt,2222,				description: [
+ludicrous_voltage.snbt,2223,					"{atm9.quest.gregtech.desc.parallelHatches.1}Parallelizing Hatches are going to be incredibly Important, especially moving forward with Large multiblock Structures!"
+ludicrous_voltage.snbt,2225,					"{atm9.quest.gregtech.desc.parallelHatches.2}The First tier of this hatch will allow 4 processes to run at the same time. But as we move up through the tiers, you can eventually run 256 processes at the same time!!"
+ludicrous_voltage.snbt,2227,					"{atm9.quest.gregtech.desc.parallelHatches.3}This is far more than the Processing Array, and as such, gives more value to these multiblocks over single blocks machines!"
+ludicrous_voltage.snbt,2229,					"{atm9.quest.gregtech.desc.parallelHatches.4}&l&eNote:&r&r This hatch is not actually required to build any of those multiblock machines"
+ludicrous_voltage.snbt,2230,				]
+ludicrous_voltage.snbt,2239,				subtitle: "{atm9.quest.gregtech.subt.parallelProcesses}Parallel Processes FTW"
+ludicrous_voltage.snbt,2249,				description: [
+ludicrous_voltage.snbt,2250,					"{atm9.quest.gregtech.desc.molybdenumDisilicide.1}Were going to need some Molybdenum Disilicide to make the casings for the ABS. "
+ludicrous_voltage.snbt,2252,					"{atm9.quest.gregtech.desc.molybdenumDisilicide.2}This dust can easily be made in an EV Mixer and then EBF'd with EV and Kanthal Coils."
+ludicrous_voltage.snbt,2253,				]
+ludicrous_voltage.snbt,2262,				subtitle: "{atm9.quest.gregtech.subt.molybdenumDisilicide}Molybdenum Disilicide"
+ludicrous_voltage.snbt,2273,				description: ["{atm9.quest.gregtech.desc.mixingRuthenium}Take that Ruthenium Dust and get to mixing! "]
+ludicrous_voltage.snbt,2282,				subtitle: "{atm9.quest.gregtech.subt.allMixedUp}All Mixed Up"
+medium_voltage.snbt,13,				description: [
+medium_voltage.snbt,14,					"{atm9.quest.gregtech.desc.overclocking.1}Remember: Overclocking runs a recipe twice as fast but at four times power consumption"
+medium_voltage.snbt,16,					"{atm9.quest.gregtech.desc.overclocking.2}As you start replacing machines, you can put the old ones in a macerator to reclaim some of the ingredients used in crafting it"
+medium_voltage.snbt,17,				]
+medium_voltage.snbt,26,				subtitle: "{atm9.quest.gregtech.subt.welcomeMV}Welcome to &bMV&r"
+medium_voltage.snbt,43,				description: [
+medium_voltage.snbt,44,					"{atm9.quest.gregtech.desc.highVoltage.1}Congratulations! "
+medium_voltage.snbt,46,					"{atm9.quest.gregtech.desc.highVoltage.2}With the Advanced Integrated Circuit you have successfully made it to High Voltage!"
+medium_voltage.snbt,48,					"{atm9.quest.gregtech.desc.highVoltage.3}You can toss out those old recipes for Basic Electronic Circuits and Good Electronic Circuits and replace them with their Integrated versions"
+medium_voltage.snbt,49,				]
+medium_voltage.snbt,69,				subtitle: "{atm9.quest.gregtech.subt.newEra}A new era"
+medium_voltage.snbt,87,				title: "{atm9.quest.gregtech.advancedIntegratedCircuit}Advanced Integrated Circuit"
+medium_voltage.snbt,93,				description: [
+medium_voltage.snbt,94,					"{atm9.quest.gregtech.desc.cheaperCircuits.1}I know, this is an LV machine in the MV age, but trust me, it is worth the MV circuits it takes to craft this"
+medium_voltage.snbt,96,					"{atm9.quest.gregtech.desc.cheaperCircuits.2}Circuits become cheaper to craft with the Circuit Assembler, and you will need a lot of circuits"
+medium_voltage.snbt,97,				]
+medium_voltage.snbt,105,				subtitle: "{atm9.quest.gregtech.subt.cheaperCircuits}Cheaper circuits!"
+medium_voltage.snbt,120,				description: [
+medium_voltage.snbt,121,					"{atm9.quest.gregtech.desc.transistors.1}Transistors are truly a modern marvel and have allowed the electronic age to boom"
+medium_voltage.snbt,123,					"{atm9.quest.gregtech.desc.transistors.2}They allow for much more complex electronics by amplifying signals and acting as a switch, introducing the capability for logic programming!"
+medium_voltage.snbt,125,					"{atm9.quest.gregtech.desc.transistors.3}In our case, they allow us to make the Integrated Circuit!"
+medium_voltage.snbt,126,				]
+medium_voltage.snbt,145,				description: ["{atm9.quest.gregtech.desc.cuttingChips}That wafer needs to be cut into chips now, so back to the Cutter with these"]
+medium_voltage.snbt,163,				description: ["{atm9.quest.gregtech.desc.engravingWafers}Engraved wafers need to be cut into the appropriate size, so back to the Cutter we go!"]
+medium_voltage.snbt,181,				description: ["{atm9.quest.gregtech.desc.shapingIngot}Once cooled we can begin to shape the ingot into more useful materials"]
+medium_voltage.snbt,208,				description: [
+medium_voltage.snbt,209,					"{atm9.quest.gregtech.desc.polyethylene.1}Ethylene with even more oxygen will make you Polyethylene"
+medium_voltage.snbt,211,					"{atm9.quest.gregtech.desc.polyethylene.2}Do note you need to use &eProgram 1&r for this recipe"
+medium_voltage.snbt,213,					"{atm9.quest.gregtech.desc.polyethylene.3}You could use air instead of oxygen, but you'll get less Polyethylene out"
+medium_voltage.snbt,215,					"{atm9.quest.gregtech.desc.polyethylene.4}This stuff is very versatile, we'll be using a lot of it, so be sure to make a bunch or better yet make it passively"
+medium_voltage.snbt,216,				]
+medium_voltage.snbt,223,				subtitle: "{atm9.quest.gregtech.subt.moreOxygen}Even more oxygen"
+medium_voltage.snbt,234,				description: ["{atm9.quest.gregtech.desc.machineHulls}Once you've got polyethylene set up, you can switch to making machine hulls in the Assembler to save on some materials"]
+medium_voltage.snbt,242,				subtitle: "{atm9.quest.gregtech.subt.assemble}Greggers, ASSEMBLE!"
+medium_voltage.snbt,253,				description: [
+medium_voltage.snbt,254,					"{atm9.quest.gregtech.desc.cuttingEdge.1}Turn blocks into plates with this one trick!"
+medium_voltage.snbt,256,					"{atm9.quest.gregtech.desc.cuttingEdge.2}Also very useful for making silicon wafers and wafer chips, which we'll get into shortly"
+medium_voltage.snbt,257,				]
+medium_voltage.snbt,265,				subtitle: "{atm9.quest.gregtech.subt.cuttingEdge}The cutting edge"
+medium_voltage.snbt,279,				description: ["{atm9.quest.gregtech.desc.rubyLens}One ruby plate in the Lathe will make a Ruby Lens"]
+medium_voltage.snbt,299,				description: [
+medium_voltage.snbt,300,					"{atm9.quest.gregtech.desc.quickWork.1}The cutter will make quick work of the boule and turn it into 16 wafers"
+medium_voltage.snbt,302,					"{atm9.quest.gregtech.desc.quickWork.2}You can also use these wafers to make cheaper diodes - time to upgrade that recipe!"
+medium_voltage.snbt,303,				]
+medium_voltage.snbt,321,				description: [
+medium_voltage.snbt,322,					"{atm9.quest.gregtech.desc.siliconDust.1}&e32x Silicon Dust&r and a &aSmall Pile of Gallium Arsenide Dust&r on &bProgram 2&r will make you one of these "
+medium_voltage.snbt,324,					"{atm9.quest.gregtech.desc.siliconDust.2}It might be worth making a new EBF, one for just Program 1 recipes"
+medium_voltage.snbt,325,				]
+medium_voltage.snbt,349,				description: [
+medium_voltage.snbt,350,					"{atm9.quest.gregtech.desc.engravingPatterns.1}Uses a laser and specific lenses to engrave different patterns on the wafers"
+medium_voltage.snbt,352,					"{atm9.quest.gregtech.desc.engravingPatterns.2}You might want to make one of these per lens we make, so you don't have to change out the lenses manually when automating"
+medium_voltage.snbt,353,				]
+medium_voltage.snbt,374,				description: ["{atm9.quest.gregtech.desc.emeraldLens}Process one of those emerald plates in a Lathe to get your Emerald Lens!"]
+medium_voltage.snbt,391,				description: [
+medium_voltage.snbt,392,					"{atm9.quest.gregtech.desc.gemLens.1}Insert gem plate and get gem lens"
+medium_voltage.snbt,394,					"{atm9.quest.gregtech.desc.gemLens.2}Still makes rods too!"
+medium_voltage.snbt,395,				]

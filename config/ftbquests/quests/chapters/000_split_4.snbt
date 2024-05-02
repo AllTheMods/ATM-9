@@ -1,0 +1,72 @@
+high_voltage.snbt,920,				description: [
+high_voltage.snbt,921,					"{atm9.quest.gregtech.desc.chlorineSources.1}Chlorine comes from many sources! To name a few, you could &eelectrolyze&r sodalite, rock salt, salt dust, apatite dust, or regular old salt water"
+high_voltage.snbt,923,					"{atm9.quest.gregtech.desc.chlorineSources.2}If you go the salt water route, you may wonder how to get salt water - look no further! If you have a steady supply of &dghast tears&r, you can &echemical react&r them with water"
+high_voltage.snbt,925,					"{atm9.quest.gregtech.desc.chlorineSources.3}Alternatively, a &emixer&r with salt dust and water will also produce salt water, but at that point you might as well &eelectrolyze&r the salt dust"
+high_voltage.snbt,926,				]
+high_voltage.snbt,949,				description: ["{atm9.quest.gregtech.desc.glassLensDye.1}That liquid &bcyan dye&r plus the Glass Lens in this machine will dye it into a &bGlass Lens (Cyan)&r"]
+high_voltage.snbt,970,				description: ["{atm9.quest.gregtech.desc.hydrogenChlorineReaction.1}A little hydrogen and chlorine together in a &echemical reactor&r will result in some HCl"]
+high_voltage.snbt,986,				description: [
+high_voltage.snbt,987,					"{atm9.quest.gregtech.desc.hydrogenSources.1}Hydrogen, like chlorine, can come from many sources"
+high_voltage.snbt,989,					"{atm9.quest.gregtech.desc.hydrogenSources.2}For example, you could try &ecentrifuging&r goethite or yellow limonite dust, or perhaps &eelectrolyzing&r is more your speed. "
+high_voltage.snbt,991,					"{atm9.quest.gregtech.desc.hydrogenSources.3}Both water and salt water are good sources of hydrogen, and salt water comes with the added benefit of giving you chlorine too!"
+high_voltage.snbt,992,				]
+high_voltage.snbt,1009,				description: [
+high_voltage.snbt,1010,					"{atm9.quest.gregtech.desc.clayProcessingLine.1}[ \"\", { \"text\": \"If you made the \" }, { \"text\":\"Clay Processing Line\", \"color\":\"aqua\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"6275C90E5890C1E4\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } }, { \"text\":\" earlier, you can simply pause the \" }, { \"text\":\"Electrolyzer\", \"color\":\"yellow\" }, { \"text\":\" briefly to acquire clay dust to mix with your stone dust\" } ]"
+high_voltage.snbt,1012,					"{atm9.quest.gregtech.desc.clayProcessingLine.2}At least making this stuff doesn't ruin the bucket or mixer"
+high_voltage.snbt,1013,				]
+high_voltage.snbt,1025,				description: [
+high_voltage.snbt,1026,					"{atm9.quest.gregtech.desc.advancedMixerSetup.1}You can make this with a combination of iron, nickel or invar, manganese, and chromium dusts in an &bAdvanced Mixer&r with a &aProgram Circuit&r setting"
+high_voltage.snbt,1028,					"{atm9.quest.gregtech.desc.advancedMixerSetup.2}&eManganese dust&r is a byproduct of ore processing tungstate, spessartine, olivine, tantalite, pyrolusite, wulfenite, or scheelite"
+high_voltage.snbt,1030,					"{atm9.quest.gregtech.desc.advancedMixerSetup.3}&cLooking ahead&r, I'd recommend processing tantalite and tungstate"
+high_voltage.snbt,1032,					"{atm9.quest.gregtech.desc.advancedMixerSetup.4}&dChromium dust&r can be gained by ore processing chromite or ruby, both of which can also be further processed in an electrolyzer to get more chromium!"
+high_voltage.snbt,1033,				]
+high_voltage.snbt,1065,				description: [
+high_voltage.snbt,1066,					"{atm9.quest.gregtech.desc.prospectorTool.1}Tired of hunting around for ores and hoping you'll strike it rich? Are you looking for the oil that lies beneath? You need the &6HV&r &bProspector&r! "
+high_voltage.snbt,1068,					"{atm9.quest.gregtech.desc.prospectorTool.2}This tool will scan the area around you in a 4 chunk radius and tell you where to find the ore you are looking for"
+high_voltage.snbt,1070,					"{atm9.quest.gregtech.desc.prospectorTool.3}Additionally, you can sneak + right-click to change to Fluid Detection mode and find oil pools that lie beneath bedrock, all you'll need is a &eFluid Drilling Rig&r to access all that oil!"
+high_voltage.snbt,1071,				]
+high_voltage.snbt,1091,				description: [""]
+high_voltage.snbt,1121,				description: [
+high_voltage.snbt,1122,					"{atm9.quest.gregtech.desc.energiumBattery.1}&cEnergium Dust&r inside an &6HV Autoclave&r will make an &bEnergium Battery&r"
+high_voltage.snbt,1124,					"{atm9.quest.gregtech.desc.energiumBattery.2}Energium Batteries hold up to &a10 minutes&r of HV power"
+high_voltage.snbt,1125,				]
+high_voltage.snbt,1154,				description: [
+high_voltage.snbt,1155,					"{atm9.quest.gregtech.desc.maceratorByproducts.1}Finally, at &6HV&r you get access to the &dByproducts&r from the &eMacerator&r"
+high_voltage.snbt,1157,					"{atm9.quest.gregtech.desc.maceratorByproducts.2}These byproducts are often incredibly useful and will come in handy multiple times as you progress"
+high_voltage.snbt,1158,				]
+high_voltage.snbt,1186,				title: "{atm9.quest.gregtech.oreProcessingUpgrade}Ore Processing Upgrade"
+extreme_voltage.snbt,13,				description: [
+extreme_voltage.snbt,14,					"{atm9.quest.gregtech.desc.electricalSafety.1}We'll pretend that it's fine"
+extreme_voltage.snbt,16,					"{atm9.quest.gregtech.desc.electricalSafety.2}At &5EV&r we're dealing with more than 1000 Volts! We're practically electrical linemen, just please don't try this at home"
+extreme_voltage.snbt,17,				]
+extreme_voltage.snbt,43,				subtitle: "{atm9.quest.gregtech.subt.thisIsFine}This is fine, &5EV&rerything is fine"
+extreme_voltage.snbt,54,				description: [
+extreme_voltage.snbt,55,					"{atm9.quest.gregtech.desc.questCompletionReminder.1}&c&lStop! Do not pass Go! Do not collect $200!&r&r"
+extreme_voltage.snbt,57,					"{atm9.quest.gregtech.desc.questCompletionReminder.2}Did you complete all the other quests in this chapter already? "
+extreme_voltage.snbt,59,					"{atm9.quest.gregtech.desc.questCompletionReminder.3}Oh, you did? "
+extreme_voltage.snbt,61,					"{atm9.quest.gregtech.desc.questCompletionReminder.4}Good work, off you go then!"
+extreme_voltage.snbt,62,				]
+extreme_voltage.snbt,71,				subtitle: "{atm9.quest.gregtech.subt.onwardsToIV}Onwards to IV!"
+extreme_voltage.snbt,93,				subtitle: "{atm9.quest.gregtech.subt.upgrades}Upgrades!"
+extreme_voltage.snbt,115,				subtitle: "{atm9.quest.gregtech.subt.recipe}Recipe"
+extreme_voltage.snbt,137,				subtitle: "{atm9.quest.gregtech.subt.circuit}Circuit"
+extreme_voltage.snbt,168,				subtitle: "{atm9.quest.gregtech.subt.time}Time"
+extreme_voltage.snbt,190,				subtitle: "{atm9.quest.gregtech.subt.for}For"
+extreme_voltage.snbt,205,				description: [
+extreme_voltage.snbt,206,					"{atm9.quest.gregtech.desc.magnesiumProcessing.1}A little &dMagnesium dust&r with your Titanium Tetrachloride inside the &aElectric Blast Furnace&r will give you a very &lHOT&r ingot"
+extreme_voltage.snbt,208,					"{atm9.quest.gregtech.desc.magnesiumProcessing.2}Magnesium you can get from &6Ore Processing&r many things, but my personal favorite is &eElectrolyzing&r Obsidian dust"
+extreme_voltage.snbt,210,					"{atm9.quest.gregtech.desc.magnesiumProcessing.3}You can reclaim that magnesium and chlorine back by &eElectrolyzing&r the Magnesium Chloride you get"
+extreme_voltage.snbt,212,					"{atm9.quest.gregtech.desc.magnesiumProcessing.4}You'll need to cool the ingot off in the &aVacuum Freezer&r before you can use it for anything"
+extreme_voltage.snbt,214,					"{atm9.quest.gregtech.desc.magnesiumProcessing.5}&l&eNote:&r&r A little reminder to double check the temperature requirement for ingot recipes; this one requires something better than Cupronickel Coils, like &bKanthal Coils&r"
+extreme_voltage.snbt,215,				]
+extreme_voltage.snbt,237,					title: "{atm9.quest.gregtech.titaniumIngot}Titanium Ingot"
+extreme_voltage.snbt,244,				description: ["{atm9.quest.gregtech.desc.platinumLineIntro.1}The &dPlatLine™&r is something we'll get into later on, for now be thankful that platinum is plentiful"]
+extreme_voltage.snbt,257,					title: "{atm9.quest.gregtech.platinumIngot}Platinum Ingot"
+extreme_voltage.snbt,265,				description: [
+extreme_voltage.snbt,266,					"{atm9.quest.gregtech.desc.voltageIssues.1}Have you been having any voltage issues? Well, this wire will help!"
+extreme_voltage.snbt,268,					"{atm9.quest.gregtech.desc.voltageIssues.2}This wire is &3superconducting&r, so it does not lose any voltage no matter how far the wire travels"
+extreme_voltage.snbt,269,				]
+extreme_voltage.snbt,286,				description: [
+extreme_voltage.snbt,287,					"{atm9.quest.gregtech.desc.tantaliteProcessing.1}&eElectrolyze&r &btantalite dust&r to acquire &dtantalum dust&r"
+extreme_voltage.snbt,289,					"{atm9.quest.gregtech.desc.tantaliteProcessing.2}Also comes as a byproduct of tantalite ore processing!"
+extreme_voltage.snbt,290,				]
