@@ -1678,6 +1678,20 @@
 			x: 1.0d
 			y: -6.5d
 		}
+		{
+			dependencies: ["01F18150EC923482"]
+			description: ["{atm9.quest.rs.desc.wrench}"]
+			id: "1187F9D4F4E0D254"
+			subtitle: "{atm9.quest.rs.subt.wrench}"
+			tasks: [{
+				id: "5EF5F78F14C5BEC0"
+				item: "refinedstorage:wrench"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.wrench}"
+			x: -7.5d
+			y: -2.5d
+		}
 	]
 	title: "{atm9.chapters.12.title}"
 }
