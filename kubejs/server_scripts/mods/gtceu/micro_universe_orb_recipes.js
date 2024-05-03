@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
             Fluid.of('gtceu:soldering_alloy', 1152)
         ])
         .itemOutputs('1x kubejs:micro_universe_drill_ship')
+        .stationResearch(b => b.researchStack(Item.of('gtceu:advanced_power_thruster')).CWUt(144).EUt(UHV))
         .duration(2400).EUt(UHV)
 
     event.recipes.gtceu.assembly_line('micro_universe_energy_transmitter')
@@ -32,6 +33,7 @@ ServerEvents.recipes(event => {
             Fluid.of('gtceu:soldering_alloy', 6912)
         ])
         .itemOutputs('1x kubejs:micro_universe_energy_transmitter')
+        .stationResearch(b => b.researchStack(Item.of('gtceu:fusion_coil')).CWUt(96).EUt(UV))
         .duration(2400).EUt(UV)
 
     event.recipes.gtceu.assembly_line('micro_universe_focus_lens')
@@ -48,6 +50,7 @@ ServerEvents.recipes(event => {
             Fluid.of('gtceu:soldering_alloy', 6912)
         ])
         .itemOutputs('1x kubejs:micro_universe_focus_lens')
+        .stationResearch(b => b.researchStack(Item.of('kubejs:superthermal_transference_coil')).CWUt(128).EUt(UV))
         .duration(2400).EUt(UV)
 
 
@@ -69,6 +72,7 @@ ServerEvents.recipes(event => {
             Fluid.of('gtceu:naquadria', 2304)
         ])
         .itemOutputs('1x gtceu:micro_universe_orb')
+        .stationResearch(b => b.researchStack(Item.of('gtceu:star_forge')).CWUt(144).EUt(UHV))
         .duration(3000).EUt(UV)
 
     // Resource Generation

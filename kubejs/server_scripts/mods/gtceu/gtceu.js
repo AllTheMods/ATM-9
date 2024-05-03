@@ -41,6 +41,7 @@ ServerEvents.recipes(event => {
             Fluid.of('gtceu:lubricant', 8000)
         )
         .duration(500)
+        .scannerResearch(Item.of('gtceu:large_chemical_reactor'))
         .EUt(IV)
     
     event.recipes.gtceu.assembler('uhv_16a_energy_hatch')

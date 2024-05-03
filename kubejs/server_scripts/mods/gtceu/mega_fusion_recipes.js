@@ -16,6 +16,7 @@ ServerEvents.recipes(event => {
             Fluid.of('gtceu:yttrium_barium_cuprate', 144 * 16),
         ])
         .itemOutputs('1x gtceu:mega_fusion_reactor')
+        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_fusion_reactor')).CWUt(128).EUt(UV))
         .duration(1600).EUt(UV)
 
     event.recipes.gtceu.mega_fusion_reactor('star_matter')
