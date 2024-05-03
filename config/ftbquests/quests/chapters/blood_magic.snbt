@@ -34,7 +34,7 @@
 			height: 4.5d
 			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier3.png"
 			rotation: 0.0d
-			width: 8.0d
+			width: 9.0d
 			x: -26.0d
 			y: 4.0d
 		}
@@ -56,7 +56,7 @@
 		}
 		{
 			height: 2.0d
-			image: "atm:textures/questpics/helper_arrowpng.png"
+			image: "atm:textures/questpics/helper_arrow.png"
 			rotation: -90.0d
 			width: 2.0d
 			x: -35.0d
@@ -64,7 +64,7 @@
 		}
 		{
 			height: 2.0d
-			image: "atm:textures/questpics/helper_arrowpng.png"
+			image: "atm:textures/questpics/helper_arrow.png"
 			rotation: 0.0d
 			width: 2.0d
 			x: -31.0d
@@ -72,7 +72,7 @@
 		}
 		{
 			height: 2.0d
-			image: "atm:textures/questpics/helper_arrowpng.png"
+			image: "atm:textures/questpics/helper_arrow.png"
 			rotation: 90.0d
 			width: 2.0d
 			x: -26.0d
@@ -80,7 +80,7 @@
 		}
 		{
 			height: 2.0d
-			image: "atm:textures/questpics/helper_arrowpng.png"
+			image: "atm:textures/questpics/helper_arrow.png"
 			rotation: -45.0d
 			width: 2.0d
 			x: -21.5d
@@ -228,7 +228,6 @@
 				""
 				"Note: Speed Runes are the only runes available (besides Blank Runes) until you make a Tier 2 Altar, but can be replaced later on."
 				""
-				"{image:atm:textures/questpics/bloodmagic/bloodmagic_tier2.png width:150 height:140 align:1}"
 			]
 			icon: "bloodmagic:altar"
 			id: "4B51189C36B8D291"
@@ -1198,7 +1197,6 @@
 				""
 				"Note: Any non-air block can be used for the pillar, as long as the cap is Glowstone."
 				""
-				"{image:atm:textures/questpics/bloodmagic/bloodmagic_tier3.png width:200 height:150 align:1}"
 			]
 			icon: "bloodmagic:altar"
 			id: "5886C648D14180E1"
