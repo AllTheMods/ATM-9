@@ -78,7 +78,7 @@ gregstar.snbt,1000,					"{atm9.quest.gregtech.desc.catalyst.2}The Catalyst will 
 gregstar.snbt,1001,				]
 gregstar.snbt,1011,				subtitle: "{atm9.quest.gregtech.subt.neutonium}We need Cats"
 gregstar.snbt,1021,				description: ["{atm9.quest.gregtech.desc.neutonium}This is quite the lot of Neutonium. But, look around. There may be other ways to synthesize the resource."]
-gregstar.snbt,1029,				subtitle: "{atm9.quest.gregtech.subt.neutronium}A Lot of Neutronium"
+gregstar.snbt,1029,				subtitle: "{atm9.quest.gregtech.subt.lotNeutronium}A Lot of Neutronium"
 gregstar.snbt,1040,				description: ["{atm9.quest.gregtech.desc.optimizedCrafting}Having an optimized method to craft these, that takes minimal time will benefit you as you move forward."]
 gregstar.snbt,1048,				subtitle: "{atm9.quest.gregtech.subt.fusionCasings}Fusion Casings... Again"
 gregstar.snbt,1059,				description: [
@@ -119,28 +119,28 @@ gregstar.snbt,1278,				description: [
 gregstar.snbt,1279,					"{atm9.quest.gregtech.desc.amps.1}This may have a lot of Amperage, but we are not interested in the power delivery."
 gregstar.snbt,1281,					"{atm9.quest.gregtech.desc.amps.2}We need this to craft a component. Im sure you got this one as well."
 gregstar.snbt,1282,				]
-gregstar.snbt,1290,				subtitle: "{atm9.quest.gregtech.subt.amps}16 Amps"
-gregstar.snbt,1301,				description: ["{atm9.quest.gregtech.desc.coils}Making 16 coils may be a tall order. But a necessary one for the GregStar!"]
-gregstar.snbt,1309,				subtitle: "{atm9.quest.gregtech.subt.coils}16 Coils"
-gregstar.snbt,1320,				description: ["{atm9.quest.gregtech.desc.moreCoils}The need for Coils is never ending. While we may not be utilizing these in a multiblock, you can be assured they are going to a good source."]
+gregstar.snbt,1290,				subtitle: "{atm9.quest.gregtech.subt.amps16}16 Amps"
+gregstar.snbt,1301,				description: ["{atm9.quest.gregtech.desc.coils16.1}Making 16 coils may be a tall order. But a necessary one for the GregStar!"]
+gregstar.snbt,1309,				subtitle: "{atm9.quest.gregtech.subt.coils16}16 Coils"
+gregstar.snbt,1320,				description: ["{atm9.quest.gregtech.desc.coilsContinued.1}The need for Coils is never ending. While we may not be utilizing these in a multiblock, you can be assured they are going to a good source."]
 gregstar.snbt,1328,				subtitle: "{atm9.quest.gregtech.subt.moreCoils}More Coils?"
-gregstar.snbt,1339,				description: ["{atm9.quest.gregtech.desc.quadBatteries}4 Large Naquadria Batteries will wrap up the required items for this component of the GregStar"]
+gregstar.snbt,1339,				description: ["{atm9.quest.gregtech.desc.quadBatteries.1}4 Large Naquadria Batteries will wrap up the required items for this component of the GregStar"]
 gregstar.snbt,1347,				subtitle: "{atm9.quest.gregtech.subt.quadBatteries}Quad Batteries"
-gregstar.snbt,1358,				description: ["{atm9.quest.gregtech.desc.hvSuperconductor}16x Mercury Barium Calcium Cuprate wire - Qty 8"]
+gregstar.snbt,1358,				description: ["{atm9.quest.gregtech.desc.hvSuperconductor.1}16x Mercury Barium Calcium Cuprate wire - Qty 8"]
 gregstar.snbt,1366,				subtitle: "{atm9.quest.gregtech.subt.hvSuperconductor}HV Superconductor"
-gregstar.snbt,1377,				description: ["{atm9.quest.gregtech.desc.luvSuperconductor}16x Indium Tin Barium Titanium Cuprate Wire - Qty 8"]
+gregstar.snbt,1377,				description: ["{atm9.quest.gregtech.desc.luvSuperconductor.1}16x Indium Tin Barium Titanium Cuprate Wire - Qty 8"]
 gregstar.snbt,1385,				subtitle: "{atm9.quest.gregtech.subt.luvSuperconductor}LuV Superconductor"
-gregstar.snbt,1395,				description: ["{atm9.quest.gregtech.desc.lvSuperconductor}16x Manganese Phosphide wires - Qty 8"]
+gregstar.snbt,1395,				description: ["{atm9.quest.gregtech.desc.lvSuperconductor.1}16x Manganese Phosphide wires - Qty 8"]
 gregstar.snbt,1403,				subtitle: "{atm9.quest.gregtech.subt.lvSuperconductor}LV Superconductor"
-gregstar.snbt,1414,				description: ["{atm9.quest.gregtech.desc.mvSuperconductor}16x Magnesium Diboride Wire - Qty 8"]
+gregstar.snbt,1414,				description: ["{atm9.quest.gregtech.desc.mvSuperconductor.1}16x Magnesium Diboride Wire - Qty 8"]
 gregstar.snbt,1422,				subtitle: "{atm9.quest.gregtech.subt.mvSuperconductor}MV Superconductor"
-gregstar.snbt,1433,				description: ["{atm9.quest.gregtech.desc.uvSuperconductor}16x Enriched Naquadah Trinium Europium Duranide wire - Qty 8"]
+gregstar.snbt,1433,				description: ["{atm9.quest.gregtech.desc.uvSuperconductor.1}16x Enriched Naquadah Trinium Europium Duranide wire - Qty 8"]
 gregstar.snbt,1441,				subtitle: "{atm9.quest.gregtech.subt.uvSuperconductor}UV Superconductor"
-gregstar.snbt,1451,				description: ["{atm9.quest.gregtech.desc.zpmSuperconductor}16x Uranium Rhodium Dinaquadide wire - Qty 8"]
+gregstar.snbt,1451,				description: ["{atm9.quest.gregtech.desc.zpmSuperconductor.1}16x Uranium Rhodium Dinaquadide wire - Qty 8"]
 gregstar.snbt,1459,				subtitle: "{atm9.quest.gregtech.subt.zpmSuperconductor}ZPM Superconductor"
-gregstar.snbt,1469,				description: ["{atm9.quest.gregtech.desc.evSuperconductor}16x Uranium Triplatinum Wire - Qty 8"]
+gregstar.snbt,1469,				description: ["{atm9.quest.gregtech.desc.uTriplatinumWire.1}16x Uranium Triplatinum Wire - Qty 8"]
 gregstar.snbt,1477,				subtitle: "{atm9.quest.gregtech.subt.evSuperconductor}EV Superconductor"
-gregstar.snbt,1488,				description: ["{atm9.quest.gregtech.desc.samSuperconductor}16x Samarium Iron Arsenic Oxide wire - Qty 8"]
+gregstar.snbt,1488,				description: ["{atm9.quest.gregtech.desc.samSuperconductor.1}16x Samarium Iron Arsenic Oxide wire - Qty 8"]
 insane_voltage.snbt,365,						title: "{atm9.quest.gregtech.observeIVArray}Observe completed IV Processing Array"
 insane_voltage.snbt,379,				description: ["{atm9.quest.gregtech.desc.updateCircuitRecipes.1}Don't forget, once you've made these you can update those old circuit recipes that used regular Transistors to use the Advanced Transistor"]
 insane_voltage.snbt,409,				description: [
@@ -180,8 +180,8 @@ insane_voltage.snbt,713,					"{atm9.quest.gregtech.desc.finalPTFE.2}Finally, PTF
 insane_voltage.snbt,715,					"{atm9.quest.gregtech.desc.finalPTFE.3}Once you have the &aLCR&r you can also make more PTFE at a time by adding in some &cTitanium Tetrachloride&r"
 insane_voltage.snbt,716,				]
 insane_voltage.snbt,760,				description: [
-insane_voltage.snbt,761,					"{atm9.quest.gregtech.desc.evAssembler.1}If you didn't make the &5EV Assembler&r before now, then now is the time to do it!"
-insane_voltage.snbt,763,					"{atm9.quest.gregtech.desc.evAssembler.2}You'll use this to make the &9Tungstensteel Coil&r for your &aEBF&r"
+insane_voltage.snbt,761,					"{atm9.quest.gregtech.desc.evAssemblerSetup.1}If you didn't make the &5EV Assembler&r before now, then now is the time to do it!"
+insane_voltage.snbt,763,					"{atm9.quest.gregtech.desc.evAssemblerSetup.2}You'll use this to make the &9Tungstensteel Coil&r for your &aEBF&r"
 insane_voltage.snbt,764,				]
 insane_voltage.snbt,782,				description: [
 insane_voltage.snbt,783,					"{atm9.quest.gregtech.desc.advancedSMDCapacitor.1}You'll smelt this and flatten it into &bFoils&r to make the delicate layers that comprise the &dAdvanced SMD Capacitor&r"
@@ -279,7 +279,7 @@ insane_voltage.snbt,1440,				description: [
 insane_voltage.snbt,1441,					"{atm9.quest.gregtech.desc.chlorobenzene.1}Chlorine and Benzene in a &eChemical Reactor&r on &aProgram 1&r will make you &2Chlorobenzene&r"
 insane_voltage.snbt,1443,					"{atm9.quest.gregtech.desc.benzene.1}Do you need more &0Benzene&r? You might try &aDistilling&r &6Severely-Steam Cracked Heavy Fuel&r"
 insane_voltage.snbt,1444,				]
-insane_voltage.snbt,1461,				description: ["{atm9.quest.gregtech.desc.aceticAcid.1}[ \"Some \", { \"text\": \"Acetic Acid\", \"underlined\": \"true\", \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7E407CDBFD85E65F\" }, \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for the Acetic Acid quest\" } } }, \" and Calcite Dust in a \", { \"text\": \"Chemical Reactor\", \"color\":\"yellow\" }, \" will get you this\" ]"]
+insane_voltage.snbt,1461,				description: ["{atm9.quest.gregtech.desc.aceticAcidProcess.1}[ \"Some \", { \"text\": \"Acetic Acid\", \"underlined\": \"true\", \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7E407CDBFD85E65F\" }, \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for the Acetic Acid quest\" } } }, \" and Calcite Dust in a \", { \"text\": \"Chemical Reactor\", \"color\":\"yellow\" }, \" will get you this\" ]"]
 insane_voltage.snbt,1480,				description: ["{atm9.quest.gregtech.desc.benzene.2}Running low on &0Benzene&r? A good source can come from &aDistilling&r &6Severely Steam Cracked Heavy Fuel&r"]
 insane_voltage.snbt,1497,				description: [
 insane_voltage.snbt,1498,					"{atm9.quest.gregtech.desc.solderingAlloy.1}6 Tin dust, 3 Lead dust, and 1 Antimony dust all combine in a &eMixer&r on &aProgram 3&r to make 10 Soldering Alloy Dust"
@@ -356,7 +356,7 @@ insane_voltage.snbt,2112,					"{atm9.quest.gregtech.desc.propeneProduction.2}&aD
 insane_voltage.snbt,2114,					"{atm9.quest.gregtech.desc.propeneProduction.3}&9Carbon Monoxide&r can come from &aDistillation&r of &cLiquid Nether Air&r if you'd like a practically infinite source of the stuff"
 insane_voltage.snbt,2115,				]
 insane_voltage.snbt,2132,				description: ["{atm9.quest.gregtech.desc.aceticAcidEnhancement.1}Take that Acetic Acid and add more Ethylene and Oxygen, this time on &aProgram 3&r in a &eChemical Reactor&r"]
-insane_voltage.snbt,2148,				description: ["{atm9.quest.gregtech.desc.aceticAcid.1}Oxygen + Ethylene on &aProgram 2&r in your &eChemical Reactor&r is one way to make Acetic Acid"]
+insane_voltage.snbt,2148,				description: ["{atm9.quest.gregtech.desc.aceticAcidProduction.1}Oxygen + Ethylene on &aProgram 2&r in your &eChemical Reactor&r is one way to make Acetic Acid"]
 insane_voltage.snbt,2165,				description: ["{atm9.quest.gregtech.desc.logicGates.1}Did you know that NOR logic gates can be used to make every other logic gate? That's why we use it so much for making circuits!"]
 insane_voltage.snbt,2191,				description: ["{atm9.quest.gregtech.desc.laserEngraver.1}Add another Laser Engraver to the stack, this time for the NAND chip! Useful for data storage and the Crystal Processor Supercomputer - more on that later though!"]
 insane_voltage.snbt,2237,				description: [
@@ -420,7 +420,7 @@ insane_voltage.snbt,2703,				description: ["{atm9.quest.gregtech.desc.chemicalRe
 ludicrous_voltage.snbt,87,				description: ["{atm9.quest.gregtech.desc.luvProgression.1}Breaking into LuV! Lets continue progression and find out what &cZPM &7is all about!"]
 ludicrous_voltage.snbt,97,				subtitle: "{atm9.quest.gregtech.subt.makeLuv.1}Make &dLuV&r, not War!"
 ludicrous_voltage.snbt,103,				title: "{atm9.quest.gregtech.title.luvProgression}I &dLuV &7Progression"
-ludicrous_voltage.snbt,113,				description: ["{atm9.quest.gregtech.desc.quantumAge.1}Welcome to the Quantum Age! ZPM Processors, and new Multiblocks await us!"]
+ludicrous_voltage.snbt,113,				description: ["{atm9.quest.gregtech.desc.welcomeQuantumAge.1}Welcome to the Quantum Age! ZPM Processors, and new Multiblocks await us!"]
 ludicrous_voltage.snbt,123,				subtitle: "{atm9.quest.gregtech.subt.quantumMan.1}QuantumMan!"
 ludicrous_voltage.snbt,129,				title: "{atm9.quest.gregtech.title.stargateZpm}&7Stargate gave us &cZPM"
 ludicrous_voltage.snbt,135,				description: ["{atm9.quest.gregtech.desc.rhodiumPalladium.1}Now that we have Rhodium, we can mix it with Palladium to get Rhodium plated Palladium, and process those into ingots, then plates, and then we can make &dLuV&r tier Hulls, meaning &dLuV&r Tier machines!!"]
@@ -505,7 +505,7 @@ ludicrous_voltage.snbt,769,				description: [
 ludicrous_voltage.snbt,770,					"{atm9.quest.gregtech.desc.assemblyLineNecessity.1}The Assembly line is necessary for crafting certain parts for the higher tiers. You will likely make quite a few Assembly lines, and maybe even run them in parallel."
 ludicrous_voltage.snbt,772,					"{atm9.quest.gregtech.desc.assemblyLineNecessity.2}Your Factory is really going to start filling out moving forward!"
 ludicrous_voltage.snbt,773,				]
-ludicrous_voltage.snbt,782,				subtitle: "{atm9.quest.gregtech.subt.assemble}GregTech'ers... Assemble!!"
+ludicrous_voltage.snbt,782,				subtitle: "{atm9.quest.gregtech.subt.assembleTechers}GregTech'ers... Assemble!!"
 ludicrous_voltage.snbt,833,				description: ["{atm9.quest.gregtech.desc.strongCircuitBoard}Fiber Reinforced Circuit Boards, strong enough to support Quantum processors and the heat those qubits produce!"]
 ludicrous_voltage.snbt,841,				subtitle: "{atm9.quest.gregtech.subt.strongCircuitBoard}Now thats a strong Circuit Board!"
 ludicrous_voltage.snbt,851,				description: ["{atm9.quest.gregtech.desc.futuristicWafers}The next evolution of our CPU wafers. These futuristic Wafers usher in the Quantum Age!"]
@@ -690,7 +690,7 @@ medium_voltage.snbt,215,					"{atm9.quest.gregtech.desc.polyethylene.4}This stuf
 medium_voltage.snbt,216,				]
 medium_voltage.snbt,223,				subtitle: "{atm9.quest.gregtech.subt.moreOxygen}Even more oxygen"
 medium_voltage.snbt,234,				description: ["{atm9.quest.gregtech.desc.machineHulls}Once you've got polyethylene set up, you can switch to making machine hulls in the Assembler to save on some materials"]
-medium_voltage.snbt,242,				subtitle: "{atm9.quest.gregtech.subt.assemble}Greggers, ASSEMBLE!"
+medium_voltage.snbt,242,				subtitle: "{atm9.quest.gregtech.subt.teachAssemble.1}Greggers, ASSEMBLE!"
 medium_voltage.snbt,253,				description: [
 medium_voltage.snbt,254,					"{atm9.quest.gregtech.desc.cuttingEdge.1}Turn blocks into plates with this one trick!"
 medium_voltage.snbt,256,					"{atm9.quest.gregtech.desc.cuttingEdge.2}Also very useful for making silicon wafers and wafer chips, which we'll get into shortly"
@@ -965,8 +965,8 @@ ultimate_voltage.snbt,226,					"{atm9.quest.gregtech.desc.zpmCables.2}But with t
 ultimate_voltage.snbt,227,				]
 ultimate_voltage.snbt,236,				subtitle: "{atm9.quest.gregtech.subt.zpmSuperconductor}ZPM Superconductor"
 ultimate_voltage.snbt,250,				description: [
-ultimate_voltage.snbt,251,					"{atm9.quest.gregtech.desc.superconductors.1}Another Alloy for another tier of Superconductors! "
-ultimate_voltage.snbt,253,					"{atm9.quest.gregtech.desc.superconductors.2}Remember, Superconductors have 0A loss when transmitting EU across distances, making them the most highly sought after Wiring for your Factory"
+ultimate_voltage.snbt,251,					"{atm9.quest.gregtech.desc.superconductorsAlloy.1}Another Alloy for another tier of Superconductors!"
+ultimate_voltage.snbt,253,					"{atm9.quest.gregtech.desc.superconductorsAlloy.2}Remember, Superconductors have 0A loss when transmitting EU across distances, making them the most highly sought after Wiring for your Factory"
 ultimate_voltage.snbt,254,				]
 ultimate_voltage.snbt,263,				subtitle: "{atm9.quest.gregtech.subt.moreSuperconductors}More Superconductors"
 ultimate_voltage.snbt,274,				description: ["{atm9.quest.gregtech.desc.ebfUpgrades}Yet again, we revisit the EBF's and upgrade the coils, a necessary process so that we can process metals and alloys through the EBF's."]
@@ -1003,9 +1003,9 @@ ultimate_voltage.snbt,606,				description: ["{atm9.quest.gregtech.desc.gelatin}G
 ultimate_voltage.snbt,630,				subtitle: "{atm9.quest.gregtech.subt.gelloWait}G E L L O... wait... Something seems off..."
 ultimate_voltage.snbt,641,				description: ["{atm9.quest.gregtech.desc.collagen}Collagen is the primary building block of your body's skin, muscles, bones, tendons and ligaments, and other connective tissues."]
 ultimate_voltage.snbt,650,				subtitle: "{atm9.quest.gregtech.subt.workingWithOrganics}Working with Organics!"
-ultimate_voltage.snbt,661,				description: ["{atm9.quest.gregtech.desc.ultimateVoltage.1}The plates for the Hulls get trickier every tier. But its a necessary process. Try and get this process passive so you can fill out your factory with UV machines!"]
+ultimate_voltage.snbt,661,				description: ["{atm9.quest.gregtech.desc.ultimateVoltage.3}The plates for the Hulls get trickier every tier. But its a necessary process. Try and get this process passive so you can fill out your factory with UV machines!"]
 ultimate_voltage.snbt,670,				subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.1}This Darmstadtium is too big!"
-ultimate_voltage.snbt,681,				description: ["{atm9.quest.gregtech.desc.ultimateVoltage.2}Take the Yttrium Barrium Cuprate and make wires."]
+ultimate_voltage.snbt,681,				description: ["{atm9.quest.gregtech.desc.ultimateVoltage.4}Take the Yttrium Barrium Cuprate and make wires."]
 ultimate_voltage.snbt,690,				subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.2}Yit-Trium? is the Y silent?"
 ultimate_voltage.snbt,701,				description: ["{atm9.quest.gregtech.desc.ultimateVoltage.3}Just gotta process the Liquid down into an ingot. But now that we are in the UV tier, we have the speed and power to do it quickly!"]
 ultimate_voltage.snbt,710,				subtitle: "{atm9.quest.gregtech.subt.ultimateVoltage.3}Darmstadtium has Ingots?"
@@ -1150,7 +1150,7 @@ ultimate_voltage.snbt,1788,					"{atm9.quest.gregtech.desc.blacklightsUV.1}Black
 ultimate_voltage.snbt,1790,					"{atm9.quest.gregtech.desc.cleanroomRequirements.1}Our Cleanrooms have to be spotless, and not a single piece of dust inside. But what if we needed a cleaner, more sterile, environment?"
 ultimate_voltage.snbt,1791,				]
 ultimate_voltage.snbt,1799,				subtitle: "{atm9.quest.gregtech.subt.partyTime}Its Party Time!"
-ultimate_voltage.snbt,1810,				description: ["{atm9.quest.gregtech.desc.zpmAssembler.1}ZPM Tier Assembler is necessary in order to make the Trinium Coils for the EBF's. With the upgraded coils, many more metals and alloys can be processed, expanding what can be crafted!"]
+ultimate_voltage.snbt,1810,				description: ["{atm9.quest.gregtech.desc.zpmAssemblerRequired.1}ZPM Tier Assembler is necessary in order to make the Trinium Coils for the EBF's. With the upgraded coils, many more metals and alloys can be processed, expanding what can be crafted!"]
 ultimate_voltage.snbt,1818,				subtitle: "{atm9.quest.gregtech.subt.assemblersAssemble}Assemblers... Assemble!"
 ultimate_voltage.snbt,1828,				description: ["{atm9.quest.gregtech.desc.gravistarImportance.1}The Gravistar is another very important component for our high tier machines were going to be making."]
 ultimate_voltage.snbt,1836,				subtitle: "{atm9.quest.gregtech.subt.gravityStars}Stars have Lots of Gravity"
@@ -1216,8 +1216,8 @@ ultra_high_voltage.snbt,268,					"{atm9.quest.gregtech.desc.uhvEnergyHatch.2}Now
 ultra_high_voltage.snbt,269,				]
 ultra_high_voltage.snbt,277,				subtitle: "{atm9.quest.gregtech.subt.uhvTop}Finally at the Top"
 ultra_high_voltage.snbt,288,				description: [
-ultra_high_voltage.snbt,289,					"{atm9.quest.gregtech.desc.uhvEnergyHatch.1}While the UHV Energy Hatch is the Pinnacle of Energy Delivery, we still have the 4A UHV Energy Hatch."
-ultra_high_voltage.snbt,291,					"{atm9.quest.gregtech.desc.uhvEnergyHatch.2}And yes, this follows the same function as the previous Tiers, and will act like 2x Energy Hatches allowing you to power at a Higher Level."
+ultra_high_voltage.snbt,289,					"{atm9.quest.gregtech.desc.uhvEnergyHatch.3}While the UHV Energy Hatch is the Pinnacle of Energy Delivery, we still have the 4A UHV Energy Hatch."
+ultra_high_voltage.snbt,291,					"{atm9.quest.gregtech.desc.uhvEnergyHatch.4}And yes, this follows the same function as the previous Tiers, and will act like 2x Energy Hatches allowing you to power at a Higher Level."
 ultra_high_voltage.snbt,292,				]
 ultra_high_voltage.snbt,300,				subtitle: "{atm9.quest.gregtech.subt.uhvConfusion}Wait... I thought we were at the top?"
 ultra_high_voltage.snbt,314,				description: [
@@ -1286,7 +1286,7 @@ ultra_high_voltage.snbt,748,				description: [
 ultra_high_voltage.snbt,749,					"{atm9.quest.gregtech.desc.necessarySuperconductors.1}While this does take up quite a bit of the UHV Superconductors we just made, its absolutely necessary."
 ultra_high_voltage.snbt,751,					"{atm9.quest.gregtech.desc.necessarySuperconductors.2}Trust me, you will be glad to have crafted these once you see what they are going to be used for."
 ultra_high_voltage.snbt,752,				]
-ultra_high_voltage.snbt,761,				subtitle: "{atm9.quest.gregtech.subt.uvSuperconductor}Now were at 4x"
+ultra_high_voltage.snbt,761,				subtitle: "{atm9.quest.gregtech.subt.quadrupleCapacity}Now were at 4x"
 ultra_high_voltage.snbt,772,				description: [
 ultra_high_voltage.snbt,773,					"{atm9.quest.gregtech.desc.uvSuperconductor.1}Now we have the UV Superconductor Wire! Used to craft many different components, some of which are necessary for us to proceed."
 ultra_high_voltage.snbt,775,					"{atm9.quest.gregtech.desc.uvSuperconductor.2}More Wires.... Yay."
@@ -1405,8 +1405,8 @@ zero_point_module.snbt,467,					"{atm9.quest.gregtech.desc.advancement.2}Using s
 zero_point_module.snbt,468,				]
 zero_point_module.snbt,477,				subtitle: "{atm9.quest.gregtech.subt.mrFusionMaterial}Gotta make the Mr. Fusion out of something."
 zero_point_module.snbt,489,				description: [
-zero_point_module.snbt,490,					"{atm9.quest.gregtech.desc.superconductors.1}This superconducting coil has many uses with many different multiblocks, and within many different recipes! There are 3 different recipes for it as well."
-zero_point_module.snbt,492,					"{atm9.quest.gregtech.desc.superconductors.2}In this use case, we are going to utilize the lowest tier, which has the highest resource cost, but is easiest format for us right now."
+zero_point_module.snbt,490,					"{atm9.quest.gregtech.desc.superconductorsUsage.1}This superconducting coil has many uses with many different multiblocks, and within many different recipes! There are 3 different recipes for it as well."
+zero_point_module.snbt,492,					"{atm9.quest.gregtech.desc.superconductorsUsage.2}In this use case, we are going to utilize the lowest tier, which has the highest resource cost, but is easiest format for us right now."
 zero_point_module.snbt,493,				]
 zero_point_module.snbt,501,				subtitle: "{atm9.quest.gregtech.subt.superconductors}Superconductors!"
 zero_point_module.snbt,512,				description: [
@@ -1458,8 +1458,8 @@ zero_point_module.snbt,779,					"{atm9.quest.gregtech.desc.trioxideToTrifluoride
 zero_point_module.snbt,780,				]
 zero_point_module.snbt,789,				subtitle: "{atm9.quest.gregtech.subt.threeFluorides}Three Fluorides"
 zero_point_module.snbt,799,				description: [
-zero_point_module.snbt,800,					"{atm9.quest.gregtech.desc.antimonyProcessing.1}Antimony Trioxide is needed for the Naq processing line. "
-zero_point_module.snbt,802,					"{atm9.quest.gregtech.desc.antimonyProcessing.2}I challenge you to keep the Antimony part of the processing line all housed within GregTech."
+zero_point_module.snbt,800,					"{atm9.quest.gregtech.desc.antimonyProcessing.4}Antimony Trioxide is needed for the Naq processing line. "
+zero_point_module.snbt,802,					"{atm9.quest.gregtech.desc.antimonyProcessing.5}I challenge you to keep the Antimony part of the processing line all housed within GregTech."
 zero_point_module.snbt,803,				]
 zero_point_module.snbt,812,				subtitle: "{atm9.quest.gregtech.subt.antiMoney}Anti-Money"
 zero_point_module.snbt,826,				description: [
@@ -1592,7 +1592,7 @@ zero_point_module.snbt,1757,				description: [
 zero_point_module.snbt,1758,					"{atm9.quest.gregtech.desc.neutroniumStart.1}While we don't have a direct need for Neutronium yet, it would be beneficial to start processing out some Neutronium."
 zero_point_module.snbt,1760,					"{atm9.quest.gregtech.desc.neutroniumStart.2}You can use the neutronium, americium and other resources to make some superconductors, but again, it's not necessary... Yet..."
 zero_point_module.snbt,1761,				]
-zero_point_module.snbt,1787,				subtitle: "{atm9.quest.gregtech.subt.neutronium}Neutronium!!!"
+zero_point_module.snbt,1787,				subtitle: "{atm9.quest.gregtech.subt.superNeutronium}Neutronium!!!"
 zero_point_module.snbt,1798,				description: [
 zero_point_module.snbt,1799,					"{atm9.quest.gregtech.desc.activeTransformerPipes.1}These are the pipes for the Active Transformer."
 zero_point_module.snbt,1801,					"{atm9.quest.gregtech.desc.activeTransformerPipes.2}Again, they &0&lMUST&r&r be colored in order to function, and cannot make turns. You will need more Active Transformers to change directions of the laser."
@@ -1803,12 +1803,12 @@ extreme_voltage.snbt,462,					"{atm9.quest.gregtech.desc.ivCircuit.1}This unlock
 extreme_voltage.snbt,464,					"{atm9.quest.gregtech.desc.ivCircuit.2}Don't rush ahead and just craft this and the circuit thinking that you can skip this age though"
 extreme_voltage.snbt,465,				]
 extreme_voltage.snbt,483,				description: [
-extreme_voltage.snbt,484,					"{atm9.quest.gregtech.desc.assemblerUpgrade.1}Upgrading your &eAssembler&r means you can make Surface Mounted Devices, or &bSMDs&r for short. These things mean cheaper circuit components!"
-extreme_voltage.snbt,486,					"{atm9.quest.gregtech.desc.assemblerUpgrade.2}Additionally, this unlocks higher tier energy hatches, time to upgrade your multiblocks!"
+extreme_voltage.snbt,484,					"{atm9.quest.gregtech.desc.yourAssemblerUpgrade.1}Upgrading your &eAssembler&r means you can make Surface Mounted Devices, or &bSMDs&r for short. These things mean cheaper circuit components!"
+extreme_voltage.snbt,486,					"{atm9.quest.gregtech.desc.yourAssemblerUpgrade.2}Additionally, this unlocks higher tier energy hatches, time to upgrade your multiblocks!"
 extreme_voltage.snbt,487,				]
 extreme_voltage.snbt,513,					title: "{atm9.quest.gregtech.hvEvAssembler}HV or EV Assembler"
 extreme_voltage.snbt,531,				description: [
-extreme_voltage.snbt,532,					"{atm9.quest.gregtech.desc.chemicalReaction.1}&eChemical react&r some sodium dust and potassium dust together to get... sodium potassium"
+extreme_voltage.snbt,532,					"{atm9.quest.gregtech.desc.chemicalReactionSome.1}&eChemical react&r some sodium dust and potassium dust together to get... sodium potassium"
 extreme_voltage.snbt,534,					"{atm9.quest.gregtech.desc.chemicalReaction.2}&bPotassium dust&r you can get by making tiny piles of the stuff from the salt water with ghast tears in a &eChemical Reactor&r recipe"
 extreme_voltage.snbt,535,				]
 extreme_voltage.snbt,571,				description: [
@@ -1844,9 +1844,9 @@ extreme_voltage.snbt,811,					"{atm9.quest.gregtech.desc.fluidDrillingRig.2}The 
 extreme_voltage.snbt,813,					"{atm9.quest.gregtech.desc.fluidDrillingRig.3}Do keep in mind, the oils in the chunk will deplete over time, so you will need to move the Fluid Drilling Rig occasionally"
 extreme_voltage.snbt,814,				]
 extreme_voltage.snbt,843,					title: "{atm9.quest.gregtech.title.fluidDrillingRig}Fluid Drilling Rig"
-extreme_voltage.snbt,851,				description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.1}&aDistill&r your &eLightly Steam Cracked Naphtha&r to acquire &0Benzene&r"]
-extreme_voltage.snbt,868,				description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.2}&aDistill&r your &eLightly Steam Cracked Naphtha&r to acquire &6Butadiene&r"]
-extreme_voltage.snbt,885,				description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.3}Benzene + Ethylene in a &eChemical Reactor&r will result in &bStyrene&r"]
+extreme_voltage.snbt,851,				description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.4}&aDistill&r your &eLightly Steam Cracked Naphtha&r to acquire &0Benzene&r"]
+extreme_voltage.snbt,868,				description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.5}&aDistill&r your &eLightly Steam Cracked Naphtha&r to acquire &6Butadiene&r"]
+extreme_voltage.snbt,885,				description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.6}Benzene + Ethylene in a &eChemical Reactor&r will result in &bStyrene&r"]
 extreme_voltage.snbt,905,				description: [
 extreme_voltage.snbt,906,					"{atm9.quest.gregtech.desc.fluidDrillingRig.4}Styrene + Butadiene + Oxygen or Air in a &eChemical Reactor&r gets you the raw dust of the highest tier of rubber available"
 extreme_voltage.snbt,908,					"{atm9.quest.gregtech.desc.fluidDrillingRig.5}It is recommended you use Oxygen rather than Air here, as you get the most that way"
@@ -2120,8 +2120,8 @@ insane_voltage.snbt,260,					"{atm9.quest.gregtech.desc.polybenzimidazole.2}You'
 insane_voltage.snbt,261,				]
 insane_voltage.snbt,296,				subtitle: "{atm9.quest.gregtech.subt.pbi}PBI at long last"
 insane_voltage.snbt,310,				description: [
-insane_voltage.snbt,311,					"{atm9.quest.gregtech.desc.evAssembler.1}The EV Circuit Assembler, the next major step in making higher tier circuits and making lower tier circuits even cheaper!"
-insane_voltage.snbt,313,					"{atm9.quest.gregtech.desc.evAssembler.2}You've still got a ways to go with fluids before you make the &3Nanoprocessor&r tier of circuits"
+insane_voltage.snbt,311,					"{atm9.quest.gregtech.desc.evCircuitAssembler.1}The EV Circuit Assembler, the next major step in making higher tier circuits and making lower tier circuits even cheaper!"
+insane_voltage.snbt,313,					"{atm9.quest.gregtech.desc.evCircuitAssembler.2}You've still got a ways to go with fluids before you make the &3Nanoprocessor&r tier of circuits"
 insane_voltage.snbt,314,				]
 insane_voltage.snbt,336,				description: [
 insane_voltage.snbt,337,					"{atm9.quest.gregtech.desc.processingArray.1}The &aProcessing Array&r can run 16 recipes &din parallel&r for any of the single block machines you can make!"
