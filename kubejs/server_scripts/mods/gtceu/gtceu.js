@@ -1,4 +1,13 @@
 ServerEvents.recipes(event => {
+
+	event.remove({ id: 'gtceu:extruder/nan_certificate' })
+
+    event.recipes.gtceu.extruder('nan_certificate_modified')
+        .itemInputs(['64x gtceu:neutronium_block', '64x gtceu:neutronium_block'])
+        .itemOutputs('gtceu:nan_certificate')
+        .duration(16400)
+        .EUt(UHV)
+
     event.recipes.gtceu.chemical_bath('kubejs:inert_star')
         .itemInputs('minecraft:wither_skeleton_skull')
         .inputFluids(Fluid.of('gtceu:polyethylene', 1000))
