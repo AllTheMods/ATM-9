@@ -57,7 +57,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .recipeType('apiary_ii')
         .appearanceBlock(GTBlocks.CASING_TITANIUM_STABLE)
         .tooltips(Component.translatable("kubejs.apiary_ii.tooltip.bee_requirements"))
-        .recipeModifiers(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK))
+        .recipeModifier(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ')
             .aisle(' CCCCC ', ' CMMMC ', ' CW#WC ', ' CW#WC ', ' CWWWC ', ' CCCCC ')
