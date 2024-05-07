@@ -1,0 +1,40 @@
+{
+    "entity": "minecraft:endermite",
+    "variants": [],
+    "name": "entity.minecraft.endermite",
+    "name_color": "#CC00CC",
+    "gui_scale": 1.0,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:end_prediction"
+    },
+    "trivia": "",
+    "fabricator_drops": [
+        {
+            "item": "ends_delight:raw_ender_mite_meat",
+            "count": 8
+        },
+        {
+            "item": "endersdelight:mite_crust",
+            "count": 1
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}
