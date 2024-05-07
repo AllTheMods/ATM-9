@@ -316,9 +316,9 @@
 		{
 			dependencies: ["60736D37F7705B39"]
 			description: [
-				"Another &aEBF&r upgrade? Yep!"
+				"Another &aEBF&r upgrade? Yep! "
 				""
-				"Two upgrades in one chapter because we didn't upgrade it in the last chapter when we could have... whoops"
+				"This will allow us to smelt higher tier ingots, like HV Superconducting metal!"
 			]
 			id: "5500BDFA7A5D04EB"
 			rewards: [{
@@ -454,7 +454,7 @@
 				type: "item"
 			}]
 			x: 1.2000000000000002d
-			y: 0.09999999999999998d
+			y: 0.10000000000000003d
 		}
 		{
 			dependencies: ["5241693278027FFD"]

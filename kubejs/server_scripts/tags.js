@@ -1,84 +1,3 @@
-function register_greg_ore(event, type, oretag) {
-  var plain = oretag.split(":")[1]
-  plain = plain.replace("_ore","")
-  plain = plain.replace("deepslate_","")
-  plain = plain.replace("nether_","")
-  plain = plain.replace("endstone_","")
-  var tag = `forge:ores/${type}/${plain}`
-  //console.info(`${oretag} as ${tag}`)
-  event.add(tag, oretag)
-}
-
-function registerCustomBlocksForGregtech(event) {
-  var ores_stone = [
-    'minecraft:iron_ore',
-    'minecraft:gold_ore',
-    'minecraft:emerald_ore',
-    'minecraft:copper_ore',
-    'minecraft:coal_ore',
-    'minecraft:redstone_ore',
-    'minecraft:lapis_ore',
-    'minecraft:diamond_ore',
-    'alltheores:aluminum_ore',
-    'alltheores:lead_ore',
-    'alltheores:nickel_ore',
-    'alltheores:platinum_ore',
-    'alltheores:silver_ore',
-    'alltheores:tin_ore',
-    'alltheores:ruby_ore',
-    'alltheores:sapphire_ore',
-  ];
-
-  var ores_deepslate = [
-    'minecraft:deepslate_iron_ore',
-    'minecraft:deepslate_gold_ore',
-    'minecraft:deepslate_emerald_ore',
-    'minecraft:deepslate_copper_ore',
-    'minecraft:deepslate_coal_ore',
-    'minecraft:deepslate_redstone_ore',
-    'minecraft:deepslate_lapis_ore',
-    'minecraft:deepslate_diamond_ore',
-    'alltheores:deepslate_lead_ore',
-    'alltheores:deepslate_nickel_ore',
-    'alltheores:deepslate_platinum_ore',
-    'alltheores:deepslate_silver_ore',
-    'alltheores:deepslate_tin_ore',
-    'alltheores:deepslate_ruby_ore',
-    'alltheores:deepslate_sapphire_ore',
-  ]
-
-  var ores_nether = [
-    'minecraft:nether_gold_ore',
-    'minecraft:nether_quartz_ore',
-    'alltheores:nether_aluminum_ore',
-    'alltheores:nether_lead_ore',
-    'alltheores:nether_nickel_ore',
-    'alltheores:nether_platinum_ore',
-    'alltheores:nether_silver_ore',
-    'alltheores:nether_tin_ore',
-  ]
-
-  var ores_end = [
-    'alltheores:endstone_aluminum_ore'
-  ]
-  
-  ores_stone.forEach((v_ore) => {
-    register_greg_ore(event,"stone",v_ore)
-  });
-
-  ores_deepslate.forEach((v_ore) => {
-    register_greg_ore(event,"deepslate",v_ore)
-  });
-
-  ores_nether.forEach((v_ore) => {
-    register_greg_ore(event,"netherrack",v_ore)
-  });
-
-  ores_end.forEach((v_ore) => {
-    register_greg_ore(event,"endstone",v_ore)
-  });
-}
-
 ServerEvents.tags('item', event => {
   event.add('minecraft:boats', /byg:\w+?_boat/)
   event.add('minecraft:chest_boats', /byg:.+?_chest_boat/)
@@ -108,6 +27,30 @@ ServerEvents.tags('item', event => {
     '#alltheores:ore_hammers','@ftbic','minecraft:nether_star','bloodmagic:sanguinereverter','#occultism:miners/ores','apotheosis:potion_charm'
   ])
 
+  // add Productive Bee blocktags as item tags for the GT Apiary to work
+  event.add('productivebees:flowers/glowing_flowers', ['minecraft:glowstone', 'minecraft:shroomlight', 'minecraft:redstone_lamp'])
+  event.add('productivebees:flowers/crystalline', ['minecraft:quartz_block', 'minecraft:quartz_pillar', 'minecraft:nether_quartz_ore', 'alltheores:other_quartz_ore', 'botania:dark_quartz', 'botania:mana_quartz', 'botania:blaze_quartz', 'botania:lavendar_quartz', 'botania:red_quartz', 'botania:elf_quartz', 'botania:sunny_quartz', 'productivebees:quartz_netherrack'])
+  event.add('productivebees:flowers/swamp_flowers', ['minecraft:cherry_leaves', 'minecraft:flowering_azalea_leaves', 'minecraft:mangrove_propagule', 'minecraft:flowering_azalea', 'minecraft:dandelion', 'minecraft:poppy', 'minecraft:blue_orchid', 'minecraft:allium', 'minecraft:azure_bluet', 'minecraft:red_tulip', 'minecraft:orange_tulip', 'minecraft:white_tulip', 'minecraft:pink_tulip', 'minecraft:oxeye_daisy', 'minecraft:cornflower', 'minecraft:lily_of_the_valley', 'minecraft:torchflower', 'minecraft:wither_rose', 'minecraft:pink_petals', 'minecraft:sunflower', 'minecraft:lilac', 'minecraft:rose_bush', 'minecraft:peony', 'minecraft:pitcher_plant', 'minecraft:lily_pad'])
+  event.add('productivebees:flowers/cupric_flowers', ['minecraft:copper_block', 'minecraft:cut_copper', 'minecraft:exposed_copper', 'minecraft:exposed_cut_copper', 'minecraft:weathered_copper', 'minecraft:weathered_cut_copper', 'minecraft:oxidized_copper', 'minecraft:oxidized_cut_copper', 'minecraft:waxed_copper_block', 'minecraft:waxed_exposed_copper', 'minecraft:waxed_weathered_copper', 'minecraft:waxed_oxidized_copper', 'minecraft:copper_ore', 'minecraft:deepslate_copper_ore', 'minecraft:raw_copper_block', 'minecraft:lightning_rod'])
+  event.add('productivebees:flowers/souled_flowers', ['minecraft:soul_sand', 'minecraft:soul_soil'])
+  event.add('productivebees:flowers/redstone', ['minecraft:redstone_block', 'minecraft:redstone_ore', 'minecraft:deepslate_redstone_ore', 'minecraft:redstone_torch', 'minecraft:redstone_lamp', 'minecraft:redstone', 'alltheores:other_redstone_ore', 'deeperdarker:sculk_stone_redstone_ore', 'deeperdarker:gloomslate_redstone_ore', 'gtceu:redstone_ore', 'gtceu:deepslate_redstone_ore', 'gtceu:endstone_redstone_ore', 'gtceu:netherrack_redstone_ore'])
+  event.add('productivebees:flowers/prismarine', ['minecraft:sea_lantern', 'minecraft:prismarine', 'minecraft:prismarine_bricks', 'minecraft:dark_prismarine'])
+  event.add('productivebees:flowers/magmatic_flowers', ['minecraft:magma_block', 'minecraft:nether_wart'])
+  event.add('productivebees:flowers/fiery', 'minecraft:magma_block')
+  event.add('productivebees:flowers/ender', ['minecraft:chorus_plant', 'minecraft:chorus_flower'])
+  event.add('productivebees:flowers/graves', '#tombstone:decorative_graves')
+  event.add('productivebees:flowers/draconic_flowers', 'minecraft:dragon_egg')
+  event.add('productivebees:flowers/burning', 'minecraft:magma_block')
+  event.add('productivebees:flowers/ferric_flowers', ['minecraft:iron_block', 'minecraft:iron_bars', 'minecraft:iron_door', 'minecraft:iron_trapdoor', 'minecraft:iron_ore', 'minecraft:deepslate_iron_ore', 'minecraft:raw_iron_block', 'minecraft:cauldron', 'minecraft:hopper', 'minecraft:anvil', 'minecraft:chipped_anvil', 'minecraft:damaged_anvil'])
+  event.add('productivebees:flowers/wither_flowers', 'minecraft:wither_rose')
+  event.add('productivebees:flowers/gilded_flowers', ['minecraft:gilded_blackstone', 'minecraft:gold_block', 'minecraft:light_weighted_pressure_plate', 'minecraft:gold_ore', 'minecraft:deepslate_gold_ore', 'minecraft:nether_gold_ore', 'minecraft:raw_gold_block'])
+  event.add('kubejs:bee/pepto_bismol/flowers', '#minecraft:flowers')
+  event.add('kubejs:bee/zombie/flowers', '#minecraft:flowers')
+  event.add('kubejs:bee/plastic/flowers', '#minecraft:flowers')
+  event.add('kubejs:bee/sticky_resin/flowers', '#minecraft:flowers')
+  event.add('kubejs:bee/menril/flowers', '#minecraft:flowers')
+  event.add('kubejs:bee/energized_glowstone/flowers', '#minecraft:flowers')
+
   //Fix Mythicbotany tags
   event.add('forge:raw_materials/elementium', 'mythicbotany:raw_elementium')
   event.add('forge:storage_blocks/raw_elementium', 'mythicbotany:raw_elementium_block')
@@ -116,9 +59,10 @@ ServerEvents.tags('item', event => {
   
   event.remove('forge:ingots/naquadah', 'sgjourney:naquadah')
   event.remove('forge:ingots/naquadah_alloy', 'sgjourney:naquadah')
-
-  
-  registerCustomBlocksForGregtech(event)
+  event.remove('forge:ingots/naquadah_alloy', 'sgjourney:naquadah_alloy')
+  event.remove('forge:purified_ores/naquadah', 'sgjourney:pure_naquadah')
+  event.remove('forge:rods/naquadah_alloy', 'sgjourney:naquadah_rod')
+  event.remove('forge:raw_materials/naquadah', 'sgjourney:raw_naquadah')
 })
 
 ServerEvents.tags('block', event => {
@@ -148,7 +92,7 @@ ServerEvents.tags('block', event => {
     'allthetweaks:atm_star_block'
   ])
 
-  event.add('entangled:invalid_targets', ['@megacells','@expatternprovider','@cabletiers'])
+  event.add('entangled:invalid_targets', ['@megacells','@expatternprovider','@cabletiers','@ae2','@refinedstorage'])
 
 })
 
@@ -159,7 +103,7 @@ ServerEvents.tags('fluid', event => {
     'ad_astra:fuel','ad_astra:flowing_fuel',
     'createaddition:flowing_seed_oil','createaddition:seed_oil',
     'createaddition:bioethanol','createaddition:flowing_bioethanol'])
-  event.add('forge:oil', 'thermal:crude_oil')
+  event.add('forge:oil', '#forge:crude_oil')
 })
 
 ServerEvents.tags('entity_type', event => {

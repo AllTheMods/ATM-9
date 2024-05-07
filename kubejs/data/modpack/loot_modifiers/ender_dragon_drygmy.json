@@ -1,0 +1,42 @@
+{
+    "conditions": [
+      {
+        "condition": "forge:loot_table_id",
+        "loot_table_id": "minecraft:entities/ender_dragon"
+      },
+      {
+        "condition": "productivelib:killed_by_uuid",
+        "uuid": "7400926d-1007-4e53-880f-b43e67f2bf29"
+      }
+    ],
+    "type": "productivelib:ingredient_modifier",
+    "chance": 0.5,
+    "addition": [{
+        "item": "mysticalagriculture:cognizant_dust"
+    },
+    {
+        "item": "ends_delight:dragon_tooth"
+    },
+    {
+        "item": "minecraft:dragon_egg"
+    },
+    {
+        "item": "minecraft:dragon_head"
+    },
+    {
+        "item": "minecraft:dragon_breath"
+    },
+    {
+        "item": "mysticalagradditions:dragon_scale"
+    },
+    {
+        "item": "ends_delight:dragon_leg"
+    },
+    {
+        "item": "quark:dragon_scale"
+    },
+    {
+        "item": "bhc:green_heart"
+    }
+    ]
+  }

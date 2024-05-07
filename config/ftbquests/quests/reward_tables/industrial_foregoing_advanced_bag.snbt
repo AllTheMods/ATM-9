@@ -1,0 +1,48 @@
+{
+	id: "73E94318B401E916"
+	loot_size: 1
+	order_index: 62
+	rewards: [
+		{ item: "industrialforegoing:machine_frame_advanced", weight: 0.5f }
+		{ item: "industrialforegoing:machine_frame_supreme", weight: 0.1f }
+		{ item: "industrialforegoing:ether_gas_bucket", weight: 0.4f }
+		{ item: "industrialforegoing:laser_drill", weight: 0.7f }
+		{ item: "industrialforegoing:fluid_laser_base", weight: 0.2f }
+		{ item: "industrialforegoing:ore_laser_base", weight: 0.05f }
+		{ count: 64, item: "industrialforegoing:plastic" }
+		{
+			item: {
+				Count: 1b
+				id: "industrialforegoing:processing_addon_2"
+				tag: {
+					TitaniumAugment: {
+						Processing: 3.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "industrialforegoing:speed_addon_2"
+				tag: {
+					TitaniumAugment: {
+						Speed: 3.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "industrialforegoing:efficiency_addon_2"
+				tag: {
+					TitaniumAugment: {
+						Efficiency: 0.8f
+					}
+				}
+			}
+		}
+	]
+	title: "&aIndustrial Foregoing&r &dAdvanced Bag&r"
+}

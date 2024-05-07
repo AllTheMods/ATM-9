@@ -480,20 +480,27 @@
 		}
 		{
 			dependencies: ["01F18150EC923482"]
-			description: ["{atm9.quest.rs.desc.wrench}"]
+			description: ["{atm9.quest.rs.desc.transmitter}"]
 			id: "3FAD086F7D9CCAE9"
 			rewards: [{
 				id: "182081F231AA3B51"
 				table_id: 4001436279668650237L
 				type: "random"
 			}]
-			subtitle: "{atm9.quest.rs.subt.wrench}"
-			tasks: [{
-				id: "411F819314EF6C57"
-				item: "refinedstorage:wrench"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.wrench}"
+			subtitle: "{atm9.quest.rs.subt.transmitter}"
+			tasks: [
+				{
+					id: "66C161825999C4EF"
+					item: "refinedstorage:network_transmitter"
+					type: "item"
+				}
+				{
+					id: "4635012B066F66F3"
+					item: "refinedstorage:network_receiver"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.rs.transmitter}"
 			x: -5.0d
 			y: -1.5d
 		}

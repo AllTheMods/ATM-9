@@ -1,0 +1,843 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mahou_tsukai"
+	group: "22FB35B0FEF1343D"
+	icon: "mahoutsukai:mahoujin_projector"
+	id: "44E9C52B25D280CB"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{atm9.quest.mahou.desc.start}"]
+			icon: "mahoutsukai:mahoujin_projector"
+			id: "5E598F78BFC0F0F6"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "5B4DDE801680EA4D"
+				item: "mahoutsukai:guidebook"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				advancement: "mahoutsukai:root"
+				criterion: ""
+				icon: "mahoutsukai:mahoujin_projector"
+				id: "0C29A1EA4AA9DCD1"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.mahou.start}"
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5E598F78BFC0F0F6"]
+			description: ["{atm9.quest.mahou.desc.mortar}"]
+			hide_dependent_lines: true
+			id: "2239673CCF5B5BF7"
+			rewards: [{
+				count: 2
+				id: "790F29FE8D491758"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "2242E76BC6D5C33A"
+				item: "mahoutsukai:mortar_and_pestle"
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.mortar}"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5E598F78BFC0F0F6"]
+			description: ["{atm9.quest.mahou.desc.scrolls}"]
+			hide_dependent_lines: true
+			id: "3862FB1F6F76ED4F"
+			rewards: [{
+				count: 6
+				id: "5427F3079ACC4183"
+				item: "mahoutsukai:spell_cloth"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.1d
+			tasks: [
+				{
+					id: "7EED1E169B4B837A"
+					item: "mahoutsukai:spell_cloth"
+					type: "item"
+				}
+				{
+					id: "03653EBC3A7AC78D"
+					item: "mahoutsukai:dagger"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.mahou.scrolls}"
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["72DEF9BA758BCDC0"]
+			description: ["{atm9.quest.mahou.desc.caliburn}"]
+			hide: false
+			id: "0AAB33FA2609AD2F"
+			rewards: [
+				{
+					count: 3
+					id: "78EE995DEB3E6AA6"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:smite"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75D2B274106287DE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "6BD28453C12779F8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+						}
+					}
+					id: "mahoutsukai:caliburn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.caliburn}"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["0AAB33FA2609AD2F"]
+			description: ["{atm9.quest.mahou.desc.warden}"]
+			hide: false
+			id: "4EA0F9DE0A373761"
+			rewards: [
+				{
+					id: "24EA1AA4DC08FBBD"
+					item: "minecraft:villager_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "7463D6851757918E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "40639CBE133D1B30"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+						}
+					}
+					id: "mahoutsukai:morgan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.warden}"
+			x: 1.3d
+			y: -11.05d
+		}
+		{
+			description: [
+				"Then you go looking for faeries. You cast fae sight, find a nexus line, follow that to a sufficiently large (3 circles) nexus which you can only see while under the influence of fae sight. Then you stand in the middle of the nexus and wait for faeries to spawn."
+				"Once you have fae essence, the book unlocks higher tier rituals, and the famed weapons everyone's been gaga over. "
+			]
+			id: "5F902D645E3C2F5B"
+			rewards: [
+				{
+					count: 8
+					id: "69E89D8D10018532"
+					item: "mahoutsukai:fae_essence"
+					type: "item"
+				}
+				{
+					id: "6B4B355800194864"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Fae sight? WHY ARE THERE SQUIGGLES IN THE AIR"
+			tasks: [
+				{
+					id: "6620A59F49D63DA6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "mahoutsukai:scroll_fay_sight"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C0C3AEB36648B14"
+					item: "mahoutsukai:fae_essence"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5E598F78BFC0F0F6"]
+			description: ["{atm9.quest.mahou.desc.mana}"]
+			hide: true
+			id: "031E3B2E823C5CB7"
+			rewards: [{
+				id: "68A6E05A70BB7F65"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "18DD9C15BAD8FF6E"
+				item: "mahoutsukai:attuner"
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.mana}"
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"30BA3262D870F4E7"
+				"63AB668EAF0E1C30"
+				"464F35993A49096D"
+			]
+			description: ["{atm9.quest.mahou.desc.lake}"]
+			icon: "mahoutsukai:murky_bucket"
+			id: "72DEF9BA758BCDC0"
+			rewards: [{
+				id: "42C9DEFB9E464E56"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:smite"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "70C746566932CE35"
+				observe_type: 0
+				timer: 0L
+				to_observe: "mahoutsukai:murky_water"
+				type: "observation"
+			}]
+			title: "{atm9.quest.mahou.lake}"
+			x: -0.65d
+			y: -9.100000000000001d
+		}
+		{
+			dependencies: ["2239673CCF5B5BF7"]
+			description: ["{atm9.quest.mahou.desc.power}"]
+			id: "30BA3262D870F4E7"
+			rewards: [{
+				id: "06A0C2227C63AC14"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					count: 2L
+					id: "3B4F6277739941D5"
+					item: "mahoutsukai:powdered_diamond"
+					type: "item"
+				}
+				{
+					id: "09CC056766EB26DD"
+					item: "mahoutsukai:powdered_emerald"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.mahou.power}"
+			x: 0.0d
+			y: -8.450000000000001d
+		}
+		{
+			dependencies: ["2239673CCF5B5BF7"]
+			description: ["{atm9.quest.mahou.desc.strength}"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+				id: "mahoutsukai:scroll_strengthening"
+			}
+			id: "08903890F577D43A"
+			rewards: [{
+				count: 2
+				id: "406E3AD79364F34A"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2L
+					id: "08FA04F05865F979"
+					item: "mahoutsukai:powdered_diamond"
+					type: "item"
+				}
+				{
+					id: "255E770955A7FAC3"
+					item: "mahoutsukai:powdered_iron"
+					type: "item"
+				}
+				{
+					id: "34905AC6DD4F593D"
+					item: { Count: 64b, id: "mahoutsukai:spell_cloth" }
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.mahou.strength}"
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["08903890F577D43A"]
+			description: ["{atm9.quest.mahou.desc.sword}"]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "enderio:shimmer"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "61382ED4729AF8E6"
+			rewards: [{
+				id: "152A1DF966A78240"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "414C8B3F17B6B274"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+						mahoutsukai_old_unbreakable: 0b
+						mahoutsukai_strengthened: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.sword}"
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["61382ED4729AF8E6"]
+			description: ["{atm9.quest.mahou.desc.clarent}"]
+			id: "7F9BFE49B53AF2BF"
+			rewards: [{
+				id: "59457A4A7E8C2D2E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6D9AB073753E5D51"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+					id: "mahoutsukai:clarent"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+						mahoutsukai_clarent_attack: 0.0f
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.clarent}"
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["031E3B2E823C5CB7"]
+			description: ["{atm9.quest.mahou.desc.emerald}"]
+			hide_dependency_lines: true
+			id: "464F35993A49096D"
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "4197A7CA0002EC34"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 0
+						}
+					}
+					id: "mahoutsukai:attuned_emerald"
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.emerald}"
+			x: -1.3d
+			y: -9.75d
+		}
+		{
+			description: ["{atm9.quest.mahou.desc.morgan}"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_ATTACK_CAP: 0.0d
+						MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+					}
+				}
+				id: "mahoutsukai:morgan"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "63AB668EAF0E1C30"
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "70EE14D22DAA95EE"
+				title: "Morgan "
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.mahou.morgan}"
+			x: -1.9500000000000002d
+			y: -7.800000000000001d
+		}
+		{
+			description: ["{atm9.quest.mahou.desc.upgrading}"]
+			id: "0C38F40FD6AA01E6"
+			rewards: [{
+				id: "0B6C0561D1C20F28"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:smite"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 26L
+				id: "7F74CF6A8D802EF7"
+				item: "irons_spellbooks:ender_upgrade_orb"
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.upgrading}"
+			x: 0.65d
+			y: -10.4d
+		}
+		{
+			description: ["{atm9.quest.mahou.desc.genocide}"]
+			icon: "easy_villagers:villager"
+			id: "7FB787C9FE990A93"
+			rewards: [
+				{
+					id: "4702BC1532F4CDDE"
+					item: "reliquary:pedestals/passive/red_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "249AF257A5CDFE75"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "minecraft:villager"
+				id: "332590813AB0B8F3"
+				type: "kill"
+				value: 10L
+			}]
+			title: "{atm9.quest.mahou.genocide}"
+			x: 1.9500000000000002d
+			y: -11.700000000000001d
+		}
+		{
+			dependencies: ["08903890F577D43A"]
+			description: ["{atm9.quest.mahou.desc.stick}"]
+			id: "50AA597A4CF3D060"
+			shape: "diamond"
+			tasks: [{
+				id: "52A9F529E0AE2C7C"
+				item: {
+					Count: 1b
+					id: "minecraft:stick"
+					tag: {
+						Unbreakable: 1b
+						mahoutsukai_old_unbreakable: 0b
+						mahoutsukai_strengthened: 5
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.stick}"
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["50AA597A4CF3D060"]
+			description: ["{atm9.quest.mahou.desc.emrys}"]
+			id: "58EC32346BEBAAEC"
+			rewards: [{
+				id: "08A12DA479A19767"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "651B2642E69F09C2"
+				item: "mahoutsukai:staff_emrys"
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.emrys}"
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["08903890F577D43A"]
+			description: ["{atm9.quest.mahou.desc.shield}"]
+			icon: {
+				Count: 1b
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "enderio:shimmer"
+						lvl: 1s
+					}]
+					Unbreakable: 1b
+					mahoutsukai_old_unbreakable: 0b
+					mahoutsukai_strengthened: 5
+				}
+			}
+			id: "087726194EED4BDF"
+			rewards: [{
+				id: "7C0F43EAA605EA92"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ensorcellation:bulwark"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5D64543FDCB91F54"
+				item: {
+					Count: 1b
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+						mahoutsukai_old_unbreakable: 0b
+						mahoutsukai_strengthened: 5
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.shield}"
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["087726194EED4BDF"]
+			description: ["{atm9.quest.mahou.desc.souls}"]
+			id: "00EC37E07591FFC4"
+			rewards: [{
+				count: 9
+				id: "5832669818920660"
+				item: "mob_grinding_utils:delightful_dirt"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0E72B0E602D7A29A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+					id: "mahoutsukai:scroll_death_collection"
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.souls}"
+			x: 6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"087726194EED4BDF"
+				"3862FB1F6F76ED4F"
+			]
+			description: ["{atm9.quest.mahou.desc.immunity}"]
+			id: "3317E676CEE83609"
+			shape: "diamond"
+			tasks: [{
+				id: "1BBF69A87534BEAD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+					id: "mahoutsukai:scroll_immunity_exchange"
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.immunity}"
+			x: 7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"087726194EED4BDF"
+				"3862FB1F6F76ED4F"
+			]
+			description: ["{atm9.quest.mahou.desc.damage}"]
+			id: "659531F14E62EBEB"
+			shape: "diamond"
+			tasks: [{
+				id: "4CFFB54AB2B68957"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+					id: "mahoutsukai:scroll_damage_exchange"
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.damage}"
+			x: 5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"3317E676CEE83609"
+				"00EC37E07591FFC4"
+				"659531F14E62EBEB"
+			]
+			description: ["{atm9.quest.mahou.desc.replica}"]
+			id: "116EA7BB5AD8453E"
+			rewards: [{
+				id: "3F440F5FF275978B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5754D942F9A2A743"
+				item: {
+					Count: 1b
+					id: "mahoutsukai:replica"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.mahou.replica}"
+			x: 6.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["031E3B2E823C5CB7"]
+			description: ["{atm9.quest.mahou.desc.life}"]
+			icon: "evilcraft:blood_stain"
+			id: "67B73449A59467C5"
+			rewards: [{
+				count: 9
+				id: "5FC847A4560CFC7B"
+				item: "mob_grinding_utils:dreadful_dirt"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2L
+					id: "04933B4DDF63D969"
+					item: "mahoutsukai:powdered_iron"
+					type: "item"
+				}
+				{
+					id: "211B9A2B333F8E02"
+					item: "mahoutsukai:powdered_emerald"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.mahou.life}"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["031E3B2E823C5CB7"]
+			description: ["{atm9.quest.mahou.desc.durability}"]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6E0D16C7036E81C1"
+			rewards: [{
+				id: "5FA7A2742E058D84"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1BC81B63BEDA6C00"
+					item: "mahoutsukai:powdered_diamond"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6E3E68CF28DD757C"
+					item: "mahoutsukai:powdered_emerald"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.mahou.durability}"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["031E3B2E823C5CB7"]
+			description: ["{atm9.quest.mahou.desc.chronal}"]
+			hide_dependency_lines: false
+			icon: "mahoutsukai:mahoujin_projector"
+			id: "05B8C64EB012F6EA"
+			rewards: [{
+				id: "272D0292A6F952C4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 0
+						}
+					}
+					id: "mahoutsukai:attuned_diamond"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "581D08845F19907E"
+					item: "mahoutsukai:powdered_quartz"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "13DC1E08A0A6EC6E"
+					item: "mahoutsukai:powdered_emerald"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.mahou.chronal}"
+			x: 3.5d
+			y: -7.5d
+		}
+	]
+	subtitle: []
+	title: "{atm9.chapters.49.title}"
+}

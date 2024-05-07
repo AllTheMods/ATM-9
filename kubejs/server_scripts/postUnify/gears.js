@@ -64,10 +64,10 @@ ServerEvents.recipes(event => {
         if (count == 0) {
           event.custom({
             type: 'thermal:press',
-            ingredients: [
-              ingotTag.withCount(4).toJson(),
-              Ingredient.of('thermal:press_gear_die').toJson(),
-            ],
+            ingredient: [
+              Item.of(ingotTag.getFirst()).withCount(4),
+              Item.of('thermal:press_gear_die')
+              ],
             result: [gear.toJson()],
           }).id(`kubejs:thermal/machines/press/press_${material}_ingot_to_gear`)
           gearCount.thermal++

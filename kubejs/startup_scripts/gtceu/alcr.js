@@ -4,6 +4,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .appearanceBlock(GTBlocks.CASING_PTFE_INERT)
         .recipeTypes('large_chemical_reactor')
         .recipeModifier(GTRecipeModifiers.PARALLEL_HATCH.apply(OverclockingLogic.PERFECT_OVERCLOCK, GTRecipeModifiers.ELECTRIC_OVERCLOCK))
+        //.recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK)])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('c   c', 'ccccc', 'c   c', 'ccccc', 'c   c')
             .aisle('ccccc', 'cpppc', 'cwwwc', 'cpppc', 'ccccc')

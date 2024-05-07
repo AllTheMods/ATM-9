@@ -86,7 +86,7 @@ ServerEvents.recipes(event => {
   let soil2 = 'mysticalagradditions:insanium_block'
   seedCrafting('kubejs:magical_soil', soilMid, soil1, soil2, soil1, soil2, soil1, soil2, soil1, soil2)
 
-/*
+
   //MA EXP droplets to fluid EXP
   event.custom({
     type: "thermal:centrifuge",
@@ -101,7 +101,12 @@ ServerEvents.recipes(event => {
     ],
     energy: 400
   })
-*/
+
+  // add recipe to make turtle eggs from turtle essence
+  event.shaped('4x minecraft:turtle_egg', ['   ', '   ', 'EEE'], {
+    E: 'mysticalagriculture:turtle_essence'
+  }).id('kubejs:mysticalagriculture/turtle_egg')
+
   // remove gaia crux
   event.remove({ id: "mysticalagradditions:gaia_spirit_crux" })
 })

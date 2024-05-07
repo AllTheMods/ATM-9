@@ -1,0 +1,26 @@
+{
+    "conditions": [
+      {
+        "condition": "forge:loot_table_id",
+        "loot_table_id": "ars_nouveau:entities/wilden_boss"
+      },
+      {
+        "condition": "productivelib:killed_by_uuid",
+        "uuid": "bf699a99-b67c-35dc-981f-fb67fe089dbd"
+      }
+    ],
+    "type": "productivelib:ingredient_modifier",
+    "chance": 0.05,
+    "addition": [{
+        "item": "ars_nouveau:wilden_tribute"
+    },
+    {
+        "item": "ars_nouveau:wilden_horn"
+    },
+    {
+        "item": "ars_nouveau:wilden_spike"
+    },
+    {
+        "item": "ars_nouveau:wilden_wing"
+    }]
+  }

@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
     C: ['extradisks:1048576k_storage_part', 'extradisks:1048576k_fluid_storage_part', 'megacells:cell_component_256m'],
     D: 'advgenerators:power_capacitor_tier3',
     E: 'rftoolsutility:flight_module',
-    F: Item.of('powah:battery_nitro', '{powah_tile_data:{energy_stored_main_energy:2000000000L}}').strongNBT(),
+    F: Item.of('powah:battery_nitro', '{powah_tile_data:{energy_stored_main_energy:2000000000L}}').weakNBT(),
     G: 'ad_astra:jet_suit'
     }).id('kubejs:allthetweaks/improbable_probability_device')
   
@@ -94,8 +94,8 @@ ServerEvents.recipes(event => {
   // Oblivion Shard
   event.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
     A: 'forbidden_arcanus:eternal_stella',
-    C: 'naturesaura:end_flower',
-    B: 'naturesaura:chunk_loader'
+    C: Item.of('evilcraft:mace_of_destruction', '{Fluid: {FluidName: "evilcraft:blood", Amount: 4000}}').weakNBT(),
+    B: 'evilcraft:piercing_vengeance_focus'
   }).id('kubejs:allthetweaks/oblivion_shard')
 
   // Creative Essence
