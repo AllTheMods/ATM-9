@@ -1,0 +1,38 @@
+{
+    "entity": "minecraft:guardian",
+    "variants": [],
+    "name": "entity.minecraft.guardian",
+    "name_color": "#6A9583",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.guardian",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:cod",
+            "count": 24
+        },
+        {
+            "item": "minecraft:prismarine_crystals",
+            "count": 16
+        },
+        {
+            "optional": true,
+            "item": "reliquary:guardian_spike",
+            "count": 2
+        },
+        {
+            "optional": true,
+            "item": "oceansdelight:guardian",
+            "count": 8
+        }
+    ]
+}
