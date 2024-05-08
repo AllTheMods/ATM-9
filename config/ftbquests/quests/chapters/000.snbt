@@ -1,589 +1,490 @@
 low_voltage.snbt,13,				description: [
-
-low_voltage.snbt,14,					"{atm9.quest.gregtech.desc.machineUpgrade.1}→→→Upgrading your machines will grant you access to new recipes and increase their processing speed←←←"
-low_voltage.snbt,16,					"{atm9.quest.gregtech.desc.machineUpgrade.2}→→→This is called overclocking and can be configured in the GUI of the machine if you do not want to overclock (to conserve power for example)←←←"
-low_voltage.snbt,18,					"{atm9.quest.gregtech.desc.machineUpgrade.3}→→→Overclocking a recipe results in it processing twice as fast but using four times as much power - overall this means twice as much energy is used←←←"
+low_voltage.snbt,14,					"{atm9.quest.gregtech.desc.machineUpgrade.1}"
+low_voltage.snbt,16,					"{atm9.quest.gregtech.desc.machineUpgrade.2}"
+low_voltage.snbt,18,					"{atm9.quest.gregtech.desc.machineUpgrade.3}"
 low_voltage.snbt,19,				]
-
-low_voltage.snbt,38,				subtitle: "{atm9.quest.gregtech.subt.welcomeLV}→→→Welcome to LV←←←"
+low_voltage.snbt,38,				subtitle: "{atm9.quest.gregtech.subt.welcomeLV}"
 low_voltage.snbt,52,				description: [
-
-low_voltage.snbt,53,					"{atm9.quest.gregtech.desc.batchCrafting.1}→→→You've been remembering to batch craft things, right?←←←"
-low_voltage.snbt,55,					"{atm9.quest.gregtech.desc.batchCrafting.2}→→→I'll give you a pass this time and assume you have←←←"
+low_voltage.snbt,53,					"{atm9.quest.gregtech.desc.batchCrafting.1}"
+low_voltage.snbt,55,					"{atm9.quest.gregtech.desc.batchCrafting.2}"
 low_voltage.snbt,56,				]
-
-low_voltage.snbt,75,				subtitle: "{atm9.quest.gregtech.subt.onwardsMV}→→→Onwards to MV!←←←"
+low_voltage.snbt,75,				subtitle: "{atm9.quest.gregtech.subt.onwardsMV}"
 low_voltage.snbt,86,				description: [
-
-low_voltage.snbt,87,					"{atm9.quest.gregtech.desc.wiremillUsage.1}→→→With a wiremill you can turn an ingot into two 1x wires←←←"
-low_voltage.snbt,89,					"{atm9.quest.gregtech.desc.wiremillUsage.2}→→→This also unlocks cheaper fine wire recipes←←←"
+low_voltage.snbt,87,					"{atm9.quest.gregtech.desc.wiremillUsage.1}"
+low_voltage.snbt,89,					"{atm9.quest.gregtech.desc.wiremillUsage.2}"
 low_voltage.snbt,90,				]
-
-low_voltage.snbt,100,				subtitle: "{atm9.quest.gregtech.subt.cheaperWires}→→→Cheaper wires←←←"
+low_voltage.snbt,100,				subtitle: "{atm9.quest.gregtech.subt.cheaperWires}"
 low_voltage.snbt,111,				description: [
-
-low_voltage.snbt,112,					"{atm9.quest.gregtech.desc.plateMachineUsage.1}→→→With this machine you can turn one ingot into one plate easy-peasy←←←"
-low_voltage.snbt,114,					"{atm9.quest.gregtech.desc.plateMachineUsage.2}→→→Further processing of plates will turn them into foils←←←"
+low_voltage.snbt,112,					"{atm9.quest.gregtech.desc.plateMachineUsage.1}"
+low_voltage.snbt,114,					"{atm9.quest.gregtech.desc.plateMachineUsage.2}"
 low_voltage.snbt,115,				]
-
-low_voltage.snbt,125,				subtitle: "{atm9.quest.gregtech.subt.cheaperPlates}→→→Cheaper plates←←←"
+low_voltage.snbt,125,				subtitle: "{atm9.quest.gregtech.subt.cheaperPlates}"
 low_voltage.snbt,136,				description: [
-
-low_voltage.snbt,137,					"{atm9.quest.gregtech.desc.rubberCrafting.1}→→→This bad boy unlocks a cheaper rubber crafting recipe!←←←"
-low_voltage.snbt,139,					"{atm9.quest.gregtech.desc.rubberCrafting.2}→→→For 1 sulfur dust and 9 raw rubber pulp you'll make the equivalent of 9 rubber ingots in fluid form←←←"
+low_voltage.snbt,137,					"{atm9.quest.gregtech.desc.rubberCrafting.1}"
+low_voltage.snbt,139,					"{atm9.quest.gregtech.desc.rubberCrafting.2}"
 low_voltage.snbt,140,				]
-
-low_voltage.snbt,148,				subtitle: "{atm9.quest.gregtech.subt.moreRubberBetter}→→→More rubber more better←←←"
-low_voltage.snbt,159,				description: ["{atm9.quest.gregtech.desc.castingMolds.1}→→→This machine also uses Casting Molds to form the fluids into different shapes←←←"]
-low_voltage.snbt,178,				subtitle: "{atm9.quest.gregtech.subt.needSolidFluid}→→→Need that fluid to be solid?←←←"
+low_voltage.snbt,148,				subtitle: "{atm9.quest.gregtech.subt.moreRubberBetter}"
+low_voltage.snbt,159,				description: ["{atm9.quest.gregtech.desc.castingMolds.1}"]
+low_voltage.snbt,178,				subtitle: "{atm9.quest.gregtech.subt.needSolidFluid}"
 low_voltage.snbt,196,				description: [
-
-low_voltage.snbt,197,					"{atm9.quest.gregtech.desc.wireCoating.1}→→→A cheaper way to coat wires in rubber!←←←"
-low_voltage.snbt,199,					"{atm9.quest.gregtech.desc.wireCoating.2}→→→This machine is necessary to coat higher tier wires in rubber to make cables←←←"
-low_voltage.snbt,201,					"{atm9.quest.gregtech.desc.wireCoating.3}→→→You might want to use this to create your machine hulls once we get some polyethylene in MV←←←"
+low_voltage.snbt,197,					"{atm9.quest.gregtech.desc.wireCoating.1}"
+low_voltage.snbt,199,					"{atm9.quest.gregtech.desc.wireCoating.2}"
+low_voltage.snbt,201,					"{atm9.quest.gregtech.desc.wireCoating.3}"
 low_voltage.snbt,202,				]
-
-low_voltage.snbt,220,				description: ["{atm9.quest.gregtech.desc.rodProduction.1}→→→For all your rod production needs!←←←"]
-low_voltage.snbt,230,				subtitle: "{atm9.quest.gregtech.subt.goodOldRod}→→→Good ol' rod←←←"
-low_voltage.snbt,241,				description: ["{atm9.quest.gregtech.desc.centrifugeUsage.1}→→→The centrifuge lets you separate compounds into their respective materials by spinning very fast←←←"]
-low_voltage.snbt,249,				subtitle: "{atm9.quest.gregtech.subt.yourSpinMeRound}→→→You spin me right round←←←"
+low_voltage.snbt,220,				description: ["{atm9.quest.gregtech.desc.rodProduction.1}"]
+low_voltage.snbt,230,				subtitle: "{atm9.quest.gregtech.subt.goodOldRod}"
+low_voltage.snbt,241,				description: ["{atm9.quest.gregtech.desc.centrifugeUsage.1}"]
+low_voltage.snbt,249,				subtitle: "{atm9.quest.gregtech.subt.yourSpinMeRound}"
 low_voltage.snbt,264,				description: [
-
-low_voltage.snbt,265,					"{atm9.quest.gregtech.desc.diodeReach.1}→→→Finally, the diode is within reach←←←"
-low_voltage.snbt,267,					"{atm9.quest.gregtech.desc.diodeReach.2}→→→You'll need to turn this into small piles of gallium arsenide dust, or set up a recipe to do that for you←←←"
+low_voltage.snbt,265,					"{atm9.quest.gregtech.desc.diodeReach.1}"
+low_voltage.snbt,267,					"{atm9.quest.gregtech.desc.diodeReach.2}"
 low_voltage.snbt,268,				]
-
-low_voltage.snbt,285,				description: ["{atm9.quest.gregtech.desc.mixerUsage.1}→→→The mixer takes multiple materials and mixes them into a new material, very useful for higher quality steels and metal mixtures←←←"]
+low_voltage.snbt,285,				description: ["{atm9.quest.gregtech.desc.mixerUsage.1}"]
 low_voltage.snbt,303,				description: [
-
-low_voltage.snbt,304,					"{atm9.quest.gregtech.desc.extractorUsage.1}→→→You can use an Extractor to get glass in a liquid state for making the diode←←←"
-low_voltage.snbt,306,					"{atm9.quest.gregtech.desc.extractorUsage.2}→→→We'll get to polyethylene later on, so keep in mind that you can upgrade this recipe!←←←"
+low_voltage.snbt,304,					"{atm9.quest.gregtech.desc.extractorUsage.1}"
+low_voltage.snbt,306,					"{atm9.quest.gregtech.desc.extractorUsage.2}"
 low_voltage.snbt,307,				]
-
-low_voltage.snbt,324,				subtitle: "{atm9.quest.gregtech.subt.mvProximity}→→→MV is close at hand!←←←"
-low_voltage.snbt,361,				subtitle: "{atm9.quest.gregtech.subt.hazardousMaterials}→→→Don't sniff this←←←"
-low_voltage.snbt,372,				description: ["{atm9.quest.gregtech.desc.steamConversion.1}→→→Take that steam you were making and turn it into EU!←←←"]
-low_voltage.snbt,391,				subtitle: "{atm9.quest.gregtech.subt.energyIndependence}→→→No Power No Problem←←←"
+low_voltage.snbt,324,				subtitle: "{atm9.quest.gregtech.subt.mvProximity}"
+low_voltage.snbt,361,				subtitle: "{atm9.quest.gregtech.subt.hazardousMaterials}"
+low_voltage.snbt,372,				description: ["{atm9.quest.gregtech.desc.steamConversion.1}"]
+low_voltage.snbt,391,				subtitle: "{atm9.quest.gregtech.subt.energyIndependence}"
 low_voltage.snbt,402,				description: [
-
-low_voltage.snbt,403,					"{atm9.quest.gregtech.desc.energySetup.1}→→→Do you already have a setup for RF/FE power generation?←←←"
-low_voltage.snbt,405,					"{atm9.quest.gregtech.desc.energySetup.2}→→→In that instance, you could make Energy Converters to turn that RF into EU and cable this to your machines←←←"
-low_voltage.snbt,407,					"{atm9.quest.gregtech.desc.energySetup.3}→→→By default it is set to convert EU to RF, so you will need to thwack it with a soft mallet to change it to RF to EU conversion←←←"
-low_voltage.snbt,409,					"{atm9.quest.gregtech.desc.energySetup.4}→→→The red side is the EU side and the green sides are for RF/FE. Keep in mind you can rotate the converter by crouch right clicking with a wrench←←←"
-low_voltage.snbt,411,					"{atm9.quest.gregtech.desc.energySetup.5}→→→Note: Use wirecutters to enable and disable wire connections to blocks and each other←←←"
+low_voltage.snbt,403,					"{atm9.quest.gregtech.desc.energySetup.1}"
+low_voltage.snbt,405,					"{atm9.quest.gregtech.desc.energySetup.2}"
+low_voltage.snbt,407,					"{atm9.quest.gregtech.desc.energySetup.3}"
+low_voltage.snbt,409,					"{atm9.quest.gregtech.desc.energySetup.4}"
+low_voltage.snbt,411,					"{atm9.quest.gregtech.desc.energySetup.5}"
 low_voltage.snbt,412,				]
-
-low_voltage.snbt,464,					title: "{atm9.quest.gregtech.lvEnergyConverter}→→→Any LV Energy Converter←←←"
-low_voltage.snbt,467,				title: "{atm9.quest.gregtech.energyConverters}→→→Energy Converters←←←"
-low_voltage.snbt,473,				description: ["{atm9.quest.gregtech.desc.advancedBoilers.1}→→→Eventually you'll want more steam than the single block boilers can provide. When that happens, make way for the Large Bronze Boiler!←←←"]
-low_voltage.snbt,492,				subtitle: "{atm9.quest.gregtech.subt.steamMultiblock}→→→Steam producing Multiblock←←←"
+low_voltage.snbt,464,					title: "{atm9.quest.gregtech.lvEnergyConverter}"
+low_voltage.snbt,467,				title: "{atm9.quest.gregtech.energyConverters}"
+low_voltage.snbt,473,				description: ["{atm9.quest.gregtech.desc.advancedBoilers.1}"]
+low_voltage.snbt,492,				subtitle: "{atm9.quest.gregtech.subt.steamMultiblock}"
 low_voltage.snbt,522,				description: [
-
-low_voltage.snbt,523,					"{atm9.quest.gregtech.desc.circuitProgramming.1}→→→Many machines use a programmed circuit setting to determine what recipes can be processed←←←"
-low_voltage.snbt,525,					"{atm9.quest.gregtech.desc.circuitProgramming.2}→→→You'll find the option to change the programmed circuit setting in the machine's GUI, just select the program that corresponds to the recipe you are running and it will start running←←←"
-low_voltage.snbt,527,					"{atm9.quest.gregtech.desc.circuitProgramming.3}→→→You don't need to craft a programmed circuit←←←"
-low_voltage.snbt,529,					"{atm9.quest.gregtech.desc.circuitProgramming.4}→→→Often it is easier to dedicate a machine to a specific program setting and make a new one rather than change program settings manually for different crafting recipes←←←"
+low_voltage.snbt,523,					"{atm9.quest.gregtech.desc.circuitProgramming.1}"
+low_voltage.snbt,525,					"{atm9.quest.gregtech.desc.circuitProgramming.2}"
+low_voltage.snbt,527,					"{atm9.quest.gregtech.desc.circuitProgramming.3}"
+low_voltage.snbt,529,					"{atm9.quest.gregtech.desc.circuitProgramming.4}"
 low_voltage.snbt,530,				]
-
-low_voltage.snbt,547,					title: "{atm9.quest.gregtech.programmedCircuits}→→→Programmed Circuits←←←"
+low_voltage.snbt,547,					title: "{atm9.quest.gregtech.programmedCircuits}"
 low_voltage.snbt,559,				description: [
-
-low_voltage.snbt,560,					"{atm9.quest.gregtech.desc.arsenicProduction.1}→→→Put that cobaltite dust with 3 buckets of oxygen in your Electric Blast Furnace to acquire Arsenic Trioxide dust←←←"
-low_voltage.snbt,562,					"{atm9.quest.gregtech.desc.arsenicProduction.2}→→→This also produces Cobalt Oxide and some Sulfur Dioxide which can be further processed to get some of that oxygen back←←←"
+low_voltage.snbt,560,					"{atm9.quest.gregtech.desc.arsenicProduction.1}"
+low_voltage.snbt,562,					"{atm9.quest.gregtech.desc.arsenicProduction.2}"
 low_voltage.snbt,563,				]
 
 
-
 low_voltage.snbt,581,				description: [
-
-low_voltage.snbt,582,					"{atm9.quest.gregtech.desc.ebfMultiblock.1}→→→Gather the listed materials and then check JEI's Multiblock Info page to see how to build it←←←"
-low_voltage.snbt,584,					"{atm9.quest.gregtech.desc.ebfMultiblock.2}→→→Each LV Energy Hatch accepts 2 Amps of LV. Together that makes 4 Amps of LV, which in this case will allow the EBF to process MV recipes as if it were powered by 1 Amp of MV!←←←"
-low_voltage.snbt,586,					"{atm9.quest.gregtech.desc.ebfMultiblock.3}→→→The Multiblock Info page shows one possible configuration of the multiblock, but often it is not the desired configuration. Be sure to check which blocks are valid at the various positions←←←"
-low_voltage.snbt,588,					"{atm9.quest.gregtech.desc.ebfMultiblock.4}→→→You'll know it is formed when the input and output blocks change color to match the controller and casings←←←"
+low_voltage.snbt,582,					"{atm9.quest.gregtech.desc.ebfMultiblock.1}"
+low_voltage.snbt,584,					"{atm9.quest.gregtech.desc.ebfMultiblock.2}"
+low_voltage.snbt,586,					"{atm9.quest.gregtech.desc.ebfMultiblock.3}"
+low_voltage.snbt,588,					"{atm9.quest.gregtech.desc.ebfMultiblock.4}"
 low_voltage.snbt,589,				]
-
-low_voltage.snbt,607,				subtitle: "{atm9.quest.gregtech.subt.firstMultiblock}→→→The first multiblock←←←"
-low_voltage.snbt,665,						title: "{atm9.quest.gregtech.observeFormedEBF}→→→Observe Formed EBF←←←"
+low_voltage.snbt,607,				subtitle: "{atm9.quest.gregtech.subt.firstMultiblock}"
+low_voltage.snbt,665,						title: "{atm9.quest.gregtech.observeFormedEBF}"
 low_voltage.snbt,673,				description: [
-
-low_voltage.snbt,674,					"{atm9.quest.gregtech.desc.oxygenEarly.1}→→→Passiving oxygen early on is highly recommended, as it is used a lot←←←"
-low_voltage.snbt,676,					"{atm9.quest.gregtech.desc.oxygenEarly.2}→→→There are many ways to get oxygen, when looking in JEI make sure the recipe states Usage: LV or Usage: ULV←←←"
-low_voltage.snbt,678,					"{atm9.quest.gregtech.desc.oxygenEarly.3}→→→Goethite dust can be centrifuged for oxygen, or perhaps electrolyzing sapphire dust is more your speed←←←"
-low_voltage.snbt,680,					"{atm9.quest.gregtech.desc.oxygenEarly.4}→→→Alternatively, you could build a Basic Gas Collector and use that to collect air, which you would then centrifuge into oxygen. Water can also be electrolyzed into oxygen, but be aware, these methods are quite slow←←←"
+low_voltage.snbt,674,					"{atm9.quest.gregtech.desc.oxygenEarly.1}"
+low_voltage.snbt,676,					"{atm9.quest.gregtech.desc.oxygenEarly.2}"
+low_voltage.snbt,678,					"{atm9.quest.gregtech.desc.oxygenEarly.3}"
+low_voltage.snbt,680,					"{atm9.quest.gregtech.desc.oxygenEarly.4}"
 low_voltage.snbt,681,				]
-
 low_voltage.snbt,701,				description: [
-
-low_voltage.snbt,702,					"{atm9.quest.gregtech.desc.oreProcessingSetup.1}→→→Macerator -> Ore Washer -> Thermal Centrifuge -> Macerator←←←"
-low_voltage.snbt,704,					"{atm9.quest.gregtech.desc.oreProcessingSetup.2}→→→This is one setup for ore processing, you can check JEI for other possible setups!←←←"
-low_voltage.snbt,706,					"{atm9.quest.gregtech.desc.oreProcessingSetup.3}→→→Once you have this setup built at HV you will get many byproducts←←←"
-low_voltage.snbt,708,					"{atm9.quest.gregtech.desc.oreProcessingSetup.4}→→→Byproducts are often used for recipes further on, so be sure to revisit this at HV and keep them!←←←"
-low_voltage.snbt,710,					"{atm9.quest.gregtech.desc.oreProcessingSetup.5}→→→There are many ways to automate this setup, so it is left as an exercise for the reader←←←"
-low_voltage.snbt,712,					"{atm9.quest.gregtech.desc.oreProcessingSetup.6}→→→[ \"\", { \"text\": \"Note: \", \"color\":\"#FFFF55\", \"bold\":\"true\" }, { \"text\": \"The Ore Washer requires \" }, { \"text\": \"water\", \"color\":\"#5555FF\" }, { \"text\": \" and a \" }, { \"text\":\"Programmed Circuit\", \"color\":\"#FFAA00\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"4875FB6628C1FCDC\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } }, { \"text\":\" setting to run\" } ]←←←"
+low_voltage.snbt,702,					"{atm9.quest.gregtech.desc.oreProcessingSetup.1}"
+low_voltage.snbt,704,					"{atm9.quest.gregtech.desc.oreProcessingSetup.2}"
+low_voltage.snbt,706,					"{atm9.quest.gregtech.desc.oreProcessingSetup.3}"
+low_voltage.snbt,708,					"{atm9.quest.gregtech.desc.oreProcessingSetup.4}"
+low_voltage.snbt,710,					"{atm9.quest.gregtech.desc.oreProcessingSetup.5}"
+low_voltage.snbt,712,					"{atm9.quest.gregtech.desc.oreProcessingSetup.6}"
 low_voltage.snbt,713,				]
-
-low_voltage.snbt,722,				subtitle: "{atm9.quest.gregtech.subt.basics}→→→The basics←←←"
-low_voltage.snbt,740,				title: "{atm9.quest.gregtech.oreProcessing}→→→Ore Processing←←←"
+low_voltage.snbt,722,				subtitle: "{atm9.quest.gregtech.subt.basics}"
+low_voltage.snbt,740,				title: "{atm9.quest.gregtech.oreProcessing}"
 low_voltage.snbt,746,				description: [
-
-low_voltage.snbt,747,					"{atm9.quest.gregtech.desc.cobaltiteDust.1}→→→Cobaltite dust can come from ore processing cobaltite←←←"
-low_voltage.snbt,749,					"{atm9.quest.gregtech.desc.cobaltiteDust.2}→→→You can find Cobaltite Ore by mining in the Overworld between -10 and 60, it should be mixed in with Garnierite, Nickel, and Pentlandite ores←←←"
+low_voltage.snbt,747,					"{atm9.quest.gregtech.desc.cobaltiteDust.1}"
+low_voltage.snbt,749,					"{atm9.quest.gregtech.desc.cobaltiteDust.2}"
 low_voltage.snbt,750,				]
-
 low_voltage.snbt,769,				description: [
-
-low_voltage.snbt,770,					"{atm9.quest.gregtech.desc.arsenicFromRealgar.1}→→→If you get lucky, you may find Realgar which can be turned into arsenic directly in a centrifuge←←←"
-low_voltage.snbt,772,					"{atm9.quest.gregtech.desc.arsenicFromRealgar.2}→→→Cobaltite can be electrolyzed directly to get arsenic, but that's at MV. Also you'll get more arsenic for your cobaltite by making arsenic trioxide dust and electrolyzing that←←←"
+low_voltage.snbt,770,					"{atm9.quest.gregtech.desc.arsenicFromRealgar.1}"
+low_voltage.snbt,772,					"{atm9.quest.gregtech.desc.arsenicFromRealgar.2}"
 low_voltage.snbt,773,				]
-
 low_voltage.snbt,791,				description: [
-
-low_voltage.snbt,792,					"{atm9.quest.gregtech.desc.maintenanceEBF.1}→→→Grab your tools and open up the maintenance hatch, there are problems to fix!←←←"
-low_voltage.snbt,794,					"{atm9.quest.gregtech.desc.maintenanceEBF.2}→→→With the appropriate tools you can click on the maintenance hatch to rectify any and all issues←←←"
-low_voltage.snbt,796,					"{atm9.quest.gregtech.desc.maintenanceEBF.3}→→→Which tools you ask? When you open the GUI of the Maintenance Hatch you should see a little wrench icon floating off on the right, mouse over it and it will tell you←←←"
-low_voltage.snbt,798,					"{atm9.quest.gregtech.desc.maintenanceEBF.4}→→→Once that is done, your new EBF is all ready to use!←←←"
-low_voltage.snbt,800,					"{atm9.quest.gregtech.desc.maintenanceEBF.5}→→→Be aware, problems can arise again, but it is not often and is easy to fix←←←"
+low_voltage.snbt,792,					"{atm9.quest.gregtech.desc.maintenanceEBF.1}"
+low_voltage.snbt,794,					"{atm9.quest.gregtech.desc.maintenanceEBF.2}"
+low_voltage.snbt,796,					"{atm9.quest.gregtech.desc.maintenanceEBF.3}"
+low_voltage.snbt,798,					"{atm9.quest.gregtech.desc.maintenanceEBF.4}"
+low_voltage.snbt,800,					"{atm9.quest.gregtech.desc.maintenanceEBF.5}"
 low_voltage.snbt,801,				]
-
-low_voltage.snbt,809,				subtitle: "{atm9.quest.gregtech.subt.brokenEBF}→→→That's right, it is broken←←←"
-low_voltage.snbt,812,					title: "{atm9.quest.gregtech.maintenance}→→→Maintenance←←←"
+low_voltage.snbt,809,				subtitle: "{atm9.quest.gregtech.subt.brokenEBF}"
+low_voltage.snbt,812,					title: "{atm9.quest.gregtech.maintenance}"
 low_voltage.snbt,820,				description: [
-
-low_voltage.snbt,821,					"{atm9.quest.gregtech.desc.liquidizingMetals.1}→→→Similar to the steam age, this will turn solid metals into their fluid form←←←"
-low_voltage.snbt,823,					"{atm9.quest.gregtech.desc.liquidizingMetals.2}→→→Additionally, this will get you the raw rubber pulp←←←"
+low_voltage.snbt,821,					"{atm9.quest.gregtech.desc.liquidizingMetals.1}"
+low_voltage.snbt,823,					"{atm9.quest.gregtech.desc.liquidizingMetals.2}"
 low_voltage.snbt,824,				]
-
-low_voltage.snbt,834,				subtitle: "{atm9.quest.gregtech.subt.liquidAssets}→→→Liquidizing your assets←←←"
+low_voltage.snbt,834,				subtitle: "{atm9.quest.gregtech.subt.liquidAssets}"
 low_voltage.snbt,849,				description: [
-
-low_voltage.snbt,850,					"{atm9.quest.gregtech.desc.sodiumPersulfate.1}→→→You have to start making Sodium Persulfate to put in a Chemical Bath, replacing the Ore Washer in a separate Ore Processing Setup for a chance at Gallium Dust when processing Bauxite←←←"
-low_voltage.snbt,852,					"{atm9.quest.gregtech.desc.sodiumPersulfate.2}→→→At HV+ you can Ore Process Bauxite or Sphalerite as another method of obtaining gallium←←←"
+low_voltage.snbt,850,					"{atm9.quest.gregtech.desc.sodiumPersulfate.1}"
+low_voltage.snbt,852,					"{atm9.quest.gregtech.desc.sodiumPersulfate.2}"
 low_voltage.snbt,853,				]
-
-low_voltage.snbt,872,				description: ["{atm9.quest.gregtech.desc.wroughtIron}→→→To make wrought iron you need to smelt iron nuggets into wrought iron nuggets←←←"]
+low_voltage.snbt,872,				description: ["{atm9.quest.gregtech.desc.wroughtIron}"]
 low_voltage.snbt,893,				description: [
-
-low_voltage.snbt,894,					"{atm9.quest.gregtech.desc.alloySmelter.1}→→→I hope you still have that alloy smelter handy!←←←"
-low_voltage.snbt,896,					"{atm9.quest.gregtech.desc.alloySmelter.2}→→→Copper and Nickel together in an alloy smelter make cupronickel, which you'll need to create the Coils for the Electric Blast Furnace←←←"
+low_voltage.snbt,894,					"{atm9.quest.gregtech.desc.alloySmelter.1}"
+low_voltage.snbt,896,					"{atm9.quest.gregtech.desc.alloySmelter.2}"
 low_voltage.snbt,897,				]
-
 low_voltage.snbt,915,				description: [
-
-low_voltage.snbt,916,					"{atm9.quest.gregtech.desc.resourceGeneration.1}→→→Why passively generate any resource? Because it is a good idea to generate common resources passively rather than order them on demand, that way you'll have what you need when you need it rather than having to wait a very long time for everything to run←←←"
-low_voltage.snbt,918,					"{atm9.quest.gregtech.desc.resourceGeneration.2}→→→Setup the Rock Crusher with water on the left and lava on the right in the world, then insert some cobblestone to make cobblestone←←←"
-low_voltage.snbt,920,					"{atm9.quest.gregtech.desc.resourceGeneration.3}→→→Output the cobblestone into a Forge Hammer to create gravel←←←"
-low_voltage.snbt,922,					"{atm9.quest.gregtech.desc.resourceGeneration.4}→→→Output the gravel into another Forge Hammer to create sand←←←"
-low_voltage.snbt,924,					"{atm9.quest.gregtech.desc.resourceGeneration.5}→→→Output the sand into an Arc Furnace with some oxygen to make glass←←←"
-low_voltage.snbt,926,					"{atm9.quest.gregtech.desc.resourceGeneration.6}→→→Output the glass into a Macerator to turn it into glass dust←←←"
-low_voltage.snbt,928,					"{atm9.quest.gregtech.desc.resourceGeneration.7}→→→Output the glass dust into a Centrifuge to get silicon dioxide←←←"
-low_voltage.snbt,930,					"{atm9.quest.gregtech.desc.resourceGeneration.8}→→→Output the silicon dioxide into an Electrolyzer and get silicon dust and oxygen!←←←"
-low_voltage.snbt,932,					"{atm9.quest.gregtech.desc.resourceGeneration.9}→→→All you need to get started is a little oxygen, given to you in the form of green sapphire dust!←←←"
+low_voltage.snbt,916,					"{atm9.quest.gregtech.desc.resourceGeneration.1}"
+low_voltage.snbt,918,					"{atm9.quest.gregtech.desc.resourceGeneration.2}"
+low_voltage.snbt,920,					"{atm9.quest.gregtech.desc.resourceGeneration.3}"
+low_voltage.snbt,922,					"{atm9.quest.gregtech.desc.resourceGeneration.4}"
+low_voltage.snbt,924,					"{atm9.quest.gregtech.desc.resourceGeneration.5}"
+low_voltage.snbt,926,					"{atm9.quest.gregtech.desc.resourceGeneration.6}"
+low_voltage.snbt,928,					"{atm9.quest.gregtech.desc.resourceGeneration.7}"
+low_voltage.snbt,930,					"{atm9.quest.gregtech.desc.resourceGeneration.8}"
+low_voltage.snbt,932,					"{atm9.quest.gregtech.desc.resourceGeneration.9}"
 low_voltage.snbt,933,				]
-
-low_voltage.snbt,953,				subtitle: "{atm9.quest.gregtech.subt.needIt}→→→You'll need it←←←"
-low_voltage.snbt,977,						title: "{atm9.quest.gregtech.rockCrusher}→→→Rock Crusher←←←"
-low_voltage.snbt,1003,						title: "{atm9.quest.gregtech.forgeHammers}→→→Forge Hammers←←←"
-low_voltage.snbt,1033,						title: "{atm9.quest.gregtech.macerator}→→→Macerator←←←"
-low_voltage.snbt,1047,				title: "{atm9.quest.gregtech.passiveOxygenLine}→→→Passive Oxygen Line←←←"
+low_voltage.snbt,953,				subtitle: "{atm9.quest.gregtech.subt.needIt}"
+low_voltage.snbt,977,						title: "{atm9.quest.gregtech.rockCrusher}"
+low_voltage.snbt,1003,						title: "{atm9.quest.gregtech.forgeHammers}"
+low_voltage.snbt,1033,						title: "{atm9.quest.gregtech.macerator}"
+low_voltage.snbt,1047,				title: "{atm9.quest.gregtech.passiveOxygenLine}"
 low_voltage.snbt,1053,				description: [
-
-low_voltage.snbt,1054,					"{atm9.quest.gregtech.desc.electrolyzerOperation.1}→→→The electrolyzer will separate compounds into constituent compounds based on their electric charge←←←"
-low_voltage.snbt,1056,					"{atm9.quest.gregtech.desc.electrolyzerOperation.2}→→→In our case, it will separate the &dArsenic Trioxide&r into &eArsenic&r and &bOxygen&r←←←"
+low_voltage.snbt,1054,					"{atm9.quest.gregtech.desc.electrolyzerOperation.1}"
+low_voltage.snbt,1056,					"{atm9.quest.gregtech.desc.electrolyzerOperation.2}"
 low_voltage.snbt,1057,				]
-
-low_voltage.snbt,1065,				subtitle: "{atm9.quest.gregtech.subt.electricEel}→→→Shock me like an electric eel←←←"
+low_voltage.snbt,1065,				subtitle: "{atm9.quest.gregtech.subt.electricEel}"
 low_voltage.snbt,1076,				description: [
-
-low_voltage.snbt,1077,					"{atm9.quest.gregtech.desc.chemicalReactorOperation.1}→→→Oxygen and sulfur dust in your &eChemical Reactor&r on &aprogram 2&r will make some sulfur dioxide←←←"
-low_voltage.snbt,1079,					"{atm9.quest.gregtech.desc.chemicalReactorOperation.2}→→→If you're having trouble keeping up with the sulfur requirements, you could start centrifuging 2 blaze powder to make sulfur dust←←←"
+low_voltage.snbt,1077,					"{atm9.quest.gregtech.desc.chemicalReactorOperation.1}"
+low_voltage.snbt,1079,					"{atm9.quest.gregtech.desc.chemicalReactorOperation.2}"
 low_voltage.snbt,1080,				]
-
 low_voltage.snbt,1098,				description: [
-
-low_voltage.snbt,1099,					"{atm9.quest.gregtech.desc.sulfurDioxideProcessing.1}→→→Chemical react sulfur dioxide with more oxygen to make sulfur trioxide←←←"
-low_voltage.snbt,1101,					"{atm9.quest.gregtech.desc.sulfurDioxideProcessing.2}→→→Oxygen is very important, you may want to go back and dedicate an entire setup to passively produce it if you haven't already←←←"
+low_voltage.snbt,1099,					"{atm9.quest.gregtech.desc.sulfurDioxideProcessing.1}"
+low_voltage.snbt,1101,					"{atm9.quest.gregtech.desc.sulfurDioxideProcessing.2}"
 low_voltage.snbt,1102,				]
-
 low_voltage.snbt,1119,				description: [
-
-low_voltage.snbt,1120,					"{atm9.quest.gregtech.desc.sulfuricAcidProduction.1}→→→Chemical react water with sulfur trioxide to get sulfuric acid←←←"
-low_voltage.snbt,1122,					"{atm9.quest.gregtech.desc.sulfuricAcidProduction.2}→→→You can get infinite water in your digital storage system by connecting to a Kitchen Sink - just make sure it is set to extract only! Otherwise it will void fluids on insert←←←"
+low_voltage.snbt,1120,					"{atm9.quest.gregtech.desc.sulfuricAcidProduction.1}"
+low_voltage.snbt,1122,					"{atm9.quest.gregtech.desc.sulfuricAcidProduction.2}"
 low_voltage.snbt,1123,				]
-
-low_voltage.snbt,1130,				subtitle: "{atm9.quest.gregtech.subt.addWater}→→→Just add water!←←←"
-low_voltage.snbt,1141,				description: ["{atm9.quest.gregtech.desc.chemicalBathUsage}→→→The &eChemical Bath&r is used in &aOre Processing&r lines to get certain &dbyproducts&r by washing crushed ores in mercury or sodium persulfate←←←"]
-low_voltage.snbt,1162,				description: ["{atm9.quest.gregtech.desc.sodiumBisulfateProduction}→→→Salt and Sulfuric Acid on Program 1 will make Sodium Bisulfate←←←"]
-low_voltage.snbt,1181,				description: ["{atm9.quest.gregtech.desc.electrolyzeSodiumBisulfate}→→→[ \"You need to \", { \"text\": \"Electrolyze\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"512BD9BCA43AEE83\" } }, \" the Sodium Bisulfate\" ]←←←"]
-circuits.snbt,19,				title: "{atm9.quest.gregtech.ulvTier}→→→ULV Tier←←←"
-circuits.snbt,31,				title: "{atm9.quest.gregtech.lvTier}→→→LV Tier←←←"
-circuits.snbt,43,				title: "{atm9.quest.gregtech.mvTier}→→→MV Tier←←←"
-circuits.snbt,55,				title: "{atm9.quest.gregtech.hvTier}→→→HV Tier←←←"
-circuits.snbt,67,				title: "{atm9.quest.gregtech.evTier}→→→EV Tier←←←"
-circuits.snbt,79,				title: "{atm9.quest.gregtech.ivTier}→→→IV Tier←←←"
-circuits.snbt,91,				title: "{atm9.quest.gregtech.luvTier}→→→LuV Tier←←←"
-circuits.snbt,103,				title: "{atm9.quest.gregtech.zpmTier}→→→ZPM Tier←←←"
-circuits.snbt,115,				title: "{atm9.quest.gregtech.uvTier}→→→UV Tier←←←"
-circuits.snbt,127,				title: "{atm9.quest.gregtech.uhvTier}→→→UHV Tier←←←"
-circuits.snbt,466,				title: "{atm9.quest.gregtech.lowVoltageAge}→→→Low Voltage Age←←←"
-circuits.snbt,479,				title: "{atm9.quest.gregtech.mediumVoltageAge}→→→Medium Voltage Age←←←"
-circuits.snbt,491,				title: "{atm9.quest.gregtech.highVoltageAge}→→→High Voltage Age←←←"
-circuits.snbt,504,				title: "{atm9.quest.gregtech.extremeVoltageAge}→→→Extreme Voltage Age←←←"
-circuits.snbt,517,				title: "{atm9.quest.gregtech.insaneVoltageAge}→→→Insane Voltage Age←←←"
-circuits.snbt,530,				title: "{atm9.quest.gregtech.ludicrousVoltageAge}→→→Ludicrous Voltage Age←←←"
-circuits.snbt,543,				title: "{atm9.quest.gregtech.zeroPointModuleAge}→→→Zero Point Module Age←←←"
-circuits.snbt,556,				title: "{atm9.quest.gregtech.ultimateVoltageAge}→→→Ultimate Voltage Age←←←"
-circuits.snbt,569,				title: "{atm9.quest.gregtech.ultraHighVoltageAge}→→→Ultra High Voltage Age←←←"
-circuits.snbt,597,					title: "{atm9.quest.gregtech.bronzeIngot}→→→Bronze Ingot←←←"
-circuits.snbt,616,					title: "{atm9.quest.gregtech.steelIngot}→→→Steel Ingot←←←"
-circuits.snbt,635,					title: "{atm9.quest.gregtech.aluminiumIngot}→→→Aluminium Ingot←←←"
-circuits.snbt,654,					title: "{atm9.quest.gregtech.galliumIngot}→→→Gallium Ingot←←←"
-circuits.snbt,714,					title: "{atm9.quest.gregtech.hvBattery}→→→HV Battery←←←"
-circuits.snbt,899,					title: "{atm9.quest.gregtech.titaniumIngot}→→→Titanium Ingot←←←"
-circuits.snbt,918,					title: "{atm9.quest.gregtech.platinumIngot}→→→Platinum Ingot←←←"
-circuits.snbt,992,					title: "{atm9.quest.gregtech.tungstenIngot}→→→Tungsten Ingot←←←"
+low_voltage.snbt,1130,				subtitle: "{atm9.quest.gregtech.subt.addWater}"
+low_voltage.snbt,1141,				description: ["{atm9.quest.gregtech.desc.chemicalBathUsage}"]
+low_voltage.snbt,1162,				description: ["{atm9.quest.gregtech.desc.sodiumBisulfateProduction}"]
+low_voltage.snbt,1181,				description: ["{atm9.quest.gregtech.desc.electrolyzeSodiumBisulfate}"]
+circuits.snbt,19,				title: "{atm9.quest.gregtech.ulvTier}"
+circuits.snbt,31,				title: "{atm9.quest.gregtech.lvTier}"
+circuits.snbt,43,				title: "{atm9.quest.gregtech.mvTier}"
+circuits.snbt,55,				title: "{atm9.quest.gregtech.hvTier}"
+circuits.snbt,67,				title: "{atm9.quest.gregtech.evTier}"
+circuits.snbt,79,				title: "{atm9.quest.gregtech.ivTier}"
+circuits.snbt,91,				title: "{atm9.quest.gregtech.luvTier}"
+circuits.snbt,103,				title: "{atm9.quest.gregtech.zpmTier}"
+circuits.snbt,115,				title: "{atm9.quest.gregtech.uvTier}"
+circuits.snbt,127,				title: "{atm9.quest.gregtech.uhvTier}"
+circuits.snbt,466,				title: "{atm9.quest.gregtech.lowVoltageAge}"
+circuits.snbt,479,				title: "{atm9.quest.gregtech.mediumVoltageAge}"
+circuits.snbt,491,				title: "{atm9.quest.gregtech.highVoltageAge}"
+circuits.snbt,504,				title: "{atm9.quest.gregtech.extremeVoltageAge}"
+circuits.snbt,517,				title: "{atm9.quest.gregtech.insaneVoltageAge}"
+circuits.snbt,530,				title: "{atm9.quest.gregtech.ludicrousVoltageAge}"
+circuits.snbt,543,				title: "{atm9.quest.gregtech.zeroPointModuleAge}"
+circuits.snbt,556,				title: "{atm9.quest.gregtech.ultimateVoltageAge}"
+circuits.snbt,569,				title: "{atm9.quest.gregtech.ultraHighVoltageAge}"
+circuits.snbt,597,					title: "{atm9.quest.gregtech.bronzeIngot}"
+circuits.snbt,616,					title: "{atm9.quest.gregtech.steelIngot}"
+circuits.snbt,635,					title: "{atm9.quest.gregtech.aluminiumIngot}"
+circuits.snbt,654,					title: "{atm9.quest.gregtech.galliumIngot}"
+circuits.snbt,714,					title: "{atm9.quest.gregtech.hvBattery}"
+circuits.snbt,899,					title: "{atm9.quest.gregtech.titaniumIngot}"
+circuits.snbt,918,					title: "{atm9.quest.gregtech.platinumIngot}"
+circuits.snbt,992,					title: "{atm9.quest.gregtech.tungstenIngot}"
 circuits.snbt,999,				description: [
-
-circuits.snbt,1000,					"{atm9.quest.gregtech.desc.voltageTierColumn}→→→Each column corresponds to the voltage tier←←←"
-circuits.snbt,1002,					"{atm9.quest.gregtech.desc.voltageTierRow}→→→Each row corresponds to what voltage tier the circuit can be crafted in←←←"
-circuits.snbt,1004,					"{atm9.quest.gregtech.desc.extraInfo}→→→Extra information at the bottom!←←←"
+circuits.snbt,1000,					"{atm9.quest.gregtech.desc.voltageTierColumn}"
+circuits.snbt,1002,					"{atm9.quest.gregtech.desc.voltageTierRow}"
+circuits.snbt,1004,					"{atm9.quest.gregtech.desc.extraInfo}"
 circuits.snbt,1005,				]
-
-circuits.snbt,1014,					title: "{atm9.quest.gregtech.understandingThisPage}→→→Understanding this page←←←"
-circuits.snbt,1027,				title: "{atm9.quest.gregtech.steamAge}→→→Steam Age←←←"
+circuits.snbt,1014,					title: "{atm9.quest.gregtech.understandingThisPage}"
+circuits.snbt,1027,				title: "{atm9.quest.gregtech.steamAge}"
 an_introduction.snbt,35,				description: [
-
-an_introduction.snbt,36,					"{atm9.quest.gregtech.desc.energyMeasurement}→→→Energy in GT is measured in Energy Units (EU)←←←"
-an_introduction.snbt,38,					"{atm9.quest.gregtech.desc.energyUtilization}→→→Energy utilization is measured in EU/t←←←"
-an_introduction.snbt,40,					"{atm9.quest.gregtech.desc.energyProduction}→→→You can produce energy in GT which will naturally be in EU, or you can choose to make energy with another mod like Powah and convert it to EU (more on that later)←←←"
+an_introduction.snbt,36,					"{atm9.quest.gregtech.desc.energyMeasurement}"
+an_introduction.snbt,38,					"{atm9.quest.gregtech.desc.energyUtilization}"
+an_introduction.snbt,40,					"{atm9.quest.gregtech.desc.energyProduction}"
 an_introduction.snbt,41,				]
-
-an_introduction.snbt,49,				subtitle: "{atm9.quest.gregtech.subt.safetyRead}→→→For your safety, please read←←←"
-an_introduction.snbt,52,					title: "{atm9.quest.gregtech.energyConcepts}→→→Energy Concepts←←←"
-an_introduction.snbt,55,				title: "{atm9.quest.gregtech.energy}→→→Energy←←←"
+an_introduction.snbt,49,				subtitle: "{atm9.quest.gregtech.subt.safetyRead}"
+an_introduction.snbt,52,					title: "{atm9.quest.gregtech.energyConcepts}"
+an_introduction.snbt,55,				title: "{atm9.quest.gregtech.energy}"
 an_introduction.snbt,61,				description: [
-
-an_introduction.snbt,62,					"{atm9.quest.gregtech.desc.machineCableRating}→→→Machines and cables/wires are rated for operating at &lspecific Voltage tiers&l←←←"
-an_introduction.snbt,64,					"{atm9.quest.gregtech.desc.machineVoltageDanger}→→→Giving a machine too much voltage makes it &c&lexplode!&r&r←←←"
-an_introduction.snbt,66,					"{atm9.quest.gregtech.desc.cableVoltageDanger}→→→Giving a wire or cable too much voltage makes it burn out←←←"
-an_introduction.snbt,68,					"{atm9.quest.gregtech.desc.lvVoltageis}→→→LV is 32 Volts (32 EU/t/A)←←←"
-an_introduction.snbt,69,					"{atm9.quest.gregtech.desc.mvVoltageis}→→→MV is 128 V←←←"
-an_introduction.snbt,70,					"{atm9.quest.gregtech.desc.hvVoltageis}→→→HV is 512 V←←←"
-an_introduction.snbt,71,					"{atm9.quest.gregtech.desc.voltageContinuation}→→→and so on←←←"
+an_introduction.snbt,62,					"{atm9.quest.gregtech.desc.machineCableRating}"
+an_introduction.snbt,64,					"{atm9.quest.gregtech.desc.machineVoltageDanger}"
+an_introduction.snbt,66,					"{atm9.quest.gregtech.desc.cableVoltageDanger}"
+an_introduction.snbt,68,					"{atm9.quest.gregtech.desc.lvVoltageis}"
+an_introduction.snbt,69,					"{atm9.quest.gregtech.desc.mvVoltageis}"
+an_introduction.snbt,70,					"{atm9.quest.gregtech.desc.hvVoltageis}"
+an_introduction.snbt,71,					"{atm9.quest.gregtech.desc.voltageContinuation}"
 an_introduction.snbt,72,				]
-
-an_introduction.snbt,81,					title: "{atm9.quest.gregtech.voltage}→→→Voltage←←←"
+an_introduction.snbt,81,					title: "{atm9.quest.gregtech.voltage}"
 an_introduction.snbt,89,				description: [
-
-an_introduction.snbt,90,					"{atm9.quest.gregtech.desc.voltage.1}→→→Amps are like packets of power (EU/t) and can come in different voltage tiers (LV, MV, HV, etc)←←←"
-an_introduction.snbt,92,					"{atm9.quest.gregtech.desc.voltage.2}→→→Machines which receive extra amps will not explode←←←"
-an_introduction.snbt,94,					"{atm9.quest.gregtech.desc.voltage.3}→→→Cables and wires will burn if given more amps than they are rated for←←←"
+an_introduction.snbt,90,					"{atm9.quest.gregtech.desc.voltage.1}"
+an_introduction.snbt,92,					"{atm9.quest.gregtech.desc.voltage.2}"
+an_introduction.snbt,94,					"{atm9.quest.gregtech.desc.voltage.3}"
 an_introduction.snbt,95,				]
-
-an_introduction.snbt,104,					title: "{atm9.quest.gregtech.amperage}→→→Amperage←←←"
+an_introduction.snbt,104,					title: "{atm9.quest.gregtech.amperage}"
 an_introduction.snbt,115,				description: [
-
-an_introduction.snbt,116,					"{atm9.quest.gregtech.desc.amperage.1}→→→Wires and cables are imperfect and lose some of the energy they transport in the form of heat←←←"
-an_introduction.snbt,118,					"{atm9.quest.gregtech.desc.amperage.2}→→→You can mitigate some of this loss by covering your wires in rubber to make cables←←←"
-an_introduction.snbt,120,					"{atm9.quest.gregtech.desc.amperage.3}→→→The exception here are superconductors! They have no energy loss←←←"
+an_introduction.snbt,116,					"{atm9.quest.gregtech.desc.amperage.1}"
+an_introduction.snbt,118,					"{atm9.quest.gregtech.desc.amperage.2}"
+an_introduction.snbt,120,					"{atm9.quest.gregtech.desc.amperage.3}"
 an_introduction.snbt,121,				]
-
-an_introduction.snbt,128,				subtitle: "{atm9.quest.gregtech.subt.measurement}→→→A meter = one block←←←"
-an_introduction.snbt,131,					title: "{atm9.quest.gregtech.voltageLoss}→→→Voltage Loss←←←"
+an_introduction.snbt,128,				subtitle: "{atm9.quest.gregtech.subt.measurement}"
+an_introduction.snbt,131,					title: "{atm9.quest.gregtech.voltageLoss}"
 an_introduction.snbt,139,				description: [
-
-an_introduction.snbt,140,					"{atm9.quest.gregtech.desc.voltageLoss.1}→→→You may have noticed that 4A of LV (32 EU/t/A) would be 128 EU/t←←←"
-an_introduction.snbt,142,					"{atm9.quest.gregtech.desc.voltageLoss.2}→→→1A of MV is also 128 EU/t←←←"
-an_introduction.snbt,144,					"{atm9.quest.gregtech.desc.voltageLoss.3}→→→Can they be exchanged? Kind of!←←←"
-an_introduction.snbt,146,					"{atm9.quest.gregtech.desc.voltageLoss.4}→→→The Electric Blast Furnace (EBF) is one example of this - two LV Energy Hatches can accept 2A of LV each, resulting in the EBF being able to process MV recipes! This is a key aspect to progressing up voltage tiers in GT.←←←"
-an_introduction.snbt,148,					"{atm9.quest.gregtech.desc.voltageLoss.5}→→→Alternatively, you have to craft a Voltage Transformer←←←"
+an_introduction.snbt,140,					"{atm9.quest.gregtech.desc.voltageLoss.1}"
+an_introduction.snbt,142,					"{atm9.quest.gregtech.desc.voltageLoss.2}"
+an_introduction.snbt,144,					"{atm9.quest.gregtech.desc.voltageLoss.3}"
+an_introduction.snbt,146,					"{atm9.quest.gregtech.desc.voltageLoss.4}"
+an_introduction.snbt,148,					"{atm9.quest.gregtech.desc.voltageLoss.5}"
 an_introduction.snbt,149,				]
-
-an_introduction.snbt,158,					title: "{atm9.quest.gregtech.voltageConversion}→→→Voltage Conversion←←←"
+an_introduction.snbt,158,					title: "{atm9.quest.gregtech.voltageConversion}"
 an_introduction.snbt,172,				description: [
-
-an_introduction.snbt,173,					"{atm9.quest.gregtech.desc.voltageConversion.1}→→→Tools can be made of MANY materials, the first of which could be iron!←←←"
-an_introduction.snbt,175,					"{atm9.quest.gregtech.desc.voltageConversion.2}→→→Tools can also be repaired in anvils using the same material of the tool itself, like any vanilla tool←←←"
-an_introduction.snbt,177,					"{atm9.quest.gregtech.desc.voltageConversion.3}→→→A &aHammer&r is used in manually crafting plates, which will be necessary for the next tools!←←←"
+an_introduction.snbt,173,					"{atm9.quest.gregtech.desc.voltageConversion.1}"
+an_introduction.snbt,175,					"{atm9.quest.gregtech.desc.voltageConversion.2}"
+an_introduction.snbt,177,					"{atm9.quest.gregtech.desc.voltageConversion.3}"
 an_introduction.snbt,178,				]
-
-an_introduction.snbt,187,				subtitle: "{atm9.quest.gregtech.subt.introduction}→→→An Introduction←←←"
-an_introduction.snbt,197,					title: "{atm9.quest.gregtech.anyGTHammer}→→→Any GT Hammer←←←"
-an_introduction.snbt,200,				title: "{atm9.quest.gregtech.tools}→→→Tools←←←"
+an_introduction.snbt,187,				subtitle: "{atm9.quest.gregtech.subt.introduction}"
+an_introduction.snbt,197,					title: "{atm9.quest.gregtech.anyGTHammer}"
+an_introduction.snbt,200,				title: "{atm9.quest.gregtech.tools}"
 an_introduction.snbt,206,				description: [
-
-an_introduction.snbt,207,					"{atm9.quest.gregtech.desc.tools.1}→→→The &aWrench&r is a crafting tool, sure, but it is also a mining tool for GT machines! Right clicking sets the output side of GT machines and crouch right clicking rotates them←←←"
-an_introduction.snbt,209,					"{atm9.quest.gregtech.desc.tools.2}→→→The &aFile&r is a crafting tool and that's all←←←"
-an_introduction.snbt,211,					"{atm9.quest.gregtech.desc.tools.3}→→→The &aSaw&r is yet another crafting tool, but it can also get you 6 planks from one log!←←←"
+an_introduction.snbt,207,					"{atm9.quest.gregtech.desc.tools.1}"
+an_introduction.snbt,209,					"{atm9.quest.gregtech.desc.tools.2}"
+an_introduction.snbt,211,					"{atm9.quest.gregtech.desc.tools.3}"
 an_introduction.snbt,212,				]
-
-an_introduction.snbt,230,						title: "{atm9.quest.gregtech.gtWrenches}→→→GT Wrenches←←←"
-an_introduction.snbt,242,						title: "{atm9.quest.gregtech.gtFiles}→→→GT Files←←←"
-an_introduction.snbt,254,						title: "{atm9.quest.gregtech.gtSaws}→→→GT Saws←←←"
-an_introduction.snbt,258,				title: "{atm9.quest.gregtech.handyTools}→→→Handy Tools←←←"
+an_introduction.snbt,230,						title: "{atm9.quest.gregtech.gtWrenches}"
+an_introduction.snbt,242,						title: "{atm9.quest.gregtech.gtFiles}"
+an_introduction.snbt,254,						title: "{atm9.quest.gregtech.gtSaws}"
+an_introduction.snbt,258,				title: "{atm9.quest.gregtech.handyTools}"
 an_introduction.snbt,264,				description: [
-
-an_introduction.snbt,265,					"{atm9.quest.gregtech.desc.handyTools.1}→→→&aScrewdrivers&r are a crafting tool and are used in special configuration of machines and Covers←←←"
-an_introduction.snbt,267,					"{atm9.quest.gregtech.desc.handyTools.2}→→→&aWire cutters&r are a crafting tool and right clicking on wires/cables will enable or disable connections to other blocks←←←"
-an_introduction.snbt,269,					"{atm9.quest.gregtech.desc.handyTools.3}→→→&aMortars&r are a crafting tool to grind things to dust←←←"
-an_introduction.snbt,271,					"{atm9.quest.gregtech.desc.handyTools.4}→→→&aKnives&r are also a crafting tool...←←←"
-an_introduction.snbt,273,					"{atm9.quest.gregtech.desc.handyTools.5}→→→&eSoft Mallets&r will pause and resume machines from working with right click←←←"
-an_introduction.snbt,275,					"{atm9.quest.gregtech.desc.handyTools.6}→→→&eCrowbars&r can be used to remove Covers from GT machines with a right click←←←"
-an_introduction.snbt,277,					"{atm9.quest.gregtech.desc.handyTools.7}→→→&eScythes&r can automatically break and re-plant crops in an area and doubles as a cool looking weapon!←←←"
-an_introduction.snbt,279,					"{atm9.quest.gregtech.desc.handyTools.8}→→→&ePlungers&r can clear stuck fluids from GT machines &c&l[NYI]&r&r←←←"
-an_introduction.snbt,281,					"{atm9.quest.gregtech.desc.handyTools.9}→→→&eButchery Knives&r have Looting III implicitly, useful for leather early on!←←←"
+an_introduction.snbt,265,					"{atm9.quest.gregtech.desc.handyTools.1}"
+an_introduction.snbt,267,					"{atm9.quest.gregtech.desc.handyTools.2}"
+an_introduction.snbt,269,					"{atm9.quest.gregtech.desc.handyTools.3}"
+an_introduction.snbt,271,					"{atm9.quest.gregtech.desc.handyTools.4}"
+an_introduction.snbt,273,					"{atm9.quest.gregtech.desc.handyTools.5}"
+an_introduction.snbt,275,					"{atm9.quest.gregtech.desc.handyTools.6}"
+an_introduction.snbt,277,					"{atm9.quest.gregtech.desc.handyTools.7}"
+an_introduction.snbt,279,					"{atm9.quest.gregtech.desc.handyTools.8}"
+an_introduction.snbt,281,					"{atm9.quest.gregtech.desc.handyTools.9}"
 an_introduction.snbt,282,			]
-
-an_introduction.snbt,291,				subtitle: "{atm9.quest.gregtech.subt.eventually}→→→You'll need these eventually for something←←←"
-an_introduction.snbt,302,						title: "{atm9.quest.gregtech.gtScrewdrivers}→→→GT Screwdrivers←←←"
-an_introduction.snbt,314,						title: "{atm9.quest.gregtech.gtWireCutters}→→→GT Wire Cutters←←←"
-an_introduction.snbt,326,						title: "{atm9.quest.gregtech.gtMortars}→→→GT Mortars←←←"
-an_introduction.snbt,338,						title: "{atm9.quest.gregtech.gtKnives}→→→GT Knives←←←"
-an_introduction.snbt,350,						title: "{atm9.quest.gregtech.gtMallets}→→→GT Mallets←←←"
-an_introduction.snbt,362,						title: "{atm9.quest.gregtech.gtCrowbars}→→→GT Crowbars←←←"
-an_introduction.snbt,374,						title: "{atm9.quest.gregtech.gtScythes}→→→GT Scythes←←←"
-an_introduction.snbt,386,						title: "{atm9.quest.gregtech.gtPlungers}→→→GT Plungers←←←"
-an_introduction.snbt,398,						title: "{atm9.quest.gregtech.gtButcheryKnives}→→→GT Butchery Knives←←←"
-an_introduction.snbt,402,				title: "{atm9.quest.gregtech.allTheTools}→→→All the tools!←←←"
+an_introduction.snbt,291,				subtitle: "{atm9.quest.gregtech.subt.eventually}"
+an_introduction.snbt,302,						title: "{atm9.quest.gregtech.gtScrewdrivers}"
+an_introduction.snbt,314,						title: "{atm9.quest.gregtech.gtWireCutters}"
+an_introduction.snbt,326,						title: "{atm9.quest.gregtech.gtMortars}"
+an_introduction.snbt,338,						title: "{atm9.quest.gregtech.gtKnives}"
+an_introduction.snbt,350,						title: "{atm9.quest.gregtech.gtMallets}"
+an_introduction.snbt,362,						title: "{atm9.quest.gregtech.gtCrowbars}"
+an_introduction.snbt,374,						title: "{atm9.quest.gregtech.gtScythes}"
+an_introduction.snbt,386,						title: "{atm9.quest.gregtech.gtPlungers}"
+an_introduction.snbt,398,						title: "{atm9.quest.gregtech.gtButcheryKnives}"
+an_introduction.snbt,402,				title: "{atm9.quest.gregtech.allTheTools}"
 an_introduction.snbt,407,				description: [
-
-an_introduction.snbt,408,					"{atm9.quest.gregtech.desc.allTheTools.1}→→→Ores generate in veins at varying heights spaced apart by every 3 chunks←←←"
-an_introduction.snbt,410,					"{atm9.quest.gregtech.desc.allTheTools.2}→→→Ore veins are often comprised of 3 or more different ores←←←"
-an_introduction.snbt,412,					"{atm9.quest.gregtech.desc.allTheTools.3}→→→All GT Ore veins were moved to the Mining Dimension from every other dimension←←←"
+an_introduction.snbt,408,					"{atm9.quest.gregtech.desc.allTheTools.1}"
+an_introduction.snbt,410,					"{atm9.quest.gregtech.desc.allTheTools.2}"
+an_introduction.snbt,412,					"{atm9.quest.gregtech.desc.allTheTools.3}"
 an_introduction.snbt,413,				]
+an_introduction.snbt,428,				title: "{atm9.quest.gregtech.overworldLayerOres}"
+an_introduction.snbt,436,				subtitle: "{atm9.quest.gregtech.subt.aluminium}"
+an_introduction.snbt,471,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,474,				title: "{atm9.quest.gregtech.bauxiteVein}"
+an_introduction.snbt,524,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,527,				title: "{atm9.quest.gregtech.magnetiteVein}"
 
-an_introduction.snbt,428,				title: "{atm9.quest.gregtech.overworldLayerOres}→→→Overworld Layer Ores←←←"
-an_introduction.snbt,436,				subtitle: "{atm9.quest.gregtech.subt.aluminium}→→→Aluminium be here←←←"
-an_introduction.snbt,471,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,474,				title: "{atm9.quest.gregtech.bauxiteVein}→→→Bauxite Vein←←←"
-an_introduction.snbt,524,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,527,				title: "{atm9.quest.gregtech.magnetiteVein}→→→Magnetite Vein←←←"
 
-
-an_introduction.snbt,535,				subtitle: "{atm9.quest.gregtech.subt.indeed}→→→Indeed←←←"
-an_introduction.snbt,562,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,565,				title: "{atm9.quest.gregtech.naquadahVein}→→→Naquadah Vein←←←"
-an_introduction.snbt,599,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,602,				title: "{atm9.quest.gregtech.pitchblendeVein}→→→Pitchblende Vein←←←"
-an_introduction.snbt,644,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,647,				title: "{atm9.quest.gregtech.scheeliteVein}→→→Scheelite Vein←←←"
-an_introduction.snbt,697,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,700,				title: "{atm9.quest.gregtech.sheldoniteVein}→→→Sheldonite Vein←←←"
-an_introduction.snbt,708,				subtitle: "{atm9.quest.gregtech.subt.ironVein}→→→Banded Iron Vein←←←"
-an_introduction.snbt,747,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,750,				title: "{atm9.quest.gregtech.goethiteVein}→→→Goethite Vein←←←"
-an_introduction.snbt,780,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,783,				title: "{atm9.quest.gregtech.berylliumVein}→→→Beryllium Vein←←←"
-an_introduction.snbt,817,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,820,				title: "{atm9.quest.gregtech.certusQuartzVein}→→→Certus Quartz Vein←←←"
-an_introduction.snbt,828,				subtitle: "{atm9.quest.gregtech.subt.manganeseSource}→→→A nutritious source of manganese←←←"
-an_introduction.snbt,863,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,866,				title: "{atm9.quest.gregtech.grossularVein}→→→Grossular Vein←←←"
-an_introduction.snbt,916,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,919,				title: "{atm9.quest.gregtech.molybdenumVein}→→→Molybdenum Vein←←←"
-an_introduction.snbt,953,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,956,				title: "{atm9.quest.gregtech.bastnasiteVein}→→→Bastnasite Vein←←←"
-an_introduction.snbt,982,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,985,				title: "{atm9.quest.gregtech.quartziteVein}→→→Quartzite Vein←←←"
-an_introduction.snbt,993,				subtitle: "{atm9.quest.gregtech.subt.redstoneYield}→→→5x redstone from one raw ore!←←←"
-an_introduction.snbt,1028,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1031,				title: "{atm9.quest.gregtech.redstoneVein}→→→Redstone Vein←←←"
-an_introduction.snbt,1081,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1084,				title: "{atm9.quest.gregtech.saltpeterVein}→→→Saltpeter Vein←←←"
-an_introduction.snbt,1126,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1129,				title: "{atm9.quest.gregtech.sulfurVein}→→→Sulfur Vein←←←"
-an_introduction.snbt,1163,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1166,				title: "{atm9.quest.gregtech.tetrahedriteVein}→→→Tetrahedrite Vein←←←"
-an_introduction.snbt,1212,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1215,				title: "{atm9.quest.gregtech.topazVein}→→→Topaz Vein←←←"
-an_introduction.snbt,1257,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1260,				title: "{atm9.quest.gregtech.apatiteVein}→→→Apatite Vein←←←"
-an_introduction.snbt,1286,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1289,				title: "{atm9.quest.gregtech.cassiteriteVein}→→→Cassiterite Vein←←←"
-an_introduction.snbt,1338,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1341,				title: "{atm9.quest.gregtech.chalcopyriteVein}→→→Chalcopyrite Vein←←←"
-an_introduction.snbt,1383,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1386,				title: "{atm9.quest.gregtech.galenaVein}→→→Galena Vein←←←"
-an_introduction.snbt,1428,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1431,				title: "{atm9.quest.gregtech.garnetSandVein}→→→Garnet Sand Vein←←←"
-an_introduction.snbt,1477,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1480,				title: "{atm9.quest.gregtech.garnetVein}→→→Garnet Vein←←←"
-an_introduction.snbt,1488,				subtitle: "{atm9.quest.gregtech.subt.ironContent}→→→Lots of iron in these ores←←←"
-an_introduction.snbt,1531,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1534,				title: "{atm9.quest.gregtech.goethiteVein}→→→Goethite Vein←←←"
-an_introduction.snbt,1542,				subtitle: "{atm9.quest.gregtech.subt.lubricantSource}→→→Useful for making lubricant←←←"
-an_introduction.snbt,1585,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1588,				title: "{atm9.quest.gregtech.soapstoneVein}→→→Soapstone Vein←←←"
-an_introduction.snbt,1622,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1625,				title: "{atm9.quest.gregtech.magnetiteVein}→→→Magnetite Vein←←←"
-an_introduction.snbt,1675,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1678,				title: "{atm9.quest.gregtech.mineralSandVein}→→→Mineral Sand Vein←←←"
-an_introduction.snbt,1692,				subtitle: "{atm9.quest.gregtech.subt.cobaltitePresence}→→→Cobaltite be here←←←"
-an_introduction.snbt,1719,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1722,				title: "{atm9.quest.gregtech.garnieriteVein}→→→Garnierite Vein←←←"
-an_introduction.snbt,1772,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1775,				title: "{atm9.quest.gregtech.saltsVein}→→→Salts Vein←←←"
-an_introduction.snbt,1790,				subtitle: "{atm9.quest.gregtech.subt.diamondPotential}→→→Diamonds may be hidden in here←←←"
-an_introduction.snbt,1809,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1812,				title: "{atm9.quest.gregtech.graphiteVein}→→→Graphite Vein←←←"
-an_introduction.snbt,1820,				subtitle: "{atm9.quest.gregtech.subt.lapisLocation}→→→Find these with some lapis←←←"
-an_introduction.snbt,1855,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1858,				title: "{atm9.quest.gregtech.lazuriteVein}→→→Lazurite Vein←←←"
-an_introduction.snbt,1908,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1911,				title: "{atm9.quest.gregtech.kyaniteVein}→→→Kyanite Vein←←←"
-an_introduction.snbt,1919,				subtitle: "{atm9.quest.gregtech.subt.goodManganeseSource}→→→Good for manganese←←←"
-an_introduction.snbt,1962,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,1965,				title: "{atm9.quest.gregtech.grossularVein}→→→Grossular Vein←←←"
-an_introduction.snbt,1999,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,2002,				title: "{atm9.quest.gregtech.bentoniteVein}→→→Bentonite Vein←←←"
-an_introduction.snbt,2036,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,2039,				title: "{atm9.quest.gregtech.cinnabarVein}→→→Cinnabar Vein←←←"
-an_introduction.snbt,2053,				subtitle: "{atm9.quest.gregtech.subt.sapphireSource}→→→Sapphires←←←"
-an_introduction.snbt,2096,					title: "{atm9.quest.gregtech.validOres}→→→Valid Ores←←←"
-an_introduction.snbt,2099,				title: "{atm9.quest.gregtech.almandineVein}→→→Almandine Vein←←←"
-an_introduction.snbt,2111,				description: ["{atm9.quest.gregtech.desc.oreFinder.1}→→→Need help finding ores? Make yourself one of these and charge it up by placing it in any machine's energy slot←←←"]
-an_introduction.snbt,2131,				description: ["{atm9.quest.gregtech.desc.fluidFinder.1}→→→Looking for fluids to unearth? This prospector has a fluid mode to help with just such a task!←←←"]
-an_introduction.snbt,2149,				description: ["{atm9.quest.gregtech.desc.oreFluidFinder.1}→→→The all in one, big battery, big range ore/fluid finder←←←"]
-an_introduction.snbt,2167,				description: ["{atm9.quest.gregtech.desc.oreFrequency.1}→→→Every 3 chunks you'll find another ore vein!←←←"]
-an_introduction.snbt,2178,					title: "{atm9.quest.gregtech.netherLayerOres1}→→→Nether Layer Ores←←←"
-an_introduction.snbt,2181,				title: "{atm9.quest.gregtech.netherLayerOres2}→→→Nether Layer Ores←←←"
-an_introduction.snbt,2186,				description: ["{atm9.quest.gregtech.desc.oreSpacing.1}→→→3 chunks apart, in case you didn't know that already←←←"]
-an_introduction.snbt,2197,					title: "{atm9.quest.gregtech.endLayerOres1}→→→End Layer Ores←←←"
-an_introduction.snbt,2200,				title: "{atm9.quest.gregtech.endLayerOres2}→→→End Layer Ores←←←"
+an_introduction.snbt,535,				subtitle: "{atm9.quest.gregtech.subt.indeed}"
+an_introduction.snbt,562,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,565,				title: "{atm9.quest.gregtech.naquadahVein}"
+an_introduction.snbt,599,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,602,				title: "{atm9.quest.gregtech.pitchblendeVein}"
+an_introduction.snbt,644,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,647,				title: "{atm9.quest.gregtech.scheeliteVein}"
+an_introduction.snbt,697,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,700,				title: "{atm9.quest.gregtech.sheldoniteVein}"
+an_introduction.snbt,708,				subtitle: "{atm9.quest.gregtech.subt.ironVein}"
+an_introduction.snbt,747,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,750,				title: "{atm9.quest.gregtech.goethiteVein}"
+an_introduction.snbt,780,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,783,				title: "{atm9.quest.gregtech.berylliumVein}"
+an_introduction.snbt,817,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,820,				title: "{atm9.quest.gregtech.certusQuartzVein}"
+an_introduction.snbt,828,				subtitle: "{atm9.quest.gregtech.subt.manganeseSource}"
+an_introduction.snbt,863,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,866,				title: "{atm9.quest.gregtech.grossularVein}"
+an_introduction.snbt,916,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,919,				title: "{atm9.quest.gregtech.molybdenumVein}"
+an_introduction.snbt,953,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,956,				title: "{atm9.quest.gregtech.bastnasiteVein}"
+an_introduction.snbt,982,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,985,				title: "{atm9.quest.gregtech.quartziteVein}"
+an_introduction.snbt,993,				subtitle: "{atm9.quest.gregtech.subt.redstoneYield}"
+an_introduction.snbt,1028,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1031,				title: "{atm9.quest.gregtech.redstoneVein}"
+an_introduction.snbt,1081,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1084,				title: "{atm9.quest.gregtech.saltpeterVein}"
+an_introduction.snbt,1126,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1129,				title: "{atm9.quest.gregtech.sulfurVein}"
+an_introduction.snbt,1163,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1166,				title: "{atm9.quest.gregtech.tetrahedriteVein}"
+an_introduction.snbt,1212,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1215,				title: "{atm9.quest.gregtech.topazVein}"
+an_introduction.snbt,1257,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1260,				title: "{atm9.quest.gregtech.apatiteVein}"
+an_introduction.snbt,1286,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1289,				title: "{atm9.quest.gregtech.cassiteriteVein}"
+an_introduction.snbt,1338,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1341,				title: "{atm9.quest.gregtech.chalcopyriteVein}"
+an_introduction.snbt,1383,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1386,				title: "{atm9.quest.gregtech.galenaVein}"
+an_introduction.snbt,1428,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1431,				title: "{atm9.quest.gregtech.garnetSandVein}"
+an_introduction.snbt,1477,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1480,				title: "{atm9.quest.gregtech.garnetVein}"
+an_introduction.snbt,1488,				subtitle: "{atm9.quest.gregtech.subt.ironContent}"
+an_introduction.snbt,1531,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1534,				title: "{atm9.quest.gregtech.goethiteVein}"
+an_introduction.snbt,1542,				subtitle: "{atm9.quest.gregtech.subt.lubricantSource}"
+an_introduction.snbt,1585,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1588,				title: "{atm9.quest.gregtech.soapstoneVein}"
+an_introduction.snbt,1622,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1625,				title: "{atm9.quest.gregtech.magnetiteVein}"
+an_introduction.snbt,1675,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1678,				title: "{atm9.quest.gregtech.mineralSandVein}"
+an_introduction.snbt,1692,				subtitle: "{atm9.quest.gregtech.subt.cobaltitePresence}"
+an_introduction.snbt,1719,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1722,				title: "{atm9.quest.gregtech.garnieriteVein}"
+an_introduction.snbt,1772,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1775,				title: "{atm9.quest.gregtech.saltsVein}"
+an_introduction.snbt,1790,				subtitle: "{atm9.quest.gregtech.subt.diamondPotential}"
+an_introduction.snbt,1809,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1812,				title: "{atm9.quest.gregtech.graphiteVein}"
+an_introduction.snbt,1820,				subtitle: "{atm9.quest.gregtech.subt.lapisLocation}"
+an_introduction.snbt,1855,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1858,				title: "{atm9.quest.gregtech.lazuriteVein}"
+an_introduction.snbt,1908,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1911,				title: "{atm9.quest.gregtech.kyaniteVein}"
+an_introduction.snbt,1919,				subtitle: "{atm9.quest.gregtech.subt.goodManganeseSource}"
+an_introduction.snbt,1962,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,1965,				title: "{atm9.quest.gregtech.grossularVein}"
+an_introduction.snbt,1999,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,2002,				title: "{atm9.quest.gregtech.bentoniteVein}"
+an_introduction.snbt,2036,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,2039,				title: "{atm9.quest.gregtech.cinnabarVein}"
+an_introduction.snbt,2053,				subtitle: "{atm9.quest.gregtech.subt.sapphireSource}"
+an_introduction.snbt,2096,					title: "{atm9.quest.gregtech.validOres}"
+an_introduction.snbt,2099,				title: "{atm9.quest.gregtech.almandineVein}"
+an_introduction.snbt,2111,				description: ["{atm9.quest.gregtech.desc.oreFinder.1}"]
+an_introduction.snbt,2131,				description: ["{atm9.quest.gregtech.desc.fluidFinder.1}"]
+an_introduction.snbt,2149,				description: ["{atm9.quest.gregtech.desc.oreFluidFinder.1}"]
+an_introduction.snbt,2167,				description: ["{atm9.quest.gregtech.desc.oreFrequency.1}"]
+an_introduction.snbt,2178,					title: "{atm9.quest.gregtech.netherLayerOres1}"
+an_introduction.snbt,2181,				title: "{atm9.quest.gregtech.netherLayerOres2}"
+an_introduction.snbt,2186,				description: ["{atm9.quest.gregtech.desc.oreSpacing.1}"]
+an_introduction.snbt,2197,					title: "{atm9.quest.gregtech.endLayerOres1}"
+an_introduction.snbt,2200,				title: "{atm9.quest.gregtech.endLayerOres2}"
 steam_age.snbt,13,				description: [
-
-steam_age.snbt,14,					"{atm9.quest.gregtech.desc.steamAgeIntro.1}→→→Welcome to the Steam Age! Steam machines can process any recipe in JEI up to &e&lUsage: 32 EU/t (LV)&r&r←←←"
-steam_age.snbt,16,					"{atm9.quest.gregtech.desc.steamAgeIntro.2}→→→There are High Pressure and Low Pressure variants of machines. Low Pressure machines will take twice as long to process a recipe but consume less steam.←←←"
-steam_age.snbt,18,					"{atm9.quest.gregtech.desc.steamAgeIntro.3}→→→&l&4NOTE:&r&r After every recipe, &n&6steam machines need to vent the used steam&r ←←←"
-steam_age.snbt,20,					"{atm9.quest.gregtech.desc.steamAgeIntro.4}→→→By default the vent is located on the back, but with your handy-dandy &bwrench&r you can change which side the exhaust port faces! ←←←"
-steam_age.snbt,22,					"{atm9.quest.gregtech.desc.steamAgeIntro.5}→→→If the exhaust port is blocked, then the machine will fail to vent and stop working.←←←"
+steam_age.snbt,14,					"{atm9.quest.gregtech.desc.steamAgeIntro.1}"
+steam_age.snbt,16,					"{atm9.quest.gregtech.desc.steamAgeIntro.2}"
+steam_age.snbt,18,					"{atm9.quest.gregtech.desc.steamAgeIntro.3}"
+steam_age.snbt,20,					"{atm9.quest.gregtech.desc.steamAgeIntro.4}"
+steam_age.snbt,22,					"{atm9.quest.gregtech.desc.steamAgeIntro.5}"
 steam_age.snbt,23,				]
-
-steam_age.snbt,35,				subtitle: "{atm9.quest.gregtech.subt.steamAgeBegin}→→→And so it begins←←←"
-steam_age.snbt,46,					title: "{atm9.quest.gregtech.bronzePlate}→→→Bronze Plate←←←"
-steam_age.snbt,49,				title: "{atm9.quest.gregtech.theSteamAge}→→→The Steam Age←←←"
+steam_age.snbt,35,				subtitle: "{atm9.quest.gregtech.subt.steamAgeBegin}"
+steam_age.snbt,46,					title: "{atm9.quest.gregtech.bronzePlate}"
+steam_age.snbt,49,				title: "{atm9.quest.gregtech.theSteamAge}"
 steam_age.snbt,55,				description: [
-
-steam_age.snbt,56,					"{atm9.quest.gregtech.desc.boilerOperation.1}→→→Give the &eBoiler&r some &bwater&r, input a &6fuel source&r, watch it heat up, and it will start creating &7steam&r!←←←"
-steam_age.snbt,58,					"{atm9.quest.gregtech.desc.boilerOperation.2}→→→You could use any kind of water source, like a &dSink&r connected with a &aFluid Pipe&r from Pipez!←←←"
-steam_age.snbt,60,					"{atm9.quest.gregtech.desc.boilerOperation.3}→→→It is very important you put the water in first, as water piped into an already hot boiler will make the boiler &c&lexplode&r&r←←←"
-steam_age.snbt,62,					"{atm9.quest.gregtech.desc.boilerOperation.4}→→→A solid boiler uses solid fuels like coal, whereas the liquid boiler uses liquid fuels like lava.←←←"
+steam_age.snbt,56,					"{atm9.quest.gregtech.desc.boilerOperation.1}"
+steam_age.snbt,58,					"{atm9.quest.gregtech.desc.boilerOperation.2}"
+steam_age.snbt,60,					"{atm9.quest.gregtech.desc.boilerOperation.3}"
+steam_age.snbt,62,					"{atm9.quest.gregtech.desc.boilerOperation.4}"
 steam_age.snbt,63,				]
-
-steam_age.snbt,81,				subtitle: "{atm9.quest.gregtech.subt.gettingSteamy}→→→Gettin' steamy←←←"
-steam_age.snbt,108,					title: "{atm9.quest.gregtech.anySteamBoiler}→→→Any Steam Boiler←←←"
-steam_age.snbt,111,				title: "{atm9.quest.gregtech.steamBoiler}→→→Steam Boiler←←←"
+steam_age.snbt,81,				subtitle: "{atm9.quest.gregtech.subt.gettingSteamy}"
+steam_age.snbt,108,					title: "{atm9.quest.gregtech.anySteamBoiler}"
+steam_age.snbt,111,				title: "{atm9.quest.gregtech.steamBoiler}"
 steam_age.snbt,117,				description: [
-
-steam_age.snbt,118,					"{atm9.quest.gregtech.desc.steamTransfer.1}→→→Now that you have steam, you need something to transfer it around!←←←"
-steam_age.snbt,120,					"{atm9.quest.gregtech.desc.steamTransfer.2}→→→Placing these will allow you to transfer steam from your boiler to a machine←←←"
-steam_age.snbt,122,					"{atm9.quest.gregtech.desc.steamTransfer.3}→→→Use a &bwrench&r to add or remove connections as necessary←←←"
+steam_age.snbt,118,					"{atm9.quest.gregtech.desc.steamTransfer.1}"
+steam_age.snbt,120,					"{atm9.quest.gregtech.desc.steamTransfer.2}"
+steam_age.snbt,122,					"{atm9.quest.gregtech.desc.steamTransfer.3}"
 steam_age.snbt,123,				]
-
 steam_age.snbt,142,				description: [
-
-steam_age.snbt,143,					"{atm9.quest.gregtech.desc.fluidIngotProcessing.1}→→→This machine will turn ingots into their fluid form←←←"
-steam_age.snbt,145,					"{atm9.quest.gregtech.desc.fluidIngotProcessing.2}→→→It can also process some items into pulp, like sticky resin into raw rubber pulp←←←"
+steam_age.snbt,143,					"{atm9.quest.gregtech.desc.fluidIngotProcessing.1}"
+steam_age.snbt,145,					"{atm9.quest.gregtech.desc.fluidIngotProcessing.2}"
 steam_age.snbt,146,				]
-
-steam_age.snbt,154,				subtitle: "{atm9.quest.gregtech.subt.fluidsAndMore}→→→Fluids and more←←←"
+steam_age.snbt,154,				subtitle: "{atm9.quest.gregtech.subt.fluidsAndMore}"
 steam_age.snbt,165,				description: [
-
-steam_age.snbt,166,					"{atm9.quest.gregtech.desc.maceratorIntro.1}→→→The macerator is the first step in ore processing, but we'll come back to that later←←←"
-steam_age.snbt,168,					"{atm9.quest.gregtech.desc.maceratorIntro.2}→→→For now, we need wood dust, so throw some wood in here and grind them up←←←"
+steam_age.snbt,166,					"{atm9.quest.gregtech.desc.maceratorIntro.1}"
+steam_age.snbt,168,					"{atm9.quest.gregtech.desc.maceratorIntro.2}"
 steam_age.snbt,169,				]
-
-steam_age.snbt,177,				subtitle: "{atm9.quest.gregtech.subt.crushingAndGrinding}→→→Crushing and grinding←←←"
+steam_age.snbt,177,				subtitle: "{atm9.quest.gregtech.subt.crushingAndGrinding}"
 steam_age.snbt,188,				description: [
-
-steam_age.snbt,189,					"{atm9.quest.gregtech.desc.crushingAndGrinding.1}→→→This machine compresses things←←←"
-steam_age.snbt,191,					"{atm9.quest.gregtech.desc.crushingAndGrinding.2}→→→You can turn plant matter into plant balls, those may come in handy later←←←"
-steam_age.snbt,193,					"{atm9.quest.gregtech.desc.crushingAndGrinding.3}→→→You can also take wood dust and compress it into wooden plates←←←"
+steam_age.snbt,189,					"{atm9.quest.gregtech.desc.crushingAndGrinding.1}"
+steam_age.snbt,191,					"{atm9.quest.gregtech.desc.crushingAndGrinding.2}"
+steam_age.snbt,193,					"{atm9.quest.gregtech.desc.crushingAndGrinding.3}"
 steam_age.snbt,194,				]
-
-steam_age.snbt,202,				subtitle: "{atm9.quest.gregtech.subt.pressItRealGood}→→→Press it real good←←←"
+steam_age.snbt,202,				subtitle: "{atm9.quest.gregtech.subt.pressItRealGood}"
 steam_age.snbt,213,				description: [
-
-steam_age.snbt,214,					"{atm9.quest.gregtech.desc.forgeHammerUsage.1}→→→Forge Hammers can turn rods into long rods or ingots into plates, among other things←←←"
-steam_age.snbt,216,					"{atm9.quest.gregtech.desc.forgeHammerUsage.2}→→→There are other, cheaper ways to make long rods and plates, but they come later←←←"
+steam_age.snbt,214,					"{atm9.quest.gregtech.desc.forgeHammerUsage.1}"
+steam_age.snbt,216,					"{atm9.quest.gregtech.desc.forgeHammerUsage.2}"
 steam_age.snbt,217,				]
-
-steam_age.snbt,227,				subtitle: "{atm9.quest.gregtech.subt.usefulForSquishing}→→→Useful for squishing things←←←"
-steam_age.snbt,238,				description: ["{atm9.quest.gregtech.desc.usefulForSquishing}→→→This bad boy is just a furnace that operates on steam←←←"]
-steam_age.snbt,248,				subtitle: "{atm9.quest.gregtech.subt.furnacesForEveryOccasion}→→→Furnaces for every occasion←←←"
+steam_age.snbt,227,				subtitle: "{atm9.quest.gregtech.subt.usefulForSquishing}"
+steam_age.snbt,238,				description: ["{atm9.quest.gregtech.desc.usefulForSquishing}"]
+steam_age.snbt,248,				subtitle: "{atm9.quest.gregtech.subt.furnacesForEveryOccasion}"
 steam_age.snbt,259,				description: [
-
-steam_age.snbt,260,					"{atm9.quest.gregtech.desc.alloySmelterUsage.1}→→→The alloy smelter allows you to make alloys of various materials←←←"
-steam_age.snbt,262,					"{atm9.quest.gregtech.desc.alloySmelterUsage.2}→→→It can also use casting molds to make materials into certain forms, like glass dust into a glass tube←←←"
-steam_age.snbt,264,					"{atm9.quest.gregtech.desc.alloySmelterUsage.3}→→→The casting molds can be reused and swapped out depending on what you are making←←←"
-steam_age.snbt,266,					"{atm9.quest.gregtech.desc.alloySmelterUsage.4}→→→When automating make sure you remove the casting mold from your pattern, also it can be helpful to make multiple of these so you do not need to manually swap molds around←←←"
+steam_age.snbt,260,					"{atm9.quest.gregtech.desc.alloySmelterUsage.1}"
+steam_age.snbt,262,					"{atm9.quest.gregtech.desc.alloySmelterUsage.2}"
+steam_age.snbt,264,					"{atm9.quest.gregtech.desc.alloySmelterUsage.3}"
+steam_age.snbt,266,					"{atm9.quest.gregtech.desc.alloySmelterUsage.4}"
 steam_age.snbt,267,				]
 steam_age.snbt,285,				description: [
-steam_age.snbt,286,					"{atm9.quest.gregtech.desc.stoneCreation.1}→→→Setting this machine up with lava on one side and water on another allows you to create either stone or cobblestone←←←"
-steam_age.snbt,288,					"{atm9.quest.gregtech.desc.stoneCreation.2}→→→At later tiers you can create any stone variant, even obsidian at HV!←←←"
+steam_age.snbt,286,					"{atm9.quest.gregtech.desc.stoneCreation.1}"
+steam_age.snbt,288,					"{atm9.quest.gregtech.desc.stoneCreation.2}"
 steam_age.snbt,289,				]
 steam_age.snbt,314,				description: [
-
-steam_age.snbt,315,					"{atm9.quest.gregtech.desc.lvMachines.1}→→→All LV Machines are gated behind this circuit←←←"
-steam_age.snbt,317,					"{atm9.quest.gregtech.desc.lvMachines.2}→→→It is recommended that you keep your steam machines around, as they'll still be useful in the next chapter←←←"
-steam_age.snbt,319,					"{atm9.quest.gregtech.desc.lvMachines.3}→→→Why does this quest require 32 circuits to complete? Well, this is due to a concept called Batch Crafting - rather than just craft one it is often better to craft many more than that to prepare for the upcoming crafts←←←"
-steam_age.snbt,321,					"{atm9.quest.gregtech.desc.lvMachines.4}→→→If you've been automating as you go along, good! You can utilize something like a ME Requester/Requester for AE2/RS to keep a specified number of any item in your system - I'd recommend doing this with various crafting components (e.g. rubber and sticky resin) and adding to it as you progress through the chapters←←←"
+steam_age.snbt,315,					"{atm9.quest.gregtech.desc.lvMachines.1}"
+steam_age.snbt,317,					"{atm9.quest.gregtech.desc.lvMachines.2}"
+steam_age.snbt,319,					"{atm9.quest.gregtech.desc.lvMachines.3}"
+steam_age.snbt,321,					"{atm9.quest.gregtech.desc.lvMachines.4}"
 steam_age.snbt,322,				]
-
-steam_age.snbt,349,				subtitle: "{atm9.quest.gregtech.subt.finalBossSteam}→→→The final boss of STEAM←←←"
+steam_age.snbt,349,				subtitle: "{atm9.quest.gregtech.subt.finalBossSteam}"
 steam_age.snbt,360,				description: [
-
-steam_age.snbt,361,					"{atm9.quest.gregtech.desc.rubberFarming.1}→→→Find and farm rubber trees to get yourself some sticky resin←←←"
-steam_age.snbt,363,					"{atm9.quest.gregtech.desc.rubberFarming.2}→→→Alternatively, slime balls smelted in a furnace will get you some←←←"
+steam_age.snbt,361,					"{atm9.quest.gregtech.desc.rubberFarming.1}"
+steam_age.snbt,363,					"{atm9.quest.gregtech.desc.rubberFarming.2}"
 steam_age.snbt,364,				]
-
-steam_age.snbt,390,				subtitle: "{atm9.quest.gregtech.subt.slimeFarm}→→→Slime farm?←←←"
+steam_age.snbt,390,				subtitle: "{atm9.quest.gregtech.subt.slimeFarm}"
 steam_age.snbt,404,				description: [
-
-steam_age.snbt,405,					"{atm9.quest.gregtech.desc.rubberTreeUses.1}→→→All parts of the rubber tree can be extracted into raw rubber pulp←←←"
-steam_age.snbt,407,					"{atm9.quest.gregtech.desc.rubberTreeUses.2}→→→As well as slime balls!←←←"
+steam_age.snbt,405,					"{atm9.quest.gregtech.desc.rubberTreeUses.1}"
+steam_age.snbt,407,					"{atm9.quest.gregtech.desc.rubberTreeUses.2}"
 steam_age.snbt,408,				]
-
 steam_age.snbt,427,				description: [
-
-steam_age.snbt,428,					"{atm9.quest.gregtech.desc.glassTubeCreation.1}→→→Smash some glass with a hammer and alloy smelt the dust with a casting mold to make a glass tube←←←"
-steam_age.snbt,430,					"{atm9.quest.gregtech.desc.glassTubeCreation.2}→→→You can get steel ingots by smelting steel dust, made by mixing iron dust with coal←←←"
+steam_age.snbt,428,					"{atm9.quest.gregtech.desc.glassTubeCreation.1}"
+steam_age.snbt,430,					"{atm9.quest.gregtech.desc.glassTubeCreation.2}"
 steam_age.snbt,431,				]
-
-steam_age.snbt,453,				title: "{atm9.quest.gregtech.glassTube}→→→Glass Tube←←←"
-steam_age.snbt,459,				description: ["{atm9.quest.gregtech.desc.crtTelevisions}→→→Does anyone remember those old CRT televisions anymore? Those things used vacuum tubes←←←"]
-steam_age.snbt,486,				description: ["{atm9.quest.gregtech.desc.resistorCrafting}→→→Don't worry, you don't need to craft resistors with different resistances←←←"]
-steam_age.snbt,503,				subtitle: "{atm9.quest.gregtech.subt.ohmmmm}→→→Ohmmmm←←←"
+steam_age.snbt,453,				title: "{atm9.quest.gregtech.glassTube}"
+steam_age.snbt,459,				description: ["{atm9.quest.gregtech.desc.crtTelevisions}"]
+steam_age.snbt,486,				description: ["{atm9.quest.gregtech.desc.resistorCrafting}"]
+steam_age.snbt,503,				subtitle: "{atm9.quest.gregtech.subt.ohmmmm}"
 steam_age.snbt,517,				description: [
-
-steam_age.snbt,518,					"{atm9.quest.gregtech.desc.sulfurAcquisition.1}→→→You can find sulfur ore in the nether and then smelt it to get sulfur dust. There are also bees!←←←"
-steam_age.snbt,520,					"{atm9.quest.gregtech.desc.sulfurAcquisition.2}→→→Put your raw rubber pulp and sulfur dust into an alloy smelter and get your first bit of rubber←←←"
+steam_age.snbt,518,					"{atm9.quest.gregtech.desc.sulfurAcquisition.1}"
+steam_age.snbt,520,					"{atm9.quest.gregtech.desc.sulfurAcquisition.2}"
 steam_age.snbt,521,				]
-
-steam_age.snbt,548,						title: "{atm9.quest.gregtech.sulfurDust}→→→Sulfur Dust←←←"
-steam_age.snbt,557,				title: "{atm9.quest.gregtech.rubber}→→→Rubber←←←"
-steam_age.snbt,566,				description: ["{atm9.quest.gregtech.desc.woodenDustCompression}→→→Compress wooden dust into plate form←←←"]
-steam_age.snbt,574,				subtitle: "{atm9.quest.gregtech.subt.plywood}→→→Is this plywood?←←←"
-steam_age.snbt,585,				description: ["{atm9.quest.gregtech.desc.woodDustProduction}→→→Macerating wood logs gives a good amount of wood dust per log←←←"]
+steam_age.snbt,548,						title: "{atm9.quest.gregtech.sulfurDust}"
+steam_age.snbt,557,				title: "{atm9.quest.gregtech.rubber}"
+steam_age.snbt,566,				description: ["{atm9.quest.gregtech.desc.woodenDustCompression}"]
+steam_age.snbt,574,				subtitle: "{atm9.quest.gregtech.subt.plywood}"
+steam_age.snbt,585,				description: ["{atm9.quest.gregtech.desc.woodDustProduction}"]
 steam_age.snbt,604,				description: [
-
-steam_age.snbt,605,					"{atm9.quest.gregtech.desc.rubberSheetProduction.1}→→→Two rubber ingots and the casting mold in the alloy smelter will make sheets of rubber←←←"
-steam_age.snbt,607,					"{atm9.quest.gregtech.desc.rubberSheetProduction.2}→→→These will come in handy when you need to start coating wires in rubber to make cables←←←"
+steam_age.snbt,605,					"{atm9.quest.gregtech.desc.rubberSheetProduction.1}"
+steam_age.snbt,607,					"{atm9.quest.gregtech.desc.rubberSheetProduction.2}"
 steam_age.snbt,608,				]
-
-steam_age.snbt,654,				description: ["{atm9.quest.gregtech.desc.breadboards}→→→And here I thought we'd be using breadboards←←←"]
+steam_age.snbt,654,				description: ["{atm9.quest.gregtech.desc.breadboards}"]
 steam_age.snbt,672,				description: [
-
-steam_age.snbt,673,					"{atm9.quest.gregtech.desc.automationAdvice.1}→→→Rather than live in a crafting grid making plates and wires, it is often easier to automate these←←←"
-steam_age.snbt,675,					"{atm9.quest.gregtech.desc.automationAdvice.2}→→→&5Applied Energistics&r can handle this nicely when you set \"Use Substitutions\" to Yes←←←"
-steam_age.snbt,676,					"{atm9.quest.gregtech.desc.automationAdvice.3}→→→&eNote:&r If you find channels limiting, consider setting the channelmode to 4x or infinite with the following commands (you'll need OP on a server or cheats enabled on singleplayer)←←←"
-steam_age.snbt,677,					"{atm9.quest.gregtech.desc.automationAdvice.4}→→→&o/ae2 channelmode x4&r←←←"
-steam_age.snbt,678,					"{atm9.quest.gregtech.desc.automationAdvice.5}→→→&o/ae2 channelmode infinite&r←←←"
-steam_age.snbt,680,					"{atm9.quest.gregtech.desc.automationAdvice.6}→→→&bRefined Storage&r struggles in this regard because it will not use the same tool twice due to NBT←←←"
-steam_age.snbt,682,					"{atm9.quest.gregtech.desc.automationAdvice.7}→→→An alternative here could be to set up your autocrafting in something like an &aRFTools Crafter&r←←←"
-steam_age.snbt,684,					"{atm9.quest.gregtech.desc.automationAdvice.8}→→→Automation is highly recommended, especially when we begin dealing with fluids←←←"
-steam_age.snbt,686,					"{atm9.quest.gregtech.desc.automationAdvice.9}→→→You can set &6LV+ Machines&r to automatically output back into a pattern provider, just be sure to toggle the \"Allow Inputs from Output Side\" setting in the GUI. Steam machines aren't smart enough to auto output, so you'll need something to &cimport&r back into the system for now←←←"
+steam_age.snbt,673,					"{atm9.quest.gregtech.desc.automationAdvice.1}"
+steam_age.snbt,675,					"{atm9.quest.gregtech.desc.automationAdvice.2}"
+steam_age.snbt,676,					"{atm9.quest.gregtech.desc.automationAdvice.3}"
+steam_age.snbt,677,					"{atm9.quest.gregtech.desc.automationAdvice.4}"
+steam_age.snbt,678,					"{atm9.quest.gregtech.desc.automationAdvice.5}"
+steam_age.snbt,680,					"{atm9.quest.gregtech.desc.automationAdvice.6}"
+steam_age.snbt,682,					"{atm9.quest.gregtech.desc.automationAdvice.7}"
+steam_age.snbt,684,					"{atm9.quest.gregtech.desc.automationAdvice.8}"
+steam_age.snbt,686,					"{atm9.quest.gregtech.desc.automationAdvice.9}"
 steam_age.snbt,687,				]
-
-steam_age.snbt,697,					title: "{atm9.quest.gregtech.automation}→→→Automation←←←"
-steam_age.snbt,705,				description: ["{atm9.quest.gregtech.desc.copperIngotCrafting}→→→One &6Copper Ingot&r and four &cRedstone Dust&r in the &eAlloy Smelter&r creates this lovely ingot←←←"]
-steam_age.snbt,726,				description: ["{atm9.quest.gregtech.desc.redAlloyCableCrafting}→→→Red Alloy Cable is an integral part of crafting the &bLV Circuit&r and getting out of the Steam Age←←←"]
+steam_age.snbt,697,					title: "{atm9.quest.gregtech.automation}"
+steam_age.snbt,705,				description: ["{atm9.quest.gregtech.desc.copperIngotCrafting}"]
+steam_age.snbt,726,				description: ["{atm9.quest.gregtech.desc.redAlloyCableCrafting}"]
