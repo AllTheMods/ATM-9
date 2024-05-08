@@ -34,7 +34,7 @@ low_voltage.snbt,202,				]
 low_voltage.snbt,220,				description: ["{atm9.quest.gregtech.desc.rodProduction.1}:For all your rod production needs!"]
 low_voltage.snbt,230,				subtitle: "{atm9.quest.gregtech.subt.goodOldRod}:Good ol' rod"
 low_voltage.snbt,241,				description: ["{atm9.quest.gregtech.desc.centrifugeUsage.1}:The centrifuge lets you separate compounds into their respective materials by spinning very fast"]
-low_voltage.snbt,249,				subtitle: "{atm9.quest.gregtech.subt.yourSpinMeRound}:You spin me right round"
+low_voltage.snbt,249,				subtitle: "$$${atm9.quest.gregtech.subt.spinMeRound}:You spin me right round"
 low_voltage.snbt,264,				description: [
 low_voltage.snbt,265,					"{atm9.quest.gregtech.desc.diodeReach.1}:Finally, the diode is within reach"
 low_voltage.snbt,267,					"{atm9.quest.gregtech.desc.diodeReach.2}:You'll need to turn this into small piles of gallium arsenide dust, or set up a recipe to do that for you"
@@ -187,9 +187,9 @@ circuits.snbt,616,					title: "{atm9.quest.gregtech.steelIngot}:Steel Ingot"
 circuits.snbt,635,					title: "{atm9.quest.gregtech.aluminiumIngot}:Aluminium Ingot"
 circuits.snbt,654,					title: "{atm9.quest.gregtech.galliumIngot}:Gallium Ingot"
 circuits.snbt,714,					title: "{atm9.quest.gregtech.hvBattery}:HV Battery"
-circuits.snbt,899,					title: "{atm9.quest.gregtech.titaniumIngot}:Titanium Ingot"
-circuits.snbt,918,					title: "{atm9.quest.gregtech.platinumIngot}:Platinum Ingot"
-circuits.snbt,992,					title: "{atm9.quest.gregtech.tungstenIngot}:Tungsten Ingot"
+circuits.snbt,899,					title: "$$${atm9.quest.gregtech.titaniumIngot}:Titanium Ingot"
+circuits.snbt,918,					title: "$$${atm9.quest.gregtech.platinumIngot}:Platinum Ingot"
+circuits.snbt,992,					title: "$$${atm9.quest.gregtech.tungstenIngot}:Tungsten Ingot"
 circuits.snbt,999,				description: [
 circuits.snbt,1000,					"{atm9.quest.gregtech.desc.voltageTierColumn}:Each column corresponds to the voltage tier"
 circuits.snbt,1002,					"{atm9.quest.gregtech.desc.voltageTierRow}:Each row corresponds to what voltage tier the circuit can be crafted in"
