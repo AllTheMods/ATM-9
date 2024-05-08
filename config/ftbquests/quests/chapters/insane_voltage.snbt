@@ -784,7 +784,7 @@
 				""
 				"{atm9.quest.gregtech.desc.advancedSMDCapacitor.2}"
 				""
-				"{atm9.quest.gregtech.desc.rarestMetalMixtureGuide.1}"
+				" {\"clickEvent\": {\"action\": \"change_page\", \"value\": \"2EE52FD7129D3D87\"}, \"text\": \"How to: Rarest Metal Mixture\", \"color\": \"yellow\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here to open the quest!\" } }}"
 			]
 			id: "599BABC83E76A711"
 			rewards: [
@@ -845,7 +845,7 @@
 				"64F77D41B2D057B8"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.needLaminatedGlass.1}"
+				"[ \"You'll need \", { \"text\": \"Laminated Glass\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0907800ED4793F96\" } }, \" to make this\" ]"
 				""
 				"{atm9.quest.gregtech.desc.makeHSSVariants.1}"
 			]
@@ -1458,7 +1458,7 @@
 		}
 		{
 			dependencies: ["7E407CDBFD85E65F"]
-			description: ["{atm9.quest.gregtech.desc.aceticAcidProcess.1}"]
+			description: ["[ \"Some \", { \"text\": \"Acetic Acid\", \"underlined\": \"true\", \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7E407CDBFD85E65F\" }, \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for the Acetic Acid quest\" } } }, \" and Calcite Dust in a \", { \"text\": \"Chemical Reactor\", \"color\":\"yellow\" }, \" will get you this\" ]"]
 			hide_dependency_lines: true
 			id: "646918F4D700749B"
 			rewards: [{

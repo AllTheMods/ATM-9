@@ -1341,7 +1341,7 @@
 			description: [
 				"{atm9.quest.gregtech.desc.newOreProcessing.1}"
 				""
-				"{atm9.quest.gregtech.desc.newOreProcessing.2}"
+				"[ \"\", { \"text\": \"The \" }, { \"text\": \"Sifter \", \"color\":\"yellow\" }, { \"text\": \"replaces the Thermal Centrifuge and 2nd Macerator in the \" }, { \"text\":\"Ore Processing Setup\", \"color\":\"gold\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"25DBFE887B041E94\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } } ]"
 				""
 				"{atm9.quest.gregtech.desc.newOreProcessing.3}"
 			]

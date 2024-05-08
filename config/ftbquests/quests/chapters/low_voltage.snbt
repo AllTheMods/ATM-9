@@ -11,11 +11,11 @@
 	quests: [
 		{
 			description: [
-				"Upgrading your machines will grant you access to new recipes and increase their processing speed"
+				"{atm9.quest.gregtech.desc.machineUpgrade.1}"
 				""
-				"This is called &boverclocking&r and can be configured in the GUI of the machine if you do not want to overclock (to conserve power for example)"
+				"{atm9.quest.gregtech.desc.machineUpgrade.2}"
 				""
-				"Overclocking a recipe results in it processing twice as fast but using four times as much power - overall this means twice as much energy is used"
+				"{atm9.quest.gregtech.desc.machineUpgrade.3}"
 			]
 			id: "5C1BB559DD83E88F"
 			rewards: [
@@ -35,7 +35,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Welcome to &7LV&r"
+			subtitle: "{atm9.quest.gregtech.subt.welcomeLV}"
 			tasks: [{
 				id: "08EA6CE798092CE9"
 				item: "gtceu:basic_electronic_circuit"
@@ -50,9 +50,9 @@
 				"7480A00B82C5DDB5"
 			]
 			description: [
-				"You've been remembering to batch craft things, right?"
+				"{atm9.quest.gregtech.desc.batchCrafting.1}"
 				""
-				"I'll give you a pass this time and assume you have"
+				"{atm9.quest.gregtech.desc.batchCrafting.2}"
 			]
 			id: "4D6885EFA4EE272F"
 			rewards: [
@@ -72,7 +72,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Onwards to MV!"
+			subtitle: "{atm9.quest.gregtech.subt.onwardsMV}"
 			tasks: [{
 				id: "312B4A8B539DCD5D"
 				item: "gtceu:good_electronic_circuit"
@@ -84,9 +84,9 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"With a wiremill you can turn an ingot into two 1x wires"
+				"{atm9.quest.gregtech.desc.wiremillUsage.1}"
 				""
-				"This also unlocks cheaper fine wire recipes"
+				"{atm9.quest.gregtech.desc.wiremillUsage.2}"
 			]
 			id: "2A26032DC9C8CFD6"
 			optional: true
@@ -97,7 +97,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Cheaper wires"
+			subtitle: "{atm9.quest.gregtech.subt.cheaperWires}"
 			tasks: [{
 				id: "570680D6E9DF6FA7"
 				item: "gtceu:lv_wiremill"
@@ -109,9 +109,9 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"With this machine you can turn one ingot into one plate easy-peasy"
+				"{atm9.quest.gregtech.desc.plateMachineUsage.1}"
 				""
-				"Further processing of plates will turn them into foils"
+				"{atm9.quest.gregtech.desc.plateMachineUsage.2}"
 			]
 			id: "1906C5D1C80035E4"
 			optional: true
@@ -122,7 +122,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Cheaper plates"
+			subtitle: "{atm9.quest.gregtech.subt.cheaperPlates}"
 			tasks: [{
 				id: "2077EC584FD16863"
 				item: "gtceu:lv_bender"
@@ -134,9 +134,9 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"This bad boy unlocks a cheaper rubber crafting recipe!"
+				"{atm9.quest.gregtech.desc.rubberCrafting.1}"
 				""
-				"For 1 sulfur dust and 9 raw rubber pulp you'll make the equivalent of 9 rubber ingots in fluid form"
+				"{atm9.quest.gregtech.desc.rubberCrafting.2}"
 			]
 			id: "620C406CC24F179C"
 			rewards: [{
@@ -145,7 +145,7 @@
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
-			subtitle: "More rubber more better"
+			subtitle: "{atm9.quest.gregtech.subt.moreRubberBetter}"
 			tasks: [{
 				id: "52A1256EE8999962"
 				item: "gtceu:lv_chemical_reactor"
@@ -156,7 +156,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["This machine also uses Casting Molds to form the fluids into different shapes"]
+			description: ["{atm9.quest.gregtech.desc.castingMolds.1}"]
 			icon: "gtceu:lv_fluid_solidifier"
 			id: "78C51E9B7B8315F6"
 			optional: true
@@ -175,7 +175,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Need that fluid to be solid?"
+			subtitle: "{atm9.quest.gregtech.subt.needSolidFluid}"
 			tasks: [
 				{
 					id: "091F155D7F3E3BB9"
@@ -194,11 +194,11 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"A cheaper way to coat wires in rubber!"
+				"{atm9.quest.gregtech.desc.wireCoating.1}"
 				""
-				"This machine is necessary to coat higher tier wires in rubber to make cables"
+				"{atm9.quest.gregtech.desc.wireCoating.2}"
 				""
-				"You might want to use this to create your machine hulls once we get some polyethylene in MV"
+				"{atm9.quest.gregtech.desc.wireCoating.3}"
 			]
 			id: "0718FA338E8BA792"
 			rewards: [{
@@ -217,7 +217,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["For all your rod production needs!"]
+			description: ["{atm9.quest.gregtech.desc.rodProduction.1}"]
 			id: "601DA80C08C3F9AC"
 			optional: true
 			rewards: [{
@@ -227,7 +227,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Good ol' rod"
+			subtitle: "{atm9.quest.gregtech.subt.goodOldRod}"
 			tasks: [{
 				id: "6B700066BC245B01"
 				item: "gtceu:lv_lathe"
@@ -238,7 +238,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["The centrifuge lets you separate compounds into their respective materials by spinning very fast"]
+			description: ["{atm9.quest.gregtech.desc.centrifugeUsage.1}"]
 			id: "7A8242E6D0BC6294"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -246,7 +246,7 @@
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
-			subtitle: "You spin me right round"
+			subtitle: "{atm9.quest.gregtech.subt.yourSpinMeRound}"
 			tasks: [{
 				id: "367EC7D585D98AA3"
 				item: "gtceu:lv_centrifuge"
@@ -262,9 +262,9 @@
 				"402B0C7242A00309"
 			]
 			description: [
-				"Finally, the diode is within reach"
+				"{atm9.quest.gregtech.desc.diodeReach.1}"
 				""
-				"You'll need to turn this into small piles of gallium arsenide dust, or set up a recipe to do that for you"
+				"{atm9.quest.gregtech.desc.diodeReach.2}"
 			]
 			id: "0F9829B0A5EEE67B"
 			rewards: [{
@@ -282,7 +282,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["The mixer takes multiple materials and mixes them into a new material, very useful for higher quality steels and metal mixtures"]
+			description: ["{atm9.quest.gregtech.desc.mixerUsage.1}"]
 			id: "2BE4B6F1CCAA36AC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -301,9 +301,9 @@
 		{
 			dependencies: ["0F9829B0A5EEE67B"]
 			description: [
-				"You can use an &eExtractor&r to get glass in a liquid state for making the &bdiode&r"
+				"{atm9.quest.gregtech.desc.extractorUsage.1}"
 				""
-				"We'll get to polyethylene later on, so keep in mind that you can upgrade this recipe!"
+				"{atm9.quest.gregtech.desc.extractorUsage.2}"
 			]
 			id: "11D16434F78D2C2C"
 			rewards: [
@@ -321,7 +321,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "MV is close at hand!"
+			subtitle: "{atm9.quest.gregtech.subt.mvProximity}"
 			tasks: [{
 				id: "61B743E1BD9B2C2A"
 				item: "gtceu:diode"
@@ -358,7 +358,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Don't sniff this"
+			subtitle: "{atm9.quest.gregtech.subt.hazardousMaterials}"
 			tasks: [{
 				id: "198DCF429BE2642F"
 				item: "gtceu:glue_bucket"
@@ -369,7 +369,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["Take that steam you were making and turn it into EU!"]
+			description: ["{atm9.quest.gregtech.desc.steamConversion.1}"]
 			id: "1A000021C07943C4"
 			optional: true
 			rewards: [
@@ -388,7 +388,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "No Power No Problem"
+			subtitle: "{atm9.quest.gregtech.subt.energyIndependence}"
 			tasks: [{
 				id: "630369075AEDE4C6"
 				item: "gtceu:lv_steam_turbine"
@@ -400,15 +400,15 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"Do you already have a setup for RF/FE power generation? "
+				"{atm9.quest.gregtech.desc.energySetup.1}"
 				""
-				"In that instance, you could make Energy Converters to turn that RF into EU and cable this to your machines"
+				"{atm9.quest.gregtech.desc.energySetup.2}"
 				""
-				"By default it is set to convert EU to RF, so you will need to thwack it with a &asoft mallet&r to change it to RF to EU conversion"
+				"{atm9.quest.gregtech.desc.energySetup.3}"
 				""
-				"The red side is the EU side and the green sides are for RF/FE. Keep in mind you can rotate the converter by crouch right clicking with a &awrench&r"
+				"{atm9.quest.gregtech.desc.energySetup.4}"
 				""
-				"&e&lNote:&r&r Use &awirecutters&r to enable and disable wire connections to blocks and each other"
+				"{atm9.quest.gregtech.desc.energySetup.5}"
 			]
 			id: "01339A8C26CC6E0C"
 			optional: true
@@ -461,16 +461,16 @@
 						]
 					}
 				}
-				title: "Any LV Energy Converter"
+				title: "{atm9.quest.gregtech.lvEnergyConverter}"
 				type: "item"
 			}]
-			title: "Energy Converters"
+			title: "{atm9.quest.gregtech.energyConverters}"
 			x: -5.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1A000021C07943C4"]
-			description: ["Eventually you'll want more steam than the single block boilers can provide. When that happens, make way for the Large Bronze Boiler!"]
+			description: ["{atm9.quest.gregtech.desc.advancedBoilers.1}"]
 			id: "4E55A1169742B901"
 			optional: true
 			rewards: [
@@ -489,7 +489,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Steam producing Multiblock"
+			subtitle: "{atm9.quest.gregtech.subt.steamMultiblock}"
 			tasks: [{
 				id: "003E27141ED2E7DB"
 				item: "gtceu:bronze_large_boiler"
@@ -520,13 +520,13 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"Many machines use a programmed circuit setting to determine what recipes can be processed"
+				"{atm9.quest.gregtech.desc.circuitProgramming.1}"
 				""
-				"You'll find the option to change the programmed circuit setting in the machine's GUI, just select the program that corresponds to the recipe you are running and it will start running"
+				"{atm9.quest.gregtech.desc.circuitProgramming.2}"
 				""
-				"&6&lYou don't need to craft a programmed circuit&r&r"
+				"{atm9.quest.gregtech.desc.circuitProgramming.3}"
 				""
-				"Often it is easier to dedicate a machine to a specific program setting and make a new one rather than change program settings manually for different crafting recipes"
+				"{atm9.quest.gregtech.desc.circuitProgramming.4}"
 			]
 			icon: {
 				Count: 1b
@@ -544,7 +544,7 @@
 			}]
 			tasks: [{
 				id: "71AF3878DBC0AB29"
-				title: "Programmed Circuits"
+				title: "{atm9.quest.gregtech.programmedCircuits}"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -557,9 +557,9 @@
 				"6E2F24117ACF3694"
 			]
 			description: [
-				"Put that cobaltite dust with 3 buckets of oxygen in your Electric Blast Furnace to acquire Arsenic Trioxide dust"
+				"{atm9.quest.gregtech.desc.arsenicProduction.1}"
 				""
-				"This also produces Cobalt Oxide and some Sulfur Dioxide which can be further processed to get some of that oxygen back"
+				"{atm9.quest.gregtech.desc.arsenicProduction.2}"
 			]
 			id: "74EE98F95F483C37"
 			rewards: [{
@@ -579,13 +579,13 @@
 		{
 			dependencies: ["439C8AEBE9E1C666"]
 			description: [
-				"Gather the listed materials and then check JEI's Multiblock Info page (you can find this by looking at the uses for the EBF controller block) to see how to build it"
+				"{atm9.quest.gregtech.desc.ebfMultiblock.1}"
 				""
-				"Each LV Energy Hatch accepts 2 Amps of LV. Together that makes 4 Amps of LV, which in this case will allow the EBF to process MV recipes as if it were powered by 1 Amp of MV!"
+				"{atm9.quest.gregtech.desc.ebfMultiblock.2}"
 				""
-				"The Multiblock Info page shows one possible configuration of the multiblock, but often it is not the desired configuration. Be sure to check which blocks are valid at the various positions"
+				"{atm9.quest.gregtech.desc.ebfMultiblock.3}"
 				""
-				"You'll know it is formed when the input and output blocks change color to match the controller and casings"
+				"{atm9.quest.gregtech.desc.ebfMultiblock.4}"
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "6E2F24117ACF3694"
@@ -604,7 +604,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The first multiblock"
+			subtitle: "{atm9.quest.gregtech.subt.firstMultiblock}"
 			tasks: [
 				{
 					id: "4C753457114B1DEF"
@@ -662,7 +662,7 @@
 				{
 					icon: "ftbquests:barrier"
 					id: "3F5D1730023562C7"
-					title: "Observe Formed EBF"
+					title: "{atm9.quest.gregtech.observeFormedEBF}"
 					type: "custom"
 				}
 			]
@@ -671,13 +671,13 @@
 		}
 		{
 			description: [
-				"Passiving oxygen early on is highly recommended, as it is used a lot"
+				"{atm9.quest.gregtech.desc.oxygenEarly.1}"
 				""
-				"There are many ways to get oxygen, when looking in JEI make sure the recipe states &lUsage: LV&r or &lUsage: ULV&r"
+				"{atm9.quest.gregtech.desc.oxygenEarly.2}"
 				""
-				"Goethite dust can be centrifuged for oxygen, or perhaps electrolyzing sapphire dust is more your speed"
+				"{atm9.quest.gregtech.desc.oxygenEarly.3}"
 				""
-				"Alternatively, you could build a Basic Gas Collector and use that to collect air, which you would then centrifuge into oxygen. Water can also be electrolyzed into oxygen, but be aware, these methods are quite slow"
+				"{atm9.quest.gregtech.desc.oxygenEarly.4}"
 			]
 			id: "7D5F805A6F2551F0"
 			min_width: 250
@@ -699,15 +699,15 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"Macerator -> Ore Washer -> Thermal Centrifuge -> Macerator"
+				"{atm9.quest.gregtech.desc.oreProcessingSetup.1}"
 				""
-				"This is one setup for ore processing, you can check JEI for other possible setups! "
+				"{atm9.quest.gregtech.desc.oreProcessingSetup.2}"
 				""
-				"Once you have this setup built at &6HV&r you will get many byproducts"
+				"{atm9.quest.gregtech.desc.oreProcessingSetup.3}"
 				""
-				"Byproducts are often used for recipes further on, so be sure to revisit this at HV and keep them!"
+				"{atm9.quest.gregtech.desc.oreProcessingSetup.4}"
 				""
-				"There are many ways to automate this setup, so it is left as an exercise for the reader"
+				"{atm9.quest.gregtech.desc.oreProcessingSetup.5}"
 				""
 				"[ \"\", { \"text\": \"Note: \", \"color\":\"#FFFF55\", \"bold\":\"true\" }, { \"text\": \"The Ore Washer requires \" }, { \"text\": \"water\", \"color\":\"#5555FF\" }, { \"text\": \" and a \" }, { \"text\":\"Programmed Circuit\", \"color\":\"#FFAA00\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"4875FB6628C1FCDC\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } }, { \"text\":\" setting to run\" } ]"
 			]
@@ -719,7 +719,7 @@
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
-			subtitle: "The basics"
+			subtitle: "{atm9.quest.gregtech.subt.basics}"
 			tasks: [
 				{
 					id: "30667DF7F6540C0B"
@@ -737,16 +737,16 @@
 					type: "item"
 				}
 			]
-			title: "Ore Processing"
+			title: "{atm9.quest.gregtech.oreProcessing}"
 			x: 0.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["25DBFE887B041E94"]
 			description: [
-				"Cobaltite dust can come from ore processing cobaltite"
+				"{atm9.quest.gregtech.desc.cobaltiteDust.1}"
 				""
-				"You can find Cobaltite Ore by mining in the Overworld between -10 and 60, it should be mixed in with Garnierite, Nickel, and Pentlandite ores"
+				"{atm9.quest.gregtech.desc.cobaltiteDust.2}"
 			]
 			id: "14C017569BECA2CE"
 			rewards: [{
@@ -767,9 +767,9 @@
 		{
 			dependencies: ["512BD9BCA43AEE83"]
 			description: [
-				"If you get lucky, you may find Realgar which can be turned into arsenic directly in a centrifuge"
+				"{atm9.quest.gregtech.desc.arsenicFromRealgar.1}"
 				""
-				"Cobaltite can be electrolyzed directly to get arsenic, but that's at MV. Also you'll get more arsenic for your cobaltite by making arsenic trioxide dust and electrolyzing that"
+				"{atm9.quest.gregtech.desc.arsenicFromRealgar.2}"
 			]
 			id: "2E2B6921723681C7"
 			rewards: [{
@@ -789,15 +789,15 @@
 		{
 			dependencies: ["6E2F24117ACF3694"]
 			description: [
-				"Grab your tools and open up the maintenance hatch, there are problems to fix!"
+				"{atm9.quest.gregtech.desc.maintenanceEBF.1}"
 				""
-				"With the appropriate tools you can click on the maintenance hatch to rectify any and all issues"
+				"{atm9.quest.gregtech.desc.maintenanceEBF.2}"
 				""
-				"Which tools you ask? When you open the GUI of the Maintenance Hatch you should see a little wrench icon floating off on the right, mouse over it and it will tell you"
+				"{atm9.quest.gregtech.desc.maintenanceEBF.3}"
 				""
-				"Once that is done, your new EBF is all ready to use!"
+				"{atm9.quest.gregtech.desc.maintenanceEBF.4}"
 				""
-				"Be aware, problems can arise again, but it is not often and is easy to fix"
+				"{atm9.quest.gregtech.desc.maintenanceEBF.5}"
 			]
 			id: "23B55A8C7D6482FF"
 			min_width: 300
@@ -806,10 +806,10 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "That's right, it is broken"
+			subtitle: "{atm9.quest.gregtech.subt.brokenEBF}"
 			tasks: [{
 				id: "0362C10508FC4615"
-				title: "Maintenance"
+				title: "{atm9.quest.gregtech.maintenance}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -818,9 +818,9 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"Similar to the steam age, this will turn solid metals into their fluid form"
+				"{atm9.quest.gregtech.desc.liquidizingMetals.1}"
 				""
-				"Additionally, this will get you the raw rubber pulp"
+				"{atm9.quest.gregtech.desc.liquidizingMetals.2}"
 			]
 			id: "504DEE88DFDBD380"
 			optional: true
@@ -831,7 +831,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Liquidizing your assets"
+			subtitle: "{atm9.quest.gregtech.subt.liquidAssets}"
 			tasks: [{
 				id: "74FD2DABE6D932C9"
 				item: "gtceu:lv_extractor"
@@ -847,9 +847,9 @@
 				"7B8ADB4104E7C440"
 			]
 			description: [
-				"You have to start making &9Sodium Persulfate&r to put in a &eChemical Bath&r, replacing the Ore Washer in a separate Ore Processing Setup for a chance at &dGallium Dust&r when processing &6Bauxite&r"
+				"{atm9.quest.gregtech.desc.sodiumPersulfate.1}"
 				""
-				"At &6HV+&r you can &aOre Process&r Bauxite or Sphalerite as another method of obtaining gallium"
+				"{atm9.quest.gregtech.desc.sodiumPersulfate.2}"
 			]
 			id: "402B0C7242A00309"
 			rewards: [{
@@ -869,7 +869,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["To make wrought iron you need to smelt iron nuggets into wrought iron nuggets"]
+			description: ["{atm9.quest.gregtech.desc.wroughtIron}"]
 			id: "313AA0A45CD2BBB9"
 			rewards: [{
 				count: 2
@@ -891,9 +891,9 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"I hope you still have that alloy smelter handy!"
+				"{atm9.quest.gregtech.desc.alloySmelter.1}"
 				""
-				"Copper and Nickel together in an alloy smelter make cupronickel, which you'll need to create the Coils for the Electric Blast Furnace"
+				"{atm9.quest.gregtech.desc.alloySmelter.2}"
 			]
 			id: "439C8AEBE9E1C666"
 			rewards: [{
@@ -913,23 +913,23 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"Why passively generate any resource? Because it is a good idea to generate common resources passively rather than order them on demand, that way you'll have what you need when you need it rather than having to wait a very long time for everything to run"
+				"{atm9.quest.gregtech.desc.resourceGeneration.1}"
 				""
-				"Setup the &aRock Crusher&r with water on the left and lava on the right in the world, then insert some cobblestone to make cobblestone"
+				"{atm9.quest.gregtech.desc.resourceGeneration.2}"
 				""
-				"Output the cobblestone into a &aForge Hammer&r to create gravel"
+				"{atm9.quest.gregtech.desc.resourceGeneration.3}"
 				""
-				"Output the gravel into another &aForge Hammer&r to create sand"
+				"{atm9.quest.gregtech.desc.resourceGeneration.4}"
 				""
-				"Output the sand into an &aArc Furnace&r with some oxygen to make glass"
+				"{atm9.quest.gregtech.desc.resourceGeneration.5}"
 				""
-				"Output the glass into a &aMacerator&r to turn it into glass dust"
+				"{atm9.quest.gregtech.desc.resourceGeneration.6}"
 				""
-				"Output the glass dust into a &aCentrifuge&r to get silicon dioxide"
+				"{atm9.quest.gregtech.desc.resourceGeneration.7}"
 				""
-				"Output the silicon dioxide into an &aElectrolyzer&r and get silicon dust and oxygen!"
+				"{atm9.quest.gregtech.desc.resourceGeneration.8}"
 				""
-				"All you need to get started is a little oxygen, given to you in the form of green sapphire dust!"
+				"{atm9.quest.gregtech.desc.resourceGeneration.9}"
 			]
 			id: "0D99638C96AB2EEA"
 			min_width: 400
@@ -950,7 +950,7 @@
 			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "You'll need it"
+			subtitle: "{atm9.quest.gregtech.subt.needIt}"
 			tasks: [
 				{
 					id: "00648047034C9531"
@@ -974,7 +974,7 @@
 							]
 						}
 					}
-					title: "Rock Crusher"
+					title: "{atm9.quest.gregtech.rockCrusher}"
 					type: "item"
 				}
 				{
@@ -1000,7 +1000,7 @@
 							]
 						}
 					}
-					title: "Forge Hammers"
+					title: "{atm9.quest.gregtech.forgeHammers}"
 					type: "item"
 				}
 				{
@@ -1030,7 +1030,7 @@
 							]
 						}
 					}
-					title: "Macerator"
+					title: "{atm9.quest.gregtech.macerator}"
 					type: "item"
 				}
 				{
@@ -1044,16 +1044,16 @@
 					type: "item"
 				}
 			]
-			title: "Passive Oxygen Line"
+			title: "{atm9.quest.gregtech.passiveOxygenLine}"
 			x: -2.5249999999999995d
 			y: 2.9000000000000004d
 		}
 		{
 			dependencies: ["74EE98F95F483C37"]
 			description: [
-				"The electrolyzer will separate compounds into constituent compounds based on their electric charge"
+				"{atm9.quest.gregtech.desc.electrolyzerOperation.1}"
 				""
-				"In our case, it will separate the &dArsenic Trioxide&r into &eArsenic&r and &bOxygen&r"
+				"{atm9.quest.gregtech.desc.electrolyzerOperation.2}"
 			]
 			id: "512BD9BCA43AEE83"
 			rewards: [{
@@ -1062,7 +1062,7 @@
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
-			subtitle: "Shock me like an electric eel"
+			subtitle: "{atm9.quest.gregtech.subt.electricEel}"
 			tasks: [{
 				id: "4DE768EBE8A565BA"
 				item: "gtceu:lv_electrolyzer"
@@ -1074,9 +1074,9 @@
 		{
 			dependencies: ["620C406CC24F179C"]
 			description: [
-				"Oxygen and sulfur dust in your &eChemical Reactor&r on &aprogram 2&r will make some sulfur dioxide"
+				"{atm9.quest.gregtech.desc.chemicalReactorOperation.1}"
 				""
-				"If you're having trouble keeping up with the sulfur requirements, you could start centrifuging 2 blaze powder to make sulfur dust"
+				"{atm9.quest.gregtech.desc.chemicalReactorOperation.2}"
 			]
 			id: "64314EEB9916CAB1"
 			rewards: [{
@@ -1096,9 +1096,9 @@
 		{
 			dependencies: ["64314EEB9916CAB1"]
 			description: [
-				"Chemical react sulfur dioxide with more oxygen to make sulfur trioxide"
+				"{atm9.quest.gregtech.desc.sulfurDioxideProcessing.1}"
 				""
-				"Oxygen is very important, you may want to go back and dedicate an entire setup to passively produce it if you haven't already"
+				"{atm9.quest.gregtech.desc.sulfurDioxideProcessing.2}"
 			]
 			id: "5143E0F48520D41B"
 			rewards: [{
@@ -1117,9 +1117,9 @@
 		{
 			dependencies: ["5143E0F48520D41B"]
 			description: [
-				"Chemical react water with sulfur trioxide to get sulfuric acid"
+				"{atm9.quest.gregtech.desc.sulfuricAcidProduction.1}"
 				""
-				"You can get infinite water in your digital storage system by connecting to a Kitchen Sink - just make sure it is set to extract only! Otherwise it will void fluids on insert"
+				"{atm9.quest.gregtech.desc.sulfuricAcidProduction.2}"
 			]
 			id: "17A935989A9505E1"
 			rewards: [{
@@ -1127,7 +1127,7 @@
 				item: "gtceu:sulfur_trioxide_bucket"
 				type: "item"
 			}]
-			subtitle: "Just add water!"
+			subtitle: "{atm9.quest.gregtech.subt.addWater}"
 			tasks: [{
 				id: "75017109130EE055"
 				item: "gtceu:sulfuric_acid_bucket"
@@ -1138,7 +1138,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["The &eChemical Bath&r is used in &aOre Processing&r lines to get certain &dbyproducts&r by washing crushed ores in mercury or sodium persulfate"]
+			description: ["{atm9.quest.gregtech.desc.chemicalBathUsage}"]
 			id: "4059373B88845C6F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1159,7 +1159,7 @@
 				"620C406CC24F179C"
 				"17A935989A9505E1"
 			]
-			description: ["Salt and Sulfuric Acid on Program 1 will make Sodium Bisulfate"]
+			description: ["{atm9.quest.gregtech.desc.sodiumBisulfateProduction}"]
 			id: "4835BE1596B65206"
 			rewards: [{
 				count: 3

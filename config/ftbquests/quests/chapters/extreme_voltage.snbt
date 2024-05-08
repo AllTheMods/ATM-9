@@ -668,7 +668,7 @@
 				""
 				"{atm9.quest.gregtech.desc.rutileDust.2}"
 				"{atm9.quest.gregtech.desc.rutileDust.3}"
-				"{atm9.quest.gregtech.desc.rutileDust.4}"
+				"[ \"\", { \"text\": \"EBF \", \"color\": \"green\", \"hoverEvent\": { \"action\": \"show_text\", \"contents\": { \"text\": \"Electric Blast Furnace\" } } }, { \"text\": \"10 Ilmenite and 4 Carbon together\" }]"
 				"{atm9.quest.gregtech.desc.rutileDust.5}"
 				"{atm9.quest.gregtech.desc.rutileDust.6}"
 				""

@@ -1007,7 +1007,7 @@
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.clayProcessingLine.1}"
+				"[ \"\", { \"text\": \"If you made the \" }, { \"text\":\"Clay Processing Line\", \"color\":\"aqua\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"6275C90E5890C1E4\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } }, { \"text\":\" earlier, you can simply pause the \" }, { \"text\":\"Electrolyzer\", \"color\":\"yellow\" }, { \"text\":\" briefly to acquire clay dust to mix with your stone dust\" } ]"
 				""
 				"{atm9.quest.gregtech.desc.clayProcessingLine.2}"
 			]
