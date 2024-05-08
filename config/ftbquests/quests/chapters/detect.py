@@ -7,16 +7,10 @@ def extract_from_all_snbt(directory):
     output_lines = []
     # 処理するファイル名のリスト
     specific_files = [
-        'gregstar.snbt',
-        'high_voltage.snbt',
-        'extreme_voltage.snbt',
-        'extreme_reactors.snbt',
-        'insane_voltage.snbt',
-        'ludicrous_voltage.snbt',
-        'medium_voltage.snbt',
-        'ultimate_voltage.snbt',
-        'ultra_high_voltage.snbt',
-        'zero_point_module.snbt'
+    "low_voltage.snbt",
+    "circuits.snbt",
+    "an_introduction.snbt",
+    "steam_age.snbt",
     ]
 
     for file_name in specific_files:
