@@ -11,9 +11,9 @@
 	quests: [
 		{
 			description: [
-				"We'll pretend that it's fine"
+				"{atm9.quest.gregtech.desc.electricalSafety.1}"
 				""
-				"At &5EV&r we're dealing with more than 1000 Volts! We're practically electrical linemen, just please don't try this at home"
+				"{atm9.quest.gregtech.desc.electricalSafety.2}"
 			]
 			id: "5241693278027FFD"
 			rewards: [
@@ -40,7 +40,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "This is fine, &5EV&rerything is fine"
+			subtitle: "{atm9.quest.gregtech.subt.thisIsFine}"
 			tasks: [{
 				id: "17E7D25D83B98E80"
 				item: "gtceu:micro_processor_computer"
@@ -52,13 +52,13 @@
 		{
 			dependencies: ["6805CC8AD6010F33"]
 			description: [
-				"&c&lStop! Do not pass Go! Do not collect $200!&r&r"
+				"{atm9.quest.gregtech.desc.questCompletionReminder.1}"
 				""
-				"Did you complete all the other quests in this chapter already? "
+				"{atm9.quest.gregtech.desc.questCompletionReminder.2}"
 				""
-				"Oh, you did? "
+				"{atm9.quest.gregtech.desc.questCompletionReminder.3}"
 				""
-				"Good work, off you go then!"
+				"{atm9.quest.gregtech.desc.questCompletionReminder.4}"
 			]
 			id: "2E47C92E3E8D826A"
 			rewards: [{
@@ -68,7 +68,7 @@
 				type: "loot"
 			}]
 			size: 1.5d
-			subtitle: "Onwards to IV!"
+			subtitle: "{atm9.quest.gregtech.subt.onwardsToIV}"
 			tasks: [{
 				id: "23FFAB356FE1CA42"
 				item: "gtceu:micro_processor_mainframe"
@@ -90,7 +90,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Upgrades!"
+			subtitle: "{atm9.quest.gregtech.subt.upgrades}"
 			tasks: [{
 				id: "4CB14D90753F710B"
 				item: "gtceu:smd_transistor"
@@ -112,7 +112,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Recipe"
+			subtitle: "{atm9.quest.gregtech.subt.recipe}"
 			tasks: [{
 				id: "466FF2FF107AFDFA"
 				item: "gtceu:smd_resistor"
@@ -134,7 +134,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			subtitle: "Circuit"
+			subtitle: "{atm9.quest.gregtech.subt.circuit}"
 			tasks: [{
 				id: "0774AA33B0CA149F"
 				item: "gtceu:smd_capacitor"
@@ -165,7 +165,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Time"
+			subtitle: "{atm9.quest.gregtech.subt.time}"
 			tasks: [{
 				id: "23F7124635FE5FC8"
 				item: "gtceu:smd_diode"
@@ -187,7 +187,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "For"
+			subtitle: "{atm9.quest.gregtech.subt.for}"
 			tasks: [{
 				id: "210478A03F540A6B"
 				item: "gtceu:smd_inductor"
@@ -203,15 +203,15 @@
 				"5241693278027FFD"
 			]
 			description: [
-				"A little &dMagnesium dust&r with your Titanium Tetrachloride inside the &aElectric Blast Furnace&r will give you a very &lHOT&r ingot"
+				"{atm9.quest.gregtech.desc.magnesiumProcessing.1}"
 				""
-				"Magnesium you can get from &6Ore Processing&r many things, but my personal favorite is &eElectrolyzing&r Obsidian dust"
+				"{atm9.quest.gregtech.desc.magnesiumProcessing.2}"
 				""
-				"You can reclaim that magnesium and chlorine back by &eElectrolyzing&r the Magnesium Chloride you get"
+				"{atm9.quest.gregtech.desc.magnesiumProcessing.3}"
 				""
-				"You'll need to cool the ingot off in the &aVacuum Freezer&r before you can use it for anything"
+				"{atm9.quest.gregtech.desc.magnesiumProcessing.4}"
 				""
-				"&l&eNote:&r&r A little reminder to double check the temperature requirement for ingot recipes; this one requires something better than Cupronickel Coils, like &bKanthal Coils&r"
+				"{atm9.quest.gregtech.desc.magnesiumProcessing.5}"
 			]
 			icon: "gtceu:titanium_ingot"
 			id: "78A295D4D1A21BCA"
@@ -234,14 +234,14 @@
 						value: "forge:ingots/titanium"
 					}
 				}
-				title: "Titanium Ingot"
+				title: "{atm9.quest.gregtech.titaniumIngot}"
 				type: "item"
 			}]
 			x: -2.5d
 			y: -2.75d
 		}
 		{
-			description: ["The &dPlatLine™&r is something we'll get into later on, for now be thankful that platinum is plentiful"]
+			description: ["{atm9.quest.gregtech.desc.platinumLineIntro.1}"]
 			icon: "alltheores:platinum_ingot"
 			id: "7C134F7838C23059"
 			shape: "square"
@@ -254,7 +254,7 @@
 						value: "forge:ingots/platinum"
 					}
 				}
-				title: "Platinum Ingot"
+				title: "{atm9.quest.gregtech.platinumIngot}"
 				type: "item"
 			}]
 			x: 7.0d
@@ -263,9 +263,9 @@
 		{
 			dependencies: ["33DAA602B385A55D"]
 			description: [
-				"Have you been having any voltage issues? Well, this wire will help!"
+				"{atm9.quest.gregtech.desc.voltageIssues.1}"
 				""
-				"This wire is &3superconducting&r, so it does not lose any voltage no matter how far the wire travels"
+				"{atm9.quest.gregtech.desc.voltageIssues.2}"
 			]
 			id: "0F6FB959B352121D"
 			rewards: [{
@@ -284,9 +284,9 @@
 		}
 		{
 			description: [
-				"&eElectrolyze&r &btantalite dust&r to acquire &dtantalum dust&r"
+				"{atm9.quest.gregtech.desc.tantaliteProcessing.1}"
 				""
-				"Also comes as a byproduct of tantalite ore processing!"
+				"{atm9.quest.gregtech.desc.tantaliteProcessing.2}"
 			]
 			id: "7ACC4E777A75E043"
 			rewards: [{
@@ -307,7 +307,7 @@
 						value: "forge:dusts/tantalum"
 					}
 				}
-				title: "Tantalum Dust"
+				title: "{atm9.quest.gregtech.tantalumDust}"
 				type: "item"
 			}]
 			x: 7.0d
@@ -316,9 +316,9 @@
 		{
 			dependencies: ["60736D37F7705B39"]
 			description: [
-				"Another &aEBF&r upgrade? Yep! "
+				"{atm9.quest.gregtech.desc.ebfUpgrade.1}"
 				""
-				"This will allow us to smelt higher tier ingots, like HV Superconducting metal!"
+				"{atm9.quest.gregtech.desc.ebfUpgrade.2}"
 			]
 			id: "5500BDFA7A5D04EB"
 			rewards: [{
@@ -342,17 +342,17 @@
 				"0D573979B25FAC48"
 			]
 			description: [
-				"The &aDistillation Tower&r serves as the foundation for &dOil Processing&r which can turn oil into many more useful forms"
+				"{atm9.quest.gregtech.desc.distillationTower.1}"
 				""
-				"When building the Tower, you will need it to be &c1 + Fluid Outputs tall&r to process recipes correctly"
+				"{atm9.quest.gregtech.desc.distillationTower.2}"
 				""
-				"&eFor example&r, if the recipe you want to run outputs 5 fluids, then your tower must be at least 6 tall with 5 output hatches "
+				"{atm9.quest.gregtech.desc.distillationTower.3}"
 				""
-				"The max size is a 3x3x13 structure"
+				"{atm9.quest.gregtech.desc.distillationTower.4}"
 				""
-				"&bRemember:&r For how to build multiblocks, look at the uses of the multiblock controller in JEI for the &3Multiblock Info&r page"
+				"{atm9.quest.gregtech.desc.distillationTower.5}"
 				""
-				"How you get the oil is left up to you! A couple options are outlined in the quests below"
+				"{atm9.quest.gregtech.desc.distillationTower.6}"
 			]
 			icon: "gtceu:distillation_tower"
 			id: "3BEDF19CD79D53D5"
@@ -363,7 +363,7 @@
 				table_id: 5304546381530089504L
 				type: "loot"
 			}]
-			subtitle: "Ah finally, real fluid processing"
+			subtitle: "{atm9.quest.gregtech.subt.realFluidProcessing}"
 			tasks: [
 				{
 					id: "2A5387EF0991FC1D"
@@ -373,7 +373,7 @@
 				{
 					icon: "ftbquests:barrier"
 					id: "6DE94C2C7F4B9AC7"
-					title: "Observe completed Distillation Tower"
+					title: "{atm9.quest.gregtech.observeDistillationTower}"
 					type: "custom"
 				}
 			]
@@ -383,11 +383,11 @@
 		{
 			dependencies: ["5241693278027FFD"]
 			description: [
-				"Once you start blasting ingots at temperatures above &c1800K&r they become too hot to be cooled in a simple bath"
+				"{atm9.quest.gregtech.desc.vacuumFreezer.1}"
 				""
-				"Enter, the &eVacuum Freezer&r, for all your cooling needs! "
+				"{atm9.quest.gregtech.desc.vacuumFreezer.2}"
 				""
-				"This machine is great at cooling hot ingots and can even turn many gasses into liquids"
+				"{atm9.quest.gregtech.desc.vacuumFreezer.3}"
 			]
 			icon: "gtceu:vacuum_freezer"
 			id: "6D082AE4CF9A56DC"
@@ -406,7 +406,7 @@
 				{
 					icon: "ftbquests:barrier"
 					id: "7536DA5A948671F2"
-					title: "Observe completed Vacuum Freezer"
+					title: "{atm9.quest.gregtech.observeVacuumFreezer}"
 					type: "custom"
 				}
 				{
@@ -425,9 +425,9 @@
 				"6D082AE4CF9A56DC"
 			]
 			description: [
-				"That is one hot ingot! Cool it off in your &aVacuum Freezer&r"
+				"{atm9.quest.gregtech.desc.coolHotIngot.1}"
 				""
-				"Requires those Kanthal Coil Blocks on your &aEBF&r"
+				"{atm9.quest.gregtech.desc.coolHotIngot.2}"
 			]
 			id: "60736D37F7705B39"
 			tasks: [{
@@ -439,7 +439,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["4 Nickel dust and 1 Chromium dust in a &eMixer&r is all you'll need for some Nichrome!"]
+			description: ["{atm9.quest.gregtech.desc.nichromeMixer}"]
 			id: "0911814AFFFCF885"
 			rewards: [{
 				id: "2DF63FCEAFE5F977"
@@ -459,9 +459,9 @@
 		{
 			dependencies: ["5241693278027FFD"]
 			description: [
-				"This unlocks a single recipe for us, the &1IV&r Circuit!"
+				"{atm9.quest.gregtech.desc.ivCircuit.1}"
 				""
-				"Don't rush ahead and just craft this and the circuit thinking that you can skip this age though"
+				"{atm9.quest.gregtech.desc.ivCircuit.2}"
 			]
 			id: "6805CC8AD6010F33"
 			rewards: [{
@@ -481,9 +481,9 @@
 		{
 			dependencies: ["5241693278027FFD"]
 			description: [
-				"Upgrading your &eAssembler&r means you can make Surface Mounted Devices, or &bSMDs&r for short. These things mean cheaper circuit components!"
+				"{atm9.quest.gregtech.desc.yourAssemblerUpgrade.1}"
 				""
-				"Additionally, this unlocks higher tier energy hatches, time to upgrade your multiblocks!"
+				"{atm9.quest.gregtech.desc.yourAssemblerUpgrade.2}"
 			]
 			id: "71D4B261AF487062"
 			rewards: [{
@@ -510,7 +510,7 @@
 						]
 					}
 				}
-				title: "HV or EV Assembler"
+				title: "{atm9.quest.gregtech.hvEvAssembler}"
 				type: "item"
 			}]
 			x: 3.0d
@@ -529,9 +529,9 @@
 		}
 		{
 			description: [
-				"&eChemical react&r some sodium dust and potassium dust together to get... sodium potassium"
+				"{atm9.quest.gregtech.desc.chemicalReactionSome.1}"
 				""
-				"&bPotassium dust&r you can get by making tiny piles of the stuff from the salt water with ghast tears in a &eChemical Reactor&r recipe"
+				"{atm9.quest.gregtech.desc.chemicalReaction.2}"
 			]
 			id: "1E8D496B1CC4F69B"
 			shape: "square"
@@ -569,9 +569,9 @@
 				"5D58E5CB4F4BDAD5"
 			]
 			description: [
-				"Keep in mind, each Energy Hatch can accept 2 Amps of power"
+				"{atm9.quest.gregtech.desc.energyHatch.1}"
 				""
-				"Many machines accept two (or more) Energy Hatches, which means you can feed 4 Amps in and unlock processing at a higher voltage tier!"
+				"{atm9.quest.gregtech.desc.energyHatch.2}"
 			]
 			id: "0D573979B25FAC48"
 			rewards: [{
@@ -590,7 +590,7 @@
 		}
 		{
 			dependencies: ["7D10AA6EF07087B5"]
-			description: ["Add another lens to the collection! Laser Engravers abound if you've been making one per lens"]
+			description: ["{atm9.quest.gregtech.desc.laserEngravers}"]
 			id: "5D58E5CB4F4BDAD5"
 			rewards: [{
 				count: 2
@@ -617,7 +617,7 @@
 					type: "item"
 				}
 			]
-			title: "Low Power Integrated Chip"
+			title: "{atm9.quest.gregtech.lowPowerChip}"
 			x: 1.0d
 			y: 4.5d
 		}
@@ -627,7 +627,7 @@
 				"7220835BD1F8EBA7"
 				"6D082AE4CF9A56DC"
 			]
-			description: ["A very hot ingot indeed! This one requires the &bNichrome Coil Blocks&r on your &aEBF&r to process!"]
+			description: ["{atm9.quest.gregtech.desc.hotIngotNichrome}"]
 			id: "33DAA602B385A55D"
 			tasks: [{
 				id: "1E5B05165E5A0236"
@@ -639,11 +639,11 @@
 		}
 		{
 			description: [
-				"&dBarium dust&r you can get by &eElectrolyzing&r &bBarite dust&r"
+				"{atm9.quest.gregtech.desc.bariumDust.1}"
 				""
-				"&dMercury&r can come from &eCentrifuging&r Redstone dust or Cinnabar dust"
+				"{atm9.quest.gregtech.desc.bariumDust.2}"
 				""
-				"In a bind for &dCalcium dust&r? You could always &eElectrolyze&r bone meal!"
+				"{atm9.quest.gregtech.desc.bariumDust.3}"
 			]
 			id: "7220835BD1F8EBA7"
 			rewards: [{
@@ -664,15 +664,15 @@
 		}
 		{
 			description: [
-				"I hope you've been keeping up with your ore gathering and processing!"
+				"{atm9.quest.gregtech.desc.rutileDust.1}"
 				""
-				"You can get &dRutile Dust&r from several methods:"
-				"&eElectrolyzing&r 15 Bauxite dust"
-				"[ \"\", { \"text\": \"EBF \", \"color\": \"green\", \"hoverEvent\": { \"action\": \"show_text\", \"contents\": { \"text\": \"Electric Blast Furnace\" } } }, { \"text\": \"10 Ilmenite and 4 Carbon together\" }]"
-				"&6Ore Process&r Ilmenite or Bauxite for a chanced output"
-				"&eChemical Bath&r Aluminium in &3Sodium Persulfate&r for a higher chanced output"
+				"{atm9.quest.gregtech.desc.rutileDust.2}"
+				"{atm9.quest.gregtech.desc.rutileDust.3}"
+				"{atm9.quest.gregtech.desc.rutileDust.4}"
+				"{atm9.quest.gregtech.desc.rutileDust.5}"
+				"{atm9.quest.gregtech.desc.rutileDust.6}"
 				""
-				"&cRemember:&r Chanced outputs increase with the tier of the machine"
+				"{atm9.quest.gregtech.desc.rutileDust.7}"
 			]
 			id: "03B5D467E76C5B8A"
 			min_width: 300
@@ -693,7 +693,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "More like futile dust"
+			subtitle: "{atm9.quest.gregtech.subt.futileDust}"
 			tasks: [{
 				id: "2B956FA18DAF1BD8"
 				item: "gtceu:rutile_dust"
@@ -704,7 +704,7 @@
 		}
 		{
 			dependencies: ["03B5D467E76C5B8A"]
-			description: ["You'll need an &6HV Chemical Reactor&r with some Chlorine, Carbon dust, and your Rutile dust to make this"]
+			description: ["{atm9.quest.gregtech.desc.hvChemicalReactor}"]
 			id: "7B27B87A520E38B0"
 			rewards: [
 				{
@@ -747,7 +747,7 @@
 		}
 		{
 			dependencies: ["3BEDF19CD79D53D5"]
-			description: ["Burning 16 logs on &bProgram 3&r will produce Heavy Oil"]
+			description: ["{atm9.quest.gregtech.desc.heavyOil}"]
 			icon: "gtceu:pyrolyse_oven"
 			id: "130DDACA0E38A8E8"
 			optional: true
@@ -767,7 +767,7 @@
 				{
 					icon: "ftbquests:barrier"
 					id: "5FAE011B2417FAAA"
-					title: "Observe completed Pyrolyse Oven"
+					title: "{atm9.quest.gregtech.observePyrolyseOven}"
 					type: "custom"
 				}
 			]
@@ -776,7 +776,7 @@
 		}
 		{
 			dependencies: ["3BEDF19CD79D53D5"]
-			description: ["The &aCracker&r doesn't get you oil, but it does allow for processing the byproducts more efficiently! "]
+			description: ["{atm9.quest.gregtech.desc.cracker}"]
 			icon: "gtceu:cracker"
 			id: "3762F8137BFD5A74"
 			optional: true
@@ -796,7 +796,7 @@
 				{
 					icon: "ftbquests:barrier"
 					id: "04E3568175E66B6D"
-					title: "Observe completed Cracker"
+					title: "{atm9.quest.gregtech.observeCracker}"
 					type: "custom"
 				}
 			]
@@ -806,11 +806,11 @@
 		{
 			dependencies: ["3BEDF19CD79D53D5"]
 			description: [
-				"Slap one of these down and start drilling! This will unearth the ancient oils from beneath the crust of bedrock"
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.1}"
 				""
-				"The majority of what you'll find with this is &eRaw Oil&r, but you can also find Natural Gas and other oil variants! You can use the &6HV Prospector&r in &bFluid Mode&r to determine what lies beneath"
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.2}"
 				""
-				"Do keep in mind, the oils in the chunk will deplete over time, so you will need to move the Fluid Drilling Rig occasionally"
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.3}"
 			]
 			id: "450B3C0520D6B2BB"
 			min_width: 300
@@ -840,7 +840,7 @@
 						]
 					}
 				}
-				title: "Fluid Drilling Rig"
+				title: "{atm9.quest.gregtech.title.fluidDrillingRig}"
 				type: "item"
 			}]
 			x: -2.5d
@@ -848,7 +848,7 @@
 		}
 		{
 			dependencies: ["3B4F326D72E794D3"]
-			description: ["&aDistill&r your &eLightly Steam Cracked Naphtha&r to acquire &0Benzene&r"]
+			description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.4}"]
 			id: "7D6AC042FFD0B6D6"
 			rewards: [{
 				id: "4123B08AF0AC72D8"
@@ -865,7 +865,7 @@
 		}
 		{
 			dependencies: ["3B4F326D72E794D3"]
-			description: ["&aDistill&r your &eLightly Steam Cracked Naphtha&r to acquire &6Butadiene&r"]
+			description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.5}"]
 			id: "3619CD5AAD5E3691"
 			rewards: [{
 				id: "2435330DB710A010"
@@ -882,7 +882,7 @@
 		}
 		{
 			dependencies: ["7D6AC042FFD0B6D6"]
-			description: ["Benzene + Ethylene in a &eChemical Reactor&r will result in &bStyrene&r"]
+			description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.6}"]
 			id: "46F1A93B071CD980"
 			rewards: [{
 				id: "1C74698CCB18BA0B"
@@ -903,9 +903,9 @@
 				"3619CD5AAD5E3691"
 			]
 			description: [
-				"Styrene + Butadiene + Oxygen or Air in a &eChemical Reactor&r gets you the raw dust of the highest tier of rubber available"
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.7}"
 				""
-				"It is recommended you use Oxygen rather than Air here, as you get the most that way"
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.8}"
 			]
 			id: "2DDA8AC73C2D50B4"
 			rewards: [{
@@ -925,9 +925,9 @@
 		{
 			dependencies: ["2DDA8AC73C2D50B4"]
 			description: [
-				"Finally, the highest tier of rubber, &dStyrene Butadiene Rubber&r"
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.9}"
 				""
-				"You can coat wires using very little of this, and it will come in handy later on when making higher tier conveyor modules"
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.10}"
 			]
 			id: "511FB322F176D88C"
 			rewards: [{
@@ -950,11 +950,11 @@
 				"228D1C880563CCBB"
 			]
 			description: [
-				"This is where the &aCracker&r comes in handy, as it doesn't lose any of your hard earned Naphtha when cracking"
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.11}"
 				""
-				"An alternative is to use a &eChemical Reactor&r, but that loses half the Naphtha!"
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.12}"
 				""
-				"You probably want to make another &aDistillation Tower&r to distill this"
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.13}"
 			]
 			id: "3B4F326D72E794D3"
 			rewards: [{
@@ -972,7 +972,7 @@
 		}
 		{
 			dependencies: ["6805E4C7F6FBAC77"]
-			description: ["&eChemical React&r the &6Sulfuric Naphtha&r with &9Hydrogen&r to rid it of the sulfur"]
+			description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.14}"]
 			id: "7A0A7DC1C2655EA6"
 			rewards: [{
 				id: "66D525B2A26063DE"
@@ -989,7 +989,7 @@
 		}
 		{
 			dependencies: ["3BEDF19CD79D53D5"]
-			description: ["Distilling &bRaw Oil&r results in the most &eSulfuric Naphtha&r, but you can get it from the other oil types too"]
+			description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.15}"]
 			id: "6805E4C7F6FBAC77"
 			rewards: [{
 				id: "46BA643BC3DEF2E9"
@@ -1008,9 +1008,9 @@
 		{
 			dependencies: ["0FFF764AA07D6DFC"]
 			description: [
-				"Ah, this brings me back, it's almost like we're back in the Steam Age"
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.16}"
 				""
-				"This gets us more steam than those boilers did though"
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.17}"
 			]
 			id: "228D1C880563CCBB"
 			rewards: [{
@@ -1027,7 +1027,7 @@
 			y: 5.0d
 		}
 		{
-			description: ["A little &9water&r on &aProgram 1&r with this will get you plenty of &7Steam&r"]
+			description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.18}"]
 			id: "0FFF764AA07D6DFC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1062,7 +1062,7 @@
 						]
 					}
 				}
-				title: "Any Fluid Heater"
+				title: "{atm9.quest.gregtech.title.anyFluidHeater}"
 				type: "item"
 			}]
 			x: -4.0d
@@ -1071,9 +1071,9 @@
 		{
 			dependencies: ["3406646DF9585AB8"]
 			description: [
-				"The mid-tier rubber! You probably won't use it for this, as you have access to the highest tier of rubber"
+				"{atm9.quest.gregtech.desc.anyFluidHeater.1}"
 				""
-				"Some recipes in the future do require specifically &9Silicone Rubber&r, which is why we made it"
+				"{atm9.quest.gregtech.desc.anyFluidHeater.2}"
 			]
 			id: "6338544F8530118F"
 			rewards: [{
@@ -1092,7 +1092,7 @@
 		}
 		{
 			dependencies: ["6A54E73E212BB1AF"]
-			description: ["Silicon dust, water, methane, and chlorine combine in your &eChemical Reactor&r on &aProgram 2&r to make this "]
+			description: ["{atm9.quest.gregtech.desc.anyFluidHeater.3}"]
 			id: "3406646DF9585AB8"
 			rewards: [{
 				count: 3
@@ -1101,7 +1101,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			subtitle: "Try saying this 3 times fast"
+			subtitle: "{atm9.quest.gregtech.subt.trySayingThisFast}"
 			tasks: [{
 				id: "1717E9A6D23CF49C"
 				item: "gtceu:polydimethylsiloxane_dust"
@@ -1113,13 +1113,13 @@
 		{
 			dependencies: ["3BEDF19CD79D53D5"]
 			description: [
-				"&6Sulfuric Gas&r from &aOil Distillation&r can be made into &7Refinery Gas&r"
+				"{atm9.quest.gregtech.desc.oilDistillation.1}"
 				""
-				"Refinery Gas can then be &aCracked&r into a different form depending on what you want to distill out of it"
+				"{atm9.quest.gregtech.desc.oilDistillation.2}"
 				""
-				"&3Light Hydro Cracked Gas&r is a great source of &dMethane&r and Hydrogen!"
+				"{atm9.quest.gregtech.desc.oilDistillation.3}"
 				""
-				"A alternative but slower route might be to &eCentrifuge&r mushrooms or &eDistill&r Fermented Biomass even"
+				"{atm9.quest.gregtech.desc.oilDistillation.4}"
 			]
 			id: "6A54E73E212BB1AF"
 			rewards: [{
@@ -1163,7 +1163,7 @@
 						]
 					}
 				}
-				title: "HV or EV Cutter"
+				title: "{atm9.quest.gregtech.title.hvOrEvCutter}"
 				type: "item"
 			}]
 			x: 1.0d

@@ -56,7 +56,12 @@ def restore_lines_to_files():
     current_file = None
     file_lines = []
     for line in extracted_lines:
-        file_name, line_number, content = line.split(',', 2)
+        parts = line.split(',', 2)
+        if len(parts) < 3:
+            print(f"スキップされた行: {line.strip()}")
+            continue  # フォーマットが正しくない行はスキップ
+
+        file_name, line_number, content = parts
         file_name = file_name.strip()
         if current_file != file_name:
             if current_file is not None:

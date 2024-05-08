@@ -11,9 +11,9 @@
 	quests: [
 		{
 			description: [
-				"Remember: Overclocking runs a recipe twice as fast but at four times power consumption"
+				"{atm9.quest.gregtech.desc.overclocking.1}"
 				""
-				"As you start replacing machines, you can put the old ones in a macerator to reclaim some of the ingredients used in crafting it"
+				"{atm9.quest.gregtech.desc.overclocking.2}"
 			]
 			id: "262AE37765B139BE"
 			rewards: [{
@@ -23,7 +23,7 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Welcome to &bMV&r"
+			subtitle: "{atm9.quest.gregtech.subt.welcomeMV}"
 			tasks: [{
 				id: "7DECEDB572639CFF"
 				item: "gtceu:good_electronic_circuit"
@@ -41,11 +41,11 @@
 				"4E1D5EC061A4AE55"
 			]
 			description: [
-				"               Congratulations! "
+				"{atm9.quest.gregtech.desc.highVoltage.1}"
 				""
-				"With the Advanced Integrated Circuit you have successfully made it to High Voltage!"
+				"{atm9.quest.gregtech.desc.highVoltage.2}"
 				""
-				"You can toss out those old recipes for Basic Electronic Circuits and Good Electronic Circuits and replace them with their Integrated versions"
+				"{atm9.quest.gregtech.desc.highVoltage.3}"
 			]
 			icon: "gtceu:advanced_integrated_circuit"
 			id: "2C28217E1131A63A"
@@ -66,7 +66,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "A new era"
+			subtitle: "{atm9.quest.gregtech.subt.newEra}"
 			tasks: [
 				{
 					id: "3948D4991F8810F6"
@@ -84,16 +84,16 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Integrated Circuit"
+			title: "{atm9.quest.gregtech.advancedIntegratedCircuit}"
 			x: 7.050000000000001d
 			y: 3.1499999999999995d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
 			description: [
-				"I know, this is an LV machine in the MV age, but trust me, it is worth the MV circuits it takes to craft this"
+				"{atm9.quest.gregtech.desc.cheaperCircuits.1}"
 				""
-				"Circuits become cheaper to craft with the Circuit Assembler, and you will need a lot of circuits"
+				"{atm9.quest.gregtech.desc.cheaperCircuits.2}"
 			]
 			id: "246882DD125868EC"
 			rewards: [{
@@ -102,7 +102,7 @@
 				table_id: 7083859357644513434L
 				type: "loot"
 			}]
-			subtitle: "Cheaper circuits!"
+			subtitle: "{atm9.quest.gregtech.subt.cheaperCircuits}"
 			tasks: [{
 				id: "2BA5756D55310A03"
 				item: "gtceu:lv_circuit_assembler"
@@ -118,11 +118,11 @@
 				"06BBD7B736C564C1"
 			]
 			description: [
-				"Transistors are truly a modern marvel and have allowed the electronic age to boom"
+				"{atm9.quest.gregtech.desc.transistors.1}"
 				""
-				"They allow for much more complex electronics by amplifying signals and acting as a switch, introducing the capability for logic programming!"
+				"{atm9.quest.gregtech.desc.transistors.2}"
 				""
-				"In our case, they allow us to make the Integrated Circuit!"
+				"{atm9.quest.gregtech.desc.transistors.3}"
 			]
 			id: "0E603F1FE596DB2A"
 			rewards: [{
@@ -142,7 +142,7 @@
 		}
 		{
 			dependencies: ["100ADA8508F6502A"]
-			description: ["That wafer needs to be cut into chips now, so back to the Cutter with these"]
+			description: ["{atm9.quest.gregtech.desc.cuttingChips}"]
 			id: "57F1B60DEA622275"
 			rewards: [{
 				id: "2884EBF95CB39508"
@@ -160,7 +160,7 @@
 		}
 		{
 			dependencies: ["7EFA4F2C0A895502"]
-			description: ["Engraved wafers need to be cut into the appropriate size, so back to the Cutter we go!"]
+			description: ["{atm9.quest.gregtech.desc.engravingWafers}"]
 			id: "2B9BA85662BF637C"
 			rewards: [{
 				id: "4B04D1AC6BF7DCB3"
@@ -178,7 +178,7 @@
 		}
 		{
 			dependencies: ["2AB457E29360E3B8"]
-			description: ["Once cooled we can begin to shape the ingot into more useful materials"]
+			description: ["{atm9.quest.gregtech.desc.shapingIngot}"]
 			id: "662E0A84D755064F"
 			rewards: [
 				{
@@ -206,13 +206,13 @@
 		{
 			dependencies: ["5E90EF7FF530C477"]
 			description: [
-				"Ethylene with even more oxygen will make you Polyethylene"
+				"{atm9.quest.gregtech.desc.polyethylene.1}"
 				""
-				"Do note you need to use &eProgram 1&r for this recipe"
+				"{atm9.quest.gregtech.desc.polyethylene.2}"
 				""
-				"You could use air instead of oxygen, but you'll get less Polyethylene out"
+				"{atm9.quest.gregtech.desc.polyethylene.3}"
 				""
-				"This stuff is very versatile, we'll be using a lot of it, so be sure to make a bunch or better yet make it passively"
+				"{atm9.quest.gregtech.desc.polyethylene.4}"
 			]
 			id: "6A82827978D3483B"
 			rewards: [{
@@ -220,7 +220,7 @@
 				item: "gtceu:ethylene_bucket"
 				type: "item"
 			}]
-			subtitle: "Even more oxygen"
+			subtitle: "{atm9.quest.gregtech.subt.moreOxygen}"
 			tasks: [{
 				id: "6A3EF1D7987AA6BB"
 				item: "gtceu:polyethylene_bucket"
@@ -231,7 +231,7 @@
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
-			description: ["Once you've got polyethylene set up, you can switch to making machine hulls in the Assembler to save on some materials"]
+			description: ["{atm9.quest.gregtech.desc.machineHulls}"]
 			id: "063F5023D56CA6B1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -239,7 +239,7 @@
 				table_id: 7083859357644513434L
 				type: "loot"
 			}]
-			subtitle: "Greggers, ASSEMBLE!"
+			subtitle: "{atm9.quest.gregtech.subt.teachAssemble.1}"
 			tasks: [{
 				id: "37E2BCA62B82CFF5"
 				item: "gtceu:mv_assembler"
@@ -251,9 +251,9 @@
 		{
 			dependencies: ["707EBA5717938515"]
 			description: [
-				"Turn blocks into plates with this one trick!"
+				"{atm9.quest.gregtech.desc.cuttingEdge.1}"
 				""
-				"Also very useful for making silicon wafers and wafer chips, which we'll get into shortly"
+				"{atm9.quest.gregtech.desc.cuttingEdge.2}"
 			]
 			id: "0D1A6B32FEB51FAD"
 			rewards: [{
@@ -262,7 +262,7 @@
 				table_id: 7083859357644513434L
 				type: "loot"
 			}]
-			subtitle: "The cutting edge"
+			subtitle: "{atm9.quest.gregtech.subt.cuttingEdge}"
 			tasks: [{
 				id: "7BE3C637D0A738EF"
 				item: "gtceu:mv_cutter"
@@ -276,7 +276,7 @@
 				"4DD7F3508B757EF0"
 				"1F92F7314DF3C3E2"
 			]
-			description: ["One ruby plate in the Lathe will make a Ruby Lens"]
+			description: ["{atm9.quest.gregtech.desc.rubyLens}"]
 			id: "26004F997C758011"
 			rewards: [{
 				id: "7742DCB74500D3F7"
@@ -297,9 +297,9 @@
 				"26D1F1ECF66194E6"
 			]
 			description: [
-				"The cutter will make quick work of the boule and turn it into 16 wafers"
+				"{atm9.quest.gregtech.desc.quickWork.1}"
 				""
-				"You can also use these wafers to make cheaper diodes - time to upgrade that recipe!"
+				"{atm9.quest.gregtech.desc.quickWork.2}"
 			]
 			id: "688AFF76CF5E599A"
 			rewards: [{
@@ -319,9 +319,9 @@
 		}
 		{
 			description: [
-				"&e32x Silicon Dust&r and a &aSmall Pile of Gallium Arsenide Dust&r on &bProgram 2&r will make you one of these "
+				"{atm9.quest.gregtech.desc.siliconDust.1}"
 				""
-				"It might be worth making a new EBF, one for just Program 1 recipes"
+				"{atm9.quest.gregtech.desc.siliconDust.2}"
 			]
 			id: "26D1F1ECF66194E6"
 			rewards: [{
@@ -347,9 +347,9 @@
 				"644B16B9618B41BE"
 			]
 			description: [
-				"Uses a laser and specific lenses to engrave different patterns on the wafers"
+				"{atm9.quest.gregtech.desc.engravingPatterns.1}"
 				""
-				"You might want to make one of these per lens we make, so you don't have to change out the lenses manually when automating"
+				"{atm9.quest.gregtech.desc.engravingPatterns.2}"
 			]
 			id: "11F7D3DDF5683EB3"
 			rewards: [{
@@ -371,7 +371,7 @@
 				"1ACD6672F72664D6"
 				"1F92F7314DF3C3E2"
 			]
-			description: ["Process one of those emerald plates in a Lathe to get your Emerald Lens!"]
+			description: ["{atm9.quest.gregtech.desc.emeraldLens}"]
 			id: "545959C8C28C6F2B"
 			rewards: [{
 				id: "16950710D10185F1"
@@ -389,9 +389,9 @@
 		{
 			dependencies: ["262AE37765B139BE"]
 			description: [
-				"Insert gem plate and get gem lens"
+				"{atm9.quest.gregtech.desc.gemLens.1}"
 				""
-				"Still makes rods too!"
+				"{atm9.quest.gregtech.desc.gemLens.2}"
 			]
 			hide_dependency_lines: true
 			id: "1F92F7314DF3C3E2"
@@ -411,7 +411,7 @@
 		}
 		{
 			dependencies: ["0D1A6B32FEB51FAD"]
-			description: ["Use the cutter with a block of emerald to get emerald plates"]
+			description: ["{atm9.quest.gregtech.desc.emeraldPlates.1}"]
 			id: "1ACD6672F72664D6"
 			rewards: [{
 				id: "4165234EDBAE1A23"
@@ -428,7 +428,7 @@
 		}
 		{
 			dependencies: ["0D1A6B32FEB51FAD"]
-			description: ["Insert a block of ruby into your cutter to get nine ruby plates"]
+			description: ["{atm9.quest.gregtech.desc.rubyPlates.1}"]
 			id: "4DD7F3508B757EF0"
 			rewards: [{
 				id: "16A756955B6CB9B8"
@@ -446,11 +446,11 @@
 		{
 			dependencies: ["0D1A6B32FEB51FAD"]
 			description: [
-				"There are many ways to make lubricant"
+				"{atm9.quest.gregtech.desc.lubricant.1}"
 				""
-				"One way I would suggest is to extract fish oil from fish and then distill that into lubricant"
+				"{atm9.quest.gregtech.desc.lubricant.2}"
 				""
-				"Lubricant is very useful with a cutter because recipes using it are much faster compared to water for example"
+				"{atm9.quest.gregtech.desc.lubricant.3}"
 			]
 			id: "42FD79CEB3426861"
 			rewards: [{
@@ -471,9 +471,9 @@
 		{
 			dependencies: ["262AE37765B139BE"]
 			description: [
-				"This is typically used in Ore Processing lines to get alternative byproducts by washing crushed ore in mercury or sodium persulfate"
+				"{atm9.quest.gregtech.desc.oreProcessing.1}"
 				""
-				"In this case though, it can also be used to cool hot silicon ingots"
+				"{atm9.quest.gregtech.desc.oreProcessing.2}"
 			]
 			id: "54A164C737660C4E"
 			rewards: [{
@@ -496,11 +496,11 @@
 				"72E5439299E957A8"
 			]
 			description: [
-				"Put those dusts we just made into your electric blast furnace and get some hot silicon!"
+				"{atm9.quest.gregtech.desc.hotSilicon.1}"
 				""
-				"Holding a hot ingot will damage you, but you have to for this quest because I'm a little evil"
+				"{atm9.quest.gregtech.desc.hotSilicon.2}"
 				""
-				"You will need to cool it, in this case with a chemical bath"
+				"{atm9.quest.gregtech.desc.hotSilicon.3}"
 			]
 			id: "2AB457E29360E3B8"
 			rewards: [
@@ -518,7 +518,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Hot potato"
+			subtitle: "{atm9.quest.gregtech.subt.hotPotato.1}"
 			tasks: [{
 				id: "00676E5631ED2A66"
 				item: "gtceu:hot_silicon_ingot"
@@ -530,11 +530,11 @@
 		{
 			dependencies: ["262AE37765B139BE"]
 			description: [
-				"You can find raw aluminium in the End, and raw aluminum just about everywhere!"
+				"{atm9.quest.gregtech.desc.aluminium.1}"
 				""
-				"Alternatively, you can acquire aluminum by processing a variety of items like bauxite in an electrolyzer for example"
+				"{atm9.quest.gregtech.desc.aluminium.2}"
 				""
-				"We can also generate aluminum passively in the clay line process"
+				"{atm9.quest.gregtech.desc.aluminium.3}"
 			]
 			id: "1C1802ABF3EE3120"
 			rewards: [{
@@ -546,7 +546,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Aluminium is that you?"
+			subtitle: "{atm9.quest.gregtech.subt.aluminium.1}"
 			tasks: [{
 				icon: "alltheores:aluminum_ingot"
 				id: "7B46FA23AF26BF76"
@@ -557,7 +557,7 @@
 						value: "forge:ingots/aluminum"
 					}
 				}
-				title: "Aluminum Ingot"
+				title: "{atm9.quest.gregtech.aluminumIngot}"
 				type: "item"
 			}]
 			x: -7.5d
@@ -568,7 +568,7 @@
 				"11F7D3DDF5683EB3"
 				"688AFF76CF5E599A"
 			]
-			description: ["A Glass Lens (Green) can also make this, but making the colored glass lens is an HV recipe"]
+			description: ["{atm9.quest.gregtech.desc.glassLensGreen.1}"]
 			id: "7EFA4F2C0A895502"
 			rewards: [{
 				id: "096F7065F33494AC"
@@ -589,7 +589,7 @@
 				"11F7D3DDF5683EB3"
 				"688AFF76CF5E599A"
 			]
-			description: ["A Glass Lens (Red) can also make this, but making glass lenses is an HV recipe"]
+			description: ["{atm9.quest.gregtech.desc.glassLensRed.1}"]
 			id: "100ADA8508F6502A"
 			rewards: [{
 				id: "1D619C5D74EE82D7"
@@ -611,9 +611,9 @@
 				"579A41570D610B07"
 			]
 			description: [
-				"Ethanol + Sulfuric Acid in a &eChemical Reactor&r makes Ethylene"
+				"{atm9.quest.gregtech.desc.ethylene.1}"
 				""
-				"There are other methods of course, but those involve petrochemistry which we aren't getting into quite yet"
+				"{atm9.quest.gregtech.desc.ethylene.2}"
 			]
 			id: "5E90EF7FF530C477"
 			rewards: [{
@@ -634,14 +634,14 @@
 				"307F92868E0F4EB3"
 				"22AC248B6BB88486"
 			]
-			description: ["Distilling biomass results in ethanol, which is alcohol, but don't tell anyone I told you"]
+			description: ["{atm9.quest.gregtech.desc.ethanol.1}"]
 			id: "629DC8DED0F6B578"
 			rewards: [{
 				id: "09DBB95EA63243FB"
 				item: "gtceu:biomass_bucket"
 				type: "item"
 			}]
-			subtitle: "Not for drinking"
+			subtitle: "{atm9.quest.gregtech.subt.notForDrinking.1}"
 			tasks: [{
 				id: "70555BDDBADF02A3"
 				item: "gtceu:ethanol_bucket"
@@ -652,11 +652,11 @@
 		}
 		{
 			description: [
-				"Use a &aMortar&r on some coal to get coal dust"
+				"{atm9.quest.gregtech.desc.coalDust.1}"
 				""
-				"Put your coal dust through the &eCentrifuge&r to get carbon dust"
+				"{atm9.quest.gregtech.desc.coalDust.2}"
 				""
-				"Use that Centrifuge again, with glass dust this time, to get silicon dioxide dust"
+				"{atm9.quest.gregtech.desc.coalDust.3}"
 			]
 			id: "589F47DE51213920"
 			rewards: [
@@ -689,13 +689,13 @@
 					type: "item"
 				}
 			]
-			title: "Silicon ingredients"
+			title: "{atm9.quest.gregtech.siliconIngredients}"
 			x: 0.5d
 			y: -2.2d
 		}
 		{
 			dependencies: ["662E0A84D755064F"]
-			description: ["This Silicon Plate will allow us to make the Transistor! A new electrical component, yay!"]
+			description: ["{atm9.quest.gregtech.desc.transistor.1}"]
 			id: "06BBD7B736C564C1"
 			rewards: [{
 				id: "7154B2B74B4F5FAC"
@@ -715,7 +715,7 @@
 				"492386DF6CA892BD"
 				"53AF056139DAACDB"
 			]
-			description: ["Biomass is useful for many things like ethanol and methanol production"]
+			description: ["{atm9.quest.gregtech.desc.biomass.1}"]
 			id: "307F92868E0F4EB3"
 			rewards: [{
 				count: 2
@@ -734,9 +734,9 @@
 		{
 			dependencies: ["262AE37765B139BE"]
 			description: [
-				"Distills compounds into other substances - note the programmed circuit setting for the available recipes"
+				"{atm9.quest.gregtech.desc.distillsCompounds.1}"
 				""
-				"There is a Distillation Tower, but we will get into that later on"
+				"{atm9.quest.gregtech.desc.distillsCompounds.2}"
 			]
 			id: "22AC248B6BB88486"
 			rewards: [{
@@ -762,7 +762,7 @@
 				table_id: 7083859357644513434L
 				type: "loot"
 			}]
-			subtitle: "Not that kind of brewery"
+			subtitle: "{atm9.quest.gregtech.subt.notThatKindOfBrewery.1}"
 			tasks: [{
 				id: "47A9907066F31663"
 				item: {
@@ -781,7 +781,7 @@
 						]
 					}
 				}
-				title: "A Brewery"
+				title: "{atm9.quest.gregtech.aBrewery}"
 				type: "item"
 			}]
 			x: -1.5d
@@ -790,9 +790,9 @@
 		{
 			dependencies: ["6300791605A757B0"]
 			description: [
-				"Macerate those plant balls and make some bio chaff"
+				"{atm9.quest.gregtech.desc.bioChaff.1}"
 				""
-				"When automating this, make sure you set the output to only 2 bio chaff and not 4. The chance outputs will confuse the autocrafting setup otherwise"
+				"{atm9.quest.gregtech.desc.bioChaff.2}"
 			]
 			id: "53AF056139DAACDB"
 			rewards: [{
@@ -811,7 +811,7 @@
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
-			description: ["Put water on the left and lava on the right of your &erock crusher&r, in the world, then insert a single diorite block in the rock crusher, and watch it create more diorite for you"]
+			description: ["{atm9.quest.gregtech.desc.rockCrusher.1}"]
 			icon: "gtceu:mv_rock_crusher"
 			id: "6275C90E5890C1E4"
 			optional: true
@@ -830,19 +830,19 @@
 			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Passive aluminium"
+			subtitle: "{atm9.quest.gregtech.subt.passiveAluminium.1}"
 			tasks: [{
 				id: "2D0B938BFFE7D76C"
 				item: "gtceu:mv_rock_crusher"
 				type: "item"
 			}]
-			title: "The clayline"
+			title: "{atm9.quest.gregtech.theClayline}"
 			x: -8.975000000000001d
 			y: 2.9749999999999996d
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
-			description: ["Also makes those magnetic iron rods for just some energy - save your redstone!"]
+			description: ["{atm9.quest.gregtech.desc.magneticIronRods.1}"]
 			id: "1BD5B25B80EC0F97"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -850,7 +850,7 @@
 				table_id: 7083859357644513434L
 				type: "loot"
 			}]
-			subtitle: "Magnetizing!"
+			subtitle: "{atm9.quest.gregtech.subt.magnetizing.1}"
 			tasks: [{
 				id: "4C32A748A4630A95"
 				item: "gtceu:mv_polarizer"
@@ -862,9 +862,9 @@
 		{
 			dependencies: ["262AE37765B139BE"]
 			description: [
-				"Extruders force ingots into various shapes with the use of the extruder mold"
+				"{atm9.quest.gregtech.desc.extruders.1}"
 				""
-				"It is often cheaper to use the extruder to make crafting components like rotors for example"
+				"{atm9.quest.gregtech.desc.extruders.2}"
 			]
 			id: "0A2675CF16B6443B"
 			optional: true
@@ -945,7 +945,7 @@
 		}
 		{
 			dependencies: ["1BD5B25B80EC0F97"]
-			description: ["You'll need these for MV Electric Motors, a component for many MV machines"]
+			description: ["{atm9.quest.gregtech.desc.mvElectricMotors.1}"]
 			id: "497028C92F886AE0"
 			rewards: [{
 				id: "7A94DDAC0325A87A"
@@ -963,7 +963,7 @@
 		}
 		{
 			dependencies: ["72DACA35906D7E5B"]
-			description: ["Finally, it is time to electrolyze the clay dust and get that sweet, sweet aluminium dust"]
+			description: ["{atm9.quest.gregtech.desc.electrolyzeClayDust.1}"]
 			id: "41FCD7F5B7E6E261"
 			optional: true
 			rewards: [{
@@ -974,7 +974,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "A good source of silicon too"
+			subtitle: "{atm9.quest.gregtech.subt.goodSourceOfSilicon.1}"
 			tasks: [{
 				id: "1AF82AB8FAD6E515"
 				item: "gtceu:mv_electrolyzer"
@@ -989,11 +989,11 @@
 				"72DACA35906D7E5B"
 			]
 			description: [
-				"Our first cover! Covers alter the behavior of machines in a multitude of ways, but this isn't the place to get into all of that"
+				"{atm9.quest.gregtech.desc.firstCover.1}"
 				""
-				"The &arobot arm&r cover will allow you to export (by default) or import items into a machine. In this case, using that buffer chest/barrel from before, you can import specifically diorite dust"
+				"{atm9.quest.gregtech.desc.firstCover.2}"
 				""
-				"Why is this LV when we're in MV? Well, because it is cheaper to make and covers don't explode despite the voltage difference"
+				"{atm9.quest.gregtech.desc.firstCover.3}"
 			]
 			icon: "gtceu:lv_robot_arm"
 			id: "2341D611975C58AF"
@@ -1006,7 +1006,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Auto import? Yes please"
+			subtitle: "{atm9.quest.gregtech.subt.autoImport.1}"
 			tasks: [{
 				id: "4A4FD0588A9C3448"
 				item: "gtceu:lv_robot_arm"
@@ -1018,9 +1018,9 @@
 		{
 			dependencies: ["6275C90E5890C1E4"]
 			description: [
-				"Grind that diorite into diorite dust! You'll also get a small chance at stone dust, which you will need to account for"
+				"{atm9.quest.gregtech.desc.grindDiorite.1}"
 				""
-				"It is recommended that you auto output into a buffer chest/barrel and just trash the stone dust"
+				"{atm9.quest.gregtech.desc.grindDiorite.2}"
 			]
 			id: "6E9126ECA080E725"
 			optional: true
@@ -1042,11 +1042,11 @@
 		{
 			dependencies: ["6E9126ECA080E725"]
 			description: [
-				"Centrifuge the diorite dust to get clay dust and mirabilite dust"
+				"{atm9.quest.gregtech.desc.dioriteDustProcessing.1}"
 				""
-				"The mirabilite can be saved for later processing, if you like"
+				"{atm9.quest.gregtech.desc.dioriteDustProcessing.2}"
 				""
-				"The next step just uses clay dust, so you'll have to do something with that mirabilite dust"
+				"{atm9.quest.gregtech.desc.dioriteDustProcessing.3}"
 			]
 			id: "72DACA35906D7E5B"
 			optional: true
@@ -1067,7 +1067,7 @@
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
-			description: ["This uses even more steam! It might be time to build another boiler"]
+			description: ["{atm9.quest.gregtech.desc.steamUsage.1}"]
 			id: "2AEDB489A017AAF9"
 			optional: true
 			rewards: [
@@ -1086,7 +1086,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Full steam ahead!"
+			subtitle: "{atm9.quest.gregtech.subt.steamAhead.1}"
 			tasks: [{
 				id: "28BC15EC9BCAB1B6"
 				item: "gtceu:mv_steam_turbine"
@@ -1097,7 +1097,7 @@
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
-			description: ["When powering multiple machines, keep in mind cable loss!"]
+			description: ["{atm9.quest.gregtech.desc.cableLoss.1}"]
 			id: "428C034C78923B6C"
 			optional: true
 			rewards: [
@@ -1149,18 +1149,18 @@
 						]
 					}
 				}
-				title: "Any MV Energy Converter"
+				title: "{atm9.quest.gregtech.mvEnergyConverter.1}"
 				type: "item"
 			}]
-			title: "MV Energy Converters"
+			title: "{atm9.quest.gregtech.mvEnergyConverters.1}"
 			x: -9.5d
 			y: 1.5d
 		}
 		{
 			description: [
-				"Eight plants in a Compressor will create a plant ball"
+				"{atm9.quest.gregtech.desc.plantBallCreation.1}"
 				""
-				"You can also get these as a chance output from the centrifuge when making glue"
+				"{atm9.quest.gregtech.desc.plantBallCreation.2}"
 			]
 			id: "6300791605A757B0"
 			rewards: [{
@@ -1170,7 +1170,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Compressed plant matter"
+			subtitle: "{atm9.quest.gregtech.subt.compressedPlantMatter.1}"
 			tasks: [{
 				id: "577EEBAF4FACDCA1"
 				item: "gtceu:plant_ball"
@@ -1181,7 +1181,7 @@
 		}
 		{
 			dependencies: ["24E3CB198F73524A"]
-			description: ["A copper ingot and 63mB of oxygen in your arc furnace will make an annealed copper ingot"]
+			description: ["{atm9.quest.gregtech.desc.annealedCopper.1}"]
 			id: "4E1D5EC061A4AE55"
 			rewards: [{
 				count: 2
@@ -1201,9 +1201,9 @@
 		{
 			dependencies: ["262AE37765B139BE"]
 			description: [
-				"A little oxygen and some electricity and you can anneal copper"
+				"{atm9.quest.gregtech.desc.annealingCopper.1}"
 				""
-				"This will also allow you to break down old machines into ingot forms rather than dust like in the macerator"
+				"{atm9.quest.gregtech.desc.annealingCopper.2}"
 			]
 			icon: "gtceu:mv_arc_furnace"
 			id: "24E3CB198F73524A"
@@ -1213,7 +1213,7 @@
 				table_id: 7083859357644513434L
 				type: "loot"
 			}]
-			subtitle: "Arcing electricity!"
+			subtitle: "{atm9.quest.gregtech.subt.arcingElectricity.1}"
 			tasks: [{
 				id: "77EF6FE6C54C104A"
 				item: {
@@ -1232,7 +1232,7 @@
 						]
 					}
 				}
-				title: "Arc Furnace"
+				title: "{atm9.quest.gregtech.arcFurnace.1}"
 				type: "item"
 			}]
 			x: -1.5d
@@ -1241,9 +1241,9 @@
 		{
 			dependencies: ["262AE37765B139BE"]
 			description: [
-				"This machine is going to see a lot of use, upgrading it is worth it to keep it processing recipes quickly"
+				"{atm9.quest.gregtech.desc.arcFurnaceUsage.1}"
 				""
-				"Consider making multiple of these to help process recipes in parallel"
+				"{atm9.quest.gregtech.desc.arcFurnaceUsage.2}"
 			]
 			id: "579A41570D610B07"
 			rewards: [{
@@ -1252,11 +1252,11 @@
 				table_id: 7083859357644513434L
 				type: "loot"
 			}]
-			subtitle: "Where's your lab coat?"
+			subtitle: "{atm9.quest.gregtech.subt.labCoat.1}"
 			tasks: [{
 				id: "3165B02F2BFFEDDA"
 				item: "gtceu:mv_chemical_reactor"
-				title: "Chemical Reactor"
+				title: "{atm9.quest.gregtech.chemicalReactor.1}"
 				type: "item"
 			}]
 			x: -1.5d
@@ -1265,11 +1265,11 @@
 		{
 			dependencies: ["4E1D5EC061A4AE55"]
 			description: [
-				"Still crafting resistors in a crafting grid? "
+				"{atm9.quest.gregtech.desc.resistorCrafting.1}"
 				""
-				"Take that annealed copper, turn it into fine wire, then add a little glue and carbon to make 4 resistors at once in your Assembler"
+				"{atm9.quest.gregtech.desc.resistorCrafting.2}"
 				""
-				"Talk about a recipe upgrade!"
+				"{atm9.quest.gregtech.desc.resistorCrafting.3}"
 			]
 			id: "4AE05E80142C12A6"
 			optional: true
@@ -1329,21 +1329,21 @@
 							]
 						}
 					}
-					title: "Carbon dust"
+					title: "{atm9.quest.gregtech.carbonDust.1}"
 					type: "item"
 				}
 			]
-			title: "Resistors Revisited"
+			title: "{atm9.quest.gregtech.resistorsRevisited.1}"
 			x: 0.5d
 			y: -5.5d
 		}
 		{
 			description: [
-				"A new setup for ore processing! "
+				"{atm9.quest.gregtech.desc.newOreProcessing.1}"
 				""
-				"[ \"\", { \"text\": \"The \" }, { \"text\": \"Sifter \", \"color\":\"yellow\" }, { \"text\": \"replaces the Thermal Centrifuge and 2nd Macerator in the \" }, { \"text\":\"Ore Processing Setup\", \"color\":\"gold\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"25DBFE887B041E94\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } } ]"
+				"{atm9.quest.gregtech.desc.newOreProcessing.2}"
 				""
-				"You don't have to build a new setup just for this if you are clever with filters and your item flow, but a new setup is probably less work"
+				"{atm9.quest.gregtech.desc.newOreProcessing.3}"
 			]
 			id: "51DB667E991E51F0"
 			tasks: [{
@@ -1364,7 +1364,7 @@
 						]
 					}
 				}
-				title: "Sifter"
+				title: "{atm9.quest.gregtech.sifter.1}"
 				type: "item"
 			}]
 			x: 7.699999999999999d
@@ -1373,11 +1373,11 @@
 		{
 			dependencies: ["51DB667E991E51F0"]
 			description: [
-				"Process &aRaw Emerald&r or silk-touched &aNether Emerald Ore&r through a Macerator, then Ore Washer the crushed ore, then start &esifting&r the purified ore for &bExquisite&r or &bFlawless&r gems"
+				"{atm9.quest.gregtech.desc.emeraldProcessing.1}"
 				""
-				"It does have to be GregTech's emerald ore, you can't use regular silk-touched emerald ore for this"
+				"{atm9.quest.gregtech.desc.emeraldProcessing.2}"
 				""
-				"&e&lHint:&r To find GregTech™ emeralds, look for &dberyllium&r in the Nether &cbetween y=5 and y=30&r, or you can check the Mining Dimension in the netherrack layer!"
+				"{atm9.quest.gregtech.desc.emeraldProcessing.3}"
 			]
 			id: "644B16B9618B41BE"
 			min_width: 250
@@ -1394,7 +1394,7 @@
 				"63621F0189B6EB1B"
 				"7963008B930D84BB"
 			]
-			description: ["A necessary component for the &bMV Cutter&r"]
+			description: ["{atm9.quest.gregtech.desc.mvCutterComponent.1}"]
 			hide_dependent_lines: true
 			id: "707EBA5717938515"
 			rewards: [
@@ -1424,7 +1424,7 @@
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
-			description: ["Making &bvanadium steel dust&r is an MV recipe in the Mixer, so it is time for an upgrade! "]
+			description: ["{atm9.quest.gregtech.desc.vanadiumSteelDust.1}"]
 			id: "63621F0189B6EB1B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1443,9 +1443,9 @@
 		{
 			dependencies: ["262AE37765B139BE"]
 			description: [
-				"This machine is very useful for acquiring &dchromium dust&r, which we'll need to make &bstainless steel dust&r and &bvanadium steel dust&r"
+				"{atm9.quest.gregtech.desc.chromiumDustAcquisition.1}"
 				""
-				"You could chain process Redstone Dust for Ruby Dust to then &eElectrolyze&r for &dChromium Dust&r"
+				"{atm9.quest.gregtech.desc.chromiumDustAcquisition.2}"
 			]
 			id: "7963008B930D84BB"
 			rewards: [{
@@ -1464,7 +1464,7 @@
 		}
 		{
 			dependencies: ["63621F0189B6EB1B"]
-			description: ["Put Aluminium dust, Iron dust, and Chromium dust together in a &eMixer&r and watch it blend!"]
+			description: ["{atm9.quest.gregtech.desc.mixerOperation.1}"]
 			id: "1812BF72305CFFCF"
 			rewards: [{
 				count: 4
@@ -1487,7 +1487,7 @@
 				"54A164C737660C4E"
 				"3DCCEDC5A817EBEB"
 			]
-			description: ["Cook the dust up in the &aEBF&r and cool it down in the &eChemical Bath&r"]
+			description: ["{atm9.quest.gregtech.desc.ebfAndChemicalBath.1}"]
 			id: "358706CA93DC2A9C"
 			rewards: [{
 				count: 4
@@ -1507,15 +1507,15 @@
 		{
 			dependencies: ["358706CA93DC2A9C"]
 			description: [
-				"Use that &eExtractor&r to get your copper in a liquid state"
+				"{atm9.quest.gregtech.desc.assemblerUsage.1}"
 				""
-				"&eWire Cut&r the Kanthal ingots"
+				"{atm9.quest.gregtech.desc.assemblerUsage.2}"
 				""
-				"&eBend&r that Aluminium"
+				"{atm9.quest.gregtech.desc.assemblerUsage.3}"
 				""
-				"Then put it all together in your &eAssembler&r!"
+				"{atm9.quest.gregtech.desc.assemblerUsage.4}"
 				""
-				"Replace the Cupronickel Coils on your &aEBF&r with this stuff"
+				"{atm9.quest.gregtech.desc.assemblerUsage.5}"
 			]
 			id: "72E5439299E957A8"
 			rewards: [{
@@ -1537,7 +1537,7 @@
 		{
 			dependencies: ["1F92F7314DF3C3E2"]
 			description: [
-				"Follow the same steps as the Emerald/Ruby lens to make the &9Sapphire Lens&r"
+				"{atm9.quest.gregtech.desc.sapphireLens.1}"
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"4DD7F3508B757EF0\"}, \"text\": \"How to make the gem plate\", \"color\": \"green\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } }}"
 				""
@@ -1555,7 +1555,7 @@
 		}
 		{
 			dependencies: ["20A0A574F51EEF74"]
-			description: ["That's right, another &eLaser Engraver&r recipe... these quests are becoming non-linear"]
+			description: ["{atm9.quest.gregtech.desc.laserEngraverRecipe.1}"]
 			id: "5B92DA55541B168B"
 			rewards: [{
 				count: 2
@@ -1574,7 +1574,7 @@
 		}
 		{
 			dependencies: ["5B92DA55541B168B"]
-			description: ["Back into the &ecutter&r!"]
+			description: ["{atm9.quest.gregtech.desc.backToCutter.1}"]
 			id: "4E5FE40373675AED"
 			rewards: [{
 				id: "27DFB41D8F75BF3B"
@@ -1592,11 +1592,11 @@
 		{
 			dependencies: ["4E5FE40373675AED"]
 			description: [
-				"You can use a GT Assembler or a regular crafting grid to make this. Since pattern space is precious, especially for the GT Assembler, perhaps a Crafter or Molecular Assembler can handle putting it together"
+				"{atm9.quest.gregtech.desc.assemblerCrafting.1}"
 				""
-				"Swap out the LV Energy Hatches on your &eElectric Blast Furnace&r for these and your EBF can now process &6HV&r recipes! "
+				"{atm9.quest.gregtech.desc.assemblerCrafting.2}"
 				""
-				"Make sure you upgrade your power source too! "
+				"{atm9.quest.gregtech.desc.assemblerCrafting.3}"
 			]
 			id: "3DCCEDC5A817EBEB"
 			min_width: 250
@@ -1606,7 +1606,7 @@
 				table_id: 7083859357644513434L
 				type: "loot"
 			}]
-			subtitle: "EBF Upgrades"
+			subtitle: "{atm9.quest.gregtech.subt.ebfUpgrades}"
 			tasks: [{
 				count: 2L
 				id: "3E686316F9E6B29E"

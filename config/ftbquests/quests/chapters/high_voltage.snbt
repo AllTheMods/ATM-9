@@ -11,9 +11,9 @@
 	quests: [
 		{
 			description: [
-				"Welcome to HV! Things are starting to get exciting around here! "
+				"{atm9.quest.gregtech.desc.utilizingThePower.1}"
 				""
-				"First things first, let's work towards making stainless steel so we can make HV machines"
+				"{atm9.quest.gregtech.desc.utilizingThePower.2}"
 			]
 			id: "70C952B8FF3418F6"
 			rewards: [
@@ -33,7 +33,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Buckle up for &6HV&r"
+			subtitle: "{atm9.quest.gregtech.subt.buckleUpForHV}"
 			tasks: [{
 				id: "12A2731FC755513E"
 				item: "gtceu:advanced_integrated_circuit"
@@ -49,9 +49,9 @@
 				"0AC6B223857CAE94"
 			]
 			description: [
-				"Recipes that used the vacuum tube can now use this instead!"
+				"{atm9.quest.gregtech.desc.buckleUpForHV.1}"
 				""
-				"&eTip:&r You can search through all the different circuits in JEI by typing &b$circuits&r or even specific tiers of circuits with &b$circuits/ulv&r"
+				"{atm9.quest.gregtech.desc.buckleUpForHV.2}"
 			]
 			id: "54EDFCD65E088296"
 			rewards: [{
@@ -60,7 +60,7 @@
 				table_id: 822291801189586703L
 				type: "loot"
 			}]
-			subtitle: "ULV on the cheap"
+			subtitle: "{atm9.quest.gregtech.subt.ulvOnTheCheap}"
 			tasks: [{
 				id: "28B1CB0A8A7BDC67"
 				item: "gtceu:nand_chip"
@@ -76,11 +76,11 @@
 				"3FDC2A2BBAC0EF1B"
 			]
 			description: [
-				"You may be wondering, why bother making an LV chip? Isn't this &6HV&r?"
+				"{atm9.quest.gregtech.desc.ulvOnTheCheap.1}"
 				""
-				"Well, yes, but what if you wanted a new LV machine? Wouldn't you rather get it for less resources than you were previously?"
+				"{atm9.quest.gregtech.desc.ulvOnTheCheap.2}"
 				""
-				"Operating 40 LV machines is 4 times more energy efficient than operating 10 HV machines, so long as the recipe runs at LV"
+				"{atm9.quest.gregtech.desc.ulvOnTheCheap.3}"
 			]
 			id: "4DA2B92417DD41F8"
 			rewards: [{
@@ -104,9 +104,9 @@
 				"3FDC2A2BBAC0EF1B"
 			]
 			description: [
-				"The &bMV&r circuit, in its final form!"
+				"{atm9.quest.gregtech.desc.ulvOnTheCheap.4}"
 				""
-				"&eNote:&r You won't be able to make the cheapest recipe for these quite yet, that comes at IV"
+				"{atm9.quest.gregtech.desc.ulvOnTheCheap.5}"
 			]
 			id: "19DB4970B3D11C1B"
 			rewards: [{
@@ -132,9 +132,9 @@
 				"0DF9014435C8F4D2"
 			]
 			description: [
-				"Upgrading our &6HV&r circuit recipe!"
+				"{atm9.quest.gregtech.desc.ulvOnTheCheap.6}"
 				""
-				"Is it actually cheaper than before? Yes! You can compare recipes if you don't believe me"
+				"{atm9.quest.gregtech.desc.ulvOnTheCheap.7}"
 			]
 			id: "732D201794C228DD"
 			rewards: [{
@@ -158,7 +158,7 @@
 				"5FAA73C52082DC48"
 				"62BBF61C9849CA26"
 			]
-			description: ["Move that &bAdvanced Circuit Assembler&r into your &eCleanroom&r and welcome yourself to the &5EV&r Age!"]
+			description: ["{atm9.quest.gregtech.desc.ulvOnTheCheap.8}"]
 			id: "0DB4226BA23A5C09"
 			rewards: [
 				{
@@ -184,7 +184,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Can this supercomputer win at chess?"
+			subtitle: "{atm9.quest.gregtech.subt.canThisSupercomputerWinAtChess}"
 			tasks: [{
 				id: "7497784245BE7D72"
 				item: "gtceu:micro_processor_computer"
@@ -196,9 +196,9 @@
 		{
 			dependencies: ["70C952B8FF3418F6"]
 			description: [
-				"The only MV machine that requires HV circuits to craft"
+				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.1}"
 				""
-				"This machine allows you to start working towards crafting the next tier of circuits, the &6microprocessors!&r"
+				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.2}"
 			]
 			id: "0AC6B223857CAE94"
 			rewards: [{
@@ -223,17 +223,17 @@
 				"70C952B8FF3418F6"
 			]
 			description: [
-				"The minimum size is 5x5x5 and the maximum size is 15x15x15, and anywhere in between is valid!"
+				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.3}"
 				""
-				"The &aCleanroom&r multiblock is hollow because you put machines in it to run any recipe that requires a Cleanroom - for example, the &5EV Circuit&r requires the &bCircuit Assembler&r &ninside&r the Cleanroom"
+				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.4}"
 				""
-				"Don't forget the &eEnergy Hatch&r, &eMaintenance Hatch&r, and &eIron Door&r!"
+				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.5}"
 				""
-				"You &ndon't need&r &6Passthrough Hatches&r if you can figure out wireless transfer"
+				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.6}"
 				""
-				"&3Diodes&r are necessary if you are using &9Generators&r for your EU needs because a Generator is too dirty to go into a Cleanroom"
+				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.7}"
 				""
-				"You &ndon't need&r Diodes if you use &cEnergy Converters&r because an Energy Converter is... clean?"
+				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.8}"
 			]
 			icon: "gtceu:cleanroom"
 			id: "62BBF61C9849CA26"
@@ -244,7 +244,7 @@
 				table_id: 822291801189586703L
 				type: "loot"
 			}]
-			subtitle: "Squeaky Clean"
+			subtitle: "{atm9.quest.gregtech.subt.squeakyClean}"
 			tasks: [
 				{
 					id: "564B0D84C5688FF2"
@@ -254,7 +254,7 @@
 				{
 					icon: "ftbquests:barrier"
 					id: "3DA6D564BBFB1F50"
-					title: "Observe Completed Cleanroom"
+					title: "{atm9.quest.gregtech.title.observeCompletedCleanroom}"
 					type: "custom"
 				}
 			]
@@ -264,9 +264,9 @@
 		{
 			dependencies: ["681110DE6B4E6ED8"]
 			description: [
-				"Cover a steel frame with plastic sheets then smother it in concrete and let it set into &bPlascrete&r"
+				"{atm9.quest.gregtech.desc.squeakyClean.1}"
 				""
-				"The edges and floor of the Cleanroom needs to be Plascrete"
+				"{atm9.quest.gregtech.desc.squeakyClean.2}"
 			]
 			id: "1DF42E30A24A9DEC"
 			tasks: [{
@@ -278,7 +278,7 @@
 			y: 6.500000000000005d
 		}
 		{
-			description: ["Cleanroom Glass can be used for the walls in place of the Plascrete, just not the edges or floor"]
+			description: ["{atm9.quest.gregtech.desc.squeakyClean.3}"]
 			id: "6F49C691CF79D4B8"
 			shape: "square"
 			tasks: [{
@@ -294,7 +294,7 @@
 				"70C952B8FF3418F6"
 				"4FD6092D9C2A485C"
 			]
-			description: ["Finally, with stainless steel we can begin crafting &6HV&r machines!"]
+			description: ["{atm9.quest.gregtech.desc.squeakyClean.4}"]
 			id: "61262BC1C525E6F1"
 			rewards: [
 				{
@@ -328,9 +328,9 @@
 				"0BAD21557994331D"
 			]
 			description: [
-				"In your handy-dandy &eChemical Reactor&r insert the Plastic Circuit Board, some Copper Foil, and the Iron III Chloride you made to get the Plastic Printed Circuit Board"
+				"{atm9.quest.gregtech.desc.squeakyClean.5}"
 				""
-				"This serves as the base for all the microprocessor circuits"
+				"{atm9.quest.gregtech.desc.squeakyClean.6}"
 			]
 			id: "5FAA73C52082DC48"
 			rewards: [
@@ -359,13 +359,13 @@
 		{
 			dependencies: ["54BEC01D84237DBC"]
 			description: [
-				"Hydrochloric acid and iron dust will &echemical react&r to give you Iron III Chloride"
+				"{atm9.quest.gregtech.desc.squeakyClean.7}"
 				""
-				"Plus you get some hydrogen back!"
+				"{atm9.quest.gregtech.desc.squeakyClean.8}"
 				""
-				"Don't forget your &aprogram setting&r, it should be 1 for this"
+				"{atm9.quest.gregtech.desc.squeakyClean.9}"
 				""
-				"It's recommended you set a &bRequester&r up for this"
+				"{atm9.quest.gregtech.desc.squeakyClean.10}"
 			]
 			id: "0BAD21557994331D"
 			rewards: [{
@@ -383,11 +383,11 @@
 		}
 		{
 			description: [
-				"You'll need thin sheets and foil to make this, both of which can be made in a &eBender&r"
+				"{atm9.quest.gregtech.desc.highVoltageSheets.1}"
 				""
-				"You could &eFluid Solidify&r your polyethylene into sheets directly, or perhaps you solidify it into ingots to make blocks to then &eCutter&r into 9 sheets at once"
+				"{atm9.quest.gregtech.desc.highVoltageSheets.2}"
 				""
-				"By now you've seen that there are many roads we can take to achieve the same end result, so feel free to experiment and make things in different ways!"
+				"{atm9.quest.gregtech.desc.highVoltageSheets.3}"
 			]
 			id: "791E5CB36B5C1E73"
 			min_width: 250
@@ -409,11 +409,11 @@
 		{
 			dependencies: ["12F24C9C6D2AF887"]
 			description: [
-				"You might be wondering why I forced Nickel Zinc Ferrite ingots on you, and this recipe is exactly why! "
+				"{atm9.quest.gregtech.desc.nickelZincFerrite.1}"
 				""
-				"You get the most bang for your buck when using Nickel Zinc Ferrite and Annealed Copper, both of which you can make!"
+				"{atm9.quest.gregtech.desc.nickelZincFerrite.2}"
 				""
-				"You've got some options when it comes to making the NZF rings and the fine wire, an &eExtruder&r will get you the most rings for one ingot and a &eWiremill&r will turn ingots into wire and wire into fine wire"
+				"{atm9.quest.gregtech.desc.nickelZincFerrite.3}"
 			]
 			id: "0DF9014435C8F4D2"
 			min_width: 250
@@ -434,9 +434,9 @@
 		}
 		{
 			description: [
-				"Yep, another lens added to the collection for the &eLaser Engraver&r... If you haven't yet, maybe make a few of those"
+				"{atm9.quest.gregtech.desc.laserEngraverLens.1}"
 				""
-				"As a reminder, the &eengraver&r makes the wafer, the &ecutter&r makes the chip"
+				"{atm9.quest.gregtech.desc.laserEngraverLens.2}"
 			]
 			id: "3FDC2A2BBAC0EF1B"
 			rewards: [{
@@ -464,13 +464,13 @@
 					type: "item"
 				}
 			]
-			title: "CPU Chip"
+			title: "{atm9.quest.gregtech.cpuChip}"
 			x: 3.2d
 			y: 0.20000000000000018d
 		}
 		{
 			dependencies: ["0B54990168F9B136"]
-			description: ["&eCut&r that wafer into a proper chip"]
+			description: ["{atm9.quest.gregtech.desc.cpuChip.1}"]
 			id: "39ACF4D6503067F3"
 			rewards: [{
 				id: "18F7C546E935D265"
@@ -488,11 +488,11 @@
 		{
 			dependencies: ["16154B77454631F4"]
 			description: [
-				"This little guy will allow us to make the ULV circuit as cheap as possible"
+				"{atm9.quest.gregtech.desc.ulvCircuit.1}"
 				""
-				"That's right, there is a ULV circuit, the predecessor is the vacuum tube"
+				"{atm9.quest.gregtech.desc.ulvCircuit.2}"
 				""
-				"&eExtra info&r: SoC or System on Chip is basically a mini computer on a chip, it handles all the computing work"
+				"{atm9.quest.gregtech.desc.ulvCircuit.3}"
 			]
 			id: "0B54990168F9B136"
 			rewards: [{
@@ -512,7 +512,7 @@
 		}
 		{
 			dependencies: ["62161044F3F3AB87"]
-			description: ["Another day, another lens for the &eLaser Engraver&r"]
+			description: ["{atm9.quest.gregtech.desc.laserEngraverLens.3}"]
 			id: "16154B77454631F4"
 			rewards: [{
 				id: "3C750604EAB74C87"
@@ -529,7 +529,7 @@
 		}
 		{
 			dependencies: ["78DC12C2EB504E56"]
-			description: ["Back to the &eLathe&r to turn that plate into a lens"]
+			description: ["{atm9.quest.gregtech.desc.lensMaking.1}"]
 			id: "1AF005E292E409D1"
 			rewards: [{
 				id: "1D704E20CBE202D5"
@@ -546,13 +546,13 @@
 		}
 		{
 			description: [
-				"There are a few ways to make this, pick the one that works best for you!"
+				"{atm9.quest.gregtech.desc.glassPlateOptions.1}"
 				""
-				"&eExtracting&r glass into a liquid and then &efluid solidifying&r that into a plate"
+				"{atm9.quest.gregtech.desc.glassPlateOptions.2}"
 				""
-				"&aMacerating&r glass into glass dust and then &aalloy smelting&r that into a plate"
+				"{atm9.quest.gregtech.desc.glassPlateOptions.3}"
 				""
-				"Using a &bcutter&r to turn glass directly into a glass plate"
+				"{atm9.quest.gregtech.desc.glassPlateOptions.4}"
 			]
 			id: "78DC12C2EB504E56"
 			rewards: [{
@@ -574,11 +574,11 @@
 		{
 			dependencies: ["503E5B82A6C89278"]
 			description: [
-				"Use your polyvinyl chloride in a &efluid solidifier&r to get a sheet of it"
+				"{atm9.quest.gregtech.desc.pvcSheet.1}"
 				""
-				"Throw that plus some copper foil and sulfuric acid together in your &echemical reactor&r and you'll get 2 plastic circuit boards! "
+				"{atm9.quest.gregtech.desc.pvcSheet.2}"
 				""
-				"Keep your eyes peeled, we'll eventually upgrade this recipe to get the coveted 8 plastic circuit boards at once"
+				"{atm9.quest.gregtech.desc.pvcSheet.3}"
 			]
 			id: "124C2A904BF84254"
 			rewards: [{
@@ -599,9 +599,9 @@
 		{
 			dependencies: ["68526BA198AADD8E"]
 			description: [
-				"Silver and 4 electrotine dust in a &eMixer&r on &aProgram 2&r will create &bBlue Alloy Dust&r"
+				"{atm9.quest.gregtech.desc.blueAlloyDust.1}"
 				""
-				"You can just smelt this dust in a furnace to get the ingot"
+				"{atm9.quest.gregtech.desc.blueAlloyDust.2}"
 			]
 			id: "46F5DC6A7FF02DF2"
 			rewards: [{
@@ -620,7 +620,7 @@
 			y: 0.5d
 		}
 		{
-			description: ["If you cannot find &belectrotine&r in the Nether, you can create it by mixing electrum and redstone in a &eMixer&r on &aProgram 1&r"]
+			description: ["{atm9.quest.gregtech.desc.electrotineCreation.1}"]
 			id: "68526BA198AADD8E"
 			rewards: [{
 				id: "5CD5715A50ED58A6"
@@ -639,7 +639,7 @@
 		}
 		{
 			dependencies: ["6A243EDB2A99C76D"]
-			description: ["Two buckets of &boxygen&r plus the &bferrite mixture dust&r in your &eElectric Blast Furnace&r gets you the ingot - no cooling necessary!"]
+			description: ["{atm9.quest.gregtech.desc.ferriteIngot.1}"]
 			id: "12F24C9C6D2AF887"
 			rewards: [{
 				id: "619CB50531BF872F"
@@ -656,9 +656,9 @@
 		}
 		{
 			description: [
-				"Back to that &bAdvanced Mixer&r but on a different &aProgram Circuit&r setting. As a reminder, you could make a new one just for &dProgram 2&r recipes"
+				"{atm9.quest.gregtech.desc.advancedMixerSettings.1}"
 				""
-				"This time you'll need iron, nickel, and zinc dusts"
+				"{atm9.quest.gregtech.desc.advancedMixerSettings.2}"
 			]
 			hide_dependency_lines: true
 			id: "6A243EDB2A99C76D"
@@ -678,9 +678,9 @@
 		{
 			dependencies: ["70C952B8FF3418F6"]
 			description: [
-				"Keep in mind that &e4 RF : 1 EU&r conversion factor! We're at 512 EU at HV, so 2048 RF"
+				"{atm9.quest.gregtech.desc.energyConversion.1}"
 				""
-				"Some recipes will use all of that per tick to process, so make sure your energy production can keep up!"
+				"{atm9.quest.gregtech.desc.energyConversion.2}"
 			]
 			id: "7F64202F2C0BAD2A"
 			optional: true
@@ -707,7 +707,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Got power?"
+			subtitle: "{atm9.quest.gregtech.subt.powerQuestion}"
 			tasks: [{
 				id: "30ECDAAF21DA2EA9"
 				item: {
@@ -734,7 +734,7 @@
 						]
 					}
 				}
-				title: "Any HV Energy Converter"
+				title: "{atm9.quest.gregtech.hvEnergyConverter}"
 				type: "item"
 			}]
 			x: -9.5d
@@ -742,11 +742,11 @@
 		}
 		{
 			description: [
-				"Filter Casings are necessary to actually filter out bad particulates from the air and make the room &eclean&r"
+				"{atm9.quest.gregtech.desc.cleanroomFilter.1}"
 				""
-				"When building your cleanroom, use a &awrench&r to break these otherwise they will not drop when broken"
+				"{atm9.quest.gregtech.desc.cleanroomFilter.2}"
 				""
-				"All of the ceiling needs to be Filter Casings, minus 1 for where the Cleanroom controller block goes"
+				"{atm9.quest.gregtech.desc.cleanroomFilter.3}"
 			]
 			id: "012366E4E4095FC4"
 			rewards: [{
@@ -774,7 +774,7 @@
 		}
 		{
 			dependencies: ["0115271C840CD387"]
-			description: ["At some point you will probably want to switch off of steam to producing Benzene or High Octane Gasoline and gas or combustion generators"]
+			description: ["{atm9.quest.gregtech.desc.energySourceSwitch.1}"]
 			id: "1AE7E363AFDC976B"
 			optional: true
 			rewards: [{
@@ -793,7 +793,7 @@
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
-			description: ["Time to upgrade that boiler perhaps?"]
+			description: ["{atm9.quest.gregtech.desc.boilerUpgrade.1}"]
 			id: "0115271C840CD387"
 			optional: true
 			rewards: [
@@ -812,7 +812,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "So much steam"
+			subtitle: "{atm9.quest.gregtech.subt.steamOverflow}"
 			tasks: [{
 				id: "419FB15F3A540B74"
 				item: "gtceu:hv_steam_turbine"
@@ -823,9 +823,9 @@
 		}
 		{
 			description: [
-				"A little sulfuric acid with cyan dye and 2 salt dust will make the liquid cyan dye"
+				"{atm9.quest.gregtech.desc.cyanDyeProduction.1}"
 				""
-				"Don't worry, I won't make you grab a bucket of the stuff"
+				"{atm9.quest.gregtech.desc.cyanDyeProduction.2}"
 			]
 			id: "5B1C5C9F9CCC51EB"
 			rewards: [{
@@ -844,7 +844,7 @@
 							value: "forge:dyes/cyan"
 						}
 					}
-					title: "Cyan Dye"
+					title: "{atm9.quest.gregtech.cyanDye}"
 					type: "item"
 				}
 				{
@@ -867,7 +867,7 @@
 							]
 						}
 					}
-					title: "Salt Dust"
+					title: "{atm9.quest.gregtech.saltDust}"
 					type: "item"
 				}
 			]
@@ -877,9 +877,9 @@
 		{
 			dependencies: ["1957A39483E15508"]
 			description: [
-				"A little oxygen with your vinyl chloride will get you Polyvinyl Chloride"
+				"{atm9.quest.gregtech.desc.polyvinylChloride.1}"
 				""
-				"&e&lTip:&r&r This is worth setting up a &bRequester&r for!"
+				"{atm9.quest.gregtech.desc.polyvinylChloride.2}"
 			]
 			id: "503E5B82A6C89278"
 			rewards: [{
@@ -898,9 +898,9 @@
 		{
 			dependencies: ["6A2D7380E340B77D"]
 			description: [
-				"Skipping how to make ethylene because we covered that previously"
+				"{atm9.quest.gregtech.desc.vinylChloride.1}"
 				""
-				"Let's combine ethylene with chlorine in the &echemical reactor&r and get some Vinyl Chloride"
+				"{atm9.quest.gregtech.desc.vinylChloride.2}"
 			]
 			id: "1957A39483E15508"
 			rewards: [{
@@ -918,11 +918,11 @@
 		}
 		{
 			description: [
-				"Chlorine comes from many sources! To name a few, you could &eelectrolyze&r sodalite, rock salt, salt dust, apatite dust, or regular old salt water"
+				"{atm9.quest.gregtech.desc.chlorineSources.1}"
 				""
-				"If you go the salt water route, you may wonder how to get salt water - look no further! If you have a steady supply of &dghast tears&r, you can &echemical react&r them with water"
+				"{atm9.quest.gregtech.desc.chlorineSources.2}"
 				""
-				"Alternatively, a &emixer&r with salt dust and water will also produce salt water, but at that point you might as well &eelectrolyze&r the salt dust"
+				"{atm9.quest.gregtech.desc.chlorineSources.3}"
 			]
 			id: "6A2D7380E340B77D"
 			min_width: 250
@@ -946,7 +946,7 @@
 				"70C952B8FF3418F6"
 				"1AF005E292E409D1"
 			]
-			description: ["That liquid &bcyan dye&r plus the Glass Lens in this machine will dye it into a &bGlass Lens (Cyan)&r"]
+			description: ["{atm9.quest.gregtech.desc.glassLensDye.1}"]
 			id: "62161044F3F3AB87"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -967,7 +967,7 @@
 				"4AAF27F0C27FBDB3"
 				"6A2D7380E340B77D"
 			]
-			description: ["A little hydrogen and chlorine together in a &echemical reactor&r will result in some HCl"]
+			description: ["{atm9.quest.gregtech.desc.hydrogenChlorineReaction.1}"]
 			id: "54BEC01D84237DBC"
 			rewards: [{
 				id: "0D1FCABDF38F8263"
@@ -984,11 +984,11 @@
 		}
 		{
 			description: [
-				"Hydrogen, like chlorine, can come from many sources"
+				"{atm9.quest.gregtech.desc.hydrogenSources.1}"
 				""
-				"For example, you could try &ecentrifuging&r goethite or yellow limonite dust, or perhaps &eelectrolyzing&r is more your speed. "
+				"{atm9.quest.gregtech.desc.hydrogenSources.2}"
 				""
-				"Both water and salt water are good sources of hydrogen, and salt water comes with the added benefit of giving you chlorine too!"
+				"{atm9.quest.gregtech.desc.hydrogenSources.3}"
 			]
 			id: "4AAF27F0C27FBDB3"
 			rewards: [{
@@ -1007,9 +1007,9 @@
 		}
 		{
 			description: [
-				"[ \"\", { \"text\": \"If you made the \" }, { \"text\":\"Clay Processing Line\", \"color\":\"aqua\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"6275C90E5890C1E4\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } }, { \"text\":\" earlier, you can simply pause the \" }, { \"text\":\"Electrolyzer\", \"color\":\"yellow\" }, { \"text\":\" briefly to acquire clay dust to mix with your stone dust\" } ]"
+				"{atm9.quest.gregtech.desc.clayProcessingLine.1}"
 				""
-				"At least making this stuff doesn't ruin the bucket or mixer"
+				"{atm9.quest.gregtech.desc.clayProcessingLine.2}"
 			]
 			id: "681110DE6B4E6ED8"
 			shape: "square"
@@ -1023,13 +1023,13 @@
 		}
 		{
 			description: [
-				"You can make this with a combination of iron, nickel or invar, manganese, and chromium dusts in an &bAdvanced Mixer&r with a &aProgram Circuit&r setting"
+				"{atm9.quest.gregtech.desc.advancedMixerSetup.1}"
 				""
-				"&eManganese dust&r is a byproduct of ore processing tungstate, spessartine, olivine, tantalite, pyrolusite, wulfenite, or scheelite"
+				"{atm9.quest.gregtech.desc.advancedMixerSetup.2}"
 				""
-				"&cLooking ahead&r, I'd recommend processing tantalite and tungstate"
+				"{atm9.quest.gregtech.desc.advancedMixerSetup.3}"
 				""
-				"&dChromium dust&r can be gained by ore processing chromite or ruby, both of which can also be further processed in an electrolyzer to get more chromium!"
+				"{atm9.quest.gregtech.desc.advancedMixerSetup.4}"
 			]
 			id: "4FD6092D9C2A485C"
 			min_width: 300
@@ -1063,11 +1063,11 @@
 				"7985FD6195CF45FD"
 			]
 			description: [
-				"Tired of hunting around for ores and hoping you'll strike it rich? Are you looking for the oil that lies beneath? You need the &6HV&r &bProspector&r! "
+				"{atm9.quest.gregtech.desc.prospectorTool.1}"
 				""
-				"This tool will scan the area around you in a 4 chunk radius and tell you where to find the ore you are looking for"
+				"{atm9.quest.gregtech.desc.prospectorTool.2}"
 				""
-				"Additionally, you can sneak + right-click to change to Fluid Detection mode and find oil pools that lie beneath bedrock, all you'll need is a &eFluid Drilling Rig&r to access all that oil!"
+				"{atm9.quest.gregtech.desc.prospectorTool.3}"
 			]
 			id: "464110726B823072"
 			optional: true
@@ -1119,9 +1119,9 @@
 		{
 			dependencies: ["70C952B8FF3418F6"]
 			description: [
-				"&cEnergium Dust&r inside an &6HV Autoclave&r will make an &bEnergium Battery&r"
+				"{atm9.quest.gregtech.desc.energiumBattery.1}"
 				""
-				"Energium Batteries hold up to &a10 minutes&r of HV power"
+				"{atm9.quest.gregtech.desc.energiumBattery.2}"
 			]
 			icon: "gtceu:hv_autoclave"
 			id: "7985FD6195CF45FD"
@@ -1152,9 +1152,9 @@
 		{
 			dependencies: ["70C952B8FF3418F6"]
 			description: [
-				"Finally, at &6HV&r you get access to the &dByproducts&r from the &eMacerator&r"
+				"{atm9.quest.gregtech.desc.maceratorByproducts.1}"
 				""
-				"These byproducts are often incredibly useful and will come in handy multiple times as you progress"
+				"{atm9.quest.gregtech.desc.maceratorByproducts.2}"
 			]
 			id: "63E4149FF75592C8"
 			optional: true
@@ -1183,7 +1183,7 @@
 					type: "item"
 				}
 			]
-			title: "Ore Processing Upgrade"
+			title: "{atm9.quest.gregtech.oreProcessingUpgrade}"
 			x: -7.5d
 			y: 4.5d
 		}
