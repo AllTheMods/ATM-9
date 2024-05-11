@@ -8,9 +8,6 @@
 	id: "5C764279146E5E66"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.3d
 			hover: ["Needed for the ATM Star"]
 			image: "allthetweaks:item/atm_star"
@@ -20,16 +17,13 @@
 			y: 2.85d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.3d
 			hover: ["Needed for the ATM Star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
-			x: 3.6030612244897924d
-			y: -2.08163265306122d
+			x: 8.5d
+			y: -2.0d
 		}
 	]
 	order_index: 4
@@ -38,11 +32,7 @@
 	quests: [
 		{
 			dependencies: ["54D6F7F8FE859729"]
-			description: [
-				"The &9Infusion Altar&r is the bread and butter of creating &aSeeds&r in the mod. You'll need to create the Altar itself, as well as 8 Pedestals."
-				""
-				"Placing the Altar down first will show you where to put the Pedestals. To craft a seed, place the required mats in each pedestal, then give a redstone signal to the Altar."
-			]
+			description: ["{atm9.quest.ma.desc.altar}"]
 			id: "6D750A38944E9B68"
 			rewards: [
 				{
@@ -71,7 +61,7 @@
 					type: "item"
 				}
 			]
-			title: "&dThe Infusion Altar&r"
+			title: "{atm9.quest.ma.altar}"
 			x: -18.799999999999997d
 			y: 0.7999999999999998d
 		}
@@ -97,16 +87,13 @@
 				item: "mysticalagriculture:air_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.air}"
 			x: -20.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: [
-				"You'll want to start growing &aInferium&r as soon as you can!"
-				""
-				"While not required for growing Inferium seeds, you can also create &eEssence Farmland&r that will increase the growth speed of the seeds. However, certain seeds will require certain farmlands to be planted on."
-			]
+			description: ["{atm9.quest.ma.desc.InfFarm}"]
 			hide: true
 			id: "7DFF18CFEB0B8DBE"
 			rewards: [
@@ -135,7 +122,7 @@
 					type: "item"
 				}
 			]
-			title: "Growing &aInferium&r"
+			title: "{atm9.quest.ma.InfFarm}"
 			x: -19.5d
 			y: -3.0d
 		}
@@ -161,6 +148,7 @@
 				item: "mysticalagriculture:water_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.water}"
 			x: -19.0d
 			y: -5.0d
 		}
@@ -186,6 +174,7 @@
 				item: "mysticalagriculture:ice_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.ice}"
 			x: -19.5d
 			y: -5.5d
 		}
@@ -211,6 +200,7 @@
 				item: "mysticalagriculture:wood_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.wood}"
 			x: -20.0d
 			y: -4.0d
 		}
@@ -236,6 +226,7 @@
 				item: "mysticalagriculture:stone_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.stone}"
 			x: -19.0d
 			y: -4.0d
 		}
@@ -261,6 +252,7 @@
 				item: "mysticalagriculture:dirt_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.dirt}"
 			x: -19.5d
 			y: -4.5d
 		}
@@ -286,6 +278,7 @@
 				item: "mysticalagriculture:earth_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.earth}"
 			x: -20.0d
 			y: -6.0d
 		}
@@ -311,18 +304,13 @@
 				item: "mysticalagriculture:fire_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.fire}"
 			x: -19.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["54D6F7F8FE859729"]
-			description: [
-				"Most seeds are simple to make, but to make &9Mob Seeds&r, you'll need to head to the Nether to pick up some &8Soulium&r."
-				""
-				"With the stone and ore that you find, you'll need to use these to make the &3Soulium Dagger&r and &3Soul Jars&r. Using the dagger to kill mobs, you'll be able to gather their &bsouls&r, which are used in the Infusion Altar to create the respective mob seeds."
-				""
-				"Alternatively, you can fill Soul Jars inside of the &3Soul Extractor&r by inserting a jar and using mob items to fill them. For example, adding Rotten Flesh will give a portion of a Zombie Soul."
-			]
+			description: ["{atm9.quest.ma.desc.souls}"]
 			id: "75560045ED084900"
 			rewards: [
 				{
@@ -361,7 +349,7 @@
 					type: "item"
 				}
 			]
-			title: "Creating Mob Seeds"
+			title: "{atm9.quest.ma.souls}"
 			x: -18.799999999999997d
 			y: 2.3d
 		}
@@ -379,6 +367,7 @@
 				item: "mysticalagriculture:prudentium_farmland"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.PruFarm}"
 			x: -14.5d
 			y: -3.0d
 		}
@@ -404,6 +393,7 @@
 				item: "mysticalagriculture:coral_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.coral}"
 			x: -14.0d
 			y: -4.0d
 		}
@@ -429,6 +419,7 @@
 				item: "mysticalagriculture:saltpeter_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.saltpeter}"
 			x: -14.5d
 			y: -5.5d
 		}
@@ -454,6 +445,7 @@
 				item: "mysticalagriculture:coal_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.coal}"
 			x: -15.0d
 			y: -4.0d
 		}
@@ -479,6 +471,7 @@
 				item: "mysticalagriculture:dye_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.dye}"
 			x: -14.5d
 			y: -4.5d
 		}
@@ -504,6 +497,7 @@
 				item: "mysticalagriculture:aluminum_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.aluminum}"
 			x: -14.0d
 			y: -6.0d
 		}
@@ -529,6 +523,7 @@
 				item: "mysticalagriculture:honey_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.honey}"
 			x: -14.0d
 			y: -5.0d
 		}
@@ -554,6 +549,7 @@
 				item: "mysticalagriculture:copper_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.copper}"
 			x: -9.5d
 			y: -5.5d
 		}
@@ -579,6 +575,7 @@
 				item: "mysticalagriculture:nature_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.nature}"
 			x: -15.0d
 			y: -5.0d
 		}
@@ -604,6 +601,7 @@
 				item: "mysticalagriculture:nether_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.nether}"
 			x: -15.0d
 			y: -6.0d
 		}
@@ -629,6 +627,7 @@
 				item: "mysticalagriculture:chicken_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.chicken}"
 			x: -14.0d
 			y: 0.5d
 		}
@@ -654,6 +653,7 @@
 				item: "mysticalagriculture:squid_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.squid}"
 			x: -15.0d
 			y: 2.5d
 		}
@@ -679,8 +679,8 @@
 				item: "mysticalagriculture:cow_seeds"
 				type: "item"
 			}]
-			title: "Meow Meow I'm a Cow... NO!"
-			x: -15.0d
+			title: "{atm9.quest.ma.cow}"
+			x: -14.0d
 			y: 1.5d
 		}
 		{
@@ -705,6 +705,7 @@
 				item: "mysticalagriculture:pig_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.pig}"
 			x: -15.0d
 			y: 0.5d
 		}
@@ -730,8 +731,8 @@
 				item: "mysticalagriculture:sheep_seeds"
 				type: "item"
 			}]
-			title: "Beep Beep I'm a Sheep"
-			x: -14.0d
+			title: "{atm9.quest.ma.sheep}"
+			x: -15.0d
 			y: 1.5d
 		}
 		{
@@ -756,6 +757,7 @@
 				item: "mysticalagriculture:fish_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.fish}"
 			x: -14.0d
 			y: 2.5d
 		}
@@ -781,6 +783,7 @@
 				item: "mysticalagriculture:turtle_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.turtle}"
 			x: -15.0d
 			y: 3.5d
 		}
@@ -806,6 +809,7 @@
 				item: "mysticalagriculture:slime_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.slime}"
 			x: -14.0d
 			y: 3.5d
 		}
@@ -823,6 +827,7 @@
 				item: "mysticalagriculture:tertium_farmland"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.TerFarm}"
 			x: -9.5d
 			y: -3.0d
 		}
@@ -848,6 +853,7 @@
 				item: "mysticalagriculture:rabbit_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.rabbit}"
 			x: -9.0d
 			y: 1.5d
 		}
@@ -873,6 +879,7 @@
 				item: "mysticalagriculture:spider_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.spider}"
 			x: -9.5d
 			y: 2.5d
 		}
@@ -898,6 +905,7 @@
 				item: "mysticalagriculture:skeleton_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.skeleton}"
 			x: -10.0d
 			y: 1.5d
 		}
@@ -923,6 +931,7 @@
 				item: "mysticalagriculture:zombie_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.zombie}"
 			x: -10.0d
 			y: 0.5d
 		}
@@ -948,6 +957,7 @@
 				item: "mysticalagriculture:creeper_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.creeper}"
 			x: -9.0d
 			y: 0.5d
 		}
@@ -973,6 +983,7 @@
 				item: "mysticalagriculture:iron_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.iron}"
 			x: -9.0d
 			y: -4.0d
 		}
@@ -998,6 +1009,7 @@
 				item: "mysticalagriculture:tin_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.tin}"
 			x: -10.0d
 			y: -4.0d
 		}
@@ -1023,6 +1035,7 @@
 				item: "mysticalagriculture:silver_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.silver}"
 			x: -9.5d
 			y: -4.5d
 		}
@@ -1048,6 +1061,7 @@
 				item: "mysticalagriculture:lead_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.lead}"
 			x: -10.0d
 			y: -5.0d
 		}
@@ -1073,6 +1087,7 @@
 				item: "mysticalagriculture:zinc_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.zinc}"
 			x: -9.0d
 			y: -5.0d
 		}
@@ -1098,6 +1113,7 @@
 				item: "mysticalagriculture:redstone_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.redstone}"
 			x: -10.0d
 			y: -6.0d
 		}
@@ -1123,6 +1139,7 @@
 				item: "mysticalagriculture:glowstone_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.glowstone}"
 			x: -9.0d
 			y: -6.0d
 		}
@@ -1148,6 +1165,7 @@
 				item: "mysticalagriculture:nether_quartz_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.quartz}"
 			x: -9.5d
 			y: -6.5d
 		}
@@ -1173,6 +1191,7 @@
 				item: "mysticalagriculture:certus_quartz_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.certus}"
 			x: -9.0d
 			y: -7.0d
 		}
@@ -1198,6 +1217,7 @@
 				item: "mysticalagriculture:obsidian_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.obsidian}"
 			x: -10.0d
 			y: -7.0d
 		}
@@ -1223,6 +1243,7 @@
 				item: "mysticalagriculture:fluorite_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.fluorite}"
 			x: -4.0d
 			y: -4.0d
 		}
@@ -1248,6 +1269,7 @@
 				item: "mysticalagriculture:prismarine_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.prismarine}"
 			x: -9.5d
 			y: -7.5d
 		}
@@ -1265,6 +1287,7 @@
 				item: "mysticalagriculture:imperium_farmland"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.ImpFarm}"
 			x: -4.5d
 			y: -3.0d
 		}
@@ -1290,6 +1313,7 @@
 				item: "mysticalagriculture:blaze_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.blaze}"
 			x: -5.0d
 			y: 0.5d
 		}
@@ -1315,6 +1339,7 @@
 				item: "mysticalagriculture:ghast_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.ghast}"
 			x: -4.0d
 			y: 0.5d
 		}
@@ -1340,6 +1365,7 @@
 				item: "mysticalagriculture:enderman_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.enderman}"
 			x: -5.0d
 			y: 1.5d
 		}
@@ -1372,6 +1398,7 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.ma.exp}"
 			x: -4.0d
 			y: 1.5d
 		}
@@ -1397,6 +1424,7 @@
 				item: "mysticalagriculture:gold_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.gold}"
 			x: -5.0d
 			y: -6.0d
 		}
@@ -1422,6 +1450,7 @@
 				item: "mysticalagriculture:nickel_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.nickel}"
 			x: -5.0d
 			y: -4.0d
 		}
@@ -1447,6 +1476,7 @@
 				item: "mysticalagriculture:lapis_lazuli_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.lapis}"
 			x: -4.5d
 			y: -4.5d
 		}
@@ -1472,6 +1502,7 @@
 				item: "mysticalagriculture:osmium_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.osmium}"
 			x: -4.5d
 			y: -6.5d
 		}
@@ -1497,6 +1528,7 @@
 				item: "mysticalagriculture:end_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.end}"
 			x: -4.0d
 			y: -6.0d
 		}
@@ -1514,6 +1546,7 @@
 				item: "mysticalagriculture:supremium_farmland"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.SupFarm}"
 			x: 0.5d
 			y: -3.0d
 		}
@@ -1539,6 +1572,7 @@
 				item: "mysticalagriculture:wither_skeleton_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.witherskele}"
 			x: 0.5d
 			y: 0.5d
 		}
@@ -1564,6 +1598,7 @@
 				item: "mysticalagriculture:uraninite_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.uraninite}"
 			x: 0.5d
 			y: -4.5d
 		}
@@ -1589,6 +1624,7 @@
 				item: "mysticalagriculture:diamond_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.diamond}"
 			x: 1.0d
 			y: -4.0d
 		}
@@ -1614,6 +1650,7 @@
 				item: "mysticalagriculture:emerald_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.emerald}"
 			x: 0.0d
 			y: -4.0d
 		}
@@ -1639,6 +1676,7 @@
 				item: "mysticalagriculture:platinum_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.platinum}"
 			x: 0.0d
 			y: -5.0d
 		}
@@ -1664,6 +1702,7 @@
 				item: "mysticalagriculture:netherite_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.netherite}"
 			x: 1.0d
 			y: -5.0d
 		}
@@ -1689,6 +1728,7 @@
 				item: "mysticalagriculture:uranium_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.uranium}"
 			x: -4.5d
 			y: -5.5d
 		}
@@ -1707,12 +1747,13 @@
 				item: "mysticalagradditions:insanium_farmland"
 				type: "item"
 			}]
-			x: 5.5d
+			title: "{atm9.quest.ma.InsFarm}"
+			x: 6.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["2FA6B8A1C8713DE0"]
-			description: ["Requires a Crux (Next Quest)"]
+			description: ["{atm9.quest.ma.desc.star_seeds}"]
 			id: "4A96A0456680837C"
 			rewards: [
 				{
@@ -1733,12 +1774,13 @@
 				item: "mysticalagriculture:nether_star_seeds"
 				type: "item"
 			}]
-			x: 6.0d
+			title: "{atm9.quest.ma.star_seeds}"
+			x: 7.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2FA6B8A1C8713DE0"]
-			description: ["Requires a Crux (Next Quest)"]
+			description: ["{atm9.quest.ma.desc.dragon_seeds}"]
 			id: "6AB1C7B6251FE9F5"
 			rewards: [
 				{
@@ -1759,16 +1801,13 @@
 				item: "mysticalagriculture:dragon_egg_seeds"
 				type: "item"
 			}]
-			x: 5.0d
+			title: "{atm9.quest.ma.dragon_seeds}"
+			x: 6.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["54D6F7F8FE859729"]
-			description: [
-				"The &9Tinkering Table&r is used to upgrade &aEssence Gear&r with &dAugments&r."
-				""
-				"Augments can be made using the Infusion Altar. Just like the Essences, Augments have tiers!"
-			]
+			description: ["{atm9.quest.ma.desc.tinkering}"]
 			id: "6A4C49AE72E98727"
 			rewards: [
 				{
@@ -1796,17 +1835,12 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.ma.tinkering}"
 			x: -20.199999999999996d
 			y: 2.3d
 		}
 		{
-			description: [
-				"&dEssence&r is the starting point for all of your growing needs in Mystical Agriculture. "
-				""
-				"&eInferium Essence&r is the base tier of all essences. You can get this from mining, killing mobs, or by making seeds to grow them!"
-				""
-				"To make the bigger and better essences, you'll need to make an &9Infusion Crystal&r. "
-			]
+			description: ["{atm9.quest.ma.desc.InEssence}"]
 			id: "1CC4F8570A7A99EB"
 			rewards: [
 				{
@@ -1833,25 +1867,19 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&bTier 1&r"
+			subtitle: "{atm9.quest.ma.subt.InEssence}"
 			tasks: [{
 				id: "667004CD0469493D"
 				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
-			title: "&aInferium Essence&r"
+			title: "{atm9.quest.ma.InEssence}"
 			x: -19.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["54D6F7F8FE859729"]
-			description: [
-				"The &9Infusion Crystal&r is used to upgrade to higher tier &dEssences&r."
-				""
-				"To start, you'll need to create the first tier of Crystal using &2Inferium&r. This Crystal can create &ePrudentium&r by combining 4 Inferium with the Crystal. This will be used to make the next tier Crystal, which will make the next tier of Essences."
-				""
-				"Eventually, you'll be able to make an Infusion Crystal that works for all tiers and doesn't break!"
-			]
+			description: ["{atm9.quest.ma.desc.crystal}"]
 			id: "05618FE80F2E0372"
 			rewards: [
 				{
@@ -1878,17 +1906,13 @@
 				}
 				type: "item"
 			}]
-			title: "&9The Infusion Crystal&r"
+			title: "{atm9.quest.ma.crystal}"
 			x: -20.200000000000003d
 			y: 0.7999999999999998d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: [
-				"&9Growth Accelerators&r very slightly increase the growth speed of a seed when placed directly underneath the farmland. Each tier has a range of how many blocks \"up\" it can accelerate, with Inferium being the lowest at 12."
-				""
-				"Note: Growth Accelerators of all tiers provide the same rate of growth ticks. Higher tiers however have a larger range, so you can stack more of them below a single plant. It doesn't matter which tier you use as long as the Growth Accelerator is placed within its max range."
-			]
+			description: ["{atm9.quest.ma.desc.InfGrowth}"]
 			hide: true
 			id: "4821419D44F8083F"
 			rewards: [
@@ -1909,7 +1933,7 @@
 				item: "mysticalagriculture:inferium_growth_accelerator"
 				type: "item"
 			}]
-			title: "Speeding Up Growth"
+			title: "{atm9.quest.ma.InfGrowth}"
 			x: -20.5d
 			y: -0.5d
 		}
@@ -1926,6 +1950,7 @@
 				item: "mysticalagriculture:prudentium_growth_accelerator"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.PruGrowth}"
 			x: -15.5d
 			y: -0.5d
 		}
@@ -1942,6 +1967,7 @@
 				item: "mysticalagriculture:tertium_growth_accelerator"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.TerGrowth}"
 			x: -10.5d
 			y: -0.5d
 		}
@@ -1958,6 +1984,7 @@
 				item: "mysticalagriculture:imperium_growth_accelerator"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.ImpGrowth}"
 			x: -5.5d
 			y: -0.5d
 		}
@@ -1974,16 +2001,13 @@
 				item: "mysticalagriculture:supremium_growth_accelerator"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.SupGrowth}"
 			x: -0.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: [
-				"The &aWatering Can&r is used to increase the speed that crops grow. Higher tiers have a larger area of effect. To use this, fill it up with some water by right clicking some water, then hold right click near your crops to water them!"
-				""
-				"Tip: You can shift-right click while looking in the air with the watering can to enable auto-watering."
-			]
+			description: ["{atm9.quest.ma.desc.InfWater}"]
 			hide: true
 			id: "62D04566426DD979"
 			rewards: [
@@ -2011,6 +2035,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.InfWater}"
 			x: -20.5d
 			y: -2.5d
 		}
@@ -2042,6 +2067,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.PruWater}"
 			x: -15.5d
 			y: -2.5d
 		}
@@ -2073,6 +2099,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.TerWater}"
 			x: -10.5d
 			y: -2.5d
 		}
@@ -2110,6 +2137,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.ImpWater}"
 			x: -5.5d
 			y: -2.5d
 		}
@@ -2141,16 +2169,13 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.SupWater}"
 			x: -0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: [
-				"Better than a golden apple, and a tasty snack!"
-				""
-				"Higher tiers give more hunger and saturation, as well as more buffs."
-			]
+			description: ["{atm9.quest.ma.desc.InfApple}"]
 			hide: true
 			id: "1F88C697817A7680"
 			rewards: [
@@ -2171,6 +2196,7 @@
 				item: "mysticalagradditions:inferium_apple"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.InfApple}"
 			x: -18.5d
 			y: -2.5d
 		}
@@ -2187,6 +2213,7 @@
 				item: "mysticalagradditions:prudentium_apple"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.PruApple}"
 			x: -13.5d
 			y: -2.5d
 		}
@@ -2203,6 +2230,7 @@
 				item: "mysticalagradditions:tertium_apple"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.TerApple}"
 			x: -8.5d
 			y: -2.5d
 		}
@@ -2219,6 +2247,7 @@
 				item: "mysticalagradditions:imperium_apple"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.ImpApple}"
 			x: -3.5d
 			y: -2.5d
 		}
@@ -2235,6 +2264,7 @@
 				item: "mysticalagradditions:supremium_apple"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.SupApple}"
 			x: 1.5d
 			y: -2.5d
 		}
@@ -2251,16 +2281,13 @@
 				item: "mysticalagradditions:insanium_apple"
 				type: "item"
 			}]
-			x: 7.5d
+			title: "{atm9.quest.ma.InsApple}"
+			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: [
-				"To start your journey making &aEssence Gear&r, you'll need to make the Inferium Armor first."
-				""
-				"This gear can be upgraded to higher tiers, just like the Essences. You can also &9Augment&r them with the &bTinkering Table&r!"
-			]
+			description: ["{atm9.quest.ma.desc.InfGear}"]
 			hide: true
 			hide_dependency_lines: false
 			id: "2A7E3F2CD335EAD0"
@@ -2329,7 +2356,7 @@
 					type: "item"
 				}
 			]
-			title: "&aEssence Gear&r"
+			title: "{atm9.quest.ma.InfGear}"
 			x: -18.0d
 			y: -1.5d
 		}
@@ -2402,7 +2429,7 @@
 					type: "item"
 				}
 			]
-			title: "&2Prudentium Armor&r"
+			title: "{atm9.quest.ma.PruGear}"
 			x: -13.0d
 			y: -1.5d
 		}
@@ -2475,7 +2502,7 @@
 					type: "item"
 				}
 			]
-			title: "&cTertium Armor"
+			title: "{atm9.quest.ma.TerGear}"
 			x: -8.0d
 			y: -1.5d
 		}
@@ -2548,7 +2575,7 @@
 					type: "item"
 				}
 			]
-			title: "&9Imperium Armor"
+			title: "{atm9.quest.ma.ImpArmor}"
 			x: -3.0d
 			y: -1.5d
 		}
@@ -2621,13 +2648,13 @@
 					type: "item"
 				}
 			]
-			title: "&4Supremium Armor"
+			title: "{atm9.quest.ma.SupGear}"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4A96A0456680837C"]
-			description: ["Place this under the soil to allow Nether Star Seeds to grow."]
+			description: ["{atm9.quest.ma.desc.star_crux}"]
 			id: "7BBCE618001884B1"
 			rewards: [{
 				id: "433A4B914A5FA642"
@@ -2640,12 +2667,13 @@
 				item: "mysticalagradditions:nether_star_crux"
 				type: "item"
 			}]
-			x: 6.0d
+			title: "{atm9.quest.ma.star_crux}"
+			x: 7.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["6AB1C7B6251FE9F5"]
-			description: ["Place this under the soil to allow Dragon Egg Seeds to grow."]
+			description: ["{atm9.quest.ma.desc.dragon_crux}"]
 			id: "7B7504F386DABBDD"
 			rewards: [{
 				id: "7A9B43198D240FCA"
@@ -2658,12 +2686,13 @@
 				item: "mysticalagradditions:dragon_egg_crux"
 				type: "item"
 			}]
-			x: 5.0d
+			title: "{atm9.quest.ma.dragon_crux}"
+			x: 6.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["This is the Tier 2 Essence, made by combining 4 Inferium together with an Inferium Infusion Crystal."]
+			description: ["{atm9.quest.ma.desc.PruEssence}"]
 			hide_dependency_lines: true
 			id: "73350AD668200E99"
 			rewards: [
@@ -2681,13 +2710,13 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "&bTier 2&r"
+			subtitle: "{atm9.quest.ma.subt.PruEssence}"
 			tasks: [{
 				id: "4B2621F8D8FA7CA7"
 				item: "mysticalagriculture:prudentium_essence"
 				type: "item"
 			}]
-			title: "&2Prudentium Essence&r"
+			title: "{atm9.quest.ma.PruEssence}"
 			x: -14.5d
 			y: -1.5d
 		}
@@ -2710,13 +2739,13 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "&bTier 3"
+			subtitle: "{atm9.quest.ma.subt.TerEssence}"
 			tasks: [{
 				id: "6A85B770B8EA032B"
 				item: "mysticalagriculture:tertium_essence"
 				type: "item"
 			}]
-			title: "&cTertium Essence"
+			title: "{atm9.quest.ma.TerEssence}"
 			x: -9.5d
 			y: -1.5d
 		}
@@ -2739,13 +2768,13 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "&bTier 4"
+			subtitle: "{atm9.quest.ma.subt.ImpEssence}"
 			tasks: [{
 				id: "4BEC4730588463FE"
 				item: "mysticalagriculture:imperium_essence"
 				type: "item"
 			}]
-			title: "&9Imperium Essence"
+			title: "{atm9.quest.ma.ImpEssence}"
 			x: -4.5d
 			y: -1.5d
 		}
@@ -2769,13 +2798,13 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "&bTier 5"
+			subtitle: "{atm9.quest.ma.subt.SupEssence}"
 			tasks: [{
 				id: "247349D4951C789F"
 				item: "mysticalagriculture:supremium_essence"
 				type: "item"
 			}]
-			title: "&4Supremium Essence"
+			title: "{atm9.quest.ma.SupEssence}"
 			x: 0.5d
 			y: -1.5d
 		}
@@ -2798,14 +2827,14 @@
 			]
 			shape: "hexagon"
 			size: 2.5d
-			subtitle: "&bTier 6"
+			subtitle: "{atm9.quest.ma.subt.InsEssence}"
 			tasks: [{
 				id: "179DC208291D3C90"
 				item: "mysticalagradditions:insanium_essence"
 				type: "item"
 			}]
-			title: "&1Insanium Essence"
-			x: 5.5d
+			title: "{atm9.quest.ma.InsEssence}"
+			x: 6.5d
 			y: -1.5d
 		}
 		{
@@ -2836,7 +2865,7 @@
 				}
 				type: "item"
 			}]
-			title: "&cAwakened Watering&r"
+			title: "{atm9.quest.ma.AwaWater}"
 			x: 2.0d
 			y: 5.0d
 		}
@@ -2907,17 +2936,13 @@
 					type: "item"
 				}
 			]
-			title: "&cAwakened Armor&r"
+			title: "{atm9.quest.ma.AwaGear}"
 			x: -1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: [
-				"Starting with Inferium Essence, you can create ingots to make both Essence &9Tools&r and &9Armor&r."
-				""
-				"Essence tools can be upgraded to higher tiers, and just like the Armor, they can be &5Augmented&r in the &3Tinkering Table&r."
-			]
+			description: ["{atm9.quest.ma.desc.InfTools}"]
 			hide: true
 			id: "4EF5DE3FBA2A7AE3"
 			rewards: [
@@ -3030,7 +3055,7 @@
 				title: "Inferium Tools and Weapons"
 				type: "item"
 			}]
-			title: "&aEssence Tools and Weapons&r"
+			title: "{atm9.quest.ma.InfTools}"
 			x: -21.0d
 			y: -1.5d
 		}
@@ -3147,7 +3172,7 @@
 				title: "Prudentium Tools and Weapons"
 				type: "item"
 			}]
-			title: "&2Prudentium Tools and Weapons"
+			title: "{atm9.quest.ma.PruTools}"
 			x: -16.0d
 			y: -1.5d
 		}
@@ -3264,7 +3289,7 @@
 				title: "Tertium Tools and Weapons"
 				type: "item"
 			}]
-			title: "&cTertium Tools and Weapons"
+			title: "{atm9.quest.ma.TerTools}"
 			x: -11.0d
 			y: -1.5d
 		}
@@ -3387,7 +3412,7 @@
 				title: "Imperium Tools and Weapons"
 				type: "item"
 			}]
-			title: "&9Imperium Tools and Weapons"
+			title: "{atm9.quest.ma.ImpTools}"
 			x: -6.0d
 			y: -1.5d
 		}
@@ -3468,7 +3493,7 @@
 				title: "Supremium Tools and Weapons"
 				type: "item"
 			}]
-			title: "&4Supremium Tools and Weapons"
+			title: "{atm9.quest.ma.SupTool}"
 			x: -1.0d
 			y: -1.5d
 		}
@@ -3549,7 +3574,7 @@
 				title: "Awakened Supremium Tools and Weapons"
 				type: "item"
 			}]
-			title: "&cAwakened Tools and Weapons&r"
+			title: "{atm9.quest.ma.AwaTools}"
 			x: 0.5d
 			y: 5.5d
 		}
@@ -3584,19 +3609,19 @@
 			]
 			shape: "octagon"
 			size: 2.5d
-			subtitle: "&bTier: Awakened"
+			subtitle: "{atm9.quest.ma.subt.ASE}"
 			tasks: [{
 				id: "3DB6441F3AE36AAB"
 				item: "mysticalagriculture:awakened_supremium_block"
 				type: "item"
 			}]
-			title: "&cAwakened Supremium Essence"
+			title: "{atm9.quest.ma.ASE}"
 			x: 0.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["202B1F54D3F06DAB"]
-			description: ["This special essence is used for making the &6ATM Star&r."]
+			description: ["{atm9.quest.ma.desc.creative}"]
 			id: "7AD83A26A52C0983"
 			rewards: [
 				{
@@ -3623,16 +3648,13 @@
 				item: "mysticalagradditions:creative_essence"
 				type: "item"
 			}]
-			x: 3.582653061224491d
-			y: -1.5102040816326507d
+			title: "{atm9.quest.ma.creative}"
+			x: 8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["67DBE6C59C0D9D1B"]
-			description: [
-				"To awaken your Supremium Essence, you'll need to create a new Altar and 4 new Pedestals, as well as a new type of pedestal called the &cEssence Vessel&r."
-				""
-				"The Essence Vessels will require the starter Element Essences to fill: Fire, Water, Earth, and Air."
-			]
+			description: ["{atm9.quest.ma.desc.awakening}"]
 			hide_dependency_lines: false
 			id: "33D23C65E7274A8F"
 			rewards: [{
@@ -3660,13 +3682,13 @@
 					type: "item"
 				}
 			]
-			title: "&dThe Awakening&r"
+			title: "{atm9.quest.ma.awakening}"
 			x: -0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["67DBE6C59C0D9D1B"]
-			description: ["This special &eDust&r is dropped from the Wither and the Ender Dragon when killed by an &dEssence Weapon&r enchanted with &dMystical Enlightenment&r."]
+			description: ["{atm9.quest.ma.desc.dust}"]
 			hide_dependency_lines: false
 			id: "1CF8263756EE8F2A"
 			rewards: [
@@ -3688,17 +3710,13 @@
 				item: "mysticalagriculture:cognizant_dust"
 				type: "item"
 			}]
-			title: "&5Cognizant Dust"
+			title: "{atm9.quest.ma.dust}"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: [
-				"&bProsperity Shards&r are used as one of the main crafting mats for several of the recipes in Mystical Agriculture, like seeds, ingots, and more."
-				""
-				"You'll find these from mining!"
-			]
+			description: ["{atm9.quest.ma.desc.properity}"]
 			id: "54D6F7F8FE859729"
 			rewards: [{
 				id: "6C00F85D73FBE858"
@@ -3711,129 +3729,108 @@
 				item: "mysticalagriculture:prosperity_shard"
 				type: "item"
 			}]
-			title: "Prosperity Shards"
+			title: "{atm9.quest.ma.properity}"
 			x: -19.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["1A828B972744E6D1"]
-			description: ["Requires a Crux (Next Quest)"]
-			id: "403A2FDE4D14E489"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "57D94347B868256E"
-					table_id: 3663852184954822005L
-					type: "loot"
-				}
-				{
-					id: "417CBE337A51A135"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				id: "077FDB913A47CDAF"
-				item: "mysticalagriculture:allthemodium_seeds"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1A828B972744E6D1"]
-			description: ["Requires a Crux (Next Quest)"]
-			id: "2CA6E04FD56BDB20"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7855AB60ADCEDC25"
-					table_id: 3663852184954822005L
-					type: "loot"
-				}
-				{
-					id: "0AD521A9FACDB554"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				id: "270A169DC6ECC7B4"
-				item: "mysticalagriculture:vibranium_seeds"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1A828B972744E6D1"]
-			description: ["Requires a Crux (Next Quest)"]
-			id: "5D4EA1DE55C8423C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "422DD20E612A4BA7"
-					table_id: 3663852184954822005L
-					type: "loot"
-				}
-				{
-					id: "692F7F5D163A4DA5"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				id: "1B3717FFF6E93D0C"
-				item: "mysticalagriculture:unobtainium_seeds"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 2.0d
-		}
-		{
 			dependencies: ["202B1F54D3F06DAB"]
-			id: "1A828B972744E6D1"
-			rewards: [
-				{
-					id: "7D31A3F2E9F5E969"
-					type: "xp"
-					xp: 250
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0D154A2F300E7BF1"
-					table_id: 5325714992629626565L
-					type: "loot"
-				}
-			]
+			id: "0F031E62E5235251"
+			rewards: [{
+				id: "5500C7FE18A30635"
+				item: "mysticalagradditions:insanium_gemstone"
+				type: "item"
+			}]
 			tasks: [{
-				id: "0CEBCF92B3FC6B7E"
+				id: "3934F9C6190CE74A"
 				item: "mysticalagradditions:insanium_block"
 				type: "item"
 			}]
-			x: 5.5d
+			title: "{atm9.quest.ma.InsBlock}"
+			x: 6.5d
 			y: 0.5d
 		}
 		{
 			dependencies: [
-				"403A2FDE4D14E489"
-				"2CA6E04FD56BDB20"
-				"5D4EA1DE55C8423C"
+				"0F031E62E5235251"
+				"67C4A4D6DD93DB0E"
 			]
-			dependency_requirement: "one_completed"
-			description: ["Place this under the soil to allow Magical Tier Seeds to grow."]
-			id: "1B04BF1C3AB07419"
+			description: ["{atm9.quest.ma.desc.atm}"]
+			id: "1B6C8C033901D5D6"
 			rewards: [{
-				id: "118056B4D409F6DF"
-				type: "xp"
-				xp: 250
+				count: 3
+				id: "5CD8AF6587961239"
+				item: "allthemodium:allthemodium_nugget"
+				type: "item"
 			}]
 			tasks: [{
-				id: "4B724B39643D9ACD"
+				id: "7F26D119EF530413"
+				item: "mysticalagriculture:allthemodium_seeds"
+				type: "item"
+			}]
+			title: "{atm9.quest.ma.atm}"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0F031E62E5235251"
+				"67C4A4D6DD93DB0E"
+			]
+			description: ["{atm9.quest.ma.desc.vib}"]
+			id: "0E3B4EFE149E0C72"
+			rewards: [{
+				count: 3
+				id: "43B974109751E998"
+				item: "allthemodium:vibranium_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CE92E3787C617A1"
+				item: "mysticalagriculture:vibranium_seeds"
+				type: "item"
+			}]
+			title: "{atm9.quest.ma.vib}"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0F031E62E5235251"
+				"67C4A4D6DD93DB0E"
+			]
+			description: ["{atm9.quest.ma.desc.uno}"]
+			id: "06401FE7C8D75FC1"
+			rewards: [{
+				count: 3
+				id: "6D583BE606165974"
+				item: "allthemodium:unobtainium_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "353CA20D7CB4E14B"
+				item: "mysticalagriculture:unobtainium_seeds"
+				type: "item"
+			}]
+			title: "{atm9.quest.ma.uno}"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			description: ["{atm9.quest.ma.desc.magic}"]
+			id: "67C4A4D6DD93DB0E"
+			rewards: [{
+				id: "7A7C6161BBD4BE86"
+				item: "mysticalagradditions:insanium_farmland"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40E4F2B59C8ADF60"
 				item: "kubejs:magical_soil"
 				type: "item"
 			}]
-			x: 5.5d
+			title: "{atm9.quest.ma.magic}"
+			x: 6.5d
 			y: 3.5d
 		}
 	]
