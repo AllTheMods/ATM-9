@@ -149,6 +149,7 @@ ServerEvents.recipes(event => {
 				Fluid.of('gtceu:soldering_alloy', 1152)
 			])
 		.itemOutputs('gtceu:star_forge')
+        .stationResearch(b => b.researchStack(Item.of('gtceu:uv_field_generator')).CWUt(64).EUt(ZPM))
 		.duration(2400)
 		.EUt(ZPM)
 	
