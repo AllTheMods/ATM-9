@@ -19,12 +19,6 @@ ServerEvents.recipes(e => {
 
   // remove combiner recipes for ores
   e.remove({ type: 'mekanism:combining', id: /ore/ })
-  // delete ethylene
-  /*
-  e.remove({ id: 'mekanism:reaction/substrate/water_hydrogen'})
-  e.remove({ id: 'mekanism:reaction/substrate/ethene_oxygen'})
-  e.remove({ id: 'mekanism:reaction/substrate/water_ethene'})
-  */
   
   // GBG Recipe Change | Alfred
   e.remove({ id: 'mekanismgenerators:generator/gas_burning' })
@@ -111,77 +105,4 @@ ServerEvents.recipes(e => {
     "duration": 200
   }).id('kubejs:nucleosynthesizing/nether_star')
   
-  //substrate
-  
-  /*
-  e.custom({
-    "type": "mekanism:reaction",
-    "duration": 100,
-    "fluidInput": {
-      "amount": 10,
-      "tag": "minecraft:water"
-    },
-    "gasInput": {
-      "amount": 100,
-      "gas": "mekanism:hydrogen"
-    },
-    "itemInput": {
-      "amount": 2,
-      "ingredient": {
-        "tag": "forge:fuels/bio"
-      }
-    },
-    "itemOutput": {
-      "item": "mekanism:substrate"
-    }
-  }).id('kubejs:mek/ethene')
-//substrate dupe
-  e.custom({
-    "type": "mekanism:reaction",
-    "duration": 400,
-    "energyRequired": 200,
-    "fluidInput": {
-      "amount": 200,
-      "tag": "minecraft:water"
-    },
-    "gasInput": {
-      "amount": 100,
-      "gas": "mekanism:hydrogen"
-    },
-    "gasOutput": {
-      "amount": 10,
-      "gas": "mekanism:oxygen"
-    },
-    "itemInput": {
-      "ingredient": {
-        "item": "mekanism:substrate"
-      }
-    },
-    "itemOutput": {
-      "count": 8,
-      "item": "mekanism:substrate"
-    }
-  })
-//hdpe
-  e.custom({
-    "type": "mekanism:reaction",
-    "duration": 60,
-    "energyRequired": 1000,
-    "fluidInput": {
-      "amount": 50,
-      "tag": "minecraft:water"
-    },
-    "gasInput": {
-      "amount": 10,
-      "gas": "mekanism:oxygen"
-    },
-    "itemInput": {
-      "ingredient": {
-        "item": "mekanism:substrate"
-      }
-    },
-    "itemOutput": {
-      "item": "mekanism:hdpe_pellet"
-    }
-  }) */
 })
