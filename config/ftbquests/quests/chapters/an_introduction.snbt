@@ -33,11 +33,11 @@
 	quests: [
 		{
 			description: [
-				"Energy in GT is measured in Energy Units (EU)"
+				"{atm9.quest.gregtech.desc.energyMeasurement}"
 				""
-				"Energy utilization is measured in EU/t"
+				"{atm9.quest.gregtech.desc.energyUtilization}"
 				""
-				"You can produce energy in GT which will naturally be in EU, or you can choose to make energy with another mod like Powah and convert it to EU (more on that later)"
+				"{atm9.quest.gregtech.desc.energyProduction}"
 			]
 			id: "4F086B3CF27D5C1A"
 			rewards: [{
@@ -46,29 +46,29 @@
 				xp: 10
 			}]
 			size: 1.5d
-			subtitle: "For your safety, please read"
+			subtitle: "{atm9.quest.gregtech.subt.safetyRead}"
 			tasks: [{
 				id: "7B1C0F47F1D43B20"
-				title: "Energy Concepts"
+				title: "{atm9.quest.gregtech.energyConcepts}"
 				type: "checkmark"
 			}]
-			title: "Energy"
+			title: "{atm9.quest.gregtech.energy}"
 			x: 0.0d
 			y: 0.55d
 		}
 		{
 			dependencies: ["4F086B3CF27D5C1A"]
 			description: [
-				"Machines and cables/wires are rated for operating at &lspecific Voltage tiers&l"
+				"{atm9.quest.gregtech.desc.machineCableRating}"
 				""
-				"Giving a machine too much voltage makes it &c&lexplode!&r&r"
+				"{atm9.quest.gregtech.desc.machineVoltageDanger}"
 				""
-				"Giving a wire or cable too much voltage makes it burn out"
+				"{atm9.quest.gregtech.desc.cableVoltageDanger}"
 				""
-				"LV is 32 Volts (32 EU/t/A)"
-				"MV is 128 V"
-				"HV is 512 V"
-				"and so on"
+				"{atm9.quest.gregtech.desc.lvVoltageis}"
+				"{atm9.quest.gregtech.desc.mvVoltageis}"
+				"{atm9.quest.gregtech.desc.hvVoltageis}"
+				"{atm9.quest.gregtech.desc.voltageContinuation}"
 			]
 			id: "66D86E1EDEBF542B"
 			rewards: [{
@@ -78,7 +78,7 @@
 			}]
 			tasks: [{
 				id: "0F0F3C716F921B64"
-				title: "Voltage"
+				title: "{atm9.quest.gregtech.voltage}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -87,11 +87,11 @@
 		{
 			dependencies: ["4F086B3CF27D5C1A"]
 			description: [
-				"Amps are like packets of power (EU/t) and can come in different voltage tiers (LV, MV, HV, etc)"
+				"{atm9.quest.gregtech.desc.voltage.1}"
 				""
-				"Machines which receive extra amps will not explode"
+				"{atm9.quest.gregtech.desc.voltage.2}"
 				""
-				"Cables and wires will burn if given more amps than they are rated for"
+				"{atm9.quest.gregtech.desc.voltage.3}"
 			]
 			id: "6635E4C76260C4CB"
 			rewards: [{
@@ -101,7 +101,7 @@
 			}]
 			tasks: [{
 				id: "58DC240BC9900646"
-				title: "Amperage"
+				title: "{atm9.quest.gregtech.amperage}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -113,11 +113,11 @@
 				"6635E4C76260C4CB"
 			]
 			description: [
-				"Wires and cables are imperfect and lose some of the energy they transport in the form of heat"
+				"{atm9.quest.gregtech.desc.amperage.1}"
 				""
-				"You can mitigate some of this loss by covering your wires in rubber to make cables"
+				"{atm9.quest.gregtech.desc.amperage.2}"
 				""
-				"The exception here are superconductors! They have no energy loss"
+				"{atm9.quest.gregtech.desc.amperage.3}"
 			]
 			id: "459787E9F1029CC6"
 			rewards: [{
@@ -125,10 +125,10 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "A meter = one block"
+			subtitle: "{atm9.quest.gregtech.subt.measurement}"
 			tasks: [{
 				id: "4CC5C3088A4F5C7D"
-				title: "Voltage Loss"
+				title: "{atm9.quest.gregtech.voltageLoss}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -137,15 +137,15 @@
 		{
 			dependencies: ["66D86E1EDEBF542B"]
 			description: [
-				"You may have noticed that 4A of LV (32 EU/t/A) would be 128 EU/t"
+				"{atm9.quest.gregtech.desc.voltageLoss.1}"
 				""
-				"1A of MV is also 128 EU/t"
+				"{atm9.quest.gregtech.desc.voltageLoss.2}"
 				""
-				"Can they be exchanged? Kind of!"
+				"{atm9.quest.gregtech.desc.voltageLoss.3}"
 				""
-				"The Electric Blast Furnace (EBF) is one example of this - two LV Energy Hatches can accept 2A of LV each, resulting in the EBF being able to process MV recipes! This is a key aspect to progressing up voltage tiers in GT."
+				"{atm9.quest.gregtech.desc.voltageLoss.4}"
 				""
-				"Alternatively, you have to craft a Voltage Transformer"
+				"{atm9.quest.gregtech.desc.voltageLoss.5}"
 			]
 			id: "33590A79C5C554C8"
 			rewards: [{
@@ -155,7 +155,7 @@
 			}]
 			tasks: [{
 				id: "4BE4C9994786C1D0"
-				title: "Voltage Conversion"
+				title: "{atm9.quest.gregtech.voltageConversion}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -170,11 +170,11 @@
 				"33590A79C5C554C8"
 			]
 			description: [
-				"Tools can be made of MANY materials, the first of which could be iron!"
+				"{atm9.quest.gregtech.desc.voltageConversion.1}"
 				""
-				"Tools can also be repaired in anvils using the same material of the tool itself, like any vanilla tool"
+				"{atm9.quest.gregtech.desc.voltageConversion.2}"
 				""
-				"A &aHammer&r is used in manually crafting plates, which will be necessary for the next tools!"
+				"{atm9.quest.gregtech.desc.voltageConversion.3}"
 			]
 			hide_dependency_lines: true
 			id: "790F509BAA15A68E"
@@ -184,7 +184,7 @@
 				table_id: 487623848494439020L
 				type: "loot"
 			}]
-			subtitle: "An Introduction"
+			subtitle: "{atm9.quest.gregtech.subt.introduction}"
 			tasks: [{
 				id: "30443BA4C089AA8B"
 				item: {
@@ -194,21 +194,21 @@
 						value: "forge:tools/hammers"
 					}
 				}
-				title: "Any GT Hammer"
+				title: "{atm9.quest.gregtech.anyGTHammer}"
 				type: "item"
 			}]
-			title: "Tools"
+			title: "{atm9.quest.gregtech.tools}"
 			x: -2.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["790F509BAA15A68E"]
 			description: [
-				"The &aWrench&r is a crafting tool, sure, but it is also a mining tool for GT machines! Right clicking sets the output side of GT machines and crouch right clicking rotates them"
+				"{atm9.quest.gregtech.desc.tools.1}"
 				""
-				"The &aFile&r is a crafting tool and that's all"
+				"{atm9.quest.gregtech.desc.tools.2}"
 				""
-				"The &aSaw&r is yet another crafting tool, but it can also get you 6 planks from one log!"
+				"{atm9.quest.gregtech.desc.tools.3}"
 			]
 			id: "5D3C8198D9756004"
 			rewards: [{
@@ -227,7 +227,7 @@
 							value: "forge:tools/wrenches"
 						}
 					}
-					title: "GT Wrenches"
+					title: "{atm9.quest.gregtech.gtWrenches}"
 					type: "item"
 				}
 				{
@@ -239,7 +239,7 @@
 							value: "forge:tools/files"
 						}
 					}
-					title: "GT Files"
+					title: "{atm9.quest.gregtech.gtFiles}"
 					type: "item"
 				}
 				{
@@ -251,35 +251,35 @@
 							value: "forge:tools/saws"
 						}
 					}
-					title: "GT Saws"
+					title: "{atm9.quest.gregtech.gtSaws}"
 					type: "item"
 				}
 			]
-			title: "Handy Tools"
+			title: "{atm9.quest.gregtech.handyTools}"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["5D3C8198D9756004"]
 			description: [
-				"&aScrewdrivers&r are a crafting tool and are used in special configuration of machines and Covers"
+				"{atm9.quest.gregtech.desc.handyTools.1}"
 				""
-				"&aWire cutters&r are a crafting tool and right clicking on wires/cables will enable or disable connections to other blocks"
+				"{atm9.quest.gregtech.desc.handyTools.2}"
 				""
-				"&aMortars&r are a crafting tool to grind things to dust"
+				"{atm9.quest.gregtech.desc.handyTools.3}"
 				""
-				"&aKnives&r are also a crafting tool..."
+				"{atm9.quest.gregtech.desc.handyTools.4}"
 				""
-				"&eSoft Mallets&r will pause and resume machines from working with right click"
+				"{atm9.quest.gregtech.desc.handyTools.5}"
 				""
-				"&eCrowbars&r can be used to remove Covers from GT machines with a right click"
+				"{atm9.quest.gregtech.desc.handyTools.6}"
 				""
-				"&eScythes&r can automatically break and re-plant crops in an area and doubles as a cool looking weapon!"
+				"{atm9.quest.gregtech.desc.handyTools.7}"
 				""
-				"&ePlungers&r can clear stuck fluids from GT machines &c&l[NYI]&r&r"
+				"{atm9.quest.gregtech.desc.handyTools.8}"
 				""
-				"&eButchery Knives&r have Looting III implicitly, useful for leather early on!"
-			]
+				"{atm9.quest.gregtech.desc.handyTools.9}"
+		]
 			id: "17BA6F1E5179DB8C"
 			min_width: 400
 			rewards: [{
@@ -288,7 +288,7 @@
 				table_id: 487623848494439020L
 				type: "loot"
 			}]
-			subtitle: "You'll need these eventually for something"
+			subtitle: "{atm9.quest.gregtech.subt.eventually}"
 			tasks: [
 				{
 					id: "15389D4D64D19ACA"
@@ -299,7 +299,7 @@
 							value: "forge:tools/screwdrivers"
 						}
 					}
-					title: "GT Screwdrivers"
+					title: "{atm9.quest.gregtech.gtScrewdrivers}"
 					type: "item"
 				}
 				{
@@ -311,7 +311,7 @@
 							value: "forge:tools/wire_cutters"
 						}
 					}
-					title: "GT Wire Cutters"
+					title: "{atm9.quest.gregtech.gtWireCutters}"
 					type: "item"
 				}
 				{
@@ -323,7 +323,7 @@
 							value: "forge:tools/mortars"
 						}
 					}
-					title: "GT Mortars"
+					title: "{atm9.quest.gregtech.gtMortars}"
 					type: "item"
 				}
 				{
@@ -335,7 +335,7 @@
 							value: "forge:tools/knives"
 						}
 					}
-					title: "GT Knives"
+					title: "{atm9.quest.gregtech.gtKnives}"
 					type: "item"
 				}
 				{
@@ -347,7 +347,7 @@
 							value: "forge:tools/mallets"
 						}
 					}
-					title: "GT Mallets"
+					title: "{atm9.quest.gregtech.gtMallets}"
 					type: "item"
 				}
 				{
@@ -359,7 +359,7 @@
 							value: "forge:tools/crowbars"
 						}
 					}
-					title: "GT Crowbars"
+					title: "{atm9.quest.gregtech.gtCrowbars}"
 					type: "item"
 				}
 				{
@@ -371,7 +371,7 @@
 							value: "forge:tools/scythes"
 						}
 					}
-					title: "GT Scythes"
+					title: "{atm9.quest.gregtech.gtScythes}"
 					type: "item"
 				}
 				{
@@ -383,7 +383,7 @@
 							value: "forge:tools/plungers"
 						}
 					}
-					title: "GT Plungers"
+					title: "{atm9.quest.gregtech.gtPlungers}"
 					type: "item"
 				}
 				{
@@ -395,21 +395,21 @@
 							value: "forge:tools/butchery_knives"
 						}
 					}
-					title: "GT Butchery Knives"
+					title: "{atm9.quest.gregtech.gtButcheryKnives}"
 					type: "item"
 				}
 			]
-			title: "All the tools!"
+			title: "{atm9.quest.gregtech.allTheTools}"
 			x: 2.0d
 			y: -4.5d
 		}
 		{
 			description: [
-				"Ores generate in veins at varying heights spaced apart by every 3 chunks"
+				"{atm9.quest.gregtech.desc.allTheTools.1}"
 				""
-				"Ore veins are often comprised of 3 or more different ores"
+				"{atm9.quest.gregtech.desc.allTheTools.2}"
 				""
-				"All GT Ore veins were moved to the Mining Dimension from every other dimension"
+				"{atm9.quest.gregtech.desc.allTheTools.3}"
 			]
 			disable_toast: true
 			icon: "minecraft:grass_block"
@@ -425,7 +425,7 @@
 				id: "5E966121508B53EA"
 				type: "dimension"
 			}]
-			title: "Overworld Layer Ores"
+			title: "{atm9.quest.gregtech.overworldLayerOres}"
 			x: -5.5d
 			y: 0.5d
 		}
@@ -433,7 +433,7 @@
 			dependencies: ["244220A5D9F4C702"]
 			icon: "gtceu:endstone_bauxite_ore"
 			id: "68B6B946B6BA24CB"
-			subtitle: "Aluminium be here"
+			subtitle: "{atm9.quest.gregtech.subt.aluminium}"
 			tasks: [{
 				id: "5FF14D712FF20F3A"
 				item: {
@@ -468,10 +468,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Bauxite Vein"
+			title: "{atm9.quest.gregtech.bauxiteVein}"
 			x: 6.0d
 			y: -4.5d
 		}
@@ -521,10 +521,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Magnetite Vein"
+			title: "{atm9.quest.gregtech.magnetiteVein}"
 			x: 7.5d
 			y: -3.5d
 		}
@@ -532,7 +532,7 @@
 			dependencies: ["244220A5D9F4C702"]
 			icon: "gtceu:endstone_naquadah_ore"
 			id: "037BB7C486D2D360"
-			subtitle: "Indeed"
+			subtitle: "{atm9.quest.gregtech.subt.indeed}"
 			tasks: [{
 				id: "71DDF8155FD8FCAA"
 				item: {
@@ -559,10 +559,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Naquadah Vein"
+			title: "{atm9.quest.gregtech.naquadahVein}"
 			x: 7.5d
 			y: -1.5d
 		}
@@ -596,10 +596,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Pitchblende Vein"
+			title: "{atm9.quest.gregtech.pitchblendeVein}"
 			x: 4.5d
 			y: -3.5d
 		}
@@ -641,10 +641,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Scheelite Vein"
+			title: "{atm9.quest.gregtech.scheeliteVein}"
 			x: 4.5d
 			y: -1.5d
 		}
@@ -694,10 +694,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Sheldonite Vein"
+			title: "{atm9.quest.gregtech.sheldoniteVein}"
 			x: 6.0d
 			y: -0.5d
 		}
@@ -705,7 +705,7 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_goethite_ore"
 			id: "5B64384E4CE27851"
-			subtitle: "Banded Iron Vein"
+			subtitle: "{atm9.quest.gregtech.subt.ironVein}"
 			tasks: [{
 				id: "7FA60EE3F8F0C57B"
 				item: {
@@ -744,10 +744,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Goethite Vein"
+			title: "{atm9.quest.gregtech.goethiteVein}"
 			x: 7.0d
 			y: 1.5d
 		}
@@ -777,10 +777,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Beryllium Vein"
+			title: "{atm9.quest.gregtech.berylliumVein}"
 			x: 8.0d
 			y: 2.5d
 		}
@@ -814,10 +814,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Certus Quartz Vein"
+			title: "{atm9.quest.gregtech.certusQuartzVein}"
 			x: 8.0d
 			y: 4.5d
 		}
@@ -825,7 +825,7 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_grossular_ore"
 			id: "109E34AE0BE0F266"
-			subtitle: "A nutritious source of manganese"
+			subtitle: "{atm9.quest.gregtech.subt.manganeseSource}"
 			tasks: [{
 				id: "047722F89EBCC4DE"
 				item: {
@@ -860,10 +860,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Grossular Vein"
+			title: "{atm9.quest.gregtech.grossularVein}"
 			x: 7.0d
 			y: 5.5d
 		}
@@ -913,10 +913,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Molybdenum Vein"
+			title: "{atm9.quest.gregtech.molybdenumVein}"
 			x: 6.0d
 			y: 5.5d
 		}
@@ -950,10 +950,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Bastnasite Vein"
+			title: "{atm9.quest.gregtech.bastnasiteVein}"
 			x: 5.0d
 			y: 5.5d
 		}
@@ -979,10 +979,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Quartzite Vein"
+			title: "{atm9.quest.gregtech.quartziteVein}"
 			x: 4.0d
 			y: 4.5d
 		}
@@ -990,7 +990,7 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_redstone_ore"
 			id: "354012CD62D346E5"
-			subtitle: "5x redstone from one raw ore!"
+			subtitle: "{atm9.quest.gregtech.subt.redstoneYield}"
 			tasks: [{
 				id: "778C0EDD0752F465"
 				item: {
@@ -1025,10 +1025,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Redstone Vein"
+			title: "{atm9.quest.gregtech.redstoneVein}"
 			x: 4.0d
 			y: 3.5d
 		}
@@ -1078,10 +1078,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Saltpeter Vein"
+			title: "{atm9.quest.gregtech.saltpeterVein}"
 			x: 4.0d
 			y: 2.5d
 		}
@@ -1123,10 +1123,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Sulfur Vein"
+			title: "{atm9.quest.gregtech.sulfurVein}"
 			x: 5.0d
 			y: 1.5d
 		}
@@ -1160,10 +1160,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Tetrahedrite Vein"
+			title: "{atm9.quest.gregtech.tetrahedriteVein}"
 			x: 6.0d
 			y: 1.5d
 		}
@@ -1209,10 +1209,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Topaz Vein"
+			title: "{atm9.quest.gregtech.topazVein}"
 			x: 8.0d
 			y: 3.5d
 		}
@@ -1254,10 +1254,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Apatite Vein"
+			title: "{atm9.quest.gregtech.apatiteVein}"
 			x: -7.5d
 			y: 0.5d
 		}
@@ -1283,10 +1283,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Cassiterite Vein"
+			title: "{atm9.quest.gregtech.cassiteriteVein}"
 			x: -8.0d
 			y: 1.5d
 		}
@@ -1335,10 +1335,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Chalcopyrite Vein"
+			title: "{atm9.quest.gregtech.chalcopyriteVein}"
 			x: -6.0d
 			y: 2.0d
 		}
@@ -1380,10 +1380,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Galena Vein"
+			title: "{atm9.quest.gregtech.galenaVein}"
 			x: -8.0d
 			y: -0.5d
 		}
@@ -1425,10 +1425,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Garnet Sand Vein"
+			title: "{atm9.quest.gregtech.garnetSandVein}"
 			x: -4.0d
 			y: 2.5d
 		}
@@ -1474,10 +1474,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Garnet Vein"
+			title: "{atm9.quest.gregtech.garnetVein}"
 			x: -4.0d
 			y: 1.5d
 		}
@@ -1485,7 +1485,7 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:goethite_ore"
 			id: "53BBE717148C0B18"
-			subtitle: "Lots of iron in these ores"
+			subtitle: "{atm9.quest.gregtech.subt.ironContent}"
 			tasks: [{
 				id: "6029CFFA9BD91661"
 				item: {
@@ -1528,10 +1528,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Goethite Vein"
+			title: "{atm9.quest.gregtech.goethiteVein}"
 			x: -3.0d
 			y: 1.5d
 		}
@@ -1539,7 +1539,7 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:soapstone_ore"
 			id: "2A54256CA9A23BB3"
-			subtitle: "Useful for making lubricant"
+			subtitle: "{atm9.quest.gregtech.subt.lubricantSource}"
 			tasks: [{
 				id: "0AABC07011A622BB"
 				item: {
@@ -1582,10 +1582,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Soapstone Vein"
+			title: "{atm9.quest.gregtech.soapstoneVein}"
 			x: -7.0d
 			y: 2.5d
 		}
@@ -1619,10 +1619,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Magnetite Vein"
+			title: "{atm9.quest.gregtech.magnetiteVein}"
 			x: -3.0d
 			y: -0.5d
 		}
@@ -1672,10 +1672,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Mineral Sand Vein"
+			title: "{atm9.quest.gregtech.mineralSandVein}"
 			x: -4.0d
 			y: -0.5d
 		}
@@ -1689,7 +1689,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Cobaltite be here"
+			subtitle: "{atm9.quest.gregtech.subt.cobaltitePresence}"
 			tasks: [{
 				id: "0430C905BE3CA0CF"
 				item: {
@@ -1716,10 +1716,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Garnierite Vein"
+			title: "{atm9.quest.gregtech.garnieriteVein}"
 			x: -3.5d
 			y: -1.5d
 		}
@@ -1769,10 +1769,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Salts Vein"
+			title: "{atm9.quest.gregtech.saltsVein}"
 			x: -7.0d
 			y: -0.5d
 		}
@@ -1787,7 +1787,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Diamonds may be hidden in here"
+			subtitle: "{atm9.quest.gregtech.subt.diamondPotential}"
 			tasks: [{
 				id: "7B87E500C6FB74B3"
 				item: {
@@ -1806,10 +1806,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Graphite Vein"
+			title: "{atm9.quest.gregtech.graphiteVein}"
 			x: -4.5d
 			y: -1.5d
 		}
@@ -1817,7 +1817,7 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:lazurite_ore"
 			id: "246DC099F4457712"
-			subtitle: "Find these with some lapis"
+			subtitle: "{atm9.quest.gregtech.subt.lapisLocation}"
 			tasks: [{
 				id: "3A308744C31E3ED4"
 				item: {
@@ -1852,10 +1852,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Lazurite Vein"
+			title: "{atm9.quest.gregtech.lazuriteVein}"
 			x: -7.5d
 			y: -1.5d
 		}
@@ -1905,10 +1905,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Kyanite Vein"
+			title: "{atm9.quest.gregtech.kyaniteVein}"
 			x: -5.0d
 			y: 2.0d
 		}
@@ -1916,7 +1916,7 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:grossular_ore"
 			id: "03B842E4A2A6B2C9"
-			subtitle: "Good for manganese"
+			subtitle: "{atm9.quest.gregtech.subt.goodManganeseSource}"
 			tasks: [{
 				id: "0CD83CD8CF777CB9"
 				item: {
@@ -1959,10 +1959,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Grossular Vein"
+			title: "{atm9.quest.gregtech.grossularVein}"
 			x: -6.5d
 			y: -1.5d
 		}
@@ -1996,10 +1996,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Bentonite Vein"
+			title: "{atm9.quest.gregtech.bentoniteVein}"
 			x: -3.5d
 			y: 0.5d
 		}
@@ -2033,10 +2033,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Cinnabar Vein"
+			title: "{atm9.quest.gregtech.cinnabarVein}"
 			x: -7.0d
 			y: 1.5d
 		}
@@ -2050,7 +2050,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Sapphires"
+			subtitle: "{atm9.quest.gregtech.subt.sapphireSource}"
 			tasks: [{
 				id: "3D55C5B20C7CFDA9"
 				item: {
@@ -2093,10 +2093,10 @@
 						]
 					}
 				}
-				title: "Valid Ores"
+				title: "{atm9.quest.gregtech.validOres}"
 				type: "item"
 			}]
-			title: "Almandine Vein"
+			title: "{atm9.quest.gregtech.almandineVein}"
 			x: -5.5d
 			y: 3.0d
 		}
@@ -2108,7 +2108,7 @@
 				"459787E9F1029CC6"
 				"33590A79C5C554C8"
 			]
-			description: ["Need help finding ores? Make yourself one of these and charge it up by placing it in any machine's energy slot"]
+			description: ["{atm9.quest.gregtech.desc.oreFinder.1}"]
 			hide_dependency_lines: true
 			id: "55C47B868C5ECF54"
 			rewards: [{
@@ -2128,7 +2128,7 @@
 		}
 		{
 			dependencies: ["55C47B868C5ECF54"]
-			description: ["Looking for fluids to unearth? This prospector has a fluid mode to help with just such a task!"]
+			description: ["{atm9.quest.gregtech.desc.fluidFinder.1}"]
 			id: "55F0472830CC6BF6"
 			rewards: [{
 				id: "6ECEEE679E6910B8"
@@ -2146,7 +2146,7 @@
 		}
 		{
 			dependencies: ["55F0472830CC6BF6"]
-			description: ["The all in one, big battery, big range ore/fluid finder"]
+			description: ["{atm9.quest.gregtech.desc.oreFluidFinder.1}"]
 			id: "2E5EF984B9CE0CB9"
 			rewards: [{
 				count: 8
@@ -2164,7 +2164,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["Every 3 chunks you'll find another ore vein!"]
+			description: ["{atm9.quest.gregtech.desc.oreFrequency.1}"]
 			icon: "minecraft:netherrack"
 			id: "0D20644407244A60"
 			rewards: [{
@@ -2175,15 +2175,15 @@
 			tasks: [{
 				dimension: "allthemodium:mining"
 				id: "500548E772861A58"
-				title: "Nether Layer Ores"
+				title: "{atm9.quest.gregtech.netherLayerOres1}"
 				type: "dimension"
 			}]
-			title: "Nether Layer Ores"
+			title: "{atm9.quest.gregtech.netherLayerOres2}"
 			x: 6.0d
 			y: 3.5d
 		}
 		{
-			description: ["3 chunks apart, in case you didn't know that already"]
+			description: ["{atm9.quest.gregtech.desc.oreSpacing.1}"]
 			icon: "minecraft:end_stone"
 			id: "244220A5D9F4C702"
 			rewards: [{
@@ -2194,10 +2194,10 @@
 			tasks: [{
 				dimension: "allthemodium:mining"
 				id: "540231448A4DE43B"
-				title: "End Layer Ores"
+				title: "{atm9.quest.gregtech.endLayerOres1}"
 				type: "dimension"
 			}]
-			title: "End Layer Ores"
+			title: "{atm9.quest.gregtech.endLayerOres2}"
 			x: 6.0d
 			y: -2.5d
 		}

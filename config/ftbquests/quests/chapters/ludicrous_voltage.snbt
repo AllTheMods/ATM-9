@@ -84,7 +84,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Breaking into LuV! Lets continue progression and find out what &cZPM &7is all about!"]
+			description: ["{atm9.quest.gregtech.desc.luvProgression.1}"]
 			id: "5A658F239928850E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -94,13 +94,13 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Make &dLuV&r, not War!"
+			subtitle: "{atm9.quest.gregtech.subt.makeLuv.1}"
 			tasks: [{
 				id: "476F1B02F1D62A14"
 				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
-			title: "I &dLuV &7Progression"
+			title: "{atm9.quest.gregtech.title.luvProgression}"
 			x: -9.5d
 			y: 1.5d
 		}
@@ -110,7 +110,7 @@
 				"22CFDFD1FB8A2298"
 				"1090A47B70EBF704"
 			]
-			description: ["Welcome to the Quantum Age! ZPM Processors, and new Multiblocks await us!"]
+			description: ["{atm9.quest.gregtech.desc.welcomeQuantumAge.1}"]
 			id: "663DA87FDB10E2B8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -120,19 +120,19 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "QuantumMan!"
+			subtitle: "{atm9.quest.gregtech.subt.quantumMan.1}"
 			tasks: [{
 				id: "51119998A84A7E62"
 				item: "gtceu:quantum_processor_mainframe"
 				type: "item"
 			}]
-			title: "&7Stargate gave us &cZPM"
+			title: "{atm9.quest.gregtech.title.stargateZpm}"
 			x: 9.599999999999994d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3B1268D75B34A0F6"]
-			description: ["Now that we have Rhodium, we can mix it with Palladium to get Rhodium plated Palladium, and process those into ingots, then plates, and then we can make &dLuV&r tier Hulls, meaning &dLuV&r Tier machines!!"]
+			description: ["{atm9.quest.gregtech.desc.rhodiumPalladium.1}"]
 			id: "639B1F99D7271C07"
 			rewards: [{
 				count: 8
@@ -141,7 +141,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "When the Dust settled, I saw... Rhodium??"
+			subtitle: "{atm9.quest.gregtech.subt.rhodiumDust.1}"
 			tasks: [{
 				id: "4170FD51FA291A9D"
 				item: "gtceu:rhodium_dust"
@@ -153,9 +153,9 @@
 		{
 			dependencies: ["5A658F239928850E"]
 			description: [
-				"Now were talking! Our machines have some Horsepower behind them. However, even if it seems ridiculous, we are going to need more!"
+				"{atm9.quest.gregtech.desc.horsepower.1}"
 				""
-				"But this will do for now."
+				"{atm9.quest.gregtech.desc.horsepower.2}"
 			]
 			id: "3B1268D75B34A0F6"
 			rewards: [{
@@ -164,7 +164,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "Hydrogen said it’s feeling positive today, probably because it lost an electron."
+			subtitle: "{atm9.quest.gregtech.subt.hydrogenPositive}"
 			tasks: [{
 				id: "13AAD2669D7245A4"
 				item: "gtceu:iv_electrolyzer"
@@ -175,7 +175,7 @@
 		}
 		{
 			dependencies: ["639B1F99D7271C07"]
-			description: ["I have a feeling we are going to need a LOT of this..."]
+			description: ["{atm9.quest.gregtech.desc.lotOfThis.1}"]
 			id: "559DB570A9152259"
 			rewards: [{
 				count: 8
@@ -185,7 +185,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			subtitle: "Got Rhodium?"
+			subtitle: "{atm9.quest.gregtech.subt.gotRhodium}"
 			tasks: [{
 				id: "3FC3D1012046855B"
 				item: "gtceu:rhodium_plated_palladium_dust"
@@ -197,11 +197,11 @@
 		{
 			dependencies: ["63AEFB3C1395BBBA"]
 			description: [
-				"We meet again. The Circuit Assembler. "
+				"{atm9.quest.gregtech.desc.meetCircuitAssembler.1}"
 				""
-				"Yes, this can be made before this chapter is complete. But everything in this chapter is necessary to ensure a smooth ZPM Tier run. "
+				"{atm9.quest.gregtech.desc.meetCircuitAssembler.2}"
 				""
-				"Its highly suggested you complete this tier, and get the resources and components listed, as it will make your journey in the next tier, that much smoother."
+				"{atm9.quest.gregtech.desc.meetCircuitAssembler.3}"
 			]
 			id: "41F04EF882EF31E1"
 			rewards: [{
@@ -212,7 +212,7 @@
 			}]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "Finally!"
+			subtitle: "{atm9.quest.gregtech.subt.finally}"
 			tasks: [{
 				id: "23CB55FBD259329B"
 				item: "gtceu:iv_circuit_assembler"
@@ -228,9 +228,9 @@
 				"2E7E1278D9796141"
 			]
 			description: [
-				"Cheaper EV Processors? Sure Ill take that!"
+				"{atm9.quest.gregtech.desc.cheaperEVProcessors.1}"
 				""
-				"Progress is a good thing!"
+				"{atm9.quest.gregtech.desc.cheaperEVProcessors.2}"
 			]
 			id: "6BE928FE24539D4B"
 			rewards: [{
@@ -239,7 +239,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "EV"
+			subtitle: "{atm9.quest.gregtech.subt.ev}"
 			tasks: [{
 				id: "446D5648C1805604"
 				item: "gtceu:quantum_processor"
@@ -254,7 +254,7 @@
 				"7382C366A1ABAAE3"
 				"2E7E1278D9796141"
 			]
-			description: ["Cheaper IV tier as well?! This just keeps getting better!"]
+			description: ["{atm9.quest.gregtech.desc.cheaperIVTier.1}"]
 			id: "53B44E24BB111D24"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -262,7 +262,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "IV"
+			subtitle: "{atm9.quest.gregtech.subt.iv}"
 			tasks: [{
 				id: "316FD82605C503D6"
 				item: "gtceu:quantum_processor_assembly"
@@ -278,9 +278,9 @@
 				"2E7E1278D9796141"
 			]
 			description: [
-				"While yes, its a bit cheaper in cost, in terms of the lower tier processors, its still a bit expensive. "
+				"{atm9.quest.gregtech.desc.bitCheaperCost.1}"
 				""
-				"Still 2:1 for this tier, but next tier will change that, and the LuV processor will become that much more affordable!"
+				"{atm9.quest.gregtech.desc.bitCheaperCost.2}"
 			]
 			id: "1090A47B70EBF704"
 			rewards: [{
@@ -289,7 +289,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "LuV"
+			subtitle: "{atm9.quest.gregtech.subt.luv}"
 			tasks: [{
 				id: "60981C6865145331"
 				item: "gtceu:quantum_processor_computer"
@@ -299,7 +299,7 @@
 			y: 1.5d
 		}
 		{
-			description: ["We need to mix up some HSLA to make Plates for the Alloy Blast Smelter's walls."]
+			description: ["{atm9.quest.gregtech.desc.mixHSLA.1}"]
 			id: "3863B33438AB5BBD"
 			optional: true
 			rewards: [{
@@ -309,7 +309,7 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "HSLA Dust"
+			subtitle: "{atm9.quest.gregtech.subt.hslaDust}"
 			tasks: [{
 				id: "064427F3DA197068"
 				item: "gtceu:hsla_steel_dust"
@@ -319,7 +319,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["Titanium Carbide dust for Titanium Carbide plates are the second item needed for the Alloy Blast Furnace walls. "]
+			description: ["{atm9.quest.gregtech.desc.titaniumCarbideDust.1}"]
 			id: "7353DB3A9820C92F"
 			optional: true
 			rewards: [{
@@ -329,7 +329,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			subtitle: "High Strength Titanium"
+			subtitle: "{atm9.quest.gregtech.subt.highStrengthTitanium}"
 			tasks: [{
 				id: "541D07490AA62BEE"
 				item: "gtceu:titanium_carbide_dust"
@@ -339,7 +339,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["Tantalum Carbide Plates are required to make the Alloy Blast Smelter Controller. "]
+			description: ["{atm9.quest.gregtech.desc.tantalumCarbidePlates.1}"]
 			id: "64E271AA238B131F"
 			optional: true
 			rewards: [{
@@ -349,7 +349,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			subtitle: "High Strength Tantalum"
+			subtitle: "{atm9.quest.gregtech.subt.highStrengthTantalum}"
 			tasks: [{
 				id: "50A6905F7674B30C"
 				item: "gtceu:tantalum_carbide_dust"
@@ -366,7 +366,7 @@
 				"29417616D8F673D5"
 				"17773F43631748A9"
 			]
-			description: ["Complete an Alloy Blast Smelter and assemble the Multiblock Structure."]
+			description: ["{atm9.quest.gregtech.desc.completeABS.1}"]
 			icon: "gtceu:alloy_blast_smelter"
 			id: "0E76B7095F12EF62"
 			optional: true
@@ -383,7 +383,7 @@
 					xp: 500
 				}
 			]
-			subtitle: "ABS Time"
+			subtitle: "{atm9.quest.gregtech.subt.absTime}"
 			tasks: [
 				{
 					id: "59F1C28384FA8C70"
@@ -411,7 +411,7 @@
 				{
 					icon: "ftbquests:barrier"
 					id: "56A486D09B8B90EC"
-					title: "Observe Alloy Blast Smelter"
+					title: "{atm9.quest.gregtech.observeABS}"
 					type: "custom"
 				}
 			]
@@ -423,7 +423,7 @@
 				"318B71954A49DC27"
 				"277464BE6F96C082"
 			]
-			description: ["Moving forward a lot of mixed metals and alloys will need to be made in the ABS. As Fluids they are then pushed through a Vacuum Freezer with an Ingot Mold to make the ingots. The Multiblock Structures referenced in the following quests all have support blocks which utilize metals which need the ABS to be made. Making at least 1 Alloy Blast Smelter now will be beneficial."]
+			description: ["{atm9.quest.gregtech.desc.mixedMetalsABS.1}"]
 			id: "29417616D8F673D5"
 			rewards: [
 				{
@@ -437,10 +437,10 @@
 					xp: 500
 				}
 			]
-			subtitle: "Anti-Lock Braking System is a Go!"
+			subtitle: "{atm9.quest.gregtech.subt.absGo}"
 			tasks: [{
 				id: "187F7B08BCC7202F"
-				title: "Alloy Blast Smelter"
+				title: "{atm9.quest.gregtech.alloyBlastSmelter}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -448,7 +448,7 @@
 		}
 		{
 			dependencies: ["033BF8D12E32A5E5"]
-			description: ["Youll need quite a bit of Ruridit. Passive your lines to keep a steady supply."]
+			description: ["{atm9.quest.gregtech.desc.needRuridit.1}"]
 			id: "1DBF5A76DCDF5E49"
 			rewards: [{
 				count: 4
@@ -457,7 +457,7 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "I have a bad feeling about this."
+			subtitle: "{atm9.quest.gregtech.subt.badFeeling}"
 			tasks: [{
 				id: "7A12DEBB290BC5C7"
 				item: "gtceu:ruridit_dust"
@@ -468,9 +468,9 @@
 		}
 		{
 			description: [
-				"You should have a lot of Rare Earth from your processing line for your Neodymium. This will ensure that we can obtain Samarium. "
+				"{atm9.quest.gregtech.desc.rareEarthNeodymium.1}"
 				""
-				"If you have not passived your Neodymium production, you really ought to get on that. Once you see the amount of Samarium we get per Rare Earth will reinforce that statement."
+				"{atm9.quest.gregtech.desc.rareEarthNeodymium.2}"
 			]
 			id: "320A70BC50ED456F"
 			rewards: [{
@@ -480,7 +480,7 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "The Earth is Quite Rare"
+			subtitle: "{atm9.quest.gregtech.subt.rareEarth.1}"
 			tasks: [{
 				id: "61DC1EF25489D6CB"
 				item: "gtceu:rare_earth_dust"
@@ -490,7 +490,7 @@
 			y: -4.9d
 		}
 		{
-			description: ["We wont need a ton of these, but it will be a vital component of other parts, and vital to constructing some multiblock structures."]
+			description: ["{atm9.quest.gregtech.desc.rareEarthComponent.1}"]
 			id: "5F18FC7AE321677D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -498,7 +498,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "Next Tier Nether Star?"
+			subtitle: "{atm9.quest.gregtech.subt.netherStarNextTier.1}"
 			tasks: [{
 				id: "5E209A6E3B51E69C"
 				item: "gtceu:quantum_star"
@@ -509,7 +509,7 @@
 		}
 		{
 			dependencies: ["559DB570A9152259"]
-			description: ["These plates will be important in creating more &dLuV&r tier machines."]
+			description: ["{atm9.quest.gregtech.desc.luvTierPlates.1}"]
 			id: "060233F903FAE63B"
 			rewards: [
 				{
@@ -525,7 +525,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "This is my &dLuV&r language!"
+			subtitle: "{atm9.quest.gregtech.subt.luvLanguage.1}"
 			tasks: [
 				{
 					id: "76DF024DC8B203CC"
@@ -538,7 +538,7 @@
 					type: "item"
 				}
 			]
-			title: "&dLuV &7Machine Casing"
+			title: "{atm9.quest.gregtech.title.luvMachineCasing}"
 			x: -5.5d
 			y: 0.5d
 		}
@@ -547,7 +547,7 @@
 				"060233F903FAE63B"
 				"5A658F239928850E"
 			]
-			description: ["Now you are One step closer to being able to make &dLuV&r tier machines!"]
+			description: ["{atm9.quest.gregtech.desc.luvMachineProgress.1}"]
 			id: "5DFE866011AB92DD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -555,13 +555,13 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "Getting tired of &dLuV &7puns?"
+			subtitle: "{atm9.quest.gregtech.subt.luvPunsTired.1}"
 			tasks: [{
 				id: "36E2268117B6B41E"
 				item: "gtceu:luv_machine_hull"
 				type: "item"
 			}]
-			title: "&dLuV &7Machine Hull"
+			title: "{atm9.quest.gregtech.title.luvMachineHull}"
 			x: -5.5d
 			y: 1.5d
 		}
@@ -570,7 +570,7 @@
 				"643E6B22C8B376BA"
 				"204EDA5F8B1C7580"
 			]
-			description: ["Now we can upgrade our Multiblock structures Tiers! EBF's, VF's, Crackers, LFD, and more! They can process faster, and they can process &dLuV&r tier materials! Lets Go!"]
+			description: ["{atm9.quest.gregtech.desc.upgradeMultiblock.1}"]
 			id: "1DDA5ADA11DF868F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -580,7 +580,7 @@
 			}]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "&dLuV Energy Hatch at Last!"
+			subtitle: "{atm9.quest.gregtech.subt.luvEnergyHatch.1}"
 			tasks: [{
 				id: "58D5F07484D64D7F"
 				item: "gtceu:luv_energy_input_hatch"
@@ -592,9 +592,9 @@
 		{
 			dependencies: ["1DDA5ADA11DF868F"]
 			description: [
-				"We just made it so our Multiblock Structures can use &dLuV&r Tier energy. But how about going one step further, and giving them &4ZPM&r tier power?"
+				"{atm9.quest.gregtech.desc.luvEnergyUpgrade.1}"
 				""
-				"This is what we are going to achieve. 4 Amps of &dLuV&r Energy Will give us &4ZPM&r tier energy!"
+				"{atm9.quest.gregtech.desc.luvEnergyUpgrade.2}"
 			]
 			id: "29CD5C0A253425D5"
 			rewards: [{
@@ -603,7 +603,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "How about &dLuV&r Energy Hatch, But 4x?"
+			subtitle: "{atm9.quest.gregtech.subt.luvEnergyHatch4x.1}"
 			tasks: [{
 				id: "7E7EBF9F9D9554EA"
 				item: "gtceu:luv_energy_input_hatch_4a"
@@ -614,7 +614,7 @@
 		}
 		{
 			dependencies: ["320A70BC50ED456F"]
-			description: ["Processe the Rare earth for Small Piles of Samarium, then compress the pieces together for a full Dust piece."]
+			description: ["{atm9.quest.gregtech.desc.samariumProcessing.1}"]
 			id: "32E356FC9E63F63B"
 			rewards: [{
 				count: 4
@@ -623,7 +623,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			subtitle: "Samarai went to school at the Samarium"
+			subtitle: "{atm9.quest.gregtech.subt.samariumSchool.1}"
 			tasks: [{
 				id: "0EE586CF86CCA3F5"
 				item: "gtceu:samarium_dust"
@@ -634,7 +634,7 @@
 		}
 		{
 			dependencies: ["32E356FC9E63F63B"]
-			description: ["Samarium Long Rods, magnetized. Add in some fine wires,  and you got yourself some Progress!"]
+			description: ["{atm9.quest.gregtech.desc.samariumProgress.1}"]
 			id: "1B691393463D3E0E"
 			rewards: [{
 				count: 4
@@ -643,7 +643,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			subtitle: "Long Rods. Nice."
+			subtitle: "{atm9.quest.gregtech.subt.longRodsNice.1}"
 			tasks: [{
 				id: "7CA06E00F92D5C02"
 				item: "gtceu:long_magnetic_samarium_rod"
@@ -653,7 +653,7 @@
 			y: -2.9d
 		}
 		{
-			description: ["Mixing Iridium and Osmium together will get you this Ingot! We have quite a few uses for this new resource. Having a bunch on standby may prove useful!"]
+			description: ["{atm9.quest.gregtech.desc.osmiridiumIngot.1}"]
 			id: "1D0B60026346A844"
 			rewards: [{
 				count: 4
@@ -662,7 +662,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			subtitle: "Making Osmium OP"
+			subtitle: "{atm9.quest.gregtech.subt.osmiumOP.1}"
 			tasks: [{
 				id: "45D51E68F9872B1C"
 				item: "gtceu:osmiridium_ingot"
@@ -673,7 +673,7 @@
 		}
 		{
 			dependencies: ["1D0B60026346A844"]
-			description: ["Lets take the Osmiridium  you made and process it into some Fine Wires. This plus the Magnetized Samarium Long Rods will net us some important progress!"]
+			description: ["{atm9.quest.gregtech.desc.osmiridiumProcessing.1}"]
 			id: "32FE0C0475BB45C6"
 			rewards: [{
 				count: 4
@@ -682,7 +682,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			subtitle: "Dang, Osmiridium lookin' Fine"
+			subtitle: "{atm9.quest.gregtech.subt.osmiridiumFine.1}"
 			tasks: [{
 				id: "6401A6D63A8F755A"
 				item: "gtceu:fine_osmiridium_wire"
@@ -696,7 +696,7 @@
 				"1B691393463D3E0E"
 				"32FE0C0475BB45C6"
 			]
-			description: ["Now that we have combined the previous materials, we have a Ludicrous Voltage Coil! Our multiblock structures will thank us with what we are going to make!"]
+			description: ["{atm9.quest.gregtech.desc.ludicrousVoltageCoil.1}"]
 			id: "643E6B22C8B376BA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -704,7 +704,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "This Voltage is Ludicrous!"
+			subtitle: "{atm9.quest.gregtech.subt.ludicrousVoltage.1}"
 			tasks: [{
 				id: "6A55AC6A8A1F7072"
 				item: "gtceu:luv_voltage_coil"
@@ -715,7 +715,7 @@
 		}
 		{
 			dependencies: ["5F18FC7AE321677D"]
-			description: ["The Emitters and Sensors for each tier always seem to be the hardest components to make. But they always end up helping us in the end with the machines they construct. So its worth it in the end."]
+			description: ["{atm9.quest.gregtech.desc.emittersSensors.1}"]
 			id: "60175A8E3A67F51C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -723,7 +723,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "Im sensing that you are emitting."
+			subtitle: "{atm9.quest.gregtech.subt.emittingSensing.1}"
 			tasks: [
 				{
 					id: "0BE844C05500D395"
@@ -742,9 +742,9 @@
 		{
 			dependencies: ["1DBF5A76DCDF5E49"]
 			description: [
-				"More Gears are good gears! "
+				"{atm9.quest.gregtech.desc.moreGears.1}"
 				""
-				"Keep up the processing, were going to need quite a few of these Assembly lines as we move forward through the tiers!"
+				"{atm9.quest.gregtech.desc.moreGears.2}"
 			]
 			id: "0E4C711E77497984"
 			rewards: [{
@@ -752,7 +752,7 @@
 				type: "xp"
 				xp: 300
 			}]
-			subtitle: "Of course its Gears."
+			subtitle: "{atm9.quest.gregtech.subt.gears}"
 			tasks: [{
 				id: "356F520588929825"
 				item: "gtceu:ruridit_gear"
@@ -767,9 +767,9 @@
 				"60175A8E3A67F51C"
 			]
 			description: [
-				"The Assembly line is necessary for crafting certain parts for the higher tiers. You will likely make quite a few Assembly lines, and maybe even run them in parallel."
+				"{atm9.quest.gregtech.desc.assemblyLineNecessity.1}"
 				""
-				"Your Factory is really going to start filling out moving forward!"
+				"{atm9.quest.gregtech.desc.assemblyLineNecessity.2}"
 			]
 			id: "204EDA5F8B1C7580"
 			rewards: [{
@@ -779,7 +779,7 @@
 				type: "loot"
 			}]
 			shape: "gear"
-			subtitle: "GregTech'ers... Assemble!!"
+			subtitle: "{atm9.quest.gregtech.subt.assembleTechers}"
 			tasks: [
 				{
 					id: "6EE1E6A971E6FA62"
@@ -830,7 +830,7 @@
 		}
 		{
 			dependencies: ["785CB375F25F0715"]
-			description: ["Fiber Reinforced Circuit Boards, strong enough to support Quantum processors and the heat those qubits produce!"]
+			description: ["{atm9.quest.gregtech.desc.strongCircuitBoard}"]
 			id: "2E7E1278D9796141"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -838,7 +838,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "Now thats a strong Circuit Board!"
+			subtitle: "{atm9.quest.gregtech.subt.strongCircuitBoard}"
 			tasks: [{
 				id: "2215AC4CCD8825A7"
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
@@ -848,7 +848,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["The next evolution of our CPU wafers. These futuristic Wafers usher in the Quantum Age!"]
+			description: ["{atm9.quest.gregtech.desc.futuristicWafers}"]
 			id: "17671346C7940CA8"
 			rewards: [{
 				count: 2
@@ -857,7 +857,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			subtitle: "How many Qubits do you have?"
+			subtitle: "{atm9.quest.gregtech.subt.qubitsCount}"
 			tasks: [{
 				id: "44896397E09AF0C3"
 				item: "gtceu:qbit_cpu_wafer"
@@ -868,7 +868,7 @@
 		}
 		{
 			dependencies: ["17671346C7940CA8"]
-			description: ["Quantum CPU's processing all the Qubits!"]
+			description: ["{atm9.quest.gregtech.desc.quantumCpus}"]
 			id: "7382C366A1ABAAE3"
 			rewards: [{
 				count: 8
@@ -877,7 +877,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "How many Qubits in a Ghz?"
+			subtitle: "{atm9.quest.gregtech.subt.qubitsInGhz}"
 			tasks: [{
 				id: "6F8CC253B37BD449"
 				item: "gtceu:qbit_cpu_chip"
@@ -888,7 +888,7 @@
 		}
 		{
 			dependencies: ["28B1787B61BB214B"]
-			description: ["Were almost there, to a completed Circuit Board strong enough for our Quantum Processors!"]
+			description: ["{atm9.quest.gregtech.desc.nearCompletionCircuitBoard}"]
 			id: "785CB375F25F0715"
 			rewards: [{
 				count: 4
@@ -897,7 +897,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Annealed Copper makes a Come back!"
+			subtitle: "{atm9.quest.gregtech.subt.annealedCopperComeback}"
 			tasks: [{
 				id: "7FBA833C07867BB4"
 				item: "gtceu:fiber_reinforced_circuit_board"
@@ -907,7 +907,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["Lets take the Epoxy from the IV tier and make some reinforcements for our next tier Processors!"]
+			description: ["{atm9.quest.gregtech.desc.epoxyReinforcement}"]
 			id: "28B1787B61BB214B"
 			rewards: [{
 				count: 4
@@ -916,7 +916,7 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "So many uses for Epoxy!"
+			subtitle: "{atm9.quest.gregtech.subt.epoxyUses}"
 			tasks: [{
 				id: "6D01867FAD796433"
 				item: "gtceu:reinforced_epoxy_resin_plate"
@@ -928,9 +928,9 @@
 		{
 			dependencies: ["5DFE866011AB92DD"]
 			description: [
-				"The &l&1IV Tier&r&r has brought us into a new age. Moving forward our processes increase in depth and mutliplicity, as such there exists a multiblock version of all the major machines youve used from Previous tiers. "
+				"{atm9.quest.gregtech.desc.ivTierAdvancement.1}"
 				""
-				"&e&lNote:&r&r While not immediately necessary, it would behoove you to consider utilizing some of these Multiblocks moving forward, as it will enhance your current processing speeds."
+				"{atm9.quest.gregtech.desc.ivTierAdvancement.2}"
 			]
 			id: "318B71954A49DC27"
 			rewards: [{
@@ -938,21 +938,21 @@
 				type: "xp"
 				xp: 1000
 			}]
-			subtitle: "Scaling Up"
+			subtitle: "{atm9.quest.gregtech.subt.scalingUp}"
 			tasks: [{
 				id: "2E2650592A4C3640"
 				type: "checkmark"
 			}]
-			title: "Large Multiblocks"
+			title: "{atm9.quest.gregtech.largeMultiblocks}"
 			x: -1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["08F7825DA7DC2185"]
 			description: [
-				"One of my Favorite blocks early on in Gregtech is the Wiremill. It reduces the cost of wire production and really helps you in early game batch crafting. "
+				"{atm9.quest.gregtech.desc.wiremillBenefits.1}"
 				""
-				"Being so valuable, why cant it also be super helpful later on? Well This Multiblock is here to do just that!"
+				"{atm9.quest.gregtech.desc.wiremillBenefits.2}"
 			]
 			icon: "gtceu:large_wiremill"
 			id: "4B985901F63570C3"
@@ -964,7 +964,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Making All the Wires!"
+			subtitle: "{atm9.quest.gregtech.subt.makingWires}"
 			tasks: [
 				{
 					id: "7A2FD48B56083951"
@@ -997,7 +997,7 @@
 		}
 		{
 			dependencies: ["139EEACD64B1D85E"]
-			description: ["The Large Solidifying Array is a direct replacement for the smaller single block Fluid Solidifiers you have become familiar with."]
+			description: ["{atm9.quest.gregtech.desc.largeSolidifyingArray}"]
 			icon: "gtceu:large_solidifier"
 			id: "485117517649336C"
 			optional: true
@@ -1008,7 +1008,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Sometimes you just gotta solidify it. LSA"
+			subtitle: "{atm9.quest.gregtech.subt.solidifyLSA}"
 			tasks: [
 				{
 					id: "241067D7859C74A8"
@@ -1041,7 +1041,7 @@
 		}
 		{
 			dependencies: ["08F7825DA7DC2185"]
-			description: ["Now, having a multiblock, we can set \"Distinct Buses\" and set each one to do a specific mold and or Programmed Circuit! We now have an all in one machine!!"]
+			description: ["{atm9.quest.gregtech.desc.distinctBuses}"]
 			icon: "gtceu:large_extruder"
 			id: "7DF972754C48E22B"
 			optional: true
@@ -1052,7 +1052,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Extruding Saves Materials"
+			subtitle: "{atm9.quest.gregtech.subt.extrudingSaves}"
 			tasks: [
 				{
 					id: "0372B13F787721C5"
@@ -1091,7 +1091,7 @@
 		}
 		{
 			dependencies: ["139EEACD64B1D85E"]
-			description: ["The Large Extraction Module functions just like the Extractor single block that we have used time and time again. Now you can run a lot through this Large Multiblock, and even parallelize the machine. (Parallelization of machines is the theme after all)"]
+			description: ["{atm9.quest.gregtech.desc.largeExtractionModule}"]
 			icon: "gtceu:large_extractor"
 			id: "492D28D6B81CAEE0"
 			optional: true
@@ -1102,7 +1102,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Now that we have a LEM, lets go to the Moon!"
+			subtitle: "{atm9.quest.gregtech.subt.lemMoon}"
 			tasks: [
 				{
 					id: "029A3079D12D31EA"
@@ -1126,7 +1126,7 @@
 					id: "0AD65BDFBE16460E"
 					observe_type: 2
 					timer: 0L
-					title: "Observe Complete Large Extraction Machine"
+					title: "{atm9.quest.gregtech.observeLEM}"
 					to_observe: "gtceu:large_extractor"
 					type: "observation"
 				}
@@ -1137,9 +1137,9 @@
 		{
 			dependencies: ["139EEACD64B1D85E"]
 			description: [
-				"The Large Fractioning Distillery is just like the Distillation Tower, but on steroids. Instead of having to add multiple LFD's to process a fluid out, you can utilize the Parallelization hatches. "
+				"{atm9.quest.gregtech.desc.largeFractioningDistillery.1}"
 				""
-				"This effectively makes the Large Fractioning Distillery Multiple multiblock structures, though thats the same case with any Multiblock with a Parallelizing hatch."
+				"{atm9.quest.gregtech.desc.largeFractioningDistillery.2}"
 			]
 			icon: "gtceu:large_distillery"
 			id: "6EF5C5FFF6BC26B7"
@@ -1151,7 +1151,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "LFD"
+			subtitle: "{atm9.quest.gregtech.subt.lfd}"
 			tasks: [
 				{
 					id: "42CABC89F5F08F6F"
@@ -1183,7 +1183,7 @@
 		}
 		{
 			dependencies: ["319D3A14D62225BC"]
-			description: ["Wafers and Silicon Boules need to be cut. This cutter, paired with the Engraving Laser will make sure we keep our stock of Chips up!"]
+			description: ["{atm9.quest.gregtech.desc.cutterEngravingLaser}"]
 			icon: "gtceu:large_cutter"
 			id: "187281092C0BC9CE"
 			optional: true
@@ -1194,7 +1194,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Waffles and Boules"
+			subtitle: "{atm9.quest.gregtech.subt.wafflesBoules}"
 			tasks: [
 				{
 					id: "723F3F70B3085C91"
@@ -1233,7 +1233,7 @@
 		}
 		{
 			dependencies: ["770ED8E5FEC6D59A"]
-			description: ["This multiblock may not be used in as much QTY as the other multiblock structures, but it will prove its value, I promise!"]
+			description: ["{atm9.quest.gregtech.desc.multiblockValue}"]
 			id: "0012EC5DDAEB7D5B"
 			optional: true
 			rewards: [{
@@ -1242,7 +1242,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "Can this make Beer?"
+			subtitle: "{atm9.quest.gregtech.subt.beerMaking}"
 			tasks: [
 				{
 					id: "7023A24AD2772ABE"
@@ -1281,7 +1281,7 @@
 		}
 		{
 			dependencies: ["08F7825DA7DC2185"]
-			description: ["As is the theme with these multiblocks, Having a machine that can process all of the programmed circuits all in one machine?! These machines really are a true advancement in helping to progress to the end!"]
+			description: ["{atm9.quest.gregtech.desc.advancedMachines}"]
 			icon: "gtceu:large_material_press"
 			id: "78CDA5B4A52FF5D8"
 			optional: true
@@ -1292,7 +1292,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Bender, More Bending!"
+			subtitle: "{atm9.quest.gregtech.subt.moreBending}"
 			tasks: [
 				{
 					id: "62E7660C2E3DFA7D"
@@ -1331,7 +1331,7 @@
 		}
 		{
 			dependencies: ["139EEACD64B1D85E"]
-			description: ["Ever feel like the Autoclave just wasnt enough for you? Well than this multiblock will fill that void! This large structure is a direct replacement for the single block Autoclave!"]
+			description: ["{atm9.quest.gregtech.desc.largeAutoclave}"]
 			icon: "gtceu:large_autoclave"
 			id: "04636DE704AD7B0B"
 			optional: true
@@ -1342,7 +1342,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Lets make some Crystals! LCC"
+			subtitle: "{atm9.quest.gregtech.subt.crystalsLCC}"
 			tasks: [
 				{
 					id: "1119B6F3558FD6AA"
@@ -1375,7 +1375,7 @@
 		}
 		{
 			dependencies: ["759446116655756C"]
-			description: ["No one wants to get dirty by manually sifting everything. Let this multiblock do all your sifting needs, and get those gems that we need as we move towards the end!"]
+			description: ["{atm9.quest.gregtech.desc.siftingMultiblock}"]
 			icon: "gtceu:large_sifting_funnel"
 			id: "546100C879F45BB1"
 			optional: true
@@ -1386,7 +1386,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Who wants to get Dusty with manual Sifting??"
+			subtitle: "{atm9.quest.gregtech.subt.manualSifting}"
 			tasks: [
 				{
 					id: "2B7B0941F811CE7C"
@@ -1419,7 +1419,7 @@
 		}
 		{
 			dependencies: ["743B72CC181776EC"]
-			description: ["Our next tier of processors have as heavy reliance on Chip. As such, the Engraving Laser multiblock wil be working overtime to make sure that SOC's, CPU's and RAM stay in abundant supply. This machine is here to help and ensure we stay ahead of the curve!"]
+			description: ["{atm9.quest.gregtech.desc.engravingLaserMultiblock}"]
 			icon: "gtceu:large_engraving_laser"
 			id: "34EE220F1C2AC5EF"
 			optional: true
@@ -1430,7 +1430,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Vital Components!"
+			subtitle: "{atm9.quest.gregtech.subt.vitalComponents}"
 			tasks: [
 				{
 					id: "79D63027D6EDABE8"
@@ -1475,9 +1475,9 @@
 		{
 			dependencies: ["1FFAF26888F6EF00"]
 			description: [
-				"The Large Arc Furnace multiblock structure. This structure is the Large version of the Arc Furnace that we have been using for items such as Annealed Copper and Tempered Glass, as well as recovery of resources from machines we dont need anymore. "
+				"{atm9.quest.gregtech.desc.largeArcFurnace.1}"
 				""
-				"We can add a parallelizing block now, and run many recipies in parallel, speeding up the process times!"
+				"{atm9.quest.gregtech.desc.largeArcFurnace.2}"
 			]
 			id: "22DB72BE40115A95"
 			optional: true
@@ -1487,7 +1487,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "Make sure to LAF often!"
+			subtitle: "{atm9.quest.gregtech.subt.lafOften}"
 			tasks: [
 				{
 					id: "7549BEB353239BC2"
@@ -1522,9 +1522,9 @@
 		{
 			dependencies: ["34C931DFFBF608DB"]
 			description: [
-				"We cant leave the ever important Circuit Assembler out, could we?? Of course this multiblock will help to make sure you can keep making all those important circuits."
+				"{atm9.quest.gregtech.desc.circuitAssembler.1}"
 				""
-				"Thus letting you to continue to expand your Factory and make it to the end!"
+				"{atm9.quest.gregtech.desc.circuitAssembler.2}"
 			]
 			icon: "gtceu:large_circuit_assembler"
 			id: "1569CD190336F5F6"
@@ -1536,7 +1536,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Assembler but with Circuits!"
+			subtitle: "{atm9.quest.gregtech.subt.assemblerCircuits}"
 			tasks: [
 				{
 					id: "66142EA734C105C0"
@@ -1582,9 +1582,9 @@
 		{
 			dependencies: ["34C931DFFBF608DB"]
 			description: [
-				"Do not confuse this multiblock with the Assembly line! This multiblock IS an assembler and will do Assembler recipies, but it is NOT the assembler. The assembler does a different process and has different recipies than this machine. "
+				"{atm9.quest.gregtech.desc.notAssemblyLine.1}"
 				""
-				"That being said this multiblock is still amazing! Yet again, mutliple Programmed Circuits!"
+				"{atm9.quest.gregtech.desc.notAssemblyLine.2}"
 			]
 			icon: "gtceu:large_assembler"
 			id: "6EF6D11ABBA34AE3"
@@ -1596,7 +1596,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "This is NOT the Assembly Line!"
+			subtitle: "{atm9.quest.gregtech.subt.notAssemblyLine}"
 			tasks: [
 				{
 					id: "182A995A2776FE47"
@@ -1630,9 +1630,9 @@
 		{
 			dependencies: ["7759519157B8C1D8"]
 			description: [
-				"Of course we need a large format way to make all those magnetic rods that we use for all of our recipies!"
+				"{atm9.quest.gregtech.desc.magneticRods.1}"
 				""
-				"Let this machine handle all of that!"
+				"{atm9.quest.gregtech.desc.magneticRods.2}"
 			]
 			icon: "gtceu:large_electromagnet"
 			id: "322FD8BB46FB653C"
@@ -1644,7 +1644,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Zap Brannigan!"
+			subtitle: "{atm9.quest.gregtech.subt.zapBrannigan}"
 			tasks: [
 				{
 					id: "410E8B1ABF39CC67"
@@ -1678,9 +1678,9 @@
 		{
 			dependencies: ["7759519157B8C1D8"]
 			description: [
-				"Electrolyzers are important, but they are also small, and we use them for quite a few processing lines. "
+				"{atm9.quest.gregtech.desc.electrolyzersImportance.1}"
 				""
-				"Why not let this multiblock handle all of those needs moving forwards, and parallelize it so you can run more processes in 1 machine?!"
+				"{atm9.quest.gregtech.desc.electrolyzersImportance.2}"
 			]
 			icon: "gtceu:large_electrolyzer"
 			id: "76ECB0EF7A5E410A"
@@ -1692,7 +1692,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Using water as a fuel in cars?"
+			subtitle: "{atm9.quest.gregtech.subt.waterFuel}"
 			tasks: [
 				{
 					id: "38750C7764B43A29"
@@ -1725,7 +1725,7 @@
 		}
 		{
 			dependencies: ["54EB576C8EAF2C28"]
-			description: ["The Mixing Vessel is incredibly important especially for all of the alloys that are currently made, but for all of the alloys that are to come!"]
+			description: ["{atm9.quest.gregtech.desc.mixingVesselImportance}"]
 			icon: "gtceu:large_mixer"
 			id: "7FA79ED5DABCF998"
 			optional: true
@@ -1736,7 +1736,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Mix it up!"
+			subtitle: "{atm9.quest.gregtech.subt.mixItUp}"
 			tasks: [
 				{
 					id: "3DDB66CB95EDE62F"
@@ -1781,7 +1781,7 @@
 		}
 		{
 			dependencies: ["759446116655756C"]
-			description: ["Oh come on, you saw that coming. Of course Im going to add a blurb saying \"You spin me Right Round...\" for the centrifuge! Who wouldnt?!?!"]
+			description: ["{atm9.quest.gregtech.desc.centrifugeBlurb}"]
 			icon: "gtceu:large_centrifuge"
 			id: "29BDF6CA8FAAC390"
 			optional: true
@@ -1792,7 +1792,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "You Spin me Right Round Baby...."
+			subtitle: "{atm9.quest.gregtech.subt.spinMeRound}"
 			tasks: [
 				{
 					id: "6D65DA04F1F90458"
@@ -1825,7 +1825,7 @@
 		}
 		{
 			dependencies: ["139EEACD64B1D85E"]
-			description: ["The &6Large Chemical Bath&r can make large batch processing of resources a breeze! Im certain you will have a few of these setup in your base for the resources to come."]
+			description: ["{atm9.quest.gregtech.desc.largeChemicalBathBenefits}"]
 			icon: "gtceu:large_chemical_bath"
 			id: "63BFEE8B17688712"
 			optional: true
@@ -1836,7 +1836,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "You down with LCB? Yeah you know me!"
+			subtitle: "{atm9.quest.gregtech.subt.downWithLCB}"
 			tasks: [
 				{
 					id: "07CB2FB669EFE509"
@@ -1860,7 +1860,7 @@
 					id: "04CFF2F4E5B3813B"
 					observe_type: 0
 					timer: 0L
-					title: "Observed a Completed Large Chemical Bath"
+					title: "{atm9.quest.gregtech.title.completedLCB}"
 					to_observe: "gtceu:large_chemical_bath"
 					type: "observation"
 				}
@@ -1871,9 +1871,9 @@
 		{
 			dependencies: ["308D5AC7562E09BA"]
 			description: [
-				"Large Maceration Towers will be very important, as ore processing will continue to be very important as we get into new resources through the tiers. "
+				"{atm9.quest.gregtech.desc.macerationTowerImportance.1}"
 				""
-				"As such having a Maceration tower that can parallelize the processes will optimize the Ore processing that still needs to happen."
+				"{atm9.quest.gregtech.desc.macerationTowerImportance.2}"
 			]
 			icon: "gtceu:large_maceration_tower"
 			id: "04291652780AEE72"
@@ -1885,7 +1885,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Maceration Tower!"
+			subtitle: "{atm9.quest.gregtech.subt.macerationTower}"
 			tasks: [
 				{
 					id: "57DC7ED33ADEEA34"
@@ -1919,11 +1919,11 @@
 		{
 			dependencies: ["29417616D8F673D5"]
 			description: [
-				"Zeron 100 is a super duplex stainless steel developed by Rolled Alloys (formerly Weir Materials). The alloy has excellent corrosion resistance combined with high strength. "
+				"{atm9.quest.gregtech.desc.zeron100Properties.1}"
 				""
-				"It typically contains 25% chromium and 7% nickel and 3.6% molybdenum along with copper and tungsten additions. Zeron 100 has a 50–50 austenitic–ferritic structure. "
+				"{atm9.quest.gregtech.desc.zeron100Properties.2}"
 				""
-				"It also has greater resistance to chloride pitting, crevice corrosion and stress corrosion cracking than exhibited by the standard 300 series stainless steels."
+				"{atm9.quest.gregtech.desc.zeron100Properties.3}"
 			]
 			id: "308D5AC7562E09BA"
 			optional: true
@@ -1934,7 +1934,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "Resistant Steel"
+			subtitle: "{atm9.quest.gregtech.subt.resistantSteel}"
 			tasks: [{
 				id: "0E5A6D219CCE742F"
 				item: "gtceu:zeron_100_ingot"
@@ -1945,7 +1945,7 @@
 		}
 		{
 			dependencies: ["29417616D8F673D5"]
-			description: ["These &9Watertight Steel&r ingots will allow you to make the blocks necessary to complete the following Multiblocks."]
+			description: ["{atm9.quest.gregtech.desc.watertightSteel}"]
 			id: "139EEACD64B1D85E"
 			optional: true
 			rewards: [{
@@ -1955,7 +1955,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "Isnt steel already watertight?"
+			subtitle: "{atm9.quest.gregtech.subt.isSteelWatertight}"
 			tasks: [{
 				id: "24205B9C9DE63B39"
 				item: "gtceu:watertight_steel_ingot"
@@ -1967,9 +1967,9 @@
 		{
 			dependencies: ["29417616D8F673D5"]
 			description: [
-				"Incoloy products are mostly chromium-based and mostly nickel-based, and designed for corrosion resistance as well as strength at high temperatures."
+				"{atm9.quest.gregtech.desc.incoloyAdvantages.1}"
 				""
-				"Incoloy alloys belong to the category of super austenitic stainless steels. One advantage is that Incoloy alloys do not have to be heat treated after welding to restore the corrosion resistance."
+				"{atm9.quest.gregtech.desc.incoloyAdvantages.2}"
 			]
 			id: "759446116655756C"
 			optional: true
@@ -1980,7 +1980,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "Its a Bird! Its a Plane! No, its Super Steel!"
+			subtitle: "{atm9.quest.gregtech.subt.superSteel}"
 			tasks: [{
 				id: "741F54CBB037D211"
 				item: "gtceu:incoloy_ma_956_ingot"
@@ -1991,7 +1991,7 @@
 		}
 		{
 			dependencies: ["29417616D8F673D5"]
-			description: ["Hastelloy X is a wrought nickel base alloy with excellent high temperature strength and oxidation resistance. All of the product forms are excellent in terms of forming and welding."]
+			description: ["{atm9.quest.gregtech.desc.hastelloyXProperties}"]
 			id: "54EB576C8EAF2C28"
 			optional: true
 			rewards: [{
@@ -2001,7 +2001,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "Wrought Iron? No. Wrought Nickel."
+			subtitle: "{atm9.quest.gregtech.subt.wroughtNickel}"
 			tasks: [{
 				id: "2433F601D6375EA3"
 				item: "gtceu:hastelloy_x_ingot"
@@ -2013,9 +2013,9 @@
 		{
 			dependencies: ["29417616D8F673D5"]
 			description: [
-				"High-strength low-alloy steel (HSLA) is a type of alloy steel that provides better mechanical properties or greater resistance to corrosion than carbon steel. "
+				"{atm9.quest.gregtech.desc.hslaProperties.1}"
 				""
-				"HSLA steels vary from other steels in that they are not made to meet a specific chemical composition but rather specific mechanical properties."
+				"{atm9.quest.gregtech.desc.hslaProperties.2}"
 			]
 			id: "7759519157B8C1D8"
 			optional: true
@@ -2026,7 +2026,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "Anti-Acidic Steel"
+			subtitle: "{atm9.quest.gregtech.subt.antiAcidicSteel}"
 			tasks: [{
 				id: "29602A66206D9EFF"
 				item: "gtceu:hsla_steel_ingot"
@@ -2038,9 +2038,9 @@
 		{
 			dependencies: ["29417616D8F673D5"]
 			description: [
-				"Stellite alloys are a range of cobalt-chromium alloys designed for wear resistance."
+				"{atm9.quest.gregtech.desc.stelliteAlloys.1}"
 				""
-				"Stellite alloys include a range of cobalt-based alloys, with significant proportions of chromium (up to 33%) and tungsten (up to 18%). Some of the alloys also contain nickel or molybdenum. Most of them are fairly high carbon content when compared to carbon steels."
+				"{atm9.quest.gregtech.desc.stelliteAlloys.2}"
 			]
 			id: "34C931DFFBF608DB"
 			optional: true
@@ -2051,7 +2051,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "Carbonated Steel. LUL"
+			subtitle: "{atm9.quest.gregtech.subt.carbonatedSteel}"
 			tasks: [{
 				id: "63A80C7EE9F59B2B"
 				item: "gtceu:stellite_100_ingot"
@@ -2063,9 +2063,9 @@
 		{
 			dependencies: ["1F0A68DFAA19D5C7"]
 			description: [
-				"These Casings will be used to form the Large Arc Furnace multiblock structure."
+				"{atm9.quest.gregtech.desc.largeArcFurnaceCasings.1}"
 				""
-				"Luckily these casings are made of material that does not require the Alloy Blast Smelter to create them. Smooth Sailing!"
+				"{atm9.quest.gregtech.desc.largeArcFurnaceCasings.2}"
 			]
 			id: "1FFAF26888F6EF00"
 			optional: true
@@ -2074,7 +2074,7 @@
 				type: "xp"
 				xp: 1000
 			}]
-			subtitle: "High Temp Casings... Will it Sausage?"
+			subtitle: "{atm9.quest.gregtech.subt.highTempCasings}"
 			tasks: [{
 				id: "7AC6AD6D60E7AFA4"
 				item: "gtceu:high_temperature_smelting_casing"
@@ -2085,7 +2085,7 @@
 		}
 		{
 			dependencies: ["29417616D8F673D5"]
-			description: ["Titanium Tungsten Carbide is Ultra high purity mixed carbide additive for Cutting tool and wear part product. This alloy contains a high level of hardness and HT strength making it an incredibly strong and durable alloy."]
+			description: ["{atm9.quest.gregtech.desc.titaniumTungstenCarbide}"]
 			id: "743B72CC181776EC"
 			optional: true
 			rewards: [{
@@ -2095,7 +2095,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "Pure High Durability Alloys! Crazy!!"
+			subtitle: "{atm9.quest.gregtech.subt.highDurabilityAlloys}"
 			tasks: [{
 				id: "3A321EC2A283C517"
 				item: "gtceu:titanium_tungsten_carbide_ingot"
@@ -2107,11 +2107,11 @@
 		{
 			dependencies: ["29417616D8F673D5"]
 			description: [
-				"HASTELLOY C276 is a Nickel-chromium-molybdenum wrought alloy that is considered the most versatile corrosion resistant alloy available. "
+				"{atm9.quest.gregtech.desc.hastelloyC276Properties.1}"
 				""
-				"This alloy is resistant to the formation of grain boundary precipitates in the weld heat-affected zone, thus making it suitable for most chemical process applications in an as welded condition. "
+				"{atm9.quest.gregtech.desc.hastelloyC276Properties.2}"
 				""
-				"Alloy C-276 also has excellent resistance to pitting, stress-corrosion cracking and oxidizing atmospheres up to 1900°F, and has exceptional resistance to a wide variety of chemical environments."
+				"{atm9.quest.gregtech.desc.hastelloyC276Properties.3}"
 			]
 			id: "319D3A14D62225BC"
 			optional: true
@@ -2122,7 +2122,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "Crazy Corrosion Resistance!"
+			subtitle: "{atm9.quest.gregtech.subt.crazyCorrosionResistance}"
 			tasks: [{
 				id: "4712FB4684E4F6D5"
 				item: "gtceu:hastelloy_c_276_ingot"
@@ -2134,9 +2134,9 @@
 		{
 			dependencies: ["29417616D8F673D5"]
 			description: [
-				"Maraging steels are steels that are known for possessing superior strength and toughness without losing ductility. Aging refers to the extended heat-treatment process. "
+				"{atm9.quest.gregtech.desc.maragingSteels.1}"
 				""
-				"These steels are a special class of very-low-carbon ultra-high-strength steels that derive their strength not from carbon, but from precipitation of intermetallic compounds."
+				"{atm9.quest.gregtech.desc.maragingSteels.2}"
 			]
 			id: "08F7825DA7DC2185"
 			optional: true
@@ -2147,7 +2147,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "Stronks!"
+			subtitle: "{atm9.quest.gregtech.subt.stronks}"
 			tasks: [{
 				id: "3824062A512AEC3B"
 				item: "gtceu:maraging_steel_300_ingot"
@@ -2158,17 +2158,17 @@
 		}
 		{
 			dependencies: ["318B71954A49DC27"]
-			description: ["A few of the Large Multiblock Structures do &nnot&r dont rely on the Alloy Blast Smelter to create resources for their blocks. The blocks for the Large Multiblock structures above are a couple of those machines that do not rely on the Alloy Blast Smelter. "]
+			description: ["{atm9.quest.gregtech.desc.nonABSMultiblocks}"]
 			id: "1F0A68DFAA19D5C7"
 			rewards: [{
 				id: "5098774880A4B08C"
 				type: "xp"
 				xp: 1000
 			}]
-			subtitle: "Skidding without ABS"
+			subtitle: "{atm9.quest.gregtech.subt.skiddingWithoutABS}"
 			tasks: [{
 				id: "1CAC89F6DFC2AB72"
-				title: "Non-ABS Multiblocks"
+				title: "{atm9.quest.gregtech.title.nonABSMultiblocks}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -2176,7 +2176,7 @@
 		}
 		{
 			dependencies: ["1F0A68DFAA19D5C7"]
-			description: ["These blocks are Corrosion proof, and its a good thing, as they will be used to make the Large Brewing Vat. "]
+			description: ["{atm9.quest.gregtech.desc.largeBrewingVat}"]
 			id: "770ED8E5FEC6D59A"
 			optional: true
 			rewards: [{
@@ -2184,7 +2184,7 @@
 				type: "xp"
 				xp: 1000
 			}]
-			subtitle: "Corrosive Materials? No thanks."
+			subtitle: "{atm9.quest.gregtech.subt.corrosiveMaterials}"
 			tasks: [{
 				id: "02BA45719C5BC676"
 				item: "gtceu:corrosion_proof_casing"
@@ -2196,11 +2196,11 @@
 		{
 			dependencies: ["318B71954A49DC27"]
 			description: [
-				"Weve all come to this issue before, and we all hate it. But its a necessary evil."
+				"{atm9.quest.gregtech.desc.reorganizingGTSetup.1}"
 				""
-				"There comes a time with everyones GT setup (for me its many times), in which we have to tear down what we have built, to re-organize our machines to optimize processes, or create new processes we do not have set up yet. Dont fret doing this. I know it can seem like a pain, but you will be glad youve done so in the future. Especially when moving towards using Large Multiblocks over single machines for your processes."
+				"{atm9.quest.gregtech.desc.reorganizingGTSetup.2}"
 				""
-				"The Main thing to remember, your Greg Tech Factory will look amazing as you reconfigure it with these multiblocks!"
+				"{atm9.quest.gregtech.desc.reorganizingGTSetup.3}"
 			]
 			id: "63AEFB3C1395BBBA"
 			rewards: [{
@@ -2208,10 +2208,10 @@
 				type: "xp"
 				xp: 1000
 			}]
-			subtitle: "I swear, I am not a hoarder! I just like collecting things!"
+			subtitle: "{atm9.quest.gregtech.subt.hoarder}"
 			tasks: [{
 				id: "1A89CC99F53A629F"
-				title: "Re-Organization"
+				title: "{atm9.quest.gregtech.reOrganization}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -2220,13 +2220,13 @@
 		{
 			dependencies: ["318B71954A49DC27"]
 			description: [
-				"Parallelizing Hatches are going to be incredibly Important, especially moving forward with Large multiblock Structures!"
+				"{atm9.quest.gregtech.desc.parallelHatches.1}"
 				""
-				"The First tier of this hatch will allow 4 processes to run at the same time. But as we move up through the tiers, you can eventually run 256 processes at the same time!!"
+				"{atm9.quest.gregtech.desc.parallelHatches.2}"
 				""
-				"This is far more than the Processing Array, and as such, gives more value to these multiblocks over single blocks machines!"
+				"{atm9.quest.gregtech.desc.parallelHatches.3}"
 				""
-				"&l&eNote:&r&r This hatch is not actually required to build any of those multiblock machines"
+				"{atm9.quest.gregtech.desc.parallelHatches.4}"
 			]
 			id: "277464BE6F96C082"
 			optional: true
@@ -2236,7 +2236,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "Parallel Processes FTW"
+			subtitle: "{atm9.quest.gregtech.subt.parallelProcesses}"
 			tasks: [{
 				id: "77B98AEED48C79ED"
 				item: "gtceu:iv_parallel_hatch"
@@ -2247,9 +2247,9 @@
 		}
 		{
 			description: [
-				"Were going to need some Molybdenum Disilicide to make the casings for the ABS. "
+				"{atm9.quest.gregtech.desc.molybdenumDisilicide.1}"
 				""
-				"This dust can easily be made in an EV Mixer and then EBF'd with EV and Kanthal Coils."
+				"{atm9.quest.gregtech.desc.molybdenumDisilicide.2}"
 			]
 			id: "17773F43631748A9"
 			rewards: [{
@@ -2259,7 +2259,7 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "Molybdenum Disilicide"
+			subtitle: "{atm9.quest.gregtech.subt.molybdenumDisilicide}"
 			tasks: [{
 				id: "2265F0C34D77C253"
 				item: "gtceu:molybdenum_disilicide_dust"
@@ -2270,7 +2270,7 @@
 		}
 		{
 			dependencies: ["5A658F239928850E"]
-			description: ["Take that Ruthenium Dust and get to mixing! "]
+			description: ["{atm9.quest.gregtech.desc.mixingRuthenium}"]
 			hide_dependency_lines: true
 			id: "033BF8D12E32A5E5"
 			rewards: [{
@@ -2279,7 +2279,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "All Mixed Up"
+			subtitle: "{atm9.quest.gregtech.subt.allMixedUp}"
 			tasks: [{
 				id: "633D4D70BEFCEE0C"
 				item: "gtceu:iv_mixer"
