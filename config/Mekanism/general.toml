@@ -140,7 +140,7 @@
 	#Oredictionificator Settings
 	[general.oredictionificator]
 		#The list of valid tag prefixes for the Oredictionificator. Note: It is highly recommended to only include well known/defined tag prefixes otherwise it is very easy to potentially add in accidental conversions of things that are not actually equivalent.
-		validItemFilters = ["forge:dusts/", "forge:ingots/", "forge:nuggets/", "forge:ores/", "forge:raw_materials/", "forge:storage_blocks/"]
+		validItemFilters = ["forge:dusts/", "forge:ingots/", "forge:nuggets/", "forge:ores/", "forge:raw_materials/", "forge:storage_blocks/", "forge:gems/"]
 
 	#Pump Settings
 	[general.pump]
