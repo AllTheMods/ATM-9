@@ -1,4 +1,13 @@
 ServerEvents.recipes(event => {
+
+	event.remove({ id: 'gtceu:extruder/nan_certificate' })
+
+    event.recipes.gtceu.extruder('nan_certificate_modified')
+        .itemInputs(['64x gtceu:neutronium_block', '64x gtceu:neutronium_block'])
+        .itemOutputs('gtceu:nan_certificate')
+        .duration(16400)
+        .EUt(UHV)
+
     event.recipes.gtceu.chemical_bath('kubejs:inert_star')
         .itemInputs('minecraft:wither_skeleton_skull')
         .inputFluids(Fluid.of('gtceu:polyethylene', 1000))
@@ -41,6 +50,7 @@ ServerEvents.recipes(event => {
             Fluid.of('gtceu:lubricant', 8000)
         )
         .duration(500)
+        .scannerResearch(Item.of('gtceu:large_chemical_reactor'))
         .EUt(IV)
     
     event.recipes.gtceu.assembler('uhv_16a_energy_hatch')
@@ -132,6 +142,13 @@ ServerEvents.recipes(event => {
         .itemOutputs('megacells:printed_accumulation_processor')
         .duration(80)
         .EUt(HV)
+
+    event.recipes.gtceu.forming_press('appflux/printed_energy_circuit')
+        .itemInputs('appflux:charged_redstone')
+        .notConsumable('appflux:energy_processor_press')
+        .itemOutputs('appflux:printed_energy_processor')
+        .duration(80)
+        .EUt(MV)
     
     // AE2 processors in forming press
     event.recipes.gtceu.forming_press('ae2/logic_circuit')
@@ -157,6 +174,12 @@ ServerEvents.recipes(event => {
         .itemOutputs('megacells:accumulation_processor')
         .duration(80)
         .EUt(HV)
+
+    event.recipes.gtceu.forming_press('appflux/energy_circuit')
+        .itemInputs(['appflux:printed_energy_processor', 'minecraft:redstone', 'ae2:printed_silicon'])
+        .itemOutputs('appflux:energy_processor')
+        .duration(80)
+        .EUt(MV)
 
     // ATO and vanilla silk touched ore maceration recipes
     // Minecraft stone/deepslate/nether ores

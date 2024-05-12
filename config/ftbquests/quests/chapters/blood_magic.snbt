@@ -5,9 +5,6 @@
 	group: "02FE661031A105D8"
 	id: "004F28C5C85F467B"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 0.3d
 		hover: ["Needed for the ATM Star"]
 		image: "allthetweaks:item/atm_star"
@@ -157,7 +154,6 @@
 				""
 				"Note: Speed Runes are the only runes available (besides Blank Runes) until you make a Tier 2 Altar, but can be replaced later on."
 				""
-				"{image:atm:textures/questpics/bloodmagic/bloodmagic_tier2.png width:150 height:140 align:1}"
 			]
 			icon: "bloodmagic:altar"
 			id: "4B51189C36B8D291"
@@ -1127,7 +1123,6 @@
 				""
 				"Note: Any non-air block can be used for the pillar, as long as the cap is Glowstone."
 				""
-				"{image:atm:textures/questpics/bloodmagic/bloodmagic_tier3.png width:200 height:150 align:1}"
 			]
 			icon: "bloodmagic:altar"
 			id: "5886C648D14180E1"
