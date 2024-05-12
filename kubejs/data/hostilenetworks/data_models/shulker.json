@@ -1,0 +1,32 @@
+{
+    "entity": "minecraft:shulker",
+    "variants": [],
+    "name": "entity.minecraft.shulker",
+    "name_color": "#976797",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:end_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.shulker",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:shulker_shell",
+            "count": 8
+        },
+        {
+            "item": "minecraft:end_rod",
+            "count": 4
+        },
+        {
+            "item": "ends_delight:shulker_meat",
+            "count": 8
+        }
+    ]
+}
