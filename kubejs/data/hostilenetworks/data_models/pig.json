@@ -1,0 +1,49 @@
+{
+    "entity": "minecraft:pig",
+    "variants": [
+        "twilightforest:boar",
+        "naturalist:boar"
+    ],
+    "name": "entity.minecraft.pig",
+    "name_color": "#EEA5A4",
+    "gui_scale": 1.0,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.pig",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:porkchop",
+            "count": 32
+        },
+        {
+            "item": "delightful:animal_fat",
+            "count": 16
+        },
+        {
+            "item": "farmersdelight:ham",
+            "count": 8
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}

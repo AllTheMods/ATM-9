@@ -289,6 +289,25 @@
 			x: 6.5d
 			y: -3.0d
 		}
+    {
+			dependencies: ["13D401048A926A74"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2AE020FE64D401F5"
+			rewards: [{
+				id: "37DC08484A15D4D1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "175FDE59183B85E2"
+
+				item: "botania:green_mystical_flower"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
 		{
 			dependencies: ["79BE48D56622542F"]
 			description: [
@@ -4051,24 +4070,6 @@
 			title: "&aGaia Gear and Trinkets&r"
 			x: 24.5d
 			y: 1.0d
-		}
-		{
-			dependencies: ["13D401048A926A74"]
-			hide: true
-			hide_dependency_lines: true
-			id: "2AE020FE64D401F5"
-			rewards: [{
-				id: "37DC08484A15D4D1"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "175FDE59183B85E2"
-				item: "botania:green_mystical_flower"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -6.0d
 		}
 	]
 	title: "{atm9.chapters.41.title}"

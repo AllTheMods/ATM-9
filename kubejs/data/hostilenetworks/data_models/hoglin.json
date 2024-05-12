@@ -1,0 +1,54 @@
+{
+    "entity": "minecraft:hoglin",
+    "variants": [],
+    "name": "entity.minecraft.hoglin",
+    "name_color": "#E8A074",
+    "gui_scale": 1.0,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "hostilenetworks:nether_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.hoglin",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:porkchop",
+            "count": 32
+        },
+        {
+            "item": "minecraft:leather",
+            "count": 16
+        },
+        {
+            "item": "nethersdelight:hoglin_hide",
+            "count": 16
+        },
+        {
+            "item": "nethersdelight:hoglin_loin",
+            "count": 8
+        },
+        {
+            "item": "farmersdelight:ham",
+            "count": 8
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}
