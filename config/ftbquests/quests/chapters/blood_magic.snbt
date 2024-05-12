@@ -4,15 +4,90 @@
 	filename: "blood_magic"
 	group: "02FE661031A105D8"
 	id: "004F28C5C85F467B"
-	images: [{
-		height: 0.3d
-		hover: ["Needed for the ATM Star"]
-		image: "allthetweaks:item/atm_star"
-		rotation: 0.0d
-		width: 0.3d
-		x: -9.5d
-		y: -1.5d
-	}]
+	images: [
+		{
+			height: 0.3d
+			hover: ["Needed for the ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier1.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -35.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier2.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: -35.0d
+			y: 4.0d
+		}
+		{
+			height: 4.5d
+			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier3.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -26.0d
+			y: 4.0d
+		}
+		{
+			height: 7.0d
+			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier4.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: -26.0d
+			y: 11.0d
+		}
+		{
+			height: 10.0d
+			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier5.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: -14.0d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/helper_arrow.png"
+			rotation: -90.0d
+			width: 2.0d
+			x: -35.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/helper_arrow.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -31.0d
+			y: 4.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/helper_arrow.png"
+			rotation: 90.0d
+			width: 2.0d
+			x: -26.0d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/helper_arrow.png"
+			rotation: -45.0d
+			width: 2.0d
+			x: -21.5d
+			y: 10.0d
+		}
+	]
+
 	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -377,8 +452,8 @@
 				type: "item"
 			}]
 			title: "&4Hellfire Forge&r"
-			x: -26.0d
-			y: 1.0d
+			x: -27.0d
+			y: -3.959183673469383d
 		}
 		{
 			dependencies: ["11D37E7391B49A88"]
@@ -414,8 +489,8 @@
 				type: "item"
 			}]
 			title: "The Sentient Sword"
-			x: -26.0d
-			y: 3.5d
+			x: -27.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["7BA086472D87D705"]
@@ -453,8 +528,8 @@
 				type: "item"
 			}]
 			title: "Storing Demonic Will"
-			x: -26.0d
-			y: 2.5d
+			x: -27.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["11D37E7391B49A88"]
@@ -483,8 +558,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.0d
-			y: 3.5d
+			x: -26.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["487275B970530E3F"]
@@ -515,8 +590,8 @@
 				}
 				type: "item"
 			}]
-			x: -26.0d
-			y: 4.5d
+			x: -27.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["626C07DB8B8C5A04"]
@@ -547,8 +622,8 @@
 				}
 				type: "item"
 			}]
-			x: -27.0d
-			y: 3.5d
+			x: -28.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5886C648D14180E1"]
@@ -1013,8 +1088,8 @@
 				}
 			]
 			title: "Collecting Demonic Will"
-			x: -27.299999999999997d
-			y: 0.0d
+			x: -28.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6AAB831CB3FB536A"]
@@ -1044,8 +1119,8 @@
 				item: "bloodmagic:alchemytable"
 				type: "item"
 			}]
-			x: -26.0d
-			y: -2.9499999999999997d
+			x: -24.50425170068028d
+			y: -3.95d
 		}
 		{
 			dependencies: ["4B51189C36B8D291"]
@@ -1255,8 +1330,8 @@
 				}
 				type: "item"
 			}]
-			x: -26.0d
-			y: -5.0d
+			x: -24.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
@@ -1289,8 +1364,8 @@
 				item: "bloodmagic:divinationsigil"
 				type: "item"
 			}]
-			x: -26.0d
-			y: -6.5d
+			x: -24.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
@@ -1319,8 +1394,8 @@
 				item: "bloodmagic:watersigil"
 				type: "item"
 			}]
-			x: -25.5d
-			y: -6.0d
+			x: -24.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
@@ -1349,8 +1424,8 @@
 				item: "bloodmagic:lavasigil"
 				type: "item"
 			}]
-			x: -26.5d
-			y: -6.0d
+			x: -25.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4578C0EE82F66BD9"]
@@ -1460,8 +1535,8 @@
 				type: "item"
 			}]
 			title: "Dungeon Keys"
-			x: -18.0d
-			y: 3.5d
+			x: -19.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["42CDD69527871332"]
