@@ -52,13 +52,13 @@
 				"768951FBE8A5C934"
 			]
 			description: [
-				"At Long Last we have reached our Destination. You have crafted the Coveted &l&1GregStar!&r&r"
+				"{atm9.quest.gregtech.desc.gregStarIntroduction.1}"
 				""
-				"The culmination of achievements through each tier of GregTech, mastering each processing line and obtaining materials, machines, and items with increased difficulty each Tier."
+				"{atm9.quest.gregtech.desc.gregStarIntroduction.2}"
 				""
-				"But you have done it. You made it. The GregStar!"
+				"{atm9.quest.gregtech.desc.gregStarIntroduction.3}"
 				""
-				"There is still more to do, so get your head back in the game, and get ready for the BIGGEST challenge yet! Literally."
+				"{atm9.quest.gregtech.desc.gregStarIntroduction.4}"
 			]
 			id: "12B041E34F58FDD2"
 			rewards: [
@@ -95,7 +95,7 @@
 			]
 			shape: "gear"
 			size: 4.0d
-			subtitle: "At Long Last"
+			subtitle: "{atm9.quest.gregtech.subt.gregStarBase}"
 			tasks: [{
 				id: "4F4B24FF54D99BBC"
 				item: "allthetweaks:greg_star"
@@ -115,9 +115,9 @@
 				"0373198D54FA6B93"
 			]
 			description: [
-				"Before we can piece together the GregStar with all the components from this page, you need to craft the base the star will be build upon."
+				"{atm9.quest.gregtech.desc.gregStarBase.1}"
 				""
-				"The Robust Star Housing is strong enough to withstand the forces exerted in the star forge, and support the components that make up the GregStar"
+				"{atm9.quest.gregtech.desc.gregStarBase.2}"
 			]
 			id: "502FF1A93E06073C"
 			rewards: [
@@ -160,7 +160,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Precursor"
+			subtitle: "{atm9.quest.gregtech.subt.precursor}"
 			tasks: [{
 				id: "1D2982FDB07A9275"
 				item: "kubejs:star_housing"
@@ -172,9 +172,9 @@
 		{
 			dependencies: ["217FA79B7D4C56CD"]
 			description: [
-				"At this point, you have learned so much through the Tiers, you should be rewarded with something to display your knowledge!"
+				"{atm9.quest.gregtech.desc.precursor.1}"
 				""
-				"In this case, this certificate shall suffice. You are officially, Not a Noob anymore!"
+				"{atm9.quest.gregtech.desc.precursor.2}"
 			]
 			id: "55ACA94C7837FF5E"
 			rewards: [
@@ -217,7 +217,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Certifications!"
+			subtitle: "{atm9.quest.gregtech.subt.certifications}"
 			tasks: [{
 				id: "0EF09E7910979B85"
 				item: "gtceu:nan_certificate"
@@ -234,9 +234,9 @@
 				"0737D64B0CCAE334"
 			]
 			description: [
-				"The Fusion Reactors require some strong materials to contain the immense heat and reactions happening inside of them."
+				"{atm9.quest.gregtech.desc.certifications.1}"
 				""
-				"Thats why they make an incredibly suitable material for us to use in crafting the GregStar to ensure Strength and Durability of the star!"
+				"{atm9.quest.gregtech.desc.certifications.2}"
 			]
 			id: "5520FCC832251168"
 			rewards: [
@@ -279,7 +279,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Star Plating"
+			subtitle: "{atm9.quest.gregtech.subt.starPlating}"
 			tasks: [{
 				id: "67EB36B2DFE42688"
 				item: "kubejs:absolute_reaction_plating"
@@ -295,7 +295,7 @@
 				"59908911C4FFF223"
 				"476B99789CA7BD96"
 			]
-			description: ["Add in UV power delivery blocks, and an ATM star, and BAM! You now have the Star Compression Module."]
+			description: ["{atm9.quest.gregtech.desc.starPlating}"]
 			id: "7AD22973EDC05877"
 			rewards: [
 				{
@@ -336,7 +336,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Star Compression"
+			subtitle: "{atm9.quest.gregtech.subt.starCompression}"
 			tasks: [{
 				id: "6A97BAA42843B8FB"
 				item: "kubejs:star_compression_module"
@@ -351,7 +351,7 @@
 				"762BD49C9589EB3F"
 				"176C06C7593C264E"
 			]
-			description: ["Exchanging heat in any case is usually very expensive in Energy cost. In this case, some Tritainium coils, Ultimate Voltage Coils, and Large Naquadria Batteries will do the trick."]
+			description: ["{atm9.quest.gregtech.desc.starCompression}"]
 			id: "43D3E61FA314E3C3"
 			rewards: [
 				{
@@ -391,7 +391,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Thermal Exchange"
+			subtitle: "{atm9.quest.gregtech.subt.thermalExchange}"
 			tasks: [{
 				id: "65EFA533C13D4AC6"
 				item: "kubejs:superthermal_transference_coil"
@@ -402,9 +402,9 @@
 		}
 		{
 			description: [
-				"By this point, we are no stranger to Antimatter pellets."
+				"{atm9.quest.gregtech.desc.thermalExchange.1}"
 				""
-				"We just need more of them for the GregStar. A LOT more of them."
+				"{atm9.quest.gregtech.desc.thermalExchange.2}"
 			]
 			icon: "mekanism:pellet_antimatter"
 			id: "64FD043694770843"
@@ -442,7 +442,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "More Antimatter?"
+			subtitle: "{atm9.quest.gregtech.subt.moreAntimatter}"
 			tasks: [
 				{
 					count: 32L
@@ -461,9 +461,9 @@
 		}
 		{
 			description: [
-				"Lets add in some Industrial Foregoing Black Hole Controllers, just for good measure."
+				"{atm9.quest.gregtech.desc.moreAntimatter.1}"
 				""
-				"This way, we know that the resulting Star can be controlled, and its immense power wont run rampantly out of control."
+				"{atm9.quest.gregtech.desc.moreAntimatter.2}"
 			]
 			icon: "industrialforegoing:black_hole_controller"
 			id: "3BF90C250AC1ADF3"
@@ -501,7 +501,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Black Hole Controller"
+			subtitle: "{atm9.quest.gregtech.subt.blackHoleController}"
 			tasks: [
 				{
 					count: 8L
@@ -520,9 +520,9 @@
 		}
 		{
 			description: [
-				"With the strength of Unobtainium, it only makes sense that the GregStar would include some in the build."
+				"{atm9.quest.gregtech.desc.blackHoleController.1}"
 				""
-				"There are no concerns of Structural Integrity at this point."
+				"{atm9.quest.gregtech.desc.blackHoleController.2}"
 			]
 			icon: "ironfurnaces:unobtainium_furnace"
 			id: "078F7CEE4CAC39D6"
@@ -568,7 +568,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Unobtainium"
+			subtitle: "{atm9.quest.gregtech.subt.unobtainium}"
 			tasks: [
 				{
 					count: 16L
@@ -586,7 +586,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["Some Advanced Computers."]
+			description: ["{atm9.quest.gregtech.desc.unobtainium}"]
 			icon: "computercraft:computer_advanced"
 			id: "5C6F8FE4BA28807E"
 			rewards: [
@@ -621,7 +621,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Advanced Computers"
+			subtitle: "{atm9.quest.gregtech.subt.advancedComputers}"
 			tasks: [
 				{
 					count: 32L
@@ -644,7 +644,7 @@
 				"3673893C88EB5EDE"
 				"70B518EC050678AE"
 			]
-			description: ["Craft a End Steel Exchanger to be used in the production of the GregStar."]
+			description: ["{atm9.quest.gregtech.desc.advancedComputers}"]
 			icon: {
 				Count: 1b
 				id: "exchangers:end_steel_exchanger"
@@ -692,7 +692,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Exchangers"
+			subtitle: "{atm9.quest.gregtech.subt.exchangers}"
 			tasks: [
 				{
 					id: "3800D50E1B753AF5"
@@ -725,9 +725,9 @@
 		}
 		{
 			description: [
-				"You are going to need quite a bit of this as a catalyst in the Star Forge in order to craft the GregStar."
+				"{atm9.quest.gregtech.desc.exchangers.1}"
 				""
-				"Make sure you have 10 buckets available."
+				"{atm9.quest.gregtech.desc.exchangers.2}"
 			]
 			icon: "gtceu:europium_bucket"
 			id: "1BB1E43FFE3FD451"
@@ -765,7 +765,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Europium"
+			subtitle: "{atm9.quest.gregtech.subt.theStarThatStartedItAll}"
 			tasks: [
 				{
 					id: "048CC07BDFB7717A"
@@ -783,9 +783,9 @@
 		}
 		{
 			description: [
-				"The Base Star, the Patrick Star, that was used to make a Star, and now is the base for another Star that will be made into a Star. "
+				"{atm9.quest.gregtech.desc.theStarThatStartedItAll.1}"
 				""
-				"Got it? K. Lets move on."
+				"{atm9.quest.gregtech.desc.theStarThatStartedItAll.2}"
 			]
 			id: "0373198D54FA6B93"
 			rewards: [{
@@ -794,7 +794,7 @@
 				table_id: 7025454341029952768L
 				type: "loot"
 			}]
-			subtitle: "The Star that started it all"
+			subtitle: "{atm9.quest.gregtech.subt.doubleItUp}"
 			tasks: [{
 				id: "6F4F04DFB8480B74"
 				item: "allthetweaks:patrick_star"
@@ -804,7 +804,7 @@
 			y: -9.5d
 		}
 		{
-			description: ["Double Tungstensteel plating will make for a very durable Star. Maybe this is where it gets its Robustness from."]
+			description: ["{atm9.quest.gregtech.desc.doubleItUp}"]
 			id: "5FE8521046CA1C8D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -812,7 +812,7 @@
 				table_id: 6202000790833671070L
 				type: "loot"
 			}]
-			subtitle: "Double it Up"
+			subtitle: "{atm9.quest.gregtech.subt.screwsForPlates}"
 			tasks: [{
 				id: "04345494A9907466"
 				item: "gtceu:double_tungsten_steel_plate"
@@ -822,7 +822,7 @@
 			y: -9.0d
 		}
 		{
-			description: ["Gotta have some screws to secure the Double Tungstensteel Plating. Im sure these will make things very secure."]
+			description: ["{atm9.quest.gregtech.desc.screwsForPlates}"]
 			id: "59A7880359BB5698"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -830,7 +830,7 @@
 				table_id: 6202000790833671070L
 				type: "loot"
 			}]
-			subtitle: "Screws for Plates"
+			subtitle: "{atm9.quest.gregtech.subt.oxygenPlasma}"
 			tasks: [{
 				id: "6406939D8B04D5B5"
 				item: "gtceu:tungsten_steel_screw"
@@ -840,7 +840,7 @@
 			y: -9.0d
 		}
 		{
-			description: ["We have seen many liquids that are the result of processing by the Fusion Reactor."]
+			description: ["{atm9.quest.gregtech.desc.oxygenPlasma}"]
 			id: "61D9E67FFA14A8F8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -848,7 +848,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "Oxygen Plasma"
+			subtitle: "{atm9.quest.gregtech.subt.nitrogenPlasma}"
 			tasks: [{
 				id: "0DAF912DAF6215D1"
 				item: "gtceu:oxygen_plasma_bucket"
@@ -858,7 +858,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["Did you know that plasma is considered the 4th state of Matter next to Solid, Liquid, and Gaseous?"]
+			description: ["{atm9.quest.gregtech.desc.nitrogenPlasma}"]
 			id: "583F0F3C00D211BE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -866,7 +866,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "Nitrogen Plasma"
+			subtitle: "{atm9.quest.gregtech.subt.argonPlasma}"
 			tasks: [{
 				id: "24B5BC6C1ADADCDB"
 				item: "gtceu:nitrogen_plasma_bucket"
@@ -876,7 +876,7 @@
 			y: -7.0d
 		}
 		{
-			description: ["Argon is a chemical element; it has symbol Ar and atomic number 18. It is in group 18 of the periodic table and is a noble gas. Argon is the third most abundant gas in Earth's atmosphere, at 0.934% (9340 ppmv)"]
+			description: ["{atm9.quest.gregtech.desc.argonPlasma}"]
 			id: "539D5084283C6219"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -884,7 +884,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "Argon Plasma"
+			subtitle: "{atm9.quest.gregtech.subt.heliumPlasma}"
 			tasks: [{
 				id: "6B5A8A12A5C6FA8B"
 				item: "gtceu:argon_plasma_bucket"
@@ -894,7 +894,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["Of all the elements, Helium is the most stable; it will not burn or react with other elements. Helium has the lowst melting point and boiling points. It exists as a gas, except under extreme conditions where it can be transitioned into the 4th State of Matter, Plasma."]
+			description: ["{atm9.quest.gregtech.desc.heliumPlasma}"]
 			id: "008DBEF8893F1B63"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -902,7 +902,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "Helium Plasma"
+			subtitle: "{atm9.quest.gregtech.subt.massiveMultiblock}"
 			tasks: [{
 				id: "5770806D18629209"
 				item: "gtceu:helium_plasma_bucket"
@@ -919,11 +919,11 @@
 				"65A966D22EC7F9AA"
 			]
 			description: [
-				"Saying that this is a massive multiblock structure is an understatement. "
+				"{atm9.quest.gregtech.desc.massiveMultiblock.1}"
 				""
-				"It requires 3213 Atomic Casings, too many to fit in your inventory, so that part was left at 1 in the quest. "
+				"{atm9.quest.gregtech.desc.massiveMultiblock.2}"
 				""
-				"But the benefits are astounding. So give it a shot. It dual functions as a resource generator, and a power generator. The power gen numbers are insane."
+				"{atm9.quest.gregtech.desc.massiveMultiblock.3}"
 			]
 			icon: "gtceu:micro_universe_orb"
 			id: "4C33366BAD0256CF"
@@ -935,7 +935,7 @@
 			}]
 			shape: "heart"
 			size: 1.6d
-			subtitle: "Huh?"
+			subtitle: "{atm9.quest.gregtech.subt.catalyst}"
 			tasks: [
 				{
 					id: "5C4C327EF7C20629"
@@ -995,9 +995,9 @@
 		}
 		{
 			description: [
-				"A catalyst is needed for this process. "
+				"{atm9.quest.gregtech.desc.catalyst.1}"
 				""
-				"The Catalyst will ensure that each operation is able to properly complete. They will also be used in the creation of the controller for the Multiblock"
+				"{atm9.quest.gregtech.desc.catalyst.2}"
 			]
 			id: "1060C764347CC243"
 			rewards: [{
@@ -1008,7 +1008,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "We need Cats"
+			subtitle: "{atm9.quest.gregtech.subt.neutonium}"
 			tasks: [{
 				id: "056C7886E8C6641D"
 				item: "kubejs:micro_universe_catalyst"
@@ -1018,7 +1018,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["This is quite the lot of Neutonium. But, look around. There may be other ways to synthesize the resource."]
+			description: ["{atm9.quest.gregtech.desc.neutonium}"]
 			id: "217FA79B7D4C56CD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1026,7 +1026,7 @@
 				table_id: 341947171990021391L
 				type: "loot"
 			}]
-			subtitle: "A Lot of Neutronium"
+			subtitle: "{atm9.quest.gregtech.subt.lotNeutronium}"
 			tasks: [{
 				count: 128L
 				id: "29554C352E94FDBA"
@@ -1037,7 +1037,7 @@
 			y: -9.0d
 		}
 		{
-			description: ["Having an optimized method to craft these, that takes minimal time will benefit you as you move forward."]
+			description: ["{atm9.quest.gregtech.desc.optimizedCrafting}"]
 			id: "0737D64B0CCAE334"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1045,7 +1045,7 @@
 				table_id: 341947171990021391L
 				type: "loot"
 			}]
-			subtitle: "Fusion Casings... Again"
+			subtitle: "{atm9.quest.gregtech.subt.fusionCasings}"
 			tasks: [{
 				count: 16L
 				id: "28439B5824F1D69B"
@@ -1057,9 +1057,9 @@
 		}
 		{
 			description: [
-				"Well technically its more. Weve already used these previously. "
+				"{atm9.quest.gregtech.desc.fusionCasings.1}"
 				""
-				"At least they arent that hard to craft."
+				"{atm9.quest.gregtech.desc.fusionCasings.2}"
 			]
 			id: "44BE268EC7D2689D"
 			rewards: [{
@@ -1068,7 +1068,7 @@
 				table_id: 341947171990021391L
 				type: "loot"
 			}]
-			subtitle: "MORE Coil?!"
+			subtitle: "{atm9.quest.gregtech.subt.moreCoil}"
 			tasks: [{
 				count: 16L
 				id: "3827A0218C42F225"
@@ -1080,9 +1080,9 @@
 		}
 		{
 			description: [
-				"More fusion glass. Just this time we need it to craft a component, not for a multiblock. "
+				"{atm9.quest.gregtech.desc.moreCoil.1}"
 				""
-				"You may want to figure a way to passively produce these..."
+				"{atm9.quest.gregtech.desc.moreCoil.2}"
 			]
 			id: "754229E1F1D2DA8A"
 			rewards: [{
@@ -1091,7 +1091,7 @@
 				table_id: 7025454341029952768L
 				type: "loot"
 			}]
-			subtitle: "I prefer the window seat"
+			subtitle: "{atm9.quest.gregtech.subt.windowSeat}"
 			tasks: [{
 				count: 16L
 				id: "4B5E0984A8670146"
@@ -1102,7 +1102,7 @@
 			y: -8.5d
 		}
 		{
-			description: ["Liquid Uranium 235. Lets use this liquid to bind together the other components and craft the Absolute Reaction Plate"]
+			description: ["{atm9.quest.gregtech.desc.liquidUranium}"]
 			id: "452B3207B6C3A5D7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1110,7 +1110,7 @@
 				table_id: 7025454341029952768L
 				type: "loot"
 			}]
-			subtitle: "U235"
+			subtitle: "{atm9.quest.gregtech.subt.u235}"
 			tasks: [{
 				id: "53B39EA986E22753"
 				item: "gtceu:uranium_235_bucket"
@@ -1131,9 +1131,9 @@
 				"52F81AFDE2DC39EF"
 			]
 			description: [
-				"If we needed something that could ensure the transmission of every tier, with the highest level of efficiency, what would we get?"
+				"{atm9.quest.gregtech.desc.u235.1}"
 				""
-				"Maybe combining every Superconductor available into a single cable will do the trick!"
+				"{atm9.quest.gregtech.desc.u235.2}"
 			]
 			id: "768951FBE8A5C934"
 			rewards: [
@@ -1176,7 +1176,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Hyperconductivity"
+			subtitle: "{atm9.quest.gregtech.subt.hyperconductivity}"
 			tasks: [{
 				id: "5F02434BE29DBE19"
 				item: "kubejs:cable_of_hyperconductivity"
@@ -1187,7 +1187,7 @@
 		}
 		{
 			dependencies: ["12B041E34F58FDD2"]
-			description: ["The GregStar can be broken into Shards. We can then utilize those shards to make one of the most OP items!"]
+			description: ["{atm9.quest.gregtech.desc.gregStarShard}"]
 			id: "73E639487E878948"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1197,7 +1197,7 @@
 			}]
 			shape: "gear"
 			size: 1.6d
-			subtitle: "GregStar Shard"
+			subtitle: "{atm9.quest.gregtech.subt.gregStarShard}"
 			tasks: [{
 				id: "7EA1111B5D68265A"
 				item: "kubejs:greg_star_shard"
@@ -1208,9 +1208,9 @@
 		}
 		{
 			description: [
-				"The Classic ATM Star. You should already be familiar with this, and I am sure you have a process to craft them down pat. "
+				"{atm9.quest.gregtech.desc.atmStar.1}"
 				""
-				"This is a breeze for you."
+				"{atm9.quest.gregtech.desc.atmStar.2}"
 			]
 			id: "05D6CE1B501F59B5"
 			rewards: [{
@@ -1219,7 +1219,7 @@
 				table_id: 7025454341029952768L
 				type: "random"
 			}]
-			subtitle: "A Star for the component for a Stars Component"
+			subtitle: "{atm9.quest.gregtech.subt.starsComponent}"
 			tasks: [{
 				id: "5924CB4ADD420BE1"
 				item: "allthetweaks:atm_star"
@@ -1230,9 +1230,9 @@
 		}
 		{
 			description: [
-				"These are complex components to make. Making 1 of them is quite the task, involving many materials and many process lines. "
+				"{atm9.quest.gregtech.desc.starsComponent.1}"
 				""
-				"Now we need 16 of them to proceed. But I'm sure you are up to the task."
+				"{atm9.quest.gregtech.desc.starsComponent.2}"
 			]
 			id: "476B99789CA7BD96"
 			rewards: [{
@@ -1241,7 +1241,7 @@
 				table_id: 1818042308417101752L
 				type: "random"
 			}]
-			subtitle: "Not A Small Order"
+			subtitle: "{atm9.quest.gregtech.subt.notSmallOrder}"
 			tasks: [{
 				count: 16L
 				id: "64278A446E19A8A2"
@@ -1253,9 +1253,9 @@
 		}
 		{
 			description: [
-				"You are going to need a Qty of 4 to proceed. In function these will transform power from UV to UHV power, but we dont need these for power conversion. "
+				"{atm9.quest.gregtech.desc.transformers.1}"
 				""
-				"Its going to be used as a crafting component."
+				"{atm9.quest.gregtech.desc.transformers.2}"
 			]
 			id: "38C0D3A240E43A23"
 			rewards: [{
@@ -1264,7 +1264,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "Transformers Robots in Disguise"
+			subtitle: "{atm9.quest.gregtech.subt.transformers}"
 			tasks: [{
 				count: 4L
 				id: "4369069D6EB498DD"
@@ -1276,9 +1276,9 @@
 		}
 		{
 			description: [
-				"This may have a lot of Amperage, but we are not interested in the power delivery."
+				"{atm9.quest.gregtech.desc.amps.1}"
 				""
-				"We need this to craft a component. Im sure you got this one as well."
+				"{atm9.quest.gregtech.desc.amps.2}"
 			]
 			id: "59908911C4FFF223"
 			rewards: [{
@@ -1287,7 +1287,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "16 Amps"
+			subtitle: "{atm9.quest.gregtech.subt.amps16}"
 			tasks: [{
 				count: 4L
 				id: "6232AE3E658F5F32"
@@ -1298,7 +1298,7 @@
 			y: -4.0d
 		}
 		{
-			description: ["Making 16 coils may be a tall order. But a necessary one for the GregStar!"]
+			description: ["{atm9.quest.gregtech.desc.coils16.1}"]
 			id: "61428FAD831DC213"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1306,7 +1306,7 @@
 				table_id: 341947171990021391L
 				type: "random"
 			}]
-			subtitle: "16 Coils"
+			subtitle: "{atm9.quest.gregtech.subt.coils16}"
 			tasks: [{
 				count: 16L
 				id: "6587C2960517DCAA"
@@ -1317,7 +1317,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["The need for Coils is never ending. While we may not be utilizing these in a multiblock, you can be assured they are going to a good source."]
+			description: ["{atm9.quest.gregtech.desc.coilsContinued.1}"]
 			id: "762BD49C9589EB3F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1325,7 +1325,7 @@
 				table_id: 341947171990021391L
 				type: "loot"
 			}]
-			subtitle: "More Coils?"
+			subtitle: "{atm9.quest.gregtech.subt.moreCoils}"
 			tasks: [{
 				count: 16L
 				id: "70859C00FCD5D7FD"
@@ -1336,7 +1336,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["4 Large Naquadria Batteries will wrap up the required items for this component of the GregStar"]
+			description: ["{atm9.quest.gregtech.desc.quadBatteries.1}"]
 			id: "176C06C7593C264E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1344,7 +1344,7 @@
 				table_id: 341947171990021391L
 				type: "loot"
 			}]
-			subtitle: "Quad Batteries"
+			subtitle: "{atm9.quest.gregtech.subt.quadBatteries}"
 			tasks: [{
 				count: 4L
 				id: "1197FAFBC2C62C30"
@@ -1355,7 +1355,7 @@
 			y: 3.5d
 		}
 		{
-			description: ["16x Mercury Barium Calcium Cuprate wire - Qty 8"]
+			description: ["{atm9.quest.gregtech.desc.hvSuperconductor.1}"]
 			id: "7DDF87A5856F9FE3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1363,7 +1363,7 @@
 				table_id: 822291801189586703L
 				type: "loot"
 			}]
-			subtitle: "HV Superconductor"
+			subtitle: "{atm9.quest.gregtech.subt.hvSuperconductor}"
 			tasks: [{
 				count: 8L
 				id: "0F4171BC636CD47E"
@@ -1374,7 +1374,7 @@
 			y: 7.0d
 		}
 		{
-			description: ["16x Indium Tin Barium Titanium Cuprate Wire - Qty 8"]
+			description: ["{atm9.quest.gregtech.desc.luvSuperconductor.1}"]
 			id: "52F81AFDE2DC39EF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1382,7 +1382,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
-			subtitle: "LuV Superconductor"
+			subtitle: "{atm9.quest.gregtech.subt.luvSuperconductor}"
 			tasks: [{
 				id: "7D4CC15F7269CDFF"
 				item: "gtceu:indium_tin_barium_titanium_cuprate_hex_wire"
@@ -1392,7 +1392,7 @@
 			y: 9.5d
 		}
 		{
-			description: ["16x Manganese Phosphide wires - Qty 8"]
+			description: ["{atm9.quest.gregtech.desc.lvSuperconductor.1}"]
 			id: "04362E2A5C541EC5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1400,7 +1400,7 @@
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
-			subtitle: "LV Superconductor"
+			subtitle: "{atm9.quest.gregtech.subt.lvSuperconductor}"
 			tasks: [{
 				count: 8L
 				id: "4E79400A9BC7370E"
@@ -1411,7 +1411,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["16x Magnesium Diboride Wire - Qty 8"]
+			description: ["{atm9.quest.gregtech.desc.mvSuperconductor.1}"]
 			id: "1F733319E9F4DFE5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1419,7 +1419,7 @@
 				table_id: 7083859357644513434L
 				type: "loot"
 			}]
-			subtitle: "MV Superconductor"
+			subtitle: "{atm9.quest.gregtech.subt.mvSuperconductor}"
 			tasks: [{
 				count: 8L
 				id: "395487D6B3ABCC6C"
@@ -1430,7 +1430,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["16x Enriched Naquadah Trinium Europium Duranide wire - Qty 8"]
+			description: ["{atm9.quest.gregtech.desc.uvSuperconductor.1}"]
 			id: "47D201ED115F6D6D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1438,7 +1438,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "UV Superconductor"
+			subtitle: "{atm9.quest.gregtech.subt.uvSuperconductor}"
 			tasks: [{
 				id: "7A0CFEE89FBD1882"
 				item: "gtceu:enriched_naquadah_trinium_europium_duranide_hex_wire"
@@ -1448,7 +1448,7 @@
 			y: 10.5d
 		}
 		{
-			description: ["16x Uranium Rhodium Dinaquadide wire - Qty 8"]
+			description: ["{atm9.quest.gregtech.desc.zpmSuperconductor.1}"]
 			id: "65B40CBB9C6AD5DF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1456,7 +1456,7 @@
 				table_id: 5732951907492768982L
 				type: "loot"
 			}]
-			subtitle: "ZPM Superconductor"
+			subtitle: "{atm9.quest.gregtech.subt.zpmSuperconductor}"
 			tasks: [{
 				id: "1CE36B96C09AFD98"
 				item: "gtceu:uranium_rhodium_dinaquadide_hex_wire"
@@ -1466,7 +1466,7 @@
 			y: 10.5d
 		}
 		{
-			description: ["16x Uranium Triplatinum Wire - Qty 8"]
+			description: ["{atm9.quest.gregtech.desc.uTriplatinumWire.1}"]
 			id: "5357A140DD05654A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1474,7 +1474,7 @@
 				table_id: 5304546381530089504L
 				type: "loot"
 			}]
-			subtitle: "EV Superconductor"
+			subtitle: "{atm9.quest.gregtech.subt.evSuperconductor}"
 			tasks: [{
 				count: 8L
 				id: "0614DD90A7665C68"
@@ -1485,7 +1485,7 @@
 			y: 7.0d
 		}
 		{
-			description: ["16x Samarium Iron Arsenic Oxide wire - Qty 8"]
+			description: ["{atm9.quest.gregtech.desc.samSuperconductor.1}"]
 			id: "3E7EE5FC7863B0B2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1493,7 +1493,7 @@
 				table_id: 6202000790833671070L
 				type: "loot"
 			}]
-			subtitle: "IV Superconductor"
+			subtitle: "{atm9.quest.gregtech.subt.ivSuperconductor}"
 			tasks: [{
 				id: "5B4622DEC901669B"
 				item: "gtceu:samarium_iron_arsenic_oxide_hex_wire"
@@ -1503,7 +1503,7 @@
 			y: 9.5d
 		}
 		{
-			description: ["Do you feel like you are levitating yet? Might be all that shulker from that Soul Vial."]
+			description: ["{atm9.quest.gregtech.desc.ivSuperconductor.1}"]
 			id: "5AAD0E516762BA53"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1511,7 +1511,7 @@
 				table_id: 7025454341029952768L
 				type: "loot"
 			}]
-			subtitle: "Prescient Crystal"
+			subtitle: "{atm9.quest.gregtech.subt.prescientCrystal}"
 			tasks: [{
 				id: "470B547A16790A4F"
 				item: "enderio:prescient_crystal"
@@ -1521,7 +1521,7 @@
 			y: -6.5d
 		}
 		{
-			description: ["Use 3 other crystals to craft this crystal. "]
+			description: ["{atm9.quest.gregtech.desc.prescientCrystal.1}"]
 			id: "3673893C88EB5EDE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1529,7 +1529,7 @@
 				table_id: 7025454341029952768L
 				type: "loot"
 			}]
-			subtitle: "Weathering the Storm"
+			subtitle: "{atm9.quest.gregtech.subt.weatheringTheStorm}"
 			tasks: [{
 				id: "218BDC8B0562A54A"
 				item: "enderio:weather_crystal"
@@ -1539,7 +1539,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Tier 3 Ender IO Exchanger Core. This is the top of the line when it comes to the EnderIO Exchanger Cores."]
+			description: ["{atm9.quest.gregtech.desc.weatheringTheStorm.1}"]
 			id: "70B518EC050678AE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1547,7 +1547,7 @@
 				table_id: 7025454341029952768L
 				type: "loot"
 			}]
-			subtitle: "Top Tier Exchanger"
+			subtitle: "{atm9.quest.gregtech.subt.topTierExchanger}"
 			tasks: [{
 				id: "22436C76962DB59C"
 				item: "exchangers:eio_exchanger_core_tier3"
@@ -1558,7 +1558,7 @@
 		}
 		{
 			dependencies: ["73E639487E878948"]
-			description: ["Making Antimatter is always a challenge. Process lines, the time to process, and the power. This will check off one of those items that will no longer be a concern."]
+			description: ["{atm9.quest.gregtech.desc.topTierExchanger.1}"]
 			id: "48576E17428906E7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1568,7 +1568,7 @@
 			}]
 			shape: "heart"
 			size: 1.75d
-			subtitle: "Creative Chemicals"
+			subtitle: "{atm9.quest.gregtech.subt.creativeChemicals}"
 			tasks: [{
 				id: "16816C057E91438E"
 				item: "mekanism:creative_chemical_tank"
@@ -1579,9 +1579,9 @@
 		}
 		{
 			description: [
-				"The Micro Universe Orb requires a lot of power to operate. This power needs to be conentrated to best utilize it for the operataions."
+				"{atm9.quest.gregtech.desc.creativeChemicals.1}"
 				""
-				"To achieve this, the structure needs Focus Lenses. "
+				"{atm9.quest.gregtech.desc.creativeChemicals.2}"
 			]
 			id: "65A966D22EC7F9AA"
 			rewards: [{
@@ -1592,7 +1592,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Focused Energy"
+			subtitle: "{atm9.quest.gregtech.subt.focusedEnergy}"
 			tasks: [{
 				id: "0A648B31D7BC4544"
 				item: "kubejs:micro_universe_focus_lens"
@@ -1603,9 +1603,9 @@
 		}
 		{
 			description: [
-				"With the power requirements of the structure, something is needed to ensure the energy can be transmitted properly."
+				"{atm9.quest.gregtech.desc.focusedEnergy.1}"
 				""
-				"These Energy Transmitters will do the trick."
+				"{atm9.quest.gregtech.desc.focusedEnergy.2}"
 			]
 			id: "350B4AC4ADF7F84B"
 			rewards: [{
@@ -1616,7 +1616,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Utilizing the Power"
+			subtitle: "{atm9.quest.gregtech.subt.utilizingThePower}"
 			tasks: [{
 				id: "1B02FFA5C727B8BC"
 				item: "kubejs:micro_universe_energy_transmitter"

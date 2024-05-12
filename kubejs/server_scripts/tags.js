@@ -63,6 +63,29 @@ ServerEvents.tags('item', event => {
   event.remove('forge:purified_ores/naquadah', 'sgjourney:pure_naquadah')
   event.remove('forge:rods/naquadah_alloy', 'sgjourney:naquadah_rod')
   event.remove('forge:raw_materials/naquadah', 'sgjourney:raw_naquadah')
+
+
+  //Salt fixes (iarspider)
+  // - croptopia
+  event.add('forge:dusts', 'croptopia:salt')
+  event.add('forge:dusts/salt', 'croptopia:salt')
+  event.add('supplementaries:hourglass_dusts', 'croptopia:salt')
+  event.add('minecolonies:reduceable_ingredient', 'croptopia:salt')
+  // - mek
+  event.add('forge:storage_blocks', 'mekanism:block_salt')
+	event.add('minecolonies:storage_blocks', 'mekanism:block_salt')
+	event.add('forge:storage_blocks/salt', 'mekanism:block_salt')
+  // - railcraft
+  event.remove('forge:salt', 'railcraft:saltpeter_dust')
+	event.remove('forge:dusts/salt', 'railcraft:saltpeter_dust')
+	event.remove('forge:salts', 'railcraft:saltpeter_dust')
+	event.add('forge:dusts/potassium_nitrate', 'railcraft:saltpeter_dust')
+	event.add('forge:dusts', 'railcraft:saltpeter_dust')
+	event.add('forge:dusts/saltpeter', 'railcraft:saltpeter_dust')
+	event.add('forge:dusts/niter', 'railcraft:saltpeter_dust')
+	event.add('mysticalagriculture:material/saltpeter', 'railcraft:saltpeter_dust')
+	event.add('supplementaries:hourglass_dusts', 'railcraft:saltpeter_dust')
+
 })
 
 ServerEvents.tags('block', event => {

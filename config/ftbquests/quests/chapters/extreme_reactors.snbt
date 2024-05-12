@@ -151,11 +151,11 @@
 	quests: [
 		{
 			description: [
-				"Based off of the original mod &eBig Reactors&r, &aExtreme Reactors&r allows you to build customizable multiblock Reactors!"
+				"{atm9.quest.gregtech.desc.extremeReactors.1}"
 				""
-				"The main element is of course, Uranium. You'll need this and a lot of coal and iron to get building."
+				"{atm9.quest.gregtech.desc.extremeReactors.2}"
 				""
-				"If you're ever lost along the way, refer to &aThe Extreme Book&r for help! "
+				"{atm9.quest.gregtech.desc.extremeReactors.3}"
 			]
 			id: "7C4E4793DA887DE4"
 			rewards: [
@@ -183,16 +183,16 @@
 				item: "alltheores:uranium_ingot"
 				type: "item"
 			}]
-			title: "Welcome to &9Extreme Reactors&r!"
+			title: "{atm9.quest.gregtech.title.welcomeToExtremeReactors}"
 			x: -10.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7C4E4793DA887DE4"]
 			description: [
-				"Before we can start building our reactor, we'll need to smelt some coal (or charcoal) to create &9Graphite Ingots&r."
+				"{atm9.quest.gregtech.desc.welcomeToExtremeReactors.1}"
 				""
-				"Graphite, coupled with Iron, is one of the main materials when making a Reactor."
+				"{atm9.quest.gregtech.desc.welcomeToExtremeReactors.2}"
 			]
 			id: "4FA6BEA4E646B742"
 			rewards: [
@@ -208,37 +208,37 @@
 					type: "random"
 				}
 			]
-			subtitle: "Hardened Carbon"
+			subtitle: "{atm9.quest.gregtech.subt.hardenedCarbon}"
 			tasks: [{
 				count: 16L
 				id: "4B83A0D1C2C3C226"
 				item: "bigreactors:graphite_ingot"
 				type: "item"
 			}]
-			title: "Graphite for Casings"
+			title: "{atm9.quest.gregtech.title.graphiteForCasings}"
 			x: -7.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["75AD0CEBC1335915"]
 			description: [
-				"We're going to build the smallest passive reactor possible, the &93x3x3&r. The requirements for the quest are the exact amounts for what you'll need to build one."
+				"{atm9.quest.gregtech.desc.graphiteForCasings.1}"
 				""
-				"To build this, you start by building a 3x3x3 frame made out of Casings. In the middle of the bottom face, you can just use another Reactor Casing. You'll want each outer wall to have a &9reactor component&r, like an Active Power Tap or Solid Access Port."
+				"{atm9.quest.gregtech.desc.graphiteForCasings.2}"
 				""
-				"Next Page!"
+				"{atm9.quest.gregtech.desc.graphiteForCasings.3}"
 				""
-				"{@pagebreak}"
-				"Every reactor you build will require exactly 1 &6Reactor Controller&r, which is usually put in the middle of the front wall. Next, we'll place 1 &aFuel Rod&r in the center of the multiblock, and 1 &eControl Rod&r above it on the top face."
+				"{atm9.quest.gregtech.desc.graphiteForCasings.4}"
+				"{atm9.quest.gregtech.desc.graphiteForCasings.5}"
 				""
-				"You will need a way to input and output waste, which is done by using &9Reactor Solid Access Ports&r. For this build, place one on the left side and one on the right."
+				"{atm9.quest.gregtech.desc.graphiteForCasings.6}"
 				""
-				"To extract power, we'll place the &cActive Power Tap&r on the middle of the back wall. Once placed, the reactor should complete! You can now right click the Controller to open up the interface and turn it on!"
+				"{atm9.quest.gregtech.desc.graphiteForCasings.7}"
 				""
-				"Note: The biggest reactor you can make using &aBasic Reactor Parts&r is 5x5x5. To build a larger reactor, you will need &eReinforced Reactor Parts&r."
+				"{atm9.quest.gregtech.desc.graphiteForCasings.8}"
 				""
-				"{@pagebreak}"
-				"This is what a 3x3x3 reactor will look like!"
+				"{atm9.quest.gregtech.desc.graphiteForCasings.9}"
+				"{atm9.quest.gregtech.desc.graphiteForCasings.10}"
 				""
 				"{image:atm:textures/questpics/extremereactors/3x3sample.png width:150 height:150 align:1}"
 			]
@@ -266,7 +266,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Learning the Basics"
+			subtitle: "{atm9.quest.gregtech.subt.learningTheBasics}"
 			tasks: [
 				{
 					count: 21L
@@ -301,18 +301,18 @@
 					type: "item"
 				}
 			]
-			title: "&dOur First Reactor"
+			title: "{atm9.quest.gregtech.title.ourFirstReactor}"
 			x: -5.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4FA6BEA4E646B742"]
 			description: [
-				"To build a reactor, you'll need to start by making &6Reactor Casings&r."
+				"{atm9.quest.gregtech.desc.ourFirstReactor.1}"
 				""
-				"These make up the frame and walls of your reactor, although the walls can be replaced by &9Reactor Glass&r if you'd like to see inside of your reactor."
+				"{atm9.quest.gregtech.desc.ourFirstReactor.2}"
 				""
-				"For future reference, when a part says \"Basic\", this means that it can only be used with other basic parts. The \"Basic\" parts can also only be used to build smaller reactors, as it has a certain size limit. Keep this in mind!"
+				"{atm9.quest.gregtech.desc.ourFirstReactor.3}"
 			]
 			id: "4B9E9497E44D0096"
 			rewards: [
@@ -344,18 +344,18 @@
 					type: "item"
 				}
 			]
-			title: "Reactor Building Components"
+			title: "{atm9.quest.gregtech.reactorBuildingComponents}"
 			x: -5.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4B9E9497E44D0096"]
 			description: [
-				"To extract power or items from your reactor, or even input fuel, you'll need these &crequired&r blocks."
+				"{atm9.quest.gregtech.desc.reactorBuildingComponents.1}"
 				""
-				"The &cPower Tap&r provides a way for you to \"tap\" into the power that a &9passive&r reactor makes. You can attach pipes and cables to extract the power from it."
+				"{atm9.quest.gregtech.desc.reactorBuildingComponents.2}"
 				""
-				"The &aAccess Ports&r are required for every reactor, and allows you to both input fuel from the reactor, or extract waste. It's usually a good idea to have 2 per reactor, one for each job."
+				"{atm9.quest.gregtech.desc.reactorBuildingComponents.3}"
 			]
 			id: "2A20000FAEC2E16A"
 			rewards: [
@@ -385,18 +385,18 @@
 					type: "item"
 				}
 			]
-			title: "Interacting with the Reactor"
+			title: "{atm9.quest.gregtech.interactingWithReactor}"
 			x: -5.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4B9E9497E44D0096"]
 			description: [
-				"The &dReactor Controller&r is the heart of the reactor. When a reactor is formed, you can right-click the terminal to open up the reactor interface."
+				"{atm9.quest.gregtech.desc.interactingWithReactor.1}"
 				""
-				"Depending on if it is a &9Passively Cooled&r or an &eActively Cooled&r reactor, the interface will change. Passively Cooled reactors are used to produce power directly by burning fuel. Actively Cooled Reactors use the heat created to vaporize the coolant, which is then sent into a Turbine to create power."
+				"{atm9.quest.gregtech.desc.interactingWithReactor.2}"
 				""
-				"In the interface of a passive reactor, you can see and toggle the status and waste ejection. You'll also see the temps, how much FE/t the reactor is producing, and how much fuel the reactor is burning per tick."
+				"{atm9.quest.gregtech.desc.interactingWithReactor.3}"
 			]
 			id: "75AD0CEBC1335915"
 			min_width: 300
@@ -421,7 +421,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Heart of the Reactor"
+			subtitle: "{atm9.quest.gregtech.subt.heartOfReactor}"
 			tasks: [{
 				id: "62A0FE4CFAB9621B"
 				item: "bigreactors:basic_reactorcontroller"
@@ -433,13 +433,13 @@
 		{
 			dependencies: ["4B9E9497E44D0096"]
 			description: [
-				"Every reactor needs &9Reactor Control Rods&r and &9Fuel Rods&r. These control how fuel is inserted into the reactor."
+				"{atm9.quest.gregtech.desc.heartOfReactor.1}"
 				""
-				"The Control Rods are placed on the top face of the reactor. You can also have more than one per reactor, but you must have at least 1. Typically, the more you have, the more fuel the reactor can use and burn. That can mean more overall power, but at the cost of higher burn rates, depending on the setup of your reactor."
+				"{atm9.quest.gregtech.desc.heartOfReactor.2}"
 				""
-				"For every Control Rod, you'll need enough Fuel Rods to extend to the base of the reactor. For example, if your reactor is 5 blocks tall, you'll need 3 Fuel Rods extending from each Control Rod."
+				"{atm9.quest.gregtech.desc.heartOfReactor.3}"
 				""
-				"If you right-click on a Control Rod, you can control how much fuel is burned in the reactor by inserting or retracting the fuel rods. The further that you extend the rods, the less fuel that will be burned."
+				"{atm9.quest.gregtech.desc.heartOfReactor.4}"
 			]
 			id: "7B4AAC741F0A6073"
 			min_width: 300
@@ -470,16 +470,16 @@
 					type: "item"
 				}
 			]
-			title: "Reactor Control Rods"
+			title: "{atm9.quest.gregtech.reactorControlRods}"
 			x: -6.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"To insert fuel into the reactor, you'll need to pick one of the sides that has a &9Reactor Solid Access Port&r and pump in &eUranium&r from an inventory."
+				"{atm9.quest.gregtech.desc.reactorControlRods.1}"
 				""
-				"The easiest way to do this is to use something like a &aStorage Drawer&r or even just a &aChest&r with an &9Item Pipe&r connected at the top, like the image shown below."
+				"{atm9.quest.gregtech.desc.reactorControlRods.2}"
 				""
 				"{image:atm:textures/questpics/extremereactors/importexample.png width:150 height:150 align:1}"
 			]
@@ -505,13 +505,13 @@
 				item: "alltheores:uranium_ingot"
 				type: "item"
 			}]
-			title: "Fueling our Passive Reactor"
+			title: "{atm9.quest.gregtech.fuelingOurPassiveReactor}"
 			x: -7.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
-			description: ["When the reactor burns up fuel, it creates &9waste&r or a &dReactant&r that you'll also want to extract. That is what the other Solid Access Port is for! Make sure to set it to output, then pipe it into some type of storage."]
+			description: ["{atm9.quest.gregtech.desc.fuelingOurPassiveReactor.1}"]
 			id: "4745152F6FF242B3"
 			rewards: [
 				{
@@ -526,24 +526,24 @@
 					type: "loot"
 				}
 			]
-			subtitle: "Waste Not Want Not or something...."
+			subtitle: "{atm9.quest.gregtech.subt.wasteNotWantNot}"
 			tasks: [{
 				id: "77F79D09A76CFF15"
 				item: "bigreactors:cyanite_ingot"
 				type: "item"
 			}]
-			title: "Dealing with Waste"
+			title: "{atm9.quest.gregtech.dealingWithWaste}"
 			x: -3.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4745152F6FF242B3"]
 			description: [
-				"Now that we have some Cyanite from our baby reactor, we'll want a way to reprocess that waste into something useful."
+				"{atm9.quest.gregtech.desc.dealingWithWaste.1}"
 				""
-				"To do this, we'll need to build another multiblock: the &aReprocessor&r."
+				"{atm9.quest.gregtech.desc.dealingWithWaste.2}"
 				""
-				"This takes a lot of Cyanite, so start stocking up! You might want to upgrade to a bigger reactor as well. "
+				"{atm9.quest.gregtech.desc.dealingWithWaste.3}"
 			]
 			id: "354086C858E10154"
 			rewards: [
@@ -564,17 +564,17 @@
 				item: "bigreactors:reprocessorcasing"
 				type: "item"
 			}]
-			title: "Reprocessing our Waste"
+			title: "{atm9.quest.gregtech.reprocessingOurWaste}"
 			x: -0.5d
 			y: 8.0d
 		}
 		{
 			description: [
-				"With Cyanite, we can create the heart of the Turbine, the &9Turbine Controller&r."
+				"{atm9.quest.gregtech.desc.reprocessingOurWaste.1}"
 				""
-				"Turbines are multi-block structures, just like Reactors! They input vapors like &7Steam&r made by &dActively Cooled&r Reactors to create TONS of power! We'll need a few other pieces to be able to build our first one."
+				"{atm9.quest.gregtech.desc.reprocessingOurWaste.2}"
 				""
-				"Note: Basic Turbine parts can only be used to build a max size Turbine of 5x5x10. To build a bigger Turbine, you must use &aReinforced Turbine Parts&r."
+				"{atm9.quest.gregtech.desc.reprocessingOurWaste.3}"
 			]
 			id: "4415C9F8DA2D7E68"
 			rewards: [
@@ -611,18 +611,18 @@
 					type: "item"
 				}
 			]
-			title: "Making Turbines"
+			title: "{atm9.quest.gregtech.makingTurbines}"
 			x: -0.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"Reactor &9Moderators&r are materials placed inside of a reactor to change how it performs, based on the properties of the moderator. These are placed &linside&r of the reactor during construction."
+				"{atm9.quest.gregtech.desc.makingTurbines.1}"
 				""
-				"Typically, the rarer the material is, the better of a Moderator it is. Leaving the reactor empty means you are using the air inside as a moderator, which isn't that great."
+				"{atm9.quest.gregtech.desc.makingTurbines.2}"
 				""
-				"If you are looking for something cheap in the early game, try using &3Graphite Blocks&r!"
+				"{atm9.quest.gregtech.desc.makingTurbines.3}"
 			]
 			id: "73362EDC984B8A0F"
 			min_width: 300
@@ -640,7 +640,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "They are Moderators, not Coolants."
+			subtitle: "{atm9.quest.gregtech.subt.moderatorsNotCoolants}"
 			tasks: [{
 				id: "0D4AE8FBAA953732"
 				item: {
@@ -755,10 +755,10 @@
 						]
 					}
 				}
-				title: "Example Moderators"
+				title: "{atm9.quest.gregtech.exampleModerators}"
 				type: "item"
 			}]
-			title: "Reactor Moderators"
+			title: "{atm9.quest.gregtech.reactorModerators}"
 			x: -7.0d
 			y: 9.0d
 		}
@@ -768,13 +768,13 @@
 				"4745152F6FF242B3"
 			]
 			description: [
-				"Reactors can also be used to heat up &bcoolants&r like water to create &bvapor&r, like &bSteam&r."
+				"{atm9.quest.gregtech.desc.reactorModerators.1}"
 				""
-				"To do this, you'll need to build a reinforced reactor. This is built in the same way that you built your 3x3x3 reactor, but all of the parts will need to be &aReinforced Reactor Parts&r instead. I'd also suggest on it being bigger than a 3x3x3."
+				"{atm9.quest.gregtech.desc.reactorModerators.2}"
 				""
-				"To input a coolant, you'll need a &9Forge Fluid Port&r. This will port in any fluids like Water into the reactor. This will also be used to export the vapor created in the reactor."
+				"{atm9.quest.gregtech.desc.reactorModerators.3}"
 				""
-				"If you want, you can create a &aMekanism Fluid Port&r to convert the fluid Steam into the Mekanism gas Steam instead."
+				"{atm9.quest.gregtech.desc.reactorModerators.4}"
 			]
 			id: "476755275B948A5F"
 			min_width: 300
@@ -791,7 +791,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "To Make Steam!!"
+			subtitle: "{atm9.quest.gregtech.subt.toMakeSteam}"
 			tasks: [
 				{
 					id: "122E3BB7DB314F68"
@@ -804,24 +804,24 @@
 					type: "item"
 				}
 			]
-			title: "Building An Actively Cooled Reactor"
+			title: "{atm9.quest.gregtech.buildingAnActivelyCooledReactor}"
 			x: -3.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"Reactors are multi-block structures, meaning you can create your own custom size!"
+				"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.1}"
 				""
-				"If you're using &aBasic Reactor Parts&r, the largest size reactor you can build is 5x5x5."
+				"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.2}"
 				""
-				"The &lBiggest&r Reactor that you can make using &eReinforced Reactor Parts&r is 32x32x48. There are a lot of variables that contribute to the overall output of a reactor, so make sure to experiment!"
+				"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.3}"
 				""
-				"Some overall tips:"
+				"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.4}"
 				""
-				"The taller the reactor, the more fuel it can hold and burn because there are more fuel rods, meaning more overall power. This also means a higher &cburn rate&r."
+				"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.5}"
 				""
-				"The wider the reactor, the more efficient it is, as long as you don't add more fuel rods to the design. This means less consumption overall."
+				"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.6}"
 			]
 			id: "3F9D553C9FA64F2A"
 			min_width: 300
@@ -845,18 +845,18 @@
 				item: "bigreactors:basic_reactorcasing"
 				type: "item"
 			}]
-			title: "Expanding Our Reactors"
+			title: "{atm9.quest.gregtech.expandingOurReactors}"
 			x: -7.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"To interact with our Turbine, we'll need several &6Ports&r."
+				"{atm9.quest.gregtech.desc.expandingOurReactors.1}"
 				""
-				"The &9Fluid Port&r is used to insert vapors like &bSteam&r, or extract exhaust, like &9water&r. Because of this, you'll need two for your Turbine."
+				"{atm9.quest.gregtech.desc.expandingOurReactors.2}"
 				""
-				"The &cPower Tap&r extracts power, and is required to complete the multiblock."
+				"{atm9.quest.gregtech.desc.expandingOurReactors.3}"
 			]
 			id: "186731580B14F9D2"
 			rewards: [
@@ -887,22 +887,22 @@
 					type: "item"
 				}
 			]
-			title: "Turbine Ports"
+			title: "{atm9.quest.gregtech.turbinePorts}"
 			x: -1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"To get a Turbine spinning, we'll need these &crequired&r components:"
+				"{atm9.quest.gregtech.desc.turbinePorts.1}"
 				""
-				"- &9Rotor Bearings&r are placed at one end of the shaft of the turbine. This can be on any face, but dictates where the shaft extrude from. This is typically placed in the center of the bottom face."
+				"{atm9.quest.gregtech.desc.turbinePorts.2}"
 				""
-				"- &eRotor Shafts&r extend from one Rotor Bearing to the opposite side of the turbine, all the way to a single Turbine Housing block, creating the shaft for the Turbine."
+				"{atm9.quest.gregtech.desc.turbinePorts.3}"
 				""
-				"- &9Rotor Blades&r make the rotor spin. These are placed onto the Rotor Shafts and can be multiple blocks in length. Each Blade can handle a certain amount of vapor, and determines how many are needed based on your reactor's production rates."
+				"{atm9.quest.gregtech.desc.turbinePorts.4}"
 				""
-				"Here is an example of a Vertical Shaft setup for a Turbine, with the Turbine Coil of Lead on the top."
+				"{atm9.quest.gregtech.desc.turbinePorts.5}"
 				""
 				"{image:atm:textures/questpics/extremereactors/maxbasicturbine.png width:100 height:150 align:1}"
 			]
@@ -941,16 +941,16 @@
 					type: "item"
 				}
 			]
-			title: "Creating The Turbine Shaft"
+			title: "{atm9.quest.gregtech.creatingTurbineShaft}"
 			x: -0.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"&dTurbine Coils&r are blocks placed around the end of the Turbine Shaft, closest to the Housing block. These are required to generate power from the turbine. You can have up to 3 coils per turbine, and can mix and match different coil blocks."
+				"{atm9.quest.gregtech.desc.creatingTurbineShaft.1}"
 				""
-				"This quest requires at least one of the acceptable blocks you can use as coils."
+				"{atm9.quest.gregtech.desc.creatingTurbineShaft.2}"
 				""
 			]
 			id: "3FC7FDAF84871963"
@@ -1087,10 +1087,10 @@
 						]
 					}
 				}
-				title: "Turbine Coils"
+				title: "{atm9.quest.gregtech.turbineCoils}"
 				type: "item"
 			}]
-			title: "Turbine Coils"
+			title: "{atm9.quest.gregtech.turbineCoils}"
 			x: 0.5d
 			y: 3.0d
 		}
@@ -1102,11 +1102,11 @@
 				"775D176081DD75F5"
 			]
 			description: [
-				"Instead of building the smallest Turbine at this point, it's better to build a Turbine based off of the design of your &9Reactor&r."
+				"{atm9.quest.gregtech.desc.turbineCoils.1}"
 				""
-				"For starters, you want to build a Turbine that can handle the &9Vapor Production Rate&r of your reactor. To get the most power out of it, it'll need to maintain either 900RPM or 1800RPM as well. This takes a lot of experimenting with different coils, # of blades, and overall size of the Turbine!"
+				"{atm9.quest.gregtech.desc.turbineCoils.2}"
 				""
-				"Note: To complete this quest, you'll need to create a &dTask Screen&r of any size. Once placed, you can right-click the screen and select this quest as the requirement, then output power into the task screen block to fill it up and complete the quest."
+				"{atm9.quest.gregtech.desc.turbineCoils.3}"
 				""
 			]
 			icon: {
@@ -1160,7 +1160,7 @@
 							]
 						}
 					}
-					title: "Quest Task Screens"
+					title: "{atm9.quest.gregtech.questTaskScreens}"
 					type: "item"
 				}
 				{
@@ -1170,13 +1170,13 @@
 					value: 1000000L
 				}
 			]
-			title: "&dOur First Turbine"
+			title: "{atm9.quest.gregtech.ourFirstTurbine}"
 			x: -0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
-			description: ["Just like the Reactor, the frame must be built out of &dCasings&r, but the walls can be &9Turbine Glass&r instead!"]
+			description: ["{atm9.quest.gregtech.desc.ourFirstTurbine.1}"]
 			id: "2D592669F4D41793"
 			rewards: [
 				{
@@ -1199,18 +1199,18 @@
 				item: "bigreactors:basic_turbineglass"
 				type: "item"
 			}]
-			title: "Turbine Construction"
+			title: "{atm9.quest.gregtech.turbineConstruction}"
 			x: -0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"Right-clicking on a Turbine Controller when it is fully built will show you the Turbine Interface."
+				"{atm9.quest.gregtech.desc.turbineConstruction.1}"
 				""
-				"Here, you can see all of the stats for the Turbine. Hovering over each will tell you more info about each one."
+				"{atm9.quest.gregtech.desc.turbineConstruction.2}"
 				""
-				"On the bottom left, you'll have 2 arrows to control the &9Flow Rate&r. This controls how much heated vapor is pumped into the Turbine. To know how much you should set this to, check your reactor's &dVapor Production Rate&r as a starting point. "
+				"{atm9.quest.gregtech.desc.turbineConstruction.3}"
 				""
 				"{image:atm:textures/questpics/extremereactors/turbineui.png width:200 height:150 align:1}"
 			]
@@ -1223,7 +1223,7 @@
 			}]
 			tasks: [{
 				id: "2905C4386A407A1E"
-				title: "The Turbine Interface"
+				title: "{atm9.quest.gregtech.turbineInterface}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -1232,9 +1232,9 @@
 		{
 			dependencies: ["354086C858E10154"]
 			description: [
-				"The &aReprocessor&r is a 3x3x7 multiblock structure that has specific rules to complete the construction of the multiblock."
+				"{atm9.quest.gregtech.desc.turbineInterface.1}"
 				""
-				"The heart of this multiblock is the &aController&r, and can be placed on any vertical face as long as it isn't on the frame."
+				"{atm9.quest.gregtech.desc.turbineInterface.2}"
 			]
 			id: "2AF31F1769085641"
 			rewards: [
@@ -1263,21 +1263,21 @@
 		{
 			dependencies: ["2AF31F1769085641"]
 			description: [
-				"To build the frame for the &aReprocessor&r, you'll need a lot of Casings. This also means a lot of Cyanite."
+				"{atm9.quest.gregtech.desc.turbineInterface.3}"
 				""
-				"Start by building a hollow 3 block wide, 3 block deep, and 7 block tall structure. This is the frame."
+				"{atm9.quest.gregtech.desc.turbineInterface.4}"
 				""
-				"If done right, you'll have an empty spot in the middle of the bottom and top face. For the vertical faces, you can either use &aReprocessor Glass&r or one of the required &aReprocessor&r parts like the Power Port, Controller, etc."
+				"{atm9.quest.gregtech.desc.turbineInterface.5}"
 				""
-				"If you'd like to see an image of what the frame will look like, check out the next page!"
+				"{atm9.quest.gregtech.desc.turbineInterface.6}"
 				""
 				"{@pagebreak}"
-				"The frame of the Reprocessor multiblock."
+				"{atm9.quest.gregtech.desc.turbineInterface.7}"
 				""
 				"{image:atm:textures/questpics/extremereactors/reprocessorframe.png width:100 height:175 align:1}"
 				""
 				"{@pagebreak}"
-				"A fully built Reprocessor."
+				"{atm9.quest.gregtech.desc.turbineInterface.8}"
 				""
 				""
 				"{image:atm:textures/questpics/extremereactors/reprocessorfull.png width:100 height:150 align:1}"
@@ -1302,18 +1302,18 @@
 				item: "bigreactors:reprocessorcasing"
 				type: "item"
 			}]
-			title: "Building The Frame"
+			title: "{atm9.quest.gregtech.buildingTheFrame}"
 			x: -0.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["2AF31F1769085641"]
 			description: [
-				"When building the &aReprocessor&r, you will need at least one &eCollector&r and &9Waste Injector&r."
+				"{atm9.quest.gregtech.desc.buildingTheFrame.1}"
 				""
-				"The &eReprocessor Collector&r must be placed in the center of the bottom face of the structure."
+				"{atm9.quest.gregtech.desc.buildingTheFrame.2}"
 				""
-				"The &9Waste Injector&r must go in the center of the top face, which is where you'll pipe in or insert waste like &9Cyanite Ingots&r."
+				"{atm9.quest.gregtech.desc.buildingTheFrame.3}"
 			]
 			id: "2598273041353196"
 			rewards: [
@@ -1341,20 +1341,20 @@
 					type: "item"
 				}
 			]
-			title: "Importing Waste"
+			title: "{atm9.quest.gregtech.importingWaste}"
 			x: -2.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["2AF31F1769085641"]
 			description: [
-				"While the other &aReprocessor Parts&r have a mandatory spot when building, these three parts can be placed on any vertical face as long as they aren't on the frame!"
+				"{atm9.quest.gregtech.desc.importingWaste.1}"
 				""
-				"The &cPower Port&r is used to give power to the multiblock machine to process waste."
+				"{atm9.quest.gregtech.desc.importingWaste.2}"
 				""
-				"The &9Fluid Injector Port&r is used to inject the liquid needed, which will depend on the type of waste injected. For Cyanite, that means water!"
+				"{atm9.quest.gregtech.desc.importingWaste.3}"
 				""
-				"The &aOutput Port&r is used to output the reprocessed material. You can right click it to grab the material out by hand, or pipe it out for automation."
+				"{atm9.quest.gregtech.desc.importingWaste.4}"
 			]
 			id: "3C3FE45CEF5E242B"
 			rewards: [
@@ -1393,9 +1393,9 @@
 		{
 			dependencies: ["69642A3618E86DED"]
 			description: [
-				"Once you've built a fully functional &aReprocessor&r, you can pump in power, water, and &9Cyanite&r to create &dBlutonium&r."
+				"{atm9.quest.gregtech.desc.importingWaste.5}"
 				""
-				"This can be used as a fuel for your reactor, and creates its own waste called &9Magentite&r. "
+				"{atm9.quest.gregtech.desc.importingWaste.6}"
 			]
 			id: "7E07C5A6FA6B6B1F"
 			rewards: [
@@ -1422,9 +1422,9 @@
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"Now that we are collecting some &9waste&r from our reactor, part of the progression requires you to \"Fluidize\" some of the ingots you get. You know what that means?"
+				"{atm9.quest.gregtech.desc.importingWaste.7}"
 				""
-				"We need to make a &aFluidizer&r! The main component is the &aFluidizer Controller&r. Once built, you can right-click on this to open up the interface. Here, you can turn it on or off, see what's inside, and the current power level."
+				"{atm9.quest.gregtech.desc.importingWaste.8}"
 			]
 			id: "25D4406CB86C8CBB"
 			rewards: [
@@ -1445,13 +1445,13 @@
 				item: "bigreactors:fluidizercontroller"
 				type: "item"
 			}]
-			title: "The Fluidizer"
+			title: "{atm9.quest.gregtech.theFluidizer}"
 			x: -4.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["25D4406CB86C8CBB"]
-			description: ["The &aFluidizer&r is a customizable multiblock that has a minimum size of 3x3x3. Just like the other multiblocks, the frame will need to be made out of Casings, while the faces can be made out of Glass."]
+			description: ["{atm9.quest.gregtech.desc.fluidizerIntro.1}"]
 			id: "501C6B7580453410"
 			rewards: [
 				{
@@ -1479,22 +1479,22 @@
 					type: "item"
 				}
 			]
-			title: "Fluidizer Construction"
+			title: "{atm9.quest.gregtech.fluidizerConstruction}"
 			x: -5.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["25D4406CB86C8CBB"]
 			description: [
-				"The &aFluidizer&r can operate in one of 3 modes: Solid to Fluid, Combining 2 Solids into a Fluid, or combining 2 Fluids into a new Fluid. This all depends on the type of &aInjectors&r you use for the multiblock."
+				"{atm9.quest.gregtech.desc.fluidizerModes.1}"
 				""
-				"For example, if you want to convert &dBlutonium&r into a fluid, you can use 1 &aSolid Injector&r."
+				"{atm9.quest.gregtech.desc.fluidizerModes.2}"
 				""
-				"If you want to combine two solids together into something new, you'll build the multiblock with 2 &aSolid Injectors&r."
+				"{atm9.quest.gregtech.desc.fluidizerModes.3}"
 				""
-				"If you want to combine two fluids, you'll use 2 &9Fluid Injectors&r."
+				"{atm9.quest.gregtech.desc.fluidizerModes.4}"
 				""
-				"This might seem confusing, but is important for progression. For example, you'll want to convert Magentite into a fluid in the Fluidizer first, then send it to a &aReprocessor&r with Ludicrite to create Ridiculite."
+				"{atm9.quest.gregtech.desc.fluidizerModes.5}"
 			]
 			id: "5914D015D8543875"
 			min_width: 400
@@ -1523,16 +1523,16 @@
 					type: "item"
 				}
 			]
-			title: "Operational Modes"
+			title: "{atm9.quest.gregtech.operationalModes}"
 			x: -3.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["25D4406CB86C8CBB"]
 			description: [
-				"If you want to get your hands on the product the &aFluidizer&r makes, you'll need an &aOutput Port&r on one of the faces."
+				"{atm9.quest.gregtech.desc.fluidizerOutput.1}"
 				""
-				"The &aFluidizer&r will need power to operate, so a &cPower Port&r is required to complete the structure."
+				"{atm9.quest.gregtech.desc.fluidizerOutput.2}"
 			]
 			id: "55DCA040C84DCEF3"
 			rewards: [
@@ -1560,16 +1560,16 @@
 					type: "item"
 				}
 			]
-			title: "Required Ports"
+			title: "{atm9.quest.gregtech.requiredPorts}"
 			x: -4.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["7E07C5A6FA6B6B1F"]
 			description: [
-				"Using the &aReprocessor&r, we can combine everything we've made so far to make a few new ingots."
+				"{atm9.quest.gregtech.desc.reprocessorUsage.1}"
 				""
-				"Note: You might need a &9Fluidizer&r to complete this step!"
+				"{atm9.quest.gregtech.desc.reprocessorUsage.2}"
 			]
 			id: "5A615BB74A5CD332"
 			rewards: [
@@ -1607,12 +1607,12 @@
 				"501C6B7580453410"
 			]
 			description: [
-				"By using the &aFluidizer&r, we can combine &dBlutonium&r with &eYellorium&r to make &2Verderium."
+				"{atm9.quest.gregtech.desc.verderiumCreation.1}"
 				""
-				"When used as fuel in a reactor, &2Verderium&r produces &cRossinite&r as a reactant. We need this!"
+				"{atm9.quest.gregtech.desc.verderiumCreation.2}"
 				""
-				"To use &2Verderium&r as a fuel, you'll need to make &cFuel Injection Ports&r for your reactor. "
-				"Note: You might need to empty out the fuel currently in your reactor, or make a new reactor for this purpose. "
+				"{atm9.quest.gregtech.desc.verderiumCreation.3}"
+				"{atm9.quest.gregtech.desc.verderiumCreation.4}"
 			]
 			id: "7C4D8AA107780795"
 			rewards: [
@@ -1635,7 +1635,7 @@
 				item: "bigreactors:reinforced_reactorfluidaccessport"
 				type: "item"
 			}]
-			title: "Rossinite"
+			title: "{atm9.quest.gregtech.rossinite}"
 			x: -4.0d
 			y: 14.0d
 		}
@@ -1645,9 +1645,9 @@
 				"5A615BB74A5CD332"
 			]
 			description: [
-				"Combining &9Ridiculite Ingots&r with &cRossinite&r in a &aFluidizer&r will create &dInanite Ingots&r."
+				"{atm9.quest.gregtech.desc.inaniteCreation.1}"
 				""
-				"We can now use these to make a block of &dInanite&r."
+				"{atm9.quest.gregtech.desc.inaniteCreation.2}"
 			]
 			id: "6ADDFD55AD0DF7D4"
 			rewards: [
@@ -1677,9 +1677,9 @@
 				"6ADDFD55AD0DF7D4"
 			]
 			description: [
-				"One of the hardest materials to get in the mod!"
+				"{atm9.quest.gregtech.desc.insaniteMaterial.1}"
 				""
-				"This is also used to create the &6ATM Star&r!"
+				"{atm9.quest.gregtech.desc.insaniteMaterial.2}"
 			]
 			id: "5AD80D3242DD3F60"
 			rewards: [
@@ -1702,16 +1702,16 @@
 				item: "bigreactors:insanite_block"
 				type: "item"
 			}]
-			title: "&dInsanite Block&r"
+			title: "{atm9.quest.gregtech.insaniteBlock}"
 			x: -2.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["7C4D8AA107780795"]
 			description: [
-				"Now that you have &cRossinite&r, you can mix it with &aBenitoite&r to create &dInsanite&r ingots."
+				"{atm9.quest.gregtech.desc.insaniteCreation.1}"
 				""
-				"&aBenitoite Ore&r can be found in the Nether."
+				"{atm9.quest.gregtech.desc.insaniteCreation.2}"
 			]
 			id: "0B1DF8A040826D87"
 			rewards: [

@@ -11,9 +11,9 @@
 	quests: [
 		{
 			description: [
-				"So there I was, knee deep in salsa and covered in motor oil"
+				"{atm9.quest.gregtech.desc.salsaIncident.1}"
 				""
-				"Anyway, I hope you are ready to do a lot of work with fluids!"
+				"{atm9.quest.gregtech.desc.salsaIncident.2}"
 			]
 			id: "64F77D41B2D057B8"
 			rewards: [
@@ -40,7 +40,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Time to d&1IV&re deep"
+			subtitle: "{atm9.quest.gregtech.subt.diveDeep}"
 			tasks: [{
 				id: "6625077A99326B9D"
 				item: "gtceu:micro_processor_mainframe"
@@ -60,9 +60,9 @@
 				"1896B90F5FD66AFA"
 			]
 			description: [
-				"The final form of the HV circuits, but not the most cost efficient - yet"
+				"{atm9.quest.gregtech.desc.hvCircuits.1}"
 				""
-				"For now you'll be using these to make the higher tier circuits, up to LuV!"
+				"{atm9.quest.gregtech.desc.hvCircuits.2}"
 			]
 			id: "2BE754C8D2C0C76E"
 			rewards: [{
@@ -86,7 +86,7 @@
 				"239E32216382AA5D"
 				"574019B5B7CA43E0"
 			]
-			description: ["Cheaper EV circuits! Don't forget to update your recipes!"]
+			description: ["{atm9.quest.gregtech.desc.evCircuits}"]
 			id: "19CD3E69746F2849"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -109,7 +109,7 @@
 				"1A73520CB284217F"
 				"15A1D6D05A785919"
 			]
-			description: ["Easier IV circuits, but why stop here! Pushing onwards and you'll achieve the coveted Ludicrous Voltage circuits!"]
+			description: ["{atm9.quest.gregtech.desc.ivCircuits}"]
 			id: "592113082337004B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -130,7 +130,7 @@
 				"592113082337004B"
 				"4993431DBE076E1B"
 			]
-			description: ["Finally, the &dLuV&r age has arrived - congratulations!"]
+			description: ["{atm9.quest.gregtech.desc.luvAge}"]
 			id: "2ACB94B77EF072EB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -154,9 +154,9 @@
 				"540B4CE165EE4D5B"
 			]
 			description: [
-				"Finally, Tungstensteel, now you can make IV Machines!"
+				"{atm9.quest.gregtech.desc.tungstensteel.1}"
 				""
-				"This also allows for a coil upgrade for the EBF!"
+				"{atm9.quest.gregtech.desc.tungstensteel.2}"
 			]
 			id: "12905D5778274DEE"
 			rewards: [{
@@ -178,7 +178,7 @@
 		}
 		{
 			dependencies: ["540B4CE165EE4D5B"]
-			description: ["What good is regular Tungsten? Well, since you asked, it is an integral component of many IV Machines, primarily in the form of Tungsten Cables"]
+			description: ["{atm9.quest.gregtech.desc.tungstenUsage}"]
 			icon: "gtceu:tungsten_ingot"
 			id: "08D48D7C2C6EEF54"
 			rewards: [{
@@ -198,7 +198,7 @@
 						value: "forge:ingots/tungsten"
 					}
 				}
-				title: "Tungsten Ingot"
+				title: "{atm9.quest.gregtech.tungstenIngot}"
 				type: "item"
 			}]
 			x: -9.67142857142858d
@@ -210,7 +210,7 @@
 				"12905D5778274DEE"
 				"1FF8B0E2D10C88E9"
 			]
-			description: ["With 16 of these on your &eElectric Blast Furnace&r you can cook recipes up to &c4500 Kelvin&r! That's 4227 Celsius or 7640 Fahrenheit!"]
+			description: ["{atm9.quest.gregtech.desc.ebfTemperature}"]
 			id: "0A848E0B9F485B2C"
 			rewards: [
 				{
@@ -255,9 +255,9 @@
 				"74D47A8DF93294E4"
 			]
 			description: [
-				"Polybenzimidazole is a type of plastic known for its heat resistance"
+				"{atm9.quest.gregtech.desc.polybenzimidazole.1}"
 				""
-				"You'll use it for many applications as you progress, especially at the ZPM and above tiers, but the primary use will be making advanced circuit components!"
+				"{atm9.quest.gregtech.desc.polybenzimidazole.2}"
 			]
 			hide_dependent_lines: true
 			id: "1D9194E89D14BA85"
@@ -293,7 +293,7 @@
 			]
 			shape: "gear"
 			size: 1.25d
-			subtitle: "PBI at long last"
+			subtitle: "{atm9.quest.gregtech.subt.pbi}"
 			tasks: [{
 				id: "02B34C5571D15E05"
 				item: "gtceu:polybenzimidazole_bucket"
@@ -308,9 +308,9 @@
 				"587B4048E0BCEB27"
 			]
 			description: [
-				"The EV Circuit Assembler, the next major step in making higher tier circuits and making lower tier circuits even cheaper!"
+				"{atm9.quest.gregtech.desc.evCircuitAssembler.1}"
 				""
-				"You've still got a ways to go with fluids before you make the &3Nanoprocessor&r tier of circuits"
+				"{atm9.quest.gregtech.desc.evCircuitAssembler.2}"
 			]
 			id: "4993431DBE076E1B"
 			rewards: [{
@@ -334,13 +334,13 @@
 				"77AAC2F643E92A88"
 			]
 			description: [
-				"The &aProcessing Array&r can run 16 recipes &din parallel&r for any of the single block machines you can make!"
+				"{atm9.quest.gregtech.desc.processingArray.1}"
 				""
-				"Why run in &bParallel&r when you can &6Overclock&r you ask? Well, parallelization is superior here because it doesn't use more power unlike overclocking"
+				"{atm9.quest.gregtech.desc.processingArray.2}"
 				""
-				"Additionally, you can utilize the &cDistinct Bus Mode&r with the (up to 10) different Input Busses on different Programmed Circuits for easier pattern automation with Extruders, Laser Engravers, etc"
+				"{atm9.quest.gregtech.desc.processingArray.3}"
 				""
-				"&e&lNote:&r&r Many of the single block machines have multiblock variants that are better, but I'm not going to go into those (yet)"
+				"{atm9.quest.gregtech.desc.processingArray.4}"
 			]
 			icon: "gtceu:iv_processing_array"
 			id: "72A2AA6274D6FA9A"
@@ -362,7 +362,7 @@
 				{
 					icon: "ftbquests:barrier"
 					id: "188A83D9504A8470"
-					title: "Observe completed IV Processing Array"
+					title: "{atm9.quest.gregtech.observeIVArray}"
 					type: "custom"
 				}
 			]
@@ -376,7 +376,7 @@
 				"6F0AD70D3748D8D2"
 				"45D9E32D75F5ACAE"
 			]
-			description: ["Don't forget, once you've made these you can update those old circuit recipes that used regular Transistors to use the Advanced Transistor"]
+			description: ["{atm9.quest.gregtech.desc.updateCircuitRecipes.1}"]
 			id: "1809493D8765E67A"
 			rewards: [
 				{
@@ -407,9 +407,9 @@
 				"45D9E32D75F5ACAE"
 			]
 			description: [
-				"Before you were able to make 32 SMD Resistors at a time, and now it is down to 16 Advanced SMD Resistors"
+				"{atm9.quest.gregtech.desc.advancedSMDResistors.1}"
 				""
-				"Is this really a boost? Yes! Mainly because you use fewer of the Advanced SMD Resistors, but also because the regular kind won't be usable forever..."
+				"{atm9.quest.gregtech.desc.advancedSMDResistors.2}"
 			]
 			id: "2CC2E23077A0509F"
 			rewards: [
@@ -443,9 +443,9 @@
 				"1AB86FD8776634D0"
 			]
 			description: [
-				"Finally, this unlocks the HV circuit at the Nanoprocessor tier!"
+				"{atm9.quest.gregtech.desc.unlockHV.1}"
 				""
-				"Well, technically you could've made it without using the Advanced SMD components, but where's the fun in that?"
+				"{atm9.quest.gregtech.desc.unlockHV.2}"
 			]
 			id: "239E32216382AA5D"
 			rewards: [
@@ -479,9 +479,9 @@
 				"45D9E32D75F5ACAE"
 			]
 			description: [
-				"Finally, the last of the Advanced SMD Components"
+				"{atm9.quest.gregtech.desc.lastAdvancedSMD.1}"
 				""
-				"Be sure going forward that you make recipes using the Advanced SMD Components because they are cheaper"
+				"{atm9.quest.gregtech.desc.lastAdvancedSMD.2}"
 			]
 			id: "1A73520CB284217F"
 			rewards: [
@@ -515,7 +515,7 @@
 				"45D9E32D75F5ACAE"
 				"1AB86FD8776634D0"
 			]
-			description: ["The Advanced Inductor! Keep updating those old recipes"]
+			description: ["{atm9.quest.gregtech.desc.advancedInductor.1}"]
 			id: "574019B5B7CA43E0"
 			rewards: [
 				{
@@ -542,9 +542,9 @@
 		}
 		{
 			description: [
-				"&dPalladium Ore&r is quite rare, some alternative methods to acquiring it might be to give &bCrushed Platinum&r or &6Crushed Sheldonite Ore&r a &eChemical Bath&r in &cMercury&r"
+				"{atm9.quest.gregtech.desc.palladiumOre.1}"
 				""
-				"Mercury you can get easily by &eCentrifuging&r Redstone Dust"
+				"{atm9.quest.gregtech.desc.palladiumOre.2}"
 			]
 			id: "546F6933699B9BF3"
 			rewards: [{
@@ -565,7 +565,7 @@
 						value: "forge:dusts/palladium"
 					}
 				}
-				title: "Palladium Dust"
+				title: "{atm9.quest.gregtech.palladiumDust}"
 				type: "item"
 			}]
 			x: 8.5d
@@ -573,7 +573,7 @@
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
-			description: ["Double check you &l&n&cdon't&r&r&r have the &aEBF&r set to &bProgram 1&r, or else it can start cooking the Silicon dust into ingots"]
+			description: ["{atm9.quest.gregtech.desc.checkEBF.1}"]
 			id: "2CC82170BCE61940"
 			rewards: [
 				{
@@ -602,9 +602,9 @@
 		{
 			dependencies: ["2CC82170BCE61940"]
 			description: [
-				"More wafers per boule and higher tier chips are possible with this!"
+				"{atm9.quest.gregtech.desc.moreWafers.1}"
 				""
-				"Time to upgrade those old silicon boule wafer recipes? I think so!"
+				"{atm9.quest.gregtech.desc.moreWafers.2}"
 			]
 			id: "5F270891C953486E"
 			rewards: [{
@@ -625,9 +625,9 @@
 		{
 			dependencies: ["5F270891C953486E"]
 			description: [
-				"Another lens for the collection!"
+				"{atm9.quest.gregtech.desc.anotherLens.1}"
 				""
-				"SoC stands for System on Chip"
+				"{atm9.quest.gregtech.desc.anotherLens.2}"
 			]
 			id: "3CA2D15D1EC4D852"
 			rewards: [{
@@ -660,7 +660,7 @@
 							]
 						}
 					}
-					title: "HV or EV or IV Laser Engraver"
+					title: "{atm9.quest.gregtech.laserEngraver}"
 					type: "item"
 				}
 				{
@@ -679,7 +679,7 @@
 					type: "item"
 				}
 			]
-			title: "System on Chip"
+			title: "{atm9.quest.gregtech.systemOnChip}"
 			x: 0.5d
 			y: 4.0d
 		}
@@ -688,7 +688,7 @@
 				"3CA2D15D1EC4D852"
 				"4993431DBE076E1B"
 			]
-			description: ["Finally, with this you have achieved the cheapest LV circuit - congrats!"]
+			description: ["{atm9.quest.gregtech.desc.cheapestLVCircuit.1}"]
 			id: "143BF8A4944C471D"
 			progression_mode: "flexible"
 			rewards: [{
@@ -696,7 +696,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Cheaper than ever!"
+			subtitle: "{atm9.quest.gregtech.subt.cheaperThanEver}"
 			tasks: [{
 				id: "12938981FF431405"
 				item: "gtceu:microchip_processor"
@@ -708,11 +708,11 @@
 		{
 			dependencies: ["62F4355AE3E08FD9"]
 			description: [
-				"&eChemical React&r that &aTetrafluoroethylene&r with a little Air or better yet, &bOxygen Gas&r, to receive the final product of &6Polytetrafluoroethylene&r!"
+				"{atm9.quest.gregtech.desc.finalPTFE.1}"
 				""
-				"Finally, PTFE! This forms as the basis for making Chemically Inert Casings, which we'll use shortly to make the &aLarge Chemical Reactor&r"
+				"{atm9.quest.gregtech.desc.finalPTFE.2}"
 				""
-				"Once you have the &aLCR&r you can also make more PTFE at a time by adding in some &cTitanium Tetrachloride&r"
+				"{atm9.quest.gregtech.desc.finalPTFE.3}"
 			]
 			id: "329916B2CB8342B2"
 			rewards: [
@@ -758,9 +758,9 @@
 		{
 			dependencies: ["64F77D41B2D057B8"]
 			description: [
-				"If you didn't make the &5EV Assembler&r before now, then now is the time to do it!"
+				"{atm9.quest.gregtech.desc.evAssemblerSetup.1}"
 				""
-				"You'll use this to make the &9Tungstensteel Coil&r for your &aEBF&r"
+				"{atm9.quest.gregtech.desc.evAssemblerSetup.2}"
 			]
 			id: "533DB1666B11489A"
 			rewards: [{
@@ -780,11 +780,11 @@
 		{
 			dependencies: ["41EE8B40BA43DADE"]
 			description: [
-				"You'll smelt this and flatten it into &bFoils&r to make the delicate layers that comprise the &dAdvanced SMD Capacitor&r"
+				"{atm9.quest.gregtech.desc.advancedSMDCapacitor.1}"
 				""
-				"If you're having a hard time finding &aIridium Ore&r, then you can work towards the &5Iridium Bee&r, or start on processing the &eRarest Metal Mixture&r from the &6PlatLine™&r"
+				"{atm9.quest.gregtech.desc.advancedSMDCapacitor.2}"
 				""
-				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"2EE52FD7129D3D87\"}, \"text\": \"How to: Rarest Metal Mixture\", \"color\": \"yellow\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here to open the quest!\" } }}"
+				" {\"clickEvent\": {\"action\": \"change_page\", \"value\": \"2EE52FD7129D3D87\"}, \"text\": \"How to: Rarest Metal Mixture\", \"color\": \"yellow\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here to open the quest!\" } }}"
 			]
 			id: "599BABC83E76A711"
 			rewards: [
@@ -813,7 +813,7 @@
 		}
 		{
 			dependencies: ["6517B8748E3A6831"]
-			description: ["The first tier of &3High Speed Steel&r, you'll end up making a LOT of this stuff as it serves as the base for the other variants of HSS Dusts"]
+			description: ["{atm9.quest.gregtech.desc.firstTierHSS.1}"]
 			id: "41EE8B40BA43DADE"
 			rewards: [
 				{
@@ -847,7 +847,7 @@
 			description: [
 				"[ \"You'll need \", { \"text\": \"Laminated Glass\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0907800ED4793F96\" } }, \" to make this\" ]"
 				""
-				"Once you have the &eMixer&r, it is time to make some &dHigh Speed Steel&r (HSS) variants!"
+				"{atm9.quest.gregtech.desc.makeHSSVariants.1}"
 			]
 			hide_dependency_lines: true
 			id: "6517B8748E3A6831"
@@ -867,11 +867,11 @@
 		}
 		{
 			description: [
-				"&aOre Processing&r Pyrochlore, Pyrolusite, and Tantalite all give Niobium as byproducts"
+				"{atm9.quest.gregtech.desc.oreProcessingNiobium.1}"
 				""
-				"You could also &eElectrolyze&r the Pyrochlore for guaranteed Niobium!"
+				"{atm9.quest.gregtech.desc.oreProcessingNiobium.2}"
 				""
-				"Be sure to stockpile this stuff, you'll use a lot of it in &dFoil&r and &2Fine Wire&r forms as you progress"
+				"{atm9.quest.gregtech.desc.oreProcessingNiobium.3}"
 			]
 			id: "4AA6D19469FB306F"
 			rewards: [
@@ -901,9 +901,9 @@
 		{
 			dependencies: ["17C2D1915C2D0B4C"]
 			description: [
-				"&eMix&r together your &dIndium&r, &bGallium&r, and &6Phosphorus&r dusts on &aProgram 1&r"
+				"{atm9.quest.gregtech.desc.mixIndiumGalliumPhosphorus.1}"
 				""
-				"This stuff will replace the Gallium Arsenide for the &3Advanced SMD Diode&r as well as be used extensively upgrading &cMPIC wafers&r to the higher voltage tiers"
+				"{atm9.quest.gregtech.desc.mixIndiumGalliumPhosphorus.2}"
 			]
 			hide_dependent_lines: true
 			id: "7E7FAA72581D2186"
@@ -925,9 +925,9 @@
 		{
 			dependencies: ["677B8753B7904E95"]
 			description: [
-				"&eChemical React&r that &dIndium Concentrate&r with &bAluminum Dust&r to get &3Small Pile of Indium Dust&r"
+				"{atm9.quest.gregtech.desc.chemicalReactIndium.1}"
 				""
-				"Then you can either manually craft 4 of those into one &3Indium Dust&r or automate it with a &ePacker&r on &aProgram 1&r"
+				"{atm9.quest.gregtech.desc.chemicalReactIndium.2}"
 			]
 			id: "17C2D1915C2D0B4C"
 			rewards: [{
@@ -948,9 +948,9 @@
 		{
 			dependencies: ["41EE8B40BA43DADE"]
 			description: [
-				"I honestly don't know what the E, G, or S letters mean... but this is still High Speed Steel!"
+				"{atm9.quest.gregtech.desc.highSpeedSteel.1}"
 				""
-				"You'll have to smelt this and then turn it into &bRings&r for the &dAdvanced SMD Inductor&r"
+				"{atm9.quest.gregtech.desc.highSpeedSteel.2}"
 			]
 			id: "4720F9EDF894330C"
 			rewards: [{
@@ -970,9 +970,9 @@
 		}
 		{
 			description: [
-				"&bPurified Sphalerite&r and &5Purified Galena&r &eMixed&r with &6Sulfuric Acid&r will get you the start of one of the most coveted resources, &dIndium Concentrate&r"
+				"{atm9.quest.gregtech.desc.purifiedSphaleriteGalena.1}"
 				""
-				"This stuff is important enough to warrant a separate &aOre Processing&r setup"
+				"{atm9.quest.gregtech.desc.purifiedSphaleriteGalena.2}"
 			]
 			id: "677B8753B7904E95"
 			rewards: [
@@ -1005,7 +1005,7 @@
 				"07E750F8184C4362"
 				"1C19DD6B3E34012E"
 			]
-			description: ["You know the drill, we'll &eChemical React&r the &3Hydrofluoric Acid&r with the &5Chloroform&r and make &dTetrafluoroethylene&r"]
+			description: ["{atm9.quest.gregtech.desc.hydrofluoricAcid.1}"]
 			id: "62F4355AE3E08FD9"
 			rewards: [{
 				id: "7B90B13C8CD31B5A"
@@ -1021,7 +1021,7 @@
 			y: -5.200000000000001d
 		}
 		{
-			description: ["&3Chlorine&r and &cMethane&r together in a &eChemical Reactor&r on &aProgram 1&r makes &5Chloroform&r"]
+			description: ["{atm9.quest.gregtech.desc.chloroform.1}"]
 			id: "1C19DD6B3E34012E"
 			rewards: [{
 				id: "0B623B35DB9095E2"
@@ -1039,9 +1039,9 @@
 		{
 			dependencies: ["43EBA1D735267C85"]
 			description: [
-				"&eChemical React&r Hydrogen with Fluorine Gas to make this"
+				"{atm9.quest.gregtech.desc.hydrofluoricAcid.2}"
 				""
-				"Later on you can also set up reprocessing of &5Titanium Trifluoride&r with Hydrogen in an &aEBF&r to get some Hydrofluoric Acid back"
+				"{atm9.quest.gregtech.desc.hydrofluoricAcid.3}"
 			]
 			id: "07E750F8184C4362"
 			rewards: [{
@@ -1058,7 +1058,7 @@
 			y: -6.200000000000001d
 		}
 		{
-			description: ["My favorite source of Fluorine Gas? Easy, &eElectrolyzing&r &2Fluorite Dust&r"]
+			description: ["{atm9.quest.gregtech.desc.fluorineGas.1}"]
 			id: "43EBA1D735267C85"
 			rewards: [{
 				count: 16
@@ -1077,7 +1077,7 @@
 		}
 		{
 			dependencies: ["62E7B8817D22678F"]
-			description: ["Another &eChemical Reactor&r recipe, this time using &6Electrum Foil&r and either &9Sodium Persulfate&r or &0Iron III Chloride&r"]
+			description: ["{atm9.quest.gregtech.desc.electrumFoil.1}"]
 			id: "46542F4A273E64EB"
 			rewards: [{
 				count: 16
@@ -1097,9 +1097,9 @@
 		{
 			dependencies: ["56B7CC072B8E9B48"]
 			description: [
-				"That's right, another recipe for the &eChemical Reactor&r"
+				"{atm9.quest.gregtech.desc.epoxyCircuitBoard.1}"
 				""
-				"500mB Sulfuric Acid + 8 Gold Foil + Epoxy Sheet = 1 Epoxy Circuit Board"
+				"{atm9.quest.gregtech.desc.epoxyCircuitBoard.2}"
 			]
 			id: "62E7B8817D22678F"
 			rewards: [{
@@ -1123,11 +1123,11 @@
 				"2A32CA82627E5FA7"
 			]
 			description: [
-				"Sodium Hydroxide Dust is useful yet again! &eChemical React&r it with the Epichlorohydrin and Bisphenol A to make liquid Epoxy"
+				"{atm9.quest.gregtech.desc.epoxy.1}"
 				""
-				"You can then &eFluid Solidify&r the Epoxy into plates directly"
+				"{atm9.quest.gregtech.desc.epoxy.2}"
 				""
-				"We'll use these as a base for the &bNanoprocessor&r circuit boards"
+				"{atm9.quest.gregtech.desc.epoxy.3}"
 			]
 			id: "56B7CC072B8E9B48"
 			rewards: [{
@@ -1151,9 +1151,9 @@
 				"05F0FCBBEADA8489"
 			]
 			description: [
-				"A key ingredient in making &6Epoxy&r"
+				"{atm9.quest.gregtech.desc.epoxy.4}"
 				""
-				"Acetone, Phenol, and Hydrochloric Acid come together in the &eChemical Reactor&r on &aProgram 1&r to make this"
+				"{atm9.quest.gregtech.desc.epoxy.5}"
 			]
 			id: "79E97623309DEF84"
 			rewards: [{
@@ -1172,9 +1172,9 @@
 		{
 			dependencies: ["32E9B33C9D7981ED"]
 			description: [
-				"&2Glycerol&r + &7Hydrochloric Acid&r in the &eChemical Reactor&r make &cEpichlorohydrin&r"
+				"{atm9.quest.gregtech.desc.epichlorohydrin.1}"
 				""
-				"There is an alternate recipe that uses Allyl Chloride and Hypochlorous Acid, if you so choose to go that route"
+				"{atm9.quest.gregtech.desc.epichlorohydrin.2}"
 			]
 			id: "2A32CA82627E5FA7"
 			rewards: [{
@@ -1193,11 +1193,11 @@
 		{
 			dependencies: ["47871110028991D3"]
 			description: [
-				"Okay yes, you could've made Glycerol&r without the &aLCR&r, but then you wouldn't be able to make it in large batches!"
+				"{atm9.quest.gregtech.desc.glycerol.1}"
 				""
-				"One Sodium Hydroxide Dust with &654 Buckets of Fish Oil&r and &c9 Buckets of Ethanol&r is my go to for &d9 Buckets of Glycerol&r"
+				"{atm9.quest.gregtech.desc.glycerol.2}"
 				""
-				"This also makes a load of Bio Diesel, which can be a fantastic fuel source, especially if you make it Cetane Boosted Diesel"
+				"{atm9.quest.gregtech.desc.glycerol.3}"
 			]
 			id: "32E9B33C9D7981ED"
 			rewards: [{
@@ -1218,11 +1218,11 @@
 		{
 			dependencies: ["329916B2CB8342B2"]
 			description: [
-				"As you make this, keep in mind that Chemical Reactor recipes can be generalized to &d3 Input Hatches&r, &53 Output Hatches&r, &e1 Input Bus&r, and &61 Output Bus&r"
+				"{atm9.quest.gregtech.desc.chemicalReactorSetup.1}"
 				""
-				"After making a lot of PTFE, finally, the &aLarge Chemical Reactor&r is ready to rumble!"
+				"{atm9.quest.gregtech.desc.chemicalReactorSetup.2}"
 				""
-				"You'll find that some chemical reactions can only be done in an &aLCR&r, specifically the chemicals needed in making &3Polybenzimidazole&r (PBI for short)"
+				"{atm9.quest.gregtech.desc.chemicalReactorSetup.3}"
 			]
 			icon: "gtceu:large_chemical_reactor"
 			id: "47871110028991D3"
@@ -1242,7 +1242,7 @@
 				{
 					icon: "ftbquests:barrier"
 					id: "1038F300D9F8EF3C"
-					title: "Observe formed Large Chemical Reactor"
+					title: "{atm9.quest.gregtech.largeChemicalReactor}"
 					type: "custom"
 				}
 			]
@@ -1252,9 +1252,9 @@
 		{
 			dependencies: ["6AD5F24DA80B93A8"]
 			description: [
-				"Have you been &eElectrolyzing&r &9Salt Water&r? It is a great source of Chlorine Gas, which comes in handy especially with making Dichlorobenzene, and as a byproduct you'll get this &3Sodium Hydroxide Dust&r"
+				"{atm9.quest.gregtech.desc.saltWaterElectrolyzing.1}"
 				""
-				"You can then &eChemical React&r the Sodium Hydroxide Dust with your Dichlorobenzene to create &6Phenol&r!"
+				"{atm9.quest.gregtech.desc.saltWaterElectrolyzing.2}"
 			]
 			id: "225F77308C834EA8"
 			rewards: [{
@@ -1272,7 +1272,7 @@
 		}
 		{
 			dependencies: ["646918F4D700749B"]
-			description: ["You can use a &eFluid Heater&r or a &eDistillery&r on &aProgram 1&r to turn the &3Dissolved Calcium Acetate&r into &cAcetone&r"]
+			description: ["{atm9.quest.gregtech.desc.acetone.1}"]
 			id: "05F0FCBBEADA8489"
 			rewards: [{
 				id: "10DB38A855C00F8C"
@@ -1292,7 +1292,7 @@
 				"225F77308C834EA8"
 				"38BD153513DC2334"
 			]
-			description: ["You'll get half the &6Phenol&r back when you turn this into &3Polybenzimidazole&r"]
+			description: ["{atm9.quest.gregtech.desc.phenol.1}"]
 			id: "4AE3A2326EA07B7A"
 			rewards: [{
 				id: "1BCFE363242C28DA"
@@ -1316,7 +1316,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "How do you pronounce this?"
+			subtitle: "{atm9.quest.gregtech.subt.polybenzimidazolePronunciation}"
 			tasks: [{
 				id: "07267D8026DD87B4"
 				item: "gtceu:diphenyl_isophthalate_bucket"
@@ -1331,11 +1331,11 @@
 				"0D68FA968FD2BEF4"
 			]
 			description: [
-				"Now you need that &aLarge Chemical Reactor&r to make this"
+				"{atm9.quest.gregtech.desc.largeChemicalReactor.1}"
 				""
-				"Note that the Zinc Dust is &c&lNot Consumed&r, meaning you should not include it in the recipe for autocrafting this - instead put one in your Input Bus and leave it there"
+				"{atm9.quest.gregtech.desc.largeChemicalReactor.2}"
 				""
-				"&3Ammonia&r can come from &eChemical Reacting&r &9Hydrogen&r with &bNitrogen Gas&r which you can get from a &eGas Collector&r in the &2Overworld&r, feeding a &aVacuum Freezer&r, feeding a &aDistillation Tower&r"
+				"{atm9.quest.gregtech.desc.largeChemicalReactor.3}"
 			]
 			id: "74D47A8DF93294E4"
 			min_width: 300
@@ -1356,9 +1356,9 @@
 		{
 			dependencies: ["2483DD28AC6E7EA2"]
 			description: [
-				"If you've already made the &aLarge Chemical Reactor&r you can make this stuff in bulk!"
+				"{atm9.quest.gregtech.desc.largeChemicalReactor.4}"
 				""
-				"Otherwise, you're stuck using the &eChemical Reactor&r with a &6Tiny Pile of Copper Dust&r, &9Hydrogen&r, and &2Nitrochlorobenzene&r"
+				"{atm9.quest.gregtech.desc.largeChemicalReactor.5}"
 			]
 			id: "0D68FA968FD2BEF4"
 			rewards: [{
@@ -1380,9 +1380,9 @@
 				"6F8E6D84D31651D5"
 			]
 			description: [
-				"&eChemical React&r Chlorobenzene with the Nitration Mixture to make &2Nitrochlorobenzene&r"
+				"{atm9.quest.gregtech.desc.nitrochlorobenzene.1}"
 				""
-				"You'll also get &6Diluted Sulfuric Acid&r, which you can &eDistill&r back into full strength Sulfuric Acid"
+				"{atm9.quest.gregtech.desc.nitrochlorobenzene.2}"
 			]
 			id: "2483DD28AC6E7EA2"
 			rewards: [{
@@ -1400,7 +1400,7 @@
 		}
 		{
 			dependencies: ["39B625FA20EAA025"]
-			description: ["Mixing &6Nitric Acid&r with &cSulfuric Acid&r makes a &eNitration Mixture&r"]
+			description: ["{atm9.quest.gregtech.desc.nitrationMixture.1}"]
 			id: "72DC025BC059DF96"
 			rewards: [{
 				id: "1A0A4F758AA39803"
@@ -1417,9 +1417,9 @@
 		}
 		{
 			description: [
-				"You're going to need either &9Ammonia&r and a &aLarge Chemical Reactor&r or a lot of &bNitrogen Dioxide&r"
+				"{atm9.quest.gregtech.desc.ammonia.1}"
 				""
-				"Thankfully, Nitrogen Dioxide is easy to come by, all you need is an &6HV&r &eGas Collector&r in &3The End&r on &2Program 3&r, a &aVacuum Freezer&r at IV, and a &aDistillation Tower&r also at IV"
+				"{atm9.quest.gregtech.desc.ammonia.2}"
 			]
 			id: "39B625FA20EAA025"
 			rewards: [{
@@ -1438,9 +1438,9 @@
 		}
 		{
 			description: [
-				"Chlorine and Benzene in a &eChemical Reactor&r on &aProgram 1&r will make you &2Chlorobenzene&r"
+				"{atm9.quest.gregtech.desc.chlorobenzene.1}"
 				""
-				"Do you need more &0Benzene&r? You might try &aDistilling&r &6Severely-Steam Cracked Heavy Fuel&r"
+				"{atm9.quest.gregtech.desc.benzene.1}"
 			]
 			id: "6F8E6D84D31651D5"
 			rewards: [{
@@ -1477,7 +1477,7 @@
 			y: 0.30000000000000004d
 		}
 		{
-			description: ["Running low on &0Benzene&r? A good source can come from &aDistilling&r &6Severely Steam Cracked Heavy Fuel&r"]
+			description: ["{atm9.quest.gregtech.desc.benzene.2}"]
 			id: "6AD5F24DA80B93A8"
 			rewards: [{
 				id: "166126D39E35DF1A"
@@ -1495,11 +1495,11 @@
 		{
 			dependencies: ["6A86F8FB2B3A3425"]
 			description: [
-				"6 Tin dust, 3 Lead dust, and 1 Antimony dust all combine in a &eMixer&r on &aProgram 3&r to make 10 Soldering Alloy Dust"
+				"{atm9.quest.gregtech.desc.solderingAlloy.1}"
 				""
-				"This will allow us to make circuits for less tin overall, as well as some items that require specifically soldering alloy!"
+				"{atm9.quest.gregtech.desc.solderingAlloy.2}"
 				""
-				"You can use an &eExtractor&r on the dust to get it in liquid form"
+				"{atm9.quest.gregtech.desc.solderingAlloy.3}"
 			]
 			id: "12D84337AEB56002"
 			rewards: [{
@@ -1519,11 +1519,11 @@
 		}
 		{
 			description: [
-				"&aOre Process&r &cStibnite&r for a chance at Antimony"
+				"{atm9.quest.gregtech.desc.antimonyProcessing.1}"
 				""
-				"Put Stibnite dust through a &eCentrifuge&r for guaranteed Antimony"
+				"{atm9.quest.gregtech.desc.antimonyProcessing.2}"
 				""
-				"Antimony becomes incredibly important later on, so be sure to stock up and don't turn it all into soldering alloy!"
+				"{atm9.quest.gregtech.desc.antimonyProcessing.3}"
 			]
 			id: "6A86F8FB2B3A3425"
 			rewards: [{
@@ -1543,7 +1543,7 @@
 						value: "forge:dusts/antimony"
 					}
 				}
-				title: "Antimony Dust"
+				title: "{atm9.quest.gregtech.antimonyDust}"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1555,9 +1555,9 @@
 				"07FC106AFE76E766"
 			]
 			description: [
-				"Primarily, we'll use this dust to make &dTungstensteel&r by &eMixing&r it with steel dust"
+				"{atm9.quest.gregtech.desc.tungstensteelDust.1}"
 				""
-				"Sometimes though, we'll need to throw this dust into the &eEBF&r on &aProgram 1&r to get the hot ingot, then cool it off in the &eVacuum Freezer&r to acquire the &3Tungsten Ingot&r"
+				"{atm9.quest.gregtech.desc.tungstensteelDust.2}"
 			]
 			icon: "gtceu:tungsten_dust"
 			id: "540B4CE165EE4D5B"
@@ -1578,7 +1578,7 @@
 						value: "forge:dusts/tungsten"
 					}
 				}
-				title: "Tungsten Dust"
+				title: "{atm9.quest.gregtech.tungstenDust}"
 				type: "item"
 			}]
 			x: -9.7d
@@ -1590,9 +1590,9 @@
 				"0299E59D23F16ACB"
 			]
 			description: [
-				"Give that dust an acid bath with &bHydrochloric Acid&r in the &eChemical Bath&r to make this"
+				"{atm9.quest.gregtech.desc.tungstenAcquisition.1}"
 				""
-				"You'll then need to &eElectrolyze&r it to get the &dTungsten&r out"
+				"{atm9.quest.gregtech.desc.tungstenAcquisition.2}"
 			]
 			id: "00BF4E98A328801D"
 			rewards: [
@@ -1621,9 +1621,9 @@
 		}
 		{
 			description: [
-				"You know what to do, &aOre Process&r some tungstate or some scheelite ore down into dust form"
+				"{atm9.quest.gregtech.desc.tungstateMining.1}"
 				""
-				"The raw ores are found in &eThe End Layer&r of &dThe Mining Dimension&r, between y levels -63 and 0, mixed in with Lithium. There may even be scheelite surface indicators!"
+				"{atm9.quest.gregtech.desc.tungstateMining.2}"
 			]
 			id: "0299E59D23F16ACB"
 			rewards: [
@@ -1660,7 +1660,7 @@
 						]
 					}
 				}
-				title: "Tungstate or Scheelite Dust"
+				title: "{atm9.quest.gregtech.tungstateScheeliteDust}"
 				type: "item"
 			}]
 			x: -9.7d
@@ -1669,9 +1669,9 @@
 		{
 			dependencies: ["19BA973FECFA3B06"]
 			description: [
-				"A quick chemical bath of your Ender Eyes in Radon will net you these &dQuantum Eyes&r"
+				"{atm9.quest.gregtech.desc.quantumEyes.1}"
 				""
-				"Don't worry about making a bunch of these unless you want to upgrade all your &eLaser Engravers&r to EV (IV is the better upgrade though)"
+				"{atm9.quest.gregtech.desc.quantumEyes.2}"
 			]
 			id: "587B4048E0BCEB27"
 			rewards: [
@@ -1696,11 +1696,11 @@
 		}
 		{
 			description: [
-				"There are two main ways to acquire &dRadon Gas&r"
+				"{atm9.quest.gregtech.desc.radonGasAcquisition.1}"
 				""
-				"The best (because of the other outputs) is to use an &6HV&r &eGas Collector&r in &bThe End&r dimension, &aVacuum Freezer&r the collected &eEnder Air&r into &9Liquid Ender Air&r at &1IV&r, and then run that through a &aDistillation Tower&r at IV and receive Radon Gas"
+				"{atm9.quest.gregtech.desc.radonGasAcquisition.2}"
 				""
-				"The alternative is to create the &aLarge Chemical Reactor&r and just react &3Air&r with some Uranium Dust and Plutonium Ingots - you even get the plutonium back!"
+				"{atm9.quest.gregtech.desc.radonGasAcquisition.3}"
 			]
 			hide_dependency_lines: true
 			id: "19BA973FECFA3B06"
@@ -1721,7 +1721,7 @@
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
-			description: ["Upgrading this machine to &5EV&r unlocks recipes necessary for eventually making &bTungsten&r"]
+			description: ["{atm9.quest.gregtech.desc.machineUpgradeEV.1}"]
 			hide_dependency_lines: true
 			id: "4321E32D0EA3367C"
 			rewards: [{
@@ -1740,7 +1740,7 @@
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
-			description: ["You need the &5EV Electrolyzer&r to get Tungsten Dust from the Tungstic Acid"]
+			description: ["{atm9.quest.gregtech.desc.tungstenDustAcquisition.1}"]
 			hide_dependency_lines: true
 			id: "07FC106AFE76E766"
 			rewards: [{
@@ -1759,7 +1759,7 @@
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
-			description: ["You need this tier of Mixer to make &3Tungstensteel Dust&r as well as &dVanadium Gallium Dust&r"]
+			description: ["{atm9.quest.gregtech.desc.mixerUpgrade.1}"]
 			hide_dependency_lines: true
 			id: "692C9BA71EA0F0A7"
 			rewards: [{
@@ -1768,7 +1768,7 @@
 				table_id: 6202000790833671070L
 				type: "loot"
 			}]
-			subtitle: "Where's the dough hook?"
+			subtitle: "{atm9.quest.gregtech.subt.mixerQuery.1}"
 			tasks: [{
 				id: "7DC755D1965AD27F"
 				item: "gtceu:ev_mixer"
@@ -1779,7 +1779,7 @@
 		}
 		{
 			dependencies: ["175B7F7D98D45208"]
-			description: ["Two of these can get your multiblocks up to IV!"]
+			description: ["{atm9.quest.gregtech.desc.multiblockUpgrade.1}"]
 			id: "273DC98BA2785BD6"
 			optional: true
 			rewards: [{
@@ -1799,7 +1799,7 @@
 		}
 		{
 			dependencies: ["4B16C957EADC183B"]
-			description: ["&l&6Remember&r: Each of these can accept 2 Amps, so if you have two of these Energy Hatches on a multiblock you can actually tier up to &dLuV&r!"]
+			description: ["{atm9.quest.gregtech.desc.energyHatchUpgrade.1}"]
 			id: "2F1DF3971B75E63C"
 			optional: true
 			rewards: [{
@@ -1819,7 +1819,7 @@
 		}
 		{
 			dependencies: ["273DC98BA2785BD6"]
-			description: ["One block stop for powering your multiblocks at IV!"]
+			description: ["{atm9.quest.gregtech.desc.poweringMultiblocks.1}"]
 			id: "2BE364CCE684AD45"
 			optional: true
 			rewards: [{
@@ -1839,7 +1839,7 @@
 		}
 		{
 			dependencies: ["2F1DF3971B75E63C"]
-			description: ["Why have 2 Energy Hatches when just one will do? This energy hatch accepts 4 Amps of IV all on its own!"]
+			description: ["{atm9.quest.gregtech.desc.singleEnergyHatch.1}"]
 			id: "653260450BEDB6AB"
 			optional: true
 			rewards: [{
@@ -1860,13 +1860,13 @@
 		{
 			dependencies: ["692C9BA71EA0F0A7"]
 			description: [
-				"3 Vanadium dust + 1 Gallium dust on &aProgram 1&r makes this stuff"
+				"{atm9.quest.gregtech.desc.vanadiumGalliumDust.1}"
 				""
-				"You'll need plenty of this later on, but for now it is used in making advanced surface mount devices"
+				"{atm9.quest.gregtech.desc.vanadiumGalliumDust.2}"
 				""
-				"Vanadium you can get by &eCentrifuging&r &2Vanadium Magnetite Dust&r, which you can find in &6The End&r or &3The Overworld&r"
+				"{atm9.quest.gregtech.desc.vanadiumGalliumDust.3}"
 				""
-				"Alternatively, you could &eCentrifuge&r &cRuby&r or &9Sapphire&r slurries"
+				"{atm9.quest.gregtech.desc.vanadiumGalliumDust.4}"
 			]
 			id: "465F4502C4D5DCFE"
 			rewards: [{
@@ -1886,7 +1886,7 @@
 		}
 		{
 			dependencies: ["5F270891C953486E"]
-			description: ["This wafer serves as the basis for all higher tier PIC wafers, you'll make very many of these in due time"]
+			description: ["{atm9.quest.gregtech.desc.basisPICWafers.1}"]
 			id: "4838AD09C9590D2F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1953,7 +1953,7 @@
 				"465F4502C4D5DCFE"
 				"0A848E0B9F485B2C"
 			]
-			description: ["You'll need this for many things once you get to &cZPM&r, but for now we'll use it to make the &dAdvanced SMD Transistors&r and &6HPIC Wafers&r"]
+			description: ["{atm9.quest.gregtech.desc.advancedSMDTransistors.1}"]
 			hide_dependent_lines: true
 			id: "6F0AD70D3748D8D2"
 			rewards: [{
@@ -1978,7 +1978,7 @@
 				"7E7FAA72581D2186"
 				"6F0AD70D3748D8D2"
 			]
-			description: ["Upgrading the MPIC to achieve even higher tiers of power!"]
+			description: ["{atm9.quest.gregtech.desc.upgradingMPIC.1}"]
 			id: "4F8C6F49F9D7EE4D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1997,9 +1997,9 @@
 		{
 			dependencies: ["64F77D41B2D057B8"]
 			description: [
-				"We'll use this to upgrade the Medium Power Integrated Circuit (&aMPIC&r) Wafer to the High Power (&6HPIC&r) variant, allowing for larger energy hatches!"
+				"{atm9.quest.gregtech.desc.upgradingHPIC.1}"
 				""
-				"This will need to go into your &bCleanroom&r to run the recipe"
+				"{atm9.quest.gregtech.desc.upgradingHPIC.2}"
 			]
 			id: "03C756EB123CA953"
 			rewards: [{
@@ -2019,9 +2019,9 @@
 		{
 			dependencies: ["0907800ED4793F96"]
 			description: [
-				"Speaking of machines needing Laminated Glass... This is the first one we'll make!"
+				"{atm9.quest.gregtech.desc.laminatedGlassMachine.1}"
 				""
-				"You need a higher tier cutter to cut the higher tier chips to achieve higher tiers of power"
+				"{atm9.quest.gregtech.desc.laminatedGlassMachine.2}"
 			]
 			id: "6D6AA1A0D8AB01DE"
 			rewards: [{
@@ -2041,9 +2041,9 @@
 		{
 			dependencies: ["2D3A6B7907FDB9B1"]
 			description: [
-				"Finally, you have achieved the next tier of glass, &dLaminated Glass&r!"
+				"{atm9.quest.gregtech.desc.laminatedGlassAchievement.1}"
 				""
-				"This stuff is used to make many IV and LuV machines"
+				"{atm9.quest.gregtech.desc.laminatedGlassAchievement.2}"
 			]
 			id: "0907800ED4793F96"
 			rewards: [{
@@ -2066,7 +2066,7 @@
 				"4C83B804A6AEB033"
 				"4EF3FD6C59413C49"
 			]
-			description: ["This is the last &eChemical Reaction&r in this chain, ultimately for the coveted &dLaminated Glass&r"]
+			description: ["{atm9.quest.gregtech.desc.chemicalReactionLaminatedGlass.1}"]
 			id: "2D3A6B7907FDB9B1"
 			rewards: [{
 				id: "143F393D3CEC9FF3"
@@ -2084,11 +2084,11 @@
 		{
 			dependencies: ["5C38DAD6BA43A7F1"]
 			description: [
-				"You could mix regular old &3Air&r with &eVinyl Acetate&r and get a 1:1 ratio of &6Polyvinyl Acetate&r, but why do that when using &bOxygen&r will boost output to 3:2"
+				"{atm9.quest.gregtech.desc.polyvinylAcetateProduction.1}"
 				""
-				"Why stop at just using Oxygen though! Adding a smidgen of &dTitanium Tetrachloride&r boosts the ratio to 2:1!"
+				"{atm9.quest.gregtech.desc.polyvinylAcetateProduction.2}"
 				""
-				"Regardless of which approach you take, keep note of which &aProgrammed Circuit&r is required to run the recipe"
+				"{atm9.quest.gregtech.desc.polyvinylAcetateProduction.3}"
 			]
 			id: "4EF3FD6C59413C49"
 			min_width: 300
@@ -2107,11 +2107,11 @@
 		}
 		{
 			description: [
-				"&eElectrolyze&r Propane to acquire &6Propene&r"
+				"{atm9.quest.gregtech.desc.propeneProduction.1}"
 				""
-				"&aDistill&r &bSeverely Steam Cracked Naphtha&r for Propene"
+				"{atm9.quest.gregtech.desc.propeneProduction.2}"
 				""
-				"&9Carbon Monoxide&r can come from &aDistillation&r of &cLiquid Nether Air&r if you'd like a practically infinite source of the stuff"
+				"{atm9.quest.gregtech.desc.propeneProduction.3}"
 			]
 			id: "4C83B804A6AEB033"
 			rewards: [{
@@ -2129,7 +2129,7 @@
 		}
 		{
 			dependencies: ["7E407CDBFD85E65F"]
-			description: ["Take that Acetic Acid and add more Ethylene and Oxygen, this time on &aProgram 3&r in a &eChemical Reactor&r"]
+			description: ["{atm9.quest.gregtech.desc.aceticAcidEnhancement.1}"]
 			id: "5C38DAD6BA43A7F1"
 			rewards: [{
 				id: "382E158E2107DADA"
@@ -2145,7 +2145,7 @@
 			y: 7.0d
 		}
 		{
-			description: ["Oxygen + Ethylene on &aProgram 2&r in your &eChemical Reactor&r is one way to make Acetic Acid"]
+			description: ["{atm9.quest.gregtech.desc.aceticAcidProduction.1}"]
 			id: "7E407CDBFD85E65F"
 			rewards: [{
 				id: "5135899D8594558A"
@@ -2162,7 +2162,7 @@
 		}
 		{
 			dependencies: ["5F270891C953486E"]
-			description: ["Did you know that NOR logic gates can be used to make every other logic gate? That's why we use it so much for making circuits!"]
+			description: ["{atm9.quest.gregtech.desc.logicGates.1}"]
 			hide_dependent_lines: true
 			id: "15A1D6D05A785919"
 			rewards: [{
@@ -2188,7 +2188,7 @@
 		}
 		{
 			dependencies: ["5F270891C953486E"]
-			description: ["Add another Laser Engraver to the stack, this time for the NAND chip! Useful for data storage and the Crystal Processor Supercomputer - more on that later though!"]
+			description: ["{atm9.quest.gregtech.desc.laserEngraver.1}"]
 			hide_dependent_lines: true
 			id: "77AAC2F643E92A88"
 			rewards: [{
@@ -2235,9 +2235,9 @@
 		{
 			dependencies: ["13BAD4B9C69117C6"]
 			description: [
-				"We'll &eChemical React&r the &0Raw Carbon Fibers&r with &6Liquid Glowstone&r and a &bCPU Wafer&r to make the &3Nano CPU Wafer&r"
+				"{atm9.quest.gregtech.desc.nanoCpuWafer.1}"
 				""
-				"Glowstone dust through an &eExtractor&r makes liquid glowstone"
+				"{atm9.quest.gregtech.desc.nanoCpuWafer.2}"
 			]
 			id: "1896B90F5FD66AFA"
 			rewards: [
@@ -2267,11 +2267,11 @@
 		{
 			dependencies: ["56B7CC072B8E9B48"]
 			description: [
-				"There are multiple ways to make Raw Carbon Fibers"
+				"{atm9.quest.gregtech.desc.rawCarbonFibers.1}"
 				""
-				"One way is to use &69 mB Epoxy&r and 4 Carbon Dust in an &eAutoclave&r to get 4 out"
+				"{atm9.quest.gregtech.desc.rawCarbonFibers.2}"
 				""
-				"Doing it this way is fine, but you also have the option of using &d9mB Polybenzimidazole&r and 8 Carbon Dust &2to get 16!&r"
+				"{atm9.quest.gregtech.desc.rawCarbonFibers.3}"
 			]
 			id: "13BAD4B9C69117C6"
 			rewards: [{
@@ -2292,11 +2292,11 @@
 		{
 			dependencies: ["47871110028991D3"]
 			description: [
-				"You can choose to either acquire &3Napthalene&r or &2Dimethylbenzene,&r both have their merits"
+				"{atm9.quest.gregtech.desc.dimethylbenzene.1}"
 				""
-				"One route that avoids the &aPyrolyse Oven&r could be to use &0Charcoal&r with an &eExtractor&r to make &8Wood Tar&r and &aDistill&r that into &2Dimethylbenzene&r"
+				"{atm9.quest.gregtech.desc.dimethylbenzene.2}"
 				""
-				"But really you'd be better off making the &aPyrolyse Oven&r and burning logs or coal and &aDistilling&r the outputs"
+				"{atm9.quest.gregtech.desc.dimethylbenzene.3}"
 			]
 			id: "38BD153513DC2334"
 			rewards: [{
@@ -2316,9 +2316,9 @@
 		{
 			dependencies: ["64F77D41B2D057B8"]
 			description: [
-				"Is it really time for an upgrade already? Well, yes it turns out"
+				"{atm9.quest.gregtech.desc.assemblerUpgrade.1}"
 				""
-				"We need the &eAssembler&r at &1IV&r to make any of the &dAdvanced Surface Mount Devices&r (SMDs)"
+				"{atm9.quest.gregtech.desc.assemblerUpgrade.2}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -2339,7 +2339,7 @@
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
-			description: ["While not necessary, the IV Macerator will give you a speed boost on processing Sheldonite, as this processing line can be quite &n&l&2TimeConsuming.&r&r&r"]
+			description: ["{atm9.quest.gregtech.desc.maceratorBoost.1}"]
 			hide_dependency_lines: true
 			id: "16B44F78707E148E"
 			rewards: [{
@@ -2350,7 +2350,7 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Hey, Macerator, Yaaah!"
+			subtitle: "{atm9.quest.gregtech.subt.macerator.1}"
 			tasks: [{
 				id: "783804D20825EC31"
 				item: "gtceu:iv_macerator"
@@ -2361,7 +2361,7 @@
 		}
 		{
 			dependencies: ["16B44F78707E148E"]
-			description: ["Processing Sheldonite and purifying it will allow you to get the highest return on Platinum Group Sludge. This Sludge contains resources you need to progress."]
+			description: ["{atm9.quest.gregtech.desc.platinumSludge.1}"]
 			id: "2FDACD6F153D5B64"
 			rewards: [{
 				count: 16
@@ -2370,7 +2370,7 @@
 				random_bonus: 32
 				type: "item"
 			}]
-			subtitle: "My Friend Sheldon went to a club on nite."
+			subtitle: "{atm9.quest.gregtech.subt.sheldonClub.1}"
 			tasks: [{
 				id: "3E85E016A9FC831F"
 				item: "gtceu:raw_cooperite"
@@ -2381,7 +2381,7 @@
 		}
 		{
 			dependencies: ["2FDACD6F153D5B64"]
-			description: ["&l&6Aqua Regia&r&r is a mixture of Concentrated Nitric Acid and Hydrochloric Acid, usually one part to three parts, respectively. The Mixture was given its name (literally \"Royal Water\") by alchemists because of its ability to dissovle &l&eGold&r&r."]
+			description: ["{atm9.quest.gregtech.desc.aquaRegia.1}"]
 			id: "0DD389A24F5F8CDD"
 			rewards: [{
 				id: "2BD13756A8D0E6D0"
@@ -2405,7 +2405,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Im a Barbie Girl, In a Barbie world... If you know, you know."
+			subtitle: "{atm9.quest.gregtech.subt.barbieWorld.1}"
 			tasks: [{
 				id: "167A231788D5F833"
 				item: "gtceu:aqua_regia_bucket"
@@ -2416,7 +2416,7 @@
 		}
 		{
 			dependencies: ["2FDACD6F153D5B64"]
-			description: ["Platinum Group Sludge will process down into a bunch of great resources that will help you moving forward."]
+			description: ["{atm9.quest.gregtech.desc.platinumResources.1}"]
 			id: "4632DA3CE9D95064"
 			rewards: [{
 				count: 8
@@ -2425,7 +2425,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "Money! *Mister Krabs*"
+			subtitle: "{atm9.quest.gregtech.subt.misterKrabs.1}"
 			tasks: [{
 				id: "6D5FD9D06E3AD241"
 				item: "gtceu:platinum_group_sludge_dust"
@@ -2441,9 +2441,9 @@
 				"0DD389A24F5F8CDD"
 			]
 			description: [
-				"This wont be inert for long! Once processed you will have a BUNCH of new resources in hand, which can be further processed into very useful materials!"
+				"{atm9.quest.gregtech.desc.newResources.1}"
 				""
-				"Make sure to get a passive processing line of this going, as you will need quite a bit of the resulting resources."
+				"{atm9.quest.gregtech.desc.newResources.2}"
 			]
 			id: "7CC3BD5F3D66A637"
 			rewards: [{
@@ -2453,7 +2453,7 @@
 				random_bonus: 6
 				type: "item"
 			}]
-			subtitle: "A cloud of radon floats into a cafe. The waiter says, \"we don't serve inert gases here\". There was no reaction from the radon."
+			subtitle: "{atm9.quest.gregtech.subt.radonCafe.1}"
 			tasks: [{
 				id: "2F0E1D0E62D27DF0"
 				item: "gtceu:inert_metal_mixture_dust"
@@ -2465,9 +2465,9 @@
 		{
 			dependencies: ["64F77D41B2D057B8"]
 			description: [
-				"Another tier up, another boost to processing time. But again, theres no time to get comfortable. The new resources we will be processing will need further advancements to bring those processing times down. So keep at it!"
+				"{atm9.quest.gregtech.desc.processingBoost.1}"
 				""
-				"You are doing great!!"
+				"{atm9.quest.gregtech.desc.processingBoost.2}"
 			]
 			hide_dependency_lines: true
 			id: "20A01B6A6B1177CB"
@@ -2477,7 +2477,7 @@
 				table_id: 6202000790833671070L
 				type: "loot"
 			}]
-			subtitle: "You Spin me Right Round... Oh Come on, you knew it was coming..."
+			subtitle: "{atm9.quest.gregtech.subt.spinRightRound.1}"
 			tasks: [{
 				id: "7609E81C3C3C8F78"
 				item: "gtceu:iv_centrifuge"
@@ -2488,7 +2488,7 @@
 		}
 		{
 			dependencies: ["7CC3BD5F3D66A637"]
-			description: ["Now that we have broken down the Inert Metal mixure, we have 2 new resources, both of which are extremely valuable to us in the &dLuv&r Tier! Make sure to get a passive line going so we have a constant supply of these resources flowing in!"]
+			description: ["{atm9.quest.gregtech.desc.inertMetal.1}"]
 			id: "439556C571592D81"
 			rewards: [
 				{
@@ -2522,7 +2522,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "2 for 1! What a deal!"
+			subtitle: "{atm9.quest.gregtech.subt.twoForOne.1}"
 			tasks: [
 				{
 					id: "195C8E82DDC275B1"
@@ -2540,7 +2540,7 @@
 		}
 		{
 			dependencies: ["439556C571592D81"]
-			description: ["Now that we have pure Ruthenium, we can make it dirty again! Haha! Use a mixer to turn this into Ruridit. We will need quite a bit of Ruridit for other processes and items, including the Assembly Line!"]
+			description: ["{atm9.quest.gregtech.desc.ruridit.1}"]
 			id: "40249CD28957E7EB"
 			rewards: [{
 				count: 6
@@ -2549,7 +2549,7 @@
 				random_bonus: 6
 				type: "item"
 			}]
-			subtitle: "Cleaned up the Dust"
+			subtitle: "{atm9.quest.gregtech.subt.cleanedDust.1}"
 			tasks: [{
 				id: "270A0E25457E1C36"
 				item: "gtceu:ruthenium_dust"
@@ -2582,11 +2582,11 @@
 				"45D9E32D75F5ACAE"
 			]
 			description: [
-				"That's right, two &eEBF&r coil upgrades in one chapter! "
+				"{atm9.quest.gregtech.desc.ebfCoilUpgrade.1}"
 				""
-				"You'll have to make these coils to smelt the High Speed Steel S and E variants for the Advanced SMD Components"
+				"{atm9.quest.gregtech.desc.ebfCoilUpgrade.2}"
 				""
-				"&l&eNote:&r&r Making the Advanced SMD Components is not strictly necessary to make the Nanoprocessors"
+				"{atm9.quest.gregtech.desc.ebfCoilUpgrade.3}"
 			]
 			id: "1AB86FD8776634D0"
 			rewards: [
@@ -2622,9 +2622,9 @@
 		{
 			dependencies: ["4632DA3CE9D95064"]
 			description: [
-				"Iridium Ore is truly quite rare, so I wouldn't be surprised if you have not found any"
+				"{atm9.quest.gregtech.desc.iridiumOre.1}"
 				""
-				"As such, we can work on more of the &6PlatLine™&r to acquire Iridium"
+				"{atm9.quest.gregtech.desc.iridiumOre.2}"
 			]
 			hide_dependency_lines: true
 			id: "2EE52FD7129D3D87"
@@ -2651,9 +2651,9 @@
 				"47871110028991D3"
 			]
 			description: [
-				"Only the &eLarge Chemical Reactor&r can handle this reaction!"
+				"{atm9.quest.gregtech.desc.largeChemReactor.1}"
 				""
-				"We won't use the Acidic Osmium Solution because Osmium is plentiful"
+				"{atm9.quest.gregtech.desc.largeChemReactor.2}"
 			]
 			id: "7C9D8120B5C5BD9B"
 			optional: true
@@ -2676,9 +2676,9 @@
 		{
 			dependencies: ["7C9D8120B5C5BD9B"]
 			description: [
-				"This step is easy, we just &eCentrifuge&r our Residue and we're left with Iridium Chloride and some sludge"
+				"{atm9.quest.gregtech.desc.iridiumChloride.1}"
 				""
-				"You can further process that sludge if you want to, but it isn't necessary to get the coveted Iridium"
+				"{atm9.quest.gregtech.desc.iridiumChloride.2}"
 			]
 			id: "6E6D9527AC093199"
 			optional: true
@@ -2700,7 +2700,7 @@
 		}
 		{
 			dependencies: ["6E6D9527AC093199"]
-			description: ["All that is left to do is use a &eChemical Reaction&r to pull the Chlorine off the Iridium!"]
+			description: ["{atm9.quest.gregtech.desc.chemicalReaction.1}"]
 			id: "02190383FEE793ED"
 			optional: true
 			rewards: [

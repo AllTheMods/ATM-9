@@ -15,11 +15,7 @@
 	id: "0A52D0932DA3F809"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
 			width: 1.5d
@@ -27,11 +23,7 @@
 			y: 10.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 90.0d
 			width: 1.5d
@@ -44,11 +36,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"&6Hostile Neural Networks&r (or HNN for short) is a mod based around simulating mob kills for loot!"
-				""
-				"To do this, you will be collecting \"data\" on mobs, then running simulations from the data to create their drops!"
-			]
+			description: ["{atm9.quest.hostile.desc.welcome}"]
 			icon: {
 				Count: 1b
 				id: "hostilenetworks:data_model"
@@ -68,23 +56,16 @@
 			size: 2.0d
 			tasks: [{
 				id: "463EB27ECC7E6509"
-				title: "Welcome to &9Hostile Neural Networks&r!"
+				title: "{atm9.quest.hostile.welcome}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.hostile.welcome}"
 			x: -2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
-			description: [
-				"The &9Deep Learner&r is one of the core components of HNN."
-				""
-				"With this item, you can right click to open up a HUD and store &6Data Models&r to gather data while killing mobs."
-				""
-				"Each Learner can hold 4 Data Models, and as long as you have the Learner anywhere in your inventory, it will collect data for the models placed inside!"
-				""
-				"Note: You can have multiple Deep Learners in your inventory, and it will count the kills for all Data Models inside all of the Learners."
-			]
+			description: ["{atm9.quest.hostile.desc.learn}"]
 			hide: false
 			id: "3E3CBDCEAB0FF28F"
 			rewards: [
@@ -101,25 +82,19 @@
 				}
 			]
 			shape: "square"
-			subtitle: "The Learning HUD"
+			subtitle: "{atm9.quest.hostile.subt.learn}"
 			tasks: [{
 				id: "054BE385F6537CBA"
 				item: "hostilenetworks:deep_learner"
 				type: "item"
 			}]
-			title: "&aLearning Mobs&r"
+			title: "{atm9.quest.hostile.learn}"
 			x: -4.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
-			description: [
-				"&9Model Frameworks&r are the starting point for creating Data Models."
-				""
-				"To start collecting data on a specific mob, you'll want to make one of these then &9right click&r the mob you'd like to gather data on. When done properly, the Model Framework will turn into the Data Model of the mob you clicked on."
-				""
-				"To \"gather data\" for that mob, place the newly created Data Model inside of a &aDeep Learner&r, then start killing that specific mob with the Deep Learner in your inventory."
-			]
+			description: ["{atm9.quest.hostile.desc.modeling}"]
 			hide: false
 			id: "58C2ABED43B2EA61"
 			rewards: [
@@ -136,13 +111,13 @@
 				}
 			]
 			shape: "square"
-			subtitle: "For \"Gathering Data\""
+			subtitle: "{atm9.quest.hostile.subt.modeling}"
 			tasks: [{
 				id: "1C090CE24508A2EC"
 				item: "hostilenetworks:blank_data_model"
 				type: "item"
 			}]
-			title: "&9Modeling Mobs&r"
+			title: "{atm9.quest.hostile.modeling}"
 			x: -1.0d
 			y: 1.5d
 		}
@@ -151,17 +126,7 @@
 				"3E3CBDCEAB0FF28F"
 				"58C2ABED43B2EA61"
 			]
-			description: [
-				"The &dSimulation Chamber&r is the main machine within HNN."
-				""
-				"When given power, it will run simulations based on the &bData Model&r that is placed inside. The power required also depends on the Data Model placed inside, and can be seen within the Model's tooltip. "
-				""
-				"The machine also requires at least one &9Prediction Matrix&r to run a simulation."
-				""
-				"The result of the simulation will be output onto the Matrix. Simulations will always produce some kind of &eGeneralized Prediction&r, which can be used in various crafting recipes. They also vary depending on the origin of the mob in the Data Model."
-				""
-				"If the simulation succeeds, you will receive a &dMob Prediction&r based off of the model. The higher the tier of the Data Model used, the higher the success rate is for a simulation."
-			]
+			description: ["{atm9.quest.hostile.desc.simulator}"]
 			hide: false
 			hide_dependency_lines: false
 			id: "104EBBC08B4733F5"
@@ -177,7 +142,7 @@
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			title: "&aSimulating Deaths&r"
+			title: "{atm9.quest.hostile.simulator}"
 			x: -2.5d
 			y: 3.0d
 		}
@@ -186,13 +151,7 @@
 				"58C2ABED43B2EA61"
 				"3E3CBDCEAB0FF28F"
 			]
-			description: [
-				"Once you make your first Data Model, you'll need to level it up to be useful."
-				""
-				"Data Models start out at the first tier: &7Faulty&r. You'll need to at least level it to &aBasic&r if you'd like to run some simulations on it!"
-				""
-				"Once placed inside of the Deep Learner, the HUD will tell you how many kills are required to level it up. You can also see this info in the tooltip of the Model itself, although you'll have to do math."
-			]
+			description: ["{atm9.quest.hostile.desc.data}"]
 			hide: false
 			hide_dependency_lines: false
 			icon: {
@@ -213,15 +172,16 @@
 			shape: "diamond"
 			tasks: [{
 				id: "7CEA92391454DDD3"
-				title: "Leveling Up Data Models"
+				title: "{atm9.quest.hostile.data}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.hostile.data}"
 			x: -2.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["Makes various Overworld materials."]
+			description: ["{atm9.quest.hostile.desc.overworld}"]
 			hide_dependency_lines: false
 			id: "2559201BCF5D497C"
 			shape: "diamond"
@@ -230,12 +190,13 @@
 				item: "hostilenetworks:overworld_prediction"
 				type: "item"
 			}]
+			title: "{atm9.quest.hostile.overworld}"
 			x: -4.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["Makes various Nether materials."]
+			description: ["{atm9.quest.hostile.desc.nether}"]
 			hide_dependency_lines: false
 			id: "10E8BC20D406D9FB"
 			shape: "diamond"
@@ -244,12 +205,13 @@
 				item: "hostilenetworks:nether_prediction"
 				type: "item"
 			}]
+			title: "{atm9.quest.hostile.nether}"
 			x: -3.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["Makes various End materials."]
+			description: ["{atm9.quest.hostile.desc.end}"]
 			hide_dependency_lines: false
 			id: "5A23107C363A209E"
 			shape: "diamond"
@@ -258,6 +220,7 @@
 				item: "hostilenetworks:end_prediction"
 				type: "item"
 			}]
+			title: "{atm9.quest.hostile.end}"
 			x: -2.0d
 			y: 4.5d
 		}
@@ -1178,17 +1141,7 @@
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: [
-				"The &5Loot Fabricator&r is the machine that gets you that sweet, sweet loot from Mob Predictions."
-				""
-				"When given power and a successful Mob Prediction, you will be able to choose which item you'd like to get from that mob's Data Model. The machine will remember your choice, so it can be automated."
-				""
-				"Notable Mob Predictions:"
-				""
-				"- &dEnder Dragons&r for &dDragon Eggs&r"
-				"- &2Zombies&r for Iron"
-				"- &0Withers&r for &5Nether Stars&r"
-			]
+			description: ["{atm9.quest.hostile.desc.loot}"]
 			hide_dependency_lines: false
 			id: "14B3542ECB59869C"
 			rewards: [
@@ -1211,7 +1164,7 @@
 				item: "hostilenetworks:loot_fabricator"
 				type: "item"
 			}]
-			title: "Creating &dLoot&r"
+			title: "{atm9.quest.hostile.loot}"
 			x: -2.5d
 			y: 6.0d
 		}
@@ -1263,6 +1216,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.5d
@@ -1288,6 +1242,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -3.5d
@@ -1313,6 +1268,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.5d
@@ -1338,6 +1294,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -1.5d
@@ -1363,6 +1320,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -0.5d
@@ -1388,6 +1346,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.5d
@@ -1413,6 +1372,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 1.5d
@@ -1438,6 +1398,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 2.5d
@@ -1463,6 +1424,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 2.5d
@@ -1488,6 +1450,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 2.5d
@@ -1513,6 +1476,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 1.5d
@@ -1538,6 +1502,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.5d
@@ -1563,6 +1528,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.5d
@@ -1588,6 +1554,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.5d
@@ -1613,6 +1580,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -0.5d
@@ -1638,6 +1606,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.5d
@@ -1663,6 +1632,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.5d
@@ -1688,6 +1658,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.5d
@@ -1713,6 +1684,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.5d
@@ -1738,6 +1710,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -6.5d
@@ -1763,6 +1736,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -7.5d
@@ -1788,6 +1762,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -7.5d
@@ -1813,6 +1788,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -7.5d
@@ -1838,6 +1814,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -6.5d
@@ -1863,6 +1840,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.5d
@@ -1888,6 +1866,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 1.5d
@@ -1913,6 +1892,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -6.5d
@@ -1920,7 +1900,7 @@
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["Makes various Twilight Forest materials."]
+			description: ["{atm9.quest.hostile.desc.twilight}"]
 			hide_dependency_lines: false
 			id: "1B1C559A0F7305B2"
 			shape: "diamond"
@@ -1929,6 +1909,7 @@
 				item: "hostilenetworks:twilight_prediction"
 				type: "item"
 			}]
+			title: "{atm9.quest.hostile.twilight}"
 			x: -1.0d
 			y: 4.5d
 		}

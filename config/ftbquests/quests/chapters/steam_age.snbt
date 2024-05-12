@@ -11,15 +11,15 @@
 	quests: [
 		{
 			description: [
-				"Welcome to the Steam Age! Steam machines can process any recipe in JEI up to &e&lUsage: 32 EU/t (LV)&r&r"
+				"{atm9.quest.gregtech.desc.steamAgeIntro.1}"
 				""
-				"There are High Pressure and Low Pressure variants of machines. Low Pressure machines will take twice as long to process a recipe but consume less steam."
+				"{atm9.quest.gregtech.desc.steamAgeIntro.2}"
 				""
-				"&l&4NOTE:&r&r After every recipe, &n&6steam machines need to vent the used steam&r "
+				"{atm9.quest.gregtech.desc.steamAgeIntro.3}"
 				""
-				"By default the vent is located on the back, but with your handy-dandy &bwrench&r you can change which side the exhaust port faces! "
+				"{atm9.quest.gregtech.desc.steamAgeIntro.4}"
 				""
-				"If the exhaust port is blocked, then the machine will fail to vent and stop working."
+				"{atm9.quest.gregtech.desc.steamAgeIntro.5}"
 			]
 			icon: "alltheores:bronze_plate"
 			id: "4DE719FC2E4C69AB"
@@ -32,7 +32,7 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "And so it begins"
+			subtitle: "{atm9.quest.gregtech.subt.steamAgeBegin}"
 			tasks: [{
 				icon: "alltheores:bronze_plate"
 				id: "107ADEF19CD50661"
@@ -43,23 +43,23 @@
 						value: "forge:plates/bronze"
 					}
 				}
-				title: "Bronze Plate"
+				title: "{atm9.quest.gregtech.bronzePlate}"
 				type: "item"
 			}]
-			title: "The Steam Age"
+			title: "{atm9.quest.gregtech.theSteamAge}"
 			x: -6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4DE719FC2E4C69AB"]
 			description: [
-				"Give the &eBoiler&r some &bwater&r, input a &6fuel source&r, watch it heat up, and it will start creating &7steam&r!"
+				"{atm9.quest.gregtech.desc.boilerOperation.1}"
 				""
-				"You could use any kind of water source, like a &dSink&r connected with a &aFluid Pipe&r from Pipez!"
+				"{atm9.quest.gregtech.desc.boilerOperation.2}"
 				""
-				"It is very important you put the water in first, as water piped into an already hot boiler will make the boiler &c&lexplode&r&r"
+				"{atm9.quest.gregtech.desc.boilerOperation.3}"
 				""
-				"A solid boiler uses solid fuels like coal, whereas the liquid boiler uses liquid fuels like lava."
+				"{atm9.quest.gregtech.desc.boilerOperation.4}"
 			]
 			id: "672B308FD1DC0F45"
 			min_width: 250
@@ -78,7 +78,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Gettin' steamy"
+			subtitle: "{atm9.quest.gregtech.subt.gettingSteamy}"
 			tasks: [{
 				id: "2D783271D8830D0E"
 				item: {
@@ -105,21 +105,21 @@
 						]
 					}
 				}
-				title: "Any Steam Boiler"
+				title: "{atm9.quest.gregtech.anySteamBoiler}"
 				type: "item"
 			}]
-			title: "Steam Boiler"
+			title: "{atm9.quest.gregtech.steamBoiler}"
 			x: -4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["672B308FD1DC0F45"]
 			description: [
-				"Now that you have steam, you need something to transfer it around!"
+				"{atm9.quest.gregtech.desc.steamTransfer.1}"
 				""
-				"Placing these will allow you to transfer steam from your boiler to a machine"
+				"{atm9.quest.gregtech.desc.steamTransfer.2}"
 				""
-				"Use a &bwrench&r to add or remove connections as necessary"
+				"{atm9.quest.gregtech.desc.steamTransfer.3}"
 			]
 			id: "7F9131107E7F9AC8"
 			rewards: [{
@@ -140,9 +140,9 @@
 		{
 			dependencies: ["7F9131107E7F9AC8"]
 			description: [
-				"This machine will turn ingots into their fluid form"
+				"{atm9.quest.gregtech.desc.fluidIngotProcessing.1}"
 				""
-				"It can also process some items into pulp, like sticky resin into raw rubber pulp"
+				"{atm9.quest.gregtech.desc.fluidIngotProcessing.2}"
 			]
 			id: "48600733998CA349"
 			rewards: [{
@@ -151,7 +151,7 @@
 				table_id: 4444697382338980938L
 				type: "loot"
 			}]
-			subtitle: "Fluids and more"
+			subtitle: "{atm9.quest.gregtech.subt.fluidsAndMore}"
 			tasks: [{
 				id: "4A0FE858EDC3A2BA"
 				item: "gtceu:lp_steam_extractor"
@@ -163,9 +163,9 @@
 		{
 			dependencies: ["7F9131107E7F9AC8"]
 			description: [
-				"The macerator is the first step in ore processing, but we'll come back to that later"
+				"{atm9.quest.gregtech.desc.maceratorIntro.1}"
 				""
-				"For now, we need wood dust, so throw some wood in here and grind them up"
+				"{atm9.quest.gregtech.desc.maceratorIntro.2}"
 			]
 			id: "0DA5BC8BA056B975"
 			rewards: [{
@@ -174,7 +174,7 @@
 				table_id: 4444697382338980938L
 				type: "loot"
 			}]
-			subtitle: "Crushing and grinding"
+			subtitle: "{atm9.quest.gregtech.subt.crushingAndGrinding}"
 			tasks: [{
 				id: "47A54220BCA6BC2C"
 				item: "gtceu:lp_steam_macerator"
@@ -186,11 +186,11 @@
 		{
 			dependencies: ["7F9131107E7F9AC8"]
 			description: [
-				"This machine compresses things"
+				"{atm9.quest.gregtech.desc.crushingAndGrinding.1}"
 				""
-				"You can turn plant matter into plant balls, those may come in handy later"
+				"{atm9.quest.gregtech.desc.crushingAndGrinding.2}"
 				""
-				"You can also take wood dust and compress it into wooden plates"
+				"{atm9.quest.gregtech.desc.crushingAndGrinding.3}"
 			]
 			id: "60CD82B8DE0D0CFE"
 			rewards: [{
@@ -199,7 +199,7 @@
 				table_id: 4444697382338980938L
 				type: "loot"
 			}]
-			subtitle: "Press it real good"
+			subtitle: "{atm9.quest.gregtech.subt.pressItRealGood}"
 			tasks: [{
 				id: "326CC07CDB0FAA28"
 				item: "gtceu:lp_steam_compressor"
@@ -211,9 +211,9 @@
 		{
 			dependencies: ["7F9131107E7F9AC8"]
 			description: [
-				"Forge Hammers can turn rods into long rods or ingots into plates, among other things"
+				"{atm9.quest.gregtech.desc.forgeHammerUsage.1}"
 				""
-				"There are other, cheaper ways to make long rods and plates, but they come later"
+				"{atm9.quest.gregtech.desc.forgeHammerUsage.2}"
 			]
 			id: "3FE956C2968896DC"
 			optional: true
@@ -224,7 +224,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Useful for squishing things"
+			subtitle: "{atm9.quest.gregtech.subt.usefulForSquishing}"
 			tasks: [{
 				id: "731F6F20A3582633"
 				item: "gtceu:lp_steam_forge_hammer"
@@ -235,7 +235,7 @@
 		}
 		{
 			dependencies: ["7F9131107E7F9AC8"]
-			description: ["This bad boy is just a furnace that operates on steam"]
+			description: ["{atm9.quest.gregtech.desc.usefulForSquishing}"]
 			id: "6F15619C8A07E78A"
 			optional: true
 			rewards: [{
@@ -245,7 +245,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "Furnaces for every occasion"
+			subtitle: "{atm9.quest.gregtech.subt.furnacesForEveryOccasion}"
 			tasks: [{
 				id: "3820B5F114B12CD5"
 				item: "gtceu:lp_steam_furnace"
@@ -257,13 +257,13 @@
 		{
 			dependencies: ["7F9131107E7F9AC8"]
 			description: [
-				"The alloy smelter allows you to make alloys of various materials"
+				"{atm9.quest.gregtech.desc.alloySmelterUsage.1}"
 				""
-				"It can also use casting molds to make materials into certain forms, like glass dust into a glass tube"
+				"{atm9.quest.gregtech.desc.alloySmelterUsage.2}"
 				""
-				"The casting molds can be reused and swapped out depending on what you are making"
+				"{atm9.quest.gregtech.desc.alloySmelterUsage.3}"
 				""
-				"When automating make sure you remove the casting mold from your pattern, also it can be helpful to make multiple of these so you do not need to manually swap molds around"
+				"{atm9.quest.gregtech.desc.alloySmelterUsage.4}"
 			]
 			id: "6ECBB6F5D0D99DEE"
 			rewards: [{
@@ -283,9 +283,9 @@
 		{
 			dependencies: ["7F9131107E7F9AC8"]
 			description: [
-				"Setting this machine up with lava on one side and water on another allows you to create either stone or cobblestone"
+				"{atm9.quest.gregtech.desc.stoneCreation.1}"
 				""
-				"At later tiers you can create any stone variant, even obsidian at HV!"
+				"{atm9.quest.gregtech.desc.stoneCreation.2}"
 			]
 			id: "489B77B85B000B39"
 			optional: true
@@ -312,13 +312,13 @@
 				"49D740C5B5EB593C"
 			]
 			description: [
-				"All LV Machines are gated behind this circuit"
+				"{atm9.quest.gregtech.desc.lvMachines.1}"
 				""
-				"It is recommended that you keep your steam machines around, as they'll still be useful in the next chapter"
+				"{atm9.quest.gregtech.desc.lvMachines.2}"
 				""
-				"Why does this quest require 32 circuits to complete? Well, this is due to a concept called \"Batch Crafting\" - rather than just craft one it is often better to craft many more than that to prepare for the upcoming crafts"
+				"{atm9.quest.gregtech.desc.lvMachines.3}"
 				""
-				"If you've been automating as you go along, good! You can utilize something like a ME Requester/Requester for AE2/RS to keep a specified number of any item in your system - I'd recommend doing this with various crafting components (e.g. rubber and sticky resin) and adding to it as you progress through the chapters"
+				"{atm9.quest.gregtech.desc.lvMachines.4}"
 			]
 			id: "219C80DAFBAB36B8"
 			min_width: 250
@@ -346,7 +346,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "The final boss of STEAM"
+			subtitle: "{atm9.quest.gregtech.subt.finalBossSteam}"
 			tasks: [{
 				count: 32L
 				id: "74CFECDB943C6F6C"
@@ -358,9 +358,9 @@
 		}
 		{
 			description: [
-				"Find and farm rubber trees to get yourself some sticky resin"
+				"{atm9.quest.gregtech.desc.rubberFarming.1}"
 				""
-				"Alternatively, slime balls smelted in a furnace will get you some"
+				"{atm9.quest.gregtech.desc.rubberFarming.2}"
 			]
 			hide_dependency_lines: true
 			id: "60069A897F2B0F78"
@@ -387,7 +387,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Slime farm?"
+			subtitle: "{atm9.quest.gregtech.subt.slimeFarm}"
 			tasks: [{
 				id: "6D9971A5B71CBD4F"
 				item: "gtceu:sticky_resin"
@@ -402,9 +402,9 @@
 				"60069A897F2B0F78"
 			]
 			description: [
-				"All parts of the rubber tree can be extracted into raw rubber pulp"
+				"{atm9.quest.gregtech.desc.rubberTreeUses.1}"
 				""
-				"As well as slime balls!"
+				"{atm9.quest.gregtech.desc.rubberTreeUses.2}"
 			]
 			id: "0D3DF9C8F742AE0D"
 			rewards: [{
@@ -425,9 +425,9 @@
 		{
 			dependencies: ["6ECBB6F5D0D99DEE"]
 			description: [
-				"Smash some glass with a hammer and alloy smelt the dust with a casting mold to make a glass tube"
+				"{atm9.quest.gregtech.desc.glassTubeCreation.1}"
 				""
-				"You can get steel ingots by smelting steel dust, made by mixing iron dust with coal"
+				"{atm9.quest.gregtech.desc.glassTubeCreation.2}"
 			]
 			icon: "gtceu:glass_tube"
 			id: "7A62C1B9385DF643"
@@ -450,13 +450,13 @@
 					type: "item"
 				}
 			]
-			title: "Glass Tube"
+			title: "{atm9.quest.gregtech.glassTube}"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["7A62C1B9385DF643"]
-			description: ["Does anyone remember those old CRT televisions anymore? Those things used vacuum tubes"]
+			description: ["{atm9.quest.gregtech.desc.crtTelevisions}"]
 			id: "506360EEA2268E82"
 			rewards: [
 				{
@@ -483,7 +483,7 @@
 		}
 		{
 			dependencies: ["60069A897F2B0F78"]
-			description: ["Don't worry, you don't need to craft resistors with different resistances"]
+			description: ["{atm9.quest.gregtech.desc.resistorCrafting}"]
 			id: "73FC1166FBD6C30D"
 			rewards: [
 				{
@@ -500,7 +500,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ohmmmm"
+			subtitle: "{atm9.quest.gregtech.subt.ohmmmm}"
 			tasks: [{
 				id: "64598EA96BFA992A"
 				item: "gtceu:resistor"
@@ -515,9 +515,9 @@
 				"6ECBB6F5D0D99DEE"
 			]
 			description: [
-				"You can find sulfur ore in the nether and then smelt it to get sulfur dust. There are also bees!"
+				"{atm9.quest.gregtech.desc.sulfurAcquisition.1}"
 				""
-				"Put your raw rubber pulp and sulfur dust into an alloy smelter and get your first bit of rubber"
+				"{atm9.quest.gregtech.desc.sulfurAcquisition.2}"
 			]
 			icon: "gtceu:rubber_ingot"
 			id: "71B1416A45FBBE40"
@@ -545,7 +545,7 @@
 							value: "forge:dusts/sulfur"
 						}
 					}
-					title: "Sulfur Dust"
+					title: "{atm9.quest.gregtech.sulfurDust}"
 					type: "item"
 				}
 				{
@@ -554,7 +554,7 @@
 					type: "item"
 				}
 			]
-			title: "Rubber"
+			title: "{atm9.quest.gregtech.rubber}"
 			x: 1.0d
 			y: 1.0d
 		}
@@ -563,7 +563,7 @@
 				"60CD82B8DE0D0CFE"
 				"30DA40DA0CEB05A0"
 			]
-			description: ["Compress wooden dust into plate form"]
+			description: ["{atm9.quest.gregtech.desc.woodenDustCompression}"]
 			id: "57B4881AA36A1D76"
 			rewards: [{
 				id: "668BD43798C5A151"
@@ -571,7 +571,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Is this plywood?"
+			subtitle: "{atm9.quest.gregtech.subt.plywood}"
 			tasks: [{
 				id: "61098A8012A228F5"
 				item: "gtceu:wood_plate"
@@ -582,7 +582,7 @@
 		}
 		{
 			dependencies: ["0DA5BC8BA056B975"]
-			description: ["Macerating wood logs gives a good amount of wood dust per log"]
+			description: ["{atm9.quest.gregtech.desc.woodDustProduction}"]
 			id: "30DA40DA0CEB05A0"
 			rewards: [{
 				count: 2
@@ -602,9 +602,9 @@
 		{
 			dependencies: ["71B1416A45FBBE40"]
 			description: [
-				"Two rubber ingots and the casting mold in the alloy smelter will make sheets of rubber"
+				"{atm9.quest.gregtech.desc.rubberSheetProduction.1}"
 				""
-				"These will come in handy when you need to start coating wires in rubber to make cables"
+				"{atm9.quest.gregtech.desc.rubberSheetProduction.2}"
 			]
 			icon: "gtceu:rubber_plate"
 			id: "6CE157D05F59A994"
@@ -651,7 +651,7 @@
 		}
 		{
 			dependencies: ["3BEE6BE4F91FA1B0"]
-			description: ["And here I thought we'd be using breadboards"]
+			description: ["{atm9.quest.gregtech.desc.breadboards}"]
 			id: "1E811D532BC593F2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -670,20 +670,20 @@
 		{
 			dependencies: ["4DE719FC2E4C69AB"]
 			description: [
-				"Rather than live in a crafting grid making plates and wires, it is often easier to automate these"
+				"{atm9.quest.gregtech.desc.automationAdvice.1}"
 				""
-				"&5Applied Energistics&r can handle this nicely when you set \"Use Substitutions\" to Yes"
-				"&eNote:&r If you find channels limiting, consider setting the channelmode to 4x or infinite with the following commands (you'll need OP on a server or cheats enabled on singleplayer)"
-				"&o/ae2 channelmode x4&r"
-				"&o/ae2 channelmode infinite&r"
+				"{atm9.quest.gregtech.desc.automationAdvice.2}"
+				"{atm9.quest.gregtech.desc.automationAdvice.3}"
+				"{atm9.quest.gregtech.desc.automationAdvice.4}"
+				"{atm9.quest.gregtech.desc.automationAdvice.5}"
 				""
-				"&bRefined Storage&r struggles in this regard because it will not use the same tool twice due to NBT"
+				"{atm9.quest.gregtech.desc.automationAdvice.6}"
 				""
-				"An alternative here could be to set up your autocrafting in something like an &aRFTools Crafter&r"
+				"{atm9.quest.gregtech.desc.automationAdvice.7}"
 				""
-				"Automation is highly recommended, especially when we begin dealing with fluids"
+				"{atm9.quest.gregtech.desc.automationAdvice.8}"
 				""
-				"You can set &6LV+ Machines&r to automatically output back into a pattern provider, just be sure to toggle the \"Allow Inputs from Output Side\" setting in the GUI. Steam machines aren't smart enough to auto output, so you'll need something to &cimport&r back into the system for now"
+				"{atm9.quest.gregtech.desc.automationAdvice.9}"
 			]
 			id: "12F916CDC2FB7A79"
 			min_width: 350
@@ -694,7 +694,7 @@
 			}]
 			tasks: [{
 				id: "6C841FAADFD094AC"
-				title: "Automation"
+				title: "{atm9.quest.gregtech.automation}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -702,7 +702,7 @@
 		}
 		{
 			dependencies: ["6ECBB6F5D0D99DEE"]
-			description: ["One &6Copper Ingot&r and four &cRedstone Dust&r in the &eAlloy Smelter&r creates this lovely ingot"]
+			description: ["{atm9.quest.gregtech.desc.copperIngotCrafting}"]
 			id: "3302A9306CAD659A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -723,7 +723,7 @@
 				"3302A9306CAD659A"
 				"6CE157D05F59A994"
 			]
-			description: ["Red Alloy Cable is an integral part of crafting the &bLV Circuit&r and getting out of the Steam Age"]
+			description: ["{atm9.quest.gregtech.desc.redAlloyCableCrafting}"]
 			id: "49D740C5B5EB593C"
 			rewards: [{
 				exclude_from_claim_all: true
