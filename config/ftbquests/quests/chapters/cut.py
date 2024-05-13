@@ -1,6 +1,7 @@
 import os
 import sys
 import glob
+import string
 
 def split_file(filename):
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -11,6 +12,7 @@ def split_file(filename):
     current_line = 0
     inside_block = False
     buffer = []
+    alphabet = string.ascii_lowercase  # アルファベットを取得
 
     with open(full_path, 'r', encoding='utf-8') as file:
         for line in file:
@@ -22,7 +24,8 @@ def split_file(filename):
             current_line += 1
 
             if current_line >= 70 and not inside_block:
-                with open(f"{prefix}{block_count}.snbt", 'w', encoding='utf-8') as output_file:
+                suffix = alphabet[block_count % len(alphabet)]  # 数字の代わりにアルファベットを使用
+                with open(f"{prefix}{suffix}.snbt", 'w', encoding='utf-8') as output_file:
                     output_file.writelines(buffer)
                 block_count += 1
                 current_line = 0
@@ -30,7 +33,8 @@ def split_file(filename):
 
     # 最後のファイルを保存
     if buffer:
-        with open(f"{prefix}{block_count}.snbt", 'w', encoding='utf-8') as output_file:
+        suffix = alphabet[block_count % len(alphabet)]
+        with open(f"{prefix}{suffix}.snbt", 'w', encoding='utf-8') as output_file:
             output_file.writelines(buffer)
 
 def concat_files(base_name):
@@ -38,7 +42,7 @@ def concat_files(base_name):
     pattern = os.path.join(base_dir, f"{base_name}_split_*.snbt")
     output_filename = os.path.join(base_dir, f"{base_name}.snbt")
     with open(output_filename, 'w', encoding='utf-8') as outfile:
-        for filename in sorted(glob.glob(pattern)):
+        for filename in sorted(glob.glob(pattern), key=lambda x: x.split('_')[-1]):  # アルファベット順にソート
             with open(filename, 'r', encoding='utf-8') as readfile:
                 outfile.write(readfile.read())
             os.remove(filename)
