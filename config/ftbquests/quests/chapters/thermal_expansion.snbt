@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Thermal Series is a modular series of mods that adds a content-rich blend of magic and technology to your Minecraft experience!"]
+			description: ["{atm9.quest.thermalExpansion.desc.modIntro}"]
 			icon: "thermal:upgrade_augment_3"
 			id: "2C50B0E024C3D92E"
 			rewards: [
@@ -38,16 +38,16 @@
 				item: "alltheores:raw_tin"
 				type: "item"
 			}]
-			title: "Welcome to the &9Thermal Series&r!"
+			title: "{atm9.quest.thermalExpansion.welcome}"
 			x: -4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"The Redstone Furnace uses RF/FE instead of Coal to smelt items."
+				"{atm9.quest.thermalExpansion.desc.redstoneFurnaceFeatures.1}"
 				""
-				"Like all machines in the Thermal Series, this machine can be upgraded with augments to increase the speed of each process."
+				"{atm9.quest.thermalExpansion.desc.redstoneFurnaceFeatures.2}"
 			]
 			id: "22BC123D486CC3E3"
 			rewards: [{
@@ -56,19 +56,19 @@
 				table_id: 7377440633892994587L
 				type: "random"
 			}]
-			subtitle: "Powered Furnace"
+			subtitle: "{atm9.quest.thermalExpansion.subt.poweredFurnace}"
 			tasks: [{
 				id: "288B38C43A7C6D48"
 				item: "thermal:machine_furnace"
 				type: "item"
 			}]
-			title: "The Redstone Furnace"
+			title: "{atm9.quest.thermalExpansion.redstoneFurnace}"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["22BC123D486CC3E3"]
-			description: ["The Pulverizer breaks raw ores into dusts, and also has a 25% chance to create an extra dust."]
+			description: ["{atm9.quest.thermalExpansion.desc.pulverizerFeatures}"]
 			id: "55C8DD9A754545BD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -76,7 +76,7 @@
 				table_id: 7377440633892994587L
 				type: "random"
 			}]
-			subtitle: "Breaks Ores into Dusts"
+			subtitle: "{atm9.quest.thermalExpansion.subt.breaksOresIntoDusts}"
 			tasks: [{
 				id: "06665E87CB134F3C"
 				item: "thermal:machine_pulverizer"
@@ -88,9 +88,9 @@
 		{
 			dependencies: ["55C8DD9A754545BD"]
 			description: [
-				"The Induction Furnace combines materials into new alloys."
+				"{atm9.quest.thermalExpansion.desc.inductionFurnaceFeatures.1}"
 				""
-				"This is also useful when smelting Ancient Debris into Netherite Scraps."
+				"{atm9.quest.thermalExpansion.desc.inductionFurnaceFeatures.2}"
 			]
 			id: "452F51995AD0461C"
 			rewards: [{
@@ -99,7 +99,7 @@
 				table_id: 7377440633892994587L
 				type: "random"
 			}]
-			subtitle: "The Alloy Maker"
+			subtitle: "{atm9.quest.thermalExpansion.subt.theAlloyMaker}"
 			tasks: [{
 				id: "63C10CF0EF19F2C8"
 				item: "thermal:machine_smelter"
@@ -110,7 +110,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["The Machine Frame is needed to craft various machines in Thermal Series."]
+			description: ["{atm9.quest.thermalExpansion.desc.machineFrame}"]
 			id: "5F385CBA98795C62"
 			rewards: [
 				{
@@ -125,7 +125,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "The Basic Frame for Machines"
+			subtitle: "{atm9.quest.thermalExpansion.subt.basicFrameForMachines}"
 			tasks: [{
 				id: "3EC446E752907C94"
 				item: "thermal:machine_frame"
@@ -152,7 +152,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Generates Power by Burning Items!"
+			subtitle: "{atm9.quest.thermalExpansion.subt.generatesPowerByBurningItems}"
 			tasks: [{
 				id: "4BEE939AC38768ED"
 				item: "thermal:dynamo_stirling"
@@ -163,7 +163,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Note: This accepts Tree Oil, Creosote Oil, and Refined Fuel."]
+			description: ["{atm9.quest.thermalExpansion.desc.liquidFuelGenerator}"]
 			hide_dependency_lines: true
 			id: "7FE2EED58AB791E8"
 			rewards: [
@@ -180,7 +180,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Generates Power using Liquid Fuel!"
+			subtitle: "{atm9.quest.thermalExpansion.subt.generatesPowerUsingLiquidFuel}"
 			tasks: [{
 				id: "6E5C2E9D729210C9"
 				item: "thermal:dynamo_compression"
@@ -212,7 +212,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Generates Power using Lava!"
+			subtitle: "{atm9.quest.thermalExpansion.subt.generatesPowerUsingLava}"
 			tasks: [{
 				id: "52A52D9AC73D57A6"
 				item: "thermal:dynamo_magmatic"
@@ -246,7 +246,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Generates Power using Gems!"
+			subtitle: "{atm9.quest.thermalExpansion.subt.generatesPowerUsingGems}"
 			tasks: [{
 				id: "7B973B2B2EED7921"
 				item: "thermal:dynamo_lapidary"
@@ -279,7 +279,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Generates Power using Enchanted Items!"
+			subtitle: "{atm9.quest.thermalExpansion.subt.generatesPowerUsingEnchantedItems}"
 			tasks: [{
 				id: "0E3CDD1130A56248"
 				item: "thermal:dynamo_disenchantment"
@@ -312,7 +312,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Generates Power using Food?"
+			subtitle: "{atm9.quest.thermalExpansion.subt.generatesPowerUsingFood}"
 			tasks: [{
 				id: "795A2D642A7B7D50"
 				item: "thermal:dynamo_gourmand"
@@ -324,9 +324,9 @@
 		{
 			dependencies: ["2C50B0E024C3D92E"]
 			description: [
-				"This is a base upgrade for all machines and items."
+				"{atm9.quest.thermalExpansion.desc.baseUpgrade.1}"
 				""
-				"Note: While you can put several base upgrades into a machine, only the highest tier takes effect."
+				"{atm9.quest.thermalExpansion.desc.baseUpgrade.2}"
 			]
 			hide_dependency_lines: true
 			id: "76084BE1BBCF941F"
@@ -344,7 +344,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Tier 1 Base Upgrade"
+			subtitle: "{atm9.quest.thermalExpansion.subt.tier1BaseUpgrade}"
 			tasks: [{
 				id: "3EE6189C5B2FDD2F"
 				item: "thermal:upgrade_augment_1"
@@ -356,9 +356,9 @@
 		{
 			dependencies: ["2C50B0E024C3D92E"]
 			description: [
-				"This is a tier 2 upgrade for Thermal Series items and machines."
+				"{atm9.quest.thermalExpansion.desc.tier2Upgrade.1}"
 				""
-				"Note: While you can put several base upgrades into a machine, only the highest tier takes effect."
+				"{atm9.quest.thermalExpansion.desc.tier2Upgrade.2}"
 			]
 			hide_dependency_lines: true
 			id: "246CD1925FD6761C"
@@ -376,7 +376,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Tier 2 Base Upgrade"
+			subtitle: "{atm9.quest.thermalExpansion.subt.tier2BaseUpgrade}"
 			tasks: [{
 				id: "6AD321AC8D6BFDAD"
 				item: "thermal:upgrade_augment_2"
@@ -387,7 +387,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Note: While you can put several base upgrades into a machine, only the highest tier takes effect."]
+			description: ["{atm9.quest.thermalExpansion.desc.tier3Upgrade}"]
 			hide_dependency_lines: true
 			id: "034FC4BCCCD7D154"
 			rewards: [
@@ -404,7 +404,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Tier 3 Base Upgrade"
+			subtitle: "{atm9.quest.thermalExpansion.subt.tier3BaseUpgrade}"
 			tasks: [{
 				id: "5237B4381DA7BE1B"
 				item: "thermal:upgrade_augment_3"
@@ -415,7 +415,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Creates an infinite water source when placed between two water source blocks."]
+			description: ["{atm9.quest.thermalExpansion.desc.infiniteWaterSource}"]
 			hide_dependency_lines: true
 			id: "213FFA67A680E534"
 			rewards: [
@@ -442,7 +442,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["This machine charges the items placed inside."]
+			description: ["{atm9.quest.thermalExpansion.desc.itemCharger}"]
 			hide_dependency_lines: true
 			id: "5FDEAA78891874FD"
 			rewards: [
@@ -459,7 +459,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Charges Items"
+			subtitle: "{atm9.quest.thermalExpansion.subt.chargesItems}"
 			tasks: [{
 				id: "2BB7C4355B61F638"
 				item: "thermal:charge_bench"
@@ -471,9 +471,9 @@
 		{
 			dependencies: ["2C50B0E024C3D92E"]
 			description: [
-				"This machine can produce several types of stone."
+				"{atm9.quest.thermalExpansion.desc.stoneProducer.1}"
 				""
-				"Place 1 lava source block on one side, and 1 water source block on the other, and it will generate cobblestone. Check the recipes to see the other kinds of stone you can create!"
+				"{atm9.quest.thermalExpansion.desc.stoneProducer.2}"
 			]
 			hide_dependency_lines: false
 			id: "4EA8BA9753D0DD81"
@@ -492,7 +492,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "A Cobblestone Generator"
+			subtitle: "{atm9.quest.thermalExpansion.subt.cobblestoneGenerator}"
 			tasks: [{
 				id: "2720B59BB163F73B"
 				item: "thermal:device_rock_gen"
@@ -504,9 +504,9 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"Can convert certain blocks into liquids."
+				"{atm9.quest.thermalExpansion.desc.convertBlocks.1}"
 				""
-				"This is useful for generating lava from Cobblestone, Netherrack, etc."
+				"{atm9.quest.thermalExpansion.desc.convertBlocks.2}"
 			]
 			id: "0897F7A3203E45AF"
 			rewards: [
@@ -534,9 +534,9 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"This machine works like a Botany Pot, Garden Cloche, etc."
+				"{atm9.quest.thermalExpansion.desc.machineWorks.1}"
 				""
-				"When given water and a seed, it will grow the seed inside of the machine and auto-output the products into the machine."
+				"{atm9.quest.thermalExpansion.desc.machineWorks.2}"
 			]
 			id: "648B483B128A32F5"
 			rewards: [
@@ -605,7 +605,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Vacuums up items"
+			subtitle: "{atm9.quest.thermalExpansion.subt.vacuumItems}"
 			tasks: [{
 				id: "3819DBE6E95E998E"
 				item: "thermal:device_collector"
@@ -616,7 +616,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Spreads Potion Effects to an area."]
+			description: ["{atm9.quest.thermalExpansion.desc.spreadEffects}"]
 			hide_dependency_lines: true
 			id: "66858700C3DDCB9E"
 			rewards: [
@@ -643,7 +643,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Can be used to charge items, augment machines, or fill up items with liquid."]
+			description: ["{atm9.quest.thermalExpansion.desc.chargeItems}"]
 			id: "74F524F4F0231A78"
 			rewards: [
 				{
@@ -669,7 +669,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Pro Tip: You can enchant these with &9Capacity&r to increase the storage!"]
+			description: ["{atm9.quest.thermalExpansion.desc.enchantCapacity}"]
 			hide_dependency_lines: true
 			id: "037E566ACC83FE07"
 			rewards: [
@@ -703,7 +703,7 @@
 				}
 				type: "item"
 			}]
-			title: "Storing Power"
+			title: "{atm9.quest.thermalExpansion.storingPower}"
 			x: -1.25d
 			y: 1.9499999999999997d
 		}
@@ -749,7 +749,7 @@
 				}
 				type: "item"
 			}]
-			title: "Storing Fluids"
+			title: "{atm9.quest.thermalExpansion.storingFluids}"
 			x: 5.25d
 			y: 1.9499999999999997d
 		}
@@ -764,7 +764,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "Allows Storage of XP"
+			subtitle: "{atm9.quest.thermalExpansion.subt.storeXP}"
 			tasks: [{
 				id: "66656B02B957573F"
 				item: "thermal:xp_storage_augment"
@@ -791,7 +791,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Increases RF Capacity and Transfer Rate"
+			subtitle: "{atm9.quest.thermalExpansion.subt.increaseRF.1}"
 			tasks: [{
 				id: "2F608F433D9A3363"
 				item: {
@@ -826,10 +826,10 @@
 						]
 					}
 				}
-				title: "Expanded RF Coil"
+				title: "{atm9.quest.thermalExpansion.expandedRFCoil}"
 				type: "item"
 			}]
-			title: "Expanded RF Coil"
+			title: "{atm9.quest.thermalExpansion.expandedRFCoil}"
 			x: 1.5d
 			y: 3.1999999999999993d
 		}
@@ -851,7 +851,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Increases RF Capacity, and slightly increases the RF Transfer"
+			subtitle: "{atm9.quest.thermalExpansion.subt.increaseRF.2}"
 			tasks: [{
 				id: "7B5C9FA866C0588A"
 				item: {
@@ -886,7 +886,7 @@
 						]
 					}
 				}
-				title: "Stabilized RF Coil"
+				title: "{atm9.quest.thermalExpansion.stabilizedRFCoil}"
 				type: "item"
 			}]
 			x: 2.5d
@@ -910,7 +910,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Increases RF Transfer, and slightly increases the Capacity"
+			subtitle: "{atm9.quest.thermalExpansion.subt.increaseRFTransfer}"
 			tasks: [{
 				id: "775A7E11D20688CD"
 				item: {
@@ -945,7 +945,7 @@
 						]
 					}
 				}
-				title: "High-Flux RF Coil"
+				title: "{atm9.quest.thermalExpansion.highFluxRFCoil}"
 				type: "item"
 			}]
 			x: 3.5d
@@ -962,7 +962,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "Increases Tank Storage"
+			subtitle: "{atm9.quest.thermalExpansion.subt.increaseTankStorage}"
 			tasks: [{
 				id: "5DFD1C0334466FF2"
 				item: {
@@ -1001,7 +1001,7 @@
 						]
 					}
 				}
-				title: "Expanded Tank Construction"
+				title: "{atm9.quest.thermalExpansion.expandedTankConstruction}"
 				type: "item"
 			}]
 			x: 2.0d
@@ -1045,7 +1045,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Increases Processing Speed, but Reduces Efficiency"
+			subtitle: "{atm9.quest.thermalExpansion.subt.increaseSpeed}"
 			tasks: [{
 				id: "46E665F97A2BECB6"
 				item: {
@@ -1076,7 +1076,7 @@
 						]
 					}
 				}
-				title: "Flux Linkage Amplifier"
+				title: "{atm9.quest.thermalExpansion.fluxLinkageAmplifier}"
 				type: "item"
 			}]
 			x: 0.5d
@@ -1100,7 +1100,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Increases Efficiency at the cost of Speed"
+			subtitle: "{atm9.quest.thermalExpansion.subt.increaseEfficiency}"
 			tasks: [{
 				id: "1E0593F1AA073CFD"
 				item: {
@@ -1131,7 +1131,7 @@
 						]
 					}
 				}
-				title: "Flux Efficiency"
+				title: "{atm9.quest.thermalExpansion.fluxEfficiency}"
 				type: "item"
 			}]
 			x: 1.0d
@@ -1155,7 +1155,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Increases Secondary Output"
+			subtitle: "{atm9.quest.thermalExpansion.subt.increaseOutput}"
 			tasks: [{
 				id: "497485048E0AD20D"
 				item: {
@@ -1182,7 +1182,7 @@
 						]
 					}
 				}
-				title: "Auxiliary Process Sieve"
+				title: "{atm9.quest.thermalExpansion.auxiliaryProcessSieve}"
 				type: "item"
 			}]
 			x: 2.0d
@@ -1212,7 +1212,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Reduces Catalyst Usage"
+			subtitle: "{atm9.quest.thermalExpansion.subt.reduceCatalyst}"
 			tasks: [{
 				id: "6C996D5E63879519"
 				item: {
@@ -1239,7 +1239,7 @@
 						]
 					}
 				}
-				title: "Catalytic Reclamation Chamber"
+				title: "{atm9.quest.thermalExpansion.catalyticReclamationChamber}"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1256,7 +1256,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "Voids By-products"
+			subtitle: "{atm9.quest.thermalExpansion.subt.voidByproducts}"
 			tasks: [{
 				id: "784D4494897AF202"
 				item: "thermal:machine_null_augment"
@@ -1283,7 +1283,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Increases Generation Rate at the Cost of Efficiency"
+			subtitle: "{atm9.quest.thermalExpansion.subt.increaseGenerationRate}"
 			tasks: [{
 				id: "3861678346D376C1"
 				item: {
@@ -1314,7 +1314,7 @@
 						]
 					}
 				}
-				title: "Auxiliary Reaction Chamber"
+				title: "{atm9.quest.thermalExpansion.auxiliaryReactionChamber}"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1338,7 +1338,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Increases Fuel Efficiency of Dynamos"
+			subtitle: "{atm9.quest.thermalExpansion.subt.increaseFuelEfficiency}"
 			tasks: [{
 				id: "3D6A9C7EE22C2ADF"
 				item: {
@@ -1369,7 +1369,7 @@
 						]
 					}
 				}
-				title: "Multi-Cycle Injectors"
+				title: "{atm9.quest.thermalExpansion.multiCycleInjectors}"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1386,7 +1386,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "Increases AoE Effect"
+			subtitle: "{atm9.quest.thermalExpansion.subt.increaseAoEEffect}"
 			tasks: [{
 				id: "705AE21001A4E9C7"
 				item: {
@@ -1417,7 +1417,7 @@
 						]
 					}
 				}
-				title: "Radial Enchancement"
+				title: "{atm9.quest.thermalExpansion.radialEnhancement}"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1446,7 +1446,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Amplifies Potion Effect"
+			subtitle: "{atm9.quest.thermalExpansion.subt.amplifyPotionEffect}"
 			tasks: [{
 				id: "08ED05EBDFF0B4D9"
 				item: "thermal:potion_amplifier_augment"
@@ -1472,7 +1472,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Increases Duration of Potion Effect"
+			subtitle: "{atm9.quest.thermalExpansion.subt.increasePotionDuration}"
 			tasks: [{
 				id: "501A3B2548F6DB3E"
 				item: "thermal:potion_duration_augment"
@@ -1483,7 +1483,7 @@
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["This machine is mostly for extracting dyes from flowers, or ore blends back into their components."]
+			description: ["{atm9.quest.thermalExpansion.desc.extractDyes}"]
 			id: "3475E12711B6BB98"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1492,7 +1492,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "Separates Items into their Crafting Components"
+			subtitle: "{atm9.quest.thermalExpansion.subt.separateItems}"
 			tasks: [{
 				id: "2183800CED355EEB"
 				item: "thermal:machine_centrifuge"
@@ -1504,9 +1504,9 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"Creates \"Presses\" using Casts."
+				"{atm9.quest.thermalExpansion.desc.createPresses.1}"
 				""
-				"Think plates, gears, etc."
+				"{atm9.quest.thermalExpansion.desc.createPresses.2}"
 			]
 			hide_dependency_lines: true
 			id: "5963FBEB78A79668"
@@ -1535,9 +1535,9 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"Converts items from a liquid to a solid, some requiring casts."
+				"{atm9.quest.thermalExpansion.desc.convertItems.1}"
 				""
-				"There is also a bee spawn egg recipe it can create."
+				"{atm9.quest.thermalExpansion.desc.convertItems.2}"
 			]
 			id: "469443A3BA0C3BEE"
 			rewards: [{
@@ -1557,7 +1557,7 @@
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["Can convert liquids into items or other useful liquids."]
+			description: ["{atm9.quest.thermalExpansion.desc.convertLiquids}"]
 			hide_dependency_lines: true
 			id: "627D6FDC3D8C42F6"
 			rewards: [
@@ -1585,9 +1585,9 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"Works like a Coke Oven, but simplified."
+				"{atm9.quest.thermalExpansion.desc.workLikeCokeOven.1}"
 				""
-				"Insert \"fuel\" like Coal and it'll produce Coal Coke and a by-product."
+				"{atm9.quest.thermalExpansion.desc.workLikeCokeOven.2}"
 			]
 			hide_dependency_lines: true
 			id: "5ECC93FB8F676E3F"
@@ -1615,7 +1615,7 @@
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["Combines Liquids with Items"]
+			description: ["{atm9.quest.thermalExpansion.desc.combineLiquidsItems}"]
 			hide_dependency_lines: true
 			id: "469663FE3DA932EF"
 			rewards: [
@@ -1642,7 +1642,7 @@
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["Can Create \"Liquid\" Potions that can be bottled into Potions."]
+			description: ["{atm9.quest.thermalExpansion.desc.createLiquidPotions}"]
 			hide_dependency_lines: true
 			id: "1BCE8D02CDD13838"
 			rewards: [
@@ -1685,7 +1685,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "An Auto-Crafter!"
+			subtitle: "{atm9.quest.thermalExpansion.subt.autoCrafter}"
 			tasks: [{
 				id: "72EC640A6F6C69C1"
 				item: "thermal:machine_crafter"
@@ -1696,7 +1696,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["It's more like a pickaxe that uses RF/FE."]
+			description: ["{atm9.quest.thermalExpansion.desc.earlyGameMiningGadget}"]
 			hide_dependency_lines: true
 			id: "5257468DC6C11851"
 			rewards: [
@@ -1713,7 +1713,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "An Early-Game Mining Gadget"
+			subtitle: "{atm9.quest.thermalExpansion.subt.earlyGameMiningGadget}"
 			tasks: [{
 				id: "38EE8C011F7E3FEC"
 				item: {
@@ -1744,7 +1744,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "RF-Powered Handsaw!"
+			subtitle: "{atm9.quest.thermalExpansion.subt.rfPoweredHandsaw}"
 			tasks: [{
 				id: "504ABB4FCF4AA14E"
 				item: {
@@ -1768,7 +1768,7 @@
 				type: "random"
 			}]
 			shape: "hexagon"
-			subtitle: "Tier 4 Base Upgrade"
+			subtitle: "{atm9.quest.thermalExpansion.subt.tier4BaseUpgrade}"
 			tasks: [{
 				id: "41B789CFB591439D"
 				item: "thermal_extra:upgrade_augment"

@@ -17,7 +17,7 @@
 			corner: false
 			dev: false
 			height: 0.3d
-			hover: ["Needed for the ATM Star"]
+			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -92,9 +92,9 @@
 		{
 			dependencies: ["438E233A9014DA73"]
 			description: [
-				"You'll need a LOT of &cDesh&r to make the &aTier 2 Rocket&r."
+				"{atm9.quest.adAstra.desc.tier2Rocket.1}"
 				""
-				"With this rocket, you can fly all the way to &cMars&r! Just remember to stock up on extra &bOxygen&r and &eFuel&r for your flight back."
+				"{atm9.quest.adAstra.desc.tier2Rocket.2}"
 			]
 			id: "4EA0E385FF7E5FEB"
 			rewards: [
@@ -128,7 +128,7 @@
 		}
 		{
 			dependencies: ["0EE652B280CB5F55"]
-			description: ["The &dTier 4 Rocket&r is the highest tier Rocket that we can make. This will allow us to travel outside of our Solar System!"]
+			description: ["{atm9.quest.adAstra.desc.tier4Rocket}"]
 			id: "210A0DC6D5CAC236"
 			tasks: [{
 				id: "68DB1231F3A96C65"
@@ -147,9 +147,9 @@
 		{
 			dependencies: ["438E233A9014DA73"]
 			description: [
-				"Once you've explored the Moon and gathered enough Desh, you will be able to create &dSpace Stations&r around planets!"
+				"{atm9.quest.adAstra.desc.spaceStations.1}"
 				""
-				"These are prebuilt structures that serve as a mini-base in the galaxy. Home away from home kinda thing."
+				"{atm9.quest.adAstra.desc.spaceStations.2}"
 			]
 			icon: "ad_astra:space_painting"
 			id: "3017721842588919"
@@ -180,16 +180,16 @@
 					type: "item"
 				}
 			]
-			title: "Space Stations"
+			title: "{atm9.quest.adAstra.spaceStations}"
 			x: -4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["58452F7D73C30E72"]
 			description: [
-				"Upon landing, you'll want to sneak-right click on the &aLander&r to grab the Rocket and Launch Pad out. You won't be able to get back without it!"
+				"{atm9.quest.adAstra.desc.lander.1}"
 				""
-				"The Moon is pretty deserted, aside from a few new &2Villager&r mobs that might be interested in trading with you. You'll also be able to mine for some &cDesh&r, which you'll need for the Tier 2 Rocket and maybe even a super cool &aRover&r. "
+				"{atm9.quest.adAstra.desc.lander.2}"
 			]
 			id: "438E233A9014DA73"
 			rewards: [
@@ -219,7 +219,7 @@
 					type: "item"
 				}
 			]
-			title: "&cDesh&r"
+			title: "{atm9.quest.adAstra.desh}"
 			x: -3.0d
 			y: 3.0d
 		}
@@ -232,15 +232,15 @@
 				"4785659E5022FEE7"
 			]
 			description: [
-				"IT'S TIME TO GO TO SPACE!"
+				"{atm9.quest.adAstra.desc.launch.1}"
 				""
-				"To do this, place down your &aLaunch Pad&r and stick the &aTier 1 Rocket&r right in the middle. You can sneak-right click on the Rocket to open the inventory, which you should fill it up with 3 Buckets of Fuel for trip there. You'll also need 3 to get back. &cMake sure to bring an extra Launch Pad&r with you as well, just in case you lose it when landing!"
+				"{atm9.quest.adAstra.desc.launch.2}"
 				""
-				"Once you are ready to launch, hop in and hit space to blast off! When you get into orbit, you'll be greeted with the galaxy menu. Here, you can select &dSolar System&r, then click on &2Earth&r, then select the Moon!"
+				"{atm9.quest.adAstra.desc.launch.3}"
 				""
-				"When you begin your descent onto the Moon's surface, make sure to &ahold Space to slow down&r! You can keep an eye on the left bar to see how far you are from the surface, just make sure not to crash!"
+				"{atm9.quest.adAstra.desc.launch.4}"
 				""
-				"Pro Tip: Hit F5 to go into third person!"
+				"{atm9.quest.adAstra.desc.launch.5}"
 				""
 				"Moon Info:"
 				"Gravity: 1.625 m/s"
@@ -268,17 +268,17 @@
 				advancement: "ad_astra:moon"
 				criterion: ""
 				id: "39A95AE27E68114B"
-				title: "Land on the Moon!"
+				title: "{atm9.quest.adAstra.landOnMoon}"
 				type: "advancement"
 			}]
-			title: "&aTo The&r &bMoon&r!"
+			title: "{atm9.quest.adAstra.toTheMoon}"
 			x: -3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4E8E49EB9C83188E"]
 			description: [
-				"The next resource we'll be mining for is called &3Ostrum&r."
+				"{atm9.quest.adAstra.desc.ostrum}"
 				""
 				"Ostrum is used for several new machines, as well as a new Space Suit for us to survive on hotter planets!"
 			]
@@ -310,14 +310,14 @@
 					type: "item"
 				}
 			]
-			title: "Ostrum"
+			title: "{atm9.quest.adAstra.ostrum}"
 			x: -1.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["4EA0E385FF7E5FEB"]
 			description: [
-				"&cMars&r is considered a cold planet, but that doesn't mean you won't find some new lifeforms there. Make sure you are prepared!"
+				"{atm9.quest.adAstra.desc.mars.1}"
 				""
 				"Mars Info:"
 				"Gravity: 3.72076 m/s"
@@ -338,18 +338,18 @@
 				id: "51EA8D3FA1966B84"
 				type: "advancement"
 			}]
-			title: "Visit Mars"
+			title: "{atm9.quest.adAstra.visitMars}"
 			x: -3.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7CA42B3CA84A21B5"]
 			description: [
-				"We need to make a trip out to Venus!"
+				"{atm9.quest.adAstra.desc.venus.1}"
 				""
-				"&dCalorite&r is found on Venus, and is the strongest metal you can gather from the planets."
+				"{atm9.quest.adAstra.desc.venus.2}"
 				""
-				"With this, you can make the &5Tier 4 Rocket&r, as well as the &dJet Suit&r for us to survive in a different Solar System!"
+				"{atm9.quest.adAstra.desc.venus.3}"
 				""
 				"Venus Info:"
 				"Gravity: 8.87 m/s"
@@ -385,14 +385,14 @@
 					type: "item"
 				}
 			]
-			title: "Visit Venus"
+			title: "{atm9.quest.adAstra.visitVenus}"
 			x: 3.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7CA42B3CA84A21B5"]
 			description: [
-				"A hot barren world with large lava plains."
+				"{atm9.quest.adAstra.desc.mercury}"
 				""
 				"Mercury Info:"
 				"Gravity: 3.7 m/s"
@@ -419,7 +419,7 @@
 				id: "7302AF42EB62C1D2"
 				type: "advancement"
 			}]
-			title: "Visit Mecury"
+			title: "{atm9.quest.adAstra.visitMercury}"
 			x: 1.0d
 			y: 8.0d
 		}
@@ -429,7 +429,7 @@
 				"7B2A7B2298DAE8EC"
 			]
 			description: [
-				"This is the furthest our current technology can take us. &bGlacio&r is a cold planet, but has oxygen for us to breathe!"
+				"{atm9.quest.adAstra.desc.glacio.1}"
 				""
 				"Glacio Info:"
 				"Gravity: 3.721 m/s"
@@ -451,19 +451,19 @@
 				id: "60ADF70F2398E2F8"
 				type: "advancement"
 			}]
-			title: "Visit Glacio"
+			title: "{atm9.quest.adAstra.visitGlacio}"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			description: [
-				"Welcome to &dAd Astra&r!"
+				"{atm9.quest.adAstra.desc.intro.1}"
 				""
-				"This mod takes you on a journey to the stars, which means you get to make your own SPACE SHIP!!!"
+				"{atm9.quest.adAstra.desc.intro.2}"
 				""
-				"To get to space, you'll need something stronger than Iron to build your ship out of."
+				"{atm9.quest.adAstra.desc.intro.3}"
 				""
-				"If you want to get off the ground, you'll need a lot of &aSteel&r to get going! There are several ways to make this, like using &eMekanism's Metallurgic Infuser&r to make &3Steel Dust&r first, or just making the dust using Iron Dust, 4 Coal, and a Hammer in a crafting grid."
+				"{atm9.quest.adAstra.desc.intro.4}"
 			]
 			icon: {
 				Count: 1b
@@ -499,16 +499,16 @@
 				item: "alltheores:steel_ingot"
 				type: "item"
 			}]
-			title: "&dTo The Stars!&r"
+			title: "{atm9.quest.adAstra.toTheStars}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0D8AC4FB1F61B07A"]
 			description: [
-				"This &aHammer&r is used to make &aPlates&r from ingots! While it's great to use at the start, you'll eventually want to make a &aCompressor&r to do this work for you. This will need power!"
+				"{atm9.quest.adAstra.desc.hammerUsage.1}"
 				""
-				"You'll need plenty of &aIron&r and &aSteel Plates&r to craft a lot of the items to get to space, so make sure to get it automated!"
+				"{atm9.quest.adAstra.desc.hammerUsage.2}"
 			]
 			icon: {
 				Count: 1b
@@ -550,16 +550,16 @@
 					type: "item"
 				}
 			]
-			title: "Making &aPlates&r"
+			title: "{atm9.quest.adAstra.makingPlates}"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["0D4A85FBCE0015E1"]
 			description: [
-				"For us to begin making rockets, we'll need a &dNASA Workbench&r. This is the crafting bench for rockets!"
+				"{atm9.quest.adAstra.desc.nasaWorkbench.1}"
 				""
-				"The next step is to make the &aTier 1 Rocket&r using the Workbench. Once you have all of the parts, place them in to craft!"
+				"{atm9.quest.adAstra.desc.nasaWorkbench.2}"
 			]
 			icon: {
 				Count: 1b
@@ -599,16 +599,16 @@
 					type: "item"
 				}
 			]
-			title: "&aMaking Our First&r &dRocket&r!"
+			title: "{atm9.quest.adAstra.makingFirstRocket}"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["0D4A85FBCE0015E1"]
 			description: [
-				"If you're planning on going to space, you better believe that you need a new set of gear for the journey."
+				"{atm9.quest.adAstra.desc.spaceGear.1}"
 				""
-				"You'll need to make a full &aSpace Suit&r for your first trip, which will be to the &bMoon&r. Come to find out, the Moon is kind of cold and lacks Oxygen. Without a Suit, you won't last long. :)"
+				"{atm9.quest.adAstra.desc.spaceGear.2}"
 			]
 			hide_dependency_lines: true
 			id: "02057E81D8139BAE"
@@ -673,20 +673,20 @@
 					type: "item"
 				}
 			]
-			title: "&aSuiting Up&r"
+			title: "{atm9.quest.adAstra.suitingUp}"
 			x: -1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0D4A85FBCE0015E1"]
 			description: [
-				"Just like a car, you can't fuel a Rocket off of hopes and dreams. But how do we get fuel?"
+				"{atm9.quest.adAstra.desc.fuelRefinery.1}"
 				""
-				"The first step is to find &3Oil&r in the Overworld. You can find some spouting out in the ocean, and you'll need to collect a good bit so we can refine it!"
+				"{atm9.quest.adAstra.desc.fuelRefinery.2}"
 				""
-				"That's where the &aFuel Refinery&r comes in. It will accept any \"Crude\" Oil and convert it into fuel for the Rockets."
+				"{atm9.quest.adAstra.desc.fuelRefinery.3}"
 				""
-				"I'd suggest on stocking up, as each will cost &e3 Buckets of Fuel&r, meaning 6 for a round trip!"
+				"{atm9.quest.adAstra.desc.fuelRefinery.4}"
 			]
 			hide_dependency_lines: true
 			icon: "ad_astra:fuel_refinery"
@@ -724,20 +724,20 @@
 					type: "item"
 				}
 			]
-			title: "&aFueling Up&r"
+			title: "{atm9.quest.adAstra.fuelingUp}"
 			x: 1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["02057E81D8139BAE"]
 			description: [
-				"Fun Fact: You cannot breathe on the Moon without &bOxygen&r. Actually, you can't breathe anywhere without Oxygen. Guess what the Moon doesn't have?"
+				"{atm9.quest.adAstra.desc.oxygenPrep.1}"
 				""
-				"So we're going to make us some. Start by crafting an &aOxygen Loader&r and giving it water and power. This will begin to convert the Water into &bOxygen&r for us to use."
+				"{atm9.quest.adAstra.desc.oxygenPrep.2}"
 				""
-				"To collect it, you can either place an &bOxygen Tank&r, an empty bucket, or a Space Suit inside."
+				"{atm9.quest.adAstra.desc.oxygenPrep.3}"
 				""
-				"Pro Tip: It's always a good idea to have extra &bOxygen&r on hand... just in case."
+				"{atm9.quest.adAstra.desc.oxygenPrep.4}"
 			]
 			hide_dependency_lines: true
 			icon: "ad_astra:oxygen_loader"
@@ -775,16 +775,16 @@
 					type: "item"
 				}
 			]
-			title: "&aPreparing Some&r &bOxygen&r"
+			title: "{atm9.quest.adAstra.preparingOxygen}"
 			x: -1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["0D4A85FBCE0015E1"]
 			description: [
-				"A Rocket needs something to launch off of, so we'll need to make a &aLaunch Pad&r."
+				"{atm9.quest.adAstra.desc.launchPad.1}"
 				""
-				"To use it, place it down wherever you want to launch from with a clear view of the sky. Once you have a Rocket, you can place it down in the middle of the Launch Pad."
+				"{atm9.quest.adAstra.desc.launchPad.2}"
 			]
 			hide_dependency_lines: true
 			id: "05B977269171EB06"
@@ -807,18 +807,18 @@
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
-			title: "&eLaunching Into Space&r"
+			title: "{atm9.quest.adAstra.launchingIntoSpace}"
 			x: 1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2A279B011D09A9EE"]
 			description: [
-				"To survive on the hotter planets, we'll need a new Space Suit."
+				"{atm9.quest.adAstra.desc.newSpaceSuit.1}"
 				""
-				"When you combine &3Netherite&r and &3Ostrum&r, it creates a suit strong enough to protect you from extreme heat!"
+				"{atm9.quest.adAstra.desc.newSpaceSuit.2}"
 				""
-				"If we want to get to those hot planets, we need to make a &dTier 3 Rocket&r as well!"
+				"{atm9.quest.adAstra.desc.newSpaceSuit.3}"
 			]
 			icon: {
 				Count: 1b
@@ -895,16 +895,16 @@
 					type: "item"
 				}
 			]
-			title: "&cGearing Up For The Heat&r"
+			title: "{atm9.quest.adAstra.gearingUpForTheHeat}"
 			x: 1.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["0EE652B280CB5F55"]
 			description: [
-				"This is the best Space Suit that you can make."
+				"{atm9.quest.adAstra.desc.bestSpaceSuit}"
 				""
-				"It can be powered, allowing for Elytra-like flight! It also protects you from Acid Rain. :)"
+				"{atm9.quest.adAstra.desc.bestSpaceSuitFeatures}"
 			]
 			id: "7B2A7B2298DAE8EC"
 			rewards: [
@@ -967,20 +967,20 @@
 					type: "item"
 				}
 			]
-			title: "Jet Suit"
+			title: "{atm9.quest.adAstra.jetSuit}"
 			x: 3.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["2A279B011D09A9EE"]
 			description: [
-				"Needing 6 buckets of &aFuel&r every time we want to travel to other planets can add up quick."
+				"{atm9.quest.adAstra.desc.cryoFuel.1}"
 				""
-				"Using the &3Ostrum&r we've gathered, we can create the &dCyro Freezer&r. When given power, this machine will convert cold items like &bIce, Packed Ice, Blue Ice, or Ice Shards&r into &dCryo Fuel&r."
+				"{atm9.quest.adAstra.desc.cryoFuel.2}"
 				""
-				"Instead of needing 3 buckets per launch, you will only need 1 of &dCryo Fuel&r. That means 2 for a round-trip!"
+				"{atm9.quest.adAstra.desc.cryoFuel.3}"
 				""
-				"Note: This also freezes ice around it when placed, giving you an infinite ice source!"
+				"{atm9.quest.adAstra.desc.cryoFuel.4}"
 			]
 			id: "088D685775ED92EE"
 			rewards: [
@@ -1001,18 +1001,18 @@
 				item: "ad_astra:cryo_freezer"
 				type: "item"
 			}]
-			title: "&aEfficient Fuel&r"
+			title: "{atm9.quest.adAstra.efficientFuel}"
 			x: -1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["58452F7D73C30E72"]
 			description: [
-				"If you would rather use your own armor rather than having to wear the &aSpace Suit&r all of the time, you can enchant your helmet using the &dSpace Breathing&r enchant!"
+				"{atm9.quest.adAstra.desc.spaceBreathing.1}"
 				""
-				"For this to work, you'll need an &bOxygen Can&r in your inventory."
+				"{atm9.quest.adAstra.desc.spaceBreathing.2}"
 				""
-				"Note: The Oxygen Can only works for colder planets, but can be upgraded."
+				"{atm9.quest.adAstra.desc.spaceBreathing.3}"
 			]
 			id: "59ADE76689E381AA"
 			optional: true
@@ -1055,18 +1055,18 @@
 					weak_nbt_match: true
 				}
 			]
-			title: "Don't Want To Use A Space Suit?"
+			title: "{atm9.quest.adAstra.dontWantToUseASpaceSuit}"
 			x: -4.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3017721842588919"]
 			description: [
-				"If you want to make a base outside of the Earth, you'll most likely need a way to get &bOxygen&r."
+				"{atm9.quest.adAstra.desc.oxygenForBases.1}"
 				""
-				"The &dOxygen Distributor&r is a machine that distributes oxygen in a &asealed&r room. When given water and power, it will automatically distribute the oxygen into the sealed room."
+				"{atm9.quest.adAstra.desc.oxygenForBases.2}"
 				""
-				"The &9Water Pump&r is used to pump water from an infinite water source below it into the Distributor. You can also pump water in using a sink or an &dEternal Water Block&r."
+				"{atm9.quest.adAstra.desc.oxygenForBases.3}"
 			]
 			id: "72B3CDA595D08587"
 			tasks: [{
@@ -1074,7 +1074,7 @@
 				item: "ad_astra:oxygen_distributor"
 				type: "item"
 			}]
-			title: "Oxygen for your Bases!"
+			title: "{atm9.quest.adAstra.oxygenForYourBases}"
 			x: -4.0d
 			y: 5.5d
 		}

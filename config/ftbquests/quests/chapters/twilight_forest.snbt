@@ -11,11 +11,11 @@
 	quests: [
 		{
 			description: [
-				"Welcome to the &9Twilight Forest&r!"
+				"{atm9.quest.twilightForest.desc.welcome.1}"
 				""
-				"To create a portal to the Twilight Forest, make a 2x2 hole and fill it with water. Surround the edges of the hole with flowers, and throw a diamond in."
+				"{atm9.quest.twilightForest.desc.welcome.2}"
 				""
-				"Thor will give you a sign if you did it right."
+				"{atm9.quest.twilightForest.desc.welcome.3}"
 			]
 			id: "4193303999597249"
 			rewards: [
@@ -52,25 +52,25 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "Creating the Portal"
+			subtitle: "{atm9.quest.twilightForest.subt.creatingPortal}"
 			tasks: [{
 				advancement: "twilightforest:root"
 				criterion: ""
 				icon: "twilightforest:twilight_portal_miniature_structure"
 				id: "695EA135D2B5FDC8"
-				title: "Enter the Twilight Forest"
+				title: "{atm9.quest.twilightForest.enterTwilightForest}"
 				type: "advancement"
 			}]
-			title: "The Twilight Forest"
+			title: "{atm9.quest.twilightForest.twilightForest}"
 			x: -7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4193303999597249"]
 			description: [
-				"In the Twilight Forest, there are a bunch of new entities to discover."
+				"{atm9.quest.twilightForest.desc.discoverEntities.1}"
 				""
-				"One of the worst is the Cicada. I suggest killing this for the achievement, but killing any Twilight Forest mob will work."
+				"{atm9.quest.twilightForest.desc.discoverEntities.2}"
 			]
 			hide: true
 			id: "575E405B270BBCBC"
@@ -84,7 +84,7 @@
 				criterion: ""
 				icon: "twilightforest:cicada"
 				id: "49C77D4CDAE03481"
-				title: "The Silence of the Forest"
+				title: "{atm9.quest.twilightForest.silenceForest}"
 				type: "advancement"
 			}]
 			x: -7.5d
@@ -94,11 +94,11 @@
 			dependencies: ["2951B1D7080C5EF9"]
 			dependency_requirement: "all_started"
 			description: [
-				".... is not yet implemented."
+				"{atm9.quest.twilightForest.desc.notImplemented.1}"
 				""
-				"Instead, head to the giant castle in the Final Plateau and grab some door blocks!"
+				"{atm9.quest.twilightForest.desc.notImplemented.2}"
 				""
-				"There is a kobold that spawns in as a \"placeholder\" but you will get nothing from killing it."
+				"{atm9.quest.twilightForest.desc.notImplemented.3}"
 			]
 			icon: "twilightforest:castle_brick"
 			id: "420158B1736A1354"
@@ -113,7 +113,7 @@
 					biome: "twilightforest:final_plateau"
 					icon: "twilightforest:castle_brick"
 					id: "086AAFD8D9F5EDFA"
-					title: "Enter the Final Plateau"
+					title: "{atm9.quest.twilightForest.enterFinalPlateau}"
 					type: "biome"
 				}
 				{
@@ -141,16 +141,16 @@
 					type: "item"
 				}
 			]
-			title: "The Final Boss"
+			title: "{atm9.quest.twilightForest.finalBoss}"
 			x: 9.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4193303999597249"]
 			description: [
-				"There are a lot of different foods you can make from the Twilight Forest!"
+				"{atm9.quest.twilightForest.desc.differentFoods.1}"
 				""
-				"Try them all!"
+				"{atm9.quest.twilightForest.desc.differentFoods.2}"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -215,7 +215,7 @@
 					type: "item"
 				}
 			]
-			title: "Fancy Noms"
+			title: "{atm9.quest.twilightForest.fancyNoms}"
 			x: 6.5d
 			y: 3.0d
 		}
@@ -223,9 +223,9 @@
 			dependencies: ["575E405B270BBCBC"]
 			dependency_requirement: "one_completed"
 			description: [
-				"It's easy to get lost in the Forest. In your travels, you'll run into Obsidian pillars."
+				"{atm9.quest.twilightForest.desc.getLost.1}"
 				""
-				"These pillars will have Ravens around them. Slay them to get their feathers, which you can use to create a map for the Twilight Forest!"
+				"{atm9.quest.twilightForest.desc.getLost.2}"
 			]
 			icon: "twilightforest:raven_feather"
 			id: "57940981E8DE55D4"
@@ -239,16 +239,16 @@
 				item: "twilightforest:raven_feather"
 				type: "item"
 			}]
-			title: "Raven Feathers"
+			title: "{atm9.quest.twilightForest.ravenFeathers}"
 			x: -6.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["420158B1736A1354"]
 			description: [
-				"Within the Twilight Forest, there are loot chests that can give you rare saplings."
+				"{atm9.quest.twilightForest.desc.lootChests.1}"
 				""
-				"Collect them all!"
+				"{atm9.quest.twilightForest.desc.lootChests.2}"
 			]
 			icon: "twilightforest:time_sapling"
 			id: "0ED7B25DC1AA767B"
@@ -271,7 +271,7 @@
 			]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Growing Trees"
+			subtitle: "{atm9.quest.twilightForest.subt.growingTrees}"
 			tasks: [
 				{
 					id: "51F100B03CBC2ACF"
@@ -294,16 +294,16 @@
 					type: "item"
 				}
 			]
-			title: "The Real Final Boss"
+			title: "{atm9.quest.twilightForest.realFinalBoss}"
 			x: 6.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4193303999597249"]
 			description: [
-				"The first boss on your Twilight adventure can be found within the Courtyard."
+				"{atm9.quest.twilightForest.desc.firstBoss.1}"
 				""
-				"Killing the Naga will grant entry to the next boss, the Lich."
+				"{atm9.quest.twilightForest.desc.firstBoss.2}"
 			]
 			hide: true
 			id: "3531B28F14CF72A2"
@@ -326,22 +326,22 @@
 				item: "twilightforest:naga_trophy"
 				type: "item"
 			}]
-			title: "Time to Even the Scales"
+			title: "{atm9.quest.twilightForest.timeEvenScales}"
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3531B28F14CF72A2"]
 			description: [
-				"Within his tower, a Lich of great power lives here."
+				"{atm9.quest.twilightForest.desc.lichFight.1}"
 				""
-				"It is a 3 phase fight, but only 1 phase is unique."
+				"{atm9.quest.twilightForest.desc.lichFight.2}"
 				""
-				"Phase 1: The Lich surrounds himself in shields, and attacks you with Ender Pearls that shoot out like Ghast fireballs. Reflect these back to the Lich to break his shields! As his shields break, he'll send out duplicates to distract you."
+				"{atm9.quest.twilightForest.desc.lichFight.3}"
 				""
-				"Phase 2: The Lich switches scepters to summon Zombies to help him in the fight. With his defenses down, you will be able to melee him!"
+				"{atm9.quest.twilightForest.desc.lichFight.4}"
 				""
-				"Phase 3: Once all of the charges are spent on his Scepter, he will switch to a Golden Sword and go berserk. Kill him fast!"
+				"{atm9.quest.twilightForest.desc.lichFight.5}"
 			]
 			id: "0107D516E038E0DB"
 			rewards: [
@@ -367,16 +367,16 @@
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
-			title: "Bring out your Dead"
+			title: "{atm9.quest.twilightForest.bringOutYourDead}"
 			x: -4.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4B95D48D7525FFAD"]
 			description: [
-				"In the depths of the Labyrinth Swamp is a giant Minoshroom."
+				"{atm9.quest.twilightForest.desc.minoshroom.1}"
 				""
-				"Once defeated, it'll drop Meef Stroganoff. To unlock the next area, you must eat it."
+				"{atm9.quest.twilightForest.desc.minoshroom.2}"
 			]
 			icon: "twilightforest:minoshroom_trophy"
 			id: "04440BB2EFFD6DD9"
@@ -404,18 +404,18 @@
 					type: "item"
 				}
 			]
-			title: "Mighty Stroganoff"
+			title: "{atm9.quest.twilightForest.mightyStroganoff}"
 			x: 1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["04440BB2EFFD6DD9"]
 			description: [
-				"The infamous multi-headed beast from Greek Mythology."
+				"{atm9.quest.twilightForest.desc.hydra.1}"
 				""
-				"Ranged attacks aren't as effective, meaning you'll need to get up close and personal."
+				"{atm9.quest.twilightForest.desc.hydra.2}"
 				""
-				"Once defeated, you'll be able to find the next boss in the Dark Forest."
+				"{atm9.quest.twilightForest.desc.hydra.3}"
 			]
 			id: "7026E46FD8B3A81D"
 			rewards: [
@@ -430,24 +430,24 @@
 					type: "random"
 				}
 			]
-			subtitle: "Firey Swamp"
+			subtitle: "{atm9.quest.twilightForest.subt.fireySwamp}"
 			tasks: [{
 				id: "6D9D134621F8FA36"
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			title: "Hydra Slayer"
+			title: "{atm9.quest.twilightForest.hydraSlayer}"
 			x: 2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["7026E46FD8B3A81D"]
 			description: [
-				"Inside the Dark Forest, you'll find a structure that leads underground."
+				"{atm9.quest.twilightForest.desc.darkForestEntry.1}"
 				""
-				"To enter, you'll need to place one of the trophies you've acquired on the nearby pedestal."
+				"{atm9.quest.twilightForest.desc.darkForestEntry.2}"
 				""
-				"On the 3rd layer, you'll find the Knight Phantoms. Defeat these to unlock the next boss."
+				"{atm9.quest.twilightForest.desc.darkForestEntry.3}"
 			]
 			id: "3DCF26B53AE1EBF6"
 			rewards: [
@@ -462,26 +462,26 @@
 					type: "random"
 				}
 			]
-			subtitle: "The Darkest of Forests"
+			subtitle: "{atm9.quest.twilightForest.subt.darkestForests}"
 			tasks: [{
 				id: "4E03E4FCB1B4DE05"
 				item: "twilightforest:knight_phantom_trophy"
 				type: "item"
 			}]
-			title: "Entering the Dark Forest"
+			title: "{atm9.quest.twilightForest.enteringDarkForest}"
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3DCF26B53AE1EBF6"]
 			description: [
-				"Within the Dark Forest, you'll find the Dark Tower."
+				"{atm9.quest.twilightForest.desc.urGhastFight.1}"
 				""
-				"To enter, look for the reappearing blocks at the base. Find your way through the maze all the way to the final floor to fight the Ur-Ghast."
+				"{atm9.quest.twilightForest.desc.urGhastFight.2}"
 				""
-				"The Ur-Ghast is recommended to kill with a ranged weapon. There are 4 Ghast traps found on the boss floor, which can be used to damage the Ur-Ghast."
+				"{atm9.quest.twilightForest.desc.urGhastFight.3}"
 				""
-				"These are charged with Ghastling kills, then activating with redstone. You don't have to use them, but they can prove useful."
+				"{atm9.quest.twilightForest.desc.urGhastFight.4}"
 			]
 			id: "688C911ECFB2F134"
 			rewards: [
@@ -503,24 +503,24 @@
 					type: "random"
 				}
 			]
-			subtitle: "Dark Carmonite Tower"
+			subtitle: "{atm9.quest.twilightForest.subt.darkCarmoniteTower}"
 			tasks: [{
 				id: "64B931AE43EA1E92"
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			title: "Tears of Fire"
+			title: "{atm9.quest.twilightForest.tearsOfFire}"
 			x: 6.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["688C911ECFB2F134"]
 			description: [
-				"After defeating the Ur-Ghast, you'll unlock the Snowy Forest biomes."
+				"{atm9.quest.twilightForest.desc.snowyForestBiomes.1}"
 				""
-				"There are many creatures to fight, but to continue your progression, you'll need to kill the Alpha Yeti."
+				"{atm9.quest.twilightForest.desc.snowyForestBiomes.2}"
 				""
-				"You can find the Alpha Yeti in a massive Yeti cave. Defeat it to move on."
+				"{atm9.quest.twilightForest.desc.snowyForestBiomes.3}"
 				""
 			]
 			id: "31BB7EB95CE73C1A"
@@ -548,22 +548,22 @@
 				item: "twilightforest:alpha_yeti_fur"
 				type: "item"
 			}]
-			title: "To the Snow Biomes!"
+			title: "{atm9.quest.twilightForest.toTheSnowBiomes}"
 			x: 9.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["31BB7EB95CE73C1A"]
 			description: [
-				"Defeating the Alpha Yeti unlocks the Glacier biome. Here, you'll find cute little penguins and the Snow Queen."
+				"{atm9.quest.twilightForest.desc.glacierBiome.1}"
 				""
-				"At the top of the Aurora Palace, the Snow Queen will summon ice crystals to protect herself."
+				"{atm9.quest.twilightForest.desc.glacierBiome.2}"
 				""
-				"She'll also slam ice blocks down that destroy the floor and deal massive damage."
+				"{atm9.quest.twilightForest.desc.glacierBiome.3}"
 				""
-				"You'll only be able to hit her top half, as she's protected by ice blocks."
+				"{atm9.quest.twilightForest.desc.glacierBiome.4}"
 				""
-				"After defeating the Snow Queen, you'll unlock access to the Highlands."
+				"{atm9.quest.twilightForest.desc.glacierBiome.5}"
 			]
 			id: "6FD41DF7704466A4"
 			rewards: [
@@ -583,16 +583,16 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			title: "Clear Skies"
+			title: "{atm9.quest.twilightForest.clearSkies}"
 			x: 10.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["20436AFCC7E6855D"]
 			description: [
-				"With the Giant Pickaxe, you'll want to head back to Troll Caves to find Giant Obsidian."
+				"{atm9.quest.twilightForest.desc.giantPickaxe.1}"
 				""
-				"Use the Giant Pickaxe to break it, and you'll find some loot. You want to get the Lamp of Cinders to continue."
+				"{atm9.quest.twilightForest.desc.giantPickaxe.2}"
 				""
 				""
 			]
@@ -640,11 +640,11 @@
 		{
 			dependencies: ["58BD1063A19777DC"]
 			description: [
-				"With your Magic Beans and Uberous Soil, you'll want to look for a large cloud in the highland biomes."
+				"{atm9.quest.twilightForest.desc.magicBeans.1}"
 				""
-				"Plant the magic beans in the soil to grow a beanstalk all the way up. Here, you'll find the Giants."
+				"{atm9.quest.twilightForest.desc.magicBeans.2}"
 				""
-				"You'll need to kill the Miner Giant and get their pickaxe to continue on."
+				"{atm9.quest.twilightForest.desc.magicBeans.3}"
 			]
 			icon: {
 				Count: 1b
@@ -667,7 +667,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "The giants look like me, but are nothing LIKE me. "
+			subtitle: "{atm9.quest.twilightForest.subt.giants}"
 			tasks: [{
 				id: "671EEE3BD0D051FD"
 				item: {
@@ -684,7 +684,7 @@
 		}
 		{
 			dependencies: ["3531B28F14CF72A2"]
-			description: ["From the scales of the Naga, you can craft some armor. Not super strong, but looks nice."]
+			description: ["{atm9.quest.twilightForest.desc.nagaScaleArmor}"]
 			id: "4D4AB60B3B1CD437"
 			rewards: [
 				{
@@ -730,16 +730,16 @@
 					type: "item"
 				}
 			]
-			title: "Naga Scale Armor"
+			title: "{atm9.quest.twilightForest.nagaScaleArmor}"
 			x: -6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0107D516E038E0DB"]
 			description: [
-				"Do you want to be able to shoot Ender blasts like the Lich? This is the scepter for it."
+				"{atm9.quest.twilightForest.desc.lichScepter.1}"
 				""
-				"To recharge, combine it with an Ender Pearl in a crafting table."
+				"{atm9.quest.twilightForest.desc.lichScepter.2}"
 			]
 			id: "212EC1F41227184D"
 			rewards: [
@@ -774,9 +774,9 @@
 		{
 			dependencies: ["0107D516E038E0DB"]
 			description: [
-				"Using this Scepter, you can drain the life of your enemies!"
+				"{atm9.quest.twilightForest.desc.lifeDrainScepter.1}"
 				""
-				"To recharge the scepter, combine it with Fermented Spider Eyes in a crafting table."
+				"{atm9.quest.twilightForest.desc.lifeDrainScepter.2}"
 			]
 			id: "6CB1BFBA10DF24E4"
 			rewards: [
@@ -811,9 +811,9 @@
 		{
 			dependencies: ["0107D516E038E0DB"]
 			description: [
-				"Because who doesn't want to summon their own Zombies?"
+				"{atm9.quest.twilightForest.desc.zombieScepter.1}"
 				""
-				"To recharge, combine with Rotten Flesh in a crafting table."
+				"{atm9.quest.twilightForest.desc.zombieScepter.2}"
 			]
 			id: "3908F7C80154D9CA"
 			rewards: [
@@ -848,9 +848,9 @@
 		{
 			dependencies: ["0107D516E038E0DB"]
 			description: [
-				"This scepter summons shields around you for protection."
+				"{atm9.quest.twilightForest.desc.shieldScepter.1}"
 				""
-				"To recharge, combine with Golden Apples in a crafting table."
+				"{atm9.quest.twilightForest.desc.shieldScepter.2}"
 			]
 			id: "3371570F189DF994"
 			rewards: [
@@ -885,13 +885,13 @@
 		{
 			dependencies: ["0107D516E038E0DB"]
 			description: [
-				"It's time to go to the swamps! In the swamps, you'll find an odd-looking hill with an entrance on top. This is the Minoshroom Labyrinth!"
+				"{atm9.quest.twilightForest.desc.minoshroomLabyrinth.1}"
 				""
-				"Inside, you'll fight several new enemies that can drop the Maze Map Focus. This is needed to make a Maze Map."
+				"{atm9.quest.twilightForest.desc.minoshroomLabyrinth.2}"
 				""
-				"This is a special map that will map your way around the Minoshroom Labyrinth. Your minimap mod has no power here."
+				"{atm9.quest.twilightForest.desc.minoshroomLabyrinth.3}"
 				""
-				"You can also find several loot rooms with special loot for the Maze!"
+				"{atm9.quest.twilightForest.desc.minoshroomLabyrinth.4}"
 			]
 			icon: "twilightforest:maze_map"
 			id: "4B95D48D7525FFAD"
@@ -900,7 +900,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "I wonder if we'll find Shrek"
+			subtitle: "{atm9.quest.twilightForest.subt.shrek}"
 			tasks: [
 				{
 					id: "7AA9D1C39C51F20F"
@@ -914,7 +914,7 @@
 					type: "item"
 				}
 			]
-			title: "To the Swamps!"
+			title: "{atm9.quest.twilightForest.toTheSwamps}"
 			x: -1.5d
 			y: 1.0d
 		}
@@ -922,9 +922,9 @@
 			dependencies: ["4F66DF6B494BEFF3"]
 			dependency_requirement: "one_completed"
 			description: [
-				"This map is a must have for the Twilight Forest."
+				"{atm9.quest.twilightForest.desc.twilightForestMap.1}"
 				""
-				"Using a Blank Magic Map will give you a map that shows icons for nearby bosses and structures."
+				"{atm9.quest.twilightForest.desc.twilightForestMap.2}"
 			]
 			id: "0990D6CEE042F44E"
 			optional: true
@@ -944,9 +944,9 @@
 		{
 			dependencies: ["4193303999597249"]
 			description: [
-				"This is slightly stronger than Naga armor, and comes fully enchanted."
+				"{atm9.quest.twilightForest.desc.steeleafArmor.1}"
 				""
-				"You can make these by finding &6Steeleaf&r within the Twilight Forest."
+				"{atm9.quest.twilightForest.desc.steeleafArmor.2}"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -1028,16 +1028,16 @@
 					type: "item"
 				}
 			]
-			title: "Steeleaf Armor"
+			title: "{atm9.quest.twilightForest.steeleafArmor}"
 			x: 8.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4193303999597249"]
 			description: [
-				"This armor can be crafted using &9Ironwood&r."
+				"{atm9.quest.twilightForest.desc.ironwoodArmor.1}"
 				""
-				"This armor comes automatically enchanted as well."
+				"{atm9.quest.twilightForest.desc.ironwoodArmor.2}"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -1119,16 +1119,16 @@
 					type: "item"
 				}
 			]
-			title: "Ironwood Armor"
+			title: "{atm9.quest.twilightForest.ironwoodArmor}"
 			x: 5.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7026E46FD8B3A81D"]
 			description: [
-				"The Hyrda drops Fiery Blood that can be used to craft Fiery armor."
+				"{atm9.quest.twilightForest.desc.fieryArmor.1}"
 				""
-				"When wearing the full set, enemies that attack you will be set on fire for 10 seconds."
+				"{atm9.quest.twilightForest.desc.fieryArmor.2}"
 			]
 			id: "1FF5906DF721D091"
 			rewards: [
@@ -1196,13 +1196,13 @@
 					type: "item"
 				}
 			]
-			title: "Fiery Armor"
+			title: "{atm9.quest.twilightForest.fieryArmor}"
 			x: 1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3DCF26B53AE1EBF6"]
-			description: ["Chance of being found in Phantom Knight chests."]
+			description: ["{atm9.quest.twilightForest.desc.phantomKnightChests}"]
 			id: "0A207A437AF153AA"
 			rewards: [
 				{
@@ -1246,7 +1246,7 @@
 		}
 		{
 			dependencies: ["3DCF26B53AE1EBF6"]
-			description: ["Crafted or found in the Phantom Knight's chests."]
+			description: ["{atm9.quest.twilightForest.desc.phantomKnightChest.1}"]
 			id: "25906B43A198B72F"
 			rewards: [
 				{
@@ -1307,16 +1307,16 @@
 					type: "item"
 				}
 			]
-			title: "Knightmetal Armor"
+			title: "{atm9.quest.twilightForest.knightmetalArmor}"
 			x: 3.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4193303999597249"]
 			description: [
-				"Find the Questing Ram, for it bestows wealth to those who give it Rainbow Wool (16 colors)"
+				"{atm9.quest.twilightForest.desc.questingRam.1}"
 				""
-				"Hint: There's a dispenser above your head in the ruins where the Ram is. It might prove useful."
+				"{atm9.quest.twilightForest.desc.questingRam.2}"
 			]
 			hide: true
 			id: "4DA0725E089D7C91"
@@ -1331,16 +1331,16 @@
 				item: "twilightforest:quest_ram_trophy"
 				type: "item"
 			}]
-			title: "Ramification"
+			title: "{atm9.quest.twilightForest.ramification}"
 			x: -7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4193303999597249"]
 			description: [
-				"This is a single-use item that will prevent death. Instead of dying, the charm will be consumed and you'll be given health regen for a short period of time."
+				"{atm9.quest.twilightForest.desc.charmOfLife.1}"
 				""
-				"These are found in loot chests."
+				"{atm9.quest.twilightForest.desc.charmOfLife.2}"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -1368,7 +1368,7 @@
 		}
 		{
 			dependencies: ["6F67079A453DAABE"]
-			description: ["Just like the Charm of Life I, this item is consumed to prevent your death. When consumed, you'll regen all of your health and be given Regen IV, Resistance, and Fire Resistance for 30 seconds."]
+			description: ["{atm9.quest.twilightForest.desc.charmOfLifeII.1}"]
 			hide: true
 			id: "15006CF73F8CAB7C"
 			rewards: [
@@ -1396,7 +1396,7 @@
 		}
 		{
 			dependencies: ["4B95D48D7525FFAD"]
-			description: ["This item will prevent you from losing the items in your main and off-hand, as well as your armor when you die."]
+			description: ["{atm9.quest.twilightForest.desc.deathProtection.1}"]
 			id: "610F9E9D0B5131C7"
 			rewards: [{
 				id: "4CA93BA5E85DAA73"
@@ -1414,7 +1414,7 @@
 		}
 		{
 			dependencies: ["610F9E9D0B5131C7"]
-			description: ["This item will let you keep your armor and hotbar when you die."]
+			description: ["{atm9.quest.twilightForest.desc.deathProtection.2}"]
 			id: "4665E6FD0AAED164"
 			rewards: [{
 				id: "5BAC92C56DB3B58E"
@@ -1432,7 +1432,7 @@
 		}
 		{
 			dependencies: ["4665E6FD0AAED164"]
-			description: ["This item will let you keep all of your items in your inventory when you die."]
+			description: ["{atm9.quest.twilightForest.desc.deathProtection.3}"]
 			id: "3A3ED88027331A6C"
 			rewards: [
 				{
@@ -1467,7 +1467,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "A Glorified Leafblower"
+			subtitle: "{atm9.quest.twilightForest.subt.glorifiedLeafblower}"
 			tasks: [{
 				id: "13C31B864EC1DE9B"
 				item: {
@@ -1484,7 +1484,7 @@
 		}
 		{
 			dependencies: ["31BB7EB95CE73C1A"]
-			description: ["Crafted from Alpha Yeti Fur."]
+			description: ["{atm9.quest.twilightForest.desc.alphaYetiFur.1}"]
 			id: "3C8724C3A9459507"
 			rewards: [
 				{
@@ -1573,13 +1573,13 @@
 					type: "item"
 				}
 			]
-			title: "Yeti Armor"
+			title: "{atm9.quest.twilightForest.yetiArmor}"
 			x: 9.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["31BB7EB95CE73C1A"]
-			description: ["Small Yetis and Winter Wolves drop fur to make this armor."]
+			description: ["{atm9.quest.twilightForest.desc.yetiArmor.1}"]
 			id: "2A0B3C91D72E8B75"
 			rewards: [
 				{
@@ -1593,7 +1593,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Dyable!"
+			subtitle: "{atm9.quest.twilightForest.subt.dyable}"
 			tasks: [
 				{
 					id: "74DE768958A1DF0E"
@@ -1640,16 +1640,16 @@
 					type: "item"
 				}
 			]
-			title: "Arctic Armor"
+			title: "{atm9.quest.twilightForest.arcticArmor}"
 			x: 8.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4B95D48D7525FFAD"]
 			description: [
-				"A special pickaxe rarely found in Labyrinths."
+				"{atm9.quest.twilightForest.desc.specialPickaxe.1}"
 				""
-				"This pick will take 1 damage when breaking Maze walls, instead of the 16 damage for all other picks!"
+				"{atm9.quest.twilightForest.desc.specialPickaxe.2}"
 			]
 			id: "51BC981AB4CFAD95"
 			rewards: [{
@@ -1658,7 +1658,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "Trapped chamber, do not enter?"
+			subtitle: "{atm9.quest.twilightForest.subt.trappedChamber}"
 			tasks: [{
 				id: "37FB4455E15C55FF"
 				item: {
@@ -1689,7 +1689,7 @@
 		}
 		{
 			dependencies: ["6FD41DF7704466A4"]
-			description: ["Dropped from the Snow Queen, this bow shoots 3 arrows at the same time, while only using 1."]
+			description: ["{atm9.quest.twilightForest.desc.tripleShotBow.1}"]
 			id: "53A79338994088FD"
 			rewards: [{
 				id: "4998E36C6161772B"
@@ -1712,7 +1712,7 @@
 		}
 		{
 			dependencies: ["6FD41DF7704466A4"]
-			description: ["Dropped from the Snow Queen, this bow will shoot arrows that home in on your targets. No more missing!"]
+			description: ["{atm9.quest.twilightForest.desc.homingBow.1}"]
 			id: "7509E4093010EA4C"
 			rewards: [{
 				id: "61308BB9F304D0E4"
@@ -1735,7 +1735,7 @@
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: ["Found randomly in loot chests, this bow will inflict Slowness III for 10 seconds on hit."]
+			description: ["{atm9.quest.twilightForest.desc.slownessBow.1}"]
 			hide: true
 			hide_dependency_lines: true
 			id: "49EE6D2A3684A510"
@@ -1762,9 +1762,9 @@
 		{
 			dependencies: ["4193303999597249"]
 			description: [
-				"This bow is rarely found in the Aurora Palace."
+				"{atm9.quest.twilightForest.desc.swapBow.1}"
 				""
-				"When an enemy is hit from this bow, you will swap places with them. Be careful shooting things out of the sky!"
+				"{atm9.quest.twilightForest.desc.swapBow.2}"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -1792,9 +1792,9 @@
 		{
 			dependencies: ["4193303999597249"]
 			description: [
-				"A Magnet that can pull up anything with Ore in name, except Coal."
+				"{atm9.quest.twilightForest.desc.magnet.1}"
 				""
-				"This is found in Hollow Hill chests."
+				"{atm9.quest.twilightForest.desc.magnet.2}"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -1822,11 +1822,11 @@
 		{
 			dependencies: ["4193303999597249"]
 			description: [
-				"A sword that deals 40 hearts of damage, but only has 1 durability."
+				"{atm9.quest.twilightForest.desc.oneHitSword.1}"
 				""
-				"You can make this indestructible if you want to use this."
+				"{atm9.quest.twilightForest.desc.oneHitSword.2}"
 				""
-				"These are rarely found in loot chests in the Aurora Palace."
+				"{atm9.quest.twilightForest.desc.oneHitSword.3}"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -1853,7 +1853,7 @@
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: ["Found in the Aurora Palace, this sword will give enemies Frosted for 10 seconds when attacked."]
+			description: ["{atm9.quest.twilightForest.desc.frostedSword.1}"]
 			hide: true
 			hide_dependency_lines: true
 			id: "78CE2ECEF0B651DA"
@@ -1880,9 +1880,9 @@
 		{
 			dependencies: ["4193303999597249"]
 			description: [
-				"This item is like a torch launcher. It launches &6Moonworms&r at the targeted block, which light up the block similar to a torch."
+				"{atm9.quest.twilightForest.desc.moonwormLauncher.1}"
 				""
-				"You can find this in some Hollow Hill and Lich Tower treasure chests."
+				"{atm9.quest.twilightForest.desc.moonwormLauncher.2}"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -1910,11 +1910,11 @@
 		{
 			dependencies: ["4193303999597249"]
 			description: [
-				"Want to make the Overworld feel more like the Twilight Forest?"
+				"{atm9.quest.twilightForest.desc.overworldPowder.1}"
 				""
-				"You can use this powder on Overworld animals to convert them into their Twilight Forest variants."
+				"{atm9.quest.twilightForest.desc.overworldPowder.2}"
 				""
-				"You can find this in dungeon chests in the Twilight Forest."
+				"{atm9.quest.twilightForest.desc.overworldPowder.3}"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -1948,7 +1948,7 @@
 		}
 		{
 			dependencies: ["57940981E8DE55D4"]
-			description: ["Combining a Raven Feather with Torchberries and Glowstone will give you a Magic Map Focus."]
+			description: ["{atm9.quest.twilightForest.desc.magicMapFocus.1}"]
 			icon: "twilightforest:magic_map_focus"
 			id: "4F66DF6B494BEFF3"
 			rewards: [
@@ -1975,11 +1975,11 @@
 		{
 			dependencies: ["7026E46FD8B3A81D"]
 			description: [
-				"Using the Fiery Blood from the Hydra, you can make several tools."
+				"{atm9.quest.twilightForest.desc.fieryTools.1}"
 				""
-				"The Fiery Sword comes with Fire Aspect II when crafted."
+				"{atm9.quest.twilightForest.desc.fieryTools.2}"
 				""
-				"The Fiery Pickaxe comes with auto-smelt."
+				"{atm9.quest.twilightForest.desc.fieryTools.3}"
 			]
 			id: "111F2EE85FB0A455"
 			rewards: [
@@ -2030,7 +2030,7 @@
 		}
 		{
 			dependencies: ["04440BB2EFFD6DD9"]
-			description: ["This is a drop from the Minoshroom. It deals more damage when sprinting."]
+			description: ["{atm9.quest.twilightForest.desc.minoshroomAxe.1}"]
 			id: "730AF9210F00018E"
 			rewards: [{
 				id: "5D4F5E0EFB90BB72"
@@ -2131,16 +2131,16 @@
 					type: "item"
 				}
 			]
-			title: "Knightmetal Tools"
+			title: "{atm9.quest.twilightForest.knightmetalTools}"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["688C911ECFB2F134"]
 			description: [
-				"&9Reappearing Blocks&r are like really cool doors. Once right-clicked, they'll disappear for a short time."
+				"{atm9.quest.twilightForest.desc.reappearingBlocks.1}"
 				""
-				"The &6Vanishing Blocks&r will disappear when right-clicked, but they don't come back."
+				"{atm9.quest.twilightForest.desc.vanishingBlocks.1}"
 			]
 			id: "01748C2CD9C97523"
 			rewards: [
@@ -2181,9 +2181,9 @@
 		{
 			dependencies: ["688C911ECFB2F134"]
 			description: [
-				"The &9Carminite Builder&r, when powered with a redstone signal, will generate temporary blocks in the direction the signal came from."
+				"{atm9.quest.twilightForest.desc.carminiteBuilder.1}"
 				""
-				"The &6Carminite Reactor&r will convert nearby Obsidian and Netherack into False Gold and False Diamond. After a short period of time, this will suck up nearby blocks and explode, creating Carminite Ghastlings around it."
+				"{atm9.quest.twilightForest.desc.carminiteReactor.1}"
 			]
 			id: "7B4A687EB505C2FF"
 			rewards: [
@@ -2219,9 +2219,9 @@
 		{
 			dependencies: ["6FD41DF7704466A4"]
 			description: [
-				"Once you've unlocked the Highland biome, head over and find some trolls to kill."
+				"{atm9.quest.twilightForest.desc.highlandBiome.1}"
 				""
-				"They can drop some &9Magic Beans&r. You'll also find chests that give you Uberus Soil, which is needed to grow the beans."
+				"{atm9.quest.twilightForest.desc.highlandBiome.2}"
 			]
 			id: "58BD1063A19777DC"
 			rewards: [
@@ -2249,16 +2249,16 @@
 					type: "item"
 				}
 			]
-			title: "Visiting the Giants"
+			title: "{atm9.quest.twilightForest.visitingGiants}"
 			x: 12.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5CBA8C89FE717B9C"]
 			description: [
-				"Using the Lamp of Cinders, you will now be able to break the thorns in the Thornland Biome."
+				"{atm9.quest.twilightForest.desc.thornlandBiome.1}"
 				""
-				"Gather some Thorn Roses to continue on to the Final Plateau."
+				"{atm9.quest.twilightForest.desc.thornlandBiome.2}"
 			]
 			id: "2951B1D7080C5EF9"
 			rewards: [
@@ -2285,7 +2285,7 @@
 				item: "twilightforest:thorn_rose"
 				type: "item"
 			}]
-			title: "Every Thorn has its Rose"
+			title: "{atm9.quest.twilightForest.everyThornHasItsRose}"
 			x: 10.5d
 			y: 5.5d
 		}

@@ -7,7 +7,7 @@
 	images: [
 		{
 			height: 0.3d
-			hover: ["Needed for the ATM Star"]
+			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -94,11 +94,11 @@
 	quests: [
 		{
 			description: [
-				"Welcome to &cBlood Magic&f!"
+				"{atm9.quest.bloodMagic.desc.welcome.1}"
 				""
-				"This mod is all about using the Blood of your enemies (or yourself) to create powerful items and networks!"
+				"{atm9.quest.bloodMagic.desc.welcome.2}"
 				""
-				"The guidebook contains all of the information about the mod if you ever need any help."
+				"{atm9.quest.bloodMagic.desc.welcome.3}"
 			]
 			icon: {
 				Count: 1b
@@ -130,25 +130,25 @@
 			size: 1.5d
 			tasks: [{
 				id: "27529E8EA019A89A"
-				title: "Blood Magic"
+				title: "{atm9.quest.bloodMagic.bloodMagic}"
 				type: "checkmark"
 			}]
-			title: "Welcome to &cBlood Magic!"
+			title: "{atm9.quest.bloodMagic.welcomeToBloodMagic}"
 			x: -30.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3A9B90A453C933C4"]
 			description: [
-				"To get started with Blood Magic, we'll need to collect some blood."
+				"{atm9.quest.bloodMagic.desc.gettingStarted.1}"
 				""
-				"To do this, we'll need to craft the &dSacrificial Knife&r and the &4Blood Altar&r. "
+				"{atm9.quest.bloodMagic.desc.gettingStarted.2}"
 				""
-				"Go ahead and place the Altar somewhere with plenty of space around it. We might want to expand on it more in the future."
+				"{atm9.quest.bloodMagic.desc.gettingStarted.3}"
 				""
-				"To acquire blood, stand by the Altar and... well... use the knife. You'll take a little damage, but &oit's for the cause&r."
+				"{atm9.quest.bloodMagic.desc.gettingStarted.4}"
 				""
-				"Each stab will generate around 200 LP."
+				"{atm9.quest.bloodMagic.desc.gettingStarted.5}"
 			]
 			icon: "bloodmagic:altar"
 			id: "3DA7D0BA045CE7AB"
@@ -183,16 +183,16 @@
 					type: "item"
 				}
 			]
-			title: "Collecting &cBlood"
+			title: "{atm9.quest.bloodMagic.collectingBlood}"
 			x: -28.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3DA7D0BA045CE7AB"]
 			description: [
-				"We'll want to infuse Life Essence (aka LP or Blood) into some stone."
+				"{atm9.quest.bloodMagic.desc.infusingLifeEssence.1}"
 				""
-				"Placing stone in the Altar with 1000 LP inside will create Blank Slates. You'll need a lot of these."
+				"{atm9.quest.bloodMagic.desc.infusingLifeEssence.2}"
 			]
 			id: "6AAB831CB3FB536A"
 			rewards: [
@@ -214,20 +214,20 @@
 				item: "bloodmagic:blankslate"
 				type: "item"
 			}]
-			title: "Making Slates"
+			title: "{atm9.quest.bloodMagic.makingSlates}"
 			x: -26.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6AAB831CB3FB536A"]
 			description: [
-				"To craft even more items using blood, we'll want to upgrade our altar by surrounding it in &9Blank Runes&r."
+				"{atm9.quest.bloodMagic.desc.upgradingAltar.1}"
 				""
-				"If you want, you can replace the Blank Runes in each of the cardinal directions to runes like the &6Speed Rune&r. These runes can affect how the Altar functions."
+				"{atm9.quest.bloodMagic.desc.upgradingAltar.2}"
 				""
-				"Below is an example of how you'd build a Tier 2 Altar, but you can also visualize it in the guidebook."
+				"{atm9.quest.bloodMagic.desc.upgradingAltar.3}"
 				""
-				"Note: Speed Runes are the only runes available (besides Blank Runes) until you make a Tier 2 Altar, but can be replaced later on."
+				"{atm9.quest.bloodMagic.desc.upgradingAltar.4}"
 				""
 			]
 			icon: "bloodmagic:altar"
@@ -254,13 +254,13 @@
 				item: "bloodmagic:blankrune"
 				type: "item"
 			}]
-			title: "Upgrading Our Altar to Tier 2"
+			title: "{atm9.quest.bloodMagic.upgradingAltarTier2}"
 			x: -24.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4B51189C36B8D291"]
-			description: ["With our Altar now at Tier 2, we can make even better Runes. We'll need some Reinforced slate to continue our journey in Blood Magic, including doing some Rituals. "]
+			description: ["{atm9.quest.bloodMagic.desc.upgradeJourney.1}"]
 			id: "2C3CA7B9D1A7DC47"
 			rewards: [
 				{
@@ -286,13 +286,13 @@
 		{
 			dependencies: ["3DA7D0BA045CE7AB"]
 			description: [
-				"The &9Weak Blood Orb&r is used to store blood (or LP). It can be used as a way to transport blood to and from Altars. It also is used in several crafting recipes."
+				"{atm9.quest.bloodMagic.desc.weakBloodOrbFeatures.1}"
 				""
-				"To craft this, you'll need to place a diamond on top of the Blood Altar, then generate enough LP to craft it."
+				"{atm9.quest.bloodMagic.desc.weakBloodOrbFeatures.2}"
 				""
-				"To charge a Blood Orb, you can right-click to sacrifice some of your health to the Orb. This also links your Soul to your Soul Network. :)"
+				"{atm9.quest.bloodMagic.desc.weakBloodOrbFeatures.3}"
 				""
-				"You can also place the Orb in a Blood Altar that has some LP in it. It'll drain faster the more Speed Runes it has."
+				"{atm9.quest.bloodMagic.desc.weakBloodOrbFeatures.4}"
 			]
 			id: "5BF29A151A04FEF0"
 			rewards: [{
@@ -302,24 +302,24 @@
 				type: "loot"
 			}]
 			shape: "hexagon"
-			subtitle: "Holds a max of 5k LP"
+			subtitle: "{atm9.quest.bloodMagic.subt.weakBloodOrbCapacity}"
 			tasks: [{
 				id: "65E0BEE90716B68C"
 				item: "bloodmagic:weakbloodorb"
 				type: "item"
 			}]
-			title: "Portable Blood Storage"
+			title: "{atm9.quest.bloodMagic.portableBloodStorage}"
 			x: -28.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["375FF0D8ACD2E17F"]
 			description: [
-				"With our Tier 3 Altar, we can start performing Rituals."
+				"{atm9.quest.bloodMagic.desc.ritualPreparation.1}"
 				""
-				"Rituals require a Master Ritual Stone and enough regular Ritual Stones to create."
+				"{atm9.quest.bloodMagic.desc.ritualPreparation.2}"
 				""
-				"Start by crafting a bunch of Ritual Stones as well as a Master Ritual Stone. These are the basic blocks we'll need to start doing rituals."
+				"{atm9.quest.bloodMagic.desc.ritualPreparation.3}"
 			]
 			icon: "bloodmagic:masterritualstone"
 			id: "4578C0EE82F66BD9"
@@ -349,13 +349,13 @@
 					type: "item"
 				}
 			]
-			title: "Tier I Rituals"
+			title: "{atm9.quest.bloodMagic.tier1Rituals}"
 			x: -18.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
-			description: ["This rune increases the amount of LP gained from taking blood away from non-player entities. Each one gives a bonus of 10% additively per rune."]
+			description: ["{atm9.quest.bloodMagic.desc.lpBonusFromRune.1}"]
 			id: "08F28A9E4DEA7CD0"
 			rewards: [
 				{
@@ -382,13 +382,13 @@
 		{
 			dependencies: ["4B51189C36B8D291"]
 			description: [
-				"Now you can stab others to use their Blood instead!"
+				"{atm9.quest.bloodMagic.desc.altarMobSacrifice.1}"
 				""
-				"Stabbing any mob within 2 blocks of your Altar with one of these will insta-kill them and drain their LP into your Altar!"
+				"{atm9.quest.bloodMagic.desc.altarMobSacrifice.2}"
 				""
-				"If you have Runes of Sacrifice around your Altar, you'll get more per kill."
+				"{atm9.quest.bloodMagic.desc.altarMobSacrifice.3}"
 				""
-				"I'm also totally not giving you 16 eggs for you to potentially get chickens for blood. Totally just for cooking. "
+				"{atm9.quest.bloodMagic.desc.altarMobSacrifice.4}"
 			]
 			id: "5361F72BAB72D318"
 			rewards: [
@@ -411,7 +411,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Tired of Stabbing Yourself?"
+			subtitle: "{atm9.quest.bloodMagic.subt.stabbingAlternative}"
 			tasks: [{
 				id: "5D7178C2EF652773"
 				item: "bloodmagic:daggerofsacrifice"
@@ -426,9 +426,9 @@
 				"506D48AD9FB2E89D"
 			]
 			description: [
-				"The &4Hellfire Forge&r is one of the main blocks needed for creating certain items in Blood Magic."
+				"{atm9.quest.bloodMagic.desc.hellfireForgeIntro.1}"
 				""
-				"It is powered by &dDemon Will&r, and can be used to create several items including the &bSentient Sword&r."
+				"{atm9.quest.bloodMagic.desc.hellfireForgeIntro.2}"
 			]
 			id: "7BA086472D87D705"
 			rewards: [
@@ -451,16 +451,16 @@
 				item: "bloodmagic:soulforge"
 				type: "item"
 			}]
-			title: "&4Hellfire Forge&r"
+			title: "{atm9.quest.bloodMagic.hellfireForge}"
 			x: -27.0d
 			y: -3.959183673469383d
 		}
 		{
 			dependencies: ["11D37E7391B49A88"]
 			description: [
-				"We can't use Soul Snares forever."
+				"{atm9.quest.bloodMagic.desc.sentientSwordIntro.1}"
 				""
-				"The Sentient Sword allows you to collect Demon Will a lot easier. Simply kill a hostile mob with the sword, and the mob will drop Demon Will."
+				"{atm9.quest.bloodMagic.desc.sentientSwordIntro.2}"
 			]
 			id: "7C8D74692C963000"
 			rewards: [
@@ -488,20 +488,20 @@
 				}
 				type: "item"
 			}]
-			title: "The Sentient Sword"
+			title: "{atm9.quest.bloodMagic.sentientSword}"
 			x: -27.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["7BA086472D87D705"]
 			description: [
-				"Demon Will stacks up very quickly in your inventory."
+				"{atm9.quest.bloodMagic.desc.demonicWillStorage.1}"
 				""
-				"We're going to need a lot of it, so we'll need to create a way to store all of it. Creating a &9Tartaric Gem&r is just what we need."
+				"{atm9.quest.bloodMagic.desc.demonicWillStorage.2}"
 				""
-				"The &bPetty Tartaric Gem&r is what we'll spend our first Demon Will on. This will store up to a maximum of 64 Will."
+				"{atm9.quest.bloodMagic.desc.demonicWillStorage.3}"
 				""
-				"Note: If you drop any Demon Will you have in your inventory, the Gem will absorb it into its storage."
+				"{atm9.quest.bloodMagic.desc.demonicWillStorage.4}"
 			]
 			id: "11D37E7391B49A88"
 			rewards: [
@@ -527,13 +527,13 @@
 				}
 				type: "item"
 			}]
-			title: "Storing Demonic Will"
+			title: "{atm9.quest.bloodMagic.storingDemonicWill}"
 			x: -27.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["11D37E7391B49A88"]
-			description: ["An upgrade to our Will storage. This will hold a max of 256 Will."]
+			description: ["{atm9.quest.bloodMagic.desc.willStorageUpgrade.1}"]
 			id: "487275B970530E3F"
 			rewards: [
 				{
@@ -563,7 +563,7 @@
 		}
 		{
 			dependencies: ["487275B970530E3F"]
-			description: ["This will hold a max of 1024 Will."]
+			description: ["{atm9.quest.bloodMagic.desc.willStorageUpgrade.2}"]
 			id: "626C07DB8B8C5A04"
 			rewards: [
 				{
@@ -595,7 +595,7 @@
 		}
 		{
 			dependencies: ["626C07DB8B8C5A04"]
-			description: ["This is the maximum storage item for Demon Will, and will hold 4096 Will max."]
+			description: ["{atm9.quest.bloodMagic.desc.willStorageUpgrade.3}"]
 			id: "20458B8987CD6CB9"
 			rewards: [
 				{
@@ -628,9 +628,9 @@
 		{
 			dependencies: ["5886C648D14180E1"]
 			description: [
-				"Combing Reinforced Slate with some blood in our new Altar will give us Imbued Slates."
+				"{atm9.quest.bloodMagic.desc.imbuedSlates.1}"
 				""
-				"This is the next upgrade for our Blood Magic journey."
+				"{atm9.quest.bloodMagic.desc.imbuedSlates.2}"
 			]
 			id: "375FF0D8ACD2E17F"
 			rewards: [
@@ -656,7 +656,7 @@
 		}
 		{
 			dependencies: ["375FF0D8ACD2E17F"]
-			description: ["This rune increases the total capacity of the Altar by 20% for each Capacity rune."]
+			description: ["{atm9.quest.bloodMagic.desc.capacityRuneIncrease.1}"]
 			id: "0B2B8247DA280E90"
 			rewards: [{
 				id: "7CF045B2A95086EB"
@@ -674,7 +674,7 @@
 		}
 		{
 			dependencies: ["375FF0D8ACD2E17F"]
-			description: ["Increases the flow rate of LP in and out of the Altar when pumping to and from an external tank by 20% per rune."]
+			description: ["{atm9.quest.bloodMagic.desc.lpFlowRateIncrease.1}"]
 			id: "47B985B56C582D6A"
 			rewards: [{
 				id: "31EA9D6A3290C38D"
@@ -693,9 +693,9 @@
 		{
 			dependencies: ["431C44439CA54077"]
 			description: [
-				"The last piece of Slate that has any use..."
+				"{atm9.quest.bloodMagic.desc.finalSlateUse.1}"
 				""
-				"yet."
+				"{atm9.quest.bloodMagic.desc.finalSlateUse.2}"
 			]
 			id: "7CA3AE708F46CEBF"
 			rewards: [
@@ -727,7 +727,7 @@
 		}
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
-			description: ["This rune increases the capacity of the Altar by a multiplicative amount of 7.5% per rune. These apply after regular Capacity Runes."]
+			description: ["{atm9.quest.bloodMagic.desc.altarCapacityMultiplicativeIncrease.1}"]
 			id: "6C0D4CBC089988ED"
 			rewards: [{
 				id: "2A8726C8BB765154"
@@ -746,11 +746,11 @@
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
 			description: [
-				"This rune creates a 1000LP internal buffer whenever the Altar is not being used for crafting or filling blood orbs."
+				"{atm9.quest.bloodMagic.desc.internalBufferCreation.1}"
 				""
-				"Whenever an item is placed inside of the altar, it will instantly consume the stored charge and apply it to the item."
+				"{atm9.quest.bloodMagic.desc.internalBufferCreation.2}"
 				""
-				"No more waiting once placed!"
+				"{atm9.quest.bloodMagic.desc.internalBufferCreation.3}"
 			]
 			id: "6C57FF70679AF123"
 			rewards: [{
@@ -769,7 +769,7 @@
 		}
 		{
 			dependencies: ["2214B7DCE4075A02"]
-			description: ["You are too powerful."]
+			description: ["{atm9.quest.bloodMagic.desc.tooPowerful}"]
 			id: "396AA75774059D0B"
 			optional: true
 			rewards: [
@@ -796,9 +796,9 @@
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
 			description: [
-				"This rune accelerates the operations of other runes, like the Charging or Displacement Rune."
+				"{atm9.quest.bloodMagic.desc.runeOperationAcceleration.1}"
 				""
-				"It removes 1 tick of delay per rune, down to a minimum of 1 operation per tick."
+				"{atm9.quest.bloodMagic.desc.runeOperationAcceleration.2}"
 			]
 			id: "0EE2D22A577D10B0"
 			rewards: [{
@@ -818,11 +818,11 @@
 		{
 			dependencies: ["0E8418B42A744030"]
 			description: [
-				"Tau Fruit can be obtained from loot chests within the Hidden Realm. You'll need this to upgrade your Altar even further!"
+				"{atm9.quest.bloodMagic.desc.tauFruitUsage.1}"
 				""
-				"Once collected, the fruit can be planted to farm it. However, it has 2 potential products instead of one."
+				"{atm9.quest.bloodMagic.desc.tauFruitUsage.2}"
 				""
-				"Growing the fruit naturally will result in more Tau Fruit, which can be turned into Oil. But what if we give it some blood......"
+				"{atm9.quest.bloodMagic.desc.tauFruitUsage.3}"
 			]
 			id: "50A28E1946047A6E"
 			rewards: [{
@@ -841,9 +841,9 @@
 		{
 			dependencies: ["50A28E1946047A6E"]
 			description: [
-				"Just like everything in this pack, &cthe fruit thirsts for blood&r. Plant the fruit and force a mob on top of it."
+				"{atm9.quest.bloodMagic.desc.fruitThirsts.1}"
 				""
-				"It will drain the life force of the mob to become Saturated Tau."
+				"{atm9.quest.bloodMagic.desc.fruitThirsts.2}"
 			]
 			id: "5E2D15E4A410B5DA"
 			rewards: [
@@ -870,9 +870,9 @@
 		{
 			dependencies: ["375FF0D8ACD2E17F"]
 			description: [
-				"While not fully implemented yet, the &6Alchemical Reaction Chamber&r functions like a Furnace."
+				"{atm9.quest.bloodMagic.desc.alchemicalChamber.1}"
 				""
-				"This is currently the only way to obtain &cWeak Blood Shards&r, which we'll need to upgrade our Altar."
+				"{atm9.quest.bloodMagic.desc.alchemicalChamber.2}"
 			]
 			id: "308581359FEF32E9"
 			rewards: [
@@ -905,7 +905,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "Holds a max of 150k LP"
+			subtitle: "{atm9.quest.bloodMagic.subt.lp150k}"
 			tasks: [{
 				id: "7BB6F203FCA31A25"
 				item: "bloodmagic:magicianbloodorb"
@@ -931,7 +931,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Holds a max of 1M LP"
+			subtitle: "{atm9.quest.bloodMagic.subt.lp1M}"
 			tasks: [{
 				id: "2F13F6D6E170BBEC"
 				item: "bloodmagic:masterbloodorb"
@@ -946,11 +946,11 @@
 				"308581359FEF32E9"
 			]
 			description: [
-				"Hopefully by this point, you've been stocking up on some Demon Will with a Sentient Sword. If not, make sure to go and grab that part of the questline!"
+				"{atm9.quest.bloodMagic.desc.demonWillStock.1}"
 				""
-				"With our Saturated Tau and our Alchemical Reaction Chamber, we can make the required materials to upgrade our Altar and Blood Orb, the &4Weak Blood Shard&r."
+				"{atm9.quest.bloodMagic.desc.demonWillStock.2}"
 				""
-				"This does require the Sanguine Reverter, which takes a couple of upgrades to your Tartaric Gem."
+				"{atm9.quest.bloodMagic.desc.demonWillStock.3}"
 				""
 			]
 			id: "25343A0C4C22AA60"
@@ -1002,9 +1002,9 @@
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
 			description: [
-				"Now we'll need to make the Dusk version of the Ritual Diviner."
+				"{atm9.quest.bloodMagic.desc.duskRitualDiviner}"
 				""
-				"This gives us access to even more rituals, including the ritual that gets us to the Demon Realm. "
+				"{atm9.quest.bloodMagic.desc.duskRitualDiviner.2}"
 			]
 			id: "263925A79EBB270F"
 			rewards: [
@@ -1039,18 +1039,18 @@
 					type: "item"
 				}
 			]
-			title: "Tier II rituals"
+			title: "{atm9.quest.bloodMagic.tierIIRituals}"
 			x: -12.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3DA7D0BA045CE7AB"]
 			description: [
-				"Before we can craft the &cHellfire Forge&r, we'll need a way to power it by acquiring &bDemon Will&r."
+				"{atm9.quest.bloodMagic.desc.collectingDemonicWill.1}"
 				""
-				"To start collecting it, we'll need to create some &dSoul Snares&r that we can use on mobs."
+				"{atm9.quest.bloodMagic.desc.collectingDemonicWill.2}"
 				""
-				"Once you use a few of these on a mob, white particles will appear around them. Slay them, and you'll acquire Demonic Will."
+				"{atm9.quest.bloodMagic.desc.collectingDemonicWill.3}"
 			]
 			id: "506D48AD9FB2E89D"
 			rewards: [
@@ -1087,16 +1087,16 @@
 					type: "item"
 				}
 			]
-			title: "Collecting Demonic Will"
+			title: "{atm9.quest.bloodMagic.collectingDemonicWill}"
 			x: -28.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["6AAB831CB3FB536A"]
 			description: [
-				"The &9Alchemy Table&r can craft various objects, catalysts, and more by using LP from a player's Soul Network (aka using a Blood Orb)."
+				"{atm9.quest.bloodMagic.desc.alchemyTable.1}"
 				""
-				"This table can also convert many things, like Rotten Flesh to Leather, Wool to String, etc. It's pretty useful!"
+				"{atm9.quest.bloodMagic.desc.alchemyTable.2}"
 			]
 			id: "7CC2D826CA6BBDDB"
 			rewards: [
@@ -1125,11 +1125,11 @@
 		{
 			dependencies: ["4B51189C36B8D291"]
 			description: [
-				"There are several Rune types that can change how an Altar functions."
+				"{atm9.quest.bloodMagic.desc.runeTypes.1}"
 				""
-				"For example, Speed Runes increase the speed of all crafting operations within the Altar by 20% per rune."
+				"{atm9.quest.bloodMagic.desc.runeTypes.2}"
 				""
-				"This is the first rune you can use to upgrade your Altar."
+				"{atm9.quest.bloodMagic.desc.runeTypes.3}"
 			]
 			id: "49F57CE3B472FF6D"
 			rewards: [
@@ -1151,16 +1151,16 @@
 				item: "bloodmagic:speedrune"
 				type: "item"
 			}]
-			title: "Altering the Altar"
+			title: "{atm9.quest.bloodMagic.alteringTheAltar}"
 			x: -24.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
 			description: [
-				"This rune increases the amount of LP gained from getting blood from Players. :D"
+				"{atm9.quest.bloodMagic.desc.lpGainIncrease}"
 				""
-				"Each rune gives a bonus of 10% additively."
+				"{atm9.quest.bloodMagic.desc.lpGainIncrease.2}"
 			]
 			id: "6CE4ED7A2642674F"
 			rewards: [
@@ -1188,15 +1188,15 @@
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
 			description: [
-				"To upgrade our Altar to Tier 3, we need to get a lot more runes. 28 total to be exact."
+				"{atm9.quest.bloodMagic.desc.upgradeAltarTier3.1}"
 				""
-				"You need to place 5 Blood Runes (Blank or better) one block down and two blocks away from the Tier 2 Altar runes, along each edge."
+				"{atm9.quest.bloodMagic.desc.upgradeAltarTier3.2}"
 				""
-				"You'll then want to create a pillar in each corner out of any block, with a pillar cap of Glowstone sitting one block higher than the Altar itself."
+				"{atm9.quest.bloodMagic.desc.upgradeAltarTier3.3}"
 				""
-				"If you want to check if the Altar was built correctly, use a &9Divination Sigil&r to check the Tier."
+				"{atm9.quest.bloodMagic.desc.upgradeAltarTier3.4}"
 				""
-				"Note: Any non-air block can be used for the pillar, as long as the cap is Glowstone."
+				"{atm9.quest.bloodMagic.desc.upgradeAltarTier3.5}"
 				""
 			]
 			icon: "bloodmagic:altar"
@@ -1218,14 +1218,14 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "Use the Guidebook for help building this!"
+			subtitle: "{atm9.quest.bloodMagic.subt.useGuidebook}"
 			tasks: [{
 				count: 28L
 				id: "45FE50B70B45B915"
 				item: "bloodmagic:blankrune"
 				type: "item"
 			}]
-			title: "Upgrading the Altar: Tier 3"
+			title: "{atm9.quest.bloodMagic.upgradingTheAltarTier3}"
 			x: -20.0d
 			y: -1.0d
 		}
@@ -1235,13 +1235,13 @@
 				"25343A0C4C22AA60"
 			]
 			description: [
-				"To upgrade our Altar, we'll need 56 total Blood Runes (Blank or better)."
+				"{atm9.quest.bloodMagic.desc.upgradeAltar.1}"
 				""
-				"We'll do just like we did last time. Go one block down and two blocks out, then place 7 Blood Runes along each edge. You're basically making a pyramid at this point."
+				"{atm9.quest.bloodMagic.desc.upgradeAltar.2}"
 				""
-				"We want to create pillars in each of the corners, starting &9above&r the new ring of runes. These pillars are 5 tall, with the pillar cap being made of &cBloodstone Bricks&r or &cLarge Bloodstone Bricks&r. "
+				"{atm9.quest.bloodMagic.desc.upgradeAltar.3}"
 				""
-				"Instead of a picture, look in your Sanguine Scientiem and search for the Blood Altar section. Scroll until you find the Tier 4 Altar, and all of the information is there. You can even click the eye to visualize the structure."
+				"{atm9.quest.bloodMagic.desc.upgradeAltar.4}"
 			]
 			icon: "bloodmagic:altar"
 			id: "431C44439CA54077"
@@ -1267,7 +1267,7 @@
 				item: "bloodmagic:blankrune"
 				type: "item"
 			}]
-			title: "Upgrading Our Altar: Tier 4"
+			title: "{atm9.quest.bloodMagic.upgradingOurAltarTier4}"
 			x: -14.0d
 			y: -1.0d
 		}
@@ -1288,7 +1288,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Holds a max of 25k LP"
+			subtitle: "{atm9.quest.bloodMagic.subt.lp25k}"
 			tasks: [{
 				id: "46DC0EE4792CCA0D"
 				item: "bloodmagic:apprenticebloodorb"
@@ -1300,9 +1300,9 @@
 		{
 			dependencies: ["7CC2D826CA6BBDDB"]
 			description: [
-				"With our Alchemy Table and our Orb full of Blood, we want to make some &9Arcane Ashes&r."
+				"{atm9.quest.bloodMagic.desc.arcaneAshes.1}"
 				""
-				"With the Ashes, we'll be able to draw a circle on the ground, known as an Alchemy Array. You can insert 2 items in by right-clicking, and will either craft a new item or perform an action, like turning day into night!"
+				"{atm9.quest.bloodMagic.desc.arcaneAshes.2}"
 			]
 			id: "1F3B9803AFAEED5F"
 			rewards: [
@@ -1318,7 +1318,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "We're drawing on the ground now."
+			subtitle: "{atm9.quest.bloodMagic.subt.drawingGround}"
 			tasks: [{
 				id: "6168644A110A263A"
 				item: {
@@ -1336,13 +1336,13 @@
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
 			description: [
-				"The &9Divination Sigil&r is the first Sigil we'll be making."
+				"{atm9.quest.bloodMagic.desc.divinationSigil.1}"
 				""
-				"This Sigil has two primary uses:"
+				"{atm9.quest.bloodMagic.desc.divinationSigil.2}"
 				""
-				"1) When you right-click with the Sigil in your hand, it will display the amount of LP you have in your Soul Network."
+				"{atm9.quest.bloodMagic.desc.divinationSigil.3}"
 				""
-				"2) If you right-click a Blood Altar with it, you'll see how much LP is stored, the max it can store, and what tier the altar is."
+				"{atm9.quest.bloodMagic.desc.divinationSigil.4}"
 			]
 			id: "281AAC27DEBEE84D"
 			rewards: [
@@ -1370,9 +1370,9 @@
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
 			description: [
-				"When held in hand, you can right-click to create a water source block for 100LP. Not bad huh?"
+				"{atm9.quest.bloodMagic.desc.waterSourceCreation}"
 				""
-				"Unless you don't have 100LP. In that case, it'll just take your health. :)"
+				"{atm9.quest.bloodMagic.desc.waterSourceCreation.2}"
 			]
 			id: "7EED2502F1F38147"
 			rewards: [
@@ -1400,9 +1400,9 @@
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
 			description: [
-				"With the Lava Sigil in hand, if you right-click, you'll create a source block of lava for the low low cost of 1,000 LP."
+				"{atm9.quest.bloodMagic.desc.lavaSigil.1}"
 				""
-				"If you don't have enough LP, that's cool too. It'll just take 5 hearts from you. No biggie."
+				"{atm9.quest.bloodMagic.desc.lavaSigil.2}"
 			]
 			id: "3AADA53EC01FB0ED"
 			rewards: [
@@ -1430,13 +1430,13 @@
 		{
 			dependencies: ["4578C0EE82F66BD9"]
 			description: [
-				"While not required, the Ritual Diviner is great to have as it shows exactly how the Ritual is built, and helps build it. (You should totally make one.)"
+				"{atm9.quest.bloodMagic.desc.ritualDiviner.1}"
 				""
-				"To build a ritual, shift-right click with the Ritual Diviner in the air until you find the ritual you want to create. You can shift-left click to go back as well."
+				"{atm9.quest.bloodMagic.desc.ritualDiviner.2}"
 				""
-				"Start by doing the Edge of the Hidden Realm ritual, as we'll need a few items from the dimension to get started."
+				"{atm9.quest.bloodMagic.desc.ritualDiviner.3}"
 				""
-				"Once selected with the Ritual Diviner, right click on a Master Ritual Stone until the structure is complete. You will need a bunch of Ritual Stones to perform these rituals. Once the structure is fully built, you can right click the Master Ritual Stone with a Weak Activation Crystal to activate it."
+				"{atm9.quest.bloodMagic.desc.ritualDiviner.4}"
 			]
 			id: "0E8418B42A744030"
 			rewards: [
@@ -1473,13 +1473,13 @@
 				"42CDD69527871332"
 			]
 			description: [
-				"To upgrade our Altar to Tier 5, we'll need a total of 108 Runes, as well as 4 Demonite Blocks."
+				"{atm9.quest.bloodMagic.desc.altarUpgrade.1}"
 				""
-				"Follow the Sanguine Scietiem (the guide book for the mod) for a detailed guide on how to build the structure."
+				"{atm9.quest.bloodMagic.desc.altarUpgrade.2}"
 				""
-				"You want to start by going one block down and three blocks out from the previous set of runes of your Tier 4 Altar. You want to place 15 runes along each side."
+				"{atm9.quest.bloodMagic.desc.altarUpgrade.3}"
 				""
-				"In the corners of the newly created ring, place a Demonite Block with one empty space on each side. "
+				"{atm9.quest.bloodMagic.desc.altarUpgrade.4}"
 			]
 			icon: "bloodmagic:altar"
 			id: "2214B7DCE4075A02"
@@ -1498,16 +1498,16 @@
 				item: "bloodmagic:blankrune"
 				type: "item"
 			}]
-			title: "The Tier 5 Altar"
+			title: "{atm9.quest.bloodMagic.tier5Altar}"
 			x: -11.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0E8418B42A744030"]
 			description: [
-				"Once you make it to the Hidden Realm, you'll find a chest with some basic loot in it."
+				"{atm9.quest.bloodMagic.desc.hiddenRealm.1}"
 				""
-				"Keep an eye out for &9Iron Keys&r. These unlock the extra rooms within the Hidden Realm, giving access to even more loot."
+				"{atm9.quest.bloodMagic.desc.hiddenRealm.2}"
 			]
 			id: "6DD7D0A248FEAC00"
 			optional: true
@@ -1534,13 +1534,13 @@
 				item: "bloodmagic:simplekey"
 				type: "item"
 			}]
-			title: "Dungeon Keys"
+			title: "{atm9.quest.bloodMagic.dungeonKeys}"
 			x: -19.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["42CDD69527871332"]
-			description: ["Using loot from the Demon Realm, you can upgrade each rune to double its effect. "]
+			description: ["{atm9.quest.bloodMagic.desc.demonRealmLoot}"]
 			id: "2CA28551F2A5B761"
 			rewards: [{
 				id: "63047FEB0BE55B5A"
@@ -1575,16 +1575,16 @@
 					type: "item"
 				}
 			]
-			title: "Reinforced Runes"
+			title: "{atm9.quest.bloodMagic.reinforcedRunes}"
 			x: -11.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
 			description: [
-				"&6Teleposition Sigil&r - Will teleport the user to a linked Teleposer at the cost of 1000LP. You can shift-click with the sigil on a Teleposer to set the location."
+				"{atm9.quest.bloodMagic.desc.telepositionSigil.1}"
 				""
-				"&9Suppression Sigil&r - You can push liquids away from you in a 6 block radius. It's pretty cool."
+				"{atm9.quest.bloodMagic.desc.suppressionSigil.1}"
 			]
 			id: "5E2CB036B00758AE"
 			rewards: [{
@@ -1615,11 +1615,11 @@
 		{
 			dependencies: ["263925A79EBB270F"]
 			description: [
-				"Performing the &cPathway to the Endless Realm&r ritual will give you access to the proper Demon Realm."
+				"{atm9.quest.bloodMagic.desc.pathwayToEndlessRealm.1}"
 				""
-				"This is the only place where you can find &9Demonite Ore&r. This is used to create the Tier 5 Altar."
+				"{atm9.quest.bloodMagic.desc.pathwayToEndlessRealm.2}"
 				""
-				"There is also a ton of rare loot, so make sure to keep an eye out for Intricate Hellforged Parts."
+				"{atm9.quest.bloodMagic.desc.pathwayToEndlessRealm.3}"
 			]
 			id: "42CDD69527871332"
 			rewards: [{
@@ -1632,22 +1632,22 @@
 				item: "bloodmagic:rawdemonite"
 				type: "item"
 			}]
-			title: "&cThe Demon Realm"
+			title: "{atm9.quest.bloodMagic.demonRealm}"
 			x: -11.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
 			description: [
-				"&9Air Sigil&r - Right Click to throw you in a direction you are facing for 50 LP."
+				"{atm9.quest.bloodMagic.desc.airSigil.1}"
 				""
-				"&cVoid Sigil&r - Right Click on any liquid to void it, costing 50 LP."
+				"{atm9.quest.bloodMagic.desc.voidSigil.1}"
 				""
-				"&6Seer's Sigil&r - A better version of the Divination Sigil. Gives more info when looking at Altars."
+				"{atm9.quest.bloodMagic.desc.seersSigil.1}"
 				""
-				"&aMiner's Sigil&r - Shift-Right Click to use 100LP per 5 seconds to give yourself a Haste buff."
+				"{atm9.quest.bloodMagic.desc.minersSigil.1}"
 				""
-				"&2Green Gove Sigil&r - Right Clicking a crop that is growable will give it a bonemeal effect for 150LP. Shift-Right Clicking will consume 150LP per 5 seconds, increasing the growth rate of a 7x7x5 area. "
+				"{atm9.quest.bloodMagic.desc.greenGroveSigil.1}"
 			]
 			id: "4C6B73322F56BE73"
 			rewards: [
@@ -1696,21 +1696,21 @@
 						]
 					}
 				}
-				title: "Tier 2 Sigils"
+				title: "{atm9.quest.bloodMagic.tier2Sigils}"
 				type: "item"
 			}]
-			title: "Tier 2 Sigils"
+			title: "{atm9.quest.bloodMagic.tier2Sigils}"
 			x: -22.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["375FF0D8ACD2E17F"]
 			description: [
-				"&cBlood Lamp&r - Launches a blood light when used. Costs 10LP"
+				"{atm9.quest.bloodMagic.desc.bloodLamp.1}"
 				""
-				"&9Holding&r - Holds up to 5 other Sigils at a time, providing their passive effects and allowing you to activate them on a while. You can keybind buttons to access the inventory and cycle through the Sigils."
+				"{atm9.quest.bloodMagic.desc.holding.1}"
 				""
-				"&6Magnetism&r - Activate for a magnet up to 7 blocks at the cost of 50LP every 5 seconds."
+				"{atm9.quest.bloodMagic.desc.magnetism.1}"
 			]
 			id: "1780A9FDD6983435"
 			rewards: [
@@ -1752,23 +1752,23 @@
 						]
 					}
 				}
-				title: "Tier 3 Sigils"
+				title: "{atm9.quest.bloodMagic.tier3Sigils}"
 				type: "item"
 			}]
-			title: "Tier 3 Sigils"
+			title: "{atm9.quest.bloodMagic.tier3Sigils}"
 			x: -20.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["0E51D6BB2BC756B6"]
 			description: [
-				"You can create Living Equipment by making some Binding Reagents in an Alchemy Table. You'll also need at least a Common Tartaric Gem in order to hold the Demon Will required."
+				"{atm9.quest.bloodMagic.desc.livingEquipment.1}"
 				""
-				"&9Living Equipment&r is the equivalent in durability of Diamond Armor, and can be repaired in an Anvil using Binding Reagents."
+				"{atm9.quest.bloodMagic.desc.livingEquipment.2}"
 				""
-				"It starts off as the equivalent of Iron, but has Upgrade Points that can be spent to train it in specific ways. It starts with 100, but there are ways to increase this limit."
+				"{atm9.quest.bloodMagic.desc.livingEquipment.3}"
 				""
-				"As you use it, it will \"learn\" from you. You can see what it has learned so far by holding left shift while looking at it."
+				"{atm9.quest.bloodMagic.desc.livingEquipment.4}"
 			]
 			id: "41030E1E341C3A4E"
 			rewards: [{
@@ -1828,7 +1828,7 @@
 					type: "item"
 				}
 			]
-			title: "Living Armor"
+			title: "{atm9.quest.bloodMagic.livingArmor}"
 			x: -18.0d
 			y: -4.5d
 		}

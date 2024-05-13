@@ -16,7 +16,7 @@
 		corner: false
 		dev: false
 		height: 0.3d
-		hover: ["Needed for the ATM Star"]
+		hover: ["{atm9.quest.ae2.img.star}"]
 		image: "allthetweaks:item/atm_star"
 		rotation: 0.0d
 		width: 0.3d
@@ -29,9 +29,9 @@
 	quests: [
 		{
 			description: [
-				"Forbidden \\&\\ Arcanus adds new ways to get better armor, enchants, and more!"
+				"{atm9.quest.forbiddenAndArcanus.desc.newArmor.1}"
 				""
-				"This magic-themed mod has amazing animations, as well as some overpowered items like the &6Eternal Stella&r. "
+				"{atm9.quest.forbiddenAndArcanus.desc.newArmor.2}"
 			]
 			icon: {
 				Count: 1b
@@ -53,16 +53,16 @@
 				item: "forbidden_arcanus:darkstone"
 				type: "item"
 			}]
-			title: "Welcome to &5Forbidden \\&\\ Arcanus!"
+			title: "{atm9.quest.forbiddenAndArcanus.welcome}"
 			x: -9.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["5523A71F1688EA88"]
 			description: [
-				"Found within the Dark Forest biome, the Edelwood Tree looks like a small tree that has been chopped in half."
+				"{atm9.quest.forbiddenAndArcanus.desc.edelwoodTreeFeatures.1}"
 				""
-				"You'll need to break the branches off and collect the logs, as these are used for crafting various items within the mod."
+				"{atm9.quest.forbiddenAndArcanus.desc.edelwoodTreeFeatures.2}"
 			]
 			id: "6E3B9051503B938C"
 			rewards: [
@@ -90,7 +90,7 @@
 					type: "item"
 				}
 			]
-			title: "Edelwood Trees"
+			title: "{atm9.quest.forbiddenAndArcanus.edelwoodTrees}"
 			x: -9.0d
 			y: 6.5d
 		}
@@ -111,7 +111,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "A Silk-Touch Pickaxe"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.silkTouchPickaxe}"
 			tasks: [{
 				id: "2DE570337D6E8368"
 				item: {
@@ -133,9 +133,9 @@
 		{
 			dependencies: ["0B68E3C046C82860"]
 			description: [
-				"The Mystical Dagger is used to break Dragon Heads down to Dragon Scales."
+				"{atm9.quest.forbiddenAndArcanus.desc.mysticalDaggerFeatures.1}"
 				""
-				"When used to kill mobs, it will fill &aTest Tubes&r with &cBlood&r."
+				"{atm9.quest.forbiddenAndArcanus.desc.mysticalDaggerFeatures.2}"
 			]
 			id: "09CCC797BF15ADFC"
 			rewards: [
@@ -168,9 +168,9 @@
 		{
 			dependencies: ["6E3B9051503B938C"]
 			description: [
-				"The &2Edelwood Bucket&r can store more than one bucket of liquid, and can also be used to capture small animals like chickens or squids."
+				"{atm9.quest.forbiddenAndArcanus.desc.edelwoodBucketFeatures.1}"
 				""
-				"You'll need the Permafrost enchant to use it to carry Lava."
+				"{atm9.quest.forbiddenAndArcanus.desc.edelwoodBucketFeatures.2}"
 			]
 			id: "0AFC5B1AF055811A"
 			rewards: [
@@ -196,7 +196,7 @@
 		}
 		{
 			dependencies: ["5523A71F1688EA88"]
-			description: ["This is the main resource in the mod. Go out and mine some!"]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.mainResource}"]
 			id: "29164630E1BD76B5"
 			rewards: [
 				{
@@ -217,16 +217,16 @@
 				item: "forbidden_arcanus:arcane_crystal"
 				type: "item"
 			}]
-			title: "Arcane Crystals"
+			title: "{atm9.quest.forbiddenAndArcanus.arcaneCrystals}"
 			x: -7.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["537E39530360AD73"]
 			description: [
-				"You'll find the Stella Arcanum ore deep underground."
+				"{atm9.quest.forbiddenAndArcanus.desc.stellaArcanumFeatures.1}"
 				""
-				"Careful when mining."
+				"{atm9.quest.forbiddenAndArcanus.desc.stellaArcanumFeatures.2}"
 			]
 			id: "34592A8F4B661D8D"
 			rewards: [
@@ -242,7 +242,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "This Goes Boom Too"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.thisGoesBoomToo}"
 			tasks: [{
 				id: "4D5980FEE267D06C"
 				item: "forbidden_arcanus:stellarite_piece"
@@ -254,11 +254,11 @@
 		{
 			dependencies: ["5523A71F1688EA88"]
 			description: [
-				"Have you seen the random floating island in the sky?"
+				"{atm9.quest.forbiddenAndArcanus.desc.nipaPlantsFeatures.1}"
 				""
-				"These have the Nipa plant on them. You can break these and replant them!"
+				"{atm9.quest.forbiddenAndArcanus.desc.nipaPlantsFeatures.2}"
 				""
-				"They produce Arcane Crystal Dust Specks over time, which can be used to create Arcane Crystal Dust."
+				"{atm9.quest.forbiddenAndArcanus.desc.nipaPlantsFeatures.3}"
 			]
 			id: "260F19B468957BCD"
 			rewards: [
@@ -278,7 +278,7 @@
 				item: "forbidden_arcanus:nipa"
 				type: "item"
 			}]
-			title: "Nipa Plants"
+			title: "{atm9.quest.forbiddenAndArcanus.nipaPlants}"
 			x: -7.0d
 			y: 5.5d
 		}
@@ -289,9 +289,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Smelting down Arcane Crystals will give you Arcane Crystal Dust."
+				"{atm9.quest.forbiddenAndArcanus.desc.arcaneCrystalDustFeatures.1}"
 				""
-				"This is used for most of the items in the mod."
+				"{atm9.quest.forbiddenAndArcanus.desc.arcaneCrystalDustFeatures.2}"
 			]
 			id: "2894F11A73335179"
 			rewards: [
@@ -318,7 +318,7 @@
 		}
 		{
 			dependencies: ["5523A71F1688EA88"]
-			description: ["Breaking spawners will now drop &9Spawner Scraps&r."]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.spawnerScraps}"]
 			id: "13E5783AD64E3BC2"
 			rewards: [
 				{
@@ -343,7 +343,7 @@
 		}
 		{
 			dependencies: ["13E5783AD64E3BC2"]
-			description: ["The &9Quantum Catcher&r is used to capture and transport mobs."]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.quantumCatcher}"]
 			id: "0F3BD102F9F93DDD"
 			rewards: [
 				{
@@ -363,16 +363,16 @@
 				item: "forbidden_arcanus:quantum_catcher"
 				type: "item"
 			}]
-			title: "Entity Tools"
+			title: "{atm9.quest.forbiddenAndArcanus.entityTools}"
 			x: -9.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5523A71F1688EA88"]
 			description: [
-				"Found randomly in loot chests from the End City."
+				"{atm9.quest.forbiddenAndArcanus.desc.endCityLootFeatures.1}"
 				""
-				"When used, it grants 5 minutes of creative flight."
+				"{atm9.quest.forbiddenAndArcanus.desc.endCityLootFeatures.2}"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -394,7 +394,7 @@
 		}
 		{
 			dependencies: ["0B68E3C046C82860"]
-			description: ["This gives X-Ray vision for mobs, highlighting them from afar to make it easier to spot them."]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.xRayVision}"]
 			id: "44B1B147CDAC4E36"
 			optional: true
 			rewards: [
@@ -410,7 +410,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "Highlights Mobs when Activated"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.highlightsMobs}"
 			tasks: [{
 				id: "35004413DAFA1C58"
 				item: {
@@ -426,9 +426,9 @@
 		{
 			dependencies: ["2894F11A73335179"]
 			description: [
-				"Using this bone meal on Farmland will convert it to Magical Farmland."
+				"{atm9.quest.forbiddenAndArcanus.desc.magicalFarmlandFeatures.1}"
 				""
-				"Crops will produce double the output when grown on Magical Farmland."
+				"{atm9.quest.forbiddenAndArcanus.desc.magicalFarmlandFeatures.2}"
 			]
 			id: "7439CFAD20E3E2BF"
 			optional: true
@@ -445,7 +445,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "Use on Farmland to make it Magical!"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.useOnFarmland}"
 			tasks: [{
 				id: "78493C576C4F0F87"
 				item: "forbidden_arcanus:arcane_bone_meal"
@@ -466,7 +466,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "Can Infect Villagers and Horses"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.canInfect}"
 			tasks: [{
 				id: "480CDA250CAFF8C2"
 				item: "forbidden_arcanus:zombie_arm"
@@ -487,7 +487,7 @@
 				xp: 25
 			}]
 			shape: "square"
-			subtitle: "Arrow Go Boom"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.arrowGoBoom}"
 			tasks: [{
 				id: "24C0F64218E7DD64"
 				item: "forbidden_arcanus:boom_arrow"
@@ -508,7 +508,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "Leaves an AoE Cloud that damages living mobs"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.leavesAoECloud}"
 			tasks: [{
 				id: "0F88AE3ABD17518C"
 				item: "forbidden_arcanus:draco_arcanus_arrow"
@@ -520,9 +520,9 @@
 		{
 			dependencies: ["0B68E3C046C82860"]
 			description: [
-				"These can be planted to grow &6Deorum Nuggets&r."
+				"{atm9.quest.forbiddenAndArcanus.desc.deorumNuggetsFeatures.1}"
 				""
-				"To create one, you'll need to find Yellow Orchids."
+				"{atm9.quest.forbiddenAndArcanus.desc.deorumNuggetsFeatures.2}"
 			]
 			hide_dependency_lines: false
 			id: "5ED1896F1986BD2B"
@@ -540,7 +540,7 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Growing Gold"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.growingGold}"
 			tasks: [{
 				id: "3157685F32B838D5"
 				item: "forbidden_arcanus:golden_orchid_seeds"
@@ -552,9 +552,9 @@
 		{
 			dependencies: ["5523A71F1688EA88"]
 			description: [
-				"Crafted with skulls, bones, and cloth, this armor is slightly stronger than Iron."
+				"{atm9.quest.forbiddenAndArcanus.desc.mortemArmorFeatures.1}"
 				""
-				"It's also really cool looking."
+				"{atm9.quest.forbiddenAndArcanus.desc.mortemArmorFeatures.2}"
 			]
 			hide: true
 			id: "5EFC63CF97D97AB5"
@@ -572,7 +572,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Armor of the Dead"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.armorOfTheDead}"
 			tasks: [
 				{
 					id: "36C413F578D44CBF"
@@ -619,13 +619,13 @@
 					type: "item"
 				}
 			]
-			title: "Mortem Armor"
+			title: "{atm9.quest.forbiddenAndArcanus.mortemArmor}"
 			x: -11.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["09CCC797BF15ADFC"]
-			description: ["Combining a Dragon Head with a Mystical Dagger will give you &9Dragon Scales&r."]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.dragonScales}"]
 			id: "20B495B4B8B95636"
 			rewards: [
 				{
@@ -646,14 +646,14 @@
 					type: "loot"
 				}
 			]
-			subtitle: "Dragon Scales, Dragon Scales....."
+			subtitle: "{atm9.quest.forbiddenAndArcanus.dragonScalesSong}"
 			tasks: [{
 				count: 3L
 				id: "66035A72EEEF2FA1"
 				item: "forbidden_arcanus:dragon_scale"
 				type: "item"
 			}]
-			title: "Dragon Scales"
+			title: "{atm9.quest.forbiddenAndArcanus.dragonScales}"
 			x: 2.5d
 			y: 7.0d
 		}
@@ -674,7 +674,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Better than Netherite"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.betterThanNetherite}"
 			tasks: [
 				{
 					id: "4F68A985DED494B6"
@@ -721,16 +721,16 @@
 					type: "item"
 				}
 			]
-			title: "&1Draco Arcanus Armor&r"
+			title: "{atm9.quest.forbiddenAndArcanus.dracoArcanusArmor}"
 			x: 3.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["20B495B4B8B95636"]
 			description: [
-				"The Dragon Scale can be made into a Golden and Aquatic Dragon Scales."
+				"{atm9.quest.forbiddenAndArcanus.desc.goldenAquaticDragonScalesFeatures.1}"
 				""
-				"These are mainly used to craft &dTyr Armor&r."
+				"{atm9.quest.forbiddenAndArcanus.desc.goldenAquaticDragonScalesFeatures.2}"
 			]
 			id: "744A01000E086CC9"
 			rewards: [
@@ -764,9 +764,9 @@
 		{
 			dependencies: ["2894F11A73335179"]
 			description: [
-				"Used to corrupt Souls and Runes. You'll need this for later."
+				"{atm9.quest.forbiddenAndArcanus.desc.corruptiDustFeatures.1}"
 				""
-				"If you throw down Dark Matter, then throw down Corrupti Dust, it'll create a Black Hole. Feed it small entities like Arrows or Experience Orbs, and it'll produce Xpetrified Orbs."
+				"{atm9.quest.forbiddenAndArcanus.desc.corruptiDustFeatures.2}"
 			]
 			id: "7CF76A542529A181"
 			rewards: [
@@ -793,9 +793,9 @@
 		{
 			dependencies: ["2894F11A73335179"]
 			description: [
-				"Using our Arcane Crystal Dust, we'll need to combine it with other dusts and powders to create &dMundabiter Dust&r."
+				"{atm9.quest.forbiddenAndArcanus.desc.mundabiterDustFeatures.1}"
 				""
-				"This dust is used in several recipes, as well as activating the Hephaestus Forge."
+				"{atm9.quest.forbiddenAndArcanus.desc.mundabiterDustFeatures.2}"
 			]
 			id: "03E7D73433AB6B7C"
 			rewards: [
@@ -811,23 +811,23 @@
 					type: "loot"
 				}
 			]
-			subtitle: "Let the Dusts Combine"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.subt.dustsCombine}"
 			tasks: [{
 				count: 4L
 				id: "133BDCB7B85C4CF4"
 				item: "forbidden_arcanus:mundabitur_dust"
 				type: "item"
 			}]
-			title: "Mundabitur Dust"
+			title: "{atm9.quest.forbiddenAndArcanus.mundabiturDust}"
 			x: -3.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["03E7D73433AB6B7C"]
 			description: [
-				"The &6Deorum Ingot&r is needed to continue your progression in the mod!"
+				"{atm9.quest.forbiddenAndArcanus.desc.deorumIngotFeatures.1}"
 				""
-				"This is a very important crafting ingot used in a lot of recipes, plus it also makes some pretty blocks!"
+				"{atm9.quest.forbiddenAndArcanus.desc.deorumIngotFeatures.2}"
 			]
 			id: "0B68E3C046C82860"
 			rewards: [
@@ -849,7 +849,7 @@
 				item: "forbidden_arcanus:deorum_ingot"
 				type: "item"
 			}]
-			title: "&6Deorum"
+			title: "{atm9.quest.forbiddenAndArcanus.deorum}"
 			x: -1.5d
 			y: 5.0d
 		}
@@ -916,13 +916,13 @@
 					type: "item"
 				}
 			]
-			title: "&5Tyr Armor"
+			title: "{atm9.quest.forbiddenAndArcanus.tyrArmor}"
 			x: 4.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["744A01000E086CC9"]
-			description: ["This Dragon Egg is a cool decoration piece. That's pretty much it."]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.dragonEggDecoration}"]
 			id: "24261D6C5C5A6CB4"
 			rewards: [
 				{
@@ -948,11 +948,11 @@
 		{
 			dependencies: ["3799ACDA92F96FD1"]
 			description: [
-				"Killing passive mobs will increase your corruption. Killing &9Aureal Entities&r has a higher chance to increase your corruption."
+				"{atm9.quest.forbiddenAndArcanus.desc.corruptionEffects.1}"
 				""
-				"Be careful! At higher levels of corruption, negative things will happen!"
+				"{atm9.quest.forbiddenAndArcanus.desc.corruptionEffects.2}"
 				""
-				"Making a Sanity Meter will give your UI an upgrade to show your total corruption, for those who want to hit new high scores and such."
+				"{atm9.quest.forbiddenAndArcanus.desc.corruptionEffects.3}"
 			]
 			id: "25911D0B7C403A4F"
 			rewards: [
@@ -969,19 +969,19 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Am I going insane?"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.subt.insanity}"
 			tasks: [{
 				id: "2A496D23BEBBA31A"
 				item: "forbidden_arcanus:sanity_meter"
 				type: "item"
 			}]
-			title: "Sanity"
+			title: "{atm9.quest.forbiddenAndArcanus.sanity}"
 			x: -9.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0B68E3C046C82860"]
-			description: ["You've probably already acquired some Darkstone, but we'll need it to craft the forge."]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.darkstoneAcquisition}"]
 			id: "5F5675E30ED046F7"
 			rewards: [{
 				id: "56404219A611CF0F"
@@ -994,22 +994,22 @@
 				item: "forbidden_arcanus:darkstone"
 				type: "item"
 			}]
-			title: "Prepping For the Forge"
+			title: "{atm9.quest.forbiddenAndArcanus.preppingForge}"
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5F5675E30ED046F7"]
 			description: [
-				"We'll be using all of that Darkstone to create the &dHephaestus Forge&r."
+				"{atm9.quest.forbiddenAndArcanus.desc.hephaestusForgeFeatures.1}"
 				""
-				"Once you have all of the blocks needed, you'll need to build the platform for the forge!"
+				"{atm9.quest.forbiddenAndArcanus.desc.hephaestusForgeFeatures.2}"
 				""
 				"{image:atm:textures/questpics/forbidden/forge.png width:200 height:200 align:1}"
 				""
-				"The 8 Chiseled Arcane Polished Darkstone blocks on the outer ring of the platform can be used for pedestals or Arcane Cryal Obelisks, with the last block being placed in the center of the platform. "
+				"{atm9.quest.forbiddenAndArcanus.desc.hephaestusForgeFeatures.3}"
 				""
-				"On top of the center block, place a Smithing Table and sneak+right-click it with a piece of Mundabitur Dust to convert it to the Forge!"
+				"{atm9.quest.forbiddenAndArcanus.desc.hephaestusForgeFeatures.4}"
 			]
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "73349B993DE69954"
@@ -1066,16 +1066,16 @@
 					type: "item"
 				}
 			]
-			title: "&1The Hephaestus Forge"
+			title: "{atm9.quest.forbiddenAndArcanus.hephaestusForge}"
 			x: 2.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["13E5783AD64E3BC2"]
 			description: [
-				"The &9Lens of Veritatis&r is used to see Aureal entities."
+				"{atm9.quest.forbiddenAndArcanus.desc.lensOfVeritatisFeatures.1}"
 				""
-				"These are entities that will grant Aureal when killed, but will also increase your corruption...."
+				"{atm9.quest.forbiddenAndArcanus.desc.lensOfVeritatisFeatures.2}"
 			]
 			id: "3799ACDA92F96FD1"
 			rewards: [
@@ -1102,9 +1102,9 @@
 		{
 			dependencies: ["6E3B9051503B938C"]
 			description: [
-				"Smelting &9Edelwood&r will give you Dark Matter."
+				"{atm9.quest.forbiddenAndArcanus.desc.edelwoodToDarkMatter.1}"
 				""
-				"You can make Black Holes with this."
+				"{atm9.quest.forbiddenAndArcanus.desc.edelwoodToDarkMatter.2}"
 			]
 			id: "310B54FB390982C5"
 			rewards: [
@@ -1131,9 +1131,9 @@
 		{
 			dependencies: ["0C6719D81DE5A614"]
 			description: [
-				"Blood is collected by crafting Test Tubes, then killing mobs with the Mystical Dagger."
+				"{atm9.quest.forbiddenAndArcanus.desc.bloodCollection.1}"
 				""
-				"Note: The Test Tube must be in your inventory when killing mobs."
+				"{atm9.quest.forbiddenAndArcanus.desc.bloodCollection.2}"
 			]
 			id: "757E1521D84AC5C8"
 			rewards: [
@@ -1155,16 +1155,16 @@
 				item: "forbidden_arcanus:test_tube"
 				type: "item"
 			}]
-			title: "&4Blood"
+			title: "{atm9.quest.forbiddenAndArcanus.blood}"
 			x: 5.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["0C6719D81DE5A614"]
 			description: [
-				"&dAureal Bottles&r can be found in loot chests, but they can also be crafted using Arcane Crystal Dust."
+				"{atm9.quest.forbiddenAndArcanus.desc.aurealBottlesFeatures.1}"
 				""
-				"You can also generate Aureal with Arcane Crystal Obelisks."
+				"{atm9.quest.forbiddenAndArcanus.desc.aurealBottlesFeatures.2}"
 			]
 			id: "4DA04ABF4FF2625C"
 			rewards: [
@@ -1186,13 +1186,13 @@
 				item: "forbidden_arcanus:aureal_bottle"
 				type: "item"
 			}]
-			title: "&9Aureal"
+			title: "{atm9.quest.forbiddenAndArcanus.aureal}"
 			x: 4.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["0C6719D81DE5A614"]
-			description: ["Souls are gathered by creating a &9Soul Extractor&r, and then using it on Soul Sand."]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.soulsGathering}"]
 			icon: "forbidden_arcanus:soul"
 			id: "788A3685A7D07E75"
 			rewards: [
@@ -1227,13 +1227,13 @@
 					type: "item"
 				}
 			]
-			title: "&dSouls"
+			title: "{atm9.quest.forbiddenAndArcanus.souls}"
 			x: 4.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["0C6719D81DE5A614"]
-			description: ["This goes in the right side of the forge."]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.forgeRightSide}"]
 			id: "5E45D2A2FDD67495"
 			rewards: [{
 				id: "03B074FCE2297BF6"
@@ -1241,13 +1241,13 @@
 				xp_levels: 5
 			}]
 			shape: "diamond"
-			subtitle: "Experience in a bottle"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.subt.experienceBottle}"
 			tasks: [{
 				id: "0D4ABA98B2FDB158"
 				item: "minecraft:experience_bottle"
 				type: "item"
 			}]
-			title: "&aBottle O' Enchanting"
+			title: "{atm9.quest.forbiddenAndArcanus.bottleOfEnchanting}"
 			x: 5.0d
 			y: 3.5d
 		}
@@ -1255,9 +1255,9 @@
 			dependencies: ["73349B993DE69954"]
 			description: [
 				""
-				"The Forge requires 4 different items to be powered: Aureal, Souls, Blood, and Experience."
+				"{atm9.quest.forbiddenAndArcanus.desc.forgePowerRequirements.1}"
 				""
-				"To learn more about each, follow the corner quests!"
+				"{atm9.quest.forbiddenAndArcanus.desc.forgePowerRequirements.2}"
 			]
 			id: "0C6719D81DE5A614"
 			rewards: [{
@@ -1268,7 +1268,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "4CAF79C3D1E35958"
-				title: "Powering the Forge"
+				title: "{atm9.quest.forbiddenAndArcanus.poweringForge}"
 				type: "checkmark"
 			}]
 			x: 4.5d
@@ -1277,9 +1277,9 @@
 		{
 			dependencies: ["73349B993DE69954"]
 			description: [
-				"To enchant items, you'll need Darkstone Pedestals placed around the Forge."
+				"{atm9.quest.forbiddenAndArcanus.desc.enchantingItems.1}"
 				""
-				"Make sure to place these on the Arcane Chiseled Polished Darkstone."
+				"{atm9.quest.forbiddenAndArcanus.desc.enchantingItems.2}"
 			]
 			id: "76BC484FC50EAEC3"
 			rewards: [
@@ -1301,16 +1301,16 @@
 				item: "forbidden_arcanus:darkstone_pedestal"
 				type: "item"
 			}]
-			title: "Darkstone Pedestals"
+			title: "{atm9.quest.forbiddenAndArcanus.darkstonePedestals}"
 			x: 2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0C6719D81DE5A614"]
 			description: [
-				"To perform a ritual, place the ingredients on the Arcane Pedestals around the Forge."
+				"{atm9.quest.forbiddenAndArcanus.desc.performingRituals.1}"
 				""
-				"You'll need a &9Blacksmith's Gavel&r to activate the ritual. To do this, right click on the Forge with the Gavel."
+				"{atm9.quest.forbiddenAndArcanus.desc.performingRituals.2}"
 			]
 			id: "537E39530360AD73"
 			rewards: [
@@ -1335,10 +1335,10 @@
 						value: "forbidden_arcanus:blacksmith_gavel"
 					}
 				}
-				title: "Blacksmith Gavel"
+				title: "{atm9.quest.forbiddenAndArcanus.blacksmithGavel}"
 				type: "item"
 			}]
-			title: "Performing Rituals"
+			title: "{atm9.quest.forbiddenAndArcanus.performingRituals}"
 			x: 6.5d
 			y: 3.0d
 		}
@@ -1349,9 +1349,9 @@
 				"5CF175DA7BDA52F3"
 			]
 			description: [
-				"The &6Eternal Stella&r has 3 charges, and when right-clicked, can fully repair all of your items in your inventory."
+				"{atm9.quest.forbiddenAndArcanus.desc.eternalStellaFeatures.1}"
 				""
-				"The main purpose of it is to give the enchant &9Unbreakable&r to an item, which is done by combining it with a tool and an &dApply Item Modifier Smithing Template&r in a Smithing Table."
+				"{atm9.quest.forbiddenAndArcanus.desc.eternalStellaFeatures.2}"
 			]
 			id: "526559F94031FE43"
 			rewards: [
@@ -1390,16 +1390,16 @@
 					type: "item"
 				}
 			]
-			title: "&dEternal Stella"
+			title: "{atm9.quest.forbiddenAndArcanus.eternalStella}"
 			x: 9.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["537E39530360AD73"]
 			description: [
-				"This stuff is everywhere."
+				"{atm9.quest.forbiddenAndArcanus.desc.eternalStellaFeatures.3}"
 				""
-				"It can be used to give yourself experience, or used to make the Eternal Stella."
+				"{atm9.quest.forbiddenAndArcanus.desc.eternalStellaFeatures.4}"
 			]
 			id: "1C91BD525C91FD73"
 			rewards: [
@@ -1440,7 +1440,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Dragon Tools"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.subt.dragonTools}"
 			tasks: [
 				{
 					id: "6B1B4574299B7E42"
@@ -1487,13 +1487,13 @@
 					type: "item"
 				}
 			]
-			title: "&1Draco Tools"
+			title: "{atm9.quest.forbiddenAndArcanus.dracoTools}"
 			x: 2.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["20B495B4B8B95636"]
-			description: ["The Scepter shoots out energy orbs when charged up with Right-Click. If a mob is hit, it'll strike it with lightning."]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.dracoToolsFeatures}"]
 			id: "3513D89C6FD2D852"
 			rewards: [
 				{
@@ -1509,7 +1509,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Go Pew Pew"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.subt.goPewPew}"
 			tasks: [
 				{
 					id: "49FEFEC69106EFFA"
@@ -1528,18 +1528,18 @@
 					type: "item"
 				}
 			]
-			title: "&1Draco Weapons"
+			title: "{atm9.quest.forbiddenAndArcanus.dracoWeapons}"
 			x: 2.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["73349B993DE69954"]
 			description: [
-				"To create an Arcane Crystal Obelisk, place down an Arcane Polished Darkstone block, then place two Arcane Crystal Blocks on top of it."
+				"{atm9.quest.forbiddenAndArcanus.desc.dracoWeaponsFeatures.1}"
 				""
-				"Right-click with Mundabitur Dust and you'll create the obelisk."
+				"{atm9.quest.forbiddenAndArcanus.desc.dracoWeaponsFeatures.2}"
 				""
-				"When placed on a Arcane Chiseled Polished Darkstone block on the Hephaestus Forge structure, it will slowly generate Aureal over time."
+				"{atm9.quest.forbiddenAndArcanus.desc.dracoWeaponsFeatures.3}"
 			]
 			icon: "forbidden_arcanus:arcane_crystal_obelisk"
 			id: "11C065375DF7AC3E"
@@ -1558,7 +1558,7 @@
 			]
 			tasks: [{
 				id: "5400EB85133AAAEE"
-				title: "Arcane Crystal Obelisks"
+				title: "{atm9.quest.forbiddenAndArcanus.arcaneCrystalObelisks}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -1567,9 +1567,9 @@
 		{
 			dependencies: ["537E39530360AD73"]
 			description: [
-				"The &dHephaestus Forge&r can be upgraded into higher tiers using things like Spawner Scraps, Arcane Crystals, and more!"
+				"{atm9.quest.forbiddenAndArcanus.desc.upgradingForgeFeatures.1}"
 				""
-				"You'll need higher tiers to make some of the higher tier items, like the &aEternal Stella&r. Make sure to check out JEI for more info!"
+				"{atm9.quest.forbiddenAndArcanus.desc.upgradingForgeFeatures.2}"
 			]
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "5CF175DA7BDA52F3"
@@ -1580,7 +1580,7 @@
 			}]
 			tasks: [{
 				id: "1DCE7B9772542FDB"
-				title: "&dUpgrading The Forge&r"
+				title: "{atm9.quest.forbiddenAndArcanus.upgradingTheForge}"
 				type: "checkmark"
 			}]
 			x: 8.0d

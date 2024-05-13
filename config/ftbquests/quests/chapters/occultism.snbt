@@ -137,7 +137,7 @@
 			corner: false
 			dev: false
 			height: 1.0d
-			hover: ["&5Shub Niggurath&r Familiar"]
+			hover: ["{atm9.quest.occultism.shubNiggurathFamiliar}"]
 			image: "occultism:textures/gui/book/familiar_shub_niggurath.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -149,7 +149,7 @@
 			corner: false
 			dev: false
 			height: 1.0d
-			hover: ["&2Drikwing&r Familiar"]
+			hover: ["{atm9.quest.occultism.drikwingFamiliar}"]
 			image: "occultism:textures/gui/book/otherworld_bird.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -237,7 +237,7 @@
 			corner: false
 			dev: false
 			height: 3.0d
-			hover: ["&dBeholder&r Familiar"]
+			hover: ["{atm9.quest.occultism.berserker}"]
 			image: "occultism:textures/gui/book/familiar_beholder.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -249,7 +249,7 @@
 			corner: false
 			dev: false
 			height: 3.0d
-			hover: ["&aHeadless Ratman&r Familiar"]
+			hover: ["{atm9.quest.occultism.headlessRatman}"]
 			image: "occultism:textures/gui/book/familiar_headless_ratman.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -325,7 +325,7 @@
 			corner: false
 			dev: false
 			height: 0.3d
-			hover: ["Needed for the ATM Star"]
+			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -339,11 +339,11 @@
 	quests: [
 		{
 			description: [
-				"Welcome to &dOccultism&r!"
+				"{atm9.quest.occultism.desc.welcome.1}"
 				""
-				"This mod aimes to help the player in many different ways by enlisting the help of &c&mDemons&r &bSpirits&r! Don't worry, they are friendly. &oMostly&r."
+				"{atm9.quest.occultism.desc.welcome.2}"
 				""
-				"To get started, you'll need to get some &aDemon's Fruit Seeds&r."
+				"{atm9.quest.occultism.desc.welcome.3}"
 			]
 			icon: {
 				Count: 1b
@@ -365,18 +365,18 @@
 				item: "occultism:datura_seeds"
 				type: "item"
 			}]
-			title: "&dDreaming of&r &cDemons&r"
+			title: "{atm9.quest.occultism.dreamingDemons}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5316DF321B45D2CA"]
 			description: [
-				"The &aDictionary Of Spirits&r serves as the Guide Book for &dOccultism&r. You'll absolutely need to make this if you want to continue with the mod!"
+				"{atm9.quest.occultism.desc.dictionary.1}"
 				""
-				"The Dictionary has a quest-style guide inside of it if you'd rather read it instead of doing these quests!"
+				"{atm9.quest.occultism.desc.dictionary.2}"
 				""
-				"You'll also need the book to craft several things in the pack, so you kind of have to make it. :)"
+				"{atm9.quest.occultism.desc.dictionary.3}"
 			]
 			id: "6C1BBA559963B3DF"
 			rewards: [{
@@ -396,18 +396,18 @@
 				}
 				type: "item"
 			}]
-			title: "Little Book o' &cDemons&r"
+			title: "{atm9.quest.occultism.littleBookDemons}"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6C1BBA559963B3DF"]
 			description: [
-				"&cDemon's Dream Fruit&r is perfectly healthy for you. There might be some side effects you should know about."
+				"{atm9.quest.occultism.desc.demonFruit.1}"
 				""
-				"When you consume one, you have a chance to get the effect of the &3Third Eye&r, allowing you to see into the &9The Otherworld&r. Certain items in the world might not be what they seem, and you'll need this \"vision\" to find certain items for progression."
+				"{atm9.quest.occultism.desc.demonFruit.2}"
 				""
-				"Or you can set it on fire and skip finding most of them. That's up to you."
+				"{atm9.quest.occultism.desc.demonFruit.3}"
 			]
 			id: "47358ADC1470C82A"
 			rewards: [{
@@ -415,24 +415,24 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Get Ready for a Trip"
+			subtitle: "{atm9.quest.occultism.tripReady}"
 			tasks: [{
 				id: "0008773503CCA262"
 				item: "occultism:datura"
 				type: "item"
 			}]
-			title: "&cDemon Fruit&r"
+			title: "{atm9.quest.occultism.demonFruit}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["47358ADC1470C82A"]
 			description: [
-				"What if I told you that the Demon's Fruit is flammable?"
+				"{atm9.quest.occultism.desc.flammableFruit.1}"
 				""
-				"Throwing our &cDemon's Dream Fruit&r down and setting it on fire will create &dSpiritfire&r. This is how we'll convert some overworld items into &9Otherworld&r materials."
+				"{atm9.quest.occultism.desc.flammableFruit.2}"
 				""
-				"It's also pretty."
+				"{atm9.quest.occultism.desc.flammableFruit.3}"
 			]
 			id: "3D41D0092D94636B"
 			progression_mode: "linear"
@@ -462,11 +462,11 @@
 				id: "070E5E92D50F02D1"
 				observe_type: 0
 				timer: 0L
-				title: "Observe &dSpiritfire&r"
+				title: "{atm9.quest.occultism.observeSpiritfire}"
 				to_observe: "occultism:spirit_fire"
 				type: "observation"
 			}]
-			title: "The Flames of &9The Otherworld&r"
+			title: "{atm9.quest.occultism.flamesOtherworld}"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -474,13 +474,13 @@
 			dependencies: ["3D41D0092D94636B"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Using &dSpiritfire&r, we can convert several Overworld mats into their Otherworld variants. You can also find several Otherworld mats by going under the effects of the &bThird Eye&r and adventuring into the world. You might be surprised what you find. To make it easier, there are crafting recipes for the basic materials by throwing them into &dSpiritfire&r."
+				"{atm9.quest.occultism.desc.spiritfireUse.1}"
 				""
-				"&bAndesite&r converts to &3Otherstone&r, which can be used to light a permanent &dSpiritfire&r."
+				"{atm9.quest.occultism.desc.spiritfireUse.2}"
 				""
-				"&aOak Saplings&r convert to &9Oak Saplings&r but they are not the same. When grown, these will look exactly like a regular Oak tree. However, under the effects of the &bThird Eye&r, you will be able to harvest the Otherworld variant."
+				"{atm9.quest.occultism.desc.spiritfireUse.3}"
 				""
-				"&eDiamonds&r will turn into &dSpirit Attuned Gems&r which are used in several recipes we'll need later down the road."
+				"{atm9.quest.occultism.desc.spiritfireUse.4}"
 			]
 			hide: false
 			id: "4C873491F6F0FFAF"
@@ -522,20 +522,20 @@
 					type: "item"
 				}
 			]
-			title: "&dSpiritfire&r Conversions"
+			title: "{atm9.quest.occultism.spiritfireConversions}"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4C873491F6F0FFAF"]
 			description: [
-				"Demons like Candles. I think."
+				"{atm9.quest.occultism.desc.candles.1}"
 				""
-				"For almost every Ritual to summon our friends, you'll need some Candles. You can create the &aButcher Knife&r and kill some pigs, cows, sheep, horses, or even the Trader Llamas to get some &aTallow&r to make them. Matter of fact, you should definitely find the Trader Llamas. I hear they make good candles. &mI totally didn't just make that up&r."
+				"{atm9.quest.occultism.desc.candles.2}"
 				""
-				"Otherwise, Vanilla Candles can also work!"
+				"{atm9.quest.occultism.desc.candles.3}"
 				""
-				"&9Spirit Attuned Crystals&r are also used in several Rituals, so might as well make some now!"
+				"{atm9.quest.occultism.desc.candles.4}"
 			]
 			hide_dependency_lines: true
 			id: "6581D4AF1A6DE230"
@@ -560,7 +560,7 @@
 							]
 						}
 					}
-					title: "Candles"
+					title: "{atm9.quest.occultism.candles}"
 					type: "item"
 				}
 				{
@@ -570,20 +570,20 @@
 					type: "item"
 				}
 			]
-			title: "Preparing for a Ritual: &aCandles&r"
+			title: "{atm9.quest.occultism.preparingRitualCandles}"
 			x: 13.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4C873491F6F0FFAF"]
 			description: [
-				"Before we start enlisting the help of our Demon friends, we will need to create the most important item needed for Rituals: &aChalk&r."
+				"{atm9.quest.occultism.desc.ritualChalk.1}"
 				""
-				"There are several colors of chalk needed, with higher level Rituals requiring several to activate. To start with, &bWhite Chalk&r is the easiest to get."
+				"{atm9.quest.occultism.desc.ritualChalk.2}"
 				""
-				"Start by tossing Otherstone in a furnace, and tossing Otherworld Logs into &dSpiritfire&r. With the items you create, you'll be able to make the Impure White Chalk."
+				"{atm9.quest.occultism.desc.ritualChalk.3}"
 				""
-				"To purify any piece of Chalk, simply throw it into &dSpiritfire&r to cleanse it. Using the Purified Chalk on the ground will draw &mdemonic&r pretty symbols on the ground. These are a pain to remove, unless of course, you make yourself the &aChalk Brush&r. Do it, it's worth it."
+				"{atm9.quest.occultism.desc.ritualChalk.4}"
 			]
 			hide_dependency_lines: true
 			id: "1B5177A774FCEF64"
@@ -613,20 +613,20 @@
 					type: "item"
 				}
 			]
-			title: "Preparing for a Ritual: &eChalk&r"
+			title: "{atm9.quest.occultism.preparingRitualChalk}"
 			x: 11.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4C873491F6F0FFAF"]
 			description: [
-				"What is a Demonic Ritual without a &cSacrifice&r! :D"
+				"{atm9.quest.occultism.desc.sacrifice.1}"
 				""
-				"Most of the time, Demons just like items so don't be too afraid yet. However, if you have a favorite Cow, you might need to be worried. Sorry Betsy."
+				"{atm9.quest.occultism.desc.sacrifice.2}"
 				""
-				"&aSacrifical Bowls&r are used to place items needed for Rituals. These can be placed anywhere within the Ritual, as long as it isn't convering up any of the required Chalk."
+				"{atm9.quest.occultism.desc.sacrifice.3}"
 				""
-				"The &6Golden Sacrificial Bowl&r is used in the middle of the Ritual to activate it, and also usually needs a Book of Binding for the Ritual in it."
+				"{atm9.quest.occultism.desc.sacrifice.4}"
 			]
 			hide_dependency_lines: true
 			id: "7F09F8F98C13F11B"
@@ -644,16 +644,16 @@
 					type: "item"
 				}
 			]
-			title: "Preparing for a Ritual: &dCrystals&r"
+			title: "{atm9.quest.occultism.preparingRitualCrystals}"
 			x: 13.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4C873491F6F0FFAF"]
 			description: [
-				"For us to specify which &c&mDemon&r &9Friend&r we want to summon, we'll need to make a specific &bBook of Binding&r."
+				"{atm9.quest.occultism.desc.bookBinding.1}"
 				""
-				"To make this, you'll need to purify some Black Dye in &dSpiritfire&r to get Purified Ink. With this, we're going to make our first Book of Binding which will summon a &aFoliot&r Demon."
+				"{atm9.quest.occultism.desc.bookBinding.2}"
 			]
 			hide_dependency_lines: true
 			id: "0B3EA604C5172D98"
@@ -675,7 +675,7 @@
 					type: "item"
 				}
 			]
-			title: "&bBooks of&r &dBinding&r"
+			title: "{atm9.quest.occultism.booksBinding}"
 			x: 11.5d
 			y: -1.0d
 		}
@@ -687,17 +687,17 @@
 				"1B5177A774FCEF64"
 			]
 			description: [
-				"For our first Ritual, we want to summon a &aFoliot Crusher&r Demon. This Demon will crush items for us, which is something we'll need to make some of the higher level Chalks!"
+				"{atm9.quest.occultism.desc.firstRitual.1}"
 				""
-				"To start with, combine your Unbound Book with your &aDictionary of Spirits&r in a crafting table. This will bind a Demon to the book, which is what we'll need for the Ritual."
+				"{atm9.quest.occultism.desc.firstRitual.2}"
 				""
-				"Speaking of your Dictionary of Spirits, it's time to open it up! On the left, click on the &dPentacles&r tab and click on &bAviar's Circle&r. You might have to advance through it by reading a little bit. There is also a way to click \"Mark All As Read\" so it unlocks everything in the book."
+				"{atm9.quest.occultism.desc.firstRitual.3}"
 				""
-				"This is what we're going to use to summon our new Friend. On the right side, you can click the eye in the bottom-left corner of the image to build an outline of the Ritual for you in the world. This is super helpful!"
+				"{atm9.quest.occultism.desc.firstRitual.4}"
 				""
-				"Once you've completed the multi-block Ritual, place down 4 Sacrificial Bowls and use the required items on them. Once you place your Bound Book in the Golden Sacrificial Bowl, the Ritual will start!"
+				"{atm9.quest.occultism.desc.firstRitual.5}"
 				""
-				"This is what the Ritual will look like. The rods are just there for lighting."
+				"{atm9.quest.occultism.desc.firstRitual.6}"
 				""
 				"{image:atm:textures/questpics/occultism/aviarcircle.png width:200 height:200 align:1}"
 			]
@@ -751,13 +751,13 @@
 					type: "item"
 				}
 			]
-			title: "&bOur First&r &dRitual&r"
+			title: "{atm9.quest.occultism.ourFirstRitual}"
 			x: 12.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7174A0CEC5CCC53B"]
-			description: ["Now that we have a Foliot Crusher, we can &muse&r politely ask it to crush down some &eEnd Stone&r and &9Obsidian&r for us. We'll use these to make some new Chalk!"]
+			description: ["{atm9.quest.occultism.desc.foliotCrusher}"]
 			id: "1DE0F289821F55D1"
 			rewards: [{
 				id: "1B9CD287CB41E0E8"
@@ -778,20 +778,20 @@
 					type: "item"
 				}
 			]
-			title: "&aChalking It Up&r"
+			title: "{atm9.quest.occultism.chalkingItUp}"
 			x: 12.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["4F35D04721DFC9FF"]
 			description: [
-				"See, they aren't all bad!"
+				"{atm9.quest.occultism.desc.foliotDemonFeatures.1}"
 				""
-				"If you've completed the Ritual properly, you'll now have your very own &cFoliot Crusher Demon&r. These Demons are great at crushing down items for you!"
+				"{atm9.quest.occultism.desc.foliotDemonFeatures.2}"
 				""
-				"To give it an item to crush, just throw it nearby and it will pick up the item and crush it. You can also sneak-right click the Demon to open up the inventory."
+				"{atm9.quest.occultism.desc.foliotDemonFeatures.3}"
 				""
-				"This is a starter Demon, so it won't last very long. This one can also double your ore output for you!"
+				"{atm9.quest.occultism.desc.foliotDemonFeatures.4}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -822,22 +822,22 @@
 				id: "034F6D98DA7900BD"
 				observe_type: 5
 				timer: 0L
-				title: "Observe a Foliot Demon"
+				title: "{atm9.quest.occultism.observeFoliot}"
 				to_observe: "occultism:foliot"
 				type: "observation"
 			}]
-			title: "&aTalking with our New Friend!&r"
+			title: "{atm9.quest.occultism.talkingNewFriend}"
 			x: 12.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["1DE0F289821F55D1"]
 			description: [
-				"While there are other methods to move Demons around, you can create an &dEmpty Soul Gem&r to capture a Demon and place it somewhere else. This is also needed for the ATM Star."
+				"{atm9.quest.occultism.desc.soulGemFeatures.1}"
 				""
-				"To make this, we'll need to do a more advanced Ritual called &aStrigeor's Higher Binding&r. For this, you'll need &a8 Sacrificial Bowls&r as well as the items required for this quest."
+				"{atm9.quest.occultism.desc.soulGemFeatures.2}"
 				""
-				"Remember, you can always use the multi-block preview by finding the Pentacle in the &bDictionary of Spirits&r to help you build the structure."
+				"{atm9.quest.occultism.desc.soulGemFeatures.3}"
 			]
 			id: "08B1A64B01A8A604"
 			rewards: [{
@@ -881,20 +881,20 @@
 					type: "item"
 				}
 			]
-			title: "&bCapturing&r &dDemons&r"
+			title: "{atm9.quest.occultism.capturingDemons}"
 			x: 9.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["1DE0F289821F55D1"]
 			description: [
-				"No, not that kind."
+				"{atm9.quest.occultism.desc.afritFeatures.1}"
 				""
-				"&cAfrit Demons&r are Demons of &cFire&r. They are more advanced Demons, which some are friends and some are....not."
+				"{atm9.quest.occultism.desc.afritFeatures.2}"
 				""
-				"If we want to collect all of the Chalks, we'll need to summon a not-so friendly Ifrit. And kill it."
+				"{atm9.quest.occultism.desc.afritFeatures.3}"
 				""
-				"This specific Ritual will need a live sacrifice. Once you've placed all of the items needed and the Book of Binding into the Golden Sacrificial Bowl, the Ritual will not start until you sacrifice the living creature nearby it. In this instance, we'll be sacrificing a cow. Sorry again, Betsy. "
+				"{atm9.quest.occultism.desc.afritFeatures.4}"
 			]
 			icon: "occultism:afrit_essence"
 			id: "145C8235BCCB9BA8"
@@ -912,7 +912,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "R.I.P. Betsy"
+			subtitle: "{atm9.quest.occultism.subt.ripBetsy}"
 			tasks: [
 				{
 					id: "429FA6C2EA459597"
@@ -925,13 +925,13 @@
 					type: "item"
 				}
 			]
-			title: "&cHot Demons&r"
+			title: "{atm9.quest.occultism.hotDemons}"
 			x: 14.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["08B1A64B01A8A604"]
-			description: ["This item is used to capture Demons for transport or storage. It's also needed for the &6ATM Star&r."]
+			description: ["{atm9.quest.occultism.desc.captureDemons}"]
 			id: "666EA8B8F13EB292"
 			rewards: [
 				{
@@ -957,16 +957,16 @@
 				}
 				type: "item"
 			}]
-			title: "&dEmpty Soul Gem&r"
+			title: "{atm9.quest.occultism.emptySoulGem}"
 			x: 7.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["1DE0F289821F55D1"]
 			description: [
-				"There are more Otherworld items you will need to gather, and eating &cDemon's Dream Fruit&r every time you need the &7Third Eye&r effect gets annoying."
+				"{atm9.quest.occultism.desc.otherworldItems.1}"
 				""
-				"This is what the &dOtherworld Goggles&r are for! When equipped (even in your Curios slot), it gives the Third Eye effect!"
+				"{atm9.quest.occultism.desc.otherworldItems.2}"
 			]
 			id: "2A5004EB99AE4F96"
 			rewards: [
@@ -993,16 +993,16 @@
 				}
 				type: "item"
 			}]
-			title: "Quit Eating That Fruit!"
+			title: "{atm9.quest.occultism.quitEatingFruit}"
 			x: 11.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["2A5004EB99AE4F96"]
 			description: [
-				"Most of the items we've needed from the &3Otherworld&r so far just needed some Spiritfire. However, we will need to use the help of the &3Third Eye&r to find the Ore of the &3Otherworld&r."
+				"{atm9.quest.occultism.desc.newTools.1}"
 				""
-				"We'll also need a special pickaxe to be able to mine it. For this, we'll need to Infuse a Demon into a &dSpirit Attuned Pickaxe Head&r to create a pickaxe that can break this new kind of ore."
+				"{atm9.quest.occultism.desc.newTools.2}"
 			]
 			id: "686AEC3EF1140D15"
 			rewards: [
@@ -1033,22 +1033,22 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "New Tools for New Ores"
+			title: "{atm9.quest.occultism.newToolsForNewOres}"
 			x: 9.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["686AEC3EF1140D15"]
 			description: [
-				"The next step in your journey will be to find &eIesnium Ore&r in the Nether."
+				"{atm9.quest.occultism.desc.findIesnium.1}"
 				""
-				"Without the effects of the &3Third Eye&r, this will look just like Netherrack. Make sure to have your &dOtherworld Goggles&r equipped!"
+				"{atm9.quest.occultism.desc.findIesnium.2}"
 				""
-				"To locate the ore, try using a &aDivination Rod&r. You'll need to attune it to Netherrack first, then hold down right click to use it. After a few seconds, you will see a particle shoot out in the direction of the nearest Iesnium Ore. You can only mine the ore using the &dInfused Pickaxe&r!"
+				"{atm9.quest.occultism.desc.findIesnium.3}"
 				""
-				"Since you can't break this ore down into double the dusts using the standard methods, try using your Foliot Crusher to double your ingots per raw ore!"
+				"{atm9.quest.occultism.desc.findIesnium.4}"
 				""
-				"Note: If you don't see the particle, make sure your particle settings are turned on!"
+				"{atm9.quest.occultism.desc.findIesnium.5}"
 				""
 				"{image:atm:textures/questpics/occultism/iesniumexample.png width:200 height:175 align:1}"
 			]
@@ -1065,16 +1065,16 @@
 				item: "occultism:iesnium_ore"
 				type: "item"
 			}]
-			title: "&cIesnium: Ore of the Otherworld&r"
+			title: "{atm9.quest.occultism.iesniumOreOtherworld}"
 			x: 11.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["33106E24A3B5DDD8"]
 			description: [
-				"Once you've gathered a few &aRaw Iesnium Ores&r, you'll probably want to use the first few ingots to make an &dIesnium Pickaxe&r. This not only mines Iesnium like the Infused Pickaxe, but lasts a lot longer too."
+				"{atm9.quest.occultism.desc.useIesnium.1}"
 				""
-				"Do yourself a favor and make one of these!"
+				"{atm9.quest.occultism.desc.useIesnium.2}"
 			]
 			id: "57282D7E31EE61EE"
 			rewards: [
@@ -1101,7 +1101,7 @@
 				}
 				type: "item"
 			}]
-			title: "&aThe Otherworld Pickaxe&r"
+			title: "{atm9.quest.occultism.otherworldPickaxe}"
 			x: 12.5d
 			y: 12.5d
 		}
@@ -1111,9 +1111,9 @@
 				"145C8235BCCB9BA8"
 			]
 			description: [
-				"That first Foliot Demon was cool, but what if I told you that you could summon a demon that gives you 6 dusts per raw ore it crushes?"
+				"{atm9.quest.occultism.desc.maridCrusher.1}"
 				""
-				"The &5Marid Crusher&r does exactly that. To summon them, you'll need to use the &cFatma's Incentivized Attraction&r pentacle. This is an advanced ritual, requiring Red, White, and Gold Chalk as well as a lot of space."
+				"{atm9.quest.occultism.desc.maridCrusher.2}"
 			]
 			icon: "occultism:iesnium_block"
 			id: "676BC41C19BEF1FC"
@@ -1133,7 +1133,7 @@
 			]
 			shape: "square"
 			size: 1.25d
-			subtitle: "The Fastest Crushing On This Side of the Mississippi"
+			subtitle: "{atm9.quest.occultism.subt.fastestCrushing}"
 			tasks: [
 				{
 					id: "5E80B6869FE42D9F"
@@ -1163,23 +1163,23 @@
 					id: "5C0CF601CE8BDD2C"
 					observe_type: 5
 					timer: 0L
-					title: "Observe a &dMarid&r Demon"
+					title: "{atm9.quest.occultism.observeMarid}"
 					to_observe: "occultism:marid"
 					type: "observation"
 				}
 			]
-			title: "The &5Marid Crusher&r"
+			title: "{atm9.quest.occultism.maridCrusher}"
 			x: 15.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["57282D7E31EE61EE"]
 			description: [
-				"With our ability to harvest &cIesnium&r, we can call upon the Demons to do our bidding in the mines... I mean.... help us gather ores. Definitely not exploiting Demons or anything."
+				"{atm9.quest.occultism.desc.demonMining.1}"
 				""
-				"For this, we'll need to create a &dDimensional Mineshaft&r to access the Demon Mining World. You'll also need a Mining Demon confined to a lamp, which you'll place inside of the Mineshaft for it to work. While any tier will complete this quest, higher tiers work faster and have a higher chance at mining Iesnium for you."
+				"{atm9.quest.occultism.desc.demonMining.2}"
 				""
-				"The Mineshafts do not auto-export on their own. You will need to extract the items out using either Hoppers, Transporting Demons, or some other method like Item Pipes. It will void any items over its storage limit."
+				"{atm9.quest.occultism.desc.demonMining.3}"
 			]
 			id: "172D2A634E849562"
 			min_width: 350
@@ -1241,24 +1241,24 @@
 							]
 						}
 					}
-					title: "Mining Demons"
+					title: "{atm9.quest.occultism.miningDemons}"
 					type: "item"
 				}
 			]
-			title: "&cDemon Mining&r"
+			title: "{atm9.quest.occultism.demonMining}"
 			x: 12.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["1DE0F289821F55D1"]
 			description: [
-				"You're bound to have too many items playing this modpack. It's just it works, and if you haven't figured out your storage situation yet, &dDimensional Storage&r might just be right for you!"
+				"{atm9.quest.occultism.desc.dimensionalStorage.1}"
 				""
-				"To get started with this magical storage solution, you'll need to craft the &dDimensional Storage Actuator&r and place it down into the world. This acts just like a Shulker Box, meaning if you break it, it won't lose any of the items stored inside. "
+				"{atm9.quest.occultism.desc.dimensionalStorage.2}"
 				""
-				"By default, this has 128 storage slots with each slot holding up to 16 stacks of an item, except for items with &5NBT&r data. These will not stack and will take up an entire slot, so make sure to leave those items out!"
+				"{atm9.quest.occultism.desc.dimensionalStorage.3}"
 				""
-				"If you aren't sure what items have NBT data on them, you can always check out the quest \"NBT and You\" in the Storage questline for more info on NBT!"
+				"{atm9.quest.occultism.desc.dimensionalStorage.4}"
 			]
 			id: "6CC5FE34778F0DFA"
 			rewards: [
@@ -1299,20 +1299,20 @@
 					type: "item"
 				}
 			]
-			title: "&c&mDemonic&r &dMagical Storage&r!"
+			title: "{atm9.quest.occultism.demonicMagicalStorage}"
 			x: 15.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["6CC5FE34778F0DFA"]
 			description: [
-				"To upgrade the amount of stacks your magical storage can hold, you'll need to make &dStorage Stabilizers&r."
+				"{atm9.quest.occultism.desc.storageStabilizers.1}"
 				""
-				"Once made, these must point directly at the Dimensional Matrix part of your Storage Actuator, not the base. These can be up to 5 blocks away, but must have a clear line of sight to the Matrix."
+				"{atm9.quest.occultism.desc.storageStabilizers.2}"
 				""
-				"Whenever you want to upgrade to a higher tier Stabilizer, breaking it won't destroy the items inside. However, you will not be able to add any more items to your storage until it is either replaced or upgraded."
+				"{atm9.quest.occultism.desc.storageStabilizers.3}"
 				""
-				"Below is an example of a simple setup!"
+				"{atm9.quest.occultism.desc.storageStabilizers.4}"
 				""
 				"{image:atm:textures/questpics/occultism/storageupgradeexample.png width:200 height:150 align:1}"
 			]
@@ -1361,20 +1361,20 @@
 				}
 				type: "item"
 			}]
-			title: "&aUpgrading Our Magical Storage&r"
+			title: "{atm9.quest.occultism.upgradingMagicalStorage}"
 			x: 18.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["3D41D0092D94636B"]
 			description: [
-				"While you can get most of the &dOtherworld&r materials using Spiritfire, you can also use &9Divination Rods&r to locate these materials."
+				"{atm9.quest.occultism.desc.divinationRods.1}"
 				""
-				"First, you'll need to attune the Rod to the material you are looking for. For example, if you are on the hunt for &8Otherstone&r, you can use the Rod on &aAndesite&r to help locate the Otherstone in the world."
+				"{atm9.quest.occultism.desc.divinationRods.2}"
 				""
-				"Once attuned to a material, you can hold right click with the Rod in hand, and a particle will shoot off in the direction of the nearest material it is attuned to."
+				"{atm9.quest.occultism.desc.divinationRods.3}"
 				""
-				"You will still need to be under the effects of the &3Third Eye&r to be able to harvest the Otherworld block."
+				"{atm9.quest.occultism.desc.divinationRods.4}"
 			]
 			id: "78ECC28DD4BA9696"
 			tasks: [{
@@ -1386,18 +1386,18 @@
 				}
 				type: "item"
 			}]
-			title: "Hunting For &dOtherworld&r Materials"
+			title: "{atm9.quest.occultism.huntingOtherworldMaterials}"
 			x: 6.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6CC5FE34778F0DFA"]
 			description: [
-				"Want to access your storage remotely? This can be done with either the &eStable Wormhole&r or the &aStorage Accessor&r."
+				"{atm9.quest.occultism.desc.remoteAccess.1}"
 				""
-				"To use the &eStable Wormhole&r, shift-click a &dStorage Actuator&r to link it. You can then place the Wormhole to act as another storage location."
+				"{atm9.quest.occultism.desc.remoteAccess.2}"
 				""
-				"The &aStorage Accessor&r is linked in the same way, but acts as a wireless remote that can even work across dimensions!"
+				"{atm9.quest.occultism.desc.remoteAccess.3}"
 			]
 			id: "5831B3192C0E8C56"
 			rewards: [
@@ -1435,18 +1435,18 @@
 					type: "item"
 				}
 			]
-			title: "&aRemote Access&r"
+			title: "{atm9.quest.occultism.remoteAccess}"
 			x: 16.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["08B1A64B01A8A604"]
 			description: [
-				"Occultism provides more than just Demons to crush your ores!"
+				"{atm9.quest.occultism.desc.demonsAndFamiliars.1}"
 				""
-				"There are Demons that can move stuff for you, chop down wood, and more!!"
+				"{atm9.quest.occultism.desc.demonsAndFamiliars.2}"
 				""
-				"There are also ways to summon cool friends known as &dFamiliars&r that give special buffs and even fight for you! Make sure to check out the &dFamiliar Rituals&r in your guide book!"
+				"{atm9.quest.occultism.desc.demonsAndFamiliars.3}"
 			]
 			icon: {
 				Count: 1b
@@ -1463,10 +1463,10 @@
 			}]
 			tasks: [{
 				id: "6C3887D42B6B2122"
-				title: "Familiars"
+				title: "{atm9.quest.occultism.familiars.1}"
 				type: "checkmark"
 			}]
-			title: "&dFamiliars&r"
+			title: "{atm9.quest.occultism.familiars.2}"
 			x: 8.5d
 			y: 7.0d
 		}
