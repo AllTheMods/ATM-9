@@ -252,7 +252,7 @@
 			corner: false
 			dev: false
 			height: 2.0d
-			hover: ["What are you doing with my Blood?"]
+			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "minecraft:textures/painting/skull_and_roses.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -264,7 +264,7 @@
 			corner: false
 			dev: false
 			height: 0.3d
-			hover: ["Needed for the ATM Star"]
+			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -278,11 +278,11 @@
 	quests: [
 		{
 			description: [
-				"&cEvilCraft&r is a magic mod based on somewhat evil things. Collect the blood of your enemies and harness the power of an ancient source of evil!"
+				"{atm9.quest.evilcraft.desc.modIntro.1}"
 				""
-				"Everything in this mod can be found in the guidebook, the &aOrigins of Darkness&r. "
+				"{atm9.quest.evilcraft.desc.modIntro.2}"
 				""
-				"To get started, find yourself some &9Dark Gems&r. "
+				"{atm9.quest.evilcraft.desc.modIntro.3}"
 			]
 			id: "31FD9EA513E0D010"
 			rewards: [
@@ -304,22 +304,22 @@
 				item: "evilcraft:dark_gem"
 				type: "item"
 			}]
-			title: "&aWelcome to &r&cEvilCraft&r!"
+			title: "{atm9.quest.evilcraft.welcome}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["31FD9EA513E0D010"]
 			description: [
-				"To start collecting blood, we need to craft the &cBlood Extractor&r. "
+				"{atm9.quest.evilcraft.desc.bloodExtractor.1}"
 				""
-				"As long as you have this in your inventory, killing mobs will collect blood into the extractor. &cBlood&r is an important resouce in EvilCraft."
+				"{atm9.quest.evilcraft.desc.bloodExtractor.2}"
 				""
-				"Need to increase the storage of the Extractor? Simply make another, and then combine them in a crafting grid!"
+				"{atm9.quest.evilcraft.desc.bloodExtractor.3}"
 				""
-				"These can also be used to extract blood from &cBlood Stains&r you find (or create) on the ground."
+				"{atm9.quest.evilcraft.desc.bloodExtractor.4}"
 				""
-				"Lastly, with enough blood stored, you can sneak-right click on the ground to place a bucket of blood down."
+				"{atm9.quest.evilcraft.desc.bloodExtractor.5}"
 			]
 			id: "7E79F52147B606F9"
 			min_width: 250
@@ -381,18 +381,18 @@
 				}
 				type: "item"
 			}]
-			title: "&aCollecting&r &cBlood&r"
+			title: "{atm9.quest.evilcraft.collectingBlood}"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["31FD9EA513E0D010"]
 			description: [
-				"These are hard to miss, considering they have a massive beam coming from the center."
+				"{atm9.quest.evilcraft.desc.darkTemple.1}"
 				""
-				"In the center of the &9Dark Temple&r is a &aEnvironmental Accumulator&r. "
+				"{atm9.quest.evilcraft.desc.darkTemple.2}"
 				""
-				"We can use this to empower and create several items that we'll need along the way, including &dLightning Bombs&r!"
+				"{atm9.quest.evilcraft.desc.darkTemple.3}"
 			]
 			id: "2CB69634F6A6E53E"
 			rewards: [
@@ -414,7 +414,7 @@
 					icon: "evilcraft:environmental_accumulator"
 					id: "52D6F14FEB974305"
 					structure: "evilcraft:dark_temple"
-					title: "Visit a Dark Temple"
+					title: "{atm9.quest.evilcraft.visitDarkTemple}"
 					type: "structure"
 				}
 				{
@@ -430,18 +430,18 @@
 					type: "item"
 				}
 			]
-			title: "&9Dark Temples&r"
+			title: "{atm9.quest.evilcraft.darkTemples}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"To progress, we'll need to create our first &5Dark Power Gem&r."
+				"{atm9.quest.evilcraft.desc.darkPowerGem.1}"
 				""
-				"To do this, you'll need to collect at least 5 buckets worth of blood in your &aBlood Extractor&r. Once collected, make a hole with at least 5 blocks of space, and then fill it with the blood."
+				"{atm9.quest.evilcraft.desc.darkPowerGem.2}"
 				""
-				"Once you've created your pool of blood, toss in a &9Dark Gem&r to infuse it."
+				"{atm9.quest.evilcraft.desc.darkPowerGem.3}"
 			]
 			id: "64EC182B81BD8B86"
 			rewards: [
@@ -462,18 +462,18 @@
 				item: "evilcraft:dark_power_gem"
 				type: "item"
 			}]
-			title: "&dInfusing Gems with&r &cBlood&r"
+			title: "{atm9.quest.evilcraft.infusingGems}"
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"If you leave a bucket of blood on the ground long enough, it will dry into &cHardened Blood&r."
+				"{atm9.quest.evilcraft.desc.dryingBlood.1}"
 				""
-				"Aside from being incredibly unsanitary, we need all kinds of blood for us to progress. Even dried blood."
+				"{atm9.quest.evilcraft.desc.dryingBlood.2}"
 				""
-				"This will turn back into blood in the rain, or by breaking it with regular tools. If you break it with &9Flint and Steel&r, you'll get &dBlood Shards&r instead."
+				"{atm9.quest.evilcraft.desc.dryingBlood.3}"
 			]
 			id: "1E3471513C75CC54"
 			rewards: [
@@ -495,18 +495,18 @@
 				item: "evilcraft:hardened_blood_shard"
 				type: "item"
 			}]
-			title: "Drying... &cBlood?&r"
+			title: "{atm9.quest.evilcraft.dryingBlood}"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["68318811CCC28320"]
 			description: [
-				"We won't be creating Dark Power Gems using pools of blood anymore."
+				"{atm9.quest.evilcraft.desc.bloodInfuser.1}"
 				""
-				"Instead, we can make the &9Blood Infuser&r to do all of the messy work for us. This allows you to directly infuse items with blood!"
+				"{atm9.quest.evilcraft.desc.bloodInfuser.2}"
 				""
-				"These can be upgraded using &6Promises&r as well. This is one of the main machines used for progression!"
+				"{atm9.quest.evilcraft.desc.bloodInfuser.3}"
 			]
 			id: "62A262A706CFCAF0"
 			rewards: [
@@ -540,7 +540,7 @@
 				}
 				type: "item"
 			}]
-			title: "&aThe&r &cBlood Infuser&r"
+			title: "{atm9.quest.evilcraft.bloodInfuser}"
 			x: 3.5d
 			y: 5.5d
 		}
@@ -550,9 +550,9 @@
 				"1E3471513C75CC54"
 			]
 			description: [
-				"Combining &aHardened Blood Shards&r with &9Dark Power Gems&r will make Blood Infusion Cores."
+				"{atm9.quest.evilcraft.desc.bloodInfusionCores.1}"
 				""
-				"&9Blood Infusion Cores&r are the main crafting components of several machines in EvilCraft."
+				"{atm9.quest.evilcraft.desc.bloodInfusionCores.2}"
 			]
 			id: "68318811CCC28320"
 			rewards: [
@@ -575,16 +575,16 @@
 				item: "evilcraft:blood_infusion_core"
 				type: "item"
 			}]
-			title: "&aInfusion Cores&r"
+			title: "{atm9.quest.evilcraft.infusionCores}"
 			x: 2.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["62A262A706CFCAF0"]
 			description: [
-				"Using the Blood Infuser, you can create &cUndead Saplings&r that grow into &dUndead Trees&r."
+				"{atm9.quest.evilcraft.desc.undeadSaplings.1}"
 				""
-				"The logs and planks are useful for creating several tools and items within EvilCraft."
+				"{atm9.quest.evilcraft.desc.undeadSaplings.2}"
 			]
 			id: "40888A2C17D8FFF6"
 			rewards: [
@@ -613,16 +613,16 @@
 					type: "item"
 				}
 			]
-			title: "Undead Trees"
+			title: "{atm9.quest.evilcraft.undeadTrees}"
 			x: 3.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["62A262A706CFCAF0"]
 			description: [
-				"EvilCraft machines can be upgraded using &6Promises&r. Each Promise will have different effects, but first, we'll want to upgrade our Blood Infuser to unlock more recipes."
+				"{atm9.quest.evilcraft.desc.upgradeBloodInfuser.1}"
 				""
-				"To do this, we need to create a &6Promise of Tenacity: Tier 1&r. Generally, this just increases the storage capacity of a machine. For the Blood Infuser, this will unlock more recipes!"
+				"{atm9.quest.evilcraft.desc.upgradeBloodInfuser.2}"
 			]
 			icon: "evilcraft:promise_tier_1"
 			id: "62CE0FFAF6352287"
@@ -652,16 +652,16 @@
 					type: "item"
 				}
 			]
-			title: "&aUpgrading Our Machines&r"
+			title: "{atm9.quest.evilcraft.upgradingMachines}"
 			x: 6.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["68318811CCC28320"]
 			description: [
-				"The &cBlood Chest&r can be used to repair items using &cBlood&r."
+				"{atm9.quest.evilcraft.desc.repairWithBlood.1}"
 				""
-				"However, items repaired might become &dCursed&r...."
+				"{atm9.quest.evilcraft.desc.repairWithBlood.2}"
 			]
 			id: "74B0308336F5E017"
 			rewards: [
@@ -699,18 +699,18 @@
 				}
 				type: "item"
 			}]
-			title: "Repairing Tools with &cBlood&r"
+			title: "{atm9.quest.evilcraft.repairingTools}"
 			x: 1.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["62CE0FFAF6352287"]
 			description: [
-				"Need to remove &dEnchantments&r from an item you've found? Maybe you want to remove a Curse? This can be done using the &cPurifier&r."
+				"{atm9.quest.evilcraft.desc.removeEnchantments.1}"
 				""
-				"To do this, first place at least 3 buckets worth of blood into the Purifier, then throw in the item you want to remove an enchantment from."
+				"{atm9.quest.evilcraft.desc.removeEnchantments.2}"
 				""
-				"Next, add in the &cBlook&r. The Blook will absorb one of the enchants from the item, and convert it into a book of the enchant."
+				"{atm9.quest.evilcraft.desc.removeEnchantments.3}"
 			]
 			id: "5A8F4CA0F09F4842"
 			rewards: [
@@ -761,7 +761,7 @@
 					type: "item"
 				}
 			]
-			title: "Removing &dEnchantments&r and &dCurses&r"
+			title: "{atm9.quest.evilcraft.removingEnchantments}"
 			x: 6.0d
 			y: 7.0d
 		}
@@ -781,7 +781,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Increase the Speed of EvilCraft Machines"
+			subtitle: "{atm9.quest.evilcraft.subt.increaseSpeed}"
 			tasks: [{
 				id: "776844C7221C165C"
 				item: "evilcraft:promise_speed_0"
@@ -806,7 +806,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Increases the Efficiency of EvilCraft Machines"
+			subtitle: "{atm9.quest.evilcraft.subt.increaseEfficiency}"
 			tasks: [{
 				id: "0B55C293EACD60B9"
 				item: "evilcraft:promise_efficiency_0"
@@ -818,11 +818,11 @@
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"Sometimes when you kill a mob, a &dVengeance Spirit&r will spawn."
+				"{atm9.quest.evilcraft.desc.vengeanceSpirit.1}"
 				""
-				"Their &dEssence&r seems to be useful in crafting more advanced items within EvilCraft."
+				"{atm9.quest.evilcraft.desc.vengeanceSpirit.2}"
 				""
-				"Not finding many Spirits? Make a &9Vengeance Ring&r and toggle it on to attract more Spirits during your battles."
+				"{atm9.quest.evilcraft.desc.vengeanceSpirit.3}"
 			]
 			id: "51B24CC5E9332C1E"
 			rewards: [
@@ -851,7 +851,7 @@
 					type: "item"
 				}
 			]
-			title: "Revenge of the &dSpirit&r"
+			title: "{atm9.quest.evilcraft.revengeSpirit}"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -892,7 +892,7 @@
 					type: "item"
 				}
 			]
-			title: "&aRank 2&r: More &cBlood&r"
+			title: "{atm9.quest.evilcraft.rank2}"
 			x: 8.0d
 			y: 5.5d
 		}
@@ -932,7 +932,7 @@
 					type: "item"
 				}
 			]
-			title: "&aRank 3&r: Even More &cBlood&r"
+			title: "{atm9.quest.evilcraft.rank3}"
 			x: 10.0d
 			y: 5.5d
 		}
@@ -941,7 +941,7 @@
 				"1D794DE95C9FF6C7"
 				"12F3A604329EC604"
 			]
-			description: ["Gives you a speed boost + step height!"]
+			description: ["{atm9.quest.evilcraft.desc.speedBoost}"]
 			id: "4D7B6842B9F53459"
 			rewards: [
 				{
@@ -969,11 +969,11 @@
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"Using the power of &9Dark Gems&r, we can create &aDark Tanks&r."
+				"{atm9.quest.evilcraft.desc.darkTanks.1}"
 				""
-				"These can store 16 buckets of any liquid you want, but you'll probably need this for all of the &cBlood&r you'll be collecting."
+				"{atm9.quest.evilcraft.desc.darkTanks.2}"
 				""
-				"Need it to hold more? Just combine it in a crafting grid with another Dark Tank."
+				"{atm9.quest.evilcraft.desc.darkTanks.3}"
 			]
 			id: "75CF9EAB75C3907E"
 			rewards: [
@@ -1012,16 +1012,16 @@
 				}
 				type: "item"
 			}]
-			title: "&aStoring&r &cFluids&r"
+			title: "{atm9.quest.evilcraft.storingFluids}"
 			x: -1.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["40888A2C17D8FFF6"]
 			description: [
-				"It's a pickaxe with Fortune V on it. That's all."
+				"{atm9.quest.evilcraft.desc.fortunePickaxe.1}"
 				""
-				"Definitely won't summon spirits when you are mining. &oDefinitely won't.&r"
+				"{atm9.quest.evilcraft.desc.fortunePickaxe.2}"
 			]
 			id: "10EF30B919EBA5C6"
 			rewards: [
@@ -1069,15 +1069,15 @@
 				"066438B01655D866"
 			]
 			description: [
-				"&cEvilCraft&r has its own Mob Farm!"
+				"{atm9.quest.evilcraft.desc.mobFarm.1}"
 				""
-				"To start this, you'll need to craft at least 33 &cDark Blood Bricks&r. With these, we'll build a structure that is strong enough to contain the summoned spirits."
+				"{atm9.quest.evilcraft.desc.mobFarm.2}"
 				""
-				"You'll also need a spirit trapped in a &9Box of Eternal Closure&r. This will determine the drops you'll get."
+				"{atm9.quest.evilcraft.desc.mobFarm.3}"
 				""
-				"To build this, you need to build a cuboid structure with enough room for the mob to spawn. The minimum size is 3x4x3, which has enough room to spawn mobs like zombies. Make sure to place a &9Spirit Furnace&r on one of the faces so you can interact with the structure."
+				"{atm9.quest.evilcraft.desc.mobFarm.4}"
 				""
-				"If you want to spawn bigger mobs, you'll need to make a bigger structure."
+				"{atm9.quest.evilcraft.desc.mobFarm.5}"
 				""
 				"{image:atm:textures/questpics/evilcraft/evilcraft_spiritfurnace.png width:125 height:150 align:1}"
 			]
@@ -1127,16 +1127,16 @@
 					type: "item"
 				}
 			]
-			title: "&aMob Farms using&r &cBlood&r!"
+			title: "{atm9.quest.evilcraft.mobFarmsUsingBlood}"
 			x: 8.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["51B24CC5E9332C1E"]
 			description: [
-				"While their &dEssence&r is useful, we can also capture these Spirits for later use. That sounds evil, doesn't it?"
+				"{atm9.quest.evilcraft.desc.captureSpirits.1}"
 				""
-				"To become a Spirit Hunter, you'll need to create the &dVengeance Focus&r first. This is used to &aFreeze Spirits&r in place, then you place a &9Box of Eternal Closure&r near the Spirit. This will then suck the Spirit in for later use."
+				"{atm9.quest.evilcraft.desc.captureSpirits.2}"
 			]
 			icon: "evilcraft:box_of_eternal_closure"
 			id: "066438B01655D866"
@@ -1168,18 +1168,18 @@
 					type: "item"
 				}
 			]
-			title: "Capturing &dSpirits&r"
+			title: "{atm9.quest.evilcraft.capturingSpirits}"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["74B0308336F5E017"]
 			description: [
-				"Is the &cBlood Chest&r not working fast enough? Do you have too many items that need to be repaired? You can make a &cColossal Blood Chest&r to solve these problems."
+				"{atm9.quest.evilcraft.desc.colossalBloodChest.1}"
 				""
-				"To build one, you need to make 25 &9Reinforced Undead Planks&r. Using these, you want to make a 3x3x3 hollow cube, then place a &cColossal Blood Chest&r block to close off the multiblock structure. If done right, you'll have a massive &cBlood Chest&r you can now use. Some might call is colossal."
+				"{atm9.quest.evilcraft.desc.colossalBloodChest.2}"
 				""
-				"This also allows you to upgrade it using &6Promises&r."
+				"{atm9.quest.evilcraft.desc.colossalBloodChest.3}"
 				""
 				""
 				"{image:atm:textures/questpics/evilcraft/bloodchest.png width:250 height:200 align:1}"
@@ -1207,7 +1207,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Papa Blood Chest"
+			subtitle: "{atm9.quest.evilcraft.subt.papaBloodChest}"
 			tasks: [
 				{
 					id: "685A188F7C39BE43"
@@ -1239,18 +1239,18 @@
 					type: "item"
 				}
 			]
-			title: "&aColossal Repairs&r"
+			title: "{atm9.quest.evilcraft.colossalRepairs}"
 			x: 0.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["1DA0A87C471A38AC"]
 			description: [
-				"Want to create a mob egg from the spirit you have trapped in that box?"
+				"{atm9.quest.evilcraft.desc.createMobEgg.1}"
 				""
-				"The &9Spirit Reanimator&r does exactly that. Give it a lot of &cBlood&r and an egg, and of course a &9Box of Eternal Closure&r with the Spirit you want to create the mob egg from, and it will attempt to create the mob egg!"
+				"{atm9.quest.evilcraft.desc.createMobEgg.2}"
 				""
-				"Note: Some mobs cannot be used to create eggs."
+				"{atm9.quest.evilcraft.desc.createMobEgg.3}"
 			]
 			id: "59036A2741E7A8AA"
 			rewards: [
@@ -1284,7 +1284,7 @@
 				}
 				type: "item"
 			}]
-			title: "&aCreating&r &9Mob Eggs&r"
+			title: "{atm9.quest.evilcraft.creatingMobEggs}"
 			x: 8.0d
 			y: -0.125d
 		}
@@ -1306,7 +1306,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "A Reusable Ender Pearl"
+			subtitle: "{atm9.quest.evilcraft.subt.reusableEnderPearl}"
 			tasks: [{
 				id: "20878EDDDF0C77DA"
 				item: {
@@ -1334,7 +1334,7 @@
 		}
 		{
 			dependencies: ["2CB69634F6A6E53E"]
-			description: ["Holding right click will charge up the Mace to do an AoE attack using &cBlood&r. Sneak-right clicking will change the power level. The higher the power level, the more damage it will do at a higher cost of Blood."]
+			description: ["{atm9.quest.evilcraft.desc.maceCharge}"]
 			hide_dependency_lines: true
 			id: "56FB82DEB944F758"
 			rewards: [
@@ -1379,9 +1379,9 @@
 		{
 			dependencies: ["62CE0FFAF6352287"]
 			description: [
-				"The &9Kineticator&r works like a magnet for items and experience."
+				"{atm9.quest.evilcraft.desc.kineticatorFeatures.1}"
 				""
-				"The &eReverse Kineticator&r will instead repel items and experience."
+				"{atm9.quest.evilcraft.desc.kineticatorFeatures.2}"
 			]
 			hide_dependency_lines: true
 			id: "77B5B23A2C01ED7E"
@@ -1399,7 +1399,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Magnets"
+			subtitle: "{atm9.quest.evilcraft.subt.magnets}"
 			tasks: [
 				{
 					id: "7E84245939CD98B9"
@@ -1467,7 +1467,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Summons Zombies"
+			subtitle: "{atm9.quest.evilcraft.subt.summonsZombies}"
 			tasks: [{
 				id: "73E9DB8434DF6236"
 				item: {
@@ -1511,7 +1511,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Removes Bad Potion Effects"
+			subtitle: "{atm9.quest.evilcraft.subt.removesBadEffects}"
 			tasks: [{
 				id: "40CA543BAAC1182D"
 				item: {
@@ -1555,7 +1555,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "A One-Time Use Lightning Scepter"
+			subtitle: "{atm9.quest.evilcraft.subt.lightningScepter}"
 			tasks: [{
 				id: "26ADA98532E2CDB7"
 				item: "evilcraft:sceptre_of_thunder"
@@ -1570,7 +1570,7 @@
 				"753B3EF7CC94A6DD"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Either with the flesh of &aPlayers&r or &dWerewolves&r, you can create an &aInfinite Food Source&r using the power of Garmonbozia!"]
+			description: ["{atm9.quest.evilcraft.desc.infiniteFoodSource}"]
 			id: "600F66B13B29708B"
 			rewards: [
 				{
@@ -1614,7 +1614,7 @@
 		}
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
-			description: ["To insert the desired potion, just right click with the &2Primed Pendant&r in hand to open its inventory."]
+			description: ["{atm9.quest.evilcraft.desc.primedPendant}"]
 			hide_dependency_lines: true
 			id: "4DF7E2149F4BD8CC"
 			rewards: [
@@ -1631,7 +1631,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Applies Potion Effects"
+			subtitle: "{atm9.quest.evilcraft.subt.appliesEffects}"
 			tasks: [{
 				id: "02AD6938B2B14996"
 				item: {
@@ -1660,7 +1660,7 @@
 		}
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
-			description: ["Works like the &aMace of Distortion&r, except it causes an AoE explosion instead."]
+			description: ["{atm9.quest.evilcraft.desc.maceExplosion}"]
 			hide_dependency_lines: true
 			id: "290FAB3DE8FD04E7"
 			rewards: [
@@ -1705,9 +1705,9 @@
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"Have you ever wanted to be able to attack things with a Shovel, and it hurt? I would ask why, but this is EvilCraft."
+				"{atm9.quest.evilcraft.desc.shovelWeapon.1}"
 				""
-				"Well look no further! This serves as both a weapon, and a tool for breaking soft things!"
+				"{atm9.quest.evilcraft.desc.shovelWeapon.2}"
 			]
 			id: "0B9F2B443813F43C"
 			optional: true
@@ -1743,11 +1743,11 @@
 		{
 			dependencies: ["4EBED8ABC8C863A4"]
 			description: [
-				"The &6Entangled Chalice&r is just like an Ender Tank."
+				"{atm9.quest.evilcraft.desc.entangledChaliceFeatures.1}"
 				""
-				"When placed in the world, it can pump in Blood. When activated in your inventory, it will try to fill up your items that use &cBlood&r as a resource."
+				"{atm9.quest.evilcraft.desc.entangledChaliceFeatures.2}"
 				""
-				"If you want to make more Chalices using the same network, just use the crafting recipe that uses a Chalice instead of a gold ingot."
+				"{atm9.quest.evilcraft.desc.entangledChaliceFeatures.3}"
 			]
 			hide_dependency_lines: true
 			id: "0BB0DF36B079558F"
@@ -1792,16 +1792,16 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&dEntangled Chalice&r"
+			title: "{atm9.quest.evilcraft.entangledChalice}"
 			x: 12.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4EBED8ABC8C863A4"]
 			description: [
-				"Using the power of a slain &9Vengeance Spirit&r, we can use the Blood Infuser to create &dGarmonbozia&r."
+				"{atm9.quest.evilcraft.desc.garmonboziaCreation.1}"
 				""
-				"This is &dPain&r and &dSorrow&r materialized. It's also the high-end crafting material for powerful tools and items in EvilCraft."
+				"{atm9.quest.evilcraft.desc.garmonboziaCreation.2}"
 			]
 			id: "35FA55BE8DF49EE8"
 			rewards: [
@@ -1830,13 +1830,13 @@
 				item: "evilcraft:garmonbozia"
 				type: "item"
 			}]
-			title: "&dGarmonbozia&r"
+			title: "{atm9.quest.evilcraft.garmonbozia}"
 			x: 12.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
-			description: ["With &dGarmonbozia&r, we can now create our own &aEnvironmental Accumulator&r. That's a lot to type out, I'm gonna be honest."]
+			description: ["{atm9.quest.evilcraft.desc.environmentalAccumulator}"]
 			id: "63AE4568375DD1BF"
 			rewards: [
 				{
@@ -1857,16 +1857,16 @@
 				item: "evilcraft:sanguinary_environmental_accumulator"
 				type: "item"
 			}]
-			title: "Our Own Weather Accumulator"
+			title: "{atm9.quest.evilcraft.weatherAccumulator}"
 			x: 14.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["2CB69634F6A6E53E"]
 			description: [
-				"When it's raining, throwing in a &aWeather Container&r will harness the power of the rain."
+				"{atm9.quest.evilcraft.desc.infiniteWater.1}"
 				""
-				"With this, you can create an &9Infinite Water Bucket&r, or an &9Infinite Water Source Block&r. These are both incredibly useful items to have!"
+				"{atm9.quest.evilcraft.desc.infiniteWater.2}"
 			]
 			id: "7A93F07BE2E6EC97"
 			rewards: [
@@ -1907,16 +1907,16 @@
 					type: "item"
 				}
 			]
-			title: "&aLet it&r &9Rain&r"
+			title: "{atm9.quest.evilcraft.letItRain}"
 			x: 0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2CB69634F6A6E53E"]
 			description: [
-				"When it's a thunderstorm, throwing in a &aWeather Container&r into the &aEnvironmental Accumulator&r will harness the power of the storm."
+				"{atm9.quest.evilcraft.desc.thunderstormPower.1}"
 				""
-				"Using this, we can create items that allow us to control Lightning at will."
+				"{atm9.quest.evilcraft.desc.thunderstormPower.2}"
 			]
 			id: "674E2690D66ECD6E"
 			rewards: [
@@ -1957,20 +1957,20 @@
 					type: "item"
 				}
 			]
-			title: "&aYou've Been&r &9Thunderstruck&r"
+			title: "{atm9.quest.evilcraft.thunderstruck}"
 			x: -0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"Did a mob hit the floor too hard and get its &cBlood&r everywhere? Oh no!"
+				"{atm9.quest.evilcraft.desc.bloodCleanup.1}"
 				""
-				"Anyway."
+				"{atm9.quest.evilcraft.desc.bloodCleanup.2}"
 				""
-				"You can use a &cSanguinary Pedestal&r to absorb that precious &cBlood&r for later use!"
+				"{atm9.quest.evilcraft.desc.bloodCleanup.3}"
 				""
-				"Want to automate collecting blood? Place a &9Spiked Plate&r on top of the Pedestal, then have a mob stand on it."
+				"{atm9.quest.evilcraft.desc.bloodCleanup.4}"
 			]
 			id: "525517F1625A9BCB"
 			rewards: [
@@ -2034,7 +2034,7 @@
 							]
 						}
 					}
-					title: "Sanguinary Pedestal"
+					title: "{atm9.quest.evilcraft.sanguinaryPedestal}"
 					type: "item"
 				}
 				{
@@ -2043,16 +2043,16 @@
 					type: "item"
 				}
 			]
-			title: "&aCollecting&r &cBlood Stains&r"
+			title: "{atm9.quest.evilcraft.collectingBloodStains}"
 			x: -1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
 			description: [
-				"This is a unique drop from &aPlayers&r, including when you die!"
+				"{atm9.quest.evilcraft.desc.uniqueDrop.1}"
 				""
-				"You &ocould&r get this by dying over and over, or by participating in PvP. Same thing!"
+				"{atm9.quest.evilcraft.desc.uniqueDrop.2}"
 			]
 			id: "753B3EF7CC94A6DD"
 			rewards: [
@@ -2080,9 +2080,9 @@
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
 			description: [
-				"Within villages, there are &ointeresting&r villagers that just so happen to be &dWerewolves&r."
+				"{atm9.quest.evilcraft.desc.werewolfVillagers.1}"
 				""
-				"Slaying these beasts will give you &dWerewolf Flesh&r."
+				"{atm9.quest.evilcraft.desc.werewolfVillagers.2}"
 			]
 			id: "026A71F98A52E3A5"
 			rewards: [
@@ -2109,9 +2109,9 @@
 		{
 			dependencies: ["40888A2C17D8FFF6"]
 			description: [
-				"Need more blood from your enemies? Of course you do!"
+				"{atm9.quest.evilcraft.desc.veinSword.1}"
 				""
-				"The &dVein Sword&r allows you to collect more blood, as well as more drops with Looting attached to it!"
+				"{atm9.quest.evilcraft.desc.veinSword.2}"
 			]
 			id: "7B524DAD8A33BF85"
 			rewards: [
@@ -2150,11 +2150,11 @@
 		{
 			dependencies: ["40888A2C17D8FFF6"]
 			description: [
-				"&dBrooms&r can be made using Broom Parts. Every Broom is made up of 3 parts: a Rod, a Cap, and a Brush."
+				"{atm9.quest.evilcraft.desc.broomCrafting.1}"
 				""
-				"Each part can be crafted by combing the bare part with certain items to give them specific modifiers. As there are too many modifiers to type out, make sure to check the guide book for more info!"
+				"{atm9.quest.evilcraft.desc.broomCrafting.2}"
 				""
-				"To craft your Broom, simply place each part into the crafting table. The Broom will require Blood to function properly. "
+				"{atm9.quest.evilcraft.desc.broomCrafting.3}"
 			]
 			icon: {
 				Count: 1b
@@ -2190,7 +2190,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Broom Broom"
+			subtitle: "{atm9.quest.evilcraft.subt.broomBroom}"
 			tasks: [
 				{
 					id: "73427CBDD811273E"
@@ -2279,7 +2279,7 @@
 					type: "item"
 				}
 			]
-			title: "&cBlood&r &dBrooms&r"
+			title: "{atm9.quest.evilcraft.bloodBrooms}"
 			x: 3.5d
 			y: 10.5d
 		}

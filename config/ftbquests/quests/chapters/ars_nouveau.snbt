@@ -10,7 +10,7 @@
 		corner: false
 		dev: false
 		height: 0.3d
-		hover: ["Needed for the ATM Star"]
+		hover: ["{atm9.quest.ae2.img.star}"]
 		image: "allthetweaks:item/atm_star"
 		rotation: 0.0d
 		width: 0.3d
@@ -23,9 +23,9 @@
 	quests: [
 		{
 			description: [
-				"Welcome to &aArs Nouveau&f!"
+				"{atm9.quest.arsNouveau.welcome}"
 				""
-				"Ars Nouveau is a magic mod that allows you to create custom spells with the different Glyphs made within the mod!"
+				"{atm9.quest.arsNouveau.desc.magicModIntro}"
 			]
 			id: "6E0E13806F388D7E"
 			rewards: [{
@@ -38,7 +38,7 @@
 			tasks: [{
 				icon: "ars_nouveau:creative_spell_book"
 				id: "33CEC23CAF6DA6A6"
-				title: "Ars Nouveau"
+				title: "{atm9.quest.arsNouveau.arsNouveau}"
 				type: "checkmark"
 			}]
 			x: -6.25d
@@ -970,9 +970,9 @@
 		{
 			dependencies: ["3D4D88B8BE881351"]
 			description: [
-				"Tier 2 Glyphs require 5 levels of experience to be made."
+				"{atm9.quest.arsNouveau.desc.tier2Glyphs.1}"
 				""
-				"They also require a &9Mage's Spell Book&r to create."
+				"{atm9.quest.arsNouveau.desc.tier2Glyphs.2}"
 			]
 			id: "63DD7F5A4441ACE7"
 			shape: "hexagon"
@@ -980,29 +980,29 @@
 				id: "15C6E9C02D1FBEC0"
 				type: "checkmark"
 			}]
-			title: "Tier 2 Glyphs"
+			title: "{atm9.quest.arsNouveau.tier2Glyphs}"
 			x: -1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3D4D88B8BE881351"]
-			description: ["Tier 1 Glyphs require 3 levels of experience to be made."]
+			description: ["{atm9.quest.arsNouveau.desc.tier1Glyphs}"]
 			id: "441C0659ED28D935"
 			shape: "hexagon"
 			tasks: [{
 				id: "1CC556A6921208B8"
 				type: "checkmark"
 			}]
-			title: "Tier 1 Glyphs"
+			title: "{atm9.quest.arsNouveau.tier1Glyphs}"
 			x: -5.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3D4D88B8BE881351"]
 			description: [
-				"Tier 3 Glyphs require 10 levels of experience to be made."
+				"{atm9.quest.arsNouveau.desc.tier3Glyphs.1}"
 				""
-				"They also require an &6Archmage's Spell Book&r."
+				"{atm9.quest.arsNouveau.desc.tier3Glyphs.2}"
 			]
 			id: "6F3602F5600A6221"
 			shape: "hexagon"
@@ -1010,16 +1010,16 @@
 				id: "65D68BEEB36FC805"
 				type: "checkmark"
 			}]
-			title: "Tier 3 Glyphs"
+			title: "{atm9.quest.arsNouveau.tier3Glyphs}"
 			x: 3.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["58EC47584C773B82"]
 			description: [
-				"When your Magebloom seeds.... bloom, you can use the Magebloom to create Fibers."
+				"{atm9.quest.arsNouveau.desc.magebloom.1}"
 				""
-				"These are used to craft several items, including your first set of magical armor!"
+				"{atm9.quest.arsNouveau.desc.magebloom.2}"
 			]
 			id: "542C6D76B579886C"
 			rewards: [
@@ -1047,11 +1047,11 @@
 		{
 			dependencies: ["18A2FBE2D4133FA2"]
 			description: [
-				"The &9Enchanting Apparatus&r is used to craft various items within the mod. It requires Source to work."
+				"{atm9.quest.arsNouveau.desc.enchantingApparatus.1}"
 				""
-				"It is also a multiblock structure that utilizes Arcane Pedestals to craft."
+				"{atm9.quest.arsNouveau.desc.enchantingApparatus.2}"
 				""
-				"Start by placing an Arcane Core in the ground, then place the Enchanting Apparatus on top of it. Surround the Apparatus with Arcane Pedestals."
+				"{atm9.quest.arsNouveau.desc.enchantingApparatus.3}"
 				""
 				"{image:atm:textures/questpics/ars/enchanting_app.png width:200 height:175 align:1}"
 			]
@@ -1075,16 +1075,16 @@
 					type: "item"
 				}
 			]
-			title: "Enchanting Apparatus"
+			title: "{atm9.quest.arsNouveau.enchantingApparatus}"
 			x: 10.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5C3FF43CF16BCF30"]
 			description: [
-				"Arcane Pedestals are needed for the Ritual Brazier and crafting items with an Enchanting Apparatus."
+				"{atm9.quest.arsNouveau.desc.arcanePedestals.1}"
 				""
-				"Go ahead and make yourself 8 of them!"
+				"{atm9.quest.arsNouveau.desc.arcanePedestals.2}"
 			]
 			id: "18A2FBE2D4133FA2"
 			rewards: [{
@@ -1094,14 +1094,14 @@
 			}]
 			shape: "square"
 			size: 1.25d
-			subtitle: "Fancy Tables"
+			subtitle: "{atm9.quest.arsNouveau.subt.fancyTables}"
 			tasks: [{
 				count: 8L
 				id: "5B80C1EF5D85EA64"
 				item: "ars_nouveau:arcane_pedestal"
 				type: "item"
 			}]
-			title: "Arcane Pedestals"
+			title: "{atm9.quest.arsNouveau.arcanePedestals}"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -1433,22 +1433,22 @@
 		{
 			dependencies: ["33682F4B44950123"]
 			description: [
-				"If you want to cast better spells, you'll need a &6Scribe's Table&r to unlock new glyphs for your spellbook."
+				"{atm9.quest.arsNouveau.desc.scribesTable.1}"
 				""
-				"There are 3 tiers of glyphs to unlock, and each one requires some experience and items."
+				"{atm9.quest.arsNouveau.desc.scribesTable.2}"
 				""
-				"The Scribe's Table is also used to attach spells to Spell Parchments. To do this, place a Spell Parchment on the table, select the spell in your Spellbook, then sneak right-click the book on the table."
+				"{atm9.quest.arsNouveau.desc.scribesTable.3}"
 				""
-				"To create a Glyph, right-click on the Scribe's Table with your spellbook. Search for the glyph you want to make, then click Select at the bottom. Right-click the table with the items required, and the glyph will be created. Use the glyph to learn it."
+				"{atm9.quest.arsNouveau.desc.scribesTable.4}"
 				""
-				"Note: The table can pull items from nearby inventories."
+				"{atm9.quest.arsNouveau.desc.scribesTable.5}"
 			]
 			id: "3D4D88B8BE881351"
 			rewards: [
 				{
 					id: "090A541FA98CD1FD"
 					table_id: 7708276966210401484L
-					title: "Random Tier 1 Glyph"
+					title: "{atm9.quest.arsNouveau.randomTier1Glyph}"
 					type: "random"
 				}
 				{
@@ -1459,7 +1459,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Upgrading Spells"
+			subtitle: "{atm9.quest.arsNouveau.subt.upgradingSpells}"
 			tasks: [{
 				id: "5ADEEEE0C217B20F"
 				item: "ars_nouveau:scribes_table"
@@ -1496,13 +1496,13 @@
 		{
 			dependencies: ["6E0E13806F388D7E"]
 			description: [
-				"To get started, you'll need to craft yourself a &6Novice Spellbook&r."
+				"{atm9.quest.arsNouveau.desc.noviceSpellbook.1}"
 				""
-				"This is where you create and store your spells."
+				"{atm9.quest.arsNouveau.desc.noviceSpellbook.2}"
 				""
-				"Hitting the &9C&r key will open up the \"Create a Spell\" page. On the left, there are several tabs, but the main 3 are: Spell Creation, Color Picker, and Familiars."
+				"{atm9.quest.arsNouveau.desc.noviceSpellbook.3}"
 				""
-				"This spellbook will only allow you to create and use Tier 1 Glyphs. To create better spells, you'll need to upgrade your Spellbook!"
+				"{atm9.quest.arsNouveau.desc.noviceSpellbook.4}"
 			]
 			id: "64D0E66CB4FBEC82"
 			rewards: [
@@ -1523,7 +1523,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Our First Spellbook"
+			subtitle: "{atm9.quest.arsNouveau.subt.ourFirstSpellbook}"
 			tasks: [{
 				id: "6988873450238F30"
 				item: "ars_nouveau:novice_spell_book"
@@ -1535,16 +1535,16 @@
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
 			description: [
-				"This is the next upgrade to your Spellbook!"
+				"{atm9.quest.arsNouveau.desc.nextUpgrade.1}"
 				""
-				"This will increase your overall mana and mana regen, as well as allowing you to create and use Tier 2 Glyphs."
+				"{atm9.quest.arsNouveau.desc.nextUpgrade.2}"
 			]
 			id: "0D330FAD6C993DBC"
 			rewards: [
 				{
 					id: "26AA78496AAD568F"
 					table_id: 7708276966210401484L
-					title: "Random Tier 1 Glyph"
+					title: "{atm9.quest.arsNouveau.randomTier1Glyph}"
 					type: "random"
 				}
 				{
@@ -1564,9 +1564,9 @@
 		{
 			dependencies: ["0D330FAD6C993DBC"]
 			description: [
-				"To create the final tier of your Spellbook, you'll need to have killed the &6Wilden Chimera&r."
+				"{atm9.quest.arsNouveau.desc.finalTierSpellbook.1}"
 				""
-				"This is a Ritual that you'll need to complete using a &9Ritual Brazier&r."
+				"{atm9.quest.arsNouveau.desc.finalTierSpellbook.2}"
 			]
 			id: "17D7D34F519F7E5F"
 			rewards: [
@@ -1592,11 +1592,11 @@
 		{
 			dependencies: ["18A2FBE2D4133FA2"]
 			description: [
-				"The &9Ritual Brazier&r is used to cast rituals. It can also be used for decoration. If you want to light the Brazier, use a Light spell on it."
+				"{atm9.quest.arsNouveau.desc.ritualBrazier.1}"
 				""
-				"To perform rituals, you'll need Arcane Pedestals as well. As there are so many rituals to cast, make sure to check out each of them using the &6Worn Notebook&r!"
+				"{atm9.quest.arsNouveau.desc.ritualBrazier.2}"
 				""
-				"This can be done by holding Ctrl on the Ritual Table while the book is in your inventory."
+				"{atm9.quest.arsNouveau.desc.ritualBrazier.3}"
 			]
 			id: "457DE8C154641437"
 			rewards: [{
@@ -1617,9 +1617,9 @@
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"The &9Potion Jar&r stores up to 100 potions. You can remove them by using an empty bottle or a potion flask on the jar."
+				"{atm9.quest.arsNouveau.desc.potionJar.1}"
 				""
-				"Wixies will use these jars during Potion Autocrafting."
+				"{atm9.quest.arsNouveau.desc.potionJar.2}"
 			]
 			id: "04D9F6587EF8D9B7"
 			rewards: [
@@ -1635,7 +1635,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Storing Potions"
+			subtitle: "{atm9.quest.arsNouveau.subt.storingPotions}"
 			tasks: [{
 				id: "7F3D9B9E5E4FD3B8"
 				item: "ars_nouveau:potion_jar"
@@ -1647,11 +1647,11 @@
 		{
 			dependencies: ["33682F4B44950123"]
 			description: [
-				"To create one of the main crafting items in Ars, the &9Source Gem&r, we'll need to make an &6Imbuement Chamber&r."
+				"{atm9.quest.arsNouveau.desc.sourceGem.1}"
 				""
-				"The Imbuement Chamber requires Source to imbue items. It produces a small amount of Source by itself, but can also use Source Jars as a power source."
+				"{atm9.quest.arsNouveau.desc.sourceGem.2}"
 				""
-				"Several recipes also require Arcane Pedestals to be placed around it as well."
+				"{atm9.quest.arsNouveau.desc.sourceGem.3}"
 				""
 				""
 				"{image:atm:textures/questpics/ars/imbuement.png width:200 height:150 align:1}"
@@ -1671,7 +1671,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Creating Source Gems"
+			subtitle: "{atm9.quest.arsNouveau.subt.creatingSourceGems}"
 			tasks: [{
 				id: "78B5B8F9CE9EC702"
 				item: "ars_nouveau:imbuement_chamber"
@@ -1683,9 +1683,9 @@
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
 			description: [
-				"To gain further knowledge of spells, we'll need a specific type of magical wood!"
+				"{atm9.quest.arsNouveau.desc.magicalWood}"
 				""
-				"Archwood Trees can be found in the overworld."
+				"{atm9.quest.arsNouveau.desc.magicalWood.1}"
 			]
 			id: "33682F4B44950123"
 			rewards: [
@@ -1710,7 +1710,7 @@
 							value: "forge:logs/archwood"
 						}
 					}
-					title: "Archwood Logs"
+					title: "{atm9.quest.arsNouveau.archwoodLogs}"
 					type: "item"
 				}
 				{
@@ -1723,22 +1723,22 @@
 							value: "forge:planks/archwood"
 						}
 					}
-					title: "Archwood Planks"
+					title: "{atm9.quest.arsNouveau.archwoodPlanks}"
 					type: "item"
 				}
 			]
-			title: "Archwood logs"
+			title: "{atm9.quest.arsNouveau.archwoodLogs}"
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["40BC67BDEE15D1DE"]
 			description: [
-				"In Ars Nouveau, the power system for machines is called &9Source&r."
+				"{atm9.quest.arsNouveau.desc.sourceSystem}"
 				""
-				"To start collecting some Source, we'll need a Source Jar."
+				"{atm9.quest.arsNouveau.desc.sourceSystem.1}"
 				""
-				"Source can also be moved with buckets, or by breaking and picking up Source Jars."
+				"{atm9.quest.arsNouveau.desc.sourceSystem.2}"
 			]
 			id: "227DBA8836021B0B"
 			rewards: [
@@ -1760,7 +1760,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Storing Source"
+			subtitle: "{atm9.quest.arsNouveau.subt.storingSource}"
 			tasks: [{
 				id: "55AA5FAABC23709E"
 				item: "ars_nouveau:source_jar"
@@ -1822,9 +1822,9 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"Using our Enchanting Apparatus structure, we'll want to craft our first seed, the &5Magebloom Seed&r."
+				"{atm9.quest.arsNouveau.desc.magebloomSeed}"
 				""
-				"This will be used to create us some magical clothing!"
+				"{atm9.quest.arsNouveau.desc.magebloomSeed.1}"
 			]
 			id: "58EC47584C773B82"
 			rewards: [
@@ -1841,14 +1841,14 @@
 					xp: 100
 				}
 			]
-			subtitle: "Growing Magic"
+			subtitle: "{atm9.quest.arsNouveau.subt.growingMagic}"
 			tasks: [{
 				count: 3L
 				id: "6CB12C3C6401287A"
 				item: "ars_nouveau:magebloom_crop"
 				type: "item"
 			}]
-			title: "Magebloom Seed"
+			title: "{atm9.quest.arsNouveau.magebloomSeed}"
 			x: 13.0d
 			y: 0.0d
 		}
@@ -1906,11 +1906,11 @@
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"The Volcanic Sourcelink generates Source by consuming burnable items. Archwood logs will generate bonus Source."
+				"{atm9.quest.arsNouveau.desc.volcanicSourcelink}"
 				""
-				"As it burns items, it will convert nearby stone into lava."
+				"{atm9.quest.arsNouveau.desc.volcanicSourcelink.1}"
 				""
-				"This also generates Lava Lilys."
+				"{atm9.quest.arsNouveau.desc.volcanicSourcelink.2}"
 			]
 			id: "19D02325579F2AA8"
 			rewards: [
@@ -1937,11 +1937,11 @@
 		{
 			dependencies: ["0E2AD156E5EF263A"]
 			description: [
-				"Runic Chalk is used to draw permanent Runes on that ground. These runes will cast spells on entities that walk over them."
+				"{atm9.quest.arsNouveau.desc.runicChalk}"
 				""
-				"To attach a spell to a rune, inscribe a &eSpell Parchment&r using a Scribe's Table."
+				"{atm9.quest.arsNouveau.desc.runicChalk.1}"
 				""
-				"Note: The Rune will need Source to operate."
+				"{atm9.quest.arsNouveau.desc.runicChalk.2}"
 			]
 			id: "151648179684B088"
 			rewards: [{
@@ -1949,7 +1949,7 @@
 				table_id: 4108383404435779231L
 				type: "random"
 			}]
-			subtitle: "Placeable Spells"
+			subtitle: "{atm9.quest.arsNouveau.subt.placeableSpells}"
 			tasks: [{
 				id: "2E649D2172E6D537"
 				item: {
@@ -2257,15 +2257,15 @@
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
 			description: [
-				"While holding your Spellbook, you can press C to open up the spell creation page."
+				"{atm9.quest.arsNouveau.desc.spellCreation}"
 				""
-				"Each spell must have a form. You start off with 3 basic forms: Projectile, Self-cast, and Touch."
+				"{atm9.quest.arsNouveau.desc.spellCreation.1}"
 				""
-				"For the Effect, this determines what happens when you cast the spell. You can have up to 9 effects per spell."
+				"{atm9.quest.arsNouveau.desc.spellCreation.2}"
 				""
-				"For starters, you have Harm and Break."
+				"{atm9.quest.arsNouveau.desc.spellCreation.3}"
 				""
-				"Select one Form and one Effect, name your spell, and click create!"
+				"{atm9.quest.arsNouveau.desc.spellCreation.4}"
 				""
 				"{image:atm:textures/questpics/ars/spellbook.png width:200 height:150 align:1}"
 			]
@@ -2282,7 +2282,7 @@
 			}]
 			tasks: [{
 				id: "1B916AE67F84E6D7"
-				title: "Creating Your First Spell"
+				title: "{atm9.quest.arsNouveau.creatingYourFirstSpell}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -2291,9 +2291,9 @@
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
 			description: [
-				"In the bottom left of your screen, you'll see a bar. This bar is your mana pool!"
+				"{atm9.quest.arsNouveau.desc.mana}"
 				""
-				"There are several ways to increase your mana pool, or increase the efficiency of your spells as you progress through the mod. Upgrading your spellbook can also increase your mana!"
+				"{atm9.quest.arsNouveau.desc.mana.1}"
 			]
 			icon: {
 				Count: 1b
@@ -2321,10 +2321,10 @@
 					xp: 10
 				}
 			]
-			subtitle: "Mage Power"
+			subtitle: "{atm9.quest.arsNouveau.subt.magePower}"
 			tasks: [{
 				id: "01FD75641E5EA5E4"
-				title: "Mana"
+				title: "{atm9.quest.arsNouveau.mana}"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -2332,7 +2332,7 @@
 		}
 		{
 			dependencies: ["5766C8B9E850C186"]
-			description: ["To create Source Gems, we'll need to put either Lapis or Amethyst Shards into the Imbuement Chamber. Over time, these will convert to Source Gems!"]
+			description: ["{atm9.quest.arsNouveau.desc.sourceGems}"]
 			id: "40BC67BDEE15D1DE"
 			rewards: [
 				{
@@ -2360,16 +2360,16 @@
 				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "&5Source Gems"
+			title: "{atm9.quest.arsNouveau.sourceGems}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["33682F4B44950123"]
 			description: [
-				"The &6Dowsing Rod&r gives you Magic Find and Scrying when used."
+				"{atm9.quest.arsNouveau.desc.dowsingRod}"
 				""
-				"This allows you to see nearby magic creatures as well as helping you find amethyst!"
+				"{atm9.quest.arsNouveau.desc.dowsingRod.1}"
 			]
 			id: "3142A40E1EAEBAA3"
 			optional: true
@@ -2378,7 +2378,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Magic Finder"
+			subtitle: "{atm9.quest.arsNouveau.subt.magicFinder}"
 			tasks: [{
 				id: "07469C1ABB23F686"
 				item: {
@@ -2409,7 +2409,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Generates Source from Mob Deaths and Animal Breeding"
+			subtitle: "{atm9.quest.arsNouveau.subt.generatesSourceFromMobDeathsAndAnimalBreeding}"
 			tasks: [{
 				id: "33072A37F4A28A77"
 				item: "ars_nouveau:vitalic_sourcelink"
@@ -2421,9 +2421,9 @@
 		{
 			dependencies: ["04D9F6587EF8D9B7"]
 			description: [
-				"The &9Alchemical Sourcelink&r produces Source from adjacent potion jars."
+				"{atm9.quest.arsNouveau.desc.alchemicalSourcelink}"
 				""
-				"The amount of source varies per potion and complexity."
+				"{atm9.quest.arsNouveau.desc.alchemicalSourcelink.1}"
 			]
 			id: "41A0BE357C8A74E1"
 			rewards: [
@@ -2439,7 +2439,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Power through Potions"
+			subtitle: "{atm9.quest.arsNouveau.subt.powerThroughPotions}"
 			tasks: [{
 				id: "2D08E66F6D607676"
 				item: "ars_nouveau:alchemical_sourcelink"
@@ -2451,9 +2451,9 @@
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"Source Berries produce more Source than other sources."
+				"{atm9.quest.arsNouveau.desc.sourceBerries}"
 				""
-				"This will also convert grass or dirt into Mycelium in a 3x3 area around it. It will also grow mushrooms around it if the space is empty."
+				"{atm9.quest.arsNouveau.desc.sourceBerries.1}"
 			]
 			id: "77145113CD5B26FB"
 			rewards: [
@@ -2469,7 +2469,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Generates Source from Nearby Food"
+			subtitle: "{atm9.quest.arsNouveau.subt.generatesSourceFromNearbyFood}"
 			tasks: [{
 				id: "3F5621FA53258210"
 				item: "ars_nouveau:mycelial_sourcelink"
@@ -2481,9 +2481,9 @@
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"Placing this near growing plants or saplings will provide Source. Archwood trees provide more Source!"
+				"{atm9.quest.arsNouveau.desc.plantSourcelink}"
 				""
-				"Note: Bonemealing does not produce Source."
+				"{atm9.quest.arsNouveau.desc.plantSourcelink.1}"
 			]
 			id: "2D0CF18C8B2ABB7D"
 			rewards: [
@@ -2499,7 +2499,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Creates Source using the growth of Plants"
+			subtitle: "{atm9.quest.arsNouveau.subt.createsSourceUsingTheGrowthOfPlants}"
 			tasks: [{
 				id: "7CEAACDBB77206CC"
 				item: "ars_nouveau:agronomic_sourcelink"
@@ -2510,7 +2510,7 @@
 		}
 		{
 			dependencies: ["40BC67BDEE15D1DE"]
-			description: ["With Source Gems, you can get started crafting the various machines by creating &5Sourcestones&r."]
+			description: ["{atm9.quest.arsNouveau.desc.sourcestones}"]
 			id: "5C3FF43CF16BCF30"
 			rewards: [
 				{
@@ -2524,21 +2524,21 @@
 					xp: 10
 				}
 			]
-			subtitle: "Formerly known as \"Arcane Stones\""
+			subtitle: "{atm9.quest.arsNouveau.subt.formerlyKnownAsArcaneStones}"
 			tasks: [{
 				count: 8L
 				id: "03EB390E79866058"
 				item: "ars_nouveau:sourcestone"
-				title: "Sourcestone"
+				title: "{atm9.quest.arsNouveau.sourcestone}"
 				type: "item"
 			}]
-			title: "Sourcestones"
+			title: "{atm9.quest.arsNouveau.sourcestones}"
 			x: 5.199999999999999d
 			y: 0.0d
 		}
 		{
 			dependencies: ["542C6D76B579886C"]
-			description: ["Used to inscribe spells on with the Scribe's Table."]
+			description: ["{atm9.quest.arsNouveau.desc.scribesTable}"]
 			id: "0E2AD156E5EF263A"
 			rewards: [
 				{
@@ -2571,7 +2571,7 @@
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
-			description: ["The Dominion Wand is used for controlling the creatures you might encounter in the world! Each being responds differently to the wand, so make sure to read up in the Worn Notebook!"]
+			description: ["{atm9.quest.arsNouveau.desc.dominionWand}"]
 			id: "1D86B2E553503E53"
 			rewards: [
 				{
@@ -2591,18 +2591,18 @@
 				item: "ars_nouveau:dominion_wand"
 				type: "item"
 			}]
-			title: "Summoning Help!"
+			title: "{atm9.quest.arsNouveau.summoningHelp}"
 			x: 10.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"The &9Enchanter's Sword&r allows you to attach a Touch Spell to the sword. "
+				"{atm9.quest.arsNouveau.desc.enchantersSword.1}"
 				""
-				"All spells on the Sword gain 1 additional Amplify augment to the last effect on the spell."
+				"{atm9.quest.arsNouveau.desc.enchantersSword.2}"
 				""
-				"To apply a spell to the sword, use a Scribe's Table. Create the spell without using a form."
+				"{atm9.quest.arsNouveau.desc.enchantersSword.3}"
 			]
 			id: "14DB8A515CA50932"
 			rewards: [
@@ -2635,9 +2635,9 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"When blocking damage, the &9Enchanter's Shield&r will give the user Mana Regen and Spell Damage for a short amount of time."
+				"{atm9.quest.arsNouveau.desc.enchantersShield.1}"
 				""
-				"Additionally, the shield will repair itself over time using the wearer's mana."
+				"{atm9.quest.arsNouveau.desc.enchantersShield.2}"
 			]
 			id: "3182E8AF755104E4"
 			rewards: [
@@ -2670,11 +2670,11 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"The &9Enchanter's Mirror&r will apply a self spell when used."
+				"{atm9.quest.arsNouveau.desc.enchantersMirror.1}"
 				""
-				"Spells cast with this mirror are discounted and gain additional bonus duration."
+				"{atm9.quest.arsNouveau.desc.enchantersMirror.2}"
 				""
-				"To apply a spell, use a Scribe's table. Create a spell without using a form."
+				"{atm9.quest.arsNouveau.desc.enchantersMirror.3}"
 			]
 			id: "632BC46928CC9A8C"
 			rewards: [
@@ -2705,13 +2705,13 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"This bow can be inscribed with a spell using a Scribe's Table."
+				"{atm9.quest.arsNouveau.desc.enchantersBow.1}"
 				""
-				"At the cost of mana, arrows will become Spell Arrows and will apply the spell on their target."
+				"{atm9.quest.arsNouveau.desc.enchantersBow.2}"
 				""
-				"If you have no arrows, a spell arrow that deals 0 damage will be cast. If there is not enough mana, regular arrows will be fired instead."
+				"{atm9.quest.arsNouveau.desc.enchantersBow.3}"
 				""
-				"The &9Enchanter's Bow&r can also use special Augment Arrows that empower the inscribed spell."
+				"{atm9.quest.arsNouveau.desc.enchantersBow.4}"
 			]
 			id: "51162B9185A45BB1"
 			rewards: [
@@ -2742,13 +2742,13 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"The &9Jar of Light&r summons a floating light source that follows you."
+				"{atm9.quest.arsNouveau.desc.jarOfLight.1}"
 				""
-				"The &6Jar of Voiding&r destroys items you pick up in exchange for mana. This can be filtered."
+				"{atm9.quest.arsNouveau.desc.jarOfVoiding.1}"
 				""
-				"To add or remove an item to be destroyed by the jar, use the jar with the item in your off hand, or use an item on the Scribe's Table with the jar placed on it."
+				"{atm9.quest.arsNouveau.desc.jarOfVoiding.2}"
 				""
-				"The jar must be on your hotbar to function."
+				"{atm9.quest.arsNouveau.desc.jarOfVoiding.3}"
 			]
 			id: "6DAA82B5F94AF9F8"
 			rewards: [
@@ -2781,7 +2781,7 @@
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
-			description: ["The Ring of Discount provides a small bonus to max mana and mana regen. It also reduces the total cost to cast a spell."]
+			description: ["{atm9.quest.arsNouveau.desc.ringOfDiscount}"]
 			id: "0A1ABE9CF7740AAA"
 			rewards: [
 				{
@@ -2813,7 +2813,7 @@
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
-			description: ["This belt will give random positive potion effects for a short duration. These will vary in strength. "]
+			description: ["{atm9.quest.arsNouveau.desc.randomPotionBelt}"]
 			id: "088FCB5267CB7A89"
 			rewards: [
 				{
@@ -2839,9 +2839,9 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"Have you ever wanted to just hover everywhere you go?"
+				"{atm9.quest.arsNouveau.desc.levitationBelt.1}"
 				""
-				"This belt allows you to levitate. To activate, just sneak while in the air, either while falling or from jumping."
+				"{atm9.quest.arsNouveau.desc.levitationBelt.2}"
 			]
 			id: "3FD702B5AB006402"
 			rewards: [
@@ -2868,9 +2868,9 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"The &9Amulet of Mana Boost&r gives a boost to max mana."
+				"{atm9.quest.arsNouveau.desc.amuletOfManaBoost}"
 				""
-				"The &6Amulet of Mana Regen&r gives a boost to your mana regen."
+				"{atm9.quest.arsNouveau.desc.amuletOfManaRegen}"
 			]
 			id: "6A1C0B17B22CE50F"
 			rewards: [
@@ -2898,18 +2898,18 @@
 					type: "item"
 				}
 			]
-			title: "The Amulets"
+			title: "{atm9.quest.arsNouveau.theAmulets}"
 			x: 10.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"The &9Caster's Wand&r only accepts a single spell, and is inscribed using the Scribe's Table."
+				"{atm9.quest.arsNouveau.desc.castersWand.1}"
 				""
-				"Wand spells always start with Projectile > Accelerate, and MUST be inscribed with a spell that does not have another method (like touch, self, etc)."
+				"{atm9.quest.arsNouveau.desc.castersWand.2}"
 				""
-				"This allows you to cast spells beyond the 10 spell cap. If you want to use Break, just inscribe the wand with Break by itself."
+				"{atm9.quest.arsNouveau.desc.castersWand.3}"
 			]
 			id: "111649D7E16D869F"
 			rewards: [

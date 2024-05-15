@@ -11,9 +11,9 @@
 	quests: [
 		{
 			description: [
-				"&9Blue Skies&r adds 2 new dimensions, both filled with new blocks, creatures, and a total of 4 bosses."
+				"{atm9.quest.blueSkies.desc.newDimensions.1}"
 				""
-				"To get started, we need to find the &6Gatekeeper&r!"
+				"{atm9.quest.blueSkies.desc.newDimensions.2}"
 			]
 			icon: "blue_skies:blinding_key"
 			id: "79B9098FE66A7130"
@@ -26,21 +26,21 @@
 			size: 1.5d
 			tasks: [{
 				id: "03EA78EF53B95F0F"
-				title: "Welcome to Blue Skies!"
+				title: "{atm9.quest.blueSkies.welcome.1}"
 				type: "checkmark"
 			}]
-			title: "Welcome to &9Blue Skies&r!"
+			title: "{atm9.quest.blueSkies.welcome.2}"
 			x: -2.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["79B9098FE66A7130"]
 			description: [
-				"Somewhere in the Overworld, you'll find two simple homes."
+				"{atm9.quest.blueSkies.desc.findGatekeeper.1}"
 				""
-				"The &aGatekeeper&r lives here, and will trade you a few items to get you started in the mod."
+				"{atm9.quest.blueSkies.desc.findGatekeeper.2}"
 				""
-				"Acquire the &9Blue Journal&r. You'll also need the Zeal Lighter in the next quest. "
+				"{atm9.quest.blueSkies.desc.findGatekeeper.3}"
 				""
 				"{image:atm:textures/questpics/blueskies/blueskies_gatekeepershouse.png width:200 height:125 align:1}"
 			]
@@ -51,22 +51,22 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Living a simple life...."
+			subtitle: "{atm9.quest.blueSkies.subt.simpleLife}"
 			tasks: [{
 				id: "0C6C12DEFB35A5C8"
 				item: "blue_skies:blue_journal"
 				type: "item"
 			}]
-			title: "Finding the Gatekeeper"
+			title: "{atm9.quest.blueSkies.findGatekeeper}"
 			x: 0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["198EB5AE0E18E6C3"]
 			description: [
-				"The Gatekeeper knows all about the dimensions of Blue Skies. As you journey through the mod, your &9Blue Journal&r will expand to help guide you."
+				"{atm9.quest.blueSkies.desc.gatekeeperKnowledge.1}"
 				""
-				"He'll also trade more items as you advance through the dimensions, so keep an eye out!"
+				"{atm9.quest.blueSkies.desc.gatekeeperKnowledge.2}"
 			]
 			id: "7DC798518DDAAD26"
 			rewards: [{
@@ -76,7 +76,7 @@
 			}]
 			tasks: [{
 				id: "1A4F2611944EF2EE"
-				title: "The Knowledge of the Gatekeeper"
+				title: "{atm9.quest.blueSkies.gatekeeperKnowledge}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -85,9 +85,9 @@
 		{
 			dependencies: ["198EB5AE0E18E6C3"]
 			description: [
-				"Within the Gatekeeper's smaller house, you might stumble upon what looks to be a broken portal."
+				"{atm9.quest.blueSkies.desc.brokenPortal.1}"
 				""
-				"Acquire a &6Zeal Lighter&r and use it to light the portal. "
+				"{atm9.quest.blueSkies.desc.brokenPortal.2}"
 				""
 				"{image:atm:textures/questpics/blueskies/blueskies_gatekeeper_portal.png width:200 height:150 align:1}"
 			]
@@ -121,9 +121,9 @@
 		{
 			dependencies: ["13BB7347D271D29C"]
 			description: [
-				"It seems you have stumbled your way into the world of &9Everbright&r."
+				"{atm9.quest.blueSkies.desc.everbrightRealm.1}"
 				""
-				"This is the realm of eternal day and frigid temps. You'll find several large beasts, ethereal mobs, and even a few bosses."
+				"{atm9.quest.blueSkies.desc.everbrightRealm.2}"
 			]
 			id: "765EBF99FFF4061F"
 			rewards: [{
@@ -135,7 +135,7 @@
 				advancement: "blue_skies:everbright/enter"
 				criterion: ""
 				id: "083086610639994F"
-				title: "To &9Everbright&r!"
+				title: "{atm9.quest.blueSkies.toEverbright}"
 				type: "advancement"
 			}]
 			x: 4.0d
@@ -144,11 +144,11 @@
 		{
 			dependencies: ["13BB7347D271D29C"]
 			description: [
-				"Welcome to the world of &6Everdawn&r, the world where the sun is forever rising."
+				"{atm9.quest.blueSkies.desc.everdawnWorld.1}"
 				""
-				"This is a warm, humid world where insects and reptiles flourish."
+				"{atm9.quest.blueSkies.desc.everdawnWorld.2}"
 				""
-				"Are you prepared for the poison and fire?"
+				"{atm9.quest.blueSkies.desc.everdawnWorld.3}"
 			]
 			id: "20ECBCF42E1B0660"
 			rewards: [{
@@ -160,7 +160,7 @@
 				advancement: "blue_skies:everdawn/enter"
 				criterion: ""
 				id: "10AA43B1500FAAAA"
-				title: "To &6Everdawn&r!"
+				title: "{atm9.quest.blueSkies.toEverdawn}"
 				type: "advancement"
 			}]
 			x: 4.0d
@@ -173,9 +173,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Your Overworldly tools have no power here."
+				"{atm9.quest.blueSkies.desc.overworldlyTools.1}"
 				""
-				"You'll want to quickly make a new pickaxe from the woods around you if you want to get anywhere in Blue Skies."
+				"{atm9.quest.blueSkies.desc.overworldlyTools.2}"
 			]
 			id: "4365BCF6B7A91D24"
 			rewards: [
@@ -207,19 +207,19 @@
 						value: "blue_skies:tools/wooden_pickaxes"
 					}
 				}
-				title: "Any Blue Skies Wooden Pickaxe"
+				title: "{atm9.quest.blueSkies.blueSkiesWoodenPickaxe}"
 				type: "item"
 			}]
-			title: "Something isn't quite right....."
+			title: "{atm9.quest.blueSkies.somethingIsntRight}"
 			x: 5.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3E1A86A6D2155B53"]
 			description: [
-				"If you want to master the lands of Blue Skies, you'll need to craft a new weapon, the &6Spear&r."
+				"{atm9.quest.blueSkies.desc.newWeapon.1}"
 				""
-				"To make these, we'll need some Moonstone to get started. Head to the caverns and find you some ores!"
+				"{atm9.quest.blueSkies.desc.newWeapon.2}"
 			]
 			id: "6E177CA79B7ABD7C"
 			optional: true
@@ -238,23 +238,23 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "And it's pretty dark."
+			subtitle: "{atm9.quest.blueSkies.subt.darkness}"
 			tasks: [{
 				count: 2L
 				id: "49A5A92F58DB0859"
 				item: "blue_skies:moonstone_shard"
 				type: "item"
 			}]
-			title: "A New Mining Adventure"
+			title: "{atm9.quest.blueSkies.newMiningAdventure}"
 			x: 6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4365BCF6B7A91D24"]
 			description: [
-				"Just like in the Overworld, Wooden tools won't get you very far."
+				"{atm9.quest.blueSkies.desc.woodenTools.1}"
 				""
-				"Head underground and grab some stone. You'll want to make yourself a new pickaxe, then we can get started with the new ores."
+				"{atm9.quest.blueSkies.desc.woodenTools.2}"
 			]
 			id: "3E1A86A6D2155B53"
 			rewards: [
@@ -270,7 +270,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "First Wood, then Stone... then.. what?"
+			subtitle: "{atm9.quest.blueSkies.subt.toolProgression}"
 			tasks: [{
 				id: "18DBE4B1BAAA5CC8"
 				item: {
@@ -295,16 +295,16 @@
 						]
 					}
 				}
-				title: "Blue Skies Stone Pickaxe"
+				title: "{atm9.quest.blueSkies.blueSkiesStonePickaxe}"
 				type: "item"
 			}]
-			title: "Getting an Upgrade"
+			title: "{atm9.quest.blueSkies.gettingAnUpgrade}"
 			x: 8.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6E177CA79B7ABD7C"]
-			description: ["The &6Spear&r is the favored weapon in Blue Skies. It can be enchanted, and works as a nice ranged weapon for the enemies you'll face."]
+			description: ["{atm9.quest.blueSkies.desc.spearWeapon}"]
 			id: "5ED6634F52CAC058"
 			optional: true
 			rewards: [
@@ -320,7 +320,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Spartan Style"
+			subtitle: "{atm9.quest.blueSkies.subt.spartanStyle}"
 			tasks: [{
 				id: "0A3B8E7765432D22"
 				item: {
@@ -332,16 +332,16 @@
 				}
 				type: "item"
 			}]
-			title: "Making a New Weapon"
+			title: "{atm9.quest.blueSkies.makingANewWeapon}"
 			x: 6.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3E1A86A6D2155B53"]
 			description: [
-				"Pyrope means Speed in the language of Blue Skies."
+				"{atm9.quest.blueSkies.desc.pyropeSpeed.1}"
 				""
-				"These tools are weak, but fast."
+				"{atm9.quest.blueSkies.desc.pyropeSpeed.2}"
 			]
 			icon: "blue_skies:pyrope_gem"
 			id: "01E1A7BCDAE8EB9F"
@@ -366,7 +366,7 @@
 				item: "blue_skies:pyrope_gem"
 				type: "item"
 			}]
-			title: "Red Means Fast"
+			title: "{atm9.quest.blueSkies.redMeansFast}"
 			x: 8.5d
 			y: -1.0d
 		}
@@ -508,20 +508,20 @@
 					type: "item"
 				}
 			]
-			title: "Pyrope Tools"
+			title: "{atm9.quest.blueSkies.pyropeTools}"
 			x: 8.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3E1A86A6D2155B53"]
 			description: [
-				"As we go further in the caverns of Blue Skies, we'll run into &9Aquite Ore&r."
+				"{atm9.quest.blueSkies.desc.aquiteOre.1}"
 				""
-				"Mine yourself enough to make you some starter tools. You'll need these to mine the tougher Blue Skies ores."
+				"{atm9.quest.blueSkies.desc.aquiteOre.2}"
 				""
-				"From here, it is recommended to find some of the better materials to make some weapons and armor."
+				"{atm9.quest.blueSkies.desc.aquiteOre.3}"
 				""
-				"Note: ATM Weapons still pack a punch."
+				"{atm9.quest.blueSkies.desc.aquiteOre.4}"
 			]
 			id: "158F48B73171BDE1"
 			rewards: [
@@ -550,13 +550,13 @@
 				item: "blue_skies:aquite"
 				type: "item"
 			}]
-			title: "Metal Tools"
+			title: "{atm9.quest.blueSkies.metalTools}"
 			x: 11.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["158F48B73171BDE1"]
-			description: ["The green gemstone &eDiopside&r is a very tough metal that packs a punch, but is on the slower side. This is great for weapons!"]
+			description: ["{atm9.quest.blueSkies.desc.diopsideGemstone}"]
 			id: "128C5B7A82FF802E"
 			rewards: [
 				{
@@ -585,16 +585,16 @@
 				item: "blue_skies:diopside_gem"
 				type: "item"
 			}]
-			title: "Diopside"
+			title: "{atm9.quest.blueSkies.diopside}"
 			x: 12.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3E1A86A6D2155B53"]
 			description: [
-				"Ventium is a red metal found in most non-mountainous biomes in Everbright."
+				"{atm9.quest.blueSkies.desc.ventiumMetal.1}"
 				""
-				"It's basically Iron, but can only be used to make shears, buckets, and the &6Tool Box&r."
+				"{atm9.quest.blueSkies.desc.ventiumMetal.2}"
 			]
 			id: "229455730219F7B1"
 			rewards: [
@@ -618,22 +618,22 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Red Iron"
+			subtitle: "{atm9.quest.blueSkies.subt.redIron}"
 			tasks: [{
 				id: "6A4963E01802CAD5"
 				item: "blue_skies:ventium_ingot"
 				type: "item"
 			}]
-			title: "&cVentium"
+			title: "{atm9.quest.blueSkies.ventium}"
 			x: 8.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3E1A86A6D2155B53"]
 			description: [
-				"Falsite Ore can be found inside the non-mountainous biomes of Everbright."
+				"{atm9.quest.blueSkies.desc.falsiteOre.1}"
 				""
-				"This ingot is used to strengthen the durability of almost any tool using the tool box."
+				"{atm9.quest.blueSkies.desc.falsiteOre.2}"
 			]
 			id: "23CC5B8D9AAD4E12"
 			rewards: [
@@ -664,16 +664,16 @@
 				item: "blue_skies:falsite_ingot"
 				type: "item"
 			}]
-			title: "&9Falsite"
+			title: "{atm9.quest.blueSkies.falsite}"
 			x: 8.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["158F48B73171BDE1"]
 			description: [
-				"This is the Diamond of Blue Skies. "
+				"{atm9.quest.blueSkies.desc.charoiteDiamond.1}"
 				""
-				"While Diopside is more durable and hits harder, Charoite is faster and is lighter overall. Tools made from Charoite can mine anything in Blue Skies."
+				"{atm9.quest.blueSkies.desc.charoiteDiamond.2}"
 			]
 			id: "27E3C4E4790F8FF3"
 			rewards: [
@@ -696,18 +696,18 @@
 				item: "blue_skies:raw_charoite"
 				type: "item"
 			}]
-			title: "Charoite"
+			title: "{atm9.quest.blueSkies.charoite}"
 			x: 10.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3E1A86A6D2155B53"]
 			description: [
-				"Found only within the Crystal Dunes."
+				"{atm9.quest.blueSkies.desc.crystalDunesFeatures.1}"
 				""
-				"Tools made from this ingot will come with &6Auto-Smelt&r."
+				"{atm9.quest.blueSkies.desc.crystalDunesFeatures.2}"
 				""
-				"This can also be used to make the &6Horizonite Forge&r."
+				"{atm9.quest.blueSkies.desc.crystalDunesFeatures.3}"
 			]
 			id: "14B4E6B2FC3F6B36"
 			rewards: [
@@ -729,16 +729,16 @@
 				item: "blue_skies:horizonite_ingot"
 				type: "item"
 			}]
-			title: "&6Horizonite"
+			title: "{atm9.quest.blueSkies.horizonite}"
 			x: 9.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["229455730219F7B1"]
 			description: [
-				"This is used to upgrade and enhance tools from Blue Skies."
+				"{atm9.quest.blueSkies.desc.horizoniteFeatures.1}"
 				""
-				"You can use Falsite to increase the durability of a tool, or you can use any stick from the mod to swap out on a tool. Yes, different wood types have different uses."
+				"{atm9.quest.blueSkies.desc.horizoniteFeatures.2}"
 			]
 			id: "3179DCF0B4458ECC"
 			rewards: [
@@ -838,18 +838,18 @@
 					type: "item"
 				}
 			]
-			title: "Horizonite Tools"
+			title: "{atm9.quest.blueSkies.horizoniteTools}"
 			x: 10.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["14B4E6B2FC3F6B36"]
 			description: [
-				"Ever wanted a forge that just smelts things without fuel?"
+				"{atm9.quest.blueSkies.desc.horizoniteForgeFeatures.1}"
 				""
-				"Me too. Technically, this does need a \"fuel\" per se. It has a charge, and can be recharged using Sunstone or anything made from Horizonite."
+				"{atm9.quest.blueSkies.desc.horizoniteForgeFeatures.2}"
 				""
-				"The forge must be empty to recharge."
+				"{atm9.quest.blueSkies.desc.horizoniteForgeFeatures.3}"
 			]
 			id: "6783F21811D0F149"
 			optional: true
@@ -884,7 +884,7 @@
 		}
 		{
 			dependencies: ["23CC5B8D9AAD4E12"]
-			description: ["This is a lantern that prevents hostile spawns within a large radius. "]
+			description: ["{atm9.quest.blueSkies.desc.lanternFeatures}"]
 			id: "3857D8DF87108DAB"
 			optional: true
 			shape: "rsquare"
@@ -899,9 +899,9 @@
 		{
 			dependencies: ["229455730219F7B1"]
 			description: [
-				"Ventium can be used to make Shears and a bucket."
+				"{atm9.quest.blueSkies.desc.ventiumUses.1}"
 				""
-				"The bucket can pick up the underwater mobs in Blue Skies."
+				"{atm9.quest.blueSkies.desc.ventiumUses.2}"
 			]
 			id: "47EFF4429010E26C"
 			optional: true
@@ -938,7 +938,7 @@
 					type: "item"
 				}
 			]
-			title: "Ventium Tools"
+			title: "{atm9.quest.blueSkies.ventiumTools}"
 			x: 7.0d
 			y: 2.5d
 		}
@@ -1017,7 +1017,7 @@
 					type: "item"
 				}
 			]
-			title: "Diopside Tools"
+			title: "{atm9.quest.blueSkies.diopsideTools}"
 			x: 12.0d
 			y: -1.5d
 		}
@@ -1085,7 +1085,7 @@
 					type: "item"
 				}
 			]
-			title: "Diopside Armor"
+			title: "{atm9.quest.blueSkies.diopsideArmor}"
 			x: 13.0d
 			y: -1.5d
 		}
@@ -1164,7 +1164,7 @@
 					type: "item"
 				}
 			]
-			title: "Charoite Tools"
+			title: "{atm9.quest.blueSkies.charoiteTools}"
 			x: 10.0d
 			y: -1.5d
 		}
@@ -1232,18 +1232,18 @@
 					type: "item"
 				}
 			]
-			title: "Charoite Armor"
+			title: "{atm9.quest.blueSkies.charoiteArmor}"
 			x: 11.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["158F48B73171BDE1"]
 			description: [
-				"Whether you started in Everbright or Everdawn, you'll want to search for a tower structure. There are images for them in the next quests. This is where you find your first boss."
+				"{atm9.quest.blueSkies.desc.towerSearchFeatures.1}"
 				""
-				"In the smaller parts of the tower, you'll fight for the loot and acquire some &6Blinding Dungeon Keys&r. Deep within the dungeon, there will be a doorway with a lock on it. Use 4 of the Blinding Dungeon Keys to unlock the boss fight."
+				"{atm9.quest.blueSkies.desc.towerSearchFeatures.2}"
 				""
-				"Note: The boss will drop an Arc upon defeat. These can be equipped in a special tab in your inventory. There are 4 Arcs in total."
+				"{atm9.quest.blueSkies.desc.towerSearchFeatures.3}"
 			]
 			id: "1F82DBE75059C139"
 			rewards: [
@@ -1267,16 +1267,16 @@
 				item: "blue_skies:blinding_key"
 				type: "item"
 			}]
-			title: "&9The Starter Dungeons"
+			title: "{atm9.quest.blueSkies.starterDungeons}"
 			x: 15.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["158F48B73171BDE1"]
 			description: [
-				"In Blue Skies, there are 4 bosses to defeat and several dungeons to explore."
+				"{atm9.quest.blueSkies.desc.dungeonExplorationFeatures.1}"
 				""
-				"You can find random \"tunnels\" that lead down into dungeon rooms. These will spawn in Armored Frost Spirits to kill. Collect a few of these for Souls!"
+				"{atm9.quest.blueSkies.desc.dungeonExplorationFeatures.2}"
 				""
 				"{image:atm:textures/questpics/blueskies/blueskies_everbright_structuredungeon.png width:150 height:125 align:1}"
 			]
@@ -1301,18 +1301,18 @@
 				item: "blue_skies:soul_fragment"
 				type: "item"
 			}]
-			title: "Structures and Dungeons"
+			title: "{atm9.quest.blueSkies.structuresAndDungeons}"
 			x: 11.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["1F82DBE75059C139"]
 			description: [
-				"Deep within the Tower of Everbright, you'll find the Summoner."
+				"{atm9.quest.blueSkies.desc.summonerFeatures.1}"
 				""
-				"This boss will use lightning, energy attacks, and of course his summoned golem guards to protect the tower."
+				"{atm9.quest.blueSkies.desc.summonerFeatures.2}"
 				""
-				"Can you best the Summoner?"
+				"{atm9.quest.blueSkies.desc.summonerFeatures.3}"
 				""
 				"{image:atm:textures/questpics/blueskies/blueskies_everbright_summonersdungeon.png width:175 height:200 align:1}"
 			]
@@ -1332,12 +1332,12 @@
 				}
 			]
 			shape: "square"
-			subtitle: "The Guardian of the Everbright Tower"
+			subtitle: "{atm9.quest.blueSkies.subt.guardianEverbright}"
 			tasks: [{
 				entity: "blue_skies:summoner"
 				icon: "blue_skies:summoner_spawn_egg"
 				id: "1CBF0C7F2044EA9A"
-				title: "&5The Summoner"
+				title: "{atm9.quest.blueSkies.theSummoner}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1347,9 +1347,9 @@
 		{
 			dependencies: ["1F82DBE75059C139"]
 			description: [
-				"In the Everdawn Tower, you'll find the Alchemist boss fight. Collect some Blinding Dungeon Keys to unlock the fight!"
+				"{atm9.quest.blueSkies.desc.alchemistFeatures.1}"
 				""
-				"Prepare to be hit with potions, as well as fighting the minions of the Alchemist."
+				"{atm9.quest.blueSkies.desc.alchemistFeatures.2}"
 				""
 				""
 				"{image:atm:textures/questpics/blueskies/blueskies_everdawn_alchemistdungeon.png width:175 height:200 align:1}"
@@ -1370,12 +1370,12 @@
 				}
 			]
 			shape: "square"
-			subtitle: "The Guardian of the Everdawn Tower"
+			subtitle: "{atm9.quest.blueSkies.subt.guardianEverdawn}"
 			tasks: [{
 				entity: "blue_skies:alchemist"
 				icon: "blue_skies:alchemist_spawn_egg"
 				id: "19DF62F00979AEA2"
-				title: "&5The Alchemist"
+				title: "{atm9.quest.blueSkies.theAlchemist}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1385,11 +1385,11 @@
 		{
 			dependencies: ["3C1212AA4663C39B"]
 			description: [
-				"You'll find the Nature's Dungeon within Everbright. You can't miss it, it's huge."
+				"{atm9.quest.blueSkies.desc.naturesDungeonFeatures.1}"
 				""
-				"Gather some Nature Dungeon Keys within the maze of the structure to unlock the boss fight, and CHOP him down!"
+				"{atm9.quest.blueSkies.desc.naturesDungeonFeatures.2}"
 				""
-				"Note: You can trade with the Gatekeeper in case you can't find all of the keys, but only after you right click the gate for the boss fight."
+				"{atm9.quest.blueSkies.desc.naturesDungeonFeatures.3}"
 				""
 				"{image:atm:textures/questpics/blueskies/blueskies_everbright_naturedungeon.png width:200 height:150 align:1}"
 			]
@@ -1408,12 +1408,12 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "The Boss of the Nature Dungeon"
+			subtitle: "{atm9.quest.blueSkies.subt.bossNatureDungeon}"
 			tasks: [{
 				entity: "blue_skies:starlit_crusher"
 				icon: "blue_skies:starlit_crusher_spawn_egg"
 				id: "6F7A953BDE02EF55"
-				title: "&5The Starlit Crusher"
+				title: "{atm9.quest.blueSkies.theStarlitCrusher}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1423,11 +1423,11 @@
 		{
 			dependencies: ["6832C9E6D2E2949E"]
 			description: [
-				"Note: If you are arachnophobic, this might not be the fight for you. "
+				"{atm9.quest.blueSkies.desc.arachnophobiaWarning}"
 				""
-				"Within Everdawn, there will be a giant dead tree with a bunch of spider webs covering it."
+				"{atm9.quest.blueSkies.desc.poisonDungeonFeatures.1}"
 				""
-				"Gather some Poison Dungeon Keys within to unlock the final boss fight!"
+				"{atm9.quest.blueSkies.desc.poisonDungeonFeatures.2}"
 				""
 				"{image:atm:textures/questpics/blueskies/blueskies_everdawn_poisondungeon.png width:175 height:200 align:1}"
 			]
@@ -1446,12 +1446,12 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "The Boss of the Poison Dungeon"
+			subtitle: "{atm9.quest.blueSkies.subt.bossPoisonDungeon}"
 			tasks: [{
 				entity: "blue_skies:arachnarch"
 				icon: "blue_skies:arachnarch_spawn_egg"
 				id: "1F70E547B959D9A0"
-				title: "&5The Arachnarch"
+				title: "{atm9.quest.blueSkies.theArachnarch}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1460,7 +1460,7 @@
 		}
 		{
 			dependencies: ["3C1212AA4663C39B"]
-			description: ["Increases movement speed."]
+			description: ["{atm9.quest.blueSkies.desc.speedBoost}"]
 			id: "7E124E6EFC7E8ADD"
 			rewards: [
 				{
@@ -1492,7 +1492,7 @@
 		}
 		{
 			dependencies: ["6832C9E6D2E2949E"]
-			description: ["Grants invisibility when sneaking."]
+			description: ["{atm9.quest.blueSkies.desc.invisibilitySneaking}"]
 			id: "0515422E36E4E9A3"
 			rewards: [
 				{
@@ -1532,7 +1532,7 @@
 				xp: 1000
 			}]
 			shape: "hexagon"
-			subtitle: "Drops from the Starlit Crusher's Loot Bag"
+			subtitle: "{atm9.quest.blueSkies.subt.starlitCrusherLoot}"
 			tasks: [{
 				id: "5977FC8CB2A6A46D"
 				item: {
@@ -1549,7 +1549,7 @@
 		}
 		{
 			dependencies: ["0DB1A5763EDD6A7F"]
-			description: ["Increases damage done when poisoned."]
+			description: ["{atm9.quest.blueSkies.desc.damageBoostPoisoned}"]
 			id: "08DA36DAD1422B0A"
 			rewards: [{
 				id: "0AF4AC6D51F379CB"
@@ -1557,7 +1557,7 @@
 				xp: 1000
 			}]
 			shape: "rsquare"
-			subtitle: "Drops from the Arachnarch's Loot Bag"
+			subtitle: "{atm9.quest.blueSkies.subt.arachnarchLoot}"
 			tasks: [{
 				id: "05294380E82BC3FE"
 				item: {
@@ -1582,7 +1582,7 @@
 				xp: 1000
 			}]
 			shape: "diamond"
-			subtitle: "Drops from the Arachnarch's Loot Bag"
+			subtitle: "{atm9.quest.blueSkies.subt.arachnarchLoot}"
 			tasks: [{
 				id: "7EF8FD8790E83FD4"
 				item: {
@@ -1607,7 +1607,7 @@
 				xp: 1000
 			}]
 			shape: "diamond"
-			subtitle: "Drops from the Arachnarch's Loot Bag"
+			subtitle: "{atm9.quest.blueSkies.subt.arachnarchLoot}"
 			tasks: [{
 				id: "0E4B7B4DF6E4B7AA"
 				item: {
@@ -1625,9 +1625,9 @@
 		{
 			dependencies: ["1F944EEA0F397B95"]
 			description: [
-				"Increases max hearts."
+				"{atm9.quest.blueSkies.desc.heartIncrease}"
 				""
-				"You will also need this to craft the Dragon Soul, which is needed for the ATM star."
+				"{atm9.quest.blueSkies.desc.dragonSoulCrafting}"
 			]
 			id: "37CBBAB88E2E49AC"
 			rewards: [{
@@ -1636,7 +1636,7 @@
 				xp: 1000
 			}]
 			shape: "rsquare"
-			subtitle: "Drops from the Starlit Crusher's Loot Bag"
+			subtitle: "{atm9.quest.blueSkies.subt.starlitCrusherLoot}"
 			tasks: [{
 				id: "29405FD946DEC4F1"
 				item: {

@@ -466,7 +466,7 @@
 			corner: false
 			dev: false
 			height: 0.3d
-			hover: ["Needed for the ATM Star"]
+			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -478,7 +478,7 @@
 			corner: false
 			dev: false
 			height: 0.3d
-			hover: ["Needed for the ATM Star"]
+			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -492,9 +492,9 @@
 	quests: [
 		{
 			description: [
-				"&9Powah&r is a tech mod that's all about generating, storing, and transmitting &dPower&r. Ranging from basic FE generation to &aReactors&r that produce &b250k FE/t&r, Powah has you covered!"
+				"{atm9.quest.powah.desc.intro.1}"
 				""
-				"To get started, go out and mine some &aUraninite&r!"
+				"{atm9.quest.powah.desc.intro.2}"
 			]
 			icon: "powah:book"
 			id: "6B2027DA7AA6FF34"
@@ -523,16 +523,16 @@
 				item: "powah:uraninite_raw"
 				type: "item"
 			}]
-			title: "&aWelcome to&r &9Powah&r!!!"
+			title: "{atm9.quest.powah.welcome}"
 			x: -0.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6B2027DA7AA6FF34"]
 			description: [
-				"Almost every single machine you can make in the mod will require a &9Dielectric Casing&r."
+				"{atm9.quest.powah.desc.dielectricMats.1}"
 				""
-				"You'll need to make the &bPaste&r first, as well as some &aRods&r to progress!"
+				"{atm9.quest.powah.desc.dielectricMats.2}"
 			]
 			hide_dependency_lines: false
 			icon: "powah:dielectric_casing"
@@ -564,18 +564,18 @@
 					type: "item"
 				}
 			]
-			title: "Starting with Dielectric Mats"
+			title: "{atm9.quest.powah.startingDielectricMats}"
 			x: -0.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
 			description: [
-				"In the beginning, you can get by with creating the &7Starter&r and &bBasic&r tier machines using Iron, but you'll eventually need to create energized mats using the &9Energizing Orb&r."
+				"{atm9.quest.powah.desc.energizingOrb.1}"
 				""
-				"The &9Energizing Orb&r will energize items using nearby &aEnergizing Rods&r within a 9x9 area around it, creating better materials for you to use to progress through the &eTiers&r in Powah."
+				"{atm9.quest.powah.desc.energizingOrb.2}"
 				""
-				"To power the orb, you'll need to attach Energizing Rods to energy cables that are being supplied with energy. If you want the Orb to energize faster, either make more rods, upgrade to higher tier rods, or both! To see if the Rods are connected, set your &aWrench&r to link mode and you can link any Rod to the Orb."
+				"{atm9.quest.powah.desc.energizingOrb.3}"
 				""
 				"{image:atm:textures/questpics/powah/powah_energizing.png width:200 height:200 align:1}"
 			]
@@ -622,7 +622,7 @@
 							]
 						}
 					}
-					title: "Energy Cables"
+					title: "{atm9.quest.powah.energyCables}"
 					type: "item"
 				}
 				{
@@ -664,11 +664,11 @@
 							]
 						}
 					}
-					title: "Energizing Rods"
+					title: "{atm9.quest.powah.energizingRods}"
 					type: "item"
 				}
 			]
-			title: "The &9Energizing Orb&r"
+			title: "{atm9.quest.powah.energizingOrb}"
 			x: -0.5d
 			y: 8.0d
 		}
@@ -678,9 +678,9 @@
 				"6D88C19F47D0D469"
 			]
 			description: [
-				"One of the best options for \"Passive Power\", the &9Thermal Generator&r will produce FE when placed over a &cHeat Source&r and given a steady supply of water."
+				"{atm9.quest.powah.desc.thermalGenerator.1}"
 				""
-				"There are currently 3 blocks you can place this over: a Magma block which produces the lowest, a lava source block which is a little better, or a &cBlock of Blazing Crystal&r, which provides the most heat. "
+				"{atm9.quest.powah.desc.thermalGenerator.2}"
 			]
 			id: "52E59FCB39D66BCF"
 			rewards: [
@@ -709,7 +709,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["The &7Furnator&r will burn items like coal and wood to produce FE."]
+			description: ["{atm9.quest.powah.desc.furnator}"]
 			id: "3D5F87F8E6B89C1B"
 			rewards: [
 				{
@@ -737,7 +737,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["The Solar Panel generates FE when given direct access to the sun. However, you can use a &7Lens of Ender&r to ignore blocks in its way."]
+			description: ["{atm9.quest.powah.desc.solarPanel}"]
 			id: "7678B5DD1339833E"
 			rewards: [
 				{
@@ -765,7 +765,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["The &cMagmator&r will generate FE when supplied with Lava."]
+			description: ["{atm9.quest.powah.desc.magmator}"]
 			id: "0FD62827710F0AC6"
 			rewards: [
 				{
@@ -794,13 +794,13 @@
 				"6D88C19F47D0D469"
 			]
 			description: [
-				"The &9Reactor&r is a 3x4x3 multiblock generator that burns &aUrananite&r as fuel to produce FE."
+				"{atm9.quest.powah.desc.reactor.1}"
 				""
-				"To build it, you'll need to make a total of 36 Reactor Blocks. While holding 36 in hand, placing one block will auto-build the reactor. Make sure to clear out some room first!"
+				"{atm9.quest.powah.desc.reactor.2}"
 				""
-				"You'll want to cool the reactor down for it to create more FE, and you can do this with either solid or liquid &bcoolant&r. To use a solid coolant, you'll also need to give it some liquid coolant as well. &bDry Ice&r makes for a great solid coolant! (Note: 1 Water Bucket will do)"
+				"{atm9.quest.powah.desc.reactor.3}"
 				""
-				"You can also increase the FE generation by keeping the fuel buffer full, as well as adding both Coal and Redstone to the Reactor. Using Blocks of either will also work!"
+				"{atm9.quest.powah.desc.reactor.4}"
 			]
 			id: "1B0087400B0B8B49"
 			min_width: 300
@@ -828,7 +828,7 @@
 				item: "powah:reactor_starter"
 				type: "item"
 			}]
-			title: "Reactor (Starter)"
+			title: "{atm9.quest.powah.reactorStarter}"
 			x: 6.5d
 			y: 11.5d
 		}
@@ -838,11 +838,11 @@
 				"6D88C19F47D0D469"
 			]
 			description: [
-				"&5Ender Gates&r are used to transfer power wirelessly to and from an adjacent block into the &7Ender Network&r."
+				"{atm9.quest.powah.desc.enderGates.1}"
 				""
-				"Think of these like wireless access points to your wireless network of power."
+				"{atm9.quest.powah.desc.enderGates.2}"
 				""
-				"Note: You can only add &apower storage capacity&r using an Ender Cell."
+				"{atm9.quest.powah.desc.enderGates.3}"
 			]
 			id: "3CB6DC5B09C62CFE"
 			rewards: [
@@ -871,7 +871,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["The basic cables for transferring power."]
+			description: ["{atm9.quest.powah.desc.basicCables}"]
 			id: "7D52DD751DDADA1B"
 			rewards: [
 				{
@@ -900,9 +900,9 @@
 				"6D88C19F47D0D469"
 			]
 			description: [
-				"The &9Player Transmitter&r will charge a player's items wirelessly. You must first bind this to a player using a &9Binding Card&r. This is the basic card which allows the transmitter to only work in the same dimension. You can upgrade this by using a &dBinding Card (Dimensional)&r instead. "
+				"{atm9.quest.powah.desc.playerTransmitter.1}"
 				""
-				"Note: To get a Player Aerial Pearl, use an Aerial Pearl on a Zombie or Husk."
+				"{atm9.quest.powah.desc.playerTransmitter.2}"
 			]
 			icon: "powah:player_transmitter_starter"
 			id: "677365A816994C8B"
@@ -943,7 +943,7 @@
 							]
 						}
 					}
-					title: "Binding Cards"
+					title: "{atm9.quest.powah.bindingCards}"
 					type: "item"
 				}
 			]
@@ -955,7 +955,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["The &9Energy Hopper&r will charge any chargeable item inside of the inventory of the block it is pointed to, like a chest."]
+			description: ["{atm9.quest.powah.desc.energyHopper}"]
 			id: "5BCA3F716348ECCD"
 			optional: true
 			rewards: [
@@ -984,7 +984,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["This block will drain FE from any charged item."]
+			description: ["{atm9.quest.powah.desc.feDrain}"]
 			id: "33816AF0E699F19F"
 			optional: true
 			rewards: [
@@ -1014,9 +1014,9 @@
 				"6D88C19F47D0D469"
 			]
 			description: [
-				"The &9Power Bank&r of Powah."
+				"{atm9.quest.powah.desc.powerBankFeatures.1}"
 				""
-				"These can also be used to upgrade the total power storage capacity of your wireless &7Ender Networks&r."
+				"{atm9.quest.powah.desc.powerBankFeatures.2}"
 			]
 			id: "78202A1CF5D86B94"
 			rewards: [
@@ -1047,7 +1047,7 @@
 				"6D88C19F47D0D469"
 			]
 			dependency_requirement: "one_completed"
-			description: ["The &5Ender Cell&r will store power for a channel in your &7Ender Network&r. To increase the power capacity of the network, right click on the Ender Cell to open up the interface, then add either a &aBattery&r or an &9Energy Cell&r to increase the overall capacity."]
+			description: ["{atm9.quest.powah.desc.enderCell}"]
 			hide_dependency_lines: true
 			id: "700F3FF7C23D0C0F"
 			rewards: [
@@ -1094,7 +1094,7 @@
 				item: "powah:steel_energized"
 				type: "item"
 			}]
-			title: "Tier: &aEnergized&r"
+			title: "{atm9.quest.powah.energized}"
 			x: -0.5d
 			y: 13.5d
 		}
@@ -1121,7 +1121,7 @@
 				item: "powah:crystal_blazing"
 				type: "item"
 			}]
-			title: "Tier: &cBlazing&r"
+			title: "{atm9.quest.powah.blazing}"
 			x: -0.5d
 			y: 14.5d
 		}
@@ -1148,7 +1148,7 @@
 				item: "powah:crystal_niotic"
 				type: "item"
 			}]
-			title: "Tier: &9Niotic&r"
+			title: "{atm9.quest.powah.niotic}"
 			x: -0.5d
 			y: 15.5d
 		}
@@ -1175,7 +1175,7 @@
 				item: "powah:crystal_spirited"
 				type: "item"
 			}]
-			title: "Tier: &2Spirited&r"
+			title: "{atm9.quest.powah.spirited}"
 			x: -0.5d
 			y: 16.5d
 		}
@@ -1202,7 +1202,7 @@
 				item: "powah:crystal_nitro"
 				type: "item"
 			}]
-			title: "Tier: &4Nitro&r"
+			title: "{atm9.quest.powah.nitro}"
 			x: -0.5d
 			y: 17.5d
 		}
@@ -1211,7 +1211,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["These can be used to charge items in your inventory, or can be used to increase the overall power capacity of an &7Ender Network&r channel."]
+			description: ["{atm9.quest.powah.desc.itemCharging}"]
 			id: "61A8FAEC4FF18449"
 			rewards: [
 				{
@@ -1570,7 +1570,7 @@
 				item: "powah:reactor_basic"
 				type: "item"
 			}]
-			title: "Reactor (Basic)"
+			title: "{atm9.quest.powah.basicReactor}"
 			x: 6.5d
 			y: 12.5d
 		}
@@ -1927,7 +1927,7 @@
 				item: "powah:reactor_hardened"
 				type: "item"
 			}]
-			title: "Reactor (Hardened)"
+			title: "{atm9.quest.powah.hardenedReactor}"
 			x: 6.5d
 			y: 13.5d
 		}
@@ -2284,7 +2284,7 @@
 				item: "powah:reactor_blazing"
 				type: "item"
 			}]
-			title: "Reactor (Blazing)"
+			title: "{atm9.quest.powah.blazingReactor}"
 			x: 6.5d
 			y: 14.5d
 		}
@@ -2614,7 +2614,7 @@
 				item: "powah:reactor_niotic"
 				type: "item"
 			}]
-			title: "Reactor (Niotic)"
+			title: "{atm9.quest.powah.nioticReactor}"
 			x: 6.5d
 			y: 15.5d
 		}
@@ -2665,7 +2665,7 @@
 				item: "powah:capacitor_basic_tiny"
 				type: "item"
 			}]
-			title: "Tier: &7Tiny&r"
+			title: "{atm9.quest.powah.tiny}"
 			x: -0.5d
 			y: 11.5d
 		}
@@ -2692,7 +2692,7 @@
 				item: "powah:capacitor_basic"
 				type: "item"
 			}]
-			title: "Tier: &bBasic&r"
+			title: "{atm9.quest.powah.basic}"
 			x: -0.5d
 			y: 12.5d
 		}
@@ -2995,7 +2995,7 @@
 				item: "powah:reactor_spirited"
 				type: "item"
 			}]
-			title: "Reactor (Spirited)"
+			title: "{atm9.quest.powah.spiritedReactor}"
 			x: 6.5d
 			y: 16.5d
 		}
@@ -3348,7 +3348,7 @@
 				item: "powah:reactor_nitro"
 				type: "item"
 			}]
-			title: "Reactor (Nitro)"
+			title: "{atm9.quest.powah.nitroReactor}"
 			x: 6.5d
 			y: 17.5d
 		}
@@ -3384,7 +3384,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["Used to energize items using the Energizing Orb."]
+			description: ["{atm9.quest.powah.desc.energizingOrb}"]
 			hide_dependency_lines: true
 			id: "1C273D9E046FD18A"
 			rewards: [
