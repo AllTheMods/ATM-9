@@ -7,11 +7,7 @@
 	id: "29EFE8220836C79A"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 6.0d
-			hover: [ ]
 			image: "allthetweaks:block/atm_star_block"
 			rotation: 0.0d
 			width: 6.0d
@@ -19,11 +15,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 8.0d
-			hover: [ ]
 			image: "chipped:block/crying_obsidian/crying_obsidian_scales"
 			order: -1
 			rotation: 0.0d
@@ -32,11 +24,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 8.0d
-			hover: [ ]
 			image: "allthetweaks:block/atm_star_block"
 			order: -2
 			rotation: 45.0d
@@ -45,11 +33,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 9.0d
-			hover: [ ]
 			image: "chipped:block/crying_obsidian/crying_obsidian_scales"
 			order: -3
 			rotation: 45.0d
@@ -58,11 +42,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 6.0d
-			hover: [ ]
 			image: "atm:textures/questpics/mek/sps_cutout.png"
 			rotation: 0.0d
 			width: 7.612612612612613d
@@ -70,11 +50,7 @@
 			y: -5.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 6.0d
-			hover: [ ]
 			image: "mekanism:item/pellet_antimatter"
 			rotation: 0.0d
 			width: 6.0d
@@ -82,11 +58,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "evilcraft:block/blood_flow"
 			order: -2
 			rotation: 0.0d
@@ -95,11 +67,7 @@
 			y: -8.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.5d
-			hover: [ ]
 			image: "evilcraft:block/blood_infuser_north_off"
 			rotation: 0.0d
 			width: 2.5d
@@ -107,11 +75,7 @@
 			y: -8.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.75d
-			hover: [ ]
 			image: "evilcraft:block/hardened_blood"
 			order: -1
 			rotation: 0.0d
@@ -120,38 +84,8 @@
 			y: -8.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "naturesaura:item/gold_powder"
-			order: -1
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.0d
-			y: -9.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "naturesaura:item/gold_powder"
-			order: -1
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.0d
-			y: -9.0d
-		}
-		{
-			click: ""
 			color: 0
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "occultism:textures/gui/book/pentagram_rose.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -159,11 +93,7 @@
 			y: -8.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "occultism:item/advancement/devil_icon"
 			rotation: 0.0d
 			width: 2.0d
@@ -171,11 +101,7 @@
 			y: -8.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.5d
-			hover: [ ]
 			image: "occultism:block/chalk_glyph/12"
 			rotation: 0.0d
 			width: 0.5d
@@ -183,11 +109,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.5d
-			hover: [ ]
 			image: "occultism:block/chalk_glyph/0"
 			rotation: 0.0d
 			width: 0.5d
@@ -196,11 +118,7 @@
 		}
 		{
 			alpha: 230
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
-			hover: [ ]
 			image: "ars_nouveau:item/wilden_tribute"
 			rotation: 0.0d
 			width: 5.4375d
@@ -208,11 +126,7 @@
 			y: -5.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
-			hover: [ ]
 			image: "allthemodium:item/piglich_heart"
 			rotation: 0.0d
 			width: 5.0d
@@ -220,11 +134,7 @@
 			y: 9.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
-			hover: [ ]
 			image: "allthemodium:item/unobtainium_allthemodium_alloy_ingot"
 			rotation: 0.0d
 			width: 5.0d
@@ -232,11 +142,7 @@
 			y: 9.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "atm:textures/questpics/chp2.png"
 			rotation: 0.0d
 			width: 11.355263157894736d
@@ -244,11 +150,7 @@
 			y: -15.25d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 4.5d
-			hover: [ ]
 			image: "atm:textures/questpics/chap2/atmstar_title.png"
 			order: 1
 			rotation: 0.0d
@@ -257,11 +159,7 @@
 			y: -13.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
-			hover: [ ]
 			image: "cataclysm:item/flame_eye"
 			rotation: 0.0d
 			width: 5.0d
@@ -275,8 +173,9 @@
 	quests: [
 		{
 			dependencies: [
-				"6827CD2484040402"
 				"153F111B4CCC850B"
+				"4F28DC3D905DDA3A"
+				"03B12E7ED6B01F9A"
 			]
 			id: "67E154DC24F54854"
 			rewards: [
@@ -1205,72 +1104,8 @@
 				}
 			]
 			title: "{atm9.quest.chapter2.weather}"
-			x: 4.0d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"777AEC7C551B7188"
-				"65A9D3648C7B01A4"
-			]
-			description: ["{atm9.quest.chapter2.desc.world_eye}"]
-			hide_dependent_lines: true
-			id: "6827CD2484040402"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "19E5762966691B37"
-				table_id: 4196188979167302596L
-				type: "loot"
-			}]
-			tasks: [{
-				count: 2L
-				id: "4DD1B8B048E4C1B7"
-				item: "naturesaura:chunk_loader"
-				type: "item"
-			}]
-			title: "{atm9.quest.chapter2.world_eye}"
-			x: 0.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["11B8C5F88DCB3BF5"]
-			description: ["{atm9.quest.chapter2.desc.end}"]
-			hide_dependency_lines: true
-			id: "777AEC7C551B7188"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "48BEFE7F5597D0BE"
-				table_id: 487623848494439020L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [
-				{
-					id: "0FF0A2C2B0ACD366"
-					item: "naturesaura:end_flower"
-					type: "item"
-				}
-				{
-					id: "73035D3A337ECC42"
-					item: "naturesaura:bottle_two_the_rebottling"
-					type: "item"
-				}
-				{
-					id: "2DF5E8F25409E545"
-					item: {
-						Count: 1b
-						id: "naturesaura:aura_bottle"
-						tag: {
-							stored_type: "naturesaura:end"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{atm9.quest.chapter2.end}"
-			x: 1.5d
-			y: -7.5d
+			x: 5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2435B6D970F48DF8"]
@@ -1452,7 +1287,7 @@
 			}]
 			title: "{atm9.quest.chapter2.flesh}"
 			x: 6.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
@@ -2000,82 +1835,6 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["11B8C5F88DCB3BF5"]
-			description: ["{atm9.quest.chapter2.desc.nature}"]
-			hide_dependency_lines: true
-			icon: "naturesaura:gold_leaf"
-			id: "1DE0769EA393A72A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6B598E09A87A158F"
-					table_id: 487623848494439020L
-					type: "loot"
-				}
-				{
-					id: "12C1E315460E29B6"
-					item: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "naturesaura:book"
-						}
-					}
-					type: "item"
-				}
-			]
-			size: 1.5d
-			tasks: [
-				{
-					id: "1B09D06A8E9FFDCA"
-					item: "naturesaura:gold_fiber"
-					type: "item"
-				}
-				{
-					id: "2BFF8A71EA171A76"
-					item: "naturesaura:gold_leaf"
-					type: "item"
-				}
-			]
-			title: "{atm9.quest.chapter2.nature}"
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["1DE0769EA393A72A"]
-			description: ["{atm9.quest.chapter2.desc.ritual}"]
-			id: "65A9D3648C7B01A4"
-			min_width: 300
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0A934A7D847A78F9"
-				table_id: 487623848494439020L
-				type: "loot"
-			}]
-			tasks: [
-				{
-					count: 8L
-					id: "62063F358673A131"
-					item: "naturesaura:wood_stand"
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "15E3378E8DC7FD01"
-					item: "naturesaura:gold_powder"
-					type: "item"
-				}
-				{
-					id: "0FED082529A46DAE"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-			]
-			title: "{atm9.quest.chapter2.ritual}"
-			x: 0.0d
-			y: -8.0d
-		}
-		{
 			dependencies: ["2543F16043EE2777"]
 			description: ["{atm9.quest.chapter2.desc.summon_wilden}"]
 			id: "5A912903E09F664F"
@@ -2149,7 +1908,7 @@
 			}]
 			title: "{atm9.quest.chapter2.evilcraft}"
 			x: 6.0d
-			y: -6.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
@@ -2999,8 +2758,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter2.SG}"
-			x: 5.0d
-			y: -5.0d
+			x: 0.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
@@ -3273,8 +3032,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter2.blood}"
-			x: 2.5d
-			y: -6.0d
+			x: 1.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
@@ -3405,6 +3164,59 @@
 			title: "{atm9.quest.chapter2.void_forge}"
 			x: 2.5d
 			y: 8.0d
+		}
+		{
+			dependencies: ["61D6C9461F10CCF1"]
+			hide_dependent_lines: true
+			id: "4F28DC3D905DDA3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37C823D0CF9BB38E"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2E3084BAD6A2F14B"
+				item: "evilcraft:piercing_vengeance_focus"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["61D6C9461F10CCF1"]
+			hide_dependent_lines: true
+			id: "03B12E7ED6B01F9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28D09BBF0DA5FFAB"
+				table_id: 5564196992594175882L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0B57A9CFEC9E5319"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 4000
+						}
+					}
+					id: "evilcraft:mace_of_destruction"
+					tag: {
+						Fluid: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+						}
+						capacity: 4000
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
 		}
 	]
 	title: "{atm9.chapters.6.title}"
