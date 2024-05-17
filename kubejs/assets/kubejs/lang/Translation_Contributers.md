@@ -12,3 +12,9 @@ Japanese,
 
 French, (partial, needs updating)
 - FabLeKebab (https://github.com/FabLeKebab)
+
+Norwegian (BokMål) (chapter titles, and Welcome chapter)
+- Permest (https://github.com/Permest)
+
+Korean (packmenu buttons)
+- ArcTrooper (https://github.com/ArcTrooper210)
