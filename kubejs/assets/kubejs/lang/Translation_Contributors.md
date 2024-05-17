@@ -1,4 +1,4 @@
-# Translation Contributers
+# Translation Contributors
 (bullet list, <name(discord/github)> github/other link)
 
 English, AllTheMods Team and quest devs/contributors,
