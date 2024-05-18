@@ -12,7 +12,7 @@ const ItemRegistry = Java.loadClass('com.smashingmods.chemlib.registry.ItemRegis
     helps add chemlib tooltips to items unified away from chemlib
 */
 ServerEvents.commandRegistry(allthemods => {
-  const { commands: Commands, arguments: Arguments, builtinSuggestions: Suggestions } = event;
+  const { commands: Commands, arguments: Arguments, builtinSuggestions: Suggestions } = allthemods;
   allthemods.register(
     Commands.literal("chemlibhelper")
       .requires(source => source.getServer().isSingleplayer() || source.hasPermission(2))
