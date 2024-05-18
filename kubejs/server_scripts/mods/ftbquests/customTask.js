@@ -2,7 +2,7 @@
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 NetworkEvents.dataReceived('customTask', allthemods => {
-    const { entity, data, level } = event
+    const { entity, data, level } = allthemods
     let taskString = data.task
     let task = FTBQuests.getObject(level, taskString)
     let playerQuestData = FTBQuests.getData(entity)

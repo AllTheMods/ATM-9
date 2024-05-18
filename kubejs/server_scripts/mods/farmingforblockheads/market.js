@@ -14,7 +14,7 @@
 */
 
 ServerEvents.commandRegistry(allthemods => {
-  const { commands: Commands, arguments: Arguments, builtinSuggestions: Suggestions } = event;
+  const { commands: Commands, arguments: Arguments, builtinSuggestions: Suggestions } = allthemods;
   allthemods.register(
     Commands.literal("markethelper")
       .requires(source => source.getServer().isSingleplayer() || source.hasPermission(2))
