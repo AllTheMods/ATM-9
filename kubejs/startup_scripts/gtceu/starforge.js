@@ -1,5 +1,8 @@
-GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    event.create('star_forge')
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+GTCEuStartupEvents.registry('gtceu:recipe_type', allthemods => {
+    allthemods.create('star_forge')
         .category('gregstar')
         .setEUIO('in')
         .setMaxIOSize(15, 5, 5, 0)
@@ -8,8 +11,8 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setSound(GTSoundEntries.ARC);
 })
 
-GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('star_forge', 'multiblock')
+GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
+    allthemods.create('star_forge', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeTypes('star_forge')
         .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
@@ -86,3 +89,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .workableCasingRenderer("gtceu:block/casings/gcym/atomic_casing", /*"gtceu:block/casings/gcym/atomic_casing"*/
             "gtceu:block/multiblock/implosion_compressor", false)
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

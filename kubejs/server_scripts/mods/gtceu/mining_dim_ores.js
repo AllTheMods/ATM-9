@@ -1,8 +1,11 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 const $VeinedVeinGenerator = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.generator.veins.VeinedVeinGenerator');
 const $DikeVeinGenerator = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.generator.veins.DikeVeinGenerator');
 
-GTCEuServerEvents.oreVeins(event => {
-    event.modifyAll((veinId, vein) => {
+GTCEuServerEvents.oreVeins(allthemods => {
+    allthemods.modifyAll((veinId, vein) => {
         let startY;
         let endY;
         switch(vein.layer()) {
@@ -60,7 +63,7 @@ GTCEuServerEvents.oreVeins(event => {
         //     .radius(5))
 
 
-        // event.add(veinId + '_mining', newVein => {
+        // allthemods.add(veinId + '_mining', newVein => {
         //     let veinGen = vein.veinGenerator();
         //     if (veinGen instanceof $VeinedVeinGenerator) {
         //         veinGen = veinGen.copy()
@@ -84,7 +87,7 @@ GTCEuServerEvents.oreVeins(event => {
         // })
     })
 
-    event.add("fluorite_vein", builder => {
+    allthemods.add("fluorite_vein", builder => {
         builder.clusterSize(35)
             .weight(30)
             .density(0.75)
@@ -101,3 +104,6 @@ GTCEuServerEvents.oreVeins(event => {
             )
         })
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

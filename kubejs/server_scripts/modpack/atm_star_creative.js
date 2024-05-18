@@ -1,10 +1,10 @@
-/*
-    Authored by Mitchell52, EnigmaQuip
-    for AllTheMods 8
-*/
-ServerEvents.recipes(e => {
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+//  Authored by Mitchell52, EnigmaQuip
+
+ServerEvents.recipes(allthemods => {
   function pressure(inputs, result, rCount, pressure) {
-    e.custom({
+    allthemods.custom({
       type: 'pneumaticcraft:pressure_chamber',
       inputs: inputs,
       pressure: pressure,
@@ -12,11 +12,11 @@ ServerEvents.recipes(e => {
         item: result,
         count: rCount
       }]
-    }).id(`kubejs:pressure/${result.replace(':', '/')}`)
+    }).id(`allthemods:pressure/${result.replace(':', '/')}`)
   }
 
   ///# AE2
-  e.custom({
+  allthemods.custom({
     type: 'powah:energizing',
     ingredients: [
       Ingredient.of('megacells:mega_energy_cell').toJson(),
@@ -27,10 +27,10 @@ ServerEvents.recipes(e => {
     ],
     energy: '2147483647',
     result: Item.of('ae2:creative_energy_cell').toJson()
-  }).id(`kubejs:energizing/ae2_creative_energy_cell`)
+  }).id(`allthemods:energizing/ae2_creative_energy_cell`)
 
   ///# Ars Noveau
-  e.shaped(Item.of('ars_nouveau:creative_spell_book', {
+  allthemods.shaped(Item.of('ars_nouveau:creative_spell_book', {
     mode: 0,
     spells: 'intangible,ignite,flare,strength,craft,cold_snap,rune,snare,slowfall,freeze,split,crush,smelt,summon_steed,accelerate,summon_vex,lightning,grow,dampen,touch,invisibility,extract,delay,light,duration_down,exchange,place_block,summon_wolves,shield,conjure_water,cut,harm,interact,blink,amplify,phantom_block,fell,extend_time,heal,leap,redstone_signal,pierce,harvest,fortune,break,pickup,launch,dispel,haste,ender_inventory,pull,explosion,fangs,aoe,gravity,self,aquatic,projectile,wither,gust'
   }),
@@ -44,7 +44,7 @@ ServerEvents.recipes(e => {
     }
   )
 
-  e.shaped('ars_nouveau:creative_source_jar', ['GMG', 'GSG', 'GGG'], {
+  allthemods.shaped('ars_nouveau:creative_source_jar', ['GMG', 'GSG', 'GGG'], {
     G: '#forge:glass',
     S: 'allthetweaks:atm_star',
     M: 'ars_nouveau:source_gem_block'
@@ -52,21 +52,21 @@ ServerEvents.recipes(e => {
 
   
     ///# Botania
-    e.shaped('botania:creative_pool', ['RMR', 'MSM', 'RMR'], {
+    allthemods.shaped('botania:creative_pool', ['RMR', 'MSM', 'RMR'], {
       S: 'allthetweaks:atm_star',
       M: 'botania:mana_pool',
       R: '#botania:runes'
-    }).id('kubejs:botania/creative_pool')
+    }).id('allthemods:botania/creative_pool')
   
-  e.shaped(Item.of('botania:mana_tablet', '{creative:1b,mana:500000}'), ['RMR', 'MSM', 'RMR'], {
+  allthemods.shaped(Item.of('botania:mana_tablet', '{creative:1b,mana:500000}'), ['RMR', 'MSM', 'RMR'], {
     S: 'allthetweaks:atm_star',
     M: 'botania:mana_tablet',
     R: '#botania:runes'
-  }).id('kubejs:botania/creative_tablet')
+  }).id('allthemods:botania/creative_tablet')
 
   
   ///# Create
-  e.custom({
+  allthemods.custom({
     type: "create:mechanical_crafting",
     pattern: ['CLC', 'HSH', 'LGL'],
     key: {
@@ -78,9 +78,9 @@ ServerEvents.recipes(e => {
     },
     result: Ingredient.of('create:creative_motor').toJson(),
     acceptMirrored: false
-  }).id('kubejs:create/creative_motor')
+  }).id('allthemods:create/creative_motor')
 
-  e.custom({
+  allthemods.custom({
     type: 'create:mixing',
     ingredients: [
       Ingredient.of('create:blaze_cake').toJson(),
@@ -91,7 +91,7 @@ ServerEvents.recipes(e => {
     heatRequirement: 'superheated'
   })
 
-  e.custom({
+  allthemods.custom({
     type: 'powah:energizing',
     ingredients: [
       Ingredient.of('create:flywheel',).toJson(),
@@ -100,12 +100,12 @@ ServerEvents.recipes(e => {
     ],
     energy: '2147483647',
     result: Item.of('createaddition:creative_energy').toJson()
-  }).id(`kubejs:energizing/createaddition_creative_energy`)
+  }).id(`allthemods:energizing/createaddition_creative_energy`)
   
   
 
   ///# Integrated Dynamics
-  e.custom({
+  allthemods.custom({
     type: 'powah:energizing',
     ingredients: [
       Ingredient.of('integrateddynamics:energy_battery').toJson(),
@@ -116,10 +116,10 @@ ServerEvents.recipes(e => {
     ],
     energy: '2147483647',
     result: Item.of('integrateddynamics:energy_battery_creative').toJson()
-  }).id(`kubejs:energizing/integrateddynamics_energy_battery_creative`)
+  }).id(`allthemods:energizing/integrateddynamics_energy_battery_creative`)
 
   ///# IronJetpacks
-  e.shaped(Item.of('ironjetpacks:cell', { Id: "ironjetpacks:creative" }).strongNBT(), [
+  allthemods.shaped(Item.of('ironjetpacks:cell', { Id: "ironjetpacks:creative" }).strongNBT(), [
     ' A ',
     'BCB',
     ' A '
@@ -127,9 +127,9 @@ ServerEvents.recipes(e => {
     A: '#forge:storage_blocks/redstone',
     B: 'allthemodium:unobtainium_block',
     C: 'powah:battery_nitro'
-  }).id('kubejs:ironjetpacks_creative_cell')
+  }).id('allthemods:ironjetpacks_creative_cell')
 
-  e.shaped(Item.of('ironjetpacks:thruster', { Id: "ironjetpacks:creative" }).strongNBT(), [
+  allthemods.shaped(Item.of('ironjetpacks:thruster', { Id: "ironjetpacks:creative" }).strongNBT(), [
     'ABA',
     'BCB',
     'ADA'
@@ -138,9 +138,9 @@ ServerEvents.recipes(e => {
     B: 'powah:nitro_crystal_block',
     C: Item.of('ironjetpacks:cell', { Id: "ironjetpacks:creative" }).strongNBT(),
     D: 'ironfurnaces:unobtainium_furnace'
-  }).id('kubejs:ironjetpacks_creative_thruster')
+  }).id('allthemods:ironjetpacks_creative_thruster')
 
-  e.shaped(Item.of('ironjetpacks:capacitor', { Id: "ironjetpacks:creative" }), [
+  allthemods.shaped(Item.of('ironjetpacks:capacitor', { Id: "ironjetpacks:creative" }), [
     'ACA',
     'BDB',
     'AEA'
@@ -150,9 +150,9 @@ ServerEvents.recipes(e => {
     C: 'powah:reactor_nitro',
     D: 'mekanism:ultimate_induction_cell',
     E: 'powah:reactor_nitro'
-  }).id('kubejs:ironjetpacks_creative_capacator')
+  }).id('allthemods:ironjetpacks_creative_capacator')
 
-  e.shaped(Item.of('ironjetpacks:jetpack', { Id: "ironjetpacks:creative" }).strongNBT(), [
+  allthemods.shaped(Item.of('ironjetpacks:jetpack', { Id: "ironjetpacks:creative" }).strongNBT(), [
     'ACA',
     'BFB',
     'DED'
@@ -163,17 +163,17 @@ ServerEvents.recipes(e => {
     D: Item.of('ironjetpacks:thruster', { Id: "ironjetpacks:creative" }).strongNBT(),
     E: 'allthetweaks:atm_star',
     F: Item.of('ironjetpacks:jetpack', { Id: "ironjetpacks:unobtainium" }).strongNBT()
-  }).id('kubejs:ironjetpacks_creative_jetpack')
+  }).id('allthemods:ironjetpacks_creative_jetpack')
 
   ///#Mekanism
-  e.shaped('mekanism:creative_energy_cube', ['ATA', 'UCU', 'ATA'], {
+  allthemods.shaped('mekanism:creative_energy_cube', ['ATA', 'UCU', 'ATA'], {
     A: 'mekanism:alloy_atomic',
     T: 'mekanism:energy_tablet',
     U: 'allthemodium:unobtainium_block',
     C: 'mekanism:ultimate_energy_cube'
-  }).id('kubejs:mekanism/creative_energy_cube')
+  }).id('allthemods:mekanism/creative_energy_cube')
 
-  e.custom({
+  allthemods.custom({
     type: 'powah:energizing',
     ingredients: [
       Ingredient.of('mekanism:creative_energy_cube',).toJson(),
@@ -184,10 +184,10 @@ ServerEvents.recipes(e => {
     ],
     energy: '2147483647',
     result: Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}]}}').toJson()
-  }).id(`kubejs:energizing/mekanism_creative_energy_cube`)
+  }).id(`allthemods:energizing/mekanism_creative_energy_cube`)
 
   ///# Powah
-  e.custom({
+  allthemods.custom({
     type: 'powah:energizing',
     ingredients: [
       Ingredient.of('powah:energy_cell_nitro').toJson(),
@@ -198,7 +198,7 @@ ServerEvents.recipes(e => {
     ],
     energy: '2147483647',
     result: Item.of('powah:energy_cell_creative').toJson()
-  }).id(`kubejs:energizing/powah_energy_cell_creative`)
+  }).id(`allthemods:energizing/powah_energy_cell_creative`)
 
   ///# Pnc
   pressure([
@@ -227,37 +227,37 @@ ServerEvents.recipes(e => {
 
 
   ///# Refined storage
-  e.custom({
+  allthemods.custom({
     type: 'powah:energizing',
     ingredients: [Ingredient.of('refinedstorage:wireless_grid').toJson()],
     energy: '2147483647',
     result: Item.of('refinedstorage:creative_wireless_grid').toJson()
-  }).id(`kubejs:energizing/refinedstorage_creative_wireless_grid`)
-  e.custom({
+  }).id(`allthemods:energizing/refinedstorage_creative_wireless_grid`)
+  allthemods.custom({
     type: 'powah:energizing',
     ingredients: [Ingredient.of('refinedstorage:wireless_fluid_grid').toJson()],
     energy: '2147483647',
     result: Item.of('refinedstorage:creative_wireless_fluid_grid').toJson()
-  }).id(`kubejs:energizing/refinedstorage_creative_wireless_fluid_grid`)
-  e.custom({
+  }).id(`allthemods:energizing/refinedstorage_creative_wireless_fluid_grid`)
+  allthemods.custom({
     type: 'powah:energizing',
     ingredients: [Ingredient.of('refinedstorage:wireless_crafting_monitor').toJson()],
     energy: '2147483647',
     result: Item.of('refinedstorage:creative_wireless_crafting_monitor').toJson()
-  }).id(`kubejs:energizing/refinedstorage_creative_wireless_crafting_monitor`)
-  e.custom({
+  }).id(`allthemods:energizing/refinedstorage_creative_wireless_crafting_monitor`)
+  allthemods.custom({
     type: 'powah:energizing',
     ingredients: [Ingredient.of('refinedstorageaddons:wireless_crafting_grid').toJson()],
     energy: '2147483647',
     result: Item.of('refinedstorageaddons:creative_wireless_crafting_grid').toJson()
-  }).id(`kubejs:energizing/refinedstorage_creative_wireless_crafting_grid`)
-  e.custom({
+  }).id(`allthemods:energizing/refinedstorage_creative_wireless_crafting_grid`)
+  allthemods.custom({
     type: 'powah:energizing',
     ingredients: [Ingredient.of('refinedstorage:portable_grid').toJson()],
     energy: '2147483647',
     result: Item.of('refinedstorage:creative_portable_grid').toJson()
-  }).id(`kubejs:energizing/refinedstorage_creative_portable_grid`)
-  e.custom({
+  }).id(`allthemods:energizing/refinedstorage_creative_portable_grid`)
+  allthemods.custom({
     type: 'powah:energizing',
     ingredients: [
       Ingredient.of('refinedstorage:controller').toJson(),
@@ -265,14 +265,17 @@ ServerEvents.recipes(e => {
     ],
     energy: '2147483647',
     result: Item.of('refinedstorage:creative_controller').toJson()
-  }).id(`kubejs:energizing/refinedstorage_creative_controller`)
+  }).id(`allthemods:energizing/refinedstorage_creative_controller`)
 
   ///# Universal Grid
-  e.shaped('universalgrid:creative_wireless_universal_grid', ['ABA', 'CBD', 'ABA'], {
+  allthemods.shaped('universalgrid:creative_wireless_universal_grid', ['ABA', 'CBD', 'ABA'], {
     A: 'allthemodium:unobtainium_ingot',
     B: 'refinedstorage:quartz_enriched_iron',
     C: 'refinedstorageaddons:creative_wireless_crafting_grid',
     D: 'universalgrid:wireless_universal_grid'
-  }).id('kubejs:universalgrid/creative_wireless_universal_grid')
+  }).id('allthemods:universalgrid/creative_wireless_universal_grid')
 
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

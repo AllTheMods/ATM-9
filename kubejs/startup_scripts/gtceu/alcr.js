@@ -1,5 +1,8 @@
-GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('advanced_large_chemical_reactor', 'multiblock')
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
+    allthemods.create('advanced_large_chemical_reactor', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .appearanceBlock(GTBlocks.CASING_PTFE_INERT)
         .recipeTypes('large_chemical_reactor')
@@ -51,3 +54,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             false
         )
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

@@ -1,6 +1,9 @@
-ServerEvents.recipes(event => {
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+ServerEvents.recipes(allthemods => {
   // Sword, All recipes are Top-middle and go clockwise
-  event.custom({
+  allthemods.custom({
     "type": "ars_nouveau:enchanting_apparatus",
     "keepNbtOfReagent": true,
     "output": Item.of("allthemodium:alloy_sword").toJson(),
@@ -8,9 +11,9 @@ ServerEvents.recipes(event => {
 	  {"item": Ingredient.of('#forge:ingots/unobtainium').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-      {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-      {"item": Ingredient.of('#forge:ingots/allthemodium').toJson()},
-      {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
+    {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
+    {"item": Ingredient.of('#forge:ingots/allthemodium').toJson()},
+    {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/vibranium').toJson()},	  
@@ -20,10 +23,10 @@ ServerEvents.recipes(event => {
     ],
     "reagent": [Item.of("allthemodium:allthemodium_sword").toJson()],
     "sourceCost": 5000
-  }).id('kubejs:allthemodium/alloy_sword')
+  }).id('allthemods:allthemodium/alloy_sword')
   
-    // Pickaxe
-  event.custom({
+  // Pickaxe
+  allthemods.custom({
     "type": "ars_nouveau:enchanting_apparatus",
     "keepNbtOfReagent": true,
     "output": Item.of("allthemodium:alloy_pick").toJson(),
@@ -31,9 +34,9 @@ ServerEvents.recipes(event => {
 	  {"item": Ingredient.of('#forge:ingots/unobtainium').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-      {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-      {"item": Ingredient.of('#forge:ingots/allthemodium').toJson()},
-      {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
+    {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
+    {"item": Ingredient.of('#forge:ingots/allthemodium').toJson()},
+    {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/vibranium').toJson()},	  
@@ -43,10 +46,10 @@ ServerEvents.recipes(event => {
     ],
     "reagent": [Item.of("allthemodium:allthemodium_pickaxe").toJson()],
     "sourceCost": 5000
-  }).id('kubejs:allthemodium/alloy_pick')
+  }).id('allthemods:allthemodium/alloy_pick')
   
-      // Shovel
-  event.custom({
+  // Shovel
+  allthemods.custom({
     "type": "ars_nouveau:enchanting_apparatus",
     "keepNbtOfReagent": true,
     "output": Item.of("allthemodium:alloy_shovel").toJson(),
@@ -54,9 +57,9 @@ ServerEvents.recipes(event => {
 	  {"item": Ingredient.of('#forge:ingots/unobtainium').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-      {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-      {"item": Ingredient.of('#forge:ingots/allthemodium').toJson()},
-      {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
+    {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
+    {"item": Ingredient.of('#forge:ingots/allthemodium').toJson()},
+    {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/vibranium').toJson()},	  
@@ -66,10 +69,10 @@ ServerEvents.recipes(event => {
     ],
     "reagent": [Item.of("allthemodium:allthemodium_shovel").toJson()],
     "sourceCost": 5000
-  }).id('kubejs:allthemodium/alloy_shovel')
+  }).id('allthemods:allthemodium/alloy_shovel')
  
-     // Axe
-  event.custom({
+  // Axe
+  allthemods.custom({
     "type": "ars_nouveau:enchanting_apparatus",
     "keepNbtOfReagent": true,
     "output": Item.of("allthemodium:alloy_axe").toJson(),
@@ -77,9 +80,9 @@ ServerEvents.recipes(event => {
 	  {"item": Ingredient.of('#forge:ingots/unobtainium').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-      {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-      {"item": Ingredient.of('#forge:ingots/allthemodium').toJson()},
-      {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
+    {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
+    {"item": Ingredient.of('#forge:ingots/allthemodium').toJson()},
+    {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
 	  {"item": Ingredient.of('#forge:ingots/vibranium').toJson()},	  
@@ -89,11 +92,11 @@ ServerEvents.recipes(event => {
     ],
     "reagent": [Item.of("allthemodium:allthemodium_axe").toJson()],
     "sourceCost": 5000
-	}).id('kubejs:allthemodium/alloy_axe')
+	}).id('allthemods:allthemodium/alloy_axe')
 
 
-	    // Paxel
-  event.custom({
+	// Paxel
+  allthemods.custom({
     "type": "ars_nouveau:enchanting_apparatus",
     "keepNbtOfReagent": true,
     "output": Item.of("allthemodium:alloy_paxel").toJson(),
@@ -101,11 +104,14 @@ ServerEvents.recipes(event => {
 	  {"item": Ingredient.of('allthemodium:alloy_sword').toJson()},
 	  {"item": Ingredient.of('allthemodium:alloy_pick').toJson()},
 	  {"item": Ingredient.of('allthemodium:alloy_shovel').toJson()},
-      {"item": Ingredient.of('allthemodium:alloy_axe').toJson()},
+    {"item": Ingredient.of('allthemodium:alloy_axe').toJson()},
     ],
     "reagent": [Item.of("mysticalagradditions:awakened_supremium_paxel").toJson()],
     "sourceCost": 10000
-	}).id('kubejs:allthemodium/alloy_paxel')
+	}).id('allthemods:allthemodium/alloy_paxel')
  
   
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

@@ -1,19 +1,22 @@
-GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    event.create('apiary_i')
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+GTCEuStartupEvents.registry('gtceu:recipe_type', allthemods => {
+    allthemods.create('apiary_i')
         .category('apiary_i')
         .setEUIO('in')
         .setMaxIOSize(6, 6, 1, 0)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.SCIENCE)
     
-    event.create('apiary_ii')
+    allthemods.create('apiary_ii')
         .category('apiary_ii')
         .setEUIO('in')
         .setMaxIOSize(6, 15, 1, 0)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.SCIENCE)
     
-    event.create('comb_processor')
+    allthemods.create('comb_processor')
         .category('comb_processor')
         .setEUIO('in')
         .setMaxIOSize(6, 6, 0, 1)
@@ -21,8 +24,8 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setSound(GTSoundEntries.MIXER)
 })
 
-GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('apiary_i', 'multiblock')
+GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
+    allthemods.create('apiary_i', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('apiary_i')
         .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
@@ -52,7 +55,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         )
         .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_clean_stainless_steel', 'gtceu:block/multiblock/implosion_compressor', false)
 
-    event.create('apiary_ii', 'multiblock')
+    allthemods.create('apiary_ii', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('apiary_ii')
         .appearanceBlock(GTBlocks.CASING_TITANIUM_STABLE)
@@ -81,7 +84,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         )
         .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_stable_titanium', 'gtceu:block/multiblock/implosion_compressor', false)
 
-    event.create('comb_processor', 'multiblock')
+    allthemods.create('comb_processor', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('comb_processor')
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
@@ -120,3 +123,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         )
         .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_solid_steel', 'gtceu:block/multiblock/implosion_compressor', false)
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

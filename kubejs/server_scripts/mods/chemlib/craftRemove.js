@@ -1,3 +1,6 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 // priority: 10
 
 let chemlibRemove = [
@@ -17,27 +20,27 @@ let chemlibRemove = [
     "vanadium",
     "yttrium",
 ]
-ServerEvents.recipes(event => {
+ServerEvents.recipes(allthemods => {
     chemlibRemove.forEach(material => {
-        event.remove({id:`chemlib:${material}_ingot_from_smelting_${material}_dust`})
-        event.remove({id:`chemlib:${material}_ingot_from_blasting_${material}_dust`})
-        event.remove({id:`alchemistry:compactor/${material}_dust`})
+        allthemods.remove({id:`chemlib:${material}_ingot_from_smelting_${material}_dust`})
+        allthemods.remove({id:`chemlib:${material}_ingot_from_blasting_${material}_dust`})
+        allthemods.remove({id:`alchemistry:compactor/${material}_dust`})
     })
 
     // adjust recipe for fusion core to not use tungsten ingots
-    event.remove({id: "alchemistry:fusion_core"})
-    event.shaped('alchemistry:fusion_core', ['TNT','TNT','TNT',], {'T': 'chemlib:potassium_ingot', 'N': 'minecraft:netherite_scrap'}).id('kubejs:chemlib/fusion_core')
+    allthemods.remove({id: "alchemistry:fusion_core"})
+    allthemods.shaped('alchemistry:fusion_core', ['TNT','TNT','TNT',], {'T': 'chemlib:potassium_ingot', 'N': 'minecraft:netherite_scrap'}).id('allthemods:chemlib/fusion_core')
 
     //adjust recipe for fission core to not use yttrium ingots
-    event.remove({id: "alchemistry:fission_core"})
-    event.shaped('alchemistry:fission_core',
+    allthemods.remove({id: "alchemistry:fission_core"})
+    allthemods.shaped('alchemistry:fission_core',
         ['ABA', 'ABA', 'ABA'],
         {'A': 'chemlib:zirconium_ingot', 'B': 'minecraft:blaze_rod'}
-    ).id('kubejs:chemlib/fission_core')
+    ).id('allthemods:chemlib/fission_core')
 
     // add a dissolver recipe for rutile dust to make the titanium element
     // this allows the titanium bee to produce chemlib titanium which can be used for nether star production in chemlib
-    event.custom({
+    allthemods.custom({
         "type": "alchemistry:dissolver",
         "group": "alchemistry:dissolver",
         "input": {
@@ -67,3 +70,6 @@ ServerEvents.recipes(event => {
         }
     })
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

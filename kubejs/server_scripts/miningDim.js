@@ -1,3 +1,5 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 global.miningDimOres = [
     {path: 'runic_stone',         id:'allthemodium:runic_stone',         min:65,max:250,size:4,count:1, stoneReplaces:"forbidden_arcanus:runic_stone",         deepslateReplaces:"forbidden_arcanus:runic_deepslate"},
@@ -12,7 +14,7 @@ global.miningDimOres = [
     {path: 'sulfur_ore',          id:'allthemodium:sulfur_ore',          min:65,max:250,size:8,count:8, stoneReplaces:"thermal:sulfur_ore",                    deepslateReplaces:"thermal:deepslate_sulfur_ore"},
 ]
    
-ServerEvents.lowPriorityData(event => {
+ServerEvents.lowPriorityData(allthemods => {
     let addMiningDimOre = (path, id, min, max, size, count, stoneReplaces, deepslateReplaces) => {
         let jsonPlaced = JsonIO.toObject({
             "feature": id,
@@ -74,11 +76,14 @@ ServerEvents.lowPriorityData(event => {
             "features": [id],
             "step": "underground_ores"
         })
-        event.addJson(`allthemodium:worldgen/placed_feature/${path}.json`, jsonPlaced)
-        event.addJson(`allthemodium:worldgen/configured_feature/${path}.json`, jsonConfigured)
-        event.addJson(`allthemodium:forge/biome_modifier/allthemodium/dim_ores/${path}.json`, jsonForge)
+        allthemods.addJson(`allthemodium:worldgen/placed_feature/${path}.json`, jsonPlaced)
+        allthemods.addJson(`allthemodium:worldgen/configured_feature/${path}.json`, jsonConfigured)
+        allthemods.addJson(`allthemodium:forge/biome_modifier/allthemodium/dim_ores/${path}.json`, jsonForge)
     }
     global.miningDimOres.forEach(ore=>{
         addMiningDimOre(ore.path,ore.id, ore.min, ore.max, ore.size, ore.count, ore.stoneReplaces, ore.deepslateReplaces);
     })
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

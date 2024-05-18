@@ -1,5 +1,8 @@
-WorldgenEvents.remove(event => {
-  event.removeOres(props => {
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+WorldgenEvents.remove(allthemods => {
+  allthemods.removeOres(props => {
     props.worldgenLayer = 'underground_ores';
     props.blocks = [
       "railcraft:lead_ore",
@@ -26,3 +29,6 @@ WorldgenEvents.remove(event => {
     ]
   })
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

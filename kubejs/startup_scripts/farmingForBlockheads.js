@@ -1,4 +1,7 @@
 /*
+  This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+  As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
   farming for blockheads custom market additions
   authored by EnigmaQuip
   for use in ATM8
@@ -18,11 +21,11 @@ let MarketBlackList = [
   "ars_nouveau:magebloom_crop"
 ]
 
-ForgeEvents.onEvent('net.blay09.mods.farmingforblockheads.api.MarketRegistryReloadEvent$Post', event => {
-  global.MarketRegistry(event)
+ForgeEvents.onEvent('net.blay09.mods.farmingforblockheads.api.MarketRegistryReloadEvent$Post', allthemods => {
+  global.MarketRegistry(allthemods)
 })
 
-global.MarketRegistry = (event) => {
+global.MarketRegistry = (allthemods) => {
   let market = JsonIO.read('kubejs/server_scripts/mods/farmingforblockheads/marketitems.json')
   let category = {
     saplings: FFBAPI.getMarketCategorySaplings(),
@@ -41,3 +44,6 @@ global.MarketRegistry = (event) => {
     })
   })
 }
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

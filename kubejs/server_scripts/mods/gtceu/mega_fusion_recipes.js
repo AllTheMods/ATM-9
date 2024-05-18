@@ -1,7 +1,9 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
-ServerEvents.recipes(event => {
+ServerEvents.recipes(allthemods => {
     // Components
-    event.recipes.gtceu.assembly_line('mega_fusion_reactor')
+    allthemods.recipes.gtceu.assembly_line('mega_fusion_reactor')
         .itemInputs([
             '2x gtceu:uv_fusion_reactor',
             '4x gtceu:fusion_coil',
@@ -19,7 +21,7 @@ ServerEvents.recipes(event => {
         .stationResearch(b => b.researchStack(Item.of('gtceu:uv_fusion_reactor')).CWUt(128).EUt(UV))
         .duration(1600).EUt(UV)
 
-    event.recipes.gtceu.mega_fusion_reactor('star_matter')
+    allthemods.recipes.gtceu.mega_fusion_reactor('star_matter')
         .inputFluids([
             Fluid.of('gtceu:helium_plasma', 10000), 
             Fluid.of('gtceu:nitrogen_plasma', 2500), 
@@ -30,3 +32,6 @@ ServerEvents.recipes(event => {
         .duration(64).EUt(UV)
         .fusionStartEU(600000000)
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

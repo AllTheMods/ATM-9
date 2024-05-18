@@ -1,3 +1,6 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 let cropAdjust = [
   {crop:"steel", tier:"imperium"},
   {crop:"bronze", tier:"tertium"},
@@ -25,10 +28,10 @@ let cropAdjust = [
   {crop:"graphite", tier:"tertium", block:"bigreactors:graphite_block"},
 ]
 
-ServerEvents.recipes(event => {
+ServerEvents.recipes(allthemods => {
   // essence crafting for custom seeds
   function essenceCircle(result, essenceType) {
-    event.shaped(result, ['aaa', 'a a', 'aaa'], { a: `mysticalagriculture:${essenceType}_essence` }).id(`kubejs:mysticalagriculture/${essenceType}_essence_crafting`)
+    allthemods.shaped(result, ['aaa', 'a a', 'aaa'], { a: `mysticalagriculture:${essenceType}_essence` }).id(`allthemods:mysticalagriculture/${essenceType}_essence_crafting`)
   }
   essenceCircle('allthemodium:allthemodium_nugget', 'allthemodium')
   essenceCircle('allthemodium:vibranium_nugget', 'vibranium')
@@ -38,7 +41,7 @@ ServerEvents.recipes(event => {
 
   // infusion seed crafting
   function seedCrafting(output, middle, item1, item2, item3, item4, item5, item6, item7, item8){
-    event.custom({
+    allthemods.custom({
       type: 'mysticalagriculture:infusion',
       input: { item: middle },
       ingredients: [
@@ -52,7 +55,7 @@ ServerEvents.recipes(event => {
         { item: item8 }
       ],
       result: { item: output }
-    }).id(`kubejs:${output.replace(':', '/')}/infusion`)
+    }).id(`allthemods:${output.replace(':', '/')}/infusion`)
   }
 
   // make alloy seeds use blocks to craft
@@ -76,7 +79,7 @@ ServerEvents.recipes(event => {
       // else neither exists, fallback to the first thing we can find via the storage_blocks tag
       block = Ingredient.of(`#forge:storage_blocks/${entry.crop}`).getItemIds()[0]
     }
-    event.remove({id:`mysticalagriculture:seed/infusion/${entry.crop}`})
+    allthemods.remove({id:`mysticalagriculture:seed/infusion/${entry.crop}`})
     seedCrafting(`mysticalagriculture:${entry.crop}_seeds`, 'mysticalagriculture:prosperity_seed_base', ess, block, ess, block, ess, block, ess, block)
   })
 
@@ -88,7 +91,7 @@ ServerEvents.recipes(event => {
 
 
   //MA EXP droplets to fluid EXP
-  event.custom({
+  allthemods.custom({
     type: "thermal:centrifuge",
     ingredient: {
       item: "mysticalagriculture:experience_droplet"
@@ -103,10 +106,13 @@ ServerEvents.recipes(event => {
   })
 
   // add recipe to make turtle eggs from turtle essence
-  event.shaped('4x minecraft:turtle_egg', ['   ', '   ', 'EEE'], {
+  allthemods.shaped('4x minecraft:turtle_egg', ['   ', '   ', 'EEE'], {
     E: 'mysticalagriculture:turtle_essence'
-  }).id('kubejs:mysticalagriculture/turtle_egg')
+  }).id('allthemods:mysticalagriculture/turtle_egg')
 
   // remove gaia crux
-  event.remove({ id: "mysticalagradditions:gaia_spirit_crux" })
+  allthemods.remove({ id: "mysticalagradditions:gaia_spirit_crux" })
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

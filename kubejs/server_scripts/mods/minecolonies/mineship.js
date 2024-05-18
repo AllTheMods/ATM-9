@@ -1,3 +1,1 @@
-ServerEvents.recipes(event => {
-// remove
-})
+// remove, file kept for compat reasons

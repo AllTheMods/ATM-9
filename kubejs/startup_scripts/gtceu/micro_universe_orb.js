@@ -1,22 +1,25 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 const $EnergyHatchPartMachine = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.part.EnergyHatchPartMachine')
 const $IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
 
-StartupEvents.registry('block', event => {
-    event.create('micro_universe_energy_transmitter')
+StartupEvents.registry('block', allthemods => {
+    allthemods.create('micro_universe_energy_transmitter')
         .displayName('Micro Universe Energy Transmitter')
-    event.create('micro_universe_focus_lens')
+    allthemods.create('micro_universe_focus_lens')
         .displayName('Micro Universe Focus Lens')
 })
 
-GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    event.create('micro_universe_reactor')
+GTCEuStartupEvents.registry('gtceu:recipe_type', allthemods => {
+    allthemods.create('micro_universe_reactor')
         .category('gregstar')
         .setEUIO('out')
         .setMaxIOSize(12, 0, 6, 0)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ARC);
-    event.create('micro_universe_collector')
+    allthemods.create('micro_universe_collector')
         .category('gregstar')
         .setEUIO('in')
         .setMaxIOSize(12, 12, 6, 6)
@@ -25,8 +28,8 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setSound(GTSoundEntries.ARC);
 })
 
-GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('micro_universe_orb', 'multiblock')
+GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
+    allthemods.create('micro_universe_orb', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeTypes([GTRecipeTypes.get('micro_universe_collector'), GTRecipeTypes.get('micro_universe_reactor')])
         .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
@@ -105,8 +108,11 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .workableCasingRenderer("gtceu:block/casings/gcym/atomic_casing",
             "gtceu:block/multiblock/assembly_line", false)
     
-    event.create('energy_input_hatch', 'custom', (holder, tier) => { return new $EnergyHatchPartMachine(holder, tier, $IO.IN, 2) }, GTValues.MAX)
+    allthemods.create('energy_input_hatch', 'custom', (holder, tier) => { return new $EnergyHatchPartMachine(holder, tier, $IO.IN, 2) }, GTValues.MAX)
         .rotationState(RotationState.ALL)
         .abilities(PartAbility.INPUT_ENERGY)
         .overlayTieredHullRenderer("energy_hatch.input")
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
