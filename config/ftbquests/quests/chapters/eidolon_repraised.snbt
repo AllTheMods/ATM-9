@@ -21,37 +21,11 @@
 			]
 			icon: "eidolon:codex"
 			id: "63E611810240C792"
-			rewards: [
-				{
-					id: "04816704EE612B75"
-					item: {
-						Count: 1b
-						id: "minecraft:player_head"
-						tag: {
-							SkullOwner: {
-								Id: [I;
-									1223057599
-									1414090141
-									-1109509241
-									1019046394
-								]
-								Name: "ZephyrWindSpirit"
-								Properties: {
-									textures: [{
-										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwMDA4MTE0MDQwMCwKICAicHJvZmlsZUlkIiA6ICI0OGU2NjBiZjU0NDk0ZDlkYmRkZTNiODczY2JkNjlmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZXBoeXJXaW5kU3Bpcml0IiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RhZTU4MzgxMTcyZmY4NzA4NjYzM2U1MWM4NTMwZmNlZGZmYjgyZWU3ZDY2ODBmOTQ1MDZlMjJiMzg0YjliNmIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ=="
-									}]
-								}
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1633A5863267257D"
-					item: "eidolon:codex"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1633A5863267257D"
+				item: "eidolon:codex"
+				type: "item"
+			}]
 			subtitle: "{atm9.quest.eidolonRepraised.subt.darkArts}"
 			tasks: [{
 				id: "15ED5ED72A7965B5"
