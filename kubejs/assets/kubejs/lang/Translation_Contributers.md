@@ -16,6 +16,7 @@ French, (partial, needs updating)
 Spanish,
 - radzratz (https://github.com/RadzRatz)
 - 102389 (https://github.com/102389)
+- Arivio (https://github.com/Arivios)
 
 Norwegian (BokMål) (chapter titles, and Welcome chapter)
 - Permest (https://github.com/Permest)
