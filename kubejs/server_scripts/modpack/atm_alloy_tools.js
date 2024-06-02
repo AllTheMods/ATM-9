@@ -6,22 +6,22 @@ ServerEvents.recipes(allthemods => {
   allthemods.custom({
     "type": "ars_nouveau:enchanting_apparatus",
     "keepNbtOfReagent": true,
-    "output": Item.of("allthemodium:alloy_sword").toJson(),
+    "output": {"item": "allthemodium:alloy_sword"},
     "pedestalItems": [
-	  {"item": Ingredient.of('#forge:ingots/unobtainium').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-    {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-    {"item": Ingredient.of('#forge:ingots/allthemodium').toJson()},
-    {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/vibranium').toJson()},	  
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()}
+	  {tag: 'forge:ingots/unobtainium'},
+	  {tag: 'forge:ingots/unobtainium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/allthemodium'},
+	  {tag: 'forge:ingots/vibranium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/vibranium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/vibranium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/vibranium'},	  
+	  {tag: 'forge:ingots/unobtainium_vibranium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_vibranium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_vibranium_alloy'}
     ],
-    "reagent": [Item.of("allthemodium:allthemodium_sword").toJson()],
+    "reagent": [{"Item": "allthemodium:allthemodium_sword"}],
     "sourceCost": 5000
   }).id('allthemods:allthemodium/alloy_sword')
   
@@ -29,22 +29,22 @@ ServerEvents.recipes(allthemods => {
   allthemods.custom({
     "type": "ars_nouveau:enchanting_apparatus",
     "keepNbtOfReagent": true,
-    "output": Item.of("allthemodium:alloy_pick").toJson(),
+    "output": {Item: "allthemodium:alloy_pick"},
     "pedestalItems": [
-	  {"item": Ingredient.of('#forge:ingots/unobtainium').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-    {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-    {"item": Ingredient.of('#forge:ingots/allthemodium').toJson()},
-    {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/vibranium').toJson()},	  
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()}
+	  {tag: 'forge:ingots/unobtainium'},
+	  {tag: 'forge:ingots/unobtainium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/allthemodium'},
+	  {tag: 'forge:ingots/vibranium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/vibranium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/vibranium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/vibranium'},	  
+	  {tag: 'forge:ingots/unobtainium_vibranium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_vibranium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_vibranium_alloy'}
     ],
-    "reagent": [Item.of("allthemodium:allthemodium_pickaxe").toJson()],
+    "reagent": [{Item: "allthemodium:allthemodium_pickaxe"}],
     "sourceCost": 5000
   }).id('allthemods:allthemodium/alloy_pick')
   
@@ -52,22 +52,22 @@ ServerEvents.recipes(allthemods => {
   allthemods.custom({
     "type": "ars_nouveau:enchanting_apparatus",
     "keepNbtOfReagent": true,
-    "output": Item.of("allthemodium:alloy_shovel").toJson(),
+    "output": {Item: "allthemodium:alloy_shovel"},
     "pedestalItems": [
-	  {"item": Ingredient.of('#forge:ingots/unobtainium').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-    {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-    {"item": Ingredient.of('#forge:ingots/allthemodium').toJson()},
-    {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/vibranium').toJson()},	  
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()}
+	  {tag: 'forge:ingots/unobtainium'},
+	  {tag: 'forge:ingots/unobtainium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/allthemodium'},
+	  {tag: 'forge:ingots/vibranium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/vibranium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/vibranium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/vibranium'},	  
+	  {tag: 'forge:ingots/unobtainium_vibranium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_vibranium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_vibranium_alloy'}
     ],
-    "reagent": [Item.of("allthemodium:allthemodium_shovel").toJson()],
+    "reagent": [{Item: "allthemodium:allthemodium_shovel"}],
     "sourceCost": 5000
   }).id('allthemods:allthemodium/alloy_shovel')
  
@@ -75,22 +75,22 @@ ServerEvents.recipes(allthemods => {
   allthemods.custom({
     "type": "ars_nouveau:enchanting_apparatus",
     "keepNbtOfReagent": true,
-    "output": Item.of("allthemodium:alloy_axe").toJson(),
+    "output": {Item: "allthemodium:alloy_axe"},
     "pedestalItems": [
-	  {"item": Ingredient.of('#forge:ingots/unobtainium').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-    {"item": Ingredient.of('#forge:ingots/unobtainium_allthemodium_alloy').toJson()},
-    {"item": Ingredient.of('#forge:ingots/allthemodium').toJson()},
-    {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/vibranium_allthemodium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/vibranium').toJson()},	  
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()},
-	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()}
+	  {tag: 'forge:ingots/unobtainium'},
+	  {tag: 'forge:ingots/unobtainium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/allthemodium'},
+	  {tag: 'forge:ingots/vibranium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/vibranium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/vibranium_allthemodium_alloy'},
+	  {tag: 'forge:ingots/vibranium'},	  
+	  {tag: 'forge:ingots/unobtainium_vibranium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_vibranium_alloy'},
+	  {tag: 'forge:ingots/unobtainium_vibranium_alloy'}
     ],
-    "reagent": [Item.of("allthemodium:allthemodium_axe").toJson()],
+    "reagent": [{Item: "allthemodium:allthemodium_axe"}],
     "sourceCost": 5000
 	}).id('allthemods:allthemodium/alloy_axe')
 
@@ -99,14 +99,14 @@ ServerEvents.recipes(allthemods => {
   allthemods.custom({
     "type": "ars_nouveau:enchanting_apparatus",
     "keepNbtOfReagent": true,
-    "output": Item.of("allthemodium:alloy_paxel").toJson(),
+    "output": {Item: "allthemodium:alloy_paxel"},
     "pedestalItems": [
-	  {"item": Ingredient.of('allthemodium:alloy_sword').toJson()},
-	  {"item": Ingredient.of('allthemodium:alloy_pick').toJson()},
-	  {"item": Ingredient.of('allthemodium:alloy_shovel').toJson()},
-    {"item": Ingredient.of('allthemodium:alloy_axe').toJson()},
+	  {tag: 'allthemodium:alloy_sword'},
+	  {tag: 'allthemodium:alloy_pick'},
+	  {tag: 'allthemodium:alloy_shovel'},
+	  {tag: 'allthemodium:alloy_axe'},
     ],
-    "reagent": [Item.of("mysticalagradditions:awakened_supremium_paxel").toJson()],
+    "reagent": [{Item: "mysticalagradditions:awakened_supremium_paxel"}],
     "sourceCost": 10000
 	}).id('allthemods:allthemodium/alloy_paxel')
  
