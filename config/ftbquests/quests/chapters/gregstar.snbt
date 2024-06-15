@@ -1,6 +1,3 @@
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
-
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -10,11 +7,7 @@
 	id: "3202C575456F57D2"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 12.0d
-			hover: [ ]
 			image: "gtceu:textures/gui/icon/gregtech_logo.png"
 			order: 1
 			rotation: 0.0d
@@ -23,11 +16,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 16.0d
-			hover: [ ]
 			image: "gtceu:block/casings/gcym/atomic_casing"
 			rotation: 0.0d
 			width: 16.0d
@@ -73,7 +62,7 @@
 				{
 					id: "17A2EC9123FFC20F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:doge_coin"
 						tag: {
 							display: {
@@ -138,7 +127,7 @@
 				{
 					id: "7EA634913596A091"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:neutronium_hammer"
 						tag: {
 							DisallowContainerItem: 0b
@@ -195,7 +184,7 @@
 				{
 					id: "7833ED29A4D06F8D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:neutronium_file"
 						tag: {
 							DisallowContainerItem: 0b
@@ -257,7 +246,7 @@
 				{
 					id: "54AF08C2D3E98EA6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:neutronium_wrench"
 						tag: {
 							DisallowContainerItem: 0b
@@ -315,7 +304,7 @@
 				{
 					id: "1D803FBEE9C53C00"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:neutronium_saw"
 						tag: {
 							DisallowContainerItem: 0b
@@ -371,7 +360,7 @@
 				{
 					id: "1FF8A481DA1BD909"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:neutronium_screwdriver"
 						tag: {
 							DisallowContainerItem: 0b
@@ -420,7 +409,7 @@
 				{
 					id: "0B4FBB31F08719C1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:neutronium_knife"
 						tag: {
 							DisallowContainerItem: 0b
@@ -479,7 +468,7 @@
 				{
 					id: "1D67E56AD648D757"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:neutronium_crowbar"
 						tag: {
 							DisallowContainerItem: 0b
@@ -538,7 +527,7 @@
 				{
 					id: "6B501879B039115A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:neutronium_scythe"
 						tag: {
 							DisallowContainerItem: 0b
@@ -601,7 +590,7 @@
 				{
 					id: "1DBF22541766EC89"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:neutronium_hoe"
 						tag: {
 							DisallowContainerItem: 0b
@@ -649,7 +638,7 @@
 			]
 			description: ["{atm9.quest.gregtech.desc.advancedComputers}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "exchangers:end_steel_exchanger"
 				tag: {
 					Energy: 50000000
@@ -675,7 +664,7 @@
 				{
 					id: "149896B514C74991"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:polybenzimidazole_mallet"
 						tag: {
 							DisallowContainerItem: 0b
@@ -700,7 +689,7 @@
 				{
 					id: "3800D50E1B753AF5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "exchangers:end_steel_exchanger"
 						tag: {
 							blockstate: {
@@ -743,7 +732,7 @@
 				{
 					id: "70306D7DB3498C01"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:neutronium_sword"
 						tag: {
 							DisallowContainerItem: 0b
@@ -1154,7 +1143,7 @@
 				{
 					id: "05F606E17F62ED7C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:neutronium_wire_cutter"
 						tag: {
 							DisallowContainerItem: 0b
@@ -1631,6 +1620,3 @@
 	]
 	title: "{atm9.chapters.36.title}"
 }
-
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

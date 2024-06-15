@@ -9,7 +9,7 @@
 		{ count: 2, item: "evilcraft:hardened_blood_shard", random_bonus: 4, weight: 50.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				ForgeCaps: {
 					Parent: {
 						Amount: 0
@@ -30,7 +30,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				ForgeCaps: {
 					Parent: {
 						Amount: 0
@@ -59,7 +59,7 @@
 		{ item: "evilcraft:vengeance_essence", weight: 10.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "evilcraft:vengeance_pickaxe"
 				tag: {
 					Damage: 0
@@ -79,7 +79,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "evilcraft:vein_sword"
 				tag: {
 					Damage: 0

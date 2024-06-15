@@ -188,7 +188,7 @@
 				{
 					id: "19CE95EDCB04AA89"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:energy_cell"
 						tag: { }
 					}
@@ -197,7 +197,7 @@
 				{
 					id: "3606A3CEDFF76F77"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:dense_energy_cell"
 						tag: { }
 					}
@@ -331,7 +331,7 @@
 				{
 					id: "40A7CC56DACC2623"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:glass_cable"
@@ -343,7 +343,7 @@
 				{
 					id: "64EAD3DE84E94F02"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:covered_cable"
@@ -355,7 +355,7 @@
 				{
 					id: "14DEFFB80CC96BC1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:covered_dense_cable"
@@ -397,7 +397,7 @@
 				{
 					id: "7FC3DAA1BD5016A0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:smart_cable"
@@ -409,7 +409,7 @@
 				{
 					id: "38E290AC5E011888"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:smart_dense_cable"
@@ -518,7 +518,7 @@
 			tasks: [{
 				id: "7241918F270CA402"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "ae2:interface"
@@ -555,7 +555,7 @@
 				{
 					id: "338A6DA0D711B7DC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:pattern_provider"
@@ -616,7 +616,7 @@
 			tasks: [{
 				id: "1076BC82EECB73F5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "ae2:quartz_wrench"
@@ -969,7 +969,7 @@
 			tasks: [{
 				id: "52521FCD58B2FEF0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_1k"
 					tag: { }
 				}
@@ -1000,7 +1000,7 @@
 			tasks: [{
 				id: "61D93B13D496547D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:id_regex"
 					tag: {
 						value: ":fluid_storage_cell_"
@@ -1248,7 +1248,7 @@
 			tasks: [{
 				id: "2D19A4EF2E4B7A55"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:memory_card"
 					tag: { }
 				}
@@ -1331,7 +1331,7 @@
 			tasks: [{
 				id: "65C439FD14C5EEB9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:id_regex"
 					tag: {
 						value: ":portable_(.*)_cell_"
@@ -1697,7 +1697,7 @@
 			tasks: [{
 				id: "75924053D6F5B242"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:id_regex"
 					tag: {
 						value: "ae2:spatial_storage_cell_"
@@ -1731,7 +1731,7 @@
 			tasks: [{
 				id: "08DA73B1AC17E5F5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:id_regex"
 					tag: {
 						value: "(.*)crafting_storage"
@@ -1765,7 +1765,7 @@
 			tasks: [{
 				id: "5EC8D891031E34EF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:id_regex"
 					tag: {
 						value: "(.*)crafting_accelerator"
@@ -1799,7 +1799,7 @@
 			tasks: [{
 				id: "2D386EFC23C45581"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:id_regex"
 					tag: {
 						value: "(ae2|mega)(.*)crafting_monitor"
@@ -1836,7 +1836,7 @@
 				{
 					id: "23D186249A999B8C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:knife"
@@ -1853,7 +1853,7 @@
 				{
 					id: "1FFAB0FE9A2D46F2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:name_press"
 						tag: { }
 					}
@@ -1888,7 +1888,7 @@
 			tasks: [{
 				id: "6691176371563341"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:color_applicator"
 					tag: { }
 				}
@@ -1934,7 +1934,7 @@
 				{
 					id: "3B720F63D105F7DF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:matter_cannon"
 						tag: { }
 					}
@@ -2221,7 +2221,7 @@
 			tasks: [{
 				id: "4C2F435902156183"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:bulk_item_cell"
 					tag: { }
 				}

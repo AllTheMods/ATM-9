@@ -1,13 +1,10 @@
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
-
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "occultism"
 	group: "02FE661031A105D8"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "occultism:item/ritual_dummy"
@@ -16,12 +13,8 @@
 	id: "4C507C004144BFEE"
 	images: [
 		{
-			click: ""
 			color: 15616811
-			corner: false
-			dev: false
 			height: 5.0d
-			hover: [ ]
 			image: "occultism:textures/item/pentacle.png"
 			order: -1
 			rotation: 0.0d
@@ -30,12 +23,8 @@
 			y: 0.0d
 		}
 		{
-			click: ""
 			color: 16711680
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "occultism:textures/gui/book/robe.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -43,12 +32,8 @@
 			y: 2.0d
 		}
 		{
-			click: ""
 			color: 16711680
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "occultism:textures/gui/book/robe.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -56,12 +41,8 @@
 			y: 2.0d
 		}
 		{
-			click: ""
 			color: 16711680
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "occultism:textures/gui/book/robe.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -69,12 +50,8 @@
 			y: -0.5d
 		}
 		{
-			click: ""
 			color: 16711680
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "occultism:textures/gui/book/robe.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -82,12 +59,8 @@
 			y: -0.5d
 		}
 		{
-			click: ""
 			color: 16711680
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "occultism:textures/gui/book/robe.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -95,12 +68,8 @@
 			y: -2.5d
 		}
 		{
-			click: ""
 			color: 255
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
 			width: 2.0d
@@ -108,12 +77,8 @@
 			y: 0.0d
 		}
 		{
-			click: ""
 			color: 255
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "occultism:textures/gui/book/summoning.png"
 			order: -1
 			rotation: -30.0d
@@ -122,12 +87,8 @@
 			y: 5.5d
 		}
 		{
-			click: ""
 			color: 16711680
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "occultism:textures/gui/book/summoning.png"
 			order: -1
 			rotation: 90.0d
@@ -136,9 +97,6 @@
 			y: 5.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.occultism.shubNiggurathFamiliar}"]
 			image: "occultism:textures/gui/book/familiar_shub_niggurath.png"
@@ -148,9 +106,6 @@
 			y: 5.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.occultism.drikwingFamiliar}"]
 			image: "occultism:textures/gui/book/otherworld_bird.png"
@@ -161,11 +116,7 @@
 		}
 		{
 			alpha: 150
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "occultism:block/stable_wormhole_frame"
 			rotation: 0.0d
 			width: 2.0d
@@ -173,11 +124,7 @@
 			y: 9.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "occultism:item/divination_rod/divination_rod_animation"
 			rotation: -45.0d
 			width: 2.0d
@@ -185,11 +132,7 @@
 			y: 14.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.5d
-			hover: [ ]
 			image: "occultism:block/chalk_glyph/0"
 			rotation: 0.0d
 			width: 0.5d
@@ -197,12 +140,8 @@
 			y: 1.0d
 		}
 		{
-			click: ""
 			color: 6111187
-			corner: false
-			dev: false
 			height: 0.5d
-			hover: [ ]
 			image: "occultism:block/chalk_glyph/11"
 			rotation: 0.0d
 			width: 0.5d
@@ -210,12 +149,8 @@
 			y: 1.0d
 		}
 		{
-			click: ""
 			color: 16711680
-			corner: false
-			dev: false
 			height: 0.5d
-			hover: [ ]
 			image: "occultism:block/chalk_glyph/12"
 			rotation: 0.0d
 			width: 0.5d
@@ -223,12 +158,8 @@
 			y: -1.5d
 		}
 		{
-			click: ""
 			color: 16766720
-			corner: false
-			dev: false
 			height: 0.5d
-			hover: [ ]
 			image: "occultism:block/chalk_glyph/4"
 			rotation: 0.0d
 			width: 0.5d
@@ -236,9 +167,6 @@
 			y: -1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
 			hover: ["{atm9.quest.occultism.berserker}"]
 			image: "occultism:textures/gui/book/familiar_beholder.png"
@@ -248,9 +176,6 @@
 			y: 12.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
 			hover: ["{atm9.quest.occultism.headlessRatman}"]
 			image: "occultism:textures/gui/book/familiar_headless_ratman.png"
@@ -260,11 +185,7 @@
 			y: 12.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "occultism:textures/gui/book/infusion.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -273,11 +194,7 @@
 		}
 		{
 			alpha: 100
-			click: ""
-			corner: false
-			dev: false
 			height: 1.25d
-			hover: [ ]
 			image: "occultism:block/iesnium_block"
 			rotation: 45.0d
 			width: 1.25d
@@ -286,11 +203,7 @@
 		}
 		{
 			alpha: 150
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "occultism:block/iesnium_block"
 			order: -1
 			rotation: 45.0d
@@ -299,11 +212,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 9.0d
-			hover: [ ]
 			image: "atm:textures/questpics/occultism/maridlogo.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -311,12 +220,8 @@
 			y: 7.0d
 		}
 		{
-			click: ""
 			color: 16766720
-			corner: false
-			dev: false
 			height: 0.5d
-			hover: [ ]
 			image: "occultism:block/chalk_glyph/8"
 			rotation: 0.0d
 			width: 0.5d
@@ -324,9 +229,6 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.3d
 			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
@@ -349,7 +251,7 @@
 				"{atm9.quest.occultism.desc.welcome.3}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "occultism:item/soul_gem"
@@ -391,7 +293,7 @@
 			tasks: [{
 				id: "15CDE30E1F7EBAD5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "occultism:dictionary_of_spirits"
 					tag: {
 						"modonomicon:book_id": "occultism:dictionary_of_spirits"
@@ -456,7 +358,7 @@
 			shape: "square"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "occultism:block/spirit_fire_1"
@@ -511,7 +413,7 @@
 				{
 					id: "2A1C88D9C4546A36"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:otherworld_sapling_natural"
 						tag: {
 							isInventoryItem: 1b
@@ -548,7 +450,7 @@
 					count: 4L
 					id: "0EE813C344409F59"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -601,7 +503,7 @@
 				{
 					id: "370267FD8FDE9D4F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:chalk_white"
 						tag: {
 							Damage: 0
@@ -705,7 +607,7 @@
 				"{image:atm:textures/questpics/occultism/aviarcircle.png width:200 height:200 align:1}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "occultism:block/chalk_glyph/7"
@@ -724,7 +626,7 @@
 				{
 					id: "764B41E9502184D6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:book_of_binding_bound_foliot"
 						tag: {
 							spiritName: "Krtimaeus"
@@ -798,7 +700,7 @@
 			]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "occultism:item/advancement/devil_icon"
@@ -816,7 +718,7 @@
 			size: 1.25d
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "occultism:item/advancement/devil_icon"
@@ -874,7 +776,7 @@
 				{
 					id: "594F7571F053C9EB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:book_of_binding_bound_djinni"
 						tag: {
 							spiritName: "Karnvires"
@@ -954,7 +856,7 @@
 			tasks: [{
 				id: "1E44A3F521ED5DFC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "occultism:soul_gem"
 					tag: { }
 				}
@@ -988,7 +890,7 @@
 			tasks: [{
 				id: "1ED2F7B4B900BDD1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "occultism:otherworld_goggles"
 					tag: {
 						Damage: 0
@@ -1026,7 +928,7 @@
 			tasks: [{
 				id: "73EA231C66874BB0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "occultism:infused_pickaxe"
 					tag: {
 						Damage: 0
@@ -1096,7 +998,7 @@
 			tasks: [{
 				id: "7FC0ED5732DFDCF2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "occultism:iesnium_pickaxe"
 					tag: {
 						Damage: 0
@@ -1146,7 +1048,7 @@
 				{
 					id: "73801C9489E0E797"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:book_of_binding_bound_marid"
 						tag: {
 							spiritName: "Holmurkyr"
@@ -1157,7 +1059,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "occultism:item/advancement/devil_icon"
@@ -1197,7 +1099,7 @@
 				{
 					id: "51F776CF868BABEF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1287,7 +1189,7 @@
 				{
 					id: "13AB4282F7A3F28C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:dimensional_matrix"
 						tag: {
 							spiritName: "Geirmaracthorn"
@@ -1339,7 +1241,7 @@
 			tasks: [{
 				id: "51F520BF7DA37873"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1383,7 +1285,7 @@
 			tasks: [{
 				id: "13EAA435B27EA29D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "occultism:divination_rod"
 					tag: { }
 				}
@@ -1420,7 +1322,7 @@
 				{
 					id: "792FA8ED0719803C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:stable_wormhole"
 						tag: { }
 					}
@@ -1430,7 +1332,7 @@
 				{
 					id: "2ED65EBA5FFE2C2E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:storage_remote"
 						tag: { }
 					}
@@ -1452,7 +1354,7 @@
 				"{atm9.quest.occultism.desc.demonsAndFamiliars.3}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "occultism:textures/gui/book/familiar_blacksmith.png"
@@ -1476,6 +1378,3 @@
 	]
 	title: "{atm9.chapters.44.title}"
 }
-
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

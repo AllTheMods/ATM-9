@@ -8,7 +8,7 @@
 		{ item: "tempad:he_who_remains_tempad" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "mekanism:elite_energy_cube"
 				tag: {
 					mekData: {
@@ -27,7 +27,7 @@
 		{ item: "ironfurnaces:netherite_furnace" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:allthemodium_sight"
@@ -40,7 +40,7 @@
 		{ item: "apotheosis:sigil_of_socketing", random_bonus: 1 }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -52,7 +52,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -64,7 +64,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -76,7 +76,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
