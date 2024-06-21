@@ -1,6 +1,6 @@
 {
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:lootcrate"
 		tag: {
 			type: "rare_loot_chest"
@@ -12,7 +12,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -25,7 +25,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -56,7 +56,7 @@
 		{ count: 4, item: "mekanism:ingot_refined_obsidian", random_bonus: 4, weight: 5.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:potion_charm"
 				tag: {
 					Damage: 0
@@ -70,7 +70,7 @@
 		{ item: "ars_nouveau:source_gem_block", random_bonus: 2, weight: 3.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "mininggadgets:mininggadget_simple"
 				tag: { }
 			}
@@ -78,7 +78,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "mininggadgets:mininggadget_fancy"
 				tag: { }
 			}
@@ -91,7 +91,7 @@
 		{ count: 4, item: "apotheosis:gem_dust", random_bonus: 4, weight: 5.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "mekanism:basic_fluid_tank"
 				tag: {
 					mekData: {

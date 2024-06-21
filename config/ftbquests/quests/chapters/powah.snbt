@@ -1,6 +1,3 @@
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
-
 {
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
@@ -10,11 +7,7 @@
 	id: "2A6EBEEBAB882679"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/capacitor_basic"
 			rotation: 0.0d
 			width: 1.0d
@@ -22,11 +15,7 @@
 			y: 12.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/capacitor_basic_tiny"
 			rotation: 0.0d
 			width: 1.0d
@@ -34,11 +23,7 @@
 			y: 11.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/capacitor_hardened"
 			rotation: 0.0d
 			width: 1.0d
@@ -46,11 +31,7 @@
 			y: 13.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/capacitor_blazing"
 			rotation: 0.0d
 			width: 1.0d
@@ -58,11 +39,7 @@
 			y: 14.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/capacitor_niotic"
 			rotation: 0.0d
 			width: 1.0d
@@ -70,11 +47,7 @@
 			y: 15.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/capacitor_spirited"
 			rotation: 0.0d
 			width: 1.0d
@@ -82,11 +55,7 @@
 			y: 16.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/capacitor_nitro"
 			rotation: 0.0d
 			width: 1.0d
@@ -94,11 +63,7 @@
 			y: 17.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/capacitor_nitro"
 			rotation: 0.0d
 			width: 1.0d
@@ -106,11 +71,7 @@
 			y: 17.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/capacitor_spirited"
 			rotation: 0.0d
 			width: 1.0d
@@ -118,11 +79,7 @@
 			y: 16.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/capacitor_niotic"
 			rotation: 0.0d
 			width: 1.0d
@@ -130,11 +87,7 @@
 			y: 15.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/capacitor_blazing"
 			rotation: 0.0d
 			width: 1.0d
@@ -142,11 +95,7 @@
 			y: 14.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/capacitor_hardened"
 			rotation: 0.0d
 			width: 1.0d
@@ -154,11 +103,7 @@
 			y: 13.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/capacitor_basic"
 			rotation: 0.0d
 			width: 1.0d
@@ -166,11 +111,7 @@
 			y: 12.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/capacitor_basic_tiny"
 			rotation: 0.0d
 			width: 1.0d
@@ -178,11 +119,7 @@
 			y: 11.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
 			width: 2.0d
@@ -190,11 +127,7 @@
 			y: 4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 2.0d
@@ -202,11 +135,7 @@
 			y: 8.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:block/nitro_crystal_block"
 			rotation: 45.0d
 			width: 1.0d
@@ -214,11 +143,7 @@
 			y: 19.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 3.0d
@@ -227,12 +152,8 @@
 		}
 		{
 			alpha: 150
-			click: ""
 			color: 0
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "ftbquests:textures/shapes/square/outline.png"
 			order: -1
 			rotation: 0.0d
@@ -242,11 +163,7 @@
 		}
 		{
 			alpha: 200
-			click: ""
-			corner: false
-			dev: false
 			height: 0.1d
-			hover: [ ]
 			image: "minecraft:block/black_concrete"
 			rotation: 0.0d
 			width: 22.0d
@@ -254,11 +171,7 @@
 			y: 11.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.025d
-			hover: [ ]
 			image: "minecraft:block/black_concrete"
 			rotation: 0.0d
 			width: 22.0d
@@ -267,11 +180,7 @@
 		}
 		{
 			alpha: 200
-			click: ""
-			corner: false
-			dev: false
 			height: 0.1d
-			hover: [ ]
 			image: "minecraft:block/black_concrete"
 			rotation: 0.0d
 			width: 22.0d
@@ -280,11 +189,7 @@
 		}
 		{
 			alpha: 200
-			click: ""
-			corner: false
-			dev: false
 			height: 0.1d
-			hover: [ ]
 			image: "minecraft:block/black_concrete"
 			rotation: 0.0d
 			width: 22.0d
@@ -293,11 +198,7 @@
 		}
 		{
 			alpha: 200
-			click: ""
-			corner: false
-			dev: false
 			height: 0.1d
-			hover: [ ]
 			image: "minecraft:block/black_concrete"
 			rotation: 0.0d
 			width: 22.0d
@@ -306,11 +207,7 @@
 		}
 		{
 			alpha: 200
-			click: ""
-			corner: false
-			dev: false
 			height: 0.1d
-			hover: [ ]
 			image: "minecraft:block/black_concrete"
 			rotation: 0.0d
 			width: 22.0d
@@ -319,11 +216,7 @@
 		}
 		{
 			alpha: 200
-			click: ""
-			corner: false
-			dev: false
 			height: 0.1d
-			hover: [ ]
 			image: "minecraft:block/black_concrete"
 			rotation: 0.0d
 			width: 22.0d
@@ -332,11 +225,7 @@
 		}
 		{
 			alpha: 200
-			click: ""
-			corner: false
-			dev: false
 			height: 0.1d
-			hover: [ ]
 			image: "minecraft:block/black_concrete"
 			rotation: 0.0d
 			width: 22.0d
@@ -345,11 +234,7 @@
 		}
 		{
 			alpha: 200
-			click: ""
-			corner: false
-			dev: false
 			height: 0.1d
-			hover: [ ]
 			image: "minecraft:block/black_concrete"
 			rotation: 0.0d
 			width: 22.0d
@@ -357,11 +242,7 @@
 			y: 18.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.9d
-			hover: [ ]
 			image: "atm:textures/questpics/powah/text/storage_text.png"
 			rotation: 0.0d
 			width: 2.3019230769230767d
@@ -369,11 +250,7 @@
 			y: 10.75d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.8d
-			hover: [ ]
 			image: "atm:textures/questpics/powah/text/generation_text.png"
 			rotation: 0.0d
 			width: 3.3600000000000003d
@@ -381,11 +258,7 @@
 			y: 10.7d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.75d
-			hover: [ ]
 			image: "atm:textures/questpics/powah/text/useful_items_text.png"
 			rotation: 0.0d
 			width: 3.908823529411765d
@@ -393,11 +266,7 @@
 			y: 10.7d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.75d
-			hover: [ ]
 			image: "atm:textures/questpics/powah/text/transfer_text.png"
 			rotation: 0.0d
 			width: 2.6029411764705883d
@@ -405,11 +274,7 @@
 			y: 10.7d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:block/niotic_crystal_block"
 			rotation: 45.0d
 			width: 1.0d
@@ -417,11 +282,7 @@
 			y: 10.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/uraninite_raw"
 			rotation: 0.0d
 			width: 1.0d
@@ -429,11 +290,7 @@
 			y: 10.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/uraninite_raw"
 			rotation: 0.0d
 			width: 1.0d
@@ -441,11 +298,7 @@
 			y: 18.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/uraninite_raw"
 			rotation: 0.0d
 			width: 1.0d
@@ -453,11 +306,7 @@
 			y: 10.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "powah:item/uraninite_raw"
 			rotation: 0.0d
 			width: 1.0d
@@ -465,9 +314,6 @@
 			y: 18.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.3d
 			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
@@ -477,9 +323,6 @@
 			y: 18.1d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.3d
 			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
@@ -510,7 +353,7 @@
 				{
 					id: "0A20CAF72F0E3E11"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:wrench"
 						tag: {
 							PowahWrenchNBT: { }
@@ -610,7 +453,7 @@
 				{
 					id: "36E378BF22554E0A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -632,7 +475,7 @@
 					count: 3L
 					id: "17F07D6404668DE6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -931,7 +774,7 @@
 				{
 					id: "1F929F1DF23460AE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1232,7 +1075,7 @@
 			tasks: [{
 				id: "1D02EF09FDC433ED"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_starter"
 					tag: { }
 				}
@@ -1344,7 +1187,7 @@
 			tasks: [{
 				id: "64BF6A3821454638"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_basic"
 					tag: { }
 				}
@@ -1707,7 +1550,7 @@
 			tasks: [{
 				id: "4FB89D5C29752C55"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_hardened"
 					tag: { }
 				}
@@ -1983,7 +1826,7 @@
 			tasks: [{
 				id: "022DA80D4ABA1C00"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_blazing"
 					tag: { }
 				}
@@ -2412,7 +2255,7 @@
 			tasks: [{
 				id: "732BEE5909694731"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_niotic"
 					tag: { }
 				}
@@ -2718,7 +2561,7 @@
 			tasks: [{
 				id: "064EE05D48DAFC60"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_spirited"
 					tag: { }
 				}
@@ -3130,7 +2973,7 @@
 			tasks: [{
 				id: "053841A23C52379F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_nitro"
 					tag: { }
 				}
@@ -3577,7 +3420,3 @@
 	]
 	title: "{atm9.chapters.23.title}"
 }
-
-
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

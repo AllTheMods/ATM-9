@@ -1,13 +1,10 @@
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
-
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "basic_power"
 	group: "6614EE2378B8AFB9"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "mekanism:creative_energy_cube"
 		tag: {
 			mekData: {
@@ -20,11 +17,7 @@
 	}
 	id: "5D045EF1AB73DF70"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 5.0d
-		hover: [ ]
 		image: "atm:textures/questpics/allthepower.png"
 		rotation: 0.0d
 		width: 15.0d
@@ -100,7 +93,7 @@
 			tasks: [{
 				id: "59DE118DD6597A4E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -258,7 +251,7 @@
 			tasks: [{
 				id: "6C4B8A2662030CB0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -292,7 +285,7 @@
 			description: ["{atm9.quest.power.desc.moving}"]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "mekanism:energy_tablet"
 				tag: {
 					mekData: {
@@ -352,7 +345,7 @@
 			description: ["{atm9.quest.power.desc.storage}"]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "powah:battery_nitro"
 				tag: { }
 			}
@@ -400,7 +393,7 @@
 			tasks: [{
 				id: "76378687551A79C3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -452,7 +445,7 @@
 			tasks: [{
 				id: "7CA8741CA073C1DA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -500,7 +493,7 @@
 			tasks: [{
 				id: "460A67B09BD45CF4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "integrateddynamics:energy_battery"
 					tag: {
 						energy: 0
@@ -626,7 +619,7 @@
 			tasks: [{
 				id: "098F1B932F851616"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -936,6 +929,3 @@
 	]
 	title: "{atm9.chapters.13.title}"
 }
-
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

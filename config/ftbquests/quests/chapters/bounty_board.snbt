@@ -1,6 +1,3 @@
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
-
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -9,11 +6,7 @@
 	icon: "minecraft:zombie_head"
 	id: "18A429E7F56AF5A9"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 3.0d
-		hover: [ ]
 		image: "atm:textures/questpics/bounty.png"
 		rotation: 0.0d
 		width: 12.0d
@@ -556,7 +549,7 @@
 				{
 					id: "26EF416511A49817"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_sword"
 						tag: {
 							Damage: 0
@@ -1002,7 +995,7 @@
 			tasks: [{
 				entity: "minecraft:witch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:invisibility"
@@ -1021,7 +1014,7 @@
 			dependencies: ["5AC497F76A086A5C"]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:invisibility"
@@ -1044,7 +1037,7 @@
 			tasks: [{
 				entity: "minecraft:witch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:leaping"
@@ -1098,7 +1091,7 @@
 			tasks: [{
 				entity: "minecraft:witch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:slowness"
@@ -1133,7 +1126,7 @@
 			tasks: [{
 				entity: "minecraft:witch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:splash_potion"
 					tag: {
 						Potion: "ars_nouveau:shielding_potion_strong"
@@ -1314,6 +1307,3 @@
 	]
 	title: "{atm9.chapters.3.title}"
 }
-
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
