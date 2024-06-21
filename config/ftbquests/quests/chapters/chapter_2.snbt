@@ -1,6 +1,3 @@
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
-
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -185,7 +182,7 @@
 				{
 					id: "10C97B39C12475D3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "allthemodium:allthemodium_sword"
 						tag: {
 							Enchantments: [{ }]
@@ -232,7 +229,7 @@
 				{
 					id: "06FA9F4A937F0402"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "allthemodium:allthemodium_sword"
 						tag: {
 							Enchantments: [{ }]
@@ -286,7 +283,7 @@
 				{
 					id: "69D20E0F1A44244F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "allthemodium:allthemodium_sword"
 						tag: {
 							Enchantments: [{ }]
@@ -333,7 +330,7 @@
 				{
 					id: "48F65810E60EDC84"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "allthemodium:allthemodium_sword"
 						tag: {
 							Enchantments: [{ }]
@@ -374,7 +371,7 @@
 				{
 					id: "0C1FE4845CDCE417"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:trident"
 						tag: {
 							Damage: 0
@@ -439,7 +436,7 @@
 				{
 					id: "577307C225AF3E9C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "allthemodium:allthemodium_sword"
 						tag: {
 							Enchantments: [{ }]
@@ -480,7 +477,7 @@
 				{
 					id: "7367AE25EAF90CCB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "allthemodium:allthemodium_sword"
 						tag: {
 							Enchantments: [{ }]
@@ -528,7 +525,7 @@
 				count: 2L
 				id: "1F7626020C21A3E0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "allthemodium:unobtainium_vibranium_alloy_block"
 					tag: {
 						Enchantments: [{
@@ -647,7 +644,7 @@
 			tasks: [{
 				id: "44CFFE38FD3BBED3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "occultism:stable_wormhole"
 					tag: { }
 				}
@@ -797,7 +794,7 @@
 				{
 					id: "14E98566218C16C2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "allthemodium:allthemodium_sword"
 						tag: {
 							Enchantments: [{ }]
@@ -840,7 +837,6 @@
 			description: ["{atm9.quest.chapter2.desc.LDS}"]
 			hide_dependent_lines: true
 			id: "272CB4EDED35C47B"
-			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "321B617668BB4829"
@@ -850,7 +846,7 @@
 			tasks: [{
 				id: "4272471A1AADDC27"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -891,7 +887,7 @@
 				count: 2L
 				id: "697A057C9E2E86BC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_nitro"
 					tag: { }
 				}
@@ -930,7 +926,6 @@
 			description: ["{atm9.quest.chapter2.desc.wireless}"]
 			hide_dependent_lines: true
 			id: "16E4EA08B647E8E0"
-			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "14DB7B6B838E370E"
@@ -940,7 +935,7 @@
 			tasks: [{
 				id: "3A046374A91F0A2D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -990,7 +985,7 @@
 				{
 					id: "06F40832496CDD9E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "pneumaticcraft:book"
@@ -1043,7 +1038,7 @@
 				{
 					id: "06D1AEF8DADA23BD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:nether_star"
 						tag: {
 							Enchantments: [{ }]
@@ -1092,7 +1087,7 @@
 				{
 					id: "234CAE0F96ED29A7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "evilcraft:weather_container"
 						tag: {
 							weather: "LIGHTNING"
@@ -1123,7 +1118,7 @@
 			tasks: [{
 				id: "66F4491906A5AB8C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "occultism:soul_gem"
 					tag: { }
 				}
@@ -1146,7 +1141,7 @@
 				{
 					id: "3F4169D77B00BC02"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "allthemodium:allthemodium_sword"
 						tag: {
 							Enchantments: [{ }]
@@ -1190,7 +1185,7 @@
 				{
 					id: "758235727BB06108"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "allthemodium:allthemodium_sword"
 						tag: {
 							Enchantments: [{ }]
@@ -1269,7 +1264,7 @@
 			tasks: [{
 				id: "5F3FEF47C4141704"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 0
@@ -1423,7 +1418,7 @@
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"5D045EF1AB73DF70\"}, \"text\": \"Click here to check out the AllThePower questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "mekanism:creative_energy_cube"
 				tag: {
 					mekData: {
@@ -1456,7 +1451,7 @@
 			tasks: [{
 				id: "3C058B0D358129C8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1563,7 +1558,7 @@
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: ["{atm9.quest.chapter2.desc.resource_generation}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "botania:item/overgrowth_seed"
@@ -1623,7 +1618,7 @@
 			tasks: [{
 				id: "2D7A911DC7E15861"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1687,7 +1682,7 @@
 				{
 					id: "65334074F9662481"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1918,7 +1913,7 @@
 			description: ["{atm9.quest.chapter2.desc.ancient_pyramid}"]
 			hide_dependency_lines: false
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "rechiseled:block/basalt_chiseled_piglin"
@@ -1942,7 +1937,7 @@
 			tasks: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "minecraft:textures/entity_icon/piglin/piglin.png"
@@ -2025,7 +2020,7 @@
 				{
 					id: "77E93511635DA2ED"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "allthemodium:alloy_sword"
 						tag: {
 							Enchantments: [{ }]
@@ -2142,7 +2137,7 @@
 				{
 					id: "3AFD7D64BD115224"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "apotheosis:apoth_chronicle"
@@ -2277,7 +2272,7 @@
 			tasks: [{
 				id: "0DD59333451A797F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "pneumaticcraft:micromissiles"
 					tag: {
 						Damage: 0
@@ -2330,7 +2325,7 @@
 			tasks: [{
 				id: "49F657420099FE3B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "immersiveengineering:hammer"
 					tag: {
 						Damage: 0
@@ -2356,7 +2351,7 @@
 				{
 					id: "3908C778F8451988"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2377,7 +2372,7 @@
 				{
 					id: "36E3BB50691AFC71"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:coal_coke"
@@ -2510,7 +2505,7 @@
 			tasks: [{
 				id: "35A595D6801714C6"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -2544,7 +2539,7 @@
 				{
 					id: "49A0BE7FB49B80DC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersiveengineering:blueprint"
 						tag: {
 							blueprint: "molds"
@@ -2555,7 +2550,7 @@
 				{
 					id: "3692C36BE9007C82"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersiveengineering:blueprint"
 						tag: {
 							blueprint: "components"
@@ -2776,7 +2771,7 @@
 			tasks: [{
 				id: "0D368F78760AB4A4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:jet_suit"
 					tag: {
 						Damage: 0
@@ -2817,7 +2812,7 @@
 				{
 					id: "41BAF5BDC9300E5C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ironfurnaces:million_furnace"
 						tag: {
 							display: {
@@ -2835,7 +2830,7 @@
 				{
 					id: "5E585E35B88D84FD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "exchangers:end_exchanger"
 						tag: {
 							Damage: 0
@@ -2994,7 +2989,7 @@
 			tasks: [{
 				id: "3D3372C05B445DFA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:eternal_stella"
 					tag: { }
 				}
@@ -3107,7 +3102,7 @@
 			]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "cataclysm:void_forge"
 				tag: {
 					Damage: 0
@@ -3133,7 +3128,7 @@
 				{
 					id: "5C9D993FFFC365FB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "cataclysm:infernal_forge"
 						tag: {
 							Damage: 0
@@ -3155,7 +3150,7 @@
 				{
 					id: "76FA4645607619E7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "cataclysm:void_forge"
 						tag: {
 							Damage: 0
@@ -3199,7 +3194,7 @@
 			tasks: [{
 				id: "0B57A9CFEC9E5319"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 0
@@ -3224,6 +3219,3 @@
 	]
 	title: "{atm9.chapters.6.title}"
 }
-
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

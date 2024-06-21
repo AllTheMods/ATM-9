@@ -11,7 +11,7 @@
 		{ item: "allthecompressed:nether_star_block_1x" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:spawner"
 				tag: {
 					BlockEntityTag: {
@@ -50,7 +50,7 @@
 		{ count: 36, item: "powah:reactor_niotic" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "productivebees:spawn_egg_configurable_bee"
 				tag: {
 					EntityTag: {
@@ -65,7 +65,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "productivebees:spawn_egg_configurable_bee"
 				tag: {
 					EntityTag: {
@@ -76,7 +76,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "productivebees:spawn_egg_configurable_bee"
 				tag: {
 					EntityTag: {
@@ -87,7 +87,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "hostilenetworks:data_model"
 				tag: {
 					data_model: {
@@ -99,7 +99,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "hostilenetworks:data_model"
 				tag: {
 					data_model: {

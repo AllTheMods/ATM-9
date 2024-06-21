@@ -6,7 +6,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "reliquary:handgun"
 				tag: {
 					bulletCount: 8s
@@ -19,7 +19,7 @@
 		{ item: "mob_grinding_utils:saw", weight: 3.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "modularrouters:distributor_module"
 				tag: {
 					modularrouters: {
@@ -30,7 +30,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "modularrouters:energy_distributor_module"
 				tag: {
 					modularrouters: {
@@ -42,7 +42,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "modularrouters:puller_module_2"
 				tag: {
 					modularrouters: {
@@ -58,7 +58,7 @@
 		{ item: "mekanism:advanced_tier_installer" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "mekanism:basic_energy_cube"
 				tag: {
 					mekData: {
@@ -74,7 +74,7 @@
 		{ item: "mekanismgenerators:wind_generator", weight: 5.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -87,7 +87,7 @@
 		{ item: "minecraft:netherite_ingot" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:netherite_sight"
@@ -96,7 +96,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:diamond_sight"
@@ -108,7 +108,7 @@
 		{ item: "mob_grinding_utils:rotten_egg", weight: 2.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ironjetpacks:jetpack"
 				tag: {
 					Id: "ironjetpacks:iron"
@@ -121,7 +121,7 @@
 		{ item: "functionalstorage:gold_upgrade", weight: 2.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "enderchests:ender_chest"
 				tag: {
 					code: "000"
@@ -143,7 +143,7 @@
 		{ item: "sophisticatedstorage:void_upgrade", weight: 10.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "sophisticatedstorage:iron_chest"
 				tag: {
 					woodType: "oak"
@@ -166,7 +166,7 @@
 		{ item: "minecraft:emerald_block", weight: 10.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:diamond_sight"
@@ -176,7 +176,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:gold_sight"
@@ -186,7 +186,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:iron_sight"
@@ -196,7 +196,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:redstone_sight"
@@ -223,7 +223,7 @@
 		{ item: "minecraft:ender_eye", random_bonus: 2, weight: 5.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -235,7 +235,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -247,7 +247,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -259,7 +259,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -271,7 +271,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -283,7 +283,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -295,7 +295,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -313,7 +313,7 @@
 		{ item: "botania:mana_pearl", random_bonus: 2, weight: 5.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "twilightforest:giant_sword"
 				tag: {
 					Damage: 0
@@ -322,7 +322,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aquaculture:neptunium_sword"
 				tag: {
 					Damage: 0

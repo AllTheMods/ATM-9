@@ -1,6 +1,3 @@
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
-
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -10,9 +7,6 @@
 	id: "193F91842D2ED7D9"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.3d
 			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
@@ -22,9 +16,6 @@
 			y: 7.437925170068027d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.3d
 			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
@@ -34,9 +25,6 @@
 			y: -3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: [
 				"{atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.1}"
@@ -49,9 +37,6 @@
 			y: 17.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.crimedMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_crimed"
@@ -61,9 +46,6 @@
 			y: 14.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.culinaryMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_culinary"
@@ -73,9 +55,6 @@
 			y: 14.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.deathMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_death"
@@ -85,9 +64,6 @@
 			y: 14.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.disenchantmentMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_disenchantment"
@@ -97,9 +73,6 @@
 			y: 14.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.enderMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_ender"
@@ -109,9 +82,6 @@
 			y: 15.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.explosiveMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_explosive"
@@ -121,9 +91,6 @@
 			y: 16.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.frostyMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_frosty"
@@ -133,9 +100,6 @@
 			y: 17.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.furnaceMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_furnace"
@@ -145,9 +109,6 @@
 			y: 18.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.halitosisMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_halitosis"
@@ -157,9 +118,6 @@
 			y: 19.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.magmaMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_magmatic"
@@ -169,9 +127,6 @@
 			y: 19.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.meatallurgicMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_meatallurgic"
@@ -181,9 +136,6 @@
 			y: 19.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.netherstarMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_netherstar"
@@ -193,9 +145,6 @@
 			y: 19.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.pinkMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_pink"
@@ -205,9 +154,6 @@
 			y: 18.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.potionMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_potion"
@@ -217,9 +163,6 @@
 			y: 17.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.rocketMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_rocket"
@@ -229,9 +172,6 @@
 			y: 16.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.slimeyMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_slimey"
@@ -242,8 +182,6 @@
 		}
 		{
 			click: "#0EC2053B191C55C6"
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.fluidExtractor}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
@@ -254,8 +192,6 @@
 		}
 		{
 			click: "#294C729B9EBD7A3C"
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.blockPlacer}"]
 			image: "industrialforegoing:block/block_placer_back"
@@ -265,9 +201,6 @@
 			y: 2.01207482993199d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.acaciaLogs}"]
 			image: "chipped:block/acacia_log/firewood_acacia_log"
@@ -278,8 +211,6 @@
 		}
 		{
 			click: "#0EC2053B191C55C6"
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.fluidExtractor}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
@@ -290,8 +221,6 @@
 		}
 		{
 			click: "#0EC2053B191C55C6"
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.fluidExtractor}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
@@ -302,8 +231,6 @@
 		}
 		{
 			click: "#6FF04DD735346BED"
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["{atm9.quest.industrialForegoing.latexProcessingUnit}"]
 			image: "industrialforegoing:block/latex_processing_unit_front"
@@ -313,11 +240,7 @@
 			y: 2.9013605442176953d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -325,11 +248,7 @@
 			y: 2.8896258503401455d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 7.0d
-			hover: [ ]
 			image: "atm:textures/questpics/industrialforegoing/mycelial_reactor.png"
 			rotation: 0.0d
 			width: 12.0d
@@ -337,9 +256,6 @@
 			y: 17.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 7.0d
 			hover: [
 				"{atm9.quest.industrialForegoing.hover.witherInStasisFeatures.1}"
@@ -353,11 +269,7 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:block/furnace_front_on"
 			rotation: 0.0d
 			width: 1.0d
@@ -365,11 +277,7 @@
 			y: 2.8896258503401455d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -384,7 +292,7 @@
 		{
 			description: ["{atm9.quest.industrialForegoing.desc.welcome}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "patchouli:guide_book"
 				tag: {
 					"patchouli:book": "industrialforegoing:industrial_foregoing"
@@ -534,7 +442,7 @@
 				count: 2
 				id: "6D991DABAE36FE01"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "mekanism:basic_fluid_tank"
 					tag: {
 						BlockEntityTag: {
@@ -699,7 +607,7 @@
 				{
 					id: "6AD72BC1A1F77913"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mekanism:basic_fluid_tank"
 						tag: {
 							mekData: {
@@ -720,7 +628,7 @@
 				{
 					id: "0D8B60F8BD60B5CB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mekanism:basic_fluid_tank"
 						tag: {
 							mekData: {
@@ -1763,7 +1671,7 @@
 				{
 					id: "6D1A2543E374542A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:infinity_trident"
 						tag: {
 							CanCharge: 1b
@@ -1784,7 +1692,7 @@
 				{
 					id: "798860AC37F98D4E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:infinity_drill"
 						tag: {
 							CanCharge: 1b
@@ -1802,7 +1710,7 @@
 				{
 					id: "75341FD6B58D8988"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:infinity_saw"
 						tag: {
 							CanCharge: 1b
@@ -1820,7 +1728,7 @@
 				{
 					id: "291E22AEBC7FBCE2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:infinity_hammer"
 						tag: {
 							Beheading: 0
@@ -1839,7 +1747,7 @@
 				{
 					id: "1A3351BC0935160A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:infinity_backpack"
 						tag: {
 							CanCharge: 1b
@@ -2064,6 +1972,3 @@
 	]
 	title: "{atm9.chapters.20.title}"
 }
-
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

@@ -1,6 +1,6 @@
 {
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:lootcrate"
 		tag: {
 			type: "common_loot"
@@ -20,7 +20,7 @@
 		{ item: "functionalstorage:storage_controller" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "silentgear:sturdy_repair_kit"
 				tag: {
 					Storage: { }
@@ -31,7 +31,7 @@
 		{ item: "waystones:waystone", weight: 3.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "utilitix:mob_yoinker"
 				tag: {
 					filled: 0b
@@ -43,7 +43,7 @@
 		{ item: "dankstorage:dank_1", weight: 5.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "simplemagnets:advancedmagnet"
 				tag: { }
 			}
@@ -59,7 +59,7 @@
 		{ item: "minecraft:diamond", random_bonus: 2, weight: 3.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "simplemagnets:basicmagnet"
 				tag: { }
 			}
@@ -77,7 +77,7 @@
 		{ item: "productivebees:sturdy_bee_cage", weight: 5.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:iron_sight"
@@ -87,7 +87,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:gold_sight"
@@ -104,7 +104,7 @@
 		{ count: 4, item: "minecraft:torch", random_bonus: 8, weight: 10.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -116,7 +116,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -128,7 +128,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -140,7 +140,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -152,7 +152,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -164,7 +164,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -176,7 +176,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -188,7 +188,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -200,7 +200,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -214,7 +214,7 @@
 		{ item: "minecraft:name_tag", weight: 3.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "alltheores:copper_ore_hammer"
 				tag: {
 					Damage: 0
@@ -225,7 +225,7 @@
 		{ item: "minecraft:saddle", weight: 3.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "constructionwand:iron_wand"
 				tag: {
 					Damage: 0
@@ -242,7 +242,7 @@
 		{ item: "mysticalagriculture:inferium_seeds", weight: 3.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "mysticalagriculture:inferium_sword"
 				tag: {
 					Damage: 0
@@ -251,7 +251,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "mysticalagriculture:inferium_pickaxe"
 				tag: {
 					Damage: 0
@@ -260,7 +260,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "mysticalagriculture:inferium_axe"
 				tag: {
 					Damage: 0
@@ -269,7 +269,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "mysticalagriculture:inferium_shovel"
 				tag: {
 					Damage: 0
@@ -278,7 +278,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "mysticalagriculture:inferium_scythe"
 				tag: {
 					Damage: 0
@@ -302,7 +302,7 @@
 		{ item: "ironfurnaces:gold_furnace", weight: 3.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "alltheores:iron_ore_hammer"
 				tag: {
 					Damage: 0
@@ -316,46 +316,11 @@
 		{ item: "minecraft:beehive", weight: 7.0f }
 		{ item: "productivebees:advanced_oak_beehive", weight: 5.0f }
 		{ item: "ae2:flawless_budding_quartz" }
-		{
-			command: "/sgear_random_gear @p silentgear:hammer 2"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 5.0f
-		}
-		{
-			command: "/sgear_random_gear @p silentgear:hammer 3"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 3.0f
-		}
-		{
-			command: "/sgear_random_gear @p silentgear:pickaxe 2"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 7.0f
-		}
-		{
-			command: "/sgear_random_gear @p silentgear:pickaxe 3"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 5.0f
-		}
-		{
-			command: "/sgear_random_gear @p silentgear:paxel 3"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 3.0f
-		}
 		{ item: "powah:magmator_basic" }
 		{ item: "powah:furnator_basic" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:luck"

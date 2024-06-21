@@ -13,7 +13,7 @@
 		{ item: "twilightforest:charm_of_keeping_1", random_bonus: 2, weight: 25.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "twilightforest:ore_magnet"
 				tag: {
 					Damage: 0
@@ -26,7 +26,7 @@
 		{ item: "twilightforest:cicada", weight: 50.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "twilightforest:ironwood_sword"
 				tag: {
 					Damage: 0
@@ -40,7 +40,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "twilightforest:steeleaf_sword"
 				tag: {
 					Damage: 0
