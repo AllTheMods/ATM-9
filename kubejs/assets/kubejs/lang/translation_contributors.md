@@ -17,6 +17,7 @@ Spanish,
 - radzratz (https://github.com/RadzRatz)
 - 102389 (https://github.com/102389)
 - Arivio (https://github.com/Arivios)
+- Metabodiru (https://github.com/Drox17)
 
 Norwegian (BokMål)
 - Permest (https://github.com/Permest)
