@@ -68,6 +68,7 @@
 	"atm9.quest.welcome.welcome": "&dAll The Mods 9へようこそ！",
 	"atm9.quest.welcome.quests": "クエスト",
 	"atm9.quest.welcome.claims": "チャンクの主張",
+	"atm9.quest.welcome.translations": "All The Translations",
 	
 	"atm9.quest.welcome.desc.team": "友達と一緒にチームを作りたいなら、コマンド &a/ftbteams party create (チーム名)&r を使ってチームを作成してね！",
 	"atm9.quest.welcome.desc.commands": "ATMにはたくさんの便利なコマンドがあるよ。いくつか紹介するね：\\n \\n &e/sethome&r (ホームの名前) | ホームを設定して、/home (名前) でテレポートできるよ。例：/sethome farm - その後 /home farm でテレポート \\n \\n &e/spawn&r | このコマンドでオーバーワールドのスポーン地点にテレポートできるよ。 \\n \\n &e/rtp&r | 'ランダムテレポート' で世界のランダムな場所にテレポートできるよ。 \\n \\n 注意: これらのコマンドにはクールダウンと制限があるよ。変更したい場合は、以下の場所にある設定ファイルを編集してね：\\n \\n - シングルプレイヤーの場合 | &osaves/(セーブ名)/serverconfig/ftbessentials.snbt&r \\n \\n - サーバーの場合 | &oworld/serverconfig/ftbessentials.snbt&r",
@@ -80,6 +81,7 @@
 	"atm9.quest.welcome.desc.claims1": "チャンクエリアを表示するには、&6M&r キーでマップを開いて、左上の &aClaim Map&r アイコンをクリックしてね。",
 	"atm9.quest.welcome.desc.claims2": "チャンクを可視化するには、左クリックしてドラッグしてね。",
 	"atm9.quest.welcome.desc.claims3": "チャンクを強制ロードするには、シフトを押しながら左クリックしてね。うまくいくと、チャンクに線が表示されるよ。",
+	"atm9.quest.welcome.desc.translations":"Our Quests have been translated by the following volunteer translators.",
 
 	"atm9.quest.welcome.img.discord": "Discordに参加しましょう！",
 	

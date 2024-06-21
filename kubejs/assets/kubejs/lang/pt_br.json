@@ -59,11 +59,15 @@
 	"atm9.chapters.46.title": "Blue Skies",
 	"atm9.chapters.47.title": "Cataclysm",
 	"atm9.chapters.48.title": "Twilight Forest",
+
+
     "atm9.quest.welcome.team": "Criando uma equipe",
     "atm9.quest.welcome.commands": "Comandos úteis",
     "atm9.quest.welcome.welcome": "&dBem-vindo a todos os mods 9!",
     "atm9.quest.welcome.quests": "Missões",
     "atm9.quest.welcome.claims": "Reivindicando pedaços",
+    "atm9.quest.welcome.translations": "All The Translations",
+
     "atm9.quest.welcome.desc.team": "Se você deseja criar um time para você e seus amigos, use o comando &a/ftbteams party create (nome do time)&r para criar o time!",
     "atm9.quest.welcome.desc.commands": "Existem muitos comandos úteis no ATM. Aqui estão alguns: \\n \\n &e/sethome&r (nome da casa) | Vamos definir uma casa para a qual você possa se teletransportar de volta usando /home (nome). Exemplo: /sethome farm - então teleporte com /home farm \\n \\n &e/spawn&r | Isso irá teletransportá-lo para a origem do seu mundo superior. \\n \\n &e/rtp&r | 'Random Teleport' irá teletransportá-lo para um local aleatório no mundo. \\n \\n Nota: Esses comandos possuem tempos de espera e limites. Se quiser alterá-los, você pode editar o arquivo de configuração que pode ser encontrado aqui: \\n \\n - Para Singleplayer | &osaves/(nome do save)/serverconfig/ftbessentials.snbt&r \\n \\n - Para servidores | &oworld/serverconfig/ftbessentials.snbt&r",
     "atm9.quest.welcome.desc.welcome1": "ATM9 é um pacote de cozinha que permite explorar o mundo do Minecraft modificado do seu próprio jeito!",
@@ -75,7 +79,10 @@
     "atm9.quest.welcome.desc.claims1": "Para reivindicar pedaços, abra seu mapa usando &6M&r e clique no ícone &aClaim Map&r no canto superior esquerdo.",
     "atm9.quest.welcome.desc.claims2": "Para reivindicar um pedaço, clique com o botão esquerdo e arraste para reivindicar.",
     "atm9.quest.welcome.desc.claims3": "Para forçar o carregamento de um pedaço, clique com o botão esquerdo do mouse no pedaço. Se feito corretamente, você verá linhas no pedaço.",
+	"atm9.quest.welcome.desc.translations":"Our Quests have been translated by the following volunteer translators.",
+
     "atm9.quest.welcome.img.discord": "Junte-se ao Discord!",
+
     "atm9.quest.allthemodium.intro": "Introdução ao Allthemodium!",
     "atm9.quest.allthemodium.atm_ore": "Minério de Allthemodium",
     "atm9.quest.allthemodium.vib_ore": "Minério de Vibranio",
@@ -131,6 +138,7 @@
     "atm9.quest.allthemodium.desc.beyond2": "Semelhante ao mundo superior->Nether, há uma proporção de bloqueio de 1:50 para End->Beyond",
     "atm9.quest.allthemodium.desc.furnace": "O &6Allthemodium Metals&r pode ser usado para fazer fornos extremamente rápidos!",
     "atm9.quest.allthemodium.desc.bees": "Precisa de mais &6ATM Metals&r? Faça algumas abelhas!",
+
     "atm9.quest.bounty.board": "O Quadro de Recompensas",
     "atm9.quest.bounty.zombie": "&l&9Overworld Bounty:&r&e Zumbis",
     "atm9.quest.bounty.skeleton": "&l&9Overworld Bounty:&r&e Skeles",
@@ -162,6 +170,7 @@
     "atm9.quest.bounty.subt.enderman": "Mate 5 Endermen",
     "atm9.quest.bounty.subt.trader": "'Isso é pessoal' - AlfredGG",
     "atm9.quest.bounty.subt.chimera": "Esta nem é minha forma final.",
+
     "atm9.quest.tips.tricks": "Dicas e truques!",
     "atm9.quest.tips.tipped_out": "Sugerido",
     "atm9.quest.tips.mobs": "Prevenindo a geração de mobs",
@@ -177,6 +186,7 @@
     "atm9.quest.tips.spawner": "Apoteose",
     "atm9.quest.tips.mahou": "Mahou Tsukai",
     "atm9.quest.tips.powah": "Geração de RF",
+
     "atm9.quest.tips.desc.tricks": "Nesta página você encontrará alguns itens e informações úteis para ajudá-lo em sua jornada!",
     "atm9.quest.tips.desc.mobs": "Quando colocada, a &9Mega Torch&r evita que todos os mobs hostis surjam naturalmente em um raio de 64 blocos. \\n \\n Ótimo para impedir spawns hostis em partes escuras da sua base",
     "atm9.quest.tips.desc.stick": "Precisa de uma mesa de artesanato portátil? Que tal uma mesa de ferraria portátil? \\n \\n &9Crafting On A Stick&r adiciona versões portáteis de algumas de suas mesas de artesanato favoritas! Este é um item obrigatório no início do jogo.",
@@ -201,6 +211,7 @@
     "atm9.quest.tips.subt.spawner": "Mudanças no Gerador de Apoteose",
     "atm9.quest.tips.subt.mahou": "Mudanças no ATM9 Mahou",
     "atm9.quest.tips.subt.powah": "Poder?? POWAH!",
+
     "atm9.quest.chapter1.welcome": "&eBem-vindo ao capítulo de primeiros passos&r!",
     "atm9.quest.chapter1.crafting": "Colocando o ofício no Minecraft",
     "atm9.quest.chapter1.crafting_stick": "Artesanato, mas no palito",
@@ -264,6 +275,7 @@
     "atm9.quest.chapter1.drawer": "&aArmazenamento funcional&r",
     "atm9.quest.chapter1.backpack": "&aMochilas sofisticadas&r",
     "atm9.quest.chapter1.chest": "&2Armazenamento sofisticado&r",
+
     "atm9.quest.chapter1.desc.welcome": "ATM9 é um pacote &aKitchensink&r, o que significa que você é livre para explorar e jogar o modpack da maneira que quiser! \\n \\n No entanto, há um objetivo final: tornar o &6ATM Star&r! \\n \\n Esta série de missões serve como um guia para todos os jogadores, sejam eles novos no Minecraft ou já tenham jogado pacotes ATM anteriores. Ele também irá guiá-lo na elaboração da Estrela. \\n \\n Assim como quase todos os modpacks, reúna um pouco de madeira para começar!",
     "atm9.quest.chapter1.desc.crafting": "Claro, você poderia criar em seu inventário usando a grade de criação 2x2, mas isso não o levará muito longe. Precisamos atualizar fazendo uma Mesa de Artesanato!",
     "atm9.quest.chapter1.desc.crafting_stick": "Pessoalmente, odeio ter que correr até um quarteirão só para fazer artesanato. É aí que entra o &2Crafting Stick&r! \\n \\n Este item funciona como uma &aMesa de Artesanato Portátil&r! \\n \\n Dica: Você também pode colocar isso no slot &aCurios&r e definir um &bKeybind&r para abri-lo!",
@@ -330,6 +342,7 @@
     "atm9.quest.chapter1.desc.drawer": "&aFunctional Storage&r adiciona &2Drawers&r que podem conter várias pilhas de um item. Eles podem ser atualizados para conter ainda mais pilhas! \\n \\n Isso é ótimo para itens que você ganha muito, como paralelepípedos ou sementes!",
     "atm9.quest.chapter1.desc.backpack": "&aMochilas sofisticadas&r adicione algumas das mochilas mais úteis ao Minecraft! \\n \\n Essas mochilas podem ser atualizadas para níveis mais altos, bem como equipar atualizações específicas para melhorar a mochila em geral!",
     "atm9.quest.chapter1.desc.chest": "&2Sophisticated Storage&r adiciona baús, barris e caixas shulker que podem ser atualizados para níveis mais altos para ainda mais armazenamento. Também permite equipar atualizações para melhorar a funcionalidade! \\n \\n Nota: Depois de conseguir um pouco de Ferro, você poderá atualizar seus baús vanilla diretamente para Ferro em vez de fazer um básico.",
+
     "atm9.quest.chapter1.subt.apotheosis": "Apoteose",
     "atm9.quest.chapter1.subt.sniffer": "Primo distante de Scruff McGruff",
     "atm9.quest.chapter1.subt.star": "Desbloqueando o Capítulo 2",
@@ -426,6 +439,7 @@
     "atm9.quest.chapter2.universe": "&6Mestre do Universo&r",
     "atm9.quest.chapter2.creation": "&6Mestre da Criação&r",
     "atm9.quest.chapter2.ATM_Star": "Estrela &6ATM",
+
     "atm9.quest.chapter2.desc.next": "A jornada para o &6ATM Star&r exige MUITO tempo e materiais, então como você começa? \\n \\n Não existe um caminho para a Estrela, mas todos os caminhos eventualmente levarão você até lá. \\n \\n Para começar, precisaremos dar uma olhada nos três fatores mais importantes em seu jogo: \\n \\n &cPower&r, &aStorage&r e &2Resource Generation&r.",
     "atm9.quest.chapter2.desc.resource_generation": "Se você quiser fazer o &6ATM Star&r, precisará de muitos recursos! \\n \\n Os pacotes ATM oferecem diversas maneiras de gerar toneladas de recursos usando vários mods! Embora alguns deles não sejam necessários para a Estrela em si, esta missão se ramifica para mostrar todas as diferentes maneiras de gerar os recursos necessários!",
     "atm9.quest.chapter2.desc.quarries": "Por que gerar recursos quando você pode simplesmente colher o mundo para eles? \\n \\n Essas &aQuarries&r são algumas das formas mais comumente usadas para extrair grandes porções do mundo para reunir toneladas de recursos, sendo o &dChunk Destroyer&r um dos melhores! \\n \\n Se você planeja usá-los, é melhor usá-los na &aDimensão de Mineração&r!",
@@ -487,7 +501,9 @@
     "atm9.quest.chapter2.desc.create2": "Nota: Você pode alimentar isso com rodas d'água grandes.",
     "atm9.quest.chapter2.desc.reality": "Nota: Para tornar o Módulo de Voo necessário para isso, você precisará primeiro fazer uma &aSyringe&r e então preenchê-la atacando &bGhasts&r com ela.",
     "atm9.quest.chapter2.desc.ATM_Star": "A estrela do caixa eletrônico. A conquista final em ATM9. Parabéns! \\n \\n Com isso, agora você pode criar itens &dCreative&r! Confira o capítulo &dCreative&r Quest para saber mais!",
+
     "atm9.quest.chapter2.atm_star": "Dominar o mundo.",
+
     "atm9.quest.chapter3.welcome": "Definido para a vida",
     "atm9.quest.chapter3.mana": "Mana Infinita",
     "atm9.quest.chapter3.pressure": "Pressão Criativa",
@@ -505,6 +521,7 @@
     "atm9.quest.chapter3.subt.welcome": "O suficiente para fazer tudo no pacote?",
     "atm9.quest.chapter3.subt.greg": "Greg ficaria orgulhoso?",
     "atm9.quest.chapter3.img.star": "O que eu faço com o ATM Star?",
+
     "atm9.quest.affixes.gems": "Equipamento de Apoteose",
     "atm9.quest.affixes.dust": "Pó de gema",
     "atm9.quest.affixes.smith": "Aplicando Gemas (e outras)",
@@ -547,6 +564,7 @@
     "atm9.quest.affixes.subt.rare": "Cru",
     "atm9.quest.affixes.subt.epic": "Épico",
     "atm9.quest.affixes.subt.mythic": "Mítico",
+
     "atm9.quest.tools.tool": "Ferramentas!",
     "atm9.quest.tools.tier1": "&9Colheita Nível 1&r",
     "atm9.quest.tools.tier2": "&fColheita Nível 2&r",
@@ -610,6 +628,7 @@
     "atm9.quest.tools.subt.damage28": "&f28&r &4Dano&r",
     "atm9.quest.tools.subt.damage29": "&f29&r &4Dano&r",
     "atm9.quest.tools.subt.damage47": "&f47&r &4Dano&r",
+
     "atm9.quest.mahou.start": "Mahou Tsukai",
     "atm9.quest.mahou.mana": "Como fazer crescer seu Mahou",
     "atm9.quest.mahou.mortar": "Almofariz e pilão",

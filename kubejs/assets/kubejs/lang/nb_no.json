@@ -67,6 +67,7 @@
 	"atm9.quest.welcome.welcome": "&dVelkommen til All The Mods 9!",
 	"atm9.quest.welcome.quests": "Oppdrag",
 	"atm9.quest.welcome.claims": "Hevde Chunks",
+	"atm9.quest.welcome.translations": "All The Translations",
 	
 	"atm9.quest.welcome.desc.team": "Hvis du vil lage et lag for deg og vennene dine, bruk kommandoen &a/ftbteams party create (navn på team)&r for å lage laget!    ",
 	"atm9.quest.welcome.desc.commands": "Det er mange nyttige kommandoer i ATM. Her er noen: \\n \\n &e/sethome&r (navn på hjemmet) | La oss angi et hjem som du kan teleportere tilbake til ved å bruke /home (navn). Eksempel: /sethome farm - deretter teleporter med /home farm \\n \\n &e/spawn&r | Dette vil teleportere deg til gyten til oververdenen din. \\n \\n &e/rtp&r | 'Random Teleport' vil teleportere deg til et tilfeldig sted i verden. \\n \\n Merk: Disse kommandoene har nedkjøling og begrensninger. Hvis du vil endre dem, kan du redigere konfigurasjonsfilen som finnes her: \\n \\n - For Singleplayer | &osaves/(navn på lagring)/serverconfig/ftbesentials.snbt&r \\n \\n - For servere | &oworld/serverconfig/ftbesentials.snbt&r",
@@ -79,7 +80,8 @@
 	"atm9.quest.welcome.desc.claims1": "For å gjøre krav på Chunks, åpne kartet ditt med &6M&r, og klikk deretter på &aClaim Map&r-ikonet øverst til venstre.",
 	"atm9.quest.welcome.desc.claims2": "For å gjøre krav på en Chunk, venstreklikk og dra for å gjøre krav.",
 	"atm9.quest.welcome.desc.claims3": "For å tvinge inn en chunk, skift-venstre klikk på chunken. Hvis det gjøres riktig, vil du se linjer på tvers av chunken.",
-	
+	"atm9.quest.welcome.desc.translations":"Our Quests have been translated by the following volunteer translators.",
+
 	"atm9.quest.welcome.img.discord": "Bli med på discorden",
 	
 	

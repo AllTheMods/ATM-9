@@ -68,6 +68,7 @@
 	"atm9.quest.welcome.welcome": "&dWelcome to All The Mods 9!",
 	"atm9.quest.welcome.quests": "Quests",
 	"atm9.quest.welcome.claims": "Claiming Chunks",
+	"atm9.quest.welcome.translations": "All The Translations",
 	
 	"atm9.quest.welcome.desc.team": "If you want to create a team for you and your friends, use the command &a/ftbteams party create (name of team)&r to create the team!",
 	"atm9.quest.welcome.desc.commands": "There are plenty of helpful commands within ATM. Here are a few: \\n \\n &e/sethome&r (name of home) | Let's you set a home that you can teleport back to using /home (name). Example: /sethome farm - then teleport with /home farm \\n \\n &e/spawn&r | This will teleport you to the spawn of your overworld. \\n \\n &e/rtp&r | 'Random Teleport' will teleport you to a random location in the world. \\n \\n Note: These commands have cooldowns and limits. If you'd like to change them, you can edit the config file which can be found here: \\n \\n - For Singleplayer | &osaves/(name of save)/serverconfig/ftbessentials.snbt&r \\n \\n - For Servers | &oworld/serverconfig/ftbessentials.snbt&r",
@@ -80,7 +81,8 @@
 	"atm9.quest.welcome.desc.claims1": "To claim chunks, open up your map using &6M&r, then click the &aClaim Map&r icon in the top left.",
 	"atm9.quest.welcome.desc.claims2": "To claim a chunk, left click and drag to claim.",
 	"atm9.quest.welcome.desc.claims3": "To force load a chunk, shift-left click the chunk. If done properly, you'll see lines across the chunk.",
-	
+	"atm9.quest.welcome.desc.translations":"Our Quests have been translated by the following volunteer translators.",
+
 	"atm9.quest.welcome.img.discord": "Join the Discord!",
 	
 	

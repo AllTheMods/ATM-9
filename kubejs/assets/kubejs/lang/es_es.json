@@ -67,6 +67,7 @@
 	"atm9.quest.welcome.welcome": "&dBienvenidx a All The Mods 9!",
 	"atm9.quest.welcome.quests": "Misiones",
 	"atm9.quest.welcome.claims": "Reclamando Chunks",
+	"atm9.quest.welcome.translations": "All The Translations",
 	
 	"atm9.quest.welcome.desc.team": "Si quieres crear un grupo para tí y para tus amigxs, usa el comando &a/ftbteams party create (nombre del grupo)&r para crear un grupo!",
 	"atm9.quest.welcome.desc.commands": "Hay bastantes comandos utiles dentro de ATM. Aqui hay algunos: \\n \\n &e/sethome&r (nombre de tu base) | Te deja poner un punto de teletransporte a tu base /home (nombre de tu base). Ejemplo: /sethome granja - para teletransportarte usa /home granja \\n \\n &e/spawn&r | Este te permite teletransportarte al spawn de tu overworld. \\n \\n &e/rtp&r | 'Random Teleport' Te permite teletransportarte de forma aleatoria en tu mundo. \\n \\n Ten en cuenta: Estos comandos tiene un limite y un tiempo de espera. Si quieres cambiar estos, puedes editarlos en la configuracion: \\n \\n - Para Un Jugador | &osaves/(nombre de tu mundo)/serverconfig/ftbessentials.snbt&r \\n \\n - Para servidores | &oworld/serverconfig/ftbessentials.snbt&r",
@@ -79,7 +80,8 @@
 	"atm9.quest.welcome.desc.claims1": "Para reclamar los chunks, abre tu mapa usando la tecla &6M&r, luego de las click al mapa que dice &aClaim Map&r que esta en esquina superior izquierda.",
 	"atm9.quest.welcome.desc.claims2": "Para reclamar un chunk, presiona y manten click izquierdo y seleciona los chunks que quieres reclamar.",
 	"atm9.quest.welcome.desc.claims3": "Para cargar un chunk, presiona shift-click derecho en el chunk que reclamaste. Si lo hiciste de forma correcta, veras unas lineas en el chunk.",
-	
+	"atm9.quest.welcome.desc.translations":"Our Quests have been translated by the following volunteer translators.",
+
 	"atm9.quest.welcome.img.discord": "Unete al Discord!",
 	
 	

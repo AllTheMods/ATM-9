@@ -166,6 +166,39 @@
 			x: -4.5d
 			y: -0.5d
 		}
+		{
+			description: [
+				"{atm9.quest.welcome.desc.translations}"
+				"&lTranslator List&r (as of pack version v0.2.61)"
+				"&9Spanish&r by &2radzratz&r, &2abel102389&r, &2arivio&r, and &2metabodiru&r."
+				"&9Norwegian&r (Bokmål) by &Permest&r."
+				"&9Portugese&r by &2oruiva&r."
+				"&9Japanese&r by &2fishlife1 (flll)&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ad_astra:textures/environment/earth.png"
+				}
+			}
+			icon_scale: 1.1d
+			id: "70D4EA125CF11137"
+			rewards: [{
+				id: "6935874719DCABBC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.8d
+			tasks: [{
+				id: "083129895DA3B3B4"
+				title: "{atm9.quest.welcome.translations}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
 	]
 	title: "{atm9.chapters.1.title}"
 }
