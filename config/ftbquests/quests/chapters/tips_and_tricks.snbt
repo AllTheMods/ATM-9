@@ -592,6 +592,86 @@
 			x: 5.5d
 			y: 5.0d
 		}
+				{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "21492239FE2B6937"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "6432B335C250C941"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "15DB990611A5962E"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "741CF79592C729C5"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "1955A724EC26AC9E"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "26B2473C746FB5AF"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 4.0d
+		}
 	]
 	title: "{atm9.chapters.4.title}"
 }
