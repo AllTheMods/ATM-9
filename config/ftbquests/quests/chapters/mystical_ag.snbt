@@ -3817,7 +3817,9 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["0F031E62E5235251"]
 			description: ["{atm9.quest.ma.desc.magic}"]
+			hide_dependency_lines: true
 			id: "67C4A4D6DD93DB0E"
 			rewards: [{
 				id: "7A7C6161BBD4BE86"
