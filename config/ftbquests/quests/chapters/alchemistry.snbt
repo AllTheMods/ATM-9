@@ -24,7 +24,7 @@
 		}
 		{
 			height: 2.0d
-			hover: ["Alchemistry"]
+			hover: ["{atm9.quest.alchemistry.hover.alchemistry}"]
 			image: "atm:textures/questpics/alchemistry/alchemistry_logo.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -38,9 +38,9 @@
 		{
 			dependencies: ["611891F4FB775BD3"]
 			description: [
-				"To create your first elements, you're going to want to make a Dissolver. When supplied with FE, the Dissolver will disolve items placed inside into their constituent elements. "
+				"{atm9.quest.alchemistry.desc.firstElements.1}"
 				""
-				"Most elements are farmable with Productive Bees."
+				"{atm9.quest.alchemistry.desc.firstElements.2}"
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"26E6ED94168A05C4\"}, \"text\": \"Click here to checkout the Questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
 			id: "71815B287D0F162A"
@@ -56,7 +56,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Creating Elements"
+			subtitle: "{atm9.quest.alchemistry.subt.creatingElements}"
 			tasks: [{
 				id: "2298898337AC0825"
 				item: "alchemistry:dissolver"
@@ -66,7 +66,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["Alchemistry is a tech mod inspired by the mod MineChem. This mod allows you to decompose items into the elements that make them up, then recombine them to create new items. Start by making the guidebook."]
+			description: ["{atm9.quest.alchemistry.desc.alchemistryTechMod}"]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -81,7 +81,7 @@
 				xp: 10
 			}]
 			size: 1.5d
-			subtitle: "Earth, Fire, Water, Air?"
+			subtitle: "{atm9.quest.alchemistry.subt.earthFireWaterAir}"
 			tasks: [{
 				id: "16669E81DC33327A"
 				item: {
@@ -93,13 +93,13 @@
 				}
 				type: "item"
 			}]
-			title: "Alchemistry Basics"
+			title: "{atm9.quest.alchemistry.alchemistryBasics}"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["It's like Little Alchemy, combine multiple elements, get another."]
+			description: ["{atm9.quest.alchemistry.desc.littleAlchemy}"]
 			hide_dependent_lines: true
 			id: "3AEDE9828B278466"
 			rewards: [{
@@ -107,7 +107,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Combing Elements"
+			subtitle: "{atm9.quest.alchemistry.subt.combingElements}"
 			tasks: [{
 				id: "0BB33DDA43FE1468"
 				item: "alchemistry:combiner"
@@ -118,7 +118,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Chemical to Dust."]
+			description: ["{atm9.quest.alchemistry.desc.chemicalToDust}"]
 			hide_dependent_lines: true
 			id: "0C882F195627F121"
 			rewards: [{
@@ -126,7 +126,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Compacting Elements"
+			subtitle: "{atm9.quest.alchemistry.subt.compactingElements}"
 			tasks: [{
 				id: "75EBDEDB404E5CF7"
 				item: "alchemistry:compactor"
@@ -144,7 +144,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Liquids to Solids"
+			subtitle: "{atm9.quest.alchemistry.subt.liquidsToSolids}"
 			tasks: [{
 				id: "7C06D2ECF1F3B470"
 				item: "alchemistry:atomizer"
@@ -162,7 +162,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Solids to Liquids"
+			subtitle: "{atm9.quest.alchemistry.subt.solidsToLiquids}"
 			tasks: [{
 				id: "1100B607C6CC157F"
 				item: "alchemistry:liquifier"
@@ -174,9 +174,9 @@
 		{
 			dependencies: ["1509AAC1A46BDC2C"]
 			description: [
-				"Use the guidebook to help you build this (press on the eye). Glass isn't required, but is recommended."
+				"{atm9.quest.alchemistry.desc.fusionReactor.1}"
 				""
-				"The Fusion Reactor is a multiblock structure used to divide an element into 2 new elements from the atomic numbers of the element put in. For example, if you put in Bismuth (83), you'll get Molybdenum (42) and Niobium (41). Requires FE to run."
+				"{atm9.quest.alchemistry.desc.fusionReactor.2}"
 				""
 				""
 				"{image:atm:textures/questpics/alchemistry/fission_controller_1.png width:175 height:135 align:1}"
@@ -205,7 +205,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Dividing"
+			subtitle: "{atm9.quest.alchemistry.subt.dividing}"
 			tasks: [
 				{
 					count: 59L
@@ -246,16 +246,16 @@
 					type: "item"
 				}
 			]
-			title: "Fission Reactor"
+			title: "{atm9.quest.alchemistry.fissionReactor}"
 			x: 7.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5121FA28244BE1A2"]
 			description: [
-				"Use the guidebook to help you build this (press on the eye). Glass isn't required, but is recommended."
+				"{atm9.quest.alchemistry.desc.fissionReactor.1}"
 				""
-				"The Fusion Reactor is a multiblock structure used to combine 2 elements together to create a new element from the atomic numbers of the elements put in. For example, if you put Molybdenum (42) \\& Niobium (41), you'll get Bismuth (83). Requires FE to run."
+				"{atm9.quest.alchemistry.desc.fissionReactor.2}"
 				""
 				""
 				"{image:atm:textures/questpics/alchemistry/fusion_controller_1.png width:175 height:135 align:1}"
@@ -284,7 +284,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Adding"
+			subtitle: "{atm9.quest.alchemistry.subt.adding}"
 			tasks: [
 				{
 					count: 59L
@@ -325,16 +325,16 @@
 					type: "item"
 				}
 			]
-			title: "Fusion Reactor"
+			title: "{atm9.quest.alchemistry.fusionReactor}"
 			x: 7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3DFA36ECFEE6003F"]
 			description: [
-				"Make the Fusion Reactor first..."
+				"{atm9.quest.alchemistry.desc.fusionReactorFirst.1}"
 				""
-				"Dissolve Stone"
+				"{atm9.quest.alchemistry.desc.fusionReactorFirst.2}"
 			]
 			id: "36A2B8D517A57AD4"
 			rewards: [
@@ -350,7 +350,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "To the Fission Reactor!"
+			subtitle: "{atm9.quest.alchemistry.subt.toTheFissionReactor}"
 			tasks: [{
 				id: "7752162470D8817A"
 				item: "chemlib:zirconium"
@@ -364,7 +364,7 @@
 				"0C882F195627F121"
 				"36A2B8D517A57AD4"
 			]
-			description: ["Compact Zirconium."]
+			description: ["{atm9.quest.alchemistry.desc.compactZirconium}"]
 			id: "397A33E37610B03E"
 			rewards: [{
 				id: "75AAF2AE058C4FC1"
@@ -381,7 +381,7 @@
 		}
 		{
 			dependencies: ["397A33E37610B03E"]
-			description: ["Smelt Zirconium Dust."]
+			description: ["{atm9.quest.alchemistry.desc.smeltZirconiumDust}"]
 			id: "1509AAC1A46BDC2C"
 			rewards: [{
 				id: "24567AD93D7BF40B"
@@ -398,7 +398,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["There's Hydrogen and..."]
+			description: ["{atm9.quest.alchemistry.desc.hydrogenAnd}"]
 			hide_dependency_lines: true
 			id: "32B961A93D6CDFDF"
 			rewards: [{
@@ -406,7 +406,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "H (1)"
+			subtitle: "{atm9.quest.alchemistry.subt.hydrogen}"
 			tasks: [{
 				id: "721261EF8343AE88"
 				item: "chemlib:hydrogen"
@@ -424,7 +424,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Be (4)"
+			subtitle: "{atm9.quest.alchemistry.subt.beryllium}"
 			tasks: [{
 				id: "557947913EF0F0F6"
 				item: "chemlib:beryllium"
@@ -435,7 +435,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["For Salty Times."]
+			description: ["{atm9.quest.alchemistry.desc.saltyTimes}"]
 			hide_dependency_lines: true
 			id: "5F3609E1DBEAA148"
 			rewards: [{
@@ -443,7 +443,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Na (11)"
+			subtitle: "{atm9.quest.alchemistry.subt.sodium}"
 			tasks: [{
 				id: "2AEC8690D75EEAAB"
 				item: "chemlib:sodium"
@@ -461,7 +461,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Mg (12)"
+			subtitle: "{atm9.quest.alchemistry.subt.magnesium}"
 			tasks: [{
 				id: "00DAFD219614B061"
 				item: "chemlib:magnesium"
@@ -476,9 +476,9 @@
 				"66629CEE67F85A25"
 			]
 			description: [
-				"Both Reactors need Reactor Casings, Reactor Glass is highly recommended. "
+				"{atm9.quest.alchemistry.desc.reactorCasings.1}"
 				""
-				" You'll need a lot of Platinum."
+				"{atm9.quest.alchemistry.desc.reactorCasings.2}"
 			]
 			icon: "alchemistry:reactor_casing"
 			id: "3DFA36ECFEE6003F"
@@ -513,13 +513,13 @@
 					type: "item"
 				}
 			]
-			title: "Building Reactors"
+			title: "{atm9.quest.alchemistry.buildingReactors}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Bananas should be able to dissolve into potassium..."]
+			description: ["{atm9.quest.alchemistry.desc.bananasDissolve}"]
 			hide_dependency_lines: true
 			id: "421B67F06A6975A0"
 			rewards: [{
@@ -527,7 +527,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "K (19)"
+			subtitle: "{atm9.quest.alchemistry.subt.potassium}"
 			tasks: [{
 				id: "503777CE89A61F0B"
 				item: "chemlib:potassium"
@@ -538,7 +538,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["So you'll grow stong!"]
+			description: ["{atm9.quest.alchemistry.desc.growStrong}"]
 			hide_dependency_lines: true
 			id: "7D608E7ECA271757"
 			rewards: [{
@@ -546,7 +546,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ca (20)"
+			subtitle: "{atm9.quest.alchemistry.subt.calcium}"
 			tasks: [{
 				id: "77D0DA0648434AAB"
 				item: "chemlib:calcium"
@@ -564,7 +564,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Sc (21)"
+			subtitle: "{atm9.quest.alchemistry.subt.scandium}"
 			tasks: [{
 				id: "0109E18AFE20E108"
 				item: "chemlib:scandium"
@@ -582,7 +582,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ti (22)"
+			subtitle: "{atm9.quest.alchemistry.subt.titanium}"
 			tasks: [{
 				id: "17EAE4C83ED653D7"
 				item: "chemlib:titanium"
@@ -600,7 +600,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Li (3)"
+			subtitle: "{atm9.quest.alchemistry.subt.lithium}"
 			tasks: [{
 				id: "00E0D68B79CD8D5E"
 				item: "chemlib:lithium"
@@ -611,7 +611,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["I recommend atomizing water and dissolving that to get oxygen (you'll need a bit to get started)."]
+			description: ["{atm9.quest.alchemistry.desc.atomizingWater}"]
 			id: "066827B2F96192F0"
 			rewards: [
 				{
@@ -626,7 +626,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Oxidizing Elements"
+			subtitle: "{atm9.quest.alchemistry.subt.oxidizingElements}"
 			tasks: [{
 				id: "030FC5CB53537A68"
 				item: "chemlib:oxygen"
@@ -641,7 +641,7 @@
 				"6657CE5CDFC47BB4"
 				"066827B2F96192F0"
 			]
-			description: ["Combine 1 Oxygen and 1 Lead."]
+			description: ["{atm9.quest.alchemistry.desc.combineOxygenLead}"]
 			hide_dependency_lines: false
 			id: "42B681C59981532C"
 			rewards: [{
@@ -650,7 +650,7 @@
 				table_id: 6257329497410426516L
 				type: "loot"
 			}]
-			subtitle: "Needed for Reactor Glass "
+			subtitle: "{atm9.quest.alchemistry.subt.reactorGlass}"
 			tasks: [{
 				id: "4B21D69D737379A5"
 				item: "chemlib:lead_oxide"
@@ -661,7 +661,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Dissolve Lead."]
+			description: ["{atm9.quest.alchemistry.desc.dissolveLead}"]
 			hide_dependency_lines: true
 			id: "6657CE5CDFC47BB4"
 			rewards: [{
@@ -683,7 +683,7 @@
 				"3AEDE9828B278466"
 				"02BB0C4DBB426D9D"
 			]
-			description: ["Combine 2 Oxygen and 1 Silicon."]
+			description: ["{atm9.quest.alchemistry.desc.combineOxygenSilicon}"]
 			id: "66629CEE67F85A25"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -691,7 +691,7 @@
 				table_id: 6257329497410426516L
 				type: "random"
 			}]
-			subtitle: "Needed for Reactor Glass "
+			subtitle: "{atm9.quest.alchemistry.subt.reactorGlass}"
 			tasks: [{
 				id: "4EC72D44ED9B98E4"
 				item: "chemlib:silicon_dioxide"
@@ -702,7 +702,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["You would think you would be able to get this by dissolving silicon... I recommend dissolving ender pearls."]
+			description: ["{atm9.quest.alchemistry.desc.dissolveSilicon}"]
 			hide_dependency_lines: true
 			id: "02BB0C4DBB426D9D"
 			rewards: [{
@@ -720,7 +720,7 @@
 		}
 		{
 			dependencies: ["3DFA36ECFEE6003F"]
-			description: ["Dissolve Potatoes. Should be able to dissolve bananas..."]
+			description: ["{atm9.quest.alchemistry.desc.dissolvePotatoes}"]
 			id: "390CF74633F52E0B"
 			rewards: [
 				{
@@ -735,7 +735,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "To the Fusion Reactor!"
+			subtitle: "{atm9.quest.alchemistry.subt.toTheFusionReactor}"
 			tasks: [{
 				id: "671C04341B107871"
 				item: "chemlib:potassium"
@@ -749,7 +749,7 @@
 				"390CF74633F52E0B"
 				"0C882F195627F121"
 			]
-			description: ["Compact Potassium."]
+			description: ["{atm9.quest.alchemistry.desc.compactPotassium}"]
 			icon: "chemlib:potassium_dust"
 			id: "107AC5D16A8821D6"
 			rewards: [{
@@ -762,13 +762,13 @@
 				item: "chemlib:potassium_dust"
 				type: "item"
 			}]
-			title: "Potassium Dust"
+			title: "{atm9.quest.alchemistry.potassiumDust}"
 			x: 5.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["107AC5D16A8821D6"]
-			description: ["Smelt Potassium Dust."]
+			description: ["{atm9.quest.alchemistry.desc.smeltPotassiumDust}"]
 			id: "5121FA28244BE1A2"
 			rewards: [{
 				id: "3A5D328882CAFB8E"
@@ -792,7 +792,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "V (23)"
+			subtitle: "{atm9.quest.alchemistry.subt.vanadium}"
 			tasks: [{
 				id: "3CC5FDBBF173999D"
 				item: "chemlib:vanadium"
@@ -810,7 +810,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Cr (24)"
+			subtitle: "{atm9.quest.alchemistry.subt.chromium}"
 			tasks: [{
 				id: "6699787BF6AD1B3E"
 				item: "chemlib:chromium"
@@ -828,7 +828,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Y (39)"
+			subtitle: "{atm9.quest.alchemistry.subt.yttrium}"
 			tasks: [{
 				id: "64C736615E19F0E4"
 				item: "chemlib:yttrium"
@@ -846,7 +846,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Zr (40)"
+			subtitle: "{atm9.quest.alchemistry.subt.zirconium}"
 			tasks: [{
 				id: "75BFB87E21C4A3FF"
 				item: "chemlib:zirconium"
@@ -857,7 +857,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["This is the periodic table!"]
+			description: ["{atm9.quest.alchemistry.desc.periodicTable}"]
 			hide_dependency_lines: true
 			id: "0E1636BD6F19FF71"
 			rewards: [{
@@ -865,7 +865,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Mn (25)"
+			subtitle: "{atm9.quest.alchemistry.subt.manganese}"
 			tasks: [{
 				id: "7D3ECFB0BD73FE0A"
 				item: "chemlib:manganese"
@@ -883,7 +883,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Fe (26)"
+			subtitle: "{atm9.quest.alchemistry.subt.iron}"
 			tasks: [{
 				id: "4B1C7F68DB3BC087"
 				item: "chemlib:iron"
@@ -901,7 +901,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Co (27)"
+			subtitle: "{atm9.quest.alchemistry.subt.cobalt}"
 			tasks: [{
 				id: "40DFFC7A860FE7D5"
 				item: "chemlib:cobalt"
@@ -919,7 +919,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ni (28)"
+			subtitle: "{atm9.quest.alchemistry.subt.nickel}"
 			tasks: [{
 				id: "19A603C22C5399FB"
 				item: "chemlib:nickel"
@@ -937,7 +937,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Cu (29)"
+			subtitle: "{atm9.quest.alchemistry.subt.copper}"
 			tasks: [{
 				id: "3B2D7526B8902404"
 				item: "chemlib:copper"
@@ -955,7 +955,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Zn (30)"
+			subtitle: "{atm9.quest.alchemistry.subt.zinc}"
 			tasks: [{
 				id: "3C28C13240703E3E"
 				item: "chemlib:zinc"
@@ -973,7 +973,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ga (31)"
+			subtitle: "{atm9.quest.alchemistry.subt.gallium}"
 			tasks: [{
 				id: "38E6A365D614B2F3"
 				item: "chemlib:gallium"
@@ -991,7 +991,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ge (32)"
+			subtitle: "{atm9.quest.alchemistry.subt.germanium}"
 			tasks: [{
 				id: "6CDE26D6BA301EA2"
 				item: "chemlib:germanium"
@@ -1009,7 +1009,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "As (33)"
+			subtitle: "{atm9.quest.alchemistry.subt.arsenic}"
 			tasks: [{
 				id: "4B08F5DB6BB819C6"
 				item: "chemlib:arsenic"
@@ -1027,7 +1027,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Rb (37)"
+			subtitle: "{atm9.quest.alchemistry.subt.rubidium}"
 			tasks: [{
 				id: "42595FC4C29E66ED"
 				item: "chemlib:rubidium"
@@ -1045,7 +1045,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Sr (38)"
+			subtitle: "{atm9.quest.alchemistry.subt.strontium}"
 			tasks: [{
 				id: "01C5C2097D0429A3"
 				item: "chemlib:strontium"
@@ -1063,7 +1063,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Se (34)"
+			subtitle: "{atm9.quest.alchemistry.subt.selenium}"
 			tasks: [{
 				id: "2CF68DEAC6197D5E"
 				item: "chemlib:selenium"
@@ -1081,7 +1081,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Br (35)"
+			subtitle: "{atm9.quest.alchemistry.subt.bromine}"
 			tasks: [{
 				id: "3ABC806C11416AF9"
 				item: "chemlib:bromine"
@@ -1103,7 +1103,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Kr (36)"
+			subtitle: "{atm9.quest.alchemistry.subt.krypton}"
 			tasks: [{
 				id: "3B73BA2272F3C8D5"
 				item: "chemlib:krypton"
@@ -1121,7 +1121,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Al (13)"
+			subtitle: "{atm9.quest.alchemistry.subt.aluminum}"
 			tasks: [{
 				id: "1D0905AB44D71721"
 				item: "chemlib:aluminum"
@@ -1139,7 +1139,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Si (14)"
+			subtitle: "{atm9.quest.alchemistry.subt.silicon}"
 			tasks: [{
 				id: "52F4AB10A3D905F6"
 				item: "chemlib:silicon"
@@ -1157,7 +1157,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "P (15)"
+			subtitle: "{atm9.quest.alchemistry.subt.phosphorus}"
 			tasks: [{
 				id: "56032D4791F00C7F"
 				item: "chemlib:phosphorus"
@@ -1175,7 +1175,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "S (16)"
+			subtitle: "{atm9.quest.alchemistry.subt.sulfur}"
 			tasks: [{
 				id: "469BD87CC8728E64"
 				item: "chemlib:sulfur"
@@ -1193,7 +1193,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Cl (17)"
+			subtitle: "{atm9.quest.alchemistry.subt.chlorine}"
 			tasks: [{
 				id: "70CDB2A4A4C048BA"
 				item: "chemlib:chlorine"
@@ -1215,7 +1215,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ar (18)"
+			subtitle: "{atm9.quest.alchemistry.subt.argon}"
 			tasks: [{
 				id: "56403CAC6622BE02"
 				item: "chemlib:argon"
@@ -1235,7 +1235,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "B (5)"
+			subtitle: "{atm9.quest.alchemistry.subt.boron}"
 			tasks: [{
 				id: "0D1B440DDED8B855"
 				item: "chemlib:boron"
@@ -1253,7 +1253,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "C (6)"
+			subtitle: "{atm9.quest.alchemistry.subt.carbon}"
 			tasks: [{
 				id: "5ABA485C9317E1BE"
 				item: "chemlib:carbon"
@@ -1271,7 +1271,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "N (7)"
+			subtitle: "{atm9.quest.alchemistry.subt.nitrogen}"
 			tasks: [{
 				id: "6B236FD3DA7E3858"
 				item: "chemlib:nitrogen"
@@ -1289,7 +1289,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "O (8)"
+			subtitle: "{atm9.quest.alchemistry.subt.oxygen}"
 			tasks: [{
 				id: "74DB2A6229DAAC32"
 				item: "chemlib:oxygen"
@@ -1307,7 +1307,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "F (9)"
+			subtitle: "{atm9.quest.alchemistry.subt.fluorine}"
 			tasks: [{
 				id: "41670E74CAFAFFCD"
 				item: "chemlib:fluorine"
@@ -1329,7 +1329,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ne (10)"
+			subtitle: "{atm9.quest.alchemistry.subt.neon}"
 			tasks: [{
 				id: "06CEDFB74A5969F6"
 				item: "chemlib:neon"
@@ -1347,7 +1347,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "He (2)"
+			subtitle: "{atm9.quest.alchemistry.subt.helium}"
 			tasks: [{
 				id: "6087278E005DE365"
 				item: "chemlib:helium"
@@ -1359,9 +1359,9 @@
 		{
 			dependencies: ["71815B287D0F162A"]
 			description: [
-				"Should be obtainable with Graphite essence..."
+				"{atm9.quest.alchemistry.desc.graphiteEssence.1}"
 				""
-				"Dissolve Coal or compact Carbon"
+				"{atm9.quest.alchemistry.desc.graphiteEssence.2}"
 			]
 			hide_dependency_lines: true
 			id: "1154F68732C0022F"
@@ -1378,14 +1378,14 @@
 					xp: 10
 				}
 			]
-			subtitle: "Coal"
+			subtitle: "{atm9.quest.alchemistry.subt.coal}"
 			tasks: [{
 				count: 8L
 				id: "1C188B14CC0F0C57"
 				item: "chemlib:graphite"
 				type: "item"
 			}]
-			title: "Graphite"
+			title: "{atm9.quest.alchemistry.graphite}"
 			x: 12.0d
 			y: -3.0d
 		}
@@ -1394,7 +1394,7 @@
 				"1154F68732C0022F"
 				"0C882F195627F121"
 			]
-			description: ["Compact 8 graphite to make Graphite Dust."]
+			description: ["{atm9.quest.alchemistry.desc.graphiteDust}"]
 			id: "3B7E8D0231C9B3B6"
 			rewards: [
 				{
@@ -1409,32 +1409,32 @@
 					xp: 10
 				}
 			]
-			subtitle: "To"
+			subtitle: "{atm9.quest.alchemistry.subt.to}"
 			tasks: [{
 				id: "3C4452F30B048B44"
 				item: "gtceu:graphite_dust"
 				type: "item"
 			}]
-			title: "Graphite Dust"
+			title: "{atm9.quest.alchemistry.graphiteDust}"
 			x: 13.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3B7E8D0231C9B3B6"]
-			description: ["Compact 16 Graphite dust for Diamonds!"]
+			description: ["{atm9.quest.alchemistry.desc.diamonds}"]
 			id: "037945544F12292B"
 			rewards: [{
 				id: "2D6397138D0DBB25"
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Diamonds"
+			subtitle: "{atm9.quest.alchemistry.subt.diamonds}"
 			tasks: [{
 				id: "0542DE1F162E709C"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			title: "Diamonds!"
+			title: "{atm9.quest.alchemistry.diamonds}"
 			x: 15.0d
 			y: -3.0d
 		}
@@ -1447,7 +1447,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Nb (41)"
+			subtitle: "{atm9.quest.alchemistry.subt.niobium}"
 			tasks: [{
 				id: "5577BB7FA064BCAB"
 				item: "chemlib:niobium"
@@ -1465,7 +1465,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Mo (42)"
+			subtitle: "{atm9.quest.alchemistry.subt.molybdenum}"
 			tasks: [{
 				id: "6E3A6037D2DC438A"
 				item: "chemlib:molybdenum"
@@ -1483,7 +1483,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Tc (43)"
+			subtitle: "{atm9.quest.alchemistry.subt.technetium}"
 			tasks: [{
 				id: "7BA75482694C0B5F"
 				item: "chemlib:technetium"
@@ -1501,7 +1501,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ru (44)"
+			subtitle: "{atm9.quest.alchemistry.subt.ruthenium}"
 			tasks: [{
 				id: "7EFBAB507E26408C"
 				item: "chemlib:ruthenium"
@@ -1519,7 +1519,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Rh (45)"
+			subtitle: "{atm9.quest.alchemistry.subt.rhodium}"
 			tasks: [{
 				id: "374311827B08F051"
 				item: "chemlib:rhodium"
@@ -1538,7 +1538,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Pd (46)"
+			subtitle: "{atm9.quest.alchemistry.subt.palladium}"
 			tasks: [{
 				id: "054D417B6675D85E"
 				item: "chemlib:palladium"
@@ -1555,7 +1555,7 @@
 				"714A43E7C2468C74"
 				"3AEDE9828B278466"
 			]
-			description: ["This mod can also be used to automate nether stars. Combine 64 Titanium, 64 Mendelevium, 64 Dysprosium and 64 Lutetium in a Combiner to make a Nether Star."]
+			description: ["{atm9.quest.alchemistry.desc.netherStars}"]
 			id: "04017B926E892C90"
 			rewards: [
 				{
@@ -1570,19 +1570,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "Not the ATM Star :("
+			subtitle: "{atm9.quest.alchemistry.subt.notTheATMStar}"
 			tasks: [{
 				id: "6A0FA092FAD03B08"
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			title: "Nether Stars"
+			title: "{atm9.quest.alchemistry.netherStars}"
 			x: 13.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Dissolve Stone."]
+			description: ["{atm9.quest.alchemistry.desc.dissolveStone}"]
 			hide_dependency_lines: true
 			id: "686D998697278004"
 			rewards: [{
@@ -1590,7 +1590,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Used to make Nether Stars"
+			subtitle: "{atm9.quest.alchemistry.subt.usedToMakeNetherStars.1}"
 			tasks: [{
 				count: 64L
 				id: "774ED308B068D0B2"
@@ -1602,7 +1602,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Dissolve Chorus Fruit."]
+			description: ["{atm9.quest.alchemistry.desc.dissolveChorusFruit}"]
 			hide_dependency_lines: true
 			id: "6518DDD43E8D7F59"
 			rewards: [{
@@ -1610,7 +1610,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Used to make Nether Stars"
+			subtitle: "{atm9.quest.alchemistry.subt.usedToMakeNetherStars.2}"
 			tasks: [{
 				count: 64L
 				id: "086F3317E603E4DB"
@@ -1622,7 +1622,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Dissolve Basalt, then dissolve Titanium Oxide."]
+			description: ["{atm9.quest.alchemistry.desc.dissolveBasalt}"]
 			hide_dependency_lines: true
 			id: "714A43E7C2468C74"
 			rewards: [{
@@ -1630,7 +1630,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Used to make Nether Stars"
+			subtitle: "{atm9.quest.alchemistry.subt.usedToMakeNetherStars.3}"
 			tasks: [{
 				count: 64L
 				id: "5F5177384C91A83A"
@@ -1642,7 +1642,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Dissolve Wither Skeleton Skulls."]
+			description: ["{atm9.quest.alchemistry.desc.dissolveWitherSkeletonSkulls}"]
 			hide_dependency_lines: true
 			id: "408E92AFAC761478"
 			rewards: [{
@@ -1650,7 +1650,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Used to make Nether Stars"
+			subtitle: "{atm9.quest.alchemistry.subt.usedToMakeNetherStars.4}"
 			tasks: [{
 				count: 64L
 				id: "20C233EDB2490C7A"
@@ -1665,7 +1665,7 @@
 				"1869C4BA9F857712"
 				"0C882F195627F121"
 			]
-			description: ["The elements for metals in ATO can be turned into dust."]
+			description: ["{atm9.quest.alchemistry.desc.atoElementDusts}"]
 			icon: "alltheores:iron_dust"
 			id: "27DDC30B6B1CF5C7"
 			rewards: [{
@@ -1735,16 +1735,16 @@
 						]
 					}
 				}
-				title: "ATO Element Dusts"
+				title: "{atm9.quest.alchemistry.atoElementDusts}"
 				type: "item"
 			}]
-			title: "Metal Dust"
+			title: "{atm9.quest.alchemistry.metalDust}"
 			x: 13.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Some elements are also ingots in ATO."]
+			description: ["{atm9.quest.alchemistry.desc.atoElementIngots}"]
 			hide_dependency_lines: true
 			icon: "chemlib:iron"
 			id: "1869C4BA9F857712"
@@ -1815,16 +1815,16 @@
 						]
 					}
 				}
-				title: "ATO Elements"
+				title: "{atm9.quest.alchemistry.atoElements}"
 				type: "item"
 			}]
-			title: "Metal Element"
+			title: "{atm9.quest.alchemistry.metalElement}"
 			x: 12.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["27DDC30B6B1CF5C7"]
-			description: ["The dust can then be smelted into ingots."]
+			description: ["{atm9.quest.alchemistry.desc.smeltIntoIngots}"]
 			icon: "minecraft:iron_ingot"
 			id: "74D09BDB5E6CC13C"
 			rewards: [{
@@ -1894,10 +1894,10 @@
 						]
 					}
 				}
-				title: "ATO Element Ingots"
+				title: "{atm9.quest.alchemistry.atoElementIngots}"
 				type: "item"
 			}]
-			title: "Metal Ingot"
+			title: "{atm9.quest.alchemistry.metalIngot}"
 			x: 15.0d
 			y: 3.0d
 		}
@@ -1910,7 +1910,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ag (47)"
+			subtitle: "{atm9.quest.alchemistry.subt.silver}"
 			tasks: [{
 				id: "2AF8E4C62223AC82"
 				item: "chemlib:silver"
@@ -1928,7 +1928,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Cd (48)"
+			subtitle: "{atm9.quest.alchemistry.subt.cadmium}"
 			tasks: [{
 				id: "77F924D7DA376268"
 				item: "chemlib:cadmium"
@@ -1946,7 +1946,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "In (49)"
+			subtitle: "{atm9.quest.alchemistry.subt.indium}"
 			tasks: [{
 				id: "17FEC6B4D67CBF1C"
 				item: "chemlib:indium"
@@ -1964,7 +1964,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Sn (50)"
+			subtitle: "{atm9.quest.alchemistry.subt.tin}"
 			tasks: [{
 				id: "4CB49337F9271E35"
 				item: "chemlib:tin"
@@ -1982,7 +1982,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Sb (51)"
+			subtitle: "{atm9.quest.alchemistry.subt.antimony}"
 			tasks: [{
 				id: "05C7F2D570D49A7C"
 				item: "chemlib:antimony"
@@ -2004,7 +2004,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Te (52)"
+			subtitle: "{atm9.quest.alchemistry.subt.tellurium}"
 			tasks: [{
 				id: "0DEB5075C1B2DF61"
 				item: "chemlib:tellurium"
@@ -2039,7 +2039,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Xe (54)"
+			subtitle: "{atm9.quest.alchemistry.subt.xenon}"
 			tasks: [{
 				id: "261750FC677A126F"
 				item: "chemlib:xenon"
@@ -2057,7 +2057,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ba (56)"
+			subtitle: "{atm9.quest.alchemistry.subt.barium}"
 			tasks: [{
 				id: "7E1C8868C003F0EB"
 				item: "chemlib:barium"
@@ -2075,7 +2075,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "La (57)"
+			subtitle: "{atm9.quest.alchemistry.subt.lanthanum}"
 			tasks: [{
 				id: "11157B2FE2308D9C"
 				item: "chemlib:lanthanum"
@@ -2097,7 +2097,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Cs (55)"
+			subtitle: "{atm9.quest.alchemistry.subt.cesium}"
 			tasks: [{
 				id: "2C7C0457F7F4BF7F"
 				item: "chemlib:cesium"
@@ -2115,7 +2115,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Hf (72)"
+			subtitle: "{atm9.quest.alchemistry.subt.hafnium}"
 			tasks: [{
 				id: "06FF674346FF905D"
 				item: "chemlib:hafnium"
@@ -2133,7 +2133,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ta (73)"
+			subtitle: "{atm9.quest.alchemistry.subt.tantalum}"
 			tasks: [{
 				id: "01501CAAD7393833"
 				item: "chemlib:tantalum"
@@ -2151,7 +2151,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "W (74)"
+			subtitle: "{atm9.quest.alchemistry.subt.tungsten}"
 			tasks: [{
 				id: "25D765D8EAF040F8"
 				item: "chemlib:tungsten"
@@ -2169,7 +2169,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Re (75)"
+			subtitle: "{atm9.quest.alchemistry.subt.rhenium}"
 			tasks: [{
 				id: "4F9C34843447CDD0"
 				item: "chemlib:rhenium"
@@ -2187,7 +2187,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Os (76)"
+			subtitle: "{atm9.quest.alchemistry.subt.osmium}"
 			tasks: [{
 				id: "0923FBB15F4189F6"
 				item: "chemlib:osmium"
@@ -2205,7 +2205,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ir (77)"
+			subtitle: "{atm9.quest.alchemistry.subt.iridium}"
 			tasks: [{
 				id: "51AF7FBFB0FD9791"
 				item: "chemlib:iridium"
@@ -2223,7 +2223,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Pt (78)"
+			subtitle: "{atm9.quest.alchemistry.subt.platinum}"
 			tasks: [{
 				id: "7A5FE9F3F09F7C04"
 				item: "chemlib:platinum"
@@ -2241,7 +2241,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Au (79)"
+			subtitle: "{atm9.quest.alchemistry.subt.gold}"
 			tasks: [{
 				id: "0718F9A920FAF6D0"
 				item: "chemlib:gold"
@@ -2259,7 +2259,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Hg (80)"
+			subtitle: "{atm9.quest.alchemistry.subt.mercury}"
 			tasks: [{
 				id: "5D2AE754F356168A"
 				item: "chemlib:mercury"
@@ -2277,7 +2277,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Tl (81)_"
+			subtitle: "{atm9.quest.alchemistry.subt.thallium}"
 			tasks: [{
 				id: "16C45C3F873DF66E"
 				item: "chemlib:thallium"
@@ -2295,7 +2295,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Pb (82)"
+			subtitle: "{atm9.quest.alchemistry.subt.lead}"
 			tasks: [{
 				id: "437105FD2A516742"
 				item: "chemlib:lead"
@@ -2306,7 +2306,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Now we're talking Bismuth!"]
+			description: ["{atm9.quest.alchemistry.desc.bismuth}"]
 			hide_dependency_lines: true
 			id: "52050942552AF567"
 			rewards: [{
@@ -2314,7 +2314,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Bi (83)"
+			subtitle: "{atm9.quest.alchemistry.subt.bismuth}"
 			tasks: [{
 				id: "42DCCCC1A47621E3"
 				item: "chemlib:bismuth"
@@ -2332,7 +2332,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Po (84)"
+			subtitle: "{atm9.quest.alchemistry.subt.polonium}"
 			tasks: [{
 				id: "40946B2896B32F22"
 				item: "chemlib:polonium"
@@ -2350,7 +2350,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "At (85)"
+			subtitle: "{atm9.quest.alchemistry.subt.astatine}"
 			tasks: [{
 				id: "712EB9A74424B6F7"
 				item: "chemlib:astatine"
@@ -2368,7 +2368,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Rn (86)"
+			subtitle: "{atm9.quest.alchemistry.subt.radon}"
 			tasks: [{
 				id: "13EF5592CE552EFD"
 				item: "chemlib:radon"
@@ -2386,7 +2386,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Fr (87)"
+			subtitle: "{atm9.quest.alchemistry.subt.francium}"
 			tasks: [{
 				id: "3B9B41A4F6366B94"
 				item: "chemlib:francium"
@@ -2404,7 +2404,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ra (88)"
+			subtitle: "{atm9.quest.alchemistry.subt.radium}"
 			tasks: [{
 				id: "751E2171EB234DFA"
 				item: "chemlib:radium"
@@ -2422,7 +2422,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ac (89)"
+			subtitle: "{atm9.quest.alchemistry.subt.actinium}"
 			tasks: [{
 				id: "053559AC021C7389"
 				item: "chemlib:actinium"
@@ -2433,7 +2433,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["A different Rf."]
+			description: ["{atm9.quest.alchemistry.desc.rutherfordium}"]
 			hide_dependency_lines: true
 			id: "1426CCA90672FAF1"
 			rewards: [{
@@ -2441,7 +2441,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Rf (104)"
+			subtitle: "{atm9.quest.alchemistry.subt.rutherfordium}"
 			tasks: [{
 				id: "2A6AF757F11F8B6C"
 				item: "chemlib:rutherfordium"
@@ -2459,7 +2459,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Db (105)"
+			subtitle: "{atm9.quest.alchemistry.subt.dubnium}"
 			tasks: [{
 				id: "5B808FE936352930"
 				item: "chemlib:dubnium"
@@ -2477,7 +2477,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Sg (106)"
+			subtitle: "{atm9.quest.alchemistry.subt.seaborgium}"
 			tasks: [{
 				id: "2F4CC4391CBFF20C"
 				item: "chemlib:seaborgium"
@@ -2495,7 +2495,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Bh (107)"
+			subtitle: "{atm9.quest.alchemistry.subt.bohrium}"
 			tasks: [{
 				id: "17B8CB542784F4AA"
 				item: "chemlib:bohrium"
@@ -2513,7 +2513,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Hs (108)"
+			subtitle: "{atm9.quest.alchemistry.subt.hassium}"
 			tasks: [{
 				id: "3F5DFD19C498673F"
 				item: "chemlib:hassium"
@@ -2531,7 +2531,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Mt (109)"
+			subtitle: "{atm9.quest.alchemistry.subt.meitnerium}"
 			tasks: [{
 				id: "468C62BBC543B0EC"
 				item: "chemlib:meitnerium"
@@ -2549,7 +2549,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ds (110)"
+			subtitle: "{atm9.quest.alchemistry.subt.darmstadtium}"
 			tasks: [{
 				id: "40C0D1AAD565A99C"
 				item: "chemlib:darmstadtium"
@@ -2567,7 +2567,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Rg (111)"
+			subtitle: "{atm9.quest.alchemistry.subt.roentgenium}"
 			tasks: [{
 				id: "480881EFB680DF25"
 				item: "chemlib:roentgenium"
@@ -2585,7 +2585,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Cn (112)"
+			subtitle: "{atm9.quest.alchemistry.subt.copernicium}"
 			tasks: [{
 				id: "0395964E3E756EEF"
 				item: "chemlib:copernicium"
@@ -2603,7 +2603,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Nh (113)"
+			subtitle: "{atm9.quest.alchemistry.subt.nihonium}"
 			tasks: [{
 				id: "588809E4E7C40274"
 				item: "chemlib:nihonium"
@@ -2621,7 +2621,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Fl (114)"
+			subtitle: "{atm9.quest.alchemistry.subt.flerovium}"
 			tasks: [{
 				id: "3C1963D45B8ABCB5"
 				item: "chemlib:flerovium"
@@ -2632,7 +2632,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["Mc = Minecraft?"]
+			description: ["{atm9.quest.alchemistry.desc.moscovium}"]
 			hide_dependency_lines: true
 			id: "1FB4AF60D792A517"
 			rewards: [{
@@ -2640,7 +2640,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Mc (115)"
+			subtitle: "{atm9.quest.alchemistry.subt.moscovium}"
 			tasks: [{
 				id: "73C7D914F9C2272A"
 				item: "chemlib:moscovium"
@@ -2658,7 +2658,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Lv (116)"
+			subtitle: "{atm9.quest.alchemistry.subt.livermorium}"
 			tasks: [{
 				id: "47028725613A31AC"
 				item: "chemlib:livermorium"
@@ -2676,7 +2676,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ts (117)"
+			subtitle: "{atm9.quest.alchemistry.subt.tennessine}"
 			tasks: [{
 				id: "42508802D035AAB0"
 				item: "chemlib:tennessine"
@@ -2687,7 +2687,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["Og even though it's the newest one?"]
+			description: ["{atm9.quest.alchemistry.desc.oganesson}"]
 			hide_dependency_lines: true
 			id: "376A8F925F139D7F"
 			rewards: [{
@@ -2695,7 +2695,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Og (118)"
+			subtitle: "{atm9.quest.alchemistry.subt.oganesson}"
 			tasks: [{
 				id: "30422B894F248DDB"
 				item: "chemlib:oganesson"
@@ -2713,7 +2713,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ce (58)"
+			subtitle: "{atm9.quest.alchemistry.subt.cerium}"
 			tasks: [{
 				id: "15D2D59C935DD31E"
 				item: "chemlib:cerium"
@@ -2728,7 +2728,7 @@
 				"1A988BE2A5158A43"
 			]
 			dependency_requirement: "one_completed"
-			description: ["My best (so far)."]
+			description: ["{atm9.quest.alchemistry.desc.praseodymium}"]
 			hide_dependency_lines: true
 			id: "2C21A303E3D4D9D8"
 			rewards: [{
@@ -2736,7 +2736,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Pr (59)"
+			subtitle: "{atm9.quest.alchemistry.subt.praseodymium}"
 			tasks: [{
 				id: "1DB581D67D5592DD"
 				item: "chemlib:praseodymium"
@@ -2754,7 +2754,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Nd (60)"
+			subtitle: "{atm9.quest.alchemistry.subt.neodymium}"
 			tasks: [{
 				id: "6DBF13FB389E3785"
 				item: "chemlib:neodymium"
@@ -2765,7 +2765,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["Good, I'm not a morning person."]
+			description: ["{atm9.quest.alchemistry.desc.promethium}"]
 			hide_dependency_lines: true
 			id: "3ED95184EF9A8596"
 			rewards: [{
@@ -2773,7 +2773,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Pm (61)"
+			subtitle: "{atm9.quest.alchemistry.subt.promethium}"
 			tasks: [{
 				id: "2C28E60B3C078099"
 				item: "chemlib:promethium"
@@ -2791,7 +2791,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Sm (62)"
+			subtitle: "{atm9.quest.alchemistry.subt.samarium}"
 			tasks: [{
 				id: "559B9B606584B359"
 				item: "chemlib:samarium"
@@ -2809,7 +2809,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Eu (63)"
+			subtitle: "{atm9.quest.alchemistry.subt.europium}"
 			tasks: [{
 				id: "0351541B10AE75AE"
 				item: "chemlib:europium"
@@ -2820,7 +2820,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["No, you don't need a stack."]
+			description: ["{atm9.quest.alchemistry.desc.gadolinium}"]
 			hide_dependency_lines: true
 			id: "23508A9D88F53858"
 			rewards: [{
@@ -2828,7 +2828,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Gd (64)"
+			subtitle: "{atm9.quest.alchemistry.subt.gadolinium}"
 			tasks: [{
 				id: "2ED10AE6C7353DA7"
 				item: "chemlib:gadolinium"
@@ -2846,7 +2846,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Tb (65)"
+			subtitle: "{atm9.quest.alchemistry.subt.terbium}"
 			tasks: [{
 				id: "53F6E6C654959F7B"
 				item: "chemlib:terbium"
@@ -2864,7 +2864,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Dy (66)"
+			subtitle: "{atm9.quest.alchemistry.subt.dysprosium}"
 			tasks: [{
 				id: "01A0EB76FDB3B0A8"
 				item: "chemlib:dysprosium"
@@ -2875,7 +2875,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["What did you call me?"]
+			description: ["{atm9.quest.alchemistry.desc.holmium}"]
 			hide_dependency_lines: true
 			id: "7D377561EDB4F165"
 			rewards: [{
@@ -2883,7 +2883,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ho (67)"
+			subtitle: "{atm9.quest.alchemistry.subt.holmium}"
 			tasks: [{
 				id: "267CC3F4F8FB0C14"
 				item: "chemlib:holmium"
@@ -2901,7 +2901,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Er (68)"
+			subtitle: "{atm9.quest.alchemistry.subt.erbium}"
 			tasks: [{
 				id: "447F72D07317EA51"
 				item: "chemlib:erbium"
@@ -2912,7 +2912,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Nice™"]
+			description: ["{atm9.quest.alchemistry.desc.thulium}"]
 			hide_dependency_lines: true
 			id: "11373202F6B9C2A4"
 			rewards: [{
@@ -2920,7 +2920,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Tm (69)"
+			subtitle: "{atm9.quest.alchemistry.subt.thulium}"
 			tasks: [{
 				id: "3A6020A17DA536F7"
 				item: "chemlib:thulium"
@@ -2938,7 +2938,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Yb (70)"
+			subtitle: "{atm9.quest.alchemistry.subt.ytterbium}"
 			tasks: [{
 				id: "761B2843841AE0B9"
 				item: "chemlib:ytterbium"
@@ -2956,7 +2956,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Lu (71)"
+			subtitle: "{atm9.quest.alchemistry.subt.lutetium}"
 			tasks: [{
 				id: "0A302B7D8C4F3020"
 				item: "chemlib:lutetium"
@@ -2967,7 +2967,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Odinson."]
+			description: ["{atm9.quest.alchemistry.desc.thorium}"]
 			hide_dependency_lines: true
 			id: "63937F58AC720B31"
 			rewards: [{
@@ -2975,7 +2975,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Th (90)"
+			subtitle: "{atm9.quest.alchemistry.subt.thorium}"
 			tasks: [{
 				id: "47C9B4D81877CF30"
 				item: "chemlib:thorium"
@@ -2993,7 +2993,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Pa (91)"
+			subtitle: "{atm9.quest.alchemistry.subt.protactinium}"
 			tasks: [{
 				id: "352F4951947C0FF7"
 				item: "chemlib:protactinium"
@@ -3011,7 +3011,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "U (92)"
+			subtitle: "{atm9.quest.alchemistry.subt.uranium}"
 			tasks: [{
 				id: "0AD72F45B87A0BE9"
 				item: "chemlib:uranium"
@@ -3022,7 +3022,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["You should be able to get this no problem."]
+			description: ["{atm9.quest.alchemistry.desc.neptunium}"]
 			hide_dependency_lines: true
 			id: "79E421A5F903FE1D"
 			rewards: [{
@@ -3030,7 +3030,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Np (93)"
+			subtitle: "{atm9.quest.alchemistry.subt.neptunium}"
 			tasks: [{
 				id: "77C9380A7D4D0596"
 				item: "chemlib:neptunium"
@@ -3048,7 +3048,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Pu (94)"
+			subtitle: "{atm9.quest.alchemistry.subt.plutonium}"
 			tasks: [{
 				id: "0C6BBCD54017F402"
 				item: "chemlib:plutonium"
@@ -3059,7 +3059,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Good, I'm a morning person."]
+			description: ["{atm9.quest.alchemistry.desc.americium}"]
 			hide_dependency_lines: true
 			id: "529D3B7BBD22B2F3"
 			rewards: [{
@@ -3067,7 +3067,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Am (95)"
+			subtitle: "{atm9.quest.alchemistry.subt.americium}"
 			tasks: [{
 				id: "66CC0DB0821FFBDA"
 				item: "chemlib:americium"
@@ -3085,7 +3085,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Cm (96)"
+			subtitle: "{atm9.quest.alchemistry.subt.curium}"
 			tasks: [{
 				id: "75BFDFCFCFDB72CE"
 				item: "chemlib:curium"
@@ -3103,7 +3103,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Bk (97)"
+			subtitle: "{atm9.quest.alchemistry.subt.berkelium}"
 			tasks: [{
 				id: "1463F4F91B9847A7"
 				item: "chemlib:berkelium"
@@ -3121,7 +3121,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Cf (98)"
+			subtitle: "{atm9.quest.alchemistry.subt.californium}"
 			tasks: [{
 				id: "741469FE26B8F903"
 				item: "chemlib:californium"
@@ -3139,7 +3139,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Es (99)"
+			subtitle: "{atm9.quest.alchemistry.subt.einsteinium}"
 			tasks: [{
 				id: "1830F8D09D3CADEF"
 				item: "chemlib:einsteinium"
@@ -3157,7 +3157,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Fm (100)"
+			subtitle: "{atm9.quest.alchemistry.subt.fermium}"
 			tasks: [{
 				id: "53A390D3130DAD09"
 				item: "chemlib:fermium"
@@ -3185,7 +3185,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["But, yes?"]
+			description: ["{atm9.quest.alchemistry.desc.nobelium}"]
 			hide_dependency_lines: true
 			id: "7A079FDC0F29E25D"
 			rewards: [{
@@ -3193,7 +3193,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "No (102)"
+			subtitle: "{atm9.quest.alchemistry.subt.nobelium}"
 			tasks: [{
 				id: "4ABEA5D5C01D41B5"
 				item: "chemlib:nobelium"
@@ -3211,7 +3211,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Lr (103)"
+			subtitle: "{atm9.quest.alchemistry.subt.lawrencium}"
 			tasks: [{
 				id: "3746F5CE2095187E"
 				item: "chemlib:lawrencium"
@@ -3223,12 +3223,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.Authored}"
 			]
 			disable_toast: true
 			hide: true
@@ -3248,12 +3243,12 @@
 				{
 					disable_toast: true
 					id: "1955A724EC26AC9E"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 				{
 					id: "26B2473C746FB5AF"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 			]

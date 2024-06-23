@@ -1378,12 +1378,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.Authored}"
 			]
 			disable_toast: true
 			hide: true
@@ -1403,12 +1398,12 @@
 				{
 					disable_toast: true
 					id: "0ACA8BB2546698AA"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 				{
 					id: "341C85E18D1FCC42"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 			]

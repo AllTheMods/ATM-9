@@ -38,7 +38,7 @@
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
 				id: "5457CD8C1ABA0B9E"
-				title: "Kill 5 Zombies"
+				title: "{atm9.quest.bounty.kill5Zombies}"
 				type: "kill"
 				value: 5L
 			}]
@@ -67,7 +67,7 @@
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
 				id: "3AD10C31CB6BA4C2"
-				title: "Kill 10 Zombies"
+				title: "{atm9.quest.bounty.kill10Zombies}"
 				type: "kill"
 				value: 10L
 			}]
@@ -107,7 +107,7 @@
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
 				id: "51471254BFEBDAA7"
-				title: "Kill 50 Zombies"
+				title: "{atm9.quest.bounty.kill50Zombies}"
 				type: "kill"
 				value: 50L
 			}]
@@ -136,7 +136,7 @@
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
 				id: "5056DC37AEF523E5"
-				title: "Kill 100 Zombies"
+				title: "{atm9.quest.bounty.kill100Zombies}"
 				type: "kill"
 				value: 100L
 			}]
@@ -163,7 +163,7 @@
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "5B35720DF93CE2DB"
-				title: "Kill 5 Skeletons"
+				title: "{atm9.quest.bounty.kill5Skeletons}"
 				type: "kill"
 				value: 5L
 			}]
@@ -192,7 +192,7 @@
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "015CB0D172D0712A"
-				title: "Kill 10 Skeletons"
+				title: "{atm9.quest.bounty.kill10Skeletons}"
 				type: "kill"
 				value: 10L
 			}]
@@ -232,7 +232,7 @@
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "2E17443A1BF2A0DA"
-				title: "Kill 50 Skeletons"
+				title: "{atm9.quest.bounty.kill50Skeletons}"
 				type: "kill"
 				value: 50L
 			}]
@@ -261,7 +261,7 @@
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "00655AC734444E54"
-				title: "Kill 100 Skeletons"
+				title: "{atm9.quest.bounty.kill100Skeletons}"
 				type: "kill"
 				value: 100L
 			}]
@@ -288,7 +288,7 @@
 				entity: "minecraft:creeper"
 				icon: "minecraft:creeper_head"
 				id: "423AF6C6647B1626"
-				title: "Kill 5 Creepers"
+				title: "{atm9.quest.bounty.kill5Creepers}"
 				type: "kill"
 				value: 5L
 			}]
@@ -317,7 +317,7 @@
 				entity: "minecraft:creeper"
 				icon: "minecraft:creeper_head"
 				id: "1AB92CF7F0246D21"
-				title: "Kill 10 Creepers"
+				title: "{atm9.quest.bounty.kill10Creepers}"
 				type: "kill"
 				value: 10L
 			}]
@@ -357,7 +357,7 @@
 				entity: "minecraft:creeper"
 				icon: "minecraft:creeper_head"
 				id: "24BA89BD9898759B"
-				title: "Kill 50 Creepers"
+				title: "{atm9.quest.bounty.kill50Creepers}"
 				type: "kill"
 				value: 50L
 			}]
@@ -386,7 +386,7 @@
 				entity: "minecraft:creeper"
 				icon: "minecraft:creeper_head"
 				id: "045D1087A2692360"
-				title: "Kill 100 Creepers"
+				title: "{atm9.quest.bounty.kill100Creepers}"
 				type: "kill"
 				value: 100L
 			}]
@@ -409,7 +409,7 @@
 			subtitle: "{atm9.quest.bounty.subt.board}"
 			tasks: [{
 				id: "3C380961550177C2"
-				title: "Bounty Board"
+				title: "{atm9.quest.bounty.bountyBoard}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.bounty.board}"
@@ -436,7 +436,7 @@
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
 				id: "1809F1F9A3043683"
-				title: "Kill the Ender Dragon"
+				title: "{atm9.quest.bounty.killTheEnderDragon}"
 				type: "kill"
 				value: 1L
 			}]
@@ -464,7 +464,7 @@
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "171FD27057746E80"
-				title: "Kill the Wither"
+				title: "{atm9.quest.bounty.killTheWither}"
 				type: "kill"
 				value: 1L
 			}]
@@ -492,7 +492,7 @@
 				entity: "minecraft:elder_guardian"
 				icon: "minecraft:elder_guardian_spawn_egg"
 				id: "2F28B803C75DA3B2"
-				title: "Kill the Elder Guardian"
+				title: "{atm9.quest.bounty.killTheElderGuardian}"
 				type: "kill"
 				value: 1L
 			}]
@@ -527,7 +527,7 @@
 				entity: "ars_nouveau:wilden_boss"
 				icon: "ars_nouveau:wilden_tribute"
 				id: "452B65E139D9E12D"
-				title: "Kill the Wilden Chimera"
+				title: "{atm9.quest.bounty.killTheWildenChimera}"
 				type: "kill"
 				value: 1L
 			}]
@@ -585,7 +585,7 @@
 					entity: "minecraft:wandering_trader"
 					icon: "minecraft:trader_llama_spawn_egg"
 					id: "596ABB45C0612AAF"
-					title: "Kill the Trader Villager"
+				title: "{atm9.quest.bounty.killTheTraderVillager}"
 					type: "kill"
 					value: 1L
 				}
@@ -593,7 +593,7 @@
 					entity: "minecraft:trader_llama"
 					icon: "minecraft:trader_llama_spawn_egg"
 					id: "1D136D138EF82DA9"
-					title: "Kill the Trader Llamas"
+				title: "{atm9.quest.bounty.killTheTraderLlamas}"
 					type: "kill"
 					value: 2L
 				}
@@ -623,7 +623,7 @@
 				entity: "minecraft:enderman"
 				icon: "minecraft:ender_pearl"
 				id: "0EA4B08DAAFA4287"
-				title: "&l&9The End Bounty:&r&e Endermen"
+				title: "{atm9.quest.bounty.theEndBountyEndermen}"
 				type: "kill"
 				value: 5L
 			}]
@@ -653,7 +653,7 @@
 				entity: "minecraft:enderman"
 				icon: "minecraft:ender_pearl"
 				id: "58BF5D3267CF02F8"
-				title: "Kill 10 Endermen"
+				title: "{atm9.quest.bounty.kill10Endermen}"
 				type: "kill"
 				value: 10L
 			}]
@@ -688,7 +688,7 @@
 				entity: "minecraft:enderman"
 				icon: "minecraft:ender_pearl"
 				id: "6BA6847A172C8DD7"
-				title: "Kill 50 Endermen"
+				title: "{atm9.quest.bounty.kill50Endermen}"
 				type: "kill"
 				value: 50L
 			}]
@@ -717,7 +717,7 @@
 				entity: "minecraft:enderman"
 				icon: "minecraft:ender_eye"
 				id: "53C23DB8B4D1CEE2"
-				title: "Kill 100 Endermen"
+				title: "{atm9.quest.bounty.kill100Endermen}"
 				type: "kill"
 				value: 100L
 			}]
@@ -773,7 +773,7 @@
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
 				id: "5801AF8000768808"
-				title: "Kill 10 Spiders"
+				title: "{atm9.quest.bounty.kill10Spiders}"
 				type: "kill"
 				value: 10L
 			}]
@@ -813,7 +813,7 @@
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
 				id: "0F94F7427F99DAFE"
-				title: "Kill 50 Spiders"
+				title: "{atm9.quest.bounty.kill50Spiders}"
 				type: "kill"
 				value: 50L
 			}]
@@ -842,7 +842,7 @@
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
 				id: "0F8ACB07CFA8CB33"
-				title: "Kill 100 Spiders"
+				title: "{atm9.quest.bounty.kill100Spiders}"
 				type: "kill"
 				value: 100L
 			}]
@@ -870,7 +870,7 @@
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_powder"
 				id: "1718CA0F8978181C"
-				title: "&l&cThe Nether Bounty:&r&e Blazes"
+				title: "{atm9.quest.bounty.theNetherBountyBlazes}"
 				type: "kill"
 				value: 5L
 			}]
@@ -899,7 +899,7 @@
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
 				id: "00445193DEB7EAA0"
-				title: "Kill 10 Blazes"
+				title: "{atm9.quest.bounty.kill10Blazes}"
 				type: "kill"
 				value: 10L
 			}]
@@ -940,7 +940,7 @@
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
 				id: "404D3420276BD963"
-				title: "Kill 50 Blazes"
+				title: "{atm9.quest.bounty.kill50Blazes}"
 				type: "kill"
 				value: 50L
 			}]
@@ -969,7 +969,7 @@
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
 				id: "2038156A13C07BFC"
-				title: "Kill 100 Blazes"
+				title: "{atm9.quest.bounty.kill100Blazes}"
 				type: "kill"
 				value: 100L
 			}]
@@ -1002,7 +1002,7 @@
 					}
 				}
 				id: "7BAB5E17D2DE4E3E"
-				title: "&l&9Overworld Bounty:&r&e Witches"
+				title: "{atm9.quest.bounty.overworldBountyWitches}"
 				type: "kill"
 				value: 5L
 			}]
@@ -1044,7 +1044,7 @@
 					}
 				}
 				id: "7127A76DEB4D1696"
-				title: "Kill 10 Witches"
+				title: "{atm9.quest.bounty.kill10Witches}"
 				type: "kill"
 				value: 10L
 			}]
@@ -1098,7 +1098,7 @@
 					}
 				}
 				id: "78A782913B7E6353"
-				title: "Kill 50 Witches"
+				title: "{atm9.quest.bounty.kill50Witches}"
 				type: "kill"
 				value: 50L
 			}]
@@ -1133,7 +1133,7 @@
 					}
 				}
 				id: "5A3D6416BA0C7A20"
-				title: "Kill 100 Witches"
+				title: "{atm9.quest.bounty.kill100Witches}"
 				type: "kill"
 				value: 100L
 			}]
@@ -1165,7 +1165,7 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "1016033CBB003413"
-				title: "&l&cThe Nether Bounty:&r&e Wither Skeles"
+				title: "{atm9.quest.bounty.theNetherBountyWitherSkeles}"
 				type: "kill"
 				value: 5L
 			}]
@@ -1194,7 +1194,7 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "33107949548BC22D"
-				title: "Kill 10 Wither Skeles"
+				title: "{atm9.quest.bounty.kill10WitherSkeles}"
 				type: "kill"
 				value: 10L
 			}]
@@ -1233,7 +1233,7 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "29A605F8B896F3B9"
-				title: "Kill 50 Wither Skeles"
+				title: "{atm9.quest.bounty.kill50WitherSkeles}"
 				type: "kill"
 				value: 50L
 			}]
@@ -1263,7 +1263,7 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "727813FFC599C36D"
-				title: "Kill 100 Wither Skeles"
+				title: "{atm9.quest.bounty.kill100WitherSkeles}"
 				type: "kill"
 				value: 100L
 			}]
@@ -1296,7 +1296,7 @@
 				entity: "minecraft:warden"
 				icon: "minecraft:sculk_catalyst"
 				id: "69678CAC075C8EA5"
-				title: "Kill the Warden"
+				title: "{atm9.quest.bounty.killTheWarden}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1307,12 +1307,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.Authored}"
 			]
 			disable_toast: true
 			hide: true
@@ -1332,12 +1327,12 @@
 				{
 					disable_toast: true
 					id: "148550E42311F5A5"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 				{
 					id: "07FE5720E3BD9A7B"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 			]

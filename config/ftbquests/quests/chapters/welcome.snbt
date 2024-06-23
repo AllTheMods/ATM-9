@@ -18,7 +18,7 @@
 		{
 			click: "https://discord.gg/3paFjuRfz9"
 			height: 1.0d
-			hover: ["Join the Discord!"]
+			hover: ["{atm9.quest.welcome.hover.discord}"]
 			image: "ftbchunks:textures/waypoint_default.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -49,7 +49,7 @@
 			size: 3.0d
 			tasks: [{
 				id: "5A1784C5676CDC62"
-				title: "Welcome to All The Mods 9!"
+				title: "{atm9.quest.welcome.welcome}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.welcome.welcome}"
@@ -76,7 +76,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "52BB142F044075B4"
-				title: "Quests"
+				title: "{atm9.quest.welcome.quests}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.welcome.quests}"
@@ -103,7 +103,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "10A16F89D4AD238D"
-				title: "Useful Commands"
+				title: "{atm9.quest.welcome.usefulCommands}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.welcome.commands}"
@@ -134,7 +134,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "103C42C743E2A2DB"
-				title: "Claiming Chunks"
+				title: "{atm9.quest.welcome.claimingChunks}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.welcome.claims}"
@@ -159,7 +159,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "4F13A02FB0055A62"
-				title: "Creating a Team"
+				title: "{atm9.quest.welcome.creatingTeam}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.welcome.team}"
@@ -169,11 +169,17 @@
 		{
 			description: [
 				"{atm9.quest.welcome.desc.translations}"
-				"&lTranslator List&r (as of pack version v0.2.61)"
-				"&9Spanish&r by &2radzratz&r, &2abel102389&r, &2arivio&r, and &2metabodiru&r."
-				"&9Norwegian&r (Bokmål) by &Permest&r."
-				"&9Portugese&r by &2oruiva&r."
-				"&9Japanese&r by &2fishlife1 (flll)&r."
+				"{atm9.quest.welcome.desc.translatorList.1}"
+				"{atm9.quest.welcome.desc.translatorList.2}"
+				"{atm9.quest.welcome.desc.translatorList.3}"
+				"{atm9.quest.welcome.desc.translatorList.4}"
+				"{atm9.quest.welcome.desc.translatorList.5}"
+				"{atm9.quest.welcome.desc.translatorList.6}"
+				"{atm9.quest.welcome.desc.translatorList.7}"
+				"{atm9.quest.welcome.desc.translatorList.8}"
+				"{atm9.quest.welcome.desc.translatorList.9}"
+				"{atm9.quest.welcome.desc.translatorList.10}"
+				"{atm9.quest.welcome.desc.translatorList.11}"
 			]
 			icon: {
 				Count: 1
@@ -202,12 +208,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.Authored}"
 			]
 			disable_toast: true
 			hide: true
@@ -227,12 +228,12 @@
 				{
 					disable_toast: true
 					id: "7EBE873AF3D96C0C"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 				{
 					id: "0CD6D7231BCDC4E3"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 			]

@@ -937,7 +937,7 @@
 			id: "6BBF35D29E70FDD4"
 			tasks: [{
 				id: "05E1FB6DF026AD11"
-				title: "Minibosses and Enemies"
+				title: "{atm9.quest.cataclysm.minibossesAndEnemies}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.cataclysm.minibosses}"
@@ -1255,12 +1255,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.Authored}"
 			]
 			disable_toast: true
 			hide: true
@@ -1280,12 +1275,12 @@
 				{
 					disable_toast: true
 					id: "529BF074A61E2EAB"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 				{
 					id: "19E65997851BC46E"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 			]

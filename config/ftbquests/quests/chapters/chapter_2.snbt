@@ -151,7 +151,7 @@
 		}
 		{
 			height: 4.5d
-			image: "atm:textures/questpics/chap2/atmstar_title.png"
+				image: "atm:textures/questpics/chap2/atmstar_title.png"
 			order: 1
 			rotation: 0.0d
 			width: 32.462566844919785d
@@ -865,7 +865,7 @@
 						]
 					}
 				}
-				title: "Large Digital Storage Parts"
+				title: "{atm9.quest.chapter2.largeDigitalStorageParts}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter2.LDS}"
@@ -950,7 +950,7 @@
 						]
 					}
 				}
-				title: "Wireless Terminals"
+				title: "{atm9.quest.chapter2.wirelessTerminals}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter2.wireless}"
@@ -1031,7 +1031,7 @@
 		}
 		{
 			dependencies: ["46B515C90C13A72F"]
-			description: ["You didn't hear it from me, but there are some interesting ways to make &5Inert Nether Stars&r which can be turned into Nether Stars"]
+				description: ["{atm9.quest.chapter2.desc.inertNetherStars}"]
 			hide_dependency_lines: true
 			id: "0A37761737B01BFD"
 			rewards: [
@@ -1478,7 +1478,7 @@
 						]
 					}
 				}
-				title: "Power Options"
+				title: "{atm9.quest.chapter2.powerOptions}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter2.power}"
@@ -1574,7 +1574,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "5E69BDE183E08FF3"
-				title: "Resource Gathering"
+				title: "{atm9.quest.chapter2.resourceGathering}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.chapter2.resource_generation}"
@@ -1645,7 +1645,7 @@
 						]
 					}
 				}
-				title: "Example Quarries"
+				title: "{atm9.quest.chapter2.exampleQuarries}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter2.quarries}"
@@ -1753,7 +1753,7 @@
 							]
 						}
 					}
-					title: "Laser Lenses"
+				title: "{atm9.quest.chapter2.laserLenses}"
 					type: "item"
 				}
 			]
@@ -1825,7 +1825,7 @@
 			size: 3.0d
 			tasks: [{
 				id: "60705F980E6AA8F3"
-				title: "What Happens Next?"
+				title: "{atm9.quest.chapter2.whatHappensNext}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.chapter2.next}"
@@ -2366,7 +2366,7 @@
 							]
 						}
 					}
-					title: "Creosote Oil Bucket"
+				title: "{atm9.quest.chapter2.creosoteOilBucket}"
 					type: "item"
 				}
 				{
@@ -2378,7 +2378,7 @@
 							value: "forge:coal_coke"
 						}
 					}
-					title: "Coal Coke"
+				title: "{atm9.quest.chapter2.coalCoke}"
 					type: "item"
 				}
 			]
@@ -2448,7 +2448,7 @@
 					advancement: "immersiveengineering:multiblocks/mb_squeezer"
 					criterion: ""
 					id: "26DE65A66FF69193"
-					title: "Squeezer"
+				title: "{atm9.quest.chapter2.squeezer}"
 					type: "advancement"
 				}
 				{
@@ -2617,7 +2617,7 @@
 					advancement: "immersiveengineering:multiblocks/mb_refinery"
 					criterion: ""
 					id: "3C054656AAF44209"
-					title: "Refinery"
+				title: "{atm9.quest.chapter2.refinery}"
 					type: "advancement"
 				}
 				{
@@ -3219,12 +3219,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.Authored}"
 			]
 			disable_toast: true
 			hide: true
@@ -3244,12 +3239,12 @@
 				{
 					disable_toast: true
 					id: "61C5E5E6742910D8"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 				{
 					id: "721E0D1C9071505A"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 			]

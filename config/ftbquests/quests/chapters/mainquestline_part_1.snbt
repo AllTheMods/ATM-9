@@ -325,7 +325,7 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "Gather Wood"
+				title: "{atm9.quest.chapter1.gatherWood}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.welcome}"
@@ -354,7 +354,7 @@
 						value: "forge:chests/wooden"
 					}
 				}
-				title: "Chest"
+				title: "{atm9.quest.chapter1.chest}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.storage}"
@@ -383,7 +383,7 @@
 						value: "forge:crops"
 					}
 				}
-				title: "Food"
+				title: "{atm9.quest.chapter1.food}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.food_farms}"
@@ -425,7 +425,7 @@
 						value: "functionalstorage:drawer"
 					}
 				}
-				title: "Any Drawer from Functional Storage"
+				title: "{atm9.quest.chapter1.anyDrawerFromFunctionalStorage}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.drawer}"
@@ -512,10 +512,10 @@
 						]
 					}
 				}
-				title: "Chest Upgrades"
+				title: "{atm9.quest.chapter1.chestUpgrades}"
 				type: "item"
 			}]
-			title: "{atm9.quest.chapter1.chest}"
+			title: "{atm9.quest.chapter1.chest.1}"
 			x: -4.0d
 			y: -1.0d
 		}
@@ -547,7 +547,7 @@
 						value: "botanypots:all_botany_pots"
 					}
 				}
-				title: "&aBotany Pots&r"
+				title: "{atm9.quest.chapter1.botanyPots}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.botany}"
@@ -694,7 +694,7 @@
 							value: "forge:cobblestone"
 						}
 					}
-					title: "Any Cobblestone"
+					title: "{atm9.quest.chapter1.anyCobblestone}"
 					type: "item"
 				}
 				{
@@ -742,7 +742,7 @@
 						]
 					}
 				}
-				title: "Furnace Upgrades"
+				title: "{atm9.quest.chapter1.furnaceUpgrades}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.iron_furnace}"
@@ -1041,7 +1041,7 @@
 						value: "forge:gems/diamond"
 					}
 				}
-				title: "Any #forge:gems/diamond"
+				title: "{atm9.quest.chapter1.anyForgeGemsDiamond}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.diamonds}"
@@ -1083,7 +1083,7 @@
 					advancement: "minecraft:story/enter_the_nether"
 					criterion: ""
 					id: "6FF63A559722919C"
-					title: "Enter The Nether"
+					title: "{atm9.quest.chapter1.enterTheNether}"
 					type: "advancement"
 				}
 			]
@@ -1141,7 +1141,7 @@
 						]
 					}
 				}
-				title: "Starter Power Options"
+				title: "{atm9.quest.chapter1.starterPowerOptions}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.power}"
@@ -1176,7 +1176,7 @@
 						value: "alltheores:ore_hammers"
 					}
 				}
-				title: "Ore Hammers"
+				title: "{atm9.quest.chapter1.oreHammers}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.hammer}"
@@ -1264,7 +1264,7 @@
 						]
 					}
 				}
-				title: "Waystones"
+				title: "{atm9.quest.chapter1.waystones}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.teleporting}"
@@ -1316,7 +1316,7 @@
 						]
 					}
 				}
-				title: "Wireless Power Options"
+				title: "{atm9.quest.chapter1.wirelessPowerOptions}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.flux}"
@@ -1371,7 +1371,7 @@
 						]
 					}
 				}
-				title: "Power Storage Options"
+				title: "{atm9.quest.chapter1.powerStorageOptions}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.power_storage}"
@@ -1478,7 +1478,7 @@
 					}
 				}
 				id: "1FBEC3A36CAAA8EA"
-				title: "Find an &dApotheosis&r Enchanted Item"
+				title: "{atm9.quest.chapter1.findAnApotheosisEnchantedItem}"
 				type: "advancement"
 			}]
 			title: "{atm9.quest.chapter1.apotheosis}"
@@ -1515,7 +1515,7 @@
 				id: "5A21FAE40A7E734E"
 				item: "irons_spellbooks:scroll"
 				match_nbt: false
-				title: "Iron's Spell Scroll"
+				title: "{atm9.quest.chapter1.ironsSpellScroll}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.spell}"
@@ -1542,7 +1542,7 @@
 			size: 1.25d
 			tasks: [{
 				id: "03BCD8CA1FF84420"
-				title: "Time To Adventure!"
+				title: "{atm9.quest.chapter1.timeToAdventure}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.chapter1.explore}"
@@ -1621,7 +1621,7 @@
 						]
 					}
 				}
-				title: "Basic Power Cables"
+				title: "{atm9.quest.chapter1.basicPowerCables}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.cables}"
@@ -1654,7 +1654,7 @@
 					criterion: ""
 					icon: "minecraft:end_portal_frame"
 					id: "2014E320BFF51D62"
-					title: "&dFind The Stronghold&r"
+					title: "{atm9.quest.chapter1.findTheStronghold}"
 					type: "advancement"
 				}
 			]
@@ -1688,7 +1688,7 @@
 					advancement: "minecraft:story/enter_the_end"
 					criterion: ""
 					id: "4E47E0E49057195E"
-					title: "&dTo The End&r"
+					title: "{atm9.quest.chapter1.toTheEnd}"
 					type: "advancement"
 				}
 				{
@@ -1696,7 +1696,7 @@
 					criterion: ""
 					icon: "minecraft:dragon_head"
 					id: "2F96969419E7C767"
-					title: "&5The End&r"
+					title: "{atm9.quest.chapter1.theEnd}"
 					type: "advancement"
 				}
 				{
@@ -1793,7 +1793,7 @@
 						]
 					}
 				}
-				title: "&bDiamond&r &aItems&r"
+				title: "{atm9.quest.chapter1.diamondItems}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.diamond_tools}"
@@ -1915,10 +1915,10 @@
 						]
 					}
 				}
-				title: "&dNetherite&r &aItems&r"
+				title: "{atm9.quest.chapter1.netheriteItems}"
 				type: "item"
 			}]
-			title: "&dNetherite&r &aTools and Armor&r"
+			title: "{atm9.quest.chapter1.netheriteToolsAndArmor}"
 			x: 10.5d
 			y: 7.5d
 		}
@@ -2000,7 +2000,7 @@
 					}
 				}
 				id: "1D48B6FC70F5C745"
-				title: "&6Visit The&r &dDeep Dark&r!"
+				title: "{atm9.quest.chapter1.visitTheDeepDark}"
 				type: "biome"
 			}]
 			title: "{atm9.quest.chapter1.deep_dark}"
@@ -2072,7 +2072,7 @@
 						]
 					}
 				}
-				title: "&6Allthemodium Tools and Armor&r"
+				title: "{atm9.quest.chapter1.allthemodiumToolsAndArmor}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.atm_tools}"
@@ -2133,7 +2133,7 @@
 						value: "minecraft:trim_templates"
 					}
 				}
-				title: "Trim Templates"
+				title: "{atm9.quest.chapter1.trimTemplates}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.trims}"
@@ -2198,7 +2198,7 @@
 					}
 				}
 				id: "6CAD0E4CF3577BEB"
-				title: "&5Kill The Warden&r"
+				title: "{atm9.quest.chapter1.killTheWarden}"
 				type: "kill"
 				value: 1L
 			}]
@@ -2275,7 +2275,7 @@
 					}
 				}
 				id: "76C41881A02F2098"
-				title: "&6Kill The&r &5Wither&r"
+				title: "{atm9.quest.chapter1.killTheWither}"
 				type: "kill"
 				value: 1L
 			}]
@@ -2325,7 +2325,7 @@
 						]
 					}
 				}
-				title: "Furnace &aAugments&r"
+				title: "{atm9.quest.chapter1.furnaceAugments}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.furnace_upgrade}"
@@ -2377,7 +2377,7 @@
 							]
 						}
 					}
-					title: "Honey"
+					title: "{atm9.quest.chapter1.honey}"
 					type: "item"
 				}
 				{
@@ -2389,7 +2389,7 @@
 							value: "forge:hives"
 						}
 					}
-					title: "Beehive"
+					title: "{atm9.quest.chapter1.beehive}"
 					type: "item"
 				}
 			]
@@ -2451,7 +2451,7 @@
 					}
 				}
 				match_nbt: false
-				title: "Building Gadgets"
+				title: "{atm9.quest.chapter1.buildingGadgets}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.building}"
@@ -2512,7 +2512,7 @@
 						value: "artifacts:artifacts"
 					}
 				}
-				title: "Artifacts"
+				title: "{atm9.quest.chapter1.artifacts}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter1.loot}"
@@ -2537,7 +2537,7 @@
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				id: "082FD4018EA92767"
-				title: "The &dTwilight Forest&r"
+				title: "{atm9.quest.chapter1.twilightForest}"
 				type: "dimension"
 			}]
 			title: "{atm9.quest.chapter1.twilight}"
@@ -2652,7 +2652,7 @@
 							]
 						}
 					}
-					title: "Ore Powders"
+					title: "{atm9.quest.chapter1.orePowders}"
 					type: "item"
 				}
 			]
@@ -2702,7 +2702,7 @@
 			tasks: [{
 				dimension: "allthemodium:mining"
 				id: "3632A1D25278EEC4"
-				title: "&aVisit the&r &dMining&r &aDimension&r"
+				title: "{atm9.quest.chapter1.visitTheMiningDimension}"
 				type: "dimension"
 			}]
 			title: "{atm9.quest.chapter1.mining}"
@@ -2862,7 +2862,7 @@
 			subtitle: "{atm9.quest.chapter1.subt.star}"
 			tasks: [{
 				id: "4EBF6B68ED8C9B40"
-				title: "&6To The ATM Star&r!"
+				title: "{atm9.quest.chapter1.toTheATMStar}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.chapter1.atm_star}"
@@ -2872,12 +2872,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.Authored}"
 			]
 			disable_toast: true
 			hide: true
@@ -2897,12 +2892,12 @@
 				{
 					disable_toast: true
 					id: "20D6D248995ED9EB"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 				{
 					id: "493C6AAD521D5A1E"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 			]

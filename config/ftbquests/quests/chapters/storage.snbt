@@ -231,7 +231,7 @@
 						value: "functionalstorage:drawer"
 					}
 				}
-				title: "Any #storagedrawers:drawers"
+				title: "{atm9.quest.storage.drawers}"
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.drawer}"
@@ -386,7 +386,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "3E7F26D68D9A166B"
-				title: "Storage"
+				title: "{atm9.quest.storage.storage}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.storage.basic}"
@@ -516,7 +516,7 @@
 			subtitle: "{atm9.quest.storage.subt.functional}"
 			tasks: [{
 				id: "4B299AC7F0233132"
-				title: "Storage Drawers"
+				title: "{atm9.quest.storage.storageDrawers}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.storage.functional}"
@@ -543,7 +543,7 @@
 			subtitle: "{atm9.quest.storage.subt.sophisticated}"
 			tasks: [{
 				id: "034F49638F207523"
-				title: "Iron Chests"
+				title: "{atm9.quest.storage.ironChests}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.storage.sophisticated}"
@@ -874,7 +874,7 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			description: ["Adds a filter that allows you to tell the backpack which items it should keep stocked. Shift-Right Clicking an inventory will refill it."]
+			description: ["{atm9.quest.storage.desc.backpackFilter}"]
 			hide: true
 			hide_dependency_lines: true
 			id: "4B62AF0405F68041"
@@ -915,7 +915,7 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			description: ["Shift-Right Click an inventory to empty."]
+			description: ["{atm9.quest.storage.desc.emptyInventory}"]
 			hide: true
 			hide_dependency_lines: true
 			id: "00DB5495C3A44999"
@@ -978,9 +978,9 @@
 		{
 			dependencies: ["1FE052F643401232"]
 			description: [
-				"So we got a backpack upgrade to put your backpack in your backpack."
+				"{atm9.quest.storage.desc.backpackUpgrade.1}"
 				""
-				"So you can have your backpack in your backpack when you need your backpack in your backpack."
+				"{atm9.quest.storage.desc.backpackUpgrade.2}"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -1815,7 +1815,7 @@
 			]
 			tasks: [{
 				id: "21FBC4E0F668347C"
-				title: "NBT and YOU!"
+				title: "{atm9.quest.storage.nbtAndYou}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.storage.NBT}"
@@ -1825,12 +1825,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.Authored}"
 			]
 			disable_toast: true
 			hide: true
@@ -1850,12 +1845,12 @@
 				{
 					disable_toast: true
 					id: "638F02CE74B2568A"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 				{
 					id: "442310EB7CC1518F"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.Authored}"
 					type: "checkmark"
 				}
 			]
