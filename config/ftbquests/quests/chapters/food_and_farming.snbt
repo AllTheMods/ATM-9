@@ -127,9 +127,16 @@
 			size: 1.5d
 			subtitle: "Getting Started"
 			tasks: [{
-				id: "07603A90CCCB3627"
-				title: "Food and Farming"
-				type: "checkmark"
+				id: "29267580E91DFEDA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops"
+					}
+				}
+				title: "Any Crops"
+				type: "item"
 			}]
 			title: "{atm9.quest.farm.food}"
 			x: 0.5d
@@ -415,11 +422,146 @@
 			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Just wait until you get machines for this."
+			subtitle: "Just wait until you get machines for this"
 			tasks: [{
-				id: "78772A2785AE9DD2"
-				title: "The Planter"
-				type: "checkmark"
+				id: "4847C9E5C9116BB7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:wooden_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:stone_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:iron_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:golden_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_hoe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_hoe"
+							}
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:nether_quartz_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:elementium_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:bronze_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:lapis_lazuli_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:osmium_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:refined_glowstone_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:refined_obsidian_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:steel_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Basic Hoes"
+				type: "item"
 			}]
 			title: "{atm9.quest.farm.farming}"
 			x: -1.5749999999999997d
