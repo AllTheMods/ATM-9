@@ -7,6 +7,10 @@
 	detection_delay: 20
 	disable_gui: false
 	drop_loot_crates: false
+	emergency_items: [
+		{ Count: 8, id: "minecraft:oak_sapling" }
+		{ Count: 1, id: "exdeorum:porcelain_lava_bucket" }
+	]
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
 	icon: "allthetweaks:atm_star"

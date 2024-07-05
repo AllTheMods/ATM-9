@@ -13,7 +13,7 @@
 		x: 3.0d
 		y: -8.0d
 	}]
-	order_index: 2
+	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -52,15 +52,15 @@
 			id: "444ACE285311ECB4"
 			rewards: [
 				{
-					id: "3ED7AA82E00DCFD5"
-					type: "xp"
-					xp: 20
+					count: 10
+					id: "1327D06D37CEAE0C"
+					item: "minecraft:rotten_flesh"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "6A111F9EEADA4BA2"
-					table_id: 487623848494439020L
-					type: "random"
+					id: "138407C11C728D42"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -79,28 +79,21 @@
 			id: "146232B8504789C1"
 			rewards: [
 				{
-					id: "267B3DBA7DED8C3B"
-					type: "xp"
-					xp: 50
-				}
-				{
-					count: 20
-					id: "0030F09FB9D2DE22"
-					item: "minecraft:rotten_flesh"
-					type: "item"
-				}
-				{
 					count: 10
-					id: "03A2CFC2335A776A"
+					id: "00F625D66D450B4E"
 					item: "minecraft:iron_ingot"
-					random_bonus: 10
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "3FDDD3EECB6D7A85"
-					table_id: 4196188979167302596L
-					type: "random"
+					count: 5
+					id: "00C38E7FEC8605C3"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "57B60C28798A37FE"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 			tasks: [{
@@ -119,15 +112,21 @@
 			id: "7D5B36BF3EC0C93F"
 			rewards: [
 				{
-					id: "0A77CE5C75957CD7"
-					type: "xp"
-					xp: 100
+					id: "406F517488D329B3"
+					item: {
+						Count: 1
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:zombie"
+						}
+					}
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "180D2F31E833E6B5"
-					table_id: 5564196992594175882L
-					type: "random"
+					id: "5EE6508C9196C859"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "pentagon"
@@ -177,15 +176,15 @@
 			id: "4748831E75A840BE"
 			rewards: [
 				{
-					id: "0D2AAD3B11A32E90"
-					type: "xp"
-					xp: 20
+					count: 10
+					id: "4A5E24AA7B5EDE09"
+					item: "minecraft:bone"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "056975CFED74BF64"
-					table_id: 487623848494439020L
-					type: "random"
+					id: "16348C86047E4137"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -204,28 +203,15 @@
 			id: "410E0DD607CB3469"
 			rewards: [
 				{
-					id: "02E2F8ED5DB84B97"
-					type: "xp"
-					xp: 50
-				}
-				{
 					count: 20
-					id: "7A227BD20C66223A"
+					id: "38AAF2C4BC0AA5B4"
 					item: "minecraft:bone"
 					type: "item"
 				}
 				{
-					count: 20
-					id: "342AD2A33F43C0EE"
-					item: "minecraft:arrow"
-					random_bonus: 20
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "649295B3143B081D"
-					table_id: 4196188979167302596L
-					type: "random"
+					id: "17210A84662D313B"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 			tasks: [{
@@ -244,15 +230,21 @@
 			id: "555957ED58ABF8F8"
 			rewards: [
 				{
-					id: "3F6EFAED74D8B549"
-					type: "xp"
-					xp: 100
+					id: "45E8922FE57992E4"
+					item: {
+						Count: 1
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:skeleton"
+						}
+					}
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "4F90CF0B7D2FED9B"
-					table_id: 5564196992594175882L
-					type: "random"
+					id: "3049D5044A651D66"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "pentagon"
@@ -302,15 +294,15 @@
 			id: "65BBA5C0DAEEC31F"
 			rewards: [
 				{
-					id: "687FF91B1E08FDFF"
-					type: "xp"
-					xp: 20
+					count: 10
+					id: "2E5069B4F73146F3"
+					item: "minecraft:gunpowder"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "01F13A0B354BBBFD"
-					table_id: 487623848494439020L
-					type: "random"
+					id: "409D4E4910CF58A5"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -329,28 +321,15 @@
 			id: "76A29816F19E33A2"
 			rewards: [
 				{
-					id: "22546D5D3D7EB48C"
-					type: "xp"
-					xp: 50
-				}
-				{
 					count: 20
-					id: "27F653E02AC93F25"
+					id: "4B85A14E514312B9"
 					item: "minecraft:gunpowder"
 					type: "item"
 				}
 				{
-					count: 5
-					id: "4A85485A2BF26504"
-					item: "supplementaries:bomb"
-					random_bonus: 5
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2C419A310D1686C7"
-					table_id: 4196188979167302596L
-					type: "random"
+					id: "4C1084F907AFB550"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 			tasks: [{
@@ -369,15 +348,21 @@
 			id: "5FCA4FF8C135435E"
 			rewards: [
 				{
-					id: "4648D5CB942BAA4A"
-					type: "xp"
-					xp: 100
+					id: "7444FFBAFD3C077C"
+					item: {
+						Count: 1
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:creeper"
+						}
+					}
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "7A4B7D60F897D023"
-					table_id: 5564196992594175882L
-					type: "random"
+					id: "163D77EBF2FD3C07"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "pentagon"
@@ -425,10 +410,9 @@
 					xp: 1000
 				}
 				{
-					exclude_from_claim_all: true
-					id: "72DC79DE53E77CAD"
-					table_id: 4196188979167302596L
-					type: "random"
+					id: "1BF97D7748E6044E"
+					item: "minecraft:dragon_head"
+					type: "item"
 				}
 			]
 			size: 1.5d
@@ -453,10 +437,9 @@
 					xp: 1000
 				}
 				{
-					exclude_from_claim_all: true
-					id: "12C0D9B030D64A4B"
-					table_id: 4196188979167302596L
-					type: "random"
+					id: "0E8C8D6239ADAA79"
+					item: "minecraft:nether_star"
+					type: "item"
 				}
 			]
 			size: 1.5d
@@ -481,10 +464,10 @@
 					xp: 100
 				}
 				{
-					exclude_from_claim_all: true
-					id: "4BB86DB9D806D3E4"
-					table_id: 4196188979167302596L
-					type: "random"
+					count: 3
+					id: "3FA7C0697E53AEC7"
+					item: "minecraft:sponge"
+					type: "item"
 				}
 			]
 			size: 1.5d
@@ -513,12 +496,6 @@
 					id: "20AEE2C8F4472343"
 					type: "xp"
 					xp: 1000
-				}
-				{
-					exclude_from_claim_all: true
-					id: "380E221DF1F736A8"
-					table_id: 5564196992594175882L
-					type: "random"
 				}
 			]
 			size: 1.5d
@@ -570,12 +547,6 @@
 					id: "739F0D5CD8C7BA5E"
 					item: "supplementaries:pedestal"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "66C49399D8CCD721"
-					table_id: 487623848494439020L
-					type: "random"
 				}
 			]
 			size: 1.5d
@@ -638,15 +609,15 @@
 			id: "2916F873A4DA84E8"
 			rewards: [
 				{
-					id: "1E180EED68717968"
-					type: "xp"
-					xp: 20
+					count: 10
+					id: "68B245C99B1DB793"
+					item: "minecraft:ender_pearl"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "2666996F798768C7"
-					table_id: 487623848494439020L
-					type: "random"
+					id: "12DFB18598412EF9"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -666,22 +637,15 @@
 			id: "2AAF57D1D8AB6BF8"
 			rewards: [
 				{
-					id: "6A0CF631E02D49A1"
-					type: "xp"
-					xp: 50
-				}
-				{
-					count: 8
-					id: "05A65D5FBBCE30C9"
-					item: "minecraft:ender_pearl"
-					random_bonus: 8
+					count: 10
+					id: "0A30CED10B7F68AE"
+					item: "minecraft:ender_eye"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "46897BBCAF61CBCB"
-					table_id: 4196188979167302596L
-					type: "random"
+					id: "3AF73DC4D557FA7C"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 			tasks: [{
@@ -700,15 +664,21 @@
 			id: "479A4E778D8D7317"
 			rewards: [
 				{
-					id: "2BC1E9EBB5267A83"
-					type: "xp"
-					xp: 100
+					id: "1113027E196BB570"
+					item: {
+						Count: 1
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:enderman"
+						}
+					}
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "4EEDA3086FA8D846"
-					table_id: 5564196992594175882L
-					type: "random"
+					id: "0283DADCE6B472D3"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "pentagon"
@@ -758,15 +728,15 @@
 			id: "283CA6DB77D5D2EB"
 			rewards: [
 				{
-					id: "39C45D0CB4075128"
-					type: "xp"
-					xp: 20
+					count: 10
+					id: "66D0DF22B939C1D7"
+					item: "minecraft:string"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "4A6C2A97D769418B"
-					table_id: 487623848494439020L
-					type: "random"
+					id: "02C6512FE840B6AB"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -785,28 +755,21 @@
 			id: "63A1F25DF658928A"
 			rewards: [
 				{
-					id: "5E0D1C18A4137319"
-					type: "xp"
-					xp: 50
-				}
-				{
 					count: 10
-					id: "6D9B9C1582E05FFD"
-					item: "minecraft:string"
-					random_bonus: 10
-					type: "item"
-				}
-				{
-					count: 20
-					id: "13133B21B6680DA4"
+					id: "17F7FEB037D706E8"
 					item: "minecraft:spider_eye"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "319B63A612336BE5"
-					table_id: 4196188979167302596L
-					type: "random"
+					count: 10
+					id: "667ABD9D350517D9"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "4C1B150F0D42B3D5"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 			tasks: [{
@@ -825,15 +788,21 @@
 			id: "2D7E335B9D780E70"
 			rewards: [
 				{
-					id: "0673C1611D1BC1FD"
-					type: "xp"
-					xp: 100
+					id: "4FD111F837287123"
+					item: {
+						Count: 1
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:spider"
+						}
+					}
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "2B8E13883A6DEF5F"
-					table_id: 5564196992594175882L
-					type: "random"
+					id: "53478B9D7B4FC292"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "pentagon"
@@ -884,15 +853,15 @@
 			id: "4F48A4839B549C92"
 			rewards: [
 				{
-					id: "10A5CCDDA3FABD37"
-					type: "xp"
-					xp: 20
+					count: 10
+					id: "50F306254D4ED33A"
+					item: "minecraft:blaze_rod"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "7E7B0138373F4D28"
-					table_id: 487623848494439020L
-					type: "random"
+					id: "7A063E1C6AE04D5E"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -911,29 +880,15 @@
 			id: "6C9BC3A699E57162"
 			rewards: [
 				{
-					id: "06776533F6B5ABCA"
-					type: "xp"
-					xp: 50
-				}
-				{
 					count: 20
-					id: "3D8FB446CA3F27F4"
+					id: "0A8C7DBA8FB96A61"
 					item: "minecraft:blaze_rod"
-					random_bonus: 10
 					type: "item"
 				}
 				{
-					count: 10
-					id: "5A1F2CBC8D91C5BE"
-					item: "minecraft:blaze_powder"
-					random_bonus: 10
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3DD5D5A5D39C411C"
-					table_id: 4196188979167302596L
-					type: "random"
+					id: "2134C8AFA11E3541"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 			tasks: [{
@@ -952,15 +907,21 @@
 			id: "35CC1F1DA9530688"
 			rewards: [
 				{
-					id: "117A52F30802CC99"
-					type: "xp"
-					xp: 100
+					id: "32B63E145BD2F3BD"
+					item: {
+						Count: 1
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:blaze"
+						}
+					}
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "0845C88CA6D644A3"
-					table_id: 5564196992594175882L
-					type: "random"
+					id: "60C7B04DA2A98148"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "pentagon"
@@ -1023,15 +984,27 @@
 			id: "6E4FD0B568BEB3F9"
 			rewards: [
 				{
-					id: "15E0578B1F9521EF"
-					type: "xp"
-					xp: 20
+					count: 5
+					id: "3FD21AB872953477"
+					item: "minecraft:redstone"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "6CCE54980E8D2003"
-					table_id: 487623848494439020L
-					type: "random"
+					count: 5
+					id: "79E1D673D00A0A0B"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "55D583A47B0A872A"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "68B78029DFF4583E"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -1056,36 +1029,27 @@
 			id: "2D136FCDA92C92AC"
 			rewards: [
 				{
-					id: "0165B8CC821A943F"
-					type: "xp"
-					xp: 50
-				}
-				{
 					count: 10
-					id: "52854A638D3FE878"
+					id: "6BB60C25B78F5605"
 					item: "minecraft:redstone"
-					random_bonus: 10
 					type: "item"
 				}
 				{
 					count: 10
-					id: "0049AE95E8647336"
+					id: "71BE725D496FE379"
 					item: "minecraft:sugar"
-					random_bonus: 10
 					type: "item"
 				}
 				{
 					count: 10
-					id: "2A0CD06747FBE0D8"
-					item: "minecraft:glowstone_dust"
-					random_bonus: 10
+					id: "0218FDEEDF9AABBE"
+					item: "minecraft:glass_bottle"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "3F4C40818D552881"
-					table_id: 4196188979167302596L
-					type: "random"
+					id: "532B05DFCADB296C"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 			tasks: [{
@@ -1110,15 +1074,21 @@
 			id: "6F93A02E620C69FE"
 			rewards: [
 				{
-					id: "7FF2D930AF11BB82"
-					type: "xp"
-					xp: 100
+					id: "530DECED5766FA7A"
+					item: {
+						Count: 1
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:witch"
+						}
+					}
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "2019E33C08375AA8"
-					table_id: 5564196992594175882L
-					type: "random"
+					id: "16A2561A7D16AD5D"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "pentagon"
@@ -1179,15 +1149,15 @@
 			id: "738E94C4CFB05D11"
 			rewards: [
 				{
-					id: "5A7979DA8E07631A"
-					type: "xp"
-					xp: 20
+					count: 3
+					id: "6B41DAAC82AC3B2F"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "021EACDBD76A9D2E"
-					table_id: 487623848494439020L
-					type: "random"
+					id: "38B4C9EE4B7C71B7"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -1206,27 +1176,15 @@
 			id: "65CE9117B923C0DB"
 			rewards: [
 				{
-					id: "7ADAFF31822653D1"
-					type: "xp"
-					xp: 50
-				}
-				{
-					count: 3
-					id: "578580004196BB13"
+					count: 6
+					id: "5D755756186C8FA2"
 					item: "minecraft:wither_skeleton_skull"
 					type: "item"
 				}
 				{
-					count: 6
-					id: "46FE70A8D25378BD"
-					item: "minecraft:coal"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "24573A422CE166A4"
-					table_id: 4196188979167302596L
-					type: "random"
+					id: "5878510959A97113"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 			tasks: [{
@@ -1245,16 +1203,21 @@
 			id: "180B3AFF8C552F3F"
 			rewards: [
 				{
-					count: 9
-					id: "5AACC888295804E0"
-					item: "minecraft:wither_skeleton_skull"
+					id: "0F3D6D33CD654EEF"
+					item: {
+						Count: 1
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:wither_skeleton"
+						}
+					}
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "4E3E6BB30F0AF436"
-					table_id: 5564196992594175882L
-					type: "random"
+					id: "6DA661CBC29632EE"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "pentagon"
@@ -1284,12 +1247,6 @@
 					item: "allthemodium:allthemodium_ingot"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "77D3E366578B4BF0"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
 			]
 			size: 1.5d
 			tasks: [{
@@ -1303,46 +1260,6 @@
 			title: "{atm9.quest.bounty.warden}"
 			x: 1.5d
 			y: 6.0d
-		}
-		{
-			can_repeat: false
-			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
-			]
-			disable_toast: true
-			hide: true
-			hide_details_until_startable: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:item/barrier"
-				}
-			}
-			id: "764C6E8E0BBB5537"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "148550E42311F5A5"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-				{
-					id: "07FE5720E3BD9A7B"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-			]
-			x: 3.0d
-			y: 0.5d
 		}
 	]
 	title: "{atm9.chapters.3.title}"

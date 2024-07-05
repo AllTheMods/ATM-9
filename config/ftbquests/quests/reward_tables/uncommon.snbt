@@ -2,7 +2,7 @@
 	icon: "ftbquests:lootcrate"
 	id: "3A3BDBA4E9AD13C4"
 	loot_size: 1
-	order_index: 13
+	order_index: 12
 	rewards: [
 		{
 			item: {
@@ -164,46 +164,6 @@
 		{ item: "minecraft:gold_block", weight: 12.0f }
 		{ item: "minecraft:redstone_block", random_bonus: 2, weight: 20.0f }
 		{ item: "minecraft:emerald_block", weight: 10.0f }
-		{
-			item: {
-				Count: 1
-				id: "minecraft:potion"
-				tag: {
-					Potion: "potionsmaster:diamond_sight"
-				}
-			}
-			weight: 5.0f
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:potion"
-				tag: {
-					Potion: "potionsmaster:gold_sight"
-				}
-			}
-			weight: 10.0f
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:potion"
-				tag: {
-					Potion: "potionsmaster:iron_sight"
-				}
-			}
-			weight: 15.0f
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:potion"
-				tag: {
-					Potion: "potionsmaster:redstone_sight"
-				}
-			}
-			weight: 15.0f
-		}
 		{ item: "minecraft:netherite_scrap", random_bonus: 1, weight: 5.0f }
 		{ item: "minecraft:netherite_ingot" }
 		{ count: 2, item: "croptopia:toast", random_bonus: 4, weight: 20.0f }
@@ -311,28 +271,9 @@
 		{ count: 2, item: "botania:manasteel_ingot", random_bonus: 2, weight: 10.0f }
 		{ item: "botania:mana_diamond", random_bonus: 2, weight: 5.0f }
 		{ item: "botania:mana_pearl", random_bonus: 2, weight: 5.0f }
-		{
-			item: {
-				Count: 1
-				id: "twilightforest:giant_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "aquaculture:neptunium_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
 		{ item: "reliquary:pedestals/passive/white_passive_pedestal" }
 		{ count: 4, item: "functionalstorage:oak_1", random_bonus: 4, weight: 10.0f }
 		{ item: "mob_grinding_utils:absorption_hopper" }
-		{ count: 2, item: "botanypots:terracotta_hopper_botany_pot", random_bonus: 2, weight: 10.0f }
 		{ item: "mysticalagriculture:imperium_essence", weight: 8.0f }
 		{ item: "mysticalagriculture:tertium_essence", random_bonus: 1, weight: 10.0f }
 		{ count: 2, item: "mysticalagriculture:prudentium_essence", random_bonus: 2, weight: 20.0f }

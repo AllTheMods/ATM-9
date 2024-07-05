@@ -1,0 +1,1929 @@
+{
+	autofocus_id: "7B16C9B48BFDC6A0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "atm9chapters30title"
+	group: "2084F3F6FB861C5B"
+	icon: "allthetweaks:atm_star"
+	id: "3A32A38909374FD9"
+	images: [{
+		height: 3.0d
+		image: "atm:textures/questpics/chap2/atmstar_title.png"
+		rotation: 0.0d
+		width: 21.63d
+		x: 0.0d
+		y: -10.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"53A7A475B7CBAEF8"
+				"0618E5450965D329"
+				"37B2B62C5A71C8EE"
+				"491E42C5206FE876"
+				"724AD73E3E272850"
+				"7AAB331DE3EC70E9"
+				"54F9C6121165C17A"
+				"77E8626D70656436"
+				"283BCA98822430FD"
+				"5CEB1F05DC987818"
+			]
+			description: ["{atm9.quest.start3.desc.star}"]
+			icon_scale: 1.5d
+			id: "7B16C9B48BFDC6A0"
+			rewards: [
+				{
+					id: "1D23D6C988A58493"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					id: "5FA373521888317A"
+					item: "reliquary:pedestals/passive/red_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "0118FE2956AE416E"
+					item: "allthetweaks:trophy_atm"
+					type: "item"
+				}
+			]
+			size: 5.0d
+			tasks: [{
+				id: "7AC3E606FD26313A"
+				item: "allthetweaks:atm_star"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.star}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"48DA678460FC065B"
+				"6438EACBB4C72803"
+				"79F6BEB6029F2B07"
+				"4109CF7D2DFB9949"
+				"48F571F39A9A757C"
+			]
+			id: "7AAB331DE3EC70E9"
+			rewards: [
+				{
+					id: "0EECA7241CF3A71D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 10
+					id: "03D290EAA74E5118"
+					item: "allthemodium:allthemodium_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4E0F5A7424C0D554"
+					item: "allthemodium:vibranium_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1B7F5A5F5F663269"
+					item: "allthemodium:unobtainium_ingot"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "7E68183507A8B586"
+				item: "allthetweaks:nexium_emitter"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.emitter}"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"628846769B21C092"
+				"0B31F8E0195B4067"
+			]
+			id: "724AD73E3E272850"
+			rewards: [
+				{
+					id: "796D4C47C2D8A115"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 10
+					id: "62AACDE9341B1C21"
+					item: "allthemodium:allthemodium_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "41C311EF7BE74097"
+					item: "allthemodium:vibranium_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "165CDC5F3E7336D7"
+					item: "allthemodium:unobtainium_ingot"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "4DD0CE0792EDBB5A"
+				item: "allthetweaks:oblivion_shard"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.shard}"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6B60F2CE877E31C8"
+				"1F1D986C978DC776"
+				"720B972308AF5983"
+				"3E64BE6896191D59"
+				"2BA474128012B235"
+				"51560FBFF7429055"
+				"5A0A2C2137CC62CF"
+			]
+			id: "5CEB1F05DC987818"
+			rewards: [
+				{
+					id: "10266F4ACC2EA73B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 10
+					id: "1A227D156B50D217"
+					item: "allthemodium:allthemodium_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "05C956C4D284EBE8"
+					item: "allthemodium:vibranium_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "152A20004847FDAD"
+					item: "allthemodium:unobtainium_ingot"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "38E8DA22FA981A0C"
+				item: "allthetweaks:improbable_probability_device"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.device}"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5936AC38957F035C"
+				"2A7C02E400D394D0"
+				"5E6B47881DF9EF06"
+				"0B015659283EFA31"
+				"5F2AB15879E067B9"
+				"5AAD778BC16C6D46"
+				"6B9F5A4BA326E238"
+			]
+			id: "0618E5450965D329"
+			rewards: [
+				{
+					id: "16F3C71F54A3BF50"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 10
+					id: "358F4830DFE5709D"
+					item: "allthemodium:allthemodium_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6D911208455E6EE7"
+					item: "allthemodium:vibranium_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3711705AF4D57B9A"
+					item: "allthemodium:unobtainium_ingot"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "1B14246933CCEFB1"
+				item: "allthetweaks:philosophers_fuel"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.fuel}"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: ["{atm9.quest.start3.desc.blackhole}"]
+			hide: true
+			id: "53A7A475B7CBAEF8"
+			rewards: [
+				{
+					id: "0DEBC8142FE197A5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 10
+					id: "4E3742E541BDBC57"
+					item: "allthemodium:allthemodium_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4443644AB7C0407B"
+					item: "allthemodium:vibranium_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "221E08AB697B5811"
+					item: "allthemodium:unobtainium_ingot"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "6AC00420D2DB0CB7"
+				item: "allthetweaks:pulsating_black_hole"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.blackhole}"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"047E23F0AF610A01"
+				"5120F37AC57B8CCC"
+				"0AE9A8AD00BB8673"
+				"1A0010FBB8F0E045"
+				"16D782A4164F5DB2"
+			]
+			description: ["{atm9.quest.start3.desc.wither}"]
+			id: "283BCA98822430FD"
+			rewards: [
+				{
+					id: "5DE310BD097DF90C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 10
+					id: "129F012170EE8696"
+					item: "allthemodium:allthemodium_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "28670D5214AAF10D"
+					item: "allthemodium:vibranium_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "45F8F8E254F61606"
+					item: "allthemodium:unobtainium_ingot"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "050D54268195440E"
+				item: "allthetweaks:withers_compass"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.compass}"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"628BD306EA9F79A9"
+				"1CAE10DF5FF07DC6"
+				"242155AB7BCFF264"
+			]
+			id: "37B2B62C5A71C8EE"
+			rewards: [
+				{
+					id: "2285D8B8810EA64F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 10
+					id: "680F31496C961460"
+					item: "allthemodium:allthemodium_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0103E62E47AF11BC"
+					item: "allthemodium:vibranium_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "656DC6829D784FFA"
+					item: "allthemodium:unobtainium_ingot"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "69F51077FFA6880B"
+				item: "allthetweaks:dimensional_seed"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.seed}"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"72D930594AD58385"
+				"58DE67956491356D"
+				"7D9EB42177523F3D"
+				"0CB799DD47AC8EAD"
+			]
+			id: "54F9C6121165C17A"
+			rewards: [
+				{
+					id: "51E536546598A8C9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 10
+					id: "3BF4B70B4979EC65"
+					item: "allthemodium:allthemodium_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "01982479DB711A3F"
+					item: "allthemodium:vibranium_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "67F31BCD64AA82CC"
+					item: "allthemodium:unobtainium_ingot"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "3933C8F2230B21A3"
+				item: "allthetweaks:dragon_soul"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.soul}"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: ["{atm9.quest.start3.desc.altar}"]
+			hide: false
+			hide_dependency_lines: true
+			id: "491E42C5206FE876"
+			rewards: [{
+				id: "517B428D9670C231"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "22613E4FB47F8C05"
+					item: "summoningrituals:altar"
+					type: "item"
+				}
+				{
+					id: "3E9DB5654ACDD4C6"
+					item: "projecte:red_matter"
+					type: "item"
+				}
+				{
+					id: "4C530F2315AD1A34"
+					item: "allthetweaks:nether_star_block"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.start3.altar}"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: ["{atm9.quest.start3.desc.warden}"]
+			hide: true
+			id: "77E8626D70656436"
+			rewards: [{
+				id: "0F791A5859F068DB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "77E28F2F4E14715C"
+				item: "exdeorum:sculk_core"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.warden}"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.mystical}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"0F96DC3563DA78EF\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			id: "50CEFDDF4F937A69"
+			rewards: [
+				{
+					id: "109DD7CA86D8F7C9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 20
+					id: "742AB9B8EB6D430D"
+					item: "mysticalagriculture:inferium_essence"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "64573970555A994D"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.mystical}"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.meka}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"23983F4DC524B14B\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"0A093D8C4429B627\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			id: "14589C07F8126DD6"
+			rewards: [
+				{
+					id: "5B5CFE1E0EC44516"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 12
+					id: "048E3890D659C914"
+					item: "alltheores:steel_ingot"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2DD12C2239E383BC"
+				item: "alltheores:steel_ingot"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.meka}"
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: ["{atm9.quest.start3.desc.rf}"]
+			hide: true
+			id: "1A55007924F509AE"
+			rewards: [
+				{
+					id: "4F81E0A8325C9367"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "75BC339AB88B7EB9"
+					item: "rftoolsbase:dimensionalshard"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4F12102B11E6F4B4"
+				item: "rftoolsbase:dimensionalshard"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.rf}"
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: ["{atm9.quest.start3.desc.ender}"]
+			hide: true
+			id: "7C14A8C7F08A600B"
+			rewards: [
+				{
+					id: "1107D11450631625"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "39613F3CE7A0BBA1"
+					item: "enderio:vibrant_alloy_ingot"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1F3A412C6320B07A"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.ender}"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.create}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"100C477F4E63F20A\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			id: "4DEB823D217CB142"
+			rewards: [
+				{
+					id: "02812E32F3FF9A37"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 15
+					id: "08E8D188528754A6"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7A62528AEF61BA94"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.create}"
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.projectE}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"4C341941A5100759\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			icon: {
+				Count: 1
+				id: "projecte:philosophers_stone"
+				tag: { }
+			}
+			id: "55B024B830FA8C9E"
+			rewards: [
+				{
+					id: "3025496EBF23876A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 20
+					id: "0BD5C2E66EA75E8A"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4DB1DA26780F88CC"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.projectE}"
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.powah}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			id: "57E131938BB823A6"
+			rewards: [
+				{
+					id: "491C3FEB9AECB90F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 10
+					id: "6935BFF403481005"
+					item: "powah:dielectric_paste"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "65F1B940AB7EC71A"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.powah}"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.IF}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			id: "03643BFC315D3848"
+			rewards: [
+				{
+					id: "7AD8AE5E7F4BF279"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "41D92C4E1A8AC44A"
+					item: "industrialforegoing:dryrubber"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "49D4D51C8DD8CF11"
+				item: "industrialforegoing:dryrubber"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.IF}"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.bees}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"26E6ED94168A05C4\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			icon: "minecraft:honeycomb"
+			id: "65E89D301909C203"
+			rewards: [
+				{
+					id: "64B6FAF177B81C98"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "30DA64A6DA25FEBF"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "62679E7321DE026D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:honeycombs"
+					}
+				}
+				title: "Any #forge:honeycombs"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.bees}"
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: ["{atm9.quest.start3.desc.galore}"]
+			hide: true
+			icon: "generatorgalore:diamond_generator"
+			id: "1619B48D3E1FB026"
+			rewards: [
+				{
+					id: "22A2F5CC729CDB48"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "468EE9ED59B58103"
+					item: "generatorgalore:copper_generator"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6E8DD66D416DD14A"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.galore}"
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.forbidden}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"34E8FF3196478229\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			id: "569B29F60344F5E8"
+			rewards: [
+				{
+					id: "40073F615728BADC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "1F800E98FF583DD2"
+					item: "forbidden_arcanus:arcane_crystal"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "67B815DADD76235C"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.forbidden}"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.botania}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"1883B79BDB2AAE5D\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			icon: "botania:lime_mystical_flower"
+			id: "5D2717ECA1C2F8D4"
+			rewards: [
+				{
+					id: "7B84EE1F036184CD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F9BADC7E6FFC970"
+					table_id: 1340875193044128734L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "542733112F88D772"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "Any #botania:mystical_flowers"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.botania}"
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.blood}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"004F28C5C85F467B\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			id: "6613AD93F15C943E"
+			rewards: [
+				{
+					id: "51FC26461BE38BEC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "43A7FA4B9412E05E"
+					item: "bloodmagic:blankslate"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "044377815DA634B9"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.blood}"
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.force}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"030548E7416DD46A\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			id: "09DF0AF4E27A671C"
+			rewards: [
+				{
+					id: "5240DF159B7240CD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "110D513A48D83C2E"
+					item: "forcecraft:force_ingot"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "39E563B28292E594"
+				item: "forcecraft:force_gem"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.force}"
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.occult}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"4C507C004144BFEE\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			id: "2E21AA4843CF2C3B"
+			rewards: [
+				{
+					id: "31DFEBDD18711318"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "20216F550010FC80"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0CF295B6713061C3"
+				item: "occultism:golden_sacrificial_bowl"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.occult}"
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: ["{atm9.quest.start3.desc.reliquary}"]
+			hide: true
+			id: "1DA755A7C94A6721"
+			rewards: [
+				{
+					id: "605BFD355DB7DD26"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "2B4CB582EEB189AC"
+					item: "reliquary:slime_pearl"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "53D18123BD777B5D"
+				item: "minecraft:rose_bush"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.reliquary}"
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: ["{atm9.quest.start3.desc.advanced}"]
+			hide: true
+			icon: "advgenerators:turbine_rotor_tier5"
+			id: "27ECF7EED4E9DD55"
+			rewards: [
+				{
+					id: "2D58E8B5D035FC0E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 10
+					id: "51A46302225566C6"
+					item: "advgenerators:iron_frame"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "338ABBCD422DB155"
+				item: "advgenerators:iron_wiring"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.advanced}"
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.AE2}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"07210DDF872160BA\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			id: "226FBA1F681E1C7B"
+			rewards: [
+				{
+					id: "5B6E112AE87CF2DB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "1A18FE63721D4CF6"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "146AB7BE21B2E578"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.AE2}"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["226FBA1F681E1C7B"]
+			description: ["{atm9.quest.start3.desc.terminal}"]
+			hide_dependent_lines: true
+			id: "48DA678460FC065B"
+			rewards: [
+				{
+					id: "4F8491488CD94462"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					id: "2CF94E5741261D7D"
+					item: "ae2wtlib:wireless_pattern_encoding_terminal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "75F19FEF23B80438"
+					item: "ae2wtlib:wireless_universal_terminal"
+					type: "item"
+				}
+				{
+					id: "7F738A6A0BD913A9"
+					item: "ae2:singularity"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.start3.terminal}"
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4DEB823D217CB142"]
+			description: ["{atm9.quest.start3.desc.arm}"]
+			hide_dependent_lines: true
+			id: "6438EACBB4C72803"
+			rewards: [{
+				count: 10
+				id: "694EA231478156E4"
+				item: "alltheores:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C9917A14AA48582"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.arm}"
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["14589C07F8126DD6"]
+			description: ["{atm9.quest.start3.desc.gravitational}"]
+			hide_dependent_lines: true
+			id: "79F6BEB6029F2B07"
+			rewards: [{
+				id: "2427F7A9D9830758"
+				item: "mekanism:ultimate_induction_provider"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1124A10A704D5FA0"
+				item: "mekanism:module_gravitational_modulating_unit"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.gravitational}"
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1A55007924F509AE"]
+			description: ["{atm9.quest.start3.desc.wireless}"]
+			hide_dependent_lines: true
+			id: "4109CF7D2DFB9949"
+			rewards: [{
+				count: 3
+				id: "7834943D62078C93"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41786147C3369649"
+				item: "xnet:wireless_router"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.wireless}"
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["57E131938BB823A6"]
+			description: ["{atm9.quest.start3.desc.player}"]
+			hide_dependent_lines: true
+			id: "48F571F39A9A757C"
+			rewards: [{
+				count: 10
+				id: "1DE3361920315C85"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5116B07A1287387B"
+				item: "powah:player_transmitter_nitro"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.player}"
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["226FBA1F681E1C7B"]
+			description: ["{atm9.quest.start3.desc.singularity}"]
+			hide_dependent_lines: true
+			id: "628846769B21C092"
+			rewards: [{
+				id: "5D90646C0F1D695C"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70988FDA9E17D0E9"
+				item: "ae2:quantum_entangled_singularity"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.singularity}"
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["55B024B830FA8C9E"]
+			description: ["{atm9.quest.start3.desc.omega}"]
+			hide_dependent_lines: true
+			id: "0B31F8E0195B4067"
+			rewards: [{
+				count: 2
+				id: "6F8FC4BF855F8BCC"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5418F73CDC951D85"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:klein_star_omega"
+					}
+					type: "item"
+				}
+				{
+					id: "45DBB728D0A08900"
+					item: "projecte:red_matter"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.start3.omega}"
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14589C07F8126DD6"]
+			description: ["{atm9.quest.start3.desc.antimatter}"]
+			hide_dependent_lines: true
+			id: "6B60F2CE877E31C8"
+			rewards: [{
+				count: 3
+				id: "2B0B94F0C9BE7E4C"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34C1BA2F3EECADE3"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.antimatter}"
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C14A8C7F08A600B"]
+			description: ["{atm9.quest.start3.desc.bank}"]
+			hide_dependent_lines: true
+			id: "1F1D986C978DC776"
+			rewards: [{
+				id: "3B9E9D783527FCD3"
+				item: "enderio:advanced_capacitor_bank"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D9A4F7ABC641603"
+				item: "enderio:vibrant_capacitor_bank"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.bank}"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["226FBA1F681E1C7B"]
+			description: ["{atm9.quest.start3.desc.storage}"]
+			hide_dependent_lines: true
+			id: "720B972308AF5983"
+			rewards: [{
+				count: 2
+				id: "1BE600E4614FDE98"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "435BF5C3725B0864"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.storage}"
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1A55007924F509AE"]
+			description: ["{atm9.quest.start3.desc.flight}"]
+			hide_dependent_lines: true
+			id: "3E64BE6896191D59"
+			rewards: [{
+				count: 5
+				id: "211B6C9D33FACD34"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "766C0713DE1A30AD"
+				item: "rftoolsutility:flight_module"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.flight}"
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["57E131938BB823A6"]
+			description: ["{atm9.quest.start3.desc.nitro}"]
+			hide_dependent_lines: true
+			id: "2BA474128012B235"
+			rewards: [{
+				count: 10
+				id: "11116C7E21213810"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2527E744898351B0"
+				item: {
+					Count: 1
+					id: "powah:battery_nitro"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.nitro}"
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["55B024B830FA8C9E"]
+			description: ["{atm9.quest.start3.desc.gale}"]
+			hide_dependent_lines: true
+			id: "51560FBFF7429055"
+			rewards: [{
+				id: "307DC5873D7629D1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:swiftwolf_rending_gale"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45CE24BDF41486F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:swiftwolf_rending_gale"
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.gale}"
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27ECF7EED4E9DD55"]
+			description: ["{atm9.quest.start3.desc.capacitor}"]
+			hide_dependent_lines: true
+			id: "5A0A2C2137CC62CF"
+			rewards: [{
+				count: 3
+				id: "020D7D842FF12558"
+				item: "advgenerators:power_capacitor_tier3"
+				type: "item"
+			}]
+			tasks: [{
+				id: "513F1DA2F08F408E"
+				item: "advgenerators:power_capacitor_tier3"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.capacitor}"
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7C14A8C7F08A600B"]
+			description: ["{atm9.quest.start3.desc.sentient}"]
+			hide_dependent_lines: true
+			id: "5936AC38957F035C"
+			rewards: [{
+				count: 5
+				id: "7D35522EF968339A"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AA316544D45821F"
+				item: "enderio:sentient_ender"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.sentient}"
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1619B48D3E1FB026"]
+			description: ["{atm9.quest.start3.desc.endergen}"]
+			hide_dependent_lines: true
+			id: "2A7C02E400D394D0"
+			rewards: [{
+				count: 32
+				id: "643C2A3A1A733CEE"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24FD7A3B29617908"
+				item: "generatorgalore:ender_generator"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.endergen}"
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["09DF0AF4E27A671C"]
+			description: ["{atm9.quest.start3.desc.heat}"]
+			hide_dependent_lines: true
+			id: "5E6B47881DF9EF06"
+			rewards: [{
+				count: 64
+				id: "2553B7D56FB64FDC"
+				item: "forcecraft:force_gem"
+				type: "item"
+			}]
+			tasks: [{
+				id: "576C9D6417DB50BB"
+				item: "forcecraft:heat_core"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.heat}"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["569B29F60344F5E8"]
+			description: ["{atm9.quest.start3.desc.deorum}"]
+			hide_dependent_lines: true
+			id: "0B015659283EFA31"
+			rewards: [{
+				id: "1739292B8ADDC7A7"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4947F251C6DE882A"
+				item: "forbidden_arcanus:deorum_block"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.deorum}"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50CEFDDF4F937A69"]
+			description: ["{atm9.quest.start3.desc.awakened}"]
+			hide_dependent_lines: true
+			id: "5F2AB15879E067B9"
+			rewards: [
+				{
+					count: 10
+					id: "2971D8C60D7667FB"
+					item: "mysticalagradditions:insanium_essence"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "601C41F93E308A30"
+					item: "mysticalagriculture:awakened_supremium_essence"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7DBFFE491CE87E6A"
+					item: "mysticalagriculture:awakened_supremium_furnace"
+					type: "item"
+				}
+				{
+					id: "60DC3E58E137C717"
+					item: "mysticalagradditions:insanium_coal_block"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.start3.awakened}"
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["55B024B830FA8C9E"]
+			description: ["{atm9.quest.start3.desc.aeternalis}"]
+			hide_dependent_lines: true
+			id: "5AAD778BC16C6D46"
+			rewards: [{
+				count: 64
+				id: "41AE72F10EDB7A65"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34F5C1168F221309"
+				item: "projecte:aeternalis_fuel_block"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.aeternalis}"
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["55B024B830FA8C9E"]
+			description: ["{atm9.quest.start3.desc.ring}"]
+			hide_dependent_lines: true
+			id: "6B9F5A4BA326E238"
+			rewards: [{
+				count: 3
+				id: "40FD7E9258B8EE6C"
+				item: "allthemodium:unobtainium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32EED772E1BBA21E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:arcana_ring"
+					tag: {
+						Mode: 0b
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.ring}"
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6613AD93F15C943E"]
+			description: ["{atm9.quest.start3.desc.rune}"]
+			hide_dependent_lines: true
+			id: "047E23F0AF610A01"
+			rewards: [{
+				id: "5210300DA178F469"
+				item: "bloodmagic:weakbloodshard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52A97F96718D5EA4"
+				item: "bloodmagic:accelerationrune"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.rune}"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1DA755A7C94A6721"]
+			description: ["{atm9.quest.start3.desc.witherless}"]
+			hide_dependent_lines: true
+			id: "5120F37AC57B8CCC"
+			rewards: [{
+				id: "6E03309F943A8114"
+				item: "reliquary:handgun"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5292EE62E3CC5373"
+				item: "reliquary:witherless_rose"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.witherless}"
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1619B48D3E1FB026"]
+			description: ["{atm9.quest.start3.desc.nether}"]
+			hide_dependent_lines: true
+			id: "0AE9A8AD00BB8673"
+			rewards: [{
+				count: 5
+				id: "04D20E39BF7FBBF6"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22A11C361740EC51"
+				item: "generatorgalore:netherstar_generator"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.nether}"
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["03643BFC315D3848"]
+			description: ["{atm9.quest.start3.desc.builder}"]
+			hide_dependent_lines: true
+			id: "1A0010FBB8F0E045"
+			rewards: [{
+				count: 9
+				id: "1D163D331D0D4E8C"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33FF0E41E148720B"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.builder}"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50CEFDDF4F937A69"]
+			description: ["{atm9.quest.start3.desc.seeds}"]
+			hide_dependent_lines: true
+			id: "628BD306EA9F79A9"
+			rewards: [{
+				count: 4
+				id: "4C606BE3C29F8034"
+				item: "mysticalagradditions:insanium_farmland"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "15CC76B201C2BF78"
+					item: "mysticalagriculture:gaia_spirit_seeds"
+					type: "item"
+				}
+				{
+					id: "01B464F6FB555FE8"
+					item: "mysticalagriculture:nether_star_seeds"
+					type: "item"
+				}
+				{
+					id: "5C8324DF9E2C6415"
+					item: "mysticalagriculture:nitro_crystal_seeds"
+					type: "item"
+				}
+				{
+					id: "57A88E23E4611719"
+					item: "mysticalagriculture:dragon_egg_seeds"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.start3.seeds}"
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["55B024B830FA8C9E"]
+			description: ["{atm9.quest.start3.desc.dark}"]
+			hide_dependent_lines: true
+			id: "1CAE10DF5FF07DC6"
+			rewards: [{
+				count: 3
+				id: "156DBF76C50E5E62"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D516034842E6933"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.dark}"
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.ars}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			id: "7A11000C476D2F7F"
+			rewards: [
+				{
+					id: "3BC0506D586B0020"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 10
+					id: "005D9FE31FA54066"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "69755C4BDB670312"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.ars}"
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.thermal}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"658721DF03EC997D\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			icon: "thermal:machine_frame"
+			id: "12649E8A55F3F8D6"
+			rewards: [
+				{
+					id: "22E05C540EE05F10"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "7CAEEDB8612682E3"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "220562928713B6BE"
+				item: "alltheores:tin_ingot"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.thermal}"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7A11000C476D2F7F"]
+			description: ["{atm9.quest.start3.desc.focus}"]
+			hide_dependent_lines: true
+			id: "72D930594AD58385"
+			tasks: [{
+				id: "4FFA0367A965C3F9"
+				item: "ars_nouveau:summon_focus"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.focus}"
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2E21AA4843CF2C3B"]
+			description: ["{atm9.quest.start3.desc.soulgem}"]
+			hide_dependent_lines: true
+			id: "58DE67956491356D"
+			rewards: [{
+				count: 3
+				id: "69F1B4157494D045"
+				item: {
+					Count: 1
+					id: "occultism:soul_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "515354B38410B041"
+				item: {
+					Count: 1
+					id: "occultism:soul_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.soulgem}"
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D2717ECA1C2F8D4"]
+			description: ["{atm9.quest.start3.desc.gaia}"]
+			hide_dependent_lines: true
+			id: "7D9EB42177523F3D"
+			rewards: [{
+				count: 3
+				id: "6DF29DB6EF4A54E9"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DD2358EE8AF8CB9"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.gaia}"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65E89D301909C203"]
+			description: ["{atm9.quest.start3.desc.dragonegg}"]
+			hide_dependent_lines: true
+			id: "0CB799DD47AC8EAD"
+			rewards: [{
+				count: 8
+				id: "6CC3E847C13097C8"
+				item: "productivebees:draconic_chunk"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DC52CA2E837B17A"
+				item: "productivebees:inactive_dragon_egg"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.dragonegg}"
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["12649E8A55F3F8D6"]
+			hide_dependent_lines: true
+			id: "242155AB7BCFF264"
+			rewards: [{
+				id: "0D9CD7C969926A6B"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "201D7AE8C1CFF629"
+					item: "thermal_extra:shellite_ingot"
+					type: "item"
+				}
+				{
+					id: "7ED39A4AF9D797B7"
+					item: "thermal_extra:soul_infused_ingot"
+					type: "item"
+				}
+				{
+					id: "2E0207AB8975EB4D"
+					item: "thermal_extra:twinite_ingot"
+					type: "item"
+				}
+				{
+					id: "3B37EA192CD0F08A"
+					item: "thermal_extra:dragonsteel_ingot"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.start3.ingots}"
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12FEB94E58970BD5"]
+			description: ["{atm9.quest.start3.desc.start}"]
+			hide_dependent_lines: true
+			icon: "mekanismgenerators:wind_generator"
+			id: "04ED71D67F75FE4C"
+			size: 2.5d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "2EEF803881DA4001"
+				type: "dimension"
+			}]
+			title: "{atm9.quest.start3.start}"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["04ED71D67F75FE4C"]
+			description: [
+				"{atm9.quest.start3.desc.hnn}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"0A52D0932DA3F809\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide: true
+			id: "6CA4BC4BFC33C392"
+			rewards: [
+				{
+					id: "207A3044288D7F8F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "436913A4908F3C42"
+					item: "hostilenetworks:blank_data_model"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6771226AA560B35B"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.hnn}"
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6CA4BC4BFC33C392"]
+			description: ["{atm9.quest.start3.desc.prediction}"]
+			hide_dependent_lines: true
+			id: "16D782A4164F5DB2"
+			rewards: [{
+				count: 15
+				id: "07DE83834B7DCC3D"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "780F4CE9E8533B47"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.start3.prediction}"
+			x: -2.0d
+			y: 8.5d
+		}
+	]
+	title: "{atm9.chapters.30.title}"
+}

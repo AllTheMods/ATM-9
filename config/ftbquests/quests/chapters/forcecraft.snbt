@@ -1,0 +1,2312 @@
+{
+	autofocus_id: "3759AA2701CEDCED"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "forcecraft"
+	group: "02FE661031A105D8"
+	icon: "forcecraft:force_gem"
+	id: "030548E7416DD46A"
+	images: [
+		{
+			height: 2.5d
+			image: "atm:textures/questpics/force/forcecraft.png"
+			rotation: 0.0d
+			width: 10.994897959183675d
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/force/force_infuser.png"
+			rotation: 0.0d
+			width: 3.3333333333333335d
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			image: "forcecraft:item/pig_force_flask"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.5d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "forcecraft:item/undeath_card"
+			rotation: 0.0d
+			width: 2.0d
+			x: 21.5d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			image: "forcecraft:item/treasure_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/force/force_engine.png"
+			rotation: 0.0d
+			width: 4.834123222748815d
+			x: 22.5d
+			y: -6.0d
+		}
+	]
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{atm9.quest.force.desc.forcecraft}"]
+			id: "34D43BCC9A62C741"
+			rewards: [
+				{
+					count: 10
+					id: "3285616D71702511"
+					item: "forcecraft:force_gem"
+					type: "item"
+				}
+				{
+					id: "443F120B8737ADD4"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "forcecraft:force_and_you"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7926FAF3EAF22074"
+				item: "forcecraft:force_gem"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.forcecraft}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0754E705E45E56DE"]
+			description: ["{atm9.quest.force.desc.rod}"]
+			id: "15767C890349FDE3"
+			rewards: [{
+				id: "5BB319C636AF01EC"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2AFC6B5517E3299E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							camo: 0b
+							ender: 0b
+							healing: 0
+							light: 0b
+							sight: 0b
+							speed: 0
+						}
+					}
+					id: "forcecraft:force_rod"
+					tag: {
+						Damage: 0
+						forcecraft: {
+							camo: 0b
+							ender: 0b
+							healing: 0
+							light: 0b
+							sight: 0b
+							speed: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.force.rod}"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15767C890349FDE3"]
+			description: ["{atm9.quest.force.desc.sapling}"]
+			id: "211B76290F4523CA"
+			rewards: [{
+				count: 3
+				id: "627EFC29A25C4437"
+				item: "forcecraft:force_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "040C9F3ABB414578"
+				item: "forcecraft:force_sapling"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.sapling}"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BA4733C37D72830"]
+			description: ["{atm9.quest.force.desc.rods}"]
+			id: "6770B583297A7D78"
+			rewards: [{
+				id: "3C75D29D10E514C0"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7B2BA01E891884B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							camo: 0b
+							ender: 0b
+							healing: 0
+							light: 0b
+							sight: 0b
+							speed: 0
+						}
+					}
+					id: "forcecraft:force_rod"
+					tag: {
+						Damage: 0
+						forcecraft: {
+							camo: 0b
+							ender: 0b
+							healing: 0
+							light: 0b
+							sight: 0b
+							speed: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.force.rods}"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34D43BCC9A62C741"]
+			description: ["{atm9.quest.force.desc.ingot}"]
+			id: "0754E705E45E56DE"
+			rewards: [{
+				count: 5
+				id: "0945279AC6E6ED33"
+				item: "forcecraft:force_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2DB768714B706485"
+				item: "forcecraft:force_ingot"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.ingot}"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["211B76290F4523CA"]
+			description: ["{atm9.quest.force.desc.stick}"]
+			id: "5BA4733C37D72830"
+			rewards: [{
+				count: 10
+				id: "291256765146D170"
+				item: "forcecraft:force_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0242587804E15FFF"
+				item: "forcecraft:force_stick"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.stick}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0754E705E45E56DE"]
+			description: ["{atm9.quest.force.desc.shears}"]
+			id: "0532E1D9A5791175"
+			rewards: [{
+				count: 20
+				id: "47536C763D5C253A"
+				item: "forcecraft:raw_bacon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "119D1BC1B02391D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							bane: 0
+							bleed: 0
+							camo: 0b
+							ender: 0b
+							force: 0
+							freezing: 0b
+							heat: 0b
+							light: 0b
+							luck: 0
+							lumber: 0b
+							rainbow: 0b
+							sharp: 0
+							sight: 0b
+							silk: 0b
+							speed: 0
+							sturdy: 0
+							treasure: 0b
+							wing: 0b
+						}
+					}
+					id: "forcecraft:force_shears"
+					tag: {
+						Damage: 0
+						forcecraft: {
+							bane: 0
+							bleed: 0
+							camo: 0b
+							ender: 0b
+							force: 0
+							freezing: 0b
+							heat: 0b
+							light: 0b
+							luck: 0
+							lumber: 0b
+							rainbow: 0b
+							sharp: 0
+							sight: 0b
+							silk: 0b
+							speed: 0
+							sturdy: 0
+							treasure: 0b
+							wing: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.force.shears}"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0754E705E45E56DE"]
+			description: ["{atm9.quest.force.desc.armor}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						bane: 0
+						bleed: 0
+						camo: 0b
+						ender: 0b
+						force: 0
+						freezing: 0b
+						heat: 0b
+						light: 0b
+						luck: 0
+						lumber: 0b
+						rainbow: 0b
+						sharp: 0
+						sight: 0b
+						silk: 0b
+						speed: 0
+						sturdy: 0
+						treasure: 0b
+						wing: 0b
+					}
+				}
+				id: "forcecraft:force_helmet"
+				tag: {
+					Damage: 0
+					forcecraft: {
+						bane: 0
+						bleed: 0
+						camo: 0b
+						ender: 0b
+						force: 0
+						freezing: 0b
+						heat: 0b
+						light: 0b
+						luck: 0
+						lumber: 0b
+						rainbow: 0b
+						sharp: 0
+						sight: 0b
+						silk: 0b
+						speed: 0
+						sturdy: 0
+						treasure: 0b
+						wing: 0b
+					}
+				}
+			}
+			id: "64C4068E72BAE6F3"
+			rewards: [{
+				id: "556497D0A8961104"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "248BB9CD36B9FC72"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+						id: "forcecraft:force_helmet"
+						tag: {
+							Damage: 0
+							forcecraft: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72F78A21CABD11A8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+						id: "forcecraft:force_chest"
+						tag: {
+							Damage: 0
+							forcecraft: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72E62AD6930B4BC9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+						id: "forcecraft:force_legs"
+						tag: {
+							Damage: 0
+							forcecraft: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D8728FEC2329E25"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+						id: "forcecraft:force_boots"
+						tag: {
+							Damage: 0
+							forcecraft: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.force.armor}"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["15767C890349FDE3"]
+			description: ["{atm9.quest.force.desc.infuser}"]
+			id: "3243D1332800960E"
+			rewards: [{
+				count: 2
+				id: "574305E5A0CCF554"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3D50291588F085D8"
+				item: "forcecraft:infuser"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.infuser}"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3243D1332800960E"]
+			description: ["{atm9.quest.force.desc.upgrade}"]
+			id: "5500A1A104FD4A96"
+			shape: "diamond"
+			tasks: [{
+				id: "0455FEC6BF7C7A11"
+				item: {
+					Count: 1
+					id: "forcecraft:upgrade_tome"
+					tag: {
+						points: 0
+						progressCache: "0/2"
+						tier: 0
+						tier0: [ ]
+						tier1: [ ]
+						tier2: [ ]
+						tier3: [ ]
+						tier4: [ ]
+						tier5: [ ]
+						tier6: [ ]
+						tier7: [ ]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.force.upgrade}"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3243D1332800960E"]
+			description: ["{atm9.quest.force.desc.fuel}"]
+			id: "1BF7383BCF290A87"
+			rewards: [{
+				count: 20
+				id: "64C7C4CDCFE987A9"
+				item: "forcecraft:force_gem"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3C1B3203EB92E627"
+				item: "forcecraft:force_gem"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.fuel}"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1BF7383BCF290A87"
+				"5500A1A104FD4A96"
+				"3243D1332800960E"
+			]
+			description: ["{atm9.quest.force.desc.0}"]
+			id: "00F914DC9D828199"
+			rewards: [
+				{
+					count: 10
+					id: "20C3587DA2BD7071"
+					item: "forcecraft:force_gem"
+					type: "item"
+				}
+				{
+					id: "5C291F001D18E1EB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "62696E44F5CD094F"
+					item: "forcecraft:claw"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "forcecraft:tier0/tier"
+				criterion: ""
+				id: "3791A93059353623"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.force.0}"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00F914DC9D828199"]
+			description: ["{atm9.quest.force.desc.nugget}"]
+			icon: "forcecraft:force_stick"
+			id: "6EF6038CA170D909"
+			rewards: [{
+				count: 5
+				id: "71B5D7C2A480CCA8"
+				item: "forcecraft:force_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15B34647BEFFBECF"
+				item: "forcecraft:force_nugget"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.nugget}"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00F914DC9D828199"]
+			description: ["{atm9.quest.force.desc.claw}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						bane: 0
+						bleed: 0
+						camo: 0b
+						ender: 0b
+						force: 0
+						freezing: 0b
+						heat: 0b
+						light: 0b
+						luck: 0
+						lumber: 0b
+						rainbow: 0b
+						sharp: 0
+						sight: 0b
+						silk: 0b
+						speed: 0
+						sturdy: 0
+						treasure: 0b
+						wing: 0b
+					}
+				}
+				id: "forcecraft:force_sword"
+				tag: {
+					Damage: 0
+					forcecraft: {
+						bane: 0
+						bleed: 0
+						camo: 0b
+						ender: 0b
+						force: 0
+						freezing: 0b
+						heat: 0b
+						light: 0b
+						luck: 0
+						lumber: 0b
+						rainbow: 0b
+						sharp: 0
+						sight: 0b
+						silk: 0b
+						speed: 0
+						sturdy: 0
+						treasure: 0b
+						wing: 0b
+					}
+				}
+			}
+			id: "44D91E62B6C961E3"
+			rewards: [{
+				count: 3
+				id: "6D5C2DF8BBE08FF4"
+				item: "forcecraft:claw"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CD5FC112CC8AF51"
+				item: "forcecraft:claw"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.claw}"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"44D91E62B6C961E3"
+				"6EF6038CA170D909"
+			]
+			description: ["{atm9.quest.force.desc.1}"]
+			id: "69448CE0BC6948B7"
+			rewards: [
+				{
+					count: 10
+					id: "67F139FE00E2A319"
+					item: "forcecraft:force_gem"
+					type: "item"
+				}
+				{
+					id: "7C612513FD732445"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "square"
+			tasks: [{
+				advancement: "forcecraft:tier1/tier"
+				criterion: ""
+				id: "57356CC64A72BF86"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.force.1}"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69448CE0BC6948B7"]
+			description: ["{atm9.quest.force.desc.sugar}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						bane: 0
+						bleed: 0
+						camo: 0b
+						ender: 0b
+						force: 0
+						freezing: 0b
+						heat: 0b
+						light: 0b
+						luck: 0
+						lumber: 0b
+						rainbow: 0b
+						sharp: 0
+						sight: 0b
+						silk: 0b
+						speed: 0
+						sturdy: 0
+						treasure: 0b
+						wing: 0b
+					}
+				}
+				id: "forcecraft:force_boots"
+				tag: {
+					Damage: 0
+					forcecraft: {
+						bane: 0
+						bleed: 0
+						camo: 0b
+						ender: 0b
+						force: 0
+						freezing: 0b
+						heat: 0b
+						light: 0b
+						luck: 0
+						lumber: 0b
+						rainbow: 0b
+						sharp: 0
+						sight: 0b
+						silk: 0b
+						speed: 0
+						sturdy: 0
+						treasure: 0b
+						wing: 0b
+					}
+				}
+			}
+			id: "6A58528B3EA7D922"
+			rewards: [{
+				count: 12
+				id: "6C2818D31158F067"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E07FCF9EF71EB38"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.sugar}"
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69448CE0BC6948B7"]
+			description: ["{atm9.quest.force.desc.source}"]
+			icon: "minecraft:campfire"
+			id: "780C9A0FD7291178"
+			rewards: [{
+				count: 3
+				id: "544651A1E12C8B20"
+				item: "forcecraft:golden_power_source"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73E63719331948E3"
+				item: "forcecraft:golden_power_source"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.source}"
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"780C9A0FD7291178"
+				"6A58528B3EA7D922"
+				"749FC88665641D28"
+			]
+			description: ["{atm9.quest.force.desc.2}"]
+			id: "3759AA2701CEDCED"
+			rewards: [
+				{
+					count: 10
+					id: "5D48760F2D6DE3FB"
+					item: "forcecraft:force_gem"
+					type: "item"
+				}
+				{
+					id: "778E949F3EB9774D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 10
+					id: "068D1D8C15AEBA64"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "forcecraft:tier2/tier"
+				criterion: ""
+				id: "0D5EE2337CEC538B"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.force.2}"
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3759AA2701CEDCED"]
+			description: ["{atm9.quest.force.desc.snow}"]
+			icon: "minecraft:snowball"
+			id: "17CB5287E43469F8"
+			rewards: [{
+				count: 16
+				id: "10EA93D6B25B2425"
+				item: "minecraft:snowball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02877A5326C681E4"
+				item: "forcecraft:snow_cookie"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.snow}"
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3759AA2701CEDCED"]
+			description: ["{atm9.quest.force.desc.exp}"]
+			id: "1EB9711A0902F57D"
+			rewards: [{
+				id: "2FC7C75886561CBB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "16F7F7E5795A814F"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.exp}"
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3759AA2701CEDCED"]
+			description: ["{atm9.quest.force.desc.speed}"]
+			id: "6361C073D6E2131F"
+			rewards: [{
+				count: 12
+				id: "2DF9147B95505B4F"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6257D2A81E489647"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.speed}"
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3759AA2701CEDCED"]
+			description: ["{atm9.quest.force.desc.dye}"]
+			icon: "ironfurnaces:rainbow_core"
+			id: "22E9930849F2240E"
+			rewards: [
+				{
+					count: 3
+					id: "3415DED989C90272"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "06CD90BCBDA66F83"
+					item: "minecraft:orange_dye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "41780535ED5EA9A4"
+					item: "minecraft:yellow_dye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1AC519D4E17416C8"
+					item: "minecraft:green_dye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0E76A2976D4E4853"
+					item: "minecraft:cyan_dye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "17E3140451D89C27"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2D82350AD983E559"
+					item: "minecraft:purple_dye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CE545ABA9FA2306"
+				item: "minecraft:blue_dye"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.dye}"
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3759AA2701CEDCED"]
+			description: ["{atm9.quest.force.desc.fortune}"]
+			id: "637900A740493919"
+			rewards: [{
+				count: 10
+				id: "202B8613620E7CED"
+				item: "forcecraft:fortune_cookie"
+				type: "item"
+			}]
+			tasks: [{
+				id: "594DABA0B074AE23"
+				item: "forcecraft:fortune_cookie"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.fortune}"
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3759AA2701CEDCED"]
+			description: ["{atm9.quest.force.desc.pack1}"]
+			id: "16EF0E35AC0B862B"
+			tasks: [{
+				id: "3E8399FF7D3A47FB"
+				item: "forcecraft:force_pack_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.pack1}"
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3759AA2701CEDCED"]
+			description: ["{atm9.quest.force.desc.flint}"]
+			id: "5E79FD4B9C8AD2FC"
+			rewards: [{
+				count: 16
+				id: "757B07C5B8709F8A"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EE6F5D4F2760BF0"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.flint}"
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"17CB5287E43469F8"
+				"5E79FD4B9C8AD2FC"
+				"16EF0E35AC0B862B"
+				"1EB9711A0902F57D"
+				"22E9930849F2240E"
+				"637900A740493919"
+				"6361C073D6E2131F"
+			]
+			description: ["{atm9.quest.force.desc.3}"]
+			id: "3EF9887B16A97F2B"
+			rewards: [
+				{
+					count: 10
+					id: "45E7D4B2A14DFAB5"
+					item: "forcecraft:force_gem"
+					type: "item"
+				}
+				{
+					id: "4DDAF1A125122BA3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "square"
+			tasks: [{
+				advancement: "forcecraft:tier3/tier"
+				criterion: ""
+				id: "696D9EC272C89F3F"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.force.3}"
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EF9887B16A97F2B"]
+			description: ["{atm9.quest.force.desc.arrow}"]
+			icon: "bloodmagic:weakbloodshard"
+			id: "34171EC54DDFEB22"
+			rewards: [{
+				count: 10
+				id: "4D5AD08F6793B593"
+				item: {
+					Count: 1
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "minecraft:strong_harming"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ADC9CEF5B239299"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.arrow}"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EF9887B16A97F2B"]
+			description: ["{atm9.quest.force.desc.web}"]
+			icon: "silentgear:fine_silk"
+			id: "6DDA608E18A9F725"
+			rewards: [{
+				count: 24
+				id: "32DC549A5842D90E"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C806003F8D62B4F"
+				item: "minecraft:cobweb"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.web}"
+			x: 16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3EF9887B16A97F2B"]
+			description: ["{atm9.quest.force.desc.invis}"]
+			icon: "botania:invisibility_cloak"
+			id: "4AE722F8A90E8695"
+			tasks: [{
+				id: "51EF733F4A89318E"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:invisibility"
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.force.invis}"
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EF9887B16A97F2B"]
+			description: ["{atm9.quest.force.desc.pack2}"]
+			id: "2EAD6306EF0C7203"
+			tasks: [{
+				id: "064FD9B03C3B22C9"
+				item: "forcecraft:force_pack_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.pack2}"
+			x: 16.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4AE722F8A90E8695"
+				"2EAD6306EF0C7203"
+				"6DDA608E18A9F725"
+				"34171EC54DDFEB22"
+			]
+			description: ["{atm9.quest.force.desc.4}"]
+			id: "65FD8DD3973415F8"
+			rewards: [
+				{
+					count: 10
+					id: "5B4217EB3523528F"
+					item: "forcecraft:force_gem"
+					type: "item"
+				}
+				{
+					id: "18D75D0EAE5ED4EF"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "forcecraft:tier4/tier"
+				criterion: ""
+				id: "514637FA77332411"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.force.4}"
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65FD8DD3973415F8"]
+			description: ["{atm9.quest.force.desc.eye}"]
+			id: "35B5C44B6BC96B3C"
+			rewards: [{
+				count: 15
+				id: "2416DFA73D06D32C"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "306ACA6287E8948D"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.eye}"
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65FD8DD3973415F8"]
+			description: ["{atm9.quest.force.desc.heat}"]
+			id: "4E9AB4190B5AD227"
+			rewards: [{
+				count: 5
+				id: "261BC5844D86D213"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42730343E776E196"
+				item: "forcecraft:golden_power_source"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.heat}"
+			x: 18.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65FD8DD3973415F8"]
+			description: ["{atm9.quest.force.desc.pack3}"]
+			id: "669384734345C6A7"
+			tasks: [{
+				id: "0E463511AA6A5DB1"
+				item: "forcecraft:force_pack_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.pack3}"
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"669384734345C6A7"
+				"35B5C44B6BC96B3C"
+				"4E9AB4190B5AD227"
+			]
+			description: ["{atm9.quest.force.desc.5}"]
+			id: "4931AD732898B6F0"
+			rewards: [
+				{
+					count: 10
+					id: "6F91E67DFCE5A41E"
+					item: "forcecraft:force_gem"
+					type: "item"
+				}
+				{
+					id: "04584BECF815472D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "square"
+			tasks: [{
+				advancement: "forcecraft:tier5/tier"
+				criterion: ""
+				id: "1CB1E751E2BC0D8D"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.force.5}"
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4931AD732898B6F0"]
+			description: ["{atm9.quest.force.desc.tear}"]
+			icon: "minecraft:enchanted_golden_apple"
+			id: "1051862AED39785A"
+			rewards: [{
+				count: 10
+				id: "2DD18072BCEBC944"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BD3ACB5040B3C47"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.tear}"
+			x: 21.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4931AD732898B6F0"]
+			description: ["{atm9.quest.force.desc.feather}"]
+			id: "26BDA3F2EFE514EC"
+			rewards: [{
+				count: 16
+				id: "6E54BD6D679ABAA7"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59A1CBFC32C486C6"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.feather}"
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4931AD732898B6F0"]
+			description: ["{atm9.quest.force.desc.pack4}"]
+			id: "0413A37ECCB74956"
+			tasks: [{
+				id: "38A5B343A81769EF"
+				item: "forcecraft:force_pack_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.pack4}"
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"26BDA3F2EFE514EC"
+				"1051862AED39785A"
+				"0413A37ECCB74956"
+			]
+			description: ["{atm9.quest.force.desc.6}"]
+			id: "2E015B748378663F"
+			rewards: [
+				{
+					count: 10
+					id: "2D6508D5F0BBD09D"
+					item: "forcecraft:force_gem"
+					type: "item"
+				}
+				{
+					id: "49F0D3DA3B70718A"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "forcecraft:tier6/tier"
+				criterion: ""
+				id: "39ADF6934442922D"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.force.6}"
+			x: 22.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E015B748378663F"]
+			description: ["{atm9.quest.force.desc.pearl}"]
+			id: "2A333E3B559F8952"
+			rewards: [{
+				count: 8
+				id: "07F74C65E6F72969"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53B2A15550D6006B"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.pearl}"
+			x: 23.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E015B748378663F"]
+			description: ["{atm9.quest.force.desc.clock}"]
+			id: "08C8458DD1F4F2E0"
+			rewards: [{
+				id: "4D51D956481E5679"
+				item: "minecraft:item_frame"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DE9595E52C1086E"
+				item: "minecraft:clock"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.clock}"
+			x: 23.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E015B748378663F"]
+			description: ["{atm9.quest.force.desc.obsidian}"]
+			id: "5746F8569F2AB547"
+			rewards: [{
+				count: 20
+				id: "328F2E5F0DE997ED"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20428C83670FF7F5"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.obsidian}"
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"08C8458DD1F4F2E0"
+				"2A333E3B559F8952"
+				"5746F8569F2AB547"
+			]
+			description: ["{atm9.quest.force.desc.7}"]
+			id: "4F5A6F4B7E0EEF9A"
+			rewards: [
+				{
+					count: 10
+					id: "32AD2275353F54DA"
+					item: "forcecraft:force_gem"
+					type: "item"
+				}
+				{
+					id: "758B133BC675B8FC"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+			]
+			shape: "square"
+			tasks: [{
+				advancement: "forcecraft:tier7/tier"
+				criterion: ""
+				id: "3EA76C28087850AE"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.force.7}"
+			x: 25.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F5A6F4B7E0EEF9A"]
+			description: ["{atm9.quest.force.desc.glow}"]
+			id: "66E9CF8E388E74A1"
+			rewards: [{
+				count: 20
+				id: "0BC2F7C6013248C8"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "777CD5CEE98D3A5A"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.glow}"
+			x: 26.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F5A6F4B7E0EEF9A"]
+			description: ["{atm9.quest.force.desc.treasure}"]
+			id: "47E6444E0440FB43"
+			rewards: [{
+				id: "245EEAAD094E535A"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56EA8310484E7E1C"
+				item: "forcecraft:treasure_core"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.treasure}"
+			x: 26.0d
+			y: -2.5d
+		}
+		{
+			description: ["{atm9.quest.force.desc.furnace}"]
+			icon_scale: 2.0d
+			id: "6C8DD6CD32A26135"
+			rewards: [{
+				count: 64
+				id: "688B223FCF3FB179"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "03DE71A514598D0F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forcecraft:force_furnace"
+					}
+				}
+				title: "Any #forcecraft:force_furnace"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.furnace}"
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EB9711A0902F57D"]
+			description: ["{atm9.quest.force.desc.core}"]
+			icon_scale: 1.25d
+			id: "05B29F53D90B2A82"
+			rewards: [{
+				count: 4
+				id: "45316F6CFE010D47"
+				item: "forcecraft:upgrade_core"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "24E3800472AF6052"
+				item: "forcecraft:upgrade_core"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.core}"
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1EB9711A0902F57D"
+				"05B29F53D90B2A82"
+			]
+			description: ["{atm9.quest.force.desc.ECore}"]
+			hide_dependency_lines: true
+			icon_scale: 1.25d
+			id: "2C2618E77D930149"
+			rewards: [{
+				count: 3
+				id: "335917780355B816"
+				item: "forcecraft:experience_core"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3DE402C29354D5BD"
+				item: "forcecraft:experience_core"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.ECore}"
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"17CB5287E43469F8"
+				"05B29F53D90B2A82"
+			]
+			description: ["{atm9.quest.force.desc.FCore}"]
+			hide_dependency_lines: true
+			icon_scale: 1.25d
+			id: "3A37ED7C7B5BD7C9"
+			rewards: [{
+				count: 3
+				id: "07E5161113704508"
+				item: "forcecraft:freezing_core"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "17A19FE62199AC5A"
+				item: "forcecraft:freezing_core"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.FCore}"
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5E79FD4B9C8AD2FC"
+				"05B29F53D90B2A82"
+			]
+			description: ["{atm9.quest.force.desc.GCore}"]
+			hide_dependency_lines: true
+			icon_scale: 1.25d
+			id: "05D91EDD07F23C5C"
+			rewards: [{
+				count: 3
+				id: "768A607A38ACE7AF"
+				item: "forcecraft:grinding_core"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "331BD678675B41FB"
+				item: "forcecraft:grinding_core"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.GCore}"
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4E9AB4190B5AD227"
+				"05B29F53D90B2A82"
+			]
+			description: ["{atm9.quest.force.desc.HCore}"]
+			icon_scale: 1.25d
+			id: "711AB529F4DCE732"
+			rewards: [{
+				count: 3
+				id: "341928F1E2EE56E1"
+				item: "forcecraft:heat_core"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5164539DC0903E0C"
+				item: "forcecraft:heat_core"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.HCore}"
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6361C073D6E2131F"
+				"05B29F53D90B2A82"
+			]
+			description: ["{atm9.quest.force.desc.SCore}"]
+			hide_dependency_lines: true
+			icon_scale: 1.25d
+			id: "77DF8C2577B0A711"
+			rewards: [{
+				count: 3
+				id: "763CFBAD931384FE"
+				item: "forcecraft:speed_core"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "35BCA74A05D23EB8"
+				item: "forcecraft:speed_core"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.SCore}"
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0754E705E45E56DE"]
+			description: ["{atm9.quest.force.desc.pack}"]
+			id: "5FDAB09C66FBD879"
+			rewards: [{
+				id: "2ED344591DCBFE61"
+				item: "forcecraft:force_pack_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BBFCFF8F912AE39"
+				item: {
+					Count: 1
+					id: "forcecraft:force_pack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.force.pack}"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0754E705E45E56DE"]
+			description: ["{atm9.quest.force.desc.belt}"]
+			id: "4C6909880F3FA84E"
+			rewards: [{
+				count: 4
+				id: "344F7EAD957A86FE"
+				item: "forcecraft:force_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "645EE1C49E3349AE"
+				item: {
+					Count: 1
+					id: "forcecraft:force_belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.force.belt}"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5BA4733C37D72830"]
+			description: ["{atm9.quest.force.desc.tools}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						bane: 0
+						bleed: 0
+						camo: 0b
+						ender: 0b
+						force: 0
+						freezing: 0b
+						heat: 0b
+						light: 0b
+						luck: 0
+						lumber: 0b
+						rainbow: 0b
+						sharp: 0
+						sight: 0b
+						silk: 0b
+						speed: 0
+						sturdy: 0
+						treasure: 0b
+						wing: 0b
+					}
+				}
+				id: "forcecraft:force_pickaxe"
+				tag: {
+					Damage: 0
+					forcecraft: {
+						bane: 0
+						bleed: 0
+						camo: 0b
+						ender: 0b
+						force: 0
+						freezing: 0b
+						heat: 0b
+						light: 0b
+						luck: 0
+						lumber: 0b
+						rainbow: 0b
+						sharp: 0
+						sight: 0b
+						silk: 0b
+						speed: 0
+						sturdy: 0
+						treasure: 0b
+						wing: 0b
+					}
+				}
+			}
+			id: "1680D55D4C209828"
+			rewards: [{
+				count: 3
+				id: "3C04EF5A5E03C424"
+				item: "forcecraft:force_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "20EF8820A644E3F4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										bane: 0
+										bleed: 0
+										camo: 0b
+										ender: 0b
+										force: 0
+										freezing: 0b
+										heat: 0b
+										light: 0b
+										luck: 0
+										lumber: 0b
+										rainbow: 0b
+										sharp: 0
+										sight: 0b
+										silk: 0b
+										speed: 0
+										sturdy: 0
+										treasure: 0b
+										wing: 0b
+									}
+								}
+								id: "forcecraft:force_sword"
+								tag: {
+									Damage: 0
+									forcecraft: {
+										bane: 0
+										bleed: 0
+										camo: 0b
+										ender: 0b
+										force: 0
+										freezing: 0b
+										heat: 0b
+										light: 0b
+										luck: 0
+										lumber: 0b
+										rainbow: 0b
+										sharp: 0
+										sight: 0b
+										silk: 0b
+										speed: 0
+										sturdy: 0
+										treasure: 0b
+										wing: 0b
+									}
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										bane: 0
+										bleed: 0
+										camo: 0b
+										ender: 0b
+										force: 0
+										freezing: 0b
+										heat: 0b
+										light: 0b
+										luck: 0
+										lumber: 0b
+										rainbow: 0b
+										sharp: 0
+										sight: 0b
+										silk: 0b
+										speed: 0
+										sturdy: 0
+										treasure: 0b
+										wing: 0b
+									}
+								}
+								id: "forcecraft:force_pickaxe"
+								tag: {
+									Damage: 0
+									forcecraft: {
+										bane: 0
+										bleed: 0
+										camo: 0b
+										ender: 0b
+										force: 0
+										freezing: 0b
+										heat: 0b
+										light: 0b
+										luck: 0
+										lumber: 0b
+										rainbow: 0b
+										sharp: 0
+										sight: 0b
+										silk: 0b
+										speed: 0
+										sturdy: 0
+										treasure: 0b
+										wing: 0b
+									}
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										bane: 0
+										bleed: 0
+										camo: 0b
+										ender: 0b
+										force: 0
+										freezing: 0b
+										heat: 0b
+										light: 0b
+										luck: 0
+										lumber: 0b
+										rainbow: 0b
+										sharp: 0
+										sight: 0b
+										silk: 0b
+										speed: 0
+										sturdy: 0
+										treasure: 0b
+										wing: 0b
+									}
+								}
+								id: "forcecraft:force_axe"
+								tag: {
+									Damage: 0
+									forcecraft: {
+										bane: 0
+										bleed: 0
+										camo: 0b
+										ender: 0b
+										force: 0
+										freezing: 0b
+										heat: 0b
+										light: 0b
+										luck: 0
+										lumber: 0b
+										rainbow: 0b
+										sharp: 0
+										sight: 0b
+										silk: 0b
+										speed: 0
+										sturdy: 0
+										treasure: 0b
+										wing: 0b
+									}
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										bane: 0
+										bleed: 0
+										camo: 0b
+										ender: 0b
+										force: 0
+										freezing: 0b
+										heat: 0b
+										light: 0b
+										luck: 0
+										lumber: 0b
+										rainbow: 0b
+										sharp: 0
+										sight: 0b
+										silk: 0b
+										speed: 0
+										sturdy: 0
+										treasure: 0b
+										wing: 0b
+									}
+								}
+								id: "forcecraft:force_shovel"
+								tag: {
+									Damage: 0
+									forcecraft: {
+										bane: 0
+										bleed: 0
+										camo: 0b
+										ender: 0b
+										force: 0
+										freezing: 0b
+										heat: 0b
+										light: 0b
+										luck: 0
+										lumber: 0b
+										rainbow: 0b
+										sharp: 0
+										sight: 0b
+										silk: 0b
+										speed: 0
+										sturdy: 0
+										treasure: 0b
+										wing: 0b
+									}
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										bane: 0
+										bleed: 0
+										camo: 0b
+										ender: 0b
+										force: 0
+										freezing: 0b
+										heat: 0b
+										light: 0b
+										luck: 0
+										lumber: 0b
+										rainbow: 0b
+										sharp: 0
+										sight: 0b
+										silk: 0b
+										speed: 0
+										sturdy: 0
+										treasure: 0b
+										wing: 0b
+									}
+								}
+								id: "forcecraft:force_bow"
+								tag: {
+									Damage: 0
+									forcecraft: {
+										bane: 0
+										bleed: 0
+										camo: 0b
+										ender: 0b
+										force: 0
+										freezing: 0b
+										heat: 0b
+										light: 0b
+										luck: 0
+										lumber: 0b
+										rainbow: 0b
+										sharp: 0
+										sight: 0b
+										silk: 0b
+										speed: 0
+										sturdy: 0
+										treasure: 0b
+										wing: 0b
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.force.tools}"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69448CE0BC6948B7"]
+			description: ["{atm9.quest.force.desc.lumberjack}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						bane: 0
+						bleed: 0
+						camo: 0b
+						ender: 0b
+						force: 0
+						freezing: 0b
+						heat: 0b
+						light: 0b
+						luck: 0
+						lumber: 0b
+						rainbow: 0b
+						sharp: 0
+						sight: 0b
+						silk: 0b
+						speed: 0
+						sturdy: 0
+						treasure: 0b
+						wing: 0b
+					}
+				}
+				id: "forcecraft:force_axe"
+				tag: {
+					Damage: 0
+					forcecraft: {
+						bane: 0
+						bleed: 0
+						camo: 0b
+						ender: 0b
+						force: 0
+						freezing: 0b
+						heat: 0b
+						light: 0b
+						luck: 0
+						lumber: 0b
+						rainbow: 0b
+						sharp: 0
+						sight: 0b
+						silk: 0b
+						speed: 0
+						sturdy: 0
+						treasure: 0b
+						wing: 0b
+					}
+				}
+			}
+			id: "749FC88665641D28"
+			rewards: [{
+				id: "38804C3BA8364678"
+				item: "forcecraft:force_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F9A8EDF2B6D3D4E"
+				item: "forcecraft:force_log"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.lumberjack}"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0754E705E45E56DE"]
+			description: ["{atm9.quest.force.desc.flask}"]
+			hide_dependency_lines: true
+			id: "7C6D9A2309F18F78"
+			rewards: [{
+				count: 3
+				id: "2A902B376EB7CA05"
+				item: "forcecraft:force_flask"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "75D764252A56BF43"
+				item: "forcecraft:force_flask"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.flask}"
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7C6D9A2309F18F78"]
+			description: ["{atm9.quest.force.desc.pig}"]
+			id: "204FEC4C957AE95A"
+			rewards: [{
+				count: 5
+				id: "3DFE9851340AEAC2"
+				item: "forcecraft:raw_bacon"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "027D39C97FC3A4F3"
+				item: {
+					Count: 1
+					id: "forcecraft:pig_flask"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.force.pig}"
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7C6D9A2309F18F78"]
+			description: ["{atm9.quest.force.desc.liquid}"]
+			id: "0FA739BE7500A739"
+			rewards: [{
+				id: "260BCA5643E6B317"
+				item: "forcecraft:force_bucket"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3781D5EF0CD7C3EC"
+				item: "forcecraft:force_filled_force_flask"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.liquid}"
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["204FEC4C957AE95A"]
+			description: ["{atm9.quest.force.desc.bacon}"]
+			id: "5320EBC7CA7AB9EF"
+			rewards: [{
+				count: 20
+				id: "362F4112E41E647C"
+				item: "forcecraft:cooked_bacon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "059DF2DD9A59562D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+					}
+					id: "forcecraft:baconator"
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.force.bacon}"
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0FA739BE7500A739"]
+			description: ["{atm9.quest.force.desc.engine}"]
+			id: "38E26B5EF9AAC8E3"
+			rewards: [{
+				id: "3BA0E0495CBE7301"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B67F8346B9A3A31"
+				item: "forcecraft:force_engine"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.engine}"
+			x: 19.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["38E26B5EF9AAC8E3"]
+			description: ["{atm9.quest.force.desc.inert}"]
+			id: "52DFF8AD64065532"
+			rewards: [{
+				id: "75A44AB97ECA8CD6"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B6766FE3E08568F"
+				item: "forcecraft:inert_core"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.inert}"
+			x: 17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["52DFF8AD64065532"]
+			description: ["{atm9.quest.force.desc.wither}"]
+			id: "5186CCD9A81E6CE3"
+			rewards: [{
+				id: "3A951B2A976EBED7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "48154783F5E487F8"
+				item: "forcecraft:bottled_wither"
+				type: "item"
+			}]
+			title: "{atm9.quest.force.wither}"
+			x: 15.5d
+			y: -7.0d
+		}
+	]
+	title: "{atm9.chapters.33.title}"
+}

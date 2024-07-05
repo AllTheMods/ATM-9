@@ -20,7 +20,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "586AF33A5298B77D"
@@ -38,7 +38,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "3A8286DF6F667F74"
@@ -56,7 +56,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "520E3DAD6C87B989"
@@ -74,7 +74,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "6B2A61833A05C56E"
@@ -92,7 +92,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "573838380230C65D"
@@ -110,7 +110,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "3C16EB51FA4CA1D9"
@@ -128,7 +128,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "5295793DD0FBEC3D"
@@ -146,7 +146,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "7C757F654BD74016"
@@ -164,7 +164,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "68CB1D1BAD343540"
@@ -182,7 +182,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "7BFCD0822FC37F50"
@@ -200,7 +200,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "196C47DDEEE313B4"
@@ -218,7 +218,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "6CA3A5E801C82C19"
@@ -236,7 +236,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "0B59E29219F4588C"
@@ -254,7 +254,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "781B75C63237C8E3"
@@ -272,7 +272,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "28A1E86651472522"
@@ -290,12 +290,12 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["13D401048A926A74"]
+			dependencies: ["371E5E1E435E41AA"]
 			hide: true
 			hide_dependency_lines: true
 			id: "2AE020FE64D401F5"
 			rewards: [{
-				id: "37DC08484A15D4D1"
+				id: "341BB6BBAE13BE59"
 				type: "xp"
 				xp: 10
 			}]
@@ -545,6 +545,7 @@
 				""
 				"{atm9.quest.botania.desc.lexicaBotaniaInfo}"
 			]
+			icon: "botania:lexicon"
 			id: "13D401048A926A74"
 			rewards: [
 				{
@@ -567,16 +568,9 @@
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "51EFBB115AE2746A"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "botania:mystical_flowers"
-					}
-				}
-				title: "{atm9.quest.botania.mysticalFlowers}"
-				type: "item"
+				dimension: "minecraft:overworld"
+				id: "01646B7575CF0B94"
+				type: "dimension"
 			}]
 			title: "{atm9.quest.botania.welcomeBotania}"
 			x: 5.0d
@@ -4070,46 +4064,6 @@
 			x: 24.5d
 			y: 1.0d
 		}
-		{
-			can_repeat: false
-			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
-			]
-			disable_toast: true
-			hide: true
-			hide_details_until_startable: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:item/barrier"
-				}
-			}
-			id: "1C73AE750F4500E8"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "37BB8E84CF18694C"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-				{
-					id: "41DE3E2C54A0A251"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-			]
-			x: 5.0d
-			y: 4.0d
-		}
 	]
-	title: "{atm9.chapters.41.title}"
+	title: "{atm9.chapters.27.title}"
 }

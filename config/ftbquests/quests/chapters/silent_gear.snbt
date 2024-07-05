@@ -5,26 +5,15 @@
 	group: "22FB35B0FEF1343D"
 	icon: "silentgear:pickaxe_blueprint"
 	id: "1D42B373285DEF81"
-	images: [
-		{
-			height: 4.0d
-			image: "silentgear:textures/item/blueprint_package.png"
-			rotation: 0.0d
-			width: 4.0d
-			x: 4.0d
-			y: -3.0d
-		}
-		{
-			height: 0.5d
-			hover: ["Needed For The ATM Star"]
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.5d
-			x: 11.0d
-			y: -0.75d
-		}
-	]
-	order_index: 2
+	images: [{
+		height: 4.0d
+		image: "silentgear:textures/item/blueprint_package.png"
+		rotation: 0.0d
+		width: 4.0d
+		x: 4.0d
+		y: -3.0d
+	}]
+	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -70,12 +59,6 @@
 						}
 					}
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "479CB5F180B816A2"
-					table_id: 487623848494439020L
-					type: "random"
 				}
 			]
 			size: 1.5d
@@ -661,12 +644,6 @@
 					type: "xp"
 					xp: 10
 				}
-				{
-					exclude_from_claim_all: true
-					id: "1876A75C33CE8313"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
 			]
 			shape: "square"
 			size: 1.25d
@@ -695,12 +672,6 @@
 					id: "426DA90F446231C4"
 					type: "xp"
 					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "355393E9C515534F"
-					table_id: 4196188979167302596L
-					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -839,12 +810,6 @@
 					id: "5920F91CCD994BE4"
 					type: "xp"
 					xp: 20
-				}
-				{
-					exclude_from_claim_all: true
-					id: "049404B484FEF767"
-					table_id: 5564196992594175882L
-					type: "random"
 				}
 			]
 			shape: "diamond"
@@ -990,12 +955,6 @@
 					type: "xp"
 					xp: 10
 				}
-				{
-					exclude_from_claim_all: true
-					id: "5DAB130AC2130247"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
 			]
 			subtitle: "{atm9.quest.SG.subt.alloyer}"
 			tasks: [{
@@ -1022,12 +981,6 @@
 					id: "34EE0AC149807BBB"
 					type: "xp"
 					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "699B2AC65718F5FA"
-					table_id: 4196188979167302596L
-					type: "random"
 				}
 			]
 			shape: "circle"
@@ -1057,12 +1010,6 @@
 					type: "xp"
 					xp: 10
 				}
-				{
-					exclude_from_claim_all: true
-					id: "66C9FB40FE94B925"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
 			]
 			shape: "circle"
 			tasks: [{
@@ -1090,12 +1037,6 @@
 					id: "78F9F7CA7518C4EB"
 					type: "xp"
 					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "77E1C346FB26B6E5"
-					table_id: 5564196992594175882L
-					type: "random"
 				}
 			]
 			shape: "circle"
@@ -1409,46 +1350,6 @@
 			x: -5.0d
 			y: 0.0d
 		}
-		{
-			can_repeat: false
-			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
-			]
-			disable_toast: true
-			hide: true
-			hide_details_until_startable: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:item/barrier"
-				}
-			}
-			id: "1136ACF7D0E1618B"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "21AD4382C0068CDB"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-				{
-					id: "6487378AF8DF4EBD"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-			]
-			x: 5.5d
-			y: 3.5d
-		}
 	]
-	title: "{atm9.chapters.9.title}"
+	title: "{atm9.chapters.8.title}"
 }

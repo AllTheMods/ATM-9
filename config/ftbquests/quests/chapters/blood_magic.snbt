@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "blood_magic"
 	group: "02FE661031A105D8"
+	icon: "bloodmagic:altar"
 	id: "004F28C5C85F467B"
 	images: [
 		{
@@ -15,76 +16,12 @@
 			y: -1.5d
 		}
 		{
-			height: 3.0d
-			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier1.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: -35.0d
-			y: 10.0d
-		}
-		{
-			height: 3.5d
-			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier2.png"
-			rotation: 0.0d
-			width: 4.5d
-			x: -35.0d
-			y: 4.0d
-		}
-		{
 			height: 4.5d
 			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier3.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -26.0d
 			y: 4.0d
-		}
-		{
-			height: 7.0d
-			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier4.png"
-			rotation: 0.0d
-			width: 14.0d
-			x: -26.0d
-			y: 11.0d
-		}
-		{
-			height: 10.0d
-			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier5.png"
-			rotation: 0.0d
-			width: 14.0d
-			x: -14.0d
-			y: 8.0d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/helper_arrow.png"
-			rotation: -90.0d
-			width: 2.0d
-			x: -35.0d
-			y: 6.5d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/helper_arrow.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -31.0d
-			y: 4.0d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/helper_arrow.png"
-			rotation: 90.0d
-			width: 2.0d
-			x: -26.0d
-			y: 7.5d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/helper_arrow.png"
-			rotation: -45.0d
-			width: 2.0d
-			x: -21.5d
-			y: 10.0d
 		}
 	]
 	order_index: 2
@@ -1219,7 +1156,7 @@
 			size: 1.25d
 			subtitle: "{atm9.quest.bloodMagic.subt.useGuidebook}"
 			tasks: [{
-				count: 28L
+				count: 20L
 				id: "45FE50B70B45B915"
 				item: "bloodmagic:blankrune"
 				type: "item"
@@ -1261,7 +1198,7 @@
 			shape: "octagon"
 			size: 1.25d
 			tasks: [{
-				count: 48L
+				count: 28L
 				id: "03DBCA5695879C49"
 				item: "bloodmagic:blankrune"
 				type: "item"
@@ -1492,7 +1429,7 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				count: 64L
+				count: 60L
 				id: "3830486EDCC81431"
 				item: "bloodmagic:blankrune"
 				type: "item"
@@ -1831,46 +1768,6 @@
 			x: -18.0d
 			y: -4.5d
 		}
-		{
-			can_repeat: false
-			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
-			]
-			disable_toast: true
-			hide: true
-			hide_details_until_startable: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:item/barrier"
-				}
-			}
-			id: "5C803A591EED842D"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "331BFDCAE9510150"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-				{
-					id: "38DA61C11DB1A020"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-			]
-			x: -30.5d
-			y: 1.0d
-		}
 	]
-	title: "{atm9.chapters.40.title}"
+	title: "{atm9.chapters.26.title}"
 }

@@ -1,0 +1,730 @@
+{
+	autofocus_id: "1C014E4F1DE73C03"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "atm9chapters2title"
+	group: ""
+	icon: "allthemodium:allthemodium_ingot"
+	id: "45266BB4B938FF39"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"563F2612891F528A"
+				"522BE58D0BCA5A2F"
+				"132662785B170DAB"
+				"251EBF1F5BC241EF"
+				"01B836D34B0E1281"
+				"287D3F78ACDFFDBA"
+			]
+			description: ["{atm9.quest.allthemodium.desc.atmingot}"]
+			id: "1C014E4F1DE73C03"
+			rewards: [{
+				id: "44770C4FF8BA232F"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "79B40C43A0855EAD"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["296B7AFD680BBA2D"]
+			id: "251EBF1F5BC241EF"
+			rewards: [{
+				id: "0727886C87705637"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2821C2B6BB196EC2"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["031BDF73F745954F"]
+			description: ["{atm9.quest.allthemodium.desc.osmiumcompress}"]
+			id: "296B7AFD680BBA2D"
+			tasks: [{
+				id: "3CAF3BD3D5459DF4"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["68DB25B8F9FF0A13"]
+			id: "01B836D34B0E1281"
+			rewards: [{
+				id: "51C7E9D62DB109E3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7617F1B375B8B3E5"
+				item: "redstone_arsenal:flux_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EE9E8AEA1AF64E0"]
+			description: ["{atm9.quest.allthemodium.desc.soulinfused}"]
+			id: "287D3F78ACDFFDBA"
+			rewards: [{
+				id: "5CBCFB9271EC1499"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3A7470EC87567034"
+				item: "thermal_extra:soul_infused_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28880F50C8C818ED"]
+			id: "2EE9E8AEA1AF64E0"
+			tasks: [
+				{
+					count: 3L
+					id: "7D36C0984833BF36"
+					item: { Count: 3, id: "thermal_extra:soul_sand_dust" }
+					type: "item"
+				}
+				{
+					id: "11E92BA3A9479831"
+					item: { Count: 2, id: "thermal:apatite_dust" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["031BDF73F745954F"]
+			description: ["{atm9.quest.allthemodium.desc.pulv}"]
+			id: "28880F50C8C818ED"
+			tasks: [{
+				id: "32C58A22C68EA714"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61CD83A419FDBEB5"]
+			id: "563F2612891F528A"
+			rewards: [{
+				id: "38E9D6EB1DF7A841"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "00EA2A0BBD55E24B"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["031BDF73F745954F"]
+			description: ["{atm9.quest.allthemodium.desc.alloysmelt}"]
+			id: "185DC151DA95D592"
+			tasks: [{
+				id: "495B757E59C6782D"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0F74E73190E5FFAF"
+				"4225AB53858D6BBF"
+			]
+			description: ["{atm9.quest.allthemodium.desc.Mundabitur}"]
+			id: "61CD83A419FDBEB5"
+			tasks: [{
+				count: 2L
+				id: "0E409CBD0535CCD8"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75310892130278C6"]
+			description: ["{atm9.quest.allthemodium.desc.arcane}"]
+			id: "4225AB53858D6BBF"
+			tasks: [{
+				count: 2L
+				id: "33F0E5410B61B929"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["031BDF73F745954F"]
+			icon: "minecraft:dragon_egg"
+			id: "0F74E73190E5FFAF"
+			tasks: [{
+				id: "24F188B7392948BF"
+				title: "{atm9.quest.start2.mundabitar}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.start2.mundabitur}"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["031BDF73F745954F"]
+			description: ["{atm9.quest.allthemodium.desc.arcane}"]
+			id: "75310892130278C6"
+			tasks: [{
+				count: 64L
+				id: "258AFD84976D790A"
+				item: { Count: 64, id: "exdeorum:dust" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["185DC151DA95D592"]
+			description: ["{atm9.quest.allthemodium.desc.alloysmelt}"]
+			id: "132662785B170DAB"
+			rewards: [{
+				id: "085DC0B8C24596F9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A674A80F743E85B"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["031BDF73F745954F"]
+			description: ["{atm9.quest.allthemodium.desc.Powah}"]
+			id: "009B933BD32B513B"
+			tasks: [{
+				id: "3068D8921E6D4292"
+				title: "{atm9.quest.start2.nitro}"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["009B933BD32B513B"]
+			id: "522BE58D0BCA5A2F"
+			rewards: [{
+				id: "645F1FE48E2D061E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "17404A1392287156"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: ["{atm9.quest.allthemodium.desc.intro1}"]
+			hide_dependent_lines: true
+			id: "031BDF73F745954F"
+			size: 1.75d
+			tasks: [{
+				id: "63490EE01B9A128E"
+				title: "{atm9.quest.allthemodium.intro}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["031BDF73F745954F"]
+			description: [""]
+			id: "68DB25B8F9FF0A13"
+			min_width: 250
+			subtitle: "{atm9.quest.allthemodium.subt.flux-inf}"
+			tasks: [{
+				id: "13975CC0A9988A32"
+				item: "redstone_arsenal:flux_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C014E4F1DE73C03"]
+			description: ["{atm9.quest.allthemodium.desc.atmblock}"]
+			id: "19CF6A22EE39CD0D"
+			rewards: [{
+				id: "1CFB1207314720CF"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FA0A0E5EB92C75A"
+				item: "allthemodium:allthemodium_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1C014E4F1DE73C03"]
+			description: ["{atm9.quest.allthemodium.desc.atm_smith}"]
+			id: "01E75BFD86DCC58E"
+			rewards: [{
+				count: 2
+				id: "3D0FC321AA30E520"
+				item: "allthemodium:raw_allthemodium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D945FDD839C9E92"
+				item: "allthemodium:allthemodium_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["45FDD8348D8FD770"]
+			description: ["{atm9.quest.allthemodium.desc.atm_tools}"]
+			id: "441BB6FFE77E9620"
+			rewards: [{
+				id: "008B75B953F4675F"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:looting"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DB07B0DB3F2594D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_hoe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_shovel"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_axe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_sword"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.allthemodium.atm_tools}"
+				type: "item"
+			}]
+			title: "{atm9.quest.allthemodium.atm_tools}"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C014E4F1DE73C03"]
+			id: "45FDD8348D8FD770"
+			rewards: [{
+				id: "0614F8EE662D47C3"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44CB5CBCB991BB23"
+				title: "{atm9.quest.allthemodium.atm_ore}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["45FDD8348D8FD770"]
+			description: ["{atm9.quest.allthemodium.desc.atm_apple}"]
+			id: "4D3C691CC647D955"
+			rewards: [{
+				id: "5B94492A94FE47EC"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EA314EC219CE8EA"
+				item: "allthemodium:allthemodium_apple"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4D3C691CC647D955"]
+			description: ["{atm9.quest.allthemodium.desc.atm_carrot}"]
+			id: "7697FDC000389A89"
+			rewards: [{
+				id: "0F8D84407CE145CD"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AFFC0A8C983BAF3"
+				item: "allthemodium:allthemodium_carrot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["45FDD8348D8FD770"]
+			description: ["{atm9.quest.allthemodium.desc.furnace}"]
+			id: "382BF56041391CDC"
+			rewards: [{
+				id: "074B5683A8F31F7C"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6429E72294340464"
+				item: "ironfurnaces:allthemodium_furnace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["19CF6A22EE39CD0D"]
+			description: ["{atm9.quest.allthemodium.desc.bees}"]
+			id: "448850D246CA8245"
+			rewards: [{
+				id: "48DE4927565742B3"
+				item: "productivebees:upgrade_productivity_3"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54597BD99D937D03"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:allthemodium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["19CF6A22EE39CD0D"]
+			description: ["{atm9.quest.allthemodium.desc.laserbase}"]
+			id: "480A07C8BA362382"
+			rewards: [{
+				count: 2
+				id: "300A61200AF1B6A4"
+				item: {
+					Count: 1
+					id: "industrialforegoing:speed_addon_2"
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "71842296EBA81DF9"
+					item: "industrialforegoing:ore_laser_base"
+					type: "item"
+				}
+				{
+					id: "6125D3E458748D3E"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"19CF6A22EE39CD0D"
+				"01E75BFD86DCC58E"
+				"45FDD8348D8FD770"
+				"2C459814EFC92B12"
+				"5438AE1312DEFB10"
+				"34A2B9DD94C5BEF2"
+				"6A6ACFC1BAFCDBEE"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{atm9.quest.allthemodium.desc.vibinfo}"]
+			id: "2909CC7DAE6E69AC"
+			rewards: [{
+				id: "570C2623EFBB28F2"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1B37593242645A06"
+				item: "allthemodium:vibranium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			description: ["{atm9.quest.allthemodium.desc.bucketoflife}"]
+			id: "2C459814EFC92B12"
+			rewards: [{
+				id: "59DAA58DBDCD8834"
+				item: "bloodmagic:slate_vial"
+				type: "item"
+			}]
+			tasks: [{
+				id: "689C19264C9DC1BC"
+				item: "bloodmagic:life_essence_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			description: ["{atm9.quest.allthemodium.desc.insanium}"]
+			id: "6A6ACFC1BAFCDBEE"
+			rewards: [{
+				id: "45CDE349A01EB618"
+				item: "mysticalagradditions:supremium_apple"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "445C2138305829E2"
+				item: { Count: 3, id: "mysticalagradditions:insanium_essence" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			description: ["{atm9.quest.allthemodium.desc.atmingredient}"]
+			id: "34A2B9DD94C5BEF2"
+			rewards: [{
+				id: "42F2A26D3A7807E5"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "2298DBAD2D002F55"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			description: ["{atm9.quest.allthemodium.desc.ars}"]
+			id: "5438AE1312DEFB10"
+			rewards: [{
+				id: "4BAE34E9E601AA88"
+				item: "ars_nouveau:source_gem_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "55CE3B9FABA205DC"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "449DD0A0FE8B0C97"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "57CE77DC94DDDDE4"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "35A3E533ECC886AC"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2909CC7DAE6E69AC"]
+			description: ["{atm9.quest.allthemodium.desc.vibblock}"]
+			id: "2625DD6A82F48341"
+			rewards: [{
+				id: "109B404058A18A6D"
+				item: "allthemodium:raw_vibranium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57DA5A7F52511FB8"
+				item: "allthemodium:vibranium_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2909CC7DAE6E69AC"]
+			description: ["{atm9.quest.allthemodium.desc.vib_smith}"]
+			id: "1B1C8FA979C2DF94"
+			tasks: [{
+				id: "67900FFE1FB7265E"
+				item: "allthemodium:vibranium_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"2625DD6A82F48341"
+				"1B1C8FA979C2DF94"
+			]
+			description: ["{atm9.quest.allthemodium.desc.unob_ore}"]
+			id: "0091DB2772579996"
+			rewards: [
+				{
+					id: "07FEAD8890CA736F"
+					item: "allthemodium:raw_unobtainium"
+					type: "item"
+				}
+				{
+					id: "355957C573AE028E"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "4443083ABDE4D460"
+				item: "allthemodium:unobtainium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["441BB6FFE77E9620"]
+			description: ["{atm9.quest.allthemodium.desc.atm_armor}"]
+			id: "6E56F7739520746C"
+			rewards: [{
+				id: "2908290F3D2D7ACC"
+				item: "allthemodium:allthemodium_upgrade_smithing_template"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19A789295FED7DB8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_boots"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_leggings"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_chestplate"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_helmet"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.allthemodium.atm_armor}"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0091DB2772579996"]
+			id: "39A8B4DD6130153F"
+			tasks: [{
+				id: "3BE97B67477B3D3D"
+				item: "allthemodium:unobtainium_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0091DB2772579996"]
+			id: "123E0FA700BD37E4"
+			tasks: [{
+				id: "24CA0F60CA72A774"
+				item: "allthemodium:unobtainium_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.5d
+		}
+	]
+	title: "{atm9.chapters.2.title}"
+}

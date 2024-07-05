@@ -1,0 +1,1928 @@
+{
+	autofocus_id: "4F3280D257DEF799"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started_2"
+	group: "2084F3F6FB861C5B"
+	icon: "mekanismgenerators:wind_generator"
+	id: "02AFCEFE247BAD9F"
+	images: [
+		{
+			height: 3.0d
+			image: "allthetweaks:block/atm_star_block"
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:block/fluids/ender_still"
+			rotation: 0.0d
+			width: 0.025d
+			x: 49.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/enderdragon.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 455.0d
+			y: 130.0d
+		}
+		{
+			height: 6.0d
+			image: "atm:textures/questpics/enderdragon.png"
+			order: 3
+			rotation: 0.0d
+			width: 6.0d
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/minecraft/villager.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			height: 1.7d
+			image: "ftbchunks:textures/faces/minecraft/warden.png"
+			rotation: 0.0d
+			width: 1.7d
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "forge:textures/gui/experimental_warning.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.25d
+			y: -1.0d
+		}
+		{
+			height: 0.5d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: -22.98d
+			y: -0.25d
+		}
+		{
+			height: 0.5d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.45d
+			y: 2.7d
+		}
+		{
+			height: 0.5d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 15.57d
+			y: 1.2d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{atm9.quest.start2.desc.infuser}"]
+			id: "59B3C2AF620547E0"
+			rewards: [
+				{
+					id: "6D387B4F6D53CDA9"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					id: "5CF217505CA38186"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{atm9.quest.start2.subt.infuser}"
+			tasks: [{
+				id: "512F3539FAE93680"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.infuser}"
+			x: -19.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["59B3C2AF620547E0"]
+			description: ["{atm9.quest.start2.desc.wind}"]
+			id: "531DFFDE9EA7838E"
+			rewards: [
+				{
+					count: 3
+					id: "069E9C41474ACF42"
+					item: "alltheores:osmium_ingot"
+					type: "item"
+				}
+				{
+					id: "30277E05FF6E67D4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.start2.subt.wind}"
+			tasks: [
+				{
+					count: 5L
+					id: "568260644F99CE83"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					id: "03118FCD2EFD5A30"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+				{
+					id: "25B2004192CD0C44"
+					item: "mekanism:energy_tablet"
+					type: "item"
+				}
+				{
+					id: "6186D1DEB76B8C0A"
+					item: "mekanism:energy_tablet"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.start2.wind}"
+			x: -17.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["531DFFDE9EA7838E"]
+			description: ["{atm9.quest.start2.desc.connection}"]
+			id: "343AEA9974EBCAD8"
+			rewards: [
+				{
+					count: 8
+					id: "6E0D969851049D68"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					id: "2B24EAB2BCF948BC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "{atm9.quest.start2.subt.connection}"
+			tasks: [
+				{
+					count: 16L
+					id: "4F8D11BEBDCE5181"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					id: "11071F99C25B4FD1"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.start2.connection}"
+			x: -16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["531DFFDE9EA7838E"]
+			description: ["{atm9.quest.start2.desc.jetpack}"]
+			id: "201143A8D039A543"
+			rewards: [{
+				id: "357CACC23334834D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "{atm9.quest.start2.subt.jetpack}"
+			tasks: [{
+				id: "0C24DC9A169924C6"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:wood"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.jetpack}"
+			x: -18.125d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D6B927E4BF4F18B"]
+			dependency_requirement: "one_completed"
+			description: ["{atm9.quest.start2.desc.furnace}"]
+			id: "7FE88F6B16029995"
+			rewards: [
+				{
+					id: "48AC4A7E931847EE"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "1B818AB1DE891746"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "17450880C4EAB5B5"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.furnace}"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7FE88F6B16029995"]
+			id: "30E59763D0E8684B"
+			optional: true
+			rewards: [{
+				id: "34E92E7C8A211B76"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.start2.subt.blasting}"
+			tasks: [{
+				id: "5CEA781ACA858233"
+				item: "ironfurnaces:augment_blasting"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.blasting}"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7FE88F6B16029995"]
+			id: "18D6BF7FD5A599E5"
+			optional: true
+			rewards: [{
+				id: "6E8A1F6B444DC067"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.start2.subt.smoking}"
+			tasks: [{
+				id: "1AF765FBFE79955A"
+				item: "ironfurnaces:augment_smoking"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.smoking}"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7FE88F6B16029995"]
+			id: "7B41010503609641"
+			optional: true
+			rewards: [{
+				id: "7F5F18D0FD64DC01"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.start2.subt.speed}"
+			tasks: [{
+				id: "16A8BEE102ECEFE0"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.speed}"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7FE88F6B16029995"]
+			id: "483BCD08B820CC30"
+			optional: true
+			rewards: [{
+				id: "1BA2F8F9C867C8C5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.start2.subt.fuel}"
+			tasks: [{
+				id: "3DD3BB53E55041A7"
+				item: "ironfurnaces:augment_fuel"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.fuel}"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7FE88F6B16029995"]
+			description: ["{atm9.quest.start2.desc.wireless}"]
+			id: "01188A98FD63631A"
+			rewards: [
+				{
+					id: "7DF48E2657A34158"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "4F6159B4C39C586F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.start2.subt.wireless}"
+			tasks: [
+				{
+					id: "231DFEB6B91F16FA"
+					item: "ironfurnaces:heater"
+					type: "item"
+				}
+				{
+					id: "57755FB8698B6FF9"
+					item: "ironfurnaces:item_heater"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.start2.wireless}"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["343AEA9974EBCAD8"]
+			description: ["{atm9.quest.start2.desc.pipe}"]
+			id: "496A2D0AD494A942"
+			rewards: [
+				{
+					id: "364C4DE2323BF866"
+					item: "pipez:basic_upgrade"
+					type: "item"
+				}
+				{
+					id: "0453434346F9BE4F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "{atm9.quest.start2.subt.pipe}"
+			tasks: [{
+				id: "0FCE12572DC4E75D"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.pipe}"
+			x: -16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["496A2D0AD494A942"]
+			id: "614DA56CB666937A"
+			rewards: [
+				{
+					id: "147A989DF9583238"
+					item: "pipez:improved_upgrade"
+					type: "item"
+				}
+				{
+					id: "71F75C4EDA446036"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "0734C1439698A3BE"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.improved}"
+			x: -16.0d
+			y: 4.5d
+		}
+		{
+			description: [""]
+			id: "1ECF6495A3D77E27"
+			min_width: 300
+			rewards: [{
+				id: "1EC6E0E46142E6D8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{atm9.quest.start2.subt.cake}"
+			tasks: [{
+				id: "3EDD7F00E94F9F28"
+				item: "exdeorum:end_cake"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.cake}"
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1ECF6495A3D77E27"]
+			description: ["{atm9.quest.start2.desc.edragon}"]
+			id: "5C769E0D5C1F806E"
+			rewards: [
+				{
+					id: "60AA4D92FA090F0C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4A9A889428332713"
+					item: {
+						Count: 1
+						id: "minecraft:cake"
+						tag: {
+							display: {
+								Lore: ["\"I beat Minecraft, and all they gave me was this cake.\""]
+								Name: "\"Winner Cake\""
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{atm9.quest.start2.subt.edragon}"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "77D607A14CA56F5E"
+				title: "Kill the Ender Dragon!"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{atm9.quest.start2.edragon}"
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1ECF6495A3D77E27"]
+			description: ["{atm9.quest.start2.desc.summon}"]
+			id: "6C5EA78B521858CF"
+			optional: true
+			rewards: [{
+				id: "1475AA1CF744F9CB"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.start2.subt.summon}"
+			tasks: [{
+				count: 4L
+				id: "792082BC111171A3"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.summon}"
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C769E0D5C1F806E"]
+			description: ["{atm9.quest.start2.desc.end}"]
+			icon: "minecraft:ender_pearl"
+			id: "1EC4BA2569828891"
+			rewards: [{
+				id: "072FD927242F3038"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.start2.subt.end}"
+			tasks: [{
+				id: "2675B5F872C3F81C"
+				title: "To the REAL End"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.start2.end}"
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1EC4BA2569828891"]
+			description: ["{atm9.quest.start2.desc.elytra}"]
+			id: "427B251ABCD4B085"
+			rewards: [
+				{
+					id: "31B5682E925986BC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "24B87A9E2C3FEFCA"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "{atm9.quest.start2.subt.elytra}"
+			tasks: [{
+				id: "3BAF0CA8558749AE"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.elytra}"
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["614DA56CB666937A"]
+			id: "0C6454F388EDE751"
+			rewards: [
+				{
+					id: "6F0E92596AA721FB"
+					item: "pipez:advanced_upgrade"
+					type: "item"
+				}
+				{
+					id: "5A142620FE9D1286"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "31B291FD7AF49DC0"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.advanced}"
+			x: -16.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["49C723B694FCB518"]
+			description: ["{atm9.quest.start2.desc.enrichment}"]
+			id: "487F54A97A334E04"
+			rewards: [
+				{
+					count: 4
+					id: "19B9A062D9DBE6FB"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D4B4778A88FE069"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "08C93B627FDA5691"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.start2.subt.enrichment}"
+			tasks: [{
+				id: "491A3E6D650215D6"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.enrichment}"
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["487F54A97A334E04"]
+			description: ["{atm9.quest.start2.desc.mekanism}"]
+			icon: "mekanism:steel_casing"
+			id: "4D21D9AAFACD40C3"
+			rewards: [{
+				id: "084FE78CF9C48D2E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4118C349344299FF"
+				title: "Getting Started with Mekanism"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.start2.mekanism}"
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7646F1478AAE63CF"]
+			description: ["{atm9.quest.start2.desc.storage}"]
+			id: "19FBD3C65A96B311"
+			rewards: [
+				{
+					count: 2
+					id: "00A1CA9DFDA349DC"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+				{
+					id: "6EB217394E27FA69"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.start2.subt.storage}"
+			tasks: [{
+				id: "6C47709DB58176FE"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.storage}"
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["786276ED6AF1653C"]
+			description: ["{atm9.quest.start2.desc.more}"]
+			id: "2D0AC4CC9992E3C8"
+			rewards: [{
+				id: "514660634DE053E8"
+				item: "thermal:dynamo_fuel_augment"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.start2.subt.more}"
+			tasks: [{
+				id: "4E55681CE0738191"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.more}"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D6B927E4BF4F18B"]
+			description: [
+				"{atm9.quest.start2.desc.sieve}\\"
+				""
+				"{image:atm:textures/questpics/autosieveexample.png width:220 height:100 align:1}"
+			]
+			id: "2D9F5CEB4AC30A39"
+			rewards: [{
+				id: "38B33853BAA93236"
+				item: "cobblefordays:tier_1"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "7B6FD18058480DCE"
+					item: "exmachinis:flux_sieve"
+					type: "item"
+				}
+				{
+					id: "3C5D9D39443EB97A"
+					item: "exmachinis:flux_hammer"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.start2.sieve}"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D9F5CEB4AC30A39"]
+			description: ["{atm9.quest.start2.desc.gold}"]
+			id: "24B47CB1A222846A"
+			tasks: [{
+				id: "256254C1F59D7D92"
+				item: "exmachinis:gold_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.gold}"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24B47CB1A222846A"]
+			id: "50B4721F77AE23C4"
+			rewards: [{
+				id: "2D99CF1271EDBA6E"
+				item: "exmachinis:gold_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BD4D0C3E5178061"
+				item: "exmachinis:diamond_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.diamond}"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50B4721F77AE23C4"]
+			id: "284F1F3434BFA984"
+			rewards: [{
+				id: "07612134A4CBBBBB"
+				item: "exmachinis:diamond_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ED0C511C0C2EFEA"
+				item: "exmachinis:netherite_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.netherite}"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1ECF6495A3D77E27"]
+			description: ["{atm9.quest.start2.desc.teleport}"]
+			id: "29802EE8A986B8FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C067264F6950C83"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{atm9.quest.start2.subt.teleport}"
+			tasks: [{
+				count: 2L
+				id: "57E327B1BB4EE254"
+				item: { Count: 2, id: "waystones:waystone" }
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.teleport}"
+			x: -12.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2E2384DBB3937F10"]
+			description: ["{atm9.quest.start2.desc.steel}"]
+			id: "49C723B694FCB518"
+			rewards: [{
+				count: 2
+				id: "532036F36F65DED0"
+				item: "alltheores:steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "01E9574C09C2912B"
+				item: { Count: 4, id: "alltheores:steel_ingot" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D9F5CEB4AC30A39"]
+			description: ["{atm9.quest.start2.desc.crafter}"]
+			id: "4998AC29D9E8C43C"
+			rewards: [{
+				count: 2
+				id: "75698A00EB007139"
+				item: "minecraft:redstone_torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "477DA35A6D962A36"
+				item: "rftoolsutility:crafter3"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49C723B694FCB518"]
+			description: ["{atm9.quest.start2.desc.cables}"]
+			id: "7646F1478AAE63CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "695B1DFABD0DF622"
+				table_id: 7197061527498167330L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "0C71E3382D19E86C"
+				item: { Count: 8, id: "mekanism:basic_universal_cable" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["56C690488B8548CD"]
+			description: ["{atm9.quest.start2.desc.passivemobs}"]
+			id: "2FC75C1FE9FE8CA5"
+			tasks: [{
+				id: "52C132B0EEC38381"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:emerald_grove"
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59B3C2AF620547E0"]
+			description: ["{atm9.quest.start2.desc.mobfarm}"]
+			id: "56C690488B8548CD"
+			tasks: [{
+				id: "45F0E60ADF5FA3E6"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.mobfarm}"
+			x: -18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["343AEA9974EBCAD8"]
+			description: ["{atm9.quest.start2.desc.UniPipe}"]
+			id: "596C5EEA83025EF6"
+			tasks: [{
+				id: "6DB40B454FE1ABE5"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["487F54A97A334E04"]
+			description: ["{atm9.quest.start2.desc.speedup}"]
+			id: "4868AA197CD9CA5B"
+			optional: true
+			rewards: [{
+				id: "5F912071E843EAB9"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "4D73A108DD927AEC"
+					item: { Count: 8, id: "mekanism:upgrade_speed" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "251CD0C20169B786"
+					item: { Count: 8, id: "mekanism:upgrade_energy" }
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["487F54A97A334E04"]
+			description: ["{atm9.quest.start2.desc.tier}"]
+			id: "591C99A44DBBFBB5"
+			optional: true
+			rewards: [{
+				id: "30B3C5888E1CEB01"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5835C40CB33763C3"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["786276ED6AF1653C"]
+			description: ["{atm9.quest.start2.desc.crusher}"]
+			id: "3420E2CDD2EE456D"
+			rewards: [{
+				id: "18611AC730286CBB"
+				item: "alltheores:steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C9FF89ECE65C7F7"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3ED1DB1985F1CDA7"]
+			description: ["{atm9.quest.start2.desc.morepower}"]
+			id: "786276ED6AF1653C"
+			rewards: [{
+				id: "5C6DB968DD5112F6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "389E565E07C1F875"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.start2.morepower}"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["786276ED6AF1653C"]
+			description: ["{atm9.quest.start2.desc.ironfurnaces}"]
+			id: "4F3280D257DEF799"
+			rewards: [{
+				id: "0914A81C420D50E5"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19FD1603590A502A"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F3280D257DEF799"]
+			description: ["{atm9.quest.start2.desc.augmentg}"]
+			id: "21F963915C370427"
+			rewards: [{
+				id: "5F35FCC57A1FD5EA"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "452D12CF8A19508C"
+				item: "ironfurnaces:augment_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21F963915C370427"]
+			description: ["{atm9.quest.start2.desc.augmentb}"]
+			id: "7124BBD147D1A673"
+			rewards: [{
+				id: "2D0A85A21D07522E"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F4A36CBB90CB247"
+				item: "ironfurnaces:augment_blasting"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["786276ED6AF1653C"]
+			description: ["{atm9.quest.start2.desc.thermogen}"]
+			id: "532BC0CCEB0AAAFF"
+			rewards: [{
+				id: "5866F48F59D1356D"
+				item: "powah:dielectric_casing"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "44EDE45211B920E3"
+				item: "powah:thermo_generator_starter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3420E2CDD2EE456D"]
+			description: ["{atm9.quest.start2.desc.biofuel}"]
+			id: "1C87369D049B6156"
+			rewards: [{
+				count: 4
+				id: "7184CF194DC02A76"
+				item: "minecraft:dandelion"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31EDE274C3A02EE7"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C87369D049B6156"]
+			description: ["{atm9.quest.start2.desc.biogen}"]
+			id: "5D301893EA0284E9"
+			rewards: [{
+				count: 4
+				id: "3F9126A92688A652"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47FD7CC707A93CE3"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["532BC0CCEB0AAAFF"]
+			description: ["{atm9.quest.start2.desc.blazing}"]
+			id: "782DA2230228B62C"
+			rewards: [{
+				count: 4
+				id: "4B2C7F435C5F70EC"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "768634B03A932BAC"
+				item: "powah:blazing_crystal_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["786276ED6AF1653C"]
+			description: ["{atm9.quest.start2.desc.covdust}"]
+			id: "0F809F1DB7700245"
+			rewards: [{
+				count: 4
+				id: "10DBE11A43E6B7CA"
+				item: "projecte:medium_covalence_dust"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6955F4BEFC0ED5A9"
+					item: "projecte:low_covalence_dust"
+					type: "item"
+				}
+				{
+					id: "772CC02C01D7B8BB"
+					item: "projecte:medium_covalence_dust"
+					type: "item"
+				}
+				{
+					id: "06C3BC355BD1A109"
+					item: "projecte:high_covalence_dust"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F809F1DB7700245"]
+			description: ["{atm9.quest.start2.desc.projecte}"]
+			icon: "projecte:red_matter"
+			id: "158005066201304F"
+			rewards: [{
+				id: "4637B46968D1B7EB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "74123ED9B7608D4A"
+				title: "{atm9.quest.start2.projecte}"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["36E083B321AAC749"]
+			id: "1D6B927E4BF4F18B"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "7130FDA173D95384"
+				title: "{atm9.quest.start2.usingpower}"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7FE88F6B16029995"]
+			description: ["{atm9.quest.start2.desc.augmentf}"]
+			id: "00D2E97C555AA416"
+			rewards: [{
+				count: 4
+				id: "41E6E3F606A9909B"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.start2.subt.factory}"
+			tasks: [{
+				id: "4D4CB19013C1A584"
+				item: "ironfurnaces:augment_factory"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D6B927E4BF4F18B"]
+			description: ["{atm9.quest.start2.desc.phyto}"]
+			id: "20776AEDD2052A73"
+			rewards: [{
+				count: 2
+				id: "5DA78B8D974BE27C"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C60351867EBE459"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.phyto}"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D9F5CEB4AC30A39"]
+			description: ["{atm9.quest.start2.desc.compactor}"]
+			id: "3B9D1F030267EF87"
+			rewards: [{
+				id: "126DE0A5567E5437"
+				item: "minecraft:diamond_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "347E1D78198B224E"
+				item: "exmachinis:flux_compactor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D6B927E4BF4F18B"]
+			description: ["{atm9.quest.start2.desc.refined}"]
+			id: "6A1ED870BC18662D"
+			rewards: [{
+				id: "66805B8106237B6B"
+				item: "refinedstorage:silicon"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.start2.subt.rs}"
+			tasks: [{
+				id: "4F8BFA66C84C743B"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.refined}"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D6B927E4BF4F18B"]
+			description: ["{atm9.quest.start2.desc.applied}"]
+			id: "4EC74DEE19B8DE9C"
+			rewards: [{
+				id: "47213699E0D2760E"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.start2.subt.ae2}"
+			tasks: [{
+				id: "6881C1A15664C117"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.applied}"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["357C95ACC2CD88C0"]
+			description: ["{atm9.quest.start2.desc.NTemplate}"]
+			id: "2E7C28655AA6DDDB"
+			rewards: [{
+				count: 2
+				id: "0598C53B1126FD16"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			tasks: [{
+				id: "026276FC1FACDF97"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D9F5CEB4AC30A39"]
+			description: ["{atm9.quest.start2.desc.demonseeds}"]
+			id: "357C95ACC2CD88C0"
+			rewards: [{
+				id: "6DB480D2776D8C01"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2257F4ADA0C288A3"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["357C95ACC2CD88C0"]
+			description: ["{atm9.quest.start2.desc.Moss}"]
+			id: "69AFCFCA443735A5"
+			rewards: [{
+				count: 2
+				id: "6491B3AA3E872347"
+				item: "exdeorum:grass_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "173002B03DA96C16"
+				item: "minecraft:moss_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A258AE7E244831B"]
+			description: ["{atm9.quest.start2.desc.village}"]
+			id: "4F37B5A9BD60114C"
+			rewards: [{
+				id: "31F2D133079FBD4C"
+				item: "easy_villagers:trader"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B14808CBF3F41C1"
+				item: "ars_caelum:ritual_conjure_island_village"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A258AE7E244831B"]
+			description: ["{atm9.quest.start2.desc.village}"]
+			id: "19B704B4BCE60182"
+			rewards: [{
+				id: "7A6DC857887CB054"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54AF5BA3AA668F68"
+				item: "ars_caelum:ritual_conjure_island_sculk"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69AFCFCA443735A5"]
+			description: ["{atm9.quest.start2.desc.Ars}"]
+			id: "1A258AE7E244831B"
+			rewards: [{
+				id: "35ACEE36213BDA99"
+				item: "ars_nouveau:blue_archwood_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "416CD669ACA3ECA3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:blue_archwood_sapling"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:green_archwood_sapling"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:purple_archwood_sapling"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:red_archwood_sapling"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.start2.ars}"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2FC75C1FE9FE8CA5"]
+			description: ["{atm9.quest.start2.desc.EnderGate}"]
+			id: "33416B3B1ADD27F3"
+			tasks: [{
+				id: "1164ED6FFA93C081"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/enderman"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2FC75C1FE9FE8CA5"]
+			description: ["{atm9.quest.start2.desc.BlazeGate}"]
+			id: "7A0C6F0FCB1830E6"
+			tasks: [{
+				id: "6DC265F7333AD963"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/blaze"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4867F74C2ACD535E"]
+			description: ["{atm9.quest.start2.desc.netherstar}"]
+			id: "5020F092319157B7"
+			rewards: [
+				{
+					id: "117758F6DABE93E1"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "50A030DA320612D3"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "7BA9FE38982443D6"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.netherstar}"
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5020F092319157B7"]
+			description: ["{atm9.quest.start2.desc.netherstarseeds}"]
+			id: "262A0A8C8F48A50F"
+			rewards: [{
+				id: "64694E467B2FC300"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "279E05EFC0A670C3"
+				item: "mysticalagriculture:nether_star_seeds"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5020F092319157B7"]
+			description: ["{atm9.quest.start2.desc.infinitywand}"]
+			id: "3AD900B0FD3A98E5"
+			optional: true
+			rewards: [{
+				id: "00264785B86D2494"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				id: "67B1108A0D670172"
+				item: {
+					Count: 1
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5020F092319157B7"]
+			description: ["{atm9.quest.start2.desc.angelring}"]
+			id: "7943055EDCFD2C8A"
+			optional: true
+			rewards: [{
+				id: "53933909B6CE7E5F"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				id: "42E871AE17F7F442"
+				item: "angelring:angel_ring"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5020F092319157B7"]
+			description: ["{atm9.quest.start2.desc.tiab}"]
+			id: "7438B09498907DE0"
+			rewards: [{
+				id: "6A1B508B6EA8B239"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_swiftness"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BF262A9C61A23F0"
+				item: {
+					Count: 1
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.tiab}"
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25B3468FBACCB3ED"]
+			description: ["{atm9.quest.start2.desc.Fisher}"]
+			id: "4867F74C2ACD535E"
+			rewards: [{
+				id: "02F698B742932AB3"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44785C9145BBD46A"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["343AEA9974EBCAD8"]
+			description: ["{atm9.quest.start2.subt.filterdest}"]
+			id: "6BF54C1E2C09C73F"
+			rewards: [{
+				id: "16CCB69E346F9057"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E67C43D64FCC7BF"
+				item: "pipez:filter_destination_tool"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7646F1478AAE63CF"]
+			description: ["{atm9.quest.start2.desc.superheat}"]
+			id: "3ED1DB1985F1CDA7"
+			rewards: [{
+				count: 4
+				id: "62D31856D2668522"
+				item: "alltheores:steel_ingot"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.start2.subt.superheat}"
+			tasks: [{
+				id: "4A2F36C43C931794"
+				item: "mekanism:superheating_element"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["786276ED6AF1653C"]
+			description: ["{atm9.quest.start2.desc.magmator}"]
+			id: "2C24C9ECE57D8961"
+			rewards: [{
+				count: 8
+				id: "52198EC58AFD385B"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{atm9.quest.start2.subt.magmator}"
+			tasks: [{
+				id: "481CAABC6BD375EF"
+				item: "powah:magmator_starter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["531DFFDE9EA7838E"]
+			description: ["{atm9.quest.start2.desc.steeld}"]
+			id: "2E2384DBB3937F10"
+			rewards: [{
+				count: 2
+				id: "5A6D5B16421EDCBD"
+				item: "minecraft:iron_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74703BB214010424"
+				item: "alltheores:steel_dust"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3ED1DB1985F1CDA7"]
+			description: ["{atm9.quest.start2.desc.tank}"]
+			id: "3E771628BC788E7C"
+			rewards: [{
+				id: "714364000D86ABD2"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.start2.subt.tank}"
+			tasks: [{
+				id: "3607FCC81D1AC545"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F809F1DB7700245"]
+			description: [
+				"{atm9.quest.start2.desc.igneous}"
+				"{image:atm:textures/questpics/igneous.png width:200 height:165 align:1}"
+			]
+			id: "36E083B321AAC749"
+			rewards: [{
+				id: "40F1E793FD1D89B1"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.start2.subt.igneous}"
+			tasks: [{
+				id: "7B2AE0BD027C3838"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["59B3C2AF620547E0"]
+			description: ["{atm9.quest.start2.desc.SummoningAltar}"]
+			id: "6D18359C628D7AD7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F9CBCE210C23944"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "428B4DB1169515D8"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36E083B321AAC749"]
+			description: ["{atm9.quest.start2.desc.ice}"]
+			id: "4D63945B9E0BC2AA"
+			rewards: [{
+				count: 4
+				id: "462AE422B9469C8D"
+				item: "minecraft:snow_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4620E27785884169"
+				item: "minecraft:ice"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.ice}"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			description: ["{atm9.quest.start2.desc.emerald}"]
+			id: "1132517106A700BB"
+			rewards: [{
+				id: "2F5492DA60E15ED8"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2596B5791FB95C40"
+				item: {
+					Count: 1
+					id: "pickletweaks:emerald_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.emerald}"
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D18359C628D7AD7"]
+			description: ["{atm9.quest.start2.desc.piglich}"]
+			id: "2618F237689C2572"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36A88FBA287886CD"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
+			tasks: [{
+				id: "071F95C78BECD9AA"
+				item: "allthemodium:piglich_heart"
+				title: "{atm9.quest.start2.piglich}"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7438B09498907DE0"]
+			description: [
+				"{atm9.quest.start2.desc.laserbase}"
+				""
+				"{image:atm:textures/questpics/laserbase.png width:210 height:150 align:1}"
+			]
+			id: "4897A7858A863C61"
+			rewards: [{
+				count: 2
+				id: "70E716155F9BAE8E"
+				item: {
+					Count: 1
+					id: "industrialforegoing:speed_addon_2"
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1F1105159D672B68"
+					item: "industrialforegoing:ore_laser_base"
+					type: "item"
+				}
+				{
+					id: "182A8498BC72EEA2"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["69AFCFCA443735A5"]
+			description: ["{atm9.quest.start2.desc.flux}"]
+			id: "25B3468FBACCB3ED"
+			rewards: [
+				{
+					id: "25BB2326CBDDA7B0"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "27F0F23E41915D8D"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			subtitle: "{atm9.quest.start2.subt.flux}"
+			tasks: [{
+				count: 32L
+				id: "6D34BD53DB54E2B2"
+				item: { Count: 32, id: "fluxnetworks:flux_dust" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4897A7858A863C61"]
+			description: ["{atm9.quest.start2.desc.laserlens}"]
+			id: "31CD8C5405C5D1AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73300413D125C25A"
+				table_id: 487623848494439020L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "1D8A4BB5C09F5BBD"
+				item: "industrialforegoing:laser_lens0"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4897A7858A863C61"]
+			description: ["{atm9.quest.start2.desc.final}"]
+			icon: "allthetweaks:atm_star"
+			id: "12FEB94E58970BD5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "116E7923F9B6C7CB"
+				table_id: 7025454341029952768L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 2.5d
+			tasks: [{
+				id: "3AF03B07B0E24FE6"
+				title: "{atm9.quest.start2.final}"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25B3468FBACCB3ED"]
+			description: ["{atm9.quest.start2.desc.fluxuse}"]
+			id: "4E00D608E17DD6D6"
+			rewards: [{
+				id: "33F25A9CABCAAB45"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E259208EA62FC04"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56C690488B8548CD"]
+			description: ["{atm9.quest.start2.desc.totem}"]
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/absorption"
+					}]
+				}
+			}
+			id: "73921D0DAD4CBDAE"
+			rewards: [{
+				id: "33449D1D03D935E3"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5974BCF2D6940F0D"
+				title: "w"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.start2.totem}"
+			x: -18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D9F5CEB4AC30A39"]
+			description: ["{atm9.quest.start2.desc.compact}"]
+			id: "3702D5289B20C7E6"
+			rewards: [
+				{
+					id: "29D993A4DDF05628"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "5459F0635C38C887"
+					item: "sophisticatedstorage:upgrade_base"
+					type: "item"
+				}
+			]
+			subtitle: "{atm9.quest.start2.subt.compact}"
+			tasks: [{
+				id: "5B0C399DC6D7DB24"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:compacting_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:compacting_upgrade"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.start2.compact}"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+	]
+	title: "{atm9.chapters.6.title}"
+}

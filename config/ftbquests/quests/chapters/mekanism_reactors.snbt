@@ -89,7 +89,7 @@
 		}
 		{
 			height: 11.0d
-			hover: ["{atm9.quest.mekanismReactors.fusionReactor}"]
+			hover: ["atm9.quest.mekanismReactors.fusionReactor"]
 			image: "atm:textures/questpics/mek/fusion_cutout.png"
 			rotation: 0.0d
 			width: 10.627118644067796d
@@ -98,7 +98,7 @@
 		}
 		{
 			height: 12.0d
-			hover: ["{atm9.quest.mekanismReactors.industrialTurbine}"]
+			hover: ["atm9.quest.mekanismReactors.industrialTurbine"]
 			image: "atm:textures/questpics/mek/turbine_cutout.png"
 			rotation: 0.0d
 			width: 10.536144578313253d
@@ -107,7 +107,7 @@
 		}
 		{
 			height: 10.0d
-			hover: ["{atm9.quest.mekanismReactors.fissionReactor}"]
+			hover: ["atm9.quest.mekanismReactors.fissionReactor"]
 			image: "atm:textures/questpics/mek/fission_cutout.png"
 			rotation: 0.0d
 			width: 9.661016949152541d
@@ -116,7 +116,7 @@
 		}
 		{
 			height: 10.0d
-			hover: ["{atm9.quest.mekanismReactors.supercriticalPhaseShifter}"]
+			hover: ["atm9.quest.mekanismReactors.supercriticalPhaseShifter"]
 			image: "atm:textures/questpics/mek/sps_cutout.png"
 			rotation: 0.0d
 			width: 12.687687687687689d
@@ -200,7 +200,7 @@
 			y: 0.15d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -583,10 +583,8 @@
 			size: 1.5d
 			subtitle: "{atm9.quest.mekanismReactors.subt.numbers}"
 			tasks: [{
-				icon: "mekanism:geiger_counter"
-				id: "34D8628732B36EDF"
-				title: "{atm9.quest.mekanismReactors.completedReactor}"
-				type: "custom"
+				id: "151024BDAA90EA7B"
+				type: "checkmark"
 			}]
 			title: "{atm9.quest.mekanismReactors.fissionReactorInterface}"
 			x: 3.0d
@@ -651,19 +649,11 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					id: "772EA844FE7C1B74"
-					item: "mekanism:chemical_oxidizer"
-					type: "item"
-				}
-				{
-					icon: "mekanism:basic_chemical_tank"
-					id: "29D6CA9A77ACACC6"
-					title: "{atm9.quest.mekanismReactors.observeUraniumOxide}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "772EA844FE7C1B74"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
 			title: "{atm9.quest.mekanismReactors.uraniumOxide}"
 			x: 7.0d
 			y: 3.5d
@@ -727,7 +717,7 @@
 				""
 				"{atm9.quest.mekanismReactors.desc.sulfuricAcid.4}"
 			]
-			icon: "gtceu:sulfur_dust"
+			icon: "thermal:sulfur_dust"
 			id: "31EEE2875595F315"
 			progression_mode: "linear"
 			rewards: [
@@ -744,26 +734,18 @@
 				}
 			]
 			subtitle: "{atm9.quest.mekanismReactors.subt.quickRecap}"
-			tasks: [
-				{
-					id: "14A09EAF150777A3"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:dusts/sulfur"
-						}
+			tasks: [{
+				id: "14A09EAF150777A3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/sulfur"
 					}
-					title: "{atm9.quest.mekanismReactors.sulfurDust}"
-					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "66C97246C3EEFB7C"
-					title: "{atm9.quest.mekanismReactors.observeSulfuricAcid}"
-					type: "custom"
-				}
-			]
+				title: "{atm9.quest.mekanismReactors.sulfurDust}"
+				type: "item"
+			}]
 			title: "{atm9.quest.mekanismReactors.sulfuricAcid}"
 			x: 5.5d
 			y: 1.5d
@@ -808,12 +790,6 @@
 					item: "mekanism:chemical_dissolution_chamber"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "510CE57C709D5A44"
-					title: "{atm9.quest.mekanismReactors.observeHydrofluoricAcid}"
-					type: "custom"
-				}
 			]
 			title: "{atm9.quest.mekanismReactors.hydrofluoricAcid}"
 			x: 7.0d
@@ -840,19 +816,11 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					id: "73C5F4AC41EE5123"
-					item: "mekanism:chemical_infuser"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "05A215BE7EE2F35D"
-					title: "{atm9.quest.mekanismReactors.observeUraniumHexafluoride}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "73C5F4AC41EE5123"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
 			title: "{atm9.quest.mekanismReactors.uraniumHexafluoride}"
 			x: 8.0d
 			y: 2.5d
@@ -882,19 +850,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "3F2371FD486D4F0E"
-					item: "mekanism:isotopic_centrifuge"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "4E04F8F091D18EA4"
-					title: "{atm9.quest.mekanismReactors.observeFissileFuel}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "3F2371FD486D4F0E"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
 			title: "{atm9.quest.mekanismReactors.fissileFuel}"
 			x: 9.5d
 			y: 2.5d
@@ -1220,10 +1180,9 @@
 			]
 			shape: "square"
 			tasks: [{
-				icon: "mekanism:sps_casing"
-				id: "2A13A1B1A85C2981"
-				title: "{atm9.quest.mekanismReactors.completedSPSTitle}"
-				type: "custom"
+				id: "075949772F067ACE"
+				item: "mekanism:sps_casing"
+				type: "item"
 			}]
 			title: "{atm9.quest.mekanismReactors.buildSPSTitle}"
 			x: 6.0d
@@ -1503,33 +1462,25 @@
 			]
 			shape: "hexagon"
 			size: 3.0d
-			tasks: [
-				{
-					id: "4B63979C49A34565"
-					item: {
-						Count: 1
-						id: "mekanismgenerators:hohlraum"
-						tag: {
-							mekData: {
-								GasTanks: [{
-									Tank: 0b
-									stored: {
-										amount: 10L
-										gasName: "mekanismgenerators:fusion_fuel"
-									}
-								}]
-							}
+			tasks: [{
+				id: "4B63979C49A34565"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:hohlraum"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 10L
+									gasName: "mekanismgenerators:fusion_fuel"
+								}
+							}]
 						}
 					}
-					type: "item"
 				}
-				{
-					icon: "mekanismgenerators:fusion_reactor_frame"
-					id: "0B31B1E6089BB33E"
-					title: "{atm9.quest.mekanismReactors.observeFusionReactor}"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			title: "{atm9.quest.mekanismReactors.ready}"
 			x: 17.0d
 			y: -7.0d
@@ -1796,10 +1747,9 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				icon: "mekanismgenerators:turbine_casing"
-				id: "71DB5E5857993B3F"
-				title: "{atm9.quest.mekanismReactors.completedTurbine}"
-				type: "custom"
+				id: "2FFE6CDB1C5E6BA6"
+				item: "mekanismgenerators:turbine_blade"
+				type: "item"
 			}]
 			title: "{atm9.quest.mekanismReactors.creatingPower}"
 			x: 15.5d
@@ -2032,46 +1982,6 @@
 			x: 5.0d
 			y: -1.0d
 		}
-		{
-			can_repeat: false
-			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
-			]
-			disable_toast: true
-			hide: true
-			hide_details_until_startable: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:item/barrier"
-				}
-			}
-			id: "67423D709305AD2D"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "43556EEA05422924"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-				{
-					id: "314BB5005E524D0A"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 6.0d
-		}
 	]
-	title: "{atm9.chapters.22.title}"
+	title: "{atm9.chapters.21.title}"
 }

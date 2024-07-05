@@ -41,23 +41,8 @@
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				id: "759E7BC43EFF648C"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "allthemodium:raw_allthemodium"
-							}
-							{
-								Count: 1b
-								id: "allthemodium:allthemodium_ingot"
-							}
-						]
-					}
-				}
+				id: "6257DCFBD6E194AB"
+				item: "allthemodium:raw_allthemodium"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.atm_ore}"
@@ -99,23 +84,9 @@
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				id: "53CAF4DF6BD09600"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "allthemodium:raw_vibranium"
-							}
-							{
-								Count: 1b
-								id: "allthemodium:vibranium_ingot"
-							}
-						]
-					}
-				}
+				id: "0F6B68E05B7B43AB"
+				item: "allthemodium:raw_vibranium"
+				title: "Vibranium Ore"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.vib_ore}"
@@ -148,23 +119,8 @@
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				id: "06B707D1437D36FC"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "allthemodium:raw_unobtainium"
-							}
-							{
-								Count: 1b
-								id: "allthemodium:unobtainium_ingot"
-							}
-						]
-					}
-				}
+				id: "52CCB85E5967BF9F"
+				item: "allthemodium:raw_unobtainium"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.unob_ore}"
@@ -186,7 +142,7 @@
 			tasks: [{
 				id: "54B58D4300C033A6"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -233,23 +189,19 @@
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				id: "48DD4D998FEBB09B"
+				id: "6F4093C7A6276314"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
 							{
 								Count: 1b
-								id: "allthemodium:allthemodium_helmet"
-							}
-							{
-								Count: 1b
-								id: "allthemodium:allthemodium_chestplate"
-							}
-							{
-								Count: 1b
 								id: "allthemodium:allthemodium_leggings"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_helmet"
 							}
 							{
 								Count: 1b
@@ -257,32 +209,12 @@
 							}
 							{
 								Count: 1b
-								id: "allthewizardgear:allthemodium_mage_helmet"
-							}
-							{
-								Count: 1b
-								id: "allthewizardgear:allthemodium_mage_chestplate"
-								tag: {
-									ISB_Spells: {
-										data: [ ]
-										maxSpells: 1
-										mustEquip: 1b
-										spellWheel: 1b
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "allthewizardgear:allthemodium_mage_leggings"
-							}
-							{
-								Count: 1b
-								id: "allthewizardgear:allthemodium_mage_boots"
+								id: "allthemodium:allthemodium_chestplate"
 							}
 						]
 					}
 				}
-				title: "{atm9.quest.allthemodium.atm_armor}"
+				title: "&6Allthemodium Armor&r"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.atm_armor}"
@@ -296,7 +228,7 @@
 				"{atm9.quest.allthemodium.desc.intro2}"
 			]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "patchouli:guide_book"
 				tag: {
 					"patchouli:book": "allthemodium:allthemodium_book"
@@ -312,7 +244,7 @@
 				{
 					id: "0D061D49519CE0B4"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "allthemodium:allthemodium_book"
@@ -409,7 +341,7 @@
 			tasks: [{
 				id: "37CD942230304016"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -506,9 +438,9 @@
 				}
 			]
 			tasks: [{
-				dimension: "allthemodium:the_other"
-				id: "075FBA0F83548F6A"
-				type: "dimension"
+				id: "7B3D9051C7A0EC60"
+				item: "allthemodium:ancient_stone"
+				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.other}"
 			x: 1.5d
@@ -523,7 +455,7 @@
 			]
 			hide_dependency_lines: false
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:stone_pickaxe"
 				tag: {
 					Damage: 0
@@ -536,9 +468,9 @@
 				xp: 100
 			}]
 			tasks: [{
-				dimension: "allthemodium:mining"
-				id: "7C1AC35E98DA4470"
-				type: "dimension"
+				id: "110AA18477C59A28"
+				title: "The Mining Dimension"
+				type: "checkmark"
 			}]
 			title: "{atm9.quest.allthemodium.mining}"
 			x: -1.5d
@@ -566,7 +498,7 @@
 			tasks: [{
 				id: "1E0783DED2164C8D"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -893,36 +825,12 @@
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				id: "7E5429C59943C661"
+				id: "2EE80872FA8540BE"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
-							{
-								Count: 1b
-								id: "allthewizardgear:vibranium_mage_helmet"
-							}
-							{
-								Count: 1b
-								id: "allthewizardgear:vibranium_mage_chestplate"
-								tag: {
-									ISB_Spells: {
-										data: [ ]
-										maxSpells: 1
-										mustEquip: 1b
-										spellWheel: 1b
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "allthewizardgear:vibranium_mage_leggings"
-							}
-							{
-								Count: 1b
-								id: "allthewizardgear:vibranium_mage_boots"
-							}
 							{
 								Count: 1b
 								id: "allthemodium:vibranium_boots"
@@ -942,7 +850,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.allthemodium.vib_armor}"
+				title: "&bVibranium Armor&r"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.vib_armor}"
@@ -969,36 +877,12 @@
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				id: "5457F63FC60BA231"
+				id: "520906D9914D4717"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
-							{
-								Count: 1b
-								id: "allthewizardgear:unobtainium_mage_helmet"
-							}
-							{
-								Count: 1b
-								id: "allthewizardgear:unobtainium_mage_chestplate"
-								tag: {
-									ISB_Spells: {
-										data: [ ]
-										maxSpells: 1
-										mustEquip: 1b
-										spellWheel: 1b
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "allthewizardgear:unobtainium_mage_leggings"
-							}
-							{
-								Count: 1b
-								id: "allthewizardgear:unobtainium_mage_boots"
-							}
 							{
 								Count: 1b
 								id: "allthemodium:unobtainium_boots"
@@ -1018,7 +902,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.allthemodium.unob_armor}"
+				title: "&dUnobtainium Armor&r"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.unob_armor}"
@@ -1047,7 +931,7 @@
 			tasks: [{
 				id: "2DB3FE929A70B1C9"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1103,7 +987,7 @@
 			tasks: [{
 				id: "6AC1F79015239A46"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1161,46 +1045,6 @@
 			title: "{atm9.quest.allthemodium.beyond}"
 			x: 0.0d
 			y: 9.0d
-		}
-		{
-			can_repeat: false
-			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
-			]
-			disable_toast: true
-			hide: true
-			hide_details_until_startable: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:item/barrier"
-				}
-			}
-			id: "532048F1D6759FF6"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "2B5A232033859FBC"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-				{
-					id: "782BF0528469C296"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: -2.5d
 		}
 	]
 	title: "{atm9.chapters.2.title}"

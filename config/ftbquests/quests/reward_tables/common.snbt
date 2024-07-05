@@ -8,9 +8,8 @@
 	}
 	id: "06C4634E81851A6C"
 	loot_size: 1
-	order_index: 12
+	order_index: 11
 	rewards: [
-		{ item: "botanypots:terracotta_hopper_botany_pot", weight: 5.0f }
 		{ item: "mysticalagriculture:imperium_essence" }
 		{ item: "reliquary:fertile_lily_pad" }
 		{ item: "minecraft:fox_spawn_egg", weight: 5.0f }
@@ -75,25 +74,6 @@
 		{ item: "mekanism:upgrade_speed", weight: 3.0f }
 		{ item: "mekanism:upgrade_energy", weight: 3.0f }
 		{ item: "productivebees:sturdy_bee_cage", weight: 5.0f }
-		{
-			item: {
-				Count: 1
-				id: "minecraft:potion"
-				tag: {
-					Potion: "potionsmaster:iron_sight"
-				}
-			}
-			weight: 3.0f
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:potion"
-				tag: {
-					Potion: "potionsmaster:gold_sight"
-				}
-			}
-		}
 		{ item: "modularrouters:modular_router" }
 		{ count: 4, item: "minecraft:iron_ingot", random_bonus: 4, weight: 7.0f }
 		{ count: 2, item: "minecraft:gold_ingot", random_bonus: 2, weight: 5.0f }

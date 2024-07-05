@@ -120,7 +120,7 @@
 			image: "occultism:block/stable_wormhole_frame"
 			rotation: 0.0d
 			width: 2.0d
-			x: 12.5d
+			x: 10.5d
 			y: 9.5d
 		}
 		{
@@ -129,7 +129,7 @@
 			rotation: -45.0d
 			width: 2.0d
 			x: 12.5d
-			y: 14.0d
+			y: 13.5d
 		}
 		{
 			height: 0.5d
@@ -172,8 +172,8 @@
 			image: "occultism:textures/gui/book/familiar_beholder.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 16.5d
-			y: 12.5d
+			x: 15.5d
+			y: 12.0d
 		}
 		{
 			height: 3.0d
@@ -182,7 +182,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: 8.5d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			height: 3.0d
@@ -238,7 +238,7 @@
 			y: 5.5d
 		}
 	]
-	order_index: 7
+	order_index: 6
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -903,47 +903,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["2A5004EB99AE4F96"]
-			description: [
-				"{atm9.quest.occultism.desc.newTools.1}"
-				""
-				"{atm9.quest.occultism.desc.newTools.2}"
-			]
-			id: "686AEC3EF1140D15"
-			rewards: [
-				{
-					id: "534ED82AE3739E75"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0905ED561E579042"
-					table_id: 487623848494439020L
-					type: "loot"
-				}
-			]
-			shape: "square"
-			size: 1.25d
-			tasks: [{
-				id: "73EA231C66874BB0"
-				item: {
-					Count: 1
-					id: "occultism:infused_pickaxe"
-					tag: {
-						Damage: 0
-						spiritName: "Raymirivyne"
-					}
-				}
-				match_nbt: false
-				type: "item"
-			}]
-			title: "{atm9.quest.occultism.newToolsForNewOres}"
-			x: 9.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["686AEC3EF1140D15"]
 			description: [
 				"{atm9.quest.occultism.desc.findIesnium.1}"
 				""
@@ -971,8 +930,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.occultism.iesniumOreOtherworld}"
-			x: 11.0d
-			y: 11.0d
+			x: 12.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["33106E24A3B5DDD8"]
@@ -1008,7 +967,7 @@
 			}]
 			title: "{atm9.quest.occultism.otherworldPickaxe}"
 			x: 12.5d
-			y: 12.5d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1151,8 +1110,8 @@
 				}
 			]
 			title: "{atm9.quest.occultism.demonMining}"
-			x: 12.5d
-			y: 9.5d
+			x: 10.525d
+			y: 9.475d
 		}
 		{
 			dependencies: ["1DE0F289821F55D1"]
@@ -1375,46 +1334,6 @@
 			x: 8.5d
 			y: 7.0d
 		}
-		{
-			can_repeat: false
-			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
-			]
-			disable_toast: true
-			hide: true
-			hide_details_until_startable: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:item/barrier"
-				}
-			}
-			id: "7AEDD120E5FB0729"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "0ACA8BB2546698AA"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-				{
-					id: "341C85E18D1FCC42"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 6.0d
-		}
 	]
-	title: "{atm9.chapters.44.title}"
+	title: "{atm9.chapters.29.title}"
 }
