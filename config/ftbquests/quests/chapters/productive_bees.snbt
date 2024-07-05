@@ -1,1375 +1,208 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
-	filename: "atm9chapters16title"
+	filename: "productive_bees"
 	group: "6614EE2378B8AFB9"
-	icon: "minecraft:honeycomb"
-	id: "5D1ED06D1FA06FA9"
+	icon: {
+		Count: 1
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "productivebees:guide"
+		}
+	}
+	id: "26E6ED94168A05C4"
 	images: [
 		{
-			height: 4.0d
+			height: 5.0d
 			image: "atm:textures/questpics/bees/productive_bees.png"
 			rotation: 0.0d
-			width: 15.72d
-			x: -4.5d
-			y: -5.5d
+			width: 20.0d
+			x: 1.0d
+			y: -10.0d
 		}
 		{
-			color: 16771843
 			height: 2.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
+			image: "minecraft:textures/item/honeycomb.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -4.5d
-			y: -2.5d
-		}
-		{
-			color: 16771843
-			height: 0.75d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 0.75d
-			x: -5.8d
-			y: -3.0d
-		}
-		{
-			color: 16771843
-			height: 1.5d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.5d
-			x: -3.5d
-			y: -3.0d
-		}
-		{
-			color: 16771843
-			height: 2.01d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 2.01d
-			x: -4.5d
-			y: -2.5d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.5d
-			y: -2.5d
-		}
-		{
-			color: 262400
-			height: 1.6d
-			image: "supplementaries:block/cannon_target"
-			rotation: 0.0d
-			width: 1.6d
-			x: 1.52d
-			y: -2.97d
-		}
-		{
-			height: 1.0d
-			image: "ftblibrary:icons/heart"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.5d
-			y: 1.5d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -13.5d
-			y: 11.0d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -12.5d
-			y: 9.0d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -11.5d
-			y: 7.5d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -10.5d
-			y: 6.0d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -9.0d
-			y: 6.0d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: 6.0d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.5d
-			y: 6.0d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: 6.0d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.5d
-			y: 6.0d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
 			x: -3.0d
-			y: 6.0d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.5d
-			y: 9.0d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.5d
-			y: 11.0d
-		}
-		{
-			color: 16771843
-			height: 1.0d
-			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.5d
-			y: 7.5d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: -13.5d
-			y: 10.5d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: -12.5d
-			y: 8.5d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: -11.5d
-			y: 7.0d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: -10.5d
-			y: 5.5d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: -9.0d
-			y: 5.5d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: -7.5d
-			y: 5.5d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: -6.0d
-			y: 5.5d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: -3.0d
-			y: 5.5d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: -1.5d
-			y: 5.5d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: 0.0d
-			y: 5.5d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: 1.5d
-			y: 5.5d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: 2.5d
-			y: 7.0d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: 3.5d
-			y: 8.5d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: 4.5d
-			y: 10.5d
-		}
-		{
-			height: 0.5d
-			image: "reliquary:mob_effect/flight"
-			rotation: 0.0d
-			width: 0.5d
-			x: -11.5d
-			y: 8.35d
-		}
-		{
-			height: 0.25d
-			image: "ftbquests:textures/gui/arrow_expanded.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: -13.0d
-			y: 12.0d
+			y: -7.0d
 		}
 		{
 			height: 2.0d
+			image: "minecraft:textures/item/honey_bottle.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			height: 0.3d
+			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
-			width: 2.0d
-			x: -4.5d
-			y: 16.5d
+			width: 0.3d
+			x: -7.99d
+			y: 3.0d
 		}
 	]
 	order_index: 5
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{atm9.quest.bees.desc.welcome}"]
-			hide_dependent_lines: true
-			icon: "pneumaticcraft:security_upgrade"
-			id: "350AFE6E0E9B6E57"
-			rewards: [{
-				id: "05CA09533B13CCAA"
-				type: "xp"
-				xp: 1
-			}]
-			shape: "hexagon"
-			size: 1.75d
-			subtitle: "{atm9.quest.bees.subt.welcome}"
-			tasks: [{
-				id: "460EC206C96B1EF9"
-				title: "{atm9.quest.bees.welcome}"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["350AFE6E0E9B6E57"]
 			description: [
-				"{atm9.quest.bees.desc.first}"
+				"{atm9.quest.productiveBees.desc.welcome.1}"
 				""
-				"{image:atm:textures/questpics/firsthive.png width:190 height:165 align:1}"
+				"{atm9.quest.productiveBees.desc.welcome.2}"
+				""
+				"{atm9.quest.productiveBees.desc.welcome.3}"
 			]
-			id: "5F3D4676E3C53096"
-			rewards: [{
-				count: 3
-				id: "37A3A9C24FD65A2E"
-				item: "minecraft:oak_sapling"
-				type: "item"
-			}]
-			size: 1.25d
-			tasks: [{
-				id: "7066EFC66C329157"
-				item: "minecraft:dandelion"
-				type: "item"
-			}]
-			title: "{atm9.quest.bees.first}"
-			x: -13.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["5F3D4676E3C53096"]
-			description: ["{atm9.quest.bees.desc.silktouch}"]
-			icon: "minecraft:bee_nest"
-			id: "6C3B0161BB41B69F"
-			rewards: [{
-				id: "71CCC0FA4501AA42"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "7F184CCB5D1831AF"
-				title: "{atm9.quest.bees.silktouch}"
-				type: "checkmark"
-			}]
-			x: -12.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["6C3B0161BB41B69F"]
-			description: [
-				"{atm9.quest.bees.desc.vanillacombs}"
-				"{image:atm:textures/questpics/startingbees.png width:195 height:115 align:1}"
+			id: "13AA91D39A2CABF2"
+			rewards: [
+				{
+					id: "1FE7DFBA702FBE64"
+					item: "minecraft:dandelion"
+					type: "item"
+				}
+				{
+					id: "4D695A49C4060AFD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "0E5E0909FA99CEA5"
+					item: "minecraft:honeycomb"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "718C0C8ABA0F5052"
+					item: "minecraft:honey_bottle"
+					random_bonus: 2
+					type: "item"
+				}
 			]
-			id: "25160EFA39A4F436"
-			rewards: [{
-				count: 2
-				id: "65BF03F39B315F37"
-				item: "minecraft:honey_bottle"
-				type: "item"
-			}]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
-					id: "145B771082FCEFDF"
+					id: "54CAFE539297E507"
 					item: "minecraft:honeycomb"
 					type: "item"
 				}
 				{
-					id: "0B9D028953659329"
+					id: "3440EB31A4FA230D"
 					item: "minecraft:honey_bottle"
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.bees.vanillacombs}"
-			x: -10.5d
-			y: -0.5d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["25160EFA39A4F436"]
-			description: ["{atm9.quest.bees.desc.cages}"]
-			id: "3B940B695E6F1F0B"
+			dependencies: ["29EE878BC8D3A742"]
+			description: [
+				"{atm9.quest.productiveBees.desc.beehiveSetup.1}"
+				""
+				"{atm9.quest.productiveBees.desc.beehiveSetup.2}"
+				""
+				"{atm9.quest.productiveBees.desc.beehiveSetup.3}"
+			]
+			id: "109AD73F016D576B"
 			rewards: [{
 				count: 2
-				id: "7A194FD321FA8603"
-				item: "productivebees:bee_cage"
+				id: "398062170AD6E34C"
+				item: "minecraft:honeycomb"
 				type: "item"
 			}]
 			tasks: [{
-				id: "64FFA3B05EFF02D9"
-				item: "productivebees:bee_cage"
-				type: "item"
-			}]
-			title: "{atm9.quest.bees.cages}"
-			x: -9.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["3B940B695E6F1F0B"]
-			description: ["{atm9.quest.bees.desc.sturdy}"]
-			id: "6BA98C0B736C3C90"
-			rewards: [{
-				count: 32
-				id: "129696AC66022C70"
-				item: "productivebees:bee_cage"
-				type: "item"
-			}]
-			tasks: [{
-				id: "038571E4D898BF06"
-				item: "productivebees:sturdy_bee_cage"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["3B940B695E6F1F0B"]
-			description: ["{atm9.quest.bees.desc.advanced}"]
-			id: "5F2D3BF3294F6CF6"
-			rewards: [{
-				id: "6DC8670AD180C374"
+				id: "33E5A303B907306B"
 				item: "minecraft:beehive"
 				type: "item"
 			}]
-			tasks: [{
-				id: "74C9B82219FC6CD9"
-				item: "productivebees:advanced_oak_beehive"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["5F2D3BF3294F6CF6"]
-			description: ["{atm9.quest.bees.desc.expansion}"]
-			id: "06ED2A9208CF210D"
-			rewards: [{
-				id: "20DE72B97CAD587E"
-				item: "productivebees:advanced_oak_beehive"
-				type: "item"
-			}]
-			tasks: [{
-				id: "37954C5216DCA0B1"
-				item: "productivebees:expansion_box_oak"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["06ED2A9208CF210D"]
-			description: ["{atm9.quest.bees.desc.treat}"]
-			id: "251C4715C2824065"
-			rewards: [{
-				id: "0AC39EF6BE7FCF8D"
-				item: "minecraft:honey_block"
-				type: "item"
-			}]
-			size: 1.25d
-			tasks: [{
-				id: "385057E5358D5D0F"
-				item: "productivebees:honey_treat"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["25160EFA39A4F436"]
-			description: ["{atm9.quest.bees.desc.seeds}"]
-			id: "195296B70CC4942D"
-			subtitle: "{atm9.quest.bees.subt.seeds}"
-			tasks: [{
-				id: "04726A9A7865A2A0"
-				item: "mysticalagriculture:honey_seeds"
-				type: "item"
-			}]
-			x: -10.5d
+			title: "{atm9.quest.productiveBees.firstBeehive}"
+			x: 1.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["6955A905FD1CC8EB"]
-			description: ["{atm9.quest.bees.desc.fslab}"]
-			id: "4FFCDF32E33591B1"
-			rewards: [{
-				id: "6F81E28BCA094534"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:iron_chest"
-					tag: {
-						uuid: [I;
-							825113162
-							-1124249737
-							-1332596101
-							97658160
-						]
-						woodType: "oak"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "42B25E344C84EB35"
-				item: "productivebees:feeder"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["251C4715C2824065"]
-			description: ["{atm9.quest.bees.desc.nests}"]
-			id: "6955A905FD1CC8EB"
-			rewards: [
-				{
-					id: "61790E5A6F00209E"
-					item: {
-						Count: 1
-						id: "minecraft:iron_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5759A9535EFECAC5"
-					item: "productivebees:honey_treat"
-					type: "item"
-				}
+			dependencies: ["13AA91D39A2CABF2"]
+			description: [
+				"{atm9.quest.productiveBees.desc.beeFarm.1}"
+				""
+				"{atm9.quest.productiveBees.desc.beeFarm.2}"
+				""
+				"{atm9.quest.productiveBees.desc.beeFarm.3}"
 			]
-			tasks: [{
-				id: "0871D2319E7C66F5"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "productivebees:oak_wood_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:gravel_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:glowstone_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:obsidian_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:nether_quartz_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:coarse_dirt_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:stone_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:sand_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:spruce_wood_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:dark_oak_wood_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:birch_wood_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:jungle_wood_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:acacia_wood_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:snow_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:end_stone_nest"
-							}
-							{
-								Count: 1b
-								id: "productivebees:bumble_bee_nest"
-							}
-						]
-					}
-				}
-				title: "{atm9.quest.bees.nests}"
-				type: "item"
-			}]
-			title: "{atm9.quest.bees.nests}"
-			x: -3.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["4FFCDF32E33591B1"]
-			description: ["{atm9.quest.bees.desc.centri}"]
-			id: "47E01F11CD550ED2"
-			rewards: [{
-				id: "5EE9BDC2B3D46082"
-				item: "minecraft:iron_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0E0A32E87F191309"
-				item: "productivebees:centrifuge"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["47E01F11CD550ED2"]
-			description: ["{atm9.quest.bees.desc.upgrade}"]
-			id: "499E1A727909C71B"
-			rewards: [{
-				id: "29F10D8448B418CB"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3FCFB00CF4B75EAF"
-				item: "productivebees:upgrade_base"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["499E1A727909C71B"]
-			description: ["{atm9.quest.bees.desc.tip}"]
-			id: "41F4B3F793870789"
-			rewards: [{
-				id: "5A6DB8696289B638"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "151E06EA2F7E10E1"
-				title: "{atm9.quest.bees.tip}"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["41F4B3F793870789"]
-			description: ["{atm9.quest.bees.desc.draconictip}"]
-			id: "12029350F0D955CC"
-			rewards: [{
-				id: "15CBF0CF93A4161E"
-				item: "productivebees:upgrade_productivity_2"
-				type: "item"
-			}]
-			size: 1.25d
-			tasks: [{
-				id: "5EF7D1912DD68497"
-				item: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:draconic"
-						}
-					}
-				}
-				type: "item"
-			}]
-			title: "{atm9.quest.bees.draconictip}"
-			x: 4.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["350AFE6E0E9B6E57"]
-			description: ["{atm9.quest.bees.desc.helmet}"]
-			id: "0E6172B294F9FEF8"
-			rewards: [{
-				id: "171DCA9DC994C591"
-				type: "xp"
-				xp: 100
-			}]
-			size: 1.25d
-			tasks: [{
-				id: "496C60D9AE912D4D"
-				item: {
-					Count: 1
-					id: "productivebees:bee_nest_diamond_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "{atm9.quest.bees.helmet}"
-			x: -13.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["0E6172B294F9FEF8"]
-			description: ["{atm9.quest.bees.desc.bottler}"]
-			id: "73AC79B6C61AECF9"
-			rewards: [{
-				count: 5
-				id: "483EB36DBAA22168"
-				item: "minecraft:glass_bottle"
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.bees.subt.bottler}"
-			tasks: [{
-				id: "0F5FB357ABE5E35F"
-				item: "productivebees:bottler"
-				type: "item"
-			}]
-			x: -12.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["0E6172B294F9FEF8"]
-			description: ["{atm9.quest.bees.desc.catcher}"]
-			id: "3803EC7864802EE3"
-			rewards: [{
-				count: 2
-				id: "35389E06F77407EF"
-				item: "productivebees:sturdy_bee_cage"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4317C5C0AE3A947F"
-				item: "productivebees:catcher"
-				type: "item"
-			}]
-			title: "{atm9.quest.bees.catcher}"
-			x: -12.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["3803EC7864802EE3"]
-			id: "0310BD9C1A6B6C32"
+			id: "29EE878BC8D3A742"
 			rewards: [
 				{
-					id: "107544AF8932920C"
+					id: "495A8E79141F31AC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3BAFF21709BCF43F"
 					item: "productivebees:sturdy_bee_cage"
 					type: "item"
 				}
-				{
-					id: "4C513A851B0CE8E6"
-					item: "productivebees:upgrade_base"
-					type: "item"
-				}
 			]
-			subtitle: "{atm9.quest.bees.desc.nbabee}"
 			tasks: [{
-				id: "78C0EA75FE889EE3"
-				item: "productivebees:upgrade_not_babee"
-				type: "item"
-			}]
-			x: -12.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["3803EC7864802EE3"]
-			id: "40612625173DB67E"
-			rewards: [{
-				count: 3
-				id: "015DE711CC021B5D"
-				item: "productivebees:upgrade_base"
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.bees.desc.filterup}"
-			tasks: [{
-				id: "10A2D495B4B6CA82"
-				item: "productivebees:upgrade_filter"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["04BB525BBA7CDCDB"]
-			description: ["{atm9.quest.bees.desc.gene}"]
-			id: "7E4FD827E01DE3FA"
-			rewards: [{
-				count: 10
-				id: "655F875B83C11719"
-				item: "productivebees:honey_treat"
-				type: "item"
-			}]
-			tasks: [{
-				id: "69A9B191A5DBA565"
-				item: {
-					Count: 1
-					id: "productivebees:gene"
-					tag: {
-						productivebees_gene_attribute: "productivity"
-						productivebees_gene_purity: 100
-						productivebees_gene_value: 3
-					}
-				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: -9.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["73AC79B6C61AECF9"]
-			description: ["{atm9.quest.bees.desc.indexer}"]
-			id: "04BB525BBA7CDCDB"
-			rewards: [{
-				id: "5232647CB8310880"
-				item: "productivebees:upgrade_time"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3A58285B8C38D7B7"
-				item: "productivebees:gene_indexer"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["3803EC7864802EE3"]
-			id: "5E0B79339035F3F9"
-			rewards: [{
-				id: "417292AE6EB00CC4"
-				item: "productivebees:upgrade_productivity_2"
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.bees.subt.rangeup}"
-			tasks: [{
-				id: "2116399C009AFEDB"
-				item: "productivebees:upgrade_range"
-				type: "item"
-			}]
-			x: -12.0d
-			y: 4.25d
-		}
-		{
-			dependencies: ["7E4FD827E01DE3FA"]
-			description: ["{atm9.quest.bees.desc.fishing}"]
-			id: "71F3D960218B649E"
-			rewards: [{
-				count: 12
-				id: "63DFD7333E0B7802"
-				item: "minecraft:dandelion"
-				type: "item"
-			}]
-			tasks: [{
-				id: "34DE68C007F17067"
-				item: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["1583E3DD336998CC"]
-			description: ["{atm9.quest.bees.desc.breeding}"]
-			id: "1E577FC36C072059"
-			rewards: [{
-				id: "28C1989BC783078B"
-				item: "productivebees:upgrade_time"
-				type: "item"
-			}]
-			size: 1.25d
-			tasks: [{
-				id: "09F4AEDB803E5781"
-				item: "productivebees:breeding_chamber"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["71F3D960218B649E"]
-			description: ["{atm9.quest.bees.desc.babee}"]
-			id: "1583E3DD336998CC"
-			rewards: [{
-				id: "662222F9C136493B"
-				item: "minecraft:gold_block"
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.bees.subt.babee}"
-			tasks: [{
-				id: "375B413961E2B3D8"
-				item: "productivebees:upgrade_breeding"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["1E577FC36C072059"]
-			description: ["{atm9.quest.bees.desc.metaturnal}"]
-			id: "06551134D539E39D"
-			rewards: [{
-				id: "76CC5EF245951E08"
-				item: "minecraft:oak_fence"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "6DEAF4F401B4ADD2"
-					item: "minecraft:lead"
-					type: "item"
-				}
-				{
-					id: "690CB1DD7A38D00C"
-					title: "!"
-					type: "checkmark"
-				}
-			]
-			title: "{atm9.quest.bees.metaturnal}"
-			x: -3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["1E577FC36C072059"]
-			description: ["{atm9.quest.bees.desc.incubator}"]
-			id: "70F904B22F1F40E6"
-			rewards: [{
-				count: 16
-				id: "65F0243F7D39B0EC"
+				count: 4L
+				id: "2B86DC6F7E579E0B"
 				item: "productivebees:bee_cage"
 				type: "item"
 			}]
-			tasks: [{
-				id: "17024D28435F0F53"
-				item: "productivebees:incubator"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 3.75d
+			title: "{atm9.quest.productiveBees.capturingBees}"
+			x: 1.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["06551134D539E39D"]
-			description: ["{atm9.quest.bees.desc.modifying}"]
-			id: "512A18BC6C25EBD4"
-			rewards: [{
-				id: "2C52157EB6CBAD66"
-				type: "xp"
-				xp: 60
-			}]
+			dependencies: ["109AD73F016D576B"]
+			description: [
+				"{atm9.quest.productiveBees.desc.advancedBeehive.1}"
+				""
+				"{atm9.quest.productiveBees.desc.advancedBeehive.2}"
+				""
+				"{atm9.quest.productiveBees.desc.advancedBeehive.3}"
+			]
+			id: "7C169A4A39F37FAC"
+			rewards: [
+				{
+					count: 2
+					id: "0E4EE8248A540A3A"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "379FD843A5076141"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{atm9.quest.productiveBees.subt.noShearing}"
 			tasks: [{
-				id: "6B26FB95EE2EB9D9"
+				icon: "productivebees:advanced_oak_beehive"
+				id: "0EF1CA8DED2FF38C"
 				item: {
 					Count: 1
-					id: "productivebees:honey_treat"
+					id: "itemfilters:tag"
 					tag: {
-						productivebees_gene_stack: [{
-							Count: 1b
-							id: "productivebees:gene"
-							tag: {
-								productivebees_gene_attribute: "productivity"
-								productivebees_gene_purity: 100
-								productivebees_gene_value: 3
-							}
-						}]
+						value: "productivebees:advanced_beehives"
 					}
 				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: -1.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["512A18BC6C25EBD4"]
-			description: ["{atm9.quest.bees.desc.thebestbee}"]
-			icon: "pneumaticcraft:standby_upgrade"
-			id: "53038D3CEEE7AE3E"
-			rewards: [{
-				id: "591843D861499F2F"
-				type: "xp"
-				xp: 50
-			}]
-			size: 2.0d
-			tasks: [{
-				id: "20844CA20FED42F4"
-				title: "{atm9.quest.bees.thebestbee}"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["499E1A727909C71B"]
-			id: "7B8AA5B4C4A1CAB0"
-			tasks: [{
-				id: "210517E51413BD42"
-				item: "productivebees:upgrade_productivity"
+				title: "{atm9.quest.productiveBees.advancedBeehive}"
 				type: "item"
 			}]
+			title: "{atm9.quest.productiveBees.advancedBeehive}"
 			x: 1.0d
-			y: -1.2d
+			y: 0.5d
 		}
 		{
-			dependencies: ["499E1A727909C71B"]
-			id: "13987FB505561C13"
-			tasks: [{
-				id: "016EB62169501B40"
-				item: "productivebees:upgrade_productivity_2"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -1.2d
-		}
-		{
-			dependencies: [
-				"499E1A727909C71B"
-				"670EE986943D1B89"
-			]
-			id: "48851A60B94D5276"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0321262C801B71E6"
-				table_id: 4196188979167302596L
-				type: "random"
-			}]
-			tasks: [{
-				id: "57B54FD8E8F976F7"
-				item: "productivebees:upgrade_productivity_3"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"48851A60B94D5276"
-				"60A07F5BF18BDC67"
-			]
-			id: "46E2EA754CF7E2AA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0005840400ED8E13"
-				table_id: 7025454341029952768L
-				type: "random"
-			}]
-			size: 1.0d
-			subtitle: "{atm9.quest.bees.subt.omega}"
-			tasks: [{
-				id: "22710EFD96461516"
-				item: "productivebees:upgrade_productivity_4"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"499E1A727909C71B"
-				"0CB5C7302493AC35"
-			]
-			id: "670EE986943D1B89"
-			rewards: [{
-				id: "4A196E690954FE0B"
-				type: "xp_levels"
-				xp_levels: 30
-			}]
-			tasks: [{
-				id: "5E083B6C765B5B79"
-				item: "productivebees:upgrade_simulator"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"47E01F11CD550ED2"
-				"499E1A727909C71B"
-			]
-			id: "022D1803B374D519"
-			tasks: [{
-				id: "58F9213740EF123F"
-				item: "productivebees:upgrade_time"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["499E1A727909C71B"]
-			id: "60A07F5BF18BDC67"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5B2938669E379479"
-				table_id: 4196188979167302596L
-				type: "random"
-			}]
-			tasks: [{
-				id: "26E65284AC492BBB"
-				item: "productivebees:upgrade_comb_block"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -2.0d
-		}
-		{
-			id: "0CB5C7302493AC35"
-			tasks: [{
-				id: "7660AD8F30ED44CF"
-				item: "productivebees:upgrade_anti_teleport"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["512A18BC6C25EBD4"]
-			id: "3CB18D8F81555370"
-			tasks: [{
-				id: "098B98C17580372E"
-				item: "productivebees:upgrade_bee_sampler"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["350AFE6E0E9B6E57"]
-			description: ["{atm9.quest.bees.desc.beetree}"]
-			hide_dependent_lines: true
-			id: "10834E9FC835DE88"
-			size: 1.5d
-			tasks: [{
-				id: "0EB36F87AEBB65CB"
-				item: "minecraft:bee_nest"
-				type: "item"
-			}]
-			title: "{atm9.quest.bees.beetree}"
-			x: -4.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			description: ["{atm9.quest.productiveBees.desc.netherBrickNest}"]
-			hide: false
-			hide_dependency_lines: false
-			hide_dependent_lines: true
-			id: "45A278BC321650EE"
-			rewards: [{
-				id: "11D454CA5EEB5658"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.magmaticNether}"
-			tasks: [{
-				id: "6FCFD2681D67EBD3"
-				item: "productivebees:nether_brick_nest"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			description: ["{atm9.quest.productiveBees.desc.glowstoneNest}"]
-			hide: false
-			hide_dependent_lines: true
-			id: "50CC6D4DBA7D7818"
-			rewards: [{
-				id: "407595E272DAD657"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.netherGlowing}"
-			tasks: [{
-				id: "4FAF4E0CEB7F6E71"
-				item: "productivebees:glowstone_nest"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			hide: false
-			hide_dependent_lines: true
-			id: "49BFA8EF4E9147C9"
-			rewards: [{
-				id: "50B3E2A6D6E6808A"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.ghostlyBeesNether}"
-			tasks: [{
-				id: "75D24FE39AA46476"
-				item: "productivebees:soul_sand_nest"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			description: ["{atm9.quest.productiveBees.desc.enderNest}"]
-			hide: false
-			hide_dependent_lines: true
-			id: "445FE329417A7172"
-			rewards: [{
-				id: "1445149EA492F73E"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.enderEnd}"
-			tasks: [{
-				id: "708434A9ECFB2BB4"
-				item: "productivebees:end_stone_nest"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			description: [
-				"{atm9.quest.productiveBees.desc.crystallineNest.1}"
-				""
-				"{atm9.quest.productiveBees.desc.crystallineNest.2}"
-				""
-				"{atm9.quest.productiveBees.desc.crystallineNest.3}"
-			]
-			hide: false
-			hide_dependent_lines: true
-			id: "3686D92946B2D8A1"
-			rewards: [{
-				id: "04E44E0CDC60BD7B"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.crystallineNether}"
-			tasks: [{
-				id: "4DC9683D8676BB9C"
-				item: "productivebees:nether_quartz_nest"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			description: [
-				"{atm9.quest.productiveBees.desc.obsidianNest.1}"
-				""
-				"{atm9.quest.productiveBees.desc.obsidianNest.2}"
-			]
-			hide: false
-			hide_dependent_lines: true
-			id: "0047E1CD68B1B4AB"
-			rewards: [{
-				id: "0D4C88E7897343A3"
-				type: "xp"
-				xp: 100
-			}]
-			size: 1.5d
-			subtitle: "{atm9.quest.productiveBees.subt.draconicEnd}"
-			tasks: [{
-				id: "41B8CE48F0340E70"
-				item: "productivebees:obsidian_nest"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 14.25d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			description: ["{atm9.quest.productiveBees.desc.luresGoldBee}"]
-			hide_dependency_lines: false
-			hide_dependent_lines: true
-			id: "75C57F0576817502"
-			rewards: [{
-				id: "2B2FCFE5F5D481CA"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.luresGoldBee}"
-			tasks: [{
-				id: "43047899B87E11CC"
-				item: "productivebees:nether_gold_nest"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
+			dependencies: ["120BDCB70AD352AC"]
 			description: [
 				"{atm9.quest.productiveBees.desc.nests.1}"
 				""
@@ -1378,147 +211,333 @@
 				"{atm9.quest.productiveBees.desc.nests.3}"
 			]
 			hide: false
-			hide_dependent_lines: true
-			id: "56B1FD11459AA7CB"
+			id: "00A17728A387B426"
 			rewards: [{
-				id: "6CE008351D026777"
+				id: "13A6FF7C32F2A33F"
 				type: "xp"
 				xp: 10
 			}]
 			subtitle: "{atm9.quest.productiveBees.subt.overworldBiome.1}"
 			tasks: [
 				{
-					id: "04AF37B2304C8056"
+					id: "1F2A2E5E1319BBAA"
 					item: "productivebees:oak_wood_nest"
 					type: "item"
 				}
 				{
-					id: "4D9A30F3E5AF05D2"
+					id: "05B1A9B5E710DC24"
 					item: "productivebees:dark_oak_wood_nest"
 					type: "item"
 				}
 				{
-					id: "1798D6864966E3EC"
+					id: "3F43AC1C5F87ACA3"
 					item: "productivebees:jungle_wood_nest"
 					type: "item"
 				}
 				{
-					id: "3AD465FBAD10E51A"
+					id: "06DB37B0D01CE868"
 					item: "productivebees:spruce_wood_nest"
 					type: "item"
 				}
 				{
-					id: "7E8F69583FACEFBE"
+					id: "406D976F0C6B5CB8"
 					item: "productivebees:birch_wood_nest"
 					type: "item"
 				}
 				{
-					id: "725F311EAB9DC8DF"
+					id: "3328BB57F3B6FDDA"
 					item: "productivebees:acacia_wood_nest"
 					type: "item"
 				}
 			]
 			title: "{atm9.quest.productiveBees.woodNest}"
-			x: -10.5d
-			y: 6.0d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["10834E9FC835DE88"]
-			hide_dependent_lines: true
-			id: "4E3419C8FC0FBE79"
-			tasks: [{
-				id: "5FD131D4528F8EC9"
-				item: "productivebees:coarse_dirt_nest"
-				type: "item"
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["{atm9.quest.productiveBees.desc.stoneNest}"]
+			hide: false
+			hide_dependency_lines: true
+			id: "369D3AF332181DA8"
+			rewards: [{
+				id: "2FAF74F05A3FB855"
+				type: "xp"
+				xp: 10
 			}]
-			x: -7.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			hide_dependent_lines: true
-			id: "799E21F27D0C3676"
+			subtitle: "{atm9.quest.productiveBees.subt.overworldBiome.2}"
 			tasks: [{
-				id: "7CE9195631C3ACC1"
+				id: "03A3CD871B01984F"
 				item: "productivebees:stone_nest"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 6.0d
+			x: -5.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["10834E9FC835DE88"]
-			hide_dependent_lines: true
-			id: "2F3FE46C4095BB47"
+			dependencies: ["120BDCB70AD352AC"]
+			description: [
+				"{atm9.quest.productiveBees.desc.dirtNest.1}"
+				""
+				"{atm9.quest.productiveBees.desc.dirtNest.2}"
+			]
+			hide: false
+			id: "73C70B15582958A5"
+			rewards: [{
+				id: "7BF7221FDB6D90C9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.overworldBiome.3}"
 			tasks: [{
-				id: "0B02247331B1F79C"
-				item: "productivebees:sugar_cane_nest"
+				id: "75AC4440283F2FD2"
+				item: "productivebees:coarse_dirt_nest"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 11.0d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["10834E9FC835DE88"]
-			hide_dependent_lines: true
-			id: "11EFC8BB17FDBF65"
-			optional: true
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["{atm9.quest.productiveBees.desc.sandNest}"]
+			hide: false
+			hide_dependency_lines: true
+			id: "06044B4452A6B720"
+			rewards: [{
+				id: "73C97FC16BFC308A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.desertBiomes}"
 			tasks: [{
-				id: "7A2CC83240D54B55"
+				id: "583141D1F71510B3"
 				item: "productivebees:sand_nest"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 7.5d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["10834E9FC835DE88"]
-			hide_dependent_lines: true
-			id: "6A492AA8AEE35F85"
-			tasks: [{
-				id: "4527AA313E03F867"
-				item: "productivebees:slimy_nest"
-				type: "item"
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["{atm9.quest.productiveBees.desc.snowNest}"]
+			hide: false
+			hide_dependency_lines: true
+			id: "264BFB8C5F79616F"
+			rewards: [{
+				id: "5109858DAD10D79F"
+				type: "xp"
+				xp: 10
 			}]
-			x: -9.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			hide_dependent_lines: true
-			id: "0835A3E57BE8770B"
+			subtitle: "{atm9.quest.productiveBees.subt.coldBiomes}"
 			tasks: [{
-				id: "784F568239566A50"
-				item: "productivebees:bumble_bee_nest"
-				type: "item"
-			}]
-			x: -12.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			hide_dependent_lines: true
-			id: "4C38B0D00D1710D1"
-			tasks: [{
-				id: "605126597B3E19B4"
+				id: "01C9E075D831E1AD"
 				item: "productivebees:snow_nest"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 11.0d
+			x: -6.0d
+			y: 3.5d
 		}
 		{
-			dependencies: [
-				"17FCABC8465A0FA1"
-				"1CA0178229D1C478"
+			dependencies: ["120BDCB70AD352AC"]
+			description: [
+				"{atm9.quest.productiveBees.desc.gravelNest.1}"
+				""
+				"{atm9.quest.productiveBees.desc.gravelNest.2}"
 			]
-			description: [""]
-			hide_dependency_lines: false
-			hide_dependent_lines: true
-			icon: "minecraft:iron_ingot"
-			id: "6CAEF858ADB0ADE6"
+			hide: false
+			hide_dependency_lines: true
+			id: "09FD3D0B9BCAEB5A"
 			rewards: [{
-				id: "67DAFAD28E514E14"
+				id: "12F728528AF6A6D3"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.riverBeachBiomes}"
+			tasks: [{
+				id: "3091212589824103"
+				item: "productivebees:gravel_nest"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["{atm9.quest.productiveBees.desc.reedNest}"]
+			hide: false
+			hide_dependency_lines: true
+			id: "5CC9CB0911954215"
+			rewards: [{
+				id: "53A40EE86E11B2C0"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.overworldBiome.4}"
+			tasks: [{
+				id: "3BE7523330044E2F"
+				item: "productivebees:sugar_cane_nest"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["{atm9.quest.productiveBees.desc.slimyNest}"]
+			hide: false
+			hide_dependency_lines: true
+			id: "79D6A251FE3761B3"
+			rewards: [{
+				id: "4D2E30FE89E3148F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.swampBiome}"
+			tasks: [{
+				id: "255B5D268D66C748"
+				item: "productivebees:slimy_nest"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["{atm9.quest.productiveBees.desc.glowstoneNest}"]
+			hide: false
+			hide_dependency_lines: true
+			id: "41CF7CAEE4F60CCD"
+			rewards: [{
+				id: "310F333754B88B57"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.netherGlowing}"
+			tasks: [{
+				id: "09F5BBEBACBA280D"
+				item: "productivebees:glowstone_nest"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			hide: false
+			hide_dependency_lines: true
+			id: "027FD9135DEC4949"
+			rewards: [{
+				id: "1EC49763E8E46D47"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.ghostlyBeesNether}"
+			tasks: [{
+				id: "432B3806B0D8F356"
+				item: "productivebees:soul_sand_nest"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: [
+				"{atm9.quest.productiveBees.desc.crystallineNest.1}"
+				""
+				"{atm9.quest.productiveBees.desc.crystallineNest.2}"
+				""
+				"{atm9.quest.productiveBees.desc.crystallineNest.3}"
+			]
+			hide: false
+			hide_dependency_lines: true
+			id: "6D484150536536B9"
+			rewards: [{
+				id: "5A21046DE47F6AD0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.crystallineNether}"
+			tasks: [{
+				id: "4356F84A57C41F62"
+				item: "productivebees:nether_quartz_nest"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["{atm9.quest.productiveBees.desc.netherBrickNest}"]
+			hide: false
+			hide_dependency_lines: true
+			id: "349D19F2FCC34B84"
+			rewards: [{
+				id: "4A620DDFDE9BDB88"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.magmaticNether}"
+			tasks: [{
+				id: "3722A83F8591AC9F"
+				item: "productivebees:nether_brick_nest"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["{atm9.quest.productiveBees.desc.enderNest}"]
+			hide: false
+			hide_dependency_lines: true
+			id: "1E9BD4B74DAEA9FC"
+			rewards: [{
+				id: "121400F2EFEEB64C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.enderEnd}"
+			tasks: [{
+				id: "23A45F19E1E556BB"
+				item: "productivebees:end_stone_nest"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: [
+				"{atm9.quest.productiveBees.desc.obsidianNest.1}"
+				""
+				"{atm9.quest.productiveBees.desc.obsidianNest.2}"
+			]
+			hide: false
+			hide_dependency_lines: true
+			id: "3155E4212045BC8E"
+			rewards: [{
+				id: "69CAC89B71A6CB41"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.draconicEnd}"
+			tasks: [{
+				id: "727AAC7516CF8B5B"
+				item: "productivebees:obsidian_nest"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: "minecraft:iron_ingot"
+			id: "114D668C691A2BDF"
+			rewards: [{
+				id: "70F5DFF5B0D6BEF7"
 				type: "xp"
 				xp: 100
 			}]
@@ -1533,7 +552,7 @@
 						}
 					}
 				}
-				id: "0CB85E179E13FD83"
+				id: "6D4F62833424ADC0"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
@@ -1549,93 +568,47 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.ironBees}"
-			x: -5.5d
-			y: 8.0d
+			x: 1.0d
+			y: 9.5d
 		}
 		{
-			dependencies: [
-				"17FCABC8465A0FA1"
-				"1CA0178229D1C478"
-			]
-			description: [""]
-			hide_dependency_lines: false
-			hide_dependent_lines: true
-			icon: "alltheores:tin_ingot"
-			id: "7C7771F58B84C26E"
+			dependencies: ["131EC039435B8878"]
+			description: ["{atm9.quest.productiveBees.desc.ashyMiningBee}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "37367101B3DAA70F"
 			rewards: [{
-				id: "1CD879688DAA9435"
+				id: "5834F59FFE9CB283"
 				type: "xp"
-				xp: 100
+				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.ashyCrystalline}"
+			subtitle: "{atm9.quest.productiveBees.subt.dirtNest}"
 			tasks: [{
-				id: "55C99C50AED35F87"
-				item: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:tin"
-						}
-					}
-				}
-				type: "item"
+				id: "3DE460F842195173"
+				title: "{atm9.quest.productiveBees.ashyMiningBee}"
+				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.tinBees}"
-			x: -2.5d
-			y: 8.0d
+			x: -4.0d
+			y: 12.5d
 		}
 		{
-			dependencies: ["1CA0178229D1C478"]
-			icon: "mysticalagriculture:prosperity_shard"
-			id: "14A8E8358BE60863"
-			rewards: [{
-				id: "79BDC36BEF60458B"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedProsperityBlock}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:prosperity"
-						}
-					}
-				}
-				id: "3B81A36C58C93DE8"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:prosperity"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.prosperityComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.prosperiBee}"
-			x: -1.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["3686D92946B2D8A1"]
+			dependencies: ["131EC039435B8878"]
 			description: [
 				"{atm9.quest.productiveBees.desc.crystallineBee.1}"
 				""
 				"{atm9.quest.productiveBees.desc.crystallineBee.2}"
 			]
-			hide_dependent_lines: true
+			hide_dependency_lines: true
 			icon: "minecraft:quartz"
-			id: "1CA0178229D1C478"
+			id: "4C47EB9D2CE26BC6"
 			rewards: [{
-				id: "7312707A51AD8833"
+				id: "492A77FECC7B1FBB"
 				type: "xp"
 				xp: 100
 			}]
@@ -1650,7 +623,7 @@
 						}
 					}
 				}
-				id: "614554B243F796AE"
+				id: "6E21D8349EEB2A11"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
@@ -1666,129 +639,952 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.crystallineBee}"
-			x: -3.0d
-			y: 7.0d
+			x: -4.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["45A278BC321650EE"]
-			hide_dependent_lines: true
-			icon: "minecraft:magma_cream"
-			id: "4652E7CBC8D3A5F3"
+			dependencies: ["17419401147B5C02"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: "minecraft:copper_ingot"
+			id: "75CD4EE6A542D687"
 			rewards: [{
-				id: "46E97EE025FF9DE2"
+				id: "4AD65F5EA93306F1"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.netherBrickNestNether}"
+			subtitle: "{atm9.quest.productiveBees.subt.crystallineAshyMining}"
 			tasks: [{
 				icon: {
 					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:magmatic"
+							type: "productivebees:copper"
 						}
 					}
 				}
-				id: "51DC1F8A99703662"
+				id: "263F0E416A8E1110"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
 							EntityTag: {
-								type: "productivebees:magmatic"
+								type: "productivebees:copper"
 							}
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.magmaticComb}"
+				title: "{atm9.quest.productiveBees.copperComb}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.magmaticBee}"
-			x: 0.0d
-			y: 7.0d
+			title: "{atm9.quest.productiveBees.copperBees}"
+			x: 2.0d
+			y: 11.0d
 		}
 		{
-			dependencies: [
-				"4E3419C8FC0FBE79"
-				"11EFC8BB17FDBF65"
-			]
-			dependency_requirement: "one_completed"
-			description: ["{atm9.quest.productiveBees.desc.ashyMiningBee}"]
-			hide_dependent_lines: true
-			icon: {
-				Count: 1
-				id: "minecraft:stone_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "17FCABC8465A0FA1"
+			dependencies: ["17419401147B5C02"]
+			description: ["{atm9.quest.productiveBees.desc.tinBees}"]
+			hide_dependency_lines: true
+			icon: "alltheores:tin_ingot"
+			id: "589EB4602E3F9EEE"
 			rewards: [{
-				id: "4BDBA1649F0BE46B"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.dirtNest}"
-			tasks: [{
-				id: "4D211D6F3285259B"
-				title: "{atm9.quest.productiveBees.ashyMiningBee}"
-				type: "checkmark"
-			}]
-			x: -7.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["799E21F27D0C3676"]
-			hide_dependent_lines: true
-			icon: "minecraft:gravel"
-			id: "653E71DC51067405"
-			rewards: [{
-				id: "6A1D4803A7B83E8A"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.productiveBees.gravelStoneNest}"
-			tasks: [{
-				id: "5C8F4A5A1E26F187"
-				title: "{atm9.quest.productiveBees.diggerBees}"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.productiveBees.diggerBee}"
-			x: -6.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			hide_dependent_lines: true
-			icon: "minecraft:creeper_head"
-			id: "7E858766593C89CD"
-			rewards: [{
-				id: "6A7BFC0950A2337D"
+				id: "7FA16F264547ECF7"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedTNT}"
+			subtitle: "{atm9.quest.productiveBees.subt.ashyCrystalline}"
 			tasks: [{
-				id: "51E25A31EB8A1B67"
-				item: "productivebees:honeycomb_powdery"
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:tin"
+						}
+					}
+				}
+				id: "17C7DC04BC22C0D7"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:tin"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.tinComb}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.creeBee}"
-			x: -4.0d
-			y: 7.0d
+			title: "{atm9.quest.productiveBees.tinBees}"
+			x: 3.0d
+			y: 10.5d
 		}
 		{
-			dependencies: ["6A492AA8AEE35F85"]
-			description: ["{atm9.quest.productiveBees.desc.slimyNestLure}"]
-			hide_dependent_lines: true
-			icon: "minecraft:slime_ball"
-			id: "4E9D9C9752708BF9"
+			dependencies: ["17419401147B5C02"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: "alltheores:aluminum_ingot"
+			id: "0D5D76B3551CD5A7"
+			rewards: [{
+				id: "1E87DDE8F03C8AA8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.crystallineAshyMining}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:aluminum"
+						}
+					}
+				}
+				id: "79712C13C6597E82"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:aluminum"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.aluminumComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.aluminumBees}"
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			description: [""]
+			hide: false
+			hide_dependency_lines: true
+			icon: "minecraft:gold_ingot"
+			id: "029AA03790F055E8"
+			rewards: [{
+				id: "1DC7AED40698F09D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.crystallineMason}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:gold"
+						}
+					}
+				}
+				id: "59665D8476656B9F"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:gold"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.goldComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.goldBees}"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:brick"
+			id: "24888CAD50B32B04"
+			rewards: [{
+				id: "40B999E6FCDAC7A8"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.stoneNest}"
+			tasks: [{
+				id: "4BC7F46B28DC6BA0"
+				title: "{atm9.quest.productiveBees.masonBees}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.masonBee}"
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: [
+				"{atm9.quest.productiveBees.desc.productiveBees.1}"
+				""
+				"{atm9.quest.productiveBees.desc.productiveBees.2}"
+				""
+				"{atm9.quest.productiveBees.desc.productiveBees.3}"
+				""
+				"{atm9.quest.productiveBees.desc.productiveBees.4}"
+			]
+			id: "131EC039435B8878"
+			rewards: [
+				{
+					id: "4F2B6C905FB137F0"
+					item: "productivebees:honey_treat"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "327E963A18728867"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "1C677CD515E8862B"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29EE878BC8D3A742"]
+			description: ["{atm9.quest.productiveBees.desc.nestDirection}"]
+			id: "68CE30097BADE20E"
+			optional: true
+			rewards: [
+				{
+					id: "6C1DDDA29011FD24"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "14996378A430180C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "10D83EFF8DF8830B"
+				item: {
+					Count: 1
+					id: "productivebees:nest_locator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.findingNests}"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: ["{atm9.quest.productiveBees.desc.upgradeBase}"]
+			hide_dependency_lines: true
+			id: "66324D7D0C51AEAC"
+			rewards: [
+				{
+					id: "279DEFA11701B0C6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "190005A9561D76D2"
+					item: "productivebees:upgrade_base"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26D057A4EDC423A9"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "52AA599123DF9D78"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			id: "6DBF9CAB37B9BBF3"
+			rewards: [
+				{
+					id: "532DF28E46411BAA"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "01C9C90A328265CE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.productiveBees.subt.beeProductivity}"
+			tasks: [{
+				id: "23697EE31757EBEB"
+				item: "productivebees:upgrade_productivity"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			description: [
+				"{atm9.quest.productiveBees.desc.hiveCentrifuge.1}"
+				""
+				"{atm9.quest.productiveBees.desc.hiveCentrifuge.2}"
+				""
+				"{atm9.quest.productiveBees.desc.hiveCentrifuge.3}"
+				""
+				"{atm9.quest.productiveBees.desc.hiveCentrifuge.4}"
+			]
+			id: "500BEAD94C97DF96"
+			rewards: [
+				{
+					id: "7B68706C7E4D9550"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "23E4F84BF4C64AB3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.sonicBees}"
+			tasks: [{
+				id: "2F69E114B9F17B9A"
+				item: "productivebees:upgrade_time"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			description: [
+				"{atm9.quest.productiveBees.desc.hiveCatcher.1}"
+				""
+				"{atm9.quest.productiveBees.desc.hiveCatcher.2}"
+				""
+				"{atm9.quest.productiveBees.desc.hiveCatcher.3}"
+			]
+			id: "2182492BCC1B33D8"
+			rewards: [
+				{
+					id: "4423FDFB72B07AFC"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "60C16B8456B350DF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.productiveBees.subt.makingBabies}"
+			tasks: [{
+				id: "04E3182336EE3967"
+				item: "productivebees:upgrade_breeding"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			id: "397E2D14BDE7DED0"
+			rewards: [
+				{
+					id: "08153982346B6697"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "2DD19E19BEC19037"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.productiveBees.subt.lumberQuarryBlocks}"
+			tasks: [{
+				id: "2289A74F096C389C"
+				item: "productivebees:upgrade_comb_block"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			description: ["{atm9.quest.productiveBees.desc.enderBeesNecessity}"]
+			id: "198EDBAC1D6E2339"
+			rewards: [
+				{
+					id: "741664A37CF3CE09"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "6D74E7326BB52C6E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.productiveBees.subt.preventTeleport}"
+			tasks: [{
+				id: "09CA837E39927465"
+				item: "productivebees:upgrade_anti_teleport"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			description: ["{atm9.quest.productiveBees.desc.catcherUse}"]
+			id: "14623D25561BA61B"
+			rewards: [
+				{
+					id: "7047D156FCBF9AE4"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "075F2B26AEEAD55B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.productiveBees.subt.machineRangeIncrease}"
+			tasks: [{
+				id: "6E8978E798AB54F7"
+				item: "productivebees:upgrade_range"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			id: "57167FE67CFAC255"
+			rewards: [
+				{
+					id: "1A390E7C759A0668"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "7DCEF23469265229"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.productiveBees.subt.beeFilterAddition}"
+			tasks: [{
+				id: "553DD93D10666049"
+				item: "productivebees:upgrade_filter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			id: "1DF026030780AE96"
+			rewards: [
+				{
+					id: "6AA353FFF5071D08"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "0E1128C2FFC5105B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.geneExtraction}"
+			tasks: [{
+				id: "1B0C60960B1ABA92"
+				item: "productivebees:upgrade_bee_sampler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: [
+				"{atm9.quest.productiveBees.desc.centrifugeUse.1}"
+				""
+				"{atm9.quest.productiveBees.desc.centrifugeUse.2}"
+				""
+				"{atm9.quest.productiveBees.desc.centrifugeUse.3}"
+			]
+			id: "33A0E06FE5CFD8F3"
 			rewards: [
 				{
 					count: 2
-					id: "6D525507D0A0E547"
+					id: "498F2AE7D6D03C4B"
+					item: "minecraft:honeycomb"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "412881B0F7ADFF14"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.processingHoneycombs}"
+			tasks: [{
+				id: "65D52E6A67DD11EB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "productivebees:centrifuge"
+							}
+							{
+								Count: 1b
+								id: "productivebees:powered_centrifuge"
+							}
+							{
+								Count: 1b
+								id: "productivebees:heated_centrifuge"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.productiveBees.centrifuges}"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5F1784E562C29B66"
+				"100ACB5C8A359BF0"
+			]
+			description: ["{atm9.quest.productiveBees.desc.diamondBeeCreation}"]
+			icon: "minecraft:diamond"
+			id: "1D720AC88431BD70"
+			rewards: [
+				{
+					count: 2
+					id: "7A4D2E2C591FB3CD"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:diamond"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EF8A565196DEB2C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.enderLapis}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:diamond"
+						}
+					}
+				}
+				id: "4EF5B261BAD2AC7D"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:diamond"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.diamondComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.diamondBee}"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["117241986C99E475"]
+			description: ["{atm9.quest.productiveBees.desc.lapisBeeCreation}"]
+			icon: "minecraft:lapis_lazuli"
+			id: "100ACB5C8A359BF0"
+			rewards: [
+				{
+					id: "7633FEC136EBA1D4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "1ED82242D8118B20"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:lapis"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.redstoneBlueBanded}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lapis"
+						}
+					}
+				}
+				id: "429FA8057B666565"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:lapis"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.lapisComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.lapisBees}"
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["437DB2CE10D33A08"]
+			description: ["{atm9.quest.productiveBees.desc.redstoneBeeCreation}"]
+			disable_toast: true
+			icon: "minecraft:redstone"
+			id: "117241986C99E475"
+			rewards: [
+				{
+					count: 2
+					id: "0E473480AE6A71DF"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:redstone"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AA439A6CAB4A90A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.glowingChocolateMining}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:redstone"
+						}
+					}
+				}
+				id: "345245C32DB7B4D4"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:redstone"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.redstoneComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.redstoneBees}"
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: ["{atm9.quest.productiveBees.desc.endStoneNestRequirement}"]
+			hide_dependency_lines: true
+			icon: "minecraft:ender_pearl"
+			id: "5F1784E562C29B66"
+			rewards: [
+				{
+					count: 2
+					id: "565C007060C1F9EC"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:ender"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EC07E1836DAB17A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.requiresEndStoneNest}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ender"
+						}
+					}
+				}
+				id: "43515B26807F9E01"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:ender"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.enderComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.enderBees}"
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4C0302FF4F63B52E"]
+			description: ["{atm9.quest.productiveBees.desc.glowstoneNestRequirement}"]
+			hide_dependency_lines: false
+			icon: "minecraft:glowstone_dust"
+			id: "437DB2CE10D33A08"
+			rewards: [
+				{
+					count: 2
+					id: "33CF41454AF3192E"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:glowing"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7274DFEAC7126A2D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:glowing"
+						}
+					}
+				}
+				id: "17B0E19125FCFA1A"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:glowing"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.glowingComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.glowingBee}"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "croptopia:chocolate"
+			id: "486060882E507CF1"
+			rewards: [{
+				id: "6C008390E836F306"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.spawnsFromDirtNest}"
+			tasks: [{
+				id: "4DFDEAD81868CEF4"
+				title: "{atm9.quest.productiveBees.chocolateMiningBee}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.chocolateMiningBee}"
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:blue_dye"
+			id: "2CA4D7253DA1825F"
+			rewards: [{
+				id: "0D9788B0439CE954"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.spawnedUsingWoodNest}"
+			tasks: [{
+				id: "12A2CE1C3AE8A033"
+				title: "{atm9.quest.productiveBees.blueBandedBee}"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"1D720AC88431BD70"
+				"39A19138C501B16F"
+			]
+			description: ["{atm9.quest.productiveBees.desc.emeraldBeeCreation}"]
+			icon: "minecraft:emerald"
+			id: "5563BD4934297522"
+			rewards: [
+				{
+					count: 2
+					id: "50B0611117EE75AB"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:emerald"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FE7E2772FA1C09A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.diamondBeeSlimyBee}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:emerald"
+						}
+					}
+				}
+				id: "7B7C1C5BFEC92058"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:emerald"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.emeraldComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.emeraldBee}"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4C0302FF4F63B52E"]
+			description: ["{atm9.quest.productiveBees.desc.slimyNestLure}"]
+			icon: "minecraft:slime_ball"
+			id: "39A19138C501B16F"
+			rewards: [
+				{
+					count: 2
+					id: "6A5C1F186FAFFADA"
 					item: {
 						Count: 1
 						id: "productivebees:configurable_honeycomb"
@@ -1801,7 +1597,7 @@
 					type: "item"
 				}
 				{
-					id: "21AC0149C04D0719"
+					id: "5E11CF7211ADB15A"
 					type: "xp"
 					xp: 100
 				}
@@ -1817,7 +1613,7 @@
 						}
 					}
 				}
-				id: "29846A09978BBDF2"
+				id: "5E017E6B7E3F56B7"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
@@ -1833,860 +1629,440 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.slimyBee}"
-			x: -9.0d
-			y: 7.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["49BFA8EF4E9147C9"]
-			hide_dependent_lines: true
-			icon: "minecraft:soul_sand"
-			id: "02F971FEFDBD1421"
-			rewards: [{
-				id: "4DF8BF4095DC8C0B"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.soulSandNestNether}"
-			tasks: [{
-				id: "7DE5B83649C84315"
-				item: "productivebees:honeycomb_ghostly"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.ghostlyBee}"
-			x: -2.0d
-			y: 7.0d
-		}
-		{
-			dependencies: [
-				"4E3419C8FC0FBE79"
-				"11EFC8BB17FDBF65"
-			]
-			dependency_requirement: "one_completed"
-			hide_dependent_lines: true
-			icon: "croptopia:chocolate"
-			id: "0529B8775ABCBAAF"
-			rewards: [{
-				id: "2D2A382600440500"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.spawnsFromDirtNest}"
-			tasks: [{
-				id: "0EF20E829E233117"
-				title: "{atm9.quest.productiveBees.chocolateMiningBee}"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.productiveBees.chocolateMiningBee}"
-			x: -8.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["4C38B0D00D1710D1"]
-			hide_dependent_lines: true
-			icon: "minecraft:snowball"
-			id: "2ACB83BC92F5A6E6"
-			rewards: [{
-				id: "3AC8BA6DC79457D0"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.snowNest}"
-			tasks: [{
-				id: "3839FD01C54DAD02"
-				title: "{atm9.quest.productiveBees.sweatBee}"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.productiveBees.sweatBee}"
-			x: 3.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["4E3419C8FC0FBE79"]
-			hide_dependent_lines: true
-			icon: "minecraft:oak_leaves"
-			id: "55F790695CC82C40"
-			rewards: [{
-				id: "438D39A3818F54CC"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.dirtNest}"
-			tasks: [{
-				id: "65D020CB66F1C52B"
-				title: "{atm9.quest.productiveBees.leafcutterBees}"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.productiveBees.leafcutterBee}"
-			x: -7.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			description: [
-				"{atm9.quest.productiveBees.desc.itemPickup.1}"
-				""
-				"{atm9.quest.productiveBees.desc.itemPickup.2}"
-			]
-			hide_dependent_lines: true
-			icon: "minecraft:hopper"
-			id: "4230621C8E477045"
-			rewards: [{
-				id: "126279E8661A58B9"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedHopper}"
-			tasks: [{
-				id: "69F59CEA529DBC76"
-				title: "{atm9.quest.productiveBees.collectorBee}"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.productiveBees.collectorBee}"
-			x: -5.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["0835A3E57BE8770B"]
-			description: [
-				"{atm9.quest.productiveBees.desc.flyBee.1}"
-				""
-				"{atm9.quest.productiveBees.desc.flyBee.2}"
-				""
-				"{atm9.quest.productiveBees.desc.flyBee.3}"
-			]
-			icon: "minecraft:saddle"
-			id: "7E7F7329CE3434C6"
-			rewards: [{
-				id: "270C594A1AF865A9"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.overworldBumbleBeeNests}"
-			tasks: [
+			dependencies: ["1D720AC88431BD70"]
+			icon: "minecraft:netherite_ingot"
+			id: "2CA3707BEE2E3C0D"
+			rewards: [
 				{
-					id: "26C8AAB0C72773FC"
+					count: 2
+					id: "6B10EC7376089305"
 					item: {
 						Count: 1
-						id: "productivebees:treat_on_a_stick"
+						id: "productivebees:configurable_honeycomb"
 						tag: {
-							Damage: 0
+							EntityTag: {
+								type: "productivebees:netherite"
+							}
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "7658246B198B66F9"
-					item: "minecraft:saddle"
+					id: "36535E022831C4FD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.feedDiamondBeeNetherite}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:netherite"
+						}
+					}
+				}
+				id: "065E5450AC87F1D5"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:netherite"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.ancientComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.ancientBeeNetherite}"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["76E94639E90FEB4E"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "399882F3C51DD282"
+			rewards: [
+				{
+					count: 2
+					id: "2A44E3F699DB9247"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:withered"
+							}
+						}
+					}
 					type: "item"
 				}
+				{
+					id: "095AA005F163ECC5"
+					type: "xp"
+					xp: 100
+				}
 			]
-			title: "{atm9.quest.productiveBees.bumbleBee}"
-			x: -11.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["56B1FD11459AA7CB"]
-			hide_dependent_lines: true
-			icon: "minecraft:yellow_dye"
-			id: "4EAEFD592206266C"
-			rewards: [{
-				id: "765AF9824508C0AB"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.woodNests}"
-			tasks: [{
-				id: "0C1D3056AFDAFB53"
-				title: "{atm9.quest.productiveBees.yellowCarpenterBees}"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.productiveBees.yellowCarpenterBee}"
-			x: -10.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			hide_dependent_lines: true
-			icon: "minecraft:sugar"
-			id: "35EBFB05782907E0"
-			rewards: [{
-				id: "2A7CEECDB5E31588"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.cocoaPodsJungle}"
-			tasks: [{
-				id: "6D3B415080865C0A"
-				item: "productivebees:sugarbag_honeycomb"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.sugarbagBee}"
-			x: -13.0d
-			y: 12.5d
-		}
-		{
-			dependencies: ["2F3FE46C4095BB47"]
-			hide_dependent_lines: true
-			icon: "productivebees:sugar_cane_nest"
-			id: "1BD2D7B6BF9603C7"
-			rewards: [{
-				id: "01C6859F1FE3A362"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.reedNest}"
-			tasks: [{
-				id: "4E205921D014EC05"
-				title: "{atm9.quest.productiveBees.reedBee}"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.productiveBees.reedBee}"
-			x: -12.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["272ACA3381945EF7"]
-			hide_dependent_lines: true
-			icon: "productivebees:spawn_egg_neon_cuckoo_bee"
-			id: "504206D71AE3C2AE"
-			rewards: [{
-				id: "3BBD8147DB64DDB7"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.blueBandedNest}"
-			tasks: [{
-				id: "1D9F01D092B5C03E"
-				title: "{atm9.quest.productiveBees.neonCuckooBee}"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.productiveBees.neonCuckooBee}"
-			x: -10.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["510A65813C37F269"]
-			hide_dependent_lines: true
-			icon: "minecraft:amethyst_cluster"
-			id: "75C1134B26DD8F54"
-			rewards: [{
-				id: "405921FC2C2AC194"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.feedDiamondBeeAmethyst}"
+			subtitle: "{atm9.quest.productiveBees.subt.feedSkeletalBeeWitheredRose}"
 			tasks: [{
 				icon: {
 					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:amethyst"
+							type: "productivebees:withered"
 						}
 					}
 				}
-				id: "6BAE82E848DA962C"
+				id: "5BFAA4BB6651F71A"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
 							EntityTag: {
-								type: "productivebees:amethyst"
+								type: "productivebees:withered"
 							}
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.amethystComb}"
+				title: "{atm9.quest.productiveBees.witheredComb}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.amethystBee}"
-			x: 1.0d
-			y: 11.0d
+			title: "{atm9.quest.productiveBees.witheredBee}"
+			x: 10.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
-				"4652E7CBC8D3A5F3"
-				"55F790695CC82C40"
+				"2CA3707BEE2E3C0D"
+				"399882F3C51DD282"
 			]
-			hide_dependent_lines: true
-			icon: "minecraft:coal"
-			id: "71A7A8EEDF9CF003"
-			rewards: [{
-				id: "00B9FA66A692B01D"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.magmaticLeafcutter}"
+			description: ["{atm9.quest.productiveBees.desc.allthemodiumBeeCreation}"]
+			icon: "allthemodium:raw_allthemodium"
+			id: "6EFFF0DC80C1C8A3"
+			rewards: [
+				{
+					count: 2
+					id: "52BF6B50DD93E0C7"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:allthemodium"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43280AD345FCEAC4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4328B4BBA9A222F2"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.ancientWithered}"
 			tasks: [{
 				icon: {
 					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:coal"
+							type: "productivebees:allthemodium"
 						}
 					}
 				}
-				id: "3EFC1740CF0D213C"
+				id: "5851FC52DDFE7826"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
 							EntityTag: {
-								type: "productivebees:coal"
+								type: "productivebees:allthemodium"
 							}
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.coalComb}"
+				title: "{atm9.quest.productiveBees.allthemodiumComb}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.coalBee}"
-			x: -1.0d
-			y: 9.0d
+			title: "{atm9.quest.productiveBees.allthemodiumBee}"
+			x: 10.0d
+			y: 4.5d
 		}
 		{
-			dependencies: [
-				"1CA0178229D1C478"
-				"504206D71AE3C2AE"
+			dependencies: ["7C169A4A39F37FAC"]
+			description: ["{atm9.quest.productiveBees.desc.advancedBeehivesDark}"]
+			hide_dependency_lines: true
+			icon: "minecraft:skeleton_skull"
+			id: "76E94639E90FEB4E"
+			rewards: [
+				{
+					count: 2
+					id: "7A6D1C4C8A908A18"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:skeletal"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70F080D7463D7B92"
+					type: "xp"
+					xp: 100
+				}
 			]
-			hide_dependent_lines: true
-			icon: "integrateddynamics:crystalized_menril_chunk"
-			id: "48D3EA291D3C32DF"
-			rewards: [{
-				id: "4079B2AF64294DF0"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.crystallineNeonCuckoo}"
+			subtitle: "{atm9.quest.productiveBees.subt.spawnedEmptyBeehivesDark}"
 			tasks: [{
 				icon: {
 					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:menril"
+							type: "productivebees:skeletal"
 						}
 					}
 				}
-				id: "23F1CCE183A3E661"
+				id: "4203F7ED807F3D30"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
 							EntityTag: {
-								type: "productivebees:menril"
+								type: "productivebees:skeletal"
 							}
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.menrilComb}"
+				title: "{atm9.quest.productiveBees.skeletalComb}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.menrilBee}"
-			x: -9.0d
-			y: 9.0d
+			title: "{atm9.quest.productiveBees.skeletalBee}"
+			x: 9.0d
+			y: 3.5d
 		}
 		{
-			dependencies: [
-				"4652E7CBC8D3A5F3"
-				"2ACB83BC92F5A6E6"
+			dependencies: ["131EC039435B8878"]
+			description: ["{atm9.quest.productiveBees.desc.obsidianNestEnd}"]
+			hide_dependency_lines: true
+			icon: "minecraft:dragon_head"
+			id: "00FD36C207845895"
+			rewards: [
+				{
+					count: 2
+					id: "52BFF2CF6ECE1B6B"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:draconic"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BB5EF8129DEFE69"
+					type: "xp"
+					xp: 100
+				}
 			]
-			hide_dependent_lines: true
-			icon: "minecraft:obsidian"
-			id: "53C0EA7E724294A6"
-			rewards: [{
-				id: "2D0D013DF33FE95D"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.magmaticSweat}"
+			subtitle: "{atm9.quest.productiveBees.subt.requiresObsidianNest}"
 			tasks: [{
 				icon: {
 					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:obsidian"
+							type: "productivebees:draconic"
 						}
 					}
 				}
-				id: "791BCB4BE640CDEF"
+				id: "2CC38211F4C54ED8"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
 							EntityTag: {
-								type: "productivebees:obsidian"
+								type: "productivebees:draconic"
 							}
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.obsidianComb}"
+				title: "{atm9.quest.productiveBees.draconicComb}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.obsidianBee}"
-			x: 2.5d
-			y: 10.0d
+			title: "{atm9.quest.productiveBees.draconicBee}"
+			x: 8.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
-				"508D8C9113B17AB3"
-				"63D355E0BAF2B7B0"
+				"2CA3707BEE2E3C0D"
+				"00FD36C207845895"
 			]
-			hide_dependent_lines: true
-			icon: "minecraft:experience_bottle"
-			id: "2A229EBE66922519"
-			rewards: [{
-				id: "78DAF872EC4865E7"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.lapisEmerald}"
+			description: ["{atm9.quest.productiveBees.desc.vibraniumBeeCreation}"]
+			icon: "allthemodium:raw_vibranium"
+			id: "6E819CCD57B15D54"
+			rewards: [
+				{
+					count: 2
+					id: "7E3C72B5CB548A0D"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:vibranium"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "525D801E1FF98425"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FDBF76E4CB0BB03"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.ancientDraconic}"
 			tasks: [{
 				icon: {
 					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:experience"
+							type: "productivebees:vibranium"
 						}
 					}
 				}
-				id: "0816281FEF83F32A"
+				id: "21F18F576B555114"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
 							EntityTag: {
-								type: "productivebees:experience"
+								type: "productivebees:vibranium"
 							}
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.experienceComb}"
+				title: "{atm9.quest.productiveBees.vibraniumComb}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.experienceBee}"
-			x: -2.0d
-			y: 11.0d
+			title: "{atm9.quest.productiveBees.vibraniumBee}"
+			x: 9.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
-				"3258A9012D77CFBA"
-				"7C7771F58B84C26E"
+				"6EFFF0DC80C1C8A3"
+				"6E819CCD57B15D54"
 			]
-			icon: "alltheores:bronze_ingot"
-			id: "3A498F914FB76A2F"
-			rewards: [{
-				id: "4860E5AE603B307F"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.copperTin}"
+			description: [
+				"{atm9.quest.productiveBees.desc.unobtainiumBeeCreation.1}"
+				""
+				"{atm9.quest.productiveBees.desc.unobtainiumBeeCreation.2}"
+			]
+			icon: "allthemodium:raw_unobtainium"
+			id: "2BE538246C672689"
+			rewards: [
+				{
+					count: 2
+					id: "252172AFDCBF882B"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:unobtainium"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E4DBE9FF2C1BBD0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "752568EB48133C34"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.allthemodiumVibranium}"
 			tasks: [{
 				icon: {
 					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:bronze"
+							type: "productivebees:unobtainium"
 						}
 					}
 				}
-				id: "59FF7CD344337FE9"
+				id: "271BDC9E7B37BCB5"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
 							EntityTag: {
-								type: "productivebees:bronze"
+								type: "productivebees:unobtainium"
 							}
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.bronzeComb}"
+				title: "{atm9.quest.productiveBees.unobtainiumComb}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.bronzeBees}"
-			x: -2.0d
-			y: 9.0d
+			title: "{atm9.quest.productiveBees.unobtainiumBee}"
+			x: 10.0d
+			y: 5.5d
 		}
 		{
-			dependencies: [
-				"1BD2D7B6BF9603C7"
-				"1715AF046FACCC2B"
-			]
-			hide_dependent_lines: true
-			icon: "minecraft:string"
-			id: "2D5A23C842703495"
-			rewards: [{
-				id: "461F220EF16826A1"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.resinReed}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:silky"
-						}
-					}
-				}
-				id: "4387288EAAE7079F"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:silky"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.silkyComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.silkyBee}"
-			x: -11.5d
-			y: 11.0d
-		}
-		{
-			dependencies: [
-				"508D8C9113B17AB3"
-				"14A5151741468331"
-			]
-			hide_dependent_lines: true
-			icon: "minecraft:red_dye"
-			id: "4F62C723CDD29B60"
-			rewards: [{
-				id: "66A168D55AEF6C36"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.lapisSkeletal}"
-			tasks: [{
-				id: "761EBA547870B372"
-				title: "{atm9.quest.productiveBees.dyeBee}"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.productiveBees.dyeBee}"
-			x: -9.5d
-			y: 10.0d
-		}
-		{
-			dependencies: [
-				"6656053F844E7352"
-				"2ACB83BC92F5A6E6"
-			]
-			hide_dependent_lines: true
-			icon: "minecraft:milk_bucket"
-			id: "6A552D3161F3D9F6"
-			rewards: [{
-				id: "5978140FCFDBF01E"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.lumberSweat}"
-			tasks: [{
-				id: "29DC27195EC77EA3"
-				item: "productivebees:honeycomb_milky"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.rancherBee}"
-			x: -8.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["2ACB83BC92F5A6E6"]
-			hide_dependent_lines: true
-			icon: "minecraft:ice"
-			id: "470FBB278F2FEA9C"
-			rewards: [{
-				id: "55BE7F80EF8E625E"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedIce}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:frosty"
-						}
-					}
-				}
-				id: "06F66E2B4B7454FD"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:frosty"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.frostyComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.frostyBee}"
-			x: 2.5d
-			y: 11.0d
-		}
-		{
-			dependencies: [
-				"6CAEF858ADB0ADE6"
-				"504206D71AE3C2AE"
-			]
-			icon: "alltheores:osmium_ingot"
-			id: "378B8ACD7F2DCDA4"
-			rewards: [{
-				id: "13E57687573EF622"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.ironNeonCuckoo}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:osmium"
-						}
-					}
-				}
-				id: "26C8D5EAB93EDA47"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:osmium"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.osmiumComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.osmiumBee}"
-			x: -6.5d
-			y: 10.0d
-		}
-		{
-			dependencies: [
-				"6CAEF858ADB0ADE6"
-				"7C3AB0F6601DE3C4"
-			]
-			hide_dependent_lines: true
-			icon: "alltheores:invar_ingot"
-			id: "224860EBDC8E9714"
-			rewards: [{
-				id: "7B2D6644C0FF0ADA"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.ironNickel}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:invar"
-						}
-					}
-				}
-				id: "14D6C781573C9765"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:invar"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.invarComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.invarBee}"
-			x: -8.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["799E21F27D0C3676"]
-			hide_dependent_lines: true
-			icon: "minecraft:brick"
-			id: "6BF521D344CBBCF6"
-			rewards: [{
-				id: "69D82F1841899896"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.stoneNest}"
-			tasks: [{
-				id: "3347A698129E9251"
-				title: "{atm9.quest.productiveBees.masonBees}"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.productiveBees.masonBee}"
-			x: -6.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"6CAEF858ADB0ADE6"
-				"71A7A8EEDF9CF003"
-			]
-			hide_dependent_lines: true
-			icon: "alltheores:steel_ingot"
-			id: "6EC4BE6BA6CD02C6"
-			rewards: [{
-				id: "0F77209FE6B3B75D"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.ironCoal}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:steel"
-						}
-					}
-				}
-				id: "107C33185DF30ED7"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:steel"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.steelComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.steelBee}"
-			x: -1.5d
-			y: 10.0d
-		}
-		{
-			dependencies: [
-				"7E858766593C89CD"
-				"6CAEF858ADB0ADE6"
-			]
-			icon: "alltheores:uranium_ingot"
-			id: "6030AE7CCCBA71FD"
-			rewards: [{
-				id: "7AD0554CAFEB6796"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.creeBeeIron}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:radioactive"
-						}
-					}
-				}
-				id: "4252DDB4BC29108B"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:radioactive"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.radioactiveComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.radioactiveBee}"
-			x: -5.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["79042E63AD7B9E36"]
-			icon: "ae2:fluix_crystal"
-			id: "0D16F8B6096D2754"
-			rewards: [{
-				id: "4A1E2D719E9A52D5"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedFluixPearl}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:fluix"
-						}
-					}
-				}
-				id: "0B339D0F8BC35259"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:fluix"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.fluixComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.fluixBee}"
-			x: -4.0d
-			y: 11.0d
-		}
-		{
-			dependencies: [
-				"6CAEF858ADB0ADE6"
-				"2ACB83BC92F5A6E6"
-			]
+			dependencies: ["17419401147B5C02"]
 			description: [""]
-			hide_dependent_lines: true
+			hide_dependency_lines: true
 			icon: "alltheores:zinc_ingot"
-			id: "72F13925CD93D002"
+			id: "7EAFF64FFE8B5378"
 			rewards: [{
-				id: "747AD9EF367FC4E6"
+				id: "4537E0AF362216D5"
 				type: "xp"
 				xp: 100
 			}]
@@ -2701,7 +2077,7 @@
 						}
 					}
 				}
-				id: "77222D7922279650"
+				id: "181135E3A83C5B9E"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
@@ -2717,19 +2093,56 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.zincBees}"
-			x: -4.0d
-			y: 9.0d
+			x: 1.0d
+			y: 12.5d
 		}
 		{
-			dependencies: [
-				"494C839688A00A6E"
-				"2F82DBBB62DCB380"
-			]
-			hide_dependent_lines: true
-			icon: "alltheores:platinum_ingot"
-			id: "52DBD92A317557C6"
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:electrum_ingot"
+			id: "3054D016D2EF25FF"
 			rewards: [{
-				id: "0A92D70DD0DEEC67"
+				id: "6FA6170C19493AB7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.goldSilver}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:electrum"
+						}
+					}
+				}
+				id: "299DE26FF7293F34"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:electrum"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.electrumComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.electrumBees}"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:platinum_ingot"
+			id: "57ACD83205988834"
+			rewards: [{
+				id: "0C66CBCE5AF692A1"
 				type: "xp"
 				xp: 100
 			}]
@@ -2744,7 +2157,7 @@
 						}
 					}
 				}
-				id: "3DE5C5CBCC2CC5C8"
+				id: "726FF2C87E9E972F"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
@@ -2760,19 +2173,97 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.platinumBees}"
-			x: 1.5d
-			y: 10.0d
+			x: 0.0d
+			y: 11.0d
 		}
 		{
-			dependencies: [
-				"3258A9012D77CFBA"
-				"72F13925CD93D002"
-			]
-			hide_dependent_lines: true
-			icon: "alltheores:brass_ingot"
-			id: "3EC9CB859CE493C4"
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:lead_ingot"
+			id: "2DFFEB29B6CBFD99"
 			rewards: [{
-				id: "5447A51448006862"
+				id: "31ED03CD02AD0E62"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.ironBlueBanded}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lead"
+						}
+					}
+				}
+				id: "7830C98BD32DB5F2"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:lead"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.leadComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.leadBees}"
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: "minecraft:blaze_rod"
+			id: "0072C4F028C327CB"
+			rewards: [{
+				id: "05136B66D31720B1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.magmaticNomad}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:blazing"
+						}
+					}
+				}
+				id: "6B7DB7E426D328BC"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:blazing"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.blazingComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.blazingBee}"
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:brass_ingot"
+			id: "5DF26D712B643655"
+			rewards: [{
+				id: "024DA8780F619DC0"
 				type: "xp"
 				xp: 100
 			}]
@@ -2787,7 +2278,7 @@
 						}
 					}
 				}
-				id: "6E482084BB63D26C"
+				id: "79AEDC66EB312BCA"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
@@ -2803,19 +2294,368 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.brassBees}"
-			x: -7.5d
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "twilightforest:fallen_leaves"
+			id: "6BEE3578BD2C713C"
+			rewards: [{
+				id: "1C28FA3EA99E8BF1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.dirtNest}"
+			tasks: [{
+				id: "4A6ADD52B113E3CA"
+				title: "{atm9.quest.productiveBees.leafcutterBees}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.leafcutterBee}"
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_neon_cuckoo_bee"
+			id: "683B58B699D4D381"
+			rewards: [{
+				id: "713068FC6AD69883"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.blueBandedNest}"
+			tasks: [{
+				id: "0CDFF60D581118E3"
+				title: "{atm9.quest.productiveBees.neonCuckooBee}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.neonCuckooBee}"
+			x: -5.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: [
+				"{atm9.quest.productiveBees.desc.ashyMiningBee.1}"
+				""
+				"{atm9.quest.productiveBees.desc.ashyMiningBee.2}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6786B08C30D26037"
+			rewards: [{
+				id: "4421D42829BE3B93"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.ashyMiningBee}"
+			tasks: [{
+				id: "64248C6FBC867D56"
+				title: "{atm9.quest.productiveBees.nomadBee}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.nomadBee}"
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "productivebees:sugar_cane_nest"
+			id: "097DE7038A746847"
+			rewards: [{
+				id: "447B59A2C9693336"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.reedNest}"
+			tasks: [{
+				id: "6887F86C8673DAF6"
+				title: "{atm9.quest.productiveBees.reedBee}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.reedBee}"
+			x: -5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:sugar"
+			id: "40E4F1172A164DD1"
+			rewards: [{
+				id: "69806B463D43C9FD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.cocoaPodsJungle}"
+			tasks: [{
+				id: "49F452C12DF14873"
+				item: "productivebees:sugarbag_honeycomb"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.sugarbagBee}"
+			x: -4.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:snowball"
+			id: "447CAC472A99835B"
+			rewards: [{
+				id: "5F80C0F9DAB3D6F7"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.snowNest}"
+			tasks: [{
+				id: "0A77407CE9055F04"
+				title: "{atm9.quest.productiveBees.sweatBee}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.sweatBee}"
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:yellow_dye"
+			id: "2226555D9552236E"
+			rewards: [{
+				id: "42FD59C35B7B5AD1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.woodNests}"
+			tasks: [{
+				id: "3CDFAF37BFB1C89C"
+				title: "{atm9.quest.productiveBees.yellowCarpenterBees}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.yellowCarpenterBee}"
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:zombie_head"
+			id: "371E09ED2A3F6BDC"
+			rewards: [{
+				id: "5AE0AE1E13A9AD43"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.advancedBeehivesDark}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:zombie"
+						}
+					}
+				}
+				id: "71E81E13769F2FF0"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:zombie"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.zomBeeComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.zomBee}"
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:bronze_ingot"
+			id: "6E4C3B87FABE9EFA"
+			rewards: [{
+				id: "50DDB12B5BB338D2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.copperTin}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:bronze"
+						}
+					}
+				}
+				id: "55F718D796CEB1B1"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:bronze"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.bronzeComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.bronzeBees}"
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:coal"
+			id: "71667FFC8011525C"
+			rewards: [{
+				id: "0BEB353ACC73AD12"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.magmaticLeafcutter}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:coal"
+						}
+					}
+				}
+				id: "3EDE79B7957D45AF"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:coal"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.coalComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.coalBee}"
+			x: 2.0d
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"510A65813C37F269"
-				"70612824CFF63B71"
-			]
-			hide_dependent_lines: true
-			icon: "alltheores:enderium_ingot"
-			id: "6615CB5F0A35CBDD"
+			dependencies: ["17419401147B5C02"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: "alltheores:constantan_ingot"
+			id: "52B22C07818981D0"
 			rewards: [{
-				id: "4BDF155135FE084B"
+				id: "3EECD8A6FAE44C39"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.copperNickel}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:constantan"
+						}
+					}
+				}
+				id: "4FCEB24FC83D22A9"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:constantan"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.constantanComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.constantanBee}"
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			description: ["{atm9.quest.productiveBees.desc.breederBee}"]
+			hide_dependency_lines: true
+			icon: "minecraft:chicken"
+			id: "2E51F09F6D9E5EF8"
+			rewards: [{
+				id: "228543A8ADEDCE7E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.farmerRancher}"
+			tasks: [{
+				id: "34C16667CDF3E53A"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.cuBee}"
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:red_dye"
+			id: "5962DC39E5874FB9"
+			rewards: [{
+				id: "29F6DF8F52E48EC6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.lapisSkeletal}"
+			tasks: [{
+				id: "4FC90CCB41E58D5A"
+				title: "{atm9.quest.productiveBees.dyeBee}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.dyeBee}"
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:enderium_ingot"
+			id: "0D97CDE92F3B1A83"
+			rewards: [{
+				id: "7F7B0C8A87197491"
 				type: "xp"
 				xp: 100
 			}]
@@ -2830,7 +2670,7 @@
 						}
 					}
 				}
-				id: "6E3FDA0E7C83CCF6"
+				id: "208145EA6533CDDB"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
@@ -2847,104 +2687,181 @@
 			}]
 			title: "{atm9.quest.productiveBees.enderiumBee}"
 			x: -1.0d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
-			dependencies: [
-				"4652E7CBC8D3A5F3"
-				"32D1D478C3E1C797"
-			]
-			description: [""]
-			icon: "minecraft:blaze_rod"
-			id: "44E7E102E5EC4CBC"
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:experience_bottle"
+			id: "0FB1FC640471363A"
 			rewards: [{
-				id: "2131121A9645751F"
+				id: "5477AEFA094D2108"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.magmaticNomad}"
+			subtitle: "{atm9.quest.productiveBees.subt.lapisEmerald}"
 			tasks: [{
 				icon: {
 					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:blazing"
+							type: "productivebees:experience"
 						}
 					}
 				}
-				id: "174E72C1A7D163A1"
+				id: "1E28BFC0AB5CF2FE"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
 							EntityTag: {
-								type: "productivebees:blazing"
+								type: "productivebees:experience"
 							}
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.blazingComb}"
+				title: "{atm9.quest.productiveBees.experienceComb}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.blazingBee}"
+			title: "{atm9.quest.productiveBees.experienceBee}"
+			x: -1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4897C7BB3139C6C6"
+			rewards: [{
+				id: "09794E3BE0974561"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.lumberRancher}"
+			tasks: [{
+				id: "212BB84583FE4B8B"
+				title: "{atm9.quest.productiveBees.farmerBees}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.farmerBee}"
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "tombstone:grave_dust"
+			id: "4351DAA8B607BCBB"
+			rewards: [{
+				id: "3E53E43ACB7E4CB8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.ghostlySkeletalZombee}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:grave"
+						}
+					}
+				}
+				id: "6D15CFE8E1CF6D25"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:grave"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.gravesComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.gravesBee}"
 			x: 0.0d
-			y: 8.0d
+			y: 15.0d
 		}
 		{
-			dependencies: [
-				"1CA0178229D1C478"
-				"17FCABC8465A0FA1"
-			]
-			description: [""]
-			hide_dependent_lines: true
-			icon: "minecraft:copper_ingot"
-			id: "3258A9012D77CFBA"
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:invar_ingot"
+			id: "734A72A4C898BDFB"
 			rewards: [{
-				id: "640D73E3E55FBB13"
+				id: "624B0D86B65B6DF9"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.crystallineAshyMining}"
+			subtitle: "{atm9.quest.productiveBees.ironNickel}"
 			tasks: [{
 				icon: {
 					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:copper"
+							type: "productivebees:invar"
 						}
 					}
 				}
-				id: "03A0D51FDAF13B52"
+				id: "0C0D6A9D01FED776"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
 							EntityTag: {
-								type: "productivebees:copper"
+								type: "productivebees:invar"
 							}
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.copperComb}"
+				title: "{atm9.quest.productiveBees.invarComb}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.copperBees}"
-			x: -4.5d
-			y: 8.0d
+			title: "{atm9.quest.productiveBees.invarBee}"
+			x: -1.0d
+			y: 13.5d
 		}
 		{
-			dependencies: [
-				"0E90071DDBE541B9"
-				"7C7771F58B84C26E"
-			]
-			icon: "alltheores:lumium_ingot"
-			id: "69B28E1419DBEDDF"
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:oak_log"
+			id: "37045B986619A03D"
 			rewards: [{
-				id: "415B5B175BC6D305"
+				id: "32F2905E46B0A46F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.yellowGreenCarpenterBee}"
+			tasks: [{
+				id: "6047113DC2263E46"
+				title: "{atm9.quest.productiveBees.lumberBee}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.lumberBee}"
+			x: 3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:lumium_ingot"
+			id: "150FB369BEFFCBBF"
+			rewards: [{
+				id: "76A118868DEFF156"
 				type: "xp"
 				xp: 100
 			}]
@@ -2959,7 +2876,7 @@
 						}
 					}
 				}
-				id: "45BF7D2A4DAA5666"
+				id: "4DA6445DB5F3B85E"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
@@ -2975,104 +2892,56 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.lumiumBee}"
-			x: -2.5d
-			y: 10.0d
+			x: 3.0d
+			y: 12.5d
 		}
 		{
-			dependencies: [
-				"494C839688A00A6E"
-				"0E90071DDBE541B9"
-			]
-			icon: "alltheores:electrum_ingot"
-			id: "3A7FD71ECF4C8CC2"
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "integrateddynamics:crystalized_menril_chunk"
+			id: "7B40A9DAA119DE59"
 			rewards: [{
-				id: "5E614406D32037CD"
+				id: "1FD5CBE1FB0136F8"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.goldSilver}"
+			subtitle: "{atm9.quest.productiveBees.crystallineNeonCuckoo}"
 			tasks: [{
 				icon: {
 					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:electrum"
+							type: "productivebees:menril"
 						}
 					}
 				}
-				id: "38D55FF8F5E69BFC"
+				id: "22F5DD43B8A7C452"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
 							EntityTag: {
-								type: "productivebees:electrum"
+								type: "productivebees:menril"
 							}
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.electrumComb}"
+				title: "{atm9.quest.productiveBees.menrilComb}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.electrumBees}"
-			x: -3.5d
-			y: 10.0d
+			title: "{atm9.quest.productiveBees.menrilBee}"
+			x: 3.0d
+			y: 16.5d
 		}
 		{
-			dependencies: [
-				"1CA0178229D1C478"
-				"17FCABC8465A0FA1"
-			]
-			description: [""]
-			icon: "alltheores:aluminum_ingot"
-			id: "7337D1FEB3B5D76E"
-			rewards: [{
-				id: "4C50225EB95F5EF3"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.crystallineAshyMining}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:aluminum"
-						}
-					}
-				}
-				id: "74D07973EC04BBFD"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:aluminum"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.aluminumComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.aluminumBees}"
-			x: -3.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"6CAEF858ADB0ADE6"
-				"2ACB83BC92F5A6E6"
-			]
-			hide_dependent_lines: true
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
 			icon: "alltheores:nickel_ingot"
-			id: "7C3AB0F6601DE3C4"
+			id: "4FE7F45C72EF5DC1"
 			rewards: [{
-				id: "2D63BCBCBB1E0ABC"
+				id: "1822D65E1764B5C3"
 				type: "xp"
 				xp: 100
 			}]
@@ -3087,7 +2956,7 @@
 						}
 					}
 				}
-				id: "1756874D26F59567"
+				id: "05E237133AC3F46B"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
@@ -3103,162 +2972,923 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.nickelBee}"
-			x: -5.0d
-			y: 9.0d
+			x: 0.0d
+			y: 12.0d
 		}
 		{
-			dependencies: [
-				"6CAEF858ADB0ADE6"
-				"272ACA3381945EF7"
-			]
-			hide_dependent_lines: true
-			icon: "alltheores:lead_ingot"
-			id: "70612824CFF63B71"
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:obsidian"
+			id: "60B985069E0E643E"
 			rewards: [{
-				id: "5DDEDDAE68121878"
+				id: "72ADB76DCE00FAEF"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.ironBlueBanded}"
+			subtitle: "{atm9.quest.productiveBees.magmaticSweat}"
 			tasks: [{
 				icon: {
 					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:lead"
+							type: "productivebees:obsidian"
 						}
 					}
 				}
-				id: "0B3F0707051FAB0E"
+				id: "50823C029014781A"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
 							EntityTag: {
-								type: "productivebees:lead"
+								type: "productivebees:obsidian"
 							}
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.leadComb}"
+				title: "{atm9.quest.productiveBees.obsidianComb}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.leadBees}"
-			x: -6.0d
-			y: 9.0d
+			title: "{atm9.quest.productiveBees.obsidianBee}"
+			x: 1.0d
+			y: 16.5d
 		}
 		{
-			dependencies: [
-				"0529B8775ABCBAAF"
-				"653E71DC51067405"
-			]
-			icon: "minecraft:stone"
-			id: "6C143E3F76C04703"
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:osmium_ingot"
+			id: "67482ED4B18F828D"
 			rewards: [{
-				id: "6CD51CCA5873E8AE"
+				id: "30C7803BBB6B7F56"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.ironNeonCuckoo}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:osmium"
+						}
+					}
+				}
+				id: "4471A530B55D4140"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:osmium"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.osmiumComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.osmiumBee}"
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:stone"
+			id: "6E093D16B12E12B3"
+			rewards: [{
+				id: "5865B75ED379363E"
 				type: "xp"
 				xp: 100
 			}]
 			subtitle: "{atm9.quest.productiveBees.chocolateMiningDigger}"
 			tasks: [{
-				id: "044E91865C19F99D"
+				id: "471F062B01D0DDA1"
 				title: "{atm9.quest.productiveBees.quarryBee}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.productiveBees.quarryBee}"
-			x: -8.5d
-			y: 8.0d
+			x: 0.0d
+			y: 16.0d
 		}
 		{
-			dependencies: ["4EAEFD592206266C"]
-			hide_dependent_lines: true
-			icon: "minecraft:oak_log"
-			id: "6656053F844E7352"
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:uranium_ingot"
+			id: "734F61A03FFA13ED"
 			rewards: [{
-				id: "51973347DBF63752"
+				id: "0E772C4611E7B761"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.yellowGreenCarpenterBee}"
-			tasks: [{
-				id: "319F9817EC970D29"
-				title: "{atm9.quest.productiveBees.lumberBee}"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.productiveBees.lumberBee}"
-			x: -9.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"3258A9012D77CFBA"
-				"7C3AB0F6601DE3C4"
-			]
-			description: [""]
-			icon: "alltheores:constantan_ingot"
-			id: "059B697825869EB5"
-			rewards: [{
-				id: "549C3882FFA00A8E"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.copperNickel}"
+			subtitle: "{atm9.quest.productiveBees.creeBeeIron}"
 			tasks: [{
 				icon: {
 					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:constantan"
+							type: "productivebees:radioactive"
 						}
 					}
 				}
-				id: "63AA5B2365D3F675"
+				id: "5C358DFF9CD0D1D9"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
 							EntityTag: {
-								type: "productivebees:constantan"
+								type: "productivebees:radioactive"
 							}
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.constantanComb}"
+				title: "{atm9.quest.productiveBees.radioactiveComb}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.constantanBee}"
-			x: -4.5d
-			y: 10.0d
+			title: "{atm9.quest.productiveBees.radioactiveBee}"
+			x: 2.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["56B1FD11459AA7CB"]
-			hide_dependent_lines: true
-			icon: "minecraft:blue_dye"
-			id: "272ACA3381945EF7"
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:egg"
+			id: "3D7480E4F9063E93"
 			rewards: [{
-				id: "1DC5519A5EB49648"
+				id: "4548200E1DB36178"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.lumberSweat}"
+			tasks: [{
+				id: "56E50AF4DB0B9F30"
+				item: "productivebees:honeycomb_milky"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.rancherBee}"
+			x: 3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:signalum_ingot"
+			id: "6F7AC41B703028CC"
+			rewards: [{
+				id: "24B5AA1306FA8DAA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.silverCopper}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:signalum"
+						}
+					}
+				}
+				id: "5B5DBA0A7644A551"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:signalum"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.signalumComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.signalumBee}"
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:string"
+			id: "5CF2A069A3CC4EF6"
+			rewards: [{
+				id: "4AE2620E06B52BBA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.resinReed}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silky"
+						}
+					}
+				}
+				id: "5DE213018E8C64A7"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:silky"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.silkyComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.silkyBee}"
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:silver_ingot"
+			id: "09223F02621781BF"
+			rewards: [{
+				id: "7DA4E88B8BB15693"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.ironMason}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silver"
+						}
+					}
+				}
+				id: "47BAD4AA76F9CF82"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:silver"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.silverComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.silverBee}"
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:steel_ingot"
+			id: "02F3133A9006BC1E"
+			rewards: [{
+				id: "0FC5BC7A7E459E87"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.ironCoal}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:steel"
+						}
+					}
+				}
+				id: "01F96E4C1D881AD1"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:steel"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.steelComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.steelBee}"
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:soul_sand"
+			id: "5F080CFA1DC7F435"
+			rewards: [{
+				id: "340488322E26DDE0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.soulSandNestNether}"
+			tasks: [{
+				id: "281AD60CC0AB054F"
+				item: "productivebees:honeycomb_ghostly"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.ghostlyBee}"
+			x: -3.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:magma_block"
+			id: "614937A2F5823F3E"
+			rewards: [{
+				id: "14454A91BA2CAE69"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.netherBrickNestNether}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:magmatic"
+						}
+					}
+				}
+				id: "3202568944BCBF77"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:magmatic"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.magmaticComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.magmaticBee}"
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: [
+				"{atm9.quest.productiveBees.desc.flyBee.1}"
+				""
+				"{atm9.quest.productiveBees.desc.flyBee.2}"
+				""
+				"{atm9.quest.productiveBees.desc.flyBee.3}"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:saddle"
+			id: "7941938014E97A30"
+			rewards: [{
+				id: "10E2A71BE96232EF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.overworldBumbleBeeNests}"
+			tasks: [
+				{
+					id: "4ADD8F6F75D38DE6"
+					item: {
+						Count: 1
+						id: "productivebees:treat_on_a_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31D0730D68948E3B"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.productiveBees.bumbleBee}"
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:gravel"
+			id: "1C474B46AECCCFE9"
+			rewards: [{
+				id: "3202C04BE7D817FE"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.spawnedUsingWoodNest}"
+			subtitle: "{atm9.quest.productiveBees.gravelStoneNest}"
 			tasks: [{
-				id: "1BCFE8AAD533ED3E"
-				title: "{atm9.quest.productiveBees.blueBandedBee}"
+				id: "6E0961A56194F0A8"
+				title: "{atm9.quest.productiveBees.diggerBees}"
 				type: "checkmark"
 			}]
-			x: -10.5d
-			y: 8.0d
+			title: "{atm9.quest.productiveBees.diggerBee}"
+			x: -3.0d
+			y: 11.5d
 		}
 		{
-			dependencies: ["02F971FEFDBD1421"]
-			icon: "mysticalagriculture:soulium_ingot"
-			id: "0BBF4983410A5F6B"
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:amethyst_cluster"
+			id: "35EAB77C195E594E"
 			rewards: [{
-				id: "484614B9709842A3"
+				id: "712F1D5B6F5C3E3B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.feedDiamondBeeAmethyst}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:amethyst"
+						}
+					}
+				}
+				id: "0F2BCC279B5731AB"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:amethyst"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.amethystComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.amethystBee}"
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:brown_mushroom"
+			id: "01F7F3589EBD8872"
+			rewards: [{
+				id: "52ABD90406552164"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.feedShroombeeBrownMushroom}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:brown_shroom"
+						}
+					}
+				}
+				id: "30FE30A7FA067459"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:brown_shroom"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.brownShroombeeComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.brownShroombee}"
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			description: [
+				"{atm9.quest.productiveBees.desc.itemPickup.1}"
+				""
+				"{atm9.quest.productiveBees.desc.itemPickup.2}"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:hopper"
+			id: "094D28B7A0170039"
+			rewards: [{
+				id: "1218C1901D969C1D"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.feedHopper}"
+			tasks: [{
+				id: "632F557D97247215"
+				title: "{atm9.quest.productiveBees.collectorBee}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.collectorBee}"
+			x: 6.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:creeper_head"
+			id: "18F948FF9FE015FB"
+			rewards: [{
+				id: "4C709117DECA0969"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.feedTNT}"
+			tasks: [{
+				id: "4E787C04DB76613F"
+				item: "productivebees:honeycomb_powdery"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.creeBee}"
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: "minecraft:crimson_fungus"
+			id: "176ACC61DC206E55"
+			rewards: [{
+				id: "138D9A13CD9CBC15"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.feedCrimsonFungus}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:crimson"
+						}
+					}
+				}
+				id: "3B35F86B42989063"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:crimson"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.crimsonShroombeeComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.crimsonShroombee}"
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "ae2:fluix_crystal"
+			id: "33422FBDAE11AE82"
+			rewards: [{
+				id: "24B5A6BA1F9F31BB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.feedFluixPearl}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:fluix"
+						}
+					}
+				}
+				id: "669BC6911F43DB26"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:fluix"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.fluixComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.fluixBee}"
+			x: 5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:ice"
+			id: "244ACD7024566001"
+			rewards: [{
+				id: "3AA4DE5C8F5D0955"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.feedIce}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:frosty"
+						}
+					}
+				}
+				id: "7CD2C8E1A5F4B3D2"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:frosty"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.frostyComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.frostyBee}"
+			x: 7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			description: ["{atm9.quest.productiveBees.desc.itemCollector}"]
+			hide_dependency_lines: true
+			icon: "minecraft:shulker_box"
+			id: "309059DEDEE7AECD"
+			rewards: [{
+				id: "438D89082142A748"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.feedShulkerShell}"
+			tasks: [{
+				id: "0F45E8D41C62BE78"
+				title: "{atm9.quest.productiveBees.hoarderBee}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.hoarderBee}"
+			x: 5.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:peridot"
+			id: "761D21C6FBD13EE1"
+			rewards: [{
+				id: "75FB934FE110A59C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.feedPeridot}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:peridot"
+						}
+					}
+				}
+				id: "3DE2AD0FFF364185"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:peridot"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.peridotComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.peridotBee}"
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:prosperity_shard"
+			id: "55882C10292B6A3D"
+			rewards: [{
+				id: "677634D163F8DDDB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.feedProsperityBlock}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:prosperity"
+						}
+					}
+				}
+				id: "544D288D9F81C6D8"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:prosperity"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.prosperityComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.prosperiBee}"
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:red_mushroom"
+			id: "37CD9BF281903F56"
+			rewards: [{
+				id: "7AB48FA4789D87C9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.feedRedMushroom}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:red_shroom"
+						}
+					}
+				}
+				id: "39899761508BFACE"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:red_shroom"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.redShroombeeComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.redShroombee}"
+			x: 7.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:ruby"
+			id: "35E8F1CC0080E45E"
+			rewards: [{
+				id: "240612DCF75988AC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.feedRuby}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ruby"
+						}
+					}
+				}
+				id: "2EA19C4E46380CDA"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:ruby"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.ruBeeComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.ruBee}"
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:sapphire"
+			id: "3AF30E1EC163E2E3"
+			rewards: [{
+				id: "6DBD9CDC28903F43"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.feedSapphire}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sapphire"
+						}
+					}
+				}
+				id: "46C7D666D3A4A3D9"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:sapphire"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.sapphireComb}"
+				type: "item"
+			}]
+			title: "{atm9.quest.productiveBees.sapphireBee}"
+			x: 5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:soulium_ingot"
+			id: "1EBD5E4410A6DF34"
+			rewards: [{
+				id: "7DA224232096A3B0"
 				type: "xp"
 				xp: 100
 			}]
@@ -3273,7 +3903,7 @@
 						}
 					}
 				}
-				id: "0100207FEC960A53"
+				id: "70E72633E49DFF88"
 				item: {
 					Count: 1
 					id: "itemfilters:strong_nbt"
@@ -3289,1016 +3919,487 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.souliumBee}"
-			x: -1.0d
-			y: 7.0d
+			x: 7.0d
+			y: 16.5d
 		}
 		{
-			dependencies: ["50CC6D4DBA7D7818"]
-			description: ["{atm9.quest.productiveBees.desc.glowstoneNestRequirement}"]
-			hide_dependency_lines: false
-			hide_dependent_lines: true
-			icon: "minecraft:glowstone_dust"
-			id: "3B778D473C574121"
-			rewards: [
-				{
-					count: 2
-					id: "7011EDA55D97E6AF"
-					item: {
-						Count: 1
-						id: "productivebees:configurable_honeycomb"
-						tag: {
-							EntityTag: {
-								type: "productivebees:glowing"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3327055B9C5C097E"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:glowing"
-						}
-					}
-				}
-				id: "6F338549DFB09A1E"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:glowing"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.glowingComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.glowingBee}"
-			x: 1.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"2F82DBBB62DCB380"
-				"508D8C9113B17AB3"
-			]
-			description: ["{atm9.quest.productiveBees.desc.diamondBeeCreation}"]
-			hide_dependent_lines: true
-			icon: "minecraft:diamond"
-			id: "510A65813C37F269"
-			rewards: [
-				{
-					count: 2
-					id: "5B0FCB88B3BC81E6"
-					item: {
-						Count: 1
-						id: "productivebees:configurable_honeycomb"
-						tag: {
-							EntityTag: {
-								type: "productivebees:diamond"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "49A5B185BDADCE2A"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{atm9.quest.productiveBees.subt.enderLapis}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:diamond"
-						}
-					}
-				}
-				id: "7C44C5FA9DA6E85E"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:diamond"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.diamondComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.diamondBee}"
-			x: 0.5d
-			y: 10.0d
-		}
-		{
-			dependencies: [
-				"3B778D473C574121"
-				"0529B8775ABCBAAF"
-			]
-			description: ["{atm9.quest.productiveBees.desc.redstoneBeeCreation}"]
-			disable_toast: true
-			hide_dependent_lines: true
-			icon: "minecraft:redstone"
-			id: "36A3F65B5E014559"
-			rewards: [
-				{
-					count: 2
-					id: "2A063BFF6BE396C9"
-					item: {
-						Count: 1
-						id: "productivebees:configurable_honeycomb"
-						tag: {
-							EntityTag: {
-								type: "productivebees:redstone"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7C0A166DF44926A6"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{atm9.quest.productiveBees.subt.glowingChocolateMining}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:redstone"
-						}
-					}
-				}
-				id: "27301091130E8163"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:redstone"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.redstoneComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.redstoneBees}"
-			x: 1.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			description: ["{atm9.quest.productiveBees.desc.advancedBeehivesDark}"]
-			hide_dependent_lines: true
-			icon: "minecraft:skeleton_skull"
-			id: "14A5151741468331"
-			rewards: [
-				{
-					count: 2
-					id: "365B547775294939"
-					item: {
-						Count: 1
-						id: "productivebees:configurable_honeycomb"
-						tag: {
-							EntityTag: {
-								type: "productivebees:skeletal"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "79117C2445DE648D"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{atm9.quest.productiveBees.subt.spawnedEmptyBeehivesDark}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:skeletal"
-						}
-					}
-				}
-				id: "1D01FC3DDD1BC7F0"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:skeletal"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.skeletalComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.skeletalBee}"
-			x: -13.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["14A5151741468331"]
-			hide_dependent_lines: true
-			icon: "minecraft:wither_skeleton_skull"
-			id: "3708AED9F1B037B6"
-			rewards: [
-				{
-					count: 2
-					id: "02D3B47CE5CFB306"
-					item: {
-						Count: 1
-						id: "productivebees:configurable_honeycomb"
-						tag: {
-							EntityTag: {
-								type: "productivebees:withered"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2C4566B9B61490F0"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{atm9.quest.productiveBees.subt.feedSkeletalBeeWitheredRose}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:withered"
-						}
-					}
-				}
-				id: "30083DF567C3AFD4"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:withered"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.witheredComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.witheredBee}"
-			x: -10.5d
-			y: 10.0d
-		}
-		{
-			dependencies: [
-				"510A65813C37F269"
-				"4E9D9C9752708BF9"
-			]
-			description: ["{atm9.quest.productiveBees.desc.emeraldBeeCreation}"]
-			hide_dependent_lines: true
-			icon: "minecraft:emerald"
-			id: "63D355E0BAF2B7B0"
-			rewards: [
-				{
-					count: 2
-					id: "79372D3892D73569"
-					item: {
-						Count: 1
-						id: "productivebees:configurable_honeycomb"
-						tag: {
-							EntityTag: {
-								type: "productivebees:emerald"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "40C5D1B4D8BC2B80"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{atm9.quest.productiveBees.subt.diamondBeeSlimyBee}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:emerald"
-						}
-					}
-				}
-				id: "7E66DC1D355FAC94"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:emerald"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.emeraldComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.emeraldBee}"
-			x: -0.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["0047E1CD68B1B4AB"]
-			description: ["{atm9.quest.productiveBees.desc.obsidianNestEnd}"]
-			hide_dependent_lines: true
-			icon: "minecraft:dragon_head"
-			id: "3A980FC45C449B40"
-			rewards: [
-				{
-					count: 2
-					id: "29ED271183408577"
-					item: {
-						Count: 1
-						id: "productivebees:configurable_honeycomb"
-						tag: {
-							EntityTag: {
-								type: "productivebees:draconic"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1DCA3F6D945278BA"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{atm9.quest.productiveBees.subt.requiresObsidianNest}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:draconic"
-						}
-					}
-				}
-				id: "23FF00EF56C2B91D"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:draconic"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.draconicComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.draconicBee}"
-			x: -4.5d
-			y: 12.5d
-		}
-		{
-			dependencies: ["510A65813C37F269"]
-			hide_dependent_lines: true
-			icon: "minecraft:netherite_ingot"
-			id: "31C0B4D98C831371"
-			rewards: [
-				{
-					count: 2
-					id: "7ED6A27D6BD726F9"
-					item: {
-						Count: 1
-						id: "productivebees:configurable_honeycomb"
-						tag: {
-							EntityTag: {
-								type: "productivebees:netherite"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4082514A25AC4A99"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{atm9.quest.productiveBees.subt.feedDiamondBeeNetherite}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:netherite"
-						}
-					}
-				}
-				id: "3B15884033E7C8DC"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:netherite"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.ancientComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.ancientBeeNetherite}"
-			x: 0.0d
-			y: 11.0d
-		}
-		{
-			dependencies: [
-				"31C0B4D98C831371"
-				"3708AED9F1B037B6"
-			]
-			description: ["{atm9.quest.productiveBees.desc.allthemodiumBeeCreation}"]
-			hide_dependent_lines: true
-			icon: "allthemodium:raw_allthemodium"
-			id: "5A18E74B7BB98E58"
-			rewards: [
-				{
-					count: 2
-					id: "3BFF43CE74DD51E2"
-					item: {
-						Count: 1
-						id: "productivebees:configurable_honeycomb"
-						tag: {
-							EntityTag: {
-								type: "productivebees:allthemodium"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5C06A83695A5847E"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "08A80794091300F4"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			size: 1.5d
-			subtitle: "{atm9.quest.productiveBees.subt.ancientWithered}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:allthemodium"
-						}
-					}
-				}
-				id: "084C3CE1BD403B36"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:allthemodium"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.allthemodiumComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.allthemodiumBee}"
-			x: -1.5d
-			y: 13.5d
-		}
-		{
-			dependencies: [
-				"31C0B4D98C831371"
-				"3A980FC45C449B40"
-			]
-			description: ["{atm9.quest.productiveBees.desc.vibraniumBeeCreation}"]
-			hide_dependent_lines: true
-			icon: "allthemodium:raw_vibranium"
-			id: "35258AB3208F252B"
-			rewards: [
-				{
-					count: 2
-					id: "5A7D7309E91300AE"
-					item: {
-						Count: 1
-						id: "productivebees:configurable_honeycomb"
-						tag: {
-							EntityTag: {
-								type: "productivebees:vibranium"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "08527FC1869C6160"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "51DF8A5923557E52"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			size: 1.5d
-			subtitle: "{atm9.quest.productiveBees.subt.ancientDraconic}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:vibranium"
-						}
-					}
-				}
-				id: "4468B91385B06040"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:vibranium"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.vibraniumComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.vibraniumBee}"
-			x: 0.5d
-			y: 13.5d
-		}
-		{
-			dependencies: [
-				"5A18E74B7BB98E58"
-				"35258AB3208F252B"
-			]
-			description: [
-				"{atm9.quest.productiveBees.desc.unobtainiumBeeCreation.1}"
-				""
-				"{atm9.quest.productiveBees.desc.unobtainiumBeeCreation.2}"
-			]
-			icon: "allthemodium:raw_unobtainium"
-			id: "643B306C4A753DF9"
-			rewards: [
-				{
-					count: 2
-					id: "147F373EDA0A1587"
-					item: {
-						Count: 1
-						id: "productivebees:configurable_honeycomb"
-						tag: {
-							EntityTag: {
-								type: "productivebees:unobtainium"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5901C9F4DEAE71FD"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "342C4FCB5233BF3C"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			size: 1.5d
-			subtitle: "{atm9.quest.productiveBees.subt.allthemodiumVibranium}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:unobtainium"
-						}
-					}
-				}
-				id: "65CFA85379825350"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:unobtainium"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.unobtainiumComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.unobtainiumBee}"
-			x: -0.5d
-			y: 15.0d
-		}
-		{
-			dependencies: ["445FE329417A7172"]
-			description: ["{atm9.quest.productiveBees.desc.endStoneNestRequirement}"]
-			hide_dependent_lines: true
-			icon: "minecraft:ender_pearl"
-			id: "2F82DBBB62DCB380"
-			rewards: [
-				{
-					count: 2
-					id: "72B3F5B40E90B6AA"
-					item: {
-						Count: 1
-						id: "productivebees:configurable_honeycomb"
-						tag: {
-							EntityTag: {
-								type: "productivebees:ender"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "584C68BAAE6CDE1B"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{atm9.quest.productiveBees.subt.requiresEndStoneNest}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:ender"
-						}
-					}
-				}
-				id: "085FDE3FA566A5F1"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:ender"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.enderComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.enderBees}"
-			x: 2.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["17FCABC8465A0FA1"]
-			description: [
-				"{atm9.quest.productiveBees.desc.ashyMiningBee.1}"
-				""
-				"{atm9.quest.productiveBees.desc.ashyMiningBee.2}"
-			]
-			hide_dependent_lines: true
-			icon: {
-				Count: 1
-				id: "minecraft:wooden_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "32D1D478C3E1C797"
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:warped_fungus"
+			id: "2982D38BD5EE6349"
 			rewards: [{
-				id: "3FBB5E7251204643"
+				id: "1D2DDC683FE6A9C3"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.ashyMiningBee}"
+			subtitle: "{atm9.quest.productiveBees.subt.feedWarpedFungus}"
 			tasks: [{
-				id: "60B394B0A6A3DB68"
-				title: "{atm9.quest.productiveBees.nomadBee}"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.productiveBees.nomadBee}"
-			x: -7.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["75C57F0576817502"]
-			hide_dependent_lines: true
-			icon: "minecraft:gold_ingot"
-			id: "494C839688A00A6E"
-			tasks: [{
-				id: "14E9D4CE6DF8EA8A"
-				item: {
+				icon: {
 					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:gold"
+							type: "productivebees:warped"
 						}
 					}
 				}
+				id: "094F0FCF9A64EE00"
+				item: {
+					Count: 1
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:warped"
+							}
+						}
+					}
+				}
+				title: "{atm9.quest.productiveBees.warpedComb}"
 				type: "item"
 			}]
+			title: "{atm9.quest.productiveBees.warpedShroombee}"
+			x: 7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: [
+				"{atm9.quest.productiveBees.desc.beeCreation.1}"
+				""
+				"{atm9.quest.productiveBees.desc.beeCreation.2}"
+				""
+				"{atm9.quest.productiveBees.desc.beeCreation.3}"
+			]
+			id: "17419401147B5C02"
+			rewards: [{
+				id: "1836D4B5770F396C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.birdsAndBees}"
+			tasks: [{
+				id: "2153473228DA4678"
+				title: "{atm9.quest.productiveBees.beeBreeding}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.productiveBees.breedingAndConverting}"
 			x: 1.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
-			dependencies: [
-				"6CAEF858ADB0ADE6"
-				"6BF521D344CBBCF6"
+			dependencies: ["131EC039435B8878"]
+			description: [
+				"{atm9.quest.productiveBees.desc.beeFarmFactory.1}"
+				""
+				"{atm9.quest.productiveBees.desc.beeFarmFactory.2}"
+				""
+				"{atm9.quest.productiveBees.desc.beeFarmFactory.3}"
+				""
+				"{atm9.quest.productiveBees.desc.beeFarmFactory.4}"
 			]
-			hide_dependent_lines: true
-			icon: "alltheores:silver_ingot"
-			id: "0E90071DDBE541B9"
-			subtitle: "{atm9.quest.productiveBees.ironMason}"
-			tasks: [{
-				id: "7058C249F7B8B4E5"
-				item: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:silver"
-						}
-					}
-				}
-				type: "item"
+			id: "120BDCB70AD352AC"
+			rewards: [{
+				id: "0B45A4897BE75592"
+				type: "xp"
+				xp: 10
 			}]
-			title: "{atm9.quest.productiveBees.silverBee}"
-			x: -3.0d
-			y: 9.0d
-		}
-		{
-			dependencies: [
-				"36A3F65B5E014559"
-				"272ACA3381945EF7"
-			]
-			hide_dependent_lines: true
-			icon: "minecraft:lapis_lazuli"
-			id: "508D8C9113B17AB3"
-			subtitle: "{atm9.quest.productiveBees.subt.redstoneBlueBanded}"
+			subtitle: "{atm9.quest.productiveBees.subt.honeyTreatsRequired}"
 			tasks: [{
-				id: "3EA6214CFA1B00F5"
-				item: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:lapis"
-						}
-					}
-				}
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.lapisBees}"
-			x: 0.0d
-			y: 9.0d
-		}
-		{
-			dependencies: [
-				"1CA0178229D1C478"
-				"2F82DBBB62DCB380"
-			]
-			hide_dependent_lines: true
-			icon: "ae2:certus_quartz_crystal"
-			id: "79042E63AD7B9E36"
-			subtitle: "{atm9.quest.bees.desc.Spatial}"
-			tasks: [{
-				id: "2E8D6FEB90199A5B"
-				item: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:spacial"
-						}
-					}
-				}
-				type: "item"
-			}]
-			title: "{atm9.quest.bees.spatial}"
-			x: -3.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["56B1FD11459AA7CB"]
-			hide_dependent_lines: true
-			icon: "industrialforegoing:tinydryrubber"
-			id: "1715AF046FACCC2B"
-			subtitle: "{atm9.quest.bees.subt.resin}"
-			tasks: [{
-				id: "6EAEA24E63616180"
-				title: "{atm9.quest.bees.resin}"
+				id: "359396879CBA62D5"
+				title: "{atm9.quest.productiveBees.nestSpawning}"
 				type: "checkmark"
 			}]
-			x: -11.5d
-			y: 10.0d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["10834E9FC835DE88"]
-			description: ["{atm9.quest.bees.desc.poswarden}"]
+			dependencies: ["7C169A4A39F37FAC"]
+			description: ["{atm9.quest.productiveBees.desc.expansionBoxes}"]
+			id: "47CEFA06392C4211"
+			rewards: [
+				{
+					count: 2
+					id: "4C6D0AFFA31E7912"
+					item: "minecraft:honeycomb"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1824DE857066CD43"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.increasingBeeStorage}"
+			tasks: [{
+				icon: "productivebees:expansion_box_oak"
+				id: "5860D1574D18BA1A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "productivebees:expansion_boxes"
+					}
+				}
+				title: "{atm9.quest.productiveBees.expansionBox}"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: [
+				"{atm9.quest.productiveBees.desc.atmBees.1}"
+				""
+				"{atm9.quest.productiveBees.desc.atmBees.2}"
+				""
+				"{atm9.quest.productiveBees.desc.atmBees.3}"
+			]
+			icon: "allthemodium:allthemodium_ore"
+			id: "4C0302FF4F63B52E"
+			rewards: [{
+				id: "22627B27D2839167"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6754D9E162472CA1"
+				title: "{atm9.quest.productiveBees.allthemodiumProgression}"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29EE878BC8D3A742"]
+			description: [
+				"{atm9.quest.productiveBees.desc.eccentricTome.1}"
+				""
+				"{atm9.quest.productiveBees.desc.eccentricTome.2}"
+			]
+			id: "6C9E88A61ECCF898"
+			optional: true
+			rewards: [{
+				id: "1471AEAB1BD9E5DB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.beeManual}"
+			tasks: [{
+				id: "7CB163461B2D1723"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "productivebees:guide"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: ["{atm9.quest.productiveBees.desc.collectingGenes}"]
 			hide_dependency_lines: true
-			hide_dependent_lines: true
-			id: "326BD4144A7B2771"
+			id: "419DD6FE84B91749"
+			rewards: [
+				{
+					id: "5C1387EEB2AC5D4E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "5E255C49AD125390"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.geneCombinerChest}"
+			tasks: [{
+				id: "2E829A75260DFF75"
+				item: "productivebees:gene_indexer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: [
+				"{atm9.quest.productiveBees.desc.bottlerUses.1}"
+				""
+				"{atm9.quest.productiveBees.desc.bottlerUses.2}"
+				""
+				"{atm9.quest.productiveBees.desc.bottlerUses.3}"
+				""
+				"{atm9.quest.productiveBees.desc.bottlerUses.4}"
+				"{image:atm:textures/questpics/bees/bottler.png width:100 height:150 align:1}"
+			]
+			hide_dependency_lines: true
+			id: "6F978C4D561F35EC"
+			rewards: [
+				{
+					count: 2
+					id: "58ED69D187E94890"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "08B9B9C77F1239AD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2560F92C8A497C16"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.honeyISquishedTheBees}"
+			tasks: [{
+				id: "531FB6E56B95C1CA"
+				item: "productivebees:bottler"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: [
+				"{atm9.quest.productiveBees.desc.beeCatcher.1}"
+				""
+				"{atm9.quest.productiveBees.desc.beeCatcher.2}"
+			]
+			hide_dependency_lines: true
+			id: "7B5A0BFD47D96BDE"
+			rewards: [
+				{
+					count: 2
+					id: "5A5DC2058B09B6F5"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "6BB1ACB9F4FF3532"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.catchesBees}"
+			tasks: [{
+				id: "4FCB8A72367ADF6E"
+				item: "productivebees:catcher"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: [
+				"{atm9.quest.productiveBees.desc.beeDaycare.1}"
+				""
+				"{atm9.quest.productiveBees.desc.beeDaycare.2}"
+				""
+				"{atm9.quest.productiveBees.desc.beeDaycare.3}"
+				""
+				"{atm9.quest.productiveBees.desc.beeDaycare.4}"
+			]
+			hide_dependency_lines: true
+			id: "3E301F3EEC8C763A"
+			rewards: [
+				{
+					count: 2
+					id: "2855225AAB5CB15B"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "4E9C7BCD64A5B238"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.babyBeeDaycare}"
+			tasks: [{
+				id: "3D89286F2B7BF9FB"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: [
+				"{atm9.quest.productiveBees.desc.showingOffBees.1}"
+				""
+				"{atm9.quest.productiveBees.desc.showingOffBees.2}"
+				""
+				"{atm9.quest.productiveBees.desc.showingOffBees.3}"
+			]
+			hide_dependency_lines: true
+			id: "32FDC5FFA000DAF8"
+			rewards: [
+				{
+					count: 2
+					id: "23284D6510C4B17A"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "3E37E54642DD9ABE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.productiveBees.subt.showingOffBees}"
+			tasks: [{
+				id: "4DA861A4D91D15D5"
+				item: "productivebees:jar_oak"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["{atm9.quest.productiveBees.desc.luresGoldBee}"]
+			hide_dependency_lines: true
+			id: "160BD0185954C891"
+			rewards: [{
+				id: "76C1F3990EFECFDB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.productiveBees.subt.luresGoldBee}"
+			tasks: [{
+				id: "4EE84594A8A996AF"
+				item: "productivebees:nether_gold_nest"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6DBF9CAB37B9BBF3"]
+			id: "01A0612C516B4F7F"
+			rewards: [
+				{
+					id: "78311D0F7C60994E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53466516293198D5"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "123810EB2AEB0EAB"
+				item: "productivebees:upgrade_productivity_2"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["01A0612C516B4F7F"]
+			id: "58ACADCBA57BC1DB"
+			rewards: [
+				{
+					id: "0156FA9A01DFAC03"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DFAC9BC1DF0F99D"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0F962A0E762836D4"
+				item: "productivebees:upgrade_productivity_3"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58ACADCBA57BC1DB"]
+			id: "4DDF647FE6494DE1"
+			rewards: [
+				{
+					id: "78E6295E2CD504BD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C1C2FCB825216F2"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3FD59559C494AE6B"
+				item: "productivebees:upgrade_productivity_4"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "23ABDBFC4123E6DC"
+			invisible: true
+			optional: true
+			shape: "octagon"
 			tasks: [
 				{
-					id: "61C8EA1748DB3678"
-					item: "minecraft:music_disc_5"
-					type: "item"
+					disable_toast: true
+					id: "7B7D16D9A49B8308"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
 				}
 				{
-					count: 2L
-					id: "00228D87165279E7"
-					item: { Count: 2, id: "minecraft:echo_shard" }
-					type: "item"
+					id: "012F21258836AF43"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
 				}
 			]
-			x: -9.5d
-			y: 13.5d
-		}
-		{
-			dependencies: [
-				"35EBFB05782907E0"
-				"504206D71AE3C2AE"
-			]
-			description: ["{atm9.quest.bees.desc.sqush}"]
-			id: "2218FA62C5087426"
-			tasks: [{
-				count: 2L
-				id: "27583BF8D0D4D2FF"
-				item: {
-					Count: 2
-					id: "productivebees:spawn_egg_configurable_bee"
-					tag: {
-						EntityTag: {
-							type: "productivebees:pepto_bismol"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -10.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			description: ["{atm9.quest.bees.desc.shulkers}"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			id: "7E58E3101FE80582"
-			tasks: [{
-				count: 10L
-				id: "15739C4597B3903D"
-				item: { Count: 10, id: "minecraft:shulker_shell" }
-				type: "item"
-			}]
-			x: -9.5d
-			y: 11.5d
-		}
-		{
-			dependencies: [
-				"7E58E3101FE80582"
-				"4230621C8E477045"
-			]
-			description: ["{atm9.quest.bees.desc.sqush}"]
-			id: "77C8B714F3D31D55"
-			tasks: [{
-				count: 2L
-				id: "323D94387FE333C3"
-				item: "productivebees:spawn_egg_hoarder_bee"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 12.5d
-		}
-		{
-			dependencies: ["6A552D3161F3D9F6"]
-			description: ["{atm9.quest.bees.desc.sqush}"]
-			id: "12A28B9E051D9171"
-			tasks: [{
-				id: "69DCE55DAAE9EC62"
-				item: "productivebees:spawn_egg_rancher_bee"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 13.5d
-		}
-		{
-			dependencies: [
-				"326BD4144A7B2771"
-				"12A28B9E051D9171"
-				"77C8B714F3D31D55"
-				"2218FA62C5087426"
-			]
-			description: ["{atm9.quest.bees.desc.wannabee}"]
-			id: "12DC60E6568BD2B1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "163C275F5780BCC3"
-				table_id: 7025454341029952768L
-				type: "random"
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "58344134022419B0"
-				item: {
-					Count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-					tag: {
-						EntityTag: {
-							type: "productivebees:wanna"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -9.5d
-			y: 15.0d
-		}
-		{
-			description: ["{atm9.quest.bees.desc.atmstarblock}"]
-			id: "1AF754160F104B1D"
-			rewards: [{
-				id: "4C0AB9996BA0E6F0"
-				item: "allthetweaks:greg_star"
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "53A5095076868349"
-				item: { Count: 2, id: "allthetweaks:atm_star_block" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: 16.5d
+			x: 1.0d
+			y: -7.5d
 		}
 	]
-	title: "{atm9.chapters.16.title}"
+	title: "{atm9.chapters.17.title}"
 }

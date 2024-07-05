@@ -134,6 +134,213 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["123807F4BBE75120"]
+			description: ["{atm9.quest.rs.desc.65536kstorage}"]
+			id: "1D2700821045CCF2"
+			rewards: [
+				{
+					id: "66A881D347175219"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					id: "2640929F7C28E93D"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7E7B3341B5C8D8CA"
+				item: "extradisks:65536k_storage_part"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.65536kstorage}"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7DD638E4111D66E7"]
+			description: ["{atm9.quest.rs.desc.256kstorage}"]
+			id: "4C1F13F5A0E273EF"
+			rewards: [{
+				id: "03F16EB9DA9624AD"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "04B88AEDB2799159"
+				item: "extradisks:256k_storage_part"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.256kstorage}"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4C1F13F5A0E273EF"]
+			description: ["{atm9.quest.rs.desc.1024kstorage}"]
+			id: "7C94F6AE2A793858"
+			rewards: [{
+				id: "12217A7AEFD0B703"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "15F9ABA22EFEF7E6"
+				item: "extradisks:1024k_storage_part"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.1024kstorage}"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C94F6AE2A793858"]
+			description: ["{atm9.quest.rs.desc.4096kstorage}"]
+			id: "52ACADDFCB0E22AB"
+			rewards: [
+				{
+					id: "7736581800AE4CE2"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					id: "42EABE802EFE97D6"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "71E4327C2E1FBB04"
+				item: "extradisks:4096k_storage_part"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.4096kstorage}"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52ACADDFCB0E22AB"]
+			description: ["{atm9.quest.rs.desc.16384kstorage}"]
+			id: "123807F4BBE75120"
+			rewards: [
+				{
+					id: "0A61A7DF1E582A48"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					id: "0D67B9E6DC5FB74D"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6C599CC5ADBA425B"
+				item: "extradisks:16384k_storage_part"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.16384kstorage}"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1D2700821045CCF2"]
+			description: ["{atm9.quest.rs.desc.262mstorage}"]
+			id: "4966162FBA933453"
+			rewards: [
+				{
+					id: "1D4393DDBCE3FA6D"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					id: "03768788B310EC53"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					id: "485B34813CB30B7A"
+					table_id: 1739527894044761161L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3C2952EABDCBF187"
+				item: "extradisks:262144k_storage_part"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.262mstorage}"
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4966162FBA933453"]
+			description: ["{atm9.quest.rs.desc.1048mstorage}"]
+			id: "718A2040D868E09F"
+			rewards: [
+				{
+					id: "5449AE4F52C12FD0"
+					item: "refinedstorage:1k_storage_part"
+					type: "item"
+				}
+				{
+					id: "2724B0206935EB5F"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					id: "7DB9984426FF521D"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+				{
+					id: "58C7B778FC651DD0"
+					table_id: 1739527894044761161L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4E565846EED470F5"
+				item: "extradisks:1048576k_storage_part"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.1048mstorage}"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3751015CD5C84134"
+				"3F8EEE1AD4420702"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{atm9.quest.rs.desc.advanced_housing}"]
+			id: "7DD638E4111D66E7"
+			rewards: [{
+				id: "1D1650B2B18131E3"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "099B55FD3A94FE91"
+				item: "extradisks:advanced_storage_housing"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.advanced_housing}"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
 			dependencies: ["65C8A43FEDBA3835"]
 			description: ["{atm9.quest.rs.desc.crafter}"]
 			id: "44881E39AB1D62AA"
@@ -412,6 +619,156 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["532229D285CA4858"]
+			id: "616B6046EF5DDF21"
+			rewards: [{
+				id: "74D65FAD1FCC2C5D"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6947092EB1DF6DCE"
+				item: "cabletiers:elite_importer"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.eliteI}"
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["616B6046EF5DDF21"]
+			id: "13A0714444BA79AB"
+			rewards: [{
+				id: "4DC81065EB1C50CD"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "60057B7F36565B42"
+				item: "cabletiers:ultra_importer"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.ultraI}"
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6092490EC9008A05"]
+			description: ["{atm9.quest.rs.desc.eliteD}"]
+			id: "6D81DF90E9C2C049"
+			rewards: [{
+				id: "37B580B60ADC023E"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6AD21D58B8EE01A3"
+				item: "cabletiers:elite_destructor"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.eliteD}"
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6D81DF90E9C2C049"]
+			description: ["{atm9.quest.rs.desc.ultraD}"]
+			id: "0D4FE97640F2CA60"
+			rewards: [{
+				id: "13DA1147475AF6BF"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1AC9A19F8B27A12C"
+				item: "cabletiers:ultra_destructor"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.ultraD}"
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2CFEE04BA574921E"]
+			description: ["{atm9.quest.rs.desc.eliteC}"]
+			id: "6DB06E3984D0CF97"
+			rewards: [{
+				id: "15DEC3015C064B0E"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "32C8173865CAFD14"
+				item: "cabletiers:elite_constructor"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.eliteC}"
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6DB06E3984D0CF97"]
+			description: ["{atm9.quest.rs.desc.ultraC}"]
+			id: "1F55A483008F74FE"
+			rewards: [{
+				id: "6E7CC639224A46F1"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "140A523F7D4EFC3E"
+				item: "cabletiers:ultra_constructor"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.ultraC}"
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4CD83943865018EA"]
+			description: ["{atm9.quest.rs.desc.eliteE}"]
+			id: "6973A5923AF7BF05"
+			rewards: [{
+				id: "18AB4575E10AC20E"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4E291FDCE1763291"
+				item: "cabletiers:elite_exporter"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.eliteE}"
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6973A5923AF7BF05"]
+			description: ["{atm9.quest.rs.desc.ultraE}"]
+			id: "5BB7648DC10E1E08"
+			rewards: [{
+				id: "7E7CF0891D09698A"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "515DEAD74B07300C"
+				item: "cabletiers:ultra_exporter"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.ultraE}"
+			x: -7.5d
+			y: -8.0d
+		}
+		{
 			dependencies: ["7604D8B3C9FCCFD9"]
 			description: ["{atm9.quest.rs.desc.64kfluid}"]
 			id: "4B81E84CAE814BA9"
@@ -486,6 +843,96 @@
 			title: "{atm9.quest.rs.4096kfluid}"
 			x: -2.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["7DD638E4111D66E7"]
+			description: ["{atm9.quest.rs.desc.16384kfluid}"]
+			id: "53CA0D6B4D5A17D5"
+			rewards: [{
+				id: "632DE7C72BB9103B"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "62F1F92687582BAF"
+				item: "extradisks:16384k_fluid_storage_part"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.16384kfluid}"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["53CA0D6B4D5A17D5"]
+			description: ["{atm9.quest.rs.desc.65536kfluid}"]
+			id: "64D6C395B6304F40"
+			rewards: [{
+				id: "78883095DF1F6CC5"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3D29353D5475642D"
+				item: "extradisks:65536k_fluid_storage_part"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.65536kfluid}"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["64D6C395B6304F40"]
+			description: ["{atm9.quest.rs.desc.262mfluid}"]
+			id: "17920C436DDBBD07"
+			rewards: [
+				{
+					id: "71F146A064E4D55C"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					id: "14685B5F1C545420"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5DDDBCF17E30A7C4"
+				item: "extradisks:262144k_fluid_storage_part"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.262mfluid}"
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["17920C436DDBBD07"]
+			description: ["{atm9.quest.rs.desc.1048mfluid}"]
+			id: "49772923B8AF0F1F"
+			rewards: [
+				{
+					id: "25461173A1F7474B"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					id: "2AD311B1D18BE1FB"
+					table_id: 4001436279668650237L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0EE5758F4584DD05"
+				item: "extradisks:1048576k_fluid_storage_part"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.1048mfluid}"
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6904EC449FBEE387"]
@@ -873,6 +1320,70 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["4844DEF57A2287B4"]
+			hide: true
+			id: "7C26D0295ABBF5BD"
+			rewards: [{
+				id: "1E8B6CC202D9C975"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "247C1CD892AA4E07"
+				item: "cabletiers:elite_disk_manipulator"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.eliteDM}"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C26D0295ABBF5BD"]
+			hide: true
+			id: "1C8CEA8E12D9F2E3"
+			rewards: [{
+				id: "55C4ACA6CF61E7A8"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6CF001677DE268D7"
+				item: "cabletiers:ultra_disk_manipulator"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.ultraDM}"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2E2811D1A0F2A492"]
+			description: ["{atm9.quest.rs.desc.infiniterange}"]
+			id: "3E0D29502690E02F"
+			rewards: [
+				{
+					id: "020CFD2156077264"
+					table_id: 3567941291661635734L
+					type: "random"
+				}
+				{
+					id: "51EB8245F9BF2EBB"
+					table_id: 407746579787184593L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "4DD51C8F38808EB9"
+				item: "rsinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.infiniterange}"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
 			dependencies: ["12A43F82FC67A289"]
 			dependency_requirement: "one_started"
 			description: ["{atm9.quest.rs.desc.housing}"]
@@ -941,7 +1452,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4101F8275B41C79B"]
+			dependencies: [
+				"4B81E84CAE814BA9"
+				"4101F8275B41C79B"
+			]
 			description: ["{atm9.quest.rs.desc.1kstorage_block}"]
 			id: "62625CAF6649AB53"
 			optional: true
@@ -958,7 +1472,7 @@
 			}]
 			title: "{atm9.quest.rs.1kstorage_block}"
 			x: -1.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6092490EC9008A05"]
@@ -1073,6 +1587,32 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["3E0D29502690E02F"]
+			description: ["{atm9.quest.rs.desc.dimension}"]
+			id: "3EE9958D84A1252C"
+			rewards: [
+				{
+					id: "6E00F9CDE957D741"
+					table_id: 407746579787184593L
+					type: "random"
+				}
+				{
+					id: "07BCC4BCD1A84D6E"
+					table_id: 1739527894044761161L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "19BBDF4958C7FD63"
+				item: "rsinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.dimension}"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
 			dependencies: ["6904EC449FBEE387"]
 			description: ["{atm9.quest.rs.desc.upgrades}"]
 			hide: true
@@ -1139,44 +1679,59 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["2E2811D1A0F2A492"]
-			description: ["{atm9.quest.rs.desc.infiniterange}"]
-			id: "6FE2D0B83A342E64"
-			rewards: [{
-				id: "7264FDA2E5C580FA"
-				item: "rsinfinitybooster:infinity_card"
-				type: "item"
-			}]
-			shape: "circle"
+			dependencies: ["01F18150EC923482"]
+			description: ["{atm9.quest.rs.desc.wrench}"]
+			id: "1187F9D4F4E0D254"
+			subtitle: "{atm9.quest.rs.subt.wrench}"
 			tasks: [{
-				id: "681EC80CB2ED7F51"
-				item: "rsinfinitybooster:infinity_card"
+				id: "5EF5F78F14C5BEC0"
+				item: "refinedstorage:wrench"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.infiniterange}"
-			x: 5.5d
-			y: -0.5d
+			title: "{atm9.quest.rs.wrench}"
+			x: -7.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["6FE2D0B83A342E64"]
-			description: ["{atm9.quest.rs.desc.dimension}"]
-			id: "4B77657055E0D36A"
-			rewards: [{
-				count: 4
-				id: "3B4E1617EA62D067"
-				item: "minecraft:nether_star"
-				type: "item"
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "13098082ACDD0118"
-				item: "rsinfinitybooster:dimension_card"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.dimension}"
-			x: 5.5d
-			y: 0.5d
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "22BB192B1958B894"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "018045F124343014"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "1A1CB7786D31C490"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 1.0d
 		}
 	]
-	title: "{atm9.chapters.11.title}"
+	title: "{atm9.chapters.12.title}"
 }

@@ -549,11 +549,18 @@
 				"{atm9.quest.industrialForegoing.desc.moreMeat}"
 			]
 			id: "1823CC81D613892B"
-			rewards: [{
-				id: "222D5521FF5BCB8C"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "222D5521FF5BCB8C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DDA30E9635266E1"
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "4CEA3179A4BE3336"
 				item: "industrialforegoing:mob_slaughter_factory"
@@ -1110,6 +1117,11 @@
 				"0BCCDE24D378F260"
 			]
 			id: "0B35172E47705205"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D6B326AA5539931"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "79D439E38B286B8E"
 				item: "industrialforegoing:washing_factory"
@@ -1121,6 +1133,11 @@
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "418E57E34FFC19E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69FCF0A4D6B92D47"
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "21285C89735F67FC"
@@ -1146,6 +1163,11 @@
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "2E8E292ED596A104"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "594B225D020201DC"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7B6F79D3A759D5D5"
 				item: "industrialforegoing:laser_lens10"
@@ -1164,6 +1186,11 @@
 				"{atm9.quest.industrialForegoing.desc.laserDrillSuggestion.2}"
 			]
 			id: "7E39FB9F3E973009"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DFE99C957A9D7C7"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1225664C1E9E28D3"
 				item: "industrialforegoing:ether_gas_bucket"
@@ -1175,6 +1202,11 @@
 		{
 			dependencies: ["7B4AF35313D7D779"]
 			id: "0F8FE6692717AA6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ABB19B5E00E3E6D"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2FD098DEE8336866"
 				item: "industrialforegoing:mycelial_reactor"
@@ -1186,6 +1218,11 @@
 		{
 			dependencies: ["7E39FB9F3E973009"]
 			id: "7B4AF35313D7D779"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D2DF24F9574CC0B"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0DC23FAFFD8954C2"
 				item: "industrialforegoing:machine_frame_supreme"
@@ -1197,6 +1234,11 @@
 		{
 			dependencies: ["0BCCDE24D378F260"]
 			id: "1D5895CD14AB88EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E1D6D1D640EEF09"
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "0F4D170395901E5C"
@@ -1216,6 +1258,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "65C5D30F48B77D20"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "149850904760F703"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "285EB289271FF17A"
 				item: "industrialforegoing:mycelial_death"
@@ -1228,6 +1275,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "7DC044EFFDC208D7"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A72C528C5669C74"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "4AF8DF7BC38E419B"
 				item: "industrialforegoing:mycelial_slimey"
@@ -1240,6 +1292,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "014262BDF1BBA54D"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44298E7999EB7B94"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "56ACF4EA4F91E75C"
 				item: "industrialforegoing:mycelial_rocket"
@@ -1252,6 +1309,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "5186CB4CD85B530C"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "227F6EF7AE909565"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1E468D6A624E64E2"
 				item: "industrialforegoing:mycelial_potion"
@@ -1264,6 +1326,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "287B47E27EBC2C18"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20881D56F5192E84"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "4F813C90DC8DE4F0"
 				item: "industrialforegoing:enchantment_factory"
@@ -1276,6 +1343,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "776EE1F5C4565146"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "298134FBAFA1E326"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6F96A800F8BDA3FD"
 				item: "industrialforegoing:mycelial_crimed"
@@ -1288,6 +1360,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "3AFDE3396861A944"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "759BBDD0EC70369D"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "74E4102326A71945"
 				item: "industrialforegoing:enchantment_applicator"
@@ -1300,6 +1377,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "4A8C60412E59E971"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "211F476F3CB6AE8E"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "18A5C86DE82D9671"
 				item: "industrialforegoing:enchantment_sorter"
@@ -1312,6 +1394,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "2DC012EF21FB359E"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C6011376A9A8C7B"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "45B306381A723562"
 				item: "industrialforegoing:enchantment_extractor"
@@ -1324,6 +1411,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "272E27EFE40C913A"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6351B04D5DB904AC"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0D2B10E4838ACFA2"
 				item: "industrialforegoing:mycelial_ender"
@@ -1336,6 +1428,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "7CB4D47ABC295B92"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61BD7D63BC90F9D2"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "43C5F3AECB9F88F1"
 				item: "industrialforegoing:mob_crusher"
@@ -1348,6 +1445,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "15551AC6C68E12E0"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28036A4A8587E827"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "532B0FD90F4D6AF6"
 				item: "industrialforegoing:mob_duplicator"
@@ -1360,6 +1462,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "393A7BA6768A3F56"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6750356BF00D4D8C"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "185FE487EF5B3069"
 				item: "industrialforegoing:mycelial_disenchantment"
@@ -1372,6 +1479,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "1BF511A13DF35C3A"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35B1C843F3FA5B7A"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2C993EEE2B11D440"
 				item: "industrialforegoing:mycelial_magma"
@@ -1384,6 +1496,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "38FF05B6A26DB2EC"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C0798BE81F2F11E"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "04F5D3F7B29D441B"
 				item: "industrialforegoing:mycelial_explosive"
@@ -1396,6 +1513,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "06F84E2C484FAC5B"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7919B502DD10AFCE"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5949367631EAD828"
 				item: "industrialforegoing:material_stonework_factory"
@@ -1408,6 +1530,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "4F3EF1574F31A7E2"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40F175309FD9450A"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0D1F3F6898F4E776"
 				item: "industrialforegoing:stasis_chamber"
@@ -1420,6 +1547,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "2782EA80C1C74EBD"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "661D05D57C1FF7DF"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "3EFA144FCF33A935"
 				item: "industrialforegoing:potion_brewer"
@@ -1432,6 +1564,11 @@
 			dependencies: ["0BCCDE24D378F260"]
 			id: "34AA079FFAFC64BD"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B005F23D46A4F76"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "363855E6A408A2E5"
 				item: "industrialforegoing:fluid_sieving_machine"
@@ -1558,6 +1695,11 @@
 			dependencies: ["7B4AF35313D7D779"]
 			id: "60719C4317D39E5A"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66568091CEBF968A"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "42FC1011D077857F"
 				item: "industrialforegoing:mycelial_netherstar"
@@ -1570,6 +1712,11 @@
 			dependencies: ["7B4AF35313D7D779"]
 			id: "3A97E99FEC78E9C2"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36AEF3332136C672"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "26CFE6CE592741D6"
 				item: "industrialforegoing:mycelial_halitosis"
@@ -1582,6 +1729,11 @@
 			dependencies: ["7B4AF35313D7D779"]
 			id: "7342B2669D96C509"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B90E8101E9805A5"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "077D65D9C7397844"
 				item: "industrialforegoing:mycelial_meatallurgic"
@@ -1593,6 +1745,11 @@
 		{
 			dependencies: ["7B4AF35313D7D779"]
 			id: "28B3591BFC0FA08B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50CB633BE2D20F53"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "12A0A25980EA485E"
 				item: "industrialforegoing:wither_builder"
@@ -1604,6 +1761,11 @@
 		{
 			dependencies: ["7B4AF35313D7D779"]
 			id: "30BEF473F5C25983"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0467AE9BA58557C7"
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "01FE619C47E82C71"
@@ -1622,6 +1784,11 @@
 		{
 			dependencies: ["7B4AF35313D7D779"]
 			id: "4F846973EFB95FA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3625368F9EFEB946"
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5A45E3CD864C4DA1"
 				item: "industrialforegoing:black_hole_controller"

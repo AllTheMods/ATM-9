@@ -124,7 +124,7 @@
 			rotation: 45.0d
 			width: 2.0d
 			x: -0.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			height: 2.0d
@@ -132,7 +132,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: -0.5d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			height: 1.0d
@@ -148,7 +148,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -0.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			alpha: 150
@@ -332,7 +332,7 @@
 			y: 18.1d
 		}
 	]
-	order_index: 6
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -340,6 +340,7 @@
 			description: [
 				"{atm9.quest.powah.desc.intro.1}"
 				""
+				"{atm9.quest.powah.desc.intro.2}"
 			]
 			icon: "powah:book"
 			id: "6B2027DA7AA6FF34"
@@ -364,13 +365,13 @@
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				id: "37EEEFADAC326E92"
-				item: "minecraft:clay_ball"
+				id: "3C45AF8C3DC5A45E"
+				item: "powah:uraninite_raw"
 				type: "item"
 			}]
 			title: "{atm9.quest.powah.welcome}"
 			x: -0.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6B2027DA7AA6FF34"]
@@ -411,7 +412,7 @@
 			]
 			title: "{atm9.quest.powah.startingDielectricMats}"
 			x: -0.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
@@ -447,6 +448,27 @@
 				{
 					id: "37FB7E3C8FD03825"
 					item: "powah:energizing_orb"
+					type: "item"
+				}
+				{
+					id: "36E378BF22554E0A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "powah:energy_cable_starter"
+								}
+								{
+									Count: 1b
+									id: "powah:energy_cable_basic"
+								}
+							]
+						}
+					}
+					title: "{atm9.quest.powah.energyCables}"
 					type: "item"
 				}
 				{
@@ -491,50 +513,10 @@
 					title: "{atm9.quest.powah.energizingRods}"
 					type: "item"
 				}
-				{
-					id: "415EF77702F5EA52"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "powah:energy_cable_starter"
-								}
-								{
-									Count: 1b
-									id: "powah:energy_cable_basic"
-								}
-								{
-									Count: 1b
-									id: "powah:energy_cable_hardened"
-								}
-								{
-									Count: 1b
-									id: "powah:energy_cable_blazing"
-								}
-								{
-									Count: 1b
-									id: "powah:energy_cable_niotic"
-								}
-								{
-									Count: 1b
-									id: "powah:energy_cable_spirited"
-								}
-								{
-									Count: 1b
-									id: "powah:energy_cable_nitro"
-								}
-							]
-						}
-					}
-					type: "item"
-				}
 			]
 			title: "{atm9.quest.powah.energizingOrb}"
 			x: -0.5d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -3436,19 +3418,45 @@
 			y: 17.5d
 		}
 		{
-			dependencies: ["3DDF87A1E5F5D009"]
-			description: ["{atm9.quest.powah.desc.uraninite}"]
-			id: "5815C2B99E865CF2"
-			shape: "rsquare"
-			tasks: [{
-				id: "48E6F51295BA4517"
-				item: "powah:uraninite"
-				type: "item"
-			}]
-			title: "{atm9.quest.powah.uraninite}"
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "1318BA3E5DA9B50C"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "0428F19A7F7919A1"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "652DD9984C65728A"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
 			x: -0.5d
-			y: 8.5d
+			y: 3.0d
 		}
 	]
-	title: "{atm9.chapters.22.title}"
+	title: "{atm9.chapters.23.title}"
 }
