@@ -39,7 +39,7 @@
 			y: 7.0d
 		}
 	]
-	order_index: 6
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -1288,24 +1288,6 @@
 			}]
 			x: 23.5d
 			y: 3.5d
-		}
-		{
-			description: [
-				"Currently only goes up to what's needed for the ATM Star. Post quest promblems on the ATM9 Github page."
-				""
-				" All images will be replaced."
-			]
-			id: "10F3B9DD751C0FAE"
-			optional: true
-			size: 1.5d
-			subtitle: "More coming soon"
-			tasks: [{
-				id: "3EB401170F7A9EAA"
-				title: "WIP"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: -0.5d
 		}
 		{
 			dependencies: ["1427B3AB09510D20"]

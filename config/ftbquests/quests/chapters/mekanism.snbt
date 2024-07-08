@@ -13,7 +13,7 @@
 		x: 9.0d
 		y: -5.5d
 	}]
-	order_index: 3
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -753,7 +753,7 @@
 			id: "23F165DEAD225B10"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "33E6BC2DA88E92EE"
 					item: "mekanism:basic_universal_cable"
 					type: "item"
@@ -853,7 +853,7 @@
 			id: "2EF4DD5CC254CC80"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "011785CCEDC7688E"
 					item: "mekanism:basic_mechanical_pipe"
 					type: "item"
@@ -953,7 +953,7 @@
 			id: "4434D7B66521D69A"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "43C7CBD7952BAF44"
 					item: "mekanism:basic_pressurized_tube"
 					type: "item"
@@ -980,7 +980,7 @@
 			id: "5B681BC43371CC5C"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "75E2FFA83AB6A12A"
 					item: "mekanism:basic_logistical_transporter"
 					type: "item"
@@ -1007,7 +1007,7 @@
 			id: "531E3FF1F2865C67"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "434BA009CC22D188"
 					item: "mekanism:basic_thermodynamic_conductor"
 					type: "item"
