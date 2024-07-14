@@ -1,0 +1,13 @@
+{
+	icon: "draconicevolution:wyvern_core"
+	id: "45E659D75FF60276"
+	loot_size: 1
+	order_index: 48
+	rewards: [
+		{ count: 3, item: "draconicevolution:wyvern_core", weight: 2.0f }
+		{ count: 8, item: "draconicevolution:draconium_ingot", weight: 2.0f }
+		{ item: "minecraft:nether_star", weight: 0.5f }
+		{ count: 2, item: "draconicevolution:wyvern_energy_core" }
+	]
+	title: "DE Wyvern"
+}

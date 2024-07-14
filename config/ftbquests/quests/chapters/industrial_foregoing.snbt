@@ -27,8 +27,8 @@
 		{
 			height: 1.0d
 			hover: [
-				"atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.1"
-				"atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.2"
+				"{atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.1}"
+				"{atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.2}"
 			]
 			image: "industrialforegoing:block/reactor_front_mycelial"
 			rotation: 0.0d
@@ -38,7 +38,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.crimedMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.crimedMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_crimed"
 			rotation: 0.0d
 			width: 1.0d
@@ -47,7 +47,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.culinaryMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.culinaryMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_culinary"
 			rotation: 0.0d
 			width: 1.0d
@@ -56,7 +56,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.deathMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.deathMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_death"
 			rotation: 0.0d
 			width: 1.0d
@@ -65,7 +65,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.disenchantmentMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.disenchantmentMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_disenchantment"
 			rotation: 0.0d
 			width: 1.0d
@@ -74,7 +74,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.enderMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.enderMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_ender"
 			rotation: 0.0d
 			width: 1.0d
@@ -83,7 +83,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.explosiveMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.explosiveMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_explosive"
 			rotation: 0.0d
 			width: 1.0d
@@ -92,7 +92,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.frostyMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.frostyMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_frosty"
 			rotation: 0.0d
 			width: 1.0d
@@ -101,7 +101,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.furnaceMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.furnaceMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_furnace"
 			rotation: 0.0d
 			width: 1.0d
@@ -110,7 +110,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.halitosisMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.halitosisMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_halitosis"
 			rotation: 0.0d
 			width: 1.0d
@@ -119,7 +119,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.magmaMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.magmaMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_magmatic"
 			rotation: 0.0d
 			width: 1.0d
@@ -128,7 +128,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.meatallurgicMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.meatallurgicMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_meatallurgic"
 			rotation: 0.0d
 			width: 1.0d
@@ -137,7 +137,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.netherstarMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.netherstarMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_netherstar"
 			rotation: 0.0d
 			width: 1.0d
@@ -146,7 +146,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.pinkMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.pinkMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_pink"
 			rotation: 0.0d
 			width: 1.0d
@@ -155,7 +155,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.potionMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.potionMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_potion"
 			rotation: 0.0d
 			width: 1.0d
@@ -164,7 +164,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.rocketMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.rocketMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_rocket"
 			rotation: 0.0d
 			width: 1.0d
@@ -173,7 +173,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.slimeyMycelialGenerator"]
+			hover: ["{atm9.quest.industrialForegoing.slimeyMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_slimey"
 			rotation: 0.0d
 			width: 1.0d
@@ -183,7 +183,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.fluidExtractor"]
+			hover: ["{atm9.quest.industrialForegoing.fluidExtractor}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -193,7 +193,7 @@
 		{
 			click: "#294C729B9EBD7A3C"
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.blockPlacer"]
+			hover: ["{atm9.quest.industrialForegoing.blockPlacer}"]
 			image: "industrialforegoing:block/block_placer_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -202,7 +202,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.acaciaLogs"]
+			hover: ["{atm9.quest.industrialForegoing.acaciaLogs}"]
 			image: "chipped:block/acacia_log/firewood_acacia_log"
 			rotation: 0.0d
 			width: 1.0d
@@ -212,7 +212,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.fluidExtractor"]
+			hover: ["{atm9.quest.industrialForegoing.fluidExtractor}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -222,7 +222,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.fluidExtractor"]
+			hover: ["{atm9.quest.industrialForegoing.fluidExtractor}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -232,7 +232,7 @@
 		{
 			click: "#6FF04DD735346BED"
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.latexProcessingUnit"]
+			hover: ["{atm9.quest.industrialForegoing.latexProcessingUnit}"]
 			image: "industrialforegoing:block/latex_processing_unit_front"
 			rotation: 0.0d
 			width: 1.0d
@@ -258,8 +258,8 @@
 		{
 			height: 7.0d
 			hover: [
-				"atm9.quest.industrialForegoing.hover.witherInStasisFeatures.1"
-				"atm9.quest.industrialForegoing.hover.witherInStasisFeatures.2"
+				"{atm9.quest.industrialForegoing.hover.witherInStasisFeatures.1}"
+				"{atm9.quest.industrialForegoing.hover.witherInStasisFeatures.2}"
 			]
 			image: "atm:textures/questpics/industrialforegoing/ether_gas_setup.png"
 			order: 10
@@ -285,7 +285,7 @@
 			y: 2.8896258503401455d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -322,11 +322,19 @@
 				"{atm9.quest.industrialForegoing.desc.checkJEI}"
 			]
 			id: "0EC2053B191C55C6"
-			rewards: [{
-				id: "2D3F9D6C16FE7EAF"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "2D3F9D6C16FE7EAF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62522B4A46251119"
+					table_id: 5124217649411489500L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "3CEAE2B50AD7C5ED"
 				item: "industrialforegoing:fluid_extractor"
@@ -373,11 +381,19 @@
 		{
 			dependencies: ["321FA7348E532F4E"]
 			id: "6FF04DD735346BED"
-			rewards: [{
-				id: "0FB5D498F42B6185"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0FB5D498F42B6185"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "165FAC8C2F75A7F9"
+					table_id: 5124217649411489500L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "163B2434699EEF1A"
 				item: "industrialforegoing:latex_processing_unit"
@@ -492,12 +508,20 @@
 		{
 			dependencies: ["0EA9E52B67B533DF"]
 			id: "690CFF61CE787D43"
-			rewards: [{
-				count: 5
-				id: "41FDECEBC7DDB3F6"
-				item: "industrialforegoing:plastic"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "41FDECEBC7DDB3F6"
+					item: "industrialforegoing:plastic"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10813338F04C0398"
+					table_id: 5124217649411489500L
+					type: "loot"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "77579FFDFEA734EB"
@@ -534,6 +558,12 @@
 		{
 			dependencies: ["690CFF61CE787D43"]
 			id: "57C4A0BAE739E903"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B87BEEF76D40DA7"
+				table_id: 5124217649411489500L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "47C0E765FD874FCC"
 				item: "industrialforegoing:dissolution_chamber"
@@ -558,6 +588,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "1DDA30E9635266E1"
+					table_id: 5124217649411489500L
 					type: "loot"
 				}
 			]
@@ -890,11 +921,19 @@
 		{
 			dependencies: ["57C4A0BAE739E903"]
 			id: "3514E9C1A8C7400C"
-			rewards: [{
-				id: "3CB88390179E68C1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3CB88390179E68C1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DD952E9DAB7B8A7"
+					table_id: 5124217649411489500L
+					type: "loot"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "719FBA82094C5EC2"
@@ -910,6 +949,12 @@
 				"0E8647B8EB4AAC41"
 			]
 			id: "0BCCDE24D378F260"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A3A00513891003C"
+				table_id: 8352280757313595670L
+				type: "loot"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6C58377563CFA587"
@@ -1120,6 +1165,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0D6B326AA5539931"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1136,6 +1182,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "69FCF0A4D6B92D47"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [
@@ -1166,6 +1213,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "594B225D020201DC"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1189,6 +1237,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0DFE99C957A9D7C7"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1205,6 +1254,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1ABB19B5E00E3E6D"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1221,6 +1271,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3D2DF24F9574CC0B"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1237,6 +1288,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6E1D6D1D640EEF09"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [
@@ -1261,6 +1313,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "149850904760F703"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1278,6 +1331,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1A72C528C5669C74"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1295,6 +1349,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "44298E7999EB7B94"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1312,6 +1367,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "227F6EF7AE909565"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1329,6 +1385,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "20881D56F5192E84"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1346,6 +1403,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "298134FBAFA1E326"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1363,6 +1421,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "759BBDD0EC70369D"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1380,6 +1439,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "211F476F3CB6AE8E"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1397,6 +1457,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0C6011376A9A8C7B"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1414,6 +1475,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6351B04D5DB904AC"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1431,6 +1493,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "61BD7D63BC90F9D2"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1448,6 +1511,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "28036A4A8587E827"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1465,6 +1529,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6750356BF00D4D8C"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1482,6 +1547,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "35B1C843F3FA5B7A"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1499,6 +1565,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0C0798BE81F2F11E"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1516,6 +1583,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7919B502DD10AFCE"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1533,6 +1601,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "40F175309FD9450A"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1550,6 +1619,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "661D05D57C1FF7DF"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1567,6 +1637,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7B005F23D46A4F76"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1698,6 +1769,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "66568091CEBF968A"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1715,6 +1787,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "36AEF3332136C672"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1732,6 +1805,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6B90E8101E9805A5"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1748,6 +1822,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "50CB633BE2D20F53"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1764,6 +1839,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0467AE9BA58557C7"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [
@@ -1787,6 +1863,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3625368F9EFEB946"
+				table_id: 8352280757313595670L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1825,7 +1902,6 @@
 				"{atm9.quest.industrialForegoing.desc.mycelialReactorFeatures.3}"
 			]
 			id: "0FAAE744E156D8EF"
-			optional: true
 			rewards: [{
 				id: "4072266D7E2B23B7"
 				type: "xp"
@@ -1892,6 +1968,46 @@
 			title: "{atm9.quest.industrialForegoing.latexAndPlasticQuestion}"
 			x: 3.130612244897911d
 			y: 1.603911564625868d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "53CFC6261F0EDDA1"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "05072073E048223B"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "29F056B23D70B9F7"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "{atm9.chapters.20.title}"
