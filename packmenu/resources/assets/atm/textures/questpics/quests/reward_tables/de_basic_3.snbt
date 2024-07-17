@@ -1,0 +1,13 @@
+{
+	icon: "draconicevolution:awakened_core"
+	id: "6329856B9A5563C4"
+	loot_size: 1
+	order_index: 51
+	rewards: [
+		{ count: 3, item: "draconicevolution:awakened_core", weight: 2.0f }
+		{ count: 4, item: "draconicevolution:awakened_draconium_ingot", weight: 2.0f }
+		{ count: 2, item: "minecraft:nether_star", weight: 0.5f }
+		{ count: 2, item: "draconicevolution:draconic_energy_core" }
+	]
+	title: "DE Draconic"
+}

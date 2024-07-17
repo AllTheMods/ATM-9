@@ -1,0 +1,1100 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "752CDE464613A1ED"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: {
+			BotariumData: { }
+		}
+	}
+	id: "769974FDAD5DBEB1"
+	images: [
+		{
+			height: 0.3d
+			hover: ["{atm9.quest.ae2.img.star}"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 4.1d
+			y: 4.0d
+		}
+		{
+			height: 2.5d
+			image: "atm:textures/questpics/adastra/title.png"
+			rotation: 0.0d
+			width: 11.7875d
+			x: -0.2d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "ad_astra:textures/painting/earth.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			height: 2.0d
+			image: "ad_astra:textures/painting/mars.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "ad_astra:textures/painting/venus.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "ad_astra:textures/painting/glacio.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 4.0d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["438E233A9014DA73"]
+			description: [
+				"{atm9.quest.adAstra.desc.tier2Rocket.1}"
+				""
+				"{atm9.quest.adAstra.desc.tier2Rocket.2}"
+			]
+			id: "4EA0E385FF7E5FEB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1AC6ABC34B8C49A1"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "1FE8F2E61C92B975"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "79AED4781590C86C"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0EE652B280CB5F55"]
+			description: ["{atm9.quest.adAstra.desc.tier4Rocket}"]
+			id: "210A0DC6D5CAC236"
+			tasks: [{
+				id: "68DB1231F3A96C65"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["438E233A9014DA73"]
+			description: [
+				"{atm9.quest.adAstra.desc.spaceStations.1}"
+				""
+				"{atm9.quest.adAstra.desc.spaceStations.2}"
+			]
+			icon: "ad_astra:space_painting"
+			id: "3017721842588919"
+			optional: true
+			tasks: [
+				{
+					count: 32L
+					id: "272ECBF4F0313233"
+					item: "alltheores:steel_ingot"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2E38F53470201DC1"
+					item: "alltheores:iron_plate"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "534B726DC1747DEA"
+					item: "ad_astra:desh_plate"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "041DBD596163B83B"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.adAstra.spaceStations}"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["58452F7D73C30E72"]
+			description: [
+				"{atm9.quest.adAstra.desc.lander.1}"
+				""
+				"{atm9.quest.adAstra.desc.lander.2}"
+			]
+			id: "438E233A9014DA73"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3692BBD01BE5B51F"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "0423147C3A278BE3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "627563413CA0416E"
+					item: "ad_astra:raw_desh"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1376E9EEBB16D83E"
+					item: { Count: 4, id: "ad_astra:desh_ingot" }
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.adAstra.desh}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"20DA5CA244B7ABBF"
+				"313BDDDAF1E08965"
+				"05B977269171EB06"
+				"02057E81D8139BAE"
+				"4785659E5022FEE7"
+			]
+			description: [
+				"{atm9.quest.adAstra.desc.launch.1}"
+				""
+				"{atm9.quest.adAstra.desc.launch.2}"
+				""
+				"{atm9.quest.adAstra.desc.launch.3}"
+				""
+				"{atm9.quest.adAstra.desc.launch.4}"
+				""
+				"{atm9.quest.adAstra.desc.launch.5}"
+				""
+				"Moon Info:"
+				"Gravity: 1.625 m/s"
+				"Oxygen: None"
+				"Temperature: -160.0 °C"
+			]
+			hide_dependency_lines: true
+			icon: "ad_astra:moon_globe"
+			id: "58452F7D73C30E72"
+			min_width: 500
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "468AC8321A3FA808"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "54327A5B1E3DAA8C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				advancement: "ad_astra:moon"
+				criterion: ""
+				id: "39A95AE27E68114B"
+				title: "{atm9.quest.adAstra.landOnMoon}"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.adAstra.toTheMoon}"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E8E49EB9C83188E"]
+			description: [
+				"{atm9.quest.adAstra.desc.ostrum}"
+				""
+				"Ostrum is used for several new machines, as well as a new Space Suit for us to survive on hotter planets!"
+			]
+			id: "2A279B011D09A9EE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C46F403352DA31B"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "0799CA8C28548FCE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "1B3FD86852E9F8FE"
+					item: "ad_astra:raw_ostrum"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "65AE7D0A17C3DB4E"
+					item: { Count: 4, id: "ad_astra:ostrum_ingot" }
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.adAstra.ostrum}"
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4EA0E385FF7E5FEB"]
+			description: [
+				"{atm9.quest.adAstra.desc.mars.1}"
+				""
+				"Mars Info:"
+				"Gravity: 3.72076 m/s"
+				"Oxygen: None"
+				"Temperature: -65.0 °C"
+			]
+			icon: "ad_astra:mars_globe"
+			id: "4E8E49EB9C83188E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AACBAD9546F2981"
+				table_id: 6573526605066559568L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "ad_astra:mars"
+				criterion: ""
+				id: "51EA8D3FA1966B84"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.adAstra.visitMars}"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7CA42B3CA84A21B5"]
+			description: [
+				"{atm9.quest.adAstra.desc.venus.1}"
+				""
+				"{atm9.quest.adAstra.desc.venus.2}"
+				""
+				"{atm9.quest.adAstra.desc.venus.3}"
+				""
+				"Venus Info:"
+				"Gravity: 8.87 m/s"
+				"Oxygen: none"
+				"Temperature: 464.0 °C"
+			]
+			icon: "ad_astra:venus_globe"
+			id: "0EE652B280CB5F55"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "109BEEE85D907550"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "4CFB61860572F560"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "ad_astra:venus"
+					criterion: ""
+					id: "3A4B0885275DF89B"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "5435730E77B1B16F"
+					item: "ad_astra:raw_calorite"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.adAstra.visitVenus}"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7CA42B3CA84A21B5"]
+			description: [
+				"{atm9.quest.adAstra.desc.mercury}"
+				""
+				"Mercury Info:"
+				"Gravity: 3.7 m/s"
+				"Oxygen: none"
+				"Temperature: 167.0 °C"
+			]
+			icon: "ad_astra:mercury_globe"
+			id: "32738F324B799879"
+			rewards: [
+				{
+					id: "35B81F3437892767"
+					item: "ad_astra:mercury_globe"
+					type: "item"
+				}
+				{
+					id: "336D40C61B9D2159"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				advancement: "ad_astra:mercury"
+				criterion: ""
+				id: "7302AF42EB62C1D2"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.adAstra.visitMercury}"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"210A0DC6D5CAC236"
+				"7B2A7B2298DAE8EC"
+			]
+			description: [
+				"{atm9.quest.adAstra.desc.glacio.1}"
+				""
+				"Glacio Info:"
+				"Gravity: 3.721 m/s"
+				"Oxygen: Yes"
+				"Temperature: -20.0 °C"
+			]
+			icon: "ad_astra:glacio_globe"
+			id: "0B407DE1771F3304"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5511510CAEB44560"
+				table_id: 1160439751879588774L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				advancement: "ad_astra:interstellar"
+				criterion: ""
+				id: "60ADF70F2398E2F8"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.adAstra.visitGlacio}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{atm9.quest.adAstra.desc.intro.1}"
+				""
+				"{atm9.quest.adAstra.desc.intro.2}"
+				""
+				"{atm9.quest.adAstra.desc.intro.3}"
+				""
+				"{atm9.quest.adAstra.desc.intro.4}"
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "ad_astra:astrodux"
+				}
+			}
+			id: "0D8AC4FB1F61B07A"
+			rewards: [
+				{
+					id: "1856194492635B78"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "ad_astra:astrodux"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72B6835DDF9CD7BA"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "69FB518CD44E0ACA"
+				item: "alltheores:steel_ingot"
+				type: "item"
+			}]
+			title: "{atm9.quest.adAstra.toTheStars}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D8AC4FB1F61B07A"]
+			description: [
+				"{atm9.quest.adAstra.desc.hammerUsage.1}"
+				""
+				"{atm9.quest.adAstra.desc.hammerUsage.2}"
+			]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D4A85FBCE0015E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18833B285F7249FB"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "038D44F906DD8DB5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "18AECBDA4AC04E06"
+					item: {
+						Count: 1
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "031A8E0B1C909394"
+					item: "ad_astra:compressor"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.adAstra.makingPlates}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D4A85FBCE0015E1"]
+			description: [
+				"{atm9.quest.adAstra.desc.nasaWorkbench.1}"
+				""
+				"{atm9.quest.adAstra.desc.nasaWorkbench.2}"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "313BDDDAF1E08965"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "481C5E83FF671C18"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "2EEB9D7EC3684AFB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "05AC65380B8E5A22"
+					item: "ad_astra:nasa_workbench"
+					type: "item"
+				}
+				{
+					id: "0AD62369D27109EF"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.adAstra.makingFirstRocket}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D4A85FBCE0015E1"]
+			description: [
+				"{atm9.quest.adAstra.desc.spaceGear.1}"
+				""
+				"{atm9.quest.adAstra.desc.spaceGear.2}"
+			]
+			hide_dependency_lines: true
+			id: "02057E81D8139BAE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79CA3A7E1C7AB579"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "7135774DB2AFB447"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "58780A1586C59948"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "045CAA9319170596"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68F83E076039DB23"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "096039479BF27E8C"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.adAstra.suitingUp}"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D4A85FBCE0015E1"]
+			description: [
+				"{atm9.quest.adAstra.desc.fuelRefinery.1}"
+				""
+				"{atm9.quest.adAstra.desc.fuelRefinery.2}"
+				""
+				"{atm9.quest.adAstra.desc.fuelRefinery.3}"
+				""
+				"{atm9.quest.adAstra.desc.fuelRefinery.4}"
+			]
+			hide_dependency_lines: true
+			icon: "ad_astra:fuel_refinery"
+			id: "4785659E5022FEE7"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15F7CCCFDF146D6B"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "47D3C9724A4169F3"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "262ED3093C8B3DF5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "54E00D1DC618B0FB"
+					item: "ad_astra:fuel_refinery"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6605CAE425FCB735"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.adAstra.fuelingUp}"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["02057E81D8139BAE"]
+			description: [
+				"{atm9.quest.adAstra.desc.oxygenPrep.1}"
+				""
+				"{atm9.quest.adAstra.desc.oxygenPrep.2}"
+				""
+				"{atm9.quest.adAstra.desc.oxygenPrep.3}"
+				""
+				"{atm9.quest.adAstra.desc.oxygenPrep.4}"
+			]
+			hide_dependency_lines: true
+			icon: "ad_astra:oxygen_loader"
+			id: "20DA5CA244B7ABBF"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76EC8777189BA475"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "4626A1AFEE0EDF3C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "0E3F2AF37FBCE8D4"
+					item: "ad_astra:oxygen_loader"
+					type: "item"
+				}
+				{
+					id: "0DE204C9101E0A72"
+					item: {
+						Count: 1
+						id: "ad_astra:gas_tank"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.adAstra.preparingOxygen}"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D4A85FBCE0015E1"]
+			description: [
+				"{atm9.quest.adAstra.desc.launchPad.1}"
+				""
+				"{atm9.quest.adAstra.desc.launchPad.2}"
+			]
+			hide_dependency_lines: true
+			id: "05B977269171EB06"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F8D50FF991778EE"
+					table_id: 6573526605066559568L
+					type: "loot"
+				}
+				{
+					id: "3910492B757109B4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0DC1EA166270E3B6"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			title: "{atm9.quest.adAstra.launchingIntoSpace}"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A279B011D09A9EE"]
+			description: [
+				"{atm9.quest.adAstra.desc.newSpaceSuit.1}"
+				""
+				"{atm9.quest.adAstra.desc.newSpaceSuit.2}"
+				""
+				"{atm9.quest.adAstra.desc.newSpaceSuit.3}"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_3_rocket"
+				tag: { }
+			}
+			id: "7CA42B3CA84A21B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "456C9F69DC6AEADD"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "5B18D55E86CC7E76"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "6D967595A1292808"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "259215BDAC3E1596"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A3FB02C57DA9676"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F6D0F499BE3006A"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02455651602809E4"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_3_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.adAstra.gearingUpForTheHeat}"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EE652B280CB5F55"]
+			description: [
+				"{atm9.quest.adAstra.desc.bestSpaceSuit}"
+				""
+				"{atm9.quest.adAstra.desc.bestSpaceSuitFeatures}"
+			]
+			id: "7B2A7B2298DAE8EC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67EB4DBD244D73C2"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "08C7099BC1802925"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "5455B3737ED5982F"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6701DE855E03A3C9"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B8F89563D5AF057"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "204F65AFCF6E7D66"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.adAstra.jetSuit}"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A279B011D09A9EE"]
+			description: [
+				"{atm9.quest.adAstra.desc.cryoFuel.1}"
+				""
+				"{atm9.quest.adAstra.desc.cryoFuel.2}"
+				""
+				"{atm9.quest.adAstra.desc.cryoFuel.3}"
+				""
+				"{atm9.quest.adAstra.desc.cryoFuel.4}"
+			]
+			id: "088D685775ED92EE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "532D16AE1EEA7796"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "542912F98807C223"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "3A719EE7EC22388F"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			title: "{atm9.quest.adAstra.efficientFuel}"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["58452F7D73C30E72"]
+			description: [
+				"{atm9.quest.adAstra.desc.spaceBreathing.1}"
+				""
+				"{atm9.quest.adAstra.desc.spaceBreathing.2}"
+				""
+				"{atm9.quest.adAstra.desc.spaceBreathing.3}"
+			]
+			id: "59ADE76689E381AA"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26602F2CD43D941D"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "79C791780DD1726E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "6F8BB68347B1143C"
+					item: {
+						Count: 1
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "789B41F56AB4EF00"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ad_astra_giselle_addon:space_breathing"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "{atm9.quest.adAstra.dontWantToUseASpaceSuit}"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3017721842588919"]
+			description: [
+				"{atm9.quest.adAstra.desc.oxygenForBases.1}"
+				""
+				"{atm9.quest.adAstra.desc.oxygenForBases.2}"
+				""
+				"{atm9.quest.adAstra.desc.oxygenForBases.3}"
+			]
+			id: "72B3CDA595D08587"
+			tasks: [{
+				id: "51FB59D095E984FD"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			title: "{atm9.quest.adAstra.oxygenForYourBases}"
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "43EF517BA64AA19C"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "63671C4CE146D8C4"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "3F68281087FDC3BE"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "{atm9.chapters.45.title}"
+}

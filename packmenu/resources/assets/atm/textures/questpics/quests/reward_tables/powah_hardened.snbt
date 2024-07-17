@@ -1,0 +1,18 @@
+{
+	id: "047C4C58EC06DBF3"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{ item: "powah:capacitor_basic_large", random_bonus: 2, weight: 10.0f }
+		{ item: "powah:capacitor_hardened", random_bonus: 1, weight: 10.0f }
+		{ item: "powah:dielectric_casing", random_bonus: 1, weight: 10.0f }
+		{ item: "powah:steel_energized", random_bonus: 2, weight: 25.0f }
+		{ item: "powah:energy_cell_hardened" }
+		{ count: 2, item: "powah:energy_cable_hardened", random_bonus: 2, weight: 10.0f }
+		{ item: "powah:energizing_rod_hardened", weight: 5.0f }
+		{ item: "powah:solar_panel_hardened" }
+		{ item: "powah:energized_steel_block" }
+	]
+	title: "Powah: Hardened Loot Reward"
+	use_title: true
+}

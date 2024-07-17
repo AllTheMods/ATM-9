@@ -1,0 +1,21 @@
+{
+	id: "517CB2DAB0515A50"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 2, item: "ae2:certus_quartz_crystal", random_bonus: 2, weight: 4.0f }
+		{ count: 4, item: "ae2:certus_quartz_dust", random_bonus: 4, weight: 5.0f }
+		{ count: 4, item: "ae2:silicon", random_bonus: 4, weight: 3.0f }
+		{ count: 2, item: "ae2:printed_silicon", random_bonus: 1, weight: 2.0f }
+		{ count: 2, item: "ae2:charged_certus_quartz_crystal", weight: 3.0f }
+		{ count: 2, item: "ae2:fluix_crystal", random_bonus: 2, weight: 2.0f }
+		{ item: "ae2:fluix_dust", random_bonus: 2, weight: 2.0f }
+		{ count: 2, item: "ae2:logic_processor", random_bonus: 1, weight: 2.0f }
+		{ item: "ae2:calculation_processor", random_bonus: 1 }
+		{ item: "ae2:engineering_processor" }
+		{ item: "ae2:formation_core" }
+		{ item: "ae2:annihilation_core" }
+	]
+	title: "AE2 Medium Reward Bag"
+	use_title: true
+}

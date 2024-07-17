@@ -1,0 +1,18 @@
+{
+	id: "56D680066FB8D694"
+	loot_size: 1
+	order_index: 50
+	rewards: [
+		{ count: 5, item: "chemlib:hydrogen", random_bonus: 5, weight: 2.0f }
+		{ count: 2, item: "chemlib:lithium", random_bonus: 3 }
+		{ count: 2, item: "chemlib:helium", random_bonus: 3, weight: 0.8f }
+		{ count: 5, item: "chemlib:carbon", random_bonus: 5, weight: 2.0f }
+		{ count: 2, item: "chemlib:nitrogen", random_bonus: 3, weight: 1.5f }
+		{ count: 5, item: "chemlib:oxygen", random_bonus: 5, weight: 2.0f }
+		{ count: 2, item: "chemlib:sodium", random_bonus: 3 }
+		{ count: 2, item: "chemlib:silicon", random_bonus: 3 }
+		{ count: 2, item: "chemlib:potassium", random_bonus: 3 }
+		{ count: 2, item: "chemlib:calcium", random_bonus: 3, weight: 1.5f }
+	]
+	title: "Basic Elements"
+}

@@ -1,0 +1,2309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ludicrous_voltage"
+	group: "1DA67E79B40AB130"
+	icon: "gtceu:nano_processor_mainframe"
+	id: "403105E8F21D82C7"
+	images: [
+		{
+			height: 2.0d
+			image: "gtceu:item/luv_sensor"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			height: 3.0d
+			image: "gtceu:item/luv_emitter"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			height: 2.5d
+			image: "gtceu:item/luv_robot_arm"
+			rotation: 0.0d
+			width: 2.5d
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			height: 3.0d
+			image: "gtceu:item/luv_electric_motor"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			height: 2.5d
+			image: "gtceu:item/luv_battery_hull"
+			rotation: 0.0d
+			width: 2.5d
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			height: 3.0d
+			image: "gtceu:item/luv_solar_panel"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+	order_index: 7
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{atm9.quest.gregtech.desc.luvProgression.1}"]
+			id: "5A658F239928850E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79147347997FB54A"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.makeLuv.1}"
+			tasks: [{
+				id: "476F1B02F1D62A14"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.title.luvProgression}"
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3C31FA990D387437"
+				"22CFDFD1FB8A2298"
+				"1090A47B70EBF704"
+			]
+			description: ["{atm9.quest.gregtech.desc.welcomeQuantumAge.1}"]
+			id: "663DA87FDB10E2B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2161377A64DB9A2B"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.quantumMan.1}"
+			tasks: [{
+				id: "51119998A84A7E62"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.title.stargateZpm}"
+			x: 9.599999999999994d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B1268D75B34A0F6"]
+			description: ["{atm9.quest.gregtech.desc.rhodiumPalladium.1}"]
+			id: "639B1F99D7271C07"
+			rewards: [{
+				count: 8
+				id: "4A791342A1810A48"
+				item: "gtceu:rhodium_dust"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.rhodiumDust.1}"
+			tasks: [{
+				id: "4170FD51FA291A9D"
+				item: "gtceu:rhodium_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.7999999999999998d
+		}
+		{
+			dependencies: ["5A658F239928850E"]
+			description: [
+				"{atm9.quest.gregtech.desc.horsepower.1}"
+				""
+				"{atm9.quest.gregtech.desc.horsepower.2}"
+			]
+			id: "3B1268D75B34A0F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4930FE7B33AB23EC"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.hydrogenPositive}"
+			tasks: [{
+				id: "13AAD2669D7245A4"
+				item: "gtceu:iv_electrolyzer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.7999999999999998d
+		}
+		{
+			dependencies: ["639B1F99D7271C07"]
+			description: ["{atm9.quest.gregtech.desc.lotOfThis.1}"]
+			id: "559DB570A9152259"
+			rewards: [{
+				count: 8
+				id: "431EC8B9F117A50F"
+				item: "gtceu:rhodium_plated_palladium_dust"
+				random_bonus: 16
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "{atm9.quest.gregtech.subt.gotRhodium}"
+			tasks: [{
+				id: "3FC3D1012046855B"
+				item: "gtceu:rhodium_plated_palladium_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63AEFB3C1395BBBA"]
+			description: [
+				"{atm9.quest.gregtech.desc.meetCircuitAssembler.1}"
+				""
+				"{atm9.quest.gregtech.desc.meetCircuitAssembler.2}"
+				""
+				"{atm9.quest.gregtech.desc.meetCircuitAssembler.3}"
+			]
+			id: "41F04EF882EF31E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14969FE33BB51725"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "{atm9.quest.gregtech.subt.finally}"
+			tasks: [{
+				id: "23CB55FBD259329B"
+				item: "gtceu:iv_circuit_assembler"
+				type: "item"
+			}]
+			x: 3.1000000000000014d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"41F04EF882EF31E1"
+				"7382C366A1ABAAE3"
+				"2E7E1278D9796141"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.cheaperEVProcessors.1}"
+				""
+				"{atm9.quest.gregtech.desc.cheaperEVProcessors.2}"
+			]
+			id: "6BE928FE24539D4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04F18F614200315A"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.ev}"
+			tasks: [{
+				id: "446D5648C1805604"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: 4.599999999999994d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"41F04EF882EF31E1"
+				"7382C366A1ABAAE3"
+				"2E7E1278D9796141"
+			]
+			description: ["{atm9.quest.gregtech.desc.cheaperIVTier.1}"]
+			id: "53B44E24BB111D24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11C89FA3387C463D"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.iv}"
+			tasks: [{
+				id: "316FD82605C503D6"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 6.099999999999994d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"41F04EF882EF31E1"
+				"7382C366A1ABAAE3"
+				"2E7E1278D9796141"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.bitCheaperCost.1}"
+				""
+				"{atm9.quest.gregtech.desc.bitCheaperCost.2}"
+			]
+			id: "1090A47B70EBF704"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "112A5E4FC374FFB7"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.luv}"
+			tasks: [{
+				id: "60981C6865145331"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 7.599999999999994d
+			y: 1.5d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.mixHSLA.1}"]
+			id: "3863B33438AB5BBD"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7D0AA5F038DE6B64"
+				item: "gtceu:hsla_steel_dust"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.hslaDust}"
+			tasks: [{
+				id: "064427F3DA197068"
+				item: "gtceu:hsla_steel_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.titaniumCarbideDust.1}"]
+			id: "7353DB3A9820C92F"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "26A7BFC8CF6380AE"
+				item: "gtceu:titanium_carbide_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.highStrengthTitanium}"
+			tasks: [{
+				id: "541D07490AA62BEE"
+				item: "gtceu:titanium_carbide_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.tantalumCarbidePlates.1}"]
+			id: "64E271AA238B131F"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "66D5BE29BEC26BCD"
+				item: "gtceu:tantalum_carbide_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.highStrengthTantalum}"
+			tasks: [{
+				id: "50A6905F7674B30C"
+				item: "gtceu:tantalum_carbide_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3863B33438AB5BBD"
+				"7353DB3A9820C92F"
+				"64E271AA238B131F"
+				"29417616D8F673D5"
+				"17773F43631748A9"
+			]
+			description: ["{atm9.quest.gregtech.desc.completeABS.1}"]
+			icon: "gtceu:alloy_blast_smelter"
+			id: "0E76B7095F12EF62"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57372349099AB133"
+					table_id: 7041264405549027492L
+					type: "loot"
+				}
+				{
+					id: "087A5B7E78409BF0"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{atm9.quest.gregtech.subt.absTime}"
+			tasks: [
+				{
+					id: "59F1C28384FA8C70"
+					item: "gtceu:alloy_blast_smelter"
+					type: "item"
+				}
+				{
+					count: 34L
+					id: "14AFC166DC794710"
+					item: "gtceu:high_temperature_smelting_casing"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "202D3F02A45178E8"
+					item: "gtceu:heat_vent"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "76562FB437F3F5FE"
+					item: "gtceu:hssg_coil_block"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "56A486D09B8B90EC"
+					title: "{atm9.quest.gregtech.observeABS}"
+					type: "custom"
+				}
+			]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"318B71954A49DC27"
+				"277464BE6F96C082"
+			]
+			description: ["{atm9.quest.gregtech.desc.mixedMetalsABS.1}"]
+			id: "29417616D8F673D5"
+			rewards: [
+				{
+					id: "7FF87E90F1EED9E4"
+					item: "gtceu:ingot_casting_mold"
+					type: "item"
+				}
+				{
+					id: "18BFAB4252F8ACE3"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{atm9.quest.gregtech.subt.absGo}"
+			tasks: [{
+				id: "187F7B08BCC7202F"
+				title: "{atm9.quest.gregtech.alloyBlastSmelter}"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["033BF8D12E32A5E5"]
+			description: ["{atm9.quest.gregtech.desc.needRuridit.1}"]
+			id: "1DBF5A76DCDF5E49"
+			rewards: [{
+				count: 4
+				id: "6C7BEEAA28E049DD"
+				item: "gtceu:ruridit_dust"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.badFeeling}"
+			tasks: [{
+				id: "7A12DEBB290BC5C7"
+				item: "gtceu:ruridit_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.rareEarthNeodymium.1}"
+				""
+				"{atm9.quest.gregtech.desc.rareEarthNeodymium.2}"
+			]
+			id: "320A70BC50ED456F"
+			rewards: [{
+				count: 4
+				id: "70AC0D4B6A3862A6"
+				item: "gtceu:rare_earth_dust"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.rareEarth.1}"
+			tasks: [{
+				id: "61DC1EF25489D6CB"
+				item: "gtceu:rare_earth_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.9d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.rareEarthComponent.1}"]
+			id: "5F18FC7AE321677D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29540D538B298E60"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.netherStarNextTier.1}"
+			tasks: [{
+				id: "5E209A6E3B51E69C"
+				item: "gtceu:quantum_star"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["559DB570A9152259"]
+			description: ["{atm9.quest.gregtech.desc.luvTierPlates.1}"]
+			id: "060233F903FAE63B"
+			rewards: [
+				{
+					count: 4
+					id: "0F7349A9D5AA5291"
+					item: "gtceu:rhodium_plated_palladium_plate"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "41D45B86FC3676AF"
+					item: "gtceu:luv_machine_casing"
+					type: "item"
+				}
+			]
+			subtitle: "{atm9.quest.gregtech.subt.luvLanguage.1}"
+			tasks: [
+				{
+					id: "76DF024DC8B203CC"
+					item: "gtceu:rhodium_plated_palladium_plate"
+					type: "item"
+				}
+				{
+					id: "625232DE21728609"
+					item: "gtceu:luv_machine_casing"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.gregtech.title.luvMachineCasing}"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"060233F903FAE63B"
+				"5A658F239928850E"
+			]
+			description: ["{atm9.quest.gregtech.desc.luvMachineProgress.1}"]
+			id: "5DFE866011AB92DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F0B5FBFCF75C1F7"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.luvPunsTired.1}"
+			tasks: [{
+				id: "36E2268117B6B41E"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.title.luvMachineHull}"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"643E6B22C8B376BA"
+				"204EDA5F8B1C7580"
+			]
+			description: ["{atm9.quest.gregtech.desc.upgradeMultiblock.1}"]
+			id: "1DDA5ADA11DF868F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07E1092149AE53C8"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "{atm9.quest.gregtech.subt.luvEnergyHatch.1}"
+			tasks: [{
+				id: "58D5F07484D64D7F"
+				item: "gtceu:luv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 3.0500000000000003d
+			y: -1.75d
+		}
+		{
+			dependencies: ["1DDA5ADA11DF868F"]
+			description: [
+				"{atm9.quest.gregtech.desc.luvEnergyUpgrade.1}"
+				""
+				"{atm9.quest.gregtech.desc.luvEnergyUpgrade.2}"
+			]
+			id: "29CD5C0A253425D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09BEA2A2E1A2FD24"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.luvEnergyHatch4x.1}"
+			tasks: [{
+				id: "7E7EBF9F9D9554EA"
+				item: "gtceu:luv_energy_input_hatch_4a"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["320A70BC50ED456F"]
+			description: ["{atm9.quest.gregtech.desc.samariumProcessing.1}"]
+			id: "32E356FC9E63F63B"
+			rewards: [{
+				count: 4
+				id: "2E566B4313D6D88A"
+				item: "gtceu:samarium_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.samariumSchool.1}"
+			tasks: [{
+				id: "0EE586CF86CCA3F5"
+				item: "gtceu:samarium_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.9d
+		}
+		{
+			dependencies: ["32E356FC9E63F63B"]
+			description: ["{atm9.quest.gregtech.desc.samariumProgress.1}"]
+			id: "1B691393463D3E0E"
+			rewards: [{
+				count: 4
+				id: "20471D846027168C"
+				item: "gtceu:samarium_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.longRodsNice.1}"
+			tasks: [{
+				id: "7CA06E00F92D5C02"
+				item: "gtceu:long_magnetic_samarium_rod"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.9d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.osmiridiumIngot.1}"]
+			id: "1D0B60026346A844"
+			rewards: [{
+				count: 4
+				id: "439099CA0DAE346D"
+				item: "gtceu:osmiridium_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.osmiumOP.1}"
+			tasks: [{
+				id: "45D51E68F9872B1C"
+				item: "gtceu:osmiridium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.4d
+		}
+		{
+			dependencies: ["1D0B60026346A844"]
+			description: ["{atm9.quest.gregtech.desc.osmiridiumProcessing.1}"]
+			id: "32FE0C0475BB45C6"
+			rewards: [{
+				count: 4
+				id: "2E5433B527B89EF3"
+				item: "gtceu:osmiridium_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.osmiridiumFine.1}"
+			tasks: [{
+				id: "6401A6D63A8F755A"
+				item: "gtceu:fine_osmiridium_wire"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.4d
+		}
+		{
+			dependencies: [
+				"1B691393463D3E0E"
+				"32FE0C0475BB45C6"
+			]
+			description: ["{atm9.quest.gregtech.desc.ludicrousVoltageCoil.1}"]
+			id: "643E6B22C8B376BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AB4E6CDB6764C9D"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.ludicrousVoltage.1}"
+			tasks: [{
+				id: "6A55AC6A8A1F7072"
+				item: "gtceu:luv_voltage_coil"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.8000000000000003d
+		}
+		{
+			dependencies: ["5F18FC7AE321677D"]
+			description: ["{atm9.quest.gregtech.desc.emittersSensors.1}"]
+			id: "60175A8E3A67F51C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DC5E3118825022C"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.emittingSensing.1}"
+			tasks: [
+				{
+					id: "0BE844C05500D395"
+					item: "gtceu:iv_emitter"
+					type: "item"
+				}
+				{
+					id: "3E3E8CC4EEE02516"
+					item: "gtceu:iv_sensor"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DBF5A76DCDF5E49"]
+			description: [
+				"{atm9.quest.gregtech.desc.moreGears.1}"
+				""
+				"{atm9.quest.gregtech.desc.moreGears.2}"
+			]
+			id: "0E4C711E77497984"
+			rewards: [{
+				id: "1B2DD9E7F6B80E37"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.gears}"
+			tasks: [{
+				id: "356F520588929825"
+				item: "gtceu:ruridit_gear"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0E4C711E77497984"
+				"60175A8E3A67F51C"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.assemblyLineNecessity.1}"
+				""
+				"{atm9.quest.gregtech.desc.assemblyLineNecessity.2}"
+			]
+			id: "204EDA5F8B1C7580"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D7EB24C3AD1802B"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "gear"
+			subtitle: "{atm9.quest.gregtech.subt.assembleTechers}"
+			tasks: [
+				{
+					id: "6EE1E6A971E6FA62"
+					item: "gtceu:assembly_line"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5FD27BBC68F6B001"
+					item: "gtceu:assembly_line_unit"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2118BCDEC0D5C16F"
+					item: "gtceu:assembly_line_casing"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6A1E43E018DE4910"
+					item: "gtceu:assembly_line_grating"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "3C8DD1B9F789792D"
+					item: "gtceu:solid_machine_casing"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "0DD9F4D69C1FE09D"
+					item: "gtceu:laminated_glass"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "47D1A46BB8B2FD70"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:assembly_line"
+					type: "observation"
+				}
+			]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["785CB375F25F0715"]
+			description: ["{atm9.quest.gregtech.desc.strongCircuitBoard}"]
+			id: "2E7E1278D9796141"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F91F82829E3CB71"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.strongCircuitBoard}"
+			tasks: [{
+				id: "2215AC4CCD8825A7"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 6.099999999999994d
+			y: 3.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.futuristicWafers}"]
+			id: "17671346C7940CA8"
+			rewards: [{
+				count: 2
+				id: "3F3ED676F4B03780"
+				item: "gtceu:qbit_cpu_wafer"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.qubitsCount}"
+			tasks: [{
+				id: "44896397E09AF0C3"
+				item: "gtceu:qbit_cpu_wafer"
+				type: "item"
+			}]
+			x: 4.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17671346C7940CA8"]
+			description: ["{atm9.quest.gregtech.desc.quantumCpus}"]
+			id: "7382C366A1ABAAE3"
+			rewards: [{
+				count: 8
+				id: "55620D76EBBCC4ED"
+				item: "gtceu:qbit_cpu_chip"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.qubitsInGhz}"
+			tasks: [{
+				id: "6F8CC253B37BD449"
+				item: "gtceu:qbit_cpu_chip"
+				type: "item"
+			}]
+			x: 6.099999999999994d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28B1787B61BB214B"]
+			description: ["{atm9.quest.gregtech.desc.nearCompletionCircuitBoard}"]
+			id: "785CB375F25F0715"
+			rewards: [{
+				count: 4
+				id: "09CFF9DBDA10A905"
+				item: "gtceu:fiber_reinforced_circuit_board"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.annealedCopperComeback}"
+			tasks: [{
+				id: "7FBA833C07867BB4"
+				item: "gtceu:fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: 4.599999999999994d
+			y: 3.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.epoxyReinforcement}"]
+			id: "28B1787B61BB214B"
+			rewards: [{
+				count: 4
+				id: "6D7F0EF887FD2E43"
+				item: "gtceu:reinforced_epoxy_resin_plate"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.epoxyUses}"
+			tasks: [{
+				id: "6D01867FAD796433"
+				item: "gtceu:reinforced_epoxy_resin_plate"
+				type: "item"
+			}]
+			x: 3.0999999999999943d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5DFE866011AB92DD"]
+			description: [
+				"{atm9.quest.gregtech.desc.ivTierAdvancement.1}"
+				""
+				"{atm9.quest.gregtech.desc.ivTierAdvancement.2}"
+			]
+			id: "318B71954A49DC27"
+			rewards: [{
+				id: "556D840778A8E3E9"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.scalingUp}"
+			tasks: [{
+				id: "2E2650592A4C3640"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.gregtech.largeMultiblocks}"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08F7825DA7DC2185"]
+			description: [
+				"{atm9.quest.gregtech.desc.wiremillBenefits.1}"
+				""
+				"{atm9.quest.gregtech.desc.wiremillBenefits.2}"
+			]
+			icon: "gtceu:large_wiremill"
+			id: "4B985901F63570C3"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FD202C29BCB0E71"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.makingWires}"
+			tasks: [
+				{
+					id: "7A2FD48B56083951"
+					item: "gtceu:large_wiremill"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "76EF149AF21A4140"
+					item: "gtceu:titanium_gearbox"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "402DF4F80AEF0EB2"
+					item: "gtceu:stress_proof_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "29711CF4D4E5241C"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_wiremill"
+					type: "observation"
+				}
+			]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["139EEACD64B1D85E"]
+			description: ["{atm9.quest.gregtech.desc.largeSolidifyingArray}"]
+			icon: "gtceu:large_solidifier"
+			id: "485117517649336C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B5657D5B5A3B49B"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.solidifyLSA}"
+			tasks: [
+				{
+					id: "241067D7859C74A8"
+					item: "gtceu:large_solidifier"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "522B2AD4D72FCB81"
+					item: "gtceu:steel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 59L
+					id: "53C4089B3E376127"
+					item: "gtceu:watertight_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "578BB941AE6A7856"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_solidifier"
+					type: "observation"
+				}
+			]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["08F7825DA7DC2185"]
+			description: ["{atm9.quest.gregtech.desc.distinctBuses}"]
+			icon: "gtceu:large_extruder"
+			id: "7DF972754C48E22B"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "344BD0F4513E6DB0"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.extrudingSaves}"
+			tasks: [
+				{
+					id: "0372B13F787721C5"
+					item: "gtceu:large_extruder"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0FBCD53FF7B023D6"
+					item: "gtceu:titanium_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 57L
+					id: "7BC651CD9DC1AFF8"
+					item: "gtceu:stress_proof_casing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "28683728989D035D"
+					item: "gtceu:tempered_glass"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "65FE174D4A5F484C"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_extruder"
+					type: "observation"
+				}
+			]
+			x: -5.299999999999997d
+			y: 7.300000000000001d
+		}
+		{
+			dependencies: ["139EEACD64B1D85E"]
+			description: ["{atm9.quest.gregtech.desc.largeExtractionModule}"]
+			icon: "gtceu:large_extractor"
+			id: "492D28D6B81CAEE0"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43855E78807E9739"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.lemMoon}"
+			tasks: [
+				{
+					id: "029A3079D12D31EA"
+					item: "gtceu:large_extractor"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "49A89DB3829416DF"
+					item: "gtceu:steel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 34L
+					id: "5188A9E51A5DEFED"
+					item: "gtceu:watertight_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "0AD65BDFBE16460E"
+					observe_type: 2
+					timer: 0L
+					title: "{atm9.quest.gregtech.observeLEM}"
+					to_observe: "gtceu:large_extractor"
+					type: "observation"
+				}
+			]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["139EEACD64B1D85E"]
+			description: [
+				"{atm9.quest.gregtech.desc.largeFractioningDistillery.1}"
+				""
+				"{atm9.quest.gregtech.desc.largeFractioningDistillery.2}"
+			]
+			icon: "gtceu:large_distillery"
+			id: "6EF5C5FFF6BC26B7"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CAE1E8445FBB766"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.lfd}"
+			tasks: [
+				{
+					id: "42CABC89F5F08F6F"
+					item: "gtceu:large_distillery"
+					type: "item"
+				}
+				{
+					id: "464AD9CFD8203788"
+					item: "gtceu:steel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 43L
+					id: "1C53CCB60AC84139"
+					item: "gtceu:watertight_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "3787DE68318D9E46"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_distillery"
+					type: "observation"
+				}
+			]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["319D3A14D62225BC"]
+			description: ["{atm9.quest.gregtech.desc.cutterEngravingLaser}"]
+			icon: "gtceu:large_cutter"
+			id: "187281092C0BC9CE"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "251BD9461B4009E3"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.wafflesBoules}"
+			tasks: [
+				{
+					id: "723F3F70B3085C91"
+					item: "gtceu:large_cutter"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "63A2BB514441FFD5"
+					item: "gtceu:slicing_blades"
+					type: "item"
+				}
+				{
+					count: 77L
+					id: "0B8CA3FB9A579D7C"
+					item: "gtceu:shock_proof_cutting_casing"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2DC0AF14D7554BD2"
+					item: "gtceu:tempered_glass"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "034EAE3D86F06F1C"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_cutter"
+					type: "observation"
+				}
+			]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["770ED8E5FEC6D59A"]
+			description: ["{atm9.quest.gregtech.desc.multiblockValue}"]
+			id: "0012EC5DDAEB7D5B"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14D6136F6F111DE2"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.beerMaking}"
+			tasks: [
+				{
+					id: "7023A24AD2772ABE"
+					item: "gtceu:large_brewer"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1C5A9587B04A8C78"
+					item: "gtceu:steel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "556735ED4C2142B6"
+					item: "gtceu:molybdenum_disilicide_coil_block"
+					type: "item"
+				}
+				{
+					count: 57L
+					id: "79959D879E80DA5D"
+					item: "gtceu:corrosion_proof_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "2443181D685B5678"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_brewing_vat"
+					type: "observation"
+				}
+			]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08F7825DA7DC2185"]
+			description: ["{atm9.quest.gregtech.desc.advancedMachines}"]
+			icon: "gtceu:large_material_press"
+			id: "78CDA5B4A52FF5D8"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0016E5DBCD2024FB"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.moreBending}"
+			tasks: [
+				{
+					id: "62E7660C2E3DFA7D"
+					item: "gtceu:large_material_press"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6879B4BA418A55E8"
+					item: "gtceu:steel_gearbox"
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "22FF0E716BF51881"
+					item: "gtceu:stress_proof_casing"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "39C69857707C9880"
+					item: "gtceu:tempered_glass"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "2AD013A4D8AC87D9"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_material_press"
+					type: "observation"
+				}
+			]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["139EEACD64B1D85E"]
+			description: ["{atm9.quest.gregtech.desc.largeAutoclave}"]
+			icon: "gtceu:large_autoclave"
+			id: "04636DE704AD7B0B"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E35B6EB3F0886C5"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.crystalsLCC}"
+			tasks: [
+				{
+					id: "1119B6F3558FD6AA"
+					item: "gtceu:large_autoclave"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7FF5AD0C636DF0BF"
+					item: "gtceu:steel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 34L
+					id: "0E451120C9F40C21"
+					item: "gtceu:watertight_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "553C54B8B3A652D0"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_autoclave"
+					type: "observation"
+				}
+			]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["759446116655756C"]
+			description: ["{atm9.quest.gregtech.desc.siftingMultiblock}"]
+			icon: "gtceu:large_sifting_funnel"
+			id: "546100C879F45BB1"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EA6D37A1F6CB192"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.manualSifting}"
+			tasks: [
+				{
+					id: "2B7B0941F811CE7C"
+					item: "gtceu:large_sifting_funnel"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "431F59FE171503E6"
+					item: "gtceu:assembly_line_grating"
+					type: "item"
+				}
+				{
+					count: 63L
+					id: "418B079E39A4B88E"
+					item: "gtceu:vibration_safe_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "4A61569B7AAD6AD0"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_sifting_funnel"
+					type: "observation"
+				}
+			]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["743B72CC181776EC"]
+			description: ["{atm9.quest.gregtech.desc.engravingLaserMultiblock}"]
+			icon: "gtceu:large_engraving_laser"
+			id: "34EE220F1C2AC5EF"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D3D867707A80C8E"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.vitalComponents}"
+			tasks: [
+				{
+					id: "79D63027D6EDABE8"
+					item: "gtceu:large_engraving_laser"
+					type: "item"
+				}
+				{
+					id: "1F629BDA2AF0EBDC"
+					item: "gtceu:tungstensteel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1CDB24C7B444C15B"
+					item: "gtceu:assembly_line_grating"
+					type: "item"
+				}
+				{
+					count: 60L
+					id: "50CC97A964D954BE"
+					item: "gtceu:laser_safe_engraving_casing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4D7D9FFB85E894E0"
+					item: "gtceu:tempered_glass"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "7FF2A7C18321D982"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_engraving_laser"
+					type: "observation"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1FFAF26888F6EF00"]
+			description: [
+				"{atm9.quest.gregtech.desc.largeArcFurnace.1}"
+				""
+				"{atm9.quest.gregtech.desc.largeArcFurnace.2}"
+			]
+			id: "22DB72BE40115A95"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32E44D4235EBDDF3"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.lafOften}"
+			tasks: [
+				{
+					id: "7549BEB353239BC2"
+					item: "gtceu:large_arc_smelter"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "1A857CFB532243F0"
+					item: "gtceu:molybdenum_disilicide_coil_block"
+					type: "item"
+				}
+				{
+					count: 57L
+					icon: "gtceu:high_temperature_smelting_casing"
+					id: "355F08CEAAEA6041"
+					item: "gtceu:high_temperature_smelting_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "7DBA7C0AEABAAC3A"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_arc_smelter"
+					type: "observation"
+				}
+			]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34C931DFFBF608DB"]
+			description: [
+				"{atm9.quest.gregtech.desc.circuitAssembler.1}"
+				""
+				"{atm9.quest.gregtech.desc.circuitAssembler.2}"
+			]
+			icon: "gtceu:large_circuit_assembler"
+			id: "1569CD190336F5F6"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6947D93226AA4BD1"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.assemblerCircuits}"
+			tasks: [
+				{
+					id: "66142EA734C105C0"
+					item: "gtceu:large_circuit_assembler"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "1D8BF7C96D34DF03"
+					item: "gtceu:tungstensteel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "68170402DEC73571"
+					item: "gtceu:assembly_line_grating"
+					type: "item"
+				}
+				{
+					count: 59L
+					id: "13CB21B21BA29CE7"
+					item: "gtceu:large_scale_assembler_casing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4D767C20DB7BA129"
+					item: "gtceu:tempered_glass"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "51A72B7982E04028"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_circuit_assembler"
+					type: "observation"
+				}
+			]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["34C931DFFBF608DB"]
+			description: [
+				"{atm9.quest.gregtech.desc.notAssemblyLine.1}"
+				""
+				"{atm9.quest.gregtech.desc.notAssemblyLine.2}"
+			]
+			icon: "gtceu:large_assembler"
+			id: "6EF6D11ABBA34AE3"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C18C95E525D2FEC"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.notAssemblyLine}"
+			tasks: [
+				{
+					id: "182A995A2776FE47"
+					item: "gtceu:large_assembler"
+					type: "item"
+				}
+				{
+					count: 56L
+					id: "3A10BD8B5BA27C93"
+					item: "gtceu:large_scale_assembler_casing"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "33D47D6BBBE88931"
+					item: "gtceu:tempered_glass"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "763B8BD528C50FF3"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_assembler"
+					type: "observation"
+				}
+			]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7759519157B8C1D8"]
+			description: [
+				"{atm9.quest.gregtech.desc.magneticRods.1}"
+				""
+				"{atm9.quest.gregtech.desc.magneticRods.2}"
+			]
+			icon: "gtceu:large_electromagnet"
+			id: "322FD8BB46FB653C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CCC7BA4944FD618"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.zapBrannigan}"
+			tasks: [
+				{
+					id: "410E8B1ABF39CC67"
+					item: "gtceu:large_electromagnet"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "3CF6A2840DB20838"
+					item: "gtceu:electrolytic_cell"
+					type: "item"
+				}
+				{
+					count: 42L
+					id: "3B05544795F322D8"
+					item: "gtceu:nonconducting_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "7704DFBEFF3F4BFC"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_electromagnet"
+					type: "observation"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7759519157B8C1D8"]
+			description: [
+				"{atm9.quest.gregtech.desc.electrolyzersImportance.1}"
+				""
+				"{atm9.quest.gregtech.desc.electrolyzersImportance.2}"
+			]
+			icon: "gtceu:large_electrolyzer"
+			id: "76ECB0EF7A5E410A"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "558FDB8C0435C040"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.waterFuel}"
+			tasks: [
+				{
+					id: "38750C7764B43A29"
+					item: "gtceu:large_electrolyzer"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "679D59E0B8158189"
+					item: "gtceu:electrolytic_cell"
+					type: "item"
+				}
+				{
+					count: 40L
+					id: "6842FE133676D4B2"
+					item: "gtceu:nonconducting_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "7FC8BBB169091341"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_electrolyzer"
+					type: "observation"
+				}
+			]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["54EB576C8EAF2C28"]
+			description: ["{atm9.quest.gregtech.desc.mixingVesselImportance}"]
+			icon: "gtceu:large_mixer"
+			id: "7FA79ED5DABCF998"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A1E4769DC3CB448"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.mixItUp}"
+			tasks: [
+				{
+					id: "3DDB66CB95EDE62F"
+					item: "gtceu:large_mixer"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "59358B79A41D180D"
+					item: "gtceu:hastelloy_x_frame"
+					type: "item"
+				}
+				{
+					count: 11L
+					id: "4E81DDC65FBB6940"
+					item: "gtceu:titanium_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1244F888FB22A2A9"
+					item: "gtceu:stainless_steel_gearbox"
+					type: "item"
+				}
+				{
+					count: 61L
+					id: "6B25E62D8D304840"
+					item: "gtceu:reaction_safe_mixing_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "1E34B345EFB46198"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_mixer"
+					type: "observation"
+				}
+			]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["759446116655756C"]
+			description: ["{atm9.quest.gregtech.desc.centrifugeBlurb}"]
+			icon: "gtceu:large_centrifuge"
+			id: "29BDF6CA8FAAC390"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52160CE42D2DADB8"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.spinMeRound}"
+			tasks: [
+				{
+					id: "6D65DA04F1F90458"
+					item: "gtceu:large_centrifuge"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4B97B5B52F60E21F"
+					item: "gtceu:steel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "4FC20F9228321721"
+					item: "gtceu:vibration_safe_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "040583DD9EFA80F1"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_centrifuge"
+					type: "observation"
+				}
+			]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["139EEACD64B1D85E"]
+			description: ["{atm9.quest.gregtech.desc.largeChemicalBathBenefits}"]
+			icon: "gtceu:large_chemical_bath"
+			id: "63BFEE8B17688712"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DD88B907737B25F"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.downWithLCB}"
+			tasks: [
+				{
+					id: "07CB2FB669EFE509"
+					item: "gtceu:large_chemical_bath"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "1CD649A3D234CBA6"
+					item: "gtceu:titanium_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 67L
+					id: "4CABA61128AD6C68"
+					item: "gtceu:watertight_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "04CFF2F4E5B3813B"
+					observe_type: 0
+					timer: 0L
+					title: "{atm9.quest.gregtech.title.completedLCB}"
+					to_observe: "gtceu:large_chemical_bath"
+					type: "observation"
+				}
+			]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["308D5AC7562E09BA"]
+			description: [
+				"{atm9.quest.gregtech.desc.macerationTowerImportance.1}"
+				""
+				"{atm9.quest.gregtech.desc.macerationTowerImportance.2}"
+			]
+			icon: "gtceu:large_maceration_tower"
+			id: "04291652780AEE72"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0217B37F44945B26"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.macerationTower}"
+			tasks: [
+				{
+					id: "57DC7ED33ADEEA34"
+					item: "gtceu:large_maceration_tower"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "3BD0D835AA33C477"
+					item: "gtceu:crushing_wheels"
+					type: "item"
+				}
+				{
+					count: 67L
+					id: "1B9514566B6706ED"
+					item: "gtceu:secure_maceration_casing"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "2D6FC8CBB63E060C"
+					observe_type: 0
+					timer: 0L
+					to_observe: "gtceu:large_maceration_tower"
+					type: "observation"
+				}
+			]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29417616D8F673D5"]
+			description: [
+				"{atm9.quest.gregtech.desc.zeron100Properties.1}"
+				""
+				"{atm9.quest.gregtech.desc.zeron100Properties.2}"
+				""
+				"{atm9.quest.gregtech.desc.zeron100Properties.3}"
+			]
+			id: "308D5AC7562E09BA"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "3410C1F18E09A290"
+				item: "gtceu:zeron_100_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.resistantSteel}"
+			tasks: [{
+				id: "0E5A6D219CCE742F"
+				item: "gtceu:zeron_100_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29417616D8F673D5"]
+			description: ["{atm9.quest.gregtech.desc.watertightSteel}"]
+			id: "139EEACD64B1D85E"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "76C4F58DEFABCACC"
+				item: "gtceu:watertight_steel_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.isSteelWatertight}"
+			tasks: [{
+				id: "24205B9C9DE63B39"
+				item: "gtceu:watertight_steel_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["29417616D8F673D5"]
+			description: [
+				"{atm9.quest.gregtech.desc.incoloyAdvantages.1}"
+				""
+				"{atm9.quest.gregtech.desc.incoloyAdvantages.2}"
+			]
+			id: "759446116655756C"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "62A787EC4A9E9378"
+				item: "gtceu:incoloy_ma_956_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.superSteel}"
+			tasks: [{
+				id: "741F54CBB037D211"
+				item: "gtceu:incoloy_ma_956_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["29417616D8F673D5"]
+			description: ["{atm9.quest.gregtech.desc.hastelloyXProperties}"]
+			id: "54EB576C8EAF2C28"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "192EB3E5791306C6"
+				item: "gtceu:hastelloy_x_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.wroughtNickel}"
+			tasks: [{
+				id: "2433F601D6375EA3"
+				item: "gtceu:hastelloy_x_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["29417616D8F673D5"]
+			description: [
+				"{atm9.quest.gregtech.desc.hslaProperties.1}"
+				""
+				"{atm9.quest.gregtech.desc.hslaProperties.2}"
+			]
+			id: "7759519157B8C1D8"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "4062C4052794EE59"
+				item: "gtceu:hsla_steel_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.antiAcidicSteel}"
+			tasks: [{
+				id: "29602A66206D9EFF"
+				item: "gtceu:hsla_steel_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["29417616D8F673D5"]
+			description: [
+				"{atm9.quest.gregtech.desc.stelliteAlloys.1}"
+				""
+				"{atm9.quest.gregtech.desc.stelliteAlloys.2}"
+			]
+			id: "34C931DFFBF608DB"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "769407941E855F73"
+				item: "gtceu:stellite_100_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.carbonatedSteel}"
+			tasks: [{
+				id: "63A80C7EE9F59B2B"
+				item: "gtceu:stellite_100_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1F0A68DFAA19D5C7"]
+			description: [
+				"{atm9.quest.gregtech.desc.largeArcFurnaceCasings.1}"
+				""
+				"{atm9.quest.gregtech.desc.largeArcFurnaceCasings.2}"
+			]
+			id: "1FFAF26888F6EF00"
+			optional: true
+			rewards: [{
+				id: "5E53D6F685D719FA"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.highTempCasings}"
+			tasks: [{
+				id: "7AC6AD6D60E7AFA4"
+				item: "gtceu:high_temperature_smelting_casing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29417616D8F673D5"]
+			description: ["{atm9.quest.gregtech.desc.titaniumTungstenCarbide}"]
+			id: "743B72CC181776EC"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "5AE6A407D72B0437"
+				item: "gtceu:titanium_tungsten_carbide_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.highDurabilityAlloys}"
+			tasks: [{
+				id: "3A321EC2A283C517"
+				item: "gtceu:titanium_tungsten_carbide_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29417616D8F673D5"]
+			description: [
+				"{atm9.quest.gregtech.desc.hastelloyC276Properties.1}"
+				""
+				"{atm9.quest.gregtech.desc.hastelloyC276Properties.2}"
+				""
+				"{atm9.quest.gregtech.desc.hastelloyC276Properties.3}"
+			]
+			id: "319D3A14D62225BC"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "2BCA926CC045B21D"
+				item: "gtceu:hastelloy_c_276_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.crazyCorrosionResistance}"
+			tasks: [{
+				id: "4712FB4684E4F6D5"
+				item: "gtceu:hastelloy_c_276_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["29417616D8F673D5"]
+			description: [
+				"{atm9.quest.gregtech.desc.maragingSteels.1}"
+				""
+				"{atm9.quest.gregtech.desc.maragingSteels.2}"
+			]
+			id: "08F7825DA7DC2185"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "495ED7059EF67648"
+				item: "gtceu:maraging_steel_300_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.stronks}"
+			tasks: [{
+				id: "3824062A512AEC3B"
+				item: "gtceu:maraging_steel_300_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["318B71954A49DC27"]
+			description: ["{atm9.quest.gregtech.desc.nonABSMultiblocks}"]
+			id: "1F0A68DFAA19D5C7"
+			rewards: [{
+				id: "5098774880A4B08C"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.skiddingWithoutABS}"
+			tasks: [{
+				id: "1CAC89F6DFC2AB72"
+				title: "{atm9.quest.gregtech.title.nonABSMultiblocks}"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F0A68DFAA19D5C7"]
+			description: ["{atm9.quest.gregtech.desc.largeBrewingVat}"]
+			id: "770ED8E5FEC6D59A"
+			optional: true
+			rewards: [{
+				id: "2355B9C0BBBF7968"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.corrosiveMaterials}"
+			tasks: [{
+				id: "02BA45719C5BC676"
+				item: "gtceu:corrosion_proof_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["318B71954A49DC27"]
+			description: [
+				"{atm9.quest.gregtech.desc.reorganizingGTSetup.1}"
+				""
+				"{atm9.quest.gregtech.desc.reorganizingGTSetup.2}"
+				""
+				"{atm9.quest.gregtech.desc.reorganizingGTSetup.3}"
+			]
+			id: "63AEFB3C1395BBBA"
+			rewards: [{
+				id: "7A979041674A1650"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.hoarder}"
+			tasks: [{
+				id: "1A89CC99F53A629F"
+				title: "{atm9.quest.gregtech.reOrganization}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["318B71954A49DC27"]
+			description: [
+				"{atm9.quest.gregtech.desc.parallelHatches.1}"
+				""
+				"{atm9.quest.gregtech.desc.parallelHatches.2}"
+				""
+				"{atm9.quest.gregtech.desc.parallelHatches.3}"
+				""
+				"{atm9.quest.gregtech.desc.parallelHatches.4}"
+			]
+			id: "277464BE6F96C082"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57A5BD8F05566446"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.parallelProcesses}"
+			tasks: [{
+				id: "77B98AEED48C79ED"
+				item: "gtceu:iv_parallel_hatch"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.molybdenumDisilicide.1}"
+				""
+				"{atm9.quest.gregtech.desc.molybdenumDisilicide.2}"
+			]
+			id: "17773F43631748A9"
+			rewards: [{
+				count: 4
+				id: "43053B3B07F5E09E"
+				item: "gtceu:molybdenum_disilicide_dust"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.molybdenumDisilicide}"
+			tasks: [{
+				id: "2265F0C34D77C253"
+				item: "gtceu:molybdenum_disilicide_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A658F239928850E"]
+			description: ["{atm9.quest.gregtech.desc.mixingRuthenium}"]
+			hide_dependency_lines: true
+			id: "033BF8D12E32A5E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4965B994720787A2"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.allMixedUp}"
+			tasks: [{
+				id: "633D4D70BEFCEE0C"
+				item: "gtceu:iv_mixer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "0C47BAAF366EB5B1"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "356D37D6791EC945"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "7FCBEBD1FC163C44"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -9.5d
+			y: 0.0d
+		}
+	]
+	title: "{atm9.chapters.32.title}"
+}

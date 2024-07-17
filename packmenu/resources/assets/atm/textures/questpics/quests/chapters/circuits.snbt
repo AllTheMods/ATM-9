@@ -1,0 +1,1073 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "circuits"
+	group: "1DA67E79B40AB130"
+	id: "560EF4C38DEACA03"
+	order_index: 12
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "67C9D2712EA1F637"
+			tasks: [{
+				id: "0FC66405B9208574"
+				item: "gtceu:ulv_machine_hull"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.ulvTier}"
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			disable_toast: true
+			id: "35A014F1B4506CCA"
+			tasks: [{
+				id: "00578428C2997F33"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.lvTier}"
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			disable_toast: true
+			id: "68B46D9369D9809B"
+			tasks: [{
+				id: "05A3B1FD9924D4F1"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.mvTier}"
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			disable_toast: true
+			id: "288DFEBCEFC6EEC6"
+			tasks: [{
+				id: "25FD45A2C8EF9157"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.hvTier}"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			disable_toast: true
+			id: "423B9571668C3953"
+			tasks: [{
+				id: "0A3DCB4AD3723536"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.evTier}"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			disable_toast: true
+			id: "44454B2637069C9F"
+			tasks: [{
+				id: "61F5E8CF3007D7DF"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.ivTier}"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			disable_toast: true
+			id: "19B70E2F329AED83"
+			tasks: [{
+				id: "677F6463BA3B1C57"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.luvTier}"
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			disable_toast: true
+			id: "204D670BDAB0496A"
+			tasks: [{
+				id: "7F2217B9D3E2FB96"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.zpmTier}"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			disable_toast: true
+			id: "1828A4A9FE5EE87F"
+			tasks: [{
+				id: "351D916C6D504942"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.uvTier}"
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			disable_toast: true
+			id: "7E8C36302FDD93C8"
+			tasks: [{
+				id: "69AE710C299A7754"
+				item: "gtceu:uhv_machine_hull"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.uhvTier}"
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			disable_toast: true
+			id: "370457654E99F06E"
+			tasks: [{
+				id: "266D346A7661240C"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			disable_toast: true
+			id: "3054C2EE03C6A808"
+			tasks: [{
+				id: "57256C4A1C4B9A92"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["370457654E99F06E"]
+			disable_toast: true
+			id: "43FF6706DA734CCB"
+			tasks: [{
+				id: "43E7B13CC7CF2D55"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["43FF6706DA734CCB"]
+			disable_toast: true
+			id: "74841E82E82522BC"
+			tasks: [{
+				id: "1610E0BD144606B9"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			disable_toast: true
+			id: "237F09283F60E319"
+			tasks: [{
+				id: "18E6C0E2F1CAB6FB"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["237F09283F60E319"]
+			disable_toast: true
+			id: "0CA6344F1A4514BE"
+			tasks: [{
+				id: "116DBA468508D2F4"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0CA6344F1A4514BE"]
+			disable_toast: true
+			id: "7D563D47D0A9FE64"
+			tasks: [{
+				id: "4C785A1C3EE06C88"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			disable_toast: true
+			id: "0A73BB97755CFC45"
+			tasks: [{
+				id: "156D59C67732F155"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			disable_toast: true
+			id: "4B40D39B0CEC9D85"
+			tasks: [{
+				id: "37F01316CD043FF5"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4B40D39B0CEC9D85"]
+			disable_toast: true
+			id: "3A6EC5903B620549"
+			tasks: [{
+				id: "6A956C371D74BF60"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3A6EC5903B620549"]
+			disable_toast: true
+			id: "0B0A1657FAB2F27F"
+			tasks: [{
+				id: "6600B262526220E4"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0B0A1657FAB2F27F"]
+			disable_toast: true
+			id: "35FF52379AC802F8"
+			tasks: [{
+				id: "0F78C211E200CDAE"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			id: "7F4B8E279A9B042A"
+			tasks: [{
+				id: "69F4602F644528C7"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F4B8E279A9B042A"]
+			disable_toast: true
+			id: "3BB333BE6C087472"
+			tasks: [{
+				id: "621FA365B700E157"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BB333BE6C087472"]
+			disable_toast: true
+			id: "6FCDB6DC3116410C"
+			tasks: [{
+				id: "449E286FAE4B7C4C"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6FCDB6DC3116410C"]
+			disable_toast: true
+			id: "6EF00359D597EA15"
+			tasks: [{
+				id: "2C7A195E6D332091"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			disable_toast: true
+			id: "3C31FA990D387437"
+			tasks: [{
+				id: "736FFE305F69BE59"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C31FA990D387437"]
+			disable_toast: true
+			id: "396D2F4ACC475C80"
+			tasks: [{
+				id: "2F1C0959E3D12B93"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["396D2F4ACC475C80"]
+			disable_toast: true
+			id: "22CFDFD1FB8A2298"
+			tasks: [{
+				id: "3E4E56877891C389"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22CFDFD1FB8A2298"]
+			disable_toast: true
+			id: "6F17FA543C36A520"
+			tasks: [{
+				id: "386BE1E124A5E01A"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "73D0E6F7A59B873F"
+			tasks: [{
+				id: "34341D545F7FD49D"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["73D0E6F7A59B873F"]
+			disable_toast: true
+			id: "098C64EC6DE06AF1"
+			tasks: [{
+				id: "030057C4C8583879"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["098C64EC6DE06AF1"]
+			disable_toast: true
+			id: "16C3295B64CA4522"
+			tasks: [{
+				id: "72A8205F1198225D"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["16C3295B64CA4522"]
+			disable_toast: true
+			id: "233FEC2426765665"
+			tasks: [{
+				id: "03D7ED864ADBCC99"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "507F0902EE5E1F53"
+			tasks: [{
+				id: "11A07BC0B1166C2E"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["507F0902EE5E1F53"]
+			disable_toast: true
+			id: "40FCF122AB900473"
+			tasks: [{
+				id: "46D5998D9BD7DA16"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40FCF122AB900473"]
+			disable_toast: true
+			id: "5DA2D177CCD90B18"
+			tasks: [{
+				id: "5B69360D91D7C031"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5DA2D177CCD90B18"]
+			disable_toast: true
+			id: "620E6D375642DCC6"
+			tasks: [{
+				id: "77DAE0F918CC4D69"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			icon: "gtceu:lv_machine_hull"
+			id: "305696A8BCB74EB0"
+			tasks: [{
+				id: "275B8F5632BFF89A"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.lowVoltageAge}"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			icon: "gtceu:mv_machine_hull"
+			id: "55328778D7078E24"
+			tasks: [{
+				icon: "gtceu:good_electronic_circuit"
+				id: "4624DD134711376F"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.mediumVoltageAge}"
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			icon: "gtceu:hv_machine_hull"
+			id: "41752862D7B29F80"
+			tasks: [{
+				id: "585CB0E673D06E18"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.highVoltageAge}"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:ev_machine_hull"
+			id: "560D95D4C404A164"
+			tasks: [{
+				id: "689FFDF13C2B0B46"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.extremeVoltageAge}"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:iv_machine_hull"
+			id: "58F378384CEFCEF2"
+			tasks: [{
+				id: "6C0998ACE20654A7"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.insaneVoltageAge}"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:luv_machine_hull"
+			id: "7A22F294077F6520"
+			tasks: [{
+				id: "4E25CCE778755753"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.ludicrousVoltageAge}"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:zpm_machine_hull"
+			id: "09C7343DCCD5157E"
+			tasks: [{
+				id: "19F80003BE37DAEF"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.zeroPointModuleAge}"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:uv_machine_hull"
+			id: "0416C489903BCFFF"
+			tasks: [{
+				id: "2A88438324065C64"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.ultimateVoltageAge}"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:uhv_machine_hull"
+			id: "49E5EB071E740C87"
+			tasks: [{
+				id: "714E6FAD60BAC742"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.ultraHighVoltageAge}"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "56D15505F80043D8"
+			tasks: [{
+				id: "47BA825EA97ECE84"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "7C7B1FAA523F19F2"
+			tasks: [{
+				icon: "alltheores:bronze_ingot"
+				id: "0E28075B4E87FE2E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/bronze"
+					}
+				}
+				title: "{atm9.quest.gregtech.bronzeIngot}"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "1EB73508673AD0EC"
+			tasks: [{
+				icon: "alltheores:steel_ingot"
+				id: "740E35A5781E43A7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "{atm9.quest.gregtech.steelIngot}"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "3A837FB9E8BE00D3"
+			tasks: [{
+				icon: "gtceu:aluminium_ingot"
+				id: "15DC25BCFCE78DE2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/aluminum"
+					}
+				}
+				title: "{atm9.quest.gregtech.aluminiumIngot}"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "2442DF6C3D81962E"
+			tasks: [{
+				icon: "gtceu:gallium_ingot"
+				id: "1CC0983CB7DBE526"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/gallium"
+					}
+				}
+				title: "{atm9.quest.gregtech.galliumIngot}"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "787E4ADFB77F5766"
+			tasks: [{
+				id: "720978F39AA618C6"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "725250A1C6A1CA5A"
+			tasks: [{
+				id: "34B88D742105A68C"
+				item: "gtceu:lv_sodium_battery"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "475AEFDB5F1A1E14"
+			tasks: [{
+				id: "59E34DB346D0188E"
+				item: "gtceu:mv_sodium_battery"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "569B2585CA9E8C5F"
+			tasks: [{
+				id: "7BEB4A258BB8C759"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:energy_crystal"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_sodium_battery"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.gregtech.hvBattery}"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["787E4ADFB77F5766"]
+			disable_toast: true
+			id: "53C2CC669C4AFD50"
+			tasks: [{
+				id: "59A039053AB7E8A3"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53C2CC669C4AFD50"]
+			disable_toast: true
+			id: "67ACFC4FB22FC85C"
+			tasks: [{
+				id: "0AFDD145E16F443F"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["67ACFC4FB22FC85C"]
+			disable_toast: true
+			id: "3F591BADFF8585FE"
+			tasks: [{
+				id: "3371F13082C01141"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3F591BADFF8585FE"]
+			disable_toast: true
+			id: "6EA6824479C8F61A"
+			tasks: [{
+				id: "5EC64D6A271D48EE"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6EA6824479C8F61A"]
+			disable_toast: true
+			id: "30F662E3FBB5C20F"
+			tasks: [{
+				id: "138209C493410D49"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["30F662E3FBB5C20F"]
+			disable_toast: true
+			id: "5ECB2E614051CC8F"
+			tasks: [{
+				id: "3A435ACB914B9050"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5ECB2E614051CC8F"]
+			disable_toast: true
+			id: "07A4F8681CCBD0B6"
+			tasks: [{
+				id: "004CAF4EA2CAD754"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "7F06F3B30451DFEC"
+			tasks: [{
+				id: "4C19BE1F6BE4376B"
+				item: "gtceu:lapotron_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7F06F3B30451DFEC"]
+			disable_toast: true
+			id: "08DE4AABDFBB304A"
+			tasks: [{
+				id: "16D398FF3C5A3774"
+				item: "gtceu:lapotronic_energy_orb"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["08DE4AABDFBB304A"]
+			disable_toast: true
+			id: "05CA2C1068B49DD7"
+			tasks: [{
+				id: "5B0DE680ED5DA77C"
+				item: "gtceu:lapotronic_energy_orb_cluster"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["283528F3A6FAB5FC"]
+			disable_toast: true
+			id: "5A8B03FAA0B75BA4"
+			tasks: [{
+				id: "1AEA96E7FC587592"
+				item: "gtceu:max_battery"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["05CA2C1068B49DD7"]
+			disable_toast: true
+			id: "2441D37240E87818"
+			tasks: [{
+				id: "4359AF6297455DF6"
+				item: "gtceu:energy_module"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2441D37240E87818"]
+			disable_toast: true
+			id: "283528F3A6FAB5FC"
+			tasks: [{
+				id: "2D4A510F5C8CA52F"
+				item: "gtceu:energy_cluster"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "2C3815F9194AC1D5"
+			tasks: [{
+				id: "1ABDFF521F7303A8"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "168510D25E3A0E88"
+			tasks: [{
+				icon: "gtceu:titanium_ingot"
+				id: "0B298C73448F3DA6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/titanium"
+					}
+				}
+				title: "{atm9.quest.gregtech.titaniumIngot}"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "31F55263F748A65F"
+			tasks: [{
+				icon: "alltheores:platinum_ingot"
+				id: "282B4264413EFB2D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/platinum"
+					}
+				}
+				title: "{atm9.quest.gregtech.platinumIngot}"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "3E392C5BDB907F23"
+			tasks: [{
+				id: "43C2BBEC648D64FA"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "7FDCD92EC9F916BE"
+			tasks: [{
+				id: "340279EB93DFB48A"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "4A012874313141DC"
+			tasks: [{
+				id: "796EA04E4CC866A4"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "26E0BBE6C184CFEC"
+			tasks: [{
+				id: "27625A6D550DAC67"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "3173C8C998E6FD34"
+			tasks: [{
+				id: "250BD4D4E44C0AA8"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "41B376AFE2564807"
+			tasks: [{
+				icon: "gtceu:tungsten_ingot"
+				id: "2D9B8AF6C76D9CEA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/tungsten"
+					}
+				}
+				title: "{atm9.quest.gregtech.tungstenIngot}"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.voltageTierColumn}"
+				""
+				"{atm9.quest.gregtech.desc.voltageTierRow}"
+				""
+				"{atm9.quest.gregtech.desc.extraInfo}"
+			]
+			id: "4B7E8D7D89977348"
+			rewards: [{
+				id: "782D1FEC526B76B6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "47D34EA29A06AACD"
+				title: "{atm9.quest.gregtech.understandingThisPage}"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			id: "51A567FB870F026E"
+			tasks: [{
+				id: "1DFBD8CE51BA2410"
+				item: "gtceu:bronze_machine_casing"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.steamAge}"
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "637606D689F33BB3"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "3ECFB6986CC0B99C"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "34DB149196F82789"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 4.5d
+		}
+	]
+	title: "{atm9.chapters.37.title}"
+}

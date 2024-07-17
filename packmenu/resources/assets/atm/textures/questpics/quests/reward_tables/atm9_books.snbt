@@ -1,0 +1,170 @@
+{
+	icon: "minecraft:writable_book"
+	id: "70D842795EE8DF77"
+	loot_size: 1
+	order_index: 68
+	rewards: [
+		{ item: "solcarrot:food_book" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "naturesaura:book"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "productivebees:guide"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "modonomicon:modonomicon"
+				tag: {
+					"modonomicon:book_id": "modonomicon:demo"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "bigreactors:erguide"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "industrialforegoing:industrial_foregoing"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+		}
+		{ item: "blue_skies:blue_journal" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "caupona:book"
+				}
+			}
+		}
+		{ item: "botania:lexicon" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "mysticalagriculture:guide"
+				}
+			}
+		}
+		{ item: "evilcraft:origins_of_darkness" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "modularrouters:book"
+				}
+			}
+		}
+		{ item: "integrateddynamics:on_the_dynamics_of_integration" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "pneumaticcraft:book"
+				}
+			}
+		}
+		{ item: "ars_nouveau:worn_notebook" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "laserio:laseriobook"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "ad_astra:astrodux"
+				}
+			}
+		}
+		{ item: "mahoutsukai:guidebook" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "alchemistry:alchemistry_book"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "railcraft:guide_book"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "sushigocrafting:sushigocrafting"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "productivetrees:guide"
+				}
+			}
+		}
+		{ item: "powah:book" }
+		{
+			item: {
+				Count: 1
+				id: "modonomicon:modonomicon"
+				tag: {
+					"modonomicon:book_id": "theurgy:the_hermetica"
+				}
+			}
+		}
+	]
+	title: "ATM9 Books"
+}

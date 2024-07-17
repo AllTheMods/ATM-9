@@ -1,0 +1,113 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "rare_loot_chest"
+		}
+	}
+	id: "4D37FFAF33DF678A"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 5s
+					}]
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 5s
+					}]
+				}
+			}
+			weight: 3.0f
+		}
+		{ item: "productivebees:upgrade_productivity", random_bonus: 2, weight: 2.0f }
+		{ item: "minecraft:dragon_egg", weight: 2.0f }
+		{ item: "minecraft:dragon_head" }
+		{ item: "artifacts:vampiric_glove", weight: 2.0f }
+		{ item: "artifacts:umbrella" }
+		{ item: "artifacts:night_vision_goggles", weight: 2.0f }
+		{ item: "artifacts:golden_hook", weight: 2.0f }
+		{ item: "artifacts:crystal_heart", weight: 2.0f }
+		{ item: "ironfurnaces:diamond_furnace", weight: 3.0f }
+		{ item: "ironfurnaces:emerald_furnace" }
+		{ item: "alltheores:enderium_ingot", random_bonus: 3, weight: 5.0f }
+		{ count: 8, item: "fluxnetworks:flux_dust", random_bonus: 16, weight: 10.0f }
+		{ item: "fluxnetworks:flux_block", random_bonus: 3, weight: 3.0f }
+		{ item: "fluxnetworks:flux_point", random_bonus: 2, weight: 5.0f }
+		{ item: "fluxnetworks:flux_plug", random_bonus: 2, weight: 3.0f }
+		{ item: "fluxnetworks:herculean_flux_storage" }
+		{ count: 8, item: "mekanism:ultimate_universal_cable", random_bonus: 8, weight: 5.0f }
+		{ count: 4, item: "mekanism:ingot_refined_obsidian", random_bonus: 4, weight: 5.0f }
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Potion: "potionsmaster:netherite_sight"
+				}
+			}
+		}
+		{ item: "minecraft:beacon", weight: 2.0f }
+		{ item: "minecraft:nether_star", random_bonus: 2, weight: 2.0f }
+		{ item: "tempad:tempad" }
+		{ item: "ars_nouveau:source_gem_block", random_bonus: 2, weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "mininggadgets:mininggadget_simple"
+				tag: { }
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "mininggadgets:mininggadget_fancy"
+				tag: { }
+			}
+		}
+		{ count: 2, item: "apotheosis:rare_material", random_bonus: 4, weight: 5.0f }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_4" }
+		{ item: "functionalstorage:netherite_upgrade" }
+		{ item: "pipez:ultimate_upgrade" }
+		{ item: "apotheosis:mythic_material", random_bonus: 2, weight: 2.0f }
+		{ count: 4, item: "apotheosis:gem_dust", random_bonus: 4, weight: 5.0f }
+		{
+			item: {
+				Count: 1
+				id: "mekanism:basic_fluid_tank"
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								Amount: 32000
+								FluidName: "allthemodium:soul_lava"
+							}
+						}]
+						editMode: 0
+					}
+				}
+			}
+		}
+	]
+	title: "&9Rare Reward"
+	use_title: true
+}

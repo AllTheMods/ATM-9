@@ -1,0 +1,36 @@
+{
+	id: "61B798ABAE5A10A4"
+	loot_size: 1
+	order_index: 62
+	rewards: [
+		{ item: "gtceu:nano_processor_mainframe", weight: 3.0f }
+		{ item: "gtceu:luv_robot_arm", weight: 3.0f }
+		{ count: 4, item: "gtceu:advanced_smd_capacitor", random_bonus: 4, weight: 4.0f }
+		{ count: 4, item: "gtceu:advanced_smd_inductor", random_bonus: 4, weight: 4.0f }
+		{ count: 4, item: "gtceu:epoxy_printed_circuit_board", random_bonus: 4, weight: 4.0f }
+		{ item: "gtceu:luv_electric_pump", weight: 4.0f }
+		{ item: "gtceu:luv_electric_piston", weight: 4.0f }
+		{ item: "gtceu:luv_conveyor_module", weight: 4.0f }
+		{ item: "gtceu:nano_processor_computer", weight: 4.0f }
+		{ item: "gtceu:luv_electric_motor", weight: 4.0f }
+		{ count: 12, item: "gtceu:hpic_chip", random_bonus: 24, weight: 5.0f }
+		{ count: 12, item: "gtceu:hpic_wafer", random_bonus: 24, weight: 5.0f }
+		{ count: 6, item: "gtceu:palladium_dust", random_bonus: 12, weight: 6.0f }
+		{ item: "gtceu:nano_processor_assembly", weight: 6.0f }
+		{ count: 4, item: "gtceu:advanced_smd_transistor", random_bonus: 10, weight: 8.0f }
+		{ count: 6, item: "gtceu:advanced_smd_diode", random_bonus: 12, weight: 8.0f }
+		{ count: 6, item: "gtceu:advanced_smd_resistor", random_bonus: 12, weight: 8.0f }
+		{ count: 6, item: "gtceu:phosphorus_wafer", random_bonus: 12, weight: 10.0f }
+		{ item: "gtceu:luv_machine_hull", weight: 10.0f }
+		{ count: 8, item: "gtceu:rhodium_plated_palladium_ingot", random_bonus: 16, weight: 10.0f }
+		{ count: 6, item: "gtceu:nano_cpu_chip", random_bonus: 12, weight: 10.0f }
+		{ count: 3, item: "gtceu:nano_cpu_wafer", random_bonus: 6, weight: 10.0f }
+		{ count: 6, item: "gtceu:rhodium_plated_palladium_plate", random_bonus: 12, weight: 10.0f }
+		{ count: 16, item: "gtceu:raw_pentlandite", random_bonus: 32, weight: 12.0f }
+		{ count: 16, item: "gtceu:raw_cooperite", random_bonus: 32, weight: 12.0f }
+		{ item: "gtceu:luv_machine_casing", weight: 12.0f }
+		{ count: 16, item: "gtceu:rare_earth_dust", random_bonus: 32, weight: 10.0f }
+		{ count: 6, item: "gtceu:ruridit_dust", random_bonus: 12, weight: 10.0f }
+	]
+	title: "GT LuV Basic Rewards"
+}

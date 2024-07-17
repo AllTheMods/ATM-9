@@ -1,0 +1,1628 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forbidden_and_arcanus"
+	group: "02FE661031A105D8"
+	icon: {
+		Count: 1
+		id: "forbidden_arcanus:smelter_prism"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "34E8FF3196478229"
+	images: [{
+		height: 0.3d
+		hover: ["{atm9.quest.ae2.img.star}"]
+		image: "allthetweaks:item/atm_star"
+		rotation: 0.0d
+		width: 0.3d
+		x: 9.5d
+		y: 2.25d
+	}]
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.newArmor.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.newArmor.2}"
+			]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:smelter_prism"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5523A71F1688EA88"
+			rewards: [{
+				id: "60B5D56638873C6E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "144F03F12E65C187"
+				item: "forbidden_arcanus:darkstone"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.welcome}"
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.edelwoodTreeFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.edelwoodTreeFeatures.2}"
+			]
+			id: "6E3B9051503B938C"
+			rewards: [
+				{
+					id: "342ACC27FDCA76C0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FB1E5AF3499CEC5"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "1F25B174EB5B4B9C"
+					item: "forbidden_arcanus:edelwood_stick"
+					type: "item"
+				}
+				{
+					id: "1BC05313036D72FD"
+					item: "forbidden_arcanus:edelwood_log"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.forbiddenAndArcanus.edelwoodTrees}"
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0B68E3C046C82860"]
+			id: "2E114B4C441EF50D"
+			rewards: [
+				{
+					id: "75C6FCC257C6679D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B78ED9D7AA00767"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.silkTouchPickaxe}"
+			tasks: [{
+				id: "2DE570337D6E8368"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:slimec_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0B68E3C046C82860"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.mysticalDaggerFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.mysticalDaggerFeatures.2}"
+			]
+			id: "09CCC797BF15ADFC"
+			rewards: [
+				{
+					id: "26033F1665B5FFD2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AD0EF6BEE6FE02E"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3CCC73D361A4A5D6"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:mystical_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6E3B9051503B938C"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.edelwoodBucketFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.edelwoodBucketFeatures.2}"
+			]
+			id: "0AFC5B1AF055811A"
+			rewards: [
+				{
+					id: "0E316F795B1547B4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62401F9F57E947F5"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1BD725A50F90B32C"
+				item: "forbidden_arcanus:edelwood_bucket"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.mainResource}"]
+			id: "29164630E1BD76B5"
+			rewards: [
+				{
+					id: "12BE86FC704EBBBF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E359BB97FC14B5A"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "6B4884DE48C80B1C"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.arcaneCrystals}"
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["537E39530360AD73"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.stellaArcanumFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.stellaArcanumFeatures.2}"
+			]
+			id: "34592A8F4B661D8D"
+			rewards: [
+				{
+					id: "51217AE3DFB997C8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43A62BE7CE2BAA3A"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			subtitle: "{atm9.quest.forbiddenAndArcanus.thisGoesBoomToo}"
+			tasks: [{
+				id: "4D5980FEE267D06C"
+				item: "forbidden_arcanus:stellarite_piece"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.nipaPlantsFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.nipaPlantsFeatures.2}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.nipaPlantsFeatures.3}"
+			]
+			id: "260F19B468957BCD"
+			rewards: [
+				{
+					id: "6FE911D60125F00B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "534F55AB312AA20D"
+					item: "forbidden_arcanus:nipa"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60E79699A9E7FD13"
+				item: "forbidden_arcanus:nipa"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.nipaPlants}"
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"29164630E1BD76B5"
+				"260F19B468957BCD"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.arcaneCrystalDustFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.arcaneCrystalDustFeatures.2}"
+			]
+			id: "2894F11A73335179"
+			rewards: [
+				{
+					id: "3DE86B79C85EFEBC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C776EFCAC879354"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "47D5F726006465DD"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.spawnerScraps}"]
+			id: "13E5783AD64E3BC2"
+			rewards: [
+				{
+					id: "0E15CFABEE5C0283"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D0D5D21778C093A"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "743C9FFD4A3D73EF"
+				item: "forbidden_arcanus:spawner_scrap"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["13E5783AD64E3BC2"]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.quantumCatcher}"]
+			id: "0F3BD102F9F93DDD"
+			rewards: [
+				{
+					id: "5ED4399C894F175E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EF9CA4D055A3985"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "38ECF24F59D34252"
+				item: "forbidden_arcanus:quantum_catcher"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.entityTools}"
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.endCityLootFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.endCityLootFeatures.2}"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "709118898CF960BE"
+			optional: true
+			rewards: [{
+				id: "775EC533EE1FAB6A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2ECD2C9267A13557"
+				item: "forbidden_arcanus:orb_of_temporary_flight"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B68E3C046C82860"]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.xRayVision}"]
+			id: "44B1B147CDAC4E36"
+			optional: true
+			rewards: [
+				{
+					id: "2436BF5F9939867D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "131777F15F899CCA"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			subtitle: "{atm9.quest.forbiddenAndArcanus.highlightsMobs}"
+			tasks: [{
+				id: "35004413DAFA1C58"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:spectral_eye_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2894F11A73335179"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.magicalFarmlandFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.magicalFarmlandFeatures.2}"
+			]
+			id: "7439CFAD20E3E2BF"
+			optional: true
+			rewards: [
+				{
+					id: "029C949DE3C11683"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E7C40543FBBE589"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			subtitle: "{atm9.quest.forbiddenAndArcanus.useOnFarmland}"
+			tasks: [{
+				id: "78493C576C4F0F87"
+				item: "forbidden_arcanus:arcane_bone_meal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6780984A7CE63392"
+			optional: true
+			rewards: [{
+				id: "61422C7B7C8414E9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.canInfect}"
+			tasks: [{
+				id: "480CDA250CAFF8C2"
+				item: "forbidden_arcanus:zombie_arm"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			hide: true
+			hide_dependency_lines: true
+			id: "371DF7589239CB78"
+			optional: true
+			rewards: [{
+				id: "6EFE2F39B54EFABB"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.arrowGoBoom}"
+			tasks: [{
+				id: "24C0F64218E7DD64"
+				item: "forbidden_arcanus:boom_arrow"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6C832BFE4D07D897"
+			optional: true
+			rewards: [{
+				id: "7069E419456D4661"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.leavesAoECloud}"
+			tasks: [{
+				id: "0F88AE3ABD17518C"
+				item: "forbidden_arcanus:draco_arcanus_arrow"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B68E3C046C82860"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.deorumNuggetsFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.deorumNuggetsFeatures.2}"
+			]
+			hide_dependency_lines: false
+			id: "5ED1896F1986BD2B"
+			rewards: [
+				{
+					id: "5A94F2FC66A32C6F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43600BCD51BEA890"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			shape: "circle"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.growingGold}"
+			tasks: [{
+				id: "3157685F32B838D5"
+				item: "forbidden_arcanus:golden_orchid_seeds"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5523A71F1688EA88"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.mortemArmorFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.mortemArmorFeatures.2}"
+			]
+			hide: true
+			id: "5EFC63CF97D97AB5"
+			rewards: [
+				{
+					id: "4201E7FF060AB5A2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "337B933C14FEC49A"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.armorOfTheDead}"
+			tasks: [
+				{
+					id: "36C413F578D44CBF"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mortem_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A341DEA25087489"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mortem_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F1B3851C4BC39F1"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mortem_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34E13EE51BE65AE3"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mortem_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.forbiddenAndArcanus.mortemArmor}"
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["09CCC797BF15ADFC"]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.dragonScales}"]
+			id: "20B495B4B8B95636"
+			rewards: [
+				{
+					id: "49C41CD91F6E1DB5"
+					item: "forbidden_arcanus:dragon_scale"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4CD12CEC53F48F4B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49162E5C2747F28B"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			subtitle: "{atm9.quest.forbiddenAndArcanus.dragonScalesSong}"
+			tasks: [{
+				count: 3L
+				id: "66035A72EEEF2FA1"
+				item: "forbidden_arcanus:dragon_scale"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.dragonScales}"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["20B495B4B8B95636"]
+			id: "4DA1C95BED78A662"
+			rewards: [
+				{
+					id: "42F0BCA9799206B2"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4770A3AA68C25954"
+					table_id: 7025454341029952768L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.betterThanNetherite}"
+			tasks: [
+				{
+					id: "4F68A985DED494B6"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51FBF0E6CAAF10EB"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D69FAD94A981FCD"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "528B85B2554A3691"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.forbiddenAndArcanus.dracoArcanusArmor}"
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["20B495B4B8B95636"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.goldenAquaticDragonScalesFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.goldenAquaticDragonScalesFeatures.2}"
+			]
+			id: "744A01000E086CC9"
+			rewards: [
+				{
+					id: "234F00EF412D61B2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B6682F0093D1CB9"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "332B4C94EE4AAB00"
+					item: "forbidden_arcanus:golden_dragon_scale"
+					type: "item"
+				}
+				{
+					id: "05C28BF8C6930068"
+					item: "forbidden_arcanus:aquatic_dragon_scale"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2894F11A73335179"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.corruptiDustFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.corruptiDustFeatures.2}"
+			]
+			id: "7CF76A542529A181"
+			rewards: [
+				{
+					id: "162E81395E446AB6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "054EBA32D928C748"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "16DBF179371A23E1"
+				item: "forbidden_arcanus:corrupti_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2894F11A73335179"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.mundabiterDustFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.mundabiterDustFeatures.2}"
+			]
+			id: "03E7D73433AB6B7C"
+			rewards: [
+				{
+					id: "0A2FEC70D103E074"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B4AA1D36182C5A3"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			subtitle: "{atm9.quest.forbiddenAndArcanus.subt.dustsCombine}"
+			tasks: [{
+				count: 4L
+				id: "133BDCB7B85C4CF4"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.mundabiturDust}"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["03E7D73433AB6B7C"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.deorumIngotFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.deorumIngotFeatures.2}"
+			]
+			id: "0B68E3C046C82860"
+			rewards: [
+				{
+					id: "643C5E6FC352BD9F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4917AD3F2F860E13"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "736A5F873C3DDF64"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.deorum}"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["744A01000E086CC9"]
+			id: "70112194DFFD15D3"
+			rewards: [
+				{
+					id: "332909BF099BE23B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ECDE8A70B7E2406"
+					table_id: 7025454341029952768L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "1837D97833619166"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:tyr_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "679C3B7915C403AC"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:tyr_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B5AFD104DE50D5F"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:tyr_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11795A1BD0916EC2"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:tyr_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.forbiddenAndArcanus.tyrArmor}"
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["744A01000E086CC9"]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.dragonEggDecoration}"]
+			id: "24261D6C5C5A6CB4"
+			rewards: [
+				{
+					id: "413D504AB03C2837"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B6F5CCAF6FB6DC1"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "548E998BF89F6713"
+				item: "forbidden_arcanus:arcane_dragon_egg"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3799ACDA92F96FD1"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.corruptionEffects.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.corruptionEffects.2}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.corruptionEffects.3}"
+			]
+			id: "25911D0B7C403A4F"
+			rewards: [
+				{
+					id: "31A2D2A4B3CB93AB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45C4262EE93CDE02"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.subt.insanity}"
+			tasks: [{
+				id: "2A496D23BEBBA31A"
+				item: "forbidden_arcanus:sanity_meter"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.sanity}"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B68E3C046C82860"]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.darkstoneAcquisition}"]
+			id: "5F5675E30ED046F7"
+			rewards: [{
+				id: "56404219A611CF0F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 64L
+				id: "0031710AA90315AC"
+				item: "forbidden_arcanus:darkstone"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.preppingForge}"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F5675E30ED046F7"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.hephaestusForgeFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.hephaestusForgeFeatures.2}"
+				""
+				"{image:atm:textures/questpics/forbidden/forge.png width:200 height:200 align:1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.hephaestusForgeFeatures.3}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.hephaestusForgeFeatures.4}"
+			]
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "73349B993DE69954"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "7F8265D8621DC5A2"
+					item: "forbidden_arcanus:aureal_bottle"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "11369C066386D75D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0995A0FADA6C2F46"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 48L
+					id: "2429D427160A65D5"
+					item: "forbidden_arcanus:polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "3D6D6E05A9D04FC5"
+					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F27161BBD1D059A"
+					item: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+					type: "item"
+				}
+				{
+					id: "754E2CB9BDC2549E"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					id: "2FC5F424A0583DFD"
+					item: "forbidden_arcanus:mundabitur_dust"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.forbiddenAndArcanus.hephaestusForge}"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13E5783AD64E3BC2"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.lensOfVeritatisFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.lensOfVeritatisFeatures.2}"
+			]
+			id: "3799ACDA92F96FD1"
+			rewards: [
+				{
+					id: "361FF13D5A5429DB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1793DE5499CA511D"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4FF431D0496FC0E5"
+				item: "forbidden_arcanus:lens_of_veritatis"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E3B9051503B938C"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.edelwoodToDarkMatter.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.edelwoodToDarkMatter.2}"
+			]
+			id: "310B54FB390982C5"
+			rewards: [
+				{
+					id: "1B284389DED0B292"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "624004E74D24E78A"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0FCB0911BA208C40"
+				item: "forbidden_arcanus:dark_matter"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0C6719D81DE5A614"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.bloodCollection.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.bloodCollection.2}"
+			]
+			id: "757E1521D84AC5C8"
+			rewards: [
+				{
+					id: "7223A34DD27FE40E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5013D71281FAA4DC"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0C10EC722BA7DEA1"
+				item: "forbidden_arcanus:test_tube"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.blood}"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C6719D81DE5A614"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.aurealBottlesFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.aurealBottlesFeatures.2}"
+			]
+			id: "4DA04ABF4FF2625C"
+			rewards: [
+				{
+					id: "68666FC2D57373D0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FF2EEBB6AA06A57"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0B41D927E575771E"
+				item: "forbidden_arcanus:aureal_bottle"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.aureal}"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C6719D81DE5A614"]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.soulsGathering}"]
+			icon: "forbidden_arcanus:soul"
+			id: "788A3685A7D07E75"
+			rewards: [
+				{
+					count: 2
+					id: "6E91C2363706DBDC"
+					item: "forbidden_arcanus:soul"
+					type: "item"
+				}
+				{
+					id: "2EBC61C8851B2229"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6558C3AA159F57D6"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:soul_extractor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16226358D9107349"
+					item: "forbidden_arcanus:soul"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.forbiddenAndArcanus.souls}"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0C6719D81DE5A614"]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.forgeRightSide}"]
+			id: "5E45D2A2FDD67495"
+			rewards: [{
+				id: "03B074FCE2297BF6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.subt.experienceBottle}"
+			tasks: [{
+				id: "0D4ABA98B2FDB158"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.bottleOfEnchanting}"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["73349B993DE69954"]
+			description: [
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.forgePowerRequirements.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.forgePowerRequirements.2}"
+			]
+			id: "0C6719D81DE5A614"
+			rewards: [{
+				id: "4361C7754AB234B0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4CAF79C3D1E35958"
+				title: "{atm9.quest.forbiddenAndArcanus.poweringForge}"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73349B993DE69954"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.enchantingItems.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.enchantingItems.2}"
+			]
+			id: "76BC484FC50EAEC3"
+			rewards: [
+				{
+					id: "434F08CC0F88F901"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "762562FED6509A32"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "0BC04910ED51A3A5"
+				item: "forbidden_arcanus:darkstone_pedestal"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.darkstonePedestals}"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C6719D81DE5A614"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.performingRituals.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.performingRituals.2}"
+			]
+			id: "537E39530360AD73"
+			rewards: [
+				{
+					id: "7D92F94919F2BB7D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CD71A4CD4194AF4"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0309B0EB29771EC0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forbidden_arcanus:blacksmith_gavel"
+					}
+				}
+				title: "{atm9.quest.forbiddenAndArcanus.blacksmithGavel}"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.performingRituals}"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"34592A8F4B661D8D"
+				"1C91BD525C91FD73"
+				"5CF175DA7BDA52F3"
+			]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.eternalStellaFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.eternalStellaFeatures.2}"
+			]
+			id: "526559F94031FE43"
+			rewards: [
+				{
+					id: "4D6EC3BA13F54659"
+					item: "forbidden_arcanus:stellarite_piece"
+					type: "item"
+				}
+				{
+					id: "629C79B4071B31A3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B0FCA99C04034D6"
+					table_id: 7025454341029952768L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "662F567369FBB0AD"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:eternal_stella"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "58473B04E525807A"
+					item: "forbidden_arcanus:darkstone_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.forbiddenAndArcanus.eternalStella}"
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["537E39530360AD73"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.eternalStellaFeatures.3}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.eternalStellaFeatures.4}"
+			]
+			id: "1C91BD525C91FD73"
+			rewards: [
+				{
+					id: "5B12316594633566"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35A5F47F767A8610"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "552F1CF53E9AF9BD"
+				item: "forbidden_arcanus:xpetrified_orb"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["20B495B4B8B95636"]
+			id: "33F44B87C5496158"
+			rewards: [
+				{
+					id: "483938E5BF2FAFC7"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D87FFC6848D11E0"
+					table_id: 7025454341029952768L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.subt.dragonTools}"
+			tasks: [
+				{
+					id: "6B1B4574299B7E42"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AC6974CDDE401B1"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EC5573A12A3B7F7"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70CEF00CFA26E97A"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.forbiddenAndArcanus.dracoTools}"
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["20B495B4B8B95636"]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.dracoToolsFeatures}"]
+			id: "3513D89C6FD2D852"
+			rewards: [
+				{
+					id: "487939397BCAAC5F"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01B8C6C6E058B2AF"
+					table_id: 7025454341029952768L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.forbiddenAndArcanus.subt.goPewPew}"
+			tasks: [
+				{
+					id: "49FEFEC69106EFFA"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "388451A17A53336D"
+					item: "forbidden_arcanus:draco_arcanus_scepter"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.forbiddenAndArcanus.dracoWeapons}"
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["73349B993DE69954"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.dracoWeaponsFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.dracoWeaponsFeatures.2}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.dracoWeaponsFeatures.3}"
+			]
+			icon: "forbidden_arcanus:arcane_crystal_obelisk"
+			id: "11C065375DF7AC3E"
+			rewards: [
+				{
+					id: "37FA801AED4BD6AC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A9FFEDDE51746D7"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5400EB85133AAAEE"
+				title: "{atm9.quest.forbiddenAndArcanus.arcaneCrystalObelisks}"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["537E39530360AD73"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.upgradingForgeFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.upgradingForgeFeatures.2}"
+			]
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "5CF175DA7BDA52F3"
+			rewards: [{
+				id: "20AE49BAE55DE599"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1DCE7B9772542FDB"
+				title: "{atm9.quest.forbiddenAndArcanus.upgradingTheForge}"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "44A78A8D55B84840"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "5E5BFDD637C07C75"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "53D83F35B62D8374"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 9.5d
+		}
+	]
+	title: "{atm9.chapters.43.title}"
+}

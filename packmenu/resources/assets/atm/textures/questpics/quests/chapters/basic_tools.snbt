@@ -1,0 +1,2606 @@
+{
+	autofocus_id: "5151CDD8FCDE7A07"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "basic_tools"
+	group: "22FB35B0FEF1343D"
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4B9D26E0087CD163"
+	images: [
+		{
+			height: 0.5d
+			image: "quark:textures/attribute/attack_damage.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			height: 0.5d
+			image: "quark:textures/attribute/attack_damage.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			height: 0.5d
+			image: "quark:textures/attribute/attack_damage.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			height: 0.5d
+			image: "quark:textures/attribute/attack_damage.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			height: 0.5d
+			image: "quark:textures/attribute/attack_damage.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			height: 0.5d
+			image: "quark:textures/attribute/attack_damage.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			height: 0.7d
+			image: "atm:textures/questpics/basictools/4.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			height: 0.7d
+			image: "atm:textures/questpics/basictools/5.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			height: 0.7d
+			image: "atm:textures/questpics/basictools/6.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			height: 0.7d
+			image: "atm:textures/questpics/basictools/7.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			height: 0.7d
+			image: "atm:textures/questpics/basictools/8.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			height: 0.7d
+			image: "atm:textures/questpics/basictools/13.png"
+			rotation: 0.0d
+			width: 1.4d
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/wooden_pickaxe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/iron_pickaxe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/netherite_pickaxe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/stone_pickaxe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/diamond_pickaxe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "allthemodium:item/alloy_pick"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.5d
+		}
+	]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{atm9.quest.tools.desc.tier1}"]
+			id: "57F47BA495B27F83"
+			rewards: [{
+				count: 32
+				id: "4311F03D24305238"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39B72EA881F24AAE"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.tier1}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57F47BA495B27F83"]
+			description: ["{atm9.quest.tools.desc.tier2}"]
+			icon: "minecraft:iron_ore"
+			id: "3917DECAEF56A06A"
+			rewards: [{
+				count: 5
+				id: "16E6A3E5A0BF91BA"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "777BAD04536F4BA7"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.tier2}"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3917DECAEF56A06A"]
+			description: ["{atm9.quest.tools.desc.tier3}"]
+			icon: "minecraft:diamond_ore"
+			id: "6601450C63FEEE61"
+			rewards: [{
+				count: 3
+				id: "4C83D836AF808F98"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70DE0AD7C07C5B90"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.tier3}"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6601450C63FEEE61"]
+			description: ["{atm9.quest.tools.desc.tier4}"]
+			id: "17FE0C7748DD65CA"
+			rewards: [{
+				id: "2C89B133ECDB0D55"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			tasks: [{
+				id: "055D5441B11779D7"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.tier4}"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17FE0C7748DD65CA"]
+			description: ["{atm9.quest.tools.desc.tier5}"]
+			icon: "allthemodium:allthemodium_ore"
+			id: "03E05018D64DDEE1"
+			tasks: [{
+				id: "0D9AA2358BE8611B"
+				title: "Felt ATM Ore is too expensive"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.tools.tier5}"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03E05018D64DDEE1"]
+			description: ["{atm9.quest.tools.desc.tier6}"]
+			icon: "allthemodium:unobtainium_ore"
+			id: "09733948CBCB3FB9"
+			tasks: [{
+				id: "55B9216D3C4D2B4B"
+				title: "Pretend this is Unobtainium"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.tools.tier6}"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "2EE4E88FC814AFA4"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier1}"
+			tasks: [{
+				id: "2E885362FFDF770D"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "2E6D11A5F5626A6C"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier2}"
+			tasks: [{
+				id: "4CDD283558108D8B"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "70ED849A2EB44DEE"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier3}"
+			tasks: [{
+				id: "41A47F38D96A9747"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "29A05589E96C0569"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier4}"
+			tasks: [{
+				id: "3CAFF729F25A9850"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "299F56B753286D0C"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier5}"
+			tasks: [{
+				id: "111144CBEF06EC7F"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "0C31B053EAB8B2AB"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier3}"
+			tasks: [{
+				id: "30CDC00635935527"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanismtools:steel_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:bronze_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:osmium_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:froststeel_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.3pick1}"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "512396B331108BAF"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier5}"
+			tasks: [{
+				id: "40971F256D8743D9"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_obsidian_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "51DBE688ED630DB1"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier4}"
+			tasks: [{
+				id: "45C9F5CDC7FD3229"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_glowstone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "6A4419E89C0BA985"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier6}"
+			tasks: [{
+				id: "2500C7ACDE984FBD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturesaura:sky_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:depth_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_pick"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:elementium_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "forbidden_arcanus:slimec_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "forbidden_arcanus:reinforced_deorum_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "forbidden_arcanus:draco_arcanus_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.6pick2}"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "3E78FA34A7D40044"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier2}"
+			tasks: [{
+				id: "4A58C303DAC0C081"
+				item: {
+					Count: 1
+					id: "aiotbotania:livingrock_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "70ACECAEEE8947A5"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier1}"
+			tasks: [{
+				id: "4E240FF2592F5CD4"
+				item: {
+					Count: 1
+					id: "aiotbotania:livingwood_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "451D03BE892CDE74"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier6}"
+			tasks: [{
+				id: "6CCC0DE3A3CC048E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aether:gravitite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:valkyrie_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lost_aether_content:phoenix_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:utherium_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:forgotten_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "voidscape:voidic_crystal_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "voidscape:titanite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "voidscape:astral_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "voidscape:ichor_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.6pick3}"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "568A1121F820345F"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier2}"
+			tasks: [{
+				id: "1680A9E188D1F4E1"
+				item: {
+					Count: 1
+					id: "blue_skies:pyrope_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "114504C48DF53A03"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier3}"
+			tasks: [{
+				id: "33689D889904670A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:aquite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:zanite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.3pick2}"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "58DDD32F849940A0"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier6}"
+			tasks: [{
+				id: "3994D5448E03DF6B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:horizonite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:charoite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:diopside_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:imperium_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_pickaxe"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.6pick4}"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "518105318E1C38B2"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier1}"
+			tasks: [{
+				id: "5E5533CDA9CA9C18"
+				item: {
+					Count: 1
+					id: "botania:glass_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "67F992E5672671CD"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier5}"
+			tasks: [{
+				id: "31D48DF4CE59F793"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "768B5E3633A76ED0"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier5}"
+			tasks: [{
+				id: "1162C2EBA5671A9E"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "2AD4FE4B9DB741CC"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier4}"
+			tasks: [{
+				id: "6996A70A79D41BC2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "twilightforest:steeleaf_pickaxe"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:fortune"
+										lvl: 2s
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "twilightforest:knightmetal_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:inferium_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:prudentium_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.4pick1}"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "7252331E9CD600B9"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier5}"
+			tasks: [{
+				id: "586B3E271C377AA3"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:tertium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "076A26C8177FED1A"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier1}"
+			tasks: [{
+				id: "48FBE7B7D70A0833"
+				item: {
+					Count: 1
+					id: "aether:skyroot_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "5DB7C962203735ED"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier2}"
+			tasks: [{
+				id: "6ACFECB8D48FC52A"
+				item: {
+					Count: 1
+					id: "aether:holystone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "4F68F142D9DE569A"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier3}"
+			tasks: [{
+				id: "35227D0C9A4DC669"
+				item: {
+					Count: 1
+					id: "thermal:flux_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "3B88D58B11B5DC78"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier4}"
+			tasks: [
+				{
+					id: "3D7B36B1CBAB6ADF"
+					item: {
+						Count: 1
+						id: "mininggadgets:mininggadget_simple"
+						tag: {
+							battery_tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F1B08F29E1383DE"
+					item: {
+						Count: 1
+						id: "mininggadgets:mininggadget_fancy"
+						tag: {
+							battery_tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "470E74755C072CFE"
+					item: {
+						Count: 1
+						id: "mininggadgets:mininggadget"
+						tag: {
+							battery_tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["{atm9.quest.tools.desc.tool}"]
+			id: "5151CDD8FCDE7A07"
+			rewards: [{
+				count: 16
+				id: "2BA08F25D16B9421"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "35A05A5BEA46A198"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.tool}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "0583862ED0114442"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage4}"
+			tasks: [{
+				id: "77C3BFB8C7F805CF"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "54D3D6806C1F33F3"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage5}"
+			tasks: [{
+				id: "13AFEBED5C116FC8"
+				item: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "2B9AF0D6ED8BA628"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage6}"
+			tasks: [{
+				id: "1C1B919636DDC925"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "55A9EB63F4964FCF"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage7}"
+			tasks: [{
+				id: "3B9E51CF30228269"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "36A3ECD4F6CA2732"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage8}"
+			tasks: [{
+				id: "5CDEF9E938811FC8"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "3BF1900346772703"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier2}"
+			tasks: [{
+				id: "6D6CF45BE39E11BB"
+				item: {
+					Count: 1
+					id: "minecraft:golden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "75238B267CBFFAFE"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage4_5}"
+			tasks: [{
+				id: "6C29A4A606852691"
+				item: {
+					Count: 1
+					id: "aiotbotania:livingwood_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "04A8077171395133"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage5_5}"
+			tasks: [{
+				id: "36FE0FF2381C511A"
+				item: {
+					Count: 1
+					id: "aiotbotania:livingrock_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "2FB62AE3C62CA052"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage4_5}"
+			tasks: [{
+				id: "271A6907F87F76B4"
+				item: {
+					Count: 1
+					id: "blue_skies:comet_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "077A214422FEFF02"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage6_4}"
+			tasks: [{
+				id: "53CFFE444921CB11"
+				item: {
+					Count: 1
+					id: "ae2:fluix_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			id: "665C3A14C987E9C6"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage5_5}"
+			tasks: [{
+				id: "4AB69297368845A0"
+				item: {
+					Count: 1
+					id: "blue_skies:pyrope_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			id: "2664388EBA1E8F90"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage8}"
+			tasks: [{
+				id: "41D9CCC7AD3283EE"
+				item: {
+					Count: 1
+					id: "mekanismtools:osmium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			id: "7F076FC4F2187692"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage8}"
+			tasks: [{
+				id: "49620BB635D10CF5"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:inferium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			id: "713803066B62CE9C"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage6_5}"
+			tasks: [{
+				id: "0E51C3384A52EEED"
+				item: {
+					Count: 1
+					id: "railcraft:steel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			id: "14518D5C1786DE65"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage5}"
+			tasks: [{
+				id: "75808D8AE827252E"
+				item: {
+					Count: 1
+					id: "aether:holystone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "38C76A58EBED6C37"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage7_5}"
+			tasks: [{
+				id: "163BDCDFC0B39FB8"
+				item: {
+					Count: 1
+					id: "twilightforest:ice_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			id: "7CFEE836C68B3903"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage7_5}"
+			tasks: [{
+				id: "6ACBFDD957AE32EB"
+				item: {
+					Count: 1
+					id: "undergarden:utherium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			id: "2D0AFABAD80A1DB5"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage10}"
+			tasks: [{
+				id: "0A81B5C9739FB083"
+				item: {
+					Count: 1
+					id: "voidscape:corrupt_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "0B6772E52FE97284"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage11}"
+			tasks: [{
+				id: "51FB97EC1A4441B9"
+				item: {
+					Count: 1
+					id: "voidscape:titanite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			id: "744DDB36296AEFAE"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage13}"
+			tasks: [{
+				id: "45F7BD53A56AF350"
+				item: {
+					Count: 1
+					id: "voidscape:astral_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			id: "7EDF2CC08FC774F9"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage10}"
+			tasks: [{
+				id: "279E99110C6542B0"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:prudentium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			id: "680ECE3D8DCDC515"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage13}"
+			tasks: [{
+				id: "1794270850D4F05D"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:tertium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			id: "6856A5572B239D10"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage16}"
+			tasks: [{
+				id: "3D0DC6C4794CE2BF"
+				item: "allthemodium:allthemodium_sword"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			id: "4DCEC4B97E24B6F1"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage17}"
+			tasks: [{
+				id: "75022D8AF7DB6369"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:imperium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			id: "2007EF64F0406090"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage24}"
+			tasks: [{
+				id: "60ECBCB782EF3B95"
+				item: "mysticalagriculture:supremium_sword"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.5d
+		}
+		{
+			id: "5A6670364ADE0858"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage29}"
+			tasks: [{
+				id: "5B39CDF9A0FCC084"
+				item: "mysticalagriculture:awakened_supremium_sword"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			id: "47AED7219704EB3E"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage22}"
+			tasks: [{
+				id: "7D7CDB9137482E36"
+				item: "allthemodium:vibranium_sword"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			id: "744AC6BD82FC2DEE"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage28}"
+			tasks: [{
+				id: "3D392B67BAAED4D0"
+				item: "allthemodium:unobtainium_sword"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			id: "7BCE96070C36D547"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage7_5}"
+			tasks: [{
+				id: "2000C08E501E9216"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			id: "2F90CA5DF9225209"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage12}"
+			tasks: [{
+				id: "33868BAD67921CD5"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "31B0ADD444A593CD"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage10}"
+			tasks: [{
+				id: "4414BD0C6D0C1692"
+				item: {
+					Count: 1
+					id: "lost_aether_content:phoenix_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			id: "4C8C56F960D92E9D"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage47}"
+			tasks: [{
+				id: "571788A3D48695E9"
+				item: "allthemodium:alloy_sword"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			id: "6EE68EEFE388CF8A"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage4}"
+			tasks: [{
+				id: "477AAD8E6A0BB944"
+				item: {
+					Count: 1
+					id: "minecraft:golden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "25C1A764618E601B"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier1}"
+			tasks: [{
+				id: "079736CCF9AC8123"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:bluebright_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:starlit_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:frostbright_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:lunar_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:dusk_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:maple_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:comet_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.1pick1}"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "609D03E335CF32E2"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier6}"
+			tasks: [{
+				id: "0C40B254FF7C7636"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:alloy_pick"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.6pick1}"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "3FBCE2054D6038F8"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier3}"
+			tasks: [{
+				id: "78D7E717C343E174"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:aluminium_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 767
+										ToolSpeed: 10.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:iron_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 255
+										ToolSpeed: 6.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:bronze_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 191
+										ToolSpeed: 7.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:invar_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:efficiency"
+										lvl: 1s
+									}]
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 383
+										ToolSpeed: 8.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:sterling_silver_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 767
+										ToolSpeed: 7.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:rose_gold_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:fortune"
+										lvl: 2s
+									}]
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 767
+										ToolSpeed: 16.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:wrought_iron_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 383
+										ToolSpeed: 6.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:cobalt_brass_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 1023
+										ToolSpeed: 6.5f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:flint_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 63
+										ToolSpeed: 5.5f
+									}
+									HideFlags: 2
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.3pick3}"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "3FB589181C086B75"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier4}"
+			tasks: [{
+				id: "29308D4A6CE0C509"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:titanium_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1535
+										ToolSpeed: 12.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:diamond_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 767
+										ToolSpeed: 10.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:stainless_steel_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1023
+										ToolSpeed: 11.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 511
+										ToolSpeed: 9.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:damascus_steel_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:fortune"
+										lvl: 3s
+									}]
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1023
+										ToolSpeed: 10.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:vanadium_steel_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1535
+										ToolSpeed: 7.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:red_steel_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 2559
+										ToolSpeed: 11.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:blue_steel_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1023
+										ToolSpeed: 19.0f
+									}
+									HideFlags: 2
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.4pick2}"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "5DB69A67A95C6B69"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.tier6}"
+			tasks: [{
+				id: "5B5634EA99833425"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:neutronium_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										RelocateMinedBlocks: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 6
+										MaxDamage: 65534
+										ToolSpeed: 184.0f
+									}
+									HideFlags: 2
+									Unbreakable: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:duranium_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										RelocateMinedBlocks: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 5
+										MaxDamage: 8191
+										ToolSpeed: 18.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:ultimet_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 2047
+										ToolSpeed: 14.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:tungsten_carbide_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 1023
+										ToolSpeed: 64.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:tungsten_steel_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 2047
+										ToolSpeed: 13.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:naquadah_alloy_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										RelocateMinedBlocks: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 5
+										MaxDamage: 3071
+										ToolSpeed: 44.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:hsse_pickaxe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 3071
+										ToolSpeed: 9.0f
+									}
+									HideFlags: 2
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.6pick5}"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "384A7832DAE93E5A"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage4}"
+			tasks: [{
+				id: "4D01DD196F609F50"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:bluebright_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:starlit_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:frostbright_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:lunar_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:dusk_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:maple_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.4sword1}"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "0F36FE9BCBA83129"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage5}"
+			tasks: [{
+				id: "5DBA085EFD3EDBA7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:turquoise_stone_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:lunar_stone_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.5sword1}"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "2647B2830F8F022F"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage6}"
+			tasks: [{
+				id: "2FE284174F29CEE6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:nether_quartz_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:refined_glowstone_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:bronze_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.6sword1}"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "2ED7878B7919AF6D"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage6}"
+			tasks: [{
+				id: "3A1AEA99F9234662"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:aquite_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:horizonite_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:elementium_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.6sword2}"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "191302E7A2670477"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage7}"
+			tasks: [{
+				id: "5B45FF3A6839E957"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "twilightforest:steeleaf_sword"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:looting"
+										lvl: 2s
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "twilightforest:knightmetal_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "twilightforest:fiery_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:terra_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:star_sword"
+								tag: {
+									Damage: 0
+									lastTriggerTime: 13134143L
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:thunder_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.7sword1}"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "6F8935F23CBB19DE"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage7}"
+			tasks: [{
+				id: "45D22AB384D77465"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aether:holy_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:vampire_blade"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:lightning_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:flaming_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:forgotten_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.7sword2}"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "0D7FA4B9120DDE0E"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage9}"
+			tasks: [{
+				id: "130C8A47B1A57C48"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:diopside_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:depth_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "sgjourney:naquadah_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.9sword2}"
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			id: "782B6B849D28C9D8"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage9}"
+			tasks: [{
+				id: "160F2A806080C3D7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "twilightdelight:teardrop_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "deeperdarker:warden_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "voidscape:voidic_crystal_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.9sword1}"
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			id: "4FF76F6A2CE2A8D3"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage12}"
+			tasks: [{
+				id: "68E94040D1688C61"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanismtools:refined_obsidian_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "wstweaks:lava_blade"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "wstweaks:blaze_blade"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.12sword2}"
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			id: "6F1A9A95F40F554D"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage12}"
+			tasks: [{
+				id: "7D41B4F30D2D6A8C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "forbidden_arcanus:draco_arcanus_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "voidscape:ichor_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tools.12sword1}"
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "639B291B873981DD"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "05828F635F0966DA"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "4AF4F930CB819414"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 2.0d
+		}
+	]
+	title: "{atm9.chapters.52.title}"
+}

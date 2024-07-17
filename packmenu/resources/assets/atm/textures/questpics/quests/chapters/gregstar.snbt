@@ -1,0 +1,1662 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gregstar"
+	group: "1DA67E79B40AB130"
+	icon: "allthetweaks:greg_star"
+	id: "3202C575456F57D2"
+	images: [
+		{
+			height: 12.0d
+			image: "gtceu:textures/gui/icon/gregtech_logo.png"
+			order: 1
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 16.0d
+			image: "gtceu:block/casings/gcym/atomic_casing"
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 11
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"55ACA94C7837FF5E"
+				"502FF1A93E06073C"
+				"7C8DE42ADB6E1AA4"
+				"43D3E61FA314E3C3"
+				"3BF90C250AC1ADF3"
+				"1BB1E43FFE3FD451"
+				"5520FCC832251168"
+				"7AD22973EDC05877"
+				"64FD043694770843"
+				"078F7CEE4CAC39D6"
+				"5C6F8FE4BA28807E"
+				"768951FBE8A5C934"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.gregStarIntroduction.1}"
+				""
+				"{atm9.quest.gregtech.desc.gregStarIntroduction.2}"
+				""
+				"{atm9.quest.gregtech.desc.gregStarIntroduction.3}"
+				""
+				"{atm9.quest.gregtech.desc.gregStarIntroduction.4}"
+			]
+			id: "12B041E34F58FDD2"
+			rewards: [
+				{
+					id: "079EC0C14DCA12A3"
+					item: "reliquary:pedestals/passive/black_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "17A2EC9123FFC20F"
+					item: {
+						Count: 1
+						id: "gtceu:doge_coin"
+						tag: {
+							display: {
+								Name: "{\"text\":\"GregStar Champion\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D282CB3BE5846A4"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D5E8465D601BD08"
+					table_id: 1193402146821170967L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 4.0d
+			subtitle: "{atm9.quest.gregtech.subt.gregStarBase}"
+			tasks: [{
+				id: "4F4B24FF54D99BBC"
+				item: "allthetweaks:greg_star"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"539D5084283C6219"
+				"008DBEF8893F1B63"
+				"583F0F3C00D211BE"
+				"61D9E67FFA14A8F8"
+				"5FE8521046CA1C8D"
+				"59A7880359BB5698"
+				"0373198D54FA6B93"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.gregStarBase.1}"
+				""
+				"{atm9.quest.gregtech.desc.gregStarBase.2}"
+			]
+			id: "502FF1A93E06073C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C57468075D5E46A"
+					table_id: 1193402146821170967L
+					type: "loot"
+				}
+				{
+					id: "76557FEF986B1D5B"
+					item: "reliquary:pedestals/passive/black_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "7EA634913596A091"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"Champion of Robustness\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.precursor}"
+			tasks: [{
+				id: "1D2982FDB07A9275"
+				item: "kubejs:star_housing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["217FA79B7D4C56CD"]
+			description: [
+				"{atm9.quest.gregtech.desc.precursor.1}"
+				""
+				"{atm9.quest.gregtech.desc.precursor.2}"
+			]
+			id: "55ACA94C7837FF5E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32CDDD669E0CAD4D"
+					table_id: 8781463007120195614L
+					type: "loot"
+				}
+				{
+					id: "6B9406278F8E6336"
+					item: "reliquary:pedestals/passive/black_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "7833ED29A4D06F8D"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 0.0f
+								AttackSpeed: -1.9000001f
+								Damage: 0
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"Champion of Noobs\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.certifications}"
+			tasks: [{
+				id: "0EF09E7910979B85"
+				item: "gtceu:nan_certificate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"452B3207B6C3A5D7"
+				"754229E1F1D2DA8A"
+				"44BE268EC7D2689D"
+				"0737D64B0CCAE334"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.certifications.1}"
+				""
+				"{atm9.quest.gregtech.desc.certifications.2}"
+			]
+			id: "5520FCC832251168"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6751457CCB6829E6"
+					table_id: 1193402146821170967L
+					type: "loot"
+				}
+				{
+					id: "496A320899F181F7"
+					item: "reliquary:pedestals/passive/black_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "54AF08C2D3E98EA6"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"Champion of Reaction\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.starPlating}"
+			tasks: [{
+				id: "67EB36B2DFE42688"
+				item: "kubejs:absolute_reaction_plating"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"05D6CE1B501F59B5"
+				"38C0D3A240E43A23"
+				"59908911C4FFF223"
+				"476B99789CA7BD96"
+			]
+			description: ["{atm9.quest.gregtech.desc.starPlating}"]
+			id: "7AD22973EDC05877"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E1D81CEFB009A48"
+					table_id: 1193402146821170967L
+					type: "loot"
+				}
+				{
+					id: "539FEF2BE77497D6"
+					item: "reliquary:pedestals/passive/black_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "1D803FBEE9C53C00"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"Champion of Star Compression\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.starCompression}"
+			tasks: [{
+				id: "6A97BAA42843B8FB"
+				item: "kubejs:star_compression_module"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"61428FAD831DC213"
+				"762BD49C9589EB3F"
+				"176C06C7593C264E"
+			]
+			description: ["{atm9.quest.gregtech.desc.starCompression}"]
+			id: "43D3E61FA314E3C3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E72880B3FBB29F3"
+					table_id: 1193402146821170967L
+					type: "loot"
+				}
+				{
+					id: "6642C0631A74B7DA"
+					item: "reliquary:pedestals/passive/black_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "1FF8A481DA1BD909"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"Champion of Superthermal Coils\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.thermalExchange}"
+			tasks: [{
+				id: "65EFA533C13D4AC6"
+				item: "kubejs:superthermal_transference_coil"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.thermalExchange.1}"
+				""
+				"{atm9.quest.gregtech.desc.thermalExchange.2}"
+			]
+			icon: "mekanism:pellet_antimatter"
+			id: "64FD043694770843"
+			rewards: [
+				{
+					id: "50D97BFC0249C02E"
+					item: "reliquary:pedestals/passive/black_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "0B4FBB31F08719C1"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_knife"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 100.0f
+								AttackSpeed: 3.5f
+								Damage: 0
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"Champion of Antimatter\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.moreAntimatter}"
+			tasks: [
+				{
+					count: 32L
+					id: "2338E8F51AA010F0"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+				{
+					id: "1B29FC754B2B26AF"
+					item: "gtceu:wetware_processor_mainframe"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.moreAntimatter.1}"
+				""
+				"{atm9.quest.gregtech.desc.moreAntimatter.2}"
+			]
+			icon: "industrialforegoing:black_hole_controller"
+			id: "3BF90C250AC1ADF3"
+			rewards: [
+				{
+					id: "3B3B1EC6201843B3"
+					item: "reliquary:pedestals/passive/black_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "1D67E56AD648D757"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"Champion of Blackhole Controllers\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.blackHoleController}"
+			tasks: [
+				{
+					count: 8L
+					id: "2F81C3902406C1AE"
+					item: "industrialforegoing:black_hole_controller"
+					type: "item"
+				}
+				{
+					id: "33C07AA1C90F8D6C"
+					item: "gtceu:wetware_processor_mainframe"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.blackHoleController.1}"
+				""
+				"{atm9.quest.gregtech.desc.blackHoleController.2}"
+			]
+			icon: "ironfurnaces:unobtainium_furnace"
+			id: "078F7CEE4CAC39D6"
+			rewards: [
+				{
+					id: "5DFC2B1015CCE3E4"
+					item: "reliquary:pedestals/passive/black_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "6B501879B039115A"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_scythe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								AoEColumn: 2
+								AoELayer: 2
+								AoERow: 2
+								MaxAoEColumn: 2
+								MaxAoELayer: 2
+								MaxAoERow: 2
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 105.0f
+								AttackSpeed: -2.5f
+								Damage: 0
+								HarvestLevel: 6
+								MaxDamage: 196604
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"Champion of Unobtainum Furnaces\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.unobtainium}"
+			tasks: [
+				{
+					count: 16L
+					id: "7DB9B3F5E5D7E301"
+					item: "ironfurnaces:unobtainium_furnace"
+					type: "item"
+				}
+				{
+					id: "3AB9F40D6DB23750"
+					item: "gtceu:wetware_processor_mainframe"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.unobtainium}"]
+			icon: "computercraft:computer_advanced"
+			id: "5C6F8FE4BA28807E"
+			rewards: [
+				{
+					id: "5AC196B0241610D3"
+					item: "reliquary:pedestals/passive/black_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "1DBF22541766EC89"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_hoe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"Champion of Computers\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.advancedComputers}"
+			tasks: [
+				{
+					count: 32L
+					id: "4FA25206854F9ADC"
+					item: "computercraft:computer_advanced"
+					type: "item"
+				}
+				{
+					id: "76495B10C6046626"
+					item: "gtceu:wetware_processor_mainframe"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"5AAD0E516762BA53"
+				"3673893C88EB5EDE"
+				"70B518EC050678AE"
+			]
+			description: ["{atm9.quest.gregtech.desc.advancedComputers}"]
+			icon: {
+				Count: 1
+				id: "exchangers:end_steel_exchanger"
+				tag: {
+					Energy: 50000000
+					blockstate: {
+						Name: "minecraft:air"
+					}
+					directionalPlacement: 0b
+					forceDropItems: 0b
+					fuzzyPlacement: 0b
+					fuzzyPlacementChance: 100
+					mode: 0
+					range: 0
+					voidItems: 0b
+				}
+			}
+			id: "7C8DE42ADB6E1AA4"
+			rewards: [
+				{
+					id: "5F2BB41E65055811"
+					item: "reliquary:pedestals/passive/black_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "149896B514C74991"
+					item: {
+						Count: 1
+						id: "gtceu:polybenzimidazole_mallet"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 127
+							}
+							HideFlags: 2
+							display: {
+								Name: "{\"text\":\"Champion of Exchangers\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.exchangers}"
+			tasks: [
+				{
+					id: "3800D50E1B753AF5"
+					item: {
+						Count: 1
+						id: "exchangers:end_steel_exchanger"
+						tag: {
+							blockstate: {
+								Name: "minecraft:air"
+							}
+							directionalPlacement: 0b
+							forceDropItems: 0b
+							fuzzyPlacement: 0b
+							fuzzyPlacementChance: 100
+							mode: 0
+							range: 0
+							voidItems: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43F97CA2879574DF"
+					item: "gtceu:wetware_processor_mainframe"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.exchangers.1}"
+				""
+				"{atm9.quest.gregtech.desc.exchangers.2}"
+			]
+			icon: "gtceu:europium_bucket"
+			id: "1BB1E43FFE3FD451"
+			rewards: [
+				{
+					id: "2300694655109F1B"
+					item: "reliquary:pedestals/passive/black_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "70306D7DB3498C01"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_sword"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 103.0f
+								AttackSpeed: -1.9000001f
+								Damage: 0
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"Champion of Europe\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.theStarThatStartedItAll}"
+			tasks: [
+				{
+					id: "048CC07BDFB7717A"
+					item: "gtceu:europium_bucket"
+					type: "item"
+				}
+				{
+					id: "7466B3E2616A7E33"
+					item: "gtceu:wetware_processor_mainframe"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.theStarThatStartedItAll.1}"
+				""
+				"{atm9.quest.gregtech.desc.theStarThatStartedItAll.2}"
+			]
+			id: "0373198D54FA6B93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5742821F5E80962E"
+				table_id: 7025454341029952768L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.doubleItUp}"
+			tasks: [{
+				id: "6F4F04DFB8480B74"
+				item: "allthetweaks:patrick_star"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.doubleItUp}"]
+			id: "5FE8521046CA1C8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62B2B2E89398549A"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.screwsForPlates}"
+			tasks: [{
+				id: "04345494A9907466"
+				item: "gtceu:double_tungsten_steel_plate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.screwsForPlates}"]
+			id: "59A7880359BB5698"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20FCEB32A52C0817"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.oxygenPlasma}"
+			tasks: [{
+				id: "6406939D8B04D5B5"
+				item: "gtceu:tungsten_steel_screw"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.oxygenPlasma}"]
+			id: "61D9E67FFA14A8F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "414962860B452B17"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.nitrogenPlasma}"
+			tasks: [{
+				id: "0DAF912DAF6215D1"
+				item: "gtceu:oxygen_plasma_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.nitrogenPlasma}"]
+			id: "583F0F3C00D211BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CF14D0DE98A69F5"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.argonPlasma}"
+			tasks: [{
+				id: "24B5BC6C1ADADCDB"
+				item: "gtceu:nitrogen_plasma_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.argonPlasma}"]
+			id: "539D5084283C6219"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01ABAB52334C558F"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.heliumPlasma}"
+			tasks: [{
+				id: "6B5A8A12A5C6FA8B"
+				item: "gtceu:argon_plasma_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.heliumPlasma}"]
+			id: "008DBEF8893F1B63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AD360C9FA590EA9"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.massiveMultiblock}"
+			tasks: [{
+				id: "5770806D18629209"
+				item: "gtceu:helium_plasma_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"12B041E34F58FDD2"
+				"1060C764347CC243"
+				"350B4AC4ADF7F84B"
+				"65A966D22EC7F9AA"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.massiveMultiblock.1}"
+				""
+				"{atm9.quest.gregtech.desc.massiveMultiblock.2}"
+				""
+				"{atm9.quest.gregtech.desc.massiveMultiblock.3}"
+			]
+			icon: "gtceu:micro_universe_orb"
+			id: "4C33366BAD0256CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EB688D929E18540"
+				table_id: 1193402146821170967L
+				type: "loot"
+			}]
+			shape: "heart"
+			size: 1.6d
+			subtitle: "{atm9.quest.gregtech.subt.catalyst}"
+			tasks: [
+				{
+					id: "5C4C327EF7C20629"
+					item: "gtceu:micro_universe_orb"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "382025000E17124F"
+					item: "allthecompressed:atm_star_block_2x"
+					type: "item"
+				}
+				{
+					count: 134L
+					id: "3E9BF312DCCD0CBD"
+					item: "gtceu:fusion_casing_mk3"
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "6A83E5C44427C560"
+					item: "gtceu:fusion_glass"
+					type: "item"
+				}
+				{
+					count: 600L
+					id: "69FDB28A4D98F573"
+					item: "gtceu:superconducting_coil"
+					type: "item"
+				}
+				{
+					id: "241FE00A20514BBE"
+					item: "gtceu:atomic_casing"
+					type: "item"
+				}
+				{
+					count: 160L
+					id: "32DB5277664073F0"
+					item: "kubejs:micro_universe_energy_transmitter"
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "18324DF3EDCE5200"
+					item: "kubejs:micro_universe_focus_lens"
+					type: "item"
+				}
+				{
+					count: 768L
+					id: "22BD6AEC9CA35673"
+					item: "connectedglass:clear_glass_black"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.catalyst.1}"
+				""
+				"{atm9.quest.gregtech.desc.catalyst.2}"
+			]
+			id: "1060C764347CC243"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "175E9D656476225A"
+				table_id: 8781463007120195614L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.neutonium}"
+			tasks: [{
+				id: "056C7886E8C6641D"
+				item: "kubejs:micro_universe_catalyst"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.neutonium}"]
+			id: "217FA79B7D4C56CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33204AC9BEE0E0AD"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.lotNeutronium}"
+			tasks: [{
+				count: 128L
+				id: "29554C352E94FDBA"
+				item: "gtceu:neutronium_block"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.optimizedCrafting}"]
+			id: "0737D64B0CCAE334"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26C8921839C7223B"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.fusionCasings}"
+			tasks: [{
+				count: 16L
+				id: "28439B5824F1D69B"
+				item: "gtceu:fusion_casing_mk3"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.fusionCasings.1}"
+				""
+				"{atm9.quest.gregtech.desc.fusionCasings.2}"
+			]
+			id: "44BE268EC7D2689D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EEE06E7FDB89A89"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.moreCoil}"
+			tasks: [{
+				count: 16L
+				id: "3827A0218C42F225"
+				item: "gtceu:fusion_coil"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.moreCoil.1}"
+				""
+				"{atm9.quest.gregtech.desc.moreCoil.2}"
+			]
+			id: "754229E1F1D2DA8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5745B99A3DC98390"
+				table_id: 7025454341029952768L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.windowSeat}"
+			tasks: [{
+				count: 16L
+				id: "4B5E0984A8670146"
+				item: "gtceu:fusion_glass"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.liquidUranium}"]
+			id: "452B3207B6C3A5D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D703D3006EEF3EB"
+				table_id: 7025454341029952768L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.u235}"
+			tasks: [{
+				id: "53B39EA986E22753"
+				item: "gtceu:uranium_235_bucket"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"04362E2A5C541EC5"
+				"7DDF87A5856F9FE3"
+				"1F733319E9F4DFE5"
+				"3E7EE5FC7863B0B2"
+				"47D201ED115F6D6D"
+				"65B40CBB9C6AD5DF"
+				"5357A140DD05654A"
+				"52F81AFDE2DC39EF"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.u235.1}"
+				""
+				"{atm9.quest.gregtech.desc.u235.2}"
+			]
+			id: "768951FBE8A5C934"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FFF6BB4765C0E3A"
+					table_id: 1193402146821170967L
+					type: "loot"
+				}
+				{
+					id: "16470AE441828AF5"
+					item: "reliquary:pedestals/passive/black_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "05F606E17F62ED7C"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"Champion of Hyper Conductivity\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.hyperconductivity}"
+			tasks: [{
+				id: "5F02434BE29DBE19"
+				item: "kubejs:cable_of_hyperconductivity"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["12B041E34F58FDD2"]
+			description: ["{atm9.quest.gregtech.desc.gregStarShard}"]
+			id: "73E639487E878948"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "219DDF99241102C7"
+				table_id: 1193402146821170967L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.6d
+			subtitle: "{atm9.quest.gregtech.subt.gregStarShard}"
+			tasks: [{
+				id: "7EA1111B5D68265A"
+				item: "kubejs:greg_star_shard"
+				type: "item"
+			}]
+			x: -9.6d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.atmStar.1}"
+				""
+				"{atm9.quest.gregtech.desc.atmStar.2}"
+			]
+			id: "05D6CE1B501F59B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6008E2BF84521863"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.starsComponent}"
+			tasks: [{
+				id: "5924CB4ADD420BE1"
+				item: "allthetweaks:atm_star"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.starsComponent.1}"
+				""
+				"{atm9.quest.gregtech.desc.starsComponent.2}"
+			]
+			id: "476B99789CA7BD96"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39D117E511FEA6A3"
+				table_id: 1818042308417101752L
+				type: "random"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.notSmallOrder}"
+			tasks: [{
+				count: 16L
+				id: "64278A446E19A8A2"
+				item: "gtceu:energy_cluster"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.transformers.1}"
+				""
+				"{atm9.quest.gregtech.desc.transformers.2}"
+			]
+			id: "38C0D3A240E43A23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45C1F46789F59BAE"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.transformers}"
+			tasks: [{
+				count: 4L
+				id: "4369069D6EB498DD"
+				item: "gtceu:uv_transformer_16a"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.amps.1}"
+				""
+				"{atm9.quest.gregtech.desc.amps.2}"
+			]
+			id: "59908911C4FFF223"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EF5F107F9DD7D59"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.amps16}"
+			tasks: [{
+				count: 4L
+				id: "6232AE3E658F5F32"
+				item: "gtceu:uv_energy_input_hatch_16a"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.coils16.1}"]
+			id: "61428FAD831DC213"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75976E047E93A26D"
+				table_id: 341947171990021391L
+				type: "random"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.coils16}"
+			tasks: [{
+				count: 16L
+				id: "6587C2960517DCAA"
+				item: "gtceu:uv_voltage_coil"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.coilsContinued.1}"]
+			id: "762BD49C9589EB3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B6FE106F2F38123"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.moreCoils}"
+			tasks: [{
+				count: 16L
+				id: "70859C00FCD5D7FD"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.quadBatteries.1}"]
+			id: "176C06C7593C264E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AE3CE5197F89660"
+				table_id: 341947171990021391L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.quadBatteries}"
+			tasks: [{
+				count: 4L
+				id: "1197FAFBC2C62C30"
+				item: "gtceu:uv_naquadria_battery"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.hvSuperconductor.1}"]
+			id: "7DDF87A5856F9FE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DE72A995D810B49"
+				table_id: 822291801189586703L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.hvSuperconductor}"
+			tasks: [{
+				count: 8L
+				id: "0F4171BC636CD47E"
+				item: "gtceu:mercury_barium_calcium_cuprate_hex_wire"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.luvSuperconductor.1}"]
+			id: "52F81AFDE2DC39EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7761A8080973D0DE"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.luvSuperconductor}"
+			tasks: [{
+				id: "7D4CC15F7269CDFF"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_hex_wire"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.lvSuperconductor.1}"]
+			id: "04362E2A5C541EC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6712F3890BCA9D07"
+				table_id: 4804065436311136435L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.lvSuperconductor}"
+			tasks: [{
+				count: 8L
+				id: "4E79400A9BC7370E"
+				item: "gtceu:manganese_phosphide_hex_wire"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.mvSuperconductor.1}"]
+			id: "1F733319E9F4DFE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A31323028DBE07A"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.mvSuperconductor}"
+			tasks: [{
+				count: 8L
+				id: "395487D6B3ABCC6C"
+				item: "gtceu:magnesium_diboride_hex_wire"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.uvSuperconductor.1}"]
+			id: "47D201ED115F6D6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A561A6003938759"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.uvSuperconductor}"
+			tasks: [{
+				id: "7A0CFEE89FBD1882"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_hex_wire"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.zpmSuperconductor.1}"]
+			id: "65B40CBB9C6AD5DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6590E694F5ABD152"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.zpmSuperconductor}"
+			tasks: [{
+				id: "1CE36B96C09AFD98"
+				item: "gtceu:uranium_rhodium_dinaquadide_hex_wire"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.uTriplatinumWire.1}"]
+			id: "5357A140DD05654A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D8FEA3F1ABAF30A"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.evSuperconductor}"
+			tasks: [{
+				count: 8L
+				id: "0614DD90A7665C68"
+				item: "gtceu:uranium_triplatinum_hex_wire"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.samSuperconductor.1}"]
+			id: "3E7EE5FC7863B0B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "442831D834446D4F"
+				table_id: 6202000790833671070L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.ivSuperconductor}"
+			tasks: [{
+				id: "5B4622DEC901669B"
+				item: "gtceu:samarium_iron_arsenic_oxide_hex_wire"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.ivSuperconductor.1}"]
+			id: "5AAD0E516762BA53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78E707F77E0FDC15"
+				table_id: 7025454341029952768L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.prescientCrystal}"
+			tasks: [{
+				id: "470B547A16790A4F"
+				item: "enderio:prescient_crystal"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.prescientCrystal.1}"]
+			id: "3673893C88EB5EDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EAD198D95EDDECA"
+				table_id: 7025454341029952768L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.weatheringTheStorm}"
+			tasks: [{
+				id: "218BDC8B0562A54A"
+				item: "enderio:weather_crystal"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.weatheringTheStorm.1}"]
+			id: "70B518EC050678AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B503B2AD1134FB3"
+				table_id: 7025454341029952768L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.topTierExchanger}"
+			tasks: [{
+				id: "22436C76962DB59C"
+				item: "exchangers:eio_exchanger_core_tier3"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["73E639487E878948"]
+			description: ["{atm9.quest.gregtech.desc.topTierExchanger.1}"]
+			id: "48576E17428906E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "259336BEEDD70B1B"
+				table_id: 7175652334583451871L
+				type: "loot"
+			}]
+			shape: "heart"
+			size: 1.75d
+			subtitle: "{atm9.quest.gregtech.subt.creativeChemicals}"
+			tasks: [{
+				id: "16816C057E91438E"
+				item: "mekanism:creative_chemical_tank"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.creativeChemicals.1}"
+				""
+				"{atm9.quest.gregtech.desc.creativeChemicals.2}"
+			]
+			id: "65A966D22EC7F9AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06924FCA3F701C58"
+				table_id: 8781463007120195614L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.focusedEnergy}"
+			tasks: [{
+				id: "0A648B31D7BC4544"
+				item: "kubejs:micro_universe_focus_lens"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.focusedEnergy.1}"
+				""
+				"{atm9.quest.gregtech.desc.focusedEnergy.2}"
+			]
+			id: "350B4AC4ADF7F84B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39FCD56A1BAFB22D"
+				table_id: 8781463007120195614L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.utilizingThePower}"
+			tasks: [{
+				id: "1B02FFA5C727B8BC"
+				item: "kubejs:micro_universe_energy_transmitter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "4DC518B76C47B5CC"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2E38366DD0F60D4F"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "02C9A777F63A916D"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "{atm9.chapters.36.title}"
+}

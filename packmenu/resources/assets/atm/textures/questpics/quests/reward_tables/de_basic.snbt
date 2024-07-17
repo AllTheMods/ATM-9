@@ -1,0 +1,13 @@
+{
+	icon: "draconicevolution:draconium_core"
+	id: "73742263F9E32427"
+	loot_size: 1
+	order_index: 46
+	rewards: [
+		{ count: 5, item: "draconicevolution:draconium_dust", weight: 2.0f }
+		{ count: 5, item: "draconicevolution:draconium_ingot", weight: 2.0f }
+		{ count: 3, item: "draconicevolution:draconium_core" }
+		{ count: 3, item: "minecraft:diamond", weight: 0.5f }
+	]
+	title: "DE Basic"
+}

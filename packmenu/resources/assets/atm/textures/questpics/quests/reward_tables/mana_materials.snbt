@@ -1,0 +1,17 @@
+{
+	id: "4A4E40C93B3C3F60"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ count: 2, item: "botania:manasteel_ingot", random_bonus: 2 }
+		{ item: "botania:mana_pearl", random_bonus: 2, weight: 0.5f }
+		{ item: "botania:mana_diamond", random_bonus: 1, weight: 0.5f }
+		{ count: 2, item: "botania:mana_string", random_bonus: 2 }
+		{ count: 2, item: "botania:mana_powder", random_bonus: 2 }
+		{ count: 2, item: "botania:quartz_mana", random_bonus: 2 }
+		{ count: 2, item: "botania:mana_glass", random_bonus: 2 }
+		{ item: "botania:black_lotus", weight: 0.1f }
+	]
+	title: "&bCommon Mana Materials Loot Bag&r"
+	use_title: true
+}

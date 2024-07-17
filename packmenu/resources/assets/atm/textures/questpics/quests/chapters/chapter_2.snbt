@@ -1,0 +1,3261 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2"
+	group: "2084F3F6FB861C5B"
+	icon: "allthetweaks:atm_star"
+	id: "29EFE8220836C79A"
+	images: [
+		{
+			height: 6.0d
+			image: "allthetweaks:block/atm_star_block"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 8.0d
+			image: "chipped:block/crying_obsidian/crying_obsidian_scales"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 8.0d
+			image: "allthetweaks:block/atm_star_block"
+			order: -2
+			rotation: 45.0d
+			width: 8.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 9.0d
+			image: "chipped:block/crying_obsidian/crying_obsidian_scales"
+			order: -3
+			rotation: 45.0d
+			width: 9.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 6.0d
+			image: "atm:textures/questpics/mek/sps_cutout.png"
+			rotation: 0.0d
+			width: 7.612612612612613d
+			x: 16.0d
+			y: -5.0d
+		}
+		{
+			height: 6.0d
+			image: "mekanism:item/pellet_antimatter"
+			rotation: 0.0d
+			width: 6.0d
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "evilcraft:block/blood_flow"
+			order: -2
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			height: 2.5d
+			image: "evilcraft:block/blood_infuser_north_off"
+			rotation: 0.0d
+			width: 2.5d
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			height: 2.75d
+			image: "evilcraft:block/hardened_blood"
+			order: -1
+			rotation: 0.0d
+			width: 2.75d
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			color: 0
+			height: 3.0d
+			image: "occultism:textures/gui/book/pentagram_rose.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			height: 2.0d
+			image: "occultism:item/advancement/devil_icon"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			height: 0.5d
+			image: "occultism:block/chalk_glyph/12"
+			rotation: 0.0d
+			width: 0.5d
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			height: 0.5d
+			image: "occultism:block/chalk_glyph/0"
+			rotation: 0.0d
+			width: 0.5d
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			alpha: 230
+			height: 5.0d
+			image: "ars_nouveau:item/wilden_tribute"
+			rotation: 0.0d
+			width: 5.4375d
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			height: 5.0d
+			image: "allthemodium:item/piglich_heart"
+			rotation: 0.0d
+			width: 5.0d
+			x: -12.5d
+			y: 9.0d
+		}
+		{
+			height: 5.0d
+			image: "allthemodium:item/unobtainium_allthemodium_alloy_ingot"
+			rotation: 0.0d
+			width: 5.0d
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/chp2.png"
+			rotation: 0.0d
+			width: 11.355263157894736d
+			x: 0.0d
+			y: -15.25d
+		}
+		{
+			height: 4.5d
+			image: "atm:textures/questpics/chap2/atmstar_title.png"
+			order: 1
+			rotation: 0.0d
+			width: 32.462566844919785d
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			height: 5.0d
+			image: "cataclysm:item/flame_eye"
+			rotation: 0.0d
+			width: 5.0d
+			x: -20.5d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"153F111B4CCC850B"
+				"4F28DC3D905DDA3A"
+				"03B12E7ED6B01F9A"
+			]
+			id: "67E154DC24F54854"
+			rewards: [
+				{
+					id: "10C97B39C12475D3"
+					item: {
+						Count: 1
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of Oblivion\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60DD6D09683F298A"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47A228DD240949B7"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "17ED2BF9BAAB9268"
+				item: "allthetweaks:oblivion_shard"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.oblivion}"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"3912DE46B5F39287"
+				"1AB8C28C9E991E1C"
+				"1B2898A31C297B58"
+				"22D716F330A6D4CE"
+				"5FD3C68D5F218D02"
+			]
+			id: "527453CD5A20AE38"
+			rewards: [
+				{
+					id: "06FA9F4A937F0402"
+					item: {
+						Count: 1
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of Dragons\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "147542B53C621B39"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64FA1C4E02C83B1D"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "502BBFCFD28DFB00"
+					table_id: 1160439751879588774L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "25D3F715AF6677B4"
+				item: "allthetweaks:dragon_soul"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.dragons}"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6E29BA2E8642AF53"
+				"71B824BEA02C4A34"
+				"5D0C944F84E341BE"
+				"124BDAF91DA74910"
+				"356F450F4ADD22D7"
+				"73EFADE932DFEF86"
+			]
+			id: "73990028197AF1AB"
+			rewards: [
+				{
+					id: "69D20E0F1A44244F"
+					item: {
+						Count: 1
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of Space\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "288D32C87F308B7B"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CD127DE6F4CE99B"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "08EC833DF79CEA1E"
+				item: "allthetweaks:pulsating_black_hole"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.space}"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2B539F4F290DC4CF"
+				"4D3D96B6019CA7F9"
+				"4A3DF999B969C875"
+				"73EFADE932DFEF86"
+				"7790E599B42A5DE5"
+			]
+			id: "048F2942436D3C46"
+			rewards: [
+				{
+					id: "48F65810E60EDC84"
+					item: {
+						Count: 1
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of The Sky\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C55EF91B9DAA586"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67BC559DDAC41CD6"
+					table_id: 7025454341029952768L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7560975C9F20D969"
+				item: "allthetweaks:nexium_emitter"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.sky}"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["695A0DC585FB6E97"]
+			id: "6F598D9CFB915123"
+			rewards: [
+				{
+					id: "0C1FE4845CDCE417"
+					item: {
+						Count: 1
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "sharpness"
+									lvl: 5
+								}
+								{
+									id: "looting"
+									lvl: 3
+								}
+								{
+									id: "sweeping"
+									lvl: 3
+								}
+							]
+							display: {
+								Name: "\"Master of...Patrick?\""
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "459D0B538C1F0199"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "543559249F7ABACA"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7BF613128A236696"
+				item: "allthetweaks:patrick_star"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.patrick}"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"627A39E62DD49CD8"
+				"709F1FA492703463"
+				"6BDBF4D6086513C1"
+				"6CD7A3760C6D87E6"
+				"106A3D79B1CDE895"
+				"0A6378C7455E45B1"
+				"4CADD50E7E83CD0E"
+				"6FF116239EACA390"
+				"5F0482CDD3FC667D"
+			]
+			id: "73CD6CE2B10830B9"
+			rewards: [
+				{
+					id: "577307C225AF3E9C"
+					item: {
+						Count: 1
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of The Universe\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "601E59983FE5FA3A"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58E6AB827CA786A4"
+					table_id: 5196609362437981520L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "36166CF3BD5B9E77"
+				item: "allthetweaks:dimensional_seed"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.universe}"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3FEA99DD35D4B7CF"]
+			id: "43CE45F9FDDB91EE"
+			rewards: [
+				{
+					id: "7367AE25EAF90CCB"
+					item: {
+						Count: 1
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of Creation\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CEC9C77E587FE45"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D2CD94B57549F77"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4B271057EE4F90B4"
+				item: "mysticalagradditions:creative_essence"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.creation}"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E7D0E40D0E2B026"]
+			description: ["{atm9.quest.chapter2.desc.awakened_blocks}"]
+			id: "3109C8221B6FA608"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A468D6CFB5BAB99"
+				table_id: 7175652334583451871L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1F7626020C21A3E0"
+				item: {
+					Count: 1
+					id: "allthemodium:unobtainium_vibranium_alloy_block"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 1s
+						}]
+						HideFlags: 1
+						display: {
+							Name: "[{\"text\":\"Awakened Unobtainium-Vibranium Alloy Block\",\"italic\":false}]"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.awakened_blocks}"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6EDC47E6F752C1C1"]
+			description: ["{atm9.quest.chapter2.desc.mini_nether}"]
+			hide_dependent_lines: true
+			id: "6BDBF4D6086513C1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20269AE072E73488"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DC217B8EA06DDBB"
+					table_id: 1160439751879588774L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "51FECD9DB29F9D6D"
+				item: "allthetweaks:mini_nether"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.mini_nether}"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6EDC47E6F752C1C1"]
+			description: ["{atm9.quest.chapter2.desc.mini_exit}"]
+			hide_dependent_lines: true
+			id: "0A6378C7455E45B1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16F2378285403206"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B5B4D54C873012E"
+					table_id: 1160439751879588774L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "102D1392A59A2D1C"
+				item: "allthetweaks:mini_exit"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.mini_exit}"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EDC47E6F752C1C1"]
+			description: ["{atm9.quest.chapter2.desc.mini_end}"]
+			hide_dependent_lines: true
+			id: "627A39E62DD49CD8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C73CD9639A36C53"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77A0279BF43E3BE5"
+					table_id: 1160439751879588774L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "37A8FF2ABA1FAE4A"
+				item: "allthetweaks:mini_end"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.mini_end}"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2435B6D970F48DF8"]
+			hide_dependent_lines: true
+			id: "356F450F4ADD22D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CACCBD5DEA8D8E4"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "44CFFE38FD3BBED3"
+				item: {
+					Count: 1
+					id: "occultism:stable_wormhole"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.dimstorage}"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["46B515C90C13A72F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "106A3D79B1CDE895"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34E988B4EF27C50E"
+				table_id: 5564196992594175882L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "7B1FD2C8F6B3FD73"
+				item: "allthecompressed:netherrack_6x"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.netherrack}"
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["46B515C90C13A72F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6FF116239EACA390"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F76CC40C455F862"
+				table_id: 5564196992594175882L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "4BDF3E91AC7A9679"
+				item: "allthecompressed:end_stone_5x"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.endstone}"
+			x: 3.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["46B515C90C13A72F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4CADD50E7E83CD0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1109030720AE43A5"
+				table_id: 7025454341029952768L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "70D0DA550B22F25B"
+				item: "allthecompressed:emerald_block_4x"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.emerald}"
+			x: 3.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["46B515C90C13A72F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6CD7A3760C6D87E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64A97263D428ADBA"
+				table_id: 7025454341029952768L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "450849B8598BA80A"
+				item: "allthecompressed:diamond_block_4x"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.diamonds}"
+			x: -3.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["46B515C90C13A72F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "709F1FA492703463"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "346F5AB9E4F8E509"
+				table_id: 7025454341029952768L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "137FE17A6B2DBD19"
+				item: "allthecompressed:obsidian_5x"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.obsidian}"
+			x: -3.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["46B515C90C13A72F"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5F0482CDD3FC667D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F1482F1B3369C41"
+				table_id: 5564196992594175882L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "5176CE663C335615"
+				item: "allthecompressed:dirt_6x"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.dirt}"
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3178C46D9BD7FA88"]
+			description: ["{atm9.quest.chapter2.desc.reality}"]
+			id: "6EBCCC78DC682CC6"
+			rewards: [
+				{
+					id: "14E98566218C16C2"
+					item: {
+						Count: 1
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of Reality\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "392529EC0611951C"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23A2025FB9592282"
+					table_id: 5196609362437981520L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "39D19F3F6F6B3D02"
+				item: "allthetweaks:improbable_probability_device"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.reality}"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6AF6A1985C103D9C"
+				"3B13BBC38696D452"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{atm9.quest.chapter2.desc.LDS}"]
+			hide_dependent_lines: true
+			id: "272CB4EDED35C47B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "321B617668BB4829"
+				table_id: 7025454341029952768L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4272471A1AADDC27"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "extradisks:1048576k_storage_part"
+							}
+							{
+								Count: 1b
+								id: "extradisks:1048576k_fluid_storage_part"
+							}
+							{
+								Count: 1b
+								id: "megacells:cell_component_256m"
+							}
+						]
+					}
+				}
+				title: "Large Digital Storage Parts"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.LDS}"
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["42E5B5C27799DD93"]
+			description: ["{atm9.quest.chapter2.desc.batteries}"]
+			hide_dependent_lines: true
+			id: "3178C46D9BD7FA88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2257F18FFBAD3593"
+				table_id: 5564196992594175882L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 2L
+				id: "697A057C9E2E86BC"
+				item: {
+					Count: 1
+					id: "powah:battery_nitro"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.batteries}"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["42E5B5C27799DD93"]
+			hide_dependent_lines: true
+			id: "2B539F4F290DC4CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26A55BA86B5C6A65"
+				table_id: 1160439751879588774L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "11F66AFE2DCCBBBF"
+				item: "powah:player_transmitter_nitro"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.transmitter}"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6AF6A1985C103D9C"
+				"3B13BBC38696D452"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{atm9.quest.chapter2.desc.wireless}"]
+			hide_dependent_lines: true
+			id: "16E4EA08B647E8E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14DB7B6B838E370E"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3A046374A91F0A2D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "universalgrid:wireless_universal_grid"
+							}
+							{
+								Count: 1b
+								id: "ae2wtlib:wireless_universal_terminal"
+							}
+						]
+					}
+				}
+				title: "Wireless Terminals"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.wireless}"
+			x: -5.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3B13BBC38696D452"]
+			hide_dependent_lines: true
+			id: "4D3D96B6019CA7F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "546EC7E2A8023E24"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1E0D86524C2B56C9"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.singularity}"
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: ["{atm9.quest.chapter2.desc.PC}"]
+			hide_dependency_lines: true
+			id: "088D80D8790DBD90"
+			rewards: [
+				{
+					id: "06F40832496CDD9E"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "pneumaticcraft:book"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B4C13EA5F222048"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "53F6F7544E28F1CC"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.PC}"
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3B13BBC38696D452"]
+			hide_dependent_lines: true
+			id: "6E29BA2E8642AF53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2165187290827DB9"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1E234D148FC292E0"
+				item: "ae2:quantum_ring"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.quantum_ring}"
+			x: -6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["46B515C90C13A72F"]
+			description: ["You didn't hear it from me, but there are some interesting ways to make &5Inert Nether Stars&r which can be turned into Nether Stars"]
+			hide_dependency_lines: true
+			id: "0A37761737B01BFD"
+			rewards: [
+				{
+					id: "06D1AEF8DADA23BD"
+					item: {
+						Count: 1
+						id: "minecraft:nether_star"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Star of The Gods\",\"italic\":false,\"color\":\"dark_purple\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F841182CDB587C1"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A5D35D95895A958"
+					table_id: 5196609362437981520L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				count: 15L
+				id: "2A37E5A3F7716D02"
+				item: "allthecompressed:nether_star_block_3x"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.nether_stars}"
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["61D6C9461F10CCF1"]
+			hide_dependent_lines: true
+			id: "71B824BEA02C4A34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "258E055533C10561"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "234CAE0F96ED29A7"
+					item: {
+						Count: 1
+						id: "evilcraft:weather_container"
+						tag: {
+							weather: "LIGHTNING"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "769372D9F3317557"
+					item: "evilcraft:lightning_bomb"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.weather}"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2435B6D970F48DF8"]
+			hide_dependent_lines: true
+			id: "3912DE46B5F39287"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63B550D919011DB4"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "66F4491906A5AB8C"
+				item: {
+					Count: 1
+					id: "occultism:soul_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.soul_gem}"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1B2898A31C297B58"
+				"050AAD831C0AE375"
+				"54277F570314DCE1"
+				"0301633594309CC6"
+				"73EFADE932DFEF86"
+			]
+			id: "4775F7326720251E"
+			rewards: [
+				{
+					id: "3F4169D77B00BC02"
+					item: {
+						Count: 1
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of The Elements\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3959AD37C75CDA96"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E7BC6FA774BD76D"
+					table_id: 5196609362437981520L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "298D54656EEF2372"
+				item: "allthetweaks:philosophers_fuel"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.elements}"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4F1575600E7CD512"
+				"69E96EE9A9A2F423"
+			]
+			id: "32DC639415E45075"
+			rewards: [
+				{
+					id: "758235727BB06108"
+					item: {
+						Count: 1
+						id: "allthemodium:allthemodium_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of The Undead\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68A18CE16C45CE2B"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37590EC9826961A0"
+					table_id: 5196609362437981520L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "43275F9CD53111B2"
+				item: "allthetweaks:withers_compass"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.undead}"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.twilight_forest}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"7732CF7AAA63DB3A\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1B2898A31C297B58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B750078DB2B40BB"
+				table_id: 5564196992594175882L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "7B365A72AEF933E8"
+					item: "twilightforest:twilight_portal_miniature_structure"
+					type: "item"
+				}
+				{
+					id: "62980DBF3A15DDBF"
+					item: "twilightforest:snow_queen_trophy"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.twilight_forest}"
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["61D6C9461F10CCF1"]
+			hide_dependent_lines: true
+			id: "050AAD831C0AE375"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72FC7D1AF9A70E06"
+				table_id: 5564196992594175882L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F3FEF47C4141704"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 10000
+						}
+					}
+					id: "evilcraft:flesh_rejuvenated"
+					tag: {
+						Fluid: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+						}
+						capacity: 10000
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.flesh}"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: ["{atm9.quest.chapter2.desc.Edragon}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "22D716F330A6D4CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "762F3AE6F16DA659"
+				table_id: 1160439751879588774L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "68B5826F43FF807F"
+					item: "mysticalagradditions:dragon_scale"
+					type: "item"
+				}
+				{
+					id: "4A034A7FF01981D0"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "4B34B0C3998AFE57"
+					item: "ends_delight:dragon_tooth"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.Edragon}"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["519604E883E6B620"]
+			hide_dependent_lines: true
+			id: "4F1575600E7CD512"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4792CC80F9435757"
+				table_id: 5564196992594175882L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "21FEA5B3DD72F35D"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.wither_builder}"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.meka}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"23983F4DC524B14B\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide_dependency_lines: true
+			id: "1D7104AE853A3D86"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3747AFB7230A82E6"
+				table_id: 1160439751879588774L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "67FD7FB84A1DBDC1"
+				item: "mekanism:supercharged_coil"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.meka}"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.powah}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\"}, \"text\": \"Click here to check out the Powah questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide_dependency_lines: true
+			id: "42E5B5C27799DD93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B1FB78A3FA33030"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4F2E454789548772"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.powah}"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A912903E09F664F"]
+			hide_dependent_lines: true
+			id: "1AB8C28C9E991E1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B7E2E6658668E1A"
+				table_id: 5564196992594175882L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "65813D5BFDD8B8C0"
+				item: "ars_nouveau:summon_focus"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.FOS}"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.power}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"5D045EF1AB73DF70\"}, \"text\": \"Click here to check out the AllThePower questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			icon: {
+				Count: 1
+				id: "mekanism:creative_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "18446744073709551615.9999"
+						}]
+						componentConfig: {
+							config0: {
+								side0: 4
+								side1: 4
+								side2: 4
+								side3: 4
+								side4: 4
+								side5: 4
+							}
+						}
+					}
+				}
+			}
+			id: "1939BCB2920B6C34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "684BA81C3C2F509F"
+				table_id: 7384360297332422647L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "3C058B0D358129C8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanismgenerators:gas_burning_generator"
+							}
+							{
+								Count: 1b
+								id: "powah:reactor_nitro"
+							}
+							{
+								Count: 1b
+								id: "biggerreactors:turbine_terminal"
+							}
+							{
+								Count: 1b
+								id: "mekanismgenerators:turbine_casing"
+							}
+							{
+								Count: 1b
+								id: "mekanismgenerators:fusion_reactor_controller"
+							}
+						]
+					}
+				}
+				title: "Power Options"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.power}"
+			x: 3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: ["{atm9.quest.chapter2.desc.storage}"]
+			icon: "ars_nouveau:archwood_chest"
+			id: "0F0145C3745A796F"
+			rewards: [{
+				id: "4B30031FFD9A209B"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "2C89CEC05741A438"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.storage}"
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0F0145C3745A796F"]
+			description: [
+				"{atm9.quest.chapter2.desc.RS}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"15AAF17B6665223D\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			id: "6AF6A1985C103D9C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1011BA91B88F5B47"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0069AB004055D6C8"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.RS}"
+			x: -5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0F0145C3745A796F"]
+			description: [
+				"{atm9.quest.chapter2.desc.AE2}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"07210DDF872160BA\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			icon: "ae2:controller"
+			id: "3B13BBC38696D452"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3637FAAC93E84867"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7F1E31FC25B44926"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.AE2}"
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: ["{atm9.quest.chapter2.desc.resource_generation}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "botania:item/overgrowth_seed"
+				}
+			}
+			id: "46B515C90C13A72F"
+			rewards: [{
+				id: "600B88D837FD3BF2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "5E69BDE183E08FF3"
+				title: "Resource Gathering"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.chapter2.resource_generation}"
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["46B515C90C13A72F"]
+			description: [
+				"{atm9.quest.chapter2.desc.MA}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"5C764279146E5E66\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide_dependent_lines: true
+			id: "3FEA99DD35D4B7CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "173ABDF0ACD620DC"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0CECD87DB952DD82"
+				item: "mysticalagriculture:prosperity_seed_base"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.MA}"
+			x: 1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["46B515C90C13A72F"]
+			description: ["{atm9.quest.chapter2.desc.quarries}"]
+			id: "54E812911D10AA51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EE486F1C2467ABE"
+				table_id: 5564196992594175882L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2D7A911DC7E15861"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:digital_miner"
+								tag: {
+									mekData: {
+										EnergyContainers: [{
+											Container: 0b
+											stored: "50000"
+										}]
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "quarryplus:adv_quarry"
+							}
+							{
+								Count: 1b
+								id: "rftoolsbuilder:builder"
+							}
+						]
+					}
+				}
+				title: "Example Quarries"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.quarries}"
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["46B515C90C13A72F"]
+			description: [
+				"{atm9.quest.chapter2.desc.drills}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			id: "254DD23FB7AEB36B"
+			min_width: 300
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C217CC8B49274AF"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "3F9B24F1C49F64F7"
+					item: "industrialforegoing:ore_laser_base"
+					type: "item"
+				}
+				{
+					id: "4E4D168DD2B50586"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+				{
+					id: "65334074F9662481"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens0"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens1"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens2"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens3"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens4"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens5"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens6"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens7"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens8"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens9"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens10"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens11"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens12"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens13"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens14"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens15"
+								}
+							]
+						}
+					}
+					title: "Laser Lenses"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.drills}"
+			x: 2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["46B515C90C13A72F"]
+			description: ["{atm9.quest.chapter2.desc.mobs}"]
+			id: "258B387107AEB2EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58E01BB7B3F3820A"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1F32FCA856406E0C"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.mobs}"
+			x: -1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["46B515C90C13A72F"]
+			description: [
+				"{atm9.quest.chapter2.desc.bees}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"26E6ED94168A05C4\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			id: "6C329168001C1FB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "791EE9BD42034F29"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "46C2FEF2F2EF757D"
+				item: "productivebees:advanced_oak_beehive"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.bees}"
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["585502BC014E420F"]
+			description: ["{atm9.quest.chapter2.desc.next}"]
+			icon: "minecraft:dragon_egg"
+			id: "11B8C5F88DCB3BF5"
+			rewards: [
+				{
+					id: "42A7A77B539294C4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "280C7B91E4FBF3DA"
+					table_id: 6573526605066559568L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "60705F980E6AA8F3"
+				title: "What Happens Next?"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.chapter2.next}"
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2543F16043EE2777"]
+			description: ["{atm9.quest.chapter2.desc.summon_wilden}"]
+			id: "5A912903E09F664F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1188FD510EB6D524"
+				table_id: 5564196992594175882L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "530903C213BF36B3"
+					item: "ars_nouveau:ritual_wilden_summon"
+					type: "item"
+				}
+				{
+					id: "567A1EA88895482C"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.summon_wilden}"
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.ars}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\"}, \"text\": \"Click here to check out the Ars Nouveau questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide_dependency_lines: true
+			id: "2543F16043EE2777"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A8350A6C4F980BB"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "59C07F8A254D52B3"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.ars}"
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.evilcraft}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"3456E0C530C0038E\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide_dependency_lines: true
+			id: "61D6C9461F10CCF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CF4580AD43A8720"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "02FBDBA27AA86BD5"
+				item: "evilcraft:dark_gem"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.evilcraft}"
+			x: 6.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: ["{atm9.quest.chapter2.desc.ancient_pyramid}"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "rechiseled:block/basalt_chiseled_piglin"
+				}
+			}
+			id: "1149F92182DC2A54"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19D6EE918FCC3EDF"
+					table_id: 7384360297332422647L
+					type: "loot"
+				}
+				{
+					id: "4AE6F7370612B872"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "minecraft:textures/entity_icon/piglin/piglin.png"
+						}
+					}
+					id: "07853F746BBA3A90"
+					structure: "allthemodium:ancient_pyramid"
+					type: "structure"
+				}
+				{
+					id: "703C12DAC547F77A"
+					item: "allthemodium:piglich_heart"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.ancient_pyramid}"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.occultism}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"4C507C004144BFEE\"}, \"text\": \"Click here to check out the Occultism questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide_dependency_lines: true
+			id: "2435B6D970F48DF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "685233B5241D46B1"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6621F880669CE61F"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.occultism}"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1149F92182DC2A54"]
+			description: ["{atm9.quest.chapter2.desc.atm_alloys}"]
+			id: "1E7D0E40D0E2B026"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54EC504B38C7C50F"
+				table_id: 5564196992594175882L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "0CB3B9639823340E"
+					item: "allthemodium:vibranium_allthemodium_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "0B797FF932DF45C7"
+					item: "allthemodium:unobtainium_vibranium_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "5CDB842724724BB0"
+					item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.atm_alloys}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E7D0E40D0E2B026"]
+			id: "6A7495E7884FA8EE"
+			rewards: [
+				{
+					id: "77E93511635DA2ED"
+					item: {
+						Count: 1
+						id: "allthemodium:alloy_sword"
+						tag: {
+							Enchantments: [{ }]
+							display: {
+								Name: "[{\"text\":\"Master of The Alloy\",\"italic\":false}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0832E904C70196CD"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F13537600C66804"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1388FAB3BDCF16F3"
+					table_id: 1160439751879588774L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 28L
+				id: "3C29DD4BCE2918F0"
+				item: "allthemodium:unobtainium_allthemodium_alloy_block"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.star_casing}"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1D7104AE853A3D86"]
+			id: "1C5E273723637C43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2263FD9B1E31CD20"
+				table_id: 3660063683786346191L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 2L
+				id: "37C722DE31F0A015"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.antimatter}"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1C5E273723637C43"]
+			hide_dependent_lines: true
+			id: "7790E599B42A5DE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36FB8C57B092D8E9"
+				table_id: 7175652334583451871L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "097C872B90686AEC"
+				item: "mekanism:module_gravitational_modulating_unit"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.gravity}"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.IF}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide_dependency_lines: true
+			id: "68F03C08B1AE45FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A4A06675EC428D3"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "05CE516CF178AE2C"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.IF}"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: ["{atm9.quest.chapter2.desc.apotheosis}"]
+			hide_dependency_lines: true
+			id: "6EDC47E6F752C1C1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6260DD78BEACFBE6"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "3AFD7D64BD115224"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "387BB93C2590F167"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.apotheosis}"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.create1}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"100C477F4E63F20A\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+				""
+				"{atm9.quest.chapter2.desc.create2}"
+			]
+			hide_dependency_lines: true
+			id: "695A0DC585FB6E97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5310DFDE8D8A3922"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					count: 55L
+					id: "65487ADF2E5E3FD3"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+				{
+					id: "72BBD7FD2DD5001D"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.create}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["71E08AA81089133B"]
+			description: ["{atm9.quest.chapter2.desc.pressure}"]
+			id: "04C7B49076E48841"
+			min_width: 400
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "343DA561799ACE20"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					count: 95L
+					id: "444444887EC7E37A"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					id: "7ECD45FC2E6662E3"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "372FC49D78C412AC"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.pressure}"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["088D80D8790DBD90"]
+			description: ["{atm9.quest.chapter2.desc.air}"]
+			id: "71E08AA81089133B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FCDB75162B79682"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "5732E73D2DEF81B5"
+					item: "pneumaticcraft:air_compressor"
+					type: "item"
+				}
+				{
+					id: "484B6ACA3FD290CD"
+					item: "pneumaticcraft:pressure_tube"
+					type: "item"
+				}
+				{
+					id: "3D6515FCCAEE52FF"
+					item: "pneumaticcraft:security_upgrade"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.air}"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04C7B49076E48841"]
+			description: ["{atm9.quest.chapter2.desc.micromissiles}"]
+			hide_dependent_lines: true
+			id: "5D0C944F84E341BE"
+			min_width: 300
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D0326DE9BF49DFD"
+				table_id: 7384360297332422647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0DD59333451A797F"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:micromissiles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.micromissiles}"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["68F03C08B1AE45FF"]
+			description: ["{atm9.quest.chapter2.desc.stasis}"]
+			id: "519604E883E6B620"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E62239E9DA73829"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "154C8B03D23EE2D9"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.stasis}"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: ["{atm9.quest.chapter2.desc.IE}"]
+			hide_dependency_lines: true
+			id: "09EF804D70C856FB"
+			rewards: [
+				{
+					id: "13F7319EA0FDAF7A"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C06AF51480D9369"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "49F657420099FE3B"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.IE}"
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09EF804D70C856FB"]
+			description: ["{atm9.quest.chapter2.desc.creosote}"]
+			id: "11C0233861D3DD0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "694652EEC3639974"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "3908C778F8451988"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "immersiveengineering:creosote_bucket"
+								}
+								{
+									Count: 1b
+									id: "thermal:creosote_bucket"
+								}
+							]
+						}
+					}
+					title: "Creosote Oil Bucket"
+					type: "item"
+				}
+				{
+					id: "36E3BB50691AFC71"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:coal_coke"
+						}
+					}
+					title: "Coal Coke"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.creosote}"
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09EF804D70C856FB"]
+			description: ["{atm9.quest.chapter2.desc.multiblocks}"]
+			id: "27E52482C789280F"
+			min_width: 300
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A0FC8510A7D757A"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "27CA82E687C62455"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "7CB91E52B7869C16"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "79A1B15D5E9B7EF7"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "7E83A19A79A84906"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					id: "3336C0ED40FC863B"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "1C57789C3A972D26"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.multiblocks}"
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["323F39FC300F7E30"]
+			description: ["{atm9.quest.chapter2.desc.squeezer}"]
+			id: "0D2C935F99D1A1FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22DFBA01AA6FF8CE"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					advancement: "immersiveengineering:multiblocks/mb_squeezer"
+					criterion: ""
+					id: "26DE65A66FF69193"
+					title: "Squeezer"
+					type: "advancement"
+				}
+				{
+					id: "596E49E5EE0F44F5"
+					item: "immersiveengineering:ingot_hop_graphite"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.squeezer}"
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D2C935F99D1A1FE"]
+			description: ["{atm9.quest.chapter2.desc.accumulater}"]
+			id: "1AADF0A1B42AD511"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AF8A4C5BDE29A2A"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6FADDCC83421C2C4"
+				item: "immersiveengineering:capacitor_hv"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.accumulater}"
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2CBEEDDD4B6DDDD9"
+				"1AADF0A1B42AD511"
+			]
+			description: ["{atm9.quest.chapter2.desc.railgun}"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "4A3DF999B969C875"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "337F2B0772BBEC49"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "74A6816D4BD7499C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "35A595D6801714C6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 3
+						}
+					}
+					id: "immersiveengineering:railgun"
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.railgun}"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11C0233861D3DD0C"]
+			description: ["{atm9.quest.chapter2.desc.workbench}"]
+			id: "33E3574096820D99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69731965BF9A046D"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "5268158EF72A8DDF"
+					item: "immersiveengineering:workbench"
+					type: "item"
+				}
+				{
+					id: "49A0BE7FB49B80DC"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "molds"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3692C36BE9007C82"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "components"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.workbench}"
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33E3574096820D99"]
+			description: ["{atm9.quest.chapter2.desc.coke}"]
+			id: "323F39FC300F7E30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1256F69093253D99"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "02C38FA962D8920F"
+				item: "immersiveengineering:dust_coke"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.coke}"
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27E52482C789280F"]
+			description: ["{atm9.quest.chapter2.desc.fermenter}"]
+			id: "20D4341820B44B91"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A7D49511C57F046"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_fermenter"
+				criterion: ""
+				id: "45723AB59D9FC1B7"
+				type: "advancement"
+			}]
+			title: "{atm9.quest.chapter2.fermenter}"
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["20D4341820B44B91"]
+			description: ["{atm9.quest.chapter2.desc.refinery}"]
+			id: "407E853A5B322E13"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19A197B2A7EE7C89"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					advancement: "immersiveengineering:multiblocks/mb_refinery"
+					criterion: ""
+					id: "3C054656AAF44209"
+					title: "Refinery"
+					type: "advancement"
+				}
+				{
+					id: "7978848A0670B07B"
+					item: "alltheores:silver_plate"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.refinery}"
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["407E853A5B322E13"]
+			description: ["{atm9.quest.chapter2.desc.duroplast}"]
+			id: "2CBEEDDD4B6DDDD9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63C417B7BDC73480"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "35D9EEB6824E3FF4"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+				{
+					id: "7CA6D658065E142C"
+					item: "immersiveengineering:mold_plate"
+					type: "item"
+				}
+				{
+					id: "35CB81CE67784F1C"
+					item: "immersiveengineering:plate_duroplast"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.duroplast}"
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"73990028197AF1AB"
+				"527453CD5A20AE38"
+				"43CE45F9FDDB91EE"
+				"048F2942436D3C46"
+				"6F598D9CFB915123"
+				"4775F7326720251E"
+				"32DC639415E45075"
+				"6EBCCC78DC682CC6"
+				"67E154DC24F54854"
+				"73CD6CE2B10830B9"
+			]
+			description: ["{atm9.quest.chapter2.desc.ATM_Star}"]
+			hide_dependency_lines: true
+			id: "464D0C17601E8A2B"
+			rewards: [
+				{
+					id: "1A44EDC903F8E8D7"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "382984099BD8DCEF"
+					item: "allthetweaks:trophy_atm"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B6504EB06DFE127"
+					table_id: 5196609362437981520L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58C6756E0DF327FF"
+					table_id: 6016109340720845000L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 4.0d
+			subtitle: "{atm9.quest.chapter2.atm_star}"
+			tasks: [{
+				id: "5F6988D125AAB233"
+				item: "allthetweaks:atm_star"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.ATM_Star}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.reactors}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"3C78926E5D301BA0\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "54277F570314DCE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26EE25A387A4BD5F"
+				table_id: 3660063683786346191L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "04C33E2E80CD12DB"
+				item: "bigreactors:insanite_block"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.reactors}"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.SG}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"1D42B373285DEF81\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0301633594309CC6"
+			tasks: [{
+				id: "305AAE40607BC719"
+				item: "silentgear:tyrian_steel_block"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.SG}"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.ad_astra}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"769974FDAD5DBEB1\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide_dependency_lines: true
+			id: "72B531D6BCCF42C4"
+			tasks: [{
+				id: "0D368F78760AB4A4"
+				item: {
+					Count: 1
+					id: "ad_astra:jet_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.ad_astra}"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "73EFADE932DFEF86"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7346A003BF86216F"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "64D4016789711CD6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7476D0F37A40883B"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "41BAF5BDC9300E5C"
+					item: {
+						Count: 1
+						id: "ironfurnaces:million_furnace"
+						tag: {
+							display: {
+								Name: "{\"extra\":[{\"color\":\"red\",\"text\":\"R\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"b\"},{\"color\":\"red\",\"text\":\"o\"},{\"color\":\"red\",\"text\":\"w\"},{\"color\":\"light_purple\",\"text\":\" \"},{\"color\":\"yellow\",\"text\":\"F\"},{\"color\":\"green\",\"text\":\"u\"},{\"color\":\"aqua\",\"text\":\"r\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"green\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"c\"},{\"color\":\"green\",\"text\":\"e\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27BF6E9F246839D3"
+					item: "generatorgalore:ender_generator"
+					type: "item"
+				}
+				{
+					id: "5E585E35B88D84FD"
+					item: {
+						Count: 1
+						id: "exchangers:end_exchanger"
+						tag: {
+							Damage: 0
+							blockstate: {
+								Name: "minecraft:air"
+							}
+							directionalPlacement: 0b
+							forceDropItems: 0b
+							fuzzyPlacement: 0b
+							fuzzyPlacementChance: 100
+							mode: 0
+							range: 0
+							voidItems: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C5F97640A5789B6"
+					item: "mythicbotany:mjoellnir"
+					type: "item"
+				}
+				{
+					id: "241075340C282F2D"
+					item: "thermal_extra:rf_coil_xfer_augment_5"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.extras}"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: ["{atm9.quest.chapter2.desc.spells}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "124BDAF91DA74910"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1783642ADA73E65A"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "17586358EA27FD5D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7BB6AE1BDF0D3EB7"
+				item: "irons_spellbooks:fire_upgrade_orb"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.spells}"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.FA}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"34E8FF3196478229\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide_dependency_lines: true
+			id: "6126741150866837"
+			rewards: [{
+				id: "55CAAE378E2CA4A4"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "39C07D45FD0CA49C"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.FA}"
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6126741150866837"]
+			id: "652DBDD284873140"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C4FE8F69BB89990"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "6DE729E9004261D6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "52CD8FADF397FFDE"
+				item: "forbidden_arcanus:deorum_block"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.deorum}"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6126741150866837"]
+			id: "6F0DCB2CDD368088"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7DEF06C6761586A7"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "4A7E68819395F821"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2230AE5FB1D4E9D2"
+				item: "forbidden_arcanus:dark_rune_block"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.dark_rune}"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"652DBDD284873140"
+				"6F0DCB2CDD368088"
+			]
+			hide_dependent_lines: true
+			id: "153F111B4CCC850B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C9C1AF5F94A5DB1"
+					table_id: 1160439751879588774L
+					type: "loot"
+				}
+				{
+					id: "562028607C486543"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3D3372C05B445DFA"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.eternal_stella}"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.blood}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"004F28C5C85F467B\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "69E96EE9A9A2F423"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6938E6A0EDA27E1E"
+					table_id: 7384360297332422647L
+					type: "loot"
+				}
+				{
+					id: "5078761CFC27F622"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4113D575E1B1E4D2"
+				item: "bloodmagic:speedrune2"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.blood}"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.botania}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"1883B79BDB2AAE5D\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5FD3C68D5F218D02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DDC227CE0E4E38A"
+				table_id: 7384360297332422647L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "376DE283F77F6524"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.botania}"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: ["{atm9.quest.chapter2.desc.abyssal_sacrifice}"]
+			hide_dependency_lines: true
+			id: "266AB725974E464C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "64BBEADE9751EA07"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "4E373C8CD820DF3C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "405C2925273BB6EB"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter2.abyssal_sacrifice}"
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["11B8C5F88DCB3BF5"]
+			description: [
+				"{atm9.quest.chapter2.desc.void_forge1}"
+				""
+				"{@pagebreak}"
+				"{atm9.quest.chapter2.desc.void_forge2}"
+				""
+				"{@pagebreak}"
+				"{atm9.quest.chapter2.desc.void_forge3}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "cataclysm:void_forge"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D8ECACF214324D6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39D114E76CEEABE4"
+					table_id: 7025454341029952768L
+					type: "loot"
+				}
+				{
+					id: "1A79FDE89728BFC7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5C9D993FFFC365FB"
+					item: {
+						Count: 1
+						id: "cataclysm:infernal_forge"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "6C405D0E0582C1CD"
+					item: "cataclysm:mechanical_fusion_anvil"
+					type: "item"
+				}
+				{
+					id: "0E68CCFE6F5C9ADB"
+					item: "cataclysm:void_core"
+					type: "item"
+				}
+				{
+					id: "76FA4645607619E7"
+					item: {
+						Count: 1
+						id: "cataclysm:void_forge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter2.void_forge}"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["61D6C9461F10CCF1"]
+			hide_dependent_lines: true
+			id: "4F28DC3D905DDA3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37C823D0CF9BB38E"
+				table_id: 4196188979167302596L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2E3084BAD6A2F14B"
+				item: "evilcraft:piercing_vengeance_focus"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["61D6C9461F10CCF1"]
+			hide_dependent_lines: true
+			id: "03B12E7ED6B01F9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28D09BBF0DA5FFAB"
+				table_id: 5564196992594175882L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0B57A9CFEC9E5319"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 4000
+						}
+					}
+					id: "evilcraft:mace_of_destruction"
+					tag: {
+						Fluid: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+						}
+						capacity: 4000
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "7EA9E1D1890BC4BE"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "61C5E5E6742910D8"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "721E0D1C9071505A"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -10.0d
+		}
+	]
+	title: "{atm9.chapters.6.title}"
+}

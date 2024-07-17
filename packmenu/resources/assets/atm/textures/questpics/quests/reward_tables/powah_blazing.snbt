@@ -1,0 +1,19 @@
+{
+	id: "1C750D27FEF7C386"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ item: "powah:capacitor_hardened", random_bonus: 1, weight: 10.0f }
+		{ item: "powah:capacitor_blazing", random_bonus: 1, weight: 10.0f }
+		{ item: "powah:steel_energized", random_bonus: 1, weight: 25.0f }
+		{ item: "powah:crystal_blazing", random_bonus: 1, weight: 25.0f }
+		{ item: "powah:energy_cell_blazing" }
+		{ item: "powah:energy_cable_blazing", random_bonus: 2, weight: 10.0f }
+		{ item: "powah:energizing_rod_blazing", weight: 5.0f }
+		{ item: "powah:solar_panel_blazing" }
+		{ item: "powah:energized_steel_block", weight: 2.0f }
+		{ item: "powah:blazing_crystal_block" }
+	]
+	title: "Powah: Blazing Loot Reward"
+	use_title: true
+}

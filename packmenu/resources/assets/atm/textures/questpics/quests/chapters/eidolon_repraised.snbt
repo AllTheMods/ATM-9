@@ -1,0 +1,507 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eidolon_repraised"
+	group: "02FE661031A105D8"
+	icon: "eidolon:codex"
+	id: "1B8E80D09BFBD0C0"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{atm9.quest.eidolonRepraised.desc.intro.1}"
+				"{atm9.quest.eidolonRepraised.desc.intro.2}"
+				"{atm9.quest.eidolonRepraised.desc.intro.3}"
+				"{atm9.quest.eidolonRepraised.desc.intro.4}"
+			]
+			icon: "eidolon:codex"
+			id: "63E611810240C792"
+			rewards: [{
+				id: "1633A5863267257D"
+				item: "eidolon:codex"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.eidolonRepraised.subt.darkArts}"
+			tasks: [{
+				id: "15ED5ED72A7965B5"
+				title: "{atm9.quest.eidolonRepraised.welcome}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.eidolonRepraised.arsEcclesia}"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["63E611810240C792"]
+			description: [
+				"{atm9.quest.eidolonRepraised.desc.pewter.1}"
+				"{atm9.quest.eidolonRepraised.desc.pewter.2}"
+			]
+			id: "14E7D8E642DE7463"
+			rewards: [{
+				count: 8
+				id: "6BFFDB1E54F3378C"
+				item: "eidolon:pewter_ingot"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.eidolonRepraised.subt.denseAlloy}"
+			tasks: [{
+				id: "158C7AED9CD3E86A"
+				item: "eidolon:pewter_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14E7D8E642DE7463"]
+			description: [
+				"{atm9.quest.eidolonRepraised.desc.ritual.1}"
+				"{atm9.quest.eidolonRepraised.desc.ritual.2}"
+				"{atm9.quest.eidolonRepraised.desc.ritual.3}"
+			]
+			id: "158F13367C2E0C6D"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.rumblyTumbleys}"
+			tasks: [
+				{
+					id: "031FAAB3C7C5C8DB"
+					item: "eidolon:brazier"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "148FCAF279EB2ED4"
+					item: "eidolon:stone_hand"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["158F13367C2E0C6D"]
+			description: [
+				"{atm9.quest.eidolonRepraised.desc.workbench.1}"
+				"{atm9.quest.eidolonRepraised.desc.workbench.2}"
+			]
+			id: "1F317D3C47F4543B"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.normalWorkbench}"
+			tasks: [
+				{
+					id: "578D3B745F4E4831"
+					item: "eidolon:worktable"
+					type: "item"
+				}
+				{
+					id: "2E8C05046A579ED3"
+					item: "eidolon:pewter_inlay"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["158F13367C2E0C6D"]
+			description: [
+				"{atm9.quest.eidolonRepraised.desc.crystallization.1}"
+				"{atm9.quest.eidolonRepraised.desc.crystallization.2}"
+				"{atm9.quest.eidolonRepraised.desc.crystallization.3}"
+			]
+			id: "19E0397F810D8787"
+			rewards: [{
+				count: 8
+				id: "0DF6391080C32CAA"
+				item: "eidolon:soul_shard"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.eidolonRepraised.subt.undeadVibes}"
+			tasks: [{
+				id: "238EAD6EF1ACEF40"
+				item: "eidolon:soul_shard"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1F317D3C47F4543B"]
+			description: [
+				"{atm9.quest.eidolonRepraised.desc.crucible.1}"
+				"{atm9.quest.eidolonRepraised.desc.crucible.2}"
+				""
+				"{atm9.quest.eidolonRepraised.desc.crucible.3}"
+				"{atm9.quest.eidolonRepraised.desc.crucible.4}"
+				"{atm9.quest.eidolonRepraised.desc.crucible.5}"
+				"{atm9.quest.eidolonRepraised.desc.crucible.6}"
+			]
+			id: "704184F62CA78E1E"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.complicated}"
+			tasks: [{
+				id: "1852A283F796E3F8"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["704184F62CA78E1E"]
+			description: [
+				"{atm9.quest.eidolonRepraised.desc.arcaneGold.1}"
+				"{atm9.quest.eidolonRepraised.desc.arcaneGold.2}"
+				"{atm9.quest.eidolonRepraised.desc.arcaneGold.3}"
+				"{atm9.quest.eidolonRepraised.desc.arcaneGold.4}"
+				"{atm9.quest.eidolonRepraised.desc.arcaneGold.5}"
+			]
+			id: "4224CC1F101E4069"
+			rewards: [{
+				count: 4
+				id: "614320CA7EE28596"
+				item: "eidolon:arcane_gold_ingot"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.eidolonRepraised.subt.magicalGold}"
+			tasks: [{
+				id: "25257D6AE74BDAE8"
+				item: "eidolon:arcane_gold_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["704184F62CA78E1E"]
+			description: [
+				"{atm9.quest.eidolonRepraised.desc.chanting.1}"
+				"{atm9.quest.eidolonRepraised.desc.chanting.2}"
+				"{atm9.quest.eidolonRepraised.desc.chanting.3}"
+				"{atm9.quest.eidolonRepraised.desc.chanting.4}"
+				"{atm9.quest.eidolonRepraised.desc.chanting.5}"
+			]
+			id: "54423ED491F170B5"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.hayHooZaeLa}"
+			tasks: [
+				{
+					id: "5252EBBF0EAAAA46"
+					item: "eidolon:straw_effigy"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "229DCAEB0CCEB98D"
+					item: "eidolon:wooden_altar"
+					type: "item"
+				}
+				{
+					id: "58932969AB4DC25C"
+					item: "eidolon:goblet"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.eidolonRepraised.darkWorship}"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54423ED491F170B5"]
+			description: [
+				"{atm9.quest.eidolonRepraised.desc.animalSacrifice.1}"
+				"{atm9.quest.eidolonRepraised.desc.animalSacrifice.2}"
+				"{atm9.quest.eidolonRepraised.desc.animalSacrifice.3}"
+				"{atm9.quest.eidolonRepraised.desc.animalSacrifice.4}"
+			]
+			id: "4699B9569F9E65A0"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.darknessFlow}"
+			tasks: [{
+				id: "4FEA60CE9D5B55D0"
+				item: "eidolon:unholy_symbol"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4699B9569F9E65A0"]
+			description: [
+				"{atm9.quest.eidolonRepraised.desc.upgradeAltar.1}"
+				"{atm9.quest.eidolonRepraised.desc.upgradeAltar.2}"
+				"{atm9.quest.eidolonRepraised.desc.upgradeAltar.3}"
+			]
+			id: "29ED1116682B0D10"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.authenticStone}"
+			tasks: [
+				{
+					id: "663CAF4D8465C3EA"
+					item: "eidolon:stone_altar"
+					type: "item"
+				}
+				{
+					id: "576A96AD2808C6D3"
+					item: "eidolon:unholy_effigy"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4699B9569F9E65A0"]
+			description: [
+				"{atm9.quest.eidolonRepraised.desc.scytheFeatures.1}"
+				"{atm9.quest.eidolonRepraised.desc.scytheFeatures.2}"
+				"{atm9.quest.eidolonRepraised.desc.scytheFeatures.3}"
+			]
+			id: "609DC65F437B72F1"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.burning}"
+			tasks: [{
+				id: "6C74160C4B74BE50"
+				item: {
+					Count: 1
+					id: "eidolon:reaper_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4699B9569F9E65A0"]
+			description: ["{atm9.quest.eidolonRepraised.desc.axeFeatures}"]
+			id: "2CA71999959C0184"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.givesHead}"
+			tasks: [{
+				id: "3E7EFAF49B775EE7"
+				item: {
+					Count: 1
+					id: "eidolon:cleaving_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["704184F62CA78E1E"]
+			id: "75903AEA7C36C209"
+			tasks: [{
+				id: "3B8ED7645C39F42F"
+				item: "eidolon:shadow_gem"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["704184F62CA78E1E"]
+			description: [""]
+			id: "691A7545CC65BEAE"
+			tasks: [{
+				id: "6205A7CD340F55EC"
+				item: "eidolon:lesser_soul_gem"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19741B9F0C926D68"]
+			description: ["{atm9.quest.eidolonRepraised.desc.armorFeatures}"]
+			id: "3FB61F95260D6B7B"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.lookPart}"
+			tasks: [
+				{
+					id: "7089173717BAE4EB"
+					item: {
+						Count: 1
+						id: "eidolon:warlock_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FCBCFBD2BFF4DE8"
+					item: {
+						Count: 1
+						id: "eidolon:warlock_cloak"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AB3C0AD792A8AD3"
+					item: {
+						Count: 1
+						id: "eidolon:warlock_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.eidolonRepraised.warlocksSuit}"
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4699B9569F9E65A0"
+				"75903AEA7C36C209"
+			]
+			id: "19741B9F0C926D68"
+			tasks: [{
+				id: "4D34FF4F4E5B076C"
+				item: "eidolon:wicked_weave"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["691A7545CC65BEAE"]
+			id: "17740696B9284520"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.terrariaComparison}"
+			tasks: [{
+				id: "05B7B38C6F1C626A"
+				item: {
+					Count: 1
+					id: "eidolon:soulfire_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["691A7545CC65BEAE"]
+			id: "5DC9848CC15DCACB"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.chillThrill}"
+			tasks: [{
+				id: "5507C36A909C47F6"
+				item: {
+					Count: 1
+					id: "eidolon:bonechill_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19741B9F0C926D68"]
+			description: ["{atm9.quest.eidolonRepraised.desc.charmReach}"]
+			id: "1F09F091F5CF4711"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.touchFaith}"
+			tasks: [{
+				id: "16645F2195151BDD"
+				item: "eidolon:prestigious_palm"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["691A7545CC65BEAE"]
+			description: ["{atm9.quest.eidolonRepraised.desc.ringChallenge}"]
+			id: "56CD54A4422FF473"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.cursedRingWarning}"
+			tasks: [{
+				id: "63B1DB35E2D14E6F"
+				item: "eidolon:glass_hand"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4224CC1F101E4069"]
+			description: [
+				"{atm9.quest.eidolonRepraised.desc.enchanterFeatures.1}"
+				"{atm9.quest.eidolonRepraised.desc.enchanterFeatures.2}"
+				"{atm9.quest.eidolonRepraised.desc.enchanterFeatures.3}"
+			]
+			id: "04C01A5FF3DAC326"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.gatewayApotheosis}"
+			tasks: [{
+				id: "5DADA59471D036E5"
+				item: "eidolon:soul_enchanter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["158F13367C2E0C6D"]
+			description: ["{atm9.quest.eidolonRepraised.desc.holySymbol}"]
+			id: "3A88906FC2E72528"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.forgotFlintSteel}"
+			tasks: [{
+				id: "308A6145877C4E0A"
+				item: "bloodmagic:holy_water_anointment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "464B5B65C68402C6"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "368F3AF2A6A780BB"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "267C5419DA4AD7E8"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "{atm9.chapters.51.title}"
+}

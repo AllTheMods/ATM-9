@@ -1,0 +1,1602 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pneumaticcraft"
+	group: "2B51AC12041E3F89"
+	icon: {
+		Count: 1
+		id: "pneumaticcraft:pneumatic_wrench"
+		tag: {
+			"pneumaticcraft:air": 30000
+		}
+	}
+	id: "5E31DF282998B992"
+	images: [
+		{
+			height: 0.3d
+			hover: ["ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 3.6d
+			y: 3.6d
+		}
+		{
+			height: 0.3d
+			hover: ["ATM Star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 23.5d
+			y: 3.0d
+		}
+		{
+			height: 6.0d
+			image: "atm:textures/questpics/pncraft/pressure_chamber.png"
+			rotation: 0.0d
+			width: 10.64d
+			x: 2.0d
+			y: 7.0d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{atm9.quest.chapter2.desc.PC}"]
+			hide_dependency_lines: false
+			id: "371A34B297C8A8EF"
+			rewards: [
+				{
+					id: "2DA556E49F7B831C"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "pneumaticcraft:book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3124670994EF9DD3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.5d
+			subtitle: "The Power of Air"
+			tasks: [{
+				id: "1D5049AE4BC0BA39"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			title: "PneumaticCraft: Repressurized"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["371A34B297C8A8EF"]
+			description: ["One of the most basic materials you'll be needing until the end of PneumaticCraft is Reinforced Stone, start by making 64 using Compressed Iron and some regular stone."]
+			id: "65E2AF881709C896"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "11E94BE1AC95B807"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "You'll need a lot of this"
+			tasks: [{
+				count: 64L
+				id: "052A7C7918C3A0D5"
+				item: "pneumaticcraft:reinforced_stone"
+				type: "item"
+			}]
+			title: "Reinforced Stone"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["371A34B297C8A8EF"]
+			description: ["&3Compressed Iron&r can also be used for some fairly cheap armour. (Same defence as iron)."]
+			hide: true
+			icon: {
+				Count: 1
+				id: "pneumaticcraft:compressed_iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D64250B940BC8FD"
+			optional: true
+			rewards: [{
+				id: "47450D97FBA340DA"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Great Knockback Resistance"
+			tasks: [
+				{
+					id: "304A15731EA889F5"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:compressed_iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3916C13A250BB5E9"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:compressed_iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "044425D8D6512ED7"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:compressed_iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43DC656348DC56EB"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:compressed_iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Compressed Iron Armour"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["371A34B297C8A8EF"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Is that even possible?"
+				""
+				" If you wish to automate this process you can use &aMystical Agriculture&r or&a Productive Bees&r. Or I guess you could automate it, with...explosions."
+			]
+			hide: true
+			hide_dependency_lines: false
+			id: "6FD65139CD50A8C0"
+			min_required_dependencies: 1
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "6318CBE3EBAB4501"
+					item: "pneumaticcraft:ingot_iron_compressed"
+					type: "item"
+				}
+				{
+					id: "5BDFCB2DDCBA2C60"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Tired of blowing stuff up?"
+			tasks: [{
+				id: "47CC78B479496E5B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mysticalagriculture:compressed_iron_seeds"
+							}
+							{
+								Count: 1b
+								id: "productivebees:configurable_honeycomb"
+								tag: {
+									EntityTag: {
+										type: "productivebees:compressed_iron"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Automating Compressed Iron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["371A34B297C8A8EF"]
+			description: [
+				"To move pressure you will need to obtain &3Pressure Tubes&r. What pressure you may be asking? Continue the questline to see what these are used for."
+				""
+				" Can hold 5 bars of pressure."
+			]
+			id: "40F634AC38F42B88"
+			rewards: [{
+				id: "20D7C503FDC3A6EF"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "No pressure to move?"
+			tasks: [{
+				count: 16L
+				id: "78082DDA22FC7B9B"
+				item: { Count: 16, id: "pneumaticcraft:pressure_tube" }
+				type: "item"
+			}]
+			title: "Moving Pressure"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E16CF590C911129"]
+			description: ["When making pressure in an air compressor, if you don't have anywhere for the pressure to go. it will just disappear. Make sure you have somewhere for the pressure to go before making some."]
+			hide: true
+			id: "7B2008977702D0C8"
+			rewards: [{
+				id: "75CB05A0CB74D837"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "What happened to RF and FE?"
+			tasks: [{
+				id: "1EEC7B67E037F766"
+				type: "checkmark"
+			}]
+			title: "Pressure"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"122EDEC12C9A05D2"
+				"1A4235F0155E423F"
+			]
+			description: [
+				"The &3Pressure Chamber&r is an important multiblock structure made up of &3Pressure Chamber Walls&r (The faces can be replaced with &3Pressure Chamber Glass&r). While the Pressure Chamber can be as small as a 3x3x3 multiblock, the one required for the&d Pulsating Black Hole&r is 5x5x5, so it's the one we'll be building. The blocks required for this are what's needed for the quest. 4.9 bars of pressure are required for the &dPulsating Black Hole.&d"
+				""
+				" To use the Pressure Chamber you will need to pipe pressure into a &3Pressure Chamber Valve&r using the &3Pressure Tubes&r you made earlier, remember to put a &3Security Upgrade&r into the valve. &lDifferent recipes require different abouts of pressure.&r Valves can hold 5 bars of pressure."
+				""
+				" You'll need to be able to input and output items to and from the &3Pressure Chamber&r, this is where &3 Pressure Chamber Interfaces&r come into it. Blue on the outside means it's for importing items, while if gold is on the outside it's for outputing items."
+				""
+				" The image below is of a basic Presure Chamber setup needed for the Star. "
+			]
+			icon: "pneumaticcraft:pressure_chamber_interface"
+			id: "63F6F4EBCEB914B0"
+			min_width: 400
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7012FFD55CCA8159"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "45269DDD98AF8F44"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Finally using pressure"
+			tasks: [
+				{
+					count: 95L
+					id: "50C621641241CF5F"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					id: "0ED2199E0628F442"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "22F4EC53E46518B1"
+					item: { Count: 2, id: "pneumaticcraft:pressure_chamber_interface" }
+					type: "item"
+				}
+			]
+			title: "The Pressure Chamber"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E16CF590C911129"]
+			dependency_requirement: "all_started"
+			description: [
+				"Did I forget to mention everything can blow up..."
+				""
+				" Luckily there's an easy solution! The &3Security Upgrade&r when placed in a machine makes sure they don't explode, put these into any machines they can go into."
+			]
+			id: "122EDEC12C9A05D2"
+			rewards: [{
+				id: "07C82A0546EC5615"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "If only there was an easy solution..."
+			tasks: [{
+				count: 2L
+				id: "6914FD46650A6B01"
+				item: { Count: 2, id: "pneumaticcraft:security_upgrade" }
+				type: "item"
+			}]
+			title: "Preventing explosions?"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["65E2AF881709C896"]
+			description: ["Another important material in PneumaticCraft are Reinforced Bricks."]
+			id: "1A4235F0155E423F"
+			rewards: [{
+				id: "1CBEE5E4912578E1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Needed for the Pressure Chamber"
+			tasks: [{
+				count: 32L
+				id: "1B269498C9E0D29B"
+				item: "pneumaticcraft:reinforced_bricks"
+				type: "item"
+			}]
+			title: "Reinforced Bricks"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40F634AC38F42B88"]
+			description: [
+				"The &3Air Compressor&r is an easy way of making pressure, simply put some burnable items into it, and watch the magic happen! (I recommend making at least 3 of these to start off with)."
+				""
+				" Can hold 5 bars of pressure."
+			]
+			id: "3E16CF590C911129"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D013FB0ACF72659"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "3910C74FA3084536"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "PneumaticCraft's Power"
+			tasks: [{
+				id: "56A35164A8E072BE"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			title: "Making Pressure"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0AEAEA976ED0C470"]
+			description: ["The &3Pneumatic Wrench&r is used to move around or break your machines and tubes."]
+			icon: {
+				Count: 1
+				id: "pneumaticcraft:pneumatic_wrench"
+				tag: {
+					"pneumaticcraft:air": 30000
+				}
+			}
+			id: "4FCC20D9F8F87B2F"
+			rewards: [{
+				id: "7E4E5363AE1CA314"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "PneumaticCraft's Wrench"
+			tasks: [{
+				id: "46E93CA18CA750A4"
+				item: "pneumaticcraft:pneumatic_wrench"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["371A34B297C8A8EF"]
+			description: [
+				"These can be used in recipes using the bucketed version of &aPneumaticCraft&r liquids. "
+				" "
+				" When a fluid tank is put on top of another fluid tank and wrenched together they become one."
+				""
+				""
+				" 32,000mb Capacity. "
+				""
+				"{image:atm:textures/questpics/pncraft/double_fluid_tank.png width:200 height:100 align:1}"
+			]
+			id: "461C8F1E88AA58D9"
+			rewards: [{
+				id: "2E1ADC3288F58BC9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Used for storing liquids"
+			tasks: [{
+				id: "0E4936A2C65706CB"
+				item: "pneumaticcraft:small_tank"
+				type: "item"
+			}]
+			title: "Small Fluid Tank"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["461C8F1E88AA58D9"]
+			description: ["64,000mb Capcity."]
+			id: "4E1E31EDD544EE10"
+			rewards: [{
+				id: "5E623C1FCBEE2007"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Used for storing more liquid"
+			tasks: [{
+				id: "66A0A8D0385970E1"
+				item: "pneumaticcraft:medium_tank"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43CDC28DC56BB3E2"]
+			description: ["512,000mb Capacity."]
+			id: "0672462DA3599484"
+			rewards: [{
+				id: "19280C07F491B087"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Used for storing a LOT of liquid"
+			tasks: [{
+				id: "338B9093062C93C3"
+				item: "pneumaticcraft:huge_tank"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E1E31EDD544EE10"]
+			description: ["128,000mb Capacity."]
+			id: "43CDC28DC56BB3E2"
+			rewards: [{
+				id: "6C57AEA9C70325DA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Used for storing even more liquid"
+			tasks: [{
+				id: "4C8F07DD812CFC23"
+				item: "pneumaticcraft:large_tank"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"65E2AF881709C896"
+				"40F634AC38F42B88"
+			]
+			description: ["The &3Charging Station&r is used to charge various tools and gadgets in &aPneumaticCraft&r using pressure."]
+			id: "0AEAEA976ED0C470"
+			rewards: [{
+				id: "6091C7E2C525D57C"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Where's the cord?"
+			tasks: [{
+				id: "26885ED4036D69D2"
+				item: "pneumaticcraft:charging_station"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["371A34B297C8A8EF"]
+			description: ["This hopper can input items from any side and it's upgradable, (Nice for when pipes aren't needed)."]
+			id: "74015945716FD10A"
+			rewards: [{
+				id: "6679F18C96DA34A8"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "A configurable hopper"
+			tasks: [{
+				id: "6ABBA72726C25C03"
+				item: "pneumaticcraft:omnidirectional_hopper"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["371A34B297C8A8EF"]
+			description: ["A hopper, but for liquids, (you still need pipes)."]
+			id: "0FF050EC1EA6EAED"
+			rewards: [{
+				id: "728CBF682722CCE9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Who needs pipes?"
+			tasks: [{
+				id: "23CB951DCC261A67"
+				item: "pneumaticcraft:liquid_hopper"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"74015945716FD10A"
+				"0FF050EC1EA6EAED"
+			]
+			description: ["This acts as a hopper than can be placed inbetween containers."]
+			id: "187816477B732517"
+			rewards: [{
+				id: "37DCBDE1490F6D03"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Smaller Hopper"
+			tasks: [{
+				id: "3B651487D6138939"
+				item: "pneumaticcraft:transfer_gadget"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0AEAEA976ED0C470"]
+			description: ["The &3Manometer&r is used to show extra information about a machine."]
+			icon: {
+				Count: 1
+				id: "pneumaticcraft:manometer"
+				tag: {
+					"pneumaticcraft:air": 30000
+				}
+			}
+			id: "4CA17B0A80020B2F"
+			rewards: [{
+				id: "4D0C70DC51EA579B"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "An important tool"
+			tasks: [{
+				id: "772A9A02784FC672"
+				item: "pneumaticcraft:manometer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E16CF590C911129"]
+			description: ["Used to hide &aPneumaticCraft&r machinery inside blocks. Needs to be charged."]
+			icon: {
+				Count: 1
+				id: "pneumaticcraft:camo_applicator"
+				tag: {
+					"pneumaticcraft:air": 30000
+				}
+			}
+			id: "53518D4ED99A242F"
+			optional: true
+			rewards: [{
+				id: "75FD12C0A3A851B1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Want to make your setup pretty?"
+			tasks: [{
+				id: "2669B32EE3AEDEF8"
+				item: "pneumaticcraft:camo_applicator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63F6F4EBCEB914B0"]
+			description: ["The next stage of the mod requires the collection of &3Crude Oil&r. Oil can be found naturally on the surface of the overworld."]
+			id: "6CA01DCE1F4A0EC3"
+			rewards: [{
+				id: "12CAEEC46F847B22"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The path to Plastic"
+			tasks: [{
+				id: "6C705DCE141062B0"
+				item: "pneumaticcraft:oil_bucket"
+				type: "item"
+			}]
+			title: "Crude Oil"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6CA01DCE1F4A0EC3"]
+			description: [
+				"Although you can find oil on the surface, drilling is a great way to obtain a bunch of oil. First use a &3Seismic Sensor&r until you find oil underneath you, then use your &3Gas Lift&r filled with drill pipes to drill for oil. (This requires pressure to work)."
+				""
+				" Can hold 5 bars of pressure."
+				""
+				""
+				"{image:atm:textures/questpics/pncraft/gas_lift.png width:150 height:100 align:1}"
+			]
+			icon: "pneumaticcraft:gas_lift"
+			id: "0A912B2E2BE34920"
+			min_width: 300
+			rewards: [{
+				id: "7350B84EA2DE39ED"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Drilling for Oil"
+			tasks: [
+				{
+					id: "14E8E26455BB6C0F"
+					item: "pneumaticcraft:gas_lift"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4DFB6DCDCBFF7A2C"
+					item: { Count: 64, id: "pneumaticcraft:drill_pipe" }
+					type: "item"
+				}
+				{
+					id: "7325980352624229"
+					item: "pneumaticcraft:seismic_sensor"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6CA01DCE1F4A0EC3"
+				"75D3F3C1D4A3EAA2"
+			]
+			description: [
+				"The refinery we'll be making is a 1x1x5 multiblock made up of 1 &3Refinery Controller&r (at the bottom) and four &3Refinery Outputs&r (on top). You will need to input oil and heat for this to work. This will produce Diesel, Kerosene, Gasoline and LPG. Putting Thermal Laggings on the sides helps keep it warm."
+				""
+				""
+				"{image:atm:textures/questpics/pncraft/oil_refinery.png width:200 height:100 align:1}"
+			]
+			icon: "pneumaticcraft:refinery"
+			id: "72C09FD89C28B1EC"
+			min_width: 300
+			rewards: [{
+				id: "312FF67243749906"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Now we're getting somewhere"
+			tasks: [
+				{
+					id: "09F05931EFA39343"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "35E1DCDF9712B702"
+					item: { Count: 4, id: "pneumaticcraft:refinery_output" }
+					type: "item"
+				}
+				{
+					count: 19L
+					id: "77B3A5EDBE2053B2"
+					item: { Count: 19, id: "pneumaticcraft:thermal_lagging" }
+					type: "item"
+				}
+			]
+			title: "Oil Refinery"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2AED15E3AC0346FE"]
+			description: ["Used to speed up machines. (Stackable)."]
+			hide_dependency_lines: false
+			id: "456B9DD108CF340F"
+			rewards: [{
+				id: "295AEAF3B94B6D15"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "Speedy"
+			tasks: [{
+				id: "4B9E4AD4FDA66443"
+				item: "pneumaticcraft:speed_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6CA01DCE1F4A0EC3"]
+			description: ["The &3Vortex Tube&r seperates pressure into hot and cold air. The cold air goes to the blue side and the hot air goes to the red side."]
+			id: "5AEE86EB39FD4087"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38A26EA2B466C4C9"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "482E0F5F75A3B55E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Another form of power"
+			tasks: [{
+				id: "1E83B5E813F34290"
+				item: "pneumaticcraft:vortex_tube"
+				type: "item"
+			}]
+			title: "Heat Production"
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5AEE86EB39FD4087"]
+			description: [
+				"To increase your heat production, place a &3Heat Sink&r on the cold side of your vortex tube."
+				""
+				""
+				"{image:atm:textures/questpics/pncraft/heat_production.png width:150 height:100 align:1}"
+			]
+			hide_dependency_lines: false
+			id: "3F9CCCFEF4E84166"
+			rewards: [{
+				id: "0917234CA4DC922E"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "More heat"
+			tasks: [{
+				id: "2B250211827F00CD"
+				item: "pneumaticcraft:heat_sink"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5AEE86EB39FD4087"]
+			description: ["To move the heat being made by the &3Vortex Tube&r, make some &3Heat Pipes&r."]
+			id: "75D3F3C1D4A3EAA2"
+			rewards: [{
+				id: "6E628D4B7F8A68A3"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "We have the heat to move :)"
+			tasks: [{
+				id: "54D71DF75158990B"
+				item: "pneumaticcraft:heat_pipe"
+				type: "item"
+			}]
+			title: "Moving Heat"
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2AED15E3AC0346FE"]
+			description: ["Used to prevent explosions in machines"]
+			id: "5C7D9BCDF19B86BD"
+			shape: "rsquare"
+			subtitle: "Secure!"
+			tasks: [{
+				id: "4AC56C0C4FF91B28"
+				item: "pneumaticcraft:security_upgrade"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72C09FD89C28B1EC"]
+			id: "13F68CA518CD287C"
+			rewards: [{
+				id: "1828B23D3A4E2DA1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0987C92B24E85529"
+				item: "pneumaticcraft:diesel_bucket"
+				type: "item"
+			}]
+			title: "Diesel"
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72C09FD89C28B1EC"]
+			id: "2801B7B6BF61E978"
+			rewards: [{
+				id: "0BA81DF5FBB6614A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3C1F3C86CD5CD7EF"
+				item: "pneumaticcraft:kerosene_bucket"
+				type: "item"
+			}]
+			title: "Kerosene"
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72C09FD89C28B1EC"]
+			id: "423B8DA485C1308C"
+			rewards: [{
+				id: "33AF1485FB6614DE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "51B8052B00972CAE"
+				item: "pneumaticcraft:gasoline_bucket"
+				type: "item"
+			}]
+			title: "Gasoline"
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72C09FD89C28B1EC"]
+			hide_details_until_startable: false
+			id: "04BE9F63E6003475"
+			rewards: [{
+				id: "2B2F700F7B890006"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The most useful one"
+			tasks: [{
+				id: "67CB1F35E3D8F8E6"
+				item: "pneumaticcraft:lpg_bucket"
+				type: "item"
+			}]
+			title: "LPG"
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2801B7B6BF61E978"]
+			description: ["A great light source, (uses fuel)."]
+			id: "23737103592776C2"
+			rewards: [{
+				id: "2AF88B87BCF03A18"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Torches are nothing"
+			tasks: [{
+				id: "3DF0C08F91227D92"
+				item: "pneumaticcraft:kerosene_lamp"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["04BE9F63E6003475"]
+			description: ["The &3Thermopneumatic Processing Plant&r will be used to make Molten Plastic, simply pump in some LPG, coal and some heat."]
+			id: "43EF5513A1C52A37"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D80B18534B1D25A"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "2E8E0561B91C8059"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "The longer the name, the better"
+			tasks: [{
+				id: "79AE5C89B41B2E1D"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			title: "Thermopneumatic Processing"
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43EF5513A1C52A37"]
+			description: [
+				"Place your liquid plastic onto the ground and there's your plastic!"
+				""
+				" I swear there was no easier way..."
+			]
+			id: "54169B69725C49DF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "55BD3395DFBF3E3E"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "3C9125A623899492"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Finally!"
+			tasks: [{
+				id: "465E4DA026258598"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54169B69725C49DF"]
+			description: ["Ok, maybe there were easier ways of getting to this point..."]
+			id: "3F657CF4EBDDC3C4"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "148626E8BAC5BD2A"
+					item: "industrialforegoing:plastic"
+					type: "item"
+				}
+				{
+					id: "018B27861EF40AAF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "I would want to"
+			tasks: [{
+				id: "7D244ADE2C7FFA02"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mysticalagriculture:rubber_seeds"
+							}
+							{
+								Count: 1b
+								id: "productivebees:configurable_honeycomb"
+								tag: {
+									EntityTag: {
+										type: "productivebees:plastic"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Automating Plastic"
+				type: "item"
+			}]
+			title: "Automating Plastic"
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54169B69725C49DF"]
+			description: ["Now that we have plastic, the next step is getting some finished PCBs, first make some &3Empty PCBs&r in the &3Pressure Chamber&r."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "pneumaticcraft:item/empty_pcb"
+				}
+			}
+			id: "230463E830D6FFEB"
+			subtitle: "The path to PCBs"
+			tasks: [{
+				id: "071DA0091E3B96EA"
+				item: "pneumaticcraft:empty_pcb"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["43EF5513A1C52A37"]
+			description: ["Only use 1 lapis for an upgrade instead of 4."]
+			id: "5A9D6672385D3D82"
+			optional: true
+			subtitle: "Saving Lapis"
+			tasks: [{
+				id: "517D32E01C12B2AF"
+				item: "pneumaticcraft:upgrade_matrix"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["54169B69725C49DF"]
+			description: [
+				"We will need to order some stuff off Amadron using the &3Amadron Tablet&r in order to continue progression. To use it, shift-right click a chest and a fluid tank, put your currency in the linked chest (emeralds, etc) and order something. You'll see a drone come down to take your money and another drone come to drop off what you ordered."
+				"{image:atm:textures/questpics/pncraft/amadron_drone.png width:200 height:100 align:1}"
+			]
+			icon: {
+				Count: 1
+				id: "pneumaticcraft:amadron_tablet"
+				tag: {
+					"pneumaticcraft:air": 30000
+				}
+			}
+			id: "0D5015B8FF482D0A"
+			min_width: 300
+			subtitle: "I wonder if they have 1 day delivery?"
+			tasks: [{
+				id: "513D5A4104275DA8"
+				item: "pneumaticcraft:amadron_tablet"
+				type: "item"
+			}]
+			title: "Amadron"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"230463E830D6FFEB"
+				"0D5015B8FF482D0A"
+			]
+			description: ["&3PCB Blueprints&r On SALE NOW for 8 Emeralds. (For a limited time only)."]
+			id: "7040CA41C0A3C2F2"
+			subtitle: "Thanks Amadron!"
+			tasks: [{
+				id: "33C895A683077073"
+				item: "pneumaticcraft:pcb_blueprint"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7040CA41C0A3C2F2"]
+			description: [
+				"Place your &3Empty PCBs&r in here to charge them. Needs access to sunlight and pressure."
+				""
+				" Can hold 5 bars of pressure."
+				""
+				""
+				"{image:atm:textures/questpics/pncraft/uv_charging.png width:200 height:100 align:1}"
+			]
+			id: "2CC56A4F06E53307"
+			subtitle: "Still no charging cord?"
+			tasks: [{
+				id: "2F86488FC900EE22"
+				item: "pneumaticcraft:uv_light_box"
+				type: "item"
+			}]
+			title: "Charging with UVs"
+			x: 18.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2AED15E3AC0346FE"]
+			description: ["Makes machines despense items."]
+			id: "40924F0D64253A38"
+			shape: "rsquare"
+			subtitle: "Bye bye"
+			tasks: [{
+				id: "6CD14F28229D0B41"
+				item: "pneumaticcraft:dispenser_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2AED15E3AC0346FE"]
+			id: "2C5D78630C7AD57F"
+			shape: "rsquare"
+			subtitle: "Come Closer!"
+			tasks: [{
+				id: "0F12C13FEFE4EBB7"
+				item: "pneumaticcraft:range_upgrade"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2AED15E3AC0346FE"]
+			id: "74AE214747A3DB1A"
+			shape: "rsquare"
+			subtitle: "WHAT!?"
+			tasks: [{
+				id: "70EEE9EDA6FCC4E1"
+				item: "pneumaticcraft:volume_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			description: ["Below are some upgrades you can use early on in this mod."]
+			icon: "pneumaticcraft:upgrade_matrix"
+			id: "2AED15E3AC0346FE"
+			shape: "gear"
+			subtitle: "Very useful stuff"
+			tasks: [{
+				id: "0F9336DB2209D14C"
+				title: "Basic Upgrades"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2CC56A4F06E53307"]
+			description: ["The next step of making PCBs involves using the &3Etching Tank&r with &3Etching Acid&r. Requires heat to run."]
+			id: "0D2F5CC96269F9E3"
+			subtitle: "It's Etching Time"
+			tasks: [{
+				id: "642A986106FC39D5"
+				item: "pneumaticcraft:etching_tank"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CC56A4F06E53307"]
+			description: ["&3Etching Acid&r is made in the &3Pressure Chamber&r with &3Molten Plastic&r...and some other stuff. Used in the &3Etching Tank&r."]
+			id: "52D3697F1F5625C7"
+			subtitle: "Don't Ask"
+			tasks: [{
+				id: "4BA3DB05F9E0F440"
+				item: "pneumaticcraft:etching_acid_bucket"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"52D3697F1F5625C7"
+				"0D2F5CC96269F9E3"
+			]
+			description: ["Put a Charged &3Empty PCB&r into the &3Etching Tank&r with some &3Etching Acid&r and heat and you'll get an &3Unassembled PCBs&r."]
+			id: "602C3E88D96F8843"
+			subtitle: "Almost there!"
+			tasks: [{
+				id: "3D3BD61439134171"
+				item: "pneumaticcraft:unassembled_pcb"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54169B69725C49DF"]
+			hide_dependency_lines: true
+			id: "7D81F2381516204D"
+			subtitle: "Needed for the Finished PCB"
+			tasks: [{
+				count: 2L
+				id: "7E538C87D777B809"
+				item: "pneumaticcraft:transistor"
+				type: "item"
+			}]
+			title: "Transistors"
+			x: 24.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["54169B69725C49DF"]
+			hide_dependency_lines: true
+			id: "15D355EB164EBE68"
+			subtitle: "Needed for the Finished PCB"
+			tasks: [{
+				count: 2L
+				id: "6F954349AC36A8EE"
+				item: { Count: 2, id: "pneumaticcraft:capacitor" }
+				type: "item"
+			}]
+			title: "Capacitors"
+			x: 23.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"602C3E88D96F8843"
+				"15D355EB164EBE68"
+				"7D81F2381516204D"
+			]
+			description: ["Craft together your &3Unassmbled PCB&r, 2 &3Capacitors&r and 2 &3Transistors&r to get yourself a &3Finished PCB&r."]
+			id: "1427B3AB09510D20"
+			subtitle: "You did it!"
+			tasks: [{
+				id: "7227DF9A138EF8A4"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1427B3AB09510D20"]
+			description: ["This is as far as you need to get to make the &dPulsating Black Hole&r, Congrats for making it this far!"]
+			id: "6D124ACF4AE80490"
+			subtitle: "Needed for the ATM Star"
+			tasks: [{
+				id: "25DB01423306BCB0"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:micromissiles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Currently only goes up to what's needed for the ATM Star. Post quest promblems on the ATM9 Github page."
+				""
+				" All images will be replaced."
+			]
+			id: "10F3B9DD751C0FAE"
+			optional: true
+			size: 1.5d
+			subtitle: "More coming soon"
+			tasks: [{
+				id: "3EB401170F7A9EAA"
+				title: "WIP"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1427B3AB09510D20"]
+			description: ["Should have more quests in the next few weeks."]
+			id: "67F9CD96FF7981B4"
+			subtitle: "Coming Soon"
+			tasks: [{
+				id: "4F8AC39D07CB6CBF"
+				title: "Assembly Lines"
+				type: "checkmark"
+			}]
+			x: 25.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1A4235F0155E423F"]
+			description: [
+				"A blast-proof chest with 36 slots. Not double chestable. Works as a shulker box."
+				""
+				"IMAGE"
+			]
+			hide_dependency_lines: true
+			id: "3CFE522A4B7CC2EC"
+			subtitle: "Better than a regular chest"
+			tasks: [{
+				id: "418BD4DDE65D5FD7"
+				item: "pneumaticcraft:reinforced_chest"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3CFE522A4B7CC2EC"
+				"1427B3AB09510D20"
+			]
+			description: [
+				"A blast-proof chest with 72 slots, includes a built in, fully configuarble omnidirectional hopper and has upgrade slots. Not double chest-able. Works as a shulker box."
+				""
+				"IMAGE"
+			]
+			id: "440B1E1D4951F808"
+			subtitle: "The nerd of chests"
+			tasks: [{
+				id: "101850E9F188F7BD"
+				item: "pneumaticcraft:smart_chest"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["13F68CA518CD287C"]
+			description: ["Used to make &3Drill Bits&r."]
+			id: "520EFA7F446AFBF2"
+			rewards: [{
+				id: "4FF5D83D097BA4A5"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Not That..."
+			tasks: [{
+				id: "0434C940BC8BF492"
+				item: "pneumaticcraft:lubricant_bucket"
+				type: "item"
+			}]
+			title: "Lubricant"
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["43EF5513A1C52A37"]
+			description: ["&3Vegetable Oil&r can be made by putting either crops or seeds into a &3Thermopneumatic Processing Plant&r."]
+			id: "649167FC31EB916E"
+			rewards: [{
+				id: "27ACB6EDEED022E3"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Better Oil"
+			tasks: [{
+				id: "5CD3D552F51AEF08"
+				item: "pneumaticcraft:vegetable_oil_bucket"
+				type: "item"
+			}]
+			title: "Vegetable Oil"
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["649167FC31EB916E"]
+			description: ["For those British players."]
+			id: "42951D14ADCD9332"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DC57BD46422DC1A"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "3EBA7F4BC2FA0A73"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Fish \\& Chips!"
+			tasks: [{
+				id: "569BF001CEBF7853"
+				item: "pneumaticcraft:cod_n_chips"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["43EF5513A1C52A37"]
+			description: ["Why doesn't regualar bread need yeast? It's the yeast they could do."]
+			id: "0D31CD79BE6CC8D2"
+			optional: true
+			rewards: [{
+				id: "483C649D6E0B7498"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "For Sourdough"
+			tasks: [{
+				id: "0A0F2FE6667668B4"
+				item: "pneumaticcraft:yeast_culture_bucket"
+				type: "item"
+			}]
+			title: "Yeast"
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0D31CD79BE6CC8D2"]
+			id: "681A3F31FB242555"
+			optional: true
+			rewards: [{
+				id: "748ED8EA65AB310D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1975E8C092083491"
+				item: "pneumaticcraft:ethanol_bucket"
+				type: "item"
+			}]
+			title: "Ethanol"
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["681A3F31FB242555"]
+			description: ["&3Biodeisel&r can be used to make &3Lubricant&r and &3Molten Plastic&r."]
+			id: "39F142224D5210A9"
+			optional: true
+			rewards: [{
+				id: "7E1B0A4BD0FEFFF0"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Bio/Diesel"
+			tasks: [{
+				id: "57F34B947FB6AEE6"
+				item: "pneumaticcraft:biodiesel_bucket"
+				type: "item"
+			}]
+			title: "Biodeisel"
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0D31CD79BE6CC8D2"]
+			description: ["Made with &3Wheat Flour&r. Can be used to make Salmon Tempura and Sourdough Bread."]
+			id: "5A0860631323B5E3"
+			optional: true
+			rewards: [{
+				id: "41BB8B87911B6A29"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Want more explosions?"
+			tasks: [{
+				id: "398EB377CFF84584"
+				item: "pneumaticcraft:sourdough"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["371A34B297C8A8EF"]
+			description: [
+				"&3Crop Supports&r can be placed over your crops to make them grow faster."
+				""
+				"{image:atm:textures/questpics/pncraft/crop_support.png width:200 height:100 align:1}"
+			]
+			id: "21624A6500545C42"
+			rewards: [{
+				id: "68894C91072E1416"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Faster Crops"
+			tasks: [{
+				id: "71648EA7642F2F98"
+				item: "pneumaticcraft:crop_support"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54169B69725C49DF"]
+			description: ["Cool building blocks, be careful they hurt. Craft them again to make them smooth."]
+			icon: "pneumaticcraft:plastic_brick_red"
+			id: "482E558BCFEE6B7E"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75752AF6AA767E66"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "637378DC3202916F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "There's no pain worse than stepping on these"
+			tasks: [{
+				id: "25FF884779D98BAD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "pneumaticcraft:plastic_bricks"
+					}
+				}
+				title: "Construction Bricks™"
+				type: "item"
+			}]
+			title: "Construction Bricks™"
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "682BCE7AD73B2D45"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "0CD2482221534ED9"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "7AAE25A5D1C4E2FA"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "PneumaticCraft"
+}

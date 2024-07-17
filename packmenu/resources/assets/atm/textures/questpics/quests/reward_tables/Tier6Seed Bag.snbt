@@ -1,0 +1,31 @@
+{
+	icon: "mysticalagradditions:insanium_gemstone"
+	id: "32D89E2679C55D75"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ item: "mysticalagriculture:dragon_egg_seeds" }
+		{ item: "mysticalagriculture:nether_star_seeds" }
+		{ item: "mysticalagradditions:insanium_farmland", weight: 7.0f }
+		{ item: "mysticalagradditions:insanium_coal_block", weight: 5.0f }
+		{ item: "mysticalagradditions:insanium_essence", random_bonus: 1, weight: 5.0f }
+		{ item: "mysticalagradditions:insanium_ingot", weight: 7.0f }
+		{ item: "mysticalagradditions:insanium_gemstone", weight: 5.0f }
+		{ item: "mysticalagradditions:insanium_coal", random_bonus: 2, weight: 5.0f }
+		{ item: "mysticalagradditions:insanium_apple", random_bonus: 2, weight: 7.0f }
+		{ item: "mysticalagradditions:supremium_coal_block", weight: 5.0f }
+		{ item: "mysticalagriculture:supremium_furnace", weight: 3.0f }
+		{ item: "mysticalagriculture:supremium_farmland", weight: 10.0f }
+		{ item: "mysticalagriculture:supremium_gemstone", weight: 7.0f }
+		{ item: "mysticalagriculture:supremium_ingot", random_bonus: 2, weight: 10.0f }
+		{ item: "mysticalagriculture:supremium_essence", random_bonus: 3, weight: 10.0f }
+		{ item: "mysticalagriculture:flight_augment", weight: 3.0f }
+		{ item: "mysticalagriculture:terrasteel_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:enderium_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:netherite_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:emerald_seeds", weight: 5.0f }
+		{ item: "mysticalagriculture:diamond_seeds", weight: 7.0f }
+	]
+	title: "&dTier 6 Seed Bag"
+	use_title: true
+}

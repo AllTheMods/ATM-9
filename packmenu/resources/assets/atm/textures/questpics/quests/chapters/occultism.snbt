@@ -1,0 +1,1420 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "02FE661031A105D8"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "occultism:item/ritual_dummy"
+		}
+	}
+	id: "4C507C004144BFEE"
+	images: [
+		{
+			color: 15616811
+			height: 5.0d
+			image: "occultism:textures/item/pentacle.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			color: 16711680
+			height: 1.0d
+			image: "occultism:textures/gui/book/robe.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			color: 16711680
+			height: 1.0d
+			image: "occultism:textures/gui/book/robe.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.95d
+			y: 2.0d
+		}
+		{
+			color: 16711680
+			height: 1.0d
+			image: "occultism:textures/gui/book/robe.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			color: 16711680
+			height: 1.0d
+			image: "occultism:textures/gui/book/robe.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			color: 16711680
+			height: 1.0d
+			image: "occultism:textures/gui/book/robe.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			color: 255
+			height: 2.0d
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 2.0d
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			color: 255
+			height: 2.0d
+			image: "occultism:textures/gui/book/summoning.png"
+			order: -1
+			rotation: -30.0d
+			width: 2.0d
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			color: 16711680
+			height: 2.0d
+			image: "occultism:textures/gui/book/summoning.png"
+			order: -1
+			rotation: 90.0d
+			width: 2.0d
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			hover: ["{atm9.quest.occultism.shubNiggurathFamiliar}"]
+			image: "occultism:textures/gui/book/familiar_shub_niggurath.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			hover: ["{atm9.quest.occultism.drikwingFamiliar}"]
+			image: "occultism:textures/gui/book/otherworld_bird.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			alpha: 150
+			height: 2.0d
+			image: "occultism:block/stable_wormhole_frame"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.5d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "occultism:item/divination_rod/divination_rod_animation"
+			rotation: -45.0d
+			width: 2.0d
+			x: 12.5d
+			y: 14.0d
+		}
+		{
+			height: 0.5d
+			image: "occultism:block/chalk_glyph/0"
+			rotation: 0.0d
+			width: 0.5d
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			color: 6111187
+			height: 0.5d
+			image: "occultism:block/chalk_glyph/11"
+			rotation: 0.0d
+			width: 0.5d
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			color: 16711680
+			height: 0.5d
+			image: "occultism:block/chalk_glyph/12"
+			rotation: 0.0d
+			width: 0.5d
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			color: 16766720
+			height: 0.5d
+			image: "occultism:block/chalk_glyph/4"
+			rotation: 0.0d
+			width: 0.5d
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			hover: ["{atm9.quest.occultism.berserker}"]
+			image: "occultism:textures/gui/book/familiar_beholder.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 16.5d
+			y: 12.5d
+		}
+		{
+			height: 3.0d
+			hover: ["{atm9.quest.occultism.headlessRatman}"]
+			image: "occultism:textures/gui/book/familiar_headless_ratman.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.5d
+			y: 12.5d
+		}
+		{
+			height: 3.0d
+			image: "occultism:textures/gui/book/infusion.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			alpha: 100
+			height: 1.25d
+			image: "occultism:block/iesnium_block"
+			rotation: 45.0d
+			width: 1.25d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			height: 1.5d
+			image: "occultism:block/iesnium_block"
+			order: -1
+			rotation: 45.0d
+			width: 1.5d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			height: 9.0d
+			image: "atm:textures/questpics/occultism/maridlogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			color: 16766720
+			height: 0.5d
+			image: "occultism:block/chalk_glyph/8"
+			rotation: 0.0d
+			width: 0.5d
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			height: 0.3d
+			hover: ["{atm9.quest.ae2.img.star}"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 6.0d
+			y: 5.5d
+		}
+	]
+	order_index: 7
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{atm9.quest.occultism.desc.welcome.1}"
+				""
+				"{atm9.quest.occultism.desc.welcome.2}"
+				""
+				"{atm9.quest.occultism.desc.welcome.3}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "occultism:item/soul_gem"
+				}
+			}
+			id: "5316DF321B45D2CA"
+			rewards: [{
+				id: "042DA96F1C15434A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "4B0A4027FACE9108"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			title: "{atm9.quest.occultism.dreamingDemons}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5316DF321B45D2CA"]
+			description: [
+				"{atm9.quest.occultism.desc.dictionary.1}"
+				""
+				"{atm9.quest.occultism.desc.dictionary.2}"
+				""
+				"{atm9.quest.occultism.desc.dictionary.3}"
+			]
+			id: "6C1BBA559963B3DF"
+			rewards: [{
+				id: "3D748FF1571433F2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "15CDE30E1F7EBAD5"
+				item: {
+					Count: 1
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.occultism.littleBookDemons}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C1BBA559963B3DF"]
+			description: [
+				"{atm9.quest.occultism.desc.demonFruit.1}"
+				""
+				"{atm9.quest.occultism.desc.demonFruit.2}"
+				""
+				"{atm9.quest.occultism.desc.demonFruit.3}"
+			]
+			id: "47358ADC1470C82A"
+			rewards: [{
+				id: "3BB86ECD39545201"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.occultism.tripReady}"
+			tasks: [{
+				id: "0008773503CCA262"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			title: "{atm9.quest.occultism.demonFruit}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47358ADC1470C82A"]
+			description: [
+				"{atm9.quest.occultism.desc.flammableFruit.1}"
+				""
+				"{atm9.quest.occultism.desc.flammableFruit.2}"
+				""
+				"{atm9.quest.occultism.desc.flammableFruit.3}"
+			]
+			id: "3D41D0092D94636B"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 2
+					id: "5248E4D377A75048"
+					item: "occultism:datura"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "70852D7A479998AA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "occultism:block/spirit_fire_1"
+					}
+				}
+				id: "070E5E92D50F02D1"
+				observe_type: 0
+				timer: 0L
+				title: "{atm9.quest.occultism.observeSpiritfire}"
+				to_observe: "occultism:spirit_fire"
+				type: "observation"
+			}]
+			title: "{atm9.quest.occultism.flamesOtherworld}"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D41D0092D94636B"]
+			dependency_requirement: "one_completed"
+			description: [
+				"{atm9.quest.occultism.desc.spiritfireUse.1}"
+				""
+				"{atm9.quest.occultism.desc.spiritfireUse.2}"
+				""
+				"{atm9.quest.occultism.desc.spiritfireUse.3}"
+				""
+				"{atm9.quest.occultism.desc.spiritfireUse.4}"
+			]
+			hide: false
+			id: "4C873491F6F0FFAF"
+			min_width: 300
+			rewards: [
+				{
+					id: "70EE0C205B5B9BAC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "156CCC976E663623"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6656AD567687385A"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+				{
+					id: "2A1C88D9C4546A36"
+					item: {
+						Count: 1
+						id: "occultism:otherworld_sapling_natural"
+						tag: {
+							isInventoryItem: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "275C2B11FEFF527D"
+					item: "occultism:spirit_attuned_gem"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.occultism.spiritfireConversions}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C873491F6F0FFAF"]
+			description: [
+				"{atm9.quest.occultism.desc.candles.1}"
+				""
+				"{atm9.quest.occultism.desc.candles.2}"
+				""
+				"{atm9.quest.occultism.desc.candles.3}"
+				""
+				"{atm9.quest.occultism.desc.candles.4}"
+			]
+			hide_dependency_lines: true
+			id: "6581D4AF1A6DE230"
+			shape: "diamond"
+			tasks: [
+				{
+					count: 4L
+					id: "0EE813C344409F59"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "occultism:candle_white"
+								}
+								{
+									Count: 1b
+									id: "minecraft:candle"
+								}
+							]
+						}
+					}
+					title: "{atm9.quest.occultism.candles}"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "769255502E2FEAB4"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.occultism.preparingRitualCandles}"
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4C873491F6F0FFAF"]
+			description: [
+				"{atm9.quest.occultism.desc.ritualChalk.1}"
+				""
+				"{atm9.quest.occultism.desc.ritualChalk.2}"
+				""
+				"{atm9.quest.occultism.desc.ritualChalk.3}"
+				""
+				"{atm9.quest.occultism.desc.ritualChalk.4}"
+			]
+			hide_dependency_lines: true
+			id: "1B5177A774FCEF64"
+			min_width: 350
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2B674654193E542F"
+					item: "occultism:chalk_white_impure"
+					type: "item"
+				}
+				{
+					id: "370267FD8FDE9D4F"
+					item: {
+						Count: 1
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "476F220D083B2C99"
+					item: "occultism:brush"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.occultism.preparingRitualChalk}"
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C873491F6F0FFAF"]
+			description: [
+				"{atm9.quest.occultism.desc.sacrifice.1}"
+				""
+				"{atm9.quest.occultism.desc.sacrifice.2}"
+				""
+				"{atm9.quest.occultism.desc.sacrifice.3}"
+				""
+				"{atm9.quest.occultism.desc.sacrifice.4}"
+			]
+			hide_dependency_lines: true
+			id: "7F09F8F98C13F11B"
+			shape: "diamond"
+			tasks: [
+				{
+					count: 4L
+					id: "3A9C5AE548810FA6"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "0446B7C6DBB5DDF9"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.occultism.preparingRitualCrystals}"
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C873491F6F0FFAF"]
+			description: [
+				"{atm9.quest.occultism.desc.bookBinding.1}"
+				""
+				"{atm9.quest.occultism.desc.bookBinding.2}"
+			]
+			hide_dependency_lines: true
+			id: "0B3EA604C5172D98"
+			rewards: [{
+				id: "536B2ACB55CC979E"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1A30B91B185BB2A3"
+					item: "occultism:purified_ink"
+					type: "item"
+				}
+				{
+					id: "55135B05C01A5939"
+					item: "occultism:book_of_binding_foliot"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.occultism.booksBinding}"
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6581D4AF1A6DE230"
+				"0B3EA604C5172D98"
+				"7F09F8F98C13F11B"
+				"1B5177A774FCEF64"
+			]
+			description: [
+				"{atm9.quest.occultism.desc.firstRitual.1}"
+				""
+				"{atm9.quest.occultism.desc.firstRitual.2}"
+				""
+				"{atm9.quest.occultism.desc.firstRitual.3}"
+				""
+				"{atm9.quest.occultism.desc.firstRitual.4}"
+				""
+				"{atm9.quest.occultism.desc.firstRitual.5}"
+				""
+				"{atm9.quest.occultism.desc.firstRitual.6}"
+				""
+				"{image:atm:textures/questpics/occultism/aviarcircle.png width:200 height:200 align:1}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "occultism:block/chalk_glyph/7"
+				}
+			}
+			id: "4F35D04721DFC9FF"
+			min_width: 300
+			rewards: [{
+				id: "0BAC09BCF9644834"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "764B41E9502184D6"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Krtimaeus"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "52346C907A05F81F"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "2A95B8487590C044"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "1F30D0DAE19357A9"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "1EC7BD3BAC773EA7"
+					item: "alltheores:raw_silver"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.occultism.ourFirstRitual}"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7174A0CEC5CCC53B"]
+			description: ["{atm9.quest.occultism.desc.foliotCrusher}"]
+			id: "1DE0F289821F55D1"
+			rewards: [{
+				id: "1B9CD287CB41E0E8"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "41B3C10D0B8975EF"
+					item: "occultism:chalk_gold_impure"
+					type: "item"
+				}
+				{
+					id: "7CF12BB07B603BDF"
+					item: "occultism:chalk_purple_impure"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.occultism.chalkingItUp}"
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4F35D04721DFC9FF"]
+			description: [
+				"{atm9.quest.occultism.desc.foliotDemonFeatures.1}"
+				""
+				"{atm9.quest.occultism.desc.foliotDemonFeatures.2}"
+				""
+				"{atm9.quest.occultism.desc.foliotDemonFeatures.3}"
+				""
+				"{atm9.quest.occultism.desc.foliotDemonFeatures.4}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "occultism:item/advancement/devil_icon"
+				}
+			}
+			id: "7174A0CEC5CCC53B"
+			progression_mode: "linear"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79159F5C77200118"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "occultism:item/advancement/devil_icon"
+					}
+				}
+				id: "034F6D98DA7900BD"
+				observe_type: 5
+				timer: 0L
+				title: "{atm9.quest.occultism.observeFoliot}"
+				to_observe: "occultism:foliot"
+				type: "observation"
+			}]
+			title: "{atm9.quest.occultism.talkingNewFriend}"
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DE0F289821F55D1"]
+			description: [
+				"{atm9.quest.occultism.desc.soulGemFeatures.1}"
+				""
+				"{atm9.quest.occultism.desc.soulGemFeatures.2}"
+				""
+				"{atm9.quest.occultism.desc.soulGemFeatures.3}"
+			]
+			id: "08B1A64B01A8A604"
+			rewards: [{
+				id: "31005015E3D07048"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 4L
+					id: "6881D81F0E3CF9DC"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "20DA82068CC27F71"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "4D1D4DF4AE382EF5"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "68B346594C63FC5E"
+					item: "alltheores:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "594F7571F053C9EB"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Karnvires"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.occultism.capturingDemons}"
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1DE0F289821F55D1"]
+			description: [
+				"{atm9.quest.occultism.desc.afritFeatures.1}"
+				""
+				"{atm9.quest.occultism.desc.afritFeatures.2}"
+				""
+				"{atm9.quest.occultism.desc.afritFeatures.3}"
+				""
+				"{atm9.quest.occultism.desc.afritFeatures.4}"
+			]
+			icon: "occultism:afrit_essence"
+			id: "145C8235BCCB9BA8"
+			min_width: 300
+			rewards: [
+				{
+					id: "4E321912FBCD641F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52274E201F793220"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			subtitle: "{atm9.quest.occultism.subt.ripBetsy}"
+			tasks: [
+				{
+					id: "429FA6C2EA459597"
+					item: "occultism:afrit_essence"
+					type: "item"
+				}
+				{
+					id: "35F02CE88E956349"
+					item: "occultism:chalk_red_impure"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.occultism.hotDemons}"
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["08B1A64B01A8A604"]
+			description: ["{atm9.quest.occultism.desc.captureDemons}"]
+			id: "666EA8B8F13EB292"
+			rewards: [
+				{
+					id: "7D6E46BD52D37617"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "017A49F5F0062DCA"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1E44A3F521ED5DFC"
+				item: {
+					Count: 1
+					id: "occultism:soul_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.occultism.emptySoulGem}"
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1DE0F289821F55D1"]
+			description: [
+				"{atm9.quest.occultism.desc.otherworldItems.1}"
+				""
+				"{atm9.quest.occultism.desc.otherworldItems.2}"
+			]
+			id: "2A5004EB99AE4F96"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E54110F38710103"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "66AF59413C4ADCF3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "1ED2F7B4B900BDD1"
+				item: {
+					Count: 1
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.occultism.quitEatingFruit}"
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2A5004EB99AE4F96"]
+			description: [
+				"{atm9.quest.occultism.desc.newTools.1}"
+				""
+				"{atm9.quest.occultism.desc.newTools.2}"
+			]
+			id: "686AEC3EF1140D15"
+			rewards: [
+				{
+					id: "534ED82AE3739E75"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0905ED561E579042"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			size: 1.25d
+			tasks: [{
+				id: "73EA231C66874BB0"
+				item: {
+					Count: 1
+					id: "occultism:infused_pickaxe"
+					tag: {
+						Damage: 0
+						spiritName: "Raymirivyne"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{atm9.quest.occultism.newToolsForNewOres}"
+			x: 9.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["686AEC3EF1140D15"]
+			description: [
+				"{atm9.quest.occultism.desc.findIesnium.1}"
+				""
+				"{atm9.quest.occultism.desc.findIesnium.2}"
+				""
+				"{atm9.quest.occultism.desc.findIesnium.3}"
+				""
+				"{atm9.quest.occultism.desc.findIesnium.4}"
+				""
+				"{atm9.quest.occultism.desc.findIesnium.5}"
+				""
+				"{image:atm:textures/questpics/occultism/iesniumexample.png width:200 height:175 align:1}"
+			]
+			icon: "occultism:iesnium_ore"
+			id: "33106E24A3B5DDD8"
+			min_width: 450
+			rewards: [{
+				id: "5D7A367FA795C5B3"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2C341B16967645C9"
+				item: "occultism:iesnium_ore"
+				type: "item"
+			}]
+			title: "{atm9.quest.occultism.iesniumOreOtherworld}"
+			x: 11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["33106E24A3B5DDD8"]
+			description: [
+				"{atm9.quest.occultism.desc.useIesnium.1}"
+				""
+				"{atm9.quest.occultism.desc.useIesnium.2}"
+			]
+			id: "57282D7E31EE61EE"
+			rewards: [
+				{
+					id: "725142351E7457CF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61301974F1DCE7C4"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7FC0ED5732DFDCF2"
+				item: {
+					Count: 1
+					id: "occultism:iesnium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.occultism.otherworldPickaxe}"
+			x: 12.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"57282D7E31EE61EE"
+				"145C8235BCCB9BA8"
+			]
+			description: [
+				"{atm9.quest.occultism.desc.maridCrusher.1}"
+				""
+				"{atm9.quest.occultism.desc.maridCrusher.2}"
+			]
+			icon: "occultism:iesnium_block"
+			id: "676BC41C19BEF1FC"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "0B9447953960187F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4381289734981296"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			size: 1.25d
+			subtitle: "{atm9.quest.occultism.subt.fastestCrushing}"
+			tasks: [
+				{
+					id: "5E80B6869FE42D9F"
+					item: "occultism:iesnium_block"
+					type: "item"
+				}
+				{
+					id: "73801C9489E0E797"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_marid"
+						tag: {
+							spiritName: "Holmurkyr"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "occultism:item/advancement/devil_icon"
+						}
+					}
+					id: "5C0CF601CE8BDD2C"
+					observe_type: 5
+					timer: 0L
+					title: "{atm9.quest.occultism.observeMarid}"
+					to_observe: "occultism:marid"
+					type: "observation"
+				}
+			]
+			title: "{atm9.quest.occultism.maridCrusher}"
+			x: 15.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["57282D7E31EE61EE"]
+			description: [
+				"{atm9.quest.occultism.desc.demonMining.1}"
+				""
+				"{atm9.quest.occultism.desc.demonMining.2}"
+				""
+				"{atm9.quest.occultism.desc.demonMining.3}"
+			]
+			id: "172D2A634E849562"
+			min_width: 350
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "58CEC5830F3C7F46"
+					item: "occultism:dimensional_mineshaft"
+					type: "item"
+				}
+				{
+					id: "51F776CF868BABEF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "occultism:miner_foliot_unspecialized"
+									tag: {
+										Damage: 0
+										maxMiningTime: 400
+										rollsPerOperation: 1
+										spiritName: "Alddeller"
+									}
+								}
+								{
+									Count: 1b
+									id: "occultism:miner_djinni_ores"
+									tag: {
+										Damage: 0
+										maxMiningTime: 300
+										rollsPerOperation: 1
+										spiritName: "Raktimkyn"
+									}
+								}
+								{
+									Count: 1b
+									id: "occultism:miner_afrit_deeps"
+									tag: {
+										Damage: 0
+										maxMiningTime: 200
+										rollsPerOperation: 1
+										spiritName: "Zorkrinnkyn"
+									}
+								}
+								{
+									Count: 1b
+									id: "occultism:miner_marid_master"
+									tag: {
+										Damage: 0
+										maxMiningTime: 100
+										rollsPerOperation: 1
+										spiritName: "Eqis"
+									}
+								}
+							]
+						}
+					}
+					title: "{atm9.quest.occultism.miningDemons}"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.occultism.demonMining}"
+			x: 12.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1DE0F289821F55D1"]
+			description: [
+				"{atm9.quest.occultism.desc.dimensionalStorage.1}"
+				""
+				"{atm9.quest.occultism.desc.dimensionalStorage.2}"
+				""
+				"{atm9.quest.occultism.desc.dimensionalStorage.3}"
+				""
+				"{atm9.quest.occultism.desc.dimensionalStorage.4}"
+			]
+			id: "6CC5FE34778F0DFA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "043D3B960A3D67C4"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "3FFC1652AA52C6AE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1BBB313192F51FA8"
+					item: "occultism:storage_controller_base"
+					type: "item"
+				}
+				{
+					id: "13AB4282F7A3F28C"
+					item: {
+						Count: 1
+						id: "occultism:dimensional_matrix"
+						tag: {
+							spiritName: "Geirmaracthorn"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EDB733716D494CE"
+					item: "occultism:storage_controller"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.occultism.demonicMagicalStorage}"
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6CC5FE34778F0DFA"]
+			description: [
+				"{atm9.quest.occultism.desc.storageStabilizers.1}"
+				""
+				"{atm9.quest.occultism.desc.storageStabilizers.2}"
+				""
+				"{atm9.quest.occultism.desc.storageStabilizers.3}"
+				""
+				"{atm9.quest.occultism.desc.storageStabilizers.4}"
+				""
+				"{image:atm:textures/questpics/occultism/storageupgradeexample.png width:200 height:150 align:1}"
+			]
+			id: "42F50CE7FE715583"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70773C4F09CEE334"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "1AEF7C3C027531C5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "51F520BF7DA37873"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "occultism:storage_stabilizer_tier1"
+							}
+							{
+								Count: 1b
+								id: "occultism:storage_stabilizer_tier2"
+							}
+							{
+								Count: 1b
+								id: "occultism:storage_stabilizer_tier3"
+							}
+							{
+								Count: 1b
+								id: "occultism:storage_stabilizer_tier4"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.occultism.upgradingMagicalStorage}"
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3D41D0092D94636B"]
+			description: [
+				"{atm9.quest.occultism.desc.divinationRods.1}"
+				""
+				"{atm9.quest.occultism.desc.divinationRods.2}"
+				""
+				"{atm9.quest.occultism.desc.divinationRods.3}"
+				""
+				"{atm9.quest.occultism.desc.divinationRods.4}"
+			]
+			id: "78ECC28DD4BA9696"
+			tasks: [{
+				id: "13EAA435B27EA29D"
+				item: {
+					Count: 1
+					id: "occultism:divination_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.occultism.huntingOtherworldMaterials}"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CC5FE34778F0DFA"]
+			description: [
+				"{atm9.quest.occultism.desc.remoteAccess.1}"
+				""
+				"{atm9.quest.occultism.desc.remoteAccess.2}"
+				""
+				"{atm9.quest.occultism.desc.remoteAccess.3}"
+			]
+			id: "5831B3192C0E8C56"
+			rewards: [
+				{
+					id: "3CC49302B482FAE5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52721A6614C9C818"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "792FA8ED0719803C"
+					item: {
+						Count: 1
+						id: "occultism:stable_wormhole"
+						tag: { }
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "2ED65EBA5FFE2C2E"
+					item: {
+						Count: 1
+						id: "occultism:storage_remote"
+						tag: { }
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.occultism.remoteAccess}"
+			x: 16.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["08B1A64B01A8A604"]
+			description: [
+				"{atm9.quest.occultism.desc.demonsAndFamiliars.1}"
+				""
+				"{atm9.quest.occultism.desc.demonsAndFamiliars.2}"
+				""
+				"{atm9.quest.occultism.desc.demonsAndFamiliars.3}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_blacksmith.png"
+				}
+			}
+			id: "7F59941D62E672B0"
+			rewards: [{
+				id: "1FEDC70622D3F66B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6C3887D42B6B2122"
+				title: "{atm9.quest.occultism.familiars.1}"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.occultism.familiars.2}"
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "7AEDD120E5FB0729"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "0ACA8BB2546698AA"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "341C85E18D1FCC42"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "{atm9.chapters.44.title}"
+}

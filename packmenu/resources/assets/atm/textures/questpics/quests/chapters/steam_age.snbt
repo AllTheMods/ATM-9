@@ -1,0 +1,784 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_age"
+	group: "1DA67E79B40AB130"
+	icon: "gtceu:bronze_machine_casing"
+	id: "435C9D14D471D326"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.steamAgeIntro.1}"
+				""
+				"{atm9.quest.gregtech.desc.steamAgeIntro.2}"
+				""
+				"{atm9.quest.gregtech.desc.steamAgeIntro.3}"
+				""
+				"{atm9.quest.gregtech.desc.steamAgeIntro.4}"
+				""
+				"{atm9.quest.gregtech.desc.steamAgeIntro.5}"
+			]
+			icon: "alltheores:bronze_plate"
+			id: "4DE719FC2E4C69AB"
+			min_width: 250
+			rewards: [{
+				count: 4
+				id: "11D5E446B48BCB06"
+				item: "alltheores:bronze_plate"
+				random_bonus: 8
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.steamAgeBegin}"
+			tasks: [{
+				icon: "alltheores:bronze_plate"
+				id: "107ADEF19CD50661"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates/bronze"
+					}
+				}
+				title: "{atm9.quest.gregtech.bronzePlate}"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.theSteamAge}"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DE719FC2E4C69AB"]
+			description: [
+				"{atm9.quest.gregtech.desc.boilerOperation.1}"
+				""
+				"{atm9.quest.gregtech.desc.boilerOperation.2}"
+				""
+				"{atm9.quest.gregtech.desc.boilerOperation.3}"
+				""
+				"{atm9.quest.gregtech.desc.boilerOperation.4}"
+			]
+			id: "672B308FD1DC0F45"
+			min_width: 250
+			rewards: [
+				{
+					id: "7987E2F8CE314F65"
+					item: "minecraft:bricks"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4A0AA6262881DDAC"
+					item: "alltheores:bronze_plate"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "{atm9.quest.gregtech.subt.gettingSteamy}"
+			tasks: [{
+				id: "2D783271D8830D0E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lp_steam_solid_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lp_steam_liquid_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_solid_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_liquid_boiler"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.gregtech.anySteamBoiler}"
+				type: "item"
+			}]
+			title: "{atm9.quest.gregtech.steamBoiler}"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["672B308FD1DC0F45"]
+			description: [
+				"{atm9.quest.gregtech.desc.steamTransfer.1}"
+				""
+				"{atm9.quest.gregtech.desc.steamTransfer.2}"
+				""
+				"{atm9.quest.gregtech.desc.steamTransfer.3}"
+			]
+			id: "7F9131107E7F9AC8"
+			rewards: [{
+				count: 2
+				id: "62C8841452E17861"
+				item: "gtceu:bronze_small_fluid_pipe"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CF902E6B1C242C6"
+				item: "gtceu:bronze_small_fluid_pipe"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F9131107E7F9AC8"]
+			description: [
+				"{atm9.quest.gregtech.desc.fluidIngotProcessing.1}"
+				""
+				"{atm9.quest.gregtech.desc.fluidIngotProcessing.2}"
+			]
+			id: "48600733998CA349"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "760218D52AB7047B"
+				table_id: 4444697382338980938L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.fluidsAndMore}"
+			tasks: [{
+				id: "4A0FE858EDC3A2BA"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F9131107E7F9AC8"]
+			description: [
+				"{atm9.quest.gregtech.desc.maceratorIntro.1}"
+				""
+				"{atm9.quest.gregtech.desc.maceratorIntro.2}"
+			]
+			id: "0DA5BC8BA056B975"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "530E6E0767EF6F79"
+				table_id: 4444697382338980938L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.crushingAndGrinding}"
+			tasks: [{
+				id: "47A54220BCA6BC2C"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F9131107E7F9AC8"]
+			description: [
+				"{atm9.quest.gregtech.desc.crushingAndGrinding.1}"
+				""
+				"{atm9.quest.gregtech.desc.crushingAndGrinding.2}"
+				""
+				"{atm9.quest.gregtech.desc.crushingAndGrinding.3}"
+			]
+			id: "60CD82B8DE0D0CFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D54AC27062492A5"
+				table_id: 4444697382338980938L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.pressItRealGood}"
+			tasks: [{
+				id: "326CC07CDB0FAA28"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F9131107E7F9AC8"]
+			description: [
+				"{atm9.quest.gregtech.desc.forgeHammerUsage.1}"
+				""
+				"{atm9.quest.gregtech.desc.forgeHammerUsage.2}"
+			]
+			id: "3FE956C2968896DC"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4798DFD809E160E8"
+				table_id: 4444697382338980938L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.usefulForSquishing}"
+			tasks: [{
+				id: "731F6F20A3582633"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F9131107E7F9AC8"]
+			description: ["{atm9.quest.gregtech.desc.usefulForSquishing}"]
+			id: "6F15619C8A07E78A"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52B12E2432C25FC4"
+				table_id: 4444697382338980938L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.gregtech.subt.furnacesForEveryOccasion}"
+			tasks: [{
+				id: "3820B5F114B12CD5"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7F9131107E7F9AC8"]
+			description: [
+				"{atm9.quest.gregtech.desc.alloySmelterUsage.1}"
+				""
+				"{atm9.quest.gregtech.desc.alloySmelterUsage.2}"
+				""
+				"{atm9.quest.gregtech.desc.alloySmelterUsage.3}"
+				""
+				"{atm9.quest.gregtech.desc.alloySmelterUsage.4}"
+			]
+			id: "6ECBB6F5D0D99DEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "613040F2C64344D1"
+				table_id: 4444697382338980938L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "59A7DF75092E335E"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F9131107E7F9AC8"]
+			description: [
+				"{atm9.quest.gregtech.desc.stoneCreation.1}"
+				""
+				"{atm9.quest.gregtech.desc.stoneCreation.2}"
+			]
+			id: "489B77B85B000B39"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F255984F59E55A1"
+				table_id: 4444697382338980938L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4B1AA0FF29878B0E"
+				item: "gtceu:lp_steam_rock_crusher"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"73FC1166FBD6C30D"
+				"506360EEA2268E82"
+				"1E811D532BC593F2"
+				"49D740C5B5EB593C"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.lvMachines.1}"
+				""
+				"{atm9.quest.gregtech.desc.lvMachines.2}"
+				""
+				"{atm9.quest.gregtech.desc.lvMachines.3}"
+				""
+				"{atm9.quest.gregtech.desc.lvMachines.4}"
+			]
+			id: "219C80DAFBAB36B8"
+			min_width: 250
+			rewards: [
+				{
+					count: 4
+					id: "684F5DBBBF4DCC8C"
+					item: "gtceu:tin_single_cable"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6C6F241F645EC187"
+					item: "gtceu:basic_electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "05379BEF6C9E0574"
+					item: "gtceu:lv_machine_hull"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.finalBossSteam}"
+			tasks: [{
+				count: 32L
+				id: "74CFECDB943C6F6C"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.rubberFarming.1}"
+				""
+				"{atm9.quest.gregtech.desc.rubberFarming.2}"
+			]
+			hide_dependency_lines: true
+			id: "60069A897F2B0F78"
+			rewards: [
+				{
+					id: "3D206EFD430BE865"
+					item: "gtceu:rubber_sapling"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3C7C21E0AD257BCE"
+					item: "gtceu:sticky_resin"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6CCB612632B6F1AA"
+					item: "minecraft:slime_ball"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{atm9.quest.gregtech.subt.slimeFarm}"
+			tasks: [{
+				id: "6D9971A5B71CBD4F"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"48600733998CA349"
+				"60069A897F2B0F78"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.rubberTreeUses.1}"
+				""
+				"{atm9.quest.gregtech.desc.rubberTreeUses.2}"
+			]
+			id: "0D3DF9C8F742AE0D"
+			rewards: [{
+				count: 3
+				id: "7A37EBF9E1EA60D7"
+				item: "gtceu:raw_rubber_dust"
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C9EB5A9C4F84107"
+				item: "gtceu:raw_rubber_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ECBB6F5D0D99DEE"]
+			description: [
+				"{atm9.quest.gregtech.desc.glassTubeCreation.1}"
+				""
+				"{atm9.quest.gregtech.desc.glassTubeCreation.2}"
+			]
+			icon: "gtceu:glass_tube"
+			id: "7A62C1B9385DF643"
+			rewards: [{
+				count: 2
+				id: "094E4ABC1D1CF926"
+				item: "gtceu:glass_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7D6A7F80D911E032"
+					item: "gtceu:ball_casting_mold"
+					type: "item"
+				}
+				{
+					id: "6EB6D2BE3ADAC972"
+					item: "gtceu:glass_tube"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.gregtech.glassTube}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A62C1B9385DF643"]
+			description: ["{atm9.quest.gregtech.desc.crtTelevisions}"]
+			id: "506360EEA2268E82"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DF5FF7E955C0404"
+					table_id: 4444697382338980938L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "11BFF788180FEAFC"
+					item: "gtceu:steel_bolt"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27C43F4FBE72C8EA"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60069A897F2B0F78"]
+			description: ["{atm9.quest.gregtech.desc.resistorCrafting}"]
+			id: "73FC1166FBD6C30D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47EBCBABACD056C8"
+					table_id: 4444697382338980938L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "00E177F0C36E89F9"
+					item: "gtceu:copper_single_wire"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "{atm9.quest.gregtech.subt.ohmmmm}"
+			tasks: [{
+				id: "64598EA96BFA992A"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0D3DF9C8F742AE0D"
+				"6ECBB6F5D0D99DEE"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.sulfurAcquisition.1}"
+				""
+				"{atm9.quest.gregtech.desc.sulfurAcquisition.2}"
+			]
+			icon: "gtceu:rubber_ingot"
+			id: "71B1416A45FBBE40"
+			rewards: [
+				{
+					id: "785274FE73892E39"
+					item: "gtceu:rubber_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4F57BD95D084CD38"
+					item: "chemlib:sulfur_dust"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "48C19477CB216AD4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/sulfur"
+						}
+					}
+					title: "{atm9.quest.gregtech.sulfurDust}"
+					type: "item"
+				}
+				{
+					id: "7E516EDDAA975CC8"
+					item: "gtceu:rubber_ingot"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.gregtech.rubber}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"60CD82B8DE0D0CFE"
+				"30DA40DA0CEB05A0"
+			]
+			description: ["{atm9.quest.gregtech.desc.woodenDustCompression}"]
+			id: "57B4881AA36A1D76"
+			rewards: [{
+				id: "668BD43798C5A151"
+				item: "gtceu:wood_plate"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.plywood}"
+			tasks: [{
+				id: "61098A8012A228F5"
+				item: "gtceu:wood_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0DA5BC8BA056B975"]
+			description: ["{atm9.quest.gregtech.desc.woodDustProduction}"]
+			id: "30DA40DA0CEB05A0"
+			rewards: [{
+				count: 2
+				id: "10836E8996839998"
+				item: "gtceu:wood_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "0160C43AF8C68BDA"
+				item: "gtceu:wood_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["71B1416A45FBBE40"]
+			description: [
+				"{atm9.quest.gregtech.desc.rubberSheetProduction.1}"
+				""
+				"{atm9.quest.gregtech.desc.rubberSheetProduction.2}"
+			]
+			icon: "gtceu:rubber_plate"
+			id: "6CE157D05F59A994"
+			rewards: [{
+				id: "49F77B7C44DA42D0"
+				item: "gtceu:rubber_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61B056192AC9B3D6"
+					item: "gtceu:rubber_plate"
+					type: "item"
+				}
+				{
+					id: "11BCA8CFBA47D094"
+					item: "gtceu:plate_casting_mold"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"60069A897F2B0F78"
+				"57B4881AA36A1D76"
+			]
+			id: "3BEE6BE4F91FA1B0"
+			rewards: [{
+				id: "291A0BDB657730E2"
+				item: "gtceu:resin_circuit_board"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F521DD245848DC5"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3BEE6BE4F91FA1B0"]
+			description: ["{atm9.quest.gregtech.desc.breadboards}"]
+			id: "1E811D532BC593F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AF278948C957669"
+				table_id: 4444697382338980938L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6159C8627548752D"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4DE719FC2E4C69AB"]
+			description: [
+				"{atm9.quest.gregtech.desc.automationAdvice.1}"
+				""
+				"{atm9.quest.gregtech.desc.automationAdvice.2}"
+				"{atm9.quest.gregtech.desc.automationAdvice.3}"
+				"{atm9.quest.gregtech.desc.automationAdvice.4}"
+				"{atm9.quest.gregtech.desc.automationAdvice.5}"
+				""
+				"{atm9.quest.gregtech.desc.automationAdvice.6}"
+				""
+				"{atm9.quest.gregtech.desc.automationAdvice.7}"
+				""
+				"{atm9.quest.gregtech.desc.automationAdvice.8}"
+				""
+				"{atm9.quest.gregtech.desc.automationAdvice.9}"
+			]
+			id: "12F916CDC2FB7A79"
+			min_width: 350
+			rewards: [{
+				id: "31599B5243F888C0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6C841FAADFD094AC"
+				title: "{atm9.quest.gregtech.automation}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6ECBB6F5D0D99DEE"]
+			description: ["{atm9.quest.gregtech.desc.copperIngotCrafting}"]
+			id: "3302A9306CAD659A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B3B4D9925B69097"
+				table_id: 4444697382338980938L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4F21E8821A465876"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3302A9306CAD659A"
+				"6CE157D05F59A994"
+			]
+			description: ["{atm9.quest.gregtech.desc.redAlloyCableCrafting}"]
+			id: "49D740C5B5EB593C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "393B393299331031"
+				table_id: 4444697382338980938L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "31DEB8892D2B486F"
+				item: "gtceu:red_alloy_single_cable"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "50F07315C26E42C1"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "33EA567BC103D960"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "215526A434E68880"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "{atm9.chapters.26.title}"
+}

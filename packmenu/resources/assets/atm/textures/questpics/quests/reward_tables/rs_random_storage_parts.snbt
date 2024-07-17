@@ -1,0 +1,13 @@
+{
+	id: "05A89B5A9E9879D1"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ item: "refinedstorage:1k_storage_part", weight: 1000.0f }
+		{ item: "refinedstorage:4k_storage_part", weight: 100.0f }
+		{ item: "refinedstorage:16k_storage_part", weight: 10.0f }
+		{ item: "refinedstorage:64k_storage_part" }
+	]
+	title: "RS Random Storage Parts"
+	use_title: true
+}

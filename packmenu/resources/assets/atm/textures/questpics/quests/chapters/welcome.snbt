@@ -1,0 +1,244 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "allthetweaks:atm_star"
+	id: "5B00676D79306EA2"
+	images: [
+		{
+			corner: true
+			height: 5.0d
+			image: "packmenu:textures/gui/logo.png"
+			rotation: 8.0d
+			width: 5.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			click: "https://discord.gg/3paFjuRfz9"
+			height: 1.0d
+			hover: ["Join the Discord!"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{atm9.quest.welcome.desc.welcome1}"
+				""
+				"{atm9.quest.welcome.desc.welcome2}"
+				""
+				"{atm9.quest.welcome.desc.welcome3}"
+			]
+			icon: "allthetweaks:atm_star"
+			id: "3BC0A50886A3222B"
+			rewards: [{
+				id: "4956CB79E44FB523"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "5A1784C5676CDC62"
+				title: "Welcome to All The Mods 9!"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.welcome.welcome}"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{atm9.quest.welcome.desc.quests1}"
+				""
+				"{atm9.quest.welcome.desc.quests2}"
+				""
+				"{atm9.quest.welcome.desc.quests3}"
+			]
+			icon: "ftbquests:book"
+			id: "3708A4780ACEB34E"
+			min_width: 250
+			rewards: [{
+				id: "4A56DF6E0204666C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "52BB142F044075B4"
+				title: "Quests"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.welcome.quests}"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			description: ["{atm9.quest.welcome.desc.commands}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/settings.png"
+				}
+			}
+			id: "7658C1C663394E85"
+			min_width: 350
+			rewards: [{
+				id: "5007C73E170C4FF6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "10A16F89D4AD238D"
+				title: "Useful Commands"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.welcome.commands}"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{atm9.quest.welcome.desc.claims1}"
+				""
+				"{atm9.quest.welcome.desc.claims2}"
+				""
+				"{atm9.quest.welcome.desc.claims3}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/waypoint_home.png"
+				}
+			}
+			id: "0C93D7A607AB8B83"
+			rewards: [{
+				id: "1B044C35466AFAEF"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "103C42C743E2A2DB"
+				title: "Claiming Chunks"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.welcome.claims}"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			description: ["{atm9.quest.welcome.desc.team}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "5AC1BE754210429E"
+			rewards: [{
+				id: "101D2FD24AB845AC"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4F13A02FB0055A62"
+				title: "Creating a Team"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.welcome.team}"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{atm9.quest.welcome.desc.translations}"
+				"&lTranslator List&r (as of pack version v0.2.61)"
+				"&9Spanish&r by &2radzratz&r, &2abel102389&r, &2arivio&r, and &2metabodiru&r."
+				"&9Norwegian&r (Bokmål) by &Permest&r."
+				"&9Portugese&r by &2oruiva&r."
+				"&9Japanese&r by &2fishlife1 (flll)&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ad_astra:textures/environment/earth.png"
+				}
+			}
+			icon_scale: 1.1d
+			id: "70D4EA125CF11137"
+			rewards: [{
+				id: "6935874719DCABBC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.8d
+			tasks: [{
+				id: "083129895DA3B3B4"
+				title: "{atm9.quest.welcome.translations}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "4F020912336BCC47"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "7EBE873AF3D96C0C"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "0CD6D7231BCDC4E3"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "{atm9.chapters.1.title}"
+}

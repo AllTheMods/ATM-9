@@ -1,0 +1,53 @@
+{
+	icon: "mysticalagriculture:inferium_gemstone"
+	id: "5AF0FD7302DEC2B1"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ count: 2, item: "mysticalagriculture:inferium_essence", random_bonus: 2, weight: 10.0f }
+		{ item: "mysticalagriculture:inferium_seeds", random_bonus: 1, weight: 5.0f }
+		{ item: "mysticalagriculture:inferium_block", weight: 5.0f }
+		{ item: "mysticalagriculture:inferium_furnace", weight: 3.0f }
+		{ item: "mysticalagriculture:inferium_growth_accelerator", weight: 2.0f }
+		{ item: "mysticalagriculture:inferium_gemstone", weight: 3.0f }
+		{ item: "mysticalagriculture:inferium_ingot", random_bonus: 2, weight: 5.0f }
+		{ item: "mysticalagradditions:inferium_coal", random_bonus: 3, weight: 5.0f }
+		{ item: "mysticalagradditions:inferium_apple", random_bonus: 2, weight: 5.0f }
+		{ item: "mysticalagriculture:inferium_farmland", random_bonus: 2, weight: 7.0f }
+		{ item: "mysticalagriculture:prosperity_seed_base", random_bonus: 2, weight: 5.0f }
+		{ item: "mysticalagriculture:prosperity_gemstone", random_bonus: 1, weight: 3.0f }
+		{ item: "mysticalagriculture:prosperity_ingot", random_bonus: 3, weight: 10.0f }
+		{ count: 4, item: "mysticalagriculture:prosperity_shard", random_bonus: 8, weight: 10.0f }
+		{ item: "mysticalagriculture:prosperity_block", weight: 5.0f }
+		{ item: "mysticalagriculture:fertilized_essence", random_bonus: 2 }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "mysticalagriculture:mystical_enlightenment"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ item: "mysticalagriculture:unattuned_augment", weight: 5.0f }
+		{ item: "mysticalagriculture:soulium_ingot", weight: 3.0f }
+		{ item: "mysticalagriculture:soulium_ore", random_bonus: 1, weight: 5.0f }
+		{ count: 2, item: "mysticalagriculture:soulstone_cobble", random_bonus: 3, weight: 5.0f }
+		{ item: "mysticalagriculture:soul_glass", weight: 3.0f }
+		{ item: "mysticalagriculture:soul_jar" }
+		{
+			item: {
+				Count: 1
+				id: "matc:inferium_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "&aTier 1 Seed Bag"
+	use_title: true
+}

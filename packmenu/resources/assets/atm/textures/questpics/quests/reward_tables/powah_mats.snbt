@@ -1,0 +1,16 @@
+{
+	id: "3AC97B13FF3E4FD3"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ count: 2, item: "powah:capacitor_basic_tiny", random_bonus: 2 }
+		{ item: "powah:capacitor_basic", random_bonus: 2 }
+		{ item: "powah:capacitor_basic_large", random_bonus: 1 }
+		{ item: "powah:dielectric_casing", random_bonus: 3 }
+		{ count: 8, item: "powah:dielectric_rod_horizontal", random_bonus: 8 }
+		{ count: 8, item: "powah:dielectric_rod", random_bonus: 8 }
+		{ count: 16, item: "powah:dielectric_paste", random_bonus: 16 }
+	]
+	title: "Basic Powah Mats"
+	use_title: true
+}

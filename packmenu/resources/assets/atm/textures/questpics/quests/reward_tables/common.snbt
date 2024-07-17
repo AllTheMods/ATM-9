@@ -1,0 +1,333 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "common_loot"
+		}
+	}
+	id: "06C4634E81851A6C"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "botanypots:terracotta_hopper_botany_pot", weight: 5.0f }
+		{ item: "mysticalagriculture:imperium_essence" }
+		{ item: "reliquary:fertile_lily_pad" }
+		{ item: "minecraft:fox_spawn_egg", weight: 5.0f }
+		{ item: "functionalstorage:copper_upgrade", weight: 5.0f }
+		{ item: "functionalstorage:oak_1", random_bonus: 2, weight: 7.0f }
+		{ item: "functionalstorage:void_upgrade", weight: 3.0f }
+		{ item: "functionalstorage:storage_controller" }
+		{
+			item: {
+				Count: 1
+				id: "silentgear:sturdy_repair_kit"
+				tag: {
+					Storage: { }
+				}
+			}
+			weight: 5.0f
+		}
+		{ item: "waystones:waystone", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "utilitix:mob_yoinker"
+				tag: {
+					filled: 0b
+				}
+			}
+			weight: 3.0f
+		}
+		{ count: 2, item: "waystones:warp_plate", weight: 3.0f }
+		{ item: "dankstorage:dank_1", weight: 5.0f }
+		{
+			item: {
+				Count: 1
+				id: "simplemagnets:advancedmagnet"
+				tag: { }
+			}
+			weight: 2.0f
+		}
+		{ item: "cookingforblockheads:sink", weight: 5.0f }
+		{ item: "ironfurnaces:augment_speed", weight: 5.0f }
+		{ item: "ironfurnaces:augment_factory", weight: 5.0f }
+		{ item: "ironfurnaces:item_spooky", weight: 3.0f }
+		{ item: "ars_nouveau:glyph_summon_wolves" }
+		{ item: "ars_nouveau:glyph_light" }
+		{ count: 8, item: "pipez:universal_pipe", random_bonus: 8, weight: 5.0f }
+		{ item: "minecraft:diamond", random_bonus: 2, weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "simplemagnets:basicmagnet"
+				tag: { }
+			}
+			weight: 4.0f
+		}
+		{ item: "torchmaster:megatorch", weight: 5.0f }
+		{ item: "productivebees:upgrade_base", weight: 2.0f }
+		{ item: "sophisticatedstorage:basic_to_iron_tier_upgrade", weight: 5.0f }
+		{ item: "sophisticatedstorage:upgrade_base", weight: 5.0f }
+		{ item: "sophisticatedbackpacks:upgrade_base", weight: 5.0f }
+		{ item: "pipez:basic_upgrade", weight: 7.0f }
+		{ item: "mekanism:basic_tier_installer", weight: 3.0f }
+		{ item: "mekanism:upgrade_speed", weight: 3.0f }
+		{ item: "mekanism:upgrade_energy", weight: 3.0f }
+		{ item: "productivebees:sturdy_bee_cage", weight: 5.0f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "potionsmaster:iron_sight"
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "potionsmaster:gold_sight"
+				}
+			}
+		}
+		{ item: "modularrouters:modular_router" }
+		{ count: 4, item: "minecraft:iron_ingot", random_bonus: 4, weight: 7.0f }
+		{ count: 2, item: "minecraft:gold_ingot", random_bonus: 2, weight: 5.0f }
+		{ count: 8, item: "minecraft:redstone", random_bonus: 8, weight: 5.0f }
+		{ item: "mysticalagriculture:tertium_essence", weight: 2.0f }
+		{ count: 2, item: "mysticalagriculture:prudentium_essence", random_bonus: 1, weight: 3.0f }
+		{ item: "mekanismgenerators:wind_generator", weight: 5.0f }
+		{ count: 4, item: "minecraft:torch", random_bonus: 8, weight: 10.0f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:aqua_affinity"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "tombstone:blessing"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ count: 6, item: "minecraft:slime_ball", random_bonus: 6, weight: 7.0f }
+		{ item: "minecraft:name_tag", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "alltheores:copper_ore_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{ item: "minecraft:saddle", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "constructionwand:iron_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			weight: 5.0f
+		}
+		{ item: "minecraft:cat_spawn_egg", weight: 3.0f }
+		{ item: "minecraft:wolf_spawn_egg", weight: 5.0f }
+		{ item: "minecraft:parrot_spawn_egg", weight: 3.0f }
+		{ count: 3, item: "minecraft:melon_seeds", random_bonus: 3, weight: 10.0f }
+		{ count: 4, item: "minecraft:lapis_lazuli", random_bonus: 4, weight: 7.0f }
+		{ item: "mysticalagriculture:inferium_seeds", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:inferium_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:inferium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:inferium_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:inferium_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:inferium_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 8, item: "mysticalagriculture:inferium_essence", random_bonus: 8, weight: 10.0f }
+		{ count: 2, item: "minecraft:cooked_beef", random_bonus: 2, weight: 10.0f }
+		{ count: 2, item: "minecraft:cooked_porkchop", random_bonus: 2, weight: 10.0f }
+		{ count: 3, item: "minecraft:cooked_chicken", random_bonus: 3, weight: 10.0f }
+		{ count: 8, item: "minecraft:oak_log", random_bonus: 8, weight: 15.0f }
+		{ count: 4, item: "minecraft:stone", random_bonus: 8, weight: 10.0f }
+		{ count: 2, item: "minecraft:quartz", random_bonus: 2, weight: 3.0f }
+		{ count: 4, item: "minecraft:feather", random_bonus: 4, weight: 7.0f }
+		{ item: "minecraft:blaze_rod", random_bonus: 1, weight: 3.0f }
+		{ count: 2, item: "minecraft:ender_pearl", random_bonus: 1, weight: 3.0f }
+		{ item: "minecraft:bucket", weight: 7.0f }
+		{ item: "functionalstorage:oak_2", random_bonus: 2, weight: 5.0f }
+		{ item: "functionalstorage:oak_4", random_bonus: 2, weight: 5.0f }
+		{ item: "ironfurnaces:iron_furnace", weight: 10.0f }
+		{ item: "ironfurnaces:gold_furnace", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "alltheores:iron_ore_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{ item: "minecraft:honeycomb", random_bonus: 3, weight: 7.0f }
+		{ item: "minecraft:honey_bottle", random_bonus: 2, weight: 7.0f }
+		{ item: "productivebees:honey_treat", random_bonus: 2, weight: 5.0f }
+		{ item: "minecraft:beehive", weight: 7.0f }
+		{ item: "productivebees:advanced_oak_beehive", weight: 5.0f }
+		{ item: "ae2:flawless_budding_quartz" }
+		{ item: "powah:magmator_basic" }
+		{ item: "powah:furnator_basic" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:luck"
+				}
+			}
+		}
+	]
+	title: "Common Reward"
+	use_title: true
+}

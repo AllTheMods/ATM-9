@@ -1,0 +1,1214 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extreme_voltage"
+	group: "1DA67E79B40AB130"
+	icon: "gtceu:micro_processor_computer"
+	id: "489F28A71282B3E7"
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.electricalSafety.1}"
+				""
+				"{atm9.quest.gregtech.desc.electricalSafety.2}"
+			]
+			id: "5241693278027FFD"
+			rewards: [
+				{
+					count: 4
+					id: "2C401089E546A2F9"
+					item: "gtceu:ram_chip"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7406D49AC20EEC56"
+					item: "gtceu:diode"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0ED1F7FD56E7CF43"
+					item: "gtceu:plastic_printed_circuit_board"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.thisIsFine}"
+			tasks: [{
+				id: "17E7D25D83B98E80"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6805CC8AD6010F33"]
+			description: [
+				"{atm9.quest.gregtech.desc.questCompletionReminder.1}"
+				""
+				"{atm9.quest.gregtech.desc.questCompletionReminder.2}"
+				""
+				"{atm9.quest.gregtech.desc.questCompletionReminder.3}"
+				""
+				"{atm9.quest.gregtech.desc.questCompletionReminder.4}"
+			]
+			id: "2E47C92E3E8D826A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17353B52C1E760AD"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			size: 1.5d
+			subtitle: "{atm9.quest.gregtech.subt.onwardsToIV}"
+			tasks: [{
+				id: "23FFAB356FE1CA42"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7ACC4E777A75E043"
+			]
+			id: "0262E0D49A12F817"
+			rewards: [{
+				count: 2
+				id: "1E0A51D6BF3DF098"
+				item: "gtceu:gallium_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.upgrades}"
+			tasks: [{
+				id: "4CB14D90753F710B"
+				item: "gtceu:smd_transistor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7ACC4E777A75E043"
+			]
+			id: "6445DEC19DD55A34"
+			rewards: [{
+				count: 2
+				id: "1DCF548413B4AAB7"
+				item: "gtceu:tantalum_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.recipe}"
+			tasks: [{
+				id: "466FF2FF107AFDFA"
+				item: "gtceu:smd_resistor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7ACC4E777A75E043"
+			]
+			id: "3D9B7855B5616DCE"
+			rewards: [{
+				count: 3
+				id: "4AC575760AE4F1BF"
+				item: "gtceu:polyvinyl_chloride_foil"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.circuit}"
+			tasks: [{
+				id: "0774AA33B0CA149F"
+				item: "gtceu:smd_capacitor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7C134F7838C23059"
+			]
+			id: "0D9D1462C676C050"
+			rewards: [
+				{
+					count: 8
+					id: "7A8C4DEF04A1497F"
+					item: "gtceu:fine_platinum_wire"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 2
+					id: "07FD547CFCD64325"
+					item: "gtceu:small_gallium_arsenide_dust"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "{atm9.quest.gregtech.subt.time}"
+			tasks: [{
+				id: "23F7124635FE5FC8"
+				item: "gtceu:smd_diode"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7ACC4E777A75E043"
+			]
+			id: "11AAA1DCB452DFFC"
+			rewards: [{
+				count: 2
+				id: "3ED7AAC94A1DF8F8"
+				item: "gtceu:tantalum_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.for}"
+			tasks: [{
+				id: "210478A03F540A6B"
+				item: "gtceu:smd_inductor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6D082AE4CF9A56DC"
+				"7B27B87A520E38B0"
+				"5241693278027FFD"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.magnesiumProcessing.1}"
+				""
+				"{atm9.quest.gregtech.desc.magnesiumProcessing.2}"
+				""
+				"{atm9.quest.gregtech.desc.magnesiumProcessing.3}"
+				""
+				"{atm9.quest.gregtech.desc.magnesiumProcessing.4}"
+				""
+				"{atm9.quest.gregtech.desc.magnesiumProcessing.5}"
+			]
+			icon: "gtceu:titanium_ingot"
+			id: "78A295D4D1A21BCA"
+			min_width: 300
+			rewards: [{
+				count: 4
+				id: "12436A8F60A5F9E1"
+				item: "gtceu:magnesium_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "7AB26B5B4167E5EC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/titanium"
+					}
+				}
+				title: "{atm9.quest.gregtech.titaniumIngot}"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.75d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.platinumLineIntro.1}"]
+			icon: "alltheores:platinum_ingot"
+			id: "7C134F7838C23059"
+			shape: "square"
+			tasks: [{
+				id: "5C915E839949FED6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/platinum"
+					}
+				}
+				title: "{atm9.quest.gregtech.platinumIngot}"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33DAA602B385A55D"]
+			description: [
+				"{atm9.quest.gregtech.desc.voltageIssues.1}"
+				""
+				"{atm9.quest.gregtech.desc.voltageIssues.2}"
+			]
+			id: "0F6FB959B352121D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "039842C09E329415"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F3BEAA5602BA0CD"
+				item: "gtceu:mercury_barium_calcium_cuprate_single_wire"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.tantaliteProcessing.1}"
+				""
+				"{atm9.quest.gregtech.desc.tantaliteProcessing.2}"
+			]
+			id: "7ACC4E777A75E043"
+			rewards: [{
+				count: 8
+				id: "7A19A486962CBAB5"
+				item: "gtceu:raw_tantalite"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:tantalum_dust"
+				id: "309F610CA713BB20"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/tantalum"
+					}
+				}
+				title: "{atm9.quest.gregtech.tantalumDust}"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60736D37F7705B39"]
+			description: [
+				"{atm9.quest.gregtech.desc.ebfUpgrade.1}"
+				""
+				"{atm9.quest.gregtech.desc.ebfUpgrade.2}"
+			]
+			id: "5500BDFA7A5D04EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DDBA3FEF3F6198A"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 16L
+				id: "261D5EF68A314309"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 1.2000000000000002d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5241693278027FFD"
+				"0D573979B25FAC48"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.distillationTower.1}"
+				""
+				"{atm9.quest.gregtech.desc.distillationTower.2}"
+				""
+				"{atm9.quest.gregtech.desc.distillationTower.3}"
+				""
+				"{atm9.quest.gregtech.desc.distillationTower.4}"
+				""
+				"{atm9.quest.gregtech.desc.distillationTower.5}"
+				""
+				"{atm9.quest.gregtech.desc.distillationTower.6}"
+			]
+			icon: "gtceu:distillation_tower"
+			id: "3BEDF19CD79D53D5"
+			min_width: 300
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "221D254BFC0257F7"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.realFluidProcessing}"
+			tasks: [
+				{
+					id: "2A5387EF0991FC1D"
+					item: "gtceu:distillation_tower"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "6DE94C2C7F4B9AC7"
+					title: "{atm9.quest.gregtech.observeDistillationTower}"
+					type: "custom"
+				}
+			]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			description: [
+				"{atm9.quest.gregtech.desc.vacuumFreezer.1}"
+				""
+				"{atm9.quest.gregtech.desc.vacuumFreezer.2}"
+				""
+				"{atm9.quest.gregtech.desc.vacuumFreezer.3}"
+			]
+			icon: "gtceu:vacuum_freezer"
+			id: "6D082AE4CF9A56DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "108EAAF040BA7990"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "74FCADB757C762B9"
+					item: "gtceu:vacuum_freezer"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "7536DA5A948671F2"
+					title: "{atm9.quest.gregtech.observeVacuumFreezer}"
+					type: "custom"
+				}
+				{
+					id: "5F18E278ABC418FE"
+					item: "gtceu:auto_maintenance_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0911814AFFFCF885"
+				"6D082AE4CF9A56DC"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.coolHotIngot.1}"
+				""
+				"{atm9.quest.gregtech.desc.coolHotIngot.2}"
+			]
+			id: "60736D37F7705B39"
+			tasks: [{
+				id: "0EEE381F78288115"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			x: 1.2000000000000002d
+			y: -1.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.nichromeMixer}"]
+			id: "0911814AFFFCF885"
+			rewards: [{
+				id: "2DF63FCEAFE5F977"
+				item: "gtceu:chromium_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4127FE4279C4DF22"
+				item: "gtceu:nichrome_dust"
+				type: "item"
+			}]
+			x: 1.2000000000000002d
+			y: 0.10000000000000003d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			description: [
+				"{atm9.quest.gregtech.desc.ivCircuit.1}"
+				""
+				"{atm9.quest.gregtech.desc.ivCircuit.2}"
+			]
+			id: "6805CC8AD6010F33"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B422B9AD9E7D9FE"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "271929662CF5AC0D"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			description: [
+				"{atm9.quest.gregtech.desc.yourAssemblerUpgrade.1}"
+				""
+				"{atm9.quest.gregtech.desc.yourAssemblerUpgrade.2}"
+			]
+			id: "71D4B261AF487062"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F111E8360C6F822"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "443C9F78D6B49249"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:hv_assembler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_assembler"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.gregtech.hvEvAssembler}"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "40DC4C8DF9616F97"
+			shape: "square"
+			tasks: [{
+				id: "3A68557D0E516D4E"
+				item: "gtceu:black_bronze_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.chemicalReactionSome.1}"
+				""
+				"{atm9.quest.gregtech.desc.chemicalReaction.2}"
+			]
+			id: "1E8D496B1CC4F69B"
+			shape: "square"
+			tasks: [{
+				id: "2C4A50B1A9AF4A84"
+				item: "gtceu:sodium_potassium_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["40DC4C8DF9616F97"]
+			id: "61A16C4CF0B7A9B2"
+			rewards: [{
+				count: 3
+				id: "06CB661C0124B64B"
+				item: "alltheores:steel_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E66CBEB7C8E7539"
+				item: "gtceu:black_steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"61A16C4CF0B7A9B2"
+				"1E8D496B1CC4F69B"
+				"71D4B261AF487062"
+				"5D58E5CB4F4BDAD5"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.energyHatch.1}"
+				""
+				"{atm9.quest.gregtech.desc.energyHatch.2}"
+			]
+			id: "0D573979B25FAC48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D0E700C7A93D217"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5E6E95015D19F4FE"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D10AA6EF07087B5"]
+			description: ["{atm9.quest.gregtech.desc.laserEngravers}"]
+			id: "5D58E5CB4F4BDAD5"
+			rewards: [{
+				count: 2
+				id: "3FE559E167225891"
+				item: "gtceu:silicon_wafer"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "3459093D8C9EAE43"
+					item: "gtceu:orange_glass_lens"
+					type: "item"
+				}
+				{
+					id: "48B9848EBF024C1A"
+					item: "gtceu:lpic_wafer"
+					type: "item"
+				}
+				{
+					id: "20363BBDFECB5221"
+					item: "gtceu:lpic_chip"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.gregtech.lowPowerChip}"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5500BDFA7A5D04EB"
+				"7220835BD1F8EBA7"
+				"6D082AE4CF9A56DC"
+			]
+			description: ["{atm9.quest.gregtech.desc.hotIngotNichrome}"]
+			id: "33DAA602B385A55D"
+			tasks: [{
+				id: "1E5B05165E5A0236"
+				item: "gtceu:mercury_barium_calcium_cuprate_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.bariumDust.1}"
+				""
+				"{atm9.quest.gregtech.desc.bariumDust.2}"
+				""
+				"{atm9.quest.gregtech.desc.bariumDust.3}"
+			]
+			id: "7220835BD1F8EBA7"
+			rewards: [{
+				count: 3
+				id: "39F1DE4C40F09307"
+				item: "gtceu:barium_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "04D48A6EC98F1CAD"
+				item: "gtceu:mercury_barium_calcium_cuprate_dust"
+				type: "item"
+			}]
+			x: 1.2000000000000002d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.desc.rutileDust.1}"
+				""
+				"{atm9.quest.gregtech.desc.rutileDust.2}"
+				"{atm9.quest.gregtech.desc.rutileDust.3}"
+				"[ \"\", { \"text\": \"EBF \", \"color\": \"green\", \"hoverEvent\": { \"action\": \"show_text\", \"contents\": { \"text\": \"Electric Blast Furnace\" } } }, { \"text\": \"10 Ilmenite and 4 Carbon together\" }]"
+				"{atm9.quest.gregtech.desc.rutileDust.5}"
+				"{atm9.quest.gregtech.desc.rutileDust.6}"
+				""
+				"{atm9.quest.gregtech.desc.rutileDust.7}"
+			]
+			id: "03B5D467E76C5B8A"
+			min_width: 300
+			rewards: [
+				{
+					count: 4
+					id: "491962ED7FE39994"
+					item: "gtceu:raw_bauxite"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3B0A0D8407FA285B"
+					item: "gtceu:raw_ilmenite"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{atm9.quest.gregtech.subt.futileDust}"
+			tasks: [{
+				id: "2B956FA18DAF1BD8"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03B5D467E76C5B8A"]
+			description: ["{atm9.quest.gregtech.desc.hvChemicalReactor}"]
+			id: "7B27B87A520E38B0"
+			rewards: [
+				{
+					count: 2
+					id: "0522455DB01E3725"
+					item: "gtceu:rutile_dust"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "44AA9F0AC065A628"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Amount: 16000
+								FluidName: "gtceu:chlorine"
+								capacity: 16000
+							}
+						}
+						id: "evilcraft:dark_tank"
+						tag: {
+							Fluid: {
+								Amount: 16000
+								FluidName: "gtceu:chlorine"
+							}
+							capacity: 16000
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01CFC3E97122E03C"
+				item: "gtceu:titanium_tetrachloride_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3BEDF19CD79D53D5"]
+			description: ["{atm9.quest.gregtech.desc.heavyOil}"]
+			icon: "gtceu:pyrolyse_oven"
+			id: "130DDACA0E38A8E8"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23F2A4B5063BA3AB"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "72661F65A697879A"
+					item: "gtceu:pyrolyse_oven"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "5FAE011B2417FAAA"
+					title: "{atm9.quest.gregtech.observePyrolyseOven}"
+					type: "custom"
+				}
+			]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3BEDF19CD79D53D5"]
+			description: ["{atm9.quest.gregtech.desc.cracker}"]
+			icon: "gtceu:cracker"
+			id: "3762F8137BFD5A74"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3708022293D107D8"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5BACD43DF65C2FA9"
+					item: "gtceu:cracker"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "04E3568175E66B6D"
+					title: "{atm9.quest.gregtech.observeCracker}"
+					type: "custom"
+				}
+			]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3BEDF19CD79D53D5"]
+			description: [
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.1}"
+				""
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.2}"
+				""
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.3}"
+			]
+			id: "450B3C0520D6B2BB"
+			min_width: 300
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27E92BF29DF6FBD4"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "12A161B884B5653F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:mv_fluid_drilling_rig"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_fluid_drilling_rig"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.gregtech.title.fluidDrillingRig}"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3B4F326D72E794D3"]
+			description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.4}"]
+			id: "7D6AC042FFD0B6D6"
+			rewards: [{
+				id: "4123B08AF0AC72D8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4CFDA0E86F6528A5"
+				item: "gtceu:benzene_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3B4F326D72E794D3"]
+			description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.5}"]
+			id: "3619CD5AAD5E3691"
+			rewards: [{
+				id: "2435330DB710A010"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "672E91EAB979F7AF"
+				item: "gtceu:butadiene_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D6AC042FFD0B6D6"]
+			description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.6}"]
+			id: "46F1A93B071CD980"
+			rewards: [{
+				id: "1C74698CCB18BA0B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "56A08496E54BC1A4"
+				item: "gtceu:styrene_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"46F1A93B071CD980"
+				"3619CD5AAD5E3691"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.7}"
+				""
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.8}"
+			]
+			id: "2DDA8AC73C2D50B4"
+			rewards: [{
+				id: "4FA7BFC6C564DEBD"
+				item: "gtceu:butadiene_bucket"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "72F5202F8FDF0E53"
+				item: "gtceu:raw_styrene_butadiene_rubber_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2DDA8AC73C2D50B4"]
+			description: [
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.9}"
+				""
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.10}"
+			]
+			id: "511FB322F176D88C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31DF63BA959C435B"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1F18BEE43B4DC9A4"
+				item: "gtceu:styrene_butadiene_rubber_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A0A7DC1C2655EA6"
+				"228D1C880563CCBB"
+			]
+			description: [
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.11}"
+				""
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.12}"
+				""
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.13}"
+			]
+			id: "3B4F326D72E794D3"
+			rewards: [{
+				id: "444110B4CC50435E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "155D71F4D5E47CF7"
+				item: "gtceu:lightly_steam_cracked_naphtha_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6805E4C7F6FBAC77"]
+			description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.14}"]
+			id: "7A0A7DC1C2655EA6"
+			rewards: [{
+				id: "66D525B2A26063DE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "09220F4C339567B8"
+				item: "gtceu:naphtha_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3BEDF19CD79D53D5"]
+			description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.15}"]
+			id: "6805E4C7F6FBAC77"
+			rewards: [{
+				id: "46BA643BC3DEF2E9"
+				item: "gtceu:oil_medium_bucket"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DA49DF52B6D150A"
+				item: "gtceu:sulfuric_naphtha_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0FFF764AA07D6DFC"]
+			description: [
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.16}"
+				""
+				"{atm9.quest.gregtech.desc.fluidDrillingRig.17}"
+			]
+			id: "228D1C880563CCBB"
+			rewards: [{
+				id: "556A321FB75D9F76"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7B7128EECA64BD03"
+				item: "gtceu:steam_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.desc.fluidDrillingRig.18}"]
+			id: "0FFF764AA07D6DFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19EC7F834936C81F"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3AC5F6DC531CCE3D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_fluid_heater"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_fluid_heater"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_fluid_heater"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_fluid_heater"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.gregtech.title.anyFluidHeater}"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3406646DF9585AB8"]
+			description: [
+				"{atm9.quest.gregtech.desc.anyFluidHeater.1}"
+				""
+				"{atm9.quest.gregtech.desc.anyFluidHeater.2}"
+			]
+			id: "6338544F8530118F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29369FEABD94841B"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3E090FF6659CAE97"
+				item: "gtceu:silicone_rubber_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A54E73E212BB1AF"]
+			description: ["{atm9.quest.gregtech.desc.anyFluidHeater.3}"]
+			id: "3406646DF9585AB8"
+			rewards: [{
+				count: 3
+				id: "053DB92E1E479427"
+				item: "gtceu:polydimethylsiloxane_dust"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.subt.trySayingThisFast}"
+			tasks: [{
+				id: "1717E9A6D23CF49C"
+				item: "gtceu:polydimethylsiloxane_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3BEDF19CD79D53D5"]
+			description: [
+				"{atm9.quest.gregtech.desc.oilDistillation.1}"
+				""
+				"{atm9.quest.gregtech.desc.oilDistillation.2}"
+				""
+				"{atm9.quest.gregtech.desc.oilDistillation.3}"
+				""
+				"{atm9.quest.gregtech.desc.oilDistillation.4}"
+			]
+			id: "6A54E73E212BB1AF"
+			rewards: [{
+				id: "3D51C447126057E3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6AEF501966EBB44B"
+				item: "gtceu:methane_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "7D10AA6EF07087B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EC35F01615CB33B"
+				table_id: 5304546381530089504L
+				type: "loot"
+			}]
+			shape: "square"
+			tasks: [{
+				icon: "gtceu:hv_cutter"
+				id: "5685DB13CE250DBA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:hv_cutter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_cutter"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.gregtech.title.hvOrEvCutter}"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "6464CF4B189D3DC7"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "5976F3A604271467"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "0BC2552079B4ED2A"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -4.0d
+			y: 1.0d
+		}
+	]
+	title: "{atm9.chapters.30.title}"
+}
