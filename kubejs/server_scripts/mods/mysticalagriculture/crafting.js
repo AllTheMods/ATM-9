@@ -110,6 +110,36 @@ ServerEvents.recipes(allthemods => {
     E: 'mysticalagriculture:turtle_essence'
   }).id('allthemods:mysticalagriculture/turtle_egg')
 
+  // add recipe for warped wart block
+  allthemods.shaped('8x minecraft:warped_wart_block', [' A ', 'A  ', 'AAA'], {
+	  A: 'mysticalagriculture:nether_essence'
+  }).id('allthemods:minecraft/warped_wart_block')
+  
+  // add recipe for shroomlight
+  allthemods.shaped('6x minecraft:shroomlight', ['AGA', 'GAG', 'AGA'],{
+	  A: 'mysticalagriculture:nether_essence',
+	  G: 'mysticalagriculture:glowstone_essence'
+  }).id('allthemods:minecraft/shroomlight')
+  
+  //add recipes for froglights
+  allthemods.shaped('8x minecraft:ochre_froglight', ['NDG', 'GDN', 'NDG'],{
+	  N: 'mysticalagriculture:nature_essence',
+	  D: 'mysticalagriculture:dye_essence',
+	  G: 'mysticalagriculture:glowstone_essence'
+  }).id('allthemods:minecraft/ochre_froglight')
+  
+    allthemods.shaped('8x minecraft:pearlescent_froglight', ['DDD', 'GNG', 'NGN'],{
+	  N: 'mysticalagriculture:nature_essence',
+	  D: 'mysticalagriculture:dye_essence',
+	  G: 'mysticalagriculture:glowstone_essence'
+  }).id('allthemods:minecraft/pearlescent_froglight')
+  
+    allthemods.shaped('8x minecraft:verdant_froglight', ['NGD', 'GND', 'NGD'],{
+	  N: 'mysticalagriculture:nature_essence',
+	  D: 'mysticalagriculture:dye_essence',
+	  G: 'mysticalagriculture:glowstone_essence'
+  }).id('allthemods:minecraft/verdant_froglight')
+
   // remove gaia crux
   allthemods.remove({ id: "mysticalagradditions:gaia_spirit_crux" })
 })
