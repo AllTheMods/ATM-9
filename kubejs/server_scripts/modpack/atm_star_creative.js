@@ -162,7 +162,7 @@ ServerEvents.recipes(allthemods => {
     C: Item.of('ironjetpacks:capacitor', { Id: "ironjetpacks:creative" }).strongNBT(),
     D: Item.of('ironjetpacks:thruster', { Id: "ironjetpacks:creative" }).strongNBT(),
     E: 'allthetweaks:atm_star',
-    F: Item.of('ironjetpacks:jetpack', { Id: "ironjetpacks:unobtainium" }).strongNBT()
+    F: Item.of('ironjetpacks:jetpack', { Id: "ironjetpacks:unobtainium" }).weakNBT()
   }).id('allthemods:ironjetpacks_creative_jetpack')
 
   ///#Mekanism
