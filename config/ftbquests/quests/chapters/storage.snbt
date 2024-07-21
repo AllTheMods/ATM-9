@@ -5,14 +5,80 @@
 	group: "1AC60211DE7427FC"
 	icon: "minecraft:chest"
 	id: "1DB294A8F8686321"
-	images: [{
-		height: 5.0d
-		image: "minecraft:textures/item/chest_minecart.png"
-		rotation: 0.0d
-		width: 5.0d
-		x: 4.5d
-		y: -8.0d
-	}]
+	images: [
+		{
+			height: 5.0d
+			image: "minecraft:textures/item/chest_minecart.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/rftools/storagescanner.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: -10.5d
+			y: 12.0d
+		}
+		{
+			height: 6.0d
+			image: "atm:textures/questpics/storage/functional1.png"
+			rotation: 0.0d
+			width: 8.25d
+			x: -18.5d
+			y: -3.5d
+		}
+		{
+			height: 4.0d
+			image: "atm:textures/questpics/storage/functional2.png"
+			rotation: 0.0d
+			width: 10.5d
+			x: -19.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/helper_arrow.png"
+			rotation: -90.0d
+			width: 1.4723926380368098d
+			x: -18.519897959183652d
+			y: -0.6061224489795762d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/helper_arrow.png"
+			rotation: 130.0d
+			width: 2.0d
+			x: -19.105612244897934d
+			y: 3.59625850340138d
+		}
+		{
+			height: 2.75d
+			image: "atm:textures/questpics/storage/sophisticated1.png"
+			rotation: 0.0d
+			width: 5.9d
+			x: 5.5d
+			y: -3.6785714285714235d
+		}
+		{
+			height: 2.5d
+			image: "atm:textures/questpics/storage/sophisticated2.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 11.083333333333343d
+			y: -3.7678571428571317d
+		}
+		{
+			height: 4.0d
+			image: "atm:textures/questpics/storage/sophisticated3.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 17.392857142857153d
+			y: -4.5d
+		}
+	]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -44,16 +110,37 @@
 				id: "77A9435B6739348E"
 				item: {
 					Count: 1
-					id: "sophisticatedstorage:iron_chest"
+					id: "itemfilters:or"
 					tag: {
-						woodType: "oak"
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_barrel"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_chest"
+								tag: {
+									uuid: [I;
+										767031598
+										1710574310
+										-2004480456
+										-744336492
+									]
+									woodType: "oak"
+								}
+							}
+						]
 					}
 				}
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.iron}"
-			x: -7.0d
-			y: -1.5d
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["58514FDE153FD971"]
@@ -81,16 +168,37 @@
 				id: "0427B441A750316F"
 				item: {
 					Count: 1
-					id: "sophisticatedstorage:gold_chest"
+					id: "itemfilters:or"
 					tag: {
-						woodType: "oak"
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_barrel"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_chest"
+								tag: {
+									uuid: [I;
+										237611848
+										332743395
+										-1801773020
+										1918607969
+									]
+									woodType: "oak"
+								}
+							}
+						]
 					}
 				}
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.gold}"
-			x: -5.0d
-			y: -1.5d
+			x: 9.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3E33730DC2115D26"]
@@ -118,16 +226,37 @@
 				id: "00ED02255105A973"
 				item: {
 					Count: 1
-					id: "sophisticatedstorage:diamond_chest"
+					id: "itemfilters:or"
 					tag: {
-						woodType: "oak"
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_barrel"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_chest"
+								tag: {
+									uuid: [I;
+										-821494956
+										368657997
+										-1650250951
+										-1832415688
+									]
+									woodType: "oak"
+								}
+							}
+						]
 					}
 				}
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.diamond}"
-			x: -3.0d
-			y: -1.5d
+			x: 11.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4C0BDD483CCB40C4"]
@@ -156,16 +285,37 @@
 				id: "34B6EB0B801E4743"
 				item: {
 					Count: 1
-					id: "sophisticatedstorage:netherite_chest"
+					id: "itemfilters:or"
 					tag: {
-						woodType: "oak"
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_barrel"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_chest"
+								tag: {
+									uuid: [I;
+										-385612189
+										221532043
+										-1277979957
+										103954851
+									]
+									woodType: "oak"
+								}
+							}
+						]
 					}
 				}
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.netherite}"
-			x: -1.0d
-			y: -1.5d
+			x: 13.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["563CFA1EF74E52E9"]
@@ -193,16 +343,37 @@
 				id: "5241AA0EF3C2EA94"
 				item: {
 					Count: 1
-					id: "sophisticatedstorage:chest"
+					id: "itemfilters:or"
 					tag: {
-						woodType: "oak"
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:barrel"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:chest"
+								tag: {
+									uuid: [I;
+										1297815649
+										-950318685
+										-1527103056
+										1742563089
+									]
+									woodType: "oak"
+								}
+							}
+						]
 					}
 				}
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.chest}"
-			x: -9.0d
-			y: -1.5d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0682DC1F2417DAEB"]
@@ -235,13 +406,13 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.drawer}"
-			x: -9.0d
-			y: -5.0d
+			x: -9.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["072FBEB0F6F1BC48"]
 			dependency_requirement: "one_started"
-			description: ["{atm9.quest.storage.desc.compacting}"]
+			description: ["{atm9.quest.storage.desc.adv_compacting}"]
 			id: "2B422B7E0CE3590D"
 			rewards: [
 				{
@@ -262,14 +433,14 @@
 				item: "functionalstorage:compacting_drawer"
 				type: "item"
 			}]
-			title: "{atm9.quest.storage.compacting}"
-			x: -6.0d
-			y: -4.5d
+			title: "{atm9.quest.storage.adv_compacting}"
+			x: -13.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["072FBEB0F6F1BC48"]
 			dependency_requirement: "one_started"
-			description: ["{atm9.quest.storage.desc.controller}"]
+			description: ["{atm9.quest.storage.desc.f_controller}"]
 			id: "6FBAE89EE782DABA"
 			rewards: [
 				{
@@ -290,16 +461,17 @@
 					type: "random"
 				}
 			]
-			shape: "diamond"
-			subtitle: "{atm9.quest.storage.subt.controller}"
+			shape: "gear"
+			size: 1.4d
+			subtitle: "{atm9.quest.storage.subt.f_controller}"
 			tasks: [{
 				id: "1872E00684ADC839"
 				item: "functionalstorage:storage_controller"
 				type: "item"
 			}]
-			title: "{atm9.quest.storage.controller}"
-			x: -5.5d
-			y: -5.0d
+			title: "{atm9.quest.storage.f_controller}"
+			x: -18.5d
+			y: 0.5d
 		}
 		{
 			description: ["{atm9.quest.storage.desc.ender}"]
@@ -370,8 +542,8 @@
 				}
 			]
 			title: "{atm9.quest.storage.ender}"
-			x: 2.5d
-			y: -1.5d
+			x: -4.0d
+			y: 3.0d
 		}
 		{
 			description: ["{atm9.quest.storage.desc.basic}"]
@@ -390,8 +562,8 @@
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.storage.basic}"
-			x: 4.5d
-			y: -1.5d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			description: ["{atm9.quest.storage.desc.trash}"]
@@ -428,8 +600,8 @@
 				}
 			]
 			title: "{atm9.quest.storage.trash}"
-			x: 4.5d
-			y: -3.5d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -466,19 +638,14 @@
 				}
 			]
 			title: "{atm9.quest.storage.dim}"
-			x: 6.5d
-			y: -1.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["072FBEB0F6F1BC48"]
-			description: ["{atm9.quest.storage.desc.ender}"]
+			description: ["{atm9.quest.storage.desc.enderdrawer}"]
 			id: "1A4B1CA7EC15348E"
 			rewards: [
-				{
-					id: "0EEC38A1667399E0"
-					item: "functionalstorage:gold_upgrade"
-					type: "item"
-				}
 				{
 					id: "6F4D2071EA7C3055"
 					type: "xp"
@@ -490,6 +657,11 @@
 					table_id: 487623848494439020L
 					type: "random"
 				}
+				{
+					id: "6138BBC4636A000E"
+					item: "functionalstorage:ender_drawer"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			subtitle: "{atm9.quest.storage.subt.enderdrawer}"
@@ -499,8 +671,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.enderdrawer}"
-			x: -6.0d
-			y: -5.5d
+			x: -11.5d
+			y: -1.0d
 		}
 		{
 			description: ["{atm9.quest.storage.desc.functional}"]
@@ -520,8 +692,8 @@
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.storage.functional}"
-			x: -11.25d
-			y: -5.0d
+			x: -7.75d
+			y: 0.5d
 		}
 		{
 			description: ["{atm9.quest.storage.desc.sophisticated}"]
@@ -529,6 +701,12 @@
 				Count: 1
 				id: "sophisticatedstorage:iron_chest"
 				tag: {
+					uuid: [I;
+						767031598
+						1710574310
+						-2004480456
+						-744336492
+					]
 					woodType: "oak"
 				}
 			}
@@ -547,8 +725,8 @@
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.storage.sophisticated}"
-			x: -11.25d
-			y: -1.5d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			description: ["{atm9.quest.storage.desc.backpack}"]
@@ -567,8 +745,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.backpack}"
-			x: -11.25d
-			y: 2.0d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6A2B2C5E2ADCE366"]
@@ -599,8 +777,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.ironBP}"
-			x: -9.0d
-			y: 2.0d
+			x: 5.25d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6A2B2C5E2ADCE366"]
@@ -626,8 +804,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.upgrade_base}"
-			x: -9.0d
-			y: 4.0d
+			x: 5.25d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -648,8 +826,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.pickup}"
-			x: -9.0d
-			y: 6.5d
+			x: 5.25d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0E0CAA31480EC0A1"]
@@ -668,8 +846,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.Apickup}"
-			x: -9.0d
-			y: 7.5d
+			x: 5.25d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -689,8 +867,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.filter}"
-			x: -6.0d
-			y: 6.5d
+			x: 8.25d
+			y: 8.5d
 		}
 		{
 			dependencies: ["156FF8B7B724DC38"]
@@ -708,8 +886,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.Afilter}"
-			x: -6.0d
-			y: 7.5d
+			x: 8.25d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -729,8 +907,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.magnet}"
-			x: -4.5d
-			y: 6.5d
+			x: 9.75d
+			y: 8.5d
 		}
 		{
 			dependencies: ["110D27EA86CDA62B"]
@@ -748,8 +926,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.Amagnet}"
-			x: -4.5d
-			y: 7.5d
+			x: 9.75d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -769,8 +947,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.feeding}"
-			x: -3.0d
-			y: 6.5d
+			x: 11.25d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5FA9BC0D8476D322"]
@@ -788,8 +966,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.Afeeding}"
-			x: -3.0d
-			y: 7.5d
+			x: 11.25d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -809,8 +987,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.bpcompacting}"
-			x: -1.5d
-			y: 6.5d
+			x: 12.75d
+			y: 8.5d
 		}
 		{
 			dependencies: ["1CD2C6AFD788C35E"]
@@ -829,8 +1007,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.Acompacting}"
-			x: -1.5d
-			y: 7.5d
+			x: 12.75d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -850,8 +1028,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.void}"
-			x: -3.0d
-			y: 9.0d
+			x: 11.25d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7EFBFF5D0DA018E7"]
@@ -869,8 +1047,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.Avoid}"
-			x: -3.0d
-			y: 10.0d
+			x: 11.25d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -891,8 +1069,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.restock}"
-			x: -1.5d
-			y: 9.0d
+			x: 12.75d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4B62AF0405F68041"]
@@ -910,8 +1088,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.Arestock}"
-			x: -1.5d
-			y: 10.0d
+			x: 12.75d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -932,8 +1110,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.deposit}"
-			x: -7.5d
-			y: 6.5d
+			x: 6.75d
+			y: 8.5d
 		}
 		{
 			dependencies: ["00DB5495C3A44999"]
@@ -951,8 +1129,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.Adeposit}"
-			x: -7.5d
-			y: 7.5d
+			x: 6.75d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -972,8 +1150,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.refill}"
-			x: -3.0d
-			y: 5.0d
+			x: 11.25d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -998,8 +1176,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.inception}"
-			x: -1.5d
-			y: 5.0d
+			x: 12.75d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -1019,8 +1197,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.everlasting}"
-			x: 0.0d
-			y: 5.0d
+			x: 14.25d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -1040,8 +1218,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.smelting}"
-			x: -6.0d
-			y: 9.0d
+			x: 8.25d
+			y: 11.0d
 		}
 		{
 			dependencies: ["668C313FF46B6005"]
@@ -1060,8 +1238,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.Asmelting}"
-			x: -6.0d
-			y: 10.0d
+			x: 8.25d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -1081,8 +1259,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.smoking}"
-			x: -9.0d
-			y: 9.0d
+			x: 5.25d
+			y: 11.0d
 		}
 		{
 			dependencies: ["26A9F402DAE15EA2"]
@@ -1100,8 +1278,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.Asmoking}"
-			x: -9.0d
-			y: 10.0d
+			x: 5.25d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -1121,8 +1299,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.blasting}"
-			x: -7.5d
-			y: 9.0d
+			x: 6.75d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1E499F94A2A193E1"]
@@ -1140,8 +1318,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.Ablasting}"
-			x: -7.5d
-			y: 10.0d
+			x: 6.75d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -1161,8 +1339,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.crafting}"
-			x: 1.5d
-			y: 5.0d
+			x: 15.75d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -1182,8 +1360,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.stonecutting}"
-			x: -6.0d
-			y: 5.0d
+			x: 8.25d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -1211,8 +1389,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.stack1}"
-			x: -3.0d
-			y: 4.0d
+			x: 11.25d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7E9E03274A88347D"]
@@ -1238,8 +1416,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.stack2}"
-			x: -1.5d
-			y: 4.0d
+			x: 12.75d
+			y: 6.0d
 		}
 		{
 			dependencies: ["785951190FFDAA21"]
@@ -1265,8 +1443,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.stack3}"
-			x: 0.0d
-			y: 4.0d
+			x: 14.25d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0298A17C2AAC5765"]
@@ -1292,8 +1470,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.stack4}"
-			x: 1.5d
-			y: 4.0d
+			x: 15.75d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -1313,8 +1491,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.jukebox}"
-			x: -4.5d
-			y: 5.0d
+			x: 9.75d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -1334,8 +1512,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.tool}"
-			x: -4.5d
-			y: 9.0d
+			x: 9.75d
+			y: 11.0d
 		}
 		{
 			dependencies: ["615B9062FE8CCD36"]
@@ -1353,8 +1531,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.Atool}"
-			x: -4.5d
-			y: 10.0d
+			x: 9.75d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -1374,8 +1552,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.tank}"
-			x: -9.0d
-			y: 5.0d
+			x: 5.25d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -1395,8 +1573,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.battery}"
-			x: -7.5d
-			y: 5.0d
+			x: 6.75d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
@@ -1416,8 +1594,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.PU}"
-			x: -7.5d
-			y: 4.0d
+			x: 6.75d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6E9041744C592573"]
@@ -1435,8 +1613,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.APU}"
-			x: -6.0d
-			y: 4.0d
+			x: 8.25d
+			y: 6.0d
 		}
 		{
 			dependencies: ["56B80A7EBFE21428"]
@@ -1454,8 +1632,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.EPU}"
-			x: -4.5d
-			y: 4.0d
+			x: 9.75d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0E057B7F76401421"]
@@ -1486,8 +1664,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.goldBP}"
-			x: -7.0d
-			y: 2.0d
+			x: 7.25d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2F9B0C642A6BE30C"]
@@ -1518,8 +1696,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.diamondBP}"
-			x: -5.0d
-			y: 2.0d
+			x: 9.25d
+			y: 4.0d
 		}
 		{
 			dependencies: ["45268A619787288F"]
@@ -1555,8 +1733,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.netheriteBP}"
-			x: -3.0d
-			y: 2.0d
+			x: 11.25d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2746575C929B6C50"]
@@ -1588,8 +1766,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.link}"
-			x: -7.5d
-			y: -5.0d
+			x: -12.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2746575C929B6C50"]
@@ -1621,8 +1799,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.8}"
-			x: -9.0d
-			y: -6.5d
+			x: -9.5d
+			y: -0.9785714285714064d
 		}
 		{
 			dependencies: ["485D5664A17E16DF"]
@@ -1654,8 +1832,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.16}"
-			x: -9.5d
-			y: -7.0d
+			x: -10.0d
+			y: -1.4785714285714064d
 		}
 		{
 			dependencies: ["3B570B3DB5F6D2CB"]
@@ -1687,8 +1865,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.24}"
-			x: -9.0d
-			y: -7.5d
+			x: -9.4952380952381d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1B72E95569B07E18"]
@@ -1719,8 +1897,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.32}"
-			x: -8.5d
-			y: -7.0d
+			x: -9.0d
+			y: -1.4785714285714064d
 		}
 		{
 			dependencies: ["563CFA1EF74E52E9"]
@@ -1746,8 +1924,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.upgrade}"
-			x: -8.0d
-			y: 0.0d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["072FBEB0F6F1BC48"]
@@ -1778,8 +1956,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.storage.configurator}"
-			x: -6.5d
-			y: -5.0d
+			x: -12.5d
+			y: 2.5d
 		}
 		{
 			description: ["{atm9.quest.storage.desc.NBT}"]
@@ -1819,8 +1997,537 @@
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.storage.NBT}"
-			x: 4.5d
-			y: 0.5d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6FBAE89EE782DABA"]
+			description: ["{atm9.quest.storage.desc.acess_point}"]
+			id: "61A22707DBC83818"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C18E9269EFD1CAD"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "00A676F87013580C"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					id: "0258F1F46A0CC9EB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				id: "28D2CA2BA72CBA7F"
+				item: "functionalstorage:controller_extension"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.acess_point}"
+			x: -18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			description: ["{atm9.quest.storage.desc.simple_compacting}"]
+			id: "4E4C8BCD45766F03"
+			rewards: [
+				{
+					id: "0284C92BA6460DCC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "40CC70872A021F01"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.storage.subt.compacting}"
+			tasks: [{
+				id: "150E7B8293B53A14"
+				item: "functionalstorage:simple_compacting_drawer"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.simple_compacting}"
+			x: -14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6CD64FB93AD15B3D"]
+			description: ["{atm9.quest.storage.desc.downgrade}"]
+			id: "122FBF5110E4CFF2"
+			rewards: [
+				{
+					id: "7073532E2AB42EC4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6DC85CDE0D262B73"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "234CA1589FD40C1F"
+				item: "functionalstorage:iron_downgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.downgrade}"
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6CD64FB93AD15B3D"]
+			description: ["{atm9.quest.storage.desc.collector}"]
+			id: "11D4EEAC61C7E530"
+			rewards: [
+				{
+					id: "004546CBCE58ED8D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "483127A4B08936A6"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A8FC5DEA767C4CB"
+				item: "functionalstorage:collector_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.collector}"
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CD64FB93AD15B3D"]
+			description: ["{atm9.quest.storage.desc.puller}"]
+			id: "7649D648A3688D4A"
+			rewards: [
+				{
+					id: "18A3080B3E2034B8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "50AC5224223A3E3A"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "361C5BAD8E696654"
+				item: "functionalstorage:puller_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.puller}"
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6CD64FB93AD15B3D"]
+			description: ["{atm9.quest.storage.desc.pusher}"]
+			id: "19DFAEB6D88F3580"
+			rewards: [
+				{
+					id: "52ECB2FF47657347"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "07F1E3EBC80C757F"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CE83107BC866C4F"
+				item: "functionalstorage:pusher_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.pusher}"
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CD64FB93AD15B3D"]
+			description: ["{atm9.quest.storage.desc.f_void}"]
+			id: "1CACE201C6AA0913"
+			rewards: [
+				{
+					id: "33496DB9BF055108"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "10580CFC65870287"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "322B685A58D540CC"
+				item: "functionalstorage:void_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.void}"
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6CD64FB93AD15B3D"]
+			description: ["{atm9.quest.storage.desc.redstone}"]
+			id: "70902EF96F060672"
+			rewards: [
+				{
+					id: "49AD46C626A80F7E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4C70B2868F386BAC"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47C4FF797CAC9ACA"
+				item: "functionalstorage:redstone_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.redstone}"
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2746575C929B6C50"]
+			description: ["{atm9.quest.storage.desc.f_upgrades}"]
+			id: "6CD64FB93AD15B3D"
+			tasks: [{
+				id: "504D99AC55F08CEC"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.storage.f_upgrades}"
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			description: ["{atm9.quest.storage.desc.rftools}"]
+			icon: "rftoolsstorage:storage_scanner"
+			id: "5F2BEB5E7B72BA97"
+			rewards: [{
+				id: "3C2F23F7DB10D595"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "362D501E0D663695"
+				title: "RFTools Storage"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.storage.rftools}"
+			x: -7.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5F2BEB5E7B72BA97"]
+			description: ["{atm9.quest.storage.desc.scanner}"]
+			id: "54EA80F374440D7C"
+			rewards: [{
+				id: "557569E8ED92C52A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{atm9.quest.storage.subt.scanner}"
+			tasks: [{
+				id: "5FC74BA4476E845F"
+				item: "rftoolsstorage:storage_scanner"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.scanner}"
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5F2BEB5E7B72BA97"]
+			description: ["{atm9.quest.storage.desc.modular}"]
+			id: "38DB158EC76A8103"
+			rewards: [{
+				id: "6815E9D63CCDD079"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{atm9.quest.storage.subt.modular}"
+			tasks: [{
+				id: "7086C329E169CCAD"
+				item: "rftoolsstorage:modular_storage"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.modular}"
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["38DB158EC76A8103"]
+			description: ["{atm9.quest.storage.desc.module1}"]
+			id: "4E68F5940F56CB87"
+			rewards: [{
+				id: "25DE5F89052876CD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6025A561379EF1CA"
+				item: "rftoolsstorage:storage_module0"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.module1}"
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4E68F5940F56CB87"]
+			description: ["{atm9.quest.storage.desc.module2}"]
+			id: "098649183C786A5A"
+			rewards: [{
+				id: "0E063D9A26D719B8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2D896A48DB1120D2"
+				item: "rftoolsstorage:storage_module1"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.module2}"
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["098649183C786A5A"]
+			description: ["{atm9.quest.storage.desc.module3}"]
+			id: "2829977AFC6BE757"
+			rewards: [{
+				id: "6444293BE66B02D5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3E08C9BB2122328A"
+				item: "rftoolsstorage:storage_module2"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.module3}"
+			x: -13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2829977AFC6BE757"]
+			description: ["{atm9.quest.storage.desc.module4}"]
+			id: "7840C2F15874622B"
+			rewards: [{
+				id: "4A95F7DEAB64EF45"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7371DF5A0057F6CA"
+				item: "rftoolsstorage:storage_module3"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.module4}"
+			x: -12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38DB158EC76A8103"]
+			description: ["{atm9.quest.storage.desc.filter}"]
+			id: "5611C20E8B58448B"
+			rewards: [{
+				id: "65135FBB78FCA426"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "076EFCC8C3F0C4C9"
+				item: {
+					Count: 1
+					id: "rftoolsbase:filter_module"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.rf_filter}"
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["563CFA1EF74E52E9"]
+			description: ["{atm9.quest.storage.desc.s_controller}"]
+			id: "1FE17B1C7C639F88"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "00BFBD3FEC121599"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.s_controller}"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1FE17B1C7C639F88"
+				"78E51D22C16C4686"
+			]
+			description: ["{atm9.quest.storage.desc.storage_link}"]
+			id: "0108F3EFDFD6DFD0"
+			tasks: [{
+				id: "031CC9264895DCFC"
+				item: "sophisticatedstorage:storage_link"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.storage_link}"
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1FE17B1C7C639F88"]
+			description: ["{atm9.quest.storage.desc.storage_tool}"]
+			id: "78E51D22C16C4686"
+			tasks: [{
+				id: "3D7AA8FBC90E1087"
+				item: "sophisticatedstorage:storage_tool"
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.storage_tool}"
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			description: ["{atm9.quest.storage.desc.framed}"]
+			icon: "functionalstorage:framed_1"
+			id: "1310C1E14C259807"
+			rewards: [
+				{
+					id: "0621CF83BC6182A4"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+				{
+					id: "64967CD3AC757A82"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "6528C25DF6E980E2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "functionalstorage:framed_1"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:framed_2"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:framed_4"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:compacting_framed_drawer"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:framed_simple_compacting_drawer"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:framed_storage_controller"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:framed_controller_extension"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.framed}"
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["072FBEB0F6F1BC48"]
+			description: ["{atm9.quest.storage.desc.fluid_drawers}"]
+			id: "38F9E9A830D3EA0C"
+			rewards: [
+				{
+					id: "6B41798241947F7A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "435F44696124D1EE"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "072A4FC654BFE3A0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "functionalstorage:fluid_1"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:fluid_2"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:fluid_4"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.storage.fluid_drawers}"
+			x: -13.5d
+			y: 1.5d
 		}
 		{
 			can_repeat: false
@@ -1859,8 +2566,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 2.5d
-			y: -3.5d
+			x: -4.0d
+			y: 1.0d
 		}
 	]
 	title: "{atm9.chapters.10.title}"

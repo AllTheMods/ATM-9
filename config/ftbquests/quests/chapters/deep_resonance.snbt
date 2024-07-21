@@ -1,0 +1,727 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deep_resonance"
+	group: "2B51AC12041E3F89"
+	icon: "deepresonance:resonating_crystal_natural"
+	id: "57354476668A066B"
+	images: [
+		{
+			height: 5.0d
+			hover: ["atm9.quest.deep.img.generator"]
+			image: "atm:textures/questpics/deepresonance/deep_generator.png"
+			rotation: 0.0d
+			width: 3.7542662116040955d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			hover: ["atm9.quest.deep.img.smelter"]
+			image: "atm:textures/questpics/deepresonance/deep_smelter.png"
+			rotation: 0.0d
+			width: 1.167202572347267d
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			height: 3.0d
+			hover: ["atm9.quest.deep.img.purifier"]
+			image: "atm:textures/questpics/deepresonance/deep_purifier.png"
+			rotation: 0.0d
+			width: 1.2359154929577465d
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			hover: ["atm9.quest.deep.img.laser"]
+			image: "atm:textures/questpics/deepresonance/deep_laser.png"
+			rotation: 0.0d
+			width: 3.6467532467532466d
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			height: 1.9428571428571426d
+			hover: ["atm9.quest.deep.img.crystallizer"]
+			image: "atm:textures/questpics/deepresonance/deep_crystallizer.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			height: 1.5d
+			hover: ["atm9.quest.deep.img.crystal"]
+			image: "atm:textures/questpics/deepresonance/deep_crystal.png"
+			rotation: 0.0d
+			width: 1.4d
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/deepresonance/deep_resonance.png"
+			rotation: 0.0d
+			width: 16.53191489361702d
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/deepresonance/using_crystals.png"
+			rotation: 0.0d
+			width: 7.6d
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/deepresonance/making_crystals.png"
+			rotation: 0.0d
+			width: 8.08421052631579d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/helper_arrow.png"
+			rotation: 0.0d
+			width: 1.4723926380368098d
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/helper_arrow.png"
+			rotation: 0.0d
+			width: 1.4723926380368098d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/helper_arrow.png"
+			rotation: 0.0d
+			width: 1.4723926380368098d
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/helper_arrow.png"
+			rotation: 0.0d
+			width: 1.4723926380368098d
+			x: 8.0d
+			y: 4.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{atm9.quest.deep.desc.crystal}"]
+			icon_scale: 1.2d
+			id: "57DF2D54E047D681"
+			rewards: [{
+				count: 10
+				id: "0B039D18CAF19E69"
+				item: "deepresonance:resonating_plate"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7201F2171CC6EEA6"
+				item: {
+					Count: 1
+					id: "deepresonance:resonating_crystal_natural"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.crystal}"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			description: ["{atm9.quest.deep.desc.ore}"]
+			icon: "deepresonance:resonating_ore_deepslate"
+			icon_scale: 1.5d
+			id: "09A4D9DA6A93CB57"
+			rewards: [{
+				count: 10
+				id: "0C1A394A04F369F7"
+				item: "deepresonance:resonating_plate"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6A329301A7E92B5D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "deepresonance:resonant_ore"
+					}
+				}
+				title: "Any #deepresonance:resonant_ore"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.ore}"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57DF2D54E047D681"]
+			description: ["{atm9.quest.deep.desc.part}"]
+			id: "1B74CE5507607E04"
+			rewards: [{
+				count: 2
+				id: "5D058919F4171F95"
+				item: "deepresonance:generator_part"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4F535DA5EABA57DA"
+				item: "deepresonance:generator_part"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.part}"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["294F3081C6442020"]
+			description: ["{atm9.quest.deep.desc.empty}"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "441B7D14471C8501"
+			rewards: [{
+				count: 3
+				id: "4A823D268C319336"
+				item: "deepresonance:resonating_crystal_natural_empty"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "605860621E3EAB59"
+				item: "deepresonance:resonating_crystal_natural_empty"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.empty}"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["09A4D9DA6A93CB57"]
+			description: ["{atm9.quest.deep.desc.smelter}"]
+			id: "023EA9D4168BEBE3"
+			rewards: [{
+				count: 5
+				id: "7C7B8DC13FB22320"
+				item: "deepresonance:resonating_ore_deepslate"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "74058123A325DEAE"
+				item: "deepresonance:smelter"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.smelter}"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["636B3895770ADD87"]
+			description: ["{atm9.quest.deep.desc.purity}"]
+			id: "16899736E32D0FAE"
+			rewards: [{
+				count: 3
+				id: "723D1AB748655FEE"
+				item: "deepresonance:resonating_ore_deepslate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D2053DE612E545B"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.purity}"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["636B3895770ADD87"]
+			description: ["{atm9.quest.deep.desc.strength}"]
+			id: "07AE6D6584104C74"
+			rewards: [{
+				count: 3
+				id: "2438233D3ACFAB3B"
+				item: "deepresonance:resonating_ore_deepslate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "237374F0AD689BE4"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.strength}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["636B3895770ADD87"]
+			description: ["{atm9.quest.deep.desc.efficiency}"]
+			id: "657122CFE3D0BF41"
+			rewards: [{
+				count: 3
+				id: "4D51310496130535"
+				item: "deepresonance:resonating_ore_deepslate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18F4B0BEAB325D48"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.efficiency}"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["57DF2D54E047D681"]
+			description: ["{atm9.quest.deep.desc.controller}"]
+			id: "1373937290D4D215"
+			rewards: [{
+				id: "20AABCF519B4849D"
+				item: "minecraft:lever"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "312709284148E85D"
+				item: "deepresonance:generator_controller"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.controller}"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57DF2D54E047D681"]
+			description: ["{atm9.quest.deep.desc.collector}"]
+			id: "31C5E5E56E7C7190"
+			rewards: [{
+				count: 5
+				id: "0689D616D5E7AA17"
+				item: "deepresonance:resonating_plate"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4D5A29365A13378E"
+				item: "deepresonance:energy_collector"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.collector}"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1373937290D4D215"
+				"1B74CE5507607E04"
+				"31C5E5E56E7C7190"
+			]
+			description: ["{atm9.quest.deep.desc.generator}"]
+			icon_scale: 1.5d
+			id: "294F3081C6442020"
+			rewards: [{
+				count: 10
+				id: "3DABF08932DFEA81"
+				item: "deepresonance:resonating_ore_deepslate"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "36746A756D453E67"
+				item: "deepresonance:generator_part"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.generator}"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["023EA9D4168BEBE3"]
+			description: ["{atm9.quest.deep.desc.liquid}"]
+			id: "21760D1807C835D1"
+			rewards: [{
+				count: 2
+				id: "6FE2487B1A4A180F"
+				item: "deepresonance:tank"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 2L
+				id: "7436A5E1167125C8"
+				item: { Count: 2, id: "deepresonance:tank" }
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.liquid}"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["21760D1807C835D1"]
+			description: ["{atm9.quest.deep.desc.quality}"]
+			id: "636B3895770ADD87"
+			rewards: [{
+				count: 5
+				id: "7E46589EA355BB68"
+				item: "deepresonance:resonating_ore_deepslate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21A3061F3B92D185"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.quality}"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["294F3081C6442020"]
+			description: ["{atm9.quest.deep.desc.pedestal}"]
+			id: "33AB668B242676FB"
+			optional: true
+			rewards: [{
+				id: "0323DD22A0D0EFBA"
+				item: "deepresonance:resonating_crystal_natural"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4507F9953B69B4AA"
+				item: "deepresonance:pedestal"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.pedestal}"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["294F3081C6442020"]
+			description: ["{atm9.quest.deep.desc.energy}"]
+			icon: "enderio:energy_conduit"
+			id: "5FBDA6392500855E"
+			rewards: [{
+				id: "564A635155BBC8EA"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30494B6A4087BF19"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pipez:energy_pipe"
+							}
+							{
+								Count: 1b
+								id: "enderio:energy_conduit"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cable_starter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_universal_cable"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.energy}"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16899736E32D0FAE"]
+			description: ["{atm9.quest.deep.desc.purifier}"]
+			id: "42A4231D6875C15B"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "5F72D292FEE28ECF"
+				item: "deepresonance:resonating_ore_deepslate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A4BC627BB852A5B"
+				item: "deepresonance:purifier"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.purifier}"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["540FFAE2D7BA96B7"]
+			description: ["{atm9.quest.deep.desc.lens}"]
+			icon: "deepresonance:lens"
+			id: "5BDBEF67A1F0A480"
+			rewards: [{
+				count: 5
+				id: "6851A12F6CF93920"
+				item: "deepresonance:resonating_ore_deepslate"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "74D045D3FF60B84E"
+					item: "deepresonance:tank"
+					type: "item"
+				}
+				{
+					id: "67D0769CCE480E7E"
+					item: "deepresonance:lens"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.deep.lens}"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"16899736E32D0FAE"
+				"07AE6D6584104C74"
+				"657122CFE3D0BF41"
+				"441B7D14471C8501"
+			]
+			description: ["{atm9.quest.deep.desc.laser}"]
+			id: "540FFAE2D7BA96B7"
+			rewards: [{
+				count: 5
+				id: "4898976420361D63"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "31936C23F549298E"
+				item: "deepresonance:laser"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.laser}"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BDBEF67A1F0A480"]
+			description: ["{atm9.quest.deep.desc.crystallizer}"]
+			id: "3EBF774CDF9E3CA6"
+			rewards: [
+				{
+					count: 10
+					id: "64FA990BDE3370A4"
+					item: "deepresonance:resonating_plate"
+					type: "item"
+				}
+				{
+					id: "36094E0E294C1104"
+					item: "mekanism:advanced_energy_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "26EB96BCF6C41082"
+				item: "deepresonance:crystallizer"
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.crystallizer}"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["{atm9.quest.deep.desc.catalyst}"]
+			id: "4D9AA59738EE90D5"
+			rewards: [{
+				count: 3
+				id: "5F9B0257243E193C"
+				item: "deepresonance:resonating_ore_deepslate"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3AEE1632960C65C6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:iron_ingot"
+							}
+							{
+								Count: 1b
+								id: "minecraft:gold_ingot"
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond"
+							}
+							{
+								Count: 1b
+								id: "minecraft:emerald"
+							}
+							{
+								Count: 1b
+								id: "minecraft:quartz"
+							}
+							{
+								Count: 1b
+								id: "minecraft:ender_pearl"
+							}
+							{
+								Count: 1b
+								id: "minecraft:gunpowder"
+							}
+							{
+								Count: 1b
+								id: "minecraft:redstone"
+							}
+							{
+								Count: 1b
+								id: "minecraft:coal"
+							}
+							{
+								Count: 1b
+								id: "minecraft:glowstone_dust"
+							}
+							{
+								Count: 1b
+								id: "minecraft:prismarine_crystals"
+							}
+							{
+								Count: 1b
+								id: "minecraft:prismarine_shard"
+							}
+							{
+								Count: 1b
+								id: "rftoolsbase:dimensionalshard"
+							}
+							{
+								Count: 1b
+								id: "minecraft:nether_wart"
+							}
+							{
+								Count: 1b
+								id: "minecraft:blaze_powder"
+							}
+							{
+								Count: 1b
+								id: "minecraft:ghast_tear"
+							}
+							{
+								Count: 1b
+								id: "minecraft:snowball"
+							}
+							{
+								Count: 1b
+								id: "minecraft:slime_ball"
+							}
+							{
+								Count: 1b
+								id: "minecraft:nether_star"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.deep.catalyst}"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3EBF774CDF9E3CA6"]
+			description: ["{atm9.quest.deep.desc.radiation}"]
+			hide: true
+			id: "23E396C25029E266"
+			rewards: [{
+				id: "4A42535213641530"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "74B4332497BCDF2D"
+					item: {
+						Count: 1
+						id: "deepresonance:radiation_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BED31868D23AD43"
+					item: {
+						Count: 1
+						id: "deepresonance:radiation_suit_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58B5EA356D8E3078"
+					item: {
+						Count: 1
+						id: "deepresonance:radiation_suit_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BEDE958C91E6D7A"
+					item: {
+						Count: 1
+						id: "deepresonance:radiation_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.deep.radiation}"
+			x: 9.5d
+			y: 1.5d
+		}
+	]
+	title: "{atm9.chapters.55.title}"
+}
