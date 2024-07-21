@@ -1,3 +1,6 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 const ItemRegistry = Java.loadClass('com.smashingmods.chemlib.registry.ItemRegistry')
 
 // List Gen
@@ -8,9 +11,9 @@ const ItemRegistry = Java.loadClass('com.smashingmods.chemlib.registry.ItemRegis
     generates a new chemlibCompat.json file
     helps add chemlib tooltips to items unified away from chemlib
 */
-ServerEvents.commandRegistry(event => {
-  const { commands: Commands, arguments: Arguments, builtinSuggestions: Suggestions } = event;
-  event.register(
+ServerEvents.commandRegistry(allthemods => {
+  const { commands: Commands, arguments: Arguments, builtinSuggestions: Suggestions } = allthemods;
+  allthemods.register(
     Commands.literal("chemlibhelper")
       .requires(source => source.getServer().isSingleplayer() || source.hasPermission(2))
       .executes((ctx) => Chemlib(ctx.source))
@@ -43,3 +46,6 @@ function Chemlib(source) {
   JsonIO.write('kubejs/client_scripts/chemlibCompat.json', replaced)
   return 1
 }
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

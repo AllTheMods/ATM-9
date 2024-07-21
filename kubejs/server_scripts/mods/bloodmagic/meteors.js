@@ -1,4 +1,7 @@
-ServerEvents.highPriorityData(event => {
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+ServerEvents.highPriorityData(allthemods => {
     let addMeteorWithCore = (id, explosionRadius, input, coreBlock, innerRadius, outerRadius, fillBlock, weightMap, syphon) => {
         let meteorJson = JsonIO.toObject(
             {
@@ -28,7 +31,7 @@ ServerEvents.highPriorityData(event => {
               }
         )
 
-        event.addJson(`bloodmagic:recipes/meteor/${id}`, meteorJson)
+        allthemods.addJson(`bloodmagic:recipes/meteor/${id}`, meteorJson)
     }
 
     let addMeteor = (id, explosionRadius, input, radius, fillBlock, weightMap, syphon) => {
@@ -52,7 +55,7 @@ ServerEvents.highPriorityData(event => {
               }
         )
 
-        event.addJson(`bloodmagic:recipes/meteor/${id}`, meteorJson)
+        allthemods.addJson(`bloodmagic:recipes/meteor/${id}`, meteorJson)
     }
 
     const endMap = [
@@ -184,3 +187,6 @@ ServerEvents.highPriorityData(event => {
     addMeteor('allthemodium_big', 12, { "item": "allthemodium:unobtainium_vibranium_alloy_block" }, 6, "allthemodium:ancient_stone", atmMap, 5000000)
     addMeteor('palladium_big', 12, { "item": "gtceu:rhodium_plated_palladium_block" }, 6, "minecraft:end_stone", palladiumMap, 5000000)
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

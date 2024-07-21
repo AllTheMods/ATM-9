@@ -588,7 +588,7 @@
 				icon: "alltheores:bronze_ingot"
 				id: "0E28075B4E87FE2E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/bronze"
@@ -607,7 +607,7 @@
 				icon: "alltheores:steel_ingot"
 				id: "740E35A5781E43A7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/steel"
@@ -626,7 +626,7 @@
 				icon: "gtceu:aluminium_ingot"
 				id: "15DC25BCFCE78DE2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/aluminum"
@@ -645,7 +645,7 @@
 				icon: "gtceu:gallium_ingot"
 				id: "1CC0983CB7DBE526"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/gallium"
@@ -696,7 +696,7 @@
 			tasks: [{
 				id: "7BEB4A258BB8C759"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -890,7 +890,7 @@
 				icon: "gtceu:titanium_ingot"
 				id: "0B298C73448F3DA6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/titanium"
@@ -909,7 +909,7 @@
 				icon: "alltheores:platinum_ingot"
 				id: "282B4264413EFB2D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/platinum"
@@ -983,7 +983,7 @@
 				icon: "gtceu:tungsten_ingot"
 				id: "2D9B8AF6C76D9CEA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/tungsten"
@@ -1027,6 +1027,46 @@
 			title: "{atm9.quest.gregtech.steamAge}"
 			x: -5.0d
 			y: -6.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "637606D689F33BB3"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "3ECFB6986CC0B99C"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "34DB149196F82789"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 4.5d
 		}
 	]
 	title: "{atm9.chapters.37.title}"

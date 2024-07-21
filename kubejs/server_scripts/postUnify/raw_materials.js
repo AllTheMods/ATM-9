@@ -1,14 +1,16 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 //priority:550
 // Written by EnigmaQuip as a post almost unified recipe generation script for missing recipes
 
 // Missing tags for unify
-ServerEvents.tags('item', event => {
+ServerEvents.tags('item', allthemods => {
   global.blueskies.forEach(metal => {
-    event.add(`forge:raw_materials/${metal}`, `blue_skies:raw_${metal}`)
+    allthemods.add(`forge:raw_materials/${metal}`, `blue_skies:raw_${metal}`)
   })
 })
 
-ServerEvents.recipes(event => {
+ServerEvents.recipes(allthemods => {
   if (global.devLogging) {
     console.log('Finishing Unifying on Raw Materials')
   }
@@ -30,7 +32,7 @@ ServerEvents.recipes(event => {
 
     if (global.loaded.IE_Loaded) {
       // Check if ie metal press recipe exists and add it if not
-      let count = event.recipeStream({ type: 'immersiveengineering:metal_press' }).mapToInt(recipe => {
+      let count = allthemods.recipeStream({ type: 'immersiveengineering:metal_press' }).mapToInt(recipe => {
         let result = recipe.json.get('result')
         if (result.has('base_ingredient')) {
           if (raw_material.equalsIgnoringCount(Item.of(result.get('base_ingredient')))) { return 1 }
@@ -39,20 +41,20 @@ ServerEvents.recipes(event => {
       }).sum()
 
       if (count == 0) {
-        event.custom({
+        allthemods.custom({
           type: 'immersiveengineering:metal_press',
           mold: 'immersiveengineering:mold_unpacking',
           input: rawblockTag.toJson(),
           result: raw_material.withCount(9).toJson(),
           energy: 2400
-        }).id(`kubejs:immersiveengineering/metalpress/raw_material_${material}`)
+        }).id(`allthemods:immersiveengineering/metalpress/raw_material_${material}`)
         raw_materialCount.ie++
       }
     }
 
     if (global.loaded.Thermal_Loaded) {
       // Check if thermal multiservo press recipe exists and add it if not
-      let count = event.recipeStream({ type: 'thermal:press' }).mapToInt(recipe => {
+      let count = allthemods.recipeStream({ type: 'thermal:press' }).mapToInt(recipe => {
         let hasMatch = false
         recipe.json.get('result').forEach(item => {
           if (raw_material.specialEquals(Item.of(item), true)) {
@@ -64,14 +66,14 @@ ServerEvents.recipes(event => {
       }).sum()
 
       if (count == 0) {
-        event.custom({
+        allthemods.custom({
           type: 'thermal:press',
           ingredients: [
             rawblockTag.toJson(),
             Ingredient.of('thermal:press_unpacking_die').toJson(),
           ],
           result: [raw_material.withCount(9).toJson()],
-        }).id(`kubejs:thermal/machines/press/unpacking/press_raw_${material}_unpacking`)
+        }).id(`allthemods:thermal/machines/press/unpacking/press_raw_${material}_unpacking`)
         raw_materialCount.thermal++
       }
     }
@@ -82,3 +84,6 @@ ServerEvents.recipes(event => {
     // Added Raw Material Recipes - IE: 26, Thermal: 16
   }
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

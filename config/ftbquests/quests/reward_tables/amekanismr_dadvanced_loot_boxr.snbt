@@ -38,7 +38,7 @@
 		{ item: "mekanism:quantum_entangloporter", weight: 25.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "mekanism:elite_energy_cube"
 				tag: {
 					mekData: {
@@ -53,7 +53,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "mekanism:ultimate_energy_cube"
 				tag: {
 					mekData: {
@@ -71,7 +71,7 @@
 		{ count: 4, item: "mekanism:ultimate_pressurized_tube", random_bonus: 4, weight: 50.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "mekanismgenerators:advanced_solar_generator"
 				tag: {
 					mekData: {
@@ -88,7 +88,7 @@
 		{ item: "mysticalagriculture:uranium_seeds", random_bonus: 1, weight: 25.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "productivebees:spawn_egg_configurable_bee"
 				tag: {
 					EntityTag: {

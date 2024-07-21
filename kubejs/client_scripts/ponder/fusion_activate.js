@@ -1,5 +1,8 @@
-Ponder.registry((event) => {
-    event.create([
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+Ponder.registry((allthemods) => {
+    allthemods.create([
 		'mekanismgenerators:hohlraum',
 		Item.of('mekanismgenerators:hohlraum', '{mekData:{GasTanks:[{Tank:0b,stored:{amount:10L,gasName:"mekanismgenerators:fusion_fuel"}}]}}'),
 		'mekanismgenerators:laser_focus_matrix'
@@ -61,3 +64,6 @@ Ponder.registry((event) => {
 
     });
 });
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

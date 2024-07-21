@@ -1,5 +1,8 @@
-Ponder.registry((event) => {
-    event.create("pylons:harvester_pylon")
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+Ponder.registry((allthemods) => {
+    allthemods.create("pylons:harvester_pylon")
     .scene("harvest1", "Using the Harvester Pylon", "farm", (scene, util) => {
         scene.showBasePlate()
         scene.overlay.showText(40).text("The Harvester Pylon").independent(20).placeNearTarget()
@@ -86,3 +89,6 @@ Ponder.registry((event) => {
     })
 
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

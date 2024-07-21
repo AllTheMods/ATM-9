@@ -1,4 +1,7 @@
-ServerEvents.recipes(event => {
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+ServerEvents.recipes(allthemods => {
   /*let fluidList = Fluid.getTypes()
   let xpFluid = []
   fluidList.forEach(id => {
@@ -43,7 +46,7 @@ ServerEvents.recipes(event => {
         ],
         result: { fluid: xpFluid[i], amount: 250 }
       }
-      event.custom(recipe).id(`kubejs:thermal/brewer/xp_conv_${i}`)
+      allthemods.custom(recipe).id(`allthemods:thermal/brewer/xp_conv_${i}`)
     }
     if (Platform.isLoaded('create')) {
       let recipe = {
@@ -54,7 +57,7 @@ ServerEvents.recipes(event => {
         ],
         results: [{ fluid: xpFluid[i], amount: 250 }]
       }
-      event.custom(recipe).id(`kubejs:create/mixing/xp_conv_${i}`)
+      allthemods.custom(recipe).id(`allthemods:create/mixing/xp_conv_${i}`)
     }
     if (Platform.isLoaded('pneumaticcraft')) {
       let recipe = {
@@ -71,7 +74,10 @@ ServerEvents.recipes(event => {
         air_use_multiplier: 1.0,
         exothermic: false
       }
-      event.custom(recipe).id(`kubejs:pneumaticcraft/thermo_plant/xp_conv_${i}`)
+      allthemods.custom(recipe).id(`allthemods:pneumaticcraft/thermo_plant/xp_conv_${i}`)
     }
   }
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

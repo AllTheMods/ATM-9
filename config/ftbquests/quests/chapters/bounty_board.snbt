@@ -6,11 +6,7 @@
 	icon: "minecraft:zombie_head"
 	id: "18A429E7F56AF5A9"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 3.0d
-		hover: [ ]
 		image: "atm:textures/questpics/bounty.png"
 		rotation: 0.0d
 		width: 12.0d
@@ -553,7 +549,7 @@
 				{
 					id: "26EF416511A49817"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_sword"
 						tag: {
 							Damage: 0
@@ -999,7 +995,7 @@
 			tasks: [{
 				entity: "minecraft:witch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:invisibility"
@@ -1018,7 +1014,7 @@
 			dependencies: ["5AC497F76A086A5C"]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:invisibility"
@@ -1041,7 +1037,7 @@
 			tasks: [{
 				entity: "minecraft:witch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:leaping"
@@ -1095,7 +1091,7 @@
 			tasks: [{
 				entity: "minecraft:witch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:slowness"
@@ -1130,7 +1126,7 @@
 			tasks: [{
 				entity: "minecraft:witch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:splash_potion"
 					tag: {
 						Potion: "ars_nouveau:shielding_potion_strong"
@@ -1307,6 +1303,46 @@
 			title: "{atm9.quest.bounty.warden}"
 			x: 1.5d
 			y: 6.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "764C6E8E0BBB5537"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "148550E42311F5A5"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "07FE5720E3BD9A7B"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 0.5d
 		}
 	]
 	title: "{atm9.chapters.3.title}"

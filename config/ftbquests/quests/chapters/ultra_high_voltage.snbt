@@ -882,7 +882,7 @@
 			rewards: [{
 				id: "7BB30A393756D2D3"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -974,7 +974,7 @@
 				{
 					id: "3A692A70D38C3533"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							Parent: {
 								Amount: 16000
@@ -1009,7 +1009,7 @@
 			rewards: [{
 				id: "45C6CD8552FBD30E"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1044,7 +1044,7 @@
 			rewards: [{
 				id: "3437B1764F2C8CB3"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1078,7 +1078,7 @@
 			rewards: [{
 				id: "49A3DC24BAC9CCED"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1156,6 +1156,46 @@
 			}]
 			x: -16.5d
 			y: -2.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "6023F9AF1606940A"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2A53921BBB7FC08F"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "466E86A305EA10CC"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -15.0d
+			y: 1.0d
 		}
 	]
 	title: "{atm9.chapters.35.title}"

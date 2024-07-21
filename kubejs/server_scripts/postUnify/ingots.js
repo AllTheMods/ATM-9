@@ -1,14 +1,16 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 //priority:700
 // Written by EnigmaQuip as a post almost unified recipe generation script for missing recipes
 
 // Missing tags for unify
-ServerEvents.tags('item', event => {
+ServerEvents.tags('item', allthemods => {
   ['falsite', 'ventium', 'horizonite'].forEach(metal => {
-    event.add(`forge:ingots/${metal}`, `blue_skies:${metal}_ingot`)
+    allthemods.add(`forge:ingots/${metal}`, `blue_skies:${metal}_ingot`)
   })
 })
 
-ServerEvents.recipes(event => {
+ServerEvents.recipes(allthemods => {
   if (global.devLogging) {
     console.log('Finishing Unifying on Ingots')
   }
@@ -35,7 +37,7 @@ ServerEvents.recipes(event => {
         nugget: false
       }
       // Check if ie metal press recipe exists and add it if not
-      event.forEachRecipe({ type: 'immersiveengineering:metal_press' }, recipe => {
+      allthemods.forEachRecipe({ type: 'immersiveengineering:metal_press' }, recipe => {
         let result = recipe.json.get('result')
         if (result.has('base_ingredient')) {
           result = result.get('base_ingredient')
@@ -57,12 +59,12 @@ ServerEvents.recipes(event => {
           result: ingot.withCount(9).toJson(),
           energy: 2400
         }
-        event.custom(recipe).id(`kubejs:immersiveengineering/metalpress/unpacking/block_${material}`)
+        allthemods.custom(recipe).id(`allthemods:immersiveengineering/metalpress/unpacking/block_${material}`)
         ingotCount.ie++
       }
 
       if (!ie.nugget && !nuggetTag.getFirst().isEmpty()) {
-        event.custom({
+        allthemods.custom({
           type: 'immersiveengineering:metal_press',
           mold: 'immersiveengineering:mold_packing_9',
           input: {
@@ -71,7 +73,7 @@ ServerEvents.recipes(event => {
           },
           result: ingot.toJson(),
           energy: 2400
-        }).id(`kubejs:immersiveengineering/metalpress/packing3x3/${material}_nugget`)
+        }).id(`allthemods:immersiveengineering/metalpress/packing3x3/${material}_nugget`)
         ingotCount.ie++
       }
     }
@@ -83,7 +85,7 @@ ServerEvents.recipes(event => {
         nugget: false
       }
       // Check if thermal multiservo press recipe exists and add it if not
-      event.forEachRecipe({ type: 'thermal:press' }, recipe => {
+      allthemods.forEachRecipe({ type: 'thermal:press' }, recipe => {
         let hasMatch = false
         recipe.json.get('result').forEach(item => {
           if (ingot.specialEquals(Item.of(item), true)) {
@@ -98,26 +100,26 @@ ServerEvents.recipes(event => {
       })
 
       if (!thermal.storage && !storageTag.getFirst().isEmpty()) {
-        event.custom({
+        allthemods.custom({
           type: 'thermal:press',
           ingredients: [
             storageTag.toJson(),
             Ingredient.of('thermal:press_unpacking_die').toJson(),
           ],
           result: [ingot.withCount(9).toJson()],
-        }).id(`kubejs:thermal/machines/press/unpacking/press_${material}_unpacking`)
+        }).id(`allthemods:thermal/machines/press/unpacking/press_${material}_unpacking`)
         ingotCount.thermal++
       }
 
       if (!thermal.nugget && !nuggetTag.getFirst().isEmpty()) {
-        event.custom({
+        allthemods.custom({
           type: 'thermal:press',
           ingredients: [
             Item.of(nuggetTag.getFirst()).withCount(9),
             Ingredient.of('thermal:press_packing_3x3_die').toJson(),
           ],
           result: [ingot.toJson()],
-        }).id(`kubejs:thermal/machines/press/packing3x3/press_${material}_nugget_packing`)
+        }).id(`allthemods:thermal/machines/press/packing3x3/press_${material}_nugget_packing`)
         ingotCount.thermal++
       }
     }
@@ -150,3 +152,6 @@ ServerEvents.recipes(event => {
     // Added Ingot Recipes - IE: 87, Thermal: 45
   }
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

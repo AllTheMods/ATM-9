@@ -192,7 +192,7 @@
 				icon: "gtceu:tungsten_ingot"
 				id: "36397CBA6D39DC0D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/tungsten"
@@ -265,7 +265,7 @@
 				{
 					id: "7454CBA7D956781A"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							Parent: {
 								Amount: 16000
@@ -344,6 +344,7 @@
 			]
 			icon: "gtceu:iv_processing_array"
 			id: "72A2AA6274D6FA9A"
+			invisible: true
 			min_width: 300
 			optional: true
 			rewards: [{
@@ -559,7 +560,7 @@
 				icon: "gtceu:palladium_dust"
 				id: "64A8B8EDC7F58D0D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:dusts/palladium"
@@ -641,7 +642,7 @@
 					icon: "gtceu:hv_laser_engraver"
 					id: "783B177BEB5F921E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -719,7 +720,7 @@
 				{
 					id: "642AC2D4AF44CD23"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							Parent: {
 								Amount: 16000
@@ -1297,7 +1298,7 @@
 			rewards: [{
 				id: "1BCFE363242C28DA"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1537,7 +1538,7 @@
 				icon: "gtceu:antimony_dust"
 				id: "5934DBB2E4ED1CCA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:dusts/antimony"
@@ -1572,7 +1573,7 @@
 				icon: "gtceu:tungsten_dust"
 				id: "29C1F4339267D35B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:dusts/tungsten"
@@ -1645,7 +1646,7 @@
 			tasks: [{
 				id: "54231849B7094A32"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -2386,7 +2387,7 @@
 			rewards: [{
 				id: "2BD13756A8D0E6D0"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -2494,7 +2495,7 @@
 				{
 					id: "36D580AD734CBBA6"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							Parent: {
 								Amount: 16000
@@ -2726,6 +2727,46 @@
 			}]
 			x: 3.5d
 			y: -4.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "0D0EE0D7770F7B5C"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "5F01CDDCA2549DC3"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "78FED3ADEBDCD785"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -8.5d
+			y: 3.0d
 		}
 	]
 	title: "{atm9.chapters.31.title}"

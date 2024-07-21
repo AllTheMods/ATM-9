@@ -6,11 +6,7 @@
 	icon: "mekanism:steel_casing"
 	id: "23983F4DC524B14B"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 2.0d
-		hover: [ ]
 		image: "ftbquests:block/barrier_open"
 		rotation: 45.0d
 		width: 2.0d
@@ -738,7 +734,7 @@
 				icon: "alltheores:steel_ingot"
 				id: "6B88F1F9DF50C1E4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/steel"
@@ -1686,7 +1682,7 @@
 				{
 					id: "3B5A283601BEADA0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:dusts/sulfur"
@@ -1728,7 +1724,7 @@
 			tasks: [{
 				id: "6E75525A5D88EF23"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -2375,7 +2371,7 @@
 				"{atm9.quest.mekanism.desc.modOverview.3}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "mekanism:creative_energy_cube"
 				tag: {
 					mekData: {
@@ -2859,6 +2855,46 @@
 			}]
 			x: 9.0d
 			y: -5.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "1B98350325FA52CD"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "16F845475F9E5089"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "22A1ED0E7CF3404B"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -13.0d
+			y: 0.0d
 		}
 	]
 	title: "{atm9.chapters.21.title}"

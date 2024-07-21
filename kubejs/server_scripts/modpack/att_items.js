@@ -1,6 +1,9 @@
-ServerEvents.recipes(event => {
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+ServerEvents.recipes(allthemods => {
   // Dragon Soul
-  event.shaped('allthetweaks:dragon_soul', ['CDA', 'SNI', 'BGE'], {
+  allthemods.shaped('allthetweaks:dragon_soul', ['CDA', 'SNI', 'BGE'], {
     C: 'mysticalagradditions:dragon_scale',
     D: 'occultism:soul_gem',
     A: 'ends_delight:non_hatchable_dragon_egg',
@@ -10,10 +13,10 @@ ServerEvents.recipes(event => {
     B: 'botania:life_essence',
 	G: 'productivebees:inactive_dragon_egg',
     E: 'ars_nouveau:summon_focus'
-  }).id('kubejs:allthetweaks/dragon_soul')
+  }).id('allthemods:allthetweaks/dragon_soul')
 
   // Dimensional Seed Recipe
-  event.shaped('allthetweaks:dimensional_seed', ['ABC', 'DEF', 'GHI'], {
+  allthemods.shaped('allthetweaks:dimensional_seed', ['ABC', 'DEF', 'GHI'], {
     A: 'allthecompressed:netherrack_6x',
     B: 'allthecompressed:dirt_6x',
     C: 'allthecompressed:obsidian_5x',
@@ -23,19 +26,19 @@ ServerEvents.recipes(event => {
     G: 'allthecompressed:end_stone_5x',
     H: 'allthecompressed:emerald_block_4x',
     I: 'allthecompressed:diamond_block_4x'
-  }).id('kubejs:allthetweaks/dimensional_seed')
+  }).id('allthemods:allthetweaks/dimensional_seed')
 
     // Withers Compass
-    event.shaped('allthetweaks:withers_compass', ['DCD', 'ABA', 'DED'], {
+    allthemods.shaped('allthetweaks:withers_compass', ['DCD', 'ABA', 'DED'], {
       A: 'cataclysm:abyssal_sacrifice',
       B: 'industrialforegoing:wither_builder',
       C: 'deeperdarker:heart_of_the_deep',
       D: 'bloodmagic:speedrune2',
       E: 'cataclysm:void_forge'
-    }).id('kubejs:allthetweaks/withers_compass')
+    }).id('allthemods:allthetweaks/withers_compass')
 
   // Philosopher's Fuel
-  event.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
+  allthemods.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
   A: 'generatorgalore:ender_generator',
 	B: 'ironfurnaces:million_furnace'  ,
 	C: 'bigreactors:insanite_block' ,
@@ -45,10 +48,10 @@ ServerEvents.recipes(event => {
 	G: 'mysticalagriculture:awakened_supremium_furnace',
 	H: 'twilightforest:twilight_portal_miniature_structure',
   I: 'silentgear:tyrian_steel_block'
-  }).id('kubejs:allthetweaks/philosophers_fuel')
+  }).id('allthemods:allthetweaks/philosophers_fuel')
 
   // Improbable Probability Device
-  event.shaped('allthetweaks:improbable_probability_device', ['ABA', 'CGE', 'FDF'], {
+  allthemods.shaped('allthetweaks:improbable_probability_device', ['ABA', 'CGE', 'FDF'], {
     A: 'mekanism:pellet_antimatter',
     B: 'computercraft:pocket_computer_advanced',
     C: ['extradisks:1048576k_storage_part', 'extradisks:1048576k_fluid_storage_part', 'megacells:cell_component_256m'],
@@ -56,10 +59,10 @@ ServerEvents.recipes(event => {
     E: 'rftoolsutility:flight_module',
     F: Item.of('powah:battery_nitro', '{powah_tile_data:{energy_stored_main_energy:2000000000L}}').weakNBT(),
     G: 'ad_astra:jet_suit'
-    }).id('kubejs:allthetweaks/improbable_probability_device')
+    }).id('allthemods:allthetweaks/improbable_probability_device')
   
     // Nexium Emitter
-    event.shaped('allthetweaks:nexium_emitter', ['A B', ' CF', 'GED'], {
+    allthemods.shaped('allthetweaks:nexium_emitter', ['A B', ' CF', 'GED'], {
       A: 'powah:player_transmitter_nitro',
       B: [Item.of('ae2wtlib:wireless_universal_terminal', '{crafting:1b,internalMaxPower:4800000.0d,pattern_access:1b,pattern_encoding:1b}'), Item.of('universalgrid:wireless_universal_grid', '{gridType:0}')],
       F: [Item.of('mekanism:module_gravitational_modulating_unit')],
@@ -67,10 +70,10 @@ ServerEvents.recipes(event => {
       E: 'ae2:singularity',
       C: 'immersiveengineering:railgun',
       G: 'exchangers:end_exchanger'
-    }).id('kubejs:allthetweaks/nexium_emitter')
+    }).id('allthemods:allthetweaks/nexium_emitter')
 
   // Pulsating Black Hole
-  event.custom({
+  allthemods.custom({
     type: 'pneumaticcraft:pressure_chamber',
     inputs: [
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'irons_spellbooks:fire_upgrade_orb', 'count': 1 },
@@ -89,19 +92,22 @@ ServerEvents.recipes(event => {
         'item': 'allthetweaks:pulsating_black_hole'
       }
     ]
-  }).id('kubejs:pressure/allthetweaks/pulsating_black_hole')
+  }).id('allthemods:pressure/allthetweaks/pulsating_black_hole')
 
   // Oblivion Shard
-  event.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
+  allthemods.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
     A: 'forbidden_arcanus:eternal_stella',
     C: Item.of('evilcraft:mace_of_destruction', '{Fluid: {FluidName: "evilcraft:blood", Amount: 4000}}').weakNBT(),
     B: 'evilcraft:piercing_vengeance_focus'
-  }).id('kubejs:allthetweaks/oblivion_shard')
+  }).id('allthemods:allthetweaks/oblivion_shard')
 
   // Creative Essence
-  event.shaped('mysticalagradditions:creative_essence', ['CAC', 'ABA', 'CAC'], {
+  allthemods.shaped('mysticalagradditions:creative_essence', ['CAC', 'ABA', 'CAC'], {
     A: 'mysticalagradditions:insanium_block',
     C: 'mysticalagradditions:insanium_gemstone_block',
     B: 'mysticalagriculture:master_infusion_crystal'
-  }).id('kubejs:allthetweaks/creative_essence')
+  }).id('allthemods:allthetweaks/creative_essence')
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

@@ -8,11 +8,7 @@
 	id: "0A093D8C4429B627"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
 			width: 3.0d
@@ -20,11 +16,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 3.0d
@@ -32,11 +24,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 3.0d
@@ -44,11 +32,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
 			width: 3.0d
@@ -56,11 +40,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mekanism:item/hazmat_mask"
 			rotation: 0.0d
 			width: 1.0d
@@ -68,11 +48,7 @@
 			y: 0.75d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mekanism:item/hazmat_gown"
 			rotation: 0.0d
 			width: 1.0d
@@ -80,11 +56,7 @@
 			y: 1.25d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mekanism:item/hazmat_pants"
 			rotation: 0.0d
 			width: 1.0d
@@ -92,11 +64,7 @@
 			y: 1.75d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mekanism:item/hazmat_boots"
 			rotation: 0.0d
 			width: 1.0d
@@ -104,11 +72,7 @@
 			y: 2.25d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mekanism:item/fluorite_gem"
 			rotation: 0.0d
 			width: 1.0d
@@ -116,11 +80,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mekanism:item/yellow_cake_uranium"
 			rotation: 0.0d
 			width: 1.0d
@@ -128,9 +88,6 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 11.0d
 			hover: ["{atm9.quest.mekanismReactors.fusionReactor}"]
 			image: "atm:textures/questpics/mek/fusion_cutout.png"
@@ -140,9 +97,6 @@
 			y: -13.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 12.0d
 			hover: ["{atm9.quest.mekanismReactors.industrialTurbine}"]
 			image: "atm:textures/questpics/mek/turbine_cutout.png"
@@ -152,9 +106,6 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
 			hover: ["{atm9.quest.mekanismReactors.fissionReactor}"]
 			image: "atm:textures/questpics/mek/fission_cutout.png"
@@ -164,9 +115,6 @@
 			y: 9.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
 			hover: ["{atm9.quest.mekanismReactors.supercriticalPhaseShifter}"]
 			image: "atm:textures/questpics/mek/sps_cutout.png"
@@ -177,11 +125,7 @@
 		}
 		{
 			alpha: 150
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ae2:block/controller_column_lights"
 			rotation: 90.0d
 			width: 1.5d
@@ -189,11 +133,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mob_grinding_utils:block/fan_front_on"
 			rotation: -45.0d
 			width: 1.0d
@@ -201,11 +141,7 @@
 			y: -0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mob_grinding_utils:block/fan_front_on"
 			rotation: -45.0d
 			width: 1.0d
@@ -213,11 +149,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbquests:block/screen_side"
 			order: -1
 			rotation: 0.0d
@@ -226,11 +158,7 @@
 			y: -6.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
-			hover: [ ]
 			image: "ars_nouveau:textures/particle/laser.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -238,11 +166,7 @@
 			y: -6.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "securitycraft:block/ani_laser"
 			rotation: 0.0d
 			width: 0.021739130434782608d
@@ -250,11 +174,7 @@
 			y: -4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "securitycraft:block/ani_laser"
 			rotation: 0.0d
 			width: 0.021739130434782608d
@@ -262,9 +182,6 @@
 			y: -4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.3d
 			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
@@ -274,9 +191,6 @@
 			y: -9.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.3d
 			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
@@ -558,7 +472,7 @@
 				{
 					id: "5BC88AE46F95774D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -834,7 +748,7 @@
 				{
 					id: "14A09EAF150777A3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:dusts/sulfur"
@@ -880,7 +794,7 @@
 				{
 					id: "452FBF76102210BD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:gems/fluorite"
@@ -1593,7 +1507,7 @@
 				{
 					id: "4B63979C49A34565"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mekanismgenerators:hohlraum"
 						tag: {
 							mekData: {
@@ -1920,7 +1834,7 @@
 			tasks: [{
 				id: "31A1425AA09C33F8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:dusts/lithium"
@@ -2020,7 +1934,7 @@
 				{
 					id: "4063C1B5F935A026"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2049,7 +1963,7 @@
 				{
 					id: "2E3FF129C3668DD8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2117,6 +2031,46 @@
 			title: "{atm9.quest.mekanismReactors.completingMatrix}"
 			x: 5.0d
 			y: -1.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "67423D709305AD2D"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "43556EEA05422924"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "314BB5005E524D0A"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "{atm9.chapters.22.title}"

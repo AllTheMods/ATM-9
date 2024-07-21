@@ -3,13 +3,16 @@
 	default_quest_shape: "diamond"
 	filename: "tips_and_tricks"
 	group: ""
+	icon: {
+		Count: 1
+		id: "constructionwand:infinity_wand"
+		tag: {
+			wand_options: { }
+		}
+	}
 	id: "1BE666F01EFFC00D"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 3.0d
-		hover: [ ]
 		image: "atm:textures/questpics/tips_and_tricks.png"
 		rotation: 0.0d
 		width: 12.0d
@@ -66,7 +69,7 @@
 			tasks: [{
 				id: "30C938C85BED7956"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "shrink:shrinking_device"
 					tag: { }
 				}
@@ -97,7 +100,7 @@
 				{
 					id: "51AA3A27028426C5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -174,7 +177,7 @@
 				{
 					id: "04903282E935F3D3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -289,7 +292,7 @@
 			tasks: [{
 				id: "176150A0FE674662"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -401,7 +404,7 @@
 			tasks: [{
 				id: "27CB2988681DB62C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -445,7 +448,7 @@
 			tasks: [{
 				id: "595B3FA9F32B712D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "naturescompass:naturescompass"
 					tag: { }
 				}
@@ -548,7 +551,7 @@
 		{
 			description: ["{atm9.quest.tips.desc.mahou}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				ForgeCaps: {
 					Parent: {
 						MAHOUTSUKAI_ATTACK_CAP: 0.0d
@@ -595,6 +598,46 @@
 			title: "{atm9.quest.tips.spawner}"
 			x: 5.5d
 			y: 5.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "21492239FE2B6937"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "6432B335C250C941"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "15DB990611A5962E"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: 4.5d
 		}
 	]
 	title: "{atm9.chapters.4.title}"

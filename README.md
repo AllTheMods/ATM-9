@@ -15,6 +15,7 @@ When reporting an issue put the version number before the issue title! Such as [
 <br>
 
 #### Modpacks:
++ [![All the Mods 9](http://cf.way2muchnoise.eu/372309.svg "ATM9") All The Mods 0 - ATM0](https://www.curseforge.com/minecraft/modpacks/all-the-mods-0)
 + [![All the Mods 1](http://cf.way2muchnoise.eu/242462.svg "ATM1") All The Mods 1 - ATM1](https://www.curseforge.com/minecraft/modpacks/all-the-mods)
 + [![All the Mods 2](http://cf.way2muchnoise.eu/253707.svg "ATM2") All The Mods 2 - ATM2](https://www.curseforge.com/minecraft/modpacks/all-the-mods-2)
 + [![All the Mods 3](http://cf.way2muchnoise.eu/269708.svg "ATM3") All The Mods 3 - ATM3](https://www.curseforge.com/minecraft/modpacks/all-the-mods-3)
@@ -29,4 +30,9 @@ When reporting an issue put the version number before the issue title! Such as [
 + [![All the Mods 7](http://cf.way2muchnoise.eu/426926.svg "ATM7") All The Mods 7 - ATM7](https://www.curseforge.com/minecraft/modpacks/all-the-mods-7)
 + [![All the Mods 7sky](http://cf.way2muchnoise.eu/655739.svg "ATM7S") All the Mods 7 - To the Sky](https://www.curseforge.com/minecraft/modpacks/all-the-mods-7-to-the-sky)
 + [![All the Mods 8](http://cf.way2muchnoise.eu/520914.svg "ATM8") All The Mods 8 - ATM8](https://www.curseforge.com/minecraft/modpacks/all-the-mods-8)
++ [![All the Mods Gravitas](http://cf.way2muchnoise.eu/807446.svg "ATMG") All The Mods - Gravitas- ATMG](https://www.curseforge.com/minecraft/modpacks/all-the-mods-gravitas)
 + [![All the Mods 9](http://cf.way2muchnoise.eu/715572.svg "ATM9") All The Mods 9 - ATM9](https://www.curseforge.com/minecraft/modpacks/all-the-mods-9)
++ [![All the Mods 9 - No Frills](http://cf.way2muchnoise.eu/959010.svg "ATM9-NF") All The Mods 9 - ATM9 - No Frills](https://www.curseforge.com/minecraft/modpacks/all-the-mods-9-no-frills)
++ [![All the Mods Gravitas²](http://cf.way2muchnoise.eu/949996.svg "ATMG²") All The Mods Gravitas²- ATMG²](https://www.curseforge.com/minecraft/modpacks/all-the-mods-gravitas2)
++ [![Maul The Odds](http://cf.way2muchnoise.eu/987792.svg "MTO") Maul The Odds - MTO](https://www.curseforge.com/minecraft/modpacks/maul-the-odds)
++ [![All the Mods 9Sky](http://cf.way2muchnoise.eu/967745.svg "ATM9Sky") All The Mods 9 - To The Sky- ATM9Sky](https://www.curseforge.com/minecraft/modpacks/all-the-mods-9-to-the-sky)

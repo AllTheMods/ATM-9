@@ -1,4 +1,6 @@
 /*
+ This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+ As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
   farming for blockheads custom market additions
   authored by EnigmaQuip
   for use in ATM8
@@ -11,9 +13,9 @@
     generates a new marketitems.json file
 */
 
-ServerEvents.commandRegistry(event => {
-  const { commands: Commands, arguments: Arguments, builtinSuggestions: Suggestions } = event;
-  event.register(
+ServerEvents.commandRegistry(allthemods => {
+  const { commands: Commands, arguments: Arguments, builtinSuggestions: Suggestions } = allthemods;
+  allthemods.register(
     Commands.literal("markethelper")
       .requires(source => source.getServer().isSingleplayer() || source.hasPermission(2))
       .executes((ctx) => Market(ctx.source))
@@ -60,8 +62,8 @@ function Market(source) {
 const FFBAPI = Java.loadClass('net.blay09.mods.farmingforblockheads.api.FarmingForBlockheadsAPI')
 
 // Datapack Gen
-ServerEvents.highPriorityData(event => {
-  event.addJson('kubejs:farmingforblockheads_compat/atm.json', {
+ServerEvents.highPriorityData(allthemods => {
+  allthemods.addJson('kubejs:farmingforblockheads_compat/atm.json', {
     groupOverrides: {
       "Croptopia Seeds": {
         enabled: false

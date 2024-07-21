@@ -22,7 +22,7 @@
 		{ item: "mysticalagriculture:fertilized_essence", random_bonus: 2 }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -40,7 +40,7 @@
 		{ item: "mysticalagriculture:soul_jar" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "matc:inferium_crystal"
 				tag: {
 					Damage: 0

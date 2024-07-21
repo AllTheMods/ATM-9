@@ -7,11 +7,7 @@
 	id: "754B57DEA4C711A5"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "gtceu:item/uv_solar_panel"
 			rotation: 0.0d
 			width: 3.0d
@@ -19,11 +15,7 @@
 			y: -4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "gtceu:item/uv_electric_motor"
 			rotation: 0.0d
 			width: 3.0d
@@ -31,11 +23,7 @@
 			y: 6.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "gtceu:item/uv_sensor"
 			rotation: 0.0d
 			width: 3.0d
@@ -43,11 +31,7 @@
 			y: 6.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "gtceu:item/uv_emitter"
 			rotation: 0.0d
 			width: 3.0d
@@ -55,11 +39,7 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "gtceu:item/uv_voltage_coil"
 			rotation: 0.0d
 			width: 3.0d
@@ -404,7 +384,7 @@
 			rewards: [{
 				id: "7232D203497DBE97"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -439,7 +419,7 @@
 			rewards: [{
 				id: "5C9C341847D2CC3F"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -477,7 +457,7 @@
 			rewards: [{
 				id: "16FC77E719CEF0F4"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -519,7 +499,7 @@
 			tasks: [{
 				id: "525F7E756598E2C5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						display: {
@@ -553,7 +533,7 @@
 			rewards: [{
 				id: "4E413FE2B9D92D10"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -608,7 +588,7 @@
 			rewards: [{
 				id: "6310C9D5F146814D"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -961,7 +941,7 @@
 			rewards: [{
 				id: "3971ED2DC7E4D1C9"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -999,7 +979,7 @@
 			rewards: [{
 				id: "3DD67AA679D3594E"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1033,7 +1013,7 @@
 			rewards: [{
 				id: "0EEBC6191B9920A4"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1292,7 +1272,7 @@
 			rewards: [{
 				id: "688D18E862547180"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1331,7 +1311,7 @@
 			rewards: [{
 				id: "31A99E4437A52D2F"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1370,7 +1350,7 @@
 			rewards: [{
 				id: "3DC3294F70B67E36"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1404,7 +1384,7 @@
 			rewards: [{
 				id: "2D1D4F55D5DD3CB0"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1438,7 +1418,7 @@
 			rewards: [{
 				id: "4FE2BB45E99CB6BF"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1480,7 +1460,7 @@
 			rewards: [{
 				id: "4B93A5DEE035FD01"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1518,7 +1498,7 @@
 			rewards: [{
 				id: "6F1C23A533A3C505"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1628,7 +1608,7 @@
 			tasks: [{
 				id: "0EDD94A94CAB8D33"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						display: {
@@ -1666,7 +1646,7 @@
 			rewards: [{
 				id: "29EB06A6002C1F12"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1700,7 +1680,7 @@
 			rewards: [{
 				id: "28EF601D8BC715F4"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -2066,6 +2046,46 @@
 			}]
 			x: 6.5d
 			y: -2.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "5CCB34969AF38175"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "0B8410A78CA31E87"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "3E3975575FE59087"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "{atm9.chapters.34.title}"

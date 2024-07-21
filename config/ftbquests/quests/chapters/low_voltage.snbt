@@ -438,7 +438,7 @@
 			tasks: [{
 				id: "52AFA2CE57617039"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -529,7 +529,7 @@
 				"{atm9.quest.gregtech.desc.circuitProgramming.4}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:programmed_circuit"
 				tag: {
 					Configuration: 0
@@ -955,7 +955,7 @@
 				{
 					id: "00648047034C9531"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -981,7 +981,7 @@
 					count: 2L
 					id: "6D9C084B63F0AE29"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1011,7 +1011,7 @@
 				{
 					id: "016BA8271625AE36"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1192,6 +1192,46 @@
 			}]
 			x: 3.5d
 			y: 3.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "513832144F0EA96D"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "30CA18B3FD3DBC7A"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "5B990E6FE40995D6"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "{atm9.chapters.27.title}"

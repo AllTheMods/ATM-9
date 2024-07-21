@@ -40,7 +40,7 @@
 			tasks: [{
 				id: "1CC9EA4FD2BF3DB0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:bookshelves"
@@ -521,7 +521,7 @@
 			tasks: [{
 				id: "5A01C349DB7F396C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "curios:charm"
@@ -623,7 +623,7 @@
 			rewards: [{
 				id: "2651F1CE1044AC2B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -650,7 +650,7 @@
 			rewards: [{
 				id: "60BFDFEDBA2E930C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -676,7 +676,7 @@
 			rewards: [{
 				id: "54020DF00D36132E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -695,6 +695,46 @@
 			title: "{atm9.quest.enchant.library}"
 			x: 0.0d
 			y: 0.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "238556F4074D52B2"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "68EBBA284DFE0E53"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "726CDC928AF8CE05"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "{atm9.chapters.38.title}"

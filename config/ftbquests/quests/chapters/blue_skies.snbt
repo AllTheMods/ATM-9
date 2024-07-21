@@ -92,7 +92,7 @@
 				"{image:atm:textures/questpics/blueskies/blueskies_gatekeeper_portal.png width:200 height:150 align:1}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "blue_skies:zeal_lighter"
 				tag: {
 					Damage: 0
@@ -107,7 +107,7 @@
 			tasks: [{
 				id: "5971D3F2F9D07D81"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:zeal_lighter"
 					tag: {
 						Damage: 0
@@ -201,7 +201,7 @@
 			tasks: [{
 				id: "1E8B8C302718AFB5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "blue_skies:tools/wooden_pickaxes"
@@ -274,7 +274,7 @@
 			tasks: [{
 				id: "18DBE4B1BAAA5CC8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -324,7 +324,7 @@
 			tasks: [{
 				id: "0A3B8E7765432D22"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:frostbright_spear"
 					tag: {
 						Damage: 0
@@ -392,7 +392,7 @@
 				{
 					id: "6B7A321C27DF97DC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:pyrope_helmet"
 						tag: {
 							Damage: 0
@@ -403,7 +403,7 @@
 				{
 					id: "05840E076DB026CF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:pyrope_chestplate"
 						tag: {
 							Damage: 0
@@ -414,7 +414,7 @@
 				{
 					id: "3B68315DDDF382B9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:pyrope_leggings"
 						tag: {
 							Damage: 0
@@ -425,7 +425,7 @@
 				{
 					id: "41E4B2EA4A1102C5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:pyrope_boots"
 						tag: {
 							Damage: 0
@@ -466,7 +466,7 @@
 				{
 					id: "5903288D0B300F2E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:pyrope_sword"
 						tag: {
 							Damage: 0
@@ -477,7 +477,7 @@
 				{
 					id: "3B4DBE7D7B3663F7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:pyrope_axe"
 						tag: {
 							Damage: 0
@@ -488,7 +488,7 @@
 				{
 					id: "4495FA14814940BE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:pyrope_shovel"
 						tag: {
 							Damage: 0
@@ -499,7 +499,7 @@
 				{
 					id: "72B6EBF58518FED3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:pyrope_pickaxe"
 						tag: {
 							Damage: 0
@@ -785,7 +785,7 @@
 				{
 					id: "152F705A32A4ED9D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:horizonite_sword"
 						tag: {
 							Damage: 0
@@ -796,7 +796,7 @@
 				{
 					id: "7794906BED6DB9FF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:horizonite_pickaxe"
 						tag: {
 							Damage: 0
@@ -807,7 +807,7 @@
 				{
 					id: "320F082153BD6699"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:horizonite_axe"
 						tag: {
 							Damage: 0
@@ -818,7 +818,7 @@
 				{
 					id: "154795F0BFB7A995"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:horizonite_shovel"
 						tag: {
 							Damage: 0
@@ -829,7 +829,7 @@
 				{
 					id: "73EE6E3442B0F81F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:horizonite_hoe"
 						tag: {
 							Damage: 0
@@ -924,7 +924,7 @@
 				{
 					id: "74DE5965F75B8736"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:ventium_shears"
 						tag: {
 							Damage: 0
@@ -964,7 +964,7 @@
 				{
 					id: "056FCDEB5C197F9D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:diopside_sword"
 						tag: {
 							Damage: 0
@@ -975,7 +975,7 @@
 				{
 					id: "536FC29CF792026D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:diopside_pickaxe"
 						tag: {
 							Damage: 0
@@ -986,7 +986,7 @@
 				{
 					id: "1FB6FDBEF3AE77C3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:diopside_axe"
 						tag: {
 							Damage: 0
@@ -997,7 +997,7 @@
 				{
 					id: "26898A1CD46EA0E1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:diopside_shovel"
 						tag: {
 							Damage: 0
@@ -1008,7 +1008,7 @@
 				{
 					id: "67C7DF89A332D1F2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:diopside_hoe"
 						tag: {
 							Damage: 0
@@ -1043,7 +1043,7 @@
 				{
 					id: "56805DDC51DBE8EA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:diopside_helmet"
 						tag: {
 							Damage: 0
@@ -1054,7 +1054,7 @@
 				{
 					id: "1E5C564A406D58A4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:diopside_chestplate"
 						tag: {
 							Damage: 0
@@ -1065,7 +1065,7 @@
 				{
 					id: "409101B2FF763182"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:diopside_leggings"
 						tag: {
 							Damage: 0
@@ -1076,7 +1076,7 @@
 				{
 					id: "60431F5DFAF58FCA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:diopside_boots"
 						tag: {
 							Damage: 0
@@ -1111,7 +1111,7 @@
 				{
 					id: "0939E05FC651C84F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:charoite_sword"
 						tag: {
 							Damage: 0
@@ -1122,7 +1122,7 @@
 				{
 					id: "787CFEF3AB3F5802"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:charoite_pickaxe"
 						tag: {
 							Damage: 0
@@ -1133,7 +1133,7 @@
 				{
 					id: "21C0952567AFC0FD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:charoite_axe"
 						tag: {
 							Damage: 0
@@ -1144,7 +1144,7 @@
 				{
 					id: "09F6BB5DF36CE44C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:charoite_shovel"
 						tag: {
 							Damage: 0
@@ -1155,7 +1155,7 @@
 				{
 					id: "29122BFFA4501B38"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:charoite_hoe"
 						tag: {
 							Damage: 0
@@ -1190,7 +1190,7 @@
 				{
 					id: "22CC9444A5CC2D73"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:charoite_helmet"
 						tag: {
 							Damage: 0
@@ -1201,7 +1201,7 @@
 				{
 					id: "74A9F5397665F1D1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:charoite_chestplate"
 						tag: {
 							Damage: 0
@@ -1212,7 +1212,7 @@
 				{
 					id: "226E280288D37F9E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:charoite_leggings"
 						tag: {
 							Damage: 0
@@ -1223,7 +1223,7 @@
 				{
 					id: "648996D3BE35955D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:charoite_boots"
 						tag: {
 							Damage: 0
@@ -1479,7 +1479,7 @@
 			tasks: [{
 				id: "704B58ED7B39E7BE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:ethereal_arc"
 					tag: {
 						ArcLevel: 0
@@ -1511,7 +1511,7 @@
 			tasks: [{
 				id: "6450012E3F4FD5C2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:dusk_arc"
 					tag: {
 						ArcLevel: 0
@@ -1536,7 +1536,7 @@
 			tasks: [{
 				id: "5977FC8CB2A6A46D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:crushing_hammer"
 					tag: {
 						Damage: 0
@@ -1561,7 +1561,7 @@
 			tasks: [{
 				id: "05294380E82BC3FE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:poison_arc"
 					tag: {
 						ArcLevel: 0
@@ -1586,7 +1586,7 @@
 			tasks: [{
 				id: "7EF8FD8790E83FD4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:venom_sac"
 					tag: {
 						Damage: 0
@@ -1611,7 +1611,7 @@
 			tasks: [{
 				id: "0E4B7B4DF6E4B7AA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:different_sword"
 					tag: {
 						Damage: 0
@@ -1640,7 +1640,7 @@
 			tasks: [{
 				id: "29405FD946DEC4F1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:nature_arc"
 					tag: {
 						ArcLevel: 0
@@ -1664,7 +1664,7 @@
 			tasks: [{
 				id: "3E1D8A917D2C81A4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:soulbound_spear"
 					tag: {
 						Damage: 0
@@ -1706,7 +1706,7 @@
 			tasks: [{
 				id: "53573EE98943693F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:spike_shield"
 					tag: {
 						Damage: 0
@@ -1716,6 +1716,46 @@
 			}]
 			x: 17.5d
 			y: 3.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "7A72E5F8A70DF4A1"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "5A1722CAAF2E820A"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "43F36A8DA767085D"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "{atm9.chapters.46.title}"

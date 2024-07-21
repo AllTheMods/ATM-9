@@ -6,9 +6,6 @@
 	icon: "ars_nouveau:creative_spell_book"
 	id: "6AEDA2F9BEB57759"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 0.3d
 		hover: ["{atm9.quest.ae2.img.star}"]
 		image: "allthetweaks:item/atm_star"
@@ -64,7 +61,7 @@
 			tasks: [{
 				id: "1624D71379FBBDA6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:starbuncle_charm"
 					tag: { }
 				}
@@ -1509,7 +1506,7 @@
 				{
 					id: "565501823D60D08C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "ars_nouveau:mana_regen_potion"
@@ -1704,7 +1701,7 @@
 				{
 					id: "163A6E303D6F419D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:logs/archwood"
@@ -1717,7 +1714,7 @@
 					count: 2L
 					id: "7508E906C021AB6B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:planks/archwood"
@@ -1953,7 +1950,7 @@
 			tasks: [{
 				id: "2E649D2172E6D537"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:runic_chalk"
 					tag: {
 						Damage: 0
@@ -2270,7 +2267,7 @@
 				"{image:atm:textures/questpics/ars/spellbook.png width:200 height:150 align:1}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ars_nouveau:spell_parchment"
 				tag: { }
 			}
@@ -2296,7 +2293,7 @@
 				"{atm9.quest.arsNouveau.desc.mana.1}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "ars_nouveau:mana_regen_potion"
@@ -2307,7 +2304,7 @@
 				{
 					id: "31255CD8D6C186BF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:lingering_potion"
 						tag: {
 							Potion: "ars_nouveau:mana_regen_potion_long"
@@ -2382,7 +2379,7 @@
 			tasks: [{
 				id: "07469C1ABB23F686"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:dowsing_rod"
 					tag: {
 						Damage: 0
@@ -2544,7 +2541,7 @@
 				{
 					id: "19F2CD6C0B18C66F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ars_nouveau:spell_parchment"
 						tag: { }
 					}
@@ -2560,7 +2557,7 @@
 			tasks: [{
 				id: "5D09025968ED4E34"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:spell_parchment"
 					tag: { }
 				}
@@ -2621,7 +2618,7 @@
 			tasks: [{
 				id: "307E429DCDA2A0BC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:enchanters_sword"
 					tag: {
 						Damage: 0
@@ -2656,7 +2653,7 @@
 			tasks: [{
 				id: "571B04DAC6DAFDAE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:enchanters_shield"
 					tag: {
 						Damage: 0
@@ -2693,7 +2690,7 @@
 			tasks: [{
 				id: "4B4A171486A31360"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:enchanters_mirror"
 					tag: { }
 				}
@@ -2730,7 +2727,7 @@
 			tasks: [{
 				id: "7F425E0F613F8B23"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:spell_bow"
 					tag: { }
 				}
@@ -2928,7 +2925,7 @@
 			tasks: [{
 				id: "3CF6151060ADB889"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:wand"
 					tag: { }
 				}
@@ -2936,6 +2933,46 @@
 			}]
 			x: 10.5d
 			y: 1.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "34A8C6C18A473A0F"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "1ADC909E4FF8D317"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "1B90FEC3CEB286C8"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "{atm9.chapters.39.title}"

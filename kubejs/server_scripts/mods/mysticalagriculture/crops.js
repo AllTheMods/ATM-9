@@ -1,10 +1,13 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 const CropRegistry = Java.loadClass('com.blakebr0.mysticalagriculture.registry.CropRegistry')
 
 // sets the chance for a seed to drop
 const SecondarySeed = 0.01
 const TierSecondaryCutoff = 5
 
-ServerEvents.tags('item', event => {
+ServerEvents.tags('item', allthemods => {
   let CropRegistryInstance = CropRegistry.getInstance()
   let cropTiers = CropRegistryInstance.getTiers()
   let tiers = Array.apply(null, Array(cropTiers.length))
@@ -26,17 +29,17 @@ ServerEvents.tags('item', event => {
       }
     }
     let tierA = farmA.getIdLocation().getPath().replace('_farmland', '')
-    event.add(`kubejs:farmland/${tierA}`, farmA.getId())
+    allthemods.add(`kubejs:farmland/${tierA}`, farmA.getId())
     if (farmB) {
       let tierB = farmB.getIdLocation().getPath().replace('_farmland', '')
-      event.add(`kubejs:farmland/${tierA}`, `#kubejs:farmland/${tierB}`)
+      allthemods.add(`kubejs:farmland/${tierA}`, `#kubejs:farmland/${tierB}`)
     } else {
       break
     }
   }
 })
 
-ServerEvents.recipes(event => {
+ServerEvents.recipes(allthemods => {
   let JsonExport = { enabled: [], disabled: [] }
   let CropRegistryInstance = CropRegistry.getInstance()
   let CropList = CropRegistryInstance.getCrops()
@@ -57,7 +60,7 @@ ServerEvents.recipes(event => {
     let disabledSeedRecipes = []
 
     // Fix drops, fix cruxes, check for missing
-    event.forEachRecipe({ type: 'botanypots:crop' }, recipe => {
+    allthemods.forEachRecipe({ type: 'botanypots:crop' }, recipe => {
       let seed = Ingredient.of(recipe.json.get('seed')).getFirst()
       if (seed.getMod().contains('mystical')) {
         let seedName = seed.getIdLocation().getPath().replace('_seeds', '')
@@ -103,7 +106,7 @@ ServerEvents.recipes(event => {
           category = `${cruxBlock.getIdLocation().getPath()}`
           crux[cruxBlock.getId()] = cruxBlock.getIdLocation().getPath()
         }
-        event.custom({
+        allthemods.custom({
           type: 'botanypots:crop',
           seed: Ingredient.of(Crop.getSeedsItem()).toJson(),
           categories: [category],
@@ -113,24 +116,24 @@ ServerEvents.recipes(event => {
             block: Crop.getCropBlock().getId()
           },
           drops: drops
-        }).id(`kubejs:botanypots/mysticalagriculture/${seed}`)
+        }).id(`allthemods:botanypots/mysticalagriculture/${seed}`)
       }
     }
     // add crux 'soils'
     for (const block in crux) {
       let category = crux[block]
-      event.custom({
+      allthemods.custom({
         type: 'botanypots:soil',
         input: { item: block },
         display: { block: block },
         categories: [category],
         growthModifier: 1.0
-      }).id(`kubejs:botanypots/mysticalagriculture/crux/${category}`)
+      }).id(`allthemods:botanypots/mysticalagriculture/crux/${category}`)
     }
 
     // remove disabled seed recipes by id using that array we made earlier
     disabledSeedRecipes.forEach(id => {
-      event.remove({id: id})
+      allthemods.remove({id: id})
     })
   }
 
@@ -138,7 +141,7 @@ ServerEvents.recipes(event => {
   if (Platform.isLoaded('thermal')) {
     JsonExport.enabled.forEach(cropName => {
       let Crop = CropRegistryInstance.getCropByName(cropName)
-      event.custom({
+      allthemods.custom({
         type: 'thermal:insolator',
         ingredient: Ingredient.of(Crop.getSeedsItem()).toJson(),
         result: [
@@ -152,7 +155,7 @@ ServerEvents.recipes(event => {
             locked: true
           }
         ]
-      }).id(`kubejs:thermal/machines/insolator/mysticalagriculture/${cropName}`)
+      }).id(`allthemods:thermal/machines/insolator/mysticalagriculture/${cropName}`)
     })
   }
 
@@ -160,7 +163,7 @@ ServerEvents.recipes(event => {
   if (Platform.isLoaded('immersiveengineering')) {
     JsonExport.enabled.forEach(cropName => {
       let Crop = CropRegistryInstance.getCropByName(cropName)
-      event.custom({
+      allthemods.custom({
         type: 'immersiveengineering:cloche',
         results: [
           {
@@ -175,7 +178,10 @@ ServerEvents.recipes(event => {
           type: 'crop',
           block: Crop.getCropBlock().getId()
         }
-      }).id(`kubejs:immersiveengineering/cloche/mysticalagriculture/${cropName}`)
+      }).id(`allthemods:immersiveengineering/cloche/mysticalagriculture/${cropName}`)
     })
   }
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

@@ -1,7 +1,10 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 const Tags = Java.loadClass('dev.latvian.mods.kubejs.util.Tags')
 const $FluidStackJS = Java.loadClass('dev.latvian.mods.kubejs.fluid.FluidStackJS')
 
-ServerEvents.recipes(event => {
+ServerEvents.recipes(allthemods => {
 
     let jsonFolder = global.readJsonFolderFromMod("data", "productivebees", "productivebees")
     let data = Object.keys(jsonFolder)
@@ -88,7 +91,7 @@ ServerEvents.recipes(event => {
         // outputs looks like [ { item: 'minecraft:dirt', chance: 10000 }, { item: 'minecraft:egg', chance: 4000 } ]
 
         for (let i = 1; i < 33; i++) {
-            let recipeBuilder = event.recipes.gtceu.apiary_ii(id + '/circuit_' + i.toString())
+            let recipeBuilder = allthemods.recipes.gtceu.apiary_ii(id + '/circuit_' + i.toString())
                 .circuit(i)
                 .EUt(EV)
                 .duration(5250)
@@ -119,7 +122,7 @@ ServerEvents.recipes(event => {
     }
 
     //////////////// machine controllers ////////////////
-    event.shaped('gtceu:apiary_i', ['BAB', 'ACA', 'WSW'],
+    allthemods.shaped('gtceu:apiary_i', ['BAB', 'ACA', 'WSW'],
     {
         A: '#gtceu:circuits/mv',
         W: 'gtceu:gold_single_cable',
@@ -128,7 +131,7 @@ ServerEvents.recipes(event => {
         B: 'productivebees:upgrade_comb_block'
     }).id('gtceu:shaped/apiary_i')
 
-    event.shaped('gtceu:apiary_ii', ['CAC', 'ACA', 'WSW'],
+    allthemods.shaped('gtceu:apiary_ii', ['CAC', 'ACA', 'WSW'],
     {
         A: '#gtceu:circuits/ev',
         W: 'gtceu:black_steel_single_cable',
@@ -136,7 +139,7 @@ ServerEvents.recipes(event => {
         C: 'productivebees:upgrade_productivity_4',
     }).id('gtceu:shaped/apiary_ii')
 
-    event.shaped('gtceu:comb_processor', ['BAB', 'ACA', 'WSW'],
+    allthemods.shaped('gtceu:comb_processor', ['BAB', 'ACA', 'WSW'],
     {
         A: '#gtceu:circuits/mv',
         W: 'gtceu:gold_single_cable',
@@ -147,14 +150,14 @@ ServerEvents.recipes(event => {
 
     //////////////// apiary_i recipes ////////////////
 
-    // event.recipes.gtceu.apiary_i('kubejs:test')
+    // allthemods.recipes.gtceu.apiary_i('kubejs:test')
     //     .EUt(MV)
     //     .duration(5250)
     //     .chancedInput(IngredientHelper.weakNBT(Item.of('productivebees:bee_cage', '{name: \"CreeBee\", entity: \"productivebees:creeper_bee\"}')), 500, 500)
     //     .notConsumable(Item.of('minecraft:coal_ore'))
     //     .itemOutputs(Item.of('productivebees:comb_powdery'))
 
-    // event.recipes.gtceu.apiary_ii('kubejs:test')
+    // allthemods.recipes.gtceu.apiary_ii('kubejs:test')
     //     .EUt(EV)
     //     .duration(5250)
     //     .notConsumable(IngredientHelper.weakNBT(Item.of('productivebees:bee_cage', '{name: \"CreeBee\", entity: \"productivebees:creeper_bee\"}')).withCount(128))
@@ -163,7 +166,7 @@ ServerEvents.recipes(event => {
     //     .itemOutputs(Item.of('productivebees:configurable_comb', '{EntityTag: {type: "productivebees:starry"}}').withCount(127))
     
     // copy all beehive production recipes
-    event.forEachRecipe({type: 'productivebees:advanced_beehive'}, rawRecipe => {
+    allthemods.forEachRecipe({type: 'productivebees:advanced_beehive'}, rawRecipe => {
         let recipe = JSON.parse(rawRecipe.json)
         let duration = 5250 // time in ticks spent in hive (4800) + pollinating time (450)
         let beeType = recipe.ingredient.split(':')[1] // recipe.ingredient looks like productivebees:experience
@@ -188,7 +191,7 @@ ServerEvents.recipes(event => {
             let index = data.findIndex((key) => key.includes("/" + beeType + ".json"))
             let beeData = jsonFolder[data[index]]
     
-            let recipeBuilder = event.recipes.gtceu.apiary_i('kubejs:gtceu/apiary_i/' + beeType)
+            let recipeBuilder = allthemods.recipes.gtceu.apiary_i('kubejs:gtceu/apiary_i/' + beeType)
                 .EUt(MV)
                 .duration(duration)
                 .chancedInput(IngredientHelper.weakNBT(input), 100, 50)
@@ -331,7 +334,7 @@ ServerEvents.recipes(event => {
     }) // end of loop over all advanced beehive produce recipes
 
     // copy all centrifuge recipes
-    event.forEachRecipe({type: 'productivebees:centrifuge'}, rawRecipe => {
+    allthemods.forEachRecipe({type: 'productivebees:centrifuge'}, rawRecipe => {
         let recipe = JSON.parse(rawRecipe.json)
         let duration = 300 / 9 // default centrifuge processing time in ticks = 300, heated centrifuge is 9 times faster
         let inputObj = recipe.ingredient // ingredient should always exist
@@ -359,12 +362,12 @@ ServerEvents.recipes(event => {
         }
         // console.log("input looks like " + JsonIO.toPrettyString(input.toJson()))
 
-        let combRecipeBuilder = event.recipes.gtceu.comb_processor(id)
+        let combRecipeBuilder = allthemods.recipes.gtceu.comb_processor(id)
             .duration(duration)
             .EUt(MV)
             .itemInputs(input)
         
-        let combBlockRecipeBuilder = event.recipes.gtceu.comb_processor(id + '_block')
+        let combBlockRecipeBuilder = allthemods.recipes.gtceu.comb_processor(id + '_block')
             .duration(duration)
             .EUt(MV)
             .itemInputs(inputBlock)
@@ -464,3 +467,6 @@ ServerEvents.recipes(event => {
 
 
 }) // end of recipes event
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

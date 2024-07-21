@@ -87,7 +87,6 @@
 			y: 10.0d
 		}
 	]
-
 	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -101,7 +100,7 @@
 				"{atm9.quest.bloodMagic.desc.welcome.3}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "patchouli:guide_book"
 				tag: {
 					"patchouli:book": "bloodmagic:guide"
@@ -117,7 +116,7 @@
 				{
 					id: "5A846312CB17F978"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "bloodmagic:guide"
@@ -171,7 +170,7 @@
 				{
 					id: "49E5D4B7057851E7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:sacrificialdagger"
 						tag: { }
 					}
@@ -480,7 +479,7 @@
 			tasks: [{
 				id: "72A92CB3A5DA9044"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bloodmagic:soulsword"
 					tag: {
 						Damage: 0
@@ -521,7 +520,7 @@
 			tasks: [{
 				id: "1E4979886B89B2AD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bloodmagic:soulgempetty"
 					tag: { }
 				}
@@ -552,7 +551,7 @@
 			tasks: [{
 				id: "55AF014185F20835"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bloodmagic:soulgemlesser"
 					tag: { }
 				}
@@ -582,7 +581,7 @@
 			tasks: [{
 				id: "04BCD1D949FCB24D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bloodmagic:soulgemcommon"
 					tag: {
 						souls: 0.0d
@@ -614,7 +613,7 @@
 			tasks: [{
 				id: "25B30F1BCCEE920A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bloodmagic:soulgemgreater"
 					tag: {
 						souls: 0.0d
@@ -987,7 +986,7 @@
 				{
 					id: "6C20FD13B73935A7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:sanguinereverter"
 						tag: {
 							Damage: 0
@@ -1025,7 +1024,7 @@
 				{
 					id: "46C11FFD8A06B63E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:duskscribetool"
 						tag: {
 							Damage: 0
@@ -1077,7 +1076,7 @@
 				{
 					id: "42D29681DC076E3C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:basemonstersoul"
 						tag: {
 							souls: 5.0d
@@ -1322,7 +1321,7 @@
 			tasks: [{
 				id: "6168644A110A263A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bloodmagic:arcaneashes"
 					tag: {
 						Damage: 0
@@ -1602,7 +1601,7 @@
 				{
 					id: "097D8139589AF377"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:sigilofsuppression"
 						tag: { }
 					}
@@ -1667,7 +1666,7 @@
 			tasks: [{
 				id: "54A7E248C8A40239"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1729,7 +1728,7 @@
 			tasks: [{
 				id: "36BBEFDBCCEC8DE0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1782,7 +1781,7 @@
 				{
 					id: "26FD5D4411242B25"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:livinghelmet"
 						tag: {
 							Damage: 0
@@ -1793,7 +1792,7 @@
 				{
 					id: "37A82F03CFF9D25A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:livingplate"
 						tag: {
 							Damage: 0
@@ -1808,7 +1807,7 @@
 				{
 					id: "671E6A4CA8F8F77B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:livingleggings"
 						tag: {
 							Damage: 0
@@ -1819,7 +1818,7 @@
 				{
 					id: "5E9B38CD413946E0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:livingboots"
 						tag: {
 							Damage: 0
@@ -1831,6 +1830,46 @@
 			title: "{atm9.quest.bloodMagic.livingArmor}"
 			x: -18.0d
 			y: -4.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "5C803A591EED842D"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "331BFDCAE9510150"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "38DA61C11DB1A020"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -30.5d
+			y: 1.0d
 		}
 	]
 	title: "{atm9.chapters.40.title}"

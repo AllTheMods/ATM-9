@@ -1,7 +1,10 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 const $FusionReactorMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine")
 
-GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    event.create('mega_fusion_reactor')
+GTCEuStartupEvents.registry('gtceu:recipe_type', allthemods => {
+    allthemods.create('mega_fusion_reactor')
         .category('gregstar')
         .setEUIO('in')
         .setMaxIOSize(2, 2, 4, 2)
@@ -16,8 +19,8 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     });
 })
 
-GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('mega_fusion_reactor', 'multiblock', (holder) => new $FusionReactorMachine(holder, GTValues.UHV))
+GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
+    allthemods.create('mega_fusion_reactor', 'multiblock', (holder) => new $FusionReactorMachine(holder, GTValues.UIV))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeTypes(GTRecipeTypes.get('mega_fusion_reactor'))
         .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
@@ -74,3 +77,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .workableCasingRenderer("gtceu:block/casings/gcym/atomic_casing",
             "gtceu:block/multiblock/fusion_reactor", false)
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

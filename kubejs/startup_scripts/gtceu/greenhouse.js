@@ -1,7 +1,10 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 const Tags = Java.loadClass('dev.latvian.mods.kubejs.util.Tags')
 
-GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    event.create('greenhouse')
+GTCEuStartupEvents.registry('gtceu:recipe_type', allthemods => {
+    allthemods.create('greenhouse')
         .category('greenhouse')
         .setEUIO('in')
         .setMaxIOSize(4, 4, 1, 0)
@@ -9,8 +12,8 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setSound(GTSoundEntries.BOILER)
 })
 
-GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('greenhouse', 'multiblock')
+GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
+    allthemods.create('greenhouse', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('greenhouse')
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
@@ -44,3 +47,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         )
         .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_solid_steel', 'gtceu:block/multiblock/implosion_compressor', false)
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

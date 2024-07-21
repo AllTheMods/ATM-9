@@ -7,11 +7,7 @@
 	id: "05E614FDA677D85E"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:textures/item/cake.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -19,11 +15,7 @@
 			y: -3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:textures/item/wheat.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -31,11 +23,7 @@
 			y: -3.0714285714285765d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:textures/item/wheat.png"
 			rotation: -90.0d
 			width: 1.0d
@@ -43,11 +31,7 @@
 			y: -3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:textures/item/wheat_seeds.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -55,11 +39,7 @@
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:textures/block/birch_sapling.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -67,11 +47,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "farmersdelight:textures/block/cutting_board.png"
 			rotation: -90.0d
 			width: 2.0d
@@ -79,11 +55,7 @@
 			y: 11.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "croptopia:textures/item/cantaloupe_seed.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -91,11 +63,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "farmersdelight:textures/item/apple_cider.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -103,11 +71,7 @@
 			y: 1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:textures/item/cooked_chicken.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -115,11 +79,7 @@
 			y: 1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:textures/item/cooked_porkchop.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -127,11 +87,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "aquaculture:textures/item/catfish.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -139,11 +95,7 @@
 			y: 4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "atm:textures/questpics/food_and_farming.png"
 			rotation: 0.0d
 			width: 12.0d
@@ -175,9 +127,16 @@
 			size: 1.5d
 			subtitle: "Getting Started"
 			tasks: [{
-				id: "07603A90CCCB3627"
-				title: "Food and Farming"
-				type: "checkmark"
+				id: "29267580E91DFEDA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops"
+					}
+				}
+				title: "Any Crops"
+				type: "item"
 			}]
 			title: "{atm9.quest.farm.food}"
 			x: 0.5d
@@ -234,7 +193,7 @@
 				icon: "minecraft:white_wool"
 				id: "7F08D4E77359BF4A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:wool"
@@ -258,7 +217,7 @@
 			tasks: [{
 				id: "3A9869856B3E9D54"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:shears"
 					tag: {
 						Damage: 0
@@ -441,7 +400,7 @@
 		{
 			description: [""]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:wooden_hoe"
 				tag: {
 					Damage: 0
@@ -463,11 +422,146 @@
 			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Just wait until you get machines for this."
+			subtitle: "Just wait until you get machines for this"
 			tasks: [{
-				id: "78772A2785AE9DD2"
-				title: "The Planter"
-				type: "checkmark"
+				id: "4847C9E5C9116BB7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:wooden_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:stone_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:iron_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:golden_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_hoe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_hoe"
+							}
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:nether_quartz_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:elementium_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:bronze_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:lapis_lazuli_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:osmium_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:refined_glowstone_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:refined_obsidian_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:steel_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Basic Hoes"
+				type: "item"
 			}]
 			title: "{atm9.quest.farm.farming}"
 			x: -1.5749999999999997d
@@ -929,7 +1023,7 @@
 			tasks: [{
 				id: "5CB4746CCB2E2363"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:fishing_rod"
 					tag: {
 						Damage: 0
@@ -960,7 +1054,7 @@
 			tasks: [{
 				id: "13E86D23DA98D8E9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:iron_fishing_rod"
 					tag: {
 						Damage: 0
@@ -991,7 +1085,7 @@
 			tasks: [{
 				id: "144B351F77F0B08F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:gold_fishing_rod"
 					tag: {
 						Damage: 0
@@ -1022,7 +1116,7 @@
 			tasks: [{
 				id: "3FECA1F49F588499"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:diamond_fishing_rod"
 					tag: {
 						Damage: 0
@@ -1053,7 +1147,7 @@
 			tasks: [{
 				id: "31B52EAD7F931F31"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:neptunium_fishing_rod"
 					tag: {
 						Damage: 0
@@ -1215,6 +1309,46 @@
 			title: "{atm9.quest.farm.botany}"
 			x: 3.5d
 			y: 5.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "3EA60EB491270B5F"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "3807253D85162D5C"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "2BAD52B6D293140F"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: -1.5d
 		}
 	]
 	title: "{atm9.chapters.15.title}"

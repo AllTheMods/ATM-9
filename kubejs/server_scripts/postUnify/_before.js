@@ -1,3 +1,6 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 // priority: 1000
 
 global['auTags'] = {
@@ -63,7 +66,7 @@ global['itemFromTag'] = function (type, material) {
     return item
 }
 
-ServerEvents.recipes(event => {
+ServerEvents.recipes(allthemods => {
     AlmostUnified.getTags().forEach(tag => {
         let tagString = tag.toString()
         let match = /forge:(dusts|gears|ingots|nuggets|plates|raw_materials|rods|storage_blocks|wires)\/(.+?)$/.exec(tagString)
@@ -72,3 +75,6 @@ ServerEvents.recipes(event => {
         }
     })
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

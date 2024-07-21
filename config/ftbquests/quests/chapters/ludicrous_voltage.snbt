@@ -7,11 +7,7 @@
 	id: "403105E8F21D82C7"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "gtceu:item/luv_sensor"
 			rotation: 0.0d
 			width: 2.0d
@@ -19,11 +15,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "gtceu:item/luv_emitter"
 			rotation: 0.0d
 			width: 3.0d
@@ -31,11 +23,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.5d
-			hover: [ ]
 			image: "gtceu:item/luv_robot_arm"
 			rotation: 0.0d
 			width: 2.5d
@@ -43,11 +31,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "gtceu:item/luv_electric_motor"
 			rotation: 0.0d
 			width: 3.0d
@@ -55,11 +39,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.5d
-			hover: [ ]
 			image: "gtceu:item/luv_battery_hull"
 			rotation: 0.0d
 			width: 2.5d
@@ -67,11 +47,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "gtceu:item/luv_solar_panel"
 			rotation: 0.0d
 			width: 3.0d
@@ -2287,6 +2263,46 @@
 			}]
 			x: -1.0d
 			y: -3.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "0C47BAAF366EB5B1"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "356D37D6791EC945"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "7FCBEBD1FC163C44"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -9.5d
+			y: 0.0d
 		}
 	]
 	title: "{atm9.chapters.32.title}"

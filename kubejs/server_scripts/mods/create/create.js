@@ -1,3 +1,6 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 // Add missing ore crushing recipes for Create
 
 let missingCreateOres = [
@@ -10,11 +13,11 @@ let missingCreateOres = [
     'tin',
     'uranium',
 ]
-ServerEvents.recipes(event => {
+ServerEvents.recipes(allthemods => {
     missingCreateOres.forEach(ore => {
-        event.smelting('alltheores:' + ore + '_ingot', 'create:crushed_raw_' + ore + '').xp(0.1).id('create:smelting/' + ore + '_ingot_from_crushed')
-        event.blasting('alltheores:' + ore + '_ingot', 'create:crushed_raw_' + ore + '').xp(0.1).id('create:blasting/' + ore + '_ingot_from_crushed')
-        event.custom({
+        allthemods.smelting('alltheores:' + ore + '_ingot', 'create:crushed_raw_' + ore + '').xp(0.1).id('create:smelting/' + ore + '_ingot_from_crushed')
+        allthemods.blasting('alltheores:' + ore + '_ingot', 'create:crushed_raw_' + ore + '').xp(0.1).id('create:blasting/' + ore + '_ingot_from_crushed')
+        allthemods.custom({
             type: 'create:splashing',
             ingredients: [
                 {
@@ -30,3 +33,6 @@ ServerEvents.recipes(event => {
         }).id('create:splashing/crushed_raw_' + ore)
     })
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

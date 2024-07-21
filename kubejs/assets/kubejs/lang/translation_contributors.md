@@ -1,4 +1,4 @@
-# Translation Contributers
+# Translation Contributors
 (bullet list, <name(discord/github)> github/other link)
 
 English, AllTheMods Team and quest devs/contributors,
@@ -19,9 +19,12 @@ Spanish,
 - Arivio (https://github.com/Arivios)
 - Metabodiru (https://github.com/Drox17)
 
-Norwegian (BokMål) (chapter titles, and Welcome chapter)
+Norwegian (BokMål)
 - Permest (https://github.com/Permest)
 
 Korean (packmenu buttons)
 - ArcTrooper (https://github.com/ArcTrooper210)
+
+Portuguese 
+- oRuiva (https://github.com/oRuiva)
 

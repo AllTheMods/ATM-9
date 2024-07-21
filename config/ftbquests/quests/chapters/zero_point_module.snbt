@@ -7,11 +7,7 @@
 	id: "220BE62A7F8EA359"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "gtceu:item/zpm_solar_panel"
 			rotation: 0.0d
 			width: 3.0d
@@ -19,11 +15,7 @@
 			y: -0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "gtceu:item/zpm_sensor"
 			rotation: 0.0d
 			width: 3.0d
@@ -31,11 +23,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "gtceu:item/zpm_emitter"
 			rotation: 0.0d
 			width: 3.0d
@@ -43,11 +31,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "gtceu:item/zpm_robot_arm"
 			rotation: 0.0d
 			width: 3.0d
@@ -55,11 +39,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "gtceu:item/zpm_fluid_regulator"
 			rotation: 0.0d
 			width: 3.0d
@@ -67,11 +47,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "gtceu:block/multiblock/fusion_reactor/fusion/overlay_front"
 			rotation: 0.0d
 			width: 3.0d
@@ -565,7 +541,7 @@
 			rewards: [{
 				id: "46606992F7508705"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -699,7 +675,7 @@
 			rewards: [{
 				id: "27FCCE5E79FD8F97"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -743,7 +719,7 @@
 			rewards: [{
 				id: "41BF54932E10D1DA"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1028,7 +1004,7 @@
 			rewards: [{
 				id: "3F4B60F8967A71F8"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1106,7 +1082,7 @@
 			rewards: [{
 				id: "1025416F26F8AD46"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1232,7 +1208,7 @@
 			rewards: [{
 				id: "24E1AA5A5E87DE14"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1442,7 +1418,7 @@
 			rewards: [{
 				id: "45E335E5F6E878E8"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1480,7 +1456,7 @@
 			rewards: [{
 				id: "443A6F81AD167386"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1514,7 +1490,7 @@
 			rewards: [{
 				id: "4B699265D7AD0B09"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1552,7 +1528,7 @@
 			rewards: [{
 				id: "1E5709704DA97514"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1645,7 +1621,7 @@
 			rewards: [{
 				id: "559BE511F5D982CE"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1683,7 +1659,7 @@
 			rewards: [{
 				id: "11332098833BF62D"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1721,7 +1697,7 @@
 			rewards: [{
 				id: "504C7CBF13DD8453"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -1763,7 +1739,7 @@
 			rewards: [{
 				id: "0C7A433FBA240813"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Amount: 16000
@@ -2011,6 +1987,46 @@
 			}]
 			x: -8.5d
 			y: -4.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "682BCE7AD73B2D45"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "0CD2482221534ED9"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "7AAE25A5D1C4E2FA"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "{atm9.chapters.33.title}"

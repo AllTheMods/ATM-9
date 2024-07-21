@@ -4,7 +4,7 @@
 	filename: "an_introduction"
 	group: "1DA67E79B40AB130"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "gtceu:iron_hammer"
 		tag: {
 			Damage: 0
@@ -16,11 +16,7 @@
 	id: "415BA265E2C00859"
 	images: [{
 		alpha: 150
-		click: ""
-		corner: false
-		dev: false
 		height: 5.0d
-		hover: [ ]
 		image: "gtceu:textures/gui/icon/gregtech_logo.png"
 		rotation: 0.0d
 		width: 5.0d
@@ -188,7 +184,7 @@
 			tasks: [{
 				id: "30443BA4C089AA8B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:tools/hammers"
@@ -221,7 +217,7 @@
 				{
 					id: "491DC7AF3356B0AE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/wrenches"
@@ -233,7 +229,7 @@
 				{
 					id: "3CEA3285F2CD5680"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/files"
@@ -245,7 +241,7 @@
 				{
 					id: "5270CD1653E1BAC6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/saws"
@@ -279,7 +275,7 @@
 				"{atm9.quest.gregtech.desc.handyTools.8}"
 				""
 				"{atm9.quest.gregtech.desc.handyTools.9}"
-		]
+			]
 			id: "17BA6F1E5179DB8C"
 			min_width: 400
 			rewards: [{
@@ -293,7 +289,7 @@
 				{
 					id: "15389D4D64D19ACA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/screwdrivers"
@@ -305,7 +301,7 @@
 				{
 					id: "3B9FECB49AF6F450"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/wire_cutters"
@@ -317,7 +313,7 @@
 				{
 					id: "4EEBD6ABA3D55379"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/mortars"
@@ -329,7 +325,7 @@
 				{
 					id: "33B208F02F05BF09"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/knives"
@@ -341,7 +337,7 @@
 				{
 					id: "65A04FD7D3F264DD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/mallets"
@@ -353,7 +349,7 @@
 				{
 					id: "1B670B474AD80852"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/crowbars"
@@ -365,7 +361,7 @@
 				{
 					id: "5F8C9C7E6DFA0E6C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/scythes"
@@ -377,7 +373,7 @@
 				{
 					id: "25E539125A1C5D69"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/plungers"
@@ -389,7 +385,7 @@
 				{
 					id: "465C43AE595A1A9F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/butchery_knives"
@@ -437,7 +433,7 @@
 			tasks: [{
 				id: "5FF14D712FF20F3A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -482,7 +478,7 @@
 			tasks: [{
 				id: "18CA627A460E3E4E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -536,7 +532,7 @@
 			tasks: [{
 				id: "71DDF8155FD8FCAA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -573,7 +569,7 @@
 			tasks: [{
 				id: "125DE9E99E5DC392"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -610,7 +606,7 @@
 			tasks: [{
 				id: "70DEDB210CBD79D9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -655,7 +651,7 @@
 			tasks: [{
 				id: "508A2B09B32E5244"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -709,7 +705,7 @@
 			tasks: [{
 				id: "7FA60EE3F8F0C57B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -758,7 +754,7 @@
 			tasks: [{
 				id: "083DE18D8C046344"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -791,7 +787,7 @@
 			tasks: [{
 				id: "3AC1607997CAAAAC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -829,7 +825,7 @@
 			tasks: [{
 				id: "047722F89EBCC4DE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -874,7 +870,7 @@
 			tasks: [{
 				id: "589F9B25E0FC4A24"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -927,7 +923,7 @@
 			tasks: [{
 				id: "5711092D4CD64197"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -964,7 +960,7 @@
 			tasks: [{
 				id: "1791DBA7A318DE68"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -994,7 +990,7 @@
 			tasks: [{
 				id: "778C0EDD0752F465"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1039,7 +1035,7 @@
 			tasks: [{
 				id: "6A623C45C3A556B6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1092,7 +1088,7 @@
 			tasks: [{
 				id: "3A75356E8DE59132"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1137,7 +1133,7 @@
 			tasks: [{
 				id: "5DED626D70F7EE98"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1174,7 +1170,7 @@
 			tasks: [{
 				id: "556A070D9E9A67E5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1223,7 +1219,7 @@
 			tasks: [{
 				id: "044F6F66134EEFAB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1268,7 +1264,7 @@
 			tasks: [{
 				id: "015B712B90E69E36"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1304,7 +1300,7 @@
 			tasks: [{
 				id: "0D18011DF2D3F338"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1349,7 +1345,7 @@
 			tasks: [{
 				id: "1B94E7A224A87F29"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1394,7 +1390,7 @@
 			tasks: [{
 				id: "6E16C4B0E9B4CEC0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1439,7 +1435,7 @@
 			tasks: [{
 				id: "2E62FDEF3A6A88B8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1489,7 +1485,7 @@
 			tasks: [{
 				id: "6029CFFA9BD91661"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1543,7 +1539,7 @@
 			tasks: [{
 				id: "0AABC07011A622BB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1596,7 +1592,7 @@
 			tasks: [{
 				id: "31A7661D828CB33C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1633,7 +1629,7 @@
 			tasks: [{
 				id: "4730AB96AAD93282"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1693,7 +1689,7 @@
 			tasks: [{
 				id: "0430C905BE3CA0CF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1730,7 +1726,7 @@
 			tasks: [{
 				id: "6962BAEF473C8C18"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1791,7 +1787,7 @@
 			tasks: [{
 				id: "7B87E500C6FB74B3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1821,7 +1817,7 @@
 			tasks: [{
 				id: "3A308744C31E3ED4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1866,7 +1862,7 @@
 			tasks: [{
 				id: "529FF9EA2C01FB6E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1920,7 +1916,7 @@
 			tasks: [{
 				id: "0CD83CD8CF777CB9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1973,7 +1969,7 @@
 			tasks: [{
 				id: "69ED2BD3D6D30648"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -2010,7 +2006,7 @@
 			tasks: [{
 				id: "56F3B3D1E09A31E9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -2054,7 +2050,7 @@
 			tasks: [{
 				id: "3D55C5B20C7CFDA9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -2200,6 +2196,46 @@
 			title: "{atm9.quest.gregtech.endLayerOres2}"
 			x: 6.0d
 			y: -2.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "1C9F143427D1E68C"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "67C278CBE8BD4F0C"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "405256482E90B52E"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "{atm9.chapters.25.title}"

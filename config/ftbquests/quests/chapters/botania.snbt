@@ -289,7 +289,7 @@
 			x: 6.5d
 			y: -3.0d
 		}
-    {
+		{
 			dependencies: ["13D401048A926A74"]
 			hide: true
 			hide_dependency_lines: true
@@ -301,7 +301,6 @@
 			}]
 			tasks: [{
 				id: "175FDE59183B85E2"
-
 				item: "botania:green_mystical_flower"
 				type: "item"
 			}]
@@ -433,7 +432,7 @@
 				{
 					id: "558649C69096D2D7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -488,7 +487,7 @@
 			tasks: [{
 				id: "43C86CA84DC14E8A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -570,7 +569,7 @@
 			tasks: [{
 				id: "51EFBB115AE2746A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "botania:mystical_flowers"
@@ -1472,7 +1471,7 @@
 			tasks: [{
 				id: "490EAAA3703A576F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1547,7 +1546,7 @@
 			tasks: [{
 				id: "59FB36F10FBA2E3D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:twig_wand"
 					tag: {
 						color1: 0
@@ -1815,7 +1814,7 @@
 				{
 					id: "380292B73C32D32D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manaweave_helmet"
 						tag: {
 							Damage: 0
@@ -1826,7 +1825,7 @@
 				{
 					id: "0E65D022473C0996"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manaweave_chestplate"
 						tag: {
 							Damage: 0
@@ -1837,7 +1836,7 @@
 				{
 					id: "75862C1E5E59C465"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manaweave_leggings"
 						tag: {
 							Damage: 0
@@ -1848,7 +1847,7 @@
 				{
 					id: "0E6BE4209A3BFC82"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manaweave_boots"
 						tag: {
 							Damage: 0
@@ -1883,7 +1882,7 @@
 				{
 					id: "731919E7ED474146"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_helmet"
 						tag: {
 							Damage: 0
@@ -1894,7 +1893,7 @@
 				{
 					id: "6ABD8D027FD1C170"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_chestplate"
 						tag: {
 							Damage: 0
@@ -1905,7 +1904,7 @@
 				{
 					id: "41EBB5AAF5F27DCA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_leggings"
 						tag: {
 							Damage: 0
@@ -1916,7 +1915,7 @@
 				{
 					id: "248AD65A97AFB7DB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_boots"
 						tag: {
 							Damage: 0
@@ -1940,7 +1939,7 @@
 			tasks: [{
 				id: "15721B09FEE7A75E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:manasteel_pick"
 					tag: {
 						Damage: 0
@@ -1962,7 +1961,7 @@
 			tasks: [{
 				id: "443C2EF5FFE8D265"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:manasteel_shovel"
 					tag: {
 						Damage: 0
@@ -1984,7 +1983,7 @@
 			tasks: [{
 				id: "541045912841BC47"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:manasteel_axe"
 					tag: {
 						Damage: 0
@@ -2006,7 +2005,7 @@
 			tasks: [{
 				id: "3AD34C5C835969B6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:manasteel_hoe"
 					tag: {
 						Damage: 0
@@ -2028,7 +2027,7 @@
 			tasks: [{
 				id: "76BA8B9CAF7F42CF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:manasteel_sword"
 					tag: {
 						Damage: 0
@@ -2067,7 +2066,7 @@
 				{
 					id: "7502EF4CC54F1E6E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terrasteel_helmet"
 						tag: {
 							Damage: 0
@@ -2078,7 +2077,7 @@
 				{
 					id: "30BFF28FAC3C6862"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terrasteel_chestplate"
 						tag: {
 							Damage: 0
@@ -2089,7 +2088,7 @@
 				{
 					id: "1295FFF7C7E5C731"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terrasteel_leggings"
 						tag: {
 							Damage: 0
@@ -2100,7 +2099,7 @@
 				{
 					id: "69DDDE2C4D586735"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terrasteel_boots"
 						tag: {
 							Damage: 0
@@ -2133,7 +2132,7 @@
 			tasks: [{
 				id: "1B5BCFFB27A87601"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:terra_axe"
 					tag: {
 						Damage: 0
@@ -2164,7 +2163,7 @@
 			tasks: [{
 				id: "679F0AA9731DAF88"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:terra_sword"
 					tag: {
 						Damage: 0
@@ -2204,7 +2203,7 @@
 			tasks: [{
 				id: "65D28D69164FF766"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:terra_pick"
 					tag: {
 						Damage: 0
@@ -2284,7 +2283,7 @@
 				{
 					id: "5A06ED36DD9E9681"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2480,7 +2479,7 @@
 			tasks: [{
 				id: "28B797392467C851"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -2537,7 +2536,7 @@
 				{
 					id: "6A9E12C2483D4883"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:lexicon"
 						tag: {
 							"botania:elven_unlock": 1b
@@ -2548,7 +2547,7 @@
 				{
 					id: "5BD644B2A02DF9C0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2728,7 +2727,7 @@
 				{
 					id: "5820572224CA1F4C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:elementium_helmet"
 						tag: {
 							Damage: 0
@@ -2739,7 +2738,7 @@
 				{
 					id: "3E0174D5D8FB4712"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:elementium_chestplate"
 						tag: {
 							Damage: 0
@@ -2750,7 +2749,7 @@
 				{
 					id: "2E1C97AD850434EC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:elementium_leggings"
 						tag: {
 							Damage: 0
@@ -2761,7 +2760,7 @@
 				{
 					id: "4B1C5F307D76F97A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:elementium_boots"
 						tag: {
 							Damage: 0
@@ -2797,7 +2796,7 @@
 			tasks: [{
 				id: "6348A2F342100CF9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:elementium_pickaxe"
 					tag: {
 						Damage: 0
@@ -2828,7 +2827,7 @@
 			tasks: [{
 				id: "48201CEFFBFD0000"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:elementium_shovel"
 					tag: {
 						Damage: 0
@@ -2859,7 +2858,7 @@
 			tasks: [{
 				id: "3B60A8D021393754"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:elementium_axe"
 					tag: {
 						Damage: 0
@@ -2890,7 +2889,7 @@
 			tasks: [{
 				id: "64D7F9E3A9A910FC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:elementium_hoe"
 					tag: {
 						Damage: 0
@@ -2921,7 +2920,7 @@
 			tasks: [{
 				id: "1BF03F0B36123366"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:elementium_sword"
 					tag: {
 						Damage: 0
@@ -3193,7 +3192,7 @@
 			tasks: [{
 				id: "078E142753C8FA7B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:odin_ring"
 					tag: {
 						baubleUUID: [I;
@@ -4001,7 +4000,7 @@
 			tasks: [{
 				id: "44A3CDE54F2A5149"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -4070,6 +4069,46 @@
 			title: "{atm9.quest.botania.gaiaGearAndTrinkets}"
 			x: 24.5d
 			y: 1.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "1C73AE750F4500E8"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "37BB8E84CF18694C"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "41DE3E2C54A0A251"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 5.0d
+			y: 4.0d
 		}
 	]
 	title: "{atm9.chapters.41.title}"

@@ -1,3 +1,6 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 const $TileEntityMultiblock = Java.loadClass('mekanism.common.tile.prefab.TileEntityMultiblock')
 const $TileEntityMekanism = Java.loadClass('mekanism.common.tile.base.TileEntityMekanism')
 //const $CompoundTag = Java.loadClass('net.minecraft.nbt.CompoundTag')
@@ -22,9 +25,9 @@ const mapMekanismGasToTaskID = {
 	
 }
 
-ClientEvents.tick(event => {
+ClientEvents.tick(allthemods => {
     if (Client.hitResult != null && Client.hitResult.getType() == 'BLOCK') {
-        let block = event.level.getBlock(Client.hitResult.getBlockPos())
+        let block = allthemods.level.getBlock(Client.hitResult.getBlockPos())
         if (block.id.contains('mekanism')) {
             let blockEntity = block.entity
             // Multiblock handler
@@ -39,7 +42,7 @@ ClientEvents.tick(event => {
                             if (taskString) {
                             let tag = new $CompoundTag
                             tag.putString('task', taskString)
-                            event.player.sendData('customTask', tag)
+                            allthemods.player.sendData('customTask', tag)
                             }
                         }
                     }
@@ -56,7 +59,7 @@ ClientEvents.tick(event => {
                         if (taskString) {
                             let tag = new $CompoundTag
                             tag.putString('task', taskString)
-                            event.player.sendData('customTask', tag)
+                            allthemods.player.sendData('customTask', tag)
                         }
                     })
                 }
@@ -65,7 +68,7 @@ ClientEvents.tick(event => {
     }
 })
 
-NetworkEvents.dataReceived('customTask', event => {
+NetworkEvents.dataReceived('customTask', allthemods => {
     //const {entity, data, level} = event
     //let taskString = data.task
     //let task = FTBQuests.getObject(level, taskString)
@@ -74,3 +77,6 @@ NetworkEvents.dataReceived('customTask', event => {
     //    playerQuestData.addProgress(task, 1)
     //}
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

@@ -35,7 +35,7 @@
 			rewards: [{
 				id: "2891A088FD613B60"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:long_regeneration"
@@ -59,7 +59,7 @@
 			rewards: [{
 				id: "579ED982EEBD8D8B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:long_strength"
@@ -83,7 +83,7 @@
 			rewards: [{
 				id: "3587D800DDF74D5C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:long_slow_falling"
@@ -107,7 +107,7 @@
 			rewards: [{
 				id: "0A9E745422DB3BE6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:long_fire_resistance"
@@ -131,7 +131,7 @@
 			rewards: [{
 				id: "7DA676C4472E397D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:long_water_breathing"
@@ -155,7 +155,7 @@
 			rewards: [{
 				id: "7CD940DCF052F4C4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:long_swiftness"
@@ -533,7 +533,7 @@
 			rewards: [{
 				id: "67D702C81DD763CC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -547,7 +547,7 @@
 			tasks: [{
 				id: "1FA495218EEB8C0B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "cataclysm:infernal_forge"
 					tag: {
 						Damage: 0
@@ -566,7 +566,7 @@
 			rewards: [{
 				id: "5AAE1A0330006A17"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -614,7 +614,7 @@
 			rewards: [{
 				id: "7D257DC5FDE48336"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -628,7 +628,7 @@
 			tasks: [{
 				id: "441555E3052F2EAF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "cataclysm:monstrous_helm"
 					tag: {
 						Damage: 0
@@ -672,7 +672,7 @@
 			tasks: [{
 				id: "6CECFDF3DCC27679"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "cataclysm:laser_gatling"
 					tag: {
 						Damage: 0
@@ -691,7 +691,7 @@
 			rewards: [{
 				id: "268561922FEE8B43"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -759,7 +759,7 @@
 			rewards: [{
 				id: "28A2EFA8365C43F2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -773,7 +773,7 @@
 			tasks: [{
 				id: "29537CE0D9AC9F93"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "cataclysm:void_forge"
 					tag: {
 						Damage: 0
@@ -856,7 +856,7 @@
 			rewards: [{
 				id: "75CD0F8655ADF316"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -883,7 +883,7 @@
 			rewards: [{
 				id: "56CCF37DE9C299DC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -911,7 +911,7 @@
 			rewards: [{
 				id: "43E6109DA56D2252"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -1035,7 +1035,7 @@
 			rewards: [{
 				id: "7A1EB0C189D152F0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:long_slow_falling"
@@ -1091,7 +1091,7 @@
 			rewards: [{
 				id: "2470D6A923144AC4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:brush"
 					tag: {
 						Damage: 0
@@ -1137,7 +1137,7 @@
 			rewards: [{
 				id: "1842581F9D93C37F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "cataclysm:khopesh"
 					tag: {
 						Damage: 0
@@ -1185,7 +1185,7 @@
 				{
 					id: "1FBF5BF88CBB95B4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "cataclysm:coral_spear"
 						tag: {
 							Damage: 0
@@ -1196,7 +1196,7 @@
 				{
 					id: "679573B3B7B9E3F5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "cataclysm:coral_bardiche"
 						tag: {
 							Damage: 0
@@ -1207,7 +1207,7 @@
 				{
 					id: "5D0649A338DE1482"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "cataclysm:athame"
 						tag: {
 							Damage: 0
@@ -1251,6 +1251,46 @@
 			title: "{atm9.quest.cataclysm.deeplings}"
 			x: 3.5d
 			y: -2.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "744199F27DB7B1ED"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "529BF074A61E2EAB"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "19E65997851BC46E"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
 		}
 	]
 	title: "{atm9.chapters.47.title}"

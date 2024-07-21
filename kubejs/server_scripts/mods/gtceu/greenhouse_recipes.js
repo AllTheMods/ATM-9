@@ -1,6 +1,9 @@
-ServerEvents.recipes(event => {
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+ServerEvents.recipes(allthemods => {
     //////////////// machine controller ////////////////
-    event.shaped('gtceu:greenhouse', ['AWA', 'ASA', 'WAW'],
+    allthemods.shaped('gtceu:greenhouse', ['AWA', 'ASA', 'WAW'],
     {
         A: '#gtceu:circuits/mv',
         W: 'gtceu:copper_single_cable',
@@ -11,7 +14,7 @@ ServerEvents.recipes(event => {
 
     function grow(id, input, output, duration, boostItem, boosted) {
         if (boosted) {
-            event.recipes.gtceu.greenhouse(id)
+            allthemods.recipes.gtceu.greenhouse(id)
                 .circuit(2)
                 .notConsumable(InputItem.of(input))
                 .itemInputs(boostItem)
@@ -20,7 +23,7 @@ ServerEvents.recipes(event => {
                 .duration(duration / 2)
                 .EUt(MV)
         } else {
-            event.recipes.gtceu.greenhouse(id)
+            allthemods.recipes.gtceu.greenhouse(id)
                 .circuit(1)
                 .notConsumable(InputItem.of(input))
                 .inputFluids(Fluid.of('minecraft:water', 1000))
@@ -31,7 +34,7 @@ ServerEvents.recipes(event => {
     }
 
     // copy every botany pot recipe into the greenhouse
-    event.forEachRecipe({type: 'botanypots:crop'}, rawRecipe => {
+    allthemods.forEachRecipe({type: 'botanypots:crop'}, rawRecipe => {
         let recipe = JSON.parse(rawRecipe.json)
         let duration = recipe.growthTicks
         let drops = recipe.drops // array of objects { chance, output { item }, minRolls, maxRolls }
@@ -47,7 +50,7 @@ ServerEvents.recipes(event => {
                     // do nothing because these are duplicate recipes
                     // console.log("skipping over recipe " + rawRecipe.getId())
                 } else {
-                    var recipeBuilder = event.recipes.gtceu.greenhouse('kubejs:gtceu/greenhouse/' + affix[0] + "/" + affix[1])
+                    var recipeBuilder = allthemods.recipes.gtceu.greenhouse('kubejs:gtceu/greenhouse/' + affix[0] + "/" + affix[1])
                     recipeBuilder.EUt(MV)
                         .notConsumable(InputItem.of(input))
                         .inputFluids(Fluid.of('minecraft:water', 1000))
@@ -65,7 +68,7 @@ ServerEvents.recipes(event => {
             // console.log('seed has no item property for recipe ' + rawRecipe.getId())
             let input = recipe.seed[1].item
             let affix = input.split(':')
-            var recipeBuilder = event.recipes.gtceu.greenhouse('kubejs:gtceu/greenhouse/' + affix[0] + "/" + affix[1])
+            var recipeBuilder = allthemods.recipes.gtceu.greenhouse('kubejs:gtceu/greenhouse/' + affix[0] + "/" + affix[1])
             recipeBuilder.EUt(MV)
                 .notConsumable(InputItem.of(input))
                 .inputFluids(Fluid.of('minecraft:water', 1000))
@@ -171,7 +174,7 @@ ServerEvents.recipes(event => {
         let boostOut = '4x mysticalagriculture:' + base + '_essence'
         let duration = 9600 * 18
 
-        event.recipes.gtceu.greenhouse(id)
+        allthemods.recipes.gtceu.greenhouse(id)
             .circuit(2)
             .notConsumable(InputItem.of(inp))
             .notConsumable(InputItem.of(crux))
@@ -180,7 +183,7 @@ ServerEvents.recipes(event => {
             .itemOutputs(boostOut)
             .duration(duration / 2)
             .EUt(MV)
-        event.recipes.gtceu.greenhouse(id + '_boosted')
+        allthemods.recipes.gtceu.greenhouse(id + '_boosted')
             .circuit(1)
             .notConsumable(InputItem.of(inp))
             .notConsumable(InputItem.of(crux))
@@ -194,3 +197,6 @@ ServerEvents.recipes(event => {
     grow('rubber_sapling', 'gtceu:rubber_sapling', ['32x gtceu:rubber_log', '8x gtceu:sticky_resin', '4x gtceu:rubber_sapling'], 9600.0, 'minecraft:air', false)
     grow('rubber_sapling_boosted', 'gtceu:rubber_sapling', ['64x gtceu:rubber_log', '16x gtceu:sticky_resin', '4x gtceu:rubber_sapling'], 9600.0, '4x gtceu:fertilizer', true)
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

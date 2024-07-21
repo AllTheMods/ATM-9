@@ -1,16 +1,18 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 //priority:900
 // Written by EnigmaQuip as a post almost unified recipe generation script for missing recipes
 
 // Missing tags for unify
-ServerEvents.tags('item', event => {
-  event.add('forge:storage_blocks/raw_aluminum', 'xycraft_world:aluminum_raw_block')
+ServerEvents.tags('item', allthemods => {
+  allthemods.add('forge:storage_blocks/raw_aluminum', 'xycraft_world:aluminum_raw_block')
   global.blueskies.forEach(metal => {
-    event.add(`forge:storage_blocks/raw_${metal}`, `blue_skies:raw_${metal}_block`)
-    event.add(`forge:storage_blocks/${metal}`, `blue_skies:${metal}_block`)
+    allthemods.add(`forge:storage_blocks/raw_${metal}`, `blue_skies:raw_${metal}_block`)
+    allthemods.add(`forge:storage_blocks/${metal}`, `blue_skies:${metal}_block`)
   })
 })
 
-ServerEvents.recipes(event => {
+ServerEvents.recipes(allthemods => {
   if (global.devLogging) {
     console.log('Finishing Unifying on Storage Blocks')
   }
@@ -44,7 +46,7 @@ ServerEvents.recipes(event => {
     if (!ingotTag.getFirst().isEmpty()) {
       if (global.loaded.IE_Loaded) {
         // Check if ie metal press recipe exists and add it if not
-        let count = event.recipeStream({ type: 'immersiveengineering:metal_press' }).mapToInt(recipe => {
+        let count = allthemods.recipeStream({ type: 'immersiveengineering:metal_press' }).mapToInt(recipe => {
           let result = recipe.json.get('result')
           if (result.has('base_ingredient')) {
             if (storage.equalsIgnoringCount(Item.of(result.get('base_ingredient')))) { return 1 }
@@ -53,7 +55,7 @@ ServerEvents.recipes(event => {
         }).sum()
 
         if (count == 0) {
-          event.custom({
+          allthemods.custom({
             type: 'immersiveengineering:metal_press',
             mold: 'immersiveengineering:mold_packing_9',
             input: {
@@ -62,14 +64,14 @@ ServerEvents.recipes(event => {
             },
             result: storage.toJson(),
             energy: 2400
-          }).id(`kubejs:immersiveengineering/metalpress/packing3x3/${raw ? 'raw_' : ''}${material}`)
+          }).id(`allthemods:immersiveengineering/metalpress/packing3x3/${raw ? 'raw_' : ''}${material}`)
           storageCount.ie++
         }
       }
 
       if (global.loaded.Thermal_Loaded) {
         // Check if thermal multiservo press recipe exists and add it if not
-        let count = event.recipeStream({ type: 'thermal:press' }).mapToInt(recipe => {
+        let count = allthemods.recipeStream({ type: 'thermal:press' }).mapToInt(recipe => {
           let hasMatch = false
           recipe.json.get('result').forEach(item => {
             if (storage.specialEquals(Item.of(item), true)) {
@@ -81,25 +83,25 @@ ServerEvents.recipes(event => {
         }).sum()
 
         if (count == 0) {
-          event.custom({
+          allthemods.custom({
             type: 'thermal:press',
             ingredients: [
               Item.of(ingotTag.getFirst()).withCount(9),
               Ingredient.of('thermal:press_packing_3x3_die').toJson(),
             ],
             result: [storage.toJson()],
-          }).id(`kubejs:thermal/machines/press/packing3x3/press_${raw ? 'raw_' : ''}${material}_packing`)
+          }).id(`allthemods:thermal/machines/press/packing3x3/press_${raw ? 'raw_' : ''}${material}_packing`)
           storageCount.thermal++
         }
       }
     }
 
     if (!raw) {
-      if (event.countRecipes({ type: 'minecraft:smelting', input: `#forge:storage_blocks/raw_${material}`, output: `#forge:storage_blocks/${material}` }) == 0) {
+      if (allthemods.countRecipes({ type: 'minecraft:smelting', input: `#forge:storage_blocks/raw_${material}`, output: `#forge:storage_blocks/${material}` }) == 0) {
         let rawBlock = Ingredient.of(`#forge:storage_blocks/raw_${material}`)
         if (!rawBlock.isEmpty()) {
-          event.smelting(storage, rawBlock, 6.3, '90s')
-          event.blasting(storage, rawBlock, 6.3, '45s')
+          allthemods.smelting(storage, rawBlock, 6.3, '90s')
+          allthemods.blasting(storage, rawBlock, 6.3, '45s')
         }
       }
     }
@@ -110,3 +112,6 @@ ServerEvents.recipes(event => {
     // Added Storage Block Recipes - IE: 80, Thermal: 43
   }
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
