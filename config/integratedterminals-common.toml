@@ -63,7 +63,7 @@
 		#The number of threads that the crafting plan calculator can use.
 		craftingPlannerThreads = 2
 		#The maximum number of terminal storage instances that can be sent in a single packet. Reduce this when you have packet overflows.
-		terminalStoragePacketMaxInstances = 1024
+		terminalStoragePacketMaxInstances = 512
 		#If the version checker should be enabled.
 		versionChecker = false
 
