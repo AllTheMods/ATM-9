@@ -5,7 +5,58 @@
 	group: "2B51AC12041E3F89"
 	icon: "draconicevolution:draconium_core"
 	id: "0B826D13BAD43EEB"
+	images: [
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/draconic/draconic_title.png"
+			rotation: 0.0d
+			width: 8.019230769230768d
+			x: 6.5d
+			y: -15.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/draconic/draconic_core_1on.png"
+			rotation: 0.0d
+			width: 2.0089285714285716d
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/draconic/draconic_core_8on.png"
+			rotation: 0.0d
+			width: 5.038167938931297d
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/draconic/draconic_energy.png"
+			rotation: 0.0d
+			width: 4.1257142857142854d
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/draconic/draconic_reactor_off_down.png"
+			rotation: 0.0d
+			width: 11.26126126126126d
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/draconic/draconic_fusion.png"
+			rotation: 0.0d
+			width: 9.072463768115941d
+			x: 11.5d
+			y: -7.5d
+		}
+	]
 	order_index: 4
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -15,6 +66,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5A1B214896CADF59"
+				table_id: 8319312224449668135L
 				type: "random"
 			}]
 			shape: "square"
@@ -26,7 +78,7 @@
 			}]
 			title: "{atm9.quest.draconic.BEnM}"
 			x: 17.25d
-			y: -12.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["574E5806D1A98FE5"]
@@ -34,6 +86,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6AC58363EDEC7B2A"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -45,7 +98,7 @@
 			}]
 			title: "{atm9.quest.draconic.WEnM}"
 			x: 18.0d
-			y: -12.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["120B403D56EE5C79"]
@@ -53,6 +106,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "01AF0C1D9B9EB1E0"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -64,7 +118,7 @@
 			}]
 			title: "{atm9.quest.draconic.DEnM}"
 			x: 18.75d
-			y: -12.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["5021D159A5EC2315"]
@@ -72,6 +126,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7A2728A923F439CD"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -83,7 +138,7 @@
 			}]
 			title: "{atm9.quest.draconic.CEnM}"
 			x: 19.5d
-			y: -12.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -92,6 +147,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4BB6811D3AF64A43"
+				table_id: 8319312224449668135L
 				type: "random"
 			}]
 			shape: "square"
@@ -103,7 +159,7 @@
 			}]
 			title: "{atm9.quest.draconic.BSpM}"
 			x: 17.25d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["7C54581562D2EA75"]
@@ -111,6 +167,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "41BA34EC0065F8A8"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -122,7 +179,7 @@
 			}]
 			title: "{atm9.quest.draconic.WSpM}"
 			x: 18.0d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["2AA08313F927981E"]
@@ -130,6 +187,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "34CBBBF2D6236D77"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -141,7 +199,7 @@
 			}]
 			title: "{atm9.quest.draconic.DSpM}"
 			x: 18.75d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["28AF8DD34412CBAA"]
@@ -149,6 +207,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0108EA0A77EAD8AA"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -160,7 +219,7 @@
 			}]
 			title: "{atm9.quest.draconic.CSpM}"
 			x: 19.5d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -169,6 +228,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "549DB2B92186656C"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -180,7 +240,7 @@
 			}]
 			title: "{atm9.quest.draconic.WSReM}"
 			x: 18.0d
-			y: -1.25d
+			y: -0.75d
 		}
 		{
 			dependencies: ["4CD2ADD3601B8191"]
@@ -188,6 +248,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2FE573139A791AE8"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -199,7 +260,7 @@
 			}]
 			title: "{atm9.quest.draconic.DSReM}"
 			x: 18.75d
-			y: -1.25d
+			y: -0.75d
 		}
 		{
 			dependencies: ["594BBD31461F212D"]
@@ -207,6 +268,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5A73D88E2CF02062"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -218,7 +280,7 @@
 			}]
 			title: "{atm9.quest.draconic.CSReM}"
 			x: 19.5d
-			y: -1.25d
+			y: -0.75d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -227,6 +289,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "389CD1FD2E15FCE4"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -238,7 +301,7 @@
 			}]
 			title: "{atm9.quest.draconic.WSCaM}"
 			x: 18.0d
-			y: -2.75d
+			y: -2.25d
 		}
 		{
 			dependencies: ["37CC51B689CB8A40"]
@@ -246,6 +309,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "013043A10A13DD74"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -257,7 +321,7 @@
 			}]
 			title: "{atm9.quest.draconic.DSCaM}"
 			x: 18.75d
-			y: -2.75d
+			y: -2.25d
 		}
 		{
 			dependencies: ["76064465104B1C28"]
@@ -265,6 +329,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "25AA36E7E9137AF5"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -276,7 +341,7 @@
 			}]
 			title: "{atm9.quest.draconic.CSCaM}"
 			x: 19.5d
-			y: -2.75d
+			y: -2.25d
 		}
 		{
 			dependencies: ["37CC51B689CB8A40"]
@@ -285,6 +350,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "545A6DF1312F86BF"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -296,7 +362,7 @@
 			}]
 			title: "{atm9.quest.draconic.WLSCaM}"
 			x: 18.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -307,6 +373,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "06691905C6FA5052"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -318,7 +385,7 @@
 			}]
 			title: "{atm9.quest.draconic.DLSCaM}"
 			x: 18.75d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -329,6 +396,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "66BEFEE65CB095EB"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -340,7 +408,7 @@
 			}]
 			title: "{atm9.quest.draconic.CLSCaM}"
 			x: 19.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -352,6 +420,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6ABAA8806E74DFBA"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -363,7 +432,7 @@
 			}]
 			title: "{atm9.quest.draconic.WUnM}"
 			x: 18.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -374,6 +443,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "53EBC8782D6FE00F"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -385,7 +455,7 @@
 			}]
 			title: "{atm9.quest.draconic.DUnM}"
 			x: 18.75d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -396,6 +466,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4A483E34ADE96759"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -407,7 +478,7 @@
 			}]
 			title: "{atm9.quest.draconic.CUnM}"
 			x: 19.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -416,6 +487,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "290B7A9895407C81"
+				table_id: 8319312224449668135L
 				type: "random"
 			}]
 			shape: "square"
@@ -427,7 +499,7 @@
 			}]
 			title: "{atm9.quest.draconic.BAOEM}"
 			x: 17.25d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7143CE930D08F160"]
@@ -435,6 +507,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "43400A673B6F46D0"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -446,7 +519,7 @@
 			}]
 			title: "{atm9.quest.draconic.WAOEM}"
 			x: 18.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["165030137EF59299"]
@@ -454,6 +527,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "034E3DC99536CD11"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -465,7 +539,7 @@
 			}]
 			title: "{atm9.quest.draconic.DAOEM}"
 			x: 18.75d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["655BE42CD5BB9D82"]
@@ -473,6 +547,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1C07185ABA183179"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -484,7 +559,7 @@
 			}]
 			title: "{atm9.quest.draconic.CAOEM}"
 			x: 19.5d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -493,6 +568,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6C5FDC9D75A55BDE"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -504,7 +580,7 @@
 			}]
 			title: "{atm9.quest.draconic.WSCoM}"
 			x: 18.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1A53B6544782442E"]
@@ -512,6 +588,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3FA8512E8EE880E9"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -523,7 +600,7 @@
 			}]
 			title: "{atm9.quest.draconic.DSCoM}"
 			x: 18.75d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2158A566C2F54AA9"]
@@ -531,6 +608,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "08F5AD5442F36A79"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -542,11 +620,14 @@
 			}]
 			title: "{atm9.quest.draconic.CSCoM}"
 			x: 19.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C2CF51D28F84CBE"]
-			description: ["{atm9.quest.draconic.desc.shard}"]
+			description: [
+				"{atm9.quest.draconic.desc.shard}"
+				"{image:atm:textures/questpics/draconic/draconic_shard.png width:150 height:100 align:1}"
+			]
 			id: "6B8F2E05429C185F"
 			rewards: [{
 				count: 3
@@ -563,8 +644,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.shard}"
-			x: -0.5d
-			y: -6.5d
+			x: 0.5d
+			y: -6.0d
 		}
 		{
 			description: ["{atm9.quest.draconic.desc.end}"]
@@ -573,6 +654,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "20A35C6F29F30427"
+				table_id: 8319312224449668135L
 				type: "random"
 			}]
 			shape: "rsquare"
@@ -584,12 +666,15 @@
 				type: "dimension"
 			}]
 			title: "{atm9.quest.draconic.end}"
-			x: -0.5d
-			y: -12.5d
+			x: 0.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["45EE60207C466D6C"]
-			description: ["{atm9.quest.draconic.desc.destroy}"]
+			description: [
+				"{atm9.quest.draconic.desc.destroy}"
+				"{image:atm:textures/questpics/draconic/draconic_end_crystal.png width:150 height:100 align:1}"
+			]
 			icon: {
 				Count: 1
 				id: "draconicevolution:mob_soul"
@@ -601,6 +686,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6F1E69A5F6F19013"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -611,8 +697,8 @@
 				value: 14L
 			}]
 			title: "{atm9.quest.draconic.destroy}"
-			x: -0.5d
-			y: -10.5d
+			x: 0.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["45EE60207C466D6C"]
@@ -641,12 +727,15 @@
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.draconic.prep}"
-			x: 1.0d
-			y: -12.5d
+			x: 2.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["106D08542AAFA166"]
-			description: ["{atm9.quest.draconic.desc.guardian}"]
+			description: [
+				"{atm9.quest.draconic.desc.guardian}"
+				"{image:atm:textures/questpics/draconic/draconic_guardian.png width:150 height:100 align:1}"
+			]
 			icon: {
 				Count: 1
 				id: "draconicevolution:mob_soul"
@@ -665,16 +754,19 @@
 				{
 					exclude_from_claim_all: true
 					id: "282B4FD146E06EE4"
+					table_id: 7145388980997284804L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "62CE93FB0A7817BF"
+					table_id: 7145388980997284804L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "3D0F7E5B7E5F012B"
+					table_id: 7145388980997284804L
 					type: "random"
 				}
 			]
@@ -687,8 +779,8 @@
 				value: 1L
 			}]
 			title: "{atm9.quest.draconic.guardian}"
-			x: -0.5d
-			y: -8.5d
+			x: 0.5d
+			y: -8.0d
 		}
 		{
 			description: ["{atm9.quest.draconic.desc.core}"]
@@ -707,7 +799,7 @@
 			}]
 			title: "{atm9.quest.draconic.core}"
 			x: 0.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -715,7 +807,11 @@
 				"5443E15E226DFC86"
 				"421954D7D46FAAD6"
 			]
-			description: ["{atm9.quest.draconic.desc.1}"]
+			description: [
+				"{atm9.quest.draconic.desc.1}"
+				"{image:atm:textures/questpics/draconic/draconic_core_1off.png width:100 height:100 align:1}"
+				"{image:atm:textures/questpics/draconic/draconic_core_1on.png width:100 height:100 align:1}"
+			]
 			icon: "minecraft:cobblestone"
 			id: "389655CD41C7A691"
 			shape: "square"
@@ -728,11 +824,15 @@
 			}]
 			title: "{atm9.quest.draconic.1}"
 			x: 0.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["389655CD41C7A691"]
-			description: ["{atm9.quest.draconic.desc.2)"]
+			description: [
+				"{atm9.quest.draconic.desc.2)"
+				"{image:atm:textures/questpics/draconic/draconic_core_2off.png width:100 height:100 align:1}"
+				"{image:atm:textures/questpics/draconic/draconic_core_2on.png width:100 height:100 align:1}"
+			]
 			icon: "minecraft:iron_ingot"
 			id: "35767977FB9E0B1B"
 			rewards: [{
@@ -759,11 +859,15 @@
 			]
 			title: "{atm9.quest.draconic.2}"
 			x: 0.5d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["35767977FB9E0B1B"]
-			description: ["{atm9.quest.draconic.desc.3}"]
+			description: [
+				"{atm9.quest.draconic.desc.3}"
+				"{image:atm:textures/questpics/draconic/draconic_core_3off.png width:100 height:100 align:1}"
+				"{image:atm:textures/questpics/draconic/draconic_core_3on.png width:100 height:100 align:1}"
+			]
 			icon: "minecraft:gold_ingot"
 			id: "713D3B3954E58C4A"
 			rewards: [
@@ -798,11 +902,15 @@
 			]
 			title: "{atm9.quest.draconic.3}"
 			x: 1.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["713D3B3954E58C4A"]
-			description: ["{atm9.quest.draconic.desc.4}"]
+			description: [
+				"{atm9.quest.draconic.desc.4}"
+				"{image:atm:textures/questpics/draconic/draconic_core_4off.png width:100 height:100 align:1}"
+				"{image:atm:textures/questpics/draconic/draconic_core_4on.png width:100 height:100 align:1}"
+			]
 			icon: "minecraft:diamond"
 			id: "1F7D147C9AF6A4FC"
 			rewards: [
@@ -843,11 +951,15 @@
 			]
 			title: "{atm9.quest.draconic.4}"
 			x: 2.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0817FD6E45C127E8"]
-			description: ["{atm9.quest.draconic.desc.5}"]
+			description: [
+				"{atm9.quest.draconic.desc.5}"
+				"{image:atm:textures/questpics/draconic/draconic_core_5off.png width:100 height:100 align:1}"
+				"{image:atm:textures/questpics/draconic/draconic_core_5on.png width:100 height:100 align:1}"
+			]
 			icon: "minecraft:netherite_scrap"
 			id: "131AA933D59D3017"
 			rewards: [
@@ -888,11 +1000,15 @@
 			]
 			title: "{atm9.quest.draconic.5}"
 			x: 0.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["131AA933D59D3017"]
-			description: ["{atm9.quest.draconic.desc.6}"]
+			description: [
+				"{atm9.quest.draconic.desc.6}"
+				"{image:atm:textures/questpics/draconic/draconic_core_6off.png width:100 height:100 align:1}"
+				"{image:atm:textures/questpics/draconic/draconic_core_6on.png width:100 height:100 align:1}"
+			]
 			icon: "allthemodium:allthemodium_ingot"
 			id: "2DB2A4A1182FE0BB"
 			rewards: [
@@ -933,11 +1049,15 @@
 			]
 			title: "{atm9.quest.draconic.6}"
 			x: -0.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B4CEE8A8CE0D6CB"]
-			description: ["{atm9.quest.draconic.desc.8}"]
+			description: [
+				"{atm9.quest.draconic.desc.8}"
+				"{image:atm:textures/questpics/draconic/draconic_core_8off.png width:100 height:100 align:1}"
+				"{image:atm:textures/questpics/draconic/draconic_core_8on.png width:100 height:100 align:1}"
+			]
 			icon: "allthemodium:unobtainium_ingot"
 			id: "04BF68E4554D69AA"
 			rewards: [
@@ -987,7 +1107,7 @@
 			]
 			title: "{atm9.quest.draconic.8}"
 			x: -0.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7F757CD6F8C57733"]
@@ -1007,11 +1127,15 @@
 			}]
 			title: "{atm9.quest.draconic.pylon}"
 			x: -0.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2DB2A4A1182FE0BB"]
-			description: ["{atm9.quest.draconic.desc.7}"]
+			description: [
+				"{atm9.quest.draconic.desc.7}"
+				"{image:atm:textures/questpics/draconic/draconic_core_7off.png width:100 height:100 align:1}"
+				"{image:atm:textures/questpics/draconic/draconic_core_7on.png width:100 height:100 align:1}"
+			]
 			icon: "allthemodium:vibranium_ingot"
 			id: "3B4CEE8A8CE0D6CB"
 			rewards: [
@@ -1052,7 +1176,7 @@
 			]
 			title: "{atm9.quest.draconic.7}"
 			x: -1.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -1061,6 +1185,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "125C0E00B1DABC77"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			tasks: [{
@@ -1095,7 +1220,7 @@
 			}]
 			title: "{atm9.quest.draconic.WPick}"
 			x: 9.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -1104,6 +1229,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7FC47CD14C5A5DFC"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			tasks: [{
@@ -1138,7 +1264,7 @@
 			}]
 			title: "{atm9.quest.draconic.DPick}"
 			x: 9.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -1147,6 +1273,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "573A47B0679D1378"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			tasks: [{
@@ -1181,7 +1308,7 @@
 			}]
 			title: "{atm9.quest.draconic.CPick}"
 			x: 9.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -1190,6 +1317,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "33E8F7B53AF7FBC7"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			tasks: [{
@@ -1219,7 +1347,7 @@
 			}]
 			title: "{atm9.quest.draconic.WSword}"
 			x: 8.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -1228,6 +1356,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "508AB15EF1FD7E67"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			tasks: [{
@@ -1257,7 +1386,7 @@
 			}]
 			title: "{atm9.quest.draconic.DSword}"
 			x: 8.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -1266,6 +1395,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2276BB717D82DDA9"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			tasks: [{
@@ -1295,7 +1425,7 @@
 			}]
 			title: "{atm9.quest.draconic.CSword}"
 			x: 8.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -1304,6 +1434,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2C8BA7504D7D8C1E"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			tasks: [{
@@ -1338,7 +1469,7 @@
 			}]
 			title: "{atm9.quest.draconic.WShovel}"
 			x: 11.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -1347,6 +1478,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4E7BA1AF6FFFAC20"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			tasks: [{
@@ -1381,7 +1513,7 @@
 			}]
 			title: "{atm9.quest.draconic.DShovel}"
 			x: 11.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -1390,6 +1522,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1EAE86065324E051"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			tasks: [{
@@ -1424,7 +1557,7 @@
 			}]
 			title: "{atm9.quest.draconic.CShovel}"
 			x: 11.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1438,6 +1571,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2EFEABA2178F69CD"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			tasks: [{
@@ -1472,7 +1606,7 @@
 			}]
 			title: "{atm9.quest.draconic.DStaff}"
 			x: 13.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -1486,6 +1620,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2864579B74DDB579"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			tasks: [{
@@ -1520,7 +1655,7 @@
 			}]
 			title: "{atm9.quest.draconic.CStaff}"
 			x: 13.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			description: ["{atm9.quest.draconic.desc.module}"]
@@ -1552,6 +1687,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "438E73859975B84E"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			size: 1.0d
@@ -1582,7 +1718,7 @@
 			}]
 			title: "{atm9.quest.draconic.WBow}"
 			x: 7.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -1591,6 +1727,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "758E5E513DAA1D6E"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			tasks: [{
@@ -1620,7 +1757,7 @@
 			}]
 			title: "{atm9.quest.draconic.DBow}"
 			x: 7.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -1629,6 +1766,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "66E6E3D9A6D53B39"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			tasks: [{
@@ -1658,7 +1796,7 @@
 			}]
 			title: "{atm9.quest.draconic.CBow}"
 			x: 7.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -1667,6 +1805,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "41EFF8AB501D6815"
+				table_id: 8319312224449668135L
 				type: "random"
 			}]
 			shape: "square"
@@ -1678,7 +1817,7 @@
 			}]
 			title: "{atm9.quest.draconic.BAFeM}"
 			x: 17.25d
-			y: 1.75d
+			y: 2.25d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -1687,6 +1826,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "46C67A58E57778D1"
+				table_id: 8319312224449668135L
 				type: "random"
 			}]
 			shape: "square"
@@ -1698,7 +1838,7 @@
 			}]
 			title: "{atm9.quest.draconic.BDM}"
 			x: 17.25d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1C8210712349A2E3"]
@@ -1706,6 +1846,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6C38DC7CD9C0786C"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -1717,7 +1858,7 @@
 			}]
 			title: "{atm9.quest.draconic.WDM}"
 			x: 18.0d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1E41A5071854DEC8"]
@@ -1725,6 +1866,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "02954B819D1738ED"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -1736,7 +1878,7 @@
 			}]
 			title: "{atm9.quest.draconic.DDM}"
 			x: 18.75d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7B9F5EEC76FDD0D4"]
@@ -1744,6 +1886,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "79679B41B462574B"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -1755,23 +1898,60 @@
 			}]
 			title: "{atm9.quest.draconic.CDM}"
 			x: 19.5d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			description: ["{atm9.quest.draconic.desc.endstone}"]
-			icon: "draconicevolution:end_draconium_ore"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 0
+						}
+						module_host: {
+							modules: [ ]
+							properties: {
+								charge_armor: {
+									hud: 1b
+								}
+								charge_curios: {
+									hud: 1b
+								}
+								charge_held_item: {
+									hud: 1b
+								}
+								charge_hot_bar: {
+									hud: 1b
+								}
+								charge_main: {
+									hud: 1b
+								}
+							}
+							provider_id: [I;
+								-1545140134
+								1305168571
+								-1541896862
+								-1897389170
+							]
+						}
+					}
+				}
+				id: "draconicevolution:wyvern_capacitor"
+			}
 			id: "26DF1427AC3966DE"
 			rewards: [{
 				count: 12
-				id: "5674E1A4E3A8B45A"
+				id: "2E37C878B24D6913"
 				item: "draconicevolution:draconium_ingot"
 				type: "item"
 			}]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
-				id: "59E091631374A08C"
-				item: "draconicevolution:draconium_dust"
+				count: 6L
+				id: "76BCC3C288514737"
+				item: { Count: 6, id: "draconicevolution:draconium_dust" }
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.endstone}"
@@ -1795,7 +1975,7 @@
 			}]
 			title: "{atm9.quest.draconic.BCore}"
 			x: 6.0d
-			y: -10.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["12BDE512C734D19A"]
@@ -1816,7 +1996,7 @@
 			}]
 			title: "{atm9.quest.draconic.fusion}"
 			x: 6.0d
-			y: -9.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4B7840F1A8CF1378"]
@@ -1825,6 +2005,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3480AB7F7CCB595D"
+				table_id: 8319312224449668135L
 				type: "random"
 			}]
 			shape: "rsquare"
@@ -1836,7 +2017,7 @@
 			}]
 			title: "{atm9.quest.draconic.basic}"
 			x: 6.0d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1D3E2363CFD4C5E0"]
@@ -1845,6 +2026,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "09D389B16F321F3C"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "rsquare"
@@ -1856,7 +2038,7 @@
 			}]
 			title: "{atm9.quest.draconic.wyvern}"
 			x: 6.0d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -1865,6 +2047,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "61B2C0ECEAC859F2"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "rsquare"
@@ -1876,7 +2059,7 @@
 			}]
 			title: "{atm9.quest.draconic.draconic}"
 			x: 6.0d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -1885,6 +2068,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "42006DAC1EC5B749"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "rsquare"
@@ -1896,7 +2080,7 @@
 			}]
 			title: "{atm9.quest.draconic.chaotic}"
 			x: 6.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1D3E2363CFD4C5E0"]
@@ -1905,6 +2089,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "538CE96BF841A65B"
+				table_id: 8319312224449668135L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -1915,7 +2100,7 @@
 			}]
 			title: "{atm9.quest.draconic.DChest}"
 			x: 7.5d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -1924,6 +2109,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "083432516AC49C29"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			tasks: [{
@@ -1933,7 +2119,7 @@
 			}]
 			title: "{atm9.quest.draconic.awake}"
 			x: 2.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -1942,6 +2128,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "760AB3C32B47092D"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			tasks: [{
@@ -1987,7 +2174,7 @@
 			}]
 			title: "{atm9.quest.draconic.WCapacitor}"
 			x: 4.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -1996,6 +2183,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2E77C63492DDAABE"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			tasks: [{
@@ -2025,7 +2213,7 @@
 			}]
 			title: "{atm9.quest.draconic.WChestplate}"
 			x: 13.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -2034,6 +2222,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "71CB585D324CD8BB"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			tasks: [{
@@ -2043,7 +2232,7 @@
 			}]
 			title: "{atm9.quest.draconic.DCore}"
 			x: 3.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -2052,6 +2241,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2BB4430C85BAF1FE"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			tasks: [{
@@ -2061,7 +2251,7 @@
 			}]
 			title: "{atm9.quest.draconic.CCore}"
 			x: 3.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -2070,6 +2260,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "676CA444E828631E"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			tasks: [{
@@ -2099,7 +2290,7 @@
 			}]
 			title: "{atm9.quest.draconic.DChestplate}"
 			x: 14.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -2108,6 +2299,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "063B16BF2ED952B0"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			tasks: [{
@@ -2137,7 +2329,7 @@
 			}]
 			title: "{atm9.quest.draconic.CChestplate}"
 			x: 14.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -2146,6 +2338,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "77F92CFA2217F16F"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			tasks: [{
@@ -2191,7 +2384,7 @@
 			}]
 			title: "{atm9.quest.draconic.CCapacitor}"
 			x: 4.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -2200,6 +2393,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "41DF0B8AD669EB13"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			tasks: [{
@@ -2245,7 +2439,7 @@
 			}]
 			title: "{atm9.quest.draconic.DCapacitor}"
 			x: 4.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1D3E2363CFD4C5E0"]
@@ -2254,6 +2448,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3213FB4F8DF45B42"
+				table_id: 8319312224449668135L
 				type: "random"
 			}]
 			shape: "diamond"
@@ -2264,7 +2459,7 @@
 			}]
 			title: "{atm9.quest.draconic.BCrystal}"
 			x: 4.5d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -2273,6 +2468,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4586E0C268BBFE01"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "diamond"
@@ -2283,7 +2479,7 @@
 			}]
 			title: "{atm9.quest.draconic.DCrystal}"
 			x: 2.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -2292,6 +2488,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0DC3F6778A331AF4"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "diamond"
@@ -2302,7 +2499,7 @@
 			}]
 			title: "{atm9.quest.draconic.WCrystal}"
 			x: 1.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0252B8F77A038D17"]
@@ -2310,6 +2507,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "79379DEBB9CB1DC8"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -2321,7 +2519,7 @@
 			}]
 			title: "{atm9.quest.draconic.DAFeM}"
 			x: 18.75d
-			y: 1.75d
+			y: 2.25d
 		}
 		{
 			dependencies: ["40F34EBE09DA7752"]
@@ -2329,6 +2527,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5CD43FE49565A25C"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -2340,7 +2539,7 @@
 			}]
 			title: "{atm9.quest.draconic.WAFeM}"
 			x: 18.0d
-			y: 1.75d
+			y: 2.25d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -2349,6 +2548,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3D22F77DD119FBA5"
+				table_id: 8319312224449668135L
 				type: "random"
 			}]
 			shape: "square"
@@ -2360,7 +2560,7 @@
 			}]
 			title: "{atm9.quest.draconic.BJuM}"
 			x: 17.25d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6B0CD6732BE0E819"]
@@ -2368,6 +2568,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1EC3DF861C5060E2"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -2379,7 +2580,7 @@
 			}]
 			title: "{atm9.quest.draconic.WJuM}"
 			x: 18.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["529123A789D790E3"]
@@ -2387,6 +2588,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7E41EF73BB548E61"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -2398,7 +2600,7 @@
 			}]
 			title: "{atm9.quest.draconic.DJuM}"
 			x: 18.75d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["79FC674836B6340E"]
@@ -2406,6 +2608,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0481395E6E3404C4"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -2417,7 +2620,7 @@
 			}]
 			title: "{atm9.quest.draconic.CJuM}"
 			x: 19.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7F757CD6F8C57733"]
@@ -2436,7 +2639,7 @@
 			}]
 			title: "{atm9.quest.draconic.stabilizer}"
 			x: 1.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1F7D147C9AF6A4FC"]
@@ -2457,7 +2660,7 @@
 			}]
 			title: "{atm9.quest.draconic.more_stabilizers}"
 			x: 1.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2D9AF97C03C5AEC7"]
@@ -2487,7 +2690,7 @@
 			}]
 			title: "{atm9.quest.draconic.more_pylons}"
 			x: 0.5d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["12BDE512C734D19A"]
@@ -2496,6 +2699,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "507859BC7C414057"
+				table_id: 8319312224449668135L
 				type: "random"
 			}]
 			shape: "gear"
@@ -2507,14 +2711,18 @@
 			}]
 			title: "{atm9.quest.draconic.binder}"
 			x: 6.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"6616A62426ED4D15"
 				"69986817D58AC8BE"
 			]
-			description: ["{atm9.quest.draconic.desc.RCore}"]
+			description: [
+				"{atm9.quest.draconic.desc.RCore}"
+				"{image:atm:textures/questpics/draconic/draconic_reactor_off_down.png width:200 height:100 align:1}"
+				"{image:atm:textures/questpics/draconic/draconic_reactor_off_up.png width:150 height:150 align:1}"
+			]
 			icon_scale: 2.0d
 			id: "5BC6CC3C09F512A7"
 			min_width: 300
@@ -2533,7 +2741,7 @@
 			}]
 			title: "{atm9.quest.draconic.RCore}"
 			x: 9.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -2556,7 +2764,7 @@
 			}]
 			title: "{atm9.quest.draconic.RStabilizer}"
 			x: 9.5d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -2578,7 +2786,7 @@
 			}]
 			title: "{atm9.quest.draconic.injector}"
 			x: 9.5d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5BC6CC3C09F512A7"]
@@ -2598,7 +2806,7 @@
 			}]
 			title: "{atm9.quest.draconic.fuel}"
 			x: 11.5d
-			y: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5BC6CC3C09F512A7"]
@@ -2616,14 +2824,18 @@
 			}]
 			title: "{atm9.quest.draconic.power}"
 			x: 11.5d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
 				"129E09C03E40BA57"
 				"6601ACCDDF6CA5FF"
 			]
-			description: ["{atm9.quest.draconic.desc.on}"]
+			description: [
+				"{atm9.quest.draconic.desc.on}"
+				"{image:atm:textures/questpics/draconic/draconic_reactor_on_down.png width:200 height:100 align:1}"
+				"{image:atm:textures/questpics/draconic/draconic_reactor_on_up.png width:150 height:150 align:1}"
+			]
 			id: "7D159D333B2AC57E"
 			rewards: [{
 				id: "2CC933DAF73F7D73"
@@ -2638,7 +2850,7 @@
 			}]
 			title: "{atm9.quest.draconic.on}"
 			x: 13.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -2647,6 +2859,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0B0CD51089B460A7"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -2658,7 +2871,7 @@
 			}]
 			title: "{atm9.quest.draconic.WFlM}"
 			x: 18.0d
-			y: 0.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -2667,6 +2880,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "003B079C83E81567"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -2678,7 +2892,7 @@
 			}]
 			title: "{atm9.quest.draconic.WPAcM}"
 			x: 18.0d
-			y: -8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -2687,6 +2901,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7789A9C74ACC2E2A"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -2698,7 +2913,7 @@
 			}]
 			title: "{atm9.quest.draconic.WPDaM}"
 			x: 18.0d
-			y: -10.25d
+			y: -9.75d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -2707,6 +2922,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "597C37DF492A2679"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -2718,7 +2934,7 @@
 			}]
 			title: "{atm9.quest.draconic.WPPeM}"
 			x: 18.0d
-			y: -8.75d
+			y: -8.25d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -2727,6 +2943,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1FC38A0F49D5C24E"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -2738,7 +2955,7 @@
 			}]
 			title: "{atm9.quest.draconic.WPVeM}"
 			x: 18.0d
-			y: -9.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -2747,6 +2964,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "178F59F4B878E2E7"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -2758,7 +2976,7 @@
 			}]
 			title: "{atm9.quest.draconic.WTrH}"
 			x: 18.0d
-			y: -4.25d
+			y: -3.75d
 		}
 		{
 			dependencies: ["5E8D527DE9D7DD46"]
@@ -2767,6 +2985,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "098CB8A67E47A53B"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -2778,7 +2997,7 @@
 			}]
 			title: "{atm9.quest.draconic.DFlM}"
 			x: 18.75d
-			y: 0.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["1830412AB77E9526"]
@@ -2786,6 +3005,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "54E0B6A9050D7A60"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -2797,7 +3017,7 @@
 			}]
 			title: "{atm9.quest.draconic.DPAcM}"
 			x: 18.75d
-			y: -8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["7D7E4C31DFE59E29"]
@@ -2805,6 +3025,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "32F7414782748A64"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -2816,7 +3037,7 @@
 			}]
 			title: "{atm9.quest.draconic.DPDaM}"
 			x: 18.75d
-			y: -10.25d
+			y: -9.75d
 		}
 		{
 			dependencies: ["78FBB0C88182040E"]
@@ -2824,6 +3045,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "72A360B0CA04CDDA"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -2835,7 +3057,7 @@
 			}]
 			title: "{atm9.quest.draconic.DPPeM}"
 			x: 18.75d
-			y: -8.75d
+			y: -8.25d
 		}
 		{
 			dependencies: ["61419D230687CBB5"]
@@ -2843,6 +3065,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2ECF4A9BD8F36C07"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -2854,7 +3077,7 @@
 			}]
 			title: "{atm9.quest.draconic.DPVeM}"
 			x: 18.75d
-			y: -9.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["607337D8AA20FA18"]
@@ -2862,6 +3085,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "67D726BECA1955E3"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -2873,7 +3097,7 @@
 			}]
 			title: "{atm9.quest.draconic.DTrH}"
 			x: 18.75d
-			y: -4.25d
+			y: -3.75d
 		}
 		{
 			dependencies: ["3FD19A001899D8C6"]
@@ -2881,6 +3105,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "284F087C3382A6AF"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -2892,7 +3117,7 @@
 			}]
 			title: "{atm9.quest.draconic.CFlM}"
 			x: 19.5d
-			y: 0.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["38AD547C36BDF4C4"]
@@ -2900,6 +3125,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "23CBDEAE42B4DDC6"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -2911,7 +3137,7 @@
 			}]
 			title: "{atm9.quest.draconic.CPAcM}"
 			x: 19.5d
-			y: -8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0499A372F55D04C8"]
@@ -2919,6 +3145,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "560394B2D8706345"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -2930,7 +3157,7 @@
 			}]
 			title: "{atm9.quest.draconic.CPVeM}"
 			x: 19.5d
-			y: -9.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["4903BDC389C73082"]
@@ -2938,6 +3165,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0FABAC1744F97143"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -2949,7 +3177,7 @@
 			}]
 			title: "{atm9.quest.draconic.CPDaM}"
 			x: 19.5d
-			y: -10.25d
+			y: -9.75d
 		}
 		{
 			dependencies: ["070F8045CC14B50D"]
@@ -2957,6 +3185,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "228BA2D039C606C8"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -2968,7 +3197,7 @@
 			}]
 			title: "{atm9.quest.draconic.CPPeM}"
 			x: 19.5d
-			y: -8.75d
+			y: -8.25d
 		}
 		{
 			dependencies: ["3DF794EBCAA7AE1A"]
@@ -2976,6 +3205,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "40C862693B920C84"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -2987,7 +3217,7 @@
 			}]
 			title: "{atm9.quest.draconic.CTrH}"
 			x: 19.5d
-			y: -4.25d
+			y: -3.75d
 		}
 		{
 			dependencies: ["7A4ABFCD12202A91"]
@@ -3006,7 +3236,7 @@
 			}]
 			title: "{atm9.quest.draconic.transfuser}"
 			x: 7.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7A4ABFCD12202A91"]
@@ -3044,7 +3274,7 @@
 			}]
 			title: "{atm9.quest.draconic.IO}"
 			x: 5.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -3053,6 +3283,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "510C577B7A82333D"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			tasks: [{
@@ -3082,7 +3313,7 @@
 			}]
 			title: "{atm9.quest.draconic.WHoe}"
 			x: 12.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -3091,6 +3322,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "705181BDA592FBF9"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			tasks: [{
@@ -3125,7 +3357,7 @@
 			}]
 			title: "{atm9.quest.draconic.WAxe}"
 			x: 10.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -3134,6 +3366,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "25901FCB86B61111"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			tasks: [{
@@ -3168,7 +3401,7 @@
 			}]
 			title: "{atm9.quest.draconic.DAxe}"
 			x: 10.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -3177,6 +3410,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6A343FA37FD4C127"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			tasks: [{
@@ -3206,7 +3440,7 @@
 			}]
 			title: "{atm9.quest.draconic.DHoe}"
 			x: 12.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -3215,6 +3449,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "20CCF663FFB8B1D2"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			tasks: [{
@@ -3249,7 +3484,7 @@
 			}]
 			title: "{atm9.quest.draconic.CAxe}"
 			x: 10.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -3258,6 +3493,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3200568E991D54ED"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			tasks: [{
@@ -3287,7 +3523,7 @@
 			}]
 			title: "{atm9.quest.draconic.CHoe}"
 			x: 12.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -3296,6 +3532,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2C570D8951F25581"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -3307,7 +3544,7 @@
 			}]
 			title: "{atm9.quest.draconic.WEnL}"
 			x: 18.0d
-			y: -11.75d
+			y: -11.25d
 		}
 		{
 			dependencies: ["20D8DA523E900A52"]
@@ -3316,6 +3553,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "701701C03EDFC5BE"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -3327,7 +3565,7 @@
 			}]
 			title: "{atm9.quest.draconic.QEnT}"
 			x: 18.75d
-			y: -11.75d
+			y: -11.25d
 		}
 		{
 			dependencies: ["4B9FF9E972B0E530"]
@@ -3335,6 +3573,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "341BFB320FE17E57"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -3346,7 +3585,7 @@
 			}]
 			title: "{atm9.quest.draconic.CEQEnT}"
 			x: 19.5d
-			y: -11.75d
+			y: -11.25d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -3355,6 +3594,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "637FC27A8552410D"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -3366,7 +3606,7 @@
 			}]
 			title: "{atm9.quest.draconic.WPGrCM}"
 			x: 18.0d
-			y: -7.25d
+			y: -6.75d
 		}
 		{
 			dependencies: ["376D154F27A00BCD"]
@@ -3374,6 +3614,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "494957D3FE4F7318"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -3385,7 +3626,7 @@
 			}]
 			title: "{atm9.quest.draconic.DPGrCM}"
 			x: 18.75d
-			y: -7.25d
+			y: -6.75d
 		}
 		{
 			dependencies: ["265D0DB0E8CED73B"]
@@ -3393,6 +3634,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "021B5047554D81B0"
+				table_id: 1711091222353074689L
 				type: "random"
 			}]
 			shape: "square"
@@ -3404,7 +3646,7 @@
 			}]
 			title: "{atm9.quest.draconic.CPGrCM}"
 			x: 19.5d
-			y: -7.25d
+			y: -6.75d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -3413,6 +3655,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0CDF154E0CA633EA"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -3424,7 +3667,7 @@
 			}]
 			title: "{atm9.quest.draconic.PICaM}"
 			x: 21.0d
-			y: -9.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -3433,6 +3676,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7CAE8975EFD8FBA3"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -3444,7 +3688,7 @@
 			}]
 			title: "{atm9.quest.draconic.AFiM}"
 			x: 21.0d
-			y: -8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -3453,6 +3697,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1A925BB3A71AC024"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -3464,7 +3709,7 @@
 			}]
 			title: "{atm9.quest.draconic.ECoM}"
 			x: 18.0d
-			y: -5.75d
+			y: -5.25d
 		}
 		{
 			dependencies: ["731A70C25C2C7281"]
@@ -3473,6 +3718,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0DC5355FBB92DB50"
+				table_id: 7145388980997284804L
 				type: "random"
 			}]
 			shape: "square"
@@ -3484,7 +3730,7 @@
 			}]
 			title: "{atm9.quest.draconic.FECoM}"
 			x: 18.75d
-			y: -5.75d
+			y: -5.25d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -3493,6 +3739,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7D8EC629BA6F70CC"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -3504,7 +3751,7 @@
 			}]
 			title: "{atm9.quest.draconic.SInM}"
 			x: 21.0d
-			y: -5.75d
+			y: -5.25d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -3513,6 +3760,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "01AD0176C25009E1"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -3524,7 +3772,7 @@
 			}]
 			title: "{atm9.quest.draconic.MSM}"
 			x: 21.0d
-			y: 0.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -3533,6 +3781,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1B72EE99A62E3862"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -3544,7 +3793,7 @@
 			}]
 			title: "{atm9.quest.draconic.HSM}"
 			x: 21.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -3553,6 +3802,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "014FBFC2864E0441"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -3564,7 +3814,7 @@
 			}]
 			title: "{atm9.quest.draconic.AAM}"
 			x: 21.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -3573,6 +3823,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "58052130D410273C"
+				table_id: 5036812014823277174L
 				type: "random"
 			}]
 			shape: "square"
@@ -3584,7 +3835,7 @@
 			}]
 			title: "{atm9.quest.draconic.NVM}"
 			x: 21.0d
-			y: -1.25d
+			y: -0.75d
 		}
 		{
 			can_repeat: false
