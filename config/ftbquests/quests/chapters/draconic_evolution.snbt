@@ -19,16 +19,16 @@
 			image: "atm:textures/questpics/draconic/draconic_core_1on.png"
 			rotation: 0.0d
 			width: 2.0089285714285716d
-			x: -2.0d
-			y: -1.5d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			height: 5.0d
 			image: "atm:textures/questpics/draconic/draconic_core_8on.png"
 			rotation: 0.0d
 			width: 5.038167938931297d
-			x: -2.0d
-			y: 2.5d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
 			height: 2.0d
@@ -36,7 +36,7 @@
 			rotation: 0.0d
 			width: 4.1257142857142854d
 			x: 6.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			height: 5.0d
@@ -44,15 +44,15 @@
 			rotation: 0.0d
 			width: 11.26126126126126d
 			x: 13.0d
-			y: 4.5d
+			y: 8.0d
 		}
 		{
 			height: 3.0d
 			image: "atm:textures/questpics/draconic/draconic_fusion.png"
 			rotation: 0.0d
 			width: 9.072463768115941d
-			x: 11.0d
-			y: -9.5d
+			x: 11.5d
+			y: -7.5d
 		}
 	]
 	order_index: 4
@@ -644,7 +644,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.shard}"
-			x: -0.5d
+			x: 0.5d
 			y: -6.0d
 		}
 		{
@@ -666,7 +666,7 @@
 				type: "dimension"
 			}]
 			title: "{atm9.quest.draconic.end}"
-			x: -0.5d
+			x: 0.5d
 			y: -12.0d
 		}
 		{
@@ -691,13 +691,12 @@
 			}]
 			shape: "square"
 			tasks: [{
-				entity: "draconicevolution:guardian_crystal"
-				id: "1F5C8CEC7E04F9CE"
-				type: "kill"
-				value: 14L
+				id: "74564F99150BB68E"
+				item: "draconicevolution:infused_obsidian"
+				type: "item"
 			}]
 			title: "{atm9.quest.draconic.destroy}"
-			x: -0.5d
+			x: 0.5d
 			y: -10.0d
 		}
 		{
@@ -727,7 +726,7 @@
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.draconic.prep}"
-			x: 1.0d
+			x: 2.0d
 			y: -12.0d
 		}
 		{
@@ -779,7 +778,7 @@
 				value: 1L
 			}]
 			title: "{atm9.quest.draconic.guardian}"
-			x: -0.5d
+			x: 0.5d
 			y: -8.0d
 		}
 		{
@@ -798,8 +797,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.core}"
-			x: 2.0d
-			y: 0.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -823,8 +822,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.1}"
-			x: 2.0d
-			y: -1.0d
+			x: 0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["389655CD41C7A691"]
@@ -858,8 +857,8 @@
 				}
 			]
 			title: "{atm9.quest.draconic.2}"
-			x: 2.0d
-			y: -2.0d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["35767977FB9E0B1B"]
@@ -901,8 +900,8 @@
 				}
 			]
 			title: "{atm9.quest.draconic.3}"
-			x: 3.0d
-			y: -1.0d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["713D3B3954E58C4A"]
@@ -950,8 +949,8 @@
 				}
 			]
 			title: "{atm9.quest.draconic.4}"
-			x: 4.0d
-			y: 0.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0817FD6E45C127E8"]
@@ -999,8 +998,8 @@
 				}
 			]
 			title: "{atm9.quest.draconic.5}"
-			x: 2.0d
-			y: 1.0d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["131AA933D59D3017"]
@@ -1048,8 +1047,8 @@
 				}
 			]
 			title: "{atm9.quest.draconic.6}"
-			x: 1.0d
-			y: 1.0d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B4CEE8A8CE0D6CB"]
@@ -1106,8 +1105,8 @@
 				}
 			]
 			title: "{atm9.quest.draconic.8}"
-			x: 1.0d
-			y: -1.0d
+			x: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7F757CD6F8C57733"]
@@ -1126,8 +1125,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.pylon}"
-			x: 1.0d
-			y: 0.0d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2DB2A4A1182FE0BB"]
@@ -1175,8 +1174,8 @@
 				}
 			]
 			title: "{atm9.quest.draconic.7}"
-			x: 0.0d
-			y: 0.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -1220,7 +1219,7 @@
 			}]
 			title: "{atm9.quest.draconic.WPick}"
 			x: 9.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -1264,7 +1263,7 @@
 			}]
 			title: "{atm9.quest.draconic.DPick}"
 			x: 9.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -1308,7 +1307,7 @@
 			}]
 			title: "{atm9.quest.draconic.CPick}"
 			x: 9.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -1347,7 +1346,7 @@
 			}]
 			title: "{atm9.quest.draconic.WSword}"
 			x: 8.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -1386,7 +1385,7 @@
 			}]
 			title: "{atm9.quest.draconic.DSword}"
 			x: 8.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -1425,7 +1424,7 @@
 			}]
 			title: "{atm9.quest.draconic.CSword}"
 			x: 8.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -1469,7 +1468,7 @@
 			}]
 			title: "{atm9.quest.draconic.WShovel}"
 			x: 11.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -1513,7 +1512,7 @@
 			}]
 			title: "{atm9.quest.draconic.DShovel}"
 			x: 11.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -1557,7 +1556,7 @@
 			}]
 			title: "{atm9.quest.draconic.CShovel}"
 			x: 11.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1606,7 +1605,7 @@
 			}]
 			title: "{atm9.quest.draconic.DStaff}"
 			x: 13.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -1655,7 +1654,7 @@
 			}]
 			title: "{atm9.quest.draconic.CStaff}"
 			x: 13.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			description: ["{atm9.quest.draconic.desc.module}"]
@@ -1718,7 +1717,7 @@
 			}]
 			title: "{atm9.quest.draconic.WBow}"
 			x: 7.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -1757,7 +1756,7 @@
 			}]
 			title: "{atm9.quest.draconic.DBow}"
 			x: 7.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -1796,7 +1795,7 @@
 			}]
 			title: "{atm9.quest.draconic.CBow}"
 			x: 7.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -1941,16 +1940,17 @@
 			}
 			id: "26DF1427AC3966DE"
 			rewards: [{
-				count: 20
-				id: "0A300FD90D57B675"
-				item: "draconicevolution:draconium_dust"
+				count: 12
+				id: "2E37C878B24D6913"
+				item: "draconicevolution:draconium_ingot"
 				type: "item"
 			}]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
-				id: "72C228FE049927EC"
-				item: "draconicevolution:draconium_dust"
+				count: 6L
+				id: "76BCC3C288514737"
+				item: { Count: 6, id: "draconicevolution:draconium_dust" }
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.endstone}"
@@ -1974,7 +1974,7 @@
 			}]
 			title: "{atm9.quest.draconic.BCore}"
 			x: 6.0d
-			y: -10.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["12BDE512C734D19A"]
@@ -1995,7 +1995,7 @@
 			}]
 			title: "{atm9.quest.draconic.fusion}"
 			x: 6.0d
-			y: -9.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4B7840F1A8CF1378"]
@@ -2016,7 +2016,7 @@
 			}]
 			title: "{atm9.quest.draconic.basic}"
 			x: 6.0d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1D3E2363CFD4C5E0"]
@@ -2037,7 +2037,7 @@
 			}]
 			title: "{atm9.quest.draconic.wyvern}"
 			x: 6.0d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -2058,7 +2058,7 @@
 			}]
 			title: "{atm9.quest.draconic.draconic}"
 			x: 6.0d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -2079,7 +2079,7 @@
 			}]
 			title: "{atm9.quest.draconic.chaotic}"
 			x: 6.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1D3E2363CFD4C5E0"]
@@ -2099,7 +2099,7 @@
 			}]
 			title: "{atm9.quest.draconic.DChest}"
 			x: 7.5d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -2118,7 +2118,7 @@
 			}]
 			title: "{atm9.quest.draconic.awake}"
 			x: 2.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -2173,7 +2173,7 @@
 			}]
 			title: "{atm9.quest.draconic.WCapacitor}"
 			x: 4.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -2212,7 +2212,7 @@
 			}]
 			title: "{atm9.quest.draconic.WChestplate}"
 			x: 13.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -2231,7 +2231,7 @@
 			}]
 			title: "{atm9.quest.draconic.DCore}"
 			x: 3.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -2250,7 +2250,7 @@
 			}]
 			title: "{atm9.quest.draconic.CCore}"
 			x: 3.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -2289,7 +2289,7 @@
 			}]
 			title: "{atm9.quest.draconic.DChestplate}"
 			x: 14.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -2328,7 +2328,7 @@
 			}]
 			title: "{atm9.quest.draconic.CChestplate}"
 			x: 14.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -2383,7 +2383,7 @@
 			}]
 			title: "{atm9.quest.draconic.CCapacitor}"
 			x: 4.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -2438,7 +2438,7 @@
 			}]
 			title: "{atm9.quest.draconic.DCapacitor}"
 			x: 4.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1D3E2363CFD4C5E0"]
@@ -2458,7 +2458,7 @@
 			}]
 			title: "{atm9.quest.draconic.BCrystal}"
 			x: 4.5d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -2478,7 +2478,7 @@
 			}]
 			title: "{atm9.quest.draconic.DCrystal}"
 			x: 2.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -2498,7 +2498,7 @@
 			}]
 			title: "{atm9.quest.draconic.WCrystal}"
 			x: 1.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0252B8F77A038D17"]
@@ -2637,8 +2637,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.stabilizer}"
-			x: 3.0d
-			y: 0.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1F7D147C9AF6A4FC"]
@@ -2658,8 +2658,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.more_stabilizers}"
-			x: 3.0d
-			y: 1.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2D9AF97C03C5AEC7"]
@@ -2688,8 +2688,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.more_pylons}"
-			x: 2.0d
-			y: 2.0d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["12BDE512C734D19A"]
@@ -2710,7 +2710,7 @@
 			}]
 			title: "{atm9.quest.draconic.binder}"
 			x: 6.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -2739,8 +2739,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.RCore}"
-			x: 8.5d
-			y: 0.0d
+			x: 9.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -2762,8 +2762,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.RStabilizer}"
-			x: 8.5d
-			y: -1.5d
+			x: 9.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -2784,8 +2784,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.injector}"
-			x: 8.5d
-			y: 1.5d
+			x: 9.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5BC6CC3C09F512A7"]
@@ -2804,8 +2804,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.fuel}"
-			x: 10.5d
-			y: -0.5d
+			x: 11.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5BC6CC3C09F512A7"]
@@ -2822,8 +2822,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.draconic.power}"
-			x: 10.5d
-			y: 0.5d
+			x: 11.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -2848,8 +2848,8 @@
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.draconic.on}"
-			x: 12.5d
-			y: 0.0d
+			x: 13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -3235,7 +3235,7 @@
 			}]
 			title: "{atm9.quest.draconic.transfuser}"
 			x: 7.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7A4ABFCD12202A91"]
@@ -3273,7 +3273,7 @@
 			}]
 			title: "{atm9.quest.draconic.IO}"
 			x: 5.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -3312,7 +3312,7 @@
 			}]
 			title: "{atm9.quest.draconic.WHoe}"
 			x: 12.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["51CF09EC333DB1A3"]
@@ -3356,7 +3356,7 @@
 			}]
 			title: "{atm9.quest.draconic.WAxe}"
 			x: 10.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -3400,7 +3400,7 @@
 			}]
 			title: "{atm9.quest.draconic.DAxe}"
 			x: 10.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5ADFC45B03BAB852"]
@@ -3439,7 +3439,7 @@
 			}]
 			title: "{atm9.quest.draconic.DHoe}"
 			x: 12.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -3483,7 +3483,7 @@
 			}]
 			title: "{atm9.quest.draconic.CAxe}"
 			x: 10.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["763EB5C911D7E78C"]
@@ -3522,7 +3522,7 @@
 			}]
 			title: "{atm9.quest.draconic.CHoe}"
 			x: 12.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4EFFE300EC781C3E"]
@@ -3877,5 +3877,5 @@
 			y: -12.5d
 		}
 	]
-	title: "Draconic Evolution"
+	title: "{atm9.chapters.56.title}"
 }

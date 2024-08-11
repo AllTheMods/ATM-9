@@ -1553,6 +1553,7 @@
 			tasks: [{
 				id: "0BCFC6422BBF539C"
 				item: "ars_nouveau:apprentice_spell_book"
+				match_nbt: false
 				type: "item"
 			}]
 			x: -4.0d

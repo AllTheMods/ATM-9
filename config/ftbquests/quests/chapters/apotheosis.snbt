@@ -18,6 +18,14 @@
 		}
 		{
 			height: 2.0d
+			image: "atm:textures/questpics/apotheosis/apotheosis.png"
+			rotation: 0.0d
+			width: 7.324503311258278d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
 			image: "atm:textures/questpics/apotheosis/enchant_nether.png"
 			rotation: 0.0d
 			width: 4.607843137254902d
@@ -119,14 +127,6 @@
 			width: 1.1042944785276072d
 			x: 12.0d
 			y: 8.5d
-		}
-		{
-			height: 3.0d
-			image: "atm:textures/questpics/apotheosis/apotheosis_enchanting.png"
-			rotation: 0.0d
-			width: 10.986754966887418d
-			x: 7.0d
-			y: -0.5d
 		}
 	]
 	order_index: 0
@@ -568,6 +568,15 @@
 					count: 2
 					id: "55441430DA2F0963"
 					item: "apotheosis:deepshelf"
+					type: "item"
+				}
+				{
+					id: "6E2C2C8D98E2A77C"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
 					type: "item"
 				}
 				{

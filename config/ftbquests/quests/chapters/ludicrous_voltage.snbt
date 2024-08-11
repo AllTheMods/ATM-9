@@ -621,8 +621,8 @@
 			}]
 			subtitle: "{atm9.quest.gregtech.subt.longRodsNice.1}"
 			tasks: [{
-				id: "7CA06E00F92D5C02"
-				item: "gtceu:long_magnetic_samarium_rod"
+				id: "0B0170514E9B5F3E"
+				item: "gtceu:magnetic_samarium_rod"
 				type: "item"
 			}]
 			x: 6.0d
@@ -959,14 +959,6 @@
 					item: "gtceu:stress_proof_casing"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "29711CF4D4E5241C"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_wiremill"
-					type: "observation"
-				}
 			]
 			x: -5.0d
 			y: 6.5d
@@ -1002,14 +994,6 @@
 					id: "53C4089B3E376127"
 					item: "gtceu:watertight_casing"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "578BB941AE6A7856"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_solidifier"
-					type: "observation"
 				}
 			]
 			x: -5.5d
@@ -1053,14 +1037,6 @@
 					item: "gtceu:tempered_glass"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "65FE174D4A5F484C"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_extruder"
-					type: "observation"
-				}
 			]
 			x: -5.299999999999997d
 			y: 7.300000000000001d
@@ -1096,15 +1072,6 @@
 					id: "5188A9E51A5DEFED"
 					item: "gtceu:watertight_casing"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "0AD65BDFBE16460E"
-					observe_type: 2
-					timer: 0L
-					title: "{atm9.quest.gregtech.observeLEM}"
-					to_observe: "gtceu:large_extractor"
-					type: "observation"
 				}
 			]
 			x: -6.0d
@@ -1144,14 +1111,6 @@
 					id: "1C53CCB60AC84139"
 					item: "gtceu:watertight_casing"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "3787DE68318D9E46"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_distillery"
-					type: "observation"
 				}
 			]
 			x: -5.5d
@@ -1293,14 +1252,6 @@
 					item: "gtceu:tempered_glass"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "2AD013A4D8AC87D9"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_material_press"
-					type: "observation"
-				}
 			]
 			x: -4.5d
 			y: 7.0d
@@ -1336,14 +1287,6 @@
 					id: "0E451120C9F40C21"
 					item: "gtceu:watertight_casing"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "553C54B8B3A652D0"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_autoclave"
-					type: "observation"
 				}
 			]
 			x: -6.0d
@@ -1830,15 +1773,6 @@
 					id: "4CABA61128AD6C68"
 					item: "gtceu:watertight_casing"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "04CFF2F4E5B3813B"
-					observe_type: 0
-					timer: 0L
-					title: "{atm9.quest.gregtech.title.completedLCB}"
-					to_observe: "gtceu:large_chemical_bath"
-					type: "observation"
 				}
 			]
 			x: -5.5d

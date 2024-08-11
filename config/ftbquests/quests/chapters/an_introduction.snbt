@@ -2004,7 +2004,7 @@
 			icon: "gtceu:cinnabar_ore"
 			id: "4BACAC18E4B982DA"
 			tasks: [{
-				id: "56F3B3D1E09A31E9"
+				id: "5315A5F05ADBD651"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -2012,24 +2012,24 @@
 						items: [
 							{
 								Count: 1b
-								id: "gtceu:cinnabar_ore"
-							}
-							{
-								Count: 1b
 								id: "gtceu:cinnabar_gem"
 							}
 							{
 								Count: 1b
-								id: "gtceu:ruby_ore"
+								id: "alltheores:ruby"
 							}
 							{
 								Count: 1b
-								id: "gtceu:ruby_gem"
+								id: "gtceu:cinnabar_ore"
+							}
+							{
+								Count: 1b
+								id: "alltheores:ruby_ore"
 							}
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.validOres}"
+				title: "Valid Ores"
 				type: "item"
 			}]
 			title: "{atm9.quest.gregtech.cinnabarVein}"
@@ -2048,7 +2048,7 @@
 			}]
 			subtitle: "{atm9.quest.gregtech.subt.sapphireSource}"
 			tasks: [{
-				id: "3D55C5B20C7CFDA9"
+				id: "58E53FAAE8FBF470"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -2056,15 +2056,11 @@
 						items: [
 							{
 								Count: 1b
-								id: "gtceu:almandine_ore"
+								id: "alltheores:sapphire"
 							}
 							{
 								Count: 1b
-								id: "gtceu:almandine_gem"
-							}
-							{
-								Count: 1b
-								id: "gtceu:pyrope_ore"
+								id: "gtceu:green_sapphire_gem"
 							}
 							{
 								Count: 1b
@@ -2072,11 +2068,11 @@
 							}
 							{
 								Count: 1b
-								id: "gtceu:sapphire_ore"
+								id: "gtceu:almandine_gem"
 							}
 							{
 								Count: 1b
-								id: "gtceu:sapphire_gem"
+								id: "alltheores:sapphire_ore"
 							}
 							{
 								Count: 1b
@@ -2084,12 +2080,16 @@
 							}
 							{
 								Count: 1b
-								id: "gtceu:green_sapphire_gem"
+								id: "gtceu:pyrope_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:almandine_ore"
 							}
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.validOres}"
+				title: "Valid Ores"
 				type: "item"
 			}]
 			title: "{atm9.quest.gregtech.almandineVein}"
