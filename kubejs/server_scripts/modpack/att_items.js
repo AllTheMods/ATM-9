@@ -83,7 +83,7 @@ ServerEvents.recipes(allthemods => {
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'thermal_extra:rf_coil_xfer_augment_5', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'occultism:stable_wormhole', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'mythicbotany:mjoellnir', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'apotheosis:vial_of_expulsion', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'apotheosis:sigil_of_withdrawal', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'evilcraft:lightning_bomb', 'count': 1 }
     ],
     pressure: 4.9,

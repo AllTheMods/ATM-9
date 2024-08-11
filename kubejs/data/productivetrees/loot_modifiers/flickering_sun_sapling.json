@@ -1,0 +1,11 @@
+{
+    "type": "productivelib:item_modifier",
+    "addition": "productivetrees:flickering_sun_sapling",
+    "chance": 0.05,
+    "conditions": [
+      {
+        "condition": "forge:loot_table_id",
+        "loot_table_id": "betterdeserttemples:chests/storage"
+      }
+    ]
+  }

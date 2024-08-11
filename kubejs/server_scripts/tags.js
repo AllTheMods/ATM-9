@@ -74,6 +74,7 @@ ServerEvents.tags('item', allthemods => {
   allthemods.add('forge:dusts/salt', 'croptopia:salt')
   allthemods.add('supplementaries:hourglass_dusts', 'croptopia:salt')
   allthemods.add('minecolonies:reduceable_ingredient', 'croptopia:salt')
+  allthemods.add('forge:salad_ingredients/cabbage', 'croptopia:cabbage')
   // - mek
   allthemods.add('forge:storage_blocks', 'mekanism:block_salt')
 	allthemods.add('minecolonies:storage_blocks', 'mekanism:block_salt')
@@ -124,6 +125,7 @@ ServerEvents.tags('block', allthemods => {
     'allthemodium:unobtainium_vibranium_alloy_block',
     'allthetweaks:atm_star_block'
   ])
+  allthemods.add('forge:ores',['irons_spellbooks:arcane_debris', /ad_astra:\w+?_ore/])
 
   allthemods.add('entangled:invalid_targets', ['@megacells','@expatternprovider','@cabletiers','@ae2','@refinedstorage'])
 
@@ -137,6 +139,7 @@ ServerEvents.tags('fluid', allthemods => {
     'createaddition:flowing_seed_oil','createaddition:seed_oil',
     'createaddition:bioethanol','createaddition:flowing_bioethanol'])
   allthemods.add('forge:oil', '#forge:crude_oil')
+  allthemods.add('forge:nutritional_paste', 'mekanism:nutritional_paste')
 })
 
 ServerEvents.tags('entity_type', allthemods => {

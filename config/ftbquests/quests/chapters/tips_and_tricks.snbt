@@ -3,6 +3,13 @@
 	default_quest_shape: "diamond"
 	filename: "tips_and_tricks"
 	group: ""
+	icon: {
+		Count: 1
+		id: "constructionwand:infinity_wand"
+		tag: {
+			wand_options: { }
+		}
+	}
 	id: "1BE666F01EFFC00D"
 	images: [{
 		height: 3.0d
