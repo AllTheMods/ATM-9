@@ -26,15 +26,6 @@
 		{
 			item: {
 				Count: 1
-				id: "modonomicon:modonomicon"
-				tag: {
-					"modonomicon:book_id": "modonomicon:demo"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
 				id: "patchouli:guide_book"
 				tag: {
 					"patchouli:book": "bigreactors:erguide"

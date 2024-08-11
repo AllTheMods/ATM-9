@@ -72,6 +72,7 @@
 	"atm9.quest.welcome.quests": "Quests",
 	"atm9.quest.welcome.claims": "Claiming Chunks",
 	"atm9.quest.welcome.translations": "All The Translations",
+	"atm9.quest.welcome.books": "All The Guides",
 	
 	"atm9.quest.welcome.desc.team": "If you want to create a team for you and your friends, use the command &a/ftbteams party create (name of team)&r to create the team!",
 	"atm9.quest.welcome.desc.commands": "There are plenty of helpful commands within ATM. Here are a few: \\n \\n &e/sethome&r (name of home) | Let's you set a home that you can teleport back to using /home (name). Example: /sethome farm - then teleport with /home farm \\n \\n &e/spawn&r | This will teleport you to the spawn of your overworld. \\n \\n &e/rtp&r | 'Random Teleport' will teleport you to a random location in the world. \\n \\n Note: These commands have cooldowns and limits. If you'd like to change them, you can edit the config file which can be found here: \\n \\n - For Singleplayer | &osaves/(name of save)/serverconfig/ftbessentials.snbt&r \\n \\n - For Servers | &oworld/serverconfig/ftbessentials.snbt&r",
@@ -85,6 +86,7 @@
 	"atm9.quest.welcome.desc.claims2": "To claim a chunk, left click and drag to claim.",
 	"atm9.quest.welcome.desc.claims3": "To force load a chunk, shift-left click the chunk. If done properly, you'll see lines across the chunk.",
 	"atm9.quest.welcome.desc.translations":"Our Quests have been translated by the following volunteer translators.",
+	"atm9.quest.welcome.desc.books": "There's two types of Guides: Guides outside of the game, like Wikis, and Ingame Guides, ususally made with Books. In order to make getting the Ingame Guides easier I put all I could find into the Rewards! Feel free to take whichever and how many you need! ATM Modpacks also have their own Guide page on Github, take the link to open it. ",
 
 	"atm9.quest.welcome.img.discord": "Join the Discord!",
 	
