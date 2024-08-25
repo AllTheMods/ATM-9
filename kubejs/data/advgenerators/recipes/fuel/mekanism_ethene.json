@@ -1,0 +1,13 @@
+{
+    "type": "advgenerators:liquid_fuel",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "mekanism"
+      }
+    ],
+    "fuel": {
+      "fluid": "mekanism:ethene"
+    },
+    "fePerMb": 1840
+  }

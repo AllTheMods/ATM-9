@@ -1,0 +1,171 @@
+{
+  // A list of armor stand rotations for armor stands with arms.
+  // You can cycle through these with a piece of flint.
+  "armorStandPoses": [
+    {
+      "head": [ 0.0, 0.0, 0.0 ],
+      "body": [ 0.0, 0.0, 0.0 ],
+      "left_arm": [ -10.0, 0.0, -10.0 ],
+      "right_arm": [ -15.0, 0.0, 10.0 ],
+      "left_leg": [ -1.0, 0.0, -1.0 ],
+      "right_leg": [ 1.0, 0.0, 1.0 ]
+    },
+    {
+      "head": [ 3.0, 0.0, 0.0 ],
+      "body": [ 0.0, 0.0, 0.0 ],
+      "left_arm": [ -10.0, 0.0, -10.0 ],
+      "right_arm": [ -15.0, 0.0, 10.0 ],
+      "left_leg": [ 25.0, 0.0, -1.0 ],
+      "right_leg": [ -25.0, 0.0, 1.0 ]
+    },
+    {
+      "head": [ 0.0, 0.0, 0.0 ],
+      "body": [ 0.0, 0.0, 0.0 ],
+      "left_arm": [ -20.0, 0.0, -10.0 ],
+      "right_arm": [ -85.0, 0.0, 0.0 ],
+      "left_leg": [ -1.0, 0.0, -1.0 ],
+      "right_leg": [ 1.0, 0.0, 1.0 ]
+    },
+    {
+      "head": [ 0.0, 0.0, 0.0 ],
+      "body": [ 0.0, 0.0, 0.0 ],
+      "left_arm": [ -50.0, 0.0, 60.0 ],
+      "right_arm": [ -60.0, -40.0, 0.0 ],
+      "left_leg": [ -1.0, 0.0, -1.0 ],
+      "right_leg": [ 1.0, 0.0, 1.0 ]
+    },
+    {
+      "head": [ 0.0, 0.0, 0.0 ],
+      "body": [ 0.0, 0.0, 0.0 ],
+      "left_arm": [ -10.0, 0.0, -110.0 ],
+      "right_arm": [ -15.0, 0.0, 110.0 ],
+      "left_leg": [ -1.0, 0.0, -15.0 ],
+      "right_leg": [ 1.0, 0.0, 15.0 ]
+    },
+    {
+      "head": [ 70.0, 0.0, 0.0 ],
+      "body": [ 1.0, 0.0, 0.0 ],
+      "left_arm": [ -10.0, 0.0, 5.0 ],
+      "right_arm": [ -15.0, 0.0, -5.0 ],
+      "left_leg": [ 3.0, 0.0, -1.0 ],
+      "right_leg": [ 3.0, 0.0, 1.0 ]
+    },
+    {
+      "head": [ 0.0, -35.0, -5.0 ],
+      "body": [ 0.0, 0.0, 0.0 ],
+      "left_arm": [ -10.0, 0.0, -10.0 ],
+      "right_arm": [ -15.0, 0.0, 10.0 ],
+      "left_leg": [ -1.0, 0.0, -1.0 ],
+      "right_leg": [ 1.0, 0.0, 1.0 ]
+    },
+    {
+      "head": [ 0.0, 35.0, 5.0 ],
+      "body": [ 0.0, 0.0, 0.0 ],
+      "left_arm": [ -10.0, 0.0, -10.0 ],
+      "right_arm": [ -15.0, 0.0, 10.0 ],
+      "left_leg": [ -1.0, 0.0, -1.0 ],
+      "right_leg": [ 1.0, 0.0, 1.0 ]
+    },
+    {
+      "head": [ 0.0, 0.0, 0.0 ],
+      "body": [ 0.0, 0.0, 0.0 ],
+      "left_arm": [ -10.0, 0.0, -10.0 ],
+      "right_arm": [ -40.0, 0.0, 55.0 ],
+      "left_leg": [ -1.0, 0.0, -1.0 ],
+      "right_leg": [ 1.0, 0.0, 1.0 ]
+    }
+  ],
+  
+  // Items in world which have mending collect xp orbs to get repaired
+  "betterMending": true,
+  
+  // Prevents waterlogging when holding the sneak key
+  "crouchNoWaterlog": true,
+  
+  // Both doors open at the same time if connected
+  "doubleDoor": false,
+  
+  // Illusioners will appear in raids
+  "illusionerInRaid": true,
+  
+  // Size scale for exporting maps
+  // 1 = 128x128px
+  // 2 = 256x256px
+  // 3 = 384x384px
+  // And so on, you got the pattern I hope
+  // Minimum: 1
+  "mapScale": 3,
+  
+  // Entity denylist for mob yoinker
+  // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
+  "mobYoinkerEntities": {
+    "allow_list": false,
+    "elements": []
+  },
+  
+  // List of items which are allowed to be planted when despawn on correct soil
+  // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
+  "plantsOnDespawn": {
+    "allow_list": true,
+    "elements": []
+  },
+  
+  // The time in ticks which will be added to the despawn delay of a wandering trader on each trade
+  // This way, the wandering trader remains in the world longer.
+  // Minimum: 0
+  "wanderingTraderExtraTime": 400,
+  
+  "Backpack": {
+  
+    // The maximum size of a backpack when merging with other backpacks
+    // Beyond this number, backpacks cannot be merged
+    // Range: 1 - 154
+    "maxSize": 54,
+    
+    // The initial size of a backpack
+    // Range: 1 - 154
+    "slotSize": 9
+  },
+  
+  // Config options for experience crystal
+  "ExperienceCrystal": {
+  
+    // Maximum experience which can be stored
+    // Minimum: 0
+    "maxXp": 2147483647,
+    
+    // Should the experience crystal pull xp orbs automatically?
+    "pullOrbs": true
+  },
+  
+  // Config values for the two bells, mob bell and hand bell
+  "HandBells": {
+  
+    // The radius in which entities will glow
+    "glowRadius": 36,
+    
+    // The time in ticks how long a mob should glow
+    "glowTime": 60,
+    
+    // Entity denylist for mob bell
+    // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
+    "mobBellEntities": {
+      "allow_list": false,
+      "elements": []
+    },
+    
+    // The radius in which entities get notified that you rung
+    "notifyRadius": 24,
+    
+    // The time in ticks how long you have to ring the hand bell to let the mobs glow
+    "ringTime": 40
+  },
+  
+  // Config options for rails and minecarts
+  "Track": {
+  
+    // The maximum hardness of blocks, the stonecutter cart can mine.
+    // Minimum: 0.0
+    "stonecutterMaxHardness": 5
+  }
+}

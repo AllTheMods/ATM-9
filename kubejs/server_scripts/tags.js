@@ -129,6 +129,10 @@ ServerEvents.tags('block', allthemods => {
 
   allthemods.add('entangled:invalid_targets', ['@megacells','@expatternprovider','@cabletiers','@ae2','@refinedstorage'])
 
+  //create issues
+  allthemods.remove('create:safe_nbt', ['create:clipboard'])
+  allthemods.add('create:non_movable',['@sophisticatedstorage'])
+
 })
 
 ServerEvents.tags('fluid', allthemods => {

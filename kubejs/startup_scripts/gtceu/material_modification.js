@@ -3,11 +3,13 @@
 
 const $FluidProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidProperty')
 const $OreProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty')
+const $FluidBuilder = Java.loadClass('com.gregtechceu.gtceu.api.fluids.FluidBuilder')
+const $FluidStorageKeys = Java.loadClass('com.gregtechceu.gtceu.api.fluids.store.FluidStorageKeys')
 
 GTCEuStartupEvents.registry('gtceu:material', allthemods => {
-    GTMaterials.NetherStar.setProperty(PropertyKey.FLUID, new $FluidProperty())
-    GTMaterials.NetherStar.getProperty(PropertyKey.FLUID).storage.enqueueRegistration(GTFluidStorageKeys.LIQUID, new GTFluidBuilder())
-
+    let prop = new $FluidProperty()
+    prop.getStorage().enqueueRegistration($FluidStorageKeys.LIQUID, new $FluidBuilder())
+    GTMaterials.NetherStar.setProperty(PropertyKey.FLUID, prop)
     GTMaterials.Trinium.setProperty(PropertyKey.ORE, new $OreProperty(1, 1, true))
 
     allthemods.create('inert_nether_essence')

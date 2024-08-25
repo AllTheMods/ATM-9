@@ -80,7 +80,7 @@ ServerEvents.recipes(allthemods => {
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'ae2:quantum_ring', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'pneumaticcraft:micromissiles', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'forbidden_arcanus:dark_rune_block', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'thermal_extra:rf_coil_xfer_augment_5', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'thermal_extra:abyssal_rf_coil_xfer_augment', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'occultism:stable_wormhole', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'mythicbotany:mjoellnir', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'apotheosis:sigil_of_withdrawal', 'count': 1 },
