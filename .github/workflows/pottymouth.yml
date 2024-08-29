@@ -33,4 +33,3 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         # See https://bit.ly/potty-mouth-replacement-strategies
         replacement-strategy: asterisk
-        manual-profane-words: /https?:\/\/(www\.)?(box|dropbox|mediafire|sugarsync|tresorit|hightail|opentext|sharefile|citrixsharefile|icloud|onedrive|1drv)\.com\/[^\s\)]+/g, /https?:\/\/(www\.)?(bit\.ly|t\.co|tinyurl\.com|goo\.gl|ow\.ly|buff\.ly|is\.gd|soo\.gd|t2mio|bl\.ink|clck\.ru|shorte\.st|cutt\.ly|v\.gd|qr\.ae|rb\.gy|rebrand\.ly|tr\.im|shorturl\.at|lnkd\.in)\/[^\s\)]+/g,
