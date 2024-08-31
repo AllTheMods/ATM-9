@@ -1494,16 +1494,39 @@
 			y: -2.0d
 		}
 		{
-			id: "39605F1FEB1A5A1C"
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "238556F4074D52B2"
 			invisible: true
-			shape: "circle"
+			optional: true
+			shape: "octagon"
 			tasks: [
 				{
-					id: "5DB7A437BEC3E2D4"
+					disable_toast: true
+					id: "68EBBA284DFE0E53"
+					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}
 				{
-					id: "38B6F45109CB033A"
+					id: "726CDC928AF8CE05"
+					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}
 			]
