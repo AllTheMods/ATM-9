@@ -10,10 +10,18 @@
 
 [management]
 	"Inventory Sorting" = false
-
+	"Automatic Tool Restock" = false
+	"Easy Transfering" = true
+	"Expanded Item Interactions" = true
+	"Hotbar Changer" = true
+	"Item Sharing" = true
+	"Quick Armor Swapping" = true
+	
 [tweaks]
 	"Automatic Recipe Unlock" = false
 	"Simple Harvest" = false
+	"Slabs To Blocks" = true
+
 
 	[tweaks.utility_recipes]
 		"Easy Sticks" = false

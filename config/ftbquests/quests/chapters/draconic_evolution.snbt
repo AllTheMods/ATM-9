@@ -691,10 +691,9 @@
 			}]
 			shape: "square"
 			tasks: [{
-				entity: "draconicevolution:guardian_crystal"
-				id: "1F5C8CEC7E04F9CE"
-				type: "kill"
-				value: 14L
+				id: "6A516E772C246DFE"
+				item: "draconicevolution:infused_obsidian"
+				type: "item"
 			}]
 			title: "{atm9.quest.draconic.destroy}"
 			x: 0.5d
