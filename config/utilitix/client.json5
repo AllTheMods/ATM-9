@@ -1,0 +1,6 @@
+{
+  // On some slower PCs, or in big modpacks, it seems like rendering glue drains a lot of performance.
+  // You can disable it here to see if it improves your performance.
+  // This will deactivate the glue rendering in the world, so you won't see any glue on any block.
+  "renderGlueOnBlocks": true
+}

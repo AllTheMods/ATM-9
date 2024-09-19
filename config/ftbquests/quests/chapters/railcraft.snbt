@@ -1,0 +1,1937 @@
+{
+	autofocus_id: "3E75AFE3482834C5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "railcraft"
+	group: "2B51AC12041E3F89"
+	icon: "railcraft:steam_locomotive"
+	id: "2FB24A5A597459FC"
+	images: [
+		{
+			height: 1.5d
+			hover: ["Electric Locomotive"]
+			image: "atm:textures/questpics/railcraft/rail_electric.png"
+			rotation: 0.0d
+			width: 1.8627450980392157d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			height: 1.5d
+			hover: ["Steam Locomotive"]
+			image: "atm:textures/questpics/railcraft/rail_steam.png"
+			rotation: 0.0d
+			width: 1.4922680412371134d
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Blast Furnace"]
+			image: "atm:textures/questpics/railcraft/rail_furnace.png"
+			rotation: 0.0d
+			width: 1.8454106280193237d
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Coke Oven"]
+			image: "atm:textures/questpics/railcraft/rail_coke.png"
+			rotation: 0.0d
+			width: 1.9774011299435028d
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Tunnel Bore"]
+			image: "atm:textures/questpics/railcraft/rail_tunnel.png"
+			rotation: 0.0d
+			width: 2.4634146341463414d
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			height: 2.0d
+			hover: ["Water Boiler"]
+			image: "atm:textures/questpics/railcraft/rail_big_boiler.png"
+			rotation: 0.0d
+			width: 1.6754385964912282d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Steam Turbine"]
+			image: "atm:textures/questpics/railcraft/rail_turbine.png"
+			rotation: 0.0d
+			width: 2.127906976744186d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Steam Oven"]
+			image: "atm:textures/questpics/railcraft/rail_oven.png"
+			rotation: 0.0d
+			width: 1.9899497487437185d
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Water Tank"]
+			image: "atm:textures/questpics/railcraft/rail_tank.png"
+			rotation: 0.0d
+			width: 2.0585365853658537d
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Crusher"]
+			image: "atm:textures/questpics/railcraft/rail_crusher.png"
+			rotation: 0.0d
+			width: 2.179640718562874d
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			height: 1.5d
+			hover: ["Abandoned Tracks"]
+			image: "atm:textures/questpics/railcraft/rail_abandoned.png"
+			rotation: 0.0d
+			width: 6.086776859504132d
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			hover: ["Reinforced Tracks"]
+			image: "atm:textures/questpics/railcraft/rail_reinforced4.png"
+			rotation: 0.0d
+			width: 4.557324840764331d
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			height: 1.5d
+			hover: ["Electric Tracks"]
+			image: "atm:textures/questpics/railcraft/rail_electric_rail.png"
+			rotation: 0.0d
+			width: 4.285714285714286d
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			height: 1.5d
+			hover: ["Strap Iron Tracks"]
+			image: "atm:textures/questpics/railcraft/rail_strap.png"
+			rotation: 0.0d
+			width: 4.25390625d
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Minecart with Tank"]
+			image: "atm:textures/questpics/railcraft/rail_carttank.png"
+			rotation: 0.0d
+			width: 1.3098591549295775d
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Minecart with Energy Cell"]
+			image: "atm:textures/questpics/railcraft/rail_cartcell.png"
+			rotation: 0.0d
+			width: 1.24822695035461d
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Track: Remover, Relayer, and Placer"]
+			image: "atm:textures/questpics/railcraft/rail_carttracks.png"
+			rotation: 0.0d
+			width: 3.0225563909774436d
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			hover: ["Item Loading"]
+			image: "atm:textures/questpics/railcraft/rail_item.png"
+			rotation: 0.0d
+			width: 1.890995260663507d
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			height: 1.5d
+			hover: ["Item Unloading"]
+			image: "atm:textures/questpics/railcraft/rail_unloader.png"
+			rotation: 0.0d
+			width: 2.2936507936507935d
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			height: 1.5d
+			hover: ["Cart Dispenser"]
+			image: "atm:textures/questpics/railcraft/rail_cartdispensed.png"
+			rotation: 0.0d
+			width: 2.2033898305084745d
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			height: 1.5d
+			hover: ["Train Dispenser"]
+			image: "atm:textures/questpics/railcraft/rail_traindispens.png"
+			rotation: 0.0d
+			width: 2.2272727272727275d
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/railcraft/railcraft.png"
+			rotation: 0.0d
+			width: 9.076923076923077d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			hover: ["Fluid Loading"]
+			image: "atm:textures/questpics/railcraft/rail_fluid.png"
+			rotation: 0.0d
+			width: 1.6d
+			x: 0.0d
+			y: 9.5d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{atm9.quest.railcraft.desc.railcraftintro.1}"]
+			id: "3E75AFE3482834C5"
+			rewards: [
+				{
+					count: 32
+					id: "73B40E05D07E7516"
+					item: "minecraft:rail"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6753847D74763C19"
+					table_id: 8502370445492231902L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "37AF49F3A7074892"
+				item: "minecraft:rail"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.railcraftintro}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E75AFE3482834C5"]
+			description: ["{atm9.quest.railcraft.desc.crowbar.1}"]
+			icon: {
+				Count: 1
+				id: "railcraft:steel_crowbar"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "31094CC16E710040"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AF329A043BCA087"
+				table_id: 8502370445492231902L
+				type: "choice"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "46232EFF82C98E86"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/crowbars"
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.crowbar}"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E75AFE3482834C5"]
+			description: ["{atm9.quest.railcraft.desc.spikemauls.1}"]
+			icon: {
+				Count: 1
+				id: "railcraft:iron_spike_maul"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "64C105E1E2F97900"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50DADD914CBEEA51"
+				table_id: 8502370445492231902L
+				type: "choice"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7CE3B3F0D4971CC5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railcraft:iron_spike_maul"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "railcraft:steel_spike_maul"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "railcraft:diamond_spike_maul"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.spikemauls}"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E75AFE3482834C5"]
+			description: ["{atm9.quest.railcraft.desc.rails.1}"]
+			id: "035C52EF63AD23A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45B11D6CE35D7F3F"
+				table_id: 8502370445492231902L
+				type: "choice"
+			}]
+			shape: "circle"
+			size: 1.3d
+			tasks: [{
+				id: "28427D7AB4221B7D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railcraft:wooden_rail"
+							}
+							{
+								Count: 1b
+								id: "railcraft:standard_rail"
+							}
+							{
+								Count: 1b
+								id: "railcraft:advanced_rail"
+							}
+							{
+								Count: 1b
+								id: "railcraft:reinforced_rail"
+							}
+							{
+								Count: 1b
+								id: "railcraft:high_speed_rail"
+							}
+							{
+								Count: 1b
+								id: "railcraft:electric_rail"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.rails}"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E75AFE3482834C5"]
+			description: ["{atm9.quest.railcraft.desc.tracks.1}"]
+			id: "068294A7C21DE550"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03020B4EA53E1A8F"
+				table_id: 8502370445492231902L
+				type: "choice"
+			}]
+			shape: "circle"
+			size: 1.3d
+			tasks: [{
+				id: "780E541F1FDDCADC"
+				item: "railcraft:track_parts"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.tracks}"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			description: [
+				"{atm9.quest.railcraft.desc.locomotive.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_steam_locomotive.png width:100 height:100 align:center}"
+			]
+			id: "5128B119DFFF0C4C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B779F6575EEEE81"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					count: 32
+					id: "215F7C44817838CB"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "6CED23AD56010036"
+				item: "railcraft:steam_locomotive"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.locomotive}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E75AFE3482834C5"]
+			description: ["{atm9.quest.railcraft.desc.trains.1}"]
+			id: "55D7CD0FA8F1AE48"
+			rewards: [{
+				count: 3
+				id: "36ACC13BBB4F4798"
+				item: "minecraft:minecart"
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "1598A523323F0BAB"
+				item: "minecraft:minecart"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.trains}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["{atm9.quest.railcraft.desc.crowbarmodes.1}"]
+			id: "6E7C4228CD2B6BB9"
+			invisible: true
+			rewards: [{
+				id: "343A2249A71CEB51"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "569ABDEA0337CA53"
+				item: {
+					Count: 1
+					id: "railcraft:seasons_crowbar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["035C52EF63AD23A7"]
+			description: [
+				"{atm9.quest.railcraft.desc.reinforcedtracks.1}"
+				"{@pagebreak}"
+				"1"
+				"{image:atm:textures/questpics/railcraft/rail_reinforced1.png width:150 height:100 align:center}"
+				"{@pagebreak}"
+				"2"
+				"{image:atm:textures/questpics/railcraft/rail_reinforced2.png width:150 height:100 align:center}"
+				"{@pagebreak}"
+				"3"
+				"{image:atm:textures/questpics/railcraft/rail_reinforced3.png width:150 height:100 align:center}"
+				"{@pagebreak}"
+				"4"
+				"{image:atm:textures/questpics/railcraft/rail_reinforced4.png width:150 height:100 align:center}"
+			]
+			id: "425E375A9EC127EB"
+			rewards: [
+				{
+					count: 32
+					id: "6AC63836B9D8F540"
+					item: "railcraft:reinforced_track"
+					type: "item"
+				}
+				{
+					id: "2101A741E908ED14"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2ECD516444206494"
+				item: "railcraft:reinforced_track"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.reinforcedtracks}"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["035C52EF63AD23A7"]
+			description: ["{atm9.quest.railcraft.desc.speedtracks.1}"]
+			id: "75DD345164EE5CD9"
+			rewards: [
+				{
+					count: 32
+					id: "17888ED804CCD833"
+					item: "railcraft:high_speed_track"
+					type: "item"
+				}
+				{
+					id: "3F88E1D0A4242594"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5DFB2079DC0E1669"
+				item: "railcraft:high_speed_track"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.speedtracks}"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["035C52EF63AD23A7"]
+			description: ["{atm9.quest.railcraft.desc.electrictracks.1}"]
+			id: "2A30595DC6DDBFF7"
+			rewards: [
+				{
+					count: 32
+					id: "6AB0E699C2AC4FAE"
+					item: "railcraft:high_speed_electric_track"
+					type: "item"
+				}
+				{
+					id: "13C545FA444E21C6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "51419C2F98E2F021"
+				item: "railcraft:electric_track"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.electrictracks}"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["035C52EF63AD23A7"]
+			description: [
+				"{atm9.quest.railcraft.desc.highspeedelectrictracks.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_electric_speed.png width:150 height:100 align:center}"
+			]
+			id: "4A44623D8A307473"
+			rewards: [
+				{
+					count: 32
+					id: "5380A11064B16A49"
+					item: "railcraft:high_speed_electric_track"
+					type: "item"
+				}
+				{
+					id: "3688A4AD2D1D9440"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "027264CA5EC1248C"
+				item: "railcraft:high_speed_electric_track"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.highspeedelectrictracks}"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["035C52EF63AD23A7"]
+			description: [
+				"{atm9.quest.railcraft.desc.irontracks.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_strap.png width:150 height:100 align:center}"
+			]
+			id: "5180CDD196518F64"
+			rewards: [
+				{
+					count: 32
+					id: "538AA088B64A1D3A"
+					item: "railcraft:strap_iron_track"
+					type: "item"
+				}
+				{
+					id: "06B2A5B289635901"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "058E8C9D76CB23FB"
+				item: "railcraft:strap_iron_track"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.irontracks}"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["035C52EF63AD23A7"]
+			description: [
+				"{atm9.quest.railcraft.desc.abandonedtracks.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_abandoned.png width:150 height:100 align:center}"
+			]
+			id: "5820EDEF71340A1A"
+			rewards: [
+				{
+					count: 32
+					id: "4A6201115EA87977"
+					item: "railcraft:abandoned_track"
+					type: "item"
+				}
+				{
+					id: "5F38A570EAE4549A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0F1E723FD636388F"
+				item: "railcraft:abandoned_track"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.abandonedtracks}"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64C105E1E2F97900"]
+			description: [
+				"{atm9.quest.railcraft.desc.wyetracks.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_abandoned.png width:150 height:100 align:center}"
+			]
+			id: "1698565EBB68DC85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C84036ACFA15250"
+				table_id: 2139753920119531307L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "55F5372BE5488898"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railcraft:abandoned_wye_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:iron_wye_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:strap_iron_wye_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:reinforced_wye_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:high_speed_wye_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:high_speed_electric_wye_track"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.wyetracks}"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64C105E1E2F97900"]
+			description: [
+				"{atm9.quest.railcraft.desc.turnout.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_turnout.png width:100 height:100 align:center}"
+			]
+			id: "5E750DB2244A67A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "219ACDD03719D5E2"
+				table_id: 2139753920119531307L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4FFD1DD026E386AA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railcraft:abandoned_turnout_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:iron_turnout_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:strap_iron_turnout_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:reinforced_turnout_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:electric_turnout_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:high_speed_turnout_track"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.turnout}"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64C105E1E2F97900"]
+			description: [
+				"{atm9.quest.railcraft.desc.junction.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_junction.png width:100 height:100 align:center}"
+			]
+			id: "170118E3C3C072E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19904DCC5EF0939A"
+				table_id: 2139753920119531307L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "24060C3DB01F2C67"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railcraft:abandoned_junction_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:iron_junction_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:strap_iron_junction_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:reinforced_junction_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:electric_junction_track"
+							}
+							{
+								Count: 1b
+								id: "railcraft:high_speed_junction_track"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.junction}"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			description: ["{atm9.quest.railcraft.desc.frames.1}"]
+			id: "283AB56F81EF03A5"
+			rewards: [{
+				count: 16
+				id: "61C0B256974B33D4"
+				item: "railcraft:frame"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A097BD39D7D64B7"
+				item: "railcraft:frame"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.frames}"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"283AB56F81EF03A5"
+				"2A30595DC6DDBFF7"
+			]
+			description: [
+				"{atm9.quest.railcraft.desc.electriclocomotive.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_electric.png width:100 height:100 align:center}"
+			]
+			id: "3E8C2E7769DFBF35"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "323CE7B5DF51379F"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "47B1663F4FB70941"
+					item: "mekanism:basic_energy_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4E067D0ECE1D5ACB"
+				item: "railcraft:electric_locomotive"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.electriclocomotive}"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			description: ["{atm9.quest.railcraft.desc.borehead.1}"]
+			id: "2AB0FA084739827A"
+			rewards: [{
+				Count: 1
+				id: "3339D792B18E6ABC"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74052CCFA2E60EA7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railcraft:iron_tunnel_bore_head"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "railcraft:bronze_tunnel_bore_head"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "railcraft:steel_tunnel_bore_head"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "railcraft:diamond_tunnel_bore_head"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.borehead}"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2AB0FA084739827A"]
+			description: [
+				"{atm9.quest.railcraft.desc.tunnelbore.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_tunnel.png width:100 height:100 align:center}"
+			]
+			id: "6C14D1B60124C2B2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "056FF5FEB0A7404E"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					count: 32
+					id: "50F19F411DF037BD"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "00D7C36072456E75"
+				item: "railcraft:tunnel_bore"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.tunnelbore}"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			description: ["{atm9.quest.railcraft.desc.newcarts.1}"]
+			id: "7F4B734CFB0F0306"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2343B5ED2E0CCDC3"
+				table_id: 2139753920119531307L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "44625F29B049D333"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railcraft:tank_minecart"
+							}
+							{
+								Count: 1b
+								id: "railcraft:energy_minecart"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.newcarts}"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			description: ["{atm9.quest.railcraft.desc.carttracks.1}"]
+			id: "08457BEED799E600"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4407151CF1A35816"
+				table_id: 2139753920119531307L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "7BE38F06915FE8D3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railcraft:track_layer"
+							}
+							{
+								Count: 1b
+								id: "railcraft:track_relayer"
+							}
+							{
+								Count: 1b
+								id: "railcraft:track_remover"
+							}
+							{
+								Count: 1b
+								id: "railcraft:track_undercutter"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.carttracks}"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			description: ["{atm9.quest.railcraft.desc.itemloader.1}"]
+			id: "2D00F85379A4D591"
+			rewards: [
+				{
+					id: "229EE83F1EFA7D0A"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "3477C827E4D13499"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F82FFEF84105940"
+				item: "railcraft:item_loader"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.itemloader}"
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			description: ["{atm9.quest.railcraft.desc.itemunloader.1}"]
+			id: "54F2CB52D3A7BA87"
+			rewards: [
+				{
+					id: "34C36A09B74CCC38"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "52D66AFF7B56AA2A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CC776700462BD41"
+				item: "railcraft:item_unloader"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.itemunloader}"
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			description: ["{atm9.quest.railcraft.desc.fluidloader.1}"]
+			id: "17F7964611D893BE"
+			rewards: [
+				{
+					id: "7579F729BB4B9B15"
+					item: "utilitarian:fluid_hopper"
+					type: "item"
+				}
+				{
+					id: "61881DA8EB9F7360"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4108B5EDBF82261A"
+				item: "railcraft:fluid_loader"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.fluidloader}"
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			description: ["{atm9.quest.railcraft.desc.cartdispenser.1}"]
+			id: "365D4B1DC953D406"
+			rewards: [
+				{
+					id: "6BF246E27523FD30"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+				{
+					id: "38EA2C5027B8FDB0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6398A1D0F1D17016"
+				item: "railcraft:cart_dispenser"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.cartdispenser}"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["365D4B1DC953D406"]
+			description: ["{atm9.quest.railcraft.desc.traindispenser.1}"]
+			id: "4071BBBE12CACD2D"
+			rewards: [
+				{
+					id: "32E4238074779B87"
+					item: {
+						Count: 1
+						id: "railcraft:seasons_crowbar"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "784E2DF2C10EBF7B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E1516768436C2FD"
+				item: "railcraft:train_dispenser"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.traindispenser}"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["17F7964611D893BE"]
+			description: ["{atm9.quest.railcraft.desc.fluidunloder.1}"]
+			id: "7F187E291C3D5BA7"
+			rewards: [
+				{
+					id: "3C1D1DEBBD29CB2B"
+					item: "railcraft:tank_minecart"
+					type: "item"
+				}
+				{
+					id: "0317AB4673C25B5D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D8F946CDFC03CB0"
+				item: "railcraft:fluid_unloader"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.fluidunloder}"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["54F2CB52D3A7BA87"]
+			description: ["{atm9.quest.railcraft.desc.advitemunloader.1}"]
+			id: "53594EBA9F7BA840"
+			rewards: [
+				{
+					id: "3FE8ACB273EF8B99"
+					item: "minecraft:hopper_minecart"
+					type: "item"
+				}
+				{
+					id: "5AD52D0F66ED3BA0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "169FA3C67F65DCA2"
+				item: "railcraft:advanced_item_unloader"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.advitemunloader}"
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2D00F85379A4D591"]
+			description: ["{atm9.quest.railcraft.desc.advitemloader.1}"]
+			id: "104049993CC62E7F"
+			rewards: [
+				{
+					id: "5E99D9B1F594709C"
+					item: "minecraft:chest_minecart"
+					type: "item"
+				}
+				{
+					id: "487E2D1DDFBADDD7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F2AF77CE8241FDC"
+				item: "railcraft:advanced_item_loader"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.advitemloader}"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"170118E3C3C072E5"
+				"1698565EBB68DC85"
+				"5E750DB2244A67A1"
+			]
+			description: ["{atm9.quest.railcraft.desc.switchtrack.1}"]
+			id: "541D270451DA4320"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "518035525E94C7EB"
+				table_id: 2139753920119531307L
+				type: "choice"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "11F33753791E7693"
+				item: "railcraft:switch_track_lever"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			description: ["{atm9.quest.railcraft.desc.trackkitcarts.1}"]
+			id: "249E5C6893387E15"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40C8BA2A2A078593"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "320364631C12FC3F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "761B4A5AAD521E88"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railcraft:locking_track_kit"
+							}
+							{
+								Count: 1b
+								id: "railcraft:gated_track_kit"
+							}
+							{
+								Count: 1b
+								id: "railcraft:buffer_stop_track_kit"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.trackkitcarts}"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			description: ["{atm9.quest.railcraft.desc.trackkitcoupler.1}"]
+			id: "677C5D35DADA4A42"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24606933749C5816"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "6FC3CA5E1A5BA64B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7CCFCAE31BE4E898"
+				item: "railcraft:coupler_track_kit"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.trackkitcoupler}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			description: ["{atm9.quest.railcraft.desc.trackkitmovingcarts.1}"]
+			id: "6DB65926EE6D6C2E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09128E943A569BD8"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "0D56660D63DF2CD3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "244004F3AFE14810"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railcraft:transition_track_kit"
+							}
+							{
+								Count: 1b
+								id: "railcraft:booster_track_kit"
+							}
+							{
+								Count: 1b
+								id: "railcraft:control_track_kit"
+							}
+							{
+								Count: 1b
+								id: "railcraft:throttle_track_kit"
+							}
+							{
+								Count: 1b
+								id: "railcraft:launcher_track_kit"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.trackkitmovingcarts}"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			description: ["{atm9.quest.railcraft.desc.trackkitoneway.1}"]
+			id: "2869AB982799CF0C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2437F769E3EED39C"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "52CC02A89FFF2FC6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0A6770D7249A5126"
+				item: "railcraft:one_way_track_kit"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.trackkitoneway}"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			description: ["{atm9.quest.railcraft.desc.trackkitwhistle.1}"]
+			id: "6C163E005351FF6D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69E8F03B5F4C34AB"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "2F3B79B5D3866C98"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "25006B4FCB647FDC"
+				item: "railcraft:whistle_track_kit"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.trackkitwhistle}"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			description: ["{atm9.quest.railcraft.desc.trackkitrouting.1}"]
+			id: "609CA1ACFA981BD5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7123B29562EB9333"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "2BD72C766EF68ADD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "68FBEA8602970A3C"
+				item: "railcraft:routing_track_kit"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.trackkitrouting}"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			description: ["{atm9.quest.railcraft.desc.trackkitred.1}"]
+			id: "184F98BE0F6710E2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C80E4C70CC9F5F3"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "795C8B9BFACC0A37"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "28B99AF7CB10CD1A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railcraft:activator_track_kit"
+							}
+							{
+								Count: 1b
+								id: "railcraft:detector_track_kit"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.trackkited}"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			description: ["{atm9.quest.railcraft.desc.trackkitentity.1}"]
+			id: "032B654201E71618"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11F69351DB0EA87E"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "5C07BB6D051DD3B0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0DAA95D0A2CCF449"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "railcraft:embarking_track_kit"
+							}
+							{
+								Count: 1b
+								id: "railcraft:disembarking_track_kit"
+							}
+							{
+								Count: 1b
+								id: "railcraft:dumping_track_kit"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.trackkitentity}"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["175D943160C10646"]
+			description: [
+				"{atm9.quest.railcraft.desc.cokeoven.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_coke.png width:100 height:100 align:center}"
+			]
+			id: "38451B61E3FC075B"
+			rewards: [{
+				count: 32
+				id: "60CD6A4A81A79CF4"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 26L
+				id: "7448F49F4C7F8DBB"
+				item: "railcraft:coke_oven_bricks"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.cokeoven}"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["175D943160C10646"]
+			description: [
+				"{atm9.quest.railcraft.desc.blaststeelfurnace.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_furnace.png width:100 height:100 align:center}"
+			]
+			id: "0A43FD0B5C76C1C5"
+			rewards: [{
+				count: 10
+				id: "5CB1108FDFEA8428"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 34L
+				id: "1671149B2E170E87"
+				item: "railcraft:blast_furnace_bricks"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.blaststeelfurnace}"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["{atm9.quest.railcraft.desc.machines.1}"]
+			id: "175D943160C10646"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62734FEFB35CAA89"
+				table_id: 8502370445492231902L
+				type: "choice"
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "297D80507C3A56E1"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.machines}"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["175D943160C10646"]
+			description: [
+				"{atm9.quest.railcraft.desc.watertank.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_tank.png width:100 height:100 align:center}"
+			]
+			id: "020E6AF37A0421C8"
+			rewards: [{
+				id: "70B035CD218D0CBF"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 26L
+				id: "3274B1F3B0D06465"
+				item: "railcraft:water_tank_siding"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.watertank}"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["175D943160C10646"]
+			description: [
+				"{atm9.quest.railcraft.desc.crusher.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_crusher.png width:100 height:100 align:center}"
+			]
+			id: "21693C4DE6531D73"
+			rewards: [{
+				count: 10
+				id: "55BD8DECFC4879A5"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 12L
+				id: "2D242F2D86F2DADE"
+				item: "railcraft:crusher"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.crusher}"
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["175D943160C10646"]
+			description: ["{atm9.quest.railcraft.desc.rolling.1}"]
+			id: "7D40B80DBBC4E160"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64ED15DE7D08C92E"
+				table_id: 8502370445492231902L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "032FC6ACCA3DE6CD"
+				item: "railcraft:manual_rolling_machine"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D40B80DBBC4E160"]
+			description: ["{atm9.quest.railcraft.desc.poweraderolling.1}"]
+			id: "78D8F40AA9568511"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "456831B7D6D2486A"
+					table_id: 8502370445492231902L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E8B50B75DED4AA2"
+					table_id: 8502370445492231902L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C1ED0C7DC7441E8"
+					table_id: 8502370445492231902L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F947E94FE904606"
+				item: "railcraft:powered_rolling_machine"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["175D943160C10646"]
+			description: [
+				"{atm9.quest.railcraft.desc.boilers.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_big_boiler.png width:100 height:100 align:center}"
+			]
+			id: "475E307844E3AF7F"
+			rewards: [{
+				id: "6C3E32DE76C9B3FC"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "60A605C8288CA3D3"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "railcraft:low_pressure_steam_boiler_tank"
+								}
+								{
+									Count: 1b
+									id: "railcraft:high_pressure_steam_boiler_tank"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34DEF548CC8A9843"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "railcraft:solid_fueled_firebox"
+								}
+								{
+									Count: 1b
+									id: "railcraft:fluid_fueled_firebox"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.railcraft.title.boilers}"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["475E307844E3AF7F"]
+			description: [
+				"{atm9.quest.railcraft.desc.oven.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_oven.png width:100 height:100 align:center}"
+			]
+			id: "008D186B4E0ED14F"
+			rewards: [{
+				count: 10
+				id: "435817FDA250F8A6"
+				item: "minecraft:beef"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 8L
+				id: "40011EE5E5C96FE3"
+				item: "railcraft:steam_oven"
+				type: "item"
+			}]
+			title: "{atm9.quest.railcraft.title.oven}"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["475E307844E3AF7F"]
+			description: [
+				"{atm9.quest.railcraft.desc.turbine.1}"
+				""
+				"{image:atm:textures/questpics/railcraft/rail_turbine.png width:100 height:100 align:center}"
+			]
+			id: "61C93ABE07742DCD"
+			rewards: [{
+				id: "009834038A2A9F5C"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1962F3D4A0B4F465"
+				item: {
+					Count: 1
+					id: "railcraft:turbine_rotor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			description: ["{atm9.quest.railcraft.desc.colorlegend.1}"]
+			icon_scale: 2.0d
+			id: "50A286C268F38E09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F45F6ACFC0536A4"
+				table_id: 8502370445492231902L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "7B128D5D8D5530A8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+			title: "{atm9.quest.railcraft.title.colorlegend}"
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "238556F4074D52B2"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "68EBBA284DFE0E53"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "726CDC928AF8CE05"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+	title: "{atm9.chapters.58.title}"
+}

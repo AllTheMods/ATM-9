@@ -1,0 +1,369 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pylons"
+	group: "35A88CA0DDED1092"
+	icon: "pylons:infusion_pylon"
+	id: "5712300EF4E5E846"
+	images: [
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/pylons/pylon_harvester.png"
+			rotation: 0.0d
+			width: 3.721698113207547d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/pylons/pylon_beacon.png"
+			rotation: 0.0d
+			width: 2.351585014409222d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/pylons/pylon_zombie.png"
+			rotation: 0.0d
+			width: 1.0702702702702702d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/pylons/pylon_skeleton.png"
+			rotation: 0.0d
+			width: 0.8177339901477833d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/pylons/pylon_panda.png"
+			rotation: 0.0d
+			width: 1.5126050420168067d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/pylons/pylon_title.png"
+			rotation: 0.0d
+			width: 3.8596491228070176d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/pylons/pylon_no.png"
+			rotation: 0.0d
+			width: 3.308300395256917d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/pylons/pylon_no.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/pylons/pylon_no.png"
+			rotation: 0.0d
+			width: 1.1027667984189724d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 1.6d
+			image: "atm:textures/questpics/pylons/pylon_no.png"
+			rotation: 0.0d
+			width: 1.6d
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{atm9.quest.pylons.desc.pylonsintro.1}"]
+			title: "{atm9.quest.pylons.title.pylonsintro}"
+			id: "30B0240543253EFB"
+			rewards: [{
+				id: "2795AB11AF5A08CD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "576428EF1CDDEF96"
+				item: "minecraft:polished_blackstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["{atm9.quest.pylons.desc.expulsion.1}"]
+			dependencies: [
+				"30B0240543253EFB"
+				"403F76908A8A5661"
+			]
+			id: "32E52AD6EF194A60"
+			rewards: [
+				{
+					id: "503EC58A04C10507"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "3CF4155E1C75F1ED"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "3644DD329B1CF04B"
+				item: "pylons:expulsion_pylon"
+				type: "item"
+			}]
+			x: 1.7999999999999998d
+			y: -1.7999999999999998d
+		}
+		{
+			description: ["{atm9.quest.pylons.desc.interdiction.1}"]
+			dependencies: [
+				"30B0240543253EFB"
+				"011F787E620DE9E8"
+			]
+			id: "5B5FC539BD1F4A73"
+			rewards: [
+				{
+					id: "2A29175ED2C50B63"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "353EEB89FCC773A5"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "525BAD815438BF4C"
+				item: "pylons:interdiction_pylon"
+				type: "item"
+			}]
+			x: 1.7999999999999998d
+			y: 1.7999999999999998d
+		}
+		{
+			description: ["{atm9.quest.pylons.desc.harvester.1}"]
+			dependencies: [
+				"30B0240543253EFB"
+				"034A9FBCA6D79BB6"
+			]
+			id: "12ED1EE85E146A4B"
+			rewards: [
+				{
+					id: "5DEB117BAE548ED3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "72253D5B5719D67C"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "2F7ABC9758AAC23E"
+				item: "pylons:harvester_pylon"
+				type: "item"
+			}]
+			x: -1.7999999999999998d
+			y: 1.7999999999999998d
+		}
+		{
+			description: ["{atm9.quest.pylons.desc.infusion.1}"]
+			dependencies: [
+				"30B0240543253EFB"
+				"09D18512037386C1"
+			]
+			id: "18246A48C20B29D8"
+			rewards: [
+				{
+					id: "69C85E9C1C5E0253"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "76D467DBB82E49FB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "6C593196779DD911"
+				item: "pylons:infusion_pylon"
+				type: "item"
+			}]
+			x: -1.7999999999999998d
+			y: -1.7999999999999998d
+		}
+		{
+			description: ["{atm9.quest.pylons.desc.explusion.1}"]
+			hide_details_until_startable: false
+			id: "403F76908A8A5661"
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "13CE484A5B1A097A"
+				item: "pylons:player_filter"
+				type: "item"
+			}]
+			x: 3.15d
+			y: -3.15d
+		}
+		{
+			description: ["{atm9.quest.pylons.desc.mobfilter.1}"]
+			id: "011F787E620DE9E8"
+			rewards: [{
+				count: 10
+				id: "59E5500081B17596"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "5A8DC1B4A3A8A7FC"
+				item: "pylons:mob_filter"
+				type: "item"
+			}]
+			x: 3.15d
+			y: 3.15d
+		}
+		{
+			description: ["{atm9.quest.pylons.desc.potionfilter.1}"]
+			id: "09D18512037386C1"
+			rewards: [
+				{
+					id: "1C3FD71F1EEE4828"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "79D689AB8042F8DD"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "420D062D40DDE5CB"
+				item: "pylons:potion_filter"
+				type: "item"
+			}]
+			x: -3.15d
+			y: -3.15d
+		}
+		{
+			description: ["{atm9.quest.pylons.desc.harvesterex.1}"]
+			icon: "minecraft:diamond_hoe"
+			id: "034A9FBCA6D79BB6"
+			rewards: [{
+				Count: 1
+				id: "42FFCBCEDF641E38"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "616C07AFBAFA7AE4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:hoes"
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.pylons.title.hoes}"
+			x: -3.15d
+			y: 3.15d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "238556F4074D52B2"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "68EBBA284DFE0E53"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "726CDC928AF8CE05"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "{atm9.chapters.57.title}"
+}

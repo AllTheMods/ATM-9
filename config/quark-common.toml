@@ -10,10 +10,18 @@
 
 [management]
 	"Inventory Sorting" = false
-
+	"Automatic Tool Restock" = false
+	"Easy Transfering" = true
+	"Expanded Item Interactions" = true
+	"Hotbar Changer" = true
+	"Item Sharing" = true
+	"Quick Armor Swapping" = true
+	
 [tweaks]
 	"Automatic Recipe Unlock" = false
 	"Simple Harvest" = false
+	"Slabs To Blocks" = true
+
 
 	[tweaks.utility_recipes]
 		"Easy Sticks" = false
@@ -53,3 +61,20 @@
 	Thatch = true
 	"Variant Bookshelves" = true
 	"Variant Chests" = false
+	"Variant Furnaces" = true
+	"Variant Ladders" = true
+	"Vertical Planks" = true
+	"Vertical Slabs" = true
+	"Wooden Posts" = true
+	"More Stone Variants" = true
+
+
+
+	[tweaks.double_door_opening]
+		"Enable Doors" = true
+		"Enable Fence Gates" = true
+		#This feature disables itself if any of the following mods are loaded:
+		# - utilitix
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = true
