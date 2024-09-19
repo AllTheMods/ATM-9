@@ -214,7 +214,7 @@
 			y: 9.5d
 		}
 	]
-	order_index: 9
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
@@ -893,7 +893,6 @@
 			description: ["{atm9.quest.railcraft.desc.borehead.1}"]
 			id: "2AB0FA084739827A"
 			rewards: [{
-				Count: 1
 				id: "3339D792B18E6ABC"
 				item: {
 					Count: 1
@@ -1888,9 +1887,9 @@
 				id: "7B128D5D8D5530A8"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.railcraft.title.colorlegend}"
 			x: 0.0d
 			y: -0.5d
-			title: "{atm9.quest.railcraft.title.colorlegend}"
 		}
 		{
 			can_repeat: false
@@ -1912,19 +1911,19 @@
 					Icon: "minecraft:item/barrier"
 				}
 			}
-			id: "238556F4074D52B2"
+			id: "400911F350304876"
 			invisible: true
 			optional: true
 			shape: "octagon"
 			tasks: [
 				{
 					disable_toast: true
-					id: "68EBBA284DFE0E53"
+					id: "2FC0A8C586F89F82"
 					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}
 				{
-					id: "726CDC928AF8CE05"
+					id: "6D73E894ABA14D6D"
 					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}

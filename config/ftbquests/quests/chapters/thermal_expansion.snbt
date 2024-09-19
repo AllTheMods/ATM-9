@@ -5,7 +5,16 @@
 	group: "2B51AC12041E3F89"
 	icon: "thermal:machine_frame"
 	id: "658721DF03EC997D"
-	order_index: 10
+	images: [{
+		height: 0.3d
+		hover: ["atm9.quest.ae2.img.star"]
+		image: "allthetweaks:item/atm_star"
+		rotation: 0.0d
+		width: 0.3d
+		x: 4.2d
+		y: 3.2d
+	}]
+	order_index: 12
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

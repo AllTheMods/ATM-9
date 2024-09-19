@@ -197,8 +197,8 @@
 				title: "{atm9.quest.welcome.translations}"
 				type: "checkmark"
 			}]
-			x: -1.7999999999999998d
-			y: 1.7999999999999998d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			can_repeat: false
@@ -238,31 +238,7 @@
 				}
 			]
 			x: 0.0d
-			y: 3.0d
-		}
-		{
-			can_repeat: true
-			description: ["There's two types of Guides: Guides outside of the game, like Wikis, and Ingame Guides, ususally made with Books. In order to make getting the Ingame Guides easier I put all I could find into the Rewards! Feel free to take whichever and how many you need! ATM Modpacks also have their own Guide page on Github, take the link to open it. "]
-			guide_page: "https://allthemods.github.io/alltheguides/"
-			icon: "minecraft:writable_book"
-			icon_scale: 1.1d
-			id: "3A3624257D4CC4DF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "330DD630678D4CB2"
-				table_id: 8131322216268226423L
-				type: "choice"
-			}]
-			shape: "rsquare"
-			size: 1.8d
-			tasks: [{
-				id: "48F0EC16A10A86B4"
-				title: "All The Guides"
-				type: "checkmark"
-			}]
-			title: "All The Guides"
-			x: 1.7999999999999998d
-			y: 1.7999999999999998d
+			y: 6.0d
 		}
 	]
 	title: "{atm9.chapters.1.title}"

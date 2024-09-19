@@ -92,7 +92,6 @@
 	quests: [
 		{
 			description: ["{atm9.quest.pylons.desc.pylonsintro.1}"]
-			title: "{atm9.quest.pylons.title.pylonsintro}"
 			id: "30B0240543253EFB"
 			rewards: [{
 				id: "2795AB11AF5A08CD"
@@ -106,15 +105,16 @@
 				item: "minecraft:polished_blackstone"
 				type: "item"
 			}]
+			title: "{atm9.quest.pylons.title.pylonsintro}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			description: ["{atm9.quest.pylons.desc.expulsion.1}"]
 			dependencies: [
 				"30B0240543253EFB"
 				"403F76908A8A5661"
 			]
+			description: ["{atm9.quest.pylons.desc.expulsion.1}"]
 			id: "32E52AD6EF194A60"
 			rewards: [
 				{
@@ -140,11 +140,11 @@
 			y: -1.7999999999999998d
 		}
 		{
-			description: ["{atm9.quest.pylons.desc.interdiction.1}"]
 			dependencies: [
 				"30B0240543253EFB"
 				"011F787E620DE9E8"
 			]
+			description: ["{atm9.quest.pylons.desc.interdiction.1}"]
 			id: "5B5FC539BD1F4A73"
 			rewards: [
 				{
@@ -170,11 +170,11 @@
 			y: 1.7999999999999998d
 		}
 		{
-			description: ["{atm9.quest.pylons.desc.harvester.1}"]
 			dependencies: [
 				"30B0240543253EFB"
 				"034A9FBCA6D79BB6"
 			]
+			description: ["{atm9.quest.pylons.desc.harvester.1}"]
 			id: "12ED1EE85E146A4B"
 			rewards: [
 				{
@@ -200,11 +200,11 @@
 			y: 1.7999999999999998d
 		}
 		{
-			description: ["{atm9.quest.pylons.desc.infusion.1}"]
 			dependencies: [
 				"30B0240543253EFB"
 				"09D18512037386C1"
 			]
+			description: ["{atm9.quest.pylons.desc.infusion.1}"]
 			id: "18246A48C20B29D8"
 			rewards: [
 				{
@@ -290,10 +290,15 @@
 		}
 		{
 			description: ["{atm9.quest.pylons.desc.harvesterex.1}"]
-			icon: "minecraft:diamond_hoe"
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "034A9FBCA6D79BB6"
 			rewards: [{
-				Count: 1
 				id: "42FFCBCEDF641E38"
 				item: {
 					Count: 1
@@ -344,25 +349,25 @@
 					Icon: "minecraft:item/barrier"
 				}
 			}
-			id: "238556F4074D52B2"
+			id: "0D3CF665C08B598F"
 			invisible: true
 			optional: true
 			shape: "octagon"
 			tasks: [
 				{
 					disable_toast: true
-					id: "68EBBA284DFE0E53"
+					id: "0CFA4AF383BCA317"
 					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}
 				{
-					id: "726CDC928AF8CE05"
+					id: "3B01B790551E8BB0"
 					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}
 			]
 			x: 0.0d
-			y: -3.0d
+			y: -2.0d
 		}
 	]
 	title: "{atm9.chapters.57.title}"

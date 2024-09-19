@@ -354,19 +354,11 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "7B799249998BA7E4"
-					item: "gtceu:iv_processing_array"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "188A83D9504A8470"
-					title: "{atm9.quest.gregtech.observeIVArray}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "7B799249998BA7E4"
+				item: "gtceu:iv_processing_array"
+				type: "item"
+			}]
 			x: -7.0d
 			y: 5.5d
 		}
@@ -1234,19 +1226,11 @@
 				table_id: 6202000790833671070L
 				type: "loot"
 			}]
-			tasks: [
-				{
-					id: "74509DEDE480E6D3"
-					item: "gtceu:large_chemical_reactor"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "1038F300D9F8EF3C"
-					title: "{atm9.quest.gregtech.largeChemicalReactor}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "74509DEDE480E6D3"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -2.200000000000001d
 		}

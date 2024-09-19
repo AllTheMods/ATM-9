@@ -84,10 +84,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-			 "{atm9.quest.modular_router.desc.intro.1}"
-			]
-			title: ["{atm9.quest.modular_router.title.intro}"]
+			description: ["{atm9.quest.modular_router.desc.intro.1}"]
 			id: "63E4529AF8894018"
 			rewards: [{
 				count: 3
@@ -107,10 +104,7 @@
 		}
 		{
 			dependencies: ["63E4529AF8894018"]
-			description: [
-			 "{atm9.quest.modular_router.desc.modules.1}"
-			]
-			title: ["{atm9.quest.modular_router.title.modules}"]
+			description: ["{atm9.quest.modular_router.desc.modules.1}"]
 			icon_scale: 1.6d
 			id: "233C7CAA573D6045"
 			rewards: [{
@@ -130,10 +124,7 @@
 		}
 		{
 			dependencies: ["63E4529AF8894018"]
-			description: [
-			 "{atm9.quest.modular_router.desc.upgrades.1}"
-			]
-			title: ["{atm9.quest.modular_router.title.upgrades}"]
+			description: ["{atm9.quest.modular_router.desc.upgrades.1}"]
 			icon_scale: 1.6d
 			id: "75FE0B514448865B"
 			rewards: [{
@@ -153,10 +144,7 @@
 		}
 		{
 			dependencies: ["63E4529AF8894018"]
-			description: [
-			 "{atm9.quest.modular_router.desc.augments.1}"
-			]
-			title: ["{atm9.quest.modular_router.title.augments}"]
+			description: ["{atm9.quest.modular_router.desc.augments.1}"]
 			icon_scale: 1.6d
 			id: "6648BC7D14233006"
 			rewards: [{
@@ -176,9 +164,7 @@
 		}
 		{
 			dependencies: ["75FE0B514448865B"]
-			description: [
-			 "{atm9.quest.modular_router.desc.blast_routers.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.blast_routers.1}"]
 			id: "20D4568857887D38"
 			rewards: [{
 				count: 3
@@ -196,9 +182,7 @@
 		}
 		{
 			dependencies: ["75FE0B514448865B"]
-			description: [
-			 "{atm9.quest.modular_router.desc.camouflage_routers.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.camouflage_routers.1}"]
 			id: "09E25B1CD6CABD5A"
 			rewards: [{
 				count: 3
@@ -216,9 +200,7 @@
 		}
 		{
 			dependencies: ["75FE0B514448865B"]
-			description: [
-			 "{atm9.quest.modular_router.desc.energy_upgrade.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.energy_upgrade.1}"]
 			id: "1069244EB72F64CA"
 			rewards: [{
 				count: 3
@@ -236,9 +218,7 @@
 		}
 		{
 			dependencies: ["75FE0B514448865B"]
-			description: [
-			 "{atm9.quest.modular_router.desc.fluid_upgrade.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.fluid_upgrade.1}"]
 			id: "4FA5192164E4A427"
 			rewards: [{
 				count: 3
@@ -256,9 +236,7 @@
 		}
 		{
 			dependencies: ["75FE0B514448865B"]
-			description: [
-			 "{atm9.quest.modular_router.desc.muffler_upgrade.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.muffler_upgrade.1}"]
 			id: "2447208F1DC74FFE"
 			rewards: [{
 				count: 3
@@ -276,9 +254,7 @@
 		}
 		{
 			dependencies: ["75FE0B514448865B"]
-			description: [
-			 "{atm9.quest.modular_router.desc.security_upgrade.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.security_upgrade.1}"]
 			id: "10672B5991E5FC34"
 			rewards: [{
 				count: 3
@@ -296,9 +272,7 @@
 		}
 		{
 			dependencies: ["75FE0B514448865B"]
-			description: [
-			 "{atm9.quest.modular_router.desc.speed_upgrade.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.speed_upgrade.1}"]
 			id: "309B6B8368E535A0"
 			rewards: [{
 				count: 3
@@ -316,9 +290,7 @@
 		}
 		{
 			dependencies: ["75FE0B514448865B"]
-			description: [
-			 "{atm9.quest.modular_router.desc.stack_upgrade.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.stack_upgrade.1}"]
 			id: "4CC963F5AECF285A"
 			rewards: [{
 				count: 3
@@ -336,9 +308,7 @@
 		}
 		{
 			dependencies: ["75FE0B514448865B"]
-			description: [
-			 "{atm9.quest.modular_router.desc.sync_upgrade.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.sync_upgrade.1}"]
 			id: "553C44F85E508DE3"
 			rewards: [{
 				count: 3
@@ -356,9 +326,7 @@
 		}
 		{
 			dependencies: ["6648BC7D14233006"]
-			description: [
-			 "{atm9.quest.modular_router.desc.pickup_augment.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.pickup_augment.1}"]
 			id: "0CE236731DF15DFF"
 			rewards: [{
 				count: 3
@@ -376,9 +344,7 @@
 		}
 		{
 			dependencies: ["6648BC7D14233006"]
-			description: [
-			 "{atm9.quest.modular_router.desc.robin_augment.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.robin_augment.1}"]
 			id: "76062D375E4CC8DD"
 			rewards: [{
 				count: 3
@@ -396,9 +362,7 @@
 		}
 		{
 			dependencies: ["6648BC7D14233006"]
-			description: [
-			 "{atm9.quest.modular_router.desc.mimic_augment.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.mimic_augment.1}"]
 			id: "2DD5F0693780B10A"
 			rewards: [{
 				count: 3
@@ -416,9 +380,7 @@
 		}
 		{
 			dependencies: ["6648BC7D14233006"]
-			description: [
-			 "{atm9.quest.modular_router.desc.augment_core.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.augment_core.1}"]
 			id: "674F28BCA2E4A3C8"
 			rewards: [{
 				count: 3
@@ -436,10 +398,7 @@
 		}
 		{
 			dependencies: ["6648BC7D14233006"]
-			description: [
-			 "{atm9.quest.modular_router.desc.delay_augment.1}"
-			]
-			title: ["{atm9.quest.modular_router.title.}"]
+			description: ["{atm9.quest.modular_router.desc.delay_augment.1}"]
 			id: "177396B9C4F9B3E2"
 			rewards: [{
 				count: 3
@@ -457,9 +416,7 @@
 		}
 		{
 			dependencies: ["6648BC7D14233006"]
-			description: [
-			 "{atm9.quest.modular_router.desc.pushing_augment.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.pushing_augment.1}"]
 			id: "5560F303C452E110"
 			rewards: [{
 				count: 3
@@ -477,9 +434,7 @@
 		}
 		{
 			dependencies: ["6648BC7D14233006"]
-			description: [
-			 "{atm9.quest.modular_router.desc.range_down_augment.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.range_down_augment.1}"]
 			id: "1A806C1A54B26EB5"
 			rewards: [{
 				count: 3
@@ -497,9 +452,7 @@
 		}
 		{
 			dependencies: ["6648BC7D14233006"]
-			description: [
-			 "{atm9.quest.modular_router.desc.range_up_augment.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.range_up_augment.1}"]
 			id: "4EAFE7B240AF0A4D"
 			rewards: [{
 				count: 3
@@ -517,9 +470,7 @@
 		}
 		{
 			dependencies: ["6648BC7D14233006"]
-			description: [
-			 "{atm9.quest.modular_router.desc.redstone_augment.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.redstone_augment.1}"]
 			id: "3025081DA6D2B398"
 			rewards: [{
 				count: 3
@@ -540,9 +491,7 @@
 				"6648BC7D14233006"
 				"4CC963F5AECF285A"
 			]
-			description: [
-			 "{atm9.quest.modular_router.desc.stack_augment.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.stack_augment.1}"]
 			id: "5FB29F3F4DF17765"
 			rewards: [{
 				count: 3
@@ -560,9 +509,7 @@
 		}
 		{
 			dependencies: ["6648BC7D14233006"]
-			description: [
-			 "{atm9.quest.modular_router.desc.xp_vacuum_augment.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.xp_vacuum_augment.1}"]
 			id: "6B747129A85AA768"
 			rewards: [{
 				count: 3
@@ -580,9 +527,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.activator_module.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.activator_module.1}"]
 			id: "71A1FD0772453B51"
 			rewards: [{
 				count: 3
@@ -600,9 +545,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.breaker_module.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.breaker_module.1}"]
 			id: "53B58FC3958750E7"
 			rewards: [{
 				count: 3
@@ -620,9 +563,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.detector_module.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.detector_module.1}"]
 			id: "01C5D8357D8B0D62"
 			rewards: [{
 				count: 3
@@ -643,9 +584,7 @@
 				"233C7CAA573D6045"
 				"38954551309F42A7"
 			]
-			description: [
-			 "{atm9.quest.modular_router.desc.distributor_module.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.distributor_module.1}"]
 			id: "326C63F7DC713E71"
 			rewards: [{
 				count: 3
@@ -663,9 +602,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.hopper_module.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.hopper_module.1}"]
 			id: "7F8DEDD0A54D1E11"
 			rewards: [{
 				count: 3
@@ -686,9 +623,7 @@
 				"326C63F7DC713E71"
 				"346B9339E3D66478"
 			]
-			description: [
-			 "{atm9.quest.modular_router.desc.energy_distributor_module.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.energy_distributor_module.1}"]
 			id: "2B60D123123A5E8E"
 			rewards: [{
 				count: 3
@@ -706,9 +641,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.energy_output_module.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.energy_output_module.1}"]
 			id: "346B9339E3D66478"
 			rewards: [{
 				count: 3
@@ -730,9 +663,7 @@
 				"53B58FC3958750E7"
 				"36DED7099E80ED51"
 			]
-			description: [
-			 "{atm9.quest.modular_router.desc.extruder_module_1.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.extruder_module_1.1}"]
 			id: "40788326E791845D"
 			rewards: [{
 				count: 3
@@ -750,9 +681,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.extruder_module_2.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.extruder_module_2.1}"]
 			id: "00E1F1279F97557B"
 			rewards: [{
 				count: 3
@@ -770,9 +699,7 @@
 		}
 		{
 			dependencies: ["7F8DEDD0A54D1E11"]
-			description: [
-			 "{atm9.quest.modular_router.desc.flinger_module.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.flinger_module.1}"]
 			id: "3C54C36CE97A48DC"
 			rewards: [{
 				count: 3
@@ -790,9 +717,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.fluid_module_1.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.fluid_module_1.1}"]
 			id: "247DAE5B4E1AC7F1"
 			rewards: [{
 				count: 3
@@ -810,9 +735,7 @@
 		}
 		{
 			dependencies: ["247DAE5B4E1AC7F1"]
-			description: [
-			 "{atm9.quest.modular_router.desc.fluid_module_2.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.fluid_module_2.1}"]
 			id: "73D60868024FF907"
 			rewards: [{
 				count: 3
@@ -830,9 +753,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.placer_module.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.placer_module.1}"]
 			id: "36DED7099E80ED51"
 			rewards: [{
 				count: 3
@@ -850,9 +771,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.player_module.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.player_module.1}"]
 			id: "0DC8B68CDF945348"
 			rewards: [{
 				count: 3
@@ -870,9 +789,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.puller_module_1.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.puller_module_1.1}"]
 			id: "1AA81C41431FD145"
 			rewards: [{
 				count: 3
@@ -890,9 +807,7 @@
 		}
 		{
 			dependencies: ["1AA81C41431FD145"]
-			description: [
-			 "{atm9.quest.modular_router.desc.puller_module_2.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.puller_module_2.1}"]
 			id: "475E1B94A61B9EB0"
 			rewards: [{
 				count: 3
@@ -910,9 +825,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.sender_module_1.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.sender_module_1.1}"]
 			id: "6063F4B7BE4D394C"
 			rewards: [{
 				count: 3
@@ -930,9 +843,7 @@
 		}
 		{
 			dependencies: ["6063F4B7BE4D394C"]
-			description: [
-			 "{atm9.quest.modular_router.desc.sender_module_2.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.sender_module_2.1}"]
 			id: "38954551309F42A7"
 			rewards: [{
 				count: 3
@@ -950,9 +861,7 @@
 		}
 		{
 			dependencies: ["38954551309F42A7"]
-			description: [
-			 "{atm9.quest.modular_router.desc.sender_module_3.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.sender_module_3.1}"]
 			id: "2405663C033CBDF1"
 			rewards: [{
 				count: 3
@@ -970,9 +879,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.vacuum_module.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.vacuum_module.1}"]
 			id: "417B88FEB1B8F44E"
 			rewards: [{
 				count: 3
@@ -990,9 +897,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.void_module.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.void_module.1}"]
 			id: "185074907753AE77"
 			rewards: [{
 				count: 3
@@ -1010,9 +915,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.troll_module.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.troll_module.1}"]
 			icon: "modularrouters:creative_module"
 			id: "71FDF8CD953E46FC"
 			rewards: [{
@@ -1030,9 +933,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: [
-			 "{atm9.quest.modular_router.desc.bulk_item_filter.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.bulk_item_filter.1}"]
 			id: "143AE6889BDA9EF5"
 			tasks: [{
 				id: "3057A10D6D3A75D2"
@@ -1044,9 +945,7 @@
 		}
 		{
 			dependencies: ["143AE6889BDA9EF5"]
-			description: [
-			 "{atm9.quest.modular_router.desc.inspection_filter.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.inspection_filter.1}"]
 			id: "4A03A671757B2EBF"
 			tasks: [{
 				id: "107FE3495FC5C0E7"
@@ -1058,9 +957,7 @@
 		}
 		{
 			dependencies: ["143AE6889BDA9EF5"]
-			description: [
-			 "{atm9.quest.modular_router.desc.mod_filter.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.mod_filter.1}"]
 			id: "6E5954C257726F86"
 			tasks: [{
 				id: "5BBF911BE5066A17"
@@ -1072,9 +969,7 @@
 		}
 		{
 			dependencies: ["143AE6889BDA9EF5"]
-			description: [
-			 "{atm9.quest.modular_router.desc.regex_filter.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.regex_filter.1}"]
 			id: "72A71E1D6D8996FD"
 			tasks: [{
 				id: "6E646B9915327365"
@@ -1086,9 +981,7 @@
 		}
 		{
 			dependencies: ["143AE6889BDA9EF5"]
-			description: [
-			 "{atm9.quest.modular_router.desc.tag_filter.1}"
-			]
+			description: ["{atm9.quest.modular_router.desc.tag_filter.1}"]
 			id: "37F2BE3C2BAF7C2D"
 			tasks: [{
 				id: "7264131AC34825C1"
@@ -1101,11 +994,10 @@
 		{
 			dependencies: ["63E4529AF8894018"]
 			description: [
-			  "{atm9.quest.modular_router.desc.mob_farm.1}"
-			  ""
-			  "{image:atm:textures/questpics/router/router_mob.png width:200 height:75 align:center}"
+				"{atm9.quest.modular_router.desc.mob_farm.1}"
+				""
+				"{image:atm:textures/questpics/router/router_mob.png width:200 height:75 align:center}"
 			]
-			title: ["{atm9.quest.modular_router.title.mob_farm}"]
 			id: "53A5F5E49EA8D5AF"
 			shape: "rsquare"
 			size: 1.3d
@@ -1160,11 +1052,10 @@
 		{
 			dependencies: ["63E4529AF8894018"]
 			description: [
-			 "{atm9.quest.modular_router.desc.mining.1}"
-			 ""
-			 "{image:atm:textures/questpics/router/router_break.png width:150 height:100 align:center}"
+				"{atm9.quest.modular_router.desc.mining.1}"
+				""
+				"{image:atm:textures/questpics/router/router_break.png width:150 height:100 align:center}"
 			]
-			title: ["{atm9.quest.modular_router.title.mining}"]
 			id: "067AB3E4C4492F0D"
 			shape: "rsquare"
 			size: 1.3d
@@ -1186,11 +1077,10 @@
 		{
 			dependencies: ["63E4529AF8894018"]
 			description: [
-			 "{atm9.quest.modular_router.desc.farming.1}"
-			 ""
-			 "{image:atm:textures/questpics/router/router_farm.png width:50 height:150 align:center}"
+				"{atm9.quest.modular_router.desc.farming.1}"
+				""
+				"{image:atm:textures/questpics/router/router_farm.png width:50 height:150 align:center}"
 			]
-			title: ["{atm9.quest.modular_router.title.farming}"]
 			id: "0D5691403AEC25A8"
 			shape: "rsquare"
 			size: 1.3d
@@ -1229,19 +1119,19 @@
 					Icon: "minecraft:item/barrier"
 				}
 			}
-			id: "238556F4074D52B2"
+			id: "0B4A47150708D7A0"
 			invisible: true
 			optional: true
 			shape: "octagon"
 			tasks: [
 				{
 					disable_toast: true
-					id: "68EBBA284DFE0E53"
+					id: "00108F057048935C"
 					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}
 				{
-					id: "726CDC928AF8CE05"
+					id: "59ABF1A82597A34D"
 					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}

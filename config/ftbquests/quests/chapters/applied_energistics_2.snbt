@@ -553,12 +553,7 @@
 			subtitle: "{atm9.quest.ae2.subt.autocrafting}"
 			tasks: [
 				{
-					id: "299121F0AFF40604"
-					item: "ae2:pattern_access_terminal"
-					type: "item"
-				}
-				{
-					id: "3BBE3E1DF01C8EDF"
+					id: "338A6DA0D711B7DC"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
@@ -566,8 +561,12 @@
 							value: "ae2:pattern_provider"
 						}
 					}
-					match_nbt: false
-					title: "Any #ae2:pattern_provider"
+					title: "ME Pattern Provider"
+					type: "item"
+				}
+				{
+					id: "299121F0AFF40604"
+					item: "ae2:pattern_access_terminal"
 					type: "item"
 				}
 			]

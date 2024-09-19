@@ -2004,7 +2004,7 @@
 			icon: "gtceu:cinnabar_ore"
 			id: "4BACAC18E4B982DA"
 			tasks: [{
-				id: "5315A5F05ADBD651"
+				id: "7F7725AF8B2A5B13"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -2048,7 +2048,7 @@
 			}]
 			subtitle: "{atm9.quest.gregtech.subt.sapphireSource}"
 			tasks: [{
-				id: "58E53FAAE8FBF470"
+				id: "558C014604ECC490"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -2060,11 +2060,11 @@
 							}
 							{
 								Count: 1b
-								id: "gtceu:green_sapphire_gem"
+								id: "gtceu:pyrope_gem"
 							}
 							{
 								Count: 1b
-								id: "gtceu:pyrope_gem"
+								id: "gtceu:green_sapphire_gem"
 							}
 							{
 								Count: 1b
@@ -2076,11 +2076,11 @@
 							}
 							{
 								Count: 1b
-								id: "gtceu:green_sapphire_ore"
+								id: "gtceu:pyrope_ore"
 							}
 							{
 								Count: 1b
-								id: "gtceu:pyrope_ore"
+								id: "gtceu:green_sapphire_ore"
 							}
 							{
 								Count: 1b

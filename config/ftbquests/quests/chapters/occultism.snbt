@@ -237,8 +237,17 @@
 			x: 6.0d
 			y: 5.5d
 		}
+		{
+			height: 0.3d
+			hover: ["atm9.quest.ae2.img.star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 17.2d
+			y: 7.0d
+		}
 	]
-	order_index: 7
+	order_index: 8
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -786,7 +795,7 @@
 					type: "item"
 				}
 				{
-					id: "24E5E7DF7ACDACAE"
+					id: "7A7B7E12E048B1D1"
 					item: "minecraft:gold_ingot"
 					type: "item"
 				}

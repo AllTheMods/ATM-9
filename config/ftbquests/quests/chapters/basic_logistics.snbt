@@ -107,10 +107,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"{atm9.quest.basic_logistics.desc.pipezintro.1}"
-			]
-			title: "{atm9.quest.basic_logistics.title.pipezintro}"
+			description: ["{atm9.quest.basic_logistics.desc.pipezintro.1}"]
 			id: "2329AA0AFBEF1E13"
 			rewards: [{
 				count: 3
@@ -125,6 +122,7 @@
 				item: "pipez:wrench"
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.pipezintro}"
 			x: 1.0d
 			y: 1.0d
 		}
@@ -135,7 +133,6 @@
 				""
 				"{image:atm:textures/questpics/logistics/pipez_item.png width:200 height:50 align:center}"
 			]
-			title: "{atm9.quest.basic_logistics.title.itempipez}"
 			id: "36836AD948F96B9F"
 			rewards: [{
 				count: 16
@@ -149,6 +146,7 @@
 				item: "pipez:item_pipe"
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.itempipez}"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -159,7 +157,6 @@
 				""
 				"{image:atm:textures/questpics/logistics/pipez_fluid.png width:200 height:50 align:center}"
 			]
-			title: "{atm9.quest.basic_logistics.title.fluidpipez}"
 			id: "33433A443B65D252"
 			min_width: 250
 			rewards: [{
@@ -174,6 +171,7 @@
 				item: "pipez:fluid_pipe"
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.fluidpipez}"
 			x: 1.0d
 			y: -0.5d
 		}
@@ -184,7 +182,6 @@
 				""
 				"{image:atm:textures/questpics/logistics/pipez_energy.png width:200 height:50 align:center}"
 			]
-			title: "{atm9.quest.basic_logistics.title.energypipez}"
 			id: "53EC96FA0E7C4ED4"
 			rewards: [{
 				count: 16
@@ -198,6 +195,7 @@
 				item: "pipez:energy_pipe"
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.energypipez}"
 			x: 2.0d
 			y: -0.5d
 		}
@@ -212,7 +210,6 @@
 				""
 				"{image:atm:textures/questpics/logistics/pipez_universal.png width:200 height:50 align:center}"
 			]
-			title: "{atm9.quest.basic_logistics.title.universalpipez}"
 			id: "4FBAB3A0FBF8CE2F"
 			rewards: [{
 				count: 16
@@ -226,6 +223,7 @@
 				item: "pipez:universal_pipe"
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.universalpipez}"
 			x: 1.0d
 			y: -1.5d
 		}
@@ -236,7 +234,6 @@
 				""
 				"{image:atm:textures/questpics/logistics/pipez_gas.png width:200 height:50 align:center}"
 			]
-			title: "{atm9.quest.basic_logistics.title.gaspipez}"
 			id: "2F4458E9921DEB86"
 			rewards: [{
 				count: 16
@@ -250,14 +247,13 @@
 				item: "pipez:gas_pipe"
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.gaspipez}"
 			x: -0.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["2329AA0AFBEF1E13"]
-			description: [
-				"{atm9.quest.basic_logistics.desc.filtering.1}"
-			]
+			description: ["{atm9.quest.basic_logistics.desc.filtering.1}"]
 			id: "2A976D41F79C34B1"
 			rewards: [{
 				id: "11D2714AB566A00B"
@@ -276,10 +272,7 @@
 		}
 		{
 			dependencies: ["2329AA0AFBEF1E13"]
-			description: [
-				"{atm9.quest.basic_logistics.desc.upgrades.1}"
-			]
-			title: "{atm9.quest.basic_logistics.title.upgrades}"
+			description: ["{atm9.quest.basic_logistics.desc.upgrades.1}"]
 			id: "6A962535CD68713E"
 			rewards: [{
 				id: "4DDD2CDC825A9BE3"
@@ -321,14 +314,12 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.upgrades}"
 			x: 2.5d
 			y: 0.5d
 		}
 		{
-			description: [
-				"{atm9.quest.basic_logistics.desc.mekanism.1}"
-			]
-			title: "{atm9.quest.basic_logistics.title.mekanism}"
+			description: ["{atm9.quest.basic_logistics.desc.mekanism.1}"]
 			id: "34CFE1439262AA72"
 			rewards: [{
 				count: 3
@@ -343,14 +334,12 @@
 				item: "mekanism:configurator"
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.mekanism}"
 			x: 8.0d
 			y: 1.0d
 		}
 		{
-			description: [
-				"{atm9.quest.basic_logistics.desc.integrateddynamics.1}"
-			]
-			title: "{atm9.quest.basic_logistics.title.integrateddynamics}"
+			description: ["{atm9.quest.basic_logistics.desc.integrateddynamics.1}"]
 			id: "6E05B62A40D5A891"
 			rewards: [{
 				count: 3
@@ -365,6 +354,7 @@
 				item: "integrateddynamics:wrench"
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.integrateddynamics}"
 			x: 4.5d
 			y: 1.0d
 		}
@@ -375,8 +365,6 @@
 				""
 				"{image:atm:textures/questpics/logistics/meka_pipe.png width:200 height:50 align:center}"
 			]
-			title: "{atm9.quest.basic_logistics.title.mechanicalpipes}"
-			subtitle: "{atm9.quest.basic_logistics.subt.mechanicalpipes}"
 			id: "1834B5C1F8435D7A"
 			rewards: [{
 				count: 16
@@ -385,8 +373,9 @@
 				type: "item"
 			}]
 			size: 1.1d
+			subtitle: "{atm9.quest.basic_logistics.subt.mechanicalpipes}"
 			tasks: [{
-				id: "5B7926B511000F1F"
+				id: "42A8569B1AC36DE7"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -395,49 +384,36 @@
 							{
 								Count: 1b
 								id: "mekanism:basic_mechanical_pipe"
-								tag: {
-									Damage: 0
-								}
 							}
 							{
 								Count: 1b
-								id: "advanced_mechanical_pipe"
-								tag: {
-									Damage: 0
-								}
+								id: "mekanism:advanced_mechanical_pipe"
 							}
 							{
 								Count: 1b
-								id: "elite_mechanical_pipe"
-								tag: {
-									Damage: 0
-								}
+								id: "mekanism:elite_mechanical_pipe"
 							}
 							{
 								Count: 1b
-								id: "ultimate_mechanical_pipe"
-								tag: {
-									Damage: 0
-								}
+								id: "mekanism:ultimate_mechanical_pipe"
 							}
 						]
 					}
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.mechanicalpipes}"
 			x: 8.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["34CFE1439262AA72"]
-			icon_scale: 1.3d
 			description: [
 				"{atm9.quest.basic_logistics.desc.universalcables.1}"
 				""
 				"{image:atm:textures/questpics/logistics/meka_cable.png width:200 height:50 align:center}"
 			]
-			title: "{atm9.quest.basic_logistics.title.universalcables}"
-			subtitle: "{atm9.quest.basic_logistics.subt.universalcables}"
+			icon_scale: 1.3d
 			id: "493D04D954E4FBA0"
 			rewards: [{
 				count: 16
@@ -446,6 +422,7 @@
 				type: "item"
 			}]
 			size: 1.1d
+			subtitle: "{atm9.quest.basic_logistics.subt.universalcables}"
 			tasks: [{
 				id: "4448DE84ABA737BE"
 				item: {
@@ -486,6 +463,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.universalcables}"
 			x: 9.0d
 			y: -0.5d
 		}
@@ -496,8 +474,6 @@
 				""
 				"{image:atm:textures/questpics/logistics/meka_transporter.png width:200 height:50 align:center}"
 			]
-			title: "{atm9.quest.basic_logistics.title.logicaltrasporters}"
-			subtitle: "{atm9.quest.basic_logistics.subt.logicaltrasporters}"
 			id: "30DE4F5BC3EDB555"
 			rewards: [{
 				count: 16
@@ -506,6 +482,7 @@
 				type: "item"
 			}]
 			size: 1.1d
+			subtitle: "{atm9.quest.basic_logistics.subt.logicaltrasporters}"
 			tasks: [{
 				id: "337725ECA2C04090"
 				item: {
@@ -546,19 +523,18 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.logicaltrasporters}"
 			x: 7.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["34CFE1439262AA72"]
-			icon_scale: 1.3d
 			description: [
 				"{atm9.quest.basic_logistics.desc.thermconductors.1}"
 				""
 				"{image:atm:textures/questpics/logistics/meka_conductor.png width:200 height:50 align:center}"
 			]
-			title: "{atm9.quest.basic_logistics.title.thermconductors}"
-			subtitle: "{atm9.quest.basic_logistics.subt.thermconductors}"
+			icon_scale: 1.3d
 			id: "316B513FE568EF57"
 			rewards: [{
 				count: 16
@@ -567,6 +543,7 @@
 				type: "item"
 			}]
 			size: 1.1d
+			subtitle: "{atm9.quest.basic_logistics.subt.thermconductors}"
 			tasks: [{
 				id: "79E961F671475850"
 				item: {
@@ -607,19 +584,18 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.thermconductors}"
 			x: 8.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["34CFE1439262AA72"]
-			icon_scale: 1.3d
 			description: [
 				"{atm9.quest.basic_logistics.desc.pressurizedtubes.1}"
 				""
 				"{image:atm:textures/questpics/logistics/meka_tube.png width:200 height:50 align:center}"
 			]
-			title: "{atm9.quest.basic_logistics.title.pressurizedtubes}"
-			subtitle: "{atm9.quest.basic_logistics.subt.pressurizedtubes}"
+			icon_scale: 1.3d
 			id: "4BC2D7FCDD792DBA"
 			rewards: [{
 				count: 16
@@ -628,8 +604,9 @@
 				type: "item"
 			}]
 			size: 1.1d
+			subtitle: "{atm9.quest.basic_logistics.subt.pressurizedtubes}"
 			tasks: [{
-				id: "2BA7FC10243AA011"
+				id: "62228D4E878D28AE"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -638,45 +615,32 @@
 							{
 								Count: 1b
 								id: "mekanism:basic_pressurized_tube"
-								tag: {
-									Damage: 0
-								}
 							}
 							{
 								Count: 1b
-								id: "mekanism:basic_pressurized_tube"
-								tag: {
-									Damage: 0
-								}
+								id: "mekanism:advanced_pressurized_tube"
 							}
 							{
 								Count: 1b
 								id: "mekanism:elite_pressurized_tube"
-								tag: {
-									Damage: 0
-								}
 							}
 							{
 								Count: 1b
 								id: "mekanism:ultimate_pressurized_tube"
-								tag: {
-									Damage: 0
-								}
 							}
 						]
 					}
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.pressurizedtubes}"
 			x: 7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6E05B62A40D5A891"]
+			description: ["{atm9.quest.basic_logistics.desc.logiccables.1}"]
 			icon_scale: 1.5d
-			description: [
-				"{atm9.quest.basic_logistics.desc.logiccables.1}"
-			]
 			id: "6112956E19017D2D"
 			rewards: [{
 				count: 16
@@ -694,10 +658,7 @@
 			y: 0.0d
 		}
 		{
-			description: [
-				"{atm9.quest.basic_logistics.desc.logistics.1}"
-			]
-			title: "{atm9.quest.basic_logistics.title.logistics}"
+			description: ["{atm9.quest.basic_logistics.desc.logistics.1}"]
 			id: "6CD7D99AA102A5C3"
 			rewards: [{
 				count: 2
@@ -718,14 +679,13 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.logistics}"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6E05B62A40D5A891"]
-			description: [
-				"{atm9.quest.basic_logistics.desc.variablecards.1}"
-			]
+			description: ["{atm9.quest.basic_logistics.desc.variablecards.1}"]
 			id: "03C40D6A5D722543"
 			rewards: [{
 				count: 4
@@ -748,13 +708,12 @@
 				"6112956E19017D2D"
 				"03C40D6A5D722543"
 			]
-			icon_scale: 1.5d
 			description: [
 				"{atm9.quest.basic_logistics.desc.itemimporter.1}"
 				""
 				"{image:atm:textures/questpics/logistics/id_item.png width:200 height:50 align:center}"
 			]
-			title: "{atm9.quest.basic_logistics.title.itemimporter}"
+			icon_scale: 1.5d
 			id: "6F152402756DA35E"
 			rewards: [
 				{
@@ -783,6 +742,7 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.basic_logistics.title.itemimporter}"
 			x: 3.5d
 			y: -1.0d
 		}
@@ -791,13 +751,12 @@
 				"6112956E19017D2D"
 				"03C40D6A5D722543"
 			]
-			icon_scale: 1.5d
 			description: [
 				"{atm9.quest.basic_logistics.desc.fluidimporter.1}"
 				""
 				"{image:atm:textures/questpics/logistics/id_fluid.png width:200 height:50 align:center}"
 			]
-			title: "{atm9.quest.basic_logistics.title.fluidimporter}"
+			icon_scale: 1.5d
 			id: "034F2CDF0830254B"
 			rewards: [
 				{
@@ -826,6 +785,7 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.basic_logistics.title.fluidimporter}"
 			x: 4.5d
 			y: -1.0d
 		}
@@ -834,13 +794,12 @@
 				"6112956E19017D2D"
 				"03C40D6A5D722543"
 			]
-			icon_scale: 1.5d
 			description: [
 				"{atm9.quest.basic_logistics.desc.energyimporter.1}"
 				""
 				"{image:atm:textures/questpics/logistics/id_energy.png width:200 height:50 align:center}"
 			]
-			title: "{atm9.quest.basic_logistics.title.energyimporter}"
+			icon_scale: 1.5d
 			id: "76CECFB244F39F18"
 			rewards: [
 				{
@@ -869,14 +828,12 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.basic_logistics.title.energyimporter}"
 			x: 5.5d
 			y: -1.0d
 		}
 		{
-			description: [
-				"{atm9.quest.basic_logistics.desc.laserio.1}"
-			]
-			title: "{atm9.quest.basic_logistics.title.laserio}"
+			description: ["{atm9.quest.basic_logistics.desc.laserio.1}"]
 			id: "5F1218CF8EFC607B"
 			rewards: [{
 				count: 4
@@ -891,14 +848,13 @@
 				item: "laserio:logic_chip"
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.laserio}"
 			x: 4.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5F1218CF8EFC607B"]
-			description: [
-				"{atm9.quest.basic_logistics.desc.laserwrench.1}"
-			]
+			description: ["{atm9.quest.basic_logistics.desc.laserwrench.1}"]
 			id: "7BC8F50A89A3BE1A"
 			rewards: [{
 				id: "4665F92118ECF273"
@@ -917,10 +873,8 @@
 		}
 		{
 			dependencies: ["5F1218CF8EFC607B"]
+			description: ["{atm9.quest.basic_logistics.desc.lasernodes.1}"]
 			icon_scale: 2.0d
-			description: [
-				"{atm9.quest.basic_logistics.desc.lasernodes.1}"
-			]
 			id: "5C0F6B1C93A52113"
 			rewards: [{
 				id: "1CDCDE301AFE1521"
@@ -937,10 +891,8 @@
 		}
 		{
 			dependencies: ["5F1218CF8EFC607B"]
+			description: ["{atm9.quest.basic_logistics.desc.basicfilter.1}"]
 			icon_scale: 1.5d
-			description: [
-				"{atm9.quest.basic_logistics.desc.basicfilter.1}"
-			]
 			id: "47A2BEFB11F4D581"
 			rewards: [{
 				count: 2
@@ -959,11 +911,8 @@
 		}
 		{
 			dependencies: ["5F1218CF8EFC607B"]
+			description: ["{atm9.quest.basic_logistics.desc.itemcards.1}"]
 			icon_scale: 1.5d
-			description: [
-				"{atm9.quest.basic_logistics.desc.itemcards.1}"
-			]
-			title: "{atm9.quest.basic_logistics.title.itemcards}"
 			id: "4C41FD926F31180B"
 			rewards: [{
 				count: 2
@@ -977,16 +926,14 @@
 				item: "laserio:card_item"
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.itemcards}"
 			x: 4.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["5F1218CF8EFC607B"]
+			description: ["{atm9.quest.basic_logistics.desc.fluidcards.1}"]
 			icon_scale: 1.5d
-			description: [
-				"{atm9.quest.basic_logistics.desc.fluidcards.1}"
-			]
-			title: "{atm9.quest.basic_logistics.title.fluidcards}"
 			id: "1C70D739CE464E25"
 			rewards: [{
 				count: 2
@@ -1000,16 +947,14 @@
 				item: "laserio:card_fluid"
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.fluidcards}"
 			x: 3.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["5F1218CF8EFC607B"]
+			description: ["{atm9.quest.basic_logistics.desc.energycards.1}"]
 			icon_scale: 1.5d
-			description: [
-				"{atm9.quest.basic_logistics.desc.energycards.1}"
-			]
-			title: "{atm9.quest.basic_logistics.title.energycards}"
 			id: "52F85CED20C8B1E9"
 			rewards: [{
 				count: 2
@@ -1023,16 +968,14 @@
 				item: "laserio:card_energy"
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.energycards}"
 			x: 5.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["5F1218CF8EFC607B"]
+			description: ["{atm9.quest.basic_logistics.desc.redstonecards.1}"]
 			icon_scale: 1.5d
-			description: [
-				"{atm9.quest.basic_logistics.desc.redstonecards.1}"
-			]
-			title: "{atm9.quest.basic_logistics.title.redstonecards}"
 			id: "47768B1FFD57D56E"
 			rewards: [{
 				count: 2
@@ -1046,14 +989,13 @@
 				item: "laserio:card_redstone"
 				type: "item"
 			}]
+			title: "{atm9.quest.basic_logistics.title.redstonecards}"
 			x: 6.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["5F1218CF8EFC607B"]
-			description: [
-				"{atm9.quest.basic_logistics.desc.cardholder.1}"
-			]
+			description: ["{atm9.quest.basic_logistics.desc.cardholder.1}"]
 			id: "617695A9CA45D88F"
 			optional: true
 			rewards: [{
@@ -1072,9 +1014,7 @@
 		}
 		{
 			dependencies: ["5F1218CF8EFC607B"]
-			description: [
-				"{atm9.quest.basic_logistics.desc.cardcloner.1}"
-			]
+			description: ["{atm9.quest.basic_logistics.desc.cardcloner.1}"]
 			id: "308935C85364B04D"
 			optional: true
 			rewards: [{
@@ -1094,10 +1034,8 @@
 		}
 		{
 			dependencies: ["5C0F6B1C93A52113"]
+			description: ["{atm9.quest.basic_logistics.desc.connector.1}"]
 			icon_scale: 1.5d
-			description: [
-				"{atm9.quest.basic_logistics.desc.connector.1}"
-			]
 			id: "7EE27C3908008E20"
 			optional: true
 			rewards: [{
@@ -1115,10 +1053,8 @@
 		}
 		{
 			dependencies: ["47A2BEFB11F4D581"]
+			description: ["{atm9.quest.basic_logistics.desc.counter.1}"]
 			icon_scale: 1.5d
-			description: [
-				"{atm9.quest.basic_logistics.desc.counter.1}"
-			]
 			id: "06767BA0AFE8C1EE"
 			rewards: [{
 				count: 2
@@ -1137,10 +1073,8 @@
 		}
 		{
 			dependencies: ["47A2BEFB11F4D581"]
+			description: ["{atm9.quest.basic_logistics.desc.tags.1}"]
 			icon_scale: 1.5d
-			description: [
-				"{atm9.quest.basic_logistics.desc.tags.1}"
-			]
 			id: "3065EA195D0A36BA"
 			rewards: [{
 				count: 2
@@ -1159,10 +1093,8 @@
 		}
 		{
 			dependencies: ["47A2BEFB11F4D581"]
+			description: ["{atm9.quest.basic_logistics.desc.modfilter.1}"]
 			icon_scale: 1.5d
-			description: [
-				"{atm9.quest.basic_logistics.desc.modfilter.1}"
-			]
 			id: "2A6900E87DE8BAE0"
 			rewards: [{
 				count: 2
@@ -1181,10 +1113,8 @@
 		}
 		{
 			dependencies: ["47A2BEFB11F4D581"]
+			description: ["{atm9.quest.basic_logistics.desc.nbtfilter.1}"]
 			icon_scale: 1.5d
-			description: [
-				"{atm9.quest.basic_logistics.desc.nbtfilter.1}"
-			]
 			id: "374F5557ABAE8360"
 			invisible: true
 			rewards: [{
@@ -1204,9 +1134,7 @@
 		}
 		{
 			dependencies: ["5F1218CF8EFC607B"]
-			description: [
-				"{atm9.quest.basic_logistics.desc.overclockercard.1}"
-			]
+			description: ["{atm9.quest.basic_logistics.desc.overclockercard.1}"]
 			id: "046C417B2ADF3AA7"
 			optional: true
 			rewards: [{
@@ -1225,9 +1153,7 @@
 		}
 		{
 			dependencies: ["5F1218CF8EFC607B"]
-			description: [
-				"{atm9.quest.basic_logistics.desc.overclockernode.1}"
-			]
+			description: ["{atm9.quest.basic_logistics.desc.overclockernode.1}"]
 			id: "0BB562FB44B0AAA7"
 			optional: true
 			rewards: [{
@@ -1264,19 +1190,19 @@
 					Icon: "minecraft:item/barrier"
 				}
 			}
-			id: "238556F4074D52B2"
+			id: "0C2FB631B750646A"
 			invisible: true
 			optional: true
 			shape: "octagon"
 			tasks: [
 				{
 					disable_toast: true
-					id: "68EBBA284DFE0E53"
+					id: "6AED5128FB4ACF75"
 					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}
 				{
-					id: "726CDC928AF8CE05"
+					id: "0C7B081EDB19B519"
 					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}

@@ -872,14 +872,6 @@
 					item: "gtceu:fusion_coil"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "36D48825566366AE"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:zpm_fusion_reactor"
-					type: "observation"
-				}
 			]
 			x: 1.0d
 			y: -7.5d
@@ -1989,14 +1981,6 @@
 					id: "3178FDFBEA274B84"
 					item: "gtceu:zpm_parallel_hatch"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "74165E482074503F"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:advanced_large_chemical_reactor"
-					type: "observation"
 				}
 			]
 			x: -8.0d

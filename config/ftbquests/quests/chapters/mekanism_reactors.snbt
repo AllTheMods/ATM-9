@@ -183,7 +183,7 @@
 		}
 		{
 			height: 0.3d
-			hover: ["{atm9.quest.ae2.img.star}"]
+			hover: ["atm9.quest.ae2.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -192,7 +192,7 @@
 		}
 		{
 			height: 0.3d
-			hover: ["{atm9.quest.ae2.img.star}"]
+			hover: ["atm9.quest.ae2.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -200,7 +200,7 @@
 			y: 0.15d
 		}
 	]
-	order_index: 7
+	order_index: 8
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -583,7 +583,7 @@
 			size: 1.5d
 			subtitle: "{atm9.quest.mekanismReactors.subt.numbers}"
 			tasks: [{
-				id: "507FA84A68E7BF1E"
+				id: "7231A50B09F6218A"
 				item: "mekanismgenerators:fission_reactor_casing"
 				type: "item"
 			}]
@@ -1189,7 +1189,7 @@
 			]
 			shape: "square"
 			tasks: [{
-				id: "25D435C62ED2394B"
+				id: "3CD7CD472E76B554"
 				item: "mekanism:sps_casing"
 				type: "item"
 			}]
@@ -1471,32 +1471,25 @@
 			]
 			shape: "hexagon"
 			size: 3.0d
-			tasks: [
-				{
-					id: "4B63979C49A34565"
-					item: {
-						Count: 1
-						id: "mekanismgenerators:hohlraum"
-						tag: {
-							mekData: {
-								GasTanks: [{
-									Tank: 0b
-									stored: {
-										amount: 10L
-										gasName: "mekanismgenerators:fusion_fuel"
-									}
-								}]
-							}
+			tasks: [{
+				id: "4B63979C49A34565"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:hohlraum"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 10L
+									gasName: "mekanismgenerators:fusion_fuel"
+								}
+							}]
 						}
 					}
-					type: "item"
 				}
-				{
-					id: "56C2F16A27A88208"
-					item: "mekanismgenerators:fusion_reactor_frame"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "{atm9.quest.mekanismReactors.ready}"
 			x: 17.0d
 			y: -7.0d
@@ -1763,7 +1756,7 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "3F3774733FECDCA0"
+				id: "16269C92EF34FB14"
 				item: "mekanismgenerators:turbine_casing"
 				type: "item"
 			}]
@@ -1989,7 +1982,7 @@
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				id: "3A2A57ABF6842BE9"
+				id: "271A066A74F1995C"
 				item: "mekanism:induction_casing"
 				type: "item"
 			}]

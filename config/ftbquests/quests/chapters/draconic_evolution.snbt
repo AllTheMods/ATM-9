@@ -55,7 +55,7 @@
 			y: -7.5d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -691,7 +691,7 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "74564F99150BB68E"
+				id: "6A516E772C246DFE"
 				item: "draconicevolution:infused_obsidian"
 				type: "item"
 			}]

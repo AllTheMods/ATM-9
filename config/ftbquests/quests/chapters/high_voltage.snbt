@@ -245,19 +245,11 @@
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.subt.squeakyClean}"
-			tasks: [
-				{
-					id: "564B0D84C5688FF2"
-					item: "gtceu:cleanroom"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "3DA6D564BBFB1F50"
-					title: "{atm9.quest.gregtech.title.observeCompletedCleanroom}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "564B0D84C5688FF2"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 5.500000000000005d
 		}

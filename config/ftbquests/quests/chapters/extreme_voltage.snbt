@@ -364,19 +364,11 @@
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.subt.realFluidProcessing}"
-			tasks: [
-				{
-					id: "2A5387EF0991FC1D"
-					item: "gtceu:distillation_tower"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "6DE94C2C7F4B9AC7"
-					title: "{atm9.quest.gregtech.observeDistillationTower}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "2A5387EF0991FC1D"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 3.5d
 		}
@@ -402,12 +394,6 @@
 					id: "74FCADB757C762B9"
 					item: "gtceu:vacuum_freezer"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "7536DA5A948671F2"
-					title: "{atm9.quest.gregtech.observeVacuumFreezer}"
-					type: "custom"
 				}
 				{
 					id: "5F18E278ABC418FE"
@@ -758,19 +744,11 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "72661F65A697879A"
-					item: "gtceu:pyrolyse_oven"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "5FAE011B2417FAAA"
-					title: "{atm9.quest.gregtech.observePyrolyseOven}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "72661F65A697879A"
+				item: "gtceu:pyrolyse_oven"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 5.5d
 		}
@@ -787,19 +765,11 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5BACD43DF65C2FA9"
-					item: "gtceu:cracker"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "04E3568175E66B6D"
-					title: "{atm9.quest.gregtech.observeCracker}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "5BACD43DF65C2FA9"
+				item: "gtceu:cracker"
+				type: "item"
+			}]
 			x: -3.0d
 			y: 5.5d
 		}

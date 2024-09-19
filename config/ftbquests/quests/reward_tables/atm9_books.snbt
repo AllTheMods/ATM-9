@@ -2,7 +2,7 @@
 	icon: "minecraft:writable_book"
 	id: "70D842795EE8DF77"
 	loot_size: 1
-	order_index: 68
+	order_index: 70
 	rewards: [
 		{ item: "solcarrot:food_book" }
 		{
@@ -20,6 +20,15 @@
 				id: "patchouli:guide_book"
 				tag: {
 					"patchouli:book": "productivebees:guide"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "modonomicon:modonomicon"
+				tag: {
+					"modonomicon:book_id": "modonomicon:demo"
 				}
 			}
 		}

@@ -787,8 +787,14 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["3178C46D9BD7FA88"]
+			dependencies: [
+				"3178C46D9BD7FA88"
+				"72B531D6BCCF42C4"
+				"272CB4EDED35C47B"
+				"1C5E273723637C43"
+			]
 			description: ["{atm9.quest.chapter2.desc.reality}"]
+			hide_dependent_lines: true
 			id: "6EBCCC78DC682CC6"
 			rewards: [
 				{
@@ -2061,6 +2067,7 @@
 		}
 		{
 			dependencies: ["1D7104AE853A3D86"]
+			hide_dependent_lines: true
 			id: "1C5E273723637C43"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2349,7 +2356,19 @@
 			}]
 			tasks: [
 				{
-					id: "3908C778F8451988"
+					id: "36E3BB50691AFC71"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:coal_coke"
+						}
+					}
+					title: "Coal Coke"
+					type: "item"
+				}
+				{
+					id: "3D16AB1FD9007128"
 					item: {
 						Count: 1
 						id: "itemfilters:or"
@@ -2363,22 +2382,14 @@
 									Count: 1b
 									id: "thermal:creosote_bucket"
 								}
+								{
+									Count: 1b
+									id: "railcraft:creosote_bucket"
+								}
 							]
 						}
 					}
 					title: "Creosote Oil Bucket"
-					type: "item"
-				}
-				{
-					id: "36E3BB50691AFC71"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:coal_coke"
-						}
-					}
-					title: "Coal Coke"
 					type: "item"
 				}
 			]
@@ -2767,6 +2778,7 @@
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"769974FDAD5DBEB1\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "72B531D6BCCF42C4"
 			tasks: [{
 				id: "0D368F78760AB4A4"

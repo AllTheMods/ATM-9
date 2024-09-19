@@ -621,7 +621,7 @@
 			}]
 			subtitle: "{atm9.quest.gregtech.subt.longRodsNice.1}"
 			tasks: [{
-				id: "0B0170514E9B5F3E"
+				id: "0F2A644ECAA3770E"
 				item: "gtceu:magnetic_samarium_rod"
 				type: "item"
 			}]
@@ -791,14 +791,6 @@
 					id: "0DD9F4D69C1FE09D"
 					item: "gtceu:laminated_glass"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "47D1A46BB8B2FD70"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:assembly_line"
-					type: "observation"
 				}
 			]
 			x: 3.0d
@@ -1154,14 +1146,6 @@
 					item: "gtceu:tempered_glass"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "034EAE3D86F06F1C"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_cutter"
-					type: "observation"
-				}
 			]
 			x: 2.0d
 			y: 3.5d
@@ -1201,14 +1185,6 @@
 					id: "79959D879E80DA5D"
 					item: "gtceu:corrosion_proof_casing"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "2443181D685B5678"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_brewing_vat"
-					type: "observation"
 				}
 			]
 			x: -2.0d
@@ -1324,14 +1300,6 @@
 					item: "gtceu:vibration_safe_casing"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "4A61569B7AAD6AD0"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_sifting_funnel"
-					type: "observation"
-				}
 			]
 			x: -2.5d
 			y: 8.0d
@@ -1379,14 +1347,6 @@
 					item: "gtceu:tempered_glass"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "7FF2A7C18321D982"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_engraving_laser"
-					type: "observation"
-				}
 			]
 			x: 2.0d
 			y: 4.5d
@@ -1425,14 +1385,6 @@
 					id: "355F08CEAAEA6041"
 					item: "gtceu:high_temperature_smelting_casing"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "7DBA7C0AEABAAC3A"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_arc_smelter"
-					type: "observation"
 				}
 			]
 			x: -3.0d
@@ -1486,14 +1438,6 @@
 					item: "gtceu:tempered_glass"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "51A72B7982E04028"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_circuit_assembler"
-					type: "observation"
-				}
 			]
 			x: -3.0d
 			y: 7.5d
@@ -1533,14 +1477,6 @@
 					id: "33D47D6BBBE88931"
 					item: "gtceu:tempered_glass"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "763B8BD528C50FF3"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_assembler"
-					type: "observation"
 				}
 			]
 			x: -4.0d
@@ -1582,14 +1518,6 @@
 					item: "gtceu:nonconducting_casing"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "7704DFBEFF3F4BFC"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_electromagnet"
-					type: "observation"
-				}
 			]
 			x: 0.0d
 			y: 7.5d
@@ -1629,14 +1557,6 @@
 					id: "6842FE133676D4B2"
 					item: "gtceu:nonconducting_casing"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "7FC8BBB169091341"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_electrolyzer"
-					type: "observation"
 				}
 			]
 			x: -0.5d
@@ -1686,14 +1606,6 @@
 					item: "gtceu:reaction_safe_mixing_casing"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "1E34B345EFB46198"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_mixer"
-					type: "observation"
-				}
 			]
 			x: 1.5d
 			y: 5.5d
@@ -1729,14 +1641,6 @@
 					id: "4FC20F9228321721"
 					item: "gtceu:vibration_safe_casing"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "040583DD9EFA80F1"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_centrifuge"
-					type: "observation"
 				}
 			]
 			x: -1.5d
@@ -1813,14 +1717,6 @@
 					id: "1B9514566B6706ED"
 					item: "gtceu:secure_maceration_casing"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "2D6FC8CBB63E060C"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:large_maceration_tower"
-					type: "observation"
 				}
 			]
 			x: 1.0d
