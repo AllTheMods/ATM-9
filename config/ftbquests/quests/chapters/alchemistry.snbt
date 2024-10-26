@@ -76,22 +76,29 @@
 				}
 			}
 			id: "611891F4FB775BD3"
-			rewards: [{
-				id: "1CBDAF4C25DE4840"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "46C14608A3DD15AA"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "alchemistry:alchemistry_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B09B8AC63A96138"
+					type: "xp"
+					xp: 10
+				}
+			]
 			size: 1.5d
 			subtitle: "{atm9.quest.alchem.subt.basics}"
 			tasks: [{
-				id: "16669E81DC33327A"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "alchemistry:alchemistry_book"
-					}
-				}
+				id: "37801C29C0F1525E"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			title: "{atm9.quest.alchem.basics}"
@@ -660,9 +667,9 @@
 			id: "42B681C59981532C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3CC730F489B2CEA8"
+				id: "3C64C9F7838C3EB6"
 				table_id: 6257329497410426516L
-				type: "loot"
+				type: "random"
 			}]
 			subtitle: "{atm9.quest.alchem.subt.oxide}"
 			tasks: [{
@@ -2780,7 +2787,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["1A988BE2A5158A43"]
+			dependencies: ["71815B287D0F162A"]
 			description: ["{atm9.quest.alchem.desc.Og}"]
 			hide_dependency_lines: true
 			id: "376A8F925F139D7F"

@@ -1,0 +1,22 @@
+{
+	id: "7FB97C5850827C71"
+	loot_size: 1
+	order_index: 55
+	rewards: [
+		{ count: 5, item: "pneumaticcraft:advanced_pressure_tube", random_bonus: 5, weight: 1.5f }
+		{ item: "pneumaticcraft:aphorism_tile", random_bonus: 1, weight: 2.0f }
+		{ count: 2, item: "pneumaticcraft:solar_cell", random_bonus: 1, weight: 2.0f }
+		{ item: "pneumaticcraft:solar_compressor" }
+		{ item: "pneumaticcraft:pneumatic_dynamo" }
+		{ item: "pneumaticcraft:flux_compressor" }
+		{ item: "pneumaticcraft:electrostatic_compressor" }
+		{ item: "pneumaticcraft:advanced_liquid_compressor" }
+		{ item: "pneumaticcraft:large_tank", weight: 2.0f }
+		{ item: "pneumaticcraft:pressurized_spawner", weight: 1.5f }
+		{ item: "pneumaticcraft:reinforced_air_canister", random_bonus: 1, weight: 2.0f }
+		{ item: "pneumaticcraft:jet_boots_upgrade_1" }
+		{ item: "pneumaticcraft:jet_boots_upgrade_2", weight: 0.5f }
+	]
+	title: "PNC: Advanced Tier"
+	use_title: true
+}
