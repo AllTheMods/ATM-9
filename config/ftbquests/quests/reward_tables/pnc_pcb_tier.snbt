@@ -1,0 +1,29 @@
+{
+	id: "43C220CBD5447FE6"
+	loot_size: 1
+	order_index: 51
+	rewards: [
+		{ item: "pneumaticcraft:unassembled_pcb" }
+		{ item: "pneumaticcraft:printed_circuit_board", weight: 0.5f }
+		{ item: "pneumaticcraft:failed_pcb" }
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:micromissiles"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{ item: "pneumaticcraft:drone" }
+		{ item: "pneumaticcraft:drone_interface" }
+		{ item: "pneumaticcraft:programmer" }
+		{ item: "pneumaticcraft:security_station" }
+		{ item: "pneumaticcraft:smart_chest" }
+		{ item: "pneumaticcraft:smart_chest_kit" }
+		{ count: 4, item: "pneumaticcraft:programming_puzzle", random_bonus: 4 }
+	]
+	title: "PNC: PCB Tier"
+	use_title: true
+}

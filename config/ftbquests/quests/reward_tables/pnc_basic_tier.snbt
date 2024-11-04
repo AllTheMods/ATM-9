@@ -1,0 +1,103 @@
+{
+	id: "57002573D954732E"
+	loot_size: 1
+	order_index: 43
+	rewards: [
+		{ count: 10, item: "pneumaticcraft:ingot_iron_compressed", random_bonus: 5, weight: 1.5f }
+		{ count: 10, item: "pneumaticcraft:reinforced_stone", random_bonus: 5, weight: 1.5f }
+		{ count: 5, item: "pneumaticcraft:pressure_tube", random_bonus: 5, weight: 1.5f }
+		{ count: 10, item: "pneumaticcraft:reinforced_bricks", random_bonus: 5, weight: 1.5f }
+		{ count: 5, item: "pneumaticcraft:compressed_stone", random_bonus: 10 }
+		{ item: "pneumaticcraft:air_compressor" }
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:gun_ammo"
+				tag: {
+					Damage: 0
+				}
+			}
+			random_bonus: 1
+			weight: 0.5f
+		}
+		{ item: "pneumaticcraft:compressed_iron_block", random_bonus: 1, weight: 0.5f }
+		{ count: 2, item: "pneumaticcraft:speed_upgrade", random_bonus: 1, weight: 0.75f }
+		{ item: "pneumaticcraft:crop_support" }
+		{ item: "pneumaticcraft:tube_junction" }
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:gun_ammo_ap"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:gun_ammo_explosive"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:gun_ammo_freezing"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:gun_ammo_incendiary"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:gun_ammo_weighted"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{ count: 10, item: "pneumaticcraft:pressure_chamber_wall", random_bonus: 5 }
+		{ item: "pneumaticcraft:pressure_chamber_valve", random_bonus: 2 }
+		{ item: "pneumaticcraft:pressure_chamber_interface" }
+		{ count: 5, item: "pneumaticcraft:pressure_chamber_glass", random_bonus: 5 }
+		{ item: "pneumaticcraft:reinforced_chest" }
+		{ item: "pneumaticcraft:logistics_frame_active_provider", random_bonus: 1 }
+		{ item: "pneumaticcraft:logistics_frame_default_storage", random_bonus: 1 }
+		{ item: "pneumaticcraft:logistics_frame_passive_provider", random_bonus: 1 }
+		{ item: "pneumaticcraft:logistics_frame_requester", random_bonus: 1 }
+		{ item: "pneumaticcraft:logistics_frame_storage", random_bonus: 1 }
+		{ item: "pneumaticcraft:logistics_core", random_bonus: 2 }
+		{ item: "pneumaticcraft:logistics_module" }
+		{ count: 2, item: "pneumaticcraft:small_tank" }
+		{ item: "pneumaticcraft:pressure_gauge" }
+		{ item: "pneumaticcraft:safety_tube_module", random_bonus: 1 }
+		{ item: "pneumaticcraft:liquid_compressor" }
+		{ item: "pneumaticcraft:thermal_compressor" }
+		{ item: "pneumaticcraft:vortex_tube" }
+		{ item: "pneumaticcraft:omnidirectional_hopper" }
+		{ item: "pneumaticcraft:liquid_hopper" }
+		{ item: "pneumaticcraft:transfer_gadget" }
+		{ count: 2, item: "pneumaticcraft:air_canister", random_bonus: 1 }
+		{ item: "pneumaticcraft:manual_compressor", weight: 1.5f }
+	]
+	title: "PNC: Basic Tier"
+	use_title: true
+}
