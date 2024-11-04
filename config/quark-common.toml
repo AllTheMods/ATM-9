@@ -3,6 +3,8 @@
 	"Enable 'q' Button" = false
 	#Set to false to disable the popup message telling you that you can config quark in the q menu
 	"Enable Onboarding" = false
+	#Ensure the insert/extract and shift lock buttons get shown in Sophisticated Storage chests and Sophisticated Backpacks
+ 	"Allowed Screens" = ["net.p3pp3rf1y.sophisticatedstorage.client.gui.StorageScreen", "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen"]
 
 [automation]
 	"Feeding Trough" = false
