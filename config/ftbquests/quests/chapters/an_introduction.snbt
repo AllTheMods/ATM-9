@@ -2004,7 +2004,7 @@
 			icon: "gtceu:cinnabar_ore"
 			id: "4BACAC18E4B982DA"
 			tasks: [{
-				id: "56F3B3D1E09A31E9"
+				id: "7F7725AF8B2A5B13"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -2012,19 +2012,19 @@
 						items: [
 							{
 								Count: 1b
-								id: "gtceu:cinnabar_ore"
-							}
-							{
-								Count: 1b
 								id: "gtceu:cinnabar_gem"
 							}
 							{
 								Count: 1b
-								id: "gtceu:ruby_ore"
+								id: "alltheores:ruby"
 							}
 							{
 								Count: 1b
-								id: "gtceu:ruby_gem"
+								id: "gtceu:cinnabar_ore"
+							}
+							{
+								Count: 1b
+								id: "alltheores:ruby_ore"
 							}
 						]
 					}
@@ -2048,7 +2048,7 @@
 			}]
 			subtitle: "{atm9.quest.gregtech.subt.sapphireSource}"
 			tasks: [{
-				id: "3D55C5B20C7CFDA9"
+				id: "558C014604ECC490"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -2056,15 +2056,7 @@
 						items: [
 							{
 								Count: 1b
-								id: "gtceu:almandine_ore"
-							}
-							{
-								Count: 1b
-								id: "gtceu:almandine_gem"
-							}
-							{
-								Count: 1b
-								id: "gtceu:pyrope_ore"
+								id: "alltheores:sapphire"
 							}
 							{
 								Count: 1b
@@ -2072,11 +2064,19 @@
 							}
 							{
 								Count: 1b
-								id: "gtceu:sapphire_ore"
+								id: "gtceu:green_sapphire_gem"
 							}
 							{
 								Count: 1b
-								id: "gtceu:sapphire_gem"
+								id: "gtceu:almandine_gem"
+							}
+							{
+								Count: 1b
+								id: "alltheores:sapphire_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:pyrope_ore"
 							}
 							{
 								Count: 1b
@@ -2084,7 +2084,7 @@
 							}
 							{
 								Count: 1b
-								id: "gtceu:green_sapphire_gem"
+								id: "gtceu:almandine_ore"
 							}
 						]
 					}

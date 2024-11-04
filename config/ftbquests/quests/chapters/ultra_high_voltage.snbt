@@ -92,14 +92,6 @@
 					item: "allthetweaks:atm_star_block"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "5D68D1F844ED048B"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:star_forge"
-					type: "observation"
-				}
 			]
 			x: -5.0d
 			y: -5.5d
@@ -167,14 +159,6 @@
 					id: "11920FFB5235E181"
 					item: "gtceu:heatproof_machine_casing"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "271B87AFF66246B5"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:mega_fusion_reactor"
-					type: "observation"
 				}
 			]
 			x: -13.0d
@@ -662,15 +646,6 @@
 					item: "gtceu:robust_machine_casing"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "647F2A845A62F6B6"
-					observe_type: 0
-					timer: 0L
-					title: "{atm9.quest.gregtech.observeRHF}"
-					to_observe: "gtceu:mega_blast_furnace"
-					type: "observation"
-				}
 			]
 			x: -9.0d
 			y: 0.5d
@@ -730,14 +705,6 @@
 					id: "068B1FF9F58C3C18"
 					item: "gtceu:frostproof_machine_casing"
 					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "3DCD4DD728EB87C6"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:mega_vacuum_freezer"
-					type: "observation"
 				}
 			]
 			x: -9.0d

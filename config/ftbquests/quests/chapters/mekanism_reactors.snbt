@@ -89,7 +89,7 @@
 		}
 		{
 			height: 11.0d
-			hover: ["{atm9.quest.mekanismReactors.fusionReactor}"]
+			hover: ["atm9.quest.mekanismReactors.fusionReactor"]
 			image: "atm:textures/questpics/mek/fusion_cutout.png"
 			rotation: 0.0d
 			width: 10.627118644067796d
@@ -98,7 +98,7 @@
 		}
 		{
 			height: 12.0d
-			hover: ["{atm9.quest.mekanismReactors.industrialTurbine}"]
+			hover: ["atm9.quest.mekanismReactors.industrialTurbine"]
 			image: "atm:textures/questpics/mek/turbine_cutout.png"
 			rotation: 0.0d
 			width: 10.536144578313253d
@@ -107,7 +107,7 @@
 		}
 		{
 			height: 10.0d
-			hover: ["{atm9.quest.mekanismReactors.fissionReactor}"]
+			hover: ["atm9.quest.mekanismReactors.fissionReactor"]
 			image: "atm:textures/questpics/mek/fission_cutout.png"
 			rotation: 0.0d
 			width: 9.661016949152541d
@@ -116,7 +116,7 @@
 		}
 		{
 			height: 10.0d
-			hover: ["{atm9.quest.mekanismReactors.supercriticalPhaseShifter}"]
+			hover: ["atm9.quest.mekanismReactors.supercriticalPhaseShifter"]
 			image: "atm:textures/questpics/mek/sps_cutout.png"
 			rotation: 0.0d
 			width: 12.687687687687689d
@@ -183,7 +183,7 @@
 		}
 		{
 			height: 0.3d
-			hover: ["{atm9.quest.ae2.img.star}"]
+			hover: ["atm9.quest.ae2.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -192,7 +192,7 @@
 		}
 		{
 			height: 0.3d
-			hover: ["{atm9.quest.ae2.img.star}"]
+			hover: ["atm9.quest.ae2.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -200,7 +200,7 @@
 			y: 0.15d
 		}
 	]
-	order_index: 7
+	order_index: 8
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -583,10 +583,9 @@
 			size: 1.5d
 			subtitle: "{atm9.quest.mekanismReactors.subt.numbers}"
 			tasks: [{
-				icon: "mekanism:geiger_counter"
-				id: "34D8628732B36EDF"
-				title: "{atm9.quest.mekanismReactors.completedReactor}"
-				type: "custom"
+				id: "7231A50B09F6218A"
+				item: "mekanismgenerators:fission_reactor_casing"
+				type: "item"
 			}]
 			title: "{atm9.quest.mekanismReactors.fissionReactorInterface}"
 			x: 3.0d
@@ -744,26 +743,18 @@
 				}
 			]
 			subtitle: "{atm9.quest.mekanismReactors.subt.quickRecap}"
-			tasks: [
-				{
-					id: "14A09EAF150777A3"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:dusts/sulfur"
-						}
+			tasks: [{
+				id: "14A09EAF150777A3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/sulfur"
 					}
-					title: "{atm9.quest.mekanismReactors.sulfurDust}"
-					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "66C97246C3EEFB7C"
-					title: "{atm9.quest.mekanismReactors.observeSulfuricAcid}"
-					type: "custom"
-				}
-			]
+				title: "{atm9.quest.mekanismReactors.sulfurDust}"
+				type: "item"
+			}]
 			title: "{atm9.quest.mekanismReactors.sulfuricAcid}"
 			x: 5.5d
 			y: 1.5d
@@ -808,12 +799,6 @@
 					item: "mekanism:chemical_dissolution_chamber"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "510CE57C709D5A44"
-					title: "{atm9.quest.mekanismReactors.observeHydrofluoricAcid}"
-					type: "custom"
-				}
 			]
 			title: "{atm9.quest.mekanismReactors.hydrofluoricAcid}"
 			x: 7.0d
@@ -840,19 +825,11 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					id: "73C5F4AC41EE5123"
-					item: "mekanism:chemical_infuser"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "05A215BE7EE2F35D"
-					title: "{atm9.quest.mekanismReactors.observeUraniumHexafluoride}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "73C5F4AC41EE5123"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
 			title: "{atm9.quest.mekanismReactors.uraniumHexafluoride}"
 			x: 8.0d
 			y: 2.5d
@@ -882,19 +859,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "3F2371FD486D4F0E"
-					item: "mekanism:isotopic_centrifuge"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "4E04F8F091D18EA4"
-					title: "{atm9.quest.mekanismReactors.observeFissileFuel}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "3F2371FD486D4F0E"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
 			title: "{atm9.quest.mekanismReactors.fissileFuel}"
 			x: 9.5d
 			y: 2.5d
@@ -1220,10 +1189,9 @@
 			]
 			shape: "square"
 			tasks: [{
-				icon: "mekanism:sps_casing"
-				id: "2A13A1B1A85C2981"
-				title: "{atm9.quest.mekanismReactors.completedSPSTitle}"
-				type: "custom"
+				id: "3CD7CD472E76B554"
+				item: "mekanism:sps_casing"
+				type: "item"
 			}]
 			title: "{atm9.quest.mekanismReactors.buildSPSTitle}"
 			x: 6.0d
@@ -1503,33 +1471,25 @@
 			]
 			shape: "hexagon"
 			size: 3.0d
-			tasks: [
-				{
-					id: "4B63979C49A34565"
-					item: {
-						Count: 1
-						id: "mekanismgenerators:hohlraum"
-						tag: {
-							mekData: {
-								GasTanks: [{
-									Tank: 0b
-									stored: {
-										amount: 10L
-										gasName: "mekanismgenerators:fusion_fuel"
-									}
-								}]
-							}
+			tasks: [{
+				id: "4B63979C49A34565"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:hohlraum"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 10L
+									gasName: "mekanismgenerators:fusion_fuel"
+								}
+							}]
 						}
 					}
-					type: "item"
 				}
-				{
-					icon: "mekanismgenerators:fusion_reactor_frame"
-					id: "0B31B1E6089BB33E"
-					title: "{atm9.quest.mekanismReactors.observeFusionReactor}"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			title: "{atm9.quest.mekanismReactors.ready}"
 			x: 17.0d
 			y: -7.0d
@@ -1796,10 +1756,9 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				icon: "mekanismgenerators:turbine_casing"
-				id: "71DB5E5857993B3F"
-				title: "{atm9.quest.mekanismReactors.completedTurbine}"
-				type: "custom"
+				id: "16269C92EF34FB14"
+				item: "mekanismgenerators:turbine_casing"
+				type: "item"
 			}]
 			title: "{atm9.quest.mekanismReactors.creatingPower}"
 			x: 15.5d
@@ -2023,10 +1982,9 @@
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				icon: "mekanism:induction_casing"
-				id: "621A4E28BD50F96C"
-				title: "{atm9.quest.mekanismReactors.observeCompletedMatrix}"
-				type: "custom"
+				id: "271A066A74F1995C"
+				item: "mekanism:induction_casing"
+				type: "item"
 			}]
 			title: "{atm9.quest.mekanismReactors.completingMatrix}"
 			x: 5.0d

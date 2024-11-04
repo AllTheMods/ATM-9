@@ -1525,6 +1525,7 @@
 				id: "6988873450238F30"
 				item: "ars_nouveau:novice_spell_book"
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: -4.0d
 			y: 0.0d
@@ -1554,6 +1555,7 @@
 				id: "0BCFC6422BBF539C"
 				item: "ars_nouveau:apprentice_spell_book"
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: -4.0d
 			y: 1.5d
@@ -1582,6 +1584,7 @@
 				id: "5E7DBDDD97BA8F13"
 				item: "ars_nouveau:archmage_spell_book"
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: -4.0d
 			y: 3.0d

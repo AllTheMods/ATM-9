@@ -117,7 +117,7 @@
 			y: 4.5d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -742,19 +742,19 @@
 					Icon: "minecraft:item/barrier"
 				}
 			}
-			id: "238556F4074D52B2"
+			id: "5652226335EED8B9"
 			invisible: true
 			optional: true
 			shape: "octagon"
 			tasks: [
 				{
 					disable_toast: true
-					id: "68EBBA284DFE0E53"
+					id: "32EFCC38CE3D89BF"
 					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}
 				{
-					id: "726CDC928AF8CE05"
+					id: "18209D4B51FA9562"
 					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}

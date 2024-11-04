@@ -132,7 +132,7 @@
 			y: -4.5d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -2197,15 +2197,15 @@
 			icon: "minecraft:sculk_sensor"
 			id: "5ED368C926E5F32C"
 			rewards: [{
-				id: "7168285F8D52B227"
+				id: "37DB5B8BEB5F094E"
 				item: {
 					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
-						Enchantments: {
+						StoredEnchantments: [{
 							id: "minecraft:swift_sneak"
-							lvl: "3"
-						}
+							lvl: 3s
+						}]
 					}
 				}
 				type: "item"
@@ -2283,19 +2283,19 @@
 					Icon: "minecraft:item/barrier"
 				}
 			}
-			id: "238556F4074D52B2"
+			id: "68A3904EDA48FF76"
 			invisible: true
 			optional: true
 			shape: "octagon"
 			tasks: [
 				{
 					disable_toast: true
-					id: "68EBBA284DFE0E53"
+					id: "748281267C747571"
 					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}
 				{
-					id: "726CDC928AF8CE05"
+					id: "086FD18B34727A13"
 					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}

@@ -329,14 +329,6 @@
 					item: "gtceu:superconducting_coil"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "77FDB19DF051089A"
-					observe_type: 0
-					timer: 0L
-					to_observe: "gtceu:active_transformer"
-					type: "observation"
-				}
 			]
 			x: -6.5d
 			y: 1.0d
