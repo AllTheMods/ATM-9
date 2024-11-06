@@ -433,13 +433,13 @@ ServerEvents.recipes(allthemods => {
                 // handle items, should have either item or tag key
                 if (output.item.hasOwnProperty('tag')) {
                     if (chance != 10000) {
-                        combRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count).kjs$asIngredient(), chance, 0)
-                        combBlockRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count * 4).kjs$asIngredient(), chance, 0)
+                        combRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count), chance, 0)
+                        combBlockRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count * 4), chance, 0)
                     } else {
-                        combRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(count).kjs$asIngredient())
+                        combRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(count))
                         if (output.item.tag != 'forge:wax') {
                             // don't give wax for combBlockRecipes
-                            combBlockRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(count * 4).kjs$asIngredient())
+                            combBlockRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(count * 4))
                         }
                     }
                 } else if (output.item.hasOwnProperty('item')) {
