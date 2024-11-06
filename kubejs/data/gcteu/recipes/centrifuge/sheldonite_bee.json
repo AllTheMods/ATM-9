@@ -1,0 +1,62 @@
+{
+  "type": "gtceu:centrifuge",
+  "duration": 1600,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "type": "forge:nbt",
+            "item": "productivebees:spawn_egg_configurable_bee",
+            "nbt": "{\"EntityTag\": {\"type\": \"productivebees:platinum\"}}"
+          }
+        },
+        "chance": 10000,
+        "tierChanceBoost": 0
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "type": "forge:nbt",
+            "item": "productivebees:spawn_egg_configurable_bee",
+            "nbt": "{\"EntityTag\": {\"type\": \"productivebees:sheldonite\"}}"
+          }
+        },
+        "chance": 10000,
+        "tierChanceBoost": 0
+      }
+    ]
+  },
+  "tickInputs": {
+    "eu": [
+      {
+        "content": 7,
+        "chance": 10000,
+        "tierChanceBoost": 0
+      }
+    ]
+  },
+  "tickOutputs": {},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:platinum"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:sheldonite"
+    }
+  ]
+}

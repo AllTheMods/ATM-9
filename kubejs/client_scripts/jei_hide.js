@@ -9,7 +9,7 @@ JEIEvents.hideItems(allthemods => {
   allthemods.hide(['angelring:leadstone_angel_ring', 'angelring:hardened_angel_ring', 'angelring:reinforced_angel_ring', 'angelring:resonant_angel_ring'])
   allthemods.hide('spirit:compressed_soul_sand')
   allthemods.hide('reliquary:rod_of_lyssa')
-  allthemods.hide('mekanism:upgrade_anchor')
+  allthemods.hide(['mekanism:upgrade_anchor','mekanism:dimensional_stabilizer'])
   allthemods.hide('ars_nouveau:glyph_animate_block')
   allthemods.hide([
     'absentbydesign:slab_tuff',

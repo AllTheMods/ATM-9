@@ -1,0 +1,5 @@
+
+#Personal Options that can be edited even on server
+[client]
+	#Allows the ghost to appear around you during Halloween [false/true|default:true]
+	allow_halloween_ghost = false
