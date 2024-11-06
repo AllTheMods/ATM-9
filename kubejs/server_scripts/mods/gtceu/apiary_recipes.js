@@ -14,9 +14,7 @@ ServerEvents.recipes(allthemods => {
         let underscore = inputString.split('_')
         let returnString = ''
         // account for special bee names
-        if (underscore.length == 1 && inputString != 'bee' && inputString != 'creeper_bee') { // && inputString != 'chocolate' && inputString != 'pepto_bismol' && inputString != 'zombie' && inputString != 'basalz' && inputString != 'ruby' && inputString != 'cheese' && inputString != 'sky_ingot' && inputString != 'grave' && inputString != 'spacial' && inputString != 'neutronium' && inputString != 'soul_shard' && inputString != 'prosperity' && inputString != 'blitz' && inputString != 'gregstar' && inputString != 'red_shroom' && inputString != 'aluminum' && inputString != 'blizz' && inputString != 'infinity' && inputString != 'arcance_crystal' && inputString != 'netherite') {
-            returnString = inputString.charAt(0).toUpperCase() + inputString.slice(1) + ' Bee'
-        } else if (inputString == 'bee') {
+        if (inputString == 'bee') {
             returnString = 'Bee'
         } else if (inputString == 'creeper_bee') {
             returnString = 'CreeBee'
@@ -60,6 +58,8 @@ ServerEvents.recipes(allthemods => {
             returnString = 'Arcanus Bee'
         } else if (inputString == 'netherite') {
             returnString = 'Ancient Bee'
+        } else if (underscore.length == 1) {
+            returnString = inputString.charAt(0).toUpperCase() + inputString.slice(1) + ' Bee'
         } else {
             returnString = underscore[0].charAt(0).toUpperCase() + underscore[0].slice(1) + ' ' + underscore[1].charAt(0).toUpperCase() + underscore[1].slice(1) + ' Bee'
         }
