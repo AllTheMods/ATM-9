@@ -114,7 +114,7 @@ ServerEvents.recipes(allthemods => {
                 }
             })
             if (flower instanceof $FluidStackJS) {
-                recipeBuilder.chancedFluidInput(flower, 1, 0)
+                recipeBuilder.notConsumableFluid(flower)
             } else {
                 recipeBuilder.notConsumable(flower)
             }
@@ -283,7 +283,7 @@ ServerEvents.recipes(allthemods => {
                     } else if (beeType == "salty") {
                         flower = "mekanism:brine" // I think the salty bee should use brine as a flower and not water
                     }
-                    recipeBuilder.chancedFluidInput(Fluid.of(flower, 1000), 1, 0)
+                    recipeBuilder.notConsumableFluid(Fluid.of(flower, 1000))
                     flowerThing = Fluid.of(flower, 1000)
                 } else if (beeData.hasOwnProperty('flowerBlock')) {
                     flower = beeData.flowerBlock
@@ -390,8 +390,8 @@ ServerEvents.recipes(allthemods => {
                 let amount = output.amount
                 if (output.fluid.hasOwnProperty('fluid')) {
                     if (chance != 10000) {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of(output.fluid.fluid, amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of(output.fluid.fluid, amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of(output.fluid.fluid, amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of(output.fluid.fluid, amount * 4), chance, 0)
                     } else {
                         combRecipeBuilder.outputFluids(Fluid.of(output.fluid.fluid, amount))
                         combBlockRecipeBuilder.outputFluids(Fluid.of(output.fluid.fluid, amount * 4))
@@ -399,32 +399,32 @@ ServerEvents.recipes(allthemods => {
                 } else {
                     // fluid tags, manually take care of each one
                     if (output.fluid.tag == 'forge:honey') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('productivebees:honey', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('productivebees:honey', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('productivebees:honey', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('productivebees:honey', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:life') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('bloodmagic:life_essence_fluid', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('bloodmagic:life_essence_fluid', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('bloodmagic:life_essence_fluid', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('bloodmagic:life_essence_fluid', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:glowstone') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:glowstone', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:glowstone', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:glowstone', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:glowstone', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:experience') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('mob_grinding_utils:fluid_xp', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('mob_grinding_utils:fluid_xp', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('mob_grinding_utils:fluid_xp', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('mob_grinding_utils:fluid_xp', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:crude_oil') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:crude_oil', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:crude_oil', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:crude_oil', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:crude_oil', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:chocolate') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('create:chocolate', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('create:chocolate', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('create:chocolate', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('create:chocolate', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:ender') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:ender', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:ender', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:ender', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:ender', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:pink_slime') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('industrialforegoing:pink_slime', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('industrialforegoing:pink_slime', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('industrialforegoing:pink_slime', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('industrialforegoing:pink_slime', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:redstone') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:redstone', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:redstone', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:redstone', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:redstone', amount * 4), chance, 0)
                     } else {
                         console.log("Fluid Tag unaccounted for in Comb Processor recipes: " + output.fluid.tag)
                     }
