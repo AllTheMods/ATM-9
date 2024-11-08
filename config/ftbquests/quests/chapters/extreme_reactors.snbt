@@ -108,11 +108,11 @@
 	quests: [
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.extremeReactors.1}"
+				"{atm9.quest.er.desc.extremeReactors.1}"
 				""
-				"{atm9.quest.gregtech.desc.extremeReactors.2}"
+				"{atm9.quest.er.desc.extremeReactors.2}"
 				""
-				"{atm9.quest.gregtech.desc.extremeReactors.3}"
+				"{atm9.quest.er.desc.extremeReactors.3}"
 			]
 			id: "7C4E4793DA887DE4"
 			rewards: [
@@ -140,16 +140,16 @@
 				item: "alltheores:uranium_ingot"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.title.welcomeToExtremeReactors}"
+			title: "{atm9.quest.er.title.welcomeToExtremeReactors}"
 			x: -10.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7C4E4793DA887DE4"]
 			description: [
-				"{atm9.quest.gregtech.desc.welcomeToExtremeReactors.1}"
+				"{atm9.quest.er.desc.welcomeToExtremeReactors.1}"
 				""
-				"{atm9.quest.gregtech.desc.welcomeToExtremeReactors.2}"
+				"{atm9.quest.er.desc.welcomeToExtremeReactors.2}"
 			]
 			id: "4FA6BEA4E646B742"
 			rewards: [
@@ -165,37 +165,37 @@
 					type: "random"
 				}
 			]
-			subtitle: "{atm9.quest.gregtech.subt.hardenedCarbon}"
+			subtitle: "{atm9.quest.er.subt.hardenedCarbon}"
 			tasks: [{
 				count: 16L
 				id: "4B83A0D1C2C3C226"
 				item: "bigreactors:graphite_ingot"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.title.graphiteForCasings}"
+			title: "{atm9.quest.er.title.graphiteForCasings}"
 			x: -7.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["75AD0CEBC1335915"]
 			description: [
-				"{atm9.quest.gregtech.desc.graphiteForCasings.1}"
+				"{atm9.quest.er.desc.graphiteForCasings.1}"
 				""
-				"{atm9.quest.gregtech.desc.graphiteForCasings.2}"
+				"{atm9.quest.er.desc.graphiteForCasings.2}"
 				""
-				"{atm9.quest.gregtech.desc.graphiteForCasings.3}"
-				""
-				"{@pagebreak}"
-				"{atm9.quest.gregtech.desc.graphiteForCasings.5}"
-				""
-				"{atm9.quest.gregtech.desc.graphiteForCasings.6}"
-				""
-				"{atm9.quest.gregtech.desc.graphiteForCasings.7}"
-				""
-				"{atm9.quest.gregtech.desc.graphiteForCasings.8}"
+				"{atm9.quest.er.desc.graphiteForCasings.3}"
 				""
 				"{@pagebreak}"
-				"{atm9.quest.gregtech.desc.graphiteForCasings.10}"
+				"{atm9.quest.er.desc.graphiteForCasings.5}"
+				""
+				"{atm9.quest.er.desc.graphiteForCasings.6}"
+				""
+				"{atm9.quest.er.desc.graphiteForCasings.7}"
+				""
+				"{atm9.quest.er.desc.graphiteForCasings.8}"
+				""
+				"{@pagebreak}"
+				"{atm9.quest.er.desc.graphiteForCasings.10}"
 				""
 				"{image:atm:textures/questpics/extremereactors/3x3sample.png width:150 height:150 align:1}"
 			]
@@ -223,7 +223,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{atm9.quest.gregtech.subt.learningTheBasics}"
+			subtitle: "{atm9.quest.er.subt.learningTheBasics}"
 			tasks: [
 				{
 					count: 21L
@@ -258,18 +258,18 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.title.ourFirstReactor}"
+			title: "{atm9.quest.er.title.ourFirstReactor}"
 			x: -5.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4FA6BEA4E646B742"]
 			description: [
-				"{atm9.quest.gregtech.desc.ourFirstReactor.1}"
+				"{atm9.quest.er.desc.ourFirstReactor.1}"
 				""
-				"{atm9.quest.gregtech.desc.ourFirstReactor.2}"
+				"{atm9.quest.er.desc.ourFirstReactor.2}"
 				""
-				"{atm9.quest.gregtech.desc.ourFirstReactor.3}"
+				"{atm9.quest.er.desc.ourFirstReactor.3}"
 			]
 			id: "4B9E9497E44D0096"
 			rewards: [
@@ -301,18 +301,18 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.reactorBuildingComponents}"
+			title: "{atm9.quest.er.reactorBuildingComponents}"
 			x: -5.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4B9E9497E44D0096"]
 			description: [
-				"{atm9.quest.gregtech.desc.reactorBuildingComponents.1}"
+				"{atm9.quest.er.desc.reactorBuildingComponents.1}"
 				""
-				"{atm9.quest.gregtech.desc.reactorBuildingComponents.2}"
+				"{atm9.quest.er.desc.reactorBuildingComponents.2}"
 				""
-				"{atm9.quest.gregtech.desc.reactorBuildingComponents.3}"
+				"{atm9.quest.er.desc.reactorBuildingComponents.3}"
 			]
 			id: "2A20000FAEC2E16A"
 			rewards: [
@@ -342,18 +342,18 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.interactingWithReactor}"
+			title: "{atm9.quest.er.interactingWithReactor}"
 			x: -5.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4B9E9497E44D0096"]
 			description: [
-				"{atm9.quest.gregtech.desc.interactingWithReactor.1}"
+				"{atm9.quest.er.desc.interactingWithReactor.1}"
 				""
-				"{atm9.quest.gregtech.desc.interactingWithReactor.2}"
+				"{atm9.quest.er.desc.interactingWithReactor.2}"
 				""
-				"{atm9.quest.gregtech.desc.interactingWithReactor.3}"
+				"{atm9.quest.er.desc.interactingWithReactor.3}"
 			]
 			id: "75AD0CEBC1335915"
 			min_width: 300
@@ -378,7 +378,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.gregtech.subt.heartOfReactor}"
+			subtitle: "{atm9.quest.er.subt.heartOfReactor}"
 			tasks: [{
 				id: "62A0FE4CFAB9621B"
 				item: "bigreactors:basic_reactorcontroller"
@@ -390,13 +390,13 @@
 		{
 			dependencies: ["4B9E9497E44D0096"]
 			description: [
-				"{atm9.quest.gregtech.desc.heartOfReactor.1}"
+				"{atm9.quest.er.desc.heartOfReactor.1}"
 				""
-				"{atm9.quest.gregtech.desc.heartOfReactor.2}"
+				"{atm9.quest.er.desc.heartOfReactor.2}"
 				""
-				"{atm9.quest.gregtech.desc.heartOfReactor.3}"
+				"{atm9.quest.er.desc.heartOfReactor.3}"
 				""
-				"{atm9.quest.gregtech.desc.heartOfReactor.4}"
+				"{atm9.quest.er.desc.heartOfReactor.4}"
 			]
 			id: "7B4AAC741F0A6073"
 			min_width: 300
@@ -427,16 +427,16 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.reactorControlRods}"
+			title: "{atm9.quest.er.reactorControlRods}"
 			x: -6.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"{atm9.quest.gregtech.desc.reactorControlRods.1}"
+				"{atm9.quest.er.desc.reactorControlRods.1}"
 				""
-				"{atm9.quest.gregtech.desc.reactorControlRods.2}"
+				"{atm9.quest.er.desc.reactorControlRods.2}"
 				""
 				"{image:atm:textures/questpics/extremereactors/importexample.png width:150 height:150 align:1}"
 			]
@@ -462,13 +462,13 @@
 				item: "alltheores:uranium_ingot"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.fuelingOurPassiveReactor}"
+			title: "{atm9.quest.er.fuelingOurPassiveReactor}"
 			x: -7.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
-			description: ["{atm9.quest.gregtech.desc.fuelingOurPassiveReactor.1}"]
+			description: ["{atm9.quest.er.desc.fuelingOurPassiveReactor.1}"]
 			id: "4745152F6FF242B3"
 			rewards: [
 				{
@@ -483,24 +483,24 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{atm9.quest.gregtech.subt.wasteNotWantNot}"
+			subtitle: "{atm9.quest.er.subt.wasteNotWantNot}"
 			tasks: [{
 				id: "77F79D09A76CFF15"
 				item: "bigreactors:cyanite_ingot"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.dealingWithWaste}"
+			title: "{atm9.quest.er.dealingWithWaste}"
 			x: -3.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4745152F6FF242B3"]
 			description: [
-				"{atm9.quest.gregtech.desc.dealingWithWaste.1}"
+				"{atm9.quest.er.desc.dealingWithWaste.1}"
 				""
-				"{atm9.quest.gregtech.desc.dealingWithWaste.2}"
+				"{atm9.quest.er.desc.dealingWithWaste.2}"
 				""
-				"{atm9.quest.gregtech.desc.dealingWithWaste.3}"
+				"{atm9.quest.er.desc.dealingWithWaste.3}"
 			]
 			id: "354086C858E10154"
 			rewards: [
@@ -521,17 +521,17 @@
 				item: "bigreactors:reprocessorcasing"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.reprocessingOurWaste}"
+			title: "{atm9.quest.er.reprocessingOurWaste}"
 			x: -0.5d
 			y: 8.0d
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.reprocessingOurWaste.1}"
+				"{atm9.quest.er.desc.reprocessingOurWaste.1}"
 				""
-				"{atm9.quest.gregtech.desc.reprocessingOurWaste.2}"
+				"{atm9.quest.er.desc.reprocessingOurWaste.2}"
 				""
-				"{atm9.quest.gregtech.desc.reprocessingOurWaste.3}"
+				"{atm9.quest.er.desc.reprocessingOurWaste.3}"
 			]
 			id: "4415C9F8DA2D7E68"
 			rewards: [
@@ -568,18 +568,18 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.makingTurbines}"
+			title: "{atm9.quest.er.makingTurbines}"
 			x: -0.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"{atm9.quest.gregtech.desc.makingTurbines.1}"
+				"{atm9.quest.er.desc.makingTurbines.1}"
 				""
-				"{atm9.quest.gregtech.desc.makingTurbines.2}"
+				"{atm9.quest.er.desc.makingTurbines.2}"
 				""
-				"{atm9.quest.gregtech.desc.makingTurbines.3}"
+				"{atm9.quest.er.desc.makingTurbines.3}"
 			]
 			id: "73362EDC984B8A0F"
 			min_width: 300
@@ -597,7 +597,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{atm9.quest.gregtech.subt.moderatorsNotCoolants}"
+			subtitle: "{atm9.quest.er.subt.moderatorsNotCoolants}"
 			tasks: [{
 				id: "0D4AE8FBAA953732"
 				item: {
@@ -712,10 +712,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.exampleModerators}"
+				title: "{atm9.quest.er.exampleModerators}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.reactorModerators}"
+			title: "{atm9.quest.er.reactorModerators}"
 			x: -7.0d
 			y: 9.0d
 		}
@@ -725,13 +725,13 @@
 				"4745152F6FF242B3"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.reactorModerators.1}"
+				"{atm9.quest.er.desc.reactorModerators.1}"
 				""
-				"{atm9.quest.gregtech.desc.reactorModerators.2}"
+				"{atm9.quest.er.desc.reactorModerators.2}"
 				""
-				"{atm9.quest.gregtech.desc.reactorModerators.3}"
+				"{atm9.quest.er.desc.reactorModerators.3}"
 				""
-				"{atm9.quest.gregtech.desc.reactorModerators.4}"
+				"{atm9.quest.er.desc.reactorModerators.4}"
 			]
 			id: "476755275B948A5F"
 			min_width: 300
@@ -748,7 +748,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{atm9.quest.gregtech.subt.toMakeSteam}"
+			subtitle: "{atm9.quest.er.subt.toMakeSteam}"
 			tasks: [
 				{
 					id: "122E3BB7DB314F68"
@@ -761,24 +761,24 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.buildingAnActivelyCooledReactor}"
+			title: "{atm9.quest.er.buildingAnActivelyCooledReactor}"
 			x: -3.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.1}"
+				"{atm9.quest.er.desc.buildingAnActivelyCooledReactor.1}"
 				""
-				"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.2}"
+				"{atm9.quest.er.desc.buildingAnActivelyCooledReactor.2}"
 				""
-				"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.3}"
+				"{atm9.quest.er.desc.buildingAnActivelyCooledReactor.3}"
 				""
-				"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.4}"
+				"{atm9.quest.er.desc.buildingAnActivelyCooledReactor.4}"
 				""
-				"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.5}"
+				"{atm9.quest.er.desc.buildingAnActivelyCooledReactor.5}"
 				""
-				"{atm9.quest.gregtech.desc.buildingAnActivelyCooledReactor.6}"
+				"{atm9.quest.er.desc.buildingAnActivelyCooledReactor.6}"
 			]
 			id: "3F9D553C9FA64F2A"
 			min_width: 300
@@ -802,18 +802,18 @@
 				item: "bigreactors:basic_reactorcasing"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.expandingOurReactors}"
+			title: "{atm9.quest.er.expandingOurReactors}"
 			x: -7.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"{atm9.quest.gregtech.desc.expandingOurReactors.1}"
+				"{atm9.quest.er.desc.expandingOurReactors.1}"
 				""
-				"{atm9.quest.gregtech.desc.expandingOurReactors.2}"
+				"{atm9.quest.er.desc.expandingOurReactors.2}"
 				""
-				"{atm9.quest.gregtech.desc.expandingOurReactors.3}"
+				"{atm9.quest.er.desc.expandingOurReactors.3}"
 			]
 			id: "186731580B14F9D2"
 			rewards: [
@@ -844,22 +844,22 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.turbinePorts}"
+			title: "{atm9.quest.er.turbinePorts}"
 			x: -1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"{atm9.quest.gregtech.desc.turbinePorts.1}"
+				"{atm9.quest.er.desc.turbinePorts.1}"
 				""
-				"{atm9.quest.gregtech.desc.turbinePorts.2}"
+				"{atm9.quest.er.desc.turbinePorts.2}"
 				""
-				"{atm9.quest.gregtech.desc.turbinePorts.3}"
+				"{atm9.quest.er.desc.turbinePorts.3}"
 				""
-				"{atm9.quest.gregtech.desc.turbinePorts.4}"
+				"{atm9.quest.er.desc.turbinePorts.4}"
 				""
-				"{atm9.quest.gregtech.desc.turbinePorts.5}"
+				"{atm9.quest.er.desc.turbinePorts.5}"
 				""
 				"{image:atm:textures/questpics/extremereactors/maxbasicturbine.png width:100 height:150 align:1}"
 			]
@@ -898,16 +898,16 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.creatingTurbineShaft}"
+			title: "{atm9.quest.er.creatingTurbineShaft}"
 			x: -0.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"{atm9.quest.gregtech.desc.creatingTurbineShaft.1}"
+				"{atm9.quest.er.desc.creatingTurbineShaft.1}"
 				""
-				"{atm9.quest.gregtech.desc.creatingTurbineShaft.2}"
+				"{atm9.quest.er.desc.creatingTurbineShaft.2}"
 				""
 			]
 			id: "3FC7FDAF84871963"
@@ -1044,10 +1044,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.turbineCoils}"
+				title: "{atm9.quest.er.turbineCoils}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.turbineCoils}"
+			title: "{atm9.quest.er.turbineCoils}"
 			x: 0.5d
 			y: 3.0d
 		}
@@ -1059,11 +1059,11 @@
 				"775D176081DD75F5"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.turbineCoils.1}"
+				"{atm9.quest.er.desc.turbineCoils.1}"
 				""
-				"{atm9.quest.gregtech.desc.turbineCoils.2}"
+				"{atm9.quest.er.desc.turbineCoils.2}"
 				""
-				"{atm9.quest.gregtech.desc.turbineCoils.3}"
+				"{atm9.quest.er.desc.turbineCoils.3}"
 				""
 			]
 			icon: {
@@ -1117,7 +1117,7 @@
 							]
 						}
 					}
-					title: "{atm9.quest.gregtech.questTaskScreens}"
+					title: "{atm9.quest.er.questTaskScreens}"
 					type: "item"
 				}
 				{
@@ -1127,13 +1127,13 @@
 					value: 1000000L
 				}
 			]
-			title: "{atm9.quest.gregtech.ourFirstTurbine}"
+			title: "{atm9.quest.er.ourFirstTurbine}"
 			x: -0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
-			description: ["{atm9.quest.gregtech.desc.ourFirstTurbine.1}"]
+			description: ["{atm9.quest.er.desc.ourFirstTurbine.1}"]
 			id: "2D592669F4D41793"
 			rewards: [
 				{
@@ -1156,18 +1156,18 @@
 				item: "bigreactors:basic_turbineglass"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.turbineConstruction}"
+			title: "{atm9.quest.er.turbineConstruction}"
 			x: -0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"{atm9.quest.gregtech.desc.turbineConstruction.1}"
+				"{atm9.quest.er.desc.turbineConstruction.1}"
 				""
-				"{atm9.quest.gregtech.desc.turbineConstruction.2}"
+				"{atm9.quest.er.desc.turbineConstruction.2}"
 				""
-				"{atm9.quest.gregtech.desc.turbineConstruction.3}"
+				"{atm9.quest.er.desc.turbineConstruction.3}"
 				""
 				"{image:atm:textures/questpics/extremereactors/turbineui.png width:200 height:150 align:1}"
 			]
@@ -1180,7 +1180,7 @@
 			}]
 			tasks: [{
 				id: "2905C4386A407A1E"
-				title: "{atm9.quest.gregtech.turbineInterface}"
+				title: "{atm9.quest.er.turbineInterface}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -1189,9 +1189,9 @@
 		{
 			dependencies: ["354086C858E10154"]
 			description: [
-				"{atm9.quest.gregtech.desc.turbineInterface.1}"
+				"{atm9.quest.er.desc.turbineInterface.1}"
 				""
-				"{atm9.quest.gregtech.desc.turbineInterface.2}"
+				"{atm9.quest.er.desc.turbineInterface.2}"
 			]
 			id: "2AF31F1769085641"
 			rewards: [
@@ -1220,21 +1220,21 @@
 		{
 			dependencies: ["2AF31F1769085641"]
 			description: [
-				"{atm9.quest.gregtech.desc.turbineInterface.3}"
+				"{atm9.quest.er.desc.turbineInterface.3}"
 				""
-				"{atm9.quest.gregtech.desc.turbineInterface.4}"
+				"{atm9.quest.er.desc.turbineInterface.4}"
 				""
-				"{atm9.quest.gregtech.desc.turbineInterface.5}"
+				"{atm9.quest.er.desc.turbineInterface.5}"
 				""
-				"{atm9.quest.gregtech.desc.turbineInterface.6}"
+				"{atm9.quest.er.desc.turbineInterface.6}"
 				""
 				"{@pagebreak}"
-				"{atm9.quest.gregtech.desc.turbineInterface.7}"
+				"{atm9.quest.er.desc.turbineInterface.7}"
 				""
 				"{image:atm:textures/questpics/extremereactors/reprocessorframe.png width:100 height:175 align:1}"
 				""
 				"{@pagebreak}"
-				"{atm9.quest.gregtech.desc.turbineInterface.8}"
+				"{atm9.quest.er.desc.turbineInterface.8}"
 				""
 				""
 				"{image:atm:textures/questpics/extremereactors/reprocessorfull.png width:100 height:150 align:1}"
@@ -1259,18 +1259,18 @@
 				item: "bigreactors:reprocessorcasing"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.buildingTheFrame}"
+			title: "{atm9.quest.er.buildingTheFrame}"
 			x: -0.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["2AF31F1769085641"]
 			description: [
-				"{atm9.quest.gregtech.desc.buildingTheFrame.1}"
+				"{atm9.quest.er.desc.buildingTheFrame.1}"
 				""
-				"{atm9.quest.gregtech.desc.buildingTheFrame.2}"
+				"{atm9.quest.er.desc.buildingTheFrame.2}"
 				""
-				"{atm9.quest.gregtech.desc.buildingTheFrame.3}"
+				"{atm9.quest.er.desc.buildingTheFrame.3}"
 			]
 			id: "2598273041353196"
 			rewards: [
@@ -1298,20 +1298,20 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.importingWaste}"
+			title: "{atm9.quest.er.importingWaste}"
 			x: -2.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["2AF31F1769085641"]
 			description: [
-				"{atm9.quest.gregtech.desc.importingWaste.1}"
+				"{atm9.quest.er.desc.importingWaste.1}"
 				""
-				"{atm9.quest.gregtech.desc.importingWaste.2}"
+				"{atm9.quest.er.desc.importingWaste.2}"
 				""
-				"{atm9.quest.gregtech.desc.importingWaste.3}"
+				"{atm9.quest.er.desc.importingWaste.3}"
 				""
-				"{atm9.quest.gregtech.desc.importingWaste.4}"
+				"{atm9.quest.er.desc.importingWaste.4}"
 			]
 			id: "3C3FE45CEF5E242B"
 			rewards: [
@@ -1350,9 +1350,9 @@
 		{
 			dependencies: ["69642A3618E86DED"]
 			description: [
-				"{atm9.quest.gregtech.desc.importingWaste.5}"
+				"{atm9.quest.er.desc.importingWaste.5}"
 				""
-				"{atm9.quest.gregtech.desc.importingWaste.6}"
+				"{atm9.quest.er.desc.importingWaste.6}"
 			]
 			id: "7E07C5A6FA6B6B1F"
 			rewards: [
@@ -1379,9 +1379,9 @@
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"{atm9.quest.gregtech.desc.importingWaste.7}"
+				"{atm9.quest.er.desc.importingWaste.7}"
 				""
-				"{atm9.quest.gregtech.desc.importingWaste.8}"
+				"{atm9.quest.er.desc.importingWaste.8}"
 			]
 			id: "25D4406CB86C8CBB"
 			rewards: [
@@ -1402,13 +1402,13 @@
 				item: "bigreactors:fluidizercontroller"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.theFluidizer}"
+			title: "{atm9.quest.er.theFluidizer}"
 			x: -4.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["25D4406CB86C8CBB"]
-			description: ["{atm9.quest.gregtech.desc.fluidizerIntro.1}"]
+			description: ["{atm9.quest.er.desc.fluidizerIntro.1}"]
 			id: "501C6B7580453410"
 			rewards: [
 				{
@@ -1436,22 +1436,22 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.fluidizerConstruction}"
+			title: "{atm9.quest.er.fluidizerConstruction}"
 			x: -5.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["25D4406CB86C8CBB"]
 			description: [
-				"{atm9.quest.gregtech.desc.fluidizerModes.1}"
+				"{atm9.quest.er.desc.fluidizerModes.1}"
 				""
-				"{atm9.quest.gregtech.desc.fluidizerModes.2}"
+				"{atm9.quest.er.desc.fluidizerModes.2}"
 				""
-				"{atm9.quest.gregtech.desc.fluidizerModes.3}"
+				"{atm9.quest.er.desc.fluidizerModes.3}"
 				""
-				"{atm9.quest.gregtech.desc.fluidizerModes.4}"
+				"{atm9.quest.er.desc.fluidizerModes.4}"
 				""
-				"{atm9.quest.gregtech.desc.fluidizerModes.5}"
+				"{atm9.quest.er.desc.fluidizerModes.5}"
 			]
 			id: "5914D015D8543875"
 			min_width: 400
@@ -1480,16 +1480,16 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.operationalModes}"
+			title: "{atm9.quest.er.operationalModes}"
 			x: -3.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["25D4406CB86C8CBB"]
 			description: [
-				"{atm9.quest.gregtech.desc.fluidizerOutput.1}"
+				"{atm9.quest.er.desc.fluidizerOutput.1}"
 				""
-				"{atm9.quest.gregtech.desc.fluidizerOutput.2}"
+				"{atm9.quest.er.desc.fluidizerOutput.2}"
 			]
 			id: "55DCA040C84DCEF3"
 			rewards: [
@@ -1517,16 +1517,16 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.requiredPorts}"
+			title: "{atm9.quest.er.requiredPorts}"
 			x: -4.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["7E07C5A6FA6B6B1F"]
 			description: [
-				"{atm9.quest.gregtech.desc.reprocessorUsage.1}"
+				"{atm9.quest.er.desc.reprocessorUsage.1}"
 				""
-				"{atm9.quest.gregtech.desc.reprocessorUsage.2}"
+				"{atm9.quest.er.desc.reprocessorUsage.2}"
 			]
 			id: "5A615BB74A5CD332"
 			rewards: [
@@ -1564,12 +1564,12 @@
 				"501C6B7580453410"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.verderiumCreation.1}"
+				"{atm9.quest.er.desc.verderiumCreation.1}"
 				""
-				"{atm9.quest.gregtech.desc.verderiumCreation.2}"
+				"{atm9.quest.er.desc.verderiumCreation.2}"
 				""
-				"{atm9.quest.gregtech.desc.verderiumCreation.3}"
-				"{atm9.quest.gregtech.desc.verderiumCreation.4}"
+				"{atm9.quest.er.desc.verderiumCreation.3}"
+				"{atm9.quest.er.desc.verderiumCreation.4}"
 			]
 			id: "7C4D8AA107780795"
 			rewards: [
@@ -1592,7 +1592,7 @@
 				item: "bigreactors:reinforced_reactorfluidaccessport"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.rossinite}"
+			title: "{atm9.quest.er.rossinite}"
 			x: -4.0d
 			y: 14.0d
 		}
@@ -1602,9 +1602,9 @@
 				"5A615BB74A5CD332"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.inaniteCreation.1}"
+				"{atm9.quest.er.desc.inaniteCreation.1}"
 				""
-				"{atm9.quest.gregtech.desc.inaniteCreation.2}"
+				"{atm9.quest.er.desc.inaniteCreation.2}"
 			]
 			id: "6ADDFD55AD0DF7D4"
 			rewards: [
@@ -1634,9 +1634,9 @@
 				"6ADDFD55AD0DF7D4"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.insaniteMaterial.1}"
+				"{atm9.quest.er.desc.insaniteMaterial.1}"
 				""
-				"{atm9.quest.gregtech.desc.insaniteMaterial.2}"
+				"{atm9.quest.er.desc.insaniteMaterial.2}"
 			]
 			id: "5AD80D3242DD3F60"
 			rewards: [
@@ -1659,16 +1659,16 @@
 				item: "bigreactors:insanite_block"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.insaniteBlock}"
+			title: "{atm9.quest.er.insaniteBlock}"
 			x: -2.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["7C4D8AA107780795"]
 			description: [
-				"{atm9.quest.gregtech.desc.insaniteCreation.1}"
+				"{atm9.quest.er.desc.insaniteCreation.1}"
 				""
-				"{atm9.quest.gregtech.desc.insaniteCreation.2}"
+				"{atm9.quest.er.desc.insaniteCreation.2}"
 			]
 			id: "0B1DF8A040826D87"
 			rewards: [
