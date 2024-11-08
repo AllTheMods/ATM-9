@@ -14,9 +14,7 @@ ServerEvents.recipes(allthemods => {
         let underscore = inputString.split('_')
         let returnString = ''
         // account for special bee names
-        if (underscore.length == 1 && inputString != 'bee' && inputString != 'creeper_bee') { // && inputString != 'chocolate' && inputString != 'pepto_bismol' && inputString != 'zombie' && inputString != 'basalz' && inputString != 'ruby' && inputString != 'cheese' && inputString != 'sky_ingot' && inputString != 'grave' && inputString != 'spacial' && inputString != 'neutronium' && inputString != 'soul_shard' && inputString != 'prosperity' && inputString != 'blitz' && inputString != 'gregstar' && inputString != 'red_shroom' && inputString != 'aluminum' && inputString != 'blizz' && inputString != 'infinity' && inputString != 'arcance_crystal' && inputString != 'netherite') {
-            returnString = inputString.charAt(0).toUpperCase() + inputString.slice(1) + ' Bee'
-        } else if (inputString == 'bee') {
+        if (inputString == 'bee') {
             returnString = 'Bee'
         } else if (inputString == 'creeper_bee') {
             returnString = 'CreeBee'
@@ -60,6 +58,8 @@ ServerEvents.recipes(allthemods => {
             returnString = 'Arcanus Bee'
         } else if (inputString == 'netherite') {
             returnString = 'Ancient Bee'
+        } else if (underscore.length == 1) {
+            returnString = inputString.charAt(0).toUpperCase() + inputString.slice(1) + ' Bee'
         } else {
             returnString = underscore[0].charAt(0).toUpperCase() + underscore[0].slice(1) + ' ' + underscore[1].charAt(0).toUpperCase() + underscore[1].slice(1) + ' Bee'
         }
@@ -114,7 +114,7 @@ ServerEvents.recipes(allthemods => {
                 }
             })
             if (flower instanceof $FluidStackJS) {
-                recipeBuilder.chancedFluidInput(flower, 1, 0)
+                recipeBuilder.notConsumableFluid(flower)
             } else {
                 recipeBuilder.notConsumable(flower)
             }
@@ -283,7 +283,7 @@ ServerEvents.recipes(allthemods => {
                     } else if (beeType == "salty") {
                         flower = "mekanism:brine" // I think the salty bee should use brine as a flower and not water
                     }
-                    recipeBuilder.chancedFluidInput(Fluid.of(flower, 1000), 1, 0)
+                    recipeBuilder.notConsumableFluid(Fluid.of(flower, 1000))
                     flowerThing = Fluid.of(flower, 1000)
                 } else if (beeData.hasOwnProperty('flowerBlock')) {
                     flower = beeData.flowerBlock
@@ -390,8 +390,8 @@ ServerEvents.recipes(allthemods => {
                 let amount = output.amount
                 if (output.fluid.hasOwnProperty('fluid')) {
                     if (chance != 10000) {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of(output.fluid.fluid, amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of(output.fluid.fluid, amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of(output.fluid.fluid, amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of(output.fluid.fluid, amount * 4), chance, 0)
                     } else {
                         combRecipeBuilder.outputFluids(Fluid.of(output.fluid.fluid, amount))
                         combBlockRecipeBuilder.outputFluids(Fluid.of(output.fluid.fluid, amount * 4))
@@ -399,32 +399,32 @@ ServerEvents.recipes(allthemods => {
                 } else {
                     // fluid tags, manually take care of each one
                     if (output.fluid.tag == 'forge:honey') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('productivebees:honey', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('productivebees:honey', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('productivebees:honey', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('productivebees:honey', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:life') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('bloodmagic:life_essence_fluid', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('bloodmagic:life_essence_fluid', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('bloodmagic:life_essence_fluid', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('bloodmagic:life_essence_fluid', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:glowstone') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:glowstone', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:glowstone', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:glowstone', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:glowstone', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:experience') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('mob_grinding_utils:fluid_xp', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('mob_grinding_utils:fluid_xp', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('mob_grinding_utils:fluid_xp', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('mob_grinding_utils:fluid_xp', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:crude_oil') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:crude_oil', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:crude_oil', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:crude_oil', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:crude_oil', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:chocolate') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('create:chocolate', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('create:chocolate', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('create:chocolate', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('create:chocolate', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:ender') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:ender', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:ender', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:ender', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:ender', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:pink_slime') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('industrialforegoing:pink_slime', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('industrialforegoing:pink_slime', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('industrialforegoing:pink_slime', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('industrialforegoing:pink_slime', amount * 4), chance, 0)
                     } else if (output.fluid.tag == 'forge:redstone') {
-                        combRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:redstone', amount), chance, 1)
-                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:redstone', amount * 4), chance, 1)
+                        combRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:redstone', amount), chance, 0)
+                        combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:redstone', amount * 4), chance, 0)
                     } else {
                         console.log("Fluid Tag unaccounted for in Comb Processor recipes: " + output.fluid.tag)
                     }
@@ -433,13 +433,13 @@ ServerEvents.recipes(allthemods => {
                 // handle items, should have either item or tag key
                 if (output.item.hasOwnProperty('tag')) {
                     if (chance != 10000) {
-                        combRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count).kjs$asIngredient(), chance, 0)
-                        combBlockRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count * 4).kjs$asIngredient(), chance, 0)
+                        combRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count), chance, 0)
+                        combBlockRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count * 4), chance, 0)
                     } else {
-                        combRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(count).kjs$asIngredient())
+                        combRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(count))
                         if (output.item.tag != 'forge:wax') {
                             // don't give wax for combBlockRecipes
-                            combBlockRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(count * 4).kjs$asIngredient())
+                            combBlockRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(count * 4))
                         }
                     }
                 } else if (output.item.hasOwnProperty('item')) {
