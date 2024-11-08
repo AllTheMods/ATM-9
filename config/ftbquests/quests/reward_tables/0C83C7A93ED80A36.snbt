@@ -1,0 +1,126 @@
+{
+	id: "0C83C7A93ED80A36"
+	loot_size: 1
+	order_index: 39
+	rewards: [
+		{
+			count: 4
+			item: "naturesaura:gold_fiber"
+			random_bonus: 4
+			weight: 2.0f
+		}
+		{
+			count: 2
+			item: "naturesaura:gold_leaf"
+			random_bonus: 2
+			weight: 1.5f
+		}
+		{
+			count: 4
+			item: "naturesaura:gold_powder"
+			random_bonus: 4
+			weight: 1.5f
+		}
+		{ item: "naturesaura:ancient_sapling", weight: 0.75f }
+		{
+			count: 2
+			item: "naturesaura:infused_stone"
+			random_bonus: 2
+			weight: 0.75f
+		}
+		{
+			count: 2
+			item: "naturesaura:aura_bloom"
+			random_bonus: 1
+			weight: 1.5f
+		}
+		{
+			count: 2
+			item: "naturesaura:aura_cactus"
+			random_bonus: 1
+			weight: 1.5f
+		}
+		{
+			count: 2
+			item: "naturesaura:warped_aura_mushroom"
+			random_bonus: 1
+			weight: 1.5f
+		}
+		{
+			count: 2
+			item: "naturesaura:crimson_aura_mushroom"
+			random_bonus: 1
+			weight: 1.5f
+		}
+		{
+			count: 2
+			item: "naturesaura:aura_mushroom"
+			random_bonus: 1
+			weight: 1.5f
+		}
+		{
+			count: 2
+			item: "naturesaura:bottle_two_the_rebottling"
+			random_bonus: 1
+			weight: 1.5f
+		}
+		{
+			count: 2
+			item: "naturesaura:end_flower"
+			random_bonus: 1
+			weight: 1.5f
+		}
+		{ 
+			item: { 
+				count: 1, 
+				id: "naturesaura:aura_bottle"
+				tag: {
+					stored_type: "naturesaura:overworld"
+				}
+			}
+			random_bonus: 1
+		}
+		{ 
+			item: { 
+				count: 1, 
+				id: "naturesaura:aura_bottle"
+				tag: {
+					stored_type: "naturesaura:nether"
+				}
+			}
+			random_bonus: 1
+		}
+		{ 
+			item: { 
+				count: 1, 
+				id: "naturesaura:aura_bottle"
+				tag: {
+					stored_type: "naturesaura:end"
+				}
+			}
+			random_bonus: 1
+		}
+		{
+			count: 2
+			item: "naturesaura:farming_stencil"
+			random_bonus: 2
+		}
+		{
+			count: 3
+			item: "naturesaura:ancient_log"
+			random_bonus: 2
+		}
+		{
+			count: 2
+			item: "naturesaura:ancient_stick"
+			random_bonus: 2
+		}
+		{
+			count: 2
+			item: "naturesaura:gold_brick"
+			random_bonus: 2
+			weight: 0.75f
+		}
+		{ item: "naturesaura:ender_crate", weight: 0.5f }
+	]
+}
