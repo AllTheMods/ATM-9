@@ -8,16 +8,18 @@
   only the startup script should need editing
 */
 
-ClientEvents.highPriorityAssets(allthemods => {
+
+
+ClientEvents.lang("en_us", allthemods => {
   const mekItems = ['clump', 'crystal', 'dirty_dust', 'shard']
   global.mekStackAdditions.forEach(entry => {
-    allthemods.addLang(`slurry.kubejs.clean_${entry.material}`, snakeCaseToUpperCase(`clean_${entry.material}_slurry`))
-    allthemods.addLang(`slurry.kubejs.dirty_${entry.material}`, snakeCaseToUpperCase(`dirty_${entry.material}_slurry`))
+    allthemods.add(`slurry.kubejs.clean_${entry.material}`, snakeCaseToUpperCase(`clean_${entry.material}_slurry`))
+    allthemods.add(`slurry.kubejs.dirty_${entry.material}`, snakeCaseToUpperCase(`dirty_${entry.material}_slurry`))
     mekItems.forEach(type => {
-      allthemods.addLang(`item.kubejs.${type}_${entry.material}`, snakeCaseToUpperCase(`${entry.material}_${type}`))
+      allthemods.add(`item.kubejs.${type}_${entry.material}`, snakeCaseToUpperCase(`${entry.material}_${type}`))
     })
     if (entry.makeDust) {
-      allthemods.addLang(`item.kubejs.dust_${entry.material}`, snakeCaseToUpperCase(`${entry.material}_dust`))
+      allthemods.add(`item.kubejs.dust_${entry.material}`, snakeCaseToUpperCase(`${entry.material}_dust`))
     }
   })
 })
