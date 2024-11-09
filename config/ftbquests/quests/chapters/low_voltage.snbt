@@ -11,11 +11,11 @@
 	quests: [
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.machineUpgrade.1}"
+				"{atm9.quest.gregtech.lv.desc.machineUpgrade.1}"
 				""
-				"{atm9.quest.gregtech.desc.machineUpgrade.2}"
+				"{atm9.quest.gregtech.lv.desc.machineUpgrade.2}"
 				""
-				"{atm9.quest.gregtech.desc.machineUpgrade.3}"
+				"{atm9.quest.gregtech.lv.desc.machineUpgrade.3}"
 			]
 			id: "5C1BB559DD83E88F"
 			rewards: [
@@ -35,7 +35,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{atm9.quest.gregtech.subt.welcomeLV}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.welcomeLV}"
 			tasks: [{
 				id: "08EA6CE798092CE9"
 				item: "gtceu:basic_electronic_circuit"
@@ -50,9 +50,9 @@
 				"7480A00B82C5DDB5"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.batchCrafting.1}"
+				"{atm9.quest.gregtech.lv.desc.batchCrafting.1}"
 				""
-				"{atm9.quest.gregtech.desc.batchCrafting.2}"
+				"{atm9.quest.gregtech.lv.desc.batchCrafting.2}"
 			]
 			id: "4D6885EFA4EE272F"
 			rewards: [
@@ -72,7 +72,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{atm9.quest.gregtech.subt.onwardsMV}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.onwardsMV}"
 			tasks: [{
 				id: "312B4A8B539DCD5D"
 				item: "gtceu:good_electronic_circuit"
@@ -84,9 +84,9 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"{atm9.quest.gregtech.desc.wiremillUsage.1}"
+				"{atm9.quest.gregtech.lv.desc.wiremillUsage.1}"
 				""
-				"{atm9.quest.gregtech.desc.wiremillUsage.2}"
+				"{atm9.quest.gregtech.lv.desc.wiremillUsage.2}"
 			]
 			id: "2A26032DC9C8CFD6"
 			optional: true
@@ -97,7 +97,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.gregtech.subt.cheaperWires}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.cheaperWires}"
 			tasks: [{
 				id: "570680D6E9DF6FA7"
 				item: "gtceu:lv_wiremill"
@@ -109,9 +109,9 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"{atm9.quest.gregtech.desc.plateMachineUsage.1}"
+				"{atm9.quest.gregtech.lv.desc.plateMachineUsage.1}"
 				""
-				"{atm9.quest.gregtech.desc.plateMachineUsage.2}"
+				"{atm9.quest.gregtech.lv.desc.plateMachineUsage.2}"
 			]
 			id: "1906C5D1C80035E4"
 			optional: true
@@ -122,7 +122,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.gregtech.subt.cheaperPlates}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.cheaperPlates}"
 			tasks: [{
 				id: "2077EC584FD16863"
 				item: "gtceu:lv_bender"
@@ -134,9 +134,9 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"{atm9.quest.gregtech.desc.rubberCrafting.1}"
+				"{atm9.quest.gregtech.lv.desc.rubberCrafting.1}"
 				""
-				"{atm9.quest.gregtech.desc.rubberCrafting.2}"
+				"{atm9.quest.gregtech.lv.desc.rubberCrafting.2}"
 			]
 			id: "620C406CC24F179C"
 			rewards: [{
@@ -145,7 +145,7 @@
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.moreRubberBetter}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.moreRubberBetter}"
 			tasks: [{
 				id: "52A1256EE8999962"
 				item: "gtceu:lv_chemical_reactor"
@@ -156,7 +156,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["{atm9.quest.gregtech.desc.castingMolds.1}"]
+			description: ["{atm9.quest.gregtech.lv.desc.castingMolds.1}"]
 			icon: "gtceu:lv_fluid_solidifier"
 			id: "78C51E9B7B8315F6"
 			optional: true
@@ -175,7 +175,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.gregtech.subt.needSolidFluid}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.needSolidFluid}"
 			tasks: [
 				{
 					id: "091F155D7F3E3BB9"
@@ -194,11 +194,11 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"{atm9.quest.gregtech.desc.wireCoating.1}"
+				"{atm9.quest.gregtech.lv.desc.wireCoating.1}"
 				""
-				"{atm9.quest.gregtech.desc.wireCoating.2}"
+				"{atm9.quest.gregtech.lv.desc.wireCoating.2}"
 				""
-				"{atm9.quest.gregtech.desc.wireCoating.3}"
+				"{atm9.quest.gregtech.lv.desc.wireCoating.3}"
 			]
 			id: "0718FA338E8BA792"
 			rewards: [{
@@ -217,7 +217,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["{atm9.quest.gregtech.desc.rodProduction.1}"]
+			description: ["{atm9.quest.gregtech.lv.desc.rodProduction.1}"]
 			id: "601DA80C08C3F9AC"
 			optional: true
 			rewards: [{
@@ -227,7 +227,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.gregtech.subt.goodOldRod}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.goodOldRod}"
 			tasks: [{
 				id: "6B700066BC245B01"
 				item: "gtceu:lv_lathe"
@@ -238,7 +238,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["{atm9.quest.gregtech.desc.centrifugeUsage.1}"]
+			description: ["{atm9.quest.gregtech.lv.desc.centrifugeUsage.1}"]
 			id: "7A8242E6D0BC6294"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -246,7 +246,7 @@
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.yourSpinMeRound}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.yourSpinMeRound}"
 			tasks: [{
 				id: "367EC7D585D98AA3"
 				item: "gtceu:lv_centrifuge"
@@ -262,9 +262,9 @@
 				"402B0C7242A00309"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.diodeReach.1}"
+				"{atm9.quest.gregtech.lv.desc.diodeReach.1}"
 				""
-				"{atm9.quest.gregtech.desc.diodeReach.2}"
+				"{atm9.quest.gregtech.lv.desc.diodeReach.2}"
 			]
 			id: "0F9829B0A5EEE67B"
 			rewards: [{
@@ -282,7 +282,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["{atm9.quest.gregtech.desc.mixerUsage.1}"]
+			description: ["{atm9.quest.gregtech.lv.desc.mixerUsage.1}"]
 			id: "2BE4B6F1CCAA36AC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -301,9 +301,9 @@
 		{
 			dependencies: ["0F9829B0A5EEE67B"]
 			description: [
-				"{atm9.quest.gregtech.desc.extractorUsage.1}"
+				"{atm9.quest.gregtech.lv.desc.extractorUsage.1}"
 				""
-				"{atm9.quest.gregtech.desc.extractorUsage.2}"
+				"{atm9.quest.gregtech.lv.desc.extractorUsage.2}"
 			]
 			id: "11D16434F78D2C2C"
 			rewards: [
@@ -321,7 +321,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{atm9.quest.gregtech.subt.mvProximity}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.mvProximity}"
 			tasks: [{
 				id: "61B743E1BD9B2C2A"
 				item: "gtceu:diode"
@@ -358,7 +358,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.hazardousMaterials}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.hazardousMaterials}"
 			tasks: [{
 				id: "198DCF429BE2642F"
 				item: "gtceu:glue_bucket"
@@ -369,7 +369,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["{atm9.quest.gregtech.desc.steamConversion.1}"]
+			description: ["{atm9.quest.gregtech.lv.desc.steamConversion.1}"]
 			id: "1A000021C07943C4"
 			optional: true
 			rewards: [
@@ -388,7 +388,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{atm9.quest.gregtech.subt.energyIndependence}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.energyIndependence}"
 			tasks: [{
 				id: "630369075AEDE4C6"
 				item: "gtceu:lv_steam_turbine"
@@ -400,15 +400,15 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"{atm9.quest.gregtech.desc.energySetup.1}"
+				"{atm9.quest.gregtech.lv.desc.energySetup.1}"
 				""
-				"{atm9.quest.gregtech.desc.energySetup.2}"
+				"{atm9.quest.gregtech.lv.desc.energySetup.2}"
 				""
-				"{atm9.quest.gregtech.desc.energySetup.3}"
+				"{atm9.quest.gregtech.lv.desc.energySetup.3}"
 				""
-				"{atm9.quest.gregtech.desc.energySetup.4}"
+				"{atm9.quest.gregtech.lv.desc.energySetup.4}"
 				""
-				"{atm9.quest.gregtech.desc.energySetup.5}"
+				"{atm9.quest.gregtech.lv.desc.energySetup.5}"
 			]
 			id: "01339A8C26CC6E0C"
 			optional: true
@@ -461,16 +461,16 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.lvEnergyConverter}"
+				title: "{atm9.quest.gregtech.lv.lvEnergyConverter}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.energyConverters}"
+			title: "{atm9.quest.gregtech.lv.energyConverters}"
 			x: -5.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1A000021C07943C4"]
-			description: ["{atm9.quest.gregtech.desc.advancedBoilers.1}"]
+			description: ["{atm9.quest.gregtech.lv.desc.advancedBoilers.1}"]
 			id: "4E55A1169742B901"
 			optional: true
 			rewards: [
@@ -489,7 +489,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{atm9.quest.gregtech.subt.steamMultiblock}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.steamMultiblock}"
 			tasks: [{
 				id: "003E27141ED2E7DB"
 				item: "gtceu:bronze_large_boiler"
@@ -520,13 +520,13 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"{atm9.quest.gregtech.desc.circuitProgramming.1}"
+				"{atm9.quest.gregtech.lv.desc.circuitProgramming.1}"
 				""
-				"{atm9.quest.gregtech.desc.circuitProgramming.2}"
+				"{atm9.quest.gregtech.lv.desc.circuitProgramming.2}"
 				""
-				"{atm9.quest.gregtech.desc.circuitProgramming.3}"
+				"{atm9.quest.gregtech.lv.desc.circuitProgramming.3}"
 				""
-				"{atm9.quest.gregtech.desc.circuitProgramming.4}"
+				"{atm9.quest.gregtech.lv.desc.circuitProgramming.4}"
 			]
 			icon: {
 				Count: 1
@@ -544,7 +544,7 @@
 			}]
 			tasks: [{
 				id: "71AF3878DBC0AB29"
-				title: "{atm9.quest.gregtech.programmedCircuits}"
+				title: "{atm9.quest.gregtech.lv.programmedCircuits}"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -557,9 +557,9 @@
 				"6E2F24117ACF3694"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.arsenicProduction.1}"
+				"{atm9.quest.gregtech.lv.desc.arsenicProduction.1}"
 				""
-				"{atm9.quest.gregtech.desc.arsenicProduction.2}"
+				"{atm9.quest.gregtech.lv.desc.arsenicProduction.2}"
 			]
 			id: "74EE98F95F483C37"
 			rewards: [{
@@ -579,13 +579,13 @@
 		{
 			dependencies: ["439C8AEBE9E1C666"]
 			description: [
-				"{atm9.quest.gregtech.desc.ebfMultiblock.1}"
+				"{atm9.quest.gregtech.lv.desc.ebfMultiblock.1}"
 				""
-				"{atm9.quest.gregtech.desc.ebfMultiblock.2}"
+				"{atm9.quest.gregtech.lv.desc.ebfMultiblock.2}"
 				""
-				"{atm9.quest.gregtech.desc.ebfMultiblock.3}"
+				"{atm9.quest.gregtech.lv.desc.ebfMultiblock.3}"
 				""
-				"{atm9.quest.gregtech.desc.ebfMultiblock.4}"
+				"{atm9.quest.gregtech.lv.desc.ebfMultiblock.4}"
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "6E2F24117ACF3694"
@@ -604,7 +604,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{atm9.quest.gregtech.subt.firstMultiblock}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.firstMultiblock}"
 			tasks: [
 				{
 					id: "4C753457114B1DEF"
@@ -665,13 +665,13 @@
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.oxygenEarly.1}"
+				"{atm9.quest.gregtech.lv.desc.oxygenEarly.1}"
 				""
-				"{atm9.quest.gregtech.desc.oxygenEarly.2}"
+				"{atm9.quest.gregtech.lv.desc.oxygenEarly.2}"
 				""
-				"{atm9.quest.gregtech.desc.oxygenEarly.3}"
+				"{atm9.quest.gregtech.lv.desc.oxygenEarly.3}"
 				""
-				"{atm9.quest.gregtech.desc.oxygenEarly.4}"
+				"{atm9.quest.gregtech.lv.desc.oxygenEarly.4}"
 			]
 			id: "7D5F805A6F2551F0"
 			min_width: 250
@@ -693,15 +693,15 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"{atm9.quest.gregtech.desc.oreProcessingSetup.1}"
+				"{atm9.quest.gregtech.lv.desc.oreProcessingSetup.1}"
 				""
-				"{atm9.quest.gregtech.desc.oreProcessingSetup.2}"
+				"{atm9.quest.gregtech.lv.desc.oreProcessingSetup.2}"
 				""
-				"{atm9.quest.gregtech.desc.oreProcessingSetup.3}"
+				"{atm9.quest.gregtech.lv.desc.oreProcessingSetup.3}"
 				""
-				"{atm9.quest.gregtech.desc.oreProcessingSetup.4}"
+				"{atm9.quest.gregtech.lv.desc.oreProcessingSetup.4}"
 				""
-				"{atm9.quest.gregtech.desc.oreProcessingSetup.5}"
+				"{atm9.quest.gregtech.lv.desc.oreProcessingSetup.5}"
 				""
 				"[ \"\", { \"text\": \"Note: \", \"color\":\"#FFFF55\", \"bold\":\"true\" }, { \"text\": \"The Ore Washer requires \" }, { \"text\": \"water\", \"color\":\"#5555FF\" }, { \"text\": \" and a \" }, { \"text\":\"Programmed Circuit\", \"color\":\"#FFAA00\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"4875FB6628C1FCDC\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } }, { \"text\":\" setting to run\" } ]"
 			]
@@ -713,7 +713,7 @@
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.basics}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.basics}"
 			tasks: [
 				{
 					id: "30667DF7F6540C0B"
@@ -731,16 +731,16 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.oreProcessing}"
+			title: "{atm9.quest.gregtech.lv.oreProcessing}"
 			x: 0.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["25DBFE887B041E94"]
 			description: [
-				"{atm9.quest.gregtech.desc.cobaltiteDust.1}"
+				"{atm9.quest.gregtech.lv.desc.cobaltiteDust.1}"
 				""
-				"{atm9.quest.gregtech.desc.cobaltiteDust.2}"
+				"{atm9.quest.gregtech.lv.desc.cobaltiteDust.2}"
 			]
 			id: "14C017569BECA2CE"
 			rewards: [{
@@ -761,9 +761,9 @@
 		{
 			dependencies: ["512BD9BCA43AEE83"]
 			description: [
-				"{atm9.quest.gregtech.desc.arsenicFromRealgar.1}"
+				"{atm9.quest.gregtech.lv.desc.arsenicFromRealgar.1}"
 				""
-				"{atm9.quest.gregtech.desc.arsenicFromRealgar.2}"
+				"{atm9.quest.gregtech.lv.desc.arsenicFromRealgar.2}"
 			]
 			id: "2E2B6921723681C7"
 			rewards: [{
@@ -783,15 +783,15 @@
 		{
 			dependencies: ["6E2F24117ACF3694"]
 			description: [
-				"{atm9.quest.gregtech.desc.maintenanceEBF.1}"
+				"{atm9.quest.gregtech.lv.desc.maintenanceEBF.1}"
 				""
-				"{atm9.quest.gregtech.desc.maintenanceEBF.2}"
+				"{atm9.quest.gregtech.lv.desc.maintenanceEBF.2}"
 				""
-				"{atm9.quest.gregtech.desc.maintenanceEBF.3}"
+				"{atm9.quest.gregtech.lv.desc.maintenanceEBF.3}"
 				""
-				"{atm9.quest.gregtech.desc.maintenanceEBF.4}"
+				"{atm9.quest.gregtech.lv.desc.maintenanceEBF.4}"
 				""
-				"{atm9.quest.gregtech.desc.maintenanceEBF.5}"
+				"{atm9.quest.gregtech.lv.desc.maintenanceEBF.5}"
 			]
 			id: "23B55A8C7D6482FF"
 			min_width: 300
@@ -800,10 +800,10 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.brokenEBF}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.brokenEBF}"
 			tasks: [{
 				id: "0362C10508FC4615"
-				title: "{atm9.quest.gregtech.maintenance}"
+				title: "{atm9.quest.gregtech.lv.maintenance}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -812,9 +812,9 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"{atm9.quest.gregtech.desc.liquidizingMetals.1}"
+				"{atm9.quest.gregtech.lv.desc.liquidizingMetals.1}"
 				""
-				"{atm9.quest.gregtech.desc.liquidizingMetals.2}"
+				"{atm9.quest.gregtech.lv.desc.liquidizingMetals.2}"
 			]
 			id: "504DEE88DFDBD380"
 			optional: true
@@ -825,7 +825,7 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.gregtech.subt.liquidAssets}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.liquidAssets}"
 			tasks: [{
 				id: "74FD2DABE6D932C9"
 				item: "gtceu:lv_extractor"
@@ -841,9 +841,9 @@
 				"7B8ADB4104E7C440"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.sodiumPersulfate.1}"
+				"{atm9.quest.gregtech.lv.desc.sodiumPersulfate.1}"
 				""
-				"{atm9.quest.gregtech.desc.sodiumPersulfate.2}"
+				"{atm9.quest.gregtech.lv.desc.sodiumPersulfate.2}"
 			]
 			id: "402B0C7242A00309"
 			rewards: [{
@@ -863,7 +863,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["{atm9.quest.gregtech.desc.wroughtIron}"]
+			description: ["{atm9.quest.gregtech.lv.desc.wroughtIron}"]
 			id: "313AA0A45CD2BBB9"
 			rewards: [{
 				count: 2
@@ -885,9 +885,9 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"{atm9.quest.gregtech.desc.alloySmelter.1}"
+				"{atm9.quest.gregtech.lv.desc.alloySmelter.1}"
 				""
-				"{atm9.quest.gregtech.desc.alloySmelter.2}"
+				"{atm9.quest.gregtech.lv.desc.alloySmelter.2}"
 			]
 			id: "439C8AEBE9E1C666"
 			rewards: [{
@@ -907,23 +907,23 @@
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			description: [
-				"{atm9.quest.gregtech.desc.resourceGeneration.1}"
+				"{atm9.quest.gregtech.lv.desc.resourceGeneration.1}"
 				""
-				"{atm9.quest.gregtech.desc.resourceGeneration.2}"
+				"{atm9.quest.gregtech.lv.desc.resourceGeneration.2}"
 				""
-				"{atm9.quest.gregtech.desc.resourceGeneration.3}"
+				"{atm9.quest.gregtech.lv.desc.resourceGeneration.3}"
 				""
-				"{atm9.quest.gregtech.desc.resourceGeneration.4}"
+				"{atm9.quest.gregtech.lv.desc.resourceGeneration.4}"
 				""
-				"{atm9.quest.gregtech.desc.resourceGeneration.5}"
+				"{atm9.quest.gregtech.lv.desc.resourceGeneration.5}"
 				""
-				"{atm9.quest.gregtech.desc.resourceGeneration.6}"
+				"{atm9.quest.gregtech.lv.desc.resourceGeneration.6}"
 				""
-				"{atm9.quest.gregtech.desc.resourceGeneration.7}"
+				"{atm9.quest.gregtech.lv.desc.resourceGeneration.7}"
 				""
-				"{atm9.quest.gregtech.desc.resourceGeneration.8}"
+				"{atm9.quest.gregtech.lv.desc.resourceGeneration.8}"
 				""
-				"{atm9.quest.gregtech.desc.resourceGeneration.9}"
+				"{atm9.quest.gregtech.lv.desc.resourceGeneration.9}"
 			]
 			id: "0D99638C96AB2EEA"
 			min_width: 400
@@ -944,7 +944,7 @@
 			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "{atm9.quest.gregtech.subt.needIt}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.needIt}"
 			tasks: [
 				{
 					id: "00648047034C9531"
@@ -968,7 +968,7 @@
 							]
 						}
 					}
-					title: "{atm9.quest.gregtech.rockCrusher}"
+					title: "{atm9.quest.gregtech.lv.rockCrusher}"
 					type: "item"
 				}
 				{
@@ -994,7 +994,7 @@
 							]
 						}
 					}
-					title: "{atm9.quest.gregtech.forgeHammers}"
+					title: "{atm9.quest.gregtech.lv.forgeHammers}"
 					type: "item"
 				}
 				{
@@ -1024,7 +1024,7 @@
 							]
 						}
 					}
-					title: "{atm9.quest.gregtech.macerator}"
+					title: "{atm9.quest.gregtech.lv.macerator}"
 					type: "item"
 				}
 				{
@@ -1038,16 +1038,16 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.passiveOxygenLine}"
+			title: "{atm9.quest.gregtech.lv.passiveOxygenLine}"
 			x: -2.5249999999999995d
 			y: 2.9000000000000004d
 		}
 		{
 			dependencies: ["74EE98F95F483C37"]
 			description: [
-				"{atm9.quest.gregtech.desc.electrolyzerOperation.1}"
+				"{atm9.quest.gregtech.lv.desc.electrolyzerOperation.1}"
 				""
-				"{atm9.quest.gregtech.desc.electrolyzerOperation.2}"
+				"{atm9.quest.gregtech.lv.desc.electrolyzerOperation.2}"
 			]
 			id: "512BD9BCA43AEE83"
 			rewards: [{
@@ -1056,7 +1056,7 @@
 				table_id: 4804065436311136435L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.electricEel}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.electricEel}"
 			tasks: [{
 				id: "4DE768EBE8A565BA"
 				item: "gtceu:lv_electrolyzer"
@@ -1068,9 +1068,9 @@
 		{
 			dependencies: ["620C406CC24F179C"]
 			description: [
-				"{atm9.quest.gregtech.desc.chemicalReactorOperation.1}"
+				"{atm9.quest.gregtech.lv.desc.chemicalReactorOperation.1}"
 				""
-				"{atm9.quest.gregtech.desc.chemicalReactorOperation.2}"
+				"{atm9.quest.gregtech.lv.desc.chemicalReactorOperation.2}"
 			]
 			id: "64314EEB9916CAB1"
 			rewards: [{
@@ -1090,9 +1090,9 @@
 		{
 			dependencies: ["64314EEB9916CAB1"]
 			description: [
-				"{atm9.quest.gregtech.desc.sulfurDioxideProcessing.1}"
+				"{atm9.quest.gregtech.lv.desc.sulfurDioxideProcessing.1}"
 				""
-				"{atm9.quest.gregtech.desc.sulfurDioxideProcessing.2}"
+				"{atm9.quest.gregtech.lv.desc.sulfurDioxideProcessing.2}"
 			]
 			id: "5143E0F48520D41B"
 			rewards: [{
@@ -1111,9 +1111,9 @@
 		{
 			dependencies: ["5143E0F48520D41B"]
 			description: [
-				"{atm9.quest.gregtech.desc.sulfuricAcidProduction.1}"
+				"{atm9.quest.gregtech.lv.desc.sulfuricAcidProduction.1}"
 				""
-				"{atm9.quest.gregtech.desc.sulfuricAcidProduction.2}"
+				"{atm9.quest.gregtech.lv.desc.sulfuricAcidProduction.2}"
 			]
 			id: "17A935989A9505E1"
 			rewards: [{
@@ -1121,7 +1121,7 @@
 				item: "gtceu:sulfur_trioxide_bucket"
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.addWater}"
+			subtitle: "{atm9.quest.gregtech.lv.subt.addWater}"
 			tasks: [{
 				id: "75017109130EE055"
 				item: "gtceu:sulfuric_acid_bucket"
@@ -1132,7 +1132,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["{atm9.quest.gregtech.desc.chemicalBathUsage}"]
+			description: ["{atm9.quest.gregtech.lv.desc.chemicalBathUsage}"]
 			id: "4059373B88845C6F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1153,7 +1153,7 @@
 				"620C406CC24F179C"
 				"17A935989A9505E1"
 			]
-			description: ["{atm9.quest.gregtech.desc.sodiumBisulfateProduction}"]
+			description: ["{atm9.quest.gregtech.lv.desc.sodiumBisulfateProduction}"]
 			id: "4835BE1596B65206"
 			rewards: [{
 				count: 3
