@@ -90,6 +90,8 @@ ServerEvents.tags('item', allthemods => {
 	allthemods.add('mysticalagriculture:material/saltpeter', 'railcraft:saltpeter_dust')
 	allthemods.add('supplementaries:hourglass_dusts', 'railcraft:saltpeter_dust')
 
+  allthemods.remove('tombstone:seeds', 'mysticalagriculture:seeds')
+  allthemods.remove('forge:seeds', '#mysticalagriculture:seeds')
 })
 
 ServerEvents.tags('block', allthemods => {

@@ -8,3 +8,8 @@
 		#Allows ceiling lanterns to fall if their support is broken.Additionally if they fall from high enough they will break creating a fire where they land
 		#Allowed Values: ON, OFF, NO_FIRE
 		falling_lanterns = "OFF"
+
+#General settings
+[general]
+	#Disable startup messages and sanity check that the mod performs to inform of possible detected crashes that might occur due to issues
+	sanity_checks_messages = false
