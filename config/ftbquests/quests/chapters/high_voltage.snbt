@@ -11,9 +11,9 @@
 	quests: [
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.utilizingThePower.1}"
+				"{atm9.quest.gregtech.hv.desc.utilizingThePower.1}"
 				""
-				"{atm9.quest.gregtech.desc.utilizingThePower.2}"
+				"{atm9.quest.gregtech.hv.desc.utilizingThePower.2}"
 			]
 			id: "70C952B8FF3418F6"
 			rewards: [
@@ -33,7 +33,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{atm9.quest.gregtech.subt.buckleUpForHV}"
+			subtitle: "{atm9.quest.gregtech.hv.subt.buckleUpForHV}"
 			tasks: [{
 				id: "12A2731FC755513E"
 				item: "gtceu:advanced_integrated_circuit"
@@ -49,9 +49,9 @@
 				"0AC6B223857CAE94"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.buckleUpForHV.1}"
+				"{atm9.quest.gregtech.hv.desc.buckleUpForHV.1}"
 				""
-				"{atm9.quest.gregtech.desc.buckleUpForHV.2}"
+				"{atm9.quest.gregtech.hv.desc.buckleUpForHV.2}"
 			]
 			id: "54EDFCD65E088296"
 			rewards: [{
@@ -60,7 +60,7 @@
 				table_id: 822291801189586703L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.ulvOnTheCheap}"
+			subtitle: "{atm9.quest.gregtech.hv.subt.ulvOnTheCheap}"
 			tasks: [{
 				id: "28B1CB0A8A7BDC67"
 				item: "gtceu:nand_chip"
@@ -76,11 +76,11 @@
 				"3FDC2A2BBAC0EF1B"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.ulvOnTheCheap.1}"
+				"{atm9.quest.gregtech.hv.desc.ulvOnTheCheap.1}"
 				""
-				"{atm9.quest.gregtech.desc.ulvOnTheCheap.2}"
+				"{atm9.quest.gregtech.hv.desc.ulvOnTheCheap.2}"
 				""
-				"{atm9.quest.gregtech.desc.ulvOnTheCheap.3}"
+				"{atm9.quest.gregtech.hv.desc.ulvOnTheCheap.3}"
 			]
 			id: "4DA2B92417DD41F8"
 			rewards: [{
@@ -104,9 +104,9 @@
 				"3FDC2A2BBAC0EF1B"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.ulvOnTheCheap.4}"
+				"{atm9.quest.gregtech.hv.desc.ulvOnTheCheap.4}"
 				""
-				"{atm9.quest.gregtech.desc.ulvOnTheCheap.5}"
+				"{atm9.quest.gregtech.hv.desc.ulvOnTheCheap.5}"
 			]
 			id: "19DB4970B3D11C1B"
 			rewards: [{
@@ -132,9 +132,9 @@
 				"0DF9014435C8F4D2"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.ulvOnTheCheap.6}"
+				"{atm9.quest.gregtech.hv.desc.ulvOnTheCheap.6}"
 				""
-				"{atm9.quest.gregtech.desc.ulvOnTheCheap.7}"
+				"{atm9.quest.gregtech.hv.desc.ulvOnTheCheap.7}"
 			]
 			id: "732D201794C228DD"
 			rewards: [{
@@ -158,7 +158,7 @@
 				"5FAA73C52082DC48"
 				"62BBF61C9849CA26"
 			]
-			description: ["{atm9.quest.gregtech.desc.ulvOnTheCheap.8}"]
+			description: ["{atm9.quest.gregtech.hv.desc.ulvOnTheCheap.8}"]
 			id: "0DB4226BA23A5C09"
 			rewards: [
 				{
@@ -184,7 +184,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{atm9.quest.gregtech.subt.canThisSupercomputerWinAtChess}"
+			subtitle: "{atm9.quest.gregtech.hv.subt.canThisSupercomputerWinAtChess}"
 			tasks: [{
 				id: "7497784245BE7D72"
 				item: "gtceu:micro_processor_computer"
@@ -196,9 +196,9 @@
 		{
 			dependencies: ["70C952B8FF3418F6"]
 			description: [
-				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.1}"
+				"{atm9.quest.gregtech.hv.desc.canThisSupercomputerWinAtChess.1}"
 				""
-				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.2}"
+				"{atm9.quest.gregtech.hv.desc.canThisSupercomputerWinAtChess.2}"
 			]
 			id: "0AC6B223857CAE94"
 			rewards: [{
@@ -223,17 +223,17 @@
 				"70C952B8FF3418F6"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.3}"
+				"{atm9.quest.gregtech.hv.desc.canThisSupercomputerWinAtChess.3}"
 				""
-				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.4}"
+				"{atm9.quest.gregtech.hv.desc.canThisSupercomputerWinAtChess.4}"
 				""
-				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.5}"
+				"{atm9.quest.gregtech.hv.desc.canThisSupercomputerWinAtChess.5}"
 				""
-				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.6}"
+				"{atm9.quest.gregtech.hv.desc.canThisSupercomputerWinAtChess.6}"
 				""
-				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.7}"
+				"{atm9.quest.gregtech.hv.desc.canThisSupercomputerWinAtChess.7}"
 				""
-				"{atm9.quest.gregtech.desc.canThisSupercomputerWinAtChess.8}"
+				"{atm9.quest.gregtech.hv.desc.canThisSupercomputerWinAtChess.8}"
 			]
 			icon: "gtceu:cleanroom"
 			id: "62BBF61C9849CA26"
@@ -244,7 +244,7 @@
 				table_id: 822291801189586703L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.subt.squeakyClean}"
+			subtitle: "{atm9.quest.gregtech.hv.subt.squeakyClean}"
 			tasks: [{
 				id: "564B0D84C5688FF2"
 				item: "gtceu:cleanroom"
@@ -256,9 +256,9 @@
 		{
 			dependencies: ["681110DE6B4E6ED8"]
 			description: [
-				"{atm9.quest.gregtech.desc.squeakyClean.1}"
+				"{atm9.quest.gregtech.hv.desc.squeakyClean.1}"
 				""
-				"{atm9.quest.gregtech.desc.squeakyClean.2}"
+				"{atm9.quest.gregtech.hv.desc.squeakyClean.2}"
 			]
 			id: "1DF42E30A24A9DEC"
 			tasks: [{
@@ -270,7 +270,7 @@
 			y: 6.500000000000005d
 		}
 		{
-			description: ["{atm9.quest.gregtech.desc.squeakyClean.3}"]
+			description: ["{atm9.quest.gregtech.hv.desc.squeakyClean.3}"]
 			id: "6F49C691CF79D4B8"
 			shape: "square"
 			tasks: [{
@@ -286,7 +286,7 @@
 				"70C952B8FF3418F6"
 				"4FD6092D9C2A485C"
 			]
-			description: ["{atm9.quest.gregtech.desc.squeakyClean.4}"]
+			description: ["{atm9.quest.gregtech.hv.desc.squeakyClean.4}"]
 			id: "61262BC1C525E6F1"
 			rewards: [
 				{
@@ -320,9 +320,9 @@
 				"0BAD21557994331D"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.squeakyClean.5}"
+				"{atm9.quest.gregtech.hv.desc.squeakyClean.5}"
 				""
-				"{atm9.quest.gregtech.desc.squeakyClean.6}"
+				"{atm9.quest.gregtech.hv.desc.squeakyClean.6}"
 			]
 			id: "5FAA73C52082DC48"
 			rewards: [
@@ -351,13 +351,13 @@
 		{
 			dependencies: ["54BEC01D84237DBC"]
 			description: [
-				"{atm9.quest.gregtech.desc.squeakyClean.7}"
+				"{atm9.quest.gregtech.hv.desc.squeakyClean.7}"
 				""
-				"{atm9.quest.gregtech.desc.squeakyClean.8}"
+				"{atm9.quest.gregtech.hv.desc.squeakyClean.8}"
 				""
-				"{atm9.quest.gregtech.desc.squeakyClean.9}"
+				"{atm9.quest.gregtech.hv.desc.squeakyClean.9}"
 				""
-				"{atm9.quest.gregtech.desc.squeakyClean.10}"
+				"{atm9.quest.gregtech.hv.desc.squeakyClean.10}"
 			]
 			id: "0BAD21557994331D"
 			rewards: [{
@@ -375,11 +375,11 @@
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.highVoltageSheets.1}"
+				"{atm9.quest.gregtech.hv.desc.highVoltageSheets.1}"
 				""
-				"{atm9.quest.gregtech.desc.highVoltageSheets.2}"
+				"{atm9.quest.gregtech.hv.desc.highVoltageSheets.2}"
 				""
-				"{atm9.quest.gregtech.desc.highVoltageSheets.3}"
+				"{atm9.quest.gregtech.hv.desc.highVoltageSheets.3}"
 			]
 			id: "791E5CB36B5C1E73"
 			min_width: 250
@@ -401,11 +401,11 @@
 		{
 			dependencies: ["12F24C9C6D2AF887"]
 			description: [
-				"{atm9.quest.gregtech.desc.nickelZincFerrite.1}"
+				"{atm9.quest.gregtech.hv.desc.nickelZincFerrite.1}"
 				""
-				"{atm9.quest.gregtech.desc.nickelZincFerrite.2}"
+				"{atm9.quest.gregtech.hv.desc.nickelZincFerrite.2}"
 				""
-				"{atm9.quest.gregtech.desc.nickelZincFerrite.3}"
+				"{atm9.quest.gregtech.hv.desc.nickelZincFerrite.3}"
 			]
 			id: "0DF9014435C8F4D2"
 			min_width: 250
@@ -426,9 +426,9 @@
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.laserEngraverLens.1}"
+				"{atm9.quest.gregtech.hv.desc.laserEngraverLens.1}"
 				""
-				"{atm9.quest.gregtech.desc.laserEngraverLens.2}"
+				"{atm9.quest.gregtech.hv.desc.laserEngraverLens.2}"
 			]
 			id: "3FDC2A2BBAC0EF1B"
 			rewards: [{
@@ -456,13 +456,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.cpuChip}"
+			title: "{atm9.quest.gregtech.hv.cpuChip}"
 			x: 3.2d
 			y: 0.20000000000000018d
 		}
 		{
 			dependencies: ["0B54990168F9B136"]
-			description: ["{atm9.quest.gregtech.desc.cpuChip.1}"]
+			description: ["{atm9.quest.gregtech.hv.desc.cpuChip.1}"]
 			id: "39ACF4D6503067F3"
 			rewards: [{
 				id: "18F7C546E935D265"
@@ -480,11 +480,11 @@
 		{
 			dependencies: ["16154B77454631F4"]
 			description: [
-				"{atm9.quest.gregtech.desc.ulvCircuit.1}"
+				"{atm9.quest.gregtech.hv.desc.ulvCircuit.1}"
 				""
-				"{atm9.quest.gregtech.desc.ulvCircuit.2}"
+				"{atm9.quest.gregtech.hv.desc.ulvCircuit.2}"
 				""
-				"{atm9.quest.gregtech.desc.ulvCircuit.3}"
+				"{atm9.quest.gregtech.hv.desc.ulvCircuit.3}"
 			]
 			id: "0B54990168F9B136"
 			rewards: [{
@@ -504,7 +504,7 @@
 		}
 		{
 			dependencies: ["62161044F3F3AB87"]
-			description: ["{atm9.quest.gregtech.desc.laserEngraverLens.3}"]
+			description: ["{atm9.quest.gregtech.hv.desc.laserEngraverLens.3}"]
 			id: "16154B77454631F4"
 			rewards: [{
 				id: "3C750604EAB74C87"
@@ -521,7 +521,7 @@
 		}
 		{
 			dependencies: ["78DC12C2EB504E56"]
-			description: ["{atm9.quest.gregtech.desc.lensMaking.1}"]
+			description: ["{atm9.quest.gregtech.hv.desc.lensMaking.1}"]
 			id: "1AF005E292E409D1"
 			rewards: [{
 				id: "1D704E20CBE202D5"
@@ -538,13 +538,13 @@
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.glassPlateOptions.1}"
+				"{atm9.quest.gregtech.hv.desc.glassPlateOptions.1}"
 				""
-				"{atm9.quest.gregtech.desc.glassPlateOptions.2}"
+				"{atm9.quest.gregtech.hv.desc.glassPlateOptions.2}"
 				""
-				"{atm9.quest.gregtech.desc.glassPlateOptions.3}"
+				"{atm9.quest.gregtech.hv.desc.glassPlateOptions.3}"
 				""
-				"{atm9.quest.gregtech.desc.glassPlateOptions.4}"
+				"{atm9.quest.gregtech.hv.desc.glassPlateOptions.4}"
 			]
 			id: "78DC12C2EB504E56"
 			rewards: [{
@@ -566,11 +566,11 @@
 		{
 			dependencies: ["503E5B82A6C89278"]
 			description: [
-				"{atm9.quest.gregtech.desc.pvcSheet.1}"
+				"{atm9.quest.gregtech.hv.desc.pvcSheet.1}"
 				""
-				"{atm9.quest.gregtech.desc.pvcSheet.2}"
+				"{atm9.quest.gregtech.hv.desc.pvcSheet.2}"
 				""
-				"{atm9.quest.gregtech.desc.pvcSheet.3}"
+				"{atm9.quest.gregtech.hv.desc.pvcSheet.3}"
 			]
 			id: "124C2A904BF84254"
 			rewards: [{
@@ -591,9 +591,9 @@
 		{
 			dependencies: ["68526BA198AADD8E"]
 			description: [
-				"{atm9.quest.gregtech.desc.blueAlloyDust.1}"
+				"{atm9.quest.gregtech.hv.desc.blueAlloyDust.1}"
 				""
-				"{atm9.quest.gregtech.desc.blueAlloyDust.2}"
+				"{atm9.quest.gregtech.hv.desc.blueAlloyDust.2}"
 			]
 			id: "46F5DC6A7FF02DF2"
 			rewards: [{
@@ -612,7 +612,7 @@
 			y: 0.5d
 		}
 		{
-			description: ["{atm9.quest.gregtech.desc.electrotineCreation.1}"]
+			description: ["{atm9.quest.gregtech.hv.desc.electrotineCreation.1}"]
 			id: "68526BA198AADD8E"
 			rewards: [{
 				id: "5CD5715A50ED58A6"
@@ -631,7 +631,7 @@
 		}
 		{
 			dependencies: ["6A243EDB2A99C76D"]
-			description: ["{atm9.quest.gregtech.desc.ferriteIngot.1}"]
+			description: ["{atm9.quest.gregtech.hv.desc.ferriteIngot.1}"]
 			id: "12F24C9C6D2AF887"
 			rewards: [{
 				id: "619CB50531BF872F"
@@ -648,9 +648,9 @@
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.advancedMixerSettings.1}"
+				"{atm9.quest.gregtech.hv.desc.advancedMixerSettings.1}"
 				""
-				"{atm9.quest.gregtech.desc.advancedMixerSettings.2}"
+				"{atm9.quest.gregtech.hv.desc.advancedMixerSettings.2}"
 			]
 			hide_dependency_lines: true
 			id: "6A243EDB2A99C76D"
@@ -670,9 +670,9 @@
 		{
 			dependencies: ["70C952B8FF3418F6"]
 			description: [
-				"{atm9.quest.gregtech.desc.energyConversion.1}"
+				"{atm9.quest.gregtech.hv.desc.energyConversion.1}"
 				""
-				"{atm9.quest.gregtech.desc.energyConversion.2}"
+				"{atm9.quest.gregtech.hv.desc.energyConversion.2}"
 			]
 			id: "7F64202F2C0BAD2A"
 			optional: true
@@ -699,7 +699,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{atm9.quest.gregtech.subt.powerQuestion}"
+			subtitle: "{atm9.quest.gregtech.hv.subt.powerQuestion}"
 			tasks: [{
 				id: "30ECDAAF21DA2EA9"
 				item: {
@@ -726,7 +726,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.hvEnergyConverter}"
+				title: "{atm9.quest.gregtech.hv.hvEnergyConverter}"
 				type: "item"
 			}]
 			x: -9.5d
@@ -734,11 +734,11 @@
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.cleanroomFilter.1}"
+				"{atm9.quest.gregtech.hv.desc.cleanroomFilter.1}"
 				""
-				"{atm9.quest.gregtech.desc.cleanroomFilter.2}"
+				"{atm9.quest.gregtech.hv.desc.cleanroomFilter.2}"
 				""
-				"{atm9.quest.gregtech.desc.cleanroomFilter.3}"
+				"{atm9.quest.gregtech.hv.desc.cleanroomFilter.3}"
 			]
 			id: "012366E4E4095FC4"
 			rewards: [{
@@ -766,7 +766,7 @@
 		}
 		{
 			dependencies: ["0115271C840CD387"]
-			description: ["{atm9.quest.gregtech.desc.energySourceSwitch.1}"]
+			description: ["{atm9.quest.gregtech.hv.desc.energySourceSwitch.1}"]
 			id: "1AE7E363AFDC976B"
 			optional: true
 			rewards: [{
@@ -785,7 +785,7 @@
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
-			description: ["{atm9.quest.gregtech.desc.boilerUpgrade.1}"]
+			description: ["{atm9.quest.gregtech.hv.desc.boilerUpgrade.1}"]
 			id: "0115271C840CD387"
 			optional: true
 			rewards: [
@@ -804,7 +804,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{atm9.quest.gregtech.subt.steamOverflow}"
+			subtitle: "{atm9.quest.gregtech.hv.subt.steamOverflow}"
 			tasks: [{
 				id: "419FB15F3A540B74"
 				item: "gtceu:hv_steam_turbine"
@@ -815,9 +815,9 @@
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.cyanDyeProduction.1}"
+				"{atm9.quest.gregtech.hv.desc.cyanDyeProduction.1}"
 				""
-				"{atm9.quest.gregtech.desc.cyanDyeProduction.2}"
+				"{atm9.quest.gregtech.hv.desc.cyanDyeProduction.2}"
 			]
 			id: "5B1C5C9F9CCC51EB"
 			rewards: [{
@@ -836,7 +836,7 @@
 							value: "forge:dyes/cyan"
 						}
 					}
-					title: "{atm9.quest.gregtech.cyanDye}"
+					title: "{atm9.quest.gregtech.hv.cyanDye}"
 					type: "item"
 				}
 				{
@@ -859,7 +859,7 @@
 							]
 						}
 					}
-					title: "{atm9.quest.gregtech.saltDust}"
+					title: "{atm9.quest.gregtech.hv.saltDust}"
 					type: "item"
 				}
 			]
@@ -869,9 +869,9 @@
 		{
 			dependencies: ["1957A39483E15508"]
 			description: [
-				"{atm9.quest.gregtech.desc.polyvinylChloride.1}"
+				"{atm9.quest.gregtech.hv.desc.polyvinylChloride.1}"
 				""
-				"{atm9.quest.gregtech.desc.polyvinylChloride.2}"
+				"{atm9.quest.gregtech.hv.desc.polyvinylChloride.2}"
 			]
 			id: "503E5B82A6C89278"
 			rewards: [{
@@ -890,9 +890,9 @@
 		{
 			dependencies: ["6A2D7380E340B77D"]
 			description: [
-				"{atm9.quest.gregtech.desc.vinylChloride.1}"
+				"{atm9.quest.gregtech.hv.desc.vinylChloride.1}"
 				""
-				"{atm9.quest.gregtech.desc.vinylChloride.2}"
+				"{atm9.quest.gregtech.hv.desc.vinylChloride.2}"
 			]
 			id: "1957A39483E15508"
 			rewards: [{
@@ -910,11 +910,11 @@
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.chlorineSources.1}"
+				"{atm9.quest.gregtech.hv.desc.chlorineSources.1}"
 				""
-				"{atm9.quest.gregtech.desc.chlorineSources.2}"
+				"{atm9.quest.gregtech.hv.desc.chlorineSources.2}"
 				""
-				"{atm9.quest.gregtech.desc.chlorineSources.3}"
+				"{atm9.quest.gregtech.hv.desc.chlorineSources.3}"
 			]
 			id: "6A2D7380E340B77D"
 			min_width: 250
@@ -938,7 +938,7 @@
 				"70C952B8FF3418F6"
 				"1AF005E292E409D1"
 			]
-			description: ["{atm9.quest.gregtech.desc.glassLensDye.1}"]
+			description: ["{atm9.quest.gregtech.hv.desc.glassLensDye.1}"]
 			id: "62161044F3F3AB87"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -959,7 +959,7 @@
 				"4AAF27F0C27FBDB3"
 				"6A2D7380E340B77D"
 			]
-			description: ["{atm9.quest.gregtech.desc.hydrogenChlorineReaction.1}"]
+			description: ["{atm9.quest.gregtech.hv.desc.hydrogenChlorineReaction.1}"]
 			id: "54BEC01D84237DBC"
 			rewards: [{
 				id: "0D1FCABDF38F8263"
@@ -976,11 +976,11 @@
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.hydrogenSources.1}"
+				"{atm9.quest.gregtech.hv.desc.hydrogenSources.1}"
 				""
-				"{atm9.quest.gregtech.desc.hydrogenSources.2}"
+				"{atm9.quest.gregtech.hv.desc.hydrogenSources.2}"
 				""
-				"{atm9.quest.gregtech.desc.hydrogenSources.3}"
+				"{atm9.quest.gregtech.hv.desc.hydrogenSources.3}"
 			]
 			id: "4AAF27F0C27FBDB3"
 			rewards: [{
@@ -1001,7 +1001,7 @@
 			description: [
 				"[ \"\", { \"text\": \"If you made the \" }, { \"text\":\"Clay Processing Line\", \"color\":\"aqua\", \"clickEvent\": { \"action\":\"change_page\", \"value\":\"6275C90E5890C1E4\" }, \"underlined\":\"true\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for a reminder\" } } }, { \"text\":\" earlier, you can simply pause the \" }, { \"text\":\"Electrolyzer\", \"color\":\"yellow\" }, { \"text\":\" briefly to acquire clay dust to mix with your stone dust\" } ]"
 				""
-				"{atm9.quest.gregtech.desc.clayProcessingLine.2}"
+				"{atm9.quest.gregtech.hv.desc.clayProcessingLine.2}"
 			]
 			id: "681110DE6B4E6ED8"
 			shape: "square"
@@ -1015,13 +1015,13 @@
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.desc.advancedMixerSetup.1}"
+				"{atm9.quest.gregtech.hv.desc.advancedMixerSetup.1}"
 				""
-				"{atm9.quest.gregtech.desc.advancedMixerSetup.2}"
+				"{atm9.quest.gregtech.hv.desc.advancedMixerSetup.2}"
 				""
-				"{atm9.quest.gregtech.desc.advancedMixerSetup.3}"
+				"{atm9.quest.gregtech.hv.desc.advancedMixerSetup.3}"
 				""
-				"{atm9.quest.gregtech.desc.advancedMixerSetup.4}"
+				"{atm9.quest.gregtech.hv.desc.advancedMixerSetup.4}"
 			]
 			id: "4FD6092D9C2A485C"
 			min_width: 300
@@ -1055,11 +1055,11 @@
 				"7985FD6195CF45FD"
 			]
 			description: [
-				"{atm9.quest.gregtech.desc.prospectorTool.1}"
+				"{atm9.quest.gregtech.hv.desc.prospectorTool.1}"
 				""
-				"{atm9.quest.gregtech.desc.prospectorTool.2}"
+				"{atm9.quest.gregtech.hv.desc.prospectorTool.2}"
 				""
-				"{atm9.quest.gregtech.desc.prospectorTool.3}"
+				"{atm9.quest.gregtech.hv.desc.prospectorTool.3}"
 			]
 			id: "464110726B823072"
 			optional: true
@@ -1111,9 +1111,9 @@
 		{
 			dependencies: ["70C952B8FF3418F6"]
 			description: [
-				"{atm9.quest.gregtech.desc.energiumBattery.1}"
+				"{atm9.quest.gregtech.hv.desc.energiumBattery.1}"
 				""
-				"{atm9.quest.gregtech.desc.energiumBattery.2}"
+				"{atm9.quest.gregtech.hv.desc.energiumBattery.2}"
 			]
 			icon: "gtceu:hv_autoclave"
 			id: "7985FD6195CF45FD"
@@ -1144,9 +1144,9 @@
 		{
 			dependencies: ["70C952B8FF3418F6"]
 			description: [
-				"{atm9.quest.gregtech.desc.maceratorByproducts.1}"
+				"{atm9.quest.gregtech.hv.desc.maceratorByproducts.1}"
 				""
-				"{atm9.quest.gregtech.desc.maceratorByproducts.2}"
+				"{atm9.quest.gregtech.hv.desc.maceratorByproducts.2}"
 			]
 			id: "63E4149FF75592C8"
 			optional: true
@@ -1175,7 +1175,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.oreProcessingUpgrade}"
+			title: "{atm9.quest.gregtech.hv.oreProcessingUpgrade}"
 			x: -7.5d
 			y: 4.5d
 		}
