@@ -2042,8 +2042,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2070,6 +2070,216 @@
 			]
 			x: 0.0d
 			y: 6.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.zpm.desc.distillingWater}"]
+			id: "5F167E9F2A2891E1"
+			rewards: [{
+				id: "04FF5FA54F58A1B3"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.distilledWater}"
+			tasks: [{
+				id: "097613F7654D6601"
+				item: "gtceu:distilled_water_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F167E9F2A2891E1"]
+			description: [
+				"{atm9.quest.gregtech.zpm.desc.repeatedQuestion.1}"
+				""
+				"{atm9.quest.gregtech.zpm.desc.repeatedQuestion.2}"
+			]
+			id: "039DBFD0172076AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59946D44F26B4969"
+				table_id: 5732951907492768982L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.distillery}"
+			tasks: [{
+				id: "077C38692C57DA37"
+				item: "gtceu:luv_distillery"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["039DBFD0172076AB"]
+			description: ["{atm9.quest.gregtech.zpm.desc.bacteriaSolution}"]
+			id: "2B6AE772B72E6DD3"
+			rewards: [{
+				id: "1025416F26F8AD46"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:bacteria"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:bacteria"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.dontFallIn}"
+			tasks: [{
+				id: "4AF64C66272C1D79"
+				item: "gtceu:bacteria_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.zpm.desc.biomassEthylene.1}"
+				""
+				"{atm9.quest.gregtech.zpm.desc.biomassEthylene.2}"
+			]
+			id: "1323E846A2B82BE1"
+			rewards: [{
+				id: "3F4B60F8967A71F8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:biomass"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:biomass"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.oldNews}"
+			tasks: [{
+				id: "003113D235795313"
+				item: "gtceu:biomass_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1323E846A2B82BE1"
+				"2B6AE772B72E6DD3"
+			]
+			id: "0E7193213FAE3CCE"
+			rewards: [{
+				id: "24E1AA5A5E87DE14"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:bacterial_sludge"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:bacterial_sludge"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44B71430CC6B80EC"
+				item: "gtceu:bacterial_sludge_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.zpm.desc.naqFrames.1}"
+				""
+				"{atm9.quest.gregtech.zpm.desc.naqFrames.2}"
+			]
+			id: "71060904C6A86C68"
+			rewards: [{
+				count: 8
+				id: "434AECD069EE5174"
+				item: "gtceu:naquadah_alloy_frame"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.iveBeenFramed}"
+			tasks: [{
+				id: "257CD37E55BFB902"
+				item: "gtceu:naquadah_alloy_frame"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71060904C6A86C68"]
+			description: ["{atm9.quest.gregtech.zpm.desc.zpmComponentSensor}"]
+			id: "7166F2CA3C5DA720"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02E4F70E1362AD02"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.emittingEmitters}"
+			tasks: [{
+				id: "57F6B185EC9D9470"
+				item: "gtceu:zpm_emitter"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71060904C6A86C68"]
+			description: ["{atm9.quest.gregtech.zpm.desc.zpmComponentEmitter}"]
+			id: "7C04AA69BE44BCE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34FBAF19FA447683"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.sensingSensors}"
+			tasks: [{
+				id: "623204898436F305"
+				item: "gtceu:zpm_sensor"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
 		}
 	]
 	title: "{atm9.chapters.34.title}"

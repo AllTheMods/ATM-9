@@ -1135,8 +1135,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1163,6 +1163,364 @@
 			]
 			x: -15.0d
 			y: 1.0d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.zpm.desc.liquidLanthanum.1}"
+				""
+				"{atm9.quest.gregtech.zpm.desc.liquidLanthanum.2}"
+			]
+			id: "06CD5693FF52270F"
+			rewards: [{
+				id: "1E5709704DA97514"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:lanthanum"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:lanthanum"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.liquidLanthanum}"
+			tasks: [{
+				id: "243F9F9151B0E49B"
+				item: "gtceu:lanthanum_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			description: ["{atm9.quest.gregtech.zpm.desc.liquidSilicon}"]
+			id: "49A42093EB18E7EB"
+			rewards: [{
+				id: "4B699265D7AD0B09"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:silicon"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:silicon"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.liquidSilicon}"
+			tasks: [{
+				id: "2D272075B7FD3525"
+				item: "gtceu:silicon_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"49A42093EB18E7EB"
+				"06CD5693FF52270F"
+			]
+			description: ["{atm9.quest.gregtech.zpm.desc.liquidLutetium}"]
+			id: "28F49121DEB0000A"
+			rewards: [{
+				id: "443A6F81AD167386"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:lutetium"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:lutetium"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.liquidLutetium}"
+			tasks: [{
+				id: "41A278CBAEF5905A"
+				item: "gtceu:lutetium_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56180F60F8E3D879"]
+			description: ["{atm9.quest.gregtech.zpm.desc.liquidChromium}"]
+			id: "4CE6CABCB2334C0E"
+			rewards: [{
+				id: "45E335E5F6E878E8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:chromium"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:chromium"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.liquidChromium}"
+			tasks: [{
+				id: "2BC07C65FA9A108B"
+				item: "gtceu:chromium_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.zpm.desc.fusionReactorResources.1}"
+				""
+				"{atm9.quest.gregtech.zpm.desc.fusionReactorResources.2}"
+				""
+				"{atm9.quest.gregtech.zpm.desc.fusionReactorResources.3}"
+			]
+			hide_dependent_lines: true
+			id: "56180F60F8E3D879"
+			rewards: [{
+				id: "13AD3A4D2496C925"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.reactorResources}"
+			tasks: [{
+				id: "39AB837F238D57BD"
+				title: "{atm9.quest.gregtech.zpm.reactorResourcesTitle}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4CE6CABCB2334C0E"
+				"28F49121DEB0000A"
+			]
+			description: [
+				"{atm9.quest.gregtech.zpm.desc.liquidAmericium.1}"
+				""
+				"{atm9.quest.gregtech.zpm.desc.liquidAmericium.2}"
+			]
+			id: "5AD33290313151D6"
+			rewards: [{
+				count: 4
+				id: "38B64226FDD87086"
+				item: "gtceu:americium_bucket"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.liquidAmericium}"
+			tasks: [{
+				id: "56FF9905F151C1C3"
+				item: "gtceu:americium_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"097735604CB11E83"
+				"5AD33290313151D6"
+			]
+			description: [
+				"{atm9.quest.gregtech.zpm.desc.neutroniumStart.1}"
+				""
+				"{atm9.quest.gregtech.zpm.desc.neutroniumStart.2}"
+			]
+			id: "695E846B663EC185"
+			rewards: [{
+				id: "0C7A433FBA240813"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:neutronium"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:neutronium"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.75d
+			subtitle: "{atm9.quest.gregtech.zpm.subt.superNeutronium}"
+			tasks: [{
+				id: "273FC653514D8BC2"
+				item: "gtceu:neutronium_bucket"
+				type: "item"
+			}]
+			x: 3.552713678800501E-15d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"21F5EED683499B71"
+				"4B82B3DAB03C1729"
+			]
+			description: [
+				"{atm9.quest.gregtech.zpm.desc.goodStuff.1}"
+				""
+				"{atm9.quest.gregtech.zpm.desc.goodStuff.2}"
+			]
+			id: "097735604CB11E83"
+			rewards: [{
+				id: "559BE511F5D982CE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:naquadria"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:naquadria"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.liquidNaquadria}"
+			tasks: [{
+				id: "65C1C5D7EF816179"
+				item: "gtceu:naquadria_bucket"
+				type: "item"
+			}]
+			x: 1.0000000000000036d
+			y: -1.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.zpm.desc.radonNeed.1}"
+				""
+				"{atm9.quest.gregtech.zpm.desc.radonNeed.2}"
+			]
+			id: "21F5EED683499B71"
+			rewards: [{
+				id: "504C7CBF13DD8453"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:radon"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:radon"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.radon}"
+			tasks: [{
+				id: "7C588411F4BA45B3"
+				item: "gtceu:radon_bucket"
+				type: "item"
+			}]
+			x: 2.5000000000000036d
+			y: -1.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.zpm.desc.naquadahTypes.1}"
+				""
+				"{atm9.quest.gregtech.zpm.desc.naquadahTypes.2}"
+			]
+			id: "4B82B3DAB03C1729"
+			rewards: [{
+				id: "11332098833BF62D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Amount: 16000
+							FluidName: "gtceu:enriched_naquadah"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 16000
+							FluidName: "gtceu:enriched_naquadah"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.zpm.subt.liquidEnrichedNaquadah}"
+			tasks: [{
+				id: "3326BF7B105FFB89"
+				item: "gtceu:enriched_naquadah_bucket"
+				type: "item"
+			}]
+			x: 2.5000000000000036d
+			y: -2.5d
 		}
 	]
 	title: "{atm9.chapters.35.title}"

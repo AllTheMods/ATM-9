@@ -1346,6 +1346,12 @@
 				"{atm9.quest.gregtech.mv.desc.newOreProcessing.3}"
 			]
 			id: "51DB667E991E51F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "311B689EC83C4652"
+				table_id: 7083859357644513434L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0ED34925D7A494BF"
 				item: {
@@ -1381,6 +1387,13 @@
 			]
 			id: "644B16B9618B41BE"
 			min_width: 250
+			rewards: [{
+				count: 2
+				id: "4361FB8B464B2750"
+				item: "gtceu:flawless_emerald_gem"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "4DB8770CF9F924C5"
 				item: "gtceu:flawless_emerald_gem"
@@ -1627,8 +1640,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
