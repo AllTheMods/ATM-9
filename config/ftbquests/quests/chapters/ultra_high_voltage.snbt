@@ -1401,7 +1401,7 @@
 				item: "gtceu:neutronium_bucket"
 				type: "item"
 			}]
-			x: 3.552713678800501E-15d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
@@ -1443,7 +1443,7 @@
 				item: "gtceu:naquadria_bucket"
 				type: "item"
 			}]
-			x: 1.0000000000000036d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
@@ -1481,7 +1481,7 @@
 				item: "gtceu:radon_bucket"
 				type: "item"
 			}]
-			x: 2.5000000000000036d
+			x: 2.5d
 			y: -1.5d
 		}
 		{
@@ -1519,8 +1519,223 @@
 				item: "gtceu:enriched_naquadah_bucket"
 				type: "item"
 			}]
-			x: 2.5000000000000036d
+			x: 2.5d
 			y: -2.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.29}"
+				""
+				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.30}"
+			]
+			id: "142D12B41C36D68A"
+			rewards: [{
+				count: 3
+				id: "473AF9906EB7EF01"
+				item: "gtceu:neutronium_boule"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.18}"
+			tasks: [{
+				id: "0EB38073B9196667"
+				item: "gtceu:neutronium_boule"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"142D12B41C36D68A"
+				"63695C242A9AA340"
+			]
+			description: ["{atm9.quest.gregtech.uv.desc.neutroniumWafers}"]
+			id: "0F3DF502872A308E"
+			rewards: [{
+				count: 4
+				id: "38517B0FE2A644DA"
+				item: "gtceu:neutronium_wafer"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.uv.subt.slices}"
+			tasks: [{
+				id: "21548670852833ED"
+				item: "gtceu:neutronium_wafer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{atm9.quest.gregtech.uv.desc.cutterUpgrade.1}"
+				""
+				"{atm9.quest.gregtech.uv.desc.cutterUpgrade.2}"
+			]
+			id: "63695C242A9AA340"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "213A30BE0F1782DB"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.uv.subt.makingSlices}"
+			tasks: [{
+				id: "0EDD94A94CAB8D33"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Any Cutter LuV and Up\"}"
+						}
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:luv_cutter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:zpm_cutter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uv_cutter"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0F3DF502872A308E"]
+			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.28}"]
+			id: "5F3BF06A1DA8AB8D"
+			rewards: [{
+				count: 4
+				id: "3212B54A2EE954FA"
+				item: "gtceu:highly_advanced_soc_wafer"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.17}"
+			tasks: [
+				{
+					id: "74999972610FD53F"
+					item: "gtceu:highly_advanced_soc_wafer"
+					type: "item"
+				}
+				{
+					id: "6CF65EBE0534FBA6"
+					item: "gtceu:black_glass_lens"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5F3BF06A1DA8AB8D"]
+			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.27}"]
+			id: "3F3F70FEEE8AFEEA"
+			rewards: [{
+				count: 4
+				id: "0D40ED5B4CD77D3F"
+				item: "gtceu:highly_advanced_soc"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.16}"
+			tasks: [{
+				id: "530BBDE31298E519"
+				item: "gtceu:highly_advanced_soc"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3F3F70FEEE8AFEEA"]
+			description: [
+				"{atm9.quest.gregtech.uv.desc.stockingUp.1}"
+				""
+				"{atm9.quest.gregtech.uv.desc.stockingUp.2}"
+			]
+			id: "361D5B42688D5C53"
+			rewards: [{
+				id: "37DF7E6C8C40616F"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "{atm9.quest.gregtech.uv.subt.stockingUp}"
+			tasks: [{
+				id: "16010377566C75F3"
+				title: "{atm9.quest.gregtech.uv.stockingUp}"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			description: ["{atm9.quest.gregtech.uv.desc.gravistarImportance.1}"]
+			id: "6786C701B7C4980B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4680D4FFC7D083C1"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.uv.subt.gravityStars}"
+			tasks: [{
+				id: "6B219FCE15079A27"
+				item: "gtceu:gravi_star"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6786C701B7C4980B"]
+			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.12}"]
+			id: "70494167486FB2BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42F8E9292EF8834B"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.7}"
+			tasks: [{
+				id: "13F7222D09A65408"
+				item: "gtceu:uv_emitter"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6786C701B7C4980B"]
+			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.13}"]
+			id: "21770049843DD275"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F606091C50102B8"
+				table_id: 1818042308417101752L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.8}"
+			tasks: [{
+				id: "68506BBE40475042"
+				item: "gtceu:uv_sensor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -10.0d
 		}
 	]
 	title: "{atm9.chapters.35.title}"

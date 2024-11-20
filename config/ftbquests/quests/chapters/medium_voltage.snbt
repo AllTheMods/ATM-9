@@ -1641,7 +1641,7 @@
 			]
 			disable_toast: true
 			hide_details_until_startable: true
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
