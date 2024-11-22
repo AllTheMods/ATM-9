@@ -37,7 +37,7 @@ ServerEvents.recipes(allthemods => {
         } else if (inputString == 'spacial') {
             returnString = 'Spatial Bee'
         } else if (inputString == 'neutronium') {
-            returnString = 'Not a Neutronium Bee'
+            returnString = 'Neutronium Bee'
         } else if (inputString == 'soul_shard') {
             returnString = 'Soul Bee'
         } else if (inputString == 'prosperity') {
