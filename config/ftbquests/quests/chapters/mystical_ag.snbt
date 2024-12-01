@@ -94,7 +94,7 @@
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: ["{atm9.quest.ma.desc.InfFarm}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7DFF18CFEB0B8DBE"
 			rewards: [
 				{
@@ -1734,7 +1734,7 @@
 		}
 		{
 			dependencies: ["202B1F54D3F06DAB"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "2FA6B8A1C8713DE0"
 			rewards: [{
 				id: "750518D2515C0D33"
@@ -1753,7 +1753,7 @@
 		}
 		{
 			dependencies: ["2FA6B8A1C8713DE0"]
-			description: ["{atm9.quest.ma.desc.star_seeds}"]
+			description: ["{atm9.quest.ma.desc.crux}"]
 			id: "4A96A0456680837C"
 			rewards: [
 				{
@@ -1780,7 +1780,7 @@
 		}
 		{
 			dependencies: ["2FA6B8A1C8713DE0"]
-			description: ["{atm9.quest.ma.desc.dragon_seeds}"]
+			description: ["{atm9.quest.ma.desc.crux}"]
 			id: "6AB1C7B6251FE9F5"
 			rewards: [
 				{
@@ -1867,6 +1867,7 @@
 				}
 			]
 			shape: "hexagon"
+			size: 1.25d
 			subtitle: "{atm9.quest.ma.subt.InEssence}"
 			tasks: [{
 				id: "667004CD0469493D"
@@ -1913,7 +1914,7 @@
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: ["{atm9.quest.ma.desc.InfGrowth}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4821419D44F8083F"
 			rewards: [
 				{
@@ -2008,7 +2009,7 @@
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: ["{atm9.quest.ma.desc.InfWater}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "62D04566426DD979"
 			rewards: [
 				{
@@ -2176,7 +2177,7 @@
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: ["{atm9.quest.ma.desc.InfApple}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1F88C697817A7680"
 			rewards: [
 				{
@@ -2288,8 +2289,8 @@
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: ["{atm9.quest.ma.desc.InfGear}"]
-			hide: true
 			hide_dependency_lines: false
+			hide_until_deps_visible: true
 			id: "2A7E3F2CD335EAD0"
 			rewards: [
 				{
@@ -2780,8 +2781,8 @@
 		}
 		{
 			dependencies: ["66C52B137A4FF869"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "67DBE6C59C0D9D1B"
 			rewards: [
 				{
@@ -2943,7 +2944,7 @@
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: ["{atm9.quest.ma.desc.InfTools}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4EF5DE3FBA2A7AE3"
 			rewards: [
 				{
@@ -3584,8 +3585,8 @@
 				"33D23C65E7274A8F"
 				"1CF8263756EE8F2A"
 			]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			icon: "mysticalagriculture:awakened_supremium_essence"
 			id: "7A103577EAE7B3F1"
 			rewards: [
@@ -3625,11 +3626,6 @@
 			id: "7AD83A26A52C0983"
 			rewards: [
 				{
-					id: "0353EB8E142438F7"
-					type: "xp"
-					xp: 250
-				}
-				{
 					exclude_from_claim_all: true
 					id: "07EE544812B65419"
 					table_id: 3663852184954822005L
@@ -3640,6 +3636,11 @@
 					id: "2FCBE7F7C07D6BFA"
 					table_id: 5325714992629626565L
 					type: "random"
+				}
+				{
+					id: "7E98206713443ED5"
+					type: "xp"
+					xp: 500
 				}
 			]
 			shape: "gear"
@@ -3755,7 +3756,7 @@
 				"0F031E62E5235251"
 				"67C4A4D6DD93DB0E"
 			]
-			description: ["{atm9.quest.ma.desc.atm}"]
+			description: ["{atm9.quest.ma.desc.crux}"]
 			id: "1B6C8C033901D5D6"
 			rewards: [{
 				count: 3
@@ -3777,7 +3778,7 @@
 				"0F031E62E5235251"
 				"67C4A4D6DD93DB0E"
 			]
-			description: ["{atm9.quest.ma.desc.vib}"]
+			description: ["{atm9.quest.ma.desc.crux}"]
 			id: "0E3B4EFE149E0C72"
 			rewards: [{
 				count: 3
@@ -3799,7 +3800,7 @@
 				"0F031E62E5235251"
 				"67C4A4D6DD93DB0E"
 			]
-			description: ["{atm9.quest.ma.desc.uno}"]
+			description: ["{atm9.quest.ma.desc.atm}"]
 			id: "06401FE7C8D75FC1"
 			rewards: [{
 				count: 3
@@ -3846,8 +3847,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -3872,8 +3873,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 5.0d
-			y: 3.5d
+			x: -18.5d
+			y: -0.5d
 		}
 	]
 	title: "{atm9.chapters.16.title}"

@@ -18,7 +18,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			hide: false
+			hide_until_deps_visible: false
 			id: "2B05A29C62676EB2"
 			rewards: [
 				{
@@ -48,7 +48,7 @@
 		}
 		{
 			dependencies: ["2B05A29C62676EB2"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "444ACE285311ECB4"
 			rewards: [
 				{
@@ -173,7 +173,7 @@
 		}
 		{
 			dependencies: ["42822B1E8A53D051"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4748831E75A840BE"
 			rewards: [
 				{
@@ -298,7 +298,7 @@
 		}
 		{
 			dependencies: ["77FC692AC94D2EEF"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "65BBA5C0DAEEC31F"
 			rewards: [
 				{
@@ -436,11 +436,10 @@
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
 				id: "1809F1F9A3043683"
-				title: "Kill the Ender Dragon"
+				title: "{atm9.quest.bounty.dragon}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{atm9.quest.bounty.dragon}"
 			x: 1.5d
 			y: 4.5d
 		}
@@ -464,11 +463,10 @@
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "171FD27057746E80"
-				title: "Kill the Wither"
+				title: "{atm9.quest.bounty.wither}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{atm9.quest.bounty.wither}"
 			x: 3.0000000000000004d
 			y: 4.5d
 		}
@@ -492,11 +490,10 @@
 				entity: "minecraft:elder_guardian"
 				icon: "minecraft:elder_guardian_spawn_egg"
 				id: "2F28B803C75DA3B2"
-				title: "Kill the Elder Guardian"
+				title: "{atm9.quest.bounty.elder}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{atm9.quest.bounty.elder}"
 			x: 4.5d
 			y: 4.5d
 		}
@@ -527,22 +524,15 @@
 				entity: "ars_nouveau:wilden_boss"
 				icon: "ars_nouveau:wilden_tribute"
 				id: "452B65E139D9E12D"
-				title: "Kill the Wilden Chimera"
+				title: "{atm9.quest.bounty.chimera}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{atm9.quest.bounty.chimera}"
 			x: 4.550000000000001d
 			y: 6.0d
 		}
 		{
-			description: [
-				"{atm9.quest.bounty.desc.trader1}"
-				""
-				"{atm9.quest.bounty.desc.trader2}"
-				""
-				"{atm9.quest.bounty.desc.trader3}"
-			]
+			description: ["{atm9.quest.bounty.desc.trader1}\\n\\n{atm9.quest.bounty.desc.trader2}\\n\\n{atm9.quest.bounty.desc.trader3}"]
 			id: "0F55D0B4D5094EDB"
 			optional: true
 			rewards: [
@@ -633,7 +623,7 @@
 		}
 		{
 			dependencies: ["17F3AC15ADCFB175"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "minecraft:ender_pearl"
 			id: "2916F873A4DA84E8"
 			rewards: [
@@ -754,7 +744,7 @@
 		}
 		{
 			dependencies: ["1F18B64C84C8809D"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "283CA6DB77D5D2EB"
 			rewards: [
 				{
@@ -880,7 +870,7 @@
 		}
 		{
 			dependencies: ["6141DE779232C8AA"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4F48A4839B549C92"
 			rewards: [
 				{
@@ -1012,7 +1002,7 @@
 		}
 		{
 			dependencies: ["5AC497F76A086A5C"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "minecraft:potion"
@@ -1175,7 +1165,7 @@
 		}
 		{
 			dependencies: ["3371F9248D403664"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "738E94C4CFB05D11"
 			rewards: [
 				{
@@ -1296,11 +1286,10 @@
 				entity: "minecraft:warden"
 				icon: "minecraft:sculk_catalyst"
 				id: "69678CAC075C8EA5"
-				title: "Kill the Warden"
+				title: "{atm9.quest.bounty.warden}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{atm9.quest.bounty.warden}"
 			x: 1.5d
 			y: 6.0d
 		}
@@ -1315,8 +1304,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

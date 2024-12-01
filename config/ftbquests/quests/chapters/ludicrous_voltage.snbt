@@ -561,11 +561,7 @@
 		}
 		{
 			dependencies: ["1DDA5ADA11DF868F"]
-			description: [
-				"{atm9.quest.gregtech.luv.desc.luvEnergyUpgrade.1}"
-				""
-				"{atm9.quest.gregtech.luv.desc.luvEnergyUpgrade.2}"
-			]
+			description: ["{atm9.quest.gregtech.luv.desc.luvEnergyUpgrade.1}"]
 			id: "29CD5C0A253425D5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2099,8 +2095,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

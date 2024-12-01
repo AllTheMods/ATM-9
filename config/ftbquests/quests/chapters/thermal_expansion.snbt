@@ -7,7 +7,6 @@
 	id: "658721DF03EC997D"
 	images: [{
 		height: 0.3d
-		hover: ["atm9.quest.ae2.img.star"]
 		image: "allthetweaks:item/atm_star"
 		rotation: 0.0d
 		width: 0.3d
@@ -1797,8 +1796,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

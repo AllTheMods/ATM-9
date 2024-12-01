@@ -276,7 +276,6 @@
 				"5D0C944F84E341BE"
 				"124BDAF91DA74910"
 				"356F450F4ADD22D7"
-				"73EFADE932DFEF86"
 			]
 			id: "73990028197AF1AB"
 			rewards: [
@@ -322,7 +321,6 @@
 				"2B539F4F290DC4CF"
 				"4D3D96B6019CA7F9"
 				"4A3DF999B969C875"
-				"73EFADE932DFEF86"
 				"7790E599B42A5DE5"
 			]
 			id: "048F2942436D3C46"
@@ -1140,7 +1138,6 @@
 				"050AAD831C0AE375"
 				"54277F570314DCE1"
 				"0301633594309CC6"
-				"73EFADE932DFEF86"
 			]
 			id: "4775F7326720251E"
 			rewards: [
@@ -2870,6 +2867,21 @@
 					item: "thermal_extra:abyssal_rf_coil_xfer_augment"
 					type: "item"
 				}
+				{
+					id: "79B45411428AE0A3"
+					item: "computercraft:pocket_computer_advanced"
+					type: "item"
+				}
+				{
+					id: "42EE6320BAD59620"
+					item: "rftoolsutility:flight_module"
+					type: "item"
+				}
+				{
+					id: "7089713515FCF89A"
+					item: "advgenerators:power_capacitor_tier3"
+					type: "item"
+				}
 			]
 			title: "{atm9.quest.chapter2.extras}"
 			x: 4.0d
@@ -3239,8 +3251,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

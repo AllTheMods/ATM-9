@@ -1,6 +1,6 @@
 {
-	
 	"atm9.modpack.title": "All The Mods 9",
+
 	"atm9.chapters.1.title": "Benvenuto",
 	"atm9.chapters.2.title": "Allthemodium",
 	"atm9.chapters.3.title": "Bacheca delle Taglie",
@@ -2824,7 +2824,9 @@
     "atm9.quest.mekanism.desc.antimatterPellets.2": "These create several &5End Game&r items, including the &6ATM Star&r. To learn all about Reactors and more, head over to the &aMekanism&r: &dReactors&r questline!",
     "atm9.quest.mekanism.thePathToReactors": "The Path to Reactors",
     "atm9.quest.mekanism.advancedMekanism": "&dAdvanced Mekanism&r",
-    "atm9.quest.occultism.shubNiggurathFamiliar": "&5Shub Niggurath&r Familiar",
+
+
+	"atm9.quest.occultism.shubNiggurathFamiliar": "&5Shub Niggurath&r Familiar",
     "atm9.quest.occultism.drikwingFamiliar": "&2Drikwing&r Familiar",
     "atm9.quest.occultism.berserker": "&dBeholder&r Familiar",
     "atm9.quest.occultism.headlessRatman": "&aHeadless Ratman&r Familiar",
@@ -2946,7 +2948,9 @@
     "atm9.quest.occultism.desc.demonsAndFamiliars.3": "There are also ways to summon cool friends known as &dFamiliars&r that give special buffs and even fight for you! Make sure to check out the &dFamiliar Rituals&r in your guide book!",
     "atm9.quest.occultism.familiars.1": "Familiars",
     "atm9.quest.occultism.familiars.2": "&dFamiliars&r",
-    "atm9.quest.powah.desc.intro.1": "&9Powah&r is a tech mod that's all about generating, storing, and transmitting &dPower&r. Ranging from basic FE generation to &aReactors&r that produce &b250k FE/t&r, Powah has you covered!",
+
+
+	"atm9.quest.powah.desc.intro.1": "&9Powah&r is a tech mod that's all about generating, storing, and transmitting &dPower&r. Ranging from basic FE generation to &aReactors&r that produce &b250k FE/t&r, Powah has you covered!",
     "atm9.quest.powah.desc.intro.2": "To get started, go out and mine some &aUraninite&r!",
     "atm9.quest.powah.welcome": "&aWelcome to&r &9Powah&r!!!",
     "atm9.quest.powah.desc.dielectricMats.1": "Almost every single machine you can make in the mod will require a &9Dielectric Casing&r.",
@@ -2995,7 +2999,9 @@
     "atm9.quest.powah.spiritedReactor": "Reactor (Spirited)",
     "atm9.quest.powah.nitroReactor": "Reactor (Nitro)",
     "atm9.quest.powah.desc.energizingOrb": "Used to energize items using the Energizing Orb.",
-    "atm9.quest.productiveBees.desc.welcome.1": "Welcome to &9Productive Bees&r!",
+
+
+	"atm9.quest.productiveBees.desc.welcome.1": "Welcome to &9Productive Bees&r!",
     "atm9.quest.productiveBees.desc.welcome.2": "To get started with the mod, you'll first need to find some Honeycombs and Honey Bottles! Find yourself a Beehive, and let the bees do their work for a little. Shearing it when it is full will give you honeycombs, and glass bottles will give you Honey Bottles!",
     "atm9.quest.productiveBees.desc.welcome.3": "&9Important Note&r: With the bee quests requiring combs, the recipes will not be shown. Make sure to look them up in JEI if you need them!",
     "atm9.quest.productiveBees.desc.beehiveSetup.1": "Using the vanilla method, go ahead and make yourself a &9Beehive&r to have your own little setup!",
@@ -3363,6 +3369,7 @@
     "atm9.quest.productiveBees.desc.luresGoldBee": "Instead of using Honey Treats, this hive requires Gold Ingots to attract Bees.",
     "atm9.quest.productiveBees.subt.luresGoldBee": "Lures a Gold Bee when placed in the Nether",
 
+
     "atm9.quest.thermalExpansion.desc.modIntro": "Thermal Series is a modular series of mods that adds a content-rich blend of magic and technology to your Minecraft experience!",
     "atm9.quest.thermalExpansion.welcome": "Welcome to the &9Thermal Series&r!",
     "atm9.quest.thermalExpansion.desc.redstoneFurnaceFeatures.1": "The Redstone Furnace uses RF/FE instead of Coal to smelt items.",
@@ -3449,7 +3456,9 @@
     "atm9.quest.thermalExpansion.subt.earlyGameMiningGadget": "An Early-Game Mining Gadget",
     "atm9.quest.thermalExpansion.subt.rfPoweredHandsaw": "RF-Powered Handsaw!",
     "atm9.quest.thermalExpansion.subt.tier4BaseUpgrade": "Tier 4 Base Upgrade",
-    "atm9.quest.twilightForest.desc.welcome.1": "Welcome to the &9Twilight Forest&r!",
+
+
+	"atm9.quest.twilightForest.desc.welcome.1": "Welcome to the &9Twilight Forest&r!",
     "atm9.quest.twilightForest.desc.welcome.2": "To create a portal to the Twilight Forest, make a 2x2 hole and fill it with water. Surround the edges of the hole with flowers, and throw a diamond in.",
     "atm9.quest.twilightForest.desc.welcome.3": "Thor will give you a sign if you did it right.",
     "atm9.quest.twilightForest.subt.creatingPortal": "Creating the Portal",
@@ -6807,10 +6816,9 @@
   "atm9.quest.generators.desc.rainbowcoal.1": "You blew up the &cR&6a&ei&2n&3b&9o&5w&r &cF&6u&er&2n&3a&9c&5e&r?!?! Just lit TNT right next to it? Are you mad? That took so many Furnaces and resources and you just blew it up!!! Did you atleast get something good from it? &cR&6a&ei&2n&3b&9o&5w&r &cC&eo&3a&5l&r? Coal that lasts forever? Actually that's pretty worth it.",
   "atm9.quest.generators.desc.configuration.1": " Like most Modded machines, Iron Furnaces has Configurations. Configs can be found by clicking the Top Left. There will be the Inputs, Outputs, and Redstone activation. The Redstone activation changes when the Furnace will smelt. The top buttons determine if it auto Inputs or Outputs, which means it will automatically move to and from connected Inventories. The boxes are each side of the Furnace and determine whether it Inputs, Outputs, does both, Inputs Fuel, or does nothing. This matters for Items being Piped in or out. The Furnace Settings Linker will copy all of these settings to other Furnaces!",
   "atm9.quest.generators.desc.rainbowgenerator.1": "The &cR&6a&ei&2n&3b&9o&5w&r &cG&6e&en&2e&3r&9a&5t&ce&6r&r is a boost to the &cR&6a&ei&2n&3b&9o&5w&r &cF&6u&er&2n&3a&9c&5e&r while using &3Augment&r: Generator. If all other 8 Furnaces (not counting &5Netherite Furnace&r) are around the &cR&6a&ei&2n&3b&9o&5w&r &cF&6u&er&2n&3a&9c&5e&r, have &3Augment&r: Generator, and are actively making Energy (fueled up and not full) they will give a boost to a &cR&6a&ei&2n&3b&9o&5w&r &cF&6u&er&2n&3a&9c&5e&r that has &3Augment&r: Generator and is working. It will make 50kFE a tick more!",
-	
-  "item.kubejs.micro_universe_catalyst.tooltip": "Forged in the fire of a thousand suns.",
+
+
+	"item.kubejs.micro_universe_catalyst.tooltip": "Forged in the fire of a thousand suns.",
 	"kubejs.apiary_ii.tooltip.bee_requirements": "Requires Very High, Any, Metaturnal bees to run",
 	"kubejs.apiary_i.tooltip.bee_eater": "Occasionally eats the bees"
-	
-
 }

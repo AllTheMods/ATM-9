@@ -3,8 +3,9 @@
 
 English, AllTheMods Team and quest devs/contributors,
 - AlfredGG
-- Jonh09
 - ToshibaMicrowave
+- Toblerone0508
+- Jonh09
 
 
 Japanese,

@@ -21,8 +21,8 @@
 	quests: [
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "586AF33A5298B77D"
 			rewards: [{
 				id: "63281A9275BE311F"
@@ -39,8 +39,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "3A8286DF6F667F74"
 			rewards: [{
 				id: "187D54D9F8554BFF"
@@ -57,8 +57,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "520E3DAD6C87B989"
 			rewards: [{
 				id: "34D6ADEBEA37C6C9"
@@ -75,8 +75,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "6B2A61833A05C56E"
 			rewards: [{
 				id: "1604784A1ACC60E4"
@@ -93,8 +93,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "573838380230C65D"
 			rewards: [{
 				id: "3504F4736EEDF2C6"
@@ -111,8 +111,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "3C16EB51FA4CA1D9"
 			rewards: [{
 				id: "08B4BC73CBCACDC9"
@@ -129,8 +129,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "5295793DD0FBEC3D"
 			rewards: [{
 				id: "2E9165F4BEC99E2B"
@@ -147,8 +147,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7C757F654BD74016"
 			rewards: [{
 				id: "0269B8785074D081"
@@ -165,8 +165,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "68CB1D1BAD343540"
 			rewards: [{
 				id: "34F3AFC0C00CA4E7"
@@ -183,8 +183,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7BFCD0822FC37F50"
 			rewards: [{
 				id: "75BD2F537F37A95F"
@@ -201,8 +201,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "196C47DDEEE313B4"
 			rewards: [{
 				id: "701E439C1816BC84"
@@ -219,8 +219,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "6CA3A5E801C82C19"
 			rewards: [{
 				id: "63E5B4F2FC93096F"
@@ -237,8 +237,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "0B59E29219F4588C"
 			rewards: [{
 				id: "168CC876146C3AB7"
@@ -255,8 +255,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "781B75C63237C8E3"
 			rewards: [{
 				id: "1153BCE864466F45"
@@ -273,8 +273,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "28A1E86651472522"
 			rewards: [{
 				id: "3D9818D12990102D"
@@ -291,8 +291,8 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "2AE020FE64D401F5"
 			rewards: [{
 				id: "37DC08484A15D4D1"
@@ -314,7 +314,7 @@
 				""
 				"{atm9.quest.botania.desc.pureDaisyFunction.1}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4E02DC8A474A4A2F"
 			rewards: [
 				{
@@ -405,7 +405,7 @@
 				""
 				"{atm9.quest.botania.desc.manaPoolIntro.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7A359C1F5E041C4F"
 			min_width: 300
 			rewards: [
@@ -467,7 +467,7 @@
 				""
 				"{atm9.quest.botania.desc.manaInfusion.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "70C5A902C0D26628"
 			rewards: [
 				{
@@ -621,7 +621,7 @@
 		{
 			dependencies: ["13D401048A926A74"]
 			description: ["{atm9.quest.botania.desc.floralFertilizer}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "371E5E1E435E41AA"
 			rewards: [
 				{
@@ -680,8 +680,8 @@
 				""
 				"{atm9.quest.botania.desc.manastarUse.2}"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "0F9DABC15ED589CB"
 			optional: true
 			rewards: [{
@@ -700,8 +700,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "11671E9021F8FDDE"
 			optional: true
 			rewards: [{
@@ -720,8 +720,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "78D96736B0B7F12A"
 			optional: true
 			rewards: [{
@@ -740,8 +740,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "6E7A4F653B0C1383"
 			optional: true
 			rewards: [{
@@ -767,8 +767,8 @@
 				""
 				"{image:atm:textures/questpics/botania/hydrosample.png width:150 height:125 align:1}"
 			]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			id: "5D4F9B54A54EEBD6"
 			rewards: [
 				{
@@ -800,8 +800,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "1CCB55703C1C3511"
 			optional: true
 			rewards: [{
@@ -820,8 +820,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7D5981F097FD4237"
 			optional: true
 			rewards: [{
@@ -840,8 +840,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "350C732A4A76C93F"
 			optional: true
 			rewards: [{
@@ -860,8 +860,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "2E70AA1EAFA36A82"
 			optional: true
 			rewards: [{
@@ -880,8 +880,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "4C19AD490502D252"
 			optional: true
 			rewards: [{
@@ -900,8 +900,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "4E5F2803B20A3E93"
 			optional: true
 			rewards: [{
@@ -920,8 +920,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "3E80563D8E4C5398"
 			optional: true
 			rewards: [{
@@ -940,8 +940,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "66B7E4451AC4EF70"
 			optional: true
 			rewards: [{
@@ -960,8 +960,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "6E90B369F414EB45"
 			optional: true
 			rewards: [{
@@ -979,8 +979,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "136567EA7DC27DC7"
 			optional: true
 			rewards: [{
@@ -999,8 +999,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7A35D3039E47E24D"
 			optional: true
 			rewards: [{
@@ -1018,8 +1018,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "46959DF790DA9312"
 			optional: true
 			rewards: [{
@@ -1037,8 +1037,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7BB2EE5D33229891"
 			optional: true
 			rewards: [{
@@ -1057,8 +1057,8 @@
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
 			dependency_requirement: "one_started"
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7D72A3EB294A658C"
 			optional: true
 			rewards: [{
@@ -1076,8 +1076,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "37B5FE0302A90F35"
 			optional: true
 			rewards: [{
@@ -1095,8 +1095,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "256DCEA4B27608E2"
 			optional: true
 			rewards: [{
@@ -1114,8 +1114,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "1025A352CF7131FD"
 			optional: true
 			rewards: [{
@@ -1133,8 +1133,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "18BD20B1D713FEBC"
 			optional: true
 			rewards: [{
@@ -1152,8 +1152,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "305EDB583A9380FC"
 			optional: true
 			rewards: [{
@@ -1171,8 +1171,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "79BC197AA5999EF7"
 			optional: true
 			rewards: [{
@@ -1190,8 +1190,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "3CA42D084CD48E4D"
 			optional: true
 			rewards: [{
@@ -1209,8 +1209,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7B6D9EDC4F06104C"
 			optional: true
 			rewards: [{
@@ -1228,8 +1228,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "474551E50F99D8AC"
 			optional: true
 			rewards: [{
@@ -1247,8 +1247,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "018B2BE3D7698107"
 			optional: true
 			rewards: [{
@@ -1266,8 +1266,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "334A0673FD07BF87"
 			optional: true
 			rewards: [{
@@ -1285,8 +1285,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "58B0D3B672042B20"
 			optional: true
 			rewards: [{
@@ -1304,8 +1304,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "00E5E6BCEB716581"
 			optional: true
 			rewards: [{
@@ -1323,8 +1323,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "067FDF87F4703205"
 			optional: true
 			rewards: [{
@@ -1342,8 +1342,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "0324A530DF0D9D11"
 			optional: true
 			rewards: [{
@@ -1361,8 +1361,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "473B72A0BC98A469"
 			optional: true
 			rewards: [{
@@ -1380,8 +1380,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "04606CC66363B7A2"
 			optional: true
 			rewards: [{
@@ -1399,8 +1399,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7A4335AEE81D23D8"
 			optional: true
 			rewards: [{
@@ -1418,8 +1418,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "5151959325E1F10B"
 			optional: true
 			rewards: [{
@@ -1437,8 +1437,8 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "2E0BCC25FB030043"
 			optional: true
 			rewards: [{
@@ -1457,8 +1457,8 @@
 		{
 			dependencies: ["7A359C1F5E041C4F"]
 			description: ["{atm9.quest.botania.desc.blackLotus}"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "5E2AA5695D1F21D7"
 			optional: true
 			rewards: [{
@@ -1534,7 +1534,7 @@
 				""
 				"{atm9.quest.botania.desc.wandOfTheForestIntro.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "205BBDFBCA582E3B"
 			rewards: [{
 				id: "2240BDE8F6BEE2D2"
@@ -1863,7 +1863,7 @@
 		{
 			dependencies: ["70C5A902C0D26628"]
 			description: ["{atm9.quest.botania.desc.manasteelArmor}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "64DB69F741EA5BEE"
 			rewards: [
 				{
@@ -2041,7 +2041,7 @@
 		{
 			dependencies: ["23A2865FBE7831AB"]
 			description: ["{atm9.quest.botania.desc.terrasteelArmor}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "10F2044D080D6209"
 			rewards: [
 				{
@@ -2708,7 +2708,7 @@
 				""
 				"{atm9.quest.botania.desc.elementiumArmorFeatures.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "2F388BE777C43EB6"
 			rewards: [
 				{
@@ -2934,7 +2934,7 @@
 		{
 			dependencies: ["0331107259F7B68C"]
 			description: ["{atm9.quest.botania.desc.bestManaSpreader}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4E03AC9D56202353"
 			rewards: [
 				{
@@ -3002,7 +3002,7 @@
 		{
 			dependencies: ["0331107259F7B68C"]
 			description: ["{atm9.quest.botania.desc.moreGaiaSpiritsChallenge}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "27CD17C4B3613171"
 			rewards: [
 				{
@@ -3163,7 +3163,7 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4E7B1FF823C85AD6"
 			optional: true
 			rewards: [{
@@ -3181,7 +3181,7 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "0C56CB7815A1355C"
 			optional: true
 			rewards: [{
@@ -3210,7 +3210,7 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1EE1EF4695A39876"
 			optional: true
 			rewards: [{
@@ -3228,7 +3228,7 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "6AFC5FE71A80913E"
 			optional: true
 			rewards: [{
@@ -3246,7 +3246,7 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "780B0A790C6AF9DB"
 			optional: true
 			rewards: [{
@@ -3264,7 +3264,7 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "16DE70DE2463A5DD"
 			optional: true
 			rewards: [{
@@ -3291,7 +3291,7 @@
 				""
 				"{atm9.quest.botania.desc.floraTypes.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7B3FAF5CA4DD217C"
 			min_width: 400
 			tasks: [{
@@ -4081,8 +4081,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

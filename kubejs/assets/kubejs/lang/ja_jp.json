@@ -1,6 +1,6 @@
 {
-	
 	"atm9.modpack.title": "All The Mods 9",
+
 	"atm9.chapters.1.title": "ようこそ",
 	"atm9.chapters.2.title": "Allthemodium",
 	"atm9.chapters.3.title": "報奨金ボード",
@@ -61,15 +61,15 @@
 	"atm9.chapters.46.title": "Blue Skies",
 	"atm9.chapters.47.title": "Cataclysm",
 	"atm9.chapters.48.title": "黄昏の森",
-	
-	
+
+
 	"atm9.quest.welcome.team": "チーム作成",
 	"atm9.quest.welcome.commands": "便利なコマンド",
 	"atm9.quest.welcome.welcome": "&dAll The Mods 9へようこそ！",
 	"atm9.quest.welcome.quests": "クエスト",
 	"atm9.quest.welcome.claims": "チャンクの主張",
 	"atm9.quest.welcome.translations": "All The Translations",
-	
+
 	"atm9.quest.welcome.desc.team": "友達と一緒にチームを作りたいなら、コマンド &a/ftbteams party create (チーム名)&r を使ってチームを作成してね！",
 	"atm9.quest.welcome.desc.commands": "ATMにはたくさんの便利なコマンドがあるよ。いくつか紹介するね：\\n \\n &e/sethome&r (ホームの名前) | ホームを設定して、/home (名前) でテレポートできるよ。例：/sethome farm - その後 /home farm でテレポート \\n \\n &e/spawn&r | このコマンドでオーバーワールドのスポーン地点にテレポートできるよ。 \\n \\n &e/rtp&r | 'ランダムテレポート' で世界のランダムな場所にテレポートできるよ。 \\n \\n 注意: これらのコマンドにはクールダウンと制限があるよ。変更したい場合は、以下の場所にある設定ファイルを編集してね：\\n \\n - シングルプレイヤーの場合 | &osaves/(セーブ名)/serverconfig/ftbessentials.snbt&r \\n \\n - サーバーの場合 | &oworld/serverconfig/ftbessentials.snbt&r",
 	"atm9.quest.welcome.desc.welcome1": "ATM9はいわばなんでもアリのモッドパックだよ。自分の好きなようにモッド入りのMinecraftの世界を探検してね！",
@@ -84,8 +84,8 @@
 	"atm9.quest.welcome.desc.translations":"Our Quests have been translated by the following volunteer translators.",
 
 	"atm9.quest.welcome.img.discord": "Discordに参加しましょう！",
-	
-	
+
+
 	"atm9.quest.allthemodium.intro": "オールザモディウムへの入門！",
 	"atm9.quest.allthemodium.atm_ore": "オールザモディウム鉱石",
 	"atm9.quest.allthemodium.vib_ore": "ヴィブラニウム鉱石",
@@ -115,7 +115,7 @@
 	"atm9.quest.allthemodium.axe": "合金の斧",
 	"atm9.quest.allthemodium.shovel": "合金のシャベル",
 	"atm9.quest.allthemodium.paxel": "合金のパクセル",
-	
+
 	"atm9.quest.allthemodium.desc.intro1": "&dオールザモディウム&r は、すべての Allthemods モッドパックの中核となる MOD です。この MOD は、あなたの MOD 体験を増幅するエンドゲームの鉱石を世界に追加します。",
 	"atm9.quest.allthemodium.desc.intro2": "&9オールザモディウム&r の本で MOD についての詳細情報を見つけることができます。",
 	"atm9.quest.allthemodium.desc.atm_ore1": "この貴重な鉱石は、あなたが超強力になる旅の始まりです！",
@@ -143,6 +143,7 @@
 	"atm9.quest.allthemodium.desc.furnace": "&6オールザモディウムの金属&r は、非常に高速なかまどを作るために使用することができます！",
 	"atm9.quest.allthemodium.desc.bees": "&6ATM の金属&r がもっと必要ですか？ミツバチを作りましょう！",
 
+
 	"atm9.quest.bounty.board": "賞金首ボード",
 	"atm9.quest.bounty.zombie": "&l&9オーバーワールドの賞金首:&r&e ゾンビ",
 	"atm9.quest.bounty.skeleton": "&l&9オーバーワールドの賞金首:&r&e スケルトン",
@@ -158,13 +159,13 @@
 	"atm9.quest.bounty.warden": "ウォーデンを倒す",
 	"atm9.quest.bounty.trader": "行商人とその厄介なラマを倒す",
 	"atm9.quest.bounty.chimera": "ワイルドキメラを倒す",
-	
+
 	"atm9.quest.bounty.desc.board1": "ここでは、敵を倒すことで報酬を得ることができる棺桶リストクエストです。",
 	"atm9.quest.bounty.desc.board2": "このページは作成中です！",
 	"atm9.quest.bounty.desc.trader1": "ATM7のクエストラインを作成している間、行商人はクエスト編集中に私を押し回してました。",
 	"atm9.quest.bounty.desc.trader2": "棺桶リストに入れてあげましょう",
 	"atm9.quest.bounty.desc.trader3": "- AlfredGG",
-	
+
 	"atm9.quest.bounty.subt.board": "すべてを救済",
 	"atm9.quest.bounty.subt.zombie": "ゾンビを5体倒す",
 	"atm9.quest.bounty.subt.skeleton": "スケルトンを5体倒す",
@@ -176,7 +177,6 @@
 	"atm9.quest.bounty.subt.enderman": "エンダーマンを5体倒す",
 	"atm9.quest.bounty.subt.trader": "「これは個人的な問題だ」 - AlfredGG",
 	"atm9.quest.bounty.subt.chimera": "まだ最終形態じゃないんだぜ。",
-	
 
 
 	"atm9.quest.tips.tricks": "ヒントとコツ！",
@@ -194,7 +194,7 @@
 	"atm9.quest.tips.spawner": "Apotheosis",
 	"atm9.quest.tips.mahou": "Mahou Tsukai",
 	"atm9.quest.tips.powah": "RF生成",
-	
+
 	"atm9.quest.tips.desc.tricks": "このページでは、あなたの旅の役に立つアイテムや情報を掲示します！",
 	"atm9.quest.tips.desc.mobs": "火立てると、&9Mega Torch&rは半径64ブロック以内の敵対的モブがスポーンしなくなります。\\n \\n 拠点付近の暗い部分での敵のスポーンを防ぐのに最適です。",
 	"atm9.quest.tips.desc.stick": "ポータブル作業台が必要ですか？それともポータブル鍛冶台？\\n \\n &9Crafting On A Stick&rは、あなたの手の平にいつでもアクセス可能な作業台を手に入れられます。序盤に大活躍です！",
@@ -220,7 +220,7 @@
 	"atm9.quest.tips.subt.spawner": "Apotheosisスポナーの変更点",
 	"atm9.quest.tips.subt.mahou": "ATM9 Mahouの変更点",
 	"atm9.quest.tips.subt.powah": "パワー？ POWAHです！",
-	
+
 
 	"atm9.quest.chapter1.welcome": "&e「序の章」へようこそ！&r",
 	"atm9.quest.chapter1.crafting": "マインクラフトのクラフトを楽しもう！",
@@ -940,7 +940,7 @@
 	"atm9.quest.storage.subt.void": "バックパック内で自動削除したいアイテムのフィルターを追加",
 	"atm9.quest.storage.subt.restock": "補充完了",
 	"atm9.quest.storage.subt.Asmelting": "バックパック内のアイテムを自動で精錬",
-	
+
 
 	"atm9.quest.ae2.AE2": "Applied Energistics 2",
 	"atm9.quest.ae2.wrench": "クォーツレンチ",
@@ -1011,7 +1011,7 @@
 	"atm9.quest.ae2.matter": "凝縮マター",
 	"atm9.quest.ae2.antimatter": "超凝縮マター",
 	"atm9.quest.ae2.quantum": "量子ネットワークブリッジ",
-	
+
 	"atm9.quest.ae2.desc.AE2": "&lようこそ &bアプライド・エネルジスティクス２ &fへ！ \\n \\n Applied Energistics 2（略称&oAE2&r）は、非常に効率的なストレージと、モッド入りMinecraft体験を初期からエンドゲームまで大幅に拡張するための自動化機能を提供する、多用途な&bデジタルストレージ&fMODです。 \\n \\n AE2を始めるには、MODにとって重要なリソースである&bCertus Quartz&fを採掘する必要があります。アメジストと同様に、Certus Quartzクリスタルを採掘してCertus Quartzの&eダスト&fと&eクリスタル&fを手に入れることができます。 \\n \\n AE2についての詳細は、",
 	"atm9.quest.ae2.desc.wrench": "&bQuartz Wrench&fは、他の通常の技術MODのレンチと同じ機能を持っています。右クリックするとブロックやデバイスを回転させ、スニークしながら右クリックすると分解します。 \\n \\n AE2のレンチには、certusとnether quartzの二つのバリエーションがあります。",
 	"atm9.quest.ae2.desc.first": "AE2を始めるために最初に必要な二つのアイテムは、&bチャージャー&f と &b刻印機 &fです。 \\n \\n 電力を供給された&bCharger&fは、&eCertus Quartzクリスタル&rを充電し、これらの&e充電されたCertusクリスタル&rを使って、MODのもう一つの重要なリソースである&eフルーシュ&fの生産に使用できます。また、電力を蓄える任意のアイテムを充電するためにも使用できます。 \\n \\n &bInscriber&fは、AE2の様々なクォーツクリスタルをそのダスト形態に変えることができますが、より重要なのは特別な&eプリント回路&fと&eプロセッサ&fを製造するために使用されることです。次のクエストでより明確になります。",
@@ -1081,7 +1081,7 @@
 	"atm9.quest.ae2.desc.matter": "MEネットワーク自体をワイヤレスで拡張する最初のステップは、正直なところ少し変わっています。\\n \\n &bマターコンデンサー&fはAE2のゴミ箱としての取り組みで、挿入されたアイテムを無効にします。しかし、&eStorage Component&fが装備されている場合、コンデンサーは無効にされたアイテムから残されたエネルギーの一部を利用して、十分な集中エネルギーから２つの特別なクラフトアイテムを作成することができます。\\n \\n これらの２つのアイテムの最初は、少なくとも1kストレージコンポーネントと256アイテム分の無効化された素材が必要な&b物質ボール&fです。",
 	"atm9.quest.ae2.desc.antimatter": "64kストレージコンポーネント以上を使用すると、マターコンデンサーははるかに多くを凝縮して&bシンギュラリティ&fを生成することができます。単一のシンギュラリティには256000アイテムの無効化が必要です。それは正確に&o4000スタック&rです！\\n \\n このシンギュラリティを地面に投げて&eエンダーダスト&fと一緒に何が起こるかを見てください。その過程で周囲にいくらかのダメージを与える必要がありますが、幸いにもAE2はその影響を最小限に抑えるための&b極小TNT&fを提供しています。",
 	"atm9.quest.ae2.desc.quantum": "もしあなたが最後のクエストを正しく完了したなら、そのシンギュラリティを一対の&b量子もつれシンギュラリティ&fに変えたはずです。これらの新しいシンギュラリティは、&e量子ネットワークブリッジ&fとして知られるリング状のデバイスをリンクするために使用されます。\\n \\n これらの個々のリングが量子もつれシンギュラリティを使用してリンクされ、いくつかのAEパワー（例えばエネルギーセル）で始動されると、MEネットワークはブリッジの反対側で、長距離またはさらにはディメンションを超えてワイヤレスで拡張することができます。",
-	
+
 	"atm9.quest.ae2.subt.AE2": "仮想ストレージシステム",
 	"atm9.quest.ae2.subt.wrench": "期待通りの機能を果たします。",
 	"atm9.quest.ae2.subt.first": "基本的なマシン",
@@ -1118,9 +1118,10 @@
 	"atm9.quest.ae2.subt.wireless_terminal": "これが目的だ！",
 	"atm9.quest.ae2.subt.ininfity": "トイ・ストーリーのセリフは書かないよ",
 	"atm9.quest.ae2.subt.antimatter": "完全な反物質ではない",
-	
+
 	"atm9.quest.ae2.img.star": "ATMスターが必要",
-	
+
+
 	"atm9.quest.adAstra.desc.tier2Rocket.1": "ティア2ロケットを作るためには、たくさんの&cDesh&rが必要です。",
 	"atm9.quest.adAstra.desc.tier2Rocket.2": "このロケットで、&c火星&rまで飛ぶことができます！ただし、帰りのフライトのために追加の&b酸素&rと&e燃料&rをたくさん用意してください。",
 	"atm9.quest.adAstra.desc.tier4Rocket": "ティア4ロケットは、私たちが作ることができる最高ランクのロケットです。これにより、私たちは太陽系外への旅行が可能になります！",
@@ -1196,6 +1197,8 @@
 	"atm9.quest.adAstra.desc.oxygenForBases.2": "&d酸素ディストリビューター&rは、&a密閉された&r部屋に酸素を分配する機械です。水と電力を供給すると、自動的に密閉部屋に酸素を分配します。",
 	"atm9.quest.adAstra.desc.oxygenForBases.3": "&9ウォーターポンプ&rは、無限水源からディストリビューターに水をポンプするために使用されます。シンクや&dエターナルウォーターブロック&rを使用して水をポンプすることもできます。",
 	"atm9.quest.adAstra.oxygenForYourBases": "あなたの基地のための酸素！",
+
+
 	"atm9.quest.arsNouveau.welcome": "&aアルス・ヌーヴォー&fへようこそ！",
 	"atm9.quest.arsNouveau.desc.magicModIntro": "アルス・ヌーヴォーは、モッド内で作成されるさまざまなグリフを使用してカスタムスペルを作成できる魔法モッドです！",
 	"atm9.quest.arsNouveau.arsNouveau": "アルス・ヌーヴォー",
@@ -1320,6 +1323,8 @@
 	"atm9.quest.arsNouveau.desc.castersWand.1": "&9キャスターズワンド&rは単一のスペルのみを受け入れ、スクライブのテーブルを使用して記述されます。",
 	"atm9.quest.arsNouveau.desc.castersWand.2": "ワンドスペルは常にプロジェクタイル > アクセラレートで始まり、タッチ、セルフなどの他の方法を持たないスペルで記述する必要があります。",
 	"atm9.quest.arsNouveau.desc.castersWand.3": "これにより、10スペルの上限を超えてスペルをキャストすることができます。ブレイクを使用したい場合は、ブレイクのみでワンドを記述してください。",
+
+
 	"atm9.quest.bloodMagic.desc.welcome.1": "&cブラッドマジック&fへようこそ！",
 	"atm9.quest.bloodMagic.desc.welcome.2": "このモッドは、敵（または自分自身）の血を使用して強力なアイテムやネットワークを作成することについてです！",
 	"atm9.quest.bloodMagic.desc.welcome.3": "何か助けが必要な場合は、ガイドブックにモッドのすべての情報が含まれています。",
@@ -1469,6 +1474,8 @@
 	"atm9.quest.bloodMagic.desc.livingEquipment.3": "最初は鉄と同等ですが、特定の方法で訓練するために使えるアップグレードポイントがあります。最初は100ポイントですが、この限界を増やす方法があります。",
 	"atm9.quest.bloodMagic.desc.livingEquipment.4": "それを使用すると、それはあなたから「学び」ます。それがこれまでに学んだことを見るには、それを見ながら左シフトを押し続けてください。",
 	"atm9.quest.bloodMagic.livingArmor": "リビングアーマー",
+
+
 	"atm9.quest.blueSkies.desc.newDimensions.1": "&9ブルースカイ&rは2つの新しいディメンションを追加します。それぞれに新しいブロック、クリーチャー、合計4つのボスが含まれています。",
 	"atm9.quest.blueSkies.desc.newDimensions.2": "始めるために、&6ゲートキーパー&rを見つける必要があります！",
 	"atm9.quest.blueSkies.welcome.1": "ブルースカイへようこそ！",
@@ -1578,6 +1585,8 @@
 	"atm9.quest.blueSkies.subt.arachnarchLoot": "アラクナーチの戦利品からドロップ",
 	"atm9.quest.blueSkies.desc.heartIncrease": "最大ハート数が増加します。",
 	"atm9.quest.blueSkies.desc.dragonSoulCrafting": "ドラゴンソウルのクラフトにもこれが必要で、ATMスターのために必要です。",
+
+
 	"atm9.quest.botania.desc.pureDaisyIntro": "&aピュアデイジー&rは、あなたが作る最初の花の一つです！",
 	"atm9.quest.botania.desc.pureDaisyFunction.1": "この花は、周囲1ブロックの半径で最大8つの&2木の丸太&rまたは&9石&rを&2リビングウッド&rまたは&9リビングロック&rに変換します。これは花の周囲1ブロックの半径でのみ変換されます。",
 	"atm9.quest.botania.firstFlower": "私たちの最初のお花",
@@ -1758,6 +1767,8 @@
 	"atm9.quest.botania.desc.gaiaTrinkets.2": "すべての説明は&aレキシカ・ボタニア&rに記載されています。",
 	"atm9.quest.botania.gaiaTrinkets": "ガイアトリンケット",
 	"atm9.quest.botania.gaiaGearAndTrinkets": "&aガイアの装備とトリンケット&r",
+
+
 	"atm9.quest.create.desc.welcome.1": "&5&lクリエイティブへようこそ！",
 	"atm9.quest.create.desc.welcome.2": "クリエイティブは没入型の技術MODで、マインクラフトに全く新しいリアリズムをもたらします！",
 	"atm9.quest.create.desc.welcome.3": "ブロックやアイテムについて疑問がある場合は、Wを押しながら考えて、驚くべき3Dインゲームウィキを見てください！",
@@ -1829,6 +1840,8 @@
 	"atm9.quest.create.desc.superGlue": "「スーパーグルー」は、ピストンや他の手段で移動するためにブロックを互いに接着するために使用できます。",
 	"atm9.quest.create.desc.belts.1": "「ベルト」は二つの「シャフト」の間に配置でき、モブ/アイテムを転送するか、単に一点から別の点へ回転エネルギーを転送するために使用できます。",
 	"atm9.quest.create.desc.belts.2": "「シャフト」は互いに45度、90度、または180度の位置になければなりません。",
+
+
 	"atm9.quest.eidolonRepraised.desc.intro.1": "これはエイドロンです。ブレージャーやソウルハーベスティングを通じた儀式を含むダークマジックModです。",
 	"atm9.quest.eidolonRepraised.desc.intro.2": "この本はアカシックトームにあるかもしれませんが、この本を作成することには特別な目的があります。",
 	"atm9.quest.eidolonRepraised.desc.intro.3": "この本をウィッチ（はい、その敵対的なもの）に投げる必要があります。彼女は後で必要なサインを追加します。",
@@ -1900,6 +1913,8 @@
     "atm9.quest.eidolonRepraised.subt.gatewayApotheosis": "これをアポセオシスへのゲートウェイと考えてください",
     "atm9.quest.eidolonRepraised.desc.holySymbol": "聖なるシンボルを3回使って、見ているものに火をつけましょう。",
     "atm9.quest.eidolonRepraised.subt.forgotFlintSteel": "洞窟で火打ち石と鉄を忘れた？",
+
+
 	"atm9.quest.evilcraft.desc.modIntro.1": "&cEvilCraft&rは、やや悪いことに基づいた魔法のMODです。敵の血を集め、古代の悪の力を利用しましょう！",
 	"atm9.quest.evilcraft.desc.modIntro.2": "このMODのすべてはガイドブック「&aOrigins of Darkness&r」に記載されています。",
 	"atm9.quest.evilcraft.desc.modIntro.3": "始めるには、&9Dark Gems&rを見つけてください。",
@@ -2022,6 +2037,8 @@
 	"atm9.quest.evilcraft.desc.broomCrafting.3": "ブルームをクラフトするには、単に各パーツをクラフトテーブルに置くだけです。ブルームを適切に機能させるには血液が必要です。",
 	"atm9.quest.evilcraft.subt.broomBroom": "ブルームブルーム",
 	"atm9.quest.evilcraft.bloodBrooms": "&cブラッド&r &dBrooms&r",
+
+
 	"atm9.quest.forbiddenAndArcanus.desc.newArmor.1": "Forbidden \\\\&\\\\ Arcanusは、より良いアーマーやエンチャント、その他を手に入れる新しい方法を追加します！",
 	"atm9.quest.forbiddenAndArcanus.desc.newArmor.2": "この魔法テーマのMODには素晴らしいアニメーションがあり、&6エターナルステラ&rのような過剰なアイテムもあります。",
 	"atm9.quest.forbiddenAndArcanus.welcome": "&5Forbidden \\\\&\\\\ Arcanusへようこそ！",
@@ -2136,6 +2153,8 @@
 	"atm9.quest.forbiddenAndArcanus.desc.upgradingForgeFeatures.1": "&dヘファイストス鍛冶場&rは、スポナースクラップ、アーケーンクリスタルなどを使用して、より高いティアにアップグレードすることができます！",
 	"atm9.quest.forbiddenAndArcanus.desc.upgradingForgeFeatures.2": "より高いティアのアイテム、例えば&aエターナルステラ&rを作るには、より高いティアが必要です。詳細はJEIをチェックしてください！",
 	"atm9.quest.forbiddenAndArcanus.upgradingTheForge": "&d鍛冶場のアップグレード&r",
+
+
 	"atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.1": "マイセリアルリアクターは、リアクターブロックの近くで同時に動作するすべてのマイセリアルジェネレーターで構成されています。",
 	"atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.2": "25MFE/tを生成します。",
 	"atm9.quest.industrialForegoing.crimedMycelialGenerator": "クライムドマイセリアルジェネレーター",
@@ -2201,6 +2220,8 @@
 	"atm9.quest.industrialForegoing.desc.latexIntro.5": "&b基本的にラテックス -> ドライラバー -> プラスチックです。&r",
 	"atm9.quest.industrialForegoing.latexQuestion": "ラテックス？ね？",
 	"atm9.quest.industrialForegoing.latexAndPlasticQuestion": "ラテックスとプラスチック？ね？",
+
+
 	"atm9.quest.mekanism.desc.metallurgicInfuser.1": "メタルルジックインフューザーは、メカニズム全体でコアクラフティングコンポーネントを作るために使用されます。",
 	"atm9.quest.mekanism.desc.metallurgicInfuser.2": "このマシンは、材料（中央左のスロット）を「インフューザー」（左端のスロット）で注入することによって動作します。",
 	"atm9.quest.mekanism.desc.metallurgicInfuser.3": "これはスチールインゴットを取得する方法でもあります。",
@@ -2372,6 +2393,8 @@
 	"atm9.quest.mekanism.desc.antimatterPellets.2": "これらはいくつかの&5エンドゲーム&rアイテムを作成します。リアクターやその他の詳細については、&aメカニズム&r: &dリアクターズ&rクエストラインをご覧ください！",
 	"atm9.quest.mekanism.thePathToReactors": "リアクターへの道",
 	"atm9.quest.mekanism.advancedMekanism": "&d高度なメカニズム&r",
+
+
 	"atm9.quest.occultism.shubNiggurathFamiliar": "&5シュブ・ニグラス&r ファミリア",
 	"atm9.quest.occultism.drikwingFamiliar": "&2ドリックウィング&r ファミリア",
 	"atm9.quest.occultism.berserker": "&dビホルダー&r ファミリア",
@@ -2493,7 +2516,9 @@
 	"atm9.quest.occultism.desc.demonsAndFamiliars.2": "物を動かしたり、木を切り倒したりするデーモンがいます！！",
 	"atm9.quest.occultism.desc.demonsAndFamiliars.3": "特別なバフを与えたり、あなたのために戦ったりするクールな友達として知られる&d使い魔&rを召喚する方法もあります！ガイドブックの&d使い魔の儀式&rを確認してください！",
 	"atm9.quest.occultism.familiars.1": "使い魔",
-	"atm9.quest.occultism.familiars.2": "&d使い魔&r",
+	"atm9.quest.occultism.familiars.2": "&d使い魔",
+
+
 	"atm9.quest.powah.desc.intro.1": "&9Powah&rは、基本的なFE生成から&b250k FE/t&rを生産する&aリアクター&rまで、&dパワー&rの生成、保存、伝送についてのテックモッドです。Powahがあなたをカバーします！",
 	"atm9.quest.powah.desc.intro.2": "始めるには、&aウラニナイト&rを採掘してください！",
 	"atm9.quest.powah.welcome": "&aPowahへようこそ&r!!!",
@@ -2543,6 +2568,8 @@
 	"atm9.quest.powah.spiritedReactor": "リアクター（スピリテッド）",
 	"atm9.quest.powah.nitroReactor": "リアクター（ニトロ）",
 	"atm9.quest.powah.desc.energizingOrb": "エナジャイジングオーブを使用してアイテムをエナジャイズするために使用されます。",
+
+
 	"atm9.quest.productiveBees.desc.welcome.1": "プロダクティブミツバチへようこそ！",
 	"atm9.quest.productiveBees.desc.welcome.2": "このMODを始めるには、まずハニカムとハニーボトルを見つける必要があります！ミツバチハイブを見つけて、少し待ってからミツバチたちに仕事をさせてください。満タンの時にシアリングするとハニカムが、ガラスボトルを使用するとハニーボトルが手に入ります！",
 	"atm9.quest.productiveBees.desc.welcome.3": "重要な注意: コームを必要とするミツバチクエストでは、レシピが表示されません。必要な場合はJEIで調べてください！",
@@ -2910,6 +2937,8 @@
 	"atm9.quest.productiveBees.subt.showingOffBees": "ミツバチを見せびらかす",
 	"atm9.quest.productiveBees.desc.luresGoldBee": "ハニー トリートの代わりに、このハイブはミツバチを引き寄せるためにゴールド インゴットを必要とします。",
 	"atm9.quest.productiveBees.subt.luresGoldBee": "ネザーに設置するとゴールド ミツバチを引き寄せる",
+
+
 	"atm9.quest.thermalExpansion.desc.modIntro": "サーマル シリーズは、マインクラフト体験に魔法と技術の内容豊かなブレンドを追加するモジュラーシリーズの一連のMODです！",
 	"atm9.quest.thermalExpansion.welcome": "&9サーマル シリーズ&rへようこそ！",
 	"atm9.quest.thermalExpansion.desc.redstoneFurnaceFeatures.1": "レッドストーン ファーナスは石炭の代わりにRF/FEを使用してアイテムを溶解します。",
@@ -2996,7 +3025,9 @@
 	"atm9.quest.thermalExpansion.subt.earlyGameMiningGadget": "初期ゲームのマイニングガジェット",
 	"atm9.quest.thermalExpansion.subt.rfPoweredHandsaw": "RF駆動のハンドソー！",
 	"atm9.quest.thermalExpansion.subt.tier4BaseUpgrade": "ティア4ベースアップグレード",
-    "atm9.quest.twilightForest.desc.welcome.1": "ようこそ、&9黄昏の森&rへ！",
+
+
+	"atm9.quest.twilightForest.desc.welcome.1": "ようこそ、&9黄昏の森&rへ！",
     "atm9.quest.twilightForest.desc.welcome.2": "黄昏の森へのポータルを作るには、2x2の穴を掘って水を満たし、その周りを花で囲み、ダイヤモンドを投げ入れます。",
     "atm9.quest.twilightForest.desc.welcome.3": "うまくいけば、トールがサインをくれます。",
     "atm9.quest.twilightForest.subt.creatingPortal": "ポータルの作成",
@@ -3284,7 +3315,7 @@
 	"atm9.quest.rs.desc.range": "システムへのワイヤレス接続の範囲を増やすには、&9Range Upgrades&rを作成する必要があります。 \\n \\n Wireless Transmitterは合計４つまでしか保持できません。これで一つ差し上げます。",
 	"atm9.quest.rs.desc.infiniterange": "'もっと範囲が必要だ！！！' \\n \\n では、これらのすごいアイテムをWireless Transmitterに取り付ければ、無限の範囲でネットワークストレージにアクセスできるようになります。 \\n \\n ただし、これは他のディメンションには及びません.....",
 	"atm9.quest.rs.desc.dimension": "でも、これなら大丈夫！ \\n \\n これにより、どのディメンションからでもRSシステムにワイヤレスでアクセスできます。",
-	
+
 	"atm9.quest.rs.subt.refined": "始めよう",
 	"atm9.quest.rs.subt.security": "グリッドを守れ！",
 	"atm9.quest.rs.subt.grid": "ネットワークをワイヤレスで接続！",
@@ -3579,13 +3610,13 @@
 	"atm9.quest.ma.saltpeter": "硝石の種",
 	"atm9.quest.ma.nether": "ネザーの種",
 	"atm9.quest.ma.aluminum": "アルミニウムの種",
-	"atm9.quest.ma.TerEssence": "&cテルチウム エッセンス&r",
-	"atm9.quest.ma.TerGrowth": "&cテルチウム 成長アクセラレーター&r",
-	"atm9.quest.ma.TerTools": "&cテルチウム ツールと武器&r",
-	"atm9.quest.ma.TerWater": "&cテルチウム ウォータリングカン&r",
-	"atm9.quest.ma.TerApple": "&cテルチウム アップル&r",
-	"atm9.quest.ma.TerGear": "&cテルチウム アーマー&r",
-	"atm9.quest.ma.TerFarm": "&cテルチウム 農地&r",
+	"atm9.quest.ma.TerEssence": "&cテルチウム エッセンス",
+	"atm9.quest.ma.TerGrowth": "&cテルチウム 成長アクセラレーター",
+	"atm9.quest.ma.TerTools": "&cテルチウム ツールと武器",
+	"atm9.quest.ma.TerWater": "&cテルチウム ウォータリングカン",
+	"atm9.quest.ma.TerApple": "&cテルチウム アップル",
+	"atm9.quest.ma.TerGear": "&cテルチウム アーマー",
+	"atm9.quest.ma.TerFarm": "&cテルチウム 農地",
 	"atm9.quest.ma.zombie": "ゾンビ シード",
 	"atm9.quest.ma.creeper": "クリーパー シード",
 	"atm9.quest.ma.skeleton": "スケルトン シード",
@@ -3603,13 +3634,13 @@
 	"atm9.quest.ma.obsidian": "オブシディアン シード",
 	"atm9.quest.ma.certus": "サーティス クォーツ シード",
 	"atm9.quest.ma.prismarine": "プリズマリン シード",
-	"atm9.quest.ma.ImpEssence": "&9インペリウム エッセンス&r",
-	"atm9.quest.ma.ImpGrowth": "&9インペリウム 成長アクセラレーター&r",
-	"atm9.quest.ma.ImpTools": "&9インペリウム ツールと武器&r",
-	"atm9.quest.ma.ImpWater": "&9インペリウム ウォータリングカン&r",
-	"atm9.quest.ma.ImpApple": "&9インペリウム アップル&r",
-	"atm9.quest.ma.ImpArmor": "&9インペリウム アーマー&r",
-	"atm9.quest.ma.ImpFarm": "&9インペリウム 農地&r",
+	"atm9.quest.ma.ImpEssence": "&9インペリウム エッセンス",
+	"atm9.quest.ma.ImpGrowth": "&9インペリウム 成長アクセラレーター",
+	"atm9.quest.ma.ImpTools": "&9インペリウム ツールと武器",
+	"atm9.quest.ma.ImpWater": "&9インペリウム ウォータリングカン",
+	"atm9.quest.ma.ImpApple": "&9インペリウム アップル",
+	"atm9.quest.ma.ImpArmor": "&9インペリウム アーマー",
+	"atm9.quest.ma.ImpFarm": "&9インペリウム 農地",
 	"atm9.quest.ma.blaze": "ブレイズ シード",
 	"atm9.quest.ma.ghast": "ガスト シード",
 	"atm9.quest.ma.enderman": "エンダーマン シード",
@@ -3621,37 +3652,37 @@
 	"atm9.quest.ma.gold": "ゴールド シード",
 	"atm9.quest.ma.end": "エンド シード",
 	"atm9.quest.ma.osmium": "オスミウム シード",
-	"atm9.quest.ma.SupEssence": "&4スプレミウム エッセンス&r",
-	"atm9.quest.ma.SupGrowth": "&4スプレミウム 成長アクセラレーター&r",
-	"atm9.quest.ma.SupTool": "&4スプレミウム ツールと武器&r",
-	"atm9.quest.ma.SupWater": "&4スプレミウム ウォータリングカン&r",
-	"atm9.quest.ma.SupApple": "&4スプレミウム アップル&r",
-	"atm9.quest.ma.SupGear": "&4スプレミウム アーマー&r",
-	"atm9.quest.ma.SupFarm": "&4スプレミウム 農地&r",
+	"atm9.quest.ma.SupEssence": "&4スプレミウム エッセンス",
+	"atm9.quest.ma.SupGrowth": "&4スプレミウム 成長アクセラレーター",
+	"atm9.quest.ma.SupTool": "&4スプレミウム ツールと武器",
+	"atm9.quest.ma.SupWater": "&4スプレミウム ウォータリングカン",
+	"atm9.quest.ma.SupApple": "&4スプレミウム アップル",
+	"atm9.quest.ma.SupGear": "&4スプレミウム アーマー",
+	"atm9.quest.ma.SupFarm": "&4スプレミウム 農地",
 	"atm9.quest.ma.emerald": "エメラルド シード",
 	"atm9.quest.ma.diamond": "ダイヤモンド シード",
 	"atm9.quest.ma.uraninite": "ウラニナイト シード",
 	"atm9.quest.ma.platinum": "プラチナ シード",
 	"atm9.quest.ma.netherite": "ネザライト シード",
 	"atm9.quest.ma.witherskele": "ウィザースケルトン シード",
-	"atm9.quest.ma.awakening": "&d覚醒&r",
-	"atm9.quest.ma.dust": "&5認識のダスト&r",
-	"atm9.quest.ma.ASE": "&c覚醒スプレミウム エッセンス&r",
-	"atm9.quest.ma.AwaGear": "&c覚醒アーマー&r",
-	"atm9.quest.ma.AwaTools": "&c覚醒ツールと武器&r",
-	"atm9.quest.ma.AwaWater": "&c覚醒ウォータリング&r",
-	"atm9.quest.ma.InsEssence": "&5インサニウム エッセンス&r",
-	"atm9.quest.ma.InsApple": "&5インサニウム アップル&r",
-	"atm9.quest.ma.InsFarm": "&5インサニウム 農地&r",
+	"atm9.quest.ma.awakening": "&d覚醒",
+	"atm9.quest.ma.dust": "&5認識のダスト",
+	"atm9.quest.ma.ASE": "&c覚醒スプレミウム エッセンス",
+	"atm9.quest.ma.AwaGear": "&c覚醒アーマー",
+	"atm9.quest.ma.AwaTools": "&c覚醒ツールと武器",
+	"atm9.quest.ma.AwaWater": "&c覚醒ウォータリング",
+	"atm9.quest.ma.InsEssence": "&5インサニウム エッセンス",
+	"atm9.quest.ma.InsApple": "&5インサニウム アップル",
+	"atm9.quest.ma.InsFarm": "&5インサニウム 農地",
 	"atm9.quest.ma.dragon_seeds": "ドラゴンエッグ シード",
 	"atm9.quest.ma.dragon_crux": "ドラゴンエッグ クラックス",
 	"atm9.quest.ma.star_seeds": "ネザースター シード",
 	"atm9.quest.ma.star_crux": "ネザースター クラックス",
-	"atm9.quest.ma.InsBlock": "&5インサニウム ブロック&r",
-	"atm9.quest.ma.atm": "&eオールゼミウム シード&r",
-	"atm9.quest.ma.vib": "&3バイブラニウムの種&r",
-	"atm9.quest.ma.uno": "&5アンオブタニウムの種&r",
-	"atm9.quest.ma.magic": "&bマジカルソイル&r",
+	"atm9.quest.ma.InsBlock": "&5インサニウム ブロック",
+	"atm9.quest.ma.atm": "&eオールゼミウム シード",
+	"atm9.quest.ma.vib": "&3バイブラニウムの種",
+	"atm9.quest.ma.uno": "&5アンオブタニウムの種",
+	"atm9.quest.ma.magic": "&bマジカルソイル",
 	"atm9.quest.ma.creative": "クリエイティブエッセンス",
 	
 	"atm9.quest.ma.desc.InEssence": "&dEssence&rはMystical Agricultureでの栽培の基本です。\\n\\n&eInferium Essence&rは全てのエッセンスの基礎となります。これは採掘やモブを倒すことで手に入れるか、種を作って育てることで得られます！\\n\\nより高品質なエッセンスを作るには、&9Infusion Crystal&rを作る必要があります。",
@@ -5718,8 +5749,8 @@
 	"atm9.quest.mekanismReactors.desc.matrixCompletion.2": "より高い階層のセルやプロバイダーでアップグレードすることを恐れないでください！ もっとスペースが必要ですか？ インダクションマトリックスの最大サイズは18x18x18です。",
 	"atm9.quest.mekanismReactors.observeCompletedMatrix": "完成したインダクションマトリックスを観察する",
 	"atm9.quest.mekanismReactors.completingMatrix": "&aマトリックス&r &9を完成させる&r",
-	
-	
+
+
 	"atm9.quest.enchant.enchant": "Apotheosisでエンチャントしよう",
 	"atm9.quest.enchant.book": "バニラの最大値は始まりに過ぎないよ",
 	"atm9.quest.enchant.hellshelf": "&4ヘルシェルフ&r",
@@ -5841,7 +5872,7 @@
 	"atm9.quest.cataclysm.VASW": "V.A.S.W.（ヴォイド・アサルト・ショルダー・ウェポン）",
 	"atm9.quest.cataclysm.VForge": "ヴォイド・フォージ",
 	"atm9.quest.cataclysm.GoB": "ブルワークのガントレット",
-	
+
 	"atm9.quest.cataclysm.desc.cataclysm": "Cataclysm は新しいボス、ダンジョン、そしてもちろん戦利品を追加するMODです！どのボスを最初に倒すかの確かなパターンはありませんが、いくつかは他よりも強く、いくつかは他のボスに対抗するのに役立つ戦利品を提供します。このMODには、ATMスターに必要なアイテムが２つもあります！",
 	"atm9.quest.cataclysm.desc.eye": "Cataclysm のダンジョンはピラミッドほど簡単に見つけることはできませんので、特別な目がそれらを見つけるのに役立つかもしれません。異なる目はそれぞれ設定された構造にあなたを導きますが、壊れる心配は非常に稀です。",
 	"atm9.quest.cataclysm.desc.mech": "&4メックの目&rはあなたを&4古代工場&rへと導き、&4ハービンジャー&rとの戦いへと挑ませます。",
@@ -5906,11 +5937,9 @@
 	"atm9.quest.cataclysm.subt.igntium": "ネザライトよりもすごい？！？！",
 	"atm9.quest.cataclysm.subt.gatling": "フォールアウトから直送",
 	"atm9.quest.cataclysm.subt.meat": "フォール・アウト３ DLC ザ・ピットから直送",
-	
+
+
 	"item.kubejs.micro_universe_catalyst.tooltip": "千の太陽の火で鍛えられた素晴らしいもの",
 	"kubejs.apiary_ii.tooltip.bee_requirements": "非常に高い、どんな、メタターナルミツバチが必要です",
 	"kubejs.apiary_i.tooltip.bee_eater": "時々ミツバチを食べてしまいます"
-	
-
 }
-

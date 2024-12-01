@@ -10,12 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"{atm9.quest.eidolonRepraised.desc.intro.1}"
-				"{atm9.quest.eidolonRepraised.desc.intro.2}"
-				"{atm9.quest.eidolonRepraised.desc.intro.3}"
-				"{atm9.quest.eidolonRepraised.desc.intro.4}"
-			]
+			description: ["{atm9.quest.eidolonRepraised.desc.intro.1}\\n\\n{atm9.quest.eidolonRepraised.desc.intro.2}\\n\\n{atm9.quest.eidolonRepraised.desc.intro.3}\\n\\n{atm9.quest.eidolonRepraised.desc.intro.4}"]
 			icon: "eidolon:codex"
 			id: "63E611810240C792"
 			rewards: [{
@@ -202,7 +197,7 @@
 				}
 			]
 			title: "{atm9.quest.eidolonRepraised.darkWorship}"
-			x: 4.0d
+			x: 4.5d
 			y: 3.5d
 		}
 		{
@@ -220,7 +215,7 @@
 				item: "eidolon:unholy_symbol"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 4.5d
 		}
 		{
@@ -244,7 +239,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 4.5d
 			y: 5.5d
 		}
 		{
@@ -267,7 +262,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 4.5d
 		}
 		{
@@ -286,7 +281,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
@@ -417,7 +412,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["691A7545CC65BEAE"]
@@ -430,7 +425,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4224CC1F101E4069"]
@@ -473,8 +468,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -500,7 +495,7 @@
 				}
 			]
 			x: 0.0d
-			y: 6.0d
+			y: 3.5d
 		}
 	]
 	title: "{atm9.chapters.51.title}"

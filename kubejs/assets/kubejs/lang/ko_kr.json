@@ -1,5 +1,6 @@
 {
 	"atm9.modpack.title": "All The Mods 9",
+
 	"atm9.chapters.1.title": "환영합니다",
 	"atm9.chapters.2.title": "Allthemodium",
 	"atm9.chapters.3.title": "현상금 게시판",
@@ -60,15 +61,15 @@
 	"atm9.chapters.46.title": "Blue Skies",
 	"atm9.chapters.47.title": "Cataclysm",
 	"atm9.chapters.48.title": "황혼의 숲",
-	
-	
+
+
 	"atm9.quest.welcome.team": "팀 만들기",
 	"atm9.quest.welcome.commands": "유용한 명령어",
 	"atm9.quest.welcome.welcome": "&dAll The Mods 9에 오신 것을 환영합니다!",
 	"atm9.quest.welcome.quests": "퀘스트",
 	"atm9.quest.welcome.claims": "청크 클레임",
 	"atm9.quest.welcome.translations": "모든 번역",
-	
+
 	"atm9.quest.welcome.desc.team": "친구들과 함께 팀을 만들고 싶다면, &a/ftbteams party create (팀 이름)&r 명령어를 사용해 팀을 만드세요!",
 	"atm9.quest.welcome.desc.commands": "ATM에는 많은 유용한 명령어가 있습니다. 몇 가지를 소개해 드릴게요:\\n \\n &e/sethome&r (집 이름) | 집을 설정하고, /home (이름)으로 텔레포트할 수 있습니다. 예: /sethome farm - 그 후 /home farm으로 텔레포트 \\n \\n &e/spawn&r | 이 명령어로 오버월드의 스폰 지점으로 텔레포트할 수 있습니다. \\n \\n &e/rtp&r | '랜덤 텔레포트'로 월드의 랜덤한 위치로 텔레포트할 수 있습니다. \\n \\n 주의: 이 명령어들에는 쿨다운과 제한이 있습니다. 변경하고 싶다면 다음 위치에 있는 설정 파일을 수정하세요:\\n \\n - 싱글플레이어의 경우 | &osaves/(세이브 이름)/serverconfig/ftbessentials.snbt&r \\n \\n - 서버의 경우 | &oworld/serverconfig/ftbessentials.snbt&r",
 	"atm9.quest.welcome.desc.welcome1": "ATM9는 말 그대로 모든 것이 가능한 모드팩입니다. 모드가 적용된 마인크래프트 세계를 자유롭게 탐험하세요!",
@@ -870,7 +871,7 @@
 	"atm9.quest.storage.Atool": "&e고급 도구 교체기 업그레이드&r",
 	"atm9.quest.storage.Avoid": "&e고급 공허 업그레이드&r",
 	"atm9.quest.storage.Arestock": "&e고급 재보충 업그레이드&r",
-	
+
 	"atm9.quest.storage.desc.basic": "기본 저장소 챕터에 오신 것을 환영합니다!\\n \\n 여기서는 전력을 사용하지 않고 아이템을 저장하는 기본적인 방법과 저장에 도움이 되는 아이템을 찾을 수 있습니다!",
 	"atm9.quest.storage.desc.trash": "불필요한 아이템, 액체, 전력을 파괴하는 방법입니다.",
 	"atm9.quest.storage.desc.NBT": "가상 저장소를 만들고 싶으신가요? &9Refined Storage&r나 &9Applied Energistics 2&r를 사용해 보세요!\\n \\n 이들은 저장소를 업그레이드하는 훌륭한 방법이지만, &eNBT 아이템&r과 그것들을 최적으로 저장하는 방법에 대해 이야기하는 것이 중요합니다.\\n \\n NBT 아이템은 추가 태그가 붙은 아이템입니다. 인챈트된 아이템, 내구도가 있는 아이템, Apotheosis의 보석 등, 이들은 모두 NBT 태그가 붙어 있습니다. 그래서 일반적으로 스택되지 않습니다.\\n \\n 이들을 대량으로 RS나 AE2와 같은 저장 시스템에 보관하면 세이브 데이터나 서버에 문제를 일으킬 수 있습니다.\\n \\n 따라서, 이들은 상자나 가방에 보관하는 것이 가장 좋습니다!",
@@ -889,7 +890,7 @@
 	"atm9.quest.storage.desc.upgrade": "이 &o퀘스트 섹션 전체&r를 필터 업그레이드로 채우지 않기 위해 정교한 배낭의 업그레이드를 살펴보겠습니다.\\n \\n 정교한 저장소의 동등품을 만들어야 하지만 기능은 거의 동일합니다.",
 	"atm9.quest.storage.desc.backpack": "정교한 배낭은 업그레이드 가능한 배낭을 제공하며 필터를 사용하여 편리한 기능을 추가할 수 있습니다!",
 	"atm9.quest.storage.desc.upgrade_base": "배낭 필터의 업그레이드를 만들기 위해 이것이 필요합니다.",
-	
+
 	"atm9.quest.storage.subt.trash": "불필요한 것을 처분하자",
 	"atm9.quest.storage.subt.functional": "저장 서랍의 친척",
 	"atm9.quest.storage.subt.drawer": "쌓기의 극치",
@@ -935,7 +936,7 @@
 	"atm9.quest.storage.subt.void": "배낭 내에서 자동 삭제하고 싶은 아이템의 필터 추가",
 	"atm9.quest.storage.subt.restock": "보충 완료",
 	"atm9.quest.storage.subt.Asmelting": "배낭 내 아이템 자동 제련",
-	
+
 
 	"atm9.quest.ae2.AE2": "Applied Energistics 2",
 	"atm9.quest.ae2.wrench": "석영 렌치",
@@ -1006,7 +1007,7 @@
 	"atm9.quest.ae2.matter": "응축 물질",
 	"atm9.quest.ae2.antimatter": "초응축 물질",
 	"atm9.quest.ae2.quantum": "양자 네트워크 브릿지",
-	
+
 	"atm9.quest.ae2.desc.AE2": "&lApplied Energistics 2&f(&oAE2&r)에 &b오신 것을 환영합니다&f! \\n \\n Applied Energistics 2(줄여서 &oAE2&r)는 매우 효율적인 저장소와 모드가 설치된 Minecraft 경험을 초기부터 엔드게임까지 크게 확장하는 자동화 기능을 제공하는 다목적 &b디지털 저장소&f MOD입니다. \\n \\n AE2를 시작하려면 MOD에 중요한 리소스인 &bCertus Quartz&f를 채굴해야 합니다. 자수정과 마찬가지로 Certus Quartz 크리스탈을 채굴하여 Certus Quartz의 &e가루&f와 &e크리스탈&f을 얻을 수 있습니다. \\n \\n AE2에 대한 자세한 내용은,",
 	"atm9.quest.ae2.desc.wrench": "&bQuartz Wrench&f는 다른 일반적인 기술 MOD의 렌치와 동일한 기능을 합니다. 우클릭하면 블록이나 장치를 회전시키고, 웅크린 상태에서 우클릭하면 분해합니다. \\n \\n AE2의 렌치는 certus와 nether quartz 두 가지 종류가 있습니다.",
 	"atm9.quest.ae2.desc.first": "AE2를 시작하는 데 처음 필요한 두 가지 아이템은 &b충전기&f와 &b각인기&f입니다. \\n \\n 전원이 공급된 &b충전기&f는 &eCertus Quartz 크리스탈&r을 충전하여 이 &e충전된 Certus 크리스탈&r을 MOD의 또 다른 중요한 리소스인 &e플럭스&f 생산에 사용할 수 있습니다. 또한 전력을 저장하는 모든 아이템을 충전하는 데 사용할 수 있습니다. \\n \\n &b각인기&f는 AE2의 다양한 석영 크리스탈을 가루 형태로 바꿀 수 있지만, 더 중요한 것은 특별한 &e인쇄된 회로&f와 &e프로세서&f를 제조하는 데 사용된다는 것입니다. 다음 퀘스트에서 더 자세히 알아볼 것입니다.",
@@ -1076,7 +1077,7 @@
 	"atm9.quest.ae2.desc.matter": "ME 네트워크 자체를 무선으로 확장하는 첫 번째 단계는 솔직히 약간 이상합니다. \\n \\n &b물질 응축기&f는 AE2의 쓰레기통으로의 접근 방식으로, 삽입된 아이템을 무효화합니다. 그러나 &e저장 구성 요소&f가 장착된 경우, 응축기는 무효화된 아이템에서 남은 에너지의 일부를 활용하여 충분히 집중된 에너지에서 두 가지 특별한 제작 아이템을 만들 수 있습니다. \\n \\n 이 두 아이템 중 첫 번째는 최소 1k 저장 구성 요소와 256개의 아이템 분량의 무효화된 재료가 필요한 &b물질 볼&f입니다.",
 	"atm9.quest.ae2.desc.antimatter": "64k 저장 구성 요소 이상을 사용하면 물질 응축기는 훨씬 더 많이 응축하여 &b특이점&f을 생성할 수 있습니다. 단일 특이점에는 256000개의 아이템 무효화가 필요합니다. 그것은 정확히 &o4000 스택&r입니다! \\n \\n 이 특이점을 땅에 던지고 &e엔더 가루&f와 함께 어떤 일이 일어나는지 보세요. 그 과정에서 주변에 약간의 데미지를 줄 필요가 있지만, 다행히도 AE2는 그 영향을 최소화하기 위한 &b극소 TNT&f를 제공합니다.",
 	"atm9.quest.ae2.desc.quantum": "만약 마지막 퀘스트를 올바르게 완료했다면, 그 특이점을 한 쌍의 &b양자 얽힘 특이점&f으로 바꿨을 것입니다. 이 새로운 특이점들은 &e양자 네트워크 브리지&f로 알려진 링 모양의 장치를 연결하는 데 사용됩니다. \\n \\n 이 개별 링들이 양자 얽힘 특이점을 사용하여 연결되고 약간의 AE 전원(예: 에너지 셀)으로 시작되면, ME 네트워크는 브리지의 반대편에서 장거리 또는 심지어 차원을 넘어 무선으로 확장될 수 있습니다.",
-	
+
 	"atm9.quest.ae2.subt.AE2": "가상 저장 시스템",
 	"atm9.quest.ae2.subt.wrench": "예상대로 기능합니다.",
 	"atm9.quest.ae2.subt.first": "기본 기계",
@@ -1115,7 +1116,8 @@
 	"atm9.quest.ae2.subt.antimatter": "완전한 반물질은 아님",
 
 	"atm9.quest.ae2.img.star": "ATM 스타 필요",
-	
+
+
 	"atm9.quest.adAstra.desc.tier2Rocket.1": "티어 2 로켓을 만들려면 많은 &cDesh&r가 필요합니다.",
 	"atm9.quest.adAstra.desc.tier2Rocket.2": "이 로켓으로 &c화성&r까지 날아갈 수 있습니다! 다만, 귀환 비행을 위해 추가 &b산소&r와 &e연료&r를 많이 준비하세요.",
 	"atm9.quest.adAstra.desc.tier4Rocket": "티어 4 로켓은 우리가 만들 수 있는 최고 등급의 로켓입니다. 이를 통해 태양계 밖으로의 여행이 가능해집니다!",
@@ -1317,7 +1319,8 @@
 	"atm9.quest.arsNouveau.desc.castersWand.1": "&9시전자의 지팡이&r는 단일 주문만 받아들이며, 필사자의 테이블을 사용하여 작성됩니다.",
 	"atm9.quest.arsNouveau.desc.castersWand.2": "지팡이 주문은 항상 발사체 > 가속으로 시작하며, 접촉, 자기 등의 다른 방식을 갖지 않는 주문으로 작성해야 합니다.",
 	"atm9.quest.arsNouveau.desc.castersWand.3": "이를 통해 10개 주문의 제한을 넘어 주문을 시전할 수 있습니다. 부수기를 사용하고 싶다면, 부수기만으로 지팡이를 작성하세요.",
-	
+
+
 	"atm9.quest.bloodMagic.desc.welcome.1": "&c블러드 매직&f에 오신 것을 환영합니다!",
 	"atm9.quest.bloodMagic.desc.welcome.2": "이 모드는 적(또는 자신)의 피를 사용하여 강력한 아이템과 네트워크를 만드는 것에 관한 것입니다!",
 	"atm9.quest.bloodMagic.desc.welcome.3": "도움이 필요한 경우 가이드북에 모드의 모든 정보가 포함되어 있습니다.",
@@ -1467,7 +1470,8 @@
 	"atm9.quest.bloodMagic.desc.livingEquipment.3": "처음에는 철과 동등하지만, 특정 방법으로 훈련하는 데 사용할 수 있는 업그레이드 포인트가 있습니다. 처음에는 100 포인트이지만 이 한계를 늘리는 방법이 있습니다.",
 	"atm9.quest.bloodMagic.desc.livingEquipment.4": "그것을 사용하면 당신으로부터 '배웁니다'. 지금까지 배운 것을 보려면 그것을 보면서 왼쪽 시프트를 계속 누르세요.",
 	"atm9.quest.bloodMagic.livingArmor": "리빙 갑옷",
-	
+
+
 	"atm9.quest.blueSkies.desc.newDimensions.1": "&9블루 스카이&r는 2개의 새로운 차원을 추가합니다. 각각 새로운 블록, 생물, 총 4개의 보스를 포함하고 있습니다.",
 	"atm9.quest.blueSkies.desc.newDimensions.2": "시작하려면 &6게이트키퍼&r를 찾아야 합니다!",
 	"atm9.quest.blueSkies.welcome.1": "블루 스카이에 오신 것을 환영합니다!",
@@ -1577,7 +1581,8 @@
 	"atm9.quest.blueSkies.subt.arachnarchLoot": "아라크나크의 전리품에서 드롭",
 	"atm9.quest.blueSkies.desc.heartIncrease": "최대 하트 수가 증가합니다.",
 	"atm9.quest.blueSkies.desc.dragonSoulCrafting": "드래곤 소울을 제작하는 데에도 이것이 필요하며, ATM 스타를 위해 필요합니다.",
-	
+
+
 	"atm9.quest.botania.desc.pureDaisyIntro": "&a순수한 데이지&r는 당신이 만들 첫 번째 꽃 중 하나입니다!",
 	"atm9.quest.botania.desc.pureDaisyFunction.1": "이 꽃은 주변 1블록 반경에서 최대 8개의 &2나무 원목&r 또는 &9돌&r을 &2리빙우드&r 또는 &9리빙록&r으로 변환합니다. 이는 꽃 주변 1블록 반경에서만 변환됩니다.",
 	"atm9.quest.botania.firstFlower": "우리의 첫 번째 꽃",
@@ -1758,6 +1763,8 @@
 	"atm9.quest.botania.desc.gaiaTrinkets.2": "모든 설명은 &a렉시카 보타니아&r에 기재되어 있습니다.",
 	"atm9.quest.botania.gaiaTrinkets": "가이아 장신구",
 	"atm9.quest.botania.gaiaGearAndTrinkets": "&a가이아의 장비와 장신구&r",
+
+
 	"atm9.quest.create.desc.welcome.1": "&5&l크리에이트에 오신 것을 환영합니다!",
 	"atm9.quest.create.desc.welcome.2": "크리에이트는 몰입형 기술 모드로, 마인크래프트에 완전히 새로운 현실감을 가져다줍니다!",
 	"atm9.quest.create.desc.welcome.3": "블록이나 아이템에 대해 궁금한 점이 있으면 W를 누른 채로 생각해보세요. 놀라운 3D 인게임 위키를 볼 수 있습니다!",
@@ -1829,6 +1836,8 @@
 	"atm9.quest.create.desc.superGlue": "\"슈퍼 글루\"는 피스톤이나 다른 수단으로 이동하기 위해 블록들을 서로 접착하는 데 사용할 수 있습니다.",
 	"atm9.quest.create.desc.belts.1": "\"벨트\"는 두 개의 \"샤프트\" 사이에 배치할 수 있으며, 몹/아이템을 전송하거나 단순히 한 지점에서 다른 지점으로 회전 에너지를 전달하는 데 사용할 수 있습니다.",
 	"atm9.quest.create.desc.belts.2": "\"샤프트\"는 서로 45도, 90도, 또는 180도 위치에 있어야 합니다.",	"atm9.quest.eidolonRepraised.desc.intro.1": "これはエイドロンです。ブレージャーやソウルハーベスティングを通じた儀式を含むダークマジックModです。",
+
+
 	"atm9.quest.eidolonRepraised.desc.intro.2": "이 책은 아카식 톰에 있을 수 있지만, 이 책을 만드는 데는 특별한 목적이 있습니다.",
 	"atm9.quest.eidolonRepraised.desc.intro.3": "이 책을 마녀(네, 그 적대적인 것)에게 던져야 합니다. 그녀는 나중에 필요한 표시를 추가할 것입니다.",
 	"atm9.quest.eidolonRepraised.desc.intro.4": "그리고 그 책을 성직자 주민에게 던집니다. 이를 하는 가장 좋은 방법은 양조대를 찾거나 만들고, 옆에 침대를 놓고 주민이 직업을 바꾸기를 기다리는 것입니다.",
@@ -1899,6 +1908,8 @@
 	"atm9.quest.eidolonRepraised.subt.gatewayApotheosis": "이것을 아포테오시스로 가는 관문이라고 생각하세요",
 	"atm9.quest.eidolonRepraised.desc.holySymbol": "성스러운 심볼을 3번 사용하여 보고 있는 것에 불을 붙이세요.",
 	"atm9.quest.eidolonRepraised.subt.forgotFlintSteel": "동굴에서 부싯돌과 철을 잊어버렸나요?",
+
+
 	"atm9.quest.evilcraft.desc.modIntro.1": "&c이블크래프트&r는 다소 사악한 것에 기반한 마법 모드입니다. 적의 피를 모으고 고대의 사악한 힘을 이용해봅시다!",
 	"atm9.quest.evilcraft.desc.modIntro.2": "이 모드의 모든 것은 가이드북 '&a어둠의 기원&r'에 기재되어 있습니다.",
 	"atm9.quest.evilcraft.desc.modIntro.3": "시작하려면 &9다크 젬&r을 찾으세요.",
@@ -2021,6 +2032,8 @@
 	"atm9.quest.evilcraft.desc.broomCrafting.3": "빗자루를 제작하려면 각 부품을 제작 테이블에 놓기만 하면 됩니다. 빗자루가 제대로 작동하려면 피가 필요합니다.",
 	"atm9.quest.evilcraft.subt.broomBroom": "빗자루 빗자루",
 	"atm9.quest.evilcraft.bloodBrooms": "&c피&r &d빗자루&r",
+
+
 	"atm9.quest.forbiddenAndArcanus.desc.newArmor.1": "포비든 \\&\\ 아르카누스는 더 나은 갑옷이나 인챈트, 기타 등등을 얻는 새로운 방법을 추가합니다!",
 	"atm9.quest.forbiddenAndArcanus.desc.newArmor.2": "이 마법 테마 모드에는 멋진 애니메이션이 있고 &6이터널 스텔라&r와 같은 과도한 아이템도 있습니다.",
 	"atm9.quest.forbiddenAndArcanus.welcome": "&5포비든 \\&\\ 아르카누스에 오신 것을 환영합니다!",
@@ -2135,6 +2148,8 @@
 	"atm9.quest.forbiddenAndArcanus.desc.upgradingForgeFeatures.1": "&d헤파이스토스 대장간&r은 스포너 조각, 아케인 크리스탈 등을 사용하여 더 높은 티어로 업그레이드할 수 있습니다!",
 	"atm9.quest.forbiddenAndArcanus.desc.upgradingForgeFeatures.2": "더 높은 티어의 아이템, 예를 들어 &a이터널 스텔라&r를 만들려면 더 높은 티어가 필요합니다. 자세한 내용은 JEI를 확인하세요!",
 	"atm9.quest.forbiddenAndArcanus.upgradingTheForge": "&d대장간 업그레이드하기&r",
+
+
 	"atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.1": "마이셀리얼 리액터는 리액터 블록 근처에서 동시에 작동하는 모든 마이셀리얼 발전기로 구성되어 있습니다.",
 	"atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.2": "25MFE/t를 생성합니다.",
 	"atm9.quest.industrialForegoing.crimedMycelialGenerator": "크라임드 마이셀리얼 발전기",
@@ -2199,6 +2214,8 @@
 	"atm9.quest.industrialForegoing.desc.latexIntro.5": "&b기본적으로 라텍스 -> 건조 고무 -> 플라스틱입니다.&r",
 	"atm9.quest.industrialForegoing.latexQuestion": "라텍스? 그렇죠?",
 	"atm9.quest.industrialForegoing.latexAndPlasticQuestion": "라텍스와 플라스틱? 그렇죠?",
+
+
 	"atm9.quest.mekanism.desc.metallurgicInfuser.1": "야금 주입기는 메카니즘 전체에서 핵심 제작 구성 요소를 만드는 데 사용됩니다.",
 	"atm9.quest.mekanism.desc.metallurgicInfuser.2": "이 기계는 재료(중앙 왼쪽 슬롯)를 '주입제'(왼쪽 끝 슬롯)로 주입하여 작동합니다.",
 	"atm9.quest.mekanism.desc.metallurgicInfuser.3": "이는 강철 주괴를 얻는 방법이기도 합니다.",
@@ -2370,6 +2387,8 @@
 	"atm9.quest.mekanism.desc.antimatterPellets.2": "이들은 몇몇 &5엔드게임&r 아이템을 만듭니다. 리액터와 기타 세부 사항은 &a메카니즘&r: &d리액터&r 퀘스트 라인을 확인하세요!",
 	"atm9.quest.mekanism.thePathToReactors": "리액터로 가는 길",
 	"atm9.quest.mekanism.advancedMekanism": "&d고급 메카니즘&r",
+
+
 	"atm9.quest.occultism.shubNiggurathFamiliar": "&5슈브 니구라스&r 패밀리어",
 	"atm9.quest.occultism.drikwingFamiliar": "&2드릭윙&r 패밀리어",
 	"atm9.quest.occultism.berserker": "&d비홀더&r 패밀리어",
@@ -2492,6 +2511,8 @@
 	"atm9.quest.occultism.desc.demonsAndFamiliars.3": "특별한 버프를 주거나 당신을 위해 싸우는 멋진 친구로 알려진 &d패밀리어&r를 소환하는 방법도 있습니다! 가이드북의 &d패밀리어 의식&r을 확인해보세요!",
 	"atm9.quest.occultism.familiars.1": "패밀리어",
 	"atm9.quest.occultism.familiars.2": "&d패밀리어&r",
+
+
 	"atm9.quest.powah.desc.intro.1": "&9Powah&r는 기본적인 FE 생성부터 &b250k FE/t&r를 생산하는 &a리액터&r까지, &d파워&r의 생성, 저장, 전송에 관한 테크 모드입니다. Powah가 당신을 책임집니다!",
 	"atm9.quest.powah.desc.intro.2": "시작하려면 &a우라니나이트&r를 채굴하세요!",
 	"atm9.quest.powah.welcome": "&aPowah에 오신 것을 환영합니다&r!!!",
@@ -2541,6 +2562,8 @@
 	"atm9.quest.powah.spiritedReactor": "리액터 (스피리티드)",
 	"atm9.quest.powah.nitroReactor": "리액터 (니트로)",
 	"atm9.quest.powah.desc.energizingOrb": "에너자이징 오브를 사용하여 아이템을 에너자이즈하는 데 사용됩니다.",
+
+
 	"atm9.quest.productiveBees.desc.welcome.1": "프로덕티브 비즈에 오신 것을 환영합니다!",
 	"atm9.quest.productiveBees.desc.welcome.2": "이 모드를 시작하려면 먼저 벌집과 꿀병을 찾아야 합니다! 벌집을 찾아 벌들이 일을 할 시간을 조금 주세요. 가득 찼을 때 전단기로 자르면 벌집을, 유리병을 사용하면 꿀병을 얻을 수 있습니다!",
 	"atm9.quest.productiveBees.desc.welcome.3": "중요한 참고사항: 벌집이 필요한 벌 퀘스트에서는 레시피가 표시되지 않습니다. 필요한 경우 JEI에서 확인하세요!",
@@ -2908,6 +2931,8 @@
 	"atm9.quest.productiveBees.subt.showingOffBees": "벌 자랑하기",
 	"atm9.quest.productiveBees.desc.luresGoldBee": "꿀 간식 대신 이 벌집은 벌을 유인하기 위해 금 주괴가 필요합니다.",
 	"atm9.quest.productiveBees.subt.luresGoldBee": "네더에 설치하면 금 벌을 유인합니다",
+
+
 	"atm9.quest.thermalExpansion.desc.modIntro": "써멀 시리즈는 마인크래프트 경험에 마법과 기술의 풍부한 혼합을 추가하는 모듈식 시리즈의 모드입니다!",
 	"atm9.quest.thermalExpansion.welcome": "&9써멀 시리즈&r에 오신 것을 환영합니다!",
 	"atm9.quest.thermalExpansion.desc.redstoneFurnaceFeatures.1": "레드스톤 화로는 석탄 대신 RF/FE를 사용하여 아이템을 제련합니다.",
@@ -2994,6 +3019,8 @@
 	"atm9.quest.thermalExpansion.subt.earlyGameMiningGadget": "초기 게임 채굴 가젯",
 	"atm9.quest.thermalExpansion.subt.rfPoweredHandsaw": "RF 구동 수동 톱!",
 	"atm9.quest.thermalExpansion.subt.tier4BaseUpgrade": "티어 4 기본 업그레이드",
+
+
 	"atm9.quest.twilightForest.desc.welcome.1": "&9황혼의 숲&r에 오신 것을 환영합니다!",
 	"atm9.quest.twilightForest.desc.welcome.2": "황혼의 숲으로 가는 포털을 만들려면 2x2 구멍을 파서 물로 채우고, 그 주변을 꽃으로 둘러싼 후 다이아몬드를 던져 넣으세요.",
 	"atm9.quest.twilightForest.desc.welcome.3": "잘 되면 토르가 사인을 보낼 거예요.",
@@ -3141,7 +3168,7 @@
 	"atm9.quest.twilightForest.desc.thornlandBiome.1": "신더의 램프를 사용하면 가시 땅 바이옴의 가시를 부술 수 있게 됩니다.",
 	"atm9.quest.twilightForest.desc.thornlandBiome.2": "최종 고원으로 진행하기 위해 가시 장미를 몇 개 모읍시다.",
 	"atm9.quest.twilightForest.everyThornHasItsRose": "&6모든 가시에는 장미가 있다&r",
-	
+
 
 	"atm9.quest.rs.refined": "&d리파인드 스토리지",
 	"atm9.quest.rs.security": "보안 관리자",
@@ -5903,10 +5930,9 @@
 	"atm9.quest.cataclysm.subt.igntium": "네더라이트보다 더 좋아?!?!",
 	"atm9.quest.cataclysm.subt.gatling": "폴아웃에서 직송",
 	"atm9.quest.cataclysm.subt.meat": "폴아웃 3 DLC 더 피트에서 직송",
-	
+
+
 	"item.kubejs.micro_universe_catalyst.tooltip": "천 개의 태양의 불로 단련된 놀라운 것",
 	"kubejs.apiary_ii.tooltip.bee_requirements": "매우 높은, 어떤, 메타터널 꿀벌이 필요합니다",
 	"kubejs.apiary_i.tooltip.bee_eater": "가끔 꿀벌을 먹어버립니다"
-	
-
 }

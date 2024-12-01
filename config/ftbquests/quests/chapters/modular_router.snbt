@@ -915,7 +915,7 @@
 		}
 		{
 			dependencies: ["233C7CAA573D6045"]
-			description: ["{atm9.quest.modular_router.desc.troll_module.1}"]
+			description: ["{atm9.quest.modular_router.desc.creative_module}"]
 			icon: "modularrouters:creative_module"
 			id: "71FDF8CD953E46FC"
 			rewards: [{
@@ -926,6 +926,7 @@
 			}]
 			tasks: [{
 				id: "41EEE559F6402D81"
+				title: "{atm9.quest.modular_router.title.creative_module}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -1110,8 +1111,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

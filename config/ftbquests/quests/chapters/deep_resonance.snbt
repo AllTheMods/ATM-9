@@ -117,7 +117,7 @@
 			y: 4.5d
 		}
 	]
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -664,7 +664,7 @@
 		{
 			dependencies: ["3EBF774CDF9E3CA6"]
 			description: ["{atm9.quest.deep.desc.radiation}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "23E396C25029E266"
 			rewards: [{
 				id: "4A42535213641530"
@@ -733,8 +733,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

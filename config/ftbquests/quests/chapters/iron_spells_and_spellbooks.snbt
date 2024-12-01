@@ -132,11 +132,12 @@
 			y: -4.5d
 		}
 	]
-	order_index: 3
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["{atm9.quest.ironSpellbooks.desc.intro.1}"]
+			hide_dependent_lines: true
 			id: "615C3E012B2DECD3"
 			rewards: [{
 				count: 3
@@ -155,6 +156,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["615C3E012B2DECD3"]
 			description: ["{atm9.quest.ironSpellbooks.desc.netheritespellbook.1}"]
 			id: "7408CCF998D9CD37"
 			rewards: [{
@@ -334,6 +336,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["615C3E012B2DECD3"]
 			description: ["{atm9.quest.ironSpellbooks.desc.goldspellbook.1}"]
 			id: "66762A4743104157"
 			rewards: [{
@@ -363,6 +366,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["615C3E012B2DECD3"]
 			description: ["{atm9.quest.ironSpellbooks.desc.diamondspellbook.1}"]
 			id: "4407BD7B5F033765"
 			rewards: [{
@@ -392,7 +396,9 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["615C3E012B2DECD3"]
 			description: ["{atm9.quest.ironSpellbooks.desc.rottenspellbook.1}"]
+			hide_dependent_lines: true
 			id: "1CAEC4C273EDDB99"
 			rewards: [{
 				id: "7BA21F76F1D1563F"
@@ -421,6 +427,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["615C3E012B2DECD3"]
 			description: ["{atm9.quest.ironSpellbooks.desc.evokerspellbook.1}"]
 			id: "4E3355FDCB65BB63"
 			rewards: [{
@@ -469,6 +476,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["615C3E012B2DECD3"]
 			description: ["{atm9.quest.ironSpellbooks.desc.necronomiconspellbook.1}"]
 			id: "48C68664319B0294"
 			rewards: [{
@@ -523,6 +531,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["615C3E012B2DECD3"]
 			description: ["{atm9.quest.ironSpellbooks.desc.blazespellbook.1}"]
 			id: "1A0368CB49B8CBFF"
 			rewards: [{
@@ -552,6 +561,7 @@
 			y: -9.0d
 		}
 		{
+			dependencies: ["615C3E012B2DECD3"]
 			description: ["{atm9.quest.ironSpellbooks.desc.villagerspellbook.1}"]
 			id: "73D6B980D35082A0"
 			rewards: [{
@@ -611,6 +621,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["615C3E012B2DECD3"]
 			description: ["{atm9.quest.ironSpellbooks.desc.dragonskinspellbook.1}"]
 			id: "652A14E17DDE97E6"
 			rewards: [{
@@ -2274,8 +2285,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

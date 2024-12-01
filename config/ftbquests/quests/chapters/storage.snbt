@@ -94,15 +94,15 @@
 					type: "item"
 				}
 				{
-					id: "632C34D1F4CE965A"
-					type: "xp"
-					xp: 5
-				}
-				{
 					exclude_from_claim_all: true
 					id: "330E21D23165B829"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "3E7FBDA7A51C52A1"
+					type: "xp"
+					xp: 50
 				}
 			]
 			subtitle: "{atm9.quest.storage.subt.iron}"
@@ -136,9 +136,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.storage.iron}"
 				type: "item"
 			}]
-			title: "{atm9.quest.storage.iron}"
 			x: 7.5d
 			y: 0.5d
 		}
@@ -152,15 +152,15 @@
 					type: "item"
 				}
 				{
-					id: "2B0E611FC8E7C52F"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "6B0B6F06B83B6A93"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "38840553474C9DBA"
+					type: "xp"
+					xp: 100
 				}
 			]
 			subtitle: "{atm9.quest.storage.subt.gold}"
@@ -194,9 +194,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.storage.gold}"
 				type: "item"
 			}]
-			title: "{atm9.quest.storage.gold}"
 			x: 9.5d
 			y: 0.5d
 		}
@@ -210,15 +210,15 @@
 					type: "item"
 				}
 				{
-					id: "09194C282964BF5A"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "0415C90C635B77D4"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "4C75481A20B97453"
+					type: "xp"
+					xp: 100
 				}
 			]
 			subtitle: "{atm9.quest.storage.subt.diamond}"
@@ -252,9 +252,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.storage.diamond}"
 				type: "item"
 			}]
-			title: "{atm9.quest.storage.diamond}"
 			x: 11.5d
 			y: 0.5d
 		}
@@ -269,15 +269,15 @@
 					type: "item"
 				}
 				{
-					id: "3E846FD78C055A89"
-					type: "xp"
-					xp: 20
-				}
-				{
 					exclude_from_claim_all: true
 					id: "33035D9E5D284A72"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "300A579BC953ABF2"
+					type: "xp"
+					xp: 100
 				}
 			]
 			subtitle: "{atm9.quest.storage.subt.netherite}"
@@ -311,9 +311,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.storage.netherite}"
 				type: "item"
 			}]
-			title: "{atm9.quest.storage.netherite}"
 			x: 13.5d
 			y: 0.5d
 		}
@@ -323,19 +323,14 @@
 			id: "5E4BC0F59C90433A"
 			rewards: [
 				{
-					id: "67C504323225DDD8"
-					item: "minecraft:chest"
-					type: "item"
-				}
-				{
-					id: "5926ED11CED5896C"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "2BD2C0D43AE4AB58"
 					item: "sophisticatedstorage:basic_tier_upgrade"
 					type: "item"
+				}
+				{
+					id: "3DCEE5F8503C9C50"
+					type: "xp"
+					xp: 25
 				}
 			]
 			subtitle: "{atm9.quest.storage.subt.chest}"
@@ -369,9 +364,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.storage.chest}"
 				type: "item"
 			}]
-			title: "{atm9.quest.storage.chest}"
 			x: 5.5d
 			y: 0.5d
 		}
@@ -450,15 +445,15 @@
 					type: "item"
 				}
 				{
-					id: "577872850DA154AA"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "64F4676E4C59322D"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "7265B47272F72DA0"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "gear"
@@ -504,15 +499,15 @@
 					type: "item"
 				}
 				{
-					id: "28FA25B2F1E211A3"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "0116B19B3CFFB4DD"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "1C34CA939F8CC4EF"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [
@@ -608,21 +603,21 @@
 			id: "3D5852E6D0ADF651"
 			rewards: [
 				{
-					count: 4
+					count: 3
 					id: "685834F0A29F6B78"
 					item: "minecraft:ender_pearl"
 					type: "item"
-				}
-				{
-					id: "36EA7EC9235E0AEA"
-					type: "xp"
-					xp: 10
 				}
 				{
 					exclude_from_claim_all: true
 					id: "7BD9855705A23AEE"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "529CB0988073565D"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [
@@ -679,19 +674,18 @@
 			icon: "functionalstorage:storage_controller"
 			id: "0682DC1F2417DAEB"
 			rewards: [{
-				id: "6E8586BE04F26897"
+				id: "6FCCFD509D344B74"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			shape: "square"
 			size: 1.5d
 			subtitle: "{atm9.quest.storage.subt.functional}"
 			tasks: [{
 				id: "4B299AC7F0233132"
-				title: "Storage Drawers"
+				title: "{atm9.quest.storage.functional}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.storage.functional}"
 			x: -7.75d
 			y: 0.5d
 		}
@@ -714,7 +708,7 @@
 			rewards: [{
 				id: "58CC2C987D56D7F8"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			shape: "square"
 			size: 1.5d
@@ -734,7 +728,7 @@
 			rewards: [{
 				id: "1B303584800CE582"
 				type: "xp"
-				xp: 5
+				xp: 50
 			}]
 			shape: "square"
 			size: 1.5d
@@ -759,15 +753,15 @@
 					type: "item"
 				}
 				{
-					id: "228B88E9317CB137"
-					type: "xp"
-					xp: 5
-				}
-				{
 					exclude_from_claim_all: true
 					id: "5525286901EED45A"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "147685E0FEB7FC6C"
+					type: "xp"
+					xp: 50
 				}
 			]
 			subtitle: "{atm9.quest.storage.subt.ironBP}"
@@ -786,15 +780,15 @@
 			id: "1FE052F643401232"
 			rewards: [
 				{
-					count: 2
-					id: "5B9CB28C6BC4759D"
+					count: 3
+					id: "4CCE40C0BEAAC9B4"
 					item: "sophisticatedbackpacks:upgrade_base"
 					type: "item"
 				}
 				{
-					id: "4B2F25D7E70DD87F"
+					id: "29D2DEE3B1F4CCD1"
 					type: "xp"
-					xp: 5
+					xp: 10
 				}
 			]
 			subtitle: "{atm9.quest.storage.subt.upgrade_base}"
@@ -803,20 +797,20 @@
 				item: "sophisticatedbackpacks:upgrade_base"
 				type: "item"
 			}]
-			title: "{atm9.quest.storage.upgrade_base}"
+			title: "{atm9.quest.storage.upgrade}"
 			x: 5.25d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "0E0CAA31480EC0A1"
 			optional: true
 			rewards: [{
-				id: "7ADBF209091E5821"
+				id: "35476CAA715FAC01"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			shape: "circle"
 			subtitle: "{atm9.quest.storage.subt.pickup}"
@@ -831,13 +825,13 @@
 		}
 		{
 			dependencies: ["0E0CAA31480EC0A1"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1985CFD1F0425E88"
 			optional: true
 			rewards: [{
-				id: "648AD42B15591F72"
+				id: "446399F56FA6E4CC"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.Apickup}"
 			tasks: [{
@@ -851,14 +845,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "156FF8B7B724DC38"
 			optional: true
 			rewards: [{
-				id: "39BE377911DC6C3A"
+				id: "35A78C09A9FFDCF5"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.filter}"
 			tasks: [{
@@ -872,13 +866,13 @@
 		}
 		{
 			dependencies: ["156FF8B7B724DC38"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "57CF8C6C867B9BDA"
 			optional: true
 			rewards: [{
-				id: "3522A1F2B552FF21"
+				id: "151F7412917DD326"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "6530A152D9337A4C"
@@ -891,14 +885,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "110D27EA86CDA62B"
 			optional: true
 			rewards: [{
-				id: "3DAE7B9BA91F8520"
+				id: "76B257464525B414"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.magnet}"
 			tasks: [{
@@ -912,13 +906,13 @@
 		}
 		{
 			dependencies: ["110D27EA86CDA62B"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "11D57C768032E3F7"
 			optional: true
 			rewards: [{
-				id: "2B3FB31DDDCD1F45"
+				id: "13C336BAD2471C85"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "14A8CEB60805E90A"
@@ -931,14 +925,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "5FA9BC0D8476D322"
 			optional: true
 			rewards: [{
-				id: "3AAACB23C7CE64C0"
+				id: "199932BE4DEA0AEC"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.feeding}"
 			tasks: [{
@@ -952,13 +946,13 @@
 		}
 		{
 			dependencies: ["5FA9BC0D8476D322"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1A739D36D5E3B1AD"
 			optional: true
 			rewards: [{
-				id: "0B71DCC81A95305B"
+				id: "7312D9A901607F82"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "41C87FC409006F13"
@@ -971,14 +965,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "1CD2C6AFD788C35E"
 			optional: true
 			rewards: [{
-				id: "4B5E3828A7FEE102"
+				id: "12AF43D022829A8D"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.bpcompacting}"
 			tasks: [{
@@ -992,13 +986,13 @@
 		}
 		{
 			dependencies: ["1CD2C6AFD788C35E"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5E4FE420B6D2C97F"
 			optional: true
 			rewards: [{
-				id: "18BDC6FD268F1347"
+				id: "7CF6ACAD5031C606"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.Acompacting}"
 			tasks: [{
@@ -1012,14 +1006,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7EFBFF5D0DA018E7"
 			optional: true
 			rewards: [{
-				id: "6A1B0E04AAE2BFF2"
+				id: "302B2DF41B94D92D"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.void}"
 			tasks: [{
@@ -1033,13 +1027,13 @@
 		}
 		{
 			dependencies: ["7EFBFF5D0DA018E7"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2FC15D3916DBF4E4"
 			optional: true
 			rewards: [{
-				id: "5989427C93E9266D"
+				id: "7A1D29EBB4A3D657"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "3A29FF1C2AD59B06"
@@ -1053,14 +1047,14 @@
 		{
 			dependencies: ["1FE052F643401232"]
 			description: ["Adds a filter that allows you to tell the backpack which items it should keep stocked. Shift-Right Clicking an inventory will refill it."]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "4B62AF0405F68041"
 			optional: true
 			rewards: [{
-				id: "4C3EB57AC444EC11"
+				id: "53239E845A487416"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.restock}"
 			tasks: [{
@@ -1074,13 +1068,13 @@
 		}
 		{
 			dependencies: ["4B62AF0405F68041"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "019CA0E35F888222"
 			optional: true
 			rewards: [{
-				id: "4F4574E228792C80"
+				id: "7FD2D3AA7A09EDDE"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "45492321B5D5A2D6"
@@ -1094,14 +1088,14 @@
 		{
 			dependencies: ["1FE052F643401232"]
 			description: ["Shift-Right Click an inventory to empty."]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "00DB5495C3A44999"
 			optional: true
 			rewards: [{
-				id: "573C3AE6F966E820"
+				id: "5046009389D93ACB"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.deposit}"
 			tasks: [{
@@ -1115,13 +1109,13 @@
 		}
 		{
 			dependencies: ["00DB5495C3A44999"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4C0EAB9F795686D0"
 			optional: true
 			rewards: [{
-				id: "27CA65D1E2EEDA8A"
+				id: "066DD7372B41DD25"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "3D7F2E1489EB84AA"
@@ -1134,14 +1128,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "33882172DA8021F6"
 			optional: true
 			rewards: [{
-				id: "773BA104B1822DAF"
+				id: "1A9808824A12EA98"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.refill}"
 			tasks: [{
@@ -1160,14 +1154,14 @@
 				""
 				"So you can have your backpack in your backpack when you need your backpack in your backpack."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7C07D6A33F7ADB02"
 			optional: true
 			rewards: [{
-				id: "251C508792472ABB"
+				id: "43381E4B3FC97DC1"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.inception}"
 			tasks: [{
@@ -1181,14 +1175,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "037415D5B965E214"
 			optional: true
 			rewards: [{
-				id: "16FFA5DD686C0084"
+				id: "2CD4B4967BE67055"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.everlasting}"
 			tasks: [{
@@ -1202,14 +1196,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "668C313FF46B6005"
 			optional: true
 			rewards: [{
-				id: "621E7721DC1187BF"
+				id: "497E02ECE5E9F003"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.smelting}"
 			tasks: [{
@@ -1223,13 +1217,13 @@
 		}
 		{
 			dependencies: ["668C313FF46B6005"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3A1D07AED2A841E4"
 			optional: true
 			rewards: [{
-				id: "278BE67D7B2DA41A"
+				id: "423AC602C60F8689"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.Asmelting}"
 			tasks: [{
@@ -1243,14 +1237,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "26A9F402DAE15EA2"
 			optional: true
 			rewards: [{
-				id: "0F7536B588E4582A"
+				id: "0EA462D402635784"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.smoking}"
 			tasks: [{
@@ -1264,13 +1258,13 @@
 		}
 		{
 			dependencies: ["26A9F402DAE15EA2"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "36BCE35215B2B6E9"
 			optional: true
 			rewards: [{
-				id: "3DA8FC30D52E42AE"
+				id: "7D48AF3D744ADCC1"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "4D0ACCBF77CC0846"
@@ -1283,14 +1277,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "1E499F94A2A193E1"
 			optional: true
 			rewards: [{
-				id: "003DF784F0E1EDE6"
+				id: "5425876A5BFE2A1D"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.blasting}"
 			tasks: [{
@@ -1304,13 +1298,13 @@
 		}
 		{
 			dependencies: ["1E499F94A2A193E1"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "26988E22BD019628"
 			optional: true
 			rewards: [{
-				id: "568084E6EBB1ABD0"
+				id: "1BA702A2526596F5"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "62BCE2BB281304DC"
@@ -1323,14 +1317,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "4A854CD5EC70733E"
 			optional: true
 			rewards: [{
-				id: "76DEF2900448AD2B"
+				id: "5B2FF2A6458AB382"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.crafting}"
 			tasks: [{
@@ -1344,14 +1338,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "52672B7FFFD51D16"
 			optional: true
 			rewards: [{
-				id: "641D01DBE66A27DF"
+				id: "2D55FE84F9503C7A"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.stonecutting}"
 			tasks: [{
@@ -1365,21 +1359,21 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7E9E03274A88347D"
 			optional: true
 			rewards: [
 				{
-					id: "442C444707D2AD35"
-					type: "xp"
-					xp: 5
-				}
-				{
 					exclude_from_claim_all: true
-					id: "7153DF647EE23793"
+					id: "1981BAFF99F9A8DF"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "7B971CE531329394"
+					type: "xp"
+					xp: 100
 				}
 			]
 			subtitle: "{atm9.quest.storage.subt.stack1}"
@@ -1394,20 +1388,20 @@
 		}
 		{
 			dependencies: ["7E9E03274A88347D"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "785951190FFDAA21"
 			optional: true
 			rewards: [
 				{
-					id: "246B4B8ABB20D8A7"
-					type: "xp"
-					xp: 5
-				}
-				{
 					exclude_from_claim_all: true
-					id: "667C0645CB59356D"
+					id: "75C96C6BA5C9C432"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "34D7F634820E8DD7"
+					type: "xp"
+					xp: 200
 				}
 			]
 			tasks: [{
@@ -1421,20 +1415,20 @@
 		}
 		{
 			dependencies: ["785951190FFDAA21"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "0298A17C2AAC5765"
 			optional: true
 			rewards: [
 				{
-					id: "5C6FA0134C10A5D6"
-					type: "xp"
-					xp: 5
-				}
-				{
 					exclude_from_claim_all: true
-					id: "248041164657FF8C"
+					id: "228A99C1F43EC558"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "327C239985DAE056"
+					type: "xp"
+					xp: 300
 				}
 			]
 			tasks: [{
@@ -1448,20 +1442,20 @@
 		}
 		{
 			dependencies: ["0298A17C2AAC5765"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7AE3C8134F5ED726"
 			optional: true
 			rewards: [
 				{
-					id: "2E76A37774F0CEC5"
-					type: "xp"
-					xp: 5
-				}
-				{
 					exclude_from_claim_all: true
-					id: "2BF97F31AE8AE8FB"
+					id: "46D0C771D935F1C4"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "4337033D7C1F4281"
+					type: "xp"
+					xp: 400
 				}
 			]
 			tasks: [{
@@ -1475,14 +1469,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "53F861876B991C36"
 			optional: true
 			rewards: [{
-				id: "3285596442FF6447"
+				id: "5AE18E3BB17B47F1"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.jukebox}"
 			tasks: [{
@@ -1496,14 +1490,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "615B9062FE8CCD36"
 			optional: true
 			rewards: [{
-				id: "54802B4F6EE4412E"
+				id: "0D97052141459929"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.tool}"
 			tasks: [{
@@ -1517,13 +1511,13 @@
 		}
 		{
 			dependencies: ["615B9062FE8CCD36"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "15CD4BFDC56E9510"
 			optional: true
 			rewards: [{
-				id: "3198E65D369D203C"
+				id: "616303A9E3B78413"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "700D630FE0FB8B9D"
@@ -1536,14 +1530,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "0D4C64DD58567758"
 			optional: true
 			rewards: [{
-				id: "198BF862B3BF5ABA"
+				id: "5F43A9D422BE05D5"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.tank}"
 			tasks: [{
@@ -1557,14 +1551,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "4C2A60FC1F1E0328"
 			optional: true
 			rewards: [{
-				id: "18E06C1A7BC76A3F"
+				id: "429562B29A5D8A36"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.battery}"
 			tasks: [{
@@ -1578,14 +1572,14 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "6E9041744C592573"
 			optional: true
 			rewards: [{
-				id: "2E57D243960C9A86"
+				id: "193F228DF534F792"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.PU}"
 			tasks: [{
@@ -1599,13 +1593,13 @@
 		}
 		{
 			dependencies: ["6E9041744C592573"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "56B80A7EBFE21428"
 			optional: true
 			rewards: [{
-				id: "23887038DAC8A6EB"
+				id: "7206EF38C9AA764B"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "5B7A8E1F725C2815"
@@ -1618,13 +1612,13 @@
 		}
 		{
 			dependencies: ["56B80A7EBFE21428"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6E3D53D1C4569A89"
 			optional: true
 			rewards: [{
-				id: "67BA8A35E56EB3F0"
+				id: "69E16F6B3D781159"
 				type: "xp"
-				xp: 5
+				xp: 50
 			}]
 			tasks: [{
 				id: "3B52B2670A826CE4"
@@ -1640,11 +1634,6 @@
 			id: "2F9B0C642A6BE30C"
 			rewards: [
 				{
-					id: "588A8E368C4561A4"
-					type: "xp"
-					xp: 5
-				}
-				{
 					count: 2
 					id: "3895B4A009120165"
 					item: "minecraft:gold_ingot"
@@ -1656,6 +1645,11 @@
 					id: "158BE322A99DAC18"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "7E4E5811F4697D04"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1672,11 +1666,6 @@
 			id: "45268A619787288F"
 			rewards: [
 				{
-					id: "1CD2A81868C15FC6"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 2
 					id: "2E794D147447A3E2"
 					item: "minecraft:diamond"
@@ -1688,6 +1677,11 @@
 					id: "1821E984D977524B"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "46BF9C7865DEF10C"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1705,19 +1699,9 @@
 			optional: true
 			rewards: [
 				{
-					id: "06D60CD6970140F7"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
 					id: "0E9C01BFE4BB86F2"
 					item: "sophisticatedbackpacks:upgrade_base"
-					type: "item"
-				}
-				{
-					id: "7214DB9CCE3BF452"
-					item: "minecraft:ancient_debris"
 					type: "item"
 				}
 				{
@@ -1725,6 +1709,11 @@
 					id: "040F46810BB6C345"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "0692F9FA656DF9AD"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1742,14 +1731,14 @@
 			id: "072FBEB0F6F1BC48"
 			rewards: [
 				{
-					id: "7524181E415A05BB"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "3625DED76F225AAE"
 					item: "functionalstorage:oak_1"
 					type: "item"
+				}
+				{
+					id: "1C9DA834CECB25E9"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "circle"
@@ -1906,7 +1895,7 @@
 			id: "4007DFA7CC3A5FF2"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "573A85406505C80F"
 					item: "sophisticatedstorage:upgrade_base"
 					type: "item"
@@ -1980,15 +1969,15 @@
 					type: "item"
 				}
 				{
-					id: "495C45D51AEDF931"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4F1C07541B66F171"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "36EA1ABB667B1E62"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -2039,14 +2028,14 @@
 			id: "4E4C8BCD45766F03"
 			rewards: [
 				{
-					id: "0284C92BA6460DCC"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "40CC70872A021F01"
 					item: "functionalstorage:copper_upgrade"
 					type: "item"
+				}
+				{
+					id: "4BF4F6407A0CD34F"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "diamond"
@@ -2384,6 +2373,11 @@
 			dependencies: ["563CFA1EF74E52E9"]
 			description: ["{atm9.quest.storage.desc.s_controller}"]
 			id: "1FE17B1C7C639F88"
+			rewards: [{
+				id: "7C8696F19318FAC1"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -2402,6 +2396,11 @@
 			]
 			description: ["{atm9.quest.storage.desc.storage_link}"]
 			id: "0108F3EFDFD6DFD0"
+			rewards: [{
+				id: "657FD0DD66F55304"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "031CC9264895DCFC"
 				item: "sophisticatedstorage:storage_link"
@@ -2415,6 +2414,11 @@
 			dependencies: ["1FE17B1C7C639F88"]
 			description: ["{atm9.quest.storage.desc.storage_tool}"]
 			id: "78E51D22C16C4686"
+			rewards: [{
+				id: "67845FB550277753"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3D7AA8FBC90E1087"
 				item: "sophisticatedstorage:storage_tool"
@@ -2540,8 +2544,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

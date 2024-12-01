@@ -1,5 +1,6 @@
 {
     "atm9.modpack.title": "All The Mods 9",
+
     "atm9.chapters.1.title": "Bem-vindo",
     "atm9.chapters.2.title": "Todo o modio",
     "atm9.chapters.3.title": "Quadro de recompensas",
@@ -82,6 +83,7 @@
 	"atm9.quest.welcome.desc.translations":"Our Quests have been translated by the following volunteer translators.",
 
     "atm9.quest.welcome.img.discord": "Junte-se ao Discord!",
+
 
     "atm9.quest.allthemodium.intro": "Introdução ao Allthemodium!",
     "atm9.quest.allthemodium.atm_ore": "Minério de Allthemodium",
@@ -629,6 +631,7 @@
     "atm9.quest.tools.subt.damage29": "&f29&r &4Dano&r",
     "atm9.quest.tools.subt.damage47": "&f47&r &4Dano&r",
 
+
     "atm9.quest.mahou.start": "Mahou Tsukai",
     "atm9.quest.mahou.mana": "Como fazer crescer seu Mahou",
     "atm9.quest.mahou.mortar": "Almofariz e pilão",
@@ -679,6 +682,8 @@
     "atm9.quest.mahou.desc.damage": "Um pergaminho que você precisará aplicar para obter a réplica é o pergaminho de troca de danos. Para obtê-lo faça o Ritual de Troca de Dano com 1 Ferro em Pó e 2 Esmeraldas em Pó.",
     "atm9.quest.mahou.desc.immunity": "O segundo pergaminho que você precisa ativar para obter a réplica é o pergaminho da troca de imunidade. Para obtê-lo você precisará do Ritual de Troca de Imunidade que precisa de 1 Olho em Pó e 2 Esmeraldas em Pó.",
     "atm9.quest.mahou.desc.replica": "Agora isso é complicado. Para obter a réplica, primeiro tenha 100 almas, troca de danos e troca de imunidade prontas. Então, segure seu escudo fortalecido para bloquear um ataque, então você terá Replica.",
+
+
     "atm9.quest.SG.SG": "Armas, ferramentas e armaduras de equipamento silencioso",
     "atm9.quest.SG.template": "Quadros de modelos",
     "atm9.quest.SG.SGTool": "Sua primeira ferramenta!",
@@ -777,6 +782,8 @@
     "atm9.quest.SG.subt.material_grader": "O testador de materiais",
     "atm9.quest.SG.subt.alloyer": "Combina Materiais",
     "atm9.quest.SG.subt.starlight_charger": "Materiais ‘encantadores’",
+
+
     "atm9.quest.storage.basic": "Armazenamento Básico",
     "atm9.quest.storage.trash": "Latas de lixo",
     "atm9.quest.storage.dim": "Armazenamento Dimensional",
@@ -908,6 +915,8 @@
     "atm9.quest.storage.subt.void": "Adiciona um filtro para itens que você deseja excluir automaticamente da mochila.",
     "atm9.quest.storage.subt.restock": "Estocado.",
     "atm9.quest.storage.subt.Asmelting": "Fundir itens automaticamente na mochila.",
+
+
     "atm9.quest.ae2.AE2": "Energística Aplicada 2",
     "atm9.quest.ae2.wrench": "Chave de quartzo",
     "atm9.quest.ae2.first": "Primeiras coisas primeiro",
@@ -977,6 +986,7 @@
     "atm9.quest.ae2.matter": "Matéria Condensada",
     "atm9.quest.ae2.antimatter": "Matéria Hiper-Condensada",
     "atm9.quest.ae2.quantum": "Ponte de Rede Quântica",
+
     "atm9.quest.ae2.desc.AE2": "&lBem-vindo ao &bEnergística Aplicada 2&f! \\n \\n Applied Energistics 2 (ou &oAE2&r para abreviar) é um mod de armazenamento digital incrivelmente versátil, permitindo armazenamento extremamente eficiente e todos os tipos de recursos de automação para aumentar significativamente sua experiência com Minecraft modificado desde o início até o final do jogo. \\n \\n Para começar com AE2, você precisará extrair um recurso importante para o mod conhecido como &bCertus Quartz&f. Assim como a Ametista, você encontrará Cristais de Quartzo Certus que podem ser extraídos para Certus Quartz &eDust&f e &eCrystals&f. \\n \\n Para obter mais informações sobre AE2 além deste capítulo, consulte o wiki em",
     "atm9.quest.ae2.desc.wrench": "A &bQuartz Wrench&f faz o que qualquer chave de mod de tecnologia normal faria. Ele gira blocos e dispositivos ao longo da face em que você clica com o botão direito e os desmonta quando clica com o botão direito enquanto se esgueira. \\n \\n A chave inglesa do AE2 vem nos sabores certus e nether quartz.",
     "atm9.quest.ae2.desc.first": "Duas das primeiras coisas que você precisará para começar no AE2 são o &bCharger&f e o &bInscriber&f. \\n \\n O &bCharger&f, quando alimentado com energia, pegará os &eCertus Quartz Crystals&r e os carregará. Esses &eCharged Certus Crystals&r podem então ser usados ​​na produção de &eFluix&f, outro recurso importante no mod. Também pode ser usado para carregar qualquer item que armazene energia. \\n \\n O &bInscriber&f pode ser usado para transformar os vários cristais de quartzo em AE2 em sua forma de pó, mas o mais importante é que ele é usado para fabricar &ePrinted Circuits&f e &eProcessors&f especiais, como ficará mais claro na próxima missão.",
@@ -1046,6 +1056,7 @@
     "atm9.quest.ae2.desc.matter": "Quanto à expansão sem fio da própria Rede ME, o primeiro passo é reconhecidamente pouco ortodoxo. \\n \\n O &bMatter Condenser&f é a versão do AE2 de uma lata de lixo, anulando quaisquer itens inseridos nela. Quando equipado com um &eStorage Component&f, no entanto, o condensador pode aproveitar parte da energia restante do item que está sendo anulado e armazená-la para fazer dois itens especiais de artesanato com energia concentrada suficiente. \\n \\n O primeiro desses dois itens é o &bMatter Ball&f, exigindo pelo menos 1k componente de armazenamento e 256 itens de material anulado.",
     "atm9.quest.ae2.desc.antimatter": "Ao usar um componente de armazenamento de 64k ou superior, o Matter Condenser torna-se capaz de condensar significativamente mais para produzir uma &bSingularidade&f. Uma única singularidade requer que 256.000 itens sejam anulados. Isso é exatamente &o4000 pilhas&r! \\n \\n Veja o que acontece quando você joga essa singularidade no chão com um pedaço de &eender dust&f. Você terá que causar alguns danos ao ambiente enquanto estiver fazendo isso, mas felizmente AE2 oferece seu próprio &bTiny TNT&f para minimizar isso.",
     "atm9.quest.ae2.desc.quantum": "Se você fez a última missão corretamente, deveria ter transformado essa singularidade em um par de &bSingularidades Emaranhadas Quânticas&f. Essas novas singularidades são usadas para conectar um dispositivo em forma de anel conhecido como &eQuantum Network Bridge&f. \\n \\n Quando dois desses anéis individuais foram ligados usando as Singularidades Emaranhadas Quânticas e iniciados com alguma energia AE (por exemplo, uma célula de energia), uma rede ME pode ser expandida sem fio no outro lado da ponte, através de longas distâncias. ou mesmo dimensões.",
+
     "atm9.quest.ae2.subt.AE2": "Sistema de armazenamento virtual",
     "atm9.quest.ae2.subt.wrench": "Faz exatamente o que você esperaria.",
     "atm9.quest.ae2.subt.first": "Algumas máquinas básicas",
@@ -1082,7 +1093,10 @@
     "atm9.quest.ae2.subt.wireless_terminal": "É para isso que você está aqui",
     "atm9.quest.ae2.subt.ininfity": "Não estou escrevendo a linha de Toy Story",
     "atm9.quest.ae2.subt.antimatter": "Não é exatamente antimatéria",
+
     "atm9.quest.ae2.img.star": "Necessário para o ATM Star",
+
+
     "atm9.quest.adAstra.desc.tier2Rocket.1": "Você precisará de MUITO &cDesh&r para fazer o &aTier 2 Rocket&r.",
     "atm9.quest.adAstra.desc.tier2Rocket.2": "Com este foguete, você pode voar até &cMars&r! Apenas lembre-se de estocar &bOxygen&r e &eFuel&r extras para o seu voo de volta.",
     "atm9.quest.adAstra.desc.tier4Rocket": "O &dTier 4 Rocket &r é o foguete de nível mais alto que podemos fabricar. Isso nos permitirá viajar para fora do nosso Sistema Solar!",
@@ -1431,6 +1445,8 @@
     "atm9.quest.bloodMagic.desc.livingEquipment.3": "Ele começa como equivalente ao Ferro, mas possui pontos de atualização que podem ser gastos para treiná-lo de maneiras específicas. Começa com 100, mas existem maneiras de aumentar esse limite.",
     "atm9.quest.bloodMagic.desc.livingEquipment.4": "À medida que você o utiliza, ele “aprende” com você. Você pode ver o que aprendeu até agora segurando o shift esquerdo enquanto olha para ele.",
     "atm9.quest.bloodMagic.livingArmor": "Armadura Viva",
+
+
     "atm9.quest.blueSkies.desc.newDimensions.1": "&9Blue Skies&r adiciona 2 novas dimensões, ambas preenchidas com novos blocos, criaturas e um total de 4 chefes.",
     "atm9.quest.blueSkies.desc.newDimensions.2": "Para começar, precisamos encontrar o &6Gatekeeper&r!",
     "atm9.quest.blueSkies.welcome.1": "Bem-vindo ao Céu Azul!",
@@ -1540,6 +1556,8 @@
     "atm9.quest.blueSkies.subt.arachnarchLoot": "Drops da Bolsa de Itens do Aracnarca",
     "atm9.quest.blueSkies.desc.heartIncrease": "Aumenta o máximo de corações.",
     "atm9.quest.blueSkies.desc.dragonSoulCrafting": "Você também precisará disso para criar a Dragon Soul, necessária para a estrela ATM.",
+
+
     "atm9.quest.botania.desc.pureDaisyIntro": "A &aPure Daisy&r é uma das primeiras flores que você criará!",
     "atm9.quest.botania.desc.pureDaisyFunction.1": "Esta flor irá converter até 8 &2Wooden Logs&r ou &9Stone&r próximos em &2Livingwood&r ou &9Livingrock&r, respectivamente. Isso converte apenas em um raio de 1 bloco ao redor da flor.",
     "atm9.quest.botania.firstFlower": "Nossa primeira flor",
@@ -1720,6 +1738,8 @@
     "atm9.quest.botania.desc.gaiaTrinkets.2": "Você pode encontrar todas as descrições no &aLexica Botania&r.",
     "atm9.quest.botania.gaiaTrinkets": "Bugigangas de Gaia",
     "atm9.quest.botania.gaiaGearAndTrinkets": "&aGaia Equipamentos e bugigangas&r",
+
+
     "atm9.quest.create.desc.welcome.1": "&5&lBem-vindo ao criar!",
     "atm9.quest.create.desc.welcome.2": "Create é um mod tecnológico envolvente que traz realismo ao Minecraft em um nível totalmente novo!",
     "atm9.quest.create.desc.welcome.3": "Se você tiver dúvidas sobre algum bloco ou item, segure W para refletir e ver um incrível wiki em 3D no jogo!",
@@ -1791,6 +1811,8 @@
     "atm9.quest.create.desc.superGlue": "&n&5Super Glue&r pode ser usado para prender blocos uns aos outros para movê-los com pistões ou outros meios.",
     "atm9.quest.create.desc.belts.1": "&n&5Belts&r podem ser colocados entre dois &n&5Shafts&r para transferir mobs/itens ou simplesmente transferir energia rotacional de um ponto para outro.",
     "atm9.quest.create.desc.belts.2": "Os &n&5Shafts&r devem estar a 45, 90 ou 180 graus um do outro.",
+
+
     "atm9.quest.eidolonRepraised.desc.intro.1": "Este é Eidolon. Um Mod de Magia Negra que engloba rituais através de Braseiros e Coleta de Almas.",
     "atm9.quest.eidolonRepraised.desc.intro.2": "Você pode ter este livro no Tomo Akáshico, mas criá-lo servirá a um propósito especial.",
     "atm9.quest.eidolonRepraised.desc.intro.3": "Você precisará jogar este livro em uma Bruxa (sim, aquela hostil), ela adicionará um Sinal necessário para mais tarde.",
@@ -1862,6 +1884,8 @@
     "atm9.quest.eidolonRepraised.subt.gatewayApotheosis": "Considere esta a sua porta de entrada para a Apoteose",
     "atm9.quest.eidolonRepraised.desc.holySymbol": "Use o símbolo sagrado três vezes para acender o que você está olhando.",
     "atm9.quest.eidolonRepraised.subt.forgotFlintSteel": "Esqueceu a pederneira e o aço nas cavernas?",
+
+
     "atm9.quest.evilcraft.desc.modIntro.1": "&cEvilCraft&r é um mod mágico baseado em coisas um tanto malignas. Colete o sangue de seus inimigos e aproveite o poder de uma antiga fonte do mal!",
     "atm9.quest.evilcraft.desc.modIntro.2": "Tudo neste mod pode ser encontrado no guia, o &aOrigins of Darkness&r.",
     "atm9.quest.evilcraft.desc.modIntro.3": "Para começar, encontre algumas &9Dark Gems&r.",
@@ -1984,6 +2008,8 @@
     "atm9.quest.evilcraft.desc.broomCrafting.3": "Para fabricar sua vassoura, basta colocar cada parte na mesa de trabalho. A Vassoura exigirá Sangue para funcionar corretamente.",
     "atm9.quest.evilcraft.subt.broomBroom": "Vassoura Vassoura",
     "atm9.quest.evilcraft.bloodBrooms": "&cSangue&r &dVassouras&r",
+
+
     "atm9.quest.forbiddenAndArcanus.desc.newArmor.1": "Forbidden \\\\&\\\\ Arcanus adiciona novas maneiras de obter melhores armaduras, encantamentos e muito mais!",
     "atm9.quest.forbiddenAndArcanus.desc.newArmor.2": "Este mod com tema mágico tem animações incríveis, bem como alguns itens poderosos, como o &6Eternal Stella&r.",
     "atm9.quest.forbiddenAndArcanus.welcome": "Bem-vindo ao &5Forbidden \\\\&\\\\ Arcanus!",
@@ -2098,6 +2124,8 @@
     "atm9.quest.forbiddenAndArcanus.desc.upgradingForgeFeatures.1": "O &dHephaestus Forge&r pode ser atualizado para níveis mais altos usando coisas como Spawner Scraps, Arcane Crystals e muito mais!",
     "atm9.quest.forbiddenAndArcanus.desc.upgradingForgeFeatures.2": "Você precisará de níveis mais altos para fazer alguns dos itens de nível mais alto, como o &aEternal Stella&r. Certifique-se de verificar JEI para mais informações!",
     "atm9.quest.forbiddenAndArcanus.upgradingTheForge": "&dAtualizando o Forge&r",
+
+
     "atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.1": "O Reator Mycelial consiste em todos os geradores Myceliais trabalhando ao mesmo tempo, próximos ao bloco do reator.",
     "atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.2": "Gera 25MFE/t.",
     "atm9.quest.industrialForegoing.crimedMycelialGenerator": "Gerador Micélio Crimeado",
@@ -2163,6 +2191,8 @@
     "atm9.quest.industrialForegoing.desc.latexIntro.5": "&bEntão, basicamente Látex -> Borracha Seca -> Plástico.&r",
     "atm9.quest.industrialForegoing.latexQuestion": "Látex? Huh?",
     "atm9.quest.industrialForegoing.latexAndPlasticQuestion": "Látex e plástico? Huh?",
+
+
     "atm9.quest.mekanism.desc.metallurgicInfuser.1": "O Infusor Metalúrgico é usado para criar componentes essenciais de artesanato em todo o Mekanismo.",
     "atm9.quest.mekanism.desc.metallurgicInfuser.2": "A máquina funciona infundindo um material (slot central esquerdo) com um \"infusor\" (slot esquerdo).",
     "atm9.quest.mekanism.desc.metallurgicInfuser.3": "É também assim que você obtém Lingotes de Aço.",
@@ -2334,6 +2364,8 @@
     "atm9.quest.mekanism.desc.antimatterPellets.2": "Eles criam vários itens &5End Game&r, incluindo o &6ATM Star&r. Para saber tudo sobre Reactors e muito mais, acesse a linha de missões &aMekanism&r: &dReactors&r!",
     "atm9.quest.mekanism.thePathToReactors": "O caminho para os reatores",
     "atm9.quest.mekanism.advancedMekanism": "&dMecanismo Avançado&r",
+
+
     "atm9.quest.occultism.shubNiggurathFamiliar": "&5Shub Niggurath&r Familiar",
     "atm9.quest.occultism.drikwingFamiliar": "&2Drikwing&r Familiar",
     "atm9.quest.occultism.berserker": "&dBeholder&r Familiarizado",
@@ -2456,6 +2488,8 @@
     "atm9.quest.occultism.desc.demonsAndFamiliars.3": "Também existem maneiras de convocar amigos legais, conhecidos como &dFamiliars&r, que dão buffs especiais e até lutam por você! Não deixe de conferir os &dFamiliar Rituals&r em seu guia!",
     "atm9.quest.occultism.familiars.1": "Familiares",
     "atm9.quest.occultism.familiars.2": "&dFamiliares&r",
+
+
     "atm9.quest.powah.desc.intro.1": "&9Powah&r é um mod tecnológico que trata de gerar, armazenar e transmitir &dPower&r. Variando desde a geração básica de FE até &aReactors&r que produzem &b250k FE/t&r, Powah tem o que você precisa!",
     "atm9.quest.powah.desc.intro.2": "Para começar, saia e extraia um pouco de &aUraninite&r!",
     "atm9.quest.powah.welcome": "&aBem-vindo ao&r &9Powah&r!!!",
@@ -2505,6 +2539,8 @@
     "atm9.quest.powah.spiritedReactor": "Reator (Espirituoso)",
     "atm9.quest.powah.nitroReactor": "Reator (Nitro)",
     "atm9.quest.powah.desc.energizingOrb": "Usado para energizar itens usando o Energizing Orb.",
+
+
     "atm9.quest.productiveBees.desc.welcome.1": "Bem-vindo ao &9Abelhas Produtivas&r!",
     "atm9.quest.productiveBees.desc.welcome.2": "Para começar a usar o mod, primeiro você precisa encontrar alguns favos de mel e garrafas de mel! Encontre uma colmeia e deixe as abelhas fazerem seu trabalho um pouco. Cortá-lo quando estiver cheio lhe dará favos de mel, e garrafas de vidro lhe darão Garrafas de Mel!",
     "atm9.quest.productiveBees.desc.welcome.3": "&9Nota importante&r: Com as missões das abelhas que exigem favos, as receitas não serão mostradas. Certifique-se de procurá-los no JEI se precisar deles!",
@@ -2872,6 +2908,8 @@
     "atm9.quest.productiveBees.subt.showingOffBees": "Exibindo Abelhas",
     "atm9.quest.productiveBees.desc.luresGoldBee": "Em vez de usar guloseimas de mel, esta colmeia requer lingotes de ouro para atrair abelhas.",
     "atm9.quest.productiveBees.subt.luresGoldBee": "Atrai uma Abelha Dourada quando colocada no Nether",
+
+
     "atm9.quest.thermalExpansion.desc.modIntro": "Thermal Series é uma série modular de mods que adiciona uma mistura rica de magia e tecnologia à sua experiência no Minecraft!",
     "atm9.quest.thermalExpansion.welcome": "Bem-vindo à &9Thermal Series&r!",
     "atm9.quest.thermalExpansion.desc.redstoneFurnaceFeatures.1": "O Forno Redstone usa RF/FE em vez de carvão para fundir itens.",
@@ -2958,6 +2996,8 @@
     "atm9.quest.thermalExpansion.subt.earlyGameMiningGadget": "Um gadget de mineração para o início do jogo",
     "atm9.quest.thermalExpansion.subt.rfPoweredHandsaw": "Serrote alimentado por RF!",
     "atm9.quest.thermalExpansion.subt.tier4BaseUpgrade": "Atualização básica de nível 4",
+
+
     "atm9.quest.twilightForest.desc.welcome.1": "Bem-vindo à &9Floresta do Crepúsculo&r!",
     "atm9.quest.twilightForest.desc.welcome.2": "Para criar um portal para a Floresta Crepuscular, faça um buraco 2x2 e encha-o com água. Cerque as bordas do buraco com flores e coloque um diamante dentro.",
     "atm9.quest.twilightForest.desc.welcome.3": "Thor lhe dará um sinal se você fez certo.",
@@ -3106,6 +3146,8 @@
     "atm9.quest.twilightForest.desc.thornlandBiome.1": "Usando a Lâmpada de Cinzas, agora você poderá quebrar os espinhos do Bioma Thornland.",
     "atm9.quest.twilightForest.desc.thornlandBiome.2": "Reúna algumas Thorn Roses para continuar até o Planalto Final.",
     "atm9.quest.twilightForest.everyThornHasItsRose": "Cada espinho tem sua rosa",
+
+
     "atm9.quest.rs.refined": "&dArmazenamento refinado",
     "atm9.quest.rs.security": "Gerente de segurança",
     "atm9.quest.rs.grid": "Redes de grade",
@@ -3177,6 +3219,7 @@
     "atm9.quest.rs.range": "Aumentando o alcance do Wi-Fi",
     "atm9.quest.rs.infiniterange": "Impulsionador de alcance infinito",
     "atm9.quest.rs.dimension": "Cartão de dimensão",
+
     "atm9.quest.rs.desc.refined": "&9Refined Storage&r é um mod de armazenamento em massa que oferece um sistema de armazenamento baseado em rede. \\n \\n Para começar com o mod, você vai querer fazer o &6Controller&r. \\n \\n O Controlador é o 'Núcleo' da sua rede de armazenamento. Quando alimentado com energia, dá vida a todos os componentes RS conectados. Cada rede só pode ter um Controlador.",
     "atm9.quest.rs.desc.security": "O &9Security Manager&r permite conceder acesso e permissões aos usuários da sua rede. \\n \\n Quando colocado em seu sistema, você precisará criar um &9Cartão de Segurança&r para cada jogador para o qual deseja configurar permissões. Quando não há cartões presentes, todos têm acesso a todas as permissões. \\n \\n Para restringir permissões e acesso a todos os jogadores não configurados, configure um cartão que não esteja vinculado a um jogador e coloque-o no manager. A pessoa que colocou o Security Manager sempre terá acesso a ele.",
     "atm9.quest.rs.desc.grid": "Devido ao limite do controlador, você provavelmente desejará conectar diferentes sistemas ao seu hub principal sem um bilhão de cabos conectando-os. \\n \\n Isso é feito usando &6Network Transmitters&r e &6Receivers&r. \\n \\n &9Transmissores&r devem estar conectados ao seu sistema principal, onde quer que seu Controlador esteja. \\n \\n O &9Receiver&r deve ir para onde você quiser que sua rede externa esteja. Por exemplo, esta pode ser uma parte separada da sua base onde você tem Abelhas, uma fazenda de monstros, etc. \\n \\n Para conectar o Receptor à sua rede principal, você precisará usar uma &eNetwork Card&r. Para vincular a placa de rede, clique com o botão direito no receptor de rede e coloque a placa de rede no transmissor de rede conectado ao sistema principal.",
@@ -3244,6 +3287,7 @@
     "atm9.quest.rs.desc.range": "Para aumentar o alcance da sua conexão sem fio ao seu sistema, você precisará criar &9Atualizações de alcance&r. \\n \\n O transmissor sem fio pode conter apenas 4 no total. Aqui está um por conta da casa.",
     "atm9.quest.rs.desc.infiniterange": "'Preciso de mais ALCANCE!!!' \\n \\n Bem, coloque um desses bandidos em seu transmissor sem fio e você poderá acessar seu armazenamento de rede com alcance infinito. \\n \\n Isto, no entanto, não se estende a outras dimensões.....",
     "atm9.quest.rs.desc.dimension": "Mas este sim! \\n \\n Isto permite que seu sistema RS seja acessado sem fio de qualquer dimensão.",
+
     "atm9.quest.rs.subt.refined": "Começando",
     "atm9.quest.rs.subt.security": "Proteja sua rede!",
     "atm9.quest.rs.subt.grid": "Conectando redes sem fio!",
@@ -3369,6 +3413,8 @@
     "atm9.quest.spawner.desc.apple": "Ao usar uma Maçã Dourada em um Spawner, você suga as almas dos mobs que serão gerados, deixando apenas uma casca vazia do que costumavam ser. Os mobs perderão toda a IA, então farão basicamente o que uma armadura faz. Eles não podem bater em você, não podem se teletransportar, não podem se mover sozinhos. Eles ficam ali prontos para serem mortos, que emocionante!",
     "atm9.quest.spawner.desc.egg": "Este pode ser novo para aqueles que retornaram de versões anteriores. Ao usar um ovo de tartaruga em um spawner, ele só irá aparecer em versões bebês dos mobs nele. Isso só funciona com versões Vanilla baby de mobs, não modificados.",
     "atm9.quest.spawner.desc.rods": "O Spawn Range é a área onde os mobs podem aparecer. Quanto maior a área, mais espaço para eles desovarem. Quanto menor a área, mais barata será a fábrica.",
+
+
     "atm9.quest.farm.food": "Alimentação e Agricultura",
     "atm9.quest.farm.farming": "O plantador",
     "atm9.quest.farm.grass": "Dê um soco na grama",
@@ -3405,6 +3451,7 @@
     "atm9.quest.farm.market": "Compra de suprimentos agrícolas",
     "atm9.quest.farm.chicken": "Não vou fazer trocadilho com ovo.",
     "atm9.quest.farm.egg": "As galinhas devem ir",
+
     "atm9.quest.farm.desc.food": "Bem-vindo ao capítulo Alimentação e Agricultura! \\n \\n Aqui você encontrará diferentes maneiras de cultivar e produzir alimentos!",
     "atm9.quest.farm.desc.grass": "Vamos colher algumas sementes.",
     "atm9.quest.farm.desc.flax": "&2Flax Seeds&r são uma ótima maneira de obter corda no início do jogo!",
@@ -3432,6 +3479,7 @@
     "atm9.quest.farm.desc.wool": "Vamos juntar alguns pedaços de lã!",
     "atm9.quest.farm.desc.market": "Os mercados fornecem um aldeão que pode lhe vender qualquer coisa se você tiver a quantidade certa de esmeraldas. \\n \\n Spoiler: Geralmente é apenas 1 Esmeralda por item. MAS ELES TÊM TUDO.",
     "atm9.quest.farm.desc.chicken": "As galinhas vão botar isso naturalmente. Acho que não é considerado natural... \\n \\n Acho que as galinhas estão apenas pegando... &oEggs-ercise!!!&r.",
+
     "atm9.quest.farm.subt.food": "Começando",
     "atm9.quest.farm.subt.farming": "Espere até conseguir máquinas para isso.",
     "atm9.quest.farm.subt.grass": "Bloquear Mão 1, Bloquear Grama 0",
@@ -5660,6 +5708,8 @@
     "atm9.quest.mekanismReactors.desc.matrixCompletion.2": "Não tenha medo de atualizar com células e provedores de nível superior! Precisa de mais espaço para eles? O tamanho máximo que a Matriz de Indução pode ter é 18x18x18.",
     "atm9.quest.mekanismReactors.observeCompletedMatrix": "Observe uma matriz de indução completa",
     "atm9.quest.mekanismReactors.completingMatrix": "&aCompletando a&r &9Matriz&r",
+ 
+ 
     "atm9.quest.enchant.enchant": "Encantando com Apoteose",
     "atm9.quest.enchant.book": "Vanilla Max é apenas o começo",
     "atm9.quest.enchant.hellshelf": "&4Infernos&r",
@@ -5691,6 +5741,7 @@
     "atm9.quest.enchant.pearlescent": "&d Prateleira final perolada &r",
     "atm9.quest.enchant.draconic": "&dPrateleira Dracônica&r",
     "atm9.quest.enchant.perfect": "&6Melhor configuração encantadora&r",
+
     "atm9.quest.enchant.desc.enchant": "O Encantamento recebe algumas mudanças com Apoteose. Para resumir, 15 estantes não serão suficientes agora. Há novas estantes de livros e ações que você pode realizar com as Mesas de Encantamento agora e esperamos que essas missões ajudem você a entender.",
     "atm9.quest.enchant.desc.book": "As estantes são o seu ponto de partida, mas definitivamente não o seu ponto final. Pelo menos não estantes normais. Com apenas estantes normais, você só pode aumentar &aEterna&r até um máximo de 15. (Explicarei os níveis de encantamento em breve, mas saiba que você precisa deles)",
     "atm9.quest.enchant.desc.hellshelf": "&4Hellshelves&r são a sua introdução ao &cQuanta&r, eles fornecem &c3%% Quanta&r e &a1.5 Eterna&r. Melhor que as prateleiras normais, certo? Você precisará de pelo menos 6 deles para a próxima etapa.",
@@ -5722,6 +5773,8 @@
     "atm9.quest.enchant.desc.pearlescent": "O &dPearlescent Endshelf &r é a melhor prateleira versátil. Ele também fornece um Max &aEterna&r de &a45&r, mas esta não é a prateleira que procuramos para obter uma configuração perfeita.",
     "atm9.quest.enchant.desc.draconic": "A &dDraconic Shelf &r é a última prateleira de que precisaremos para uma configuração perfeita. Pode dar apenas &aEterna&r, mas tem o Max Max &aEterna&r de &a50&r.",
     "atm9.quest.enchant.desc.perfect": "Você já quis OS Encantamentos mais perfeitos? Então esta é a configuração que você precisa, para 100%% de tudo. &95 Echoing Skulkshelves&r, &95 Soul-Touched Sculkshelves&r e &d1 Draconic Shelf&r darão a você &a50 Eterna&r, &c100%% Quanta&r, &5100%% Arcana&r e &96 Enchanting Clues&r. &e3 Prateleiras de retificação fundida final&r fornecerão &e100%% retificação&r. E &6Deepshelf of Arcane Treasures&r completará tudo com &6Treasure Enchantments&r.",
+
+
     "atm9.quest.cataclysm.cataclysm": "Cataclismo",
     "atm9.quest.cataclysm.eye": "Olho, vejo você!",
     "atm9.quest.cataclysm.mech": "&4Olho de Mech&r",
@@ -5777,6 +5830,7 @@
     "atm9.quest.cataclysm.VASW": "V.A.S.W. (Arma de ombro de assalto vazio)",
     "atm9.quest.cataclysm.VForge": "Forja do Vazio",
     "atm9.quest.cataclysm.GoB": "Manopla do Baluarte",
+
     "atm9.quest.cataclysm.desc.cataclysm": "Cataclsym é um mod que adiciona novos chefes, masmorras e, claro, itens! Não existe um padrão certo de quais chefes matar primeiro, mas alguns são mais fortes que outros e alguns dão itens que ajudarão contra os outros. Este mod também possui dois itens necessários para construir o ATM Star!",
     "atm9.quest.cataclysm.desc.eye": "Nem todas as Masmorras do Cataclismo são tão fáceis de encontrar quanto as Pirâmides, então um Olho especial pode ajudá-lo a encontrá-las. Cada um dos olhos diferentes o levará à sua estrutura definida, e não se preocupe, pois quebrar é muito raro.",
     "atm9.quest.cataclysm.desc.mech": "&4The Eye of Mech&r levará você à &4Ancient Factory&r para lutar contra &4The Harbinger&r",
@@ -5832,6 +5886,7 @@
     "atm9.quest.cataclysm.desc.VASW": "A Void Assault Shoulder Weapon (V.A.S.W.) é igual à versão Wither, mas melhor. Agora ele só atira Void Howitzers, que causarão mais danos e farão com que runas vazias saiam do solo na área atingida pelo Howitzer. Apenas ao custo do longo tempo de espera, mas temos tempo para esperar. Ele pode ser criado combinando o WASW e um Void Core na Mechanical Infusion Anvil.",
     "atm9.quest.cataclysm.desc.VForge": "A Forja do Vazio não é muito diferente da Forja Infernal. Mesmo dano e velocidade de ataque, mesmo nível de picareta, apenas invoca Void Runes ao atacar. Pode ser criado combinando uma Forja Infernal e um Núcleo Vazio em uma Bigorna de Fusão Mecânica.",
     "atm9.quest.cataclysm.desc.GoB": "The Gauntlet of Bulwark não age como você imagina. Em vez de aproximar os mobs, ele os afasta, ao segurar o botão direito, e dá a eles Blazing Brand. Então, quando você soltar o clique com o botão direito, você fará a cobrança normal. É feito fundindo a Manopla da Guarda com um Baluarte de Chamas na Bigorna de Fusão Mecânica.",
+
     "atm9.quest.cataclysm.subt.sacrifice": "Acordando o Leviatã",
     "atm9.quest.cataclysm.subt.necklace": "Ressuscitando um Antigo Remanescente",
     "atm9.quest.cataclysm.subt.star": "Alimentando o Harbringer",
@@ -5840,6 +5895,8 @@
     "atm9.quest.cataclysm.subt.igntium": "Melhor que Netherite?!?!?!",
     "atm9.quest.cataclysm.subt.gatling": "Direto do Fallout",
     "atm9.quest.cataclysm.subt.meat": "Direto do DLC de Fallout 3 The Pitt",
+
+
     "item.kubejs.micro_universe_catalyst.tooltip": "Forjado no fogo de mil sóis.",
     "kubejs.apiary_ii.tooltip.bee_requirements": "Requer abelhas Metaturnais Muito Altas, Qualquer, para correr",
     "kubejs.apiary_i.tooltip.bee_eater": "De vez em quando come as abelhas"

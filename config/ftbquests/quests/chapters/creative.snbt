@@ -43,11 +43,6 @@
 			id: "6E6FDF551EA4FF1A"
 			rewards: [
 				{
-					id: "625FC1DFA2B2A8B3"
-					type: "xp_levels"
-					xp_levels: 10000
-				}
-				{
 					id: "13C7B1760109C468"
 					item: {
 						Count: 1
@@ -86,6 +81,11 @@
 					id: "5AC6632FD554B8F2"
 					item: "reliquary:pedestals/passive/white_passive_pedestal"
 					type: "item"
+				}
+				{
+					id: "1F4E8436E25D423D"
+					type: "xp_levels"
+					xp_levels: 1000
 				}
 			]
 			shape: "hexagon"
@@ -230,6 +230,7 @@
 						Throttle: 1.0d
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter3.jetpack}"
@@ -366,6 +367,11 @@
 			hide_dependency_lines: true
 			id: "0019BAE826902B4A"
 			optional: true
+			rewards: [{
+				id: "248CEF5CDCC4D98C"
+				type: "xp_levels"
+				xp_levels: 10000
+			}]
 			size: 3.0d
 			tasks: [{
 				id: "05EDE3C0706A89A7"
@@ -384,7 +390,7 @@
 				{
 					id: "0F1BEDEC9A4A479D"
 					type: "xp_levels"
-					xp_levels: 50000
+					xp_levels: 5000
 				}
 				{
 					id: "04566CE860FF3B61"
@@ -431,8 +437,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -458,7 +464,7 @@
 				}
 			]
 			x: 0.0d
-			y: 4.0d
+			y: 1.5d
 		}
 	]
 	title: "{atm9.chapters.7.title}"
