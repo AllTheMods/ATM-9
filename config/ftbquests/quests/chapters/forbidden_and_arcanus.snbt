@@ -371,8 +371,8 @@
 				""
 				"{atm9.quest.forbiddenAndArcanus.desc.endCityLootFeatures.2}"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "709118898CF960BE"
 			optional: true
 			rewards: [{
@@ -453,8 +453,8 @@
 		}
 		{
 			dependencies: ["5523A71F1688EA88"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "6780984A7CE63392"
 			optional: true
 			rewards: [{
@@ -474,8 +474,8 @@
 		}
 		{
 			dependencies: ["5523A71F1688EA88"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "371DF7589239CB78"
 			optional: true
 			rewards: [{
@@ -495,8 +495,8 @@
 		}
 		{
 			dependencies: ["5523A71F1688EA88"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "6C832BFE4D07D897"
 			optional: true
 			rewards: [{
@@ -553,7 +553,7 @@
 				""
 				"{atm9.quest.forbiddenAndArcanus.desc.mortemArmorFeatures.2}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5EFC63CF97D97AB5"
 			rewards: [
 				{
@@ -1594,8 +1594,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

@@ -724,11 +724,7 @@
 		}
 		{
 			dependencies: ["49109192F6D95AB4"]
-			description: [
-				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.8}"
-				""
-				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.9}"
-			]
+			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.8}"]
 			id: "4DB3A860A30D7BF5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2042,8 +2038,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2068,8 +2064,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
-			y: 6.0d
+			x: -9.5d
+			y: -0.5d
 		}
 	]
 	title: "{atm9.chapters.34.title}"

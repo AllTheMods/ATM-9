@@ -59,14 +59,13 @@
 				title: "{atm9.quest.hostile.welcome}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.hostile.welcome}"
 			x: -2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
 			description: ["{atm9.quest.hostile.desc.learn}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "3E3CBDCEAB0FF28F"
 			rewards: [
 				{
@@ -95,7 +94,7 @@
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
 			description: ["{atm9.quest.hostile.desc.modeling}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "58C2ABED43B2EA61"
 			rewards: [
 				{
@@ -127,8 +126,8 @@
 				"58C2ABED43B2EA61"
 			]
 			description: ["{atm9.quest.hostile.desc.simulator}"]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			id: "104EBBC08B4733F5"
 			min_width: 300
 			rewards: [{
@@ -152,8 +151,8 @@
 				"3E3CBDCEAB0FF28F"
 			]
 			description: ["{atm9.quest.hostile.desc.data}"]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "hostilenetworks:data_model"
@@ -175,7 +174,6 @@
 				title: "{atm9.quest.hostile.data}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.hostile.data}"
 			x: -2.5d
 			y: 1.5d
 		}
@@ -184,6 +182,11 @@
 			description: ["{atm9.quest.hostile.desc.overworld}"]
 			hide_dependency_lines: false
 			id: "2559201BCF5D497C"
+			rewards: [{
+				id: "6E59A5B8CD972EDC"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "655C40D2B0080E17"
@@ -199,6 +202,11 @@
 			description: ["{atm9.quest.hostile.desc.nether}"]
 			hide_dependency_lines: false
 			id: "10E8BC20D406D9FB"
+			rewards: [{
+				id: "50C602DE61196135"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "01DFF76EC79179F4"
@@ -214,6 +222,11 @@
 			description: ["{atm9.quest.hostile.desc.end}"]
 			hide_dependency_lines: false
 			id: "5A23107C363A209E"
+			rewards: [{
+				id: "4DFF35AD310D2645"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "62F42CED16C84B74"
@@ -226,7 +239,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "49A92EEA6A14622F"
 			optional: true
 			rewards: [{
@@ -253,7 +266,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1F0EF605CC6E5E40"
 			optional: true
 			rewards: [{
@@ -280,7 +293,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "245D83BA9D00AFF8"
 			optional: true
 			rewards: [{
@@ -307,7 +320,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1E985ADC4067A107"
 			optional: true
 			rewards: [{
@@ -334,7 +347,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "5DF8A07DED732B8B"
 			optional: true
 			rewards: [{
@@ -361,7 +374,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "3B85E2D0774F53CA"
 			optional: true
 			rewards: [{
@@ -388,7 +401,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7352BB6533AE6E75"
 			optional: true
 			rewards: [{
@@ -415,7 +428,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "68153B68FA878DAE"
 			optional: true
 			rewards: [{
@@ -442,7 +455,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "354E0774523B374F"
 			optional: true
 			rewards: [{
@@ -469,7 +482,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7EBBEB504C38898A"
 			optional: true
 			rewards: [{
@@ -496,7 +509,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "3F8E733CBA5DD26D"
 			optional: true
 			rewards: [{
@@ -523,7 +536,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1B0F2AEB913BD3D1"
 			rewards: [{
 				id: "6116DDC78DDCEDB7"
@@ -549,7 +562,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "6BF7C7ADF1B80ACB"
 			optional: true
 			rewards: [{
@@ -576,7 +589,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "228AEC85F5348ED2"
 			optional: true
 			rewards: [{
@@ -603,7 +616,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7948AF9B8C40B17D"
 			optional: true
 			rewards: [{
@@ -630,7 +643,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "05123E63B51561FF"
 			optional: true
 			rewards: [{
@@ -657,7 +670,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "25486FC0ED7133D9"
 			optional: true
 			rewards: [{
@@ -684,7 +697,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "20CB60F162DDB01B"
 			optional: true
 			rewards: [{
@@ -711,7 +724,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4FDE0E4C6413EC7D"
 			optional: true
 			rewards: [{
@@ -738,7 +751,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "40EE3BBCF238942D"
 			optional: true
 			rewards: [{
@@ -765,7 +778,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "2F6F888610373E21"
 			optional: true
 			rewards: [{
@@ -792,7 +805,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "5AE5D2F42A75FEB1"
 			optional: true
 			rewards: [{
@@ -819,7 +832,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "78EE970AE4954E64"
 			rewards: [{
 				id: "453D23C546A0405F"
@@ -845,7 +858,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "6CCDF28A50BEA391"
 			optional: true
 			rewards: [{
@@ -872,7 +885,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1FD43610960E3450"
 			optional: true
 			rewards: [{
@@ -899,7 +912,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "0E91D8CF933586DF"
 			optional: true
 			rewards: [{
@@ -926,7 +939,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "2C6D0311960BC625"
 			optional: true
 			rewards: [{
@@ -953,7 +966,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1C77C432FDB7A867"
 			optional: true
 			rewards: [{
@@ -980,7 +993,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "552CE591220ECD68"
 			optional: true
 			rewards: [{
@@ -1007,7 +1020,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4AAEAC854FC8DB3A"
 			optional: true
 			rewards: [{
@@ -1034,7 +1047,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "24157BFA5B85DCBA"
 			rewards: [{
 				id: "511D2EB668CFFC24"
@@ -1060,7 +1073,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4A26233C179D02C4"
 			optional: true
 			rewards: [{
@@ -1087,7 +1100,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "61F1ADF55C49872D"
 			optional: true
 			rewards: [{
@@ -1114,7 +1127,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "12172C1449296E06"
 			optional: true
 			rewards: [{
@@ -1903,6 +1916,11 @@
 			description: ["{atm9.quest.hostile.desc.twilight}"]
 			hide_dependency_lines: false
 			id: "1B1C559A0F7305B2"
+			rewards: [{
+				id: "4D9CA717F4FCF440"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1E7664C17BF503FF"
@@ -1924,8 +1942,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1950,8 +1968,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
-			y: 6.0d
+			x: -2.5d
+			y: -2.0d
 		}
 	]
 	title: "{atm9.chapters.50.title}"

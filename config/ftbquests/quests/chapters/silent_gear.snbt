@@ -15,16 +15,15 @@
 			y: -3.0d
 		}
 		{
-			height: 0.5d
-			hover: ["Needed For The ATM Star"]
+			height: 0.3d
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
-			width: 0.5d
+			width: 0.3d
 			x: 11.0d
 			y: -0.75d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -1420,8 +1419,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1446,8 +1445,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 5.5d
-			y: 3.5d
+			x: -9.0d
+			y: 0.0d
 		}
 	]
 	title: "{atm9.chapters.9.title}"

@@ -244,9 +244,9 @@
 			icon: "allthemodium:allthemodium_ore"
 			id: "03E05018D64DDEE1"
 			tasks: [{
-				id: "0D9AA2358BE8611B"
-				title: "Felt ATM Ore is too expensive"
-				type: "checkmark"
+				id: "13294ADF4877B642"
+				item: "allthemodium:raw_allthemodium"
+				type: "item"
 			}]
 			title: "{atm9.quest.tools.tier5}"
 			x: -3.0d
@@ -258,9 +258,9 @@
 			icon: "allthemodium:unobtainium_ore"
 			id: "09733948CBCB3FB9"
 			tasks: [{
-				id: "55B9216D3C4D2B4B"
-				title: "Pretend this is Unobtainium"
-				type: "checkmark"
+				id: "04FF7D3823C4ECF5"
+				item: "allthemodium:raw_unobtainium"
+				type: "item"
 			}]
 			title: "{atm9.quest.tools.tier6}"
 			x: -2.5d
@@ -269,6 +269,11 @@
 		{
 			id: "2EE4E88FC814AFA4"
 			optional: true
+			rewards: [{
+				id: "3031ADF00E92BCF7"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier1}"
 			tasks: [{
 				id: "2E885362FFDF770D"
@@ -287,6 +292,11 @@
 		{
 			id: "2E6D11A5F5626A6C"
 			optional: true
+			rewards: [{
+				id: "34BC62235F514594"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier2}"
 			tasks: [{
 				id: "4CDD283558108D8B"
@@ -305,6 +315,11 @@
 		{
 			id: "70ED849A2EB44DEE"
 			optional: true
+			rewards: [{
+				id: "6BBFC661F4E60DFA"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier3}"
 			tasks: [{
 				id: "41A47F38D96A9747"
@@ -323,6 +338,11 @@
 		{
 			id: "29A05589E96C0569"
 			optional: true
+			rewards: [{
+				id: "55C618EF06572D1C"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier4}"
 			tasks: [{
 				id: "3CAFF729F25A9850"
@@ -341,6 +361,11 @@
 		{
 			id: "299F56B753286D0C"
 			optional: true
+			rewards: [{
+				id: "10F391CFBE32F48C"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier5}"
 			tasks: [{
 				id: "111144CBEF06EC7F"
@@ -359,6 +384,11 @@
 		{
 			id: "0C31B053EAB8B2AB"
 			optional: true
+			rewards: [{
+				id: "7BA0E65200C38DFB"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier3}"
 			tasks: [{
 				id: "30CDC00635935527"
@@ -405,15 +435,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.3pick1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.3pick1}"
 			x: -0.5d
 			y: -1.0d
 		}
 		{
 			id: "512396B331108BAF"
 			optional: true
+			rewards: [{
+				id: "68E68D3EE5C5D4E1"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier5}"
 			tasks: [{
 				id: "40971F256D8743D9"
@@ -432,6 +467,11 @@
 		{
 			id: "51DBE688ED630DB1"
 			optional: true
+			rewards: [{
+				id: "722E86916673F0A9"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier4}"
 			tasks: [{
 				id: "45C9F5CDC7FD3229"
@@ -450,6 +490,11 @@
 		{
 			id: "6A4419E89C0BA985"
 			optional: true
+			rewards: [{
+				id: "2345DC06D3DAE1A5"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier6}"
 			tasks: [{
 				id: "2500C7ACDE984FBD"
@@ -510,15 +555,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.6pick2}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.6pick2}"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			id: "3E78FA34A7D40044"
 			optional: true
+			rewards: [{
+				id: "7C632E7849124ED9"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier2}"
 			tasks: [{
 				id: "4A58C303DAC0C081"
@@ -537,6 +587,11 @@
 		{
 			id: "70ACECAEEE8947A5"
 			optional: true
+			rewards: [{
+				id: "5BD2AF14EC2B15AB"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier1}"
 			tasks: [{
 				id: "4E240FF2592F5CD4"
@@ -555,6 +610,11 @@
 		{
 			id: "451D03BE892CDE74"
 			optional: true
+			rewards: [{
+				id: "7793D05A19ACE401"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier6}"
 			tasks: [{
 				id: "6CCC0DE3A3CC048E"
@@ -629,15 +689,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.6pick3}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.6pick3}"
 			x: 1.0d
 			y: -2.5d
 		}
 		{
 			id: "568A1121F820345F"
 			optional: true
+			rewards: [{
+				id: "41613A9D11DF31AC"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier2}"
 			tasks: [{
 				id: "1680A9E188D1F4E1"
@@ -656,6 +721,11 @@
 		{
 			id: "114504C48DF53A03"
 			optional: true
+			rewards: [{
+				id: "3BEF99628A1F022B"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier3}"
 			tasks: [{
 				id: "33689D889904670A"
@@ -681,15 +751,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.3pick2}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.3pick2}"
 			x: 0.5d
 			y: -1.0d
 		}
 		{
 			id: "58DDD32F849940A0"
 			optional: true
+			rewards: [{
+				id: "1BA79ADBAC38C919"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier6}"
 			tasks: [{
 				id: "3994D5448E03DF6B"
@@ -737,15 +812,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.6pick4}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.6pick4}"
 			x: 2.0d
 			y: -2.5d
 		}
 		{
 			id: "518105318E1C38B2"
 			optional: true
+			rewards: [{
+				id: "2A92E494186FAA02"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier1}"
 			tasks: [{
 				id: "5E5533CDA9CA9C18"
@@ -764,6 +844,11 @@
 		{
 			id: "67F992E5672671CD"
 			optional: true
+			rewards: [{
+				id: "3D4775E2E14D6363"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier5}"
 			tasks: [{
 				id: "31D48DF4CE59F793"
@@ -776,12 +861,17 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
 			id: "768B5E3633A76ED0"
 			optional: true
+			rewards: [{
+				id: "271D3C6C1F40A2AB"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier5}"
 			tasks: [{
 				id: "1162C2EBA5671A9E"
@@ -794,12 +884,17 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: -2.0d
 		}
 		{
 			id: "2AD4FE4B9DB741CC"
 			optional: true
+			rewards: [{
+				id: "2E0C11381668A78D"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier4}"
 			tasks: [{
 				id: "6996A70A79D41BC2"
@@ -808,6 +903,27 @@
 					id: "itemfilters:or"
 					tag: {
 						items: [
+							{
+								Count: 1b
+								id: "mysticalagriculture:inferium_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:prudentium_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:tertium_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
 							{
 								Count: 1b
 								id: "twilightforest:steeleaf_pickaxe"
@@ -826,50 +942,23 @@
 									Damage: 0
 								}
 							}
-							{
-								Count: 1b
-								id: "mysticalagriculture:inferium_pickaxe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "mysticalagriculture:prudentium_pickaxe"
-								tag: {
-									Damage: 0
-								}
-							}
 						]
 					}
 				}
+				title: "{atm9.quest.tools.4pick1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.4pick1}"
 			x: 1.0d
 			y: -1.5d
 		}
 		{
-			id: "7252331E9CD600B9"
-			optional: true
-			subtitle: "{atm9.quest.tools.subt.tier5}"
-			tasks: [{
-				id: "586B3E271C377AA3"
-				item: {
-					Count: 1
-					id: "mysticalagriculture:tertium_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: -2.0d
-		}
-		{
 			id: "076A26C8177FED1A"
 			optional: true
+			rewards: [{
+				id: "7C1E77A2EA651584"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier1}"
 			tasks: [{
 				id: "48FBE7B7D70A0833"
@@ -888,6 +977,11 @@
 		{
 			id: "5DB7C962203735ED"
 			optional: true
+			rewards: [{
+				id: "376FBC74B9FD5236"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier2}"
 			tasks: [{
 				id: "6ACFECB8D48FC52A"
@@ -906,6 +1000,11 @@
 		{
 			id: "4F68F142D9DE569A"
 			optional: true
+			rewards: [{
+				id: "14A627944590A711"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier3}"
 			tasks: [{
 				id: "35227D0C9A4DC669"
@@ -922,6 +1021,11 @@
 		{
 			id: "3B88D58B11B5DC78"
 			optional: true
+			rewards: [{
+				id: "6307DF789996C68E"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier4}"
 			tasks: [
 				{
@@ -958,6 +1062,7 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.tools.4pick3}"
 			x: 3.0d
 			y: -1.5d
 		}
@@ -984,6 +1089,11 @@
 		{
 			id: "0583862ED0114442"
 			optional: true
+			rewards: [{
+				id: "14B87D0BEB9DFC4A"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage4}"
 			tasks: [{
 				id: "77C3BFB8C7F805CF"
@@ -996,12 +1106,17 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 4.0d
 		}
 		{
 			id: "54D3D6806C1F33F3"
 			optional: true
+			rewards: [{
+				id: "787BC2943A8FC876"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage5}"
 			tasks: [{
 				id: "13AFEBED5C116FC8"
@@ -1014,12 +1129,17 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 5.0d
 		}
 		{
 			id: "2B9AF0D6ED8BA628"
 			optional: true
+			rewards: [{
+				id: "7991802B4098F206"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage6}"
 			tasks: [{
 				id: "1C1B919636DDC925"
@@ -1032,12 +1152,17 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 6.0d
 		}
 		{
 			id: "55A9EB63F4964FCF"
 			optional: true
+			rewards: [{
+				id: "142CB6AA86100D70"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage7}"
 			tasks: [{
 				id: "3B9E51CF30228269"
@@ -1050,12 +1175,17 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 7.0d
 		}
 		{
 			id: "36A3ECD4F6CA2732"
 			optional: true
+			rewards: [{
+				id: "536FA73E85E1A9A1"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage8}"
 			tasks: [{
 				id: "5CDEF9E938811FC8"
@@ -1068,12 +1198,17 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 8.0d
 		}
 		{
 			id: "3BF1900346772703"
 			optional: true
+			rewards: [{
+				id: "33ADFAFC2A58E22E"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier2}"
 			tasks: [{
 				id: "6D6CF45BE39E11BB"
@@ -1092,6 +1227,11 @@
 		{
 			id: "75238B267CBFFAFE"
 			optional: true
+			rewards: [{
+				id: "108C748DB005633D"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage4_5}"
 			tasks: [{
 				id: "6C29A4A606852691"
@@ -1110,6 +1250,11 @@
 		{
 			id: "04A8077171395133"
 			optional: true
+			rewards: [{
+				id: "32D5D666757E4CDF"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage5_5}"
 			tasks: [{
 				id: "36FE0FF2381C511A"
@@ -1128,6 +1273,11 @@
 		{
 			id: "2FB62AE3C62CA052"
 			optional: true
+			rewards: [{
+				id: "353B92E668DF254B"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage4_5}"
 			tasks: [{
 				id: "271A6907F87F76B4"
@@ -1146,6 +1296,11 @@
 		{
 			id: "077A214422FEFF02"
 			optional: true
+			rewards: [{
+				id: "44C433B57CA339B1"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage6_4}"
 			tasks: [{
 				id: "53CFFE444921CB11"
@@ -1164,6 +1319,11 @@
 		{
 			id: "665C3A14C987E9C6"
 			optional: true
+			rewards: [{
+				id: "290A6FF547B1005B"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage5_5}"
 			tasks: [{
 				id: "4AB69297368845A0"
@@ -1182,6 +1342,11 @@
 		{
 			id: "2664388EBA1E8F90"
 			optional: true
+			rewards: [{
+				id: "2C7143146C70C6C0"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage8}"
 			tasks: [{
 				id: "41D9CCC7AD3283EE"
@@ -1194,12 +1359,17 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: 8.0d
 		}
 		{
 			id: "7F076FC4F2187692"
 			optional: true
+			rewards: [{
+				id: "12CFEFB9FC68BD40"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage8}"
 			tasks: [{
 				id: "49620BB635D10CF5"
@@ -1212,12 +1382,17 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 8.0d
 		}
 		{
 			id: "713803066B62CE9C"
 			optional: true
+			rewards: [{
+				id: "67CF8E9D0ADAA6D6"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage6_5}"
 			tasks: [{
 				id: "0E51C3384A52EEED"
@@ -1236,6 +1411,11 @@
 		{
 			id: "14518D5C1786DE65"
 			optional: true
+			rewards: [{
+				id: "2FFE929DD6AB4E45"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage5}"
 			tasks: [{
 				id: "75808D8AE827252E"
@@ -1248,12 +1428,17 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 5.0d
 		}
 		{
 			id: "38C76A58EBED6C37"
 			optional: true
+			rewards: [{
+				id: "2B6324DFC4772A89"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage7_5}"
 			tasks: [{
 				id: "163BDCDFC0B39FB8"
@@ -1272,6 +1457,11 @@
 		{
 			id: "7CFEE836C68B3903"
 			optional: true
+			rewards: [{
+				id: "27CE1AC9F42F9781"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage7_5}"
 			tasks: [{
 				id: "6ACBFDD957AE32EB"
@@ -1290,6 +1480,11 @@
 		{
 			id: "2D0AFABAD80A1DB5"
 			optional: true
+			rewards: [{
+				id: "7087CCC90CB08A89"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage10}"
 			tasks: [{
 				id: "0A81B5C9739FB083"
@@ -1308,6 +1503,11 @@
 		{
 			id: "0B6772E52FE97284"
 			optional: true
+			rewards: [{
+				id: "6AD4330F557168CE"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage11}"
 			tasks: [{
 				id: "51FB97EC1A4441B9"
@@ -1320,12 +1520,17 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 9.5d
 		}
 		{
 			id: "744DDB36296AEFAE"
 			optional: true
+			rewards: [{
+				id: "07E442572E98E98D"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage13}"
 			tasks: [{
 				id: "45F7BD53A56AF350"
@@ -1344,6 +1549,11 @@
 		{
 			id: "7EDF2CC08FC774F9"
 			optional: true
+			rewards: [{
+				id: "09446E7DBF4E04D2"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage10}"
 			tasks: [{
 				id: "279E99110C6542B0"
@@ -1356,12 +1566,17 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: 9.0d
 		}
 		{
 			id: "680ECE3D8DCDC515"
 			optional: true
+			rewards: [{
+				id: "5BDE840C501B7B5E"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage13}"
 			tasks: [{
 				id: "1794270850D4F05D"
@@ -1380,18 +1595,28 @@
 		{
 			id: "6856A5572B239D10"
 			optional: true
+			rewards: [{
+				id: "68A2DB9F4291B525"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage16}"
 			tasks: [{
 				id: "3D0DC6C4794CE2BF"
 				item: "allthemodium:allthemodium_sword"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 11.0d
 		}
 		{
 			id: "4DCEC4B97E24B6F1"
 			optional: true
+			rewards: [{
+				id: "0704EC6C6A576460"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage17}"
 			tasks: [{
 				id: "75022D8AF7DB6369"
@@ -1404,60 +1629,85 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 11.5d
 		}
 		{
 			id: "2007EF64F0406090"
 			optional: true
+			rewards: [{
+				id: "6FA2F0200A92DCE9"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage24}"
 			tasks: [{
 				id: "60ECBCB782EF3B95"
 				item: "mysticalagriculture:supremium_sword"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 12.5d
 		}
 		{
 			id: "5A6670364ADE0858"
 			optional: true
+			rewards: [{
+				id: "2F5FDEFBEB9150F7"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage29}"
 			tasks: [{
 				id: "5B39CDF9A0FCC084"
 				item: "mysticalagriculture:awakened_supremium_sword"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 13.5d
 		}
 		{
 			id: "47AED7219704EB3E"
 			optional: true
+			rewards: [{
+				id: "37E00F3F444A939F"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage22}"
 			tasks: [{
 				id: "7D7CDB9137482E36"
 				item: "allthemodium:vibranium_sword"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 12.0d
 		}
 		{
 			id: "744AC6BD82FC2DEE"
 			optional: true
+			rewards: [{
+				id: "579F1B36D4F70550"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage28}"
 			tasks: [{
 				id: "3D392B67BAAED4D0"
 				item: "allthemodium:unobtainium_sword"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 13.0d
 		}
 		{
 			id: "7BCE96070C36D547"
 			optional: true
+			rewards: [{
+				id: "4CF759546A2F5935"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage7_5}"
 			tasks: [{
 				id: "2000C08E501E9216"
@@ -1470,12 +1720,17 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: 1.5d
 			y: 7.5d
 		}
 		{
 			id: "2F90CA5DF9225209"
 			optional: true
+			rewards: [{
+				id: "132896A455BD5017"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage12}"
 			tasks: [{
 				id: "33868BAD67921CD5"
@@ -1488,12 +1743,17 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 10.0d
 		}
 		{
 			id: "31B0ADD444A593CD"
 			optional: true
+			rewards: [{
+				id: "2F314B2B5F811641"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage10}"
 			tasks: [{
 				id: "4414BD0C6D0C1692"
@@ -1506,24 +1766,34 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: 9.0d
 		}
 		{
 			id: "4C8C56F960D92E9D"
 			optional: true
+			rewards: [{
+				id: "54CDEF7C7EEA1543"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage47}"
 			tasks: [{
 				id: "571788A3D48695E9"
 				item: "allthemodium:alloy_sword"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 14.0d
 		}
 		{
 			id: "6EE68EEFE388CF8A"
 			optional: true
+			rewards: [{
+				id: "61075B248913A2C9"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage4}"
 			tasks: [{
 				id: "477AAD8E6A0BB944"
@@ -1536,12 +1806,17 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 4.0d
 		}
 		{
 			id: "25C1A764618E601B"
 			optional: true
+			rewards: [{
+				id: "31F6A25E041C5EF9"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier1}"
 			tasks: [{
 				id: "079736CCF9AC8123"
@@ -1602,15 +1877,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.1pick1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.1pick1}"
 			x: -0.5d
 			y: 0.0d
 		}
 		{
 			id: "609D03E335CF32E2"
 			optional: true
+			rewards: [{
+				id: "7BBF272CDE7721EA"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier6}"
 			tasks: [{
 				id: "0C40B254FF7C7636"
@@ -1638,15 +1918,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.6pick1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.6pick1}"
 			x: -1.0d
 			y: -2.5d
 		}
 		{
 			id: "3FBCE2054D6038F8"
 			optional: true
+			rewards: [{
+				id: "7E8C04449E72AAA3"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier3}"
 			tasks: [{
 				id: "78D7E717C343E174"
@@ -1801,15 +2086,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.3pick3}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.3pick3}"
 			x: 1.5d
 			y: -1.0d
 		}
 		{
 			id: "3FB589181C086B75"
 			optional: true
+			rewards: [{
+				id: "1B820F84E342C526"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier4}"
 			tasks: [{
 				id: "29308D4A6CE0C509"
@@ -1945,15 +2235,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.4pick2}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.4pick2}"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
 			id: "5DB69A67A95C6B69"
 			optional: true
+			rewards: [{
+				id: "0863C25172566342"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier6}"
 			tasks: [{
 				id: "5B5634EA99833425"
@@ -2077,15 +2372,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.6pick5}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.6pick5}"
 			x: 3.0d
 			y: -2.5d
 		}
 		{
 			id: "384A7832DAE93E5A"
 			optional: true
+			rewards: [{
+				id: "508C4E88B11C8CC5"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage4}"
 			tasks: [{
 				id: "4D01DD196F609F50"
@@ -2139,15 +2439,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.4sword1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.4sword1}"
 			x: 1.0d
 			y: 4.0d
 		}
 		{
 			id: "0F36FE9BCBA83129"
 			optional: true
+			rewards: [{
+				id: "51D93891C77EB94B"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage5}"
 			tasks: [{
 				id: "5DBA085EFD3EDBA7"
@@ -2173,15 +2478,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.5sword1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.5sword1}"
 			x: 1.0d
 			y: 5.0d
 		}
 		{
 			id: "2647B2830F8F022F"
 			optional: true
+			rewards: [{
+				id: "0F668B05EED8873E"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage6}"
 			tasks: [{
 				id: "2FE284174F29CEE6"
@@ -2221,15 +2531,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.6sword1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.6sword1}"
-			x: -1.0d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
 			id: "2ED7878B7919AF6D"
 			optional: true
+			rewards: [{
+				id: "1D644A8D47B32BA6"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage6}"
 			tasks: [{
 				id: "3A1AEA99F9234662"
@@ -2269,15 +2584,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.6sword2}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.6sword2}"
 			x: 1.0d
 			y: 6.0d
 		}
 		{
 			id: "191302E7A2670477"
 			optional: true
+			rewards: [{
+				id: "1DAF2A99AE55BE2F"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage7}"
 			tasks: [{
 				id: "5B45FF3A6839E957"
@@ -2336,15 +2656,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.7sword1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.7sword1}"
-			x: -1.0d
+			x: 0.0d
 			y: 7.0d
 		}
 		{
 			id: "6F8935F23CBB19DE"
 			optional: true
+			rewards: [{
+				id: "7CC10A728A08336B"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage7}"
 			tasks: [{
 				id: "45D22AB384D77465"
@@ -2398,15 +2723,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.7sword2}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.7sword2}"
 			x: 1.0d
 			y: 7.0d
 		}
 		{
 			id: "0D7FA4B9120DDE0E"
 			optional: true
+			rewards: [{
+				id: "2B239B73B3916AAB"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage9}"
 			tasks: [{
 				id: "130C8A47B1A57C48"
@@ -2439,15 +2769,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.9sword2}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.9sword2}"
 			x: 0.5d
 			y: 8.5d
 		}
 		{
 			id: "782B6B849D28C9D8"
 			optional: true
+			rewards: [{
+				id: "47FC4C58A69D446D"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage9}"
 			tasks: [{
 				id: "160F2A806080C3D7"
@@ -2480,15 +2815,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.9sword1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.9sword1}"
 			x: -0.5d
 			y: 8.5d
 		}
 		{
 			id: "4FF76F6A2CE2A8D3"
 			optional: true
+			rewards: [{
+				id: "4CDC85F46F666079"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage12}"
 			tasks: [{
 				id: "68E94040D1688C61"
@@ -2521,15 +2861,20 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.12sword2}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.12sword2}"
 			x: 1.0d
 			y: 10.0d
 		}
 		{
 			id: "6F1A9A95F40F554D"
 			optional: true
+			rewards: [{
+				id: "02E5FE8577E0DF38"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage12}"
 			tasks: [{
 				id: "7D41B4F30D2D6A8C"
@@ -2555,10 +2900,10 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.12sword1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.12sword1}"
-			x: -1.0d
+			x: 0.0d
 			y: 10.0d
 		}
 		{
@@ -2572,8 +2917,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

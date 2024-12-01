@@ -269,11 +269,7 @@
 		}
 		{
 			dependencies: ["5561EB1E3DD77EC5"]
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.uhvEnergyHatch.3}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.uhvEnergyHatch.4}"
-			]
+			description: ["{atm9.quest.gregtech.uhv.desc.uhvEnergyHatch.3}"]
 			id: "6F8E58FF4D96C4BC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -879,11 +875,7 @@
 		}
 		{
 			dependencies: ["6F8E58FF4D96C4BC"]
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.complexNaquadah.1}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.complexNaquadah.2}"
-			]
+			description: ["{atm9.quest.gregtech.uhv.desc.complexNaquadah.1}"]
 			id: "0DB21D996607BD8D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1135,8 +1127,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

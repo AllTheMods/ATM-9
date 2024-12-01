@@ -10,13 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"{atm9.quest.gregtech.lv.desc.machineUpgrade.1}"
-				""
-				"{atm9.quest.gregtech.lv.desc.machineUpgrade.2}"
-				""
-				"{atm9.quest.gregtech.lv.desc.machineUpgrade.3}"
-			]
+			description: ["{atm9.quest.gregtech.lv.desc.machineUpgrade.1}\\n\\n{atm9.quest.gregtech.lv.desc.machineUpgrade.2}\\n\\n{atm9.quest.gregtech.lv.desc.machineUpgrade.3}"]
 			id: "5C1BB559DD83E88F"
 			rewards: [
 				{
@@ -906,25 +900,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: [
-				"{atm9.quest.gregtech.lv.desc.resourceGeneration.1}"
-				""
-				"{atm9.quest.gregtech.lv.desc.resourceGeneration.2}"
-				""
-				"{atm9.quest.gregtech.lv.desc.resourceGeneration.3}"
-				""
-				"{atm9.quest.gregtech.lv.desc.resourceGeneration.4}"
-				""
-				"{atm9.quest.gregtech.lv.desc.resourceGeneration.5}"
-				""
-				"{atm9.quest.gregtech.lv.desc.resourceGeneration.6}"
-				""
-				"{atm9.quest.gregtech.lv.desc.resourceGeneration.7}"
-				""
-				"{atm9.quest.gregtech.lv.desc.resourceGeneration.8}"
-				""
-				"{atm9.quest.gregtech.lv.desc.resourceGeneration.9}"
-			]
+			description: ["{atm9.quest.gregtech.lv.desc.resourceGeneration.1}\\n\\n{atm9.quest.gregtech.lv.desc.resourceGeneration.2}\\n\\n{atm9.quest.gregtech.lv.desc.resourceGeneration.3}\\n\\n{atm9.quest.gregtech.lv.desc.resourceGeneration.4}\\n\\n{atm9.quest.gregtech.lv.desc.resourceGeneration.5}\\n\\n{atm9.quest.gregtech.lv.desc.resourceGeneration.6}\\n\\n{atm9.quest.gregtech.lv.desc.resourceGeneration.7}\\n\\n{atm9.quest.gregtech.lv.desc.resourceGeneration.8}\\n\\n{atm9.quest.gregtech.lv.desc.resourceGeneration.9}"]
 			id: "0D99638C96AB2EEA"
 			min_width: 400
 			optional: true
@@ -1198,8 +1174,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
