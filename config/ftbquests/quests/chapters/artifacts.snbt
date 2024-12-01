@@ -56,7 +56,6 @@
 		}
 		{
 			height: 5.0d
-			hover: ["Vampire Hunter"]
 			image: "atm:textures/questpics/artifacts/artifacts_cowboy.png"
 			rotation: 0.0d
 			width: 2.67203513909224d
@@ -65,7 +64,6 @@
 		}
 		{
 			height: 5.0d
-			hover: ["Pool Party"]
 			image: "atm:textures/questpics/artifacts/artifacts_pool.png"
 			rotation: 0.0d
 			width: 2.5428571428571427d
@@ -74,7 +72,6 @@
 		}
 		{
 			height: 5.0d
-			hover: ["'Flame on!'"]
 			image: "atm:textures/questpics/artifacts/artifacts_flameon.png"
 			rotation: 0.0d
 			width: 2.8474320241691844d
@@ -83,7 +80,6 @@
 		}
 		{
 			height: 5.0d
-			hover: ["Feeling Lucky"]
 			image: "atm:textures/questpics/artifacts/artifacts_lucky.png"
 			rotation: 0.0d
 			width: 2.0412517780938835d
@@ -92,7 +88,6 @@
 		}
 		{
 			height: 5.0d
-			hover: ["Hungry Hungry Hippo"]
 			image: "atm:textures/questpics/artifacts/artifacts_hungry.png"
 			rotation: 0.0d
 			width: 2.766990291262136d
@@ -128,7 +123,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.rootedboots}"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
 			tasks: [{
 				id: "7D3BB67D10EA5245"
 				item: "artifacts:rooted_boots"
@@ -147,7 +142,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.flippers}"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
 			tasks: [{
 				id: "302D0A2C7FE07D17"
 				item: "artifacts:flippers"
@@ -167,7 +162,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.steadfastboots}"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
 			tasks: [{
 				id: "4323420D7FF4F583"
 				item: "artifacts:steadfast_spikes"
@@ -186,7 +181,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.snowshoes}"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
 			tasks: [{
 				id: "268319B4D86AF1FA"
 				item: "artifacts:snowshoes"
@@ -204,7 +199,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.runningshoes}"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
 			tasks: [{
 				id: "7DABA35BECFBE1E2"
 				item: "artifacts:running_shoes"
@@ -223,7 +218,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.kittyslippers}"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
 			tasks: [{
 				id: "294D97F3514A382B"
 				item: "artifacts:kitty_slippers"
@@ -242,7 +237,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.bunnyhoppers}"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
 			tasks: [{
 				id: "42875442667F74F9"
 				item: "artifacts:bunny_hoppers"
@@ -261,7 +256,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.aquadashers}"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
 			tasks: [{
 				id: "61C6CFA5DB18E2DC"
 				item: "artifacts:aqua_dashers"
@@ -280,7 +275,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.artifacts.subt.pickaxeheater}"
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
 			tasks: [{
 				id: "3324A34D10894F27"
 				item: "artifacts:pickaxe_heater"
@@ -298,7 +293,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.artifacts.subt.onionring}"
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
 			tasks: [{
 				id: "749900AF5B497E65"
 				item: "artifacts:onion_ring"
@@ -316,7 +311,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.artifacts.subt.goldenhook}"
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
 			tasks: [{
 				id: "2F5269ABA03B3701"
 				item: "artifacts:golden_hook"
@@ -334,7 +329,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.artifacts.subt.vampiricglove}"
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
 			tasks: [{
 				id: "308C57B7ACB795F0"
 				item: "artifacts:vampiric_glove"
@@ -353,7 +348,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.artifacts.subt.pocketpiston}"
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
 			tasks: [{
 				id: "078D36F0A6A3F09C"
 				item: "artifacts:pocket_piston"
@@ -371,7 +366,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.artifacts.subt.firegauntlet}"
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
 			tasks: [{
 				id: "2C689F171E77768E"
 				item: "artifacts:fire_gauntlet"
@@ -390,7 +385,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.artifacts.subt.powerglove}"
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
 			tasks: [{
 				id: "58EBE55746C50688"
 				item: "artifacts:power_glove"
@@ -409,7 +404,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.artifacts.subt.feralclaws}"
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
 			tasks: [{
 				id: "01D07B21B85FB2B8"
 				item: "artifacts:feral_claws"
@@ -427,7 +422,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.artifacts.subt.diggingclaws}"
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
 			tasks: [{
 				id: "29454B0A459EAA52"
 				item: "artifacts:digging_claws"
@@ -446,7 +441,7 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.artifacts.subt.chorusbelt}"
+			subtitle: "{atm9.quest.artifacts.subt.belt}"
 			tasks: [{
 				id: "47974C878B90D0DC"
 				item: "artifacts:chorus_totem"
@@ -465,7 +460,7 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.artifacts.subt.heliumflamingo}"
+			subtitle: "{atm9.quest.artifacts.subt.belt}"
 			tasks: [{
 				id: "744D283E79F6357A"
 				item: "artifacts:helium_flamingo"
@@ -484,7 +479,7 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.artifacts.subt.crystalheart}"
+			subtitle: "{atm9.quest.artifacts.subt.belt}"
 			tasks: [{
 				id: "54E784C8438E430A"
 				item: "artifacts:crystal_heart"
@@ -503,7 +498,7 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.artifacts.subt.antidotevessel}"
+			subtitle: "{atm9.quest.artifacts.subt.belt}"
 			tasks: [{
 				id: "6D34B89C0FD0BA2B"
 				item: "artifacts:antidote_vessel"
@@ -522,7 +517,7 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.artifacts.subt.universalattractor}"
+			subtitle: "{atm9.quest.artifacts.subt.belt}"
 			tasks: [{
 				id: "1762FBFEF8647F60"
 				item: "artifacts:universal_attractor"
@@ -541,7 +536,7 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.artifacts.subt.obsidianskull}"
+			subtitle: "{atm9.quest.artifacts.subt.belt}"
 			tasks: [{
 				id: "32245E61C3910041"
 				item: "artifacts:obsidian_skull"
@@ -560,7 +555,7 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.artifacts.subt.cloudinabottle}"
+			subtitle: "{atm9.quest.artifacts.subt.belt}"
 			tasks: [{
 				id: "3FF51BD0B49B2F93"
 				item: "artifacts:cloud_in_a_bottle"
@@ -579,7 +574,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.charmofsinking}"
+			subtitle: "{atm9.quest.artifacts.subt.necklace}"
 			tasks: [{
 				id: "28FC7C19E2A3E1B9"
 				item: "artifacts:charm_of_sinking"
@@ -598,7 +593,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.thornpendant}"
+			subtitle: "{atm9.quest.artifacts.subt.necklace}"
 			tasks: [{
 				id: "0562A0A5A57E8DD8"
 				item: "artifacts:thorn_pendant"
@@ -617,7 +612,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.flamependant}"
+			subtitle: "{atm9.quest.artifacts.subt.necklace}"
 			tasks: [{
 				id: "609310B07E907A4F"
 				item: "artifacts:flame_pendant"
@@ -636,7 +631,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.shockpendant}"
+			subtitle: "{atm9.quest.artifacts.subt.necklace}"
 			tasks: [{
 				id: "62EB681EEB76FCDB"
 				item: "artifacts:shock_pendant"
@@ -655,7 +650,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.panicpendant}"
+			subtitle: "{atm9.quest.artifacts.subt.necklace}"
 			tasks: [{
 				id: "7CC5ED6BF577834C"
 				item: "artifacts:panic_necklace"
@@ -674,7 +669,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.crossnecklace}"
+			subtitle: "{atm9.quest.artifacts.subt.necklace}"
 			tasks: [{
 				id: "5AA765DFA49DA1C9"
 				item: "artifacts:cross_necklace"
@@ -693,7 +688,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.luckyscarf}"
+			subtitle: "{atm9.quest.artifacts.subt.scarf}"
 			tasks: [{
 				id: "07DB486C6CAF2E13"
 				item: "artifacts:lucky_scarf"
@@ -712,7 +707,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.scarfofinvisibility}"
+			subtitle: "{atm9.quest.artifacts.subt.scarf}"
 			tasks: [{
 				id: "3244560CD2EE978D"
 				item: "artifacts:scarf_of_invisibility"
@@ -731,7 +726,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.anglerhat}"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
 			tasks: [{
 				id: "7E2317305BD5F842"
 				item: "artifacts:anglers_hat"
@@ -750,7 +745,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.cowboyhat}"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
 			tasks: [{
 				id: "7EC988A7F600F860"
 				item: "artifacts:cowboy_hat"
@@ -769,7 +764,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.superstitioushat}"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
 			tasks: [{
 				id: "1F1665E13DA82D42"
 				item: "artifacts:superstitious_hat"
@@ -788,7 +783,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.villagerhat}"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
 			tasks: [{
 				id: "6B7D97464175DAD6"
 				item: "artifacts:villager_hat"
@@ -807,7 +802,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.nightvisiongoggles}"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
 			tasks: [{
 				id: "187EE75FF4C074B4"
 				item: "artifacts:night_vision_goggles"
@@ -826,7 +821,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.snorkel}"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
 			tasks: [{
 				id: "4E77B753AADEF6A8"
 				item: "artifacts:snorkel"
@@ -845,7 +840,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.noveltydrinkinghat}"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
 			tasks: [{
 				id: "485807A0B369A8F7"
 				item: "artifacts:novelty_drinking_hat"
@@ -864,7 +859,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.plasticdrinkinghat}"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
 			tasks: [{
 				id: "5D461DEF3DEDCA4A"
 				item: "artifacts:plastic_drinking_hat"
@@ -883,7 +878,7 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "{atm9.quest.artifacts.subt.whoopiecushion}"
+			subtitle: "{atm9.quest.artifacts.subt.unique}"
 			tasks: [{
 				id: "1572258C18AF7CED"
 				item: "artifacts:whoopee_cushion"
@@ -903,7 +898,7 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "{atm9.quest.artifacts.subt.everlastingsteak}"
+			subtitle: "{atm9.quest.artifacts.subt.unique}"
 			tasks: [{
 				id: "312B1C048832A594"
 				item: "artifacts:eternal_steak"
@@ -922,7 +917,7 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "{atm9.quest.artifacts.subt.everlastingbeef}"
+			subtitle: "{atm9.quest.artifacts.subt.unique}"
 			tasks: [{
 				id: "5DF60B934B5F3EBB"
 				item: "artifacts:everlasting_beef"
@@ -941,7 +936,7 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "{atm9.quest.artifacts.subt.umbrella}"
+			subtitle: "{atm9.quest.artifacts.subt.unique}"
 			tasks: [{
 				id: "17A1084B7A6C0540"
 				item: "artifacts:umbrella"

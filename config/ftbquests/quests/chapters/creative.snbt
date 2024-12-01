@@ -230,6 +230,7 @@
 						Throttle: 1.0d
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter3.jetpack}"
