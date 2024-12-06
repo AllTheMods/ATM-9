@@ -41,6 +41,10 @@
 		sortRange = ""
 
 	[[sorting.containerOverrides]]
+		containerClass = "de.mari_023.ae2wtlib.wet.*Screen"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
 		containerClass = "com.github.glodblock.epp.client.gui.*"
 		sortRange = ""
 
