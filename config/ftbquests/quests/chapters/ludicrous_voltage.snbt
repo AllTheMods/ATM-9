@@ -433,7 +433,7 @@
 				item: "gtceu:ruridit_dust"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -5.5d
 			y: -3.0d
 		}
 		{
@@ -474,8 +474,8 @@
 				item: "gtceu:quantum_star"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: -2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["559DB570A9152259"]
@@ -513,10 +513,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"060233F903FAE63B"
-				"5A658F239928850E"
-			]
+			dependencies: ["060233F903FAE63B"]
 			description: ["{atm9.quest.gregtech.luv.desc.luvMachineProgress.1}"]
 			id: "5DFE866011AB92DD"
 			rewards: [{
@@ -525,6 +522,7 @@
 				table_id: 7041264405549027492L
 				type: "loot"
 			}]
+			shape: "square"
 			subtitle: "{atm9.quest.gregtech.luv.subt.luvPunsTired.1}"
 			tasks: [{
 				id: "36E2268117B6B41E"
@@ -532,13 +530,13 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.gregtech.luv.title.luvMachineHull}"
-			x: -5.5d
-			y: 1.5d
+			x: -7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
 				"643E6B22C8B376BA"
-				"204EDA5F8B1C7580"
+				"3639A936B5930517"
 			]
 			description: ["{atm9.quest.gregtech.luv.desc.upgradeMultiblock.1}"]
 			id: "1DDA5ADA11DF868F"
@@ -558,29 +556,6 @@
 			}]
 			x: 3.0500000000000003d
 			y: -1.75d
-		}
-		{
-			dependencies: ["1DDA5ADA11DF868F"]
-			description: [
-				"{atm9.quest.gregtech.luv.desc.luvEnergyUpgrade.1}"
-				""
-				"{atm9.quest.gregtech.luv.desc.luvEnergyUpgrade.2}"
-			]
-			id: "29CD5C0A253425D5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "09BEA2A2E1A2FD24"
-				table_id: 7041264405549027492L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.luv.subt.luvEnergyHatch4x.1}"
-			tasks: [{
-				id: "7E7EBF9F9D9554EA"
-				item: "gtceu:luv_energy_input_hatch_4a"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -0.5d
 		}
 		{
 			dependencies: ["320A70BC50ED456F"]
@@ -623,7 +598,9 @@
 			y: -2.9d
 		}
 		{
+			dependencies: ["033BF8D12E32A5E5"]
 			description: ["{atm9.quest.gregtech.luv.desc.osmiridiumIngot.1}"]
+			hide_dependency_lines: true
 			id: "1D0B60026346A844"
 			rewards: [{
 				count: 4
@@ -665,6 +642,7 @@
 			dependencies: [
 				"1B691393463D3E0E"
 				"32FE0C0475BB45C6"
+				"6CB002C2D8DC34EA"
 			]
 			description: ["{atm9.quest.gregtech.luv.desc.ludicrousVoltageCoil.1}"]
 			id: "643E6B22C8B376BA"
@@ -706,8 +684,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -3.0d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1DBF5A76DCDF5E49"]
@@ -728,19 +706,21 @@
 				item: "gtceu:ruridit_gear"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
 			dependencies: [
 				"0E4C711E77497984"
 				"60175A8E3A67F51C"
+				"3DA1449117521889"
 			]
 			description: [
 				"{atm9.quest.gregtech.luv.desc.assemblyLineNecessity.1}"
 				""
 				"{atm9.quest.gregtech.luv.desc.assemblyLineNecessity.2}"
 			]
+			icon: "gtceu:assembly_line"
 			id: "204EDA5F8B1C7580"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -769,7 +749,7 @@
 					type: "item"
 				}
 				{
-					count: 9L
+					count: 8L
 					id: "6A1E43E018DE4910"
 					item: "gtceu:assembly_line_grating"
 					type: "item"
@@ -786,8 +766,13 @@
 					item: "gtceu:laminated_glass"
 					type: "item"
 				}
+				{
+					id: "0C5E879C1FFCBA15"
+					item: "gtceu:data_access_hatch"
+					type: "item"
+				}
 			]
-			x: 3.0d
+			x: -2.5d
 			y: -3.0d
 		}
 		{
@@ -888,7 +873,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5DFE866011AB92DD"]
+			dependencies: ["5A658F239928850E"]
 			description: [
 				"{atm9.quest.gregtech.luv.desc.ivTierAdvancement.1}"
 				""
@@ -2071,7 +2056,6 @@
 		{
 			dependencies: ["5A658F239928850E"]
 			description: ["{atm9.quest.gregtech.luv.desc.mixingRuthenium}"]
-			hide_dependency_lines: true
 			id: "033BF8D12E32A5E5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2085,7 +2069,7 @@
 				item: "gtceu:iv_mixer"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -7.0d
 			y: -3.0d
 		}
 		{
@@ -2099,8 +2083,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2127,6 +2111,96 @@
 			]
 			x: -9.5d
 			y: 0.0d
+		}
+		{
+			description: ["{atm9.quest.gregtech.luv.desc.datastick}"]
+			id: "3DA1449117521889"
+			rewards: [{
+				count: 2
+				id: "547DF36C64459835"
+				item: {
+					Count: 1
+					id: "gtceu:data_stick"
+					tag: { }
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "70220441AFD0B171"
+				item: {
+					Count: 4
+					id: "gtceu:data_stick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3B4091BCFCEFDFF3"]
+			description: ["{atm9.quest.gregtech.luv.desc.scanner}"]
+			id: "3639A936B5930517"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FA980AE513DF033"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.luv.subt.scanner}"
+			tasks: [{
+				id: "3C4F59CF30699DB0"
+				item: "gtceu:iv_scanner"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["204EDA5F8B1C7580"]
+			description: ["{atm9.quest.gregtech.luv.desc.research}"]
+			id: "3B4091BCFCEFDFF3"
+			rewards: [{
+				count: 2
+				id: "6D3B579BA3A4F542"
+				item: {
+					Count: 1
+					id: "gtceu:data_stick"
+					tag: { }
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.gregtech.luv.subt.research}"
+			tasks: [{
+				id: "69B9966C218584A1"
+				title: "Research"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.gregtech.luv.research}"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DFE866011AB92DD"]
+			description: ["{atm9.quest.gregtech.luv.desc.assembler}"]
+			hide_dependency_lines: true
+			id: "6CB002C2D8DC34EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "010EC9F0B6F69679"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "44DE80B2415C87EA"
+				item: "gtceu:luv_assembler"
+				type: "item"
+			}]
+			x: 7.9d
+			y: -1.7999999999999998d
 		}
 	]
 	title: "{atm9.chapters.32.title}"
