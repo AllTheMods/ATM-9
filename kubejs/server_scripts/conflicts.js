@@ -15,6 +15,8 @@ ServerEvents.recipes(allthemods => {
   allthemods.remove({ id: 'gtceu:shaped/block_compress_nether_star' })
   allthemods.remove({ id: 'gtceu:shaped/block_compress_ender_pearl' })
   allthemods.remove({ id: 'gtceu:shaped/block_compress_flint' })
+  allthemods.remove({ id: 'gtceu:shaped/block_compress_certus_quartz' })
+  allthemods.shaped('ae2:quartz_block', ['CC', 'CC'], { C: 'gtceu:certus_quartz_gem' }).id(`allthemods:ae2/quartz_block`)
 
   // GT Duplicate Dusts
   allthemods.remove({ id: 'gtceu:shapeless/dust_bronze'})
