@@ -20,6 +20,8 @@ StartupEvents.modifyCreativeTab('ironfurnaces:ironfurnaces_tab', allthemods => {
 
 StartupEvents.modifyCreativeTab('expatternprovider:tab_main', allthemods => {
     allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:soldering_alloy"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "appmek:chemical", gasName: "mekanism:polonium", t:0b, amount: 1000L}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "appmek:chemical", gasName: "mekanism:plutonium", t:0b, amount: 1000L}}'))
     allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:chlorine"}}'))
     allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:sulfuric_acid"}}'))
     allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:hydrogen"}}'))

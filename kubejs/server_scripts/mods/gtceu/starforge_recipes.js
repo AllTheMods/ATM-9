@@ -63,13 +63,13 @@ ServerEvents.recipes(allthemods => {
 	// Gregstar creative uses
 	allthemods.recipes.gtceu.star_forge('infinite_polonium')
 		.itemInputs(['1000x mekanism:pellet_polonium', '2x kubejs:greg_star_shard'])
-		.itemOutputs(Item.of('mekanism:creative_chemical_tank', '{mekData: {GasTanks: [{Tank: 0b, stored: {gasName: "mekanism:polonium", amount: 9223372036854775807L}}]}}'))
+		.itemOutputs(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "appmek:chemical", gasName: "mekanism:polonium", t:0b, amount: 1000L}}'))
 		.duration(4000)
 		.EUt(ZPM)
 	
 	allthemods.recipes.gtceu.star_forge('infinite_plutonium')
 		.itemInputs(['1000x mekanism:pellet_plutonium', '2x kubejs:greg_star_shard'])
-		.itemOutputs(Item.of('mekanism:creative_chemical_tank', '{mekData: {GasTanks: [{Tank: 0b, stored: {gasName: "mekanism:plutonium", amount: 9223372036854775807L}}]}}'))
+		.itemOutputs(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "appmek:chemical", gasName: "mekanism:plutonium", t:0b, amount: 1000L}}'))
 		.duration(4000)
 		.EUt(ZPM)
 	
