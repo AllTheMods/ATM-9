@@ -1,15 +1,21 @@
-GTCEuStartupEvents.registry("gtceu:machine", event => {
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
-    event.create("world_data_scanner", "simple", GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV)
-        .rotationState(RotationState.NON_Y_AXIS)
-        .recipeType("world_data_scanner", true, true)
-        .workableTieredHullRenderer("gtceu:block/machines/scanner")
-        .tankScalingFunction(tier => tier * 0 + 64000)
+GTCEuStartupEvents.registry("gtceu:machine", allthemods => {
 
-    event.create("void_miner", "multiblock")
+    allthemods.create("world_data_scanner", "simple")
+    .tiers(GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV)
+    .definition((tier, builder) =>
+        builder 
+            .rotationState(RotationState.NON_Y_AXIS)
+            .recipeType("world_data_scanner")
+            .workableTieredHullRenderer("gtceu:block/machines/scanner")
+        )
+
+    allthemods.create("void_miner", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType("void_miner")
-        .recipeModifier(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK))
+        .recipeModifier(GTRecipeModifiers.OC_NON_PERFECT)
         .appearanceBlock(GTBlocks.CASING_TITANIUM_STABLE)
         .pattern((definition) =>
             FactoryBlockPattern.start()
@@ -29,16 +35,16 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
     
 })
 
-GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
+GTCEuStartupEvents.registry("gtceu:recipe_type", allthemods => {
 
-    event.create("void_miner")
+    allthemods.create("void_miner")
         .setEUIO("in")
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setMaxIOSize(2, 4, 2, 0)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.SCIENCE)
 
-    event.create("world_data_scanner")
+    allthemods.create("world_data_scanner")
         .setEUIO("in")
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setMaxIOSize(2, 1, 2, 0)
@@ -47,11 +53,14 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
 
 })
 
-StartupEvents.registry("item", event => {
-    event.create("overworld_data")
+StartupEvents.registry("item", allthemods => {
+    allthemods.create("overworld_data")
         .texture("gtceu:item/data_stick")
-    event.create("nether_data")
+    allthemods.create("nether_data")
         .texture("gtceu:item/data_stick")
-    event.create("end_data")
+    allthemods.create("end_data")
         .texture("gtceu:item/data_stick")
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
