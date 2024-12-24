@@ -18,6 +18,26 @@ StartupEvents.modifyCreativeTab('ironfurnaces:ironfurnaces_tab', allthemods => {
 	allthemods.add('ironfurnaces:upgrade_unobtainium')
 })
 
+StartupEvents.modifyCreativeTab('expatternprovider:tab_main', allthemods => {
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:soldering_alloy"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "appmek:chemical", gasName: "mekanism:polonium", t:0b, amount: 1000L}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "appmek:chemical", gasName: "mekanism:plutonium", t:0b, amount: 1000L}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:chlorine"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:sulfuric_acid"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:hydrogen"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:oxygen"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:styrene_butadiene_rubber"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "minecraft:lava"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:polytetrafluoroethylene"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:polybenzimidazole"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:ethylene"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:lubricant"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:air"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:ender_air"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:nether_air"}}'))
+    allthemods.add(Item.of('expatternprovider:infinity_cell', '{record: {"#c": "ae2:f", id: "gtceu:fluorine"}}'))
+})
+
 StartupEvents.modifyCreativeTab('functional_blocks', allthemods => {
     [
     'ancient',      'azalea',       'blossom',          'oak',
