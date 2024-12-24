@@ -492,7 +492,7 @@ ServerEvents.recipes(allthemods => {
 
     allthemods.recipes.gtceu.macerator('macerate_ruby_ore')
         .itemInputs('alltheores:ruby_ore')
-        .itemOutputs('2x gtceu:crushed_tin_ore')
+        .itemOutputs('2x gtceu:crushed_ruby_ore')
         .chancedOutput('gtceu:chromium_dust', 1400, 850)
         .chancedOutput('gtceu:stone_dust', 6700, 800)
         .duration(400)
