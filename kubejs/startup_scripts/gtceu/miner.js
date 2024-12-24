@@ -1,15 +1,21 @@
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 GTCEuStartupEvents.registry("gtceu:machine", event => {
 
-    event.create("world_data_scanner", "simple", GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV)
-        .rotationState(RotationState.NON_Y_AXIS)
-        .recipeType("world_data_scanner", true, true)
-        .workableTieredHullRenderer("gtceu:block/machines/scanner")
-        .tankScalingFunction(tier => tier * 0 + 64000)
+    event.create("world_data_scanner", "simple")
+    .tiers(GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV)
+    .definition((tier, builder) =>
+        builder 
+            .rotationState(RotationState.NON_Y_AXIS)
+            .recipeType("world_data_scanner")
+            .workableTieredHullRenderer("gtceu:block/machines/scanner")
+        )
 
     event.create("void_miner", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType("void_miner")
-        .recipeModifier(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK))
+        .recipeModifier(GTRecipeModifiers.OC_NON_PERFECT)
         .appearanceBlock(GTBlocks.CASING_TITANIUM_STABLE)
         .pattern((definition) =>
             FactoryBlockPattern.start()
@@ -55,3 +61,6 @@ StartupEvents.registry("item", event => {
     event.create("end_data")
         .texture("gtceu:item/data_stick")
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

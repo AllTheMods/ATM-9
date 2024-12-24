@@ -20,11 +20,11 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', allthemods => {
 })
 
 GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
-    allthemods.create('mega_fusion_reactor', 'multiblock', (holder) => new $FusionReactorMachine(holder, GTValues.UIV))
+    allthemods.create('mega_fusion_reactor', 'multiblock').machine((holder) => new $FusionReactorMachine(holder, GTValues.UIV))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeTypes(GTRecipeTypes.get('mega_fusion_reactor'))
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
-        .appearanceBlock(GCyMBlocks.CASING_ATOMIC)
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
+        .appearanceBlock(GCYMBlocks.CASING_ATOMIC)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("                                 ", "                                 ", "C  N C                     C N  C", "C  N C                     C N  C", "C  N C                     C N  C", "C  N C                     C N  C", "                                 ", "                                 ")
             .aisle("                                 ", "C  N C        AAAAA        C N  C", "ATT#H#H C    CAAAAAC    C H#H#TTA", "ATT#H#H CS  SCAGGGACS  SC H#H#TTA", "ATT#H#H CS  SCAGGGACS  SC H#H#TTA", "ATT#H#H C    CAAAAAC    C H#H#TTA", "C  N C        AAAAA        C N  C", "                                 ")

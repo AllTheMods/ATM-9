@@ -15,8 +15,8 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
     allthemods.create('star_forge', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeTypes('star_forge')
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
-        .appearanceBlock(GCyMBlocks.CASING_ATOMIC)
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
+        .appearanceBlock(GCYMBlocks.CASING_ATOMIC)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("               ", "               ", "               ", "               ", "               ", "      W W      ", "     CWEWC     ", "      W W      ", "               ", "               ", "               ", "               ", "               ")
             .aisle("               ", "               ", "               ", "               ", "      GCG      ", "     CWCWC     ", "   CCPPPPPCC   ", "     CWCWC     ", "      GCG      ", "               ", "               ", "               ", "               ")
@@ -40,14 +40,14 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where('I', Predicates.blocks("allthetweaks:atm_star_block"))
             .where('S', Predicates.blocks("mekanism:supercharged_coil"))
             .where('E', Predicates.abilities(PartAbility.INPUT_ENERGY).setMinGlobalLimited(2)
-                .or(Predicates.blocks('gtceu:atomic_casing'))) /*$GCyMBlocks.CASING_ATOMIC.get()*/
+                .or(Predicates.blocks('gtceu:atomic_casing'))) /*$GCYMBlocks.CASING_ATOMIC.get()*/
             .where('C', Predicates.blocks('gtceu:atomic_casing')
-                .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setExactLimit(1))) /*$GCyMBlocks.CASING_ATOMIC.get()*/
+                .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setExactLimit(1))) /*$GCYMBlocks.CASING_ATOMIC.get()*/
             .where('F', Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(5)
-                .or(Predicates.blocks('gtceu:atomic_casing'))) /*$GCyMBlocks.CASING_ATOMIC.get()*/
+                .or(Predicates.blocks('gtceu:atomic_casing'))) /*$GCYMBlocks.CASING_ATOMIC.get()*/
             .where('A', Predicates.abilities(PartAbility.IMPORT_ITEMS).setExactLimit(1)
                 .or(Predicates.abilities(PartAbility.EXPORT_ITEMS)).setExactLimit(1)
-                .or(Predicates.blocks('gtceu:atomic_casing'))) /*$GCyMBlocks.CASING_ATOMIC.get()*/
+                .or(Predicates.blocks('gtceu:atomic_casing'))) /*$GCYMBlocks.CASING_ATOMIC.get()*/
             .where(' ', Predicates.any())
             .build())
         .shapeInfo(controller => MultiblockShapeInfo.builder()
