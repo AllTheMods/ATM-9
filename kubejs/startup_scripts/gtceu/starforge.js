@@ -40,14 +40,14 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where('I', Predicates.blocks("allthetweaks:atm_star_block"))
             .where('S', Predicates.blocks("mekanism:supercharged_coil"))
             .where('E', Predicates.abilities(PartAbility.INPUT_ENERGY).setMinGlobalLimited(2)
-                .or(Predicates.blocks('gtceu:atomic_casing'))) /*$GCYMBlocks.CASING_ATOMIC.get()*/
+                .or(Predicates.blocks('gtceu:atomic_casing'))) 
             .where('C', Predicates.blocks('gtceu:atomic_casing')
-                .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setExactLimit(1))) /*$GCYMBlocks.CASING_ATOMIC.get()*/
+                .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setExactLimit(1))) 
             .where('F', Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(5)
-                .or(Predicates.blocks('gtceu:atomic_casing'))) /*$GCYMBlocks.CASING_ATOMIC.get()*/
+                .or(Predicates.blocks('gtceu:atomic_casing'))) 
             .where('A', Predicates.abilities(PartAbility.IMPORT_ITEMS).setExactLimit(1)
                 .or(Predicates.abilities(PartAbility.EXPORT_ITEMS)).setExactLimit(1)
-                .or(Predicates.blocks('gtceu:atomic_casing'))) /*$GCYMBlocks.CASING_ATOMIC.get()*/
+                .or(Predicates.blocks('gtceu:atomic_casing'))) 
             .where(' ', Predicates.any())
             .build())
         .shapeInfo(controller => MultiblockShapeInfo.builder()
