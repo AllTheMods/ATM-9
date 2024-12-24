@@ -107,13 +107,15 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .build())
         .workableCasingRenderer("gtceu:block/casings/gcym/atomic_casing",
             "gtceu:block/multiblock/assembly_line", false)
-    /*
-    allthemods.create('energy_input_hatch', 'custom', (holder, tier) => { return new EnergyHatchPartMachine(holder, tier, $IO.IN, 2) }, GTValues.MAX)
-        .rotationState(RotationState.ALL)
-        .abilities(PartAbility.INPUT_ENERGY)
-        .overlayTieredHullRenderer("energy_hatch.input")
-    */
-})
+
+        allthemods.create('energy_input_hatch', 'custom').tiers(GTValues.MAX)
+            .definition((tier, builder) => {
+                builder.rotationState(RotationState.ALL)
+                    .abilities(PartAbility.INPUT_ENERGY)
+                    .overlayTieredHullRenderer("energy_hatch.input")
+            }).machine((holder) => { return new $EnergyHatchPartMachine(holder, GTValues.MAX, $IO.IN, 2) })
+        
+    })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
