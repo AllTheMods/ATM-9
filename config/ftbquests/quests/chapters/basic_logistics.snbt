@@ -400,9 +400,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.basic_logistics.title.mechanicalpipes}"
 				type: "item"
 			}]
-			title: "{atm9.quest.basic_logistics.title.mechanicalpipes}"
 			x: 8.0d
 			y: -0.5d
 		}
@@ -461,9 +461,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.basic_logistics.title.universalcables}"
 				type: "item"
 			}]
-			title: "{atm9.quest.basic_logistics.title.universalcables}"
 			x: 9.0d
 			y: -0.5d
 		}
@@ -521,9 +521,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.basic_logistics.title.logicaltrasporters}"
 				type: "item"
 			}]
-			title: "{atm9.quest.basic_logistics.title.logicaltrasporters}"
 			x: 7.0d
 			y: -0.5d
 		}
@@ -582,9 +582,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.basic_logistics.title.thermconductors}"
 				type: "item"
 			}]
-			title: "{atm9.quest.basic_logistics.title.thermconductors}"
 			x: 8.5d
 			y: -1.5d
 		}
@@ -631,9 +631,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.basic_logistics.title.pressurizedtubes}"
 				type: "item"
 			}]
-			title: "{atm9.quest.basic_logistics.title.pressurizedtubes}"
 			x: 7.5d
 			y: -1.5d
 		}
@@ -677,6 +677,7 @@
 						value: "forge:tools/wrench"
 					}
 				}
+				title: "{atm9.quest.basic_logistics.title.wrenches}"
 				type: "item"
 			}]
 			title: "{atm9.quest.basic_logistics.title.logistics}"
@@ -1113,7 +1114,6 @@
 		}
 		{
 			dependencies: ["47A2BEFB11F4D581"]
-			description: ["{atm9.quest.basic_logistics.desc.nbtfilter.1}"]
 			icon_scale: 1.5d
 			id: "374F5557ABAE8360"
 			invisible: true
@@ -1181,8 +1181,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

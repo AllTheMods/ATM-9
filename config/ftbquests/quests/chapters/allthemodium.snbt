@@ -17,8 +17,8 @@
 				""
 				"{atm9.quest.allthemodium.desc.atm_ore2}"
 			]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			id: "5BDBE666E604FCAC"
 			rewards: [
 				{
@@ -58,9 +58,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.allthemodium.atm_ore}"
 				type: "item"
 			}]
-			title: "{atm9.quest.allthemodium.atm_ore}"
 			x: -1.5d
 			y: 0.5d
 		}
@@ -116,9 +116,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.allthemodium.vib_ore}"
 				type: "item"
 			}]
-			title: "{atm9.quest.allthemodium.vib_ore}"
 			x: 0.0d
 			y: 1.0d
 		}
@@ -165,9 +165,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.allthemodium.unob_ore}"
 				type: "item"
 			}]
-			title: "{atm9.quest.allthemodium.unob_ore}"
 			x: 1.5d
 			y: 0.5d
 		}
@@ -205,7 +205,7 @@
 						]
 					}
 				}
-				title: "&dFaster Furnaces&r"
+				title: "{atm9.quest.allthemodium.furnace_task}"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.furnace}"
@@ -241,23 +241,47 @@
 						items: [
 							{
 								Count: 1b
-								id: "allthemodium:allthemodium_helmet"
+								id: "allthearcanistgear:allthemodium_boots"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 4
+									}
+								}
 							}
 							{
 								Count: 1b
-								id: "allthemodium:allthemodium_chestplate"
+								id: "allthearcanistgear:allthemodium_leggings"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 4
+									}
+								}
 							}
 							{
 								Count: 1b
-								id: "allthemodium:allthemodium_leggings"
+								id: "allthearcanistgear:allthemodium_robes"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 4
+									}
+								}
 							}
 							{
 								Count: 1b
-								id: "allthemodium:allthemodium_boots"
-							}
-							{
-								Count: 1b
-								id: "allthewizardgear:allthemodium_mage_helmet"
+								id: "allthearcanistgear:allthemodium_hat"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 4
+									}
+								}
 							}
 							{
 								Count: 1b
@@ -273,16 +297,36 @@
 							}
 							{
 								Count: 1b
+								id: "allthewizardgear:allthemodium_mage_helmet"
+							}
+							{
+								Count: 1b
 								id: "allthewizardgear:allthemodium_mage_leggings"
 							}
 							{
 								Count: 1b
 								id: "allthewizardgear:allthemodium_mage_boots"
 							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_helmet"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_chestplate"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_leggings"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_boots"
+							}
 						]
 					}
 				}
-				title: "{atm9.quest.allthemodium.atm_armor}"
+				title: "{atm9.quest.allthemodium.atm_armor_task}"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.atm_armor}"
@@ -326,7 +370,6 @@
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "159872B988A173AA"
-				title: "Exist!"
 				type: "dimension"
 			}]
 			title: "{atm9.quest.allthemodium.intro}"
@@ -355,7 +398,6 @@
 				item: "allthemodium:allthemodium_apple"
 				type: "item"
 			}]
-			title: "{atm9.quest.allthemodium.apple}"
 			x: 3.0d
 			y: 4.0d
 		}
@@ -381,15 +423,14 @@
 				item: "allthemodium:allthemodium_carrot"
 				type: "item"
 			}]
-			title: "{atm9.quest.allthemodium.carrot}"
 			x: -3.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5BDBE666E604FCAC"]
 			description: ["{atm9.quest.allthemodium.desc.atm_tools}"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "30E6C6825D78B5F1"
 			rewards: [
 				{
@@ -436,7 +477,7 @@
 						]
 					}
 				}
-				title: "&6Allthemodium Tools&r"
+				title: "{atm9.quest.allthemodium.atm_tools_task}"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.atm_tools}"
@@ -453,8 +494,8 @@
 				""
 				"{atm9.quest.allthemodium.desc.teleport4}"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "3C322474D2F2BA99"
 			rewards: [
 				{
@@ -600,7 +641,7 @@
 						]
 					}
 				}
-				title: "&6Productive ATM Bees&r"
+				title: "{atm9.quest.allthemodium.bees_task}"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.bees}"
@@ -608,7 +649,7 @@
 			y: 3.0d
 		}
 		{
-			hide: true
+			hide_until_deps_visible: true
 			id: "2DB81CE6F647D08A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -627,7 +668,7 @@
 			y: 10.5d
 		}
 		{
-			hide: true
+			hide_until_deps_visible: true
 			id: "3E0A6D2FAEEF22A8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -646,7 +687,7 @@
 			y: 10.0d
 		}
 		{
-			hide: true
+			hide_until_deps_visible: true
 			id: "38135FFD9ED64395"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -901,6 +942,50 @@
 						items: [
 							{
 								Count: 1b
+								id: "allthearcanistgear:vibranium_boots"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 5
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:vibranium_robes"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 5
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:vibranium_leggings"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 5
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:vibranium_hat"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 5
+									}
+								}
+							}
+							{
+								Count: 1b
 								id: "allthewizardgear:vibranium_mage_helmet"
 							}
 							{
@@ -925,11 +1010,11 @@
 							}
 							{
 								Count: 1b
-								id: "allthemodium:vibranium_boots"
+								id: "allthemodium:vibranium_leggings"
 							}
 							{
 								Count: 1b
-								id: "allthemodium:vibranium_leggings"
+								id: "allthemodium:vibranium_boots"
 							}
 							{
 								Count: 1b
@@ -942,7 +1027,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.allthemodium.vib_armor}"
+				title: "{atm9.quest.allthemodium.vib_armor_task}"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.vib_armor}"
@@ -977,7 +1062,55 @@
 						items: [
 							{
 								Count: 1b
-								id: "allthewizardgear:unobtainium_mage_helmet"
+								id: "allthearcanistgear:unobtainium_boots"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 6
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:unobtainium_leggings"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 6
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:unobtainium_robes"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 6
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:unobtainium_hat"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 6
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthewizardgear:unobtainium_mage_leggings"
+							}
+							{
+								Count: 1b
+								id: "allthewizardgear:unobtainium_mage_boots"
 							}
 							{
 								Count: 1b
@@ -993,19 +1126,11 @@
 							}
 							{
 								Count: 1b
-								id: "allthewizardgear:unobtainium_mage_leggings"
+								id: "allthewizardgear:unobtainium_mage_helmet"
 							}
 							{
 								Count: 1b
-								id: "allthewizardgear:unobtainium_mage_boots"
-							}
-							{
-								Count: 1b
-								id: "allthemodium:unobtainium_boots"
-							}
-							{
-								Count: 1b
-								id: "allthemodium:unobtainium_leggings"
+								id: "allthemodium:unobtainium_helmet"
 							}
 							{
 								Count: 1b
@@ -1013,12 +1138,16 @@
 							}
 							{
 								Count: 1b
-								id: "allthemodium:unobtainium_helmet"
+								id: "allthemodium:unobtainium_leggings"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_boots"
 							}
 						]
 					}
 				}
-				title: "{atm9.quest.allthemodium.unob_armor}"
+				title: "{atm9.quest.allthemodium.unob_armor_task}"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.unob_armor}"
@@ -1074,7 +1203,7 @@
 						]
 					}
 				}
-				title: "&bVibranium Tools&r"
+				title: "{atm9.quest.allthemodium.vib_tools_task}"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.vib_tools}"
@@ -1130,7 +1259,7 @@
 						]
 					}
 				}
-				title: "&dUnobtainium Tools&r"
+				title: "{atm9.quest.allthemodium.unob_tools_task}"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.unob_tools}"
@@ -1173,8 +1302,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

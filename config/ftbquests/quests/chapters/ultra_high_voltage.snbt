@@ -289,11 +289,7 @@
 		}
 		{
 			dependencies: ["5561EB1E3DD77EC5"]
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.uhvEnergyHatch.3}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.uhvEnergyHatch.4}"
-			]
+			description: ["{atm9.quest.gregtech.uhv.desc.uhvEnergyHatch.3}"]
 			id: "6F8E58FF4D96C4BC"
 			optional: true
 			rewards: [{
@@ -764,11 +760,7 @@
 		}
 		{
 			dependencies: ["6F8E58FF4D96C4BC"]
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.complexNaquadah.1}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.complexNaquadah.2}"
-			]
+			description: ["{atm9.quest.gregtech.uhv.desc.complexNaquadah.1}"]
 			id: "0DB21D996607BD8D"
 			optional: true
 			rewards: [{

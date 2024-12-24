@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "circuits"
 	group: "1DA67E79B40AB130"
+	icon: {
+		Count: 1
+		id: "gtceu:max_battery"
+		tag: {
+			Charge: 9223372036854775807L
+		}
+	}
 	id: "560EF4C38DEACA03"
 	order_index: 12
 	progression_mode: "flexible"
@@ -1065,8 +1072,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -6.0d
-			y: 4.5d
+			x: -5.0d
+			y: -9.0d
 		}
 	]
 	title: "{atm9.chapters.37.title}"

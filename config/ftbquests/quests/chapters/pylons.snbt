@@ -94,9 +94,9 @@
 			description: ["{atm9.quest.pylons.desc.pylonsintro.1}"]
 			id: "30B0240543253EFB"
 			rewards: [{
-				id: "2795AB11AF5A08CD"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "1868F9F8FDFD86EA"
+				type: "xp"
+				xp: 50
 			}]
 			shape: "gear"
 			size: 2.0d
@@ -118,15 +118,15 @@
 			id: "32E52AD6EF194A60"
 			rewards: [
 				{
-					id: "503EC58A04C10507"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					count: 3
 					id: "3CF4155E1C75F1ED"
 					item: "minecraft:diamond"
 					type: "item"
+				}
+				{
+					id: "108B425C4249238C"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -148,15 +148,15 @@
 			id: "5B5FC539BD1F4A73"
 			rewards: [
 				{
-					id: "2A29175ED2C50B63"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					count: 2
 					id: "353EEB89FCC773A5"
 					item: "minecraft:netherite_ingot"
 					type: "item"
+				}
+				{
+					id: "1450E88AC6333032"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -178,15 +178,15 @@
 			id: "12ED1EE85E146A4B"
 			rewards: [
 				{
-					id: "5DEB117BAE548ED3"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					count: 8
 					id: "72253D5B5719D67C"
 					item: "minecraft:wheat_seeds"
 					type: "item"
+				}
+				{
+					id: "38AF22A70C61D93C"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -208,15 +208,15 @@
 			id: "18246A48C20B29D8"
 			rewards: [
 				{
-					id: "69C85E9C1C5E0253"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					count: 3
 					id: "76D467DBB82E49FB"
 					item: "minecraft:emerald"
 					type: "item"
+				}
+				{
+					id: "01E65DEE57EB3B03"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -340,8 +340,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

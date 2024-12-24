@@ -2948,8 +2948,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2974,8 +2974,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
-			y: 6.0d
+			x: -7.5d
+			y: 0.0d
 		}
 	]
 	title: "{atm9.chapters.39.title}"

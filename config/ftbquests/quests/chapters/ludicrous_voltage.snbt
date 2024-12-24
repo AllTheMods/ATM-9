@@ -558,6 +558,25 @@
 			y: -1.75d
 		}
 		{
+			dependencies: ["1DDA5ADA11DF868F"]
+			description: ["{atm9.quest.gregtech.luv.desc.luvEnergyUpgrade.1}"]
+			id: "29CD5C0A253425D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09BEA2A2E1A2FD24"
+				table_id: 7041264405549027492L
+				type: "loot"
+			}]
+			subtitle: "{atm9.quest.gregtech.luv.subt.luvEnergyHatch4x.1}"
+			tasks: [{
+				id: "7E7EBF9F9D9554EA"
+				item: "gtceu:luv_energy_input_hatch_4a"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
 			dependencies: ["320A70BC50ED456F"]
 			description: ["{atm9.quest.gregtech.luv.desc.samariumProcessing.1}"]
 			id: "32E356FC9E63F63B"

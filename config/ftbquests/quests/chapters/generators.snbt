@@ -279,7 +279,7 @@
 			y: 2.0d
 		}
 	]
-	order_index: 2
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -315,7 +315,7 @@
 				"61847F47CCA225D9"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{atm9.quest.generators.desc.goldenfurnace.1}"]
+			description: ["{atm9.quest.generators.desc.goldenfurnace}"]
 			id: "420FE84DEE12CCE0"
 			rewards: [
 				{
@@ -414,8 +414,13 @@
 					type: "item"
 				}
 				{
+					id: "4B999B65E92B8A55"
+					item: "ironfurnaces:upgrade_obsidian"
+					type: "item"
+				}
+				{
 					count: 6
-					id: "0AB931260F94F729"
+					id: "01C4CD03549D7346"
 					item: "minecraft:coal_block"
 					type: "item"
 				}
@@ -1411,8 +1416,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

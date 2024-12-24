@@ -1,6 +1,6 @@
 {
-	
 	"atm9.modpack.title": "All The Mods 9",
+
 	"atm9.chapters.1.title": "Velkommen",
 	"atm9.chapters.2.title": "Allthemodium",
 	"atm9.chapters.3.title": "Dusørbrett",
@@ -60,15 +60,15 @@
 	"atm9.chapters.46.title": "Blue Skies",
 	"atm9.chapters.47.title": "Cataclysm",
 	"atm9.chapters.48.title": "Twilight Forest",
-	
-	
+
+
 	"atm9.quest.welcome.team": "Opprette et team",
 	"atm9.quest.welcome.commands": "Nyttige kommandoer",
 	"atm9.quest.welcome.welcome": "&dVelkommen til All The Mods 9!",
 	"atm9.quest.welcome.quests": "Oppdrag",
 	"atm9.quest.welcome.claims": "Hevde Chunks",
 	"atm9.quest.welcome.translations": "All The Translations",
-	
+
 	"atm9.quest.welcome.desc.team": "Hvis du vil lage et lag for deg og vennene dine, bruk kommandoen &a/ftbteams party create (navn på team)&r for å lage laget!    ",
 	"atm9.quest.welcome.desc.commands": "Det er mange nyttige kommandoer i ATM. Her er noen: \\n \\n &e/sethome&r (navn på hjemmet) | La oss angi et hjem som du kan teleportere tilbake til ved å bruke /home (navn). Eksempel: /sethome farm - deretter teleporter med /home farm \\n \\n &e/spawn&r | Dette vil teleportere deg til gyten til oververdenen din. \\n \\n &e/rtp&r | 'Random Teleport' vil teleportere deg til et tilfeldig sted i verden. \\n \\n Merk: Disse kommandoene har nedkjøling og begrensninger. Hvis du vil endre dem, kan du redigere konfigurasjonsfilen som finnes her: \\n \\n - For Singleplayer | &osaves/(navn på lagring)/serverconfig/ftbesentials.snbt&r \\n \\n - For servere | &oworld/serverconfig/ftbesentials.snbt&r",
 	"atm9.quest.welcome.desc.welcome1": "ATM9 er en kjøkkenvask-pakke som lar deg utforske verden av modifiserte Minecraft på din egen måte!    ",
@@ -83,8 +83,8 @@
 	"atm9.quest.welcome.desc.translations":"Our Quests have been translated by the following volunteer translators.",
 
 	"atm9.quest.welcome.img.discord": "Bli med på discorden",
-	
-	
+
+
 	"atm9.quest.allthemodium.intro": "Intro til Allthemodium!",
 	"atm9.quest.allthemodium.atm_ore": "Allthemodium Malm",
 	"atm9.quest.allthemodium.vib_ore": "Vibranium Malm",
@@ -1080,7 +1080,7 @@
 	"atm9.quest.ae2.desc.matter": "As for wirelessly expanding the ME Network itself, the first step is admittedly somewhat unorthodox. \\n \\n The &bMatter Condenser&f is AE2's take on a trash can, voiding any items inserted into it. When fitted with a &eStorage Component&f, however, the condenser can harness some left-over energy from the item being voided and store it to make two special crafting items out of enough concentrated energy. \\n \\n The first of these two items is the &bMatter Ball&f, requiring at least a 1k storage component and 256 items' worth of voided material.",
 	"atm9.quest.ae2.desc.antimatter": "When using a 64k storage component or higher, the Matter Condenser becomes able to condense significantly more to produce a &bSingularity&f. A single singularity requires 256000 items to be voided. That's exactly &o4000 stacks&r! \\n \\n See what happens when you throw this singularity on the ground with a piece of &eender dust&f. You'll have to deal some damage to the surroundings while you're at it, but thankfully AE2 offers its own &bTiny TNT&f to minimise that.",
 	"atm9.quest.ae2.desc.quantum": "If you did that last quest correctly, you should have turned that singularity into a pair of &bQuantum Entangled Singularities&f. These new singularities are used to link together a ring-shaped device known as a &eQuantum Network Bridge&f. \\n \\n When two of these individual rings have been linked using the Quantum Entangled Singularities and jumpstarted with some AE power (e.g. an energy cell), an ME network can be expanded wirelessly on the other side of the bridge, across either long distances or even dimensions.",
-	
+
 	"atm9.quest.ae2.subt.AE2": "Virtual Storage System",
 	"atm9.quest.ae2.subt.wrench": "Does exactly what you'd expect.",
 	"atm9.quest.ae2.subt.first": "Some basic machines",
@@ -1117,8 +1117,9 @@
 	"atm9.quest.ae2.subt.wireless_terminal": "This is what you're here for",
 	"atm9.quest.ae2.subt.ininfity": "I'm not writing the Toy Story line",
 	"atm9.quest.ae2.subt.antimatter": "Not quite antimatter",
-	
+
 	"atm9.quest.ae2.img.star": "Needed For The ATM Star",
+
 
     "atm9.quest.adAstra.desc.tier2Rocket.1": "You'll need a LOT of &cDesh&r to make the &aTier 2 Rocket&r.",
     "atm9.quest.adAstra.desc.tier2Rocket.2": "With this rocket, you can fly all the way to &cMars&r! Just remember to stock up on extra &bOxygen&r and &eFuel&r for your flight back.",
@@ -1195,7 +1196,9 @@
     "atm9.quest.adAstra.desc.oxygenForBases.2": "The &dOxygen Distributor&r is a machine that distributes oxygen in a &asealed&r room. When given water and power, it will automatically distribute the oxygen into the sealed room.",
     "atm9.quest.adAstra.desc.oxygenForBases.3": "The &9Water Pump&r is used to pump water from an infinite water source below it into the Distributor. You can also pump water in using a sink or an &dEternal Water Block&r.",
     "atm9.quest.adAstra.oxygenForYourBases": "Oxygen for your Bases!",
-    "atm9.quest.arsNouveau.welcome": "Welcome to &aArs Nouveau&f!",
+
+
+	"atm9.quest.arsNouveau.welcome": "Welcome to &aArs Nouveau&f!",
     "atm9.quest.arsNouveau.desc.magicModIntro": "Ars Nouveau is a magic mod that allows you to create custom spells with the different Glyphs made within the mod!",
     "atm9.quest.arsNouveau.arsNouveau": "Ars Nouveau",
     "atm9.quest.arsNouveau.desc.tier2Glyphs.1": "Tier 2 Glyphs require 5 levels of experience to be made.",
@@ -1319,7 +1322,9 @@
     "atm9.quest.arsNouveau.desc.castersWand.1": "The &9Caster's Wand&r only accepts a single spell, and is inscribed using the Scribe's Table.",
     "atm9.quest.arsNouveau.desc.castersWand.2": "Wand spells always start with Projectile > Accelerate, and MUST be inscribed with a spell that does not have another method (like touch, self, etc).",
     "atm9.quest.arsNouveau.desc.castersWand.3": "This allows you to cast spells beyond the 10 spell cap. If you want to use Break, just inscribe the wand with Break by itself.",
-    "atm9.quest.bloodMagic.desc.welcome.1": "Welcome to &cBlood Magic&f!",
+
+
+	"atm9.quest.bloodMagic.desc.welcome.1": "Welcome to &cBlood Magic&f!",
     "atm9.quest.bloodMagic.desc.welcome.2": "This mod is all about using the Blood of your enemies (or yourself) to create powerful items and networks!",
     "atm9.quest.bloodMagic.desc.welcome.3": "The guidebook contains all of the information about the mod if you ever need any help.",
     "atm9.quest.bloodMagic.bloodMagic": "Blood Magic",
@@ -1468,7 +1473,9 @@
     "atm9.quest.bloodMagic.desc.livingEquipment.3": "It starts off as the equivalent of Iron, but has Upgrade Points that can be spent to train it in specific ways. It starts with 100, but there are ways to increase this limit.",
     "atm9.quest.bloodMagic.desc.livingEquipment.4": "As you use it, it will \\\"learn\\\" from you. You can see what it has learned so far by holding left shift while looking at it.",
     "atm9.quest.bloodMagic.livingArmor": "Living Armor",
-    "atm9.quest.blueSkies.desc.newDimensions.1": "&9Blue Skies&r adds 2 new dimensions, both filled with new blocks, creatures, and a total of 4 bosses.",
+
+
+	"atm9.quest.blueSkies.desc.newDimensions.1": "&9Blue Skies&r adds 2 new dimensions, both filled with new blocks, creatures, and a total of 4 bosses.",
     "atm9.quest.blueSkies.desc.newDimensions.2": "To get started, we need to find the &6Gatekeeper&r!",
     "atm9.quest.blueSkies.welcome.1": "Welcome to Blue Skies!",
     "atm9.quest.blueSkies.welcome.2": "Welcome to &9Blue Skies&r!",
@@ -1577,7 +1584,9 @@
     "atm9.quest.blueSkies.subt.arachnarchLoot": "Drops from the Arachnarch's Loot Bag",
     "atm9.quest.blueSkies.desc.heartIncrease": "Increases max hearts.",
     "atm9.quest.blueSkies.desc.dragonSoulCrafting": "You will also need this to craft the Dragon Soul, which is needed for the ATM star.",
-    "atm9.quest.botania.desc.pureDaisyIntro": "The &aPure Daisy&r is one of the first flowers you'll create!",
+
+
+	"atm9.quest.botania.desc.pureDaisyIntro": "The &aPure Daisy&r is one of the first flowers you'll create!",
     "atm9.quest.botania.desc.pureDaisyFunction.1": "This flower will convert up to 8 nearby &2Wooden Logs&r or &9Stone&r into &2Livingwood&r or &9Livingrock&r, respectively. This only converts in a 1 block radius around the flower.",
     "atm9.quest.botania.firstFlower": "Our First Flower",
     "atm9.quest.botania.desc.usePureDaisy": "Use a &bPure Daisy&r to convert Stone into Livingrock!",
@@ -1757,7 +1766,9 @@
     "atm9.quest.botania.desc.gaiaTrinkets.2": "You can find all of the descriptions within the &aLexica Botania&r.",
     "atm9.quest.botania.gaiaTrinkets": "Gaia Trinkets",
     "atm9.quest.botania.gaiaGearAndTrinkets": "&aGaia Gear and Trinkets&r",
-    "atm9.quest.create.desc.welcome.1": "&5&lWelcome To Create!",
+
+
+	"atm9.quest.create.desc.welcome.1": "&5&lWelcome To Create!",
     "atm9.quest.create.desc.welcome.2": "Create is an immersive tech mod, bringing realism into Minecraft on a whole new level!",
     "atm9.quest.create.desc.welcome.3": "If you have doubts about any blocks or items, hold W to ponder and see an amazing 3D in-game wiki!",
     "atm9.quest.create.mainIngredient": "This will be the main ingredient for most of this mod's items and blocks.",
@@ -1828,7 +1839,9 @@
     "atm9.quest.create.desc.superGlue": "&n&5Super Glue&r can be used to attach blocks to each other to move them with pistons or other means.",
     "atm9.quest.create.desc.belts.1": "&n&5Belts&r can be placed between two &n&5Shafts&r to transfer mobs/items or to simply transfer rotational energy from one point to another.",
     "atm9.quest.create.desc.belts.2": "The &n&5Shafts&r must be at either 45, 90 or 180 degrees from each other.",
-    "atm9.quest.eidolonRepraised.desc.intro.1": "This is Eidolon. A Dark Magic Mod that encompasses rituals through Braziers and Soul Harvesting.",
+
+
+	"atm9.quest.eidolonRepraised.desc.intro.1": "This is Eidolon. A Dark Magic Mod that encompasses rituals through Braziers and Soul Harvesting.",
     "atm9.quest.eidolonRepraised.desc.intro.2": "You may have this book in the Akashic Tome, but creating this book will serve a special purpose.",
     "atm9.quest.eidolonRepraised.desc.intro.3": "You will need to throw this book at a Witch (yes, that hostile one), she'll add a Sign needed for later.",
     "atm9.quest.eidolonRepraised.desc.intro.4": "And then throw the book at a Cleric Villager. Your best bet of this is finding/crafting a Brewing Stand and placing a bed next to it for a Villager to change jobs.",
@@ -1899,7 +1912,9 @@
     "atm9.quest.eidolonRepraised.subt.gatewayApotheosis": "Consider this your gateway to Apotheosis",
     "atm9.quest.eidolonRepraised.desc.holySymbol": "Use the holy symbol three times to ignite what you are looking at.",
     "atm9.quest.eidolonRepraised.subt.forgotFlintSteel": "Forgot a flint and steel in the caves?",
-    "atm9.quest.evilcraft.desc.modIntro.1": "&cEvilCraft&r is a magic mod based on somewhat evil things. Collect the blood of your enemies and harness the power of an ancient source of evil!",
+
+
+	"atm9.quest.evilcraft.desc.modIntro.1": "&cEvilCraft&r is a magic mod based on somewhat evil things. Collect the blood of your enemies and harness the power of an ancient source of evil!",
     "atm9.quest.evilcraft.desc.modIntro.2": "Everything in this mod can be found in the guidebook, the &aOrigins of Darkness&r.",
     "atm9.quest.evilcraft.desc.modIntro.3": "To get started, find yourself some &9Dark Gems&r.",
     "atm9.quest.evilcraft.welcome": "&aWelcome to &r&cEvilCraft&r!",
@@ -2021,7 +2036,9 @@
     "atm9.quest.evilcraft.desc.broomCrafting.3": "To craft your Broom, simply place each part into the crafting table. The Broom will require Blood to function properly.",
     "atm9.quest.evilcraft.subt.broomBroom": "Broom Broom",
     "atm9.quest.evilcraft.bloodBrooms": "&cBlood&r &dBrooms&r",
-    "atm9.quest.forbiddenAndArcanus.desc.newArmor.1": "Forbidden \\\\&\\\\ Arcanus adds new ways to get better armor, enchants, and more!",
+
+
+	"atm9.quest.forbiddenAndArcanus.desc.newArmor.1": "Forbidden \\\\&\\\\ Arcanus adds new ways to get better armor, enchants, and more!",
     "atm9.quest.forbiddenAndArcanus.desc.newArmor.2": "This magic-themed mod has amazing animations, as well as some overpowered items like the &6Eternal Stella&r.",
     "atm9.quest.forbiddenAndArcanus.welcome": "Welcome to &5Forbidden \\\\&\\\\ Arcanus!",
     "atm9.quest.forbiddenAndArcanus.desc.edelwoodTreeFeatures.1": "Found within the Dark Forest biome, the Edelwood Tree looks like a small tree that has been chopped in half.",
@@ -2135,7 +2152,9 @@
     "atm9.quest.forbiddenAndArcanus.desc.upgradingForgeFeatures.1": "The &dHephaestus Forge&r can be upgraded into higher tiers using things like Spawner Scraps, Arcane Crystals, and more!",
     "atm9.quest.forbiddenAndArcanus.desc.upgradingForgeFeatures.2": "You'll need higher tiers to make some of the higher tier items, like the &aEternal Stella&r. Make sure to check out JEI for more info!",
     "atm9.quest.forbiddenAndArcanus.upgradingTheForge": "&dUpgrading The Forge&r",
-    "atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.1": "Mycelial Reactor consists of all the Mycelial generators working at the same time, near the reactor block.",
+
+
+	"atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.1": "Mycelial Reactor consists of all the Mycelial generators working at the same time, near the reactor block.",
     "atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.2": "It generates 25MFE/t.",
     "atm9.quest.industrialForegoing.crimedMycelialGenerator": "Crimed Mycelial Generator",
     "atm9.quest.industrialForegoing.culinaryMycelialGenerator": "Culinary Mycelial Generator",
@@ -2200,7 +2219,9 @@
     "atm9.quest.industrialForegoing.desc.latexIntro.5": "&bSo basically Latex -> Dry Rubber -> Plastic.&r",
     "atm9.quest.industrialForegoing.latexQuestion": "Latex? Huh?",
     "atm9.quest.industrialForegoing.latexAndPlasticQuestion": "Latex and Plastic? Huh?",
-    "atm9.quest.mekanism.desc.metallurgicInfuser.1": "The Metallurgic Infuser is used to craft core crafting components throughout Mekanism.",
+
+
+	"atm9.quest.mekanism.desc.metallurgicInfuser.1": "The Metallurgic Infuser is used to craft core crafting components throughout Mekanism.",
     "atm9.quest.mekanism.desc.metallurgicInfuser.2": "The machine works by infusing a material (middle-left slot) with an \\\"infuser\\\" (far-left slot).",
     "atm9.quest.mekanism.desc.metallurgicInfuser.3": "This is also how you get Steel Ingots.",
     "atm9.quest.mekanism.subt.startingMachine": "The Starting Machine",
@@ -2371,7 +2392,9 @@
     "atm9.quest.mekanism.desc.antimatterPellets.2": "These create several &5End Game&r items, including the &6ATM Star&r. To learn all about Reactors and more, head over to the &aMekanism&r: &dReactors&r questline!",
     "atm9.quest.mekanism.thePathToReactors": "The Path to Reactors",
     "atm9.quest.mekanism.advancedMekanism": "&dAdvanced Mekanism&r",
-    "atm9.quest.occultism.shubNiggurathFamiliar": "&5Shub Niggurath&r Familiar",
+
+
+	"atm9.quest.occultism.shubNiggurathFamiliar": "&5Shub Niggurath&r Familiar",
     "atm9.quest.occultism.drikwingFamiliar": "&2Drikwing&r Familiar",
     "atm9.quest.occultism.berserker": "&dBeholder&r Familiar",
     "atm9.quest.occultism.headlessRatman": "&aHeadless Ratman&r Familiar",
@@ -2493,7 +2516,9 @@
     "atm9.quest.occultism.desc.demonsAndFamiliars.3": "There are also ways to summon cool friends known as &dFamiliars&r that give special buffs and even fight for you! Make sure to check out the &dFamiliar Rituals&r in your guide book!",
     "atm9.quest.occultism.familiars.1": "Familiars",
     "atm9.quest.occultism.familiars.2": "&dFamiliars&r",
-    "atm9.quest.powah.desc.intro.1": "&9Powah&r is a tech mod that's all about generating, storing, and transmitting &dPower&r. Ranging from basic FE generation to &aReactors&r that produce &b250k FE/t&r, Powah has you covered!",
+
+
+	"atm9.quest.powah.desc.intro.1": "&9Powah&r is a tech mod that's all about generating, storing, and transmitting &dPower&r. Ranging from basic FE generation to &aReactors&r that produce &b250k FE/t&r, Powah has you covered!",
     "atm9.quest.powah.desc.intro.2": "To get started, go out and mine some &aUraninite&r!",
     "atm9.quest.powah.welcome": "&aWelcome to&r &9Powah&r!!!",
     "atm9.quest.powah.desc.dielectricMats.1": "Almost every single machine you can make in the mod will require a &9Dielectric Casing&r.",
@@ -2542,7 +2567,9 @@
     "atm9.quest.powah.spiritedReactor": "Reactor (Spirited)",
     "atm9.quest.powah.nitroReactor": "Reactor (Nitro)",
     "atm9.quest.powah.desc.energizingOrb": "Used to energize items using the Energizing Orb.",
-    "atm9.quest.productiveBees.desc.welcome.1": "Welcome to &9Productive Bees&r!",
+
+
+	"atm9.quest.productiveBees.desc.welcome.1": "Welcome to &9Productive Bees&r!",
     "atm9.quest.productiveBees.desc.welcome.2": "To get started with the mod, you'll first need to find some Honeycombs and Honey Bottles! Find yourself a Beehive, and let the bees do their work for a little. Shearing it when it is full will give you honeycombs, and glass bottles will give you Honey Bottles!",
     "atm9.quest.productiveBees.desc.welcome.3": "&9Important Note&r: With the bee quests requiring combs, the recipes will not be shown. Make sure to look them up in JEI if you need them!",
     "atm9.quest.productiveBees.desc.beehiveSetup.1": "Using the vanilla method, go ahead and make yourself a &9Beehive&r to have your own little setup!",
@@ -2909,7 +2936,9 @@
     "atm9.quest.productiveBees.subt.showingOffBees": "Showing Off Bees",
     "atm9.quest.productiveBees.desc.luresGoldBee": "Instead of using Honey Treats, this hive requires Gold Ingots to attract Bees.",
     "atm9.quest.productiveBees.subt.luresGoldBee": "Lures a Gold Bee when placed in the Nether",
-    "atm9.quest.thermalExpansion.desc.modIntro": "Thermal Series is a modular series of mods that adds a content-rich blend of magic and technology to your Minecraft experience!",
+
+
+	"atm9.quest.thermalExpansion.desc.modIntro": "Thermal Series is a modular series of mods that adds a content-rich blend of magic and technology to your Minecraft experience!",
     "atm9.quest.thermalExpansion.welcome": "Welcome to the &9Thermal Series&r!",
     "atm9.quest.thermalExpansion.desc.redstoneFurnaceFeatures.1": "The Redstone Furnace uses RF/FE instead of Coal to smelt items.",
     "atm9.quest.thermalExpansion.desc.redstoneFurnaceFeatures.2": "Like all machines in the Thermal Series, this machine can be upgraded with augments to increase the speed of each process.",
@@ -2995,7 +3024,9 @@
     "atm9.quest.thermalExpansion.subt.earlyGameMiningGadget": "An Early-Game Mining Gadget",
     "atm9.quest.thermalExpansion.subt.rfPoweredHandsaw": "RF-Powered Handsaw!",
     "atm9.quest.thermalExpansion.subt.tier4BaseUpgrade": "Tier 4 Base Upgrade",
-    "atm9.quest.twilightForest.desc.welcome.1": "Welcome to the &9Twilight Forest&r!",
+
+
+	"atm9.quest.twilightForest.desc.welcome.1": "Welcome to the &9Twilight Forest&r!",
     "atm9.quest.twilightForest.desc.welcome.2": "To create a portal to the Twilight Forest, make a 2x2 hole and fill it with water. Surround the edges of the hole with flowers, and throw a diamond in.",
     "atm9.quest.twilightForest.desc.welcome.3": "Thor will give you a sign if you did it right.",
     "atm9.quest.twilightForest.subt.creatingPortal": "Creating the Portal",
@@ -3300,8 +3331,8 @@
 	"atm9.quest.rs.subt.crafter": "Automated crafting!",
 	"atm9.quest.rs.subt.wireless": "Storage, at a distance",
 	"atm9.quest.rs.subt.range": "I mean Transmitting Range",
-	
-	
+
+
 	"atm9.quest.power.ATP": "All Things Power!",
 	"atm9.quest.power.moving": "Transferring Power",
 	"atm9.quest.power.pipez": "&9Using Pipez:&r &aEnergy Pipe&r",
@@ -3508,8 +3539,8 @@
 	"atm9.quest.farm.subt.market": "The villager has more than one way to spawn",
 	"atm9.quest.farm.subt.chicken": "or am I?",
 	"atm9.quest.farm.subt.egg": "How else do you think Fried Chicken is made?",
-	
-	
+
+
 	"atm9.quest.hostile.welcome": "Welcome to &9Hostile Neural Networks&r!",
 	"atm9.quest.hostile.learn": "&aLearning Mobs&r",
 	"atm9.quest.hostile.modeling": "&9Modeling Mobs&r",
@@ -3678,16 +3709,16 @@
 	"atm9.quest.ma.desc.uno": "Requires a Crux (Next Quest)",
 	"atm9.quest.ma.desc.magic": "Place this under the soil to allow magical seeds to grow",
 	"atm9.quest.ma.desc.creative": "This special essence is used for making the &6ATM Star&r.",
-	
-	"atm9.quest.ma.subt.InEssence": "&bTier 1&r",
-	"atm9.quest.ma.subt.PruEssence": "&bTier 2&r",
-	"atm9.quest.ma.subt.TerEssence": "&bTier 3&r",
-	"atm9.quest.ma.subt.ImpEssence": "&bTier 4&r",
-	"atm9.quest.ma.subt.SupEssence": "&bTier 5&r",
-	"atm9.quest.ma.subt.ASE": "&bTier: Awakened&r",
-	"atm9.quest.ma.subt.InsEssence": "&bTier 6&r",
 
-	
+	"atm9.quest.ma.subt.InEssence": "&bTier 1",
+	"atm9.quest.ma.subt.PruEssence": "&bTier 2",
+	"atm9.quest.ma.subt.TerEssence": "&bTier 3",
+	"atm9.quest.ma.subt.ImpEssence": "&bTier 4",
+	"atm9.quest.ma.subt.SupEssence": "&bTier 5",
+	"atm9.quest.ma.subt.ASE": "&bTier: Awakened",
+	"atm9.quest.ma.subt.InsEssence": "&bTier 6",
+
+
 	"atm9.quest.er.title.welcomeToExtremeReactors": "Welcome to &9Extreme Reactors&r!",
 	"atm9.quest.er.title.graphiteForCasings": "Graphite for Casings",
 	"atm9.quest.er.title.ourFirstReactor": "&dOur First Reactor",
@@ -5717,8 +5748,8 @@
 	"atm9.quest.mekanismReactors.desc.matrixCompletion.2": "Don't be afraid to upgrade with higher tier Cells and Providers! Need more space for them? The maximum size the Induction Matrix can be is 18x18x18.",
 	"atm9.quest.mekanismReactors.observeCompletedMatrix": "Observe a Completed Induction Matrix",
 	"atm9.quest.mekanismReactors.completingMatrix": "&aCompleting the&r &9Matrix&r",
-	
-	
+
+
 	"atm9.quest.enchant.enchant": "Enchanting with Apotheosis",
 	"atm9.quest.enchant.book": "Vanilla Max is just the start",
 	"atm9.quest.enchant.hellshelf": "&4Hellshelves&r",
@@ -5750,8 +5781,7 @@
 	"atm9.quest.enchant.pearlescent": "&dPearlescent Endshelf&r",
 	"atm9.quest.enchant.draconic": "&dDraconic Endshelf&r",
 	"atm9.quest.enchant.perfect": "&6Best Enchanting set-up&r",
-	
-	
+
 	"atm9.quest.enchant.desc.enchant": "Enchanting gets a few changes with Apotheosis. To summarize it, 15 bookshelves won't be enough now. There's new bookshelves and actions you can do with Enchantment Tables now and hopefully these quests will help you understand.",
 	"atm9.quest.enchant.desc.book": "Bookshelves are your starting point, but definitely not your end point. Atleast not normal bookshelves. With only normal bookshelves you can only get &aEterna&r up and to a max of 15. (I will explain the Enchantment Levels soon but just know you need them up)",
 	"atm9.quest.enchant.desc.hellshelf": "&4Hellshelves&r are your introduction to &cQuanta&r, they give &c3%% Quanta&r and &a1.5 Eterna&r. Better than normal shelves right? You're going to need atleast 6 of them for the next step.",
@@ -5783,8 +5813,8 @@
 	"atm9.quest.enchant.desc.pearlescent": "The &dPearlescent Endshelf&r is the best all-around shelf. It also gives a Max &aEterna&r of &a45&r, but this isn't the shelf we're looking for to get perfect set up.",
 	"atm9.quest.enchant.desc.draconic": "The &dDraconic Shelf&r is the last Shelf we'll need for perfect set up. It might only give &aEterna&r but it has the Max Max &aEterna&r of &a50&r.",
 	"atm9.quest.enchant.desc.perfect": "Ever want THE most perfect Enchants? Then this is the setup you need, for 100%% everything. &95 Echoing Skulkshelves&r, &95 Soul-Touched Sculkshelves&r, and &d1 Draconic Shelf&r will get you &a50 Eterna&r, &c100%% Quanta&r, &5100%% Arcana&r and &96 Enchanting Clues&r. &e3 Shelves of End Fused Rectification&r will give &e100%% Rectification&r. And &6Deepshelf of Arcane Treasures&r will top it all off with &6Treasure Enchantments&r.",
-	
-	
+
+
 	"atm9.quest.cataclysm.cataclysm": "Cataclysm",
 	"atm9.quest.cataclysm.eye": "Eye see you!",
 	"atm9.quest.cataclysm.mech": "&4Eye of Mech&r",
@@ -5840,7 +5870,7 @@
 	"atm9.quest.cataclysm.VASW": "V.A.S.W. (Void Assault Shoulder Weapon)",
 	"atm9.quest.cataclysm.VForge": "Void Forge",
 	"atm9.quest.cataclysm.GoB": "Gauntlet of Bulwark",
-	
+
 	"atm9.quest.cataclysm.desc.cataclysm": "Cataclsym is a mod which adds new bosses, dungeons, and of course loot! There is no certain pattern of which bosses to kill first but some are stronger than others and some give loot that will help against the others. This mod also has two items necessary to building the ATM Star!",
 	"atm9.quest.cataclysm.desc.eye": "Not all Cataclysm Dungeons are as easy to find as the Pyramids are, so a special Eye might help you find them. Each of the different Eyes will lead you to its set structure, and don't worry them breaking is very rare.",
 	"atm9.quest.cataclysm.desc.mech": "&4The Eye of Mech&r will take you to the &4Ancient Factory&r to fight &4The Harbinger&r",
@@ -5896,7 +5926,7 @@
 	"atm9.quest.cataclysm.desc.VASW": "The Void Assault Shoulder Weapon (V.A.S.W.) is just like the Wither version but better. Now it only shoots Void Howitzers which will do more damage and cause void runes to come out of the ground in the area the Howitzer hit. Just at the cost of the long cooldown, but we've got time to wait. It can crafted by combining the WASW and a Void Core in the Mechanical Infusion Anvil.",
 	"atm9.quest.cataclysm.desc.VForge": "The Void Forge is not much different from the Infernal Forge. Same attack damage and speed, same pickaxe tier, just summons Void Runes when attacking. Can be crafted by combining an Infernal Forge and a Void Core in a Mechanical Fusion Anvil.",
 	"atm9.quest.cataclysm.desc.GoB": "The Gauntlet of Bulwark acts not as you'd assume. Instead of bringing mobs closer it pushes them away, when holding right click, and gives them Blazing Brand. Then when you release right click you'll do the normal charge. It's made by fusing the Gauntlet of Guard with a Bulwark of Flame in the Mechanical Fusion Anvil.",
-	
+
 	"atm9.quest.cataclysm.subt.sacrifice": "Waking up The Leviathan",
 	"atm9.quest.cataclysm.subt.necklace": "Resurecting an Ancient Remnant",
 	"atm9.quest.cataclysm.subt.star": "Powering The Harbringer",
@@ -5905,10 +5935,9 @@
 	"atm9.quest.cataclysm.subt.igntium": "Better than Netherite?!?!?!",
 	"atm9.quest.cataclysm.subt.gatling": "Straight outta Fallout",
 	"atm9.quest.cataclysm.subt.meat": "Straight outta Fallout 3 DLC The Pitt",
-	
+
+
   "item.kubejs.micro_universe_catalyst.tooltip": "Forged in the fire of a thousand suns.",
 	"kubejs.apiary_ii.tooltip.bee_requirements": "Requires Very High, Any, Metaturnal bees to run",
 	"kubejs.apiary_i.tooltip.bee_eater": "Occasionally eats the bees"
-	
-
 }

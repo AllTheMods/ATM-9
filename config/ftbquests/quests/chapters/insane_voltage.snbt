@@ -10,11 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"{atm9.quest.gregtech.iv.desc.salsaIncident.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.salsaIncident.2}"
-			]
+			description: ["{atm9.quest.gregtech.iv.desc.salsaIncident.1}\\n\\n{atm9.quest.gregtech.iv.desc.salsaIncident.2}"]
 			id: "64F77D41B2D057B8"
 			rewards: [
 				{
@@ -326,41 +322,6 @@
 			}]
 			x: 7.0d
 			y: 3.0d
-		}
-		{
-			dependencies: [
-				"64F77D41B2D057B8"
-				"15A1D6D05A785919"
-				"77AAC2F643E92A88"
-			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.processingArray.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.processingArray.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.processingArray.3}"
-				""
-				"{atm9.quest.gregtech.iv.desc.processingArray.4}"
-			]
-			icon: "gtceu:iv_processing_array"
-			id: "72A2AA6274D6FA9A"
-			invisible: true
-			min_width: 300
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7D3E931FEC790115"
-				table_id: 6202000790833671070L
-				type: "loot"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "7B799249998BA7E4"
-				item: "gtceu:iv_processing_array"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -1519,16 +1480,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				icon: "gtceu:antimony_dust"
-				id: "5934DBB2E4ED1CCA"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:dusts/antimony"
-					}
-				}
-				title: "{atm9.quest.gregtech.iv.antimonyDust}"
+				id: "3F4D687187DC2893"
+				item: "gtceu:antimony_dust"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1554,16 +1507,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				icon: "gtceu:tungsten_dust"
-				id: "29C1F4339267D35B"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:dusts/tungsten"
-					}
-				}
-				title: "{atm9.quest.gregtech.iv.tungstenDust}"
+				id: "46B1AE17CF5CAD6E"
+				item: "gtceu:tungsten_dust"
 				type: "item"
 			}]
 			x: -9.7d
@@ -1574,11 +1519,7 @@
 				"4321E32D0EA3367C"
 				"0299E59D23F16ACB"
 			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.tungstenAcquisition.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.tungstenAcquisition.2}"
-			]
+			description: ["{atm9.quest.gregtech.iv.desc.tungstenAcquisition.1}\\n\\n{atm9.quest.gregtech.iv.desc.tungstenAcquisition.2}"]
 			id: "00BF4E98A328801D"
 			rewards: [
 				{
@@ -2749,8 +2690,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -8.5d
-			y: 3.0d
+			x: -7.0d
+			y: 4.5d
 		}
 	]
 	title: "{atm9.chapters.31.title}"

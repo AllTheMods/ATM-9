@@ -601,7 +601,7 @@
 		{
 			dependencies: ["4EEAB467C722ECE7"]
 			description: ["{atm9.quest.power.desc.betterpipez}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1409C17773B6A131"
 			rewards: [
 				{
@@ -937,8 +937,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
