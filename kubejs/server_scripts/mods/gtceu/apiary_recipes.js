@@ -94,7 +94,7 @@ ServerEvents.recipes(allthemods => {
             let recipeBuilder = allthemods.recipes.gtceu.apiary_ii(id + '/circuit_' + i.toString())
                 .circuit(i)
                 .EUt(EV)
-                .duration(5250)
+                .duration(5250 / 8)
                 .notConsumable(IngredientHelper.weakNBT(Item.of(input)).withCount(i))
                 .notConsumable(Item.of('productivebees:upgrade_productivity_4', (Math.floor((i - 1)/5) + 1) * 4))
             outputs.forEach( (output) => {
@@ -168,7 +168,7 @@ ServerEvents.recipes(allthemods => {
     // copy all beehive production recipes
     allthemods.forEachRecipe({type: 'productivebees:advanced_beehive'}, rawRecipe => {
         let recipe = JSON.parse(rawRecipe.json)
-        let duration = 5250 // time in ticks spent in hive (4800) + pollinating time (450)
+        let duration = 5250 / 2 // time in ticks spent in hive (4800) + pollinating time (450)
         let beeType = recipe.ingredient.split(':')[1] // recipe.ingredient looks like productivebees:experience
 
         // skip rancher_bee, ether_gas, and hematophagous bees because they use entities
