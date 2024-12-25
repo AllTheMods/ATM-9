@@ -608,7 +608,7 @@ dev:
 
   # Generate ores in superflat worlds?
   # Default: false
-  doSuperflatOres: false
+  doSuperflatOres: true
 
   # Dump all registered GT recipes?
   # Default: false

@@ -34,8 +34,6 @@
 			description: [
 				"{atm9.quest.welcome.desc.welcome1}"
 				""
-				"{atm9.quest.welcome.desc.welcome2}"
-				""
 				"{atm9.quest.welcome.desc.welcome3}"
 			]
 			icon: "allthetweaks:atm_star"
@@ -61,8 +59,6 @@
 				"{atm9.quest.welcome.desc.quests1}"
 				""
 				"{atm9.quest.welcome.desc.quests2}"
-				""
-				"{atm9.quest.welcome.desc.quests3}"
 			]
 			icon: "ftbquests:book"
 			id: "3708A4780ACEB34E"
@@ -169,12 +165,15 @@
 		{
 			description: [
 				"{atm9.quest.welcome.desc.translations}"
-				"&lTranslator List&r (as of pack version v0.3.0)"
+				"&lTranslator List&r (as of pack version v0.3.6)"
 				"&9Spanish&r by &2radzratz&r, &2abel102389&r, &2arivio&r, and &2metabodiru&r."
 				"&9Norwegian&r (Bokmål) by &2Permest&r."
 				"&9Portugese&r by &2oruiva&r."
 				"&9Japanese&r by &2fishlife1 (flll)&r."
 				"&9Korean&r by &2J-YonKen&r."
+				"&9German&r by &2Aquamatik&r"
+				"&9Dutch&r by &2NeofastFTL&r"
+				"&9Italian&r by &2Il-mostro-di-gioacchinopoli&r"
 			]
 			icon: {
 				Count: 1
