@@ -182,8 +182,10 @@ ServerEvents.recipes(allthemods => {
                 input = Item.of('productivebees:bee_cage', '{name: "Bee", entity: "minecraft:bee"}')
                 input_ii = input.copy()
             } else {
-                input = Item.of('productivebees:bee_cage', 1, '{type:"' + recipe.ingredient + '", entity: "productivebees:configurable_bee", name: "' + makeName(beeType) +'"}')
-                input_ii = Item.of('productivebees:bee_cage', 1, goodBeeGenes + 'type:"' + recipe.ingredient + '", entity: "productivebees:configurable_bee", name: "' + makeName(beeType) +'"}')
+                // input = Item.of('productivebees:bee_cage', 1, '{type:"' + recipe.ingredient + '", entity: "productivebees:configurable_bee", name: "' + makeName(beeType) +'"}')
+                // input_ii = Item.of('productivebees:bee_cage', 1, goodBeeGenes + 'type:"' + recipe.ingredient + '", entity: "productivebees:configurable_bee", name: "' + makeName(beeType) +'"}')
+                input = Item.of('productivebees:bee_cage', 1, '{type:"' + recipe.ingredient + '", entity: "productivebees:configurable_bee"}')
+                input_ii = Item.of('productivebees:bee_cage', 1, goodBeeGenes + 'type:"' + recipe.ingredient + '", entity: "productivebees:configurable_bee"}')
             }
             let results = recipe.results // array of objects like { item: { }, chance: 40 }
             let flower
