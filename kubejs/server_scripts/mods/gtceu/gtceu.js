@@ -55,6 +55,18 @@ ServerEvents.recipes(allthemods => {
         .duration(500)
         .scannerResearch(Item.of('gtceu:large_chemical_reactor'))
         .EUt(IV)
+
+    // NeoCube
+    allthemods.recipes.gtceu.assembly_line('neocube')
+        .itemInputs('gtceu:assembly_line', '4x #gtceu:circuits/uv', '9x gtceu:naquadah_alloy_plate', '16x gtceu:enriched_naquadah_trinium_europium_duranide_single_wire', '2x gtceu:zpm_field_generator')
+        .itemOutputs('gtceu:neocube')
+        .inputFluids(
+            Fluid.of('gtceu:lubricant', 4000),
+            Fluid.of('gtceu:soldering_alloy', 2304)
+        )
+        .duration(500)
+        .stationResearch(b => b.researchStack(Item.of('gtceu:assembly_line')).CWUt(96).EUt(UV))
+        .EUt(ZPM)
     
     allthemods.recipes.gtceu.assembler('uhv_16a_energy_hatch')
         .itemInputs('2x gtceu:uhv_energy_input_hatch_4a', '2x gtceu:uhpic_chip', 'kubejs:superthermal_transference_coil', '2x kubejs:cable_of_hyperconductivity')
