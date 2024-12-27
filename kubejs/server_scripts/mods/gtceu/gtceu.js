@@ -109,6 +109,13 @@ ServerEvents.recipes(allthemods => {
         .duration(80)
         .EUt(LV)
 
+    allthemods.recipes.gtceu.forming_press('ae2/ultimate_universal/printed_logic_circuit')
+        .itemInputs('minecraft:gold_ingot')
+        .notConsumable('kubejs:ultimate_universal_press')
+        .itemOutputs('ae2:printed_logic_processor')
+        .duration(80)
+        .EUt(LV)
+
     allthemods.recipes.gtceu.forming_press('ae2/printed_silicon_circuit')
         .itemInputs('ae2:silicon')
         .notConsumable('ae2:silicon_press')
@@ -119,6 +126,13 @@ ServerEvents.recipes(allthemods => {
     allthemods.recipes.gtceu.forming_press('ae2/universal/printed_silicon_circuit')
         .itemInputs('ae2:silicon')
         .notConsumable('kubejs:universal_press')
+        .itemOutputs('ae2:printed_silicon')
+        .duration(80)
+        .EUt(LV)
+
+    allthemods.recipes.gtceu.forming_press('ae2/ultimate_universal/printed_silicon_circuit')
+        .itemInputs('ae2:silicon')
+        .notConsumable('kubejs:ultimate_universal_press')
         .itemOutputs('ae2:printed_silicon')
         .duration(80)
         .EUt(LV)
@@ -137,6 +151,13 @@ ServerEvents.recipes(allthemods => {
         .duration(80)
         .EUt(LV)
 
+    allthemods.recipes.gtceu.forming_press('ae2/ultimate_universal/printed_engineering_circuit')
+        .itemInputs('minecraft:diamond')
+        .notConsumable('kubejs:ultimate_universal_press')
+        .itemOutputs('ae2:printed_engineering_processor')
+        .duration(80)
+        .EUt(LV)
+
     allthemods.recipes.gtceu.forming_press('ae2/printed_calculation_circuit')
         .itemInputs('ae2:certus_quartz_crystal')
         .notConsumable('ae2:calculation_processor_press')
@@ -151,9 +172,30 @@ ServerEvents.recipes(allthemods => {
         .duration(80)
         .EUt(LV)
 
+    allthemods.recipes.gtceu.forming_press('ae2/ultimate_universal/printed_calculation_circuit')
+        .itemInputs('ae2:certus_quartz_crystal')
+        .notConsumable('kubejs:ultimate_universal_press')
+        .itemOutputs('ae2:printed_calculation_processor')
+        .duration(80)
+        .EUt(LV)
+
     allthemods.recipes.gtceu.forming_press('megacells/printed_accumulation_circuit')
         .itemInputs('megacells:sky_steel_ingot')
         .notConsumable('megacells:accumulation_processor_press')
+        .itemOutputs('megacells:printed_accumulation_processor')
+        .duration(80)
+        .EUt(HV)
+
+    allthemods.recipes.gtceu.forming_press('megacells/universal/printed_accumulation_circuit')
+        .itemInputs('megacells:sky_steel_ingot')
+        .notConsumable('kubejs:universal_addon_press')
+        .itemOutputs('megacells:printed_accumulation_processor')
+        .duration(80)
+        .EUt(HV)
+
+    allthemods.recipes.gtceu.forming_press('megacells/ultimate_universal/printed_accumulation_circuit')
+        .itemInputs('megacells:sky_steel_ingot')
+        .notConsumable('kubejs:ultimate_universal_press')
         .itemOutputs('megacells:printed_accumulation_processor')
         .duration(80)
         .EUt(HV)
@@ -165,12 +207,40 @@ ServerEvents.recipes(allthemods => {
         .duration(80)
         .EUt(MV)
 
+    allthemods.recipes.gtceu.forming_press('appflux/universal/printed_energy_circuit')
+        .itemInputs('appflux:charged_redstone')
+        .notConsumable('kubejs:universal_addon_press')
+        .itemOutputs('appflux:printed_energy_processor')
+        .duration(80)
+        .EUt(MV)
+
+    allthemods.recipes.gtceu.forming_press('appflux/ultimate_universal/printed_energy_circuit')
+        .itemInputs('appflux:charged_redstone')
+        .notConsumable('kubejs:ultimate_universal_press')
+        .itemOutputs('appflux:printed_energy_processor')
+        .duration(80)
+        .EUt(MV)
+
     allthemods.recipes.gtceu.forming_press('aae/printed_quantum_circuit')
         .itemInputs('advanced_ae:quantum_alloy')
         .notConsumable('advanced_ae:quantum_processor_press')
         .itemOutputs('advanced_ae:printed_quantum_processor')
         .duration(80)
-        .EUt(MV)
+        .EUt(HV)
+
+    allthemods.recipes.gtceu.forming_press('aae/universal/printed_quantum_circuit')
+        .itemInputs('advanced_ae:quantum_alloy')
+        .notConsumable('kubejs:universal_addon_press')
+        .itemOutputs('advanced_ae:printed_quantum_processor')
+        .duration(80)
+        .EUt(HV)
+
+    allthemods.recipes.gtceu.forming_press('aae/ultimate_universal/printed_quantum_circuit')
+        .itemInputs('advanced_ae:quantum_alloy')
+        .notConsumable('kubejs:ultimate_universal_press')
+        .itemOutputs('advanced_ae:printed_quantum_processor')
+        .duration(80)
+        .EUt(HV)
 
     // AE2 processors in forming press
     allthemods.recipes.gtceu.forming_press('ae2/logic_circuit')
@@ -207,7 +277,7 @@ ServerEvents.recipes(allthemods => {
         .itemInputs(['advanced_ae:printed_quantum_processor', 'minecraft:redstone', 'ae2:printed_silicon'])
         .itemOutputs('advanced_ae:quantum_processor')
         .duration(80)
-        .EUt(MV)
+        .EUt(HV)
 
     // ATO and vanilla silk touched ore maceration recipes
     // Minecraft stone/deepslate/nether ores

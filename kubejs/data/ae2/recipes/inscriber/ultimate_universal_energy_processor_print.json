@@ -1,0 +1,15 @@
+{
+    "type": "ae2:inscriber",
+    "ingredients": {
+      "middle": {
+        "item": "appflux:charged_redstone"
+      },
+      "top": {
+        "item": "kubejs:ultimate_universal_press"
+      }
+    },
+    "mode": "inscribe",
+    "result": {
+      "item": "appflux:printed_energy_processor"
+    }
+  }
