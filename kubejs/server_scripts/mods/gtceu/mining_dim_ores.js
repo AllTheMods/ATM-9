@@ -3,6 +3,7 @@
 
 const $VeinedVeinGenerator = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.generator.veins.VeinedVeinGenerator');
 const $DikeVeinGenerator = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.generator.veins.DikeVeinGenerator');
+const $CuboidVeinGenerator = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.generator.veins.CuboidVeinGenerator');
 
 GTCEuServerEvents.oreVeins(allthemods => {
     allthemods.modifyAll((veinId, vein) => {
@@ -36,8 +37,6 @@ GTCEuServerEvents.oreVeins(allthemods => {
             veinGen = veinGen.copy()
             veinGen.minYLevel(startY);
             veinGen.maxYLevel(endY);
-            // veinGen.minYLevel = startY;
-            // veinGen.maxYLevel = endY;
         } else if (veinGen instanceof $DikeVeinGenerator) {
             veinGen = veinGen.copy()
             veinGen.minYLevel(startY);
@@ -46,8 +45,10 @@ GTCEuServerEvents.oreVeins(allthemods => {
             blocks.forEach((block) => {
                 veinGen.withBlock(new GTDikeBlockDefinition['(com.mojang.datafixers.util.Either,int,int,int)'](block.key, block.value, startY, endY))
             })
-            // veinGen.minYLevel = startY;
-            // veinGen.maxYLevel = endY;
+        } else if (veinGen instanceof $CuboidVeinGenerator) {
+            veinGen = veinGen.copy()
+            veinGen.minY(startY)
+            veinGen.maxY(endY)
         }
 
         
@@ -56,35 +57,6 @@ GTCEuServerEvents.oreVeins(allthemods => {
         vein.dimensions('allthemodium:mining')
         vein.biomes('#allthemodium:mining_features/mining_biomes')
         vein['veinGenerator(com.gregtechceu.gtceu.api.data.worldgen.generator.VeinGenerator)'](veinGen)
-        // vein.surfaceIndicatorGenerator(indicator => indicator
-        //     .block(Block.getBlock("minecraft:air"))
-        //     .placement("above")
-        //     .density(0.4)
-        //     .radius(5))
-
-
-        // allthemods.add(veinId + '_mining', newVein => {
-        //     let veinGen = vein.veinGenerator();
-        //     if (veinGen instanceof $VeinedVeinGenerator) {
-        //         veinGen = veinGen.copy()
-        //         veinGen.minYLevel = startY;
-        //         veinGen.maxYLevel = endY;
-        //     } else if (veinGen instanceof $DikeVeinGenerator) {
-        //         veinGen = veinGen.copy()
-        //         veinGen.minYLevel = startY;
-        //         veinGen.maxYLevel = endY;
-        //     }
-
-        //     newVein.clusterSize(vein.clusterSize())
-        //     newVein.weight(vein.weight())
-        //     newVein.density(vein.density())
-        //     newVein.layer(vein.layer())
-        //     newVein.heightRangeUniform(startY, endY)
-        //     newVein.discardChanceOnAirExposure(vein.discardChanceOnAirExposure())
-        //     newVein.dimensions('allthemodium:mining')
-        //     newVein.biomes('#allthemodium:mining_features/mining_biomes')
-        //     newVein['veinGenerator(com.gregtechceu.gtceu.api.data.worldgen.generator.VeinGenerator)'](veinGen)
-        // })
     })
 
     allthemods.add("fluorite_vein", builder => {
