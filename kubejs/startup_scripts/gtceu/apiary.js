@@ -88,7 +88,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('comb_processor')
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT_SUBTICK])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('   CCC   ', '         ', '    S    ', '   SSS   ', '  SSSSS  ', '  SSSSS  ', '  SSSSS  ', '         ', '         ', '         ', '         ', '         ')
             .aisle('  CFFFC  ', '   SSS   ', '  SS SS  ', ' SS   SS ', ' S     S ', ' S     S ', ' S     S ', '         ', '         ', '         ', '         ', '         ')
