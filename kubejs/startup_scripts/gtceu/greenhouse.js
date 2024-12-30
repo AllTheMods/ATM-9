@@ -17,7 +17,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('greenhouse')
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT])
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('CCC', 'CCC', 'CGC', 'CGC', 'CCC')
             .aisle('CCC', 'FPF', 'G#G', 'GIG', 'CGC')

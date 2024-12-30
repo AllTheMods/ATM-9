@@ -54,7 +54,8 @@ ServerEvents.recipes(allthemods => {
                     recipeBuilder.EUt(MV)
                         .notConsumable(InputItem.of(input))
                         .inputFluids(Fluid.of('minecraft:water', 1000))
-                        .duration(duration * 4)
+                        .duration(duration / 4)
+                        .circuit(0)
                     drops.forEach( (drop) => {
                         if (drop.hasOwnProperty('maxRolls')) {
                             recipeBuilder.chancedOutput(Item.of(drop.output.item, drop.maxRolls), drop.chance * 10000, drop.chance * 10000)
@@ -72,7 +73,8 @@ ServerEvents.recipes(allthemods => {
             recipeBuilder.EUt(MV)
                 .notConsumable(InputItem.of(input))
                 .inputFluids(Fluid.of('minecraft:water', 1000))
-                .duration(duration * 4)
+                .duration(duration / 4)
+                .circuit(0)
             drops.forEach( (drop) => {
                 if (drop.hasOwnProperty('maxRolls')) {
                     recipeBuilder.chancedOutput(Item.of(drop.output.item, drop.maxRolls), drop.chance * 10000, drop.chance * 10000)
@@ -95,7 +97,7 @@ ServerEvents.recipes(allthemods => {
         let inp = 'mysticalagriculture:' + base + '_seeds'
         let out = 'mysticalagriculture:' + base + '_essence'
         let boostOut = '4x mysticalagriculture:' + base + '_essence'
-        let duration = 9600
+        let duration = 9600 / 2
 
         grow(id, inp, out, duration, 'minecraft:air', false)
         grow(id + '_boosted', inp, boostOut, duration, '4x mysticalagriculture:inferium_essence', true)
@@ -106,7 +108,7 @@ ServerEvents.recipes(allthemods => {
         let inp = 'mysticalagriculture:' + base + '_seeds'
         let out = 'mysticalagriculture:' + base + '_essence'
         let boostOut = '4x mysticalagriculture:' + base + '_essence'
-        let duration = 9600
+        let duration = 9600 / 2
 
         grow(id, inp, out, duration, 'minecraft:air', false)
         grow(id + '_boosted', inp, boostOut, duration, '4x mysticalagriculture:prudentium_essence', true)
@@ -126,7 +128,7 @@ ServerEvents.recipes(allthemods => {
         let inp = 'mysticalagriculture:' + base + '_seeds'
         let out = 'mysticalagriculture:' + base + '_essence'
         let boostOut = '4x mysticalagriculture:' + base + '_essence'
-        let duration = 9600 * 2
+        let duration = 9600
 
         grow(id, inp, out, duration, 'minecraft:air', false)
         grow(id + '_boosted', inp, boostOut, duration, '4x mysticalagriculture:tertium_essence', true)
@@ -137,7 +139,7 @@ ServerEvents.recipes(allthemods => {
         let inp = 'mysticalagriculture:' + base + '_seeds'
         let out = 'mysticalagriculture:' + base + '_essence'
         let boostOut = '4x mysticalagriculture:' + base + '_essence'
-        let duration = 9600 * 2
+        let duration = 9600
 
         grow(id, inp, out, duration, 'minecraft:air', false)
         grow(id + '_boosted', inp, boostOut, duration, '4x mysticalagriculture:imperium_essence', true)
@@ -152,7 +154,7 @@ ServerEvents.recipes(allthemods => {
         let inp = 'mysticalagriculture:' + base + '_seeds'
         let out = 'mysticalagriculture:' + base + '_essence'
         let boostOut = '4x mysticalagriculture:' + base + '_essence'
-        let duration = 9600 * 6
+        let duration = 9600 * 3
 
         grow(id, inp, out, duration, 'minecraft:air', false)
         grow(id + '_boosted', inp, boostOut, duration, '4x mysticalagriculture:supremium_essence', true)
@@ -172,7 +174,7 @@ ServerEvents.recipes(allthemods => {
         }
         let out = 'mysticalagriculture:' + base + '_essence'
         let boostOut = '4x mysticalagriculture:' + base + '_essence'
-        let duration = 9600 * 18
+        let duration = 9600 * 9
 
         allthemods.recipes.gtceu.greenhouse(id)
             .circuit(2)
@@ -194,8 +196,8 @@ ServerEvents.recipes(allthemods => {
     })
 
     //////////////// GT Rubber trees ////////////////
-    grow('rubber_sapling', 'gtceu:rubber_sapling', ['32x gtceu:rubber_log', '8x gtceu:sticky_resin', '4x gtceu:rubber_sapling'], 9600.0, 'minecraft:air', false)
-    grow('rubber_sapling_boosted', 'gtceu:rubber_sapling', ['64x gtceu:rubber_log', '16x gtceu:sticky_resin', '4x gtceu:rubber_sapling'], 9600.0, '4x gtceu:fertilizer', true)
+    grow('rubber_sapling', 'gtceu:rubber_sapling', ['32x gtceu:rubber_log', '8x gtceu:sticky_resin', '4x gtceu:rubber_sapling'], 9600.0 / 2, 'minecraft:air', false)
+    grow('rubber_sapling_boosted', 'gtceu:rubber_sapling', ['64x gtceu:rubber_log', '16x gtceu:sticky_resin', '4x gtceu:rubber_sapling'], 9600.0 / 2, '4x gtceu:fertilizer', true)
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.

@@ -1,0 +1,15 @@
+{
+    "type": "ae2:inscriber",
+    "ingredients": {
+      "middle": {
+        "item": "advanced_ae:quantum_alloy"
+      },
+      "top": {
+        "item": "kubejs:universal_addon_press"
+      }
+    },
+    "mode": "inscribe",
+    "result": {
+      "item": "advanced_ae:printed_quantum_processor"
+    }
+  }

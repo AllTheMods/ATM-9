@@ -18,10 +18,29 @@ ServerEvents.recipes(allthemods => {
     L: 'ae2:logic_processor_press',
     E: 'ae2:engineering_processor_press'
   }).id('allthemods:universal_press')
- 
-  allthemods.shapeless(` 4x ae2:fluix_covered_cable`,[`ae2:fluix_covered_dense_cable`]).id(`allthemods:ae2/dense_to_normal`)
-  allthemods.shapeless(` 4x ae2:fluix_smart_cable`,[`ae2:fluix_smart_dense_cable`]).id(`allthemods:ae2/smart_dense_to_smart_normal`)
-  allthemods.shaped('16x ae2:sky_dust', ['DDD','   ','   '] ,{D: 'mysticalagriculture:sky_stone_essence',}).id('allthemods:ae2/skystone_dust')
+
+  allthemods.shaped('kubejs:universal_addon_press', ['FPF', 'CSL', 'FEF'], {
+    F: '#forge:storage_blocks/sky_steel',
+    P: 'megacells:accumulation_processor_press',
+    C: 'appflux:energy_processor_press',
+    S: 'appflux:charged_redstone',
+    L: 'advanced_ae:quantum_processor_press',
+    E: 'advanced_ae:quantum_alloy'
+  }).id('allthemods:universal_addon_press')
+
+  allthemods.shaped('kubejs:ultimate_universal_press', ['FPG', 'CSL', 'GEF'], {
+    F: '#forge:storage_blocks/vibranium_allthemodium_alloy',
+    G: '#forge:storage_blocks/unobtainium_vibranium_alloy',
+    P: 'kubejs:universal_press',
+    C: 'appflux:core_256k',
+    S: 'advanced_ae:quantum_core',
+    L: 'megacells:bulk_cell_component',
+    E: 'kubejs:universal_addon_press'
+  }).id('allthemods:ultimate_universal_press')
+
+  allthemods.shapeless(` 4x ae2:fluix_covered_cable`, [`ae2:fluix_covered_dense_cable`]).id(`allthemods:ae2/dense_to_normal`)
+  allthemods.shapeless(` 4x ae2:fluix_smart_cable`, [`ae2:fluix_smart_dense_cable`]).id(`allthemods:ae2/smart_dense_to_smart_normal`)
+  allthemods.shaped('16x ae2:sky_dust', ['DDD', '   ', '   '], { D: 'mysticalagriculture:sky_stone_essence', }).id('allthemods:ae2/skystone_dust')
 
 })
 

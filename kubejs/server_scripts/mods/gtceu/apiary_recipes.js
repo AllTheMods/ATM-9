@@ -381,6 +381,9 @@ ServerEvents.recipes(allthemods => {
             // set chance and count if applicable
             if (output.hasOwnProperty('chance')) {
                 chance = output.chance * 100 // convert to base 10000 for GT
+                // boost chance a bit, a little reward for making the comb processor
+                // either +1.25% chance or 1.25 * chance, whichever is higher, up to 10000
+                chance = Math.min(Math.max(chance * 1.25, chance + 125), 10000)
             }
             if (output.hasOwnProperty('max')) {
                 count = output.max // max roll! woo!
@@ -436,7 +439,10 @@ ServerEvents.recipes(allthemods => {
                 if (output.item.hasOwnProperty('tag')) {
                     if (chance != 10000) {
                         combRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count), chance, 0)
-                        combBlockRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count * 4), chance, 0)
+                        combBlockRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count), chance, 0)
+                        combBlockRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count), chance, 0)
+                        combBlockRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count), chance, 0)
+                        combBlockRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count), chance, 0)
                     } else {
                         combRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(count))
                         if (output.item.tag != 'forge:wax') {
@@ -448,7 +454,10 @@ ServerEvents.recipes(allthemods => {
                     // console.log("output item item is " + output.item.item)
                     if (chance != 10000) {
                         combRecipeBuilder.chancedOutput(Item.of(output.item.item, count), chance, 0)
-                        combBlockRecipeBuilder.chancedOutput(Item.of(output.item.item, count * 4), chance, 0)
+                        combBlockRecipeBuilder.chancedOutput(Item.of(output.item.item, count), chance, 0)
+                        combBlockRecipeBuilder.chancedOutput(Item.of(output.item.item, count), chance, 0)
+                        combBlockRecipeBuilder.chancedOutput(Item.of(output.item.item, count), chance, 0)
+                        combBlockRecipeBuilder.chancedOutput(Item.of(output.item.item, count), chance, 0)
                     } else {
                         combRecipeBuilder.itemOutputs(Item.of(output.item.item, count))
                         combBlockRecipeBuilder.itemOutputs(Item.of(output.item.item, count * 4))
