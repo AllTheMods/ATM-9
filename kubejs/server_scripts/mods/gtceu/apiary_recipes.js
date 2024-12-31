@@ -380,7 +380,7 @@ ServerEvents.recipes(allthemods => {
             .itemInputs(inputBlock)
             .circuit(1)
 
-        let combBlockMAXRecipeBuilder = allthemods.recipes.gtceu.comb_processor(id + '_block_MAX')
+        let combBlockMAXRecipeBuilder = allthemods.recipes.gtceu.comb_processor(id + '_block_max')
             .duration(20 * 16)
             .EUt(UEV)
             .itemInputs(inputMAXBlock)
