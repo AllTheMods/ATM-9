@@ -96,8 +96,8 @@ ServerEvents.recipes(allthemods => {
                 .EUt(EV)
                 .duration(5250 / 8)
                 .notConsumable(IngredientHelper.weakNBT(Item.of(input)).withCount(i))
-                .notConsumable(Item.of('productivebees:upgrade_productivity_4', (Math.floor((i - 1)/5) + 1) * 4))
-            outputs.forEach( (output) => {
+                .notConsumable(Item.of('productivebees:upgrade_productivity_4', (Math.floor((i - 1) / 5) + 1) * 4))
+            outputs.forEach((output) => {
                 if (output.chance == 10000) {
                     if (40 * i > 127 && output.item.hasNBT()) {
                         // multiply output by 40 because 1 perfect bee with 4 omegas produces 40 comb blocks in one cycle
@@ -123,30 +123,30 @@ ServerEvents.recipes(allthemods => {
 
     //////////////// machine controllers ////////////////
     allthemods.shaped('gtceu:apiary_i', ['BAB', 'ACA', 'WSW'],
-    {
-        A: '#gtceu:circuits/mv',
-        W: 'gtceu:gold_single_cable',
-        S: 'gtceu:clean_machine_casing',
-        C: 'productivebees:upgrade_simulator',
-        B: 'productivebees:upgrade_comb_block'
-    }).id('gtceu:shaped/apiary_i')
+        {
+            A: '#gtceu:circuits/mv',
+            W: 'gtceu:gold_single_cable',
+            S: 'gtceu:clean_machine_casing',
+            C: 'productivebees:upgrade_simulator',
+            B: 'productivebees:upgrade_comb_block'
+        }).id('gtceu:shaped/apiary_i')
 
     allthemods.shaped('gtceu:apiary_ii', ['CAC', 'ACA', 'WSW'],
-    {
-        A: '#gtceu:circuits/ev',
-        W: 'gtceu:black_steel_single_cable',
-        S: 'gtceu:stable_machine_casing',
-        C: 'productivebees:upgrade_productivity_4',
-    }).id('gtceu:shaped/apiary_ii')
+        {
+            A: '#gtceu:circuits/ev',
+            W: 'gtceu:black_steel_single_cable',
+            S: 'gtceu:stable_machine_casing',
+            C: 'productivebees:upgrade_productivity_4',
+        }).id('gtceu:shaped/apiary_ii')
 
     allthemods.shaped('gtceu:comb_processor', ['BAB', 'ACA', 'WSW'],
-    {
-        A: '#gtceu:circuits/mv',
-        W: 'gtceu:gold_single_cable',
-        S: 'gtceu:clean_machine_casing',
-        C: 'productivebees:heated_centrifuge',
-        B: 'gtceu:stainless_steel_rotor'
-    }).id('gtceu:shaped/comb_processor')
+        {
+            A: '#gtceu:circuits/mv',
+            W: 'gtceu:gold_single_cable',
+            S: 'gtceu:clean_machine_casing',
+            C: 'productivebees:heated_centrifuge',
+            B: 'gtceu:stainless_steel_rotor'
+        }).id('gtceu:shaped/comb_processor')
 
     //////////////// apiary_i recipes ////////////////
 
@@ -164,9 +164,9 @@ ServerEvents.recipes(allthemods => {
     //     .notConsumable(Item.of('minecraft:coal_ore'))
     //     .itemOutputs(Item.of('productivebees:configurable_comb', '{EntityTag: {type: "productivebees:starry"}}').withCount(127))
     //     .itemOutputs(Item.of('productivebees:configurable_comb', '{EntityTag: {type: "productivebees:starry"}}').withCount(127))
-    
+
     // copy all beehive production recipes
-    allthemods.forEachRecipe({type: 'productivebees:advanced_beehive'}, rawRecipe => {
+    allthemods.forEachRecipe({ type: 'productivebees:advanced_beehive' }, rawRecipe => {
         let recipe = JSON.parse(rawRecipe.json)
         let duration = 5250 / 2 // time in ticks spent in hive (4800) + pollinating time (450)
         let beeType = recipe.ingredient.split(':')[1] // recipe.ingredient looks like productivebees:experience
@@ -189,21 +189,21 @@ ServerEvents.recipes(allthemods => {
             }
             let results = recipe.results // array of objects like { item: { }, chance: 40 }
             let flower
-    
+
             let index = data.findIndex((key) => key.includes("/" + beeType + ".json"))
             let beeData = jsonFolder[data[index]]
-    
+
             let recipeBuilder = allthemods.recipes.gtceu.apiary_i('kubejs:gtceu/apiary_i/' + beeType)
                 .EUt(MV)
                 .duration(duration)
                 .chancedInput(IngredientHelper.weakNBT(input), 100, 50)
-            
+
             let outputs = []
             results.forEach((result) => {
                 // reset outputItem and chance
                 let outputItem = null
                 let chance = 10000
-    
+
                 if (result.hasOwnProperty('item')) {
                     // result.item - all results should have item key
                     if (result.item.hasOwnProperty('item')) {
@@ -245,26 +245,26 @@ ServerEvents.recipes(allthemods => {
                     console.log("result has no item key for bee " + beeType)
                     console.log(JsonIO.toPrettyString(result))
                 }
-    
+
                 if (result.hasOwnProperty('chance') && outputItem != null) {
                     // there is a chance associated with this output, no extra for overclocking
                     // multiply by 100 to convert to GT's base 10000 chance functions
                     chance = result.chance * 100
                     if (outputItem.hasNBT()) {
                         recipeBuilder.chancedOutput(IngredientHelper.strongNBT(outputItem), chance, 0)
-                        outputs.push({item: outputItem.copy(), chance: chance})
+                        outputs.push({ item: outputItem.copy(), chance: chance })
                     } else {
                         recipeBuilder.chancedOutput(outputItem, chance, 0)
-                        outputs.push({item: outputItem.copy(), chance: chance})
+                        outputs.push({ item: outputItem.copy(), chance: chance })
                     }
                 } else if (outputItem != null && chance == 10000) {
                     // chance is 100% by default if result.chance doesn't exist
                     if (outputItem.hasNBT()) {
                         recipeBuilder.itemOutputs(IngredientHelper.strongNBT(outputItem))
-                        outputs.push({item: outputItem.copy(), chance: chance})
+                        outputs.push({ item: outputItem.copy(), chance: chance })
                     } else {
                         recipeBuilder.itemOutputs(outputItem)
-                        outputs.push({item: outputItem.copy(), chance: chance})
+                        outputs.push({ item: outputItem.copy(), chance: chance })
                     }
                 } else {
                     if (!outputItem.isEmpty()) {
@@ -275,7 +275,7 @@ ServerEvents.recipes(allthemods => {
                     }
                 }
             }) // end of loop over all results
-    
+
             let flowerThing
             if (index != -1) { // e.g. we found the bee's JSON file
                 if (beeData.hasOwnProperty('flowerFluid')) {
@@ -330,36 +330,41 @@ ServerEvents.recipes(allthemods => {
             } // end of finding the flower logic
 
             makeCircuitRecipes('kubejs:gtceu/apiary_ii/' + beeType, input_ii, flowerThing, outputs)
-    
+
         } // end of if loop to skip certain bees
 
     }) // end of loop over all advanced beehive produce recipes
 
     // copy all centrifuge recipes
-    allthemods.forEachRecipe({type: 'productivebees:centrifuge'}, rawRecipe => {
+    allthemods.forEachRecipe({ type: 'productivebees:centrifuge' }, rawRecipe => {
         let recipe = JSON.parse(rawRecipe.json)
         let duration = 300 / 9 // default centrifuge processing time in ticks = 300, heated centrifuge is 9 times faster
         let inputObj = recipe.ingredient // ingredient should always exist
         let input
         let inputBlock
+        let inputMAXBlock
         let id = 'kubejs:gtceu/comb_processor' + rawRecipe.getId().replace('productivebees:centrifuge', '')
         let outputs = recipe.outputs // looks like [ { item: { item/tag: "stuff" }, chance: 80 }, { amount: 50, fluid: { fluid: productivebees:honey } } ]
-        
+
         if (inputObj.hasOwnProperty('nbt')) { // check for nbt, handle string and object formats
             // console.log("typeof nbt is " + typeof(inputObj.nbt))
-            if (typeof(inputObj.nbt) == 'string') {
+            if (typeof (inputObj.nbt) == 'string') {
                 input = Item.of(inputObj.item, 1, inputObj.nbt).strongNBT()
                 inputBlock = Item.of(inputObj.item.replace('honey', ''), 1, inputObj.nbt).strongNBT()
+                inputMAXBlock = Item.of(inputObj.item.replace('honey', ''), 1, inputObj.nbt).strongNBT().withCount(40960)
             } else {
                 input = Item.of(inputObj.item, 1, '{EntityTag:{type:"' + inputObj.nbt.EntityTag.type + '"}}').strongNBT()
                 inputBlock = Item.of(inputObj.item.replace('honey', ''), 1, '{EntityTag:{type:"' + inputObj.nbt.EntityTag.type + '"}}').strongNBT()
+                inputMAXBlock = Item.of(inputObj.item.replace('honey', ''), 1, '{EntityTag:{type:"' + inputObj.nbt.EntityTag.type + '"}}').strongNBT().withCount(40960)
             }
         } else {
             input = Item.of(inputObj.item)
             if (inputObj.item == 'minecraft:honeycomb') {
                 inputBlock = Item.of('minecraft:honeycomb_block')
+                inputMAXBlock = Item.of('minecraft:honeycomb_block', 40960)
             } else {
-                inputBlock = Item.of(inputObj.item.replace('honey',''))
+                inputBlock = Item.of(inputObj.item.replace('honey', ''))
+                inputMAXBlock = Item.of(inputObj.item.replace('honey', ''), 40960)
             }
         }
         // console.log("input looks like " + JsonIO.toPrettyString(input.toJson()))
@@ -368,13 +373,20 @@ ServerEvents.recipes(allthemods => {
             .duration(duration)
             .EUt(MV)
             .itemInputs(input)
-        
+
         let combBlockRecipeBuilder = allthemods.recipes.gtceu.comb_processor(id + '_block')
             .duration(duration)
             .EUt(MV)
             .itemInputs(inputBlock)
-        
-        outputs.forEach( (output) => {
+            .circuit(1)
+
+        let combBlockMAXRecipeBuilder = allthemods.recipes.gtceu.comb_processor(id + '_block_MAX')
+            .duration(20 * 16)
+            .EUt(UEV)
+            .itemInputs(inputMAXBlock)
+            .circuit(2)
+
+        outputs.forEach((output) => {
             let chance = 10000
             let count = 1
 
@@ -397,39 +409,50 @@ ServerEvents.recipes(allthemods => {
                     if (chance != 10000) {
                         combRecipeBuilder.chancedFluidOutput(Fluid.of(output.fluid.fluid, amount), chance, 0)
                         combBlockRecipeBuilder.chancedFluidOutput(Fluid.of(output.fluid.fluid, amount * 4), chance, 0)
+                        combBlockMAXRecipeBuilder.chancedFluidOutput(Fluid.of(output.fluid.fluid, amount * 4 * 40960), chance, 0)
                     } else {
                         combRecipeBuilder.outputFluids(Fluid.of(output.fluid.fluid, amount))
                         combBlockRecipeBuilder.outputFluids(Fluid.of(output.fluid.fluid, amount * 4))
+                        combBlockMAXRecipeBuilder.outputFluids(Fluid.of(output.fluid.fluid, amount * 4 * 40960))
                     }
                 } else {
                     // fluid tags, manually take care of each one
                     if (output.fluid.tag == 'forge:honey') {
                         combRecipeBuilder.chancedFluidOutput(Fluid.of('productivebees:honey', amount), chance, 0)
                         combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('productivebees:honey', amount * 4), chance, 0)
+                        combBlockMAXRecipeBuilder.chancedFluidOutput(Fluid.of('productivebees:honey', amount * 4 * 40960), chance, 0)
                     } else if (output.fluid.tag == 'forge:life') {
                         combRecipeBuilder.chancedFluidOutput(Fluid.of('bloodmagic:life_essence_fluid', amount), chance, 0)
                         combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('bloodmagic:life_essence_fluid', amount * 4), chance, 0)
+                        combBlockMAXRecipeBuilder.chancedFluidOutput(Fluid.of('bloodmagic:life_essence_fluid', amount * 4 * 40960), chance, 0)
                     } else if (output.fluid.tag == 'forge:glowstone') {
                         combRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:glowstone', amount), chance, 0)
                         combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:glowstone', amount * 4), chance, 0)
+                        combBlockMAXRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:glowstone', amount * 4 * 40960), chance, 0)
                     } else if (output.fluid.tag == 'forge:experience') {
                         combRecipeBuilder.chancedFluidOutput(Fluid.of('mob_grinding_utils:fluid_xp', amount), chance, 0)
                         combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('mob_grinding_utils:fluid_xp', amount * 4), chance, 0)
+                        combBlockMAXRecipeBuilder.chancedFluidOutput(Fluid.of('mob_grinding_utils:fluid_xp', amount * 4 * 40960), chance, 0)
                     } else if (output.fluid.tag == 'forge:crude_oil') {
                         combRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:crude_oil', amount), chance, 0)
                         combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:crude_oil', amount * 4), chance, 0)
+                        combBlockMAXRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:crude_oil', amount * 4 * 40960), chance, 0)
                     } else if (output.fluid.tag == 'forge:chocolate') {
                         combRecipeBuilder.chancedFluidOutput(Fluid.of('create:chocolate', amount), chance, 0)
                         combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('create:chocolate', amount * 4), chance, 0)
+                        combBlockMAXRecipeBuilder.chancedFluidOutput(Fluid.of('create:chocolate', amount * 4 * 40960), chance, 0)
                     } else if (output.fluid.tag == 'forge:ender') {
                         combRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:ender', amount), chance, 0)
                         combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:ender', amount * 4), chance, 0)
+                        combBlockMAXRecipeBuilder.chancedFluidOutput(Fluid.of('thermal:ender', amount * 4 * 40960), chance, 0)
                     } else if (output.fluid.tag == 'forge:pink_slime') {
                         combRecipeBuilder.chancedFluidOutput(Fluid.of('industrialforegoing:pink_slime', amount), chance, 0)
                         combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('industrialforegoing:pink_slime', amount * 4), chance, 0)
+                        combBlockMAXRecipeBuilder.chancedFluidOutput(Fluid.of('industrialforegoing:pink_slime', amount * 4 * 40960), chance, 0)
                     } else if (output.fluid.tag == 'forge:redstone') {
                         combRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:redstone', amount), chance, 0)
                         combBlockRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:redstone', amount * 4), chance, 0)
+                        combBlockMAXRecipeBuilder.chancedFluidOutput(Fluid.of('gtceu:redstone', amount * 4 * 40960), chance, 0)
                     } else {
                         console.log("Fluid Tag unaccounted for in Comb Processor recipes: " + output.fluid.tag)
                     }
@@ -443,11 +466,13 @@ ServerEvents.recipes(allthemods => {
                         combBlockRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count), chance, 0)
                         combBlockRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count), chance, 0)
                         combBlockRecipeBuilder.chancedOutput(IngredientHelper.tag(output.item.tag).withCount(count), chance, 0)
+                        combBlockMAXRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(Math.floor(count * 4 * 40960 * chance / 10000)))
                     } else {
                         combRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(count))
                         if (output.item.tag != 'forge:wax') {
                             // don't give wax for combBlockRecipes
                             combBlockRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(count * 4))
+                            combBlockMAXRecipeBuilder.itemOutputs(IngredientHelper.tag(output.item.tag).withCount(count * 4 * 40960))
                         }
                     }
                 } else if (output.item.hasOwnProperty('item')) {
@@ -458,9 +483,11 @@ ServerEvents.recipes(allthemods => {
                         combBlockRecipeBuilder.chancedOutput(Item.of(output.item.item, count), chance, 0)
                         combBlockRecipeBuilder.chancedOutput(Item.of(output.item.item, count), chance, 0)
                         combBlockRecipeBuilder.chancedOutput(Item.of(output.item.item, count), chance, 0)
+                        combBlockMAXRecipeBuilder.itemOutputs(Item.of(output.item.item, Math.floor(count * 4 * 40960 * chance / 10000)))
                     } else {
                         combRecipeBuilder.itemOutputs(Item.of(output.item.item, count))
                         combBlockRecipeBuilder.itemOutputs(Item.of(output.item.item, count * 4))
+                        combBlockMAXRecipeBuilder.itemOutputs(Item.of(output.item.item, count * 4 * 40960))
                     }
                 } else {
                     // this item is neither an item nor a tag, log it
