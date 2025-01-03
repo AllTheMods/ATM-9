@@ -305,6 +305,11 @@ ItemEvents.tooltip(allthemods => {
       Text.of('Not an AssLine... A NeoCube')
     ]
   )
+  allthemods.add('gtceu:neural_node',
+    [
+      Text.of('Self-Aware')
+    ]
+  )
   allthemods.add('gtceu:advanced_large_chemical_reactor',
     [
       Text.of('ALCR a LCR that can parallelize.')
