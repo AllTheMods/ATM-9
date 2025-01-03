@@ -8,7 +8,7 @@ ServerEvents.tags('item', allthemods => {
   allthemods.add('forge:dusts/ender', 'ae2:ender_dust')
   allthemods.add('ars_nouveau:golem/shard', ['minecraft:amethyst_shard', 'ae2:certus_quartz_crystal'])
   allthemods.add('forge:raw_materials', ['silentgear:raw_azure_silver', 'silentgear:raw_crimson_iron'])
-  allthemods.add('forge:rubber', ['ftbic:rubber','industrialforegoing:dryrubber','thermal:cured_rubber'])
+  allthemods.add('forge:rubber', ['ftbic:rubber', 'industrialforegoing:dryrubber', 'thermal:cured_rubber'])
   allthemods.add('mysticalagriculture:essences', [
     'mysticalagriculture:allthemodium_essence',
     'mysticalagriculture:azure_silver_essence',
@@ -26,8 +26,8 @@ ServerEvents.tags('item', allthemods => {
   allthemods.add('forge:dusts', 'alltheores:netherite_dust')
   allthemods.add('forge:dusts/netherite', 'alltheores:netherite_dust')
 
-  allthemods.add('forbidden_arcanus:modifier/eternal_incompatible',[
-    '#alltheores:ore_hammers','@ftbic','minecraft:nether_star','bloodmagic:sanguinereverter','#occultism:miners/ores','apotheosis:potion_charm'
+  allthemods.add('forbidden_arcanus:modifier/eternal_incompatible', [
+    '#alltheores:ore_hammers', '@ftbic', 'minecraft:nether_star', 'bloodmagic:sanguinereverter', '#occultism:miners/ores', 'apotheosis:potion_charm'
   ])
 
   // add Productive Bee blocktags as item tags for the GT Apiary to work
@@ -54,12 +54,18 @@ ServerEvents.tags('item', allthemods => {
   allthemods.add('kubejs:bee/menril/flowers', '#minecraft:flowers')
   allthemods.add('kubejs:bee/energized_glowstone/flowers', '#minecraft:flowers')
 
+  // allow quarry bees to quarry more stone types, like Aether stones
+  allthemods.add('productivebees:flowers/quarry', ['lost_aether_content:gale_stone', 'aether:carved_stone', 'aether:angelic_stone', 'aether:hellfire_stone', 'allthemodium:ancient_stone'])
+
+  // allow lumber bees to produce bamboo blocks because they are lumber!
+  allthemods.add('productivebees:flowers/lumber', ['minecraft:bamboo_block', 'minecraft:stripped_bamboo_block'])
+
   //Fix Mythicbotany tags
   allthemods.add('forge:raw_materials/elementium', 'mythicbotany:raw_elementium')
   allthemods.add('forge:storage_blocks/raw_elementium', 'mythicbotany:raw_elementium_block')
 
   allthemods.remove('forge:shears', 'allthemodium:alloy_paxel')
-  
+
   allthemods.remove('forge:ingots/naquadah', 'sgjourney:naquadah')
   allthemods.remove('forge:ingots/naquadah_alloy', 'sgjourney:naquadah')
   allthemods.remove('forge:ingots/naquadah_alloy', 'sgjourney:naquadah_alloy')
@@ -77,18 +83,18 @@ ServerEvents.tags('item', allthemods => {
   allthemods.add('forge:salad_ingredients/cabbage', 'croptopia:cabbage')
   // - mek
   allthemods.add('forge:storage_blocks', 'mekanism:block_salt')
-	allthemods.add('minecolonies:storage_blocks', 'mekanism:block_salt')
-	allthemods.add('forge:storage_blocks/salt', 'mekanism:block_salt')
+  allthemods.add('minecolonies:storage_blocks', 'mekanism:block_salt')
+  allthemods.add('forge:storage_blocks/salt', 'mekanism:block_salt')
   // - railcraft
   allthemods.remove('forge:salt', 'railcraft:saltpeter_dust')
-	allthemods.remove('forge:dusts/salt', 'railcraft:saltpeter_dust')
-	allthemods.remove('forge:salts', 'railcraft:saltpeter_dust')
-	allthemods.add('forge:dusts/potassium_nitrate', 'railcraft:saltpeter_dust')
-	allthemods.add('forge:dusts', 'railcraft:saltpeter_dust')
-	allthemods.add('forge:dusts/saltpeter', 'railcraft:saltpeter_dust')
-	allthemods.add('forge:dusts/niter', 'railcraft:saltpeter_dust')
-	allthemods.add('mysticalagriculture:material/saltpeter', 'railcraft:saltpeter_dust')
-	allthemods.add('supplementaries:hourglass_dusts', 'railcraft:saltpeter_dust')
+  allthemods.remove('forge:dusts/salt', 'railcraft:saltpeter_dust')
+  allthemods.remove('forge:salts', 'railcraft:saltpeter_dust')
+  allthemods.add('forge:dusts/potassium_nitrate', 'railcraft:saltpeter_dust')
+  allthemods.add('forge:dusts', 'railcraft:saltpeter_dust')
+  allthemods.add('forge:dusts/saltpeter', 'railcraft:saltpeter_dust')
+  allthemods.add('forge:dusts/niter', 'railcraft:saltpeter_dust')
+  allthemods.add('mysticalagriculture:material/saltpeter', 'railcraft:saltpeter_dust')
+  allthemods.add('supplementaries:hourglass_dusts', 'railcraft:saltpeter_dust')
 
   allthemods.remove('tombstone:seeds', 'mysticalagriculture:seeds')
   allthemods.remove('forge:seeds', '#mysticalagriculture:seeds')
@@ -120,36 +126,41 @@ ServerEvents.tags('block', allthemods => {
     'mysticalagriculture:unobtainium_crop',
     'mysticalagriculture:vibranium_crop'
   ])
-  
+
   allthemods.add('minecraft:beacon_base_blocks', [
     'allthemodium:vibranium_allthemodium_alloy_block',
     'allthemodium:unobtainium_allthemodium_alloy_block',
     'allthemodium:unobtainium_vibranium_alloy_block',
     'allthetweaks:atm_star_block'
   ])
-  allthemods.add('forge:ores',['irons_spellbooks:arcane_debris', /ad_astra:\w+?_ore/])
+  allthemods.add('forge:ores', ['irons_spellbooks:arcane_debris', /ad_astra:\w+?_ore/])
 
-  allthemods.add('entangled:invalid_targets', ['@megacells','@expatternprovider','@cabletiers','@ae2','@refinedstorage'])
+  allthemods.add('entangled:invalid_targets', ['@megacells', '@expatternprovider', '@cabletiers', '@ae2', '@refinedstorage'])
 
   //create issues
   allthemods.remove('create:safe_nbt', ['create:clipboard'])
-  allthemods.add('create:non_movable',['@sophisticatedstorage'])
+  allthemods.add('create:non_movable', ['@sophisticatedstorage'])
 
+  // let quarry bee do some more quarrying
+  allthemods.add('productivebees:flowers/quarry', ['lost_aether_content:gale_stone', 'aether:carved_stone', 'aether:angelic_stone', 'aether:hellfire_stone', 'allthemodium:ancient_stone'])
+
+  // allow lumber bees to produce bamboo blocks because they are lumber!
+  allthemods.add('productivebees:flowers/lumber', ['minecraft:bamboo_block', 'minecraft:stripped_bamboo_block'])
 })
 
 ServerEvents.tags('fluid', allthemods => {
-  allthemods.remove('minecraft:water',[
-    'ad_astra:oil','ad_astra:flowing_oil',
-    'ad_astra:cryo_fuel','ad_astra:flowing_cryo_fuel',
-    'ad_astra:fuel','ad_astra:flowing_fuel',
-    'createaddition:flowing_seed_oil','createaddition:seed_oil',
-    'createaddition:bioethanol','createaddition:flowing_bioethanol'])
+  allthemods.remove('minecraft:water', [
+    'ad_astra:oil', 'ad_astra:flowing_oil',
+    'ad_astra:cryo_fuel', 'ad_astra:flowing_cryo_fuel',
+    'ad_astra:fuel', 'ad_astra:flowing_fuel',
+    'createaddition:flowing_seed_oil', 'createaddition:seed_oil',
+    'createaddition:bioethanol', 'createaddition:flowing_bioethanol'])
   allthemods.add('forge:oil', '#forge:crude_oil')
   allthemods.add('forge:nutritional_paste', 'mekanism:nutritional_paste')
 })
 
 ServerEvents.tags('entity_type', allthemods => {
-  allthemods.add('kubejs:mob_blacklist', [/productivebees:.+/, 'allthemodium:piglich', 'artifacts:mimic', 'minecraft:iron_golem','minecraft:wither'])
+  allthemods.add('kubejs:mob_blacklist', [/productivebees:.+/, 'allthemodium:piglich', 'artifacts:mimic', 'minecraft:iron_golem', 'minecraft:wither'])
   allthemods.add('mob_grinding_utils:no_swab', '#kubejs:mob_blacklist')
   allthemods.add('mob_grinding_utils:no_spawn', '#kubejs:mob_blacklist')
   allthemods.add('pneumaticcraft:vacuum_trap_blacklisted', '#kubejs:mob_blacklist')
