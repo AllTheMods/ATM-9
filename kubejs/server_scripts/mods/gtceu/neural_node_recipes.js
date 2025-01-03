@@ -101,45 +101,45 @@ ServerEvents.recipes(allthemods => {
     // alpha yeti
     neural_node('twilightforest/alpha_yeti', '3x ' + input, ['32x twilightforest:ice_bomb', '4x twilightforest:alpha_yeti_trophy', '16x twilightforest:alpha_yeti_fur', '3x ' + tf], time * 3, ZPM * 2)
     // carminite golem
-    neural_node('twlightforest/carminite_golem', '2x ' + input, ['32x twilightforest:towerwood', '16x minecraft:iron_ingot', '2x ' + tf], time * 2, LuV)
+    neural_node('twilightforest/carminite_golem', '2x ' + input, ['32x twilightforest:towerwood', '16x minecraft:iron_ingot', '2x ' + tf], time * 2, LuV)
     // death tome
-    neural_node('twlightforest/death_tome', '4x ' + input, ['32x minecraft:paper', '16x minecraft:book', '4x minecraft:writable_book', 'twilightforest:magic_map_focus', '4x ' + tf], time * 4, IV * 2)
+    neural_node('twilightforest/death_tome', '4x ' + input, ['32x minecraft:paper', '16x minecraft:book', '4x minecraft:writable_book', 'twilightforest:magic_map_focus', '4x ' + tf], time * 4, IV * 2)
     // deer
-    neural_node('twlightforest/deer', '4x ' + input, ['32x twilightforest:raw_venison', '24x minecraft:leather', '32x naturalist:venison', '16x naturalist:antler', '4x ' + tf], time * 4, IV)
+    neural_node('twilightforest/deer', '4x ' + input, ['32x twilightforest:raw_venison', '24x minecraft:leather', '32x naturalist:venison', '16x naturalist:antler', '4x ' + tf], time * 4, IV)
     // fire beetle
-    neural_node('twlightforest/fire_beetle', '2x ' + input, ['32x minecraft:gunpowder', '2x reliquary:catalyzing_gland', '2x ' + tf], time * 2, LuV)
+    neural_node('twilightforest/fire_beetle', '2x ' + input, ['32x minecraft:gunpowder', '2x reliquary:catalyzing_gland', '2x ' + tf], time * 2, LuV)
     // twilight goblin
-    neural_node('twlightforest/goblin', input, ['16x twilightforest:armor_shard', tf], time, LuV)
+    neural_node('twilightforest/goblin', input, ['16x twilightforest:armor_shard', tf], time, LuV)
     // helemt crab
-    neural_node('twlightforest/helmet_crab', '2x ' + input, ['8x twilightforest:armor_shard', '24x minecraft:cod', '2x ' + tf], time * 2, LuV)
+    neural_node('twilightforest/helmet_crab', '2x ' + input, ['8x twilightforest:armor_shard', '24x minecraft:cod', '2x ' + tf], time * 2, LuV)
     // hydra
-    neural_node('twlightforest/hydra', '3x ' + input, ['4x twilightforest:hydra_trophy', '24x twilightforest:hydra_chop', '16x twilightforest:fiery_blood', '3x ' + tf], time * 3, ZPM * 1.25)
+    neural_node('twilightforest/hydra', '3x ' + input, ['4x twilightforest:hydra_trophy', '24x twilightforest:hydra_chop', '16x twilightforest:fiery_blood', '3x ' + tf], time * 3, ZPM * 1.25)
     // kobold
-    neural_node('twlightforest/kobold', '3x ' + input, ['32x minecraft:wheat', '16x minecraft:gold_nugget', '8x minecraft:candle', '3x ' + tf], time * 3, LuV)
+    neural_node('twilightforest/kobold', '3x ' + input, ['32x minecraft:wheat', '16x minecraft:gold_nugget', '8x minecraft:candle', '3x ' + tf], time * 3, LuV)
     // minotaur
-    neural_node('twlightforest/minotaur', '2x ' + input, ['32x twilightforest:raw_meef', 'twilightforest:maze_map_focus', '2x ' + tf], time * 2, LuV)
+    neural_node('twilightforest/minotaur', '2x ' + input, ['32x twilightforest:raw_meef', 'twilightforest:maze_map_focus', '2x ' + tf], time * 2, LuV)
     // naga
-    neural_node('twlightforest/naga', '2x ' + input, ['4x twilightforest:naga_trophy', '16x twilightforest:naga_scale', '2x ' + tf], time * 2, LuV * 2)
+    neural_node('twilightforest/naga', '2x ' + input, ['4x twilightforest:naga_trophy', '16x twilightforest:naga_scale', '2x ' + tf], time * 2, LuV * 2)
     // raven
-    neural_node('twlightforest/raven', input, ['16x twilightforest:raven_feather', tf], time, IV * 2)
+    neural_node('twilightforest/raven', input, ['16x twilightforest:raven_feather', tf], time, IV * 2)
     // skeleton druid
-    neural_node('twlightforest/skeleton_druid', '4x ' + input, ['32x twilightforest:torchberries', '32x minecraft:bone', '4x minecraft:skeleton_skull', '2x reliquary:rib_bone', '4x ' + tf], time * 4, LuV)
+    neural_node('twilightforest/skeleton_druid', '4x ' + input, ['32x twilightforest:torchberries', '32x minecraft:bone', '4x minecraft:skeleton_skull', '2x reliquary:rib_bone', '4x ' + tf], time * 4, LuV)
     // snow queen, no tri-bow
-    neural_node('twlightforest/snow_queen', '3x ' + input, ['32x minecraft:snowball', '24x minecraft:packed_ice', '4x twilightforest:snow_queen_trophy', '3x ' + tf], time * 3, ZPM * 2)
+    neural_node('twilightforest/snow_queen', '3x ' + input, ['32x minecraft:snowball', '24x minecraft:packed_ice', '4x twilightforest:snow_queen_trophy', '3x ' + tf], time * 3, ZPM * 2)
     // twilight ice elemental
-    neural_node('twlightforest/stable_ice_core', '2x ' + input, ['32x minecraft:snowball', '8x minecraft:packed_ice', '2x ' + tf], time * 2, IV * 2)
+    neural_node('twilightforest/stable_ice_core', '2x ' + input, ['32x minecraft:snowball', '8x minecraft:packed_ice', '2x ' + tf], time * 2, IV * 2)
     // towerwood borer
-    neural_node('twlightforest/towerwood_borer', input, ['8x twilightforest:borer_essence', tf], time, LuV)
+    neural_node('twilightforest/towerwood_borer', input, ['8x twilightforest:borer_essence', tf], time, LuV)
     // troll
-    neural_node('twlightforest/troll', input, ['4x twilightforest:magic_beans', tf], time, LuV * 2)
+    neural_node('twilightforest/troll', input, ['4x twilightforest:magic_beans', tf], time, LuV * 2)
     // urghast
-    neural_node('twlightforest/ur_ghast', '3x ' + input, ['32x twilightforest:carminite', '16x twilightforest:fiery_tears', '4x twilightforest:ur_ghast_trophy', '3x ' + tf], time * 3, UV)
+    neural_node('twilightforest/ur_ghast', '3x ' + input, ['32x twilightforest:carminite', '16x twilightforest:fiery_tears', '4x twilightforest:ur_ghast_trophy', '3x ' + tf], time * 3, UV)
     // winter wolf
-    neural_node('twlightforest/winter_wolf', input, ['16x twilightforest:arctic_fur', tf], time, LuV * 2)
+    neural_node('twilightforest/winter_wolf', input, ['16x twilightforest:arctic_fur', tf], time, LuV * 2)
     // wraith
-    neural_node('twlightforest/wraith', input, ['32x minecraft:glowstone_dust', tf], time, LuV)
+    neural_node('twilightforest/wraith', input, ['32x minecraft:glowstone_dust', tf], time, LuV)
     // yeti
-    neural_node('twlightforest/yeti', input, ['32x twilightforest:arctic_fur', tf], time, LuV * 2)
+    neural_node('twilightforest/yeti', input, ['32x twilightforest:arctic_fur', tf], time, LuV * 2)
     // vindicator, no axe
     neural_node('vindicator', input, ['8x minecraft:emerald', ow], time, LuV)
     // warden
