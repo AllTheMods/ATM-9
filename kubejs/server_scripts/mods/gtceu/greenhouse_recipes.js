@@ -196,7 +196,7 @@ ServerEvents.recipes(allthemods => {
 
     //////////////// Tier five ////////////////
     const supTier = ['diamond', 'emerald', 'netherite', 'wither_skeleton', 'platinum', 'enderium', 'flux_infused_gem', 'vibrant_alloy', 'end_steel',
-        'terrasteel', 'cyanite', 'niotic_crystal', 'spirited_crystal', 'uraninite']
+        'terrasteel', 'cyanite', 'niotic_crystal', 'spirited_crystal', 'uraninite', 'draconium']
 
     supTier.forEach((base) => {
         let id = 'kubejs:gtceu/greenhouse/mysticalagriculture/' + base
@@ -213,13 +213,13 @@ ServerEvents.recipes(allthemods => {
     })
 
     //////////////// Tier six ////////////////
-    const cruxTier = ['nether_star', 'dragon_egg', 'nitro_crystal', 'allthemodium', 'unobtainium', 'vibranium']
+    const cruxTier = ['nether_star', 'dragon_egg', 'nitro_crystal', 'allthemodium', 'unobtainium', 'vibranium', 'awakened_draconium']
 
     cruxTier.forEach((base) => {
         let id = 'kubejs:gtceu/greenhouse/mysticalagriculture/' + base
         let inp = 'mysticalagriculture:' + base + '_seeds'
         let crux = ''
-        if (base.includes('ium')) {
+        if (base.includes('allthemodium') || base.includes('unobtainium') || base.includes('vibranium')) {
             crux = 'kubejs:magical_soil'
         } else {
             crux = 'mysticalagradditions:' + base + '_crux'
