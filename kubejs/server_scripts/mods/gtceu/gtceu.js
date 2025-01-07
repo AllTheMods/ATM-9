@@ -68,6 +68,18 @@ ServerEvents.recipes(allthemods => {
         .stationResearch(b => b.researchStack(Item.of('gtceu:assembly_line')).CWUt(96).EUt(UV))
         .EUt(ZPM)
 
+    // Ore Processing Plant
+    allthemods.recipes.gtceu.assembly_line('ore_processing_plant')
+        .itemInputs('2x gtceu:large_maceration_tower', 'gtceu:large_chemical_bath', 'gtceu:large_centrifuge', 'gtceu:large_sifting_funnel', '8x #gtceu:circuits/zpm', '4x gtceu:zpm_robot_arm', '8x gtceu:zpm_electric_piston', '16x gtceu:zpm_electric_motor', '4x gtceu:zpm_fluid_regulator')
+        .itemOutputs('gtceu:ore_processing_plant')
+        .inputFluids(
+            Fluid.of('gtceu:lubricant', 4000),
+            Fluid.of('gtceu:soldering_alloy', 2304)
+        )
+        .duration(500)
+        .stationResearch(b => b.researchStack(Item.of('gtceu:large_maceration_tower')).CWUt(16).EUt(LuV))
+        .EUt(ZPM)
+
     // fluix, sky steel dust, and shattered singularity maceration
     allthemods.recipes.gtceu.macerator('macerate_fluix')
         .itemInputs('ae2:fluix_crystal')
