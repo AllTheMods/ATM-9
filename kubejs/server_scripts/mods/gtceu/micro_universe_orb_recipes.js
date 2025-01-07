@@ -109,18 +109,36 @@ ServerEvents.recipes(allthemods => {
         .itemOutputs(['8192x gtceu:redstone_ore', '4096x gtceu:tantalite_ore', '8192x gtceu:salt_ore', '4096x gtceu:galena_ore', '4096x gtceu:cobaltite_ore'])
         .outputFluids([Fluid.of('gtceu:liquid_air', 640000), Fluid.of('gtceu:oil', 1000000)])
         .duration(1200 * 2).EUt(UV)
-    
+
     allthemods.recipes.gtceu.micro_universe_collector('max_energy_hatch')
         .itemInputs(['1x allthetweaks:greg_star_block', '8x gtceu:uhv_energy_input_hatch_16a', '1x kubejs:micro_universe_drill_ship', '16x kubejs:micro_universe_catalyst'])
         .inputFluids([Fluid.of('gtceu:star_matter_plasma', 12000), Fluid.of('gtceu:nether_star', 1574640)])
         .itemOutputs(['1x gtceu:max_energy_input_hatch'])
         .duration(2400 * 16).EUt(UV)
-    
+
     allthemods.recipes.gtceu.micro_universe_collector('creative_energy')
         .itemInputs(['1x allthetweaks:greg_star_block', '32x gtceu:uhv_16a_energy_converter', '1x kubejs:micro_universe_drill_ship', '16x kubejs:micro_universe_catalyst'])
         .inputFluids([Fluid.of('gtceu:nether_star', 1574640)])
         .itemOutputs(['1x gtceu:creative_energy'])
         .duration(2400 * 16).EUt(UV)
+
+    allthemods.recipes.gtceu.micro_universe_collector('atm_star_blocks')
+        .itemInputs(['124416x allthetweaks:atm_star_shard', '2304x allthetweaks:patrick_star'])
+        .itemOutputs(['256x allthetweaks:atm_star_block'])
+        .chancedOutput(Item.of('allthetweaks:atm_star_block', 256), 200, 20)
+        .duration(20 * 48).EUt(UEV)
+
+    allthemods.recipes.gtceu.micro_universe_collector('greg_star_blocks')
+        .itemInputs(['124416x kubejs:greg_star_shard', '2304x kubejs:star_housing'])
+        .itemOutputs(['256x allthetweaks:greg_star_block'])
+        .chancedOutput(Item.of('allthetweaks:greg_star_block', 256), 200, 20)
+        .duration(20 * 48).EUt(UEV)
+
+    allthemods.recipes.gtceu.micro_universe_collector('nether_star_blocks')
+        .itemInputs(['6912x mysticalagradditions:nether_star_shard'])
+        .itemOutputs(['256x allthetweaks:nether_star_block'])
+        .chancedOutput(Item.of('allthetweaks:nether_star_block', 256), 200, 20)
+        .duration(20 * 48).EUt(UEV)
 
 
     // Energy Generation
