@@ -102,6 +102,23 @@ ServerEvents.recipes(allthemods => {
         .duration(100)
         .EUt(24)
 
+    // Rock Breaker recipes for End Stone and Netherrack
+    allthemods.recipes.gtceu.rock_breaker('netherrack')
+        .notConsumable('minecraft:netherrack')
+        .itemOutputs('minecraft:netherrack')
+        .addDataString('fluidA', 'minecraft:lava')
+        .addDataString('fluidB', 'minecraft:water')
+        .duration(16)
+        .EUt(EV)
+
+    allthemods.recipes.gtceu.rock_breaker('end_stone')
+        .notConsumable('minecraft:end_stone')
+        .itemOutputs('minecraft:end_stone')
+        .addDataString('fluidA', 'minecraft:lava')
+        .addDataString('fluidB', 'minecraft:water')
+        .duration(16)
+        .EUt(IV)
+
     // fluix, sky steel dust, and shattered singularity maceration
     allthemods.recipes.gtceu.macerator('macerate_fluix')
         .itemInputs('ae2:fluix_crystal')

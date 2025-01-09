@@ -135,9 +135,9 @@ ServerEvents.recipes(allthemods => {
         .duration(20 * 48).EUt(UEV)
 
     allthemods.recipes.gtceu.micro_universe_collector('nether_star_blocks')
-        .itemInputs(['6912x mysticalagradditions:nether_star_shard'])
-        .itemOutputs(['256x allthetweaks:nether_star_block'])
-        .chancedOutput(Item.of('allthetweaks:nether_star_block', 256), 200, 20)
+        .itemInputs(['921600x mysticalagradditions:nether_star_shard'])
+        .itemOutputs(['3792x allthecompressed:nether_star_block_1x', '5x allthetweaks:nether_star_block', '3x minecraft:nether_star'])
+        .chancedOutput(Item.of('allthecompressed:nether_star_block_3x', 47), 200, 20)
         .duration(20 * 48).EUt(UEV)
 
 
