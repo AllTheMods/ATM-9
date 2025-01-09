@@ -80,6 +80,28 @@ ServerEvents.recipes(allthemods => {
         .stationResearch(b => b.researchStack(Item.of('gtceu:large_maceration_tower')).CWUt(16).EUt(LuV))
         .EUt(ZPM)
 
+    // Ad Astra Plates
+    allthemods.recipes.gtceu.bender('desh_plate')
+        .itemInputs('ad_astra:desh_ingot')
+        .circuit(1)
+        .itemOutputs('ad_astra:desh_plate')
+        .duration(100)
+        .EUt(24)
+
+    allthemods.recipes.gtceu.bender('ostrum_plate')
+        .itemInputs('ad_astra:ostrum_ingot')
+        .circuit(1)
+        .itemOutputs('ad_astra:ostrum_plate')
+        .duration(100)
+        .EUt(24)
+
+    allthemods.recipes.gtceu.bender('calorite_plate')
+        .itemInputs('ad_astra:calorite_ingot')
+        .circuit(1)
+        .itemOutputs('ad_astra:calorite_plate')
+        .duration(100)
+        .EUt(24)
+
     // fluix, sky steel dust, and shattered singularity maceration
     allthemods.recipes.gtceu.macerator('macerate_fluix')
         .itemInputs('ae2:fluix_crystal')
