@@ -1,0 +1,28 @@
+{
+    "conditions": [
+        {
+            "condition": "forge:loot_table_id",
+            "loot_table_id": "draconicevolution:entities/draconic_guardian"
+        },
+        {
+            "condition": "productivelib:killed_by_uuid",
+            "uuid": "bf699a99-b67c-35dc-981f-fb67fe089dbd"
+        }
+    ],
+    "type": "productivelib:ingredient_modifier",
+    "chance": 0.05,
+    "addition": [
+        {
+            "item": "draconicevolution:dragon_heart"
+        },
+        {
+            "item": "draconicevolution:small_chaos_frag"
+        },
+        {
+            "item": "draconicevolution:awakened_draconium_nugget"
+        },
+        {
+            "item": "draconicevolution:draconium_nugget"
+        }
+    ]
+}

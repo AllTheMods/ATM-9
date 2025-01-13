@@ -1,0 +1,61 @@
+{
+    "conditions": [
+        {
+            "condition": "forge:loot_table_id",
+            "loot_table_id": "botania:gaia_guardian"
+        },
+        {
+            "condition": "productivelib:killed_by_uuid",
+            "uuid": "bf699a99-b67c-35dc-981f-fb67fe089dbd"
+        }
+    ],
+    "type": "productivelib:ingredient_modifier",
+    "chance": 0.01,
+    "addition": [
+        {
+            "item": "botania:life_essence"
+        },
+        {
+            "item": "botania:black_lotus"
+        },
+        {
+            "item": "botania:overgrowth_seed"
+        },
+        {
+            "item": "botania:manasteel_ingot"
+        },
+        {
+            "item": "botania:mana_pearl"
+        },
+        {
+            "item": "botania:mana_diamond"
+        },
+        {
+            "item": "botania:rune_water"
+        },
+        {
+            "item": "botania:rune_fire"
+        },
+        {
+            "item": "botania:rune_earth"
+        },
+        {
+            "item": "botania:rune_air"
+        },
+        {
+            "item": "botania:rune_mana"
+        },
+        {
+            "item": "botania:rune_spring"
+        },
+        {
+            "item": "botania:rune_summer"
+        },
+        {
+            "item": "botania:rune_autumn"
+        },
+        {
+            "item": "botania:rune_winter"
+        }
+    ]
+}
