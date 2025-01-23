@@ -42,6 +42,44 @@ ServerEvents.recipes(allthemods => {
         .duration(25600)
         .EUt(ULV)
 
+    // added rotor holder tiers
+    allthemods.shaped('gtceu:uhv_uhv_rotor_holder', ['ABA', 'BCB', 'ABA'], {
+        A: 'gtceu:small_naquadah_alloy_gear',
+        B: 'gtceu:neutronium_gear',
+        C: 'gtceu:uhv_machine_hull'
+    }).id('allthemods:uhv_rotor_holder')
+
+    allthemods.shaped('gtceu:uev_uev_rotor_holder', ['ABA', 'BCB', 'ABA'], {
+        A: 'gtceu:small_unobtronium_gear',
+        B: 'gtceu:vibtronium_gear',
+        C: 'gtceu:alltheneutronium_block'
+    }).id('allthemods:uev_rotor_holder')
+
+    allthemods.shaped('gtceu:uiv_uiv_rotor_holder', ['ABA', 'BCB', 'ABA'], {
+        A: 'gtceu:small_vibtronium_gear',
+        B: 'gtceu:alltheneutronium_gear',
+        C: 'gtceu:unobtronium_block'
+    }).id('allthemods:uiv_rotor_holder')
+
+    // added rotor holder tier dusts
+    allthemods.recipes.gtceu.mixer('alltheneutronium_dust')
+        .itemInputs('allthemodium:allthemodium_dust', '2x gtceu:neutronium_dust')
+        .itemOutputs('gtceu:alltheneutronium_dust')
+        .duration(1200)
+        .EUt(ZPM)
+    
+    allthemods.recipes.gtceu.mixer('vibtronium_dust')
+        .itemInputs('2x allthemodium:vibranium_dust', '3x gtceu:alltheneutronium_dust')
+        .itemOutputs('gtceu:vibtronium_dust')
+        .duration(600)
+        .EUt(UV)
+
+    allthemods.recipes.gtceu.mixer('unobtronium_dust')
+        .itemInputs('3x allthemodium:unobtainium_dust', '4x gtceu:vibtronium_dust')
+        .itemOutputs('gtceu:unobtronium_dust')
+        .duration(900)
+        .EUt(UV)
+
     // ALCR
     allthemods.recipes.gtceu.assembly_line('advanced_large_chemical_reactor')
         .itemInputs('gtceu:large_chemical_reactor', '3x #gtceu:circuits/iv', '15x gtceu:nitinol_plate', '4x gtceu:platinum_single_cable')
