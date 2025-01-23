@@ -15,6 +15,10 @@ GTCEuStartupEvents.registry('gtceu:material', allthemods => {
     allthemods.create('inert_nether_essence')
         .fluid()
         .color(0x500bbf)
+    
+    allthemods.create('molten_piglich_heart')
+        .fluid()
+        .color(0xe6af15)
 
     allthemods.create("trinaquadalloy")
         .ingot().fluid()

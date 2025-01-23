@@ -118,6 +118,62 @@ ServerEvents.recipes(allthemods => {
         .stationResearch(b => b.researchStack(Item.of('gtceu:large_maceration_tower')).CWUt(16).EUt(LuV))
         .EUt(ZPM)
 
+    // molten piglich heart
+    allthemods.recipes.gtceu.extractor('molten_piglich_heart')
+        .itemInputs('allthemodium:piglich_heart')
+        .outputFluids(Fluid.of('gtceu:molten_piglich_heart', 144))
+        .duration(12500)
+        .EUt(LV)
+
+    allthemods.recipes.gtceu.extractor('molten_piglich_heart_block')
+        .itemInputs('allthemodium:piglich_heart_block')
+        .outputFluids(Fluid.of('gtceu:molten_piglich_heart', 1296))
+        .duration(101250)
+        .EUt(LV)
+    
+    // atmium vib unob alloys
+    allthemods.recipes.gtceu.chemical_reactor('unobtainium_allthemodium_alloy_ingot')
+        .itemInputs(['allthemodium:allthemodium_ingot', 'allthemodium:unobtainium_ingot'])
+        .inputFluids(Fluid.of('gtceu:molten_piglich_heart', 144))
+        .itemOutputs('allthemodium:unobtainium_allthemodium_alloy_ingot')
+        .duration(7800000)
+        .EUt(LV)
+    
+    allthemods.recipes.gtceu.chemical_reactor('unobtainium_allthemodium_alloy_block')
+        .itemInputs(['allthemodium:allthemodium_block', 'allthemodium:unobtainium_block'])
+        .inputFluids(Fluid.of('gtceu:molten_piglich_heart', 1296))
+        .itemOutputs('allthemodium:unobtainium_allthemodium_alloy_block')
+        .duration(63180000)
+        .EUt(LV)
+
+    allthemods.recipes.gtceu.chemical_reactor('unobtainium_vibranium_alloy_ingot')
+        .itemInputs(['allthemodium:vibranium_ingot', 'allthemodium:unobtainium_ingot'])
+        .inputFluids(Fluid.of('gtceu:molten_piglich_heart', 144))
+        .itemOutputs('allthemodium:unobtainium_vibranium_alloy_ingot')
+        .duration(7800000)
+        .EUt(LV)
+    
+    allthemods.recipes.gtceu.chemical_reactor('unobtainium_vibranium_alloy_block')
+        .itemInputs(['allthemodium:vibranium_block', 'allthemodium:unobtainium_block'])
+        .inputFluids(Fluid.of('gtceu:molten_piglich_heart', 1296))
+        .itemOutputs('allthemodium:unobtainium_vibranium_alloy_block')
+        .duration(63180000)
+        .EUt(LV)
+
+    allthemods.recipes.gtceu.chemical_reactor('vibranium_allthemodium_alloy_ingot')
+        .itemInputs(['allthemodium:allthemodium_ingot', 'allthemodium:vibranium_ingot'])
+        .inputFluids(Fluid.of('gtceu:molten_piglich_heart', 144))
+        .itemOutputs('allthemodium:vibranium_allthemodium_alloy_ingot')
+        .duration(7800000)
+        .EUt(LV)
+    
+    allthemods.recipes.gtceu.chemical_reactor('vibranium_allthemodium_alloy_block')
+        .itemInputs(['allthemodium:allthemodium_block', 'allthemodium:vibranium_block'])
+        .inputFluids(Fluid.of('gtceu:molten_piglich_heart', 1296))
+        .itemOutputs('allthemodium:vibranium_allthemodium_alloy_block')
+        .duration(63180000)
+        .EUt(LV)
+
     // Ad Astra Plates
     allthemods.recipes.gtceu.bender('desh_plate')
         .itemInputs('ad_astra:desh_ingot')
@@ -182,6 +238,12 @@ ServerEvents.recipes(allthemods => {
         ingredient: { item: "gtceu:certus_quartz_gem" },
         result: { item: "ae2:charged_certus_quartz_crystal" }
     })
+
+    allthemods.recipes.gtceu.polarizer('ae2/charged_certus')
+        .itemInputs('ae2:certus_quartz_crystal')
+        .itemOutputs('ae2:charged_certus_quartz_crystal')
+        .duration(100)
+        .EUt(LV)
 
     // AE2 printed circuits in forming press
     allthemods.recipes.gtceu.forming_press('ae2/printed_logic_circuit')
