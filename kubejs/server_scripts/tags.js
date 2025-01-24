@@ -60,6 +60,8 @@ ServerEvents.tags('item', allthemods => {
   // allow lumber bees to produce bamboo blocks because they are lumber!
   allthemods.add('productivebees:flowers/lumber', ['minecraft:bamboo_block', 'minecraft:stripped_bamboo_block'])
 
+  allthemods.add('forge:storage_blocks/raw_lepidolite', 'gtceu:raw_lepidolite_block')
+
   //Fix Mythicbotany tags
   allthemods.add('forge:raw_materials/elementium', 'mythicbotany:raw_elementium')
   allthemods.add('forge:storage_blocks/raw_elementium', 'mythicbotany:raw_elementium_block')
@@ -146,6 +148,8 @@ ServerEvents.tags('block', allthemods => {
 
   // allow lumber bees to produce bamboo blocks because they are lumber!
   allthemods.add('productivebees:flowers/lumber', ['minecraft:bamboo_block', 'minecraft:stripped_bamboo_block'])
+
+  allthemods.add('forge:storage_blocks/raw_lepidolite', 'gtceu:raw_lepidolite_block')
 })
 
 ServerEvents.tags('fluid', allthemods => {

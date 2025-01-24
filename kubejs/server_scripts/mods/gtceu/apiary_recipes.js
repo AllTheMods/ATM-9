@@ -90,6 +90,10 @@ ServerEvents.recipes(allthemods => {
         // flower is the flower block/tag/item/fluid
         // outputs looks like [ { item: 'minecraft:dirt', chance: 10000 }, { item: 'minecraft:egg', chance: 4000 } ]
 
+        if (flower == Item.empty && !(flower instanceof $FluidStackJS)) {
+            console.log("flower is null for " + id)
+        }
+
         for (let i = 1; i < 33; i++) {
             let recipeBuilder = allthemods.recipes.gtceu.apiary_ii(id + '/circuit_' + i.toString())
                 .circuit(i)
