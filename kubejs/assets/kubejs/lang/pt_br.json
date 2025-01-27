@@ -1,6 +1,7 @@
 {
     "atm9.modpack.title": "All The Mods 9",
 
+
     "atm9.chapters.1.title": "Bem-vindo",
     "atm9.chapters.2.title": "Todo o modio",
     "atm9.chapters.3.title": "Quadro de recompensas",
@@ -3303,6 +3304,8 @@
     "atm9.quest.rs.subt.crafter": "Elaboração automatizada!",
     "atm9.quest.rs.subt.wireless": "Armazenamento, à distância",
     "atm9.quest.rs.subt.range": "Quero dizer Alcance de Transmissão",
+
+
     "atm9.quest.power.ATP": "Todas as coisas são poderosas!",
     "atm9.quest.power.moving": "Transferência de poder",
     "atm9.quest.power.pipez": "&9Usando Pipez:&r &aEnergy Pipe&r",
@@ -3331,6 +3334,8 @@
     "atm9.quest.power.cube": "Cubos de Energia do Mekanismo",
     "atm9.quest.power.cells": "Células de energia da RFTools",
     "atm9.quest.power.more": "Precisa de mais armazenamento?",
+
+
     "atm9.quest.power.desc.ATP": "Este capítulo é dedicado a todas as coisas relacionadas ao poder! \\n \\n Nesta seção, você encontrará as formas básicas de gerar, armazenar e transferir energia.",
     "atm9.quest.power.desc.moving": "Se você está procurando maneiras diferentes de extrair energia de suas máquinas, é aqui que você pode encontrá-la! \\n \\n Existem diversas opções, tanto &awired&r quanto &9wireless&r, para transferência de energia.",
     "atm9.quest.power.desc.pipez": "Estes são pipes simples que podem ser atualizados com Pipe Upgrades. \\n \\n Para 'extrair' energia de um bloco, coloque o tubo próximo ao bloco e, no lado que está conectado, pressione Shift+clique com o botão direito com a chave de tubos para configurar o tubo para extração. \\n \\n O mod &9Pipez&r também oferece maneiras de transportar itens, gases e líquidos! Ou você pode fazer um tubo multifuncional chamado &aUniversal Pipe&r.",
@@ -3359,6 +3364,7 @@
     "atm9.quest.power.desc.cube": "Mekanism é um dos melhores mods para armazenamento de energia, especialmente no início do jogo. \\n \\n O Cubo de Energia Básico é fácil de configurar, criar e armazena muita energia. Ele também pode ser atualizado e carregar itens dentro da interface! \\n \\n Para saber mais sobre como atualizar o Cubo de Energia e também o mod, acesse a linha de missões &aMekanism&r!",
     "atm9.quest.power.desc.cells": "RFToolsPower possui &9Powercells&r para armazenar energia, que são unidades de armazenamento multibloco que podem ser personalizadas e atualizadas para armazenar energia. \\n \\n Você precisará de uma chave inglesa para determinar as entradas e saídas de energia.",
     "atm9.quest.power.desc.more": "&9Mekanism's&r &aInduction Matrix&r é a melhor maneira de armazenar seu poder. \\n \\n Se você está procurando o melhor armazenamento de energia do jogo, confira o capítulo &aMekanism:&r &dAdvanced&r.",
+
     "atm9.quest.power.subt.QE": "Também funciona para itens, gases, líquidos e calor.",
     "atm9.quest.power.subt.cables": "Tubo de transferência de energia do Mekanism",
     "atm9.quest.power.subt.flux": "A melhor solução de energia sem fio",
@@ -3373,6 +3379,8 @@
     "atm9.quest.power.subt.battery": "Dinâmica Integrada",
     "atm9.quest.power.subt.cube": "Mecanismo",
     "atm9.quest.power.subt.cells": "Ferramentas RF",
+
+
     "atm9.quest.spawner.apotheosis": "Apoteose",
     "atm9.quest.spawner.changes": "Mudanças básicas no jogo",
     "atm9.quest.spawner.anvil": "Bigorna e tesoura",
@@ -3393,6 +3401,7 @@
     "atm9.quest.spawner.apple": "Para IA",
     "atm9.quest.spawner.egg": "Jovem",
     "atm9.quest.spawner.rods": "Alcance de surgimento",
+
     "atm9.quest.spawner.desc.apotheosis": "Apotheosis é um mod bastante grande, então estou dividindo-o em 3 capítulos de missões. O Encantamento e os Afixos serão separados. Este é para mudanças normais no jogo.",
     "atm9.quest.spawner.desc.changes": "Apoteose adiciona algumas pequenas mudanças ao Minecraft, não se preocupe, todas são boas e úteis!",
     "atm9.quest.spawner.desc.anvil": "Alguns dos itens alterados com Apoteose são Encantamentos para Bigornas e Tesouras. Tesouras agora podem usar os encantamentos normais, mas agora incluindo fortuna e novos encantamentos. Tesouras podem obter Soro de Crescimento, Aberração Cromática e Exploração de Trabalhadores. Você pode descobrir o que eles fazem sozinho. As bigornas agora podem ser encantadas com Unbreaking e novos encantamentos também! Divisão e Obliteração. Ambos são usados ​​na bigorna e então use a Bigorna Encantada para soltá-la em um Livro Encantado.",
@@ -3504,6 +3513,8 @@
     "atm9.quest.farm.subt.market": "O aldeão tem mais de uma maneira de desovar",
     "atm9.quest.farm.subt.chicken": "ou sou eu?",
     "atm9.quest.farm.subt.egg": "De que outra forma você acha que o frango frito é feito?",
+
+
     "atm9.quest.hostile.welcome": "Bem-vindo ao &9Redes Neurais Hostis&r!",
     "atm9.quest.hostile.learn": "&aLearning Mobs&r",
     "atm9.quest.hostile.modeling": "&9Modelando Mobs&r",
@@ -3514,6 +3525,7 @@
     "atm9.quest.hostile.end": "Previsão Final Generalizada",
     "atm9.quest.hostile.twilight": "Predição Generalizada do Crepúsculo",
     "atm9.quest.hostile.loot": "Criando &dLoot&r",
+
     "atm9.quest.hostile.desc.welcome": "&6Hostile Neural Networks&r (ou HNN, para abreviar) é um mod baseado na simulação de mortes de multidões para saque! \\n \\n Para fazer isso, você coletará 'dados' sobre mobs e, em seguida, executará simulações a partir dos dados para criar seus drops!",
     "atm9.quest.hostile.desc.learn": "O &9Deep Learner&r é um dos componentes principais do HNN. \\n \\n Com este item, você pode clicar com o botão direito para abrir um HUD e armazenar &6Data Models&r para coletar dados enquanto mata mobs. \\n \\n Cada aluno pode armazenar 4 modelos de dados e, desde que você tenha o aluno em qualquer lugar do seu inventário, ele coletará dados para os modelos colocados dentro dele! \\n \\n Observação: você pode ter vários Deep Learners em seu inventário, e ele contará as mortes de todos os modelos de dados dentro de todos os Learners.",
     "atm9.quest.hostile.desc.modeling": "&9Model Frameworks&r são o ponto de partida para a criação de modelos de dados. \\n \\n Para começar a coletar dados sobre um mob específico, você vai querer fazer um destes e clicar com o botão direito no mob sobre o qual deseja coletar dados. Quando feito corretamente, o Model Framework se transformará no modelo de dados do mob em que você clicou. \\n \\n Para 'coletar dados' para aquele mob, coloque o modelo de dados recém-criado dentro de um &aDeep Learner&r e comece a matar aquele mob específico com o Deep Learner em seu inventário.",
@@ -3524,8 +3536,11 @@
     "atm9.quest.hostile.desc.end": "Faz vários materiais Nether.",
     "atm9.quest.hostile.desc.twilight": "Faz vários materiais da Floresta do Crepúsculo.",
     "atm9.quest.hostile.desc.loot": "O &5Loot Fabricator&r é a máquina que oferece aquele doce saque do Mob Predictions. \\n \\n Quando receber poder e uma previsão de mob bem-sucedida, você poderá escolher qual item deseja obter do modelo de dados daquele mob. A máquina lembrará sua escolha, para que possa ser automatizada. \\n \\n Previsões de Mob notáveis: \\n \\n - &dEnder Dragons&r para &dDragon Eggs&r \\n - &2Zombies&r para Iron \\n - &0Withers&r para &5Nether Stars&r",
+
     "atm9.quest.hostile.subt.learn": "O HUD de aprendizagem",
     "atm9.quest.hostile.subt.modeling": "Para 'Coleta de dados'",
+
+
     "atm9.quest.ma.InEssence": "&aInferium Essence&r",
     "atm9.quest.ma.properity": "&bFragmentos de Prosperidade&r",
     "atm9.quest.ma.crystal": "&9O Cristal de Infusão&r",
@@ -3850,7 +3865,7 @@
     "atm9.quest.gregtech.intro.desc.voltageConversion.2": "As ferramentas também podem ser reparadas em bigornas usando o mesmo material da própria ferramenta, como qualquer ferramenta vanilla",
     "atm9.quest.gregtech.intro.desc.voltageConversion.3": "Um &aHammer&r é usado na confecção manual de placas, que serão necessárias para as próximas ferramentas!",
     "atm9.quest.gregtech.intro.subt.introduction": "Uma introdução",
-    "atm9.quest.gregtech.intro.anyGTHammer": "Qualquer martelo GT",
+    "atm9.quest.gregtech.intro.hammers": "Qualquer martelo GT",
     "atm9.quest.gregtech.intro.tools": "Ferramentas",
     "atm9.quest.gregtech.intro.desc.tools.1": "A &aWrench&r é uma ferramenta de artesanato, claro, mas também é uma ferramenta de mineração para máquinas GT! Clicar com o botão direito define o lado de saída das máquinas GT e clicar com o botão direito agachado as gira",
     "atm9.quest.gregtech.intro.desc.tools.2": "O &aFile&r é uma ferramenta de criação e isso é tudo",

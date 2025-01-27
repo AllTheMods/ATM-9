@@ -806,14 +806,14 @@
 					type: "random"
 				}
 				{
-					id: "3C8B767128199FB7"
-					type: "xp"
-					xp: 100
-				}
-				{
 					id: "295E028CA7E21B31"
 					table_id: 5871764666515020368L
 					type: "random"
+				}
+				{
+					id: "414F819C190CFDCF"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"

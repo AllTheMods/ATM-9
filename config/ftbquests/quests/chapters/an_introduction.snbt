@@ -190,7 +190,7 @@
 						value: "forge:tools/hammers"
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.anyGTHammer}"
+				title: "{atm9.quest.gregtech.intro.hammers}"
 				type: "item"
 			}]
 			title: "{atm9.quest.gregtech.intro.tools}"
@@ -429,6 +429,11 @@
 			dependencies: ["244220A5D9F4C702"]
 			icon: "gtceu:endstone_bauxite_ore"
 			id: "68B6B946B6BA24CB"
+			rewards: [{
+				id: "1ECD3CFE7C276679"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.gregtech.intro.subt.aluminium}"
 			tasks: [{
 				id: "5FF14D712FF20F3A"
@@ -475,6 +480,11 @@
 			dependencies: ["244220A5D9F4C702"]
 			icon: "gtceu:endstone_magnetite_ore"
 			id: "27E9F48972741701"
+			rewards: [{
+				id: "35A7B740B8F8F0E9"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "18CA627A460E3E4E"
 				item: {
@@ -528,6 +538,11 @@
 			dependencies: ["244220A5D9F4C702"]
 			icon: "gtceu:endstone_naquadah_ore"
 			id: "037BB7C486D2D360"
+			rewards: [{
+				id: "3CB43D21AEDA9957"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.gregtech.intro.subt.indeed}"
 			tasks: [{
 				id: "71DDF8155FD8FCAA"
@@ -566,6 +581,11 @@
 			dependencies: ["244220A5D9F4C702"]
 			icon: "gtceu:endstone_pitchblende_ore"
 			id: "3F69CB46311A37C8"
+			rewards: [{
+				id: "3FE3E20D6B31A717"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "125DE9E99E5DC392"
 				item: {
@@ -603,6 +623,11 @@
 			dependencies: ["244220A5D9F4C702"]
 			icon: "gtceu:endstone_scheelite_ore"
 			id: "4300938A4E8AF937"
+			rewards: [{
+				id: "43B051AAEBD24976"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "70DEDB210CBD79D9"
 				item: {
@@ -648,6 +673,11 @@
 			dependencies: ["244220A5D9F4C702"]
 			icon: "gtceu:endstone_cooperite_ore"
 			id: "0C78FB6EB275960B"
+			rewards: [{
+				id: "350EF34944578879"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "508A2B09B32E5244"
 				item: {
@@ -701,6 +731,11 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_goethite_ore"
 			id: "5B64384E4CE27851"
+			rewards: [{
+				id: "12AC8012CA8B498E"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.gregtech.intro.subt.ironVein}"
 			tasks: [{
 				id: "7FA60EE3F8F0C57B"
@@ -751,6 +786,11 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_beryllium_ore"
 			id: "61B3730E93DD24DB"
+			rewards: [{
+				id: "68084D26CC1A15E5"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "083DE18D8C046344"
 				item: {
@@ -784,6 +824,11 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_certus_quartz_ore"
 			id: "1DFD4712153C1A55"
+			rewards: [{
+				id: "1F6361DEF1584BE6"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3AC1607997CAAAAC"
 				item: {
@@ -821,6 +866,11 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_grossular_ore"
 			id: "109E34AE0BE0F266"
+			rewards: [{
+				id: "10C50F3500300270"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.gregtech.intro.subt.manganeseSource}"
 			tasks: [{
 				id: "047722F89EBCC4DE"
@@ -867,6 +917,11 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_molybdenum_ore"
 			id: "554389C781241743"
+			rewards: [{
+				id: "24E1D9FCDCD56E06"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "589F9B25E0FC4A24"
 				item: {
@@ -920,6 +975,11 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_bastnasite_ore"
 			id: "4F8E090CB349A681"
+			rewards: [{
+				id: "2D703261DBD7DAB0"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "5711092D4CD64197"
 				item: {
@@ -957,6 +1017,11 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_quartzite_ore"
 			id: "2B5733BDAF83B2D4"
+			rewards: [{
+				id: "7FA4B674422ACD63"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1791DBA7A318DE68"
 				item: {
@@ -986,6 +1051,11 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_redstone_ore"
 			id: "354012CD62D346E5"
+			rewards: [{
+				id: "3967B8EC8A32C7FC"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.gregtech.intro.subt.redstoneYield}"
 			tasks: [{
 				id: "778C0EDD0752F465"
@@ -1032,6 +1102,11 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_saltpeter_ore"
 			id: "3F064B466CC4914B"
+			rewards: [{
+				id: "572A0B6B80423FD0"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6A623C45C3A556B6"
 				item: {
@@ -1085,6 +1160,11 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_sulfur_ore"
 			id: "333D2A9F20B2E738"
+			rewards: [{
+				id: "54F48572B72DA35A"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3A75356E8DE59132"
 				item: {
@@ -1130,6 +1210,11 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_tetrahedrite_ore"
 			id: "2A2ED3B4BE8C7E67"
+			rewards: [{
+				id: "0B829C830AD45B69"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "5DED626D70F7EE98"
 				item: {
@@ -1167,6 +1252,11 @@
 			dependencies: ["0D20644407244A60"]
 			icon: "gtceu:netherrack_topaz_ore"
 			id: "34E8D3AD37BB76C5"
+			rewards: [{
+				id: "736FC97FBC6CAC2D"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "556A070D9E9A67E5"
 				item: {
@@ -1216,6 +1306,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:apatite_ore"
 			id: "5E1FA88B5AC652DC"
+			rewards: [{
+				id: "05C9FCF2AF25361B"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "044F6F66134EEFAB"
 				item: {
@@ -1261,6 +1356,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:cassiterite_ore"
 			id: "30F16A6BD3C7F4FC"
+			rewards: [{
+				id: "26B09100349E2906"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "015B712B90E69E36"
 				item: {
@@ -1290,13 +1390,20 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:chalcopyrite_ore"
 			id: "6A0D1E9D534958B8"
-			rewards: [{
-				count: 2
-				id: "3041712FFF09D1EF"
-				item: "gtceu:realgar_gem"
-				random_bonus: 2
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "3041712FFF09D1EF"
+					item: "gtceu:realgar_gem"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "36A950CF20366A71"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "0D18011DF2D3F338"
 				item: {
@@ -1342,6 +1449,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:galena_ore"
 			id: "411759CC8C320C19"
+			rewards: [{
+				id: "0FCD9C5303E23494"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1B94E7A224A87F29"
 				item: {
@@ -1387,6 +1499,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:garnet_sand_ore"
 			id: "5E56B9758F8365B4"
+			rewards: [{
+				id: "0833FE78D518B0A7"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6E16C4B0E9B4CEC0"
 				item: {
@@ -1432,6 +1549,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:red_garnet_ore"
 			id: "51494B3023705E54"
+			rewards: [{
+				id: "1191D5C5A66B7E83"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "2E62FDEF3A6A88B8"
 				item: {
@@ -1481,6 +1603,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:goethite_ore"
 			id: "53BBE717148C0B18"
+			rewards: [{
+				id: "156232EA5EF66602"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.gregtech.intro.subt.ironContent}"
 			tasks: [{
 				id: "6029CFFA9BD91661"
@@ -1535,6 +1662,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:soapstone_ore"
 			id: "2A54256CA9A23BB3"
+			rewards: [{
+				id: "77541746B5FBDE66"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.gregtech.intro.subt.lubricantSource}"
 			tasks: [{
 				id: "0AABC07011A622BB"
@@ -1589,6 +1721,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:magnetite_ore"
 			id: "14276334DCF898D6"
+			rewards: [{
+				id: "4BB5AFDD639063BF"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "31A7661D828CB33C"
 				item: {
@@ -1626,6 +1763,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:basaltic_mineral_sand_ore"
 			id: "0D47F491C27BBD5E"
+			rewards: [{
+				id: "4C16A3B319CCCB78"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4730AB96AAD93282"
 				item: {
@@ -1679,12 +1821,19 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:garnierite_ore"
 			id: "0BA5A0DDD4A5363C"
-			rewards: [{
-				id: "37391F97F144C822"
-				item: "gtceu:cobaltite_ore"
-				random_bonus: 2
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "37391F97F144C822"
+					item: "gtceu:cobaltite_ore"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "56FE674314510718"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "{atm9.quest.gregtech.intro.subt.cobaltitePresence}"
 			tasks: [{
 				id: "0430C905BE3CA0CF"
@@ -1723,6 +1872,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:rock_salt_ore"
 			id: "4F2BBB75E5B5EAD8"
+			rewards: [{
+				id: "636D84C117F69866"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6962BAEF473C8C18"
 				item: {
@@ -1776,13 +1930,20 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:graphite_ore"
 			id: "1BE2CB4684AF7DFB"
-			rewards: [{
-				count: 2
-				id: "28E95708986F70B6"
-				item: "minecraft:diamond"
-				random_bonus: 2
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "28E95708986F70B6"
+					item: "minecraft:diamond"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "73372AD360DA6C63"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "{atm9.quest.gregtech.intro.subt.diamondPotential}"
 			tasks: [{
 				id: "7B87E500C6FB74B3"
@@ -1813,6 +1974,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:lazurite_ore"
 			id: "246DC099F4457712"
+			rewards: [{
+				id: "0E0F8446337E8132"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.gregtech.intro.subt.lapisLocation}"
 			tasks: [{
 				id: "3A308744C31E3ED4"
@@ -1859,6 +2025,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:kyanite_ore"
 			id: "7AFEEC895FB293D6"
+			rewards: [{
+				id: "09CF1C0670D4F1DE"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "529FF9EA2C01FB6E"
 				item: {
@@ -1912,6 +2083,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:grossular_ore"
 			id: "03B842E4A2A6B2C9"
+			rewards: [{
+				id: "0677B3A82EDD9DF9"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.gregtech.intro.subt.goodManganeseSource}"
 			tasks: [{
 				id: "0CD83CD8CF777CB9"
@@ -1966,6 +2142,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:bentonite_ore"
 			id: "2EEEA951011D523D"
+			rewards: [{
+				id: "10A9046D2C389088"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "69ED2BD3D6D30648"
 				item: {
@@ -2003,6 +2184,11 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:cinnabar_ore"
 			id: "4BACAC18E4B982DA"
+			rewards: [{
+				id: "424E53C9A54EEE1B"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7F7725AF8B2A5B13"
 				item: {
@@ -2040,12 +2226,19 @@
 			dependencies: ["072FA02152FBC5B1"]
 			icon: "gtceu:almandine_ore"
 			id: "7255B9A6E1319DCA"
-			rewards: [{
-				id: "7CDE77676C561B5D"
-				item: "gtceu:green_sapphire_ore"
-				random_bonus: 2
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7CDE77676C561B5D"
+					item: "gtceu:green_sapphire_ore"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4C675CC7CFBF1E94"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "{atm9.quest.gregtech.intro.subt.sapphireSource}"
 			tasks: [{
 				id: "558C014604ECC490"
@@ -2171,10 +2364,9 @@
 			tasks: [{
 				dimension: "allthemodium:mining"
 				id: "500548E772861A58"
-				title: "{atm9.quest.gregtech.intro.netherLayerOres1}"
 				type: "dimension"
 			}]
-			title: "{atm9.quest.gregtech.intro.netherLayerOres2}"
+			title: "{atm9.quest.gregtech.intro.netherLayerOres}"
 			x: 6.0d
 			y: 3.5d
 		}
@@ -2190,10 +2382,9 @@
 			tasks: [{
 				dimension: "allthemodium:mining"
 				id: "540231448A4DE43B"
-				title: "{atm9.quest.gregtech.intro.endLayerOres1}"
 				type: "dimension"
 			}]
-			title: "{atm9.quest.gregtech.intro.endLayerOres2}"
+			title: "{atm9.quest.gregtech.intro.endLayerOres}"
 			x: 6.0d
 			y: -2.5d
 		}
@@ -2235,7 +2426,7 @@
 				}
 			]
 			x: 0.0d
-			y: 6.0d
+			y: 5.5d
 		}
 	]
 	title: "{atm9.chapters.25.title}"

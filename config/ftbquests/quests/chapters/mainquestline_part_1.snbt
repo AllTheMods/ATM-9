@@ -1837,15 +1837,15 @@
 			id: "0F026D5A17CCCF51"
 			rewards: [
 				{
-					id: "58E67AE81201E3EA"
-					type: "xp"
-					xp: 50
-				}
-				{
 					exclude_from_claim_all: true
 					id: "29C76CDC2D4EE385"
 					table_id: 4196188979167302596L
 					type: "loot"
+				}
+				{
+					id: "45F5DBB95E35764C"
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "square"
@@ -1930,15 +1930,15 @@
 			id: "3ADCAD65EA6900BA"
 			rewards: [
 				{
-					id: "52FD7FF469E1E202"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "1E0E59B27422F16E"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "122D5ED8BE887D6A"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "rsquare"
@@ -1986,7 +1986,9 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["5CF320E9C4C1B1E1"]
 			description: ["{atm9.quest.chapter1.desc.deep_dark}"]
+			hide_dependency_lines: true
 			id: "6EDAB29FBD3C60A3"
 			shape: "hexagon"
 			size: 1.25d
@@ -2017,15 +2019,15 @@
 			id: "4E178CCAC7F85F54"
 			rewards: [
 				{
-					id: "1AED613A621652B7"
-					type: "xp"
-					xp: 500
-				}
-				{
 					exclude_from_claim_all: true
 					id: "5FA13C02E33371F1"
 					table_id: 7025454341029952768L
 					type: "loot"
+				}
+				{
+					id: "69F8DF0EE9D6D751"
+					type: "xp"
+					xp: 250
 				}
 			]
 			shape: "hexagon"
@@ -2085,15 +2087,15 @@
 			id: "78DDD2CA8E7E2507"
 			rewards: [
 				{
-					id: "05806A84B6342170"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "5E97ECDECA567F5A"
 					table_id: 4196188979167302596L
 					type: "loot"
+				}
+				{
+					id: "004934D0BB0CA78C"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -2215,15 +2217,15 @@
 			id: "1FD4C32B3937E1C7"
 			rewards: [
 				{
-					id: "4777AE0A69D4354B"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2CD0D7A5833ACDD9"
 					table_id: 4196188979167302596L
 					type: "loot"
+				}
+				{
+					id: "01F45EB4D3DB2A93"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "octagon"
@@ -2906,8 +2908,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.0d
-			y: 6.0d
+			x: -5.0d
+			y: 3.0d
 		}
 	]
 	title: "{atm9.chapters.5.title}"
