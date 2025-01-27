@@ -88,6 +88,10 @@
 		containerClass = "de.melanx.utilitix.content.backpack.BackpackScreen"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = "net.pedroksl.advanced_ae.client.gui.*"
+		sortRange = ""
+
 	#Categor(y/ies) for sorting
 	#
 	#name: the name of the category
