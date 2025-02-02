@@ -125,7 +125,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Getting Started"
+			subtitle: "{atm9.quest.farm.subt.food}"
 			tasks: [{
 				id: "29267580E91DFEDA"
 				item: {
@@ -159,7 +159,7 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Block Hand 1, Block Grass 0"
+			subtitle: "{atm9.quest.farm.subt.grass}"
 			tasks: [{
 				count: 8L
 				id: "73B6ED422F9292D1"
@@ -187,7 +187,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Whose fleece was....rainbow?"
+			subtitle: "{atm9.quest.farm.subt.wool}"
 			tasks: [{
 				count: 3L
 				icon: "minecraft:white_wool"
@@ -279,7 +279,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "The villager has more than one way to spawn"
+			subtitle: "{atm9.quest.farm.subt.market}"
 			tasks: [{
 				id: "1AFEBED0226CEBC1"
 				item: "farmingforblockheads:market"
@@ -298,7 +298,7 @@
 				xp: 10
 			}]
 			shape: "diamond"
-			subtitle: "Get along little doggy."
+			subtitle: "{atm9.quest.farm.subt.animals}"
 			tasks: [{
 				id: "63282E8604721F13"
 				item: "minecraft:lead"
@@ -325,7 +325,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Why aren't there any bulls in the game?"
+			subtitle: "{atm9.quest.farm.subt.milk}"
 			tasks: [{
 				id: "19A9C679111A90BC"
 				item: "minecraft:milk_bucket"
@@ -352,7 +352,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "or am I?"
+			subtitle: "{atm9.quest.farm.subt.chicken}"
 			tasks: [{
 				count: 3L
 				id: "46974912B1E8E78B"
@@ -378,7 +378,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "How else do you think Fried Chicken is made?"
+			subtitle: "{atm9.quest.farm.subt.egg}"
 			tasks: [
 				{
 					count: 10L
@@ -422,7 +422,7 @@
 			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Just wait until you get machines for this"
+			subtitle: "{atm9.quest.farm.subt.farming}"
 			tasks: [{
 				id: "4847C9E5C9116BB7"
 				item: {
@@ -583,7 +583,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Speedrunners Love This Stuff"
+			subtitle: "{atm9.quest.farm.subt.wheat}"
 			tasks: [{
 				count: 3L
 				id: "6890EB2819D88073"
@@ -630,7 +630,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Who needs spiders anyway?"
+			subtitle: "{atm9.quest.farm.subt.flax}"
 			tasks: [{
 				id: "52030BFD91159DAC"
 				item: "supplementaries:flax_seeds"
@@ -656,7 +656,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "This grows to the sky now."
+			subtitle: "{atm9.quest.farm.subt.cane}"
 			tasks: [{
 				count: 10L
 				id: "6118A776B40507B7"
@@ -677,7 +677,7 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Smelt a book. Totally won't catch on fire."
+			subtitle: "{atm9.quest.farm.subt.book}"
 			tasks: [{
 				id: "61DBF366AFC8A579"
 				item: "cookingforblockheads:recipe_book"
@@ -709,7 +709,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "This is totally worth it btw"
+			subtitle: "{atm9.quest.farm.subt.cookbook}"
 			tasks: [{
 				id: "20FD5552BE10D679"
 				item: "cookingforblockheads:crafting_book"
@@ -738,7 +738,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Betty White was born before Sliced Bread"
+			subtitle: "{atm9.quest.farm.subt.kitchen}"
 			tasks: [{
 				id: "552C067A28FB8869"
 				item: "cookingforblockheads:cooking_table"
@@ -772,7 +772,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "So much room for activities!"
+			subtitle: "{atm9.quest.farm.subt.cabinet}"
 			tasks: [{
 				count: 2L
 				id: "1DAD3C12FDEB5CD4"
@@ -807,7 +807,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "&oWe&r need more cooking space."
+			subtitle: "{atm9.quest.farm.subt.counter}"
 			tasks: [{
 				count: 2L
 				id: "766C32B477A216B8"
@@ -843,7 +843,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "You'll open it, close it, then open it again, just because you're bored."
+			subtitle: "{atm9.quest.farm.subt.fridge}"
 			tasks: [{
 				count: 2L
 				id: "1571EF760DE41F63"
@@ -879,7 +879,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "No Timer Needed"
+			subtitle: "{atm9.quest.farm.subt.stove}"
 			tasks: [{
 				id: "37D8D79B6B216212"
 				item: "cookingforblockheads:oven"
@@ -913,7 +913,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Phenomenal Milking Powers....Itty bitty living space."
+			subtitle: "{atm9.quest.farm.subt.jar}"
 			tasks: [{
 				id: "193EA9F7C05B6F38"
 				item: "cookingforblockheads:cow_jar"
@@ -1019,7 +1019,7 @@
 			}]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Willy would be Proud."
+			subtitle: "{atm9.quest.farm.subt.fish}"
 			tasks: [{
 				id: "5CB4746CCB2E2363"
 				item: {
@@ -1212,7 +1212,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Pour some sugar on me."
+			subtitle: "{atm9.quest.farm.subt.sugar}"
 			tasks: [{
 				count: 3L
 				id: "56CAB3D2E3421C7C"
@@ -1247,7 +1247,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Why Use 3 Block when 1 Block Do Trick"
+			subtitle: "{atm9.quest.farm.subt.sink}"
 			tasks: [{
 				id: "2872A1297BE6C40D"
 				item: "cookingforblockheads:sink"

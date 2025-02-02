@@ -320,7 +320,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.naturesaura.title.auracreation }"
+			title: "{atm9.quest.naturesaura.title.auracreation}"
 			x: 6.0d
 			y: 1.5d
 		}
@@ -843,6 +843,7 @@
 				"1D39634260A47C9A"
 				"22ADCF96AE3E609B"
 			]
+			title: "{atm9.quest.naturesaura.title.netheritefinder}"
 			description: ["{atm9.quest.naturesaura.desc.netheritefinder.1}"]
 			id: "34ABEF75AE1E5A0F"
 			optional: true

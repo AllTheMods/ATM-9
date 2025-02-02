@@ -685,6 +685,7 @@
 		}
 		{
 			dependencies: ["62CE0FFAF6352287"]
+			title: "{atm9.quest.evilcraft.title.increaseSpeed}"
 			id: "1D794DE95C9FF6C7"
 			rewards: [
 				{
@@ -725,6 +726,7 @@
 				}
 			]
 			subtitle: "{atm9.quest.evilcraft.subt.increaseEfficiency}"
+			title: "{atm9.quest.evilcraft.title.increaseEfficiency}'
 			tasks: [{
 				id: "0B55C293EACD60B9"
 				item: "evilcraft:promise_efficiency_0"
@@ -859,6 +861,7 @@
 				"1D794DE95C9FF6C7"
 				"12F3A604329EC604"
 			]
+			title: "{atm9.quest.evilcraft.title.speedBoost}"
 			description: ["{atm9.quest.evilcraft.desc.speedBoost}"]
 			id: "4D7B6842B9F53459"
 			rewards: [
@@ -1208,6 +1211,7 @@
 		}
 		{
 			dependencies: ["31FD9EA513E0D010"]
+			title: "{atm9.quest.evilcraft.title.reusableEnderPearl}"
 			hide_dependency_lines: true
 			id: "1F8BC2A4CF055038"
 			rewards: [
@@ -1252,6 +1256,7 @@
 		}
 		{
 			dependencies: ["2CB69634F6A6E53E"]
+			title: "{atm9.quest.evilcraft.title.maceCharge}"
 			description: ["{atm9.quest.evilcraft.desc.maceCharge}"]
 			hide_dependency_lines: true
 			id: "56FB82DEB944F758"
@@ -1296,6 +1301,7 @@
 		}
 		{
 			dependencies: ["62CE0FFAF6352287"]
+			title: "{atm9.quest.evilcraft.title.kineticatorFeatures}"
 			description: [
 				"{atm9.quest.evilcraft.desc.kineticatorFeatures.1}"
 				""
@@ -1369,6 +1375,7 @@
 		}
 		{
 			dependencies: ["2CB69634F6A6E53E"]
+			title: "{atm9.quest.evilcraft.title.summonsZombies}"
 			hide_dependency_lines: true
 			id: "0EAF01037BB20BCB"
 			rewards: [
@@ -1413,6 +1420,7 @@
 		}
 		{
 			dependencies: ["68318811CCC28320"]
+			title: "{atm9.quest.evilcraft.title.removesBadEffects}"
 			hide_dependency_lines: true
 			id: "199E7C89584C3DB1"
 			rewards: [
@@ -1457,6 +1465,7 @@
 		}
 		{
 			dependencies: ["62CE0FFAF6352287"]
+			title: "{atm9.quest.evilcraft.title.lightningScepter}"
 			hide_dependency_lines: true
 			id: "6CA1D90CCE17097D"
 			rewards: [
@@ -1487,6 +1496,7 @@
 				"026A71F98A52E3A5"
 				"753B3EF7CC94A6DD"
 			]
+			title: "{atm9.quest.evilcraft.title.infiniteFoodSource}"
 			dependency_requirement: "one_completed"
 			description: ["{atm9.quest.evilcraft.desc.infiniteFoodSource}"]
 			id: "600F66B13B29708B"
@@ -1532,6 +1542,7 @@
 		}
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
+			title: "{atm9.quest.evilcraft.title.primedPendant}"
 			description: ["{atm9.quest.evilcraft.desc.primedPendant}"]
 			hide_dependency_lines: true
 			id: "4DF7E2149F4BD8CC"
@@ -1578,6 +1589,7 @@
 		}
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
+			title: "{atm9.quest.evilcraft.title.maceExplosion}"
 			description: ["{atm9.quest.evilcraft.desc.maceExplosion}"]
 			hide_dependency_lines: true
 			id: "290FAB3DE8FD04E7"
@@ -1622,6 +1634,7 @@
 		}
 		{
 			dependencies: ["7E79F52147B606F9"]
+			title: "{atm9.quest.evilcraft.title.shovelWeapon}"
 			description: [
 				"{atm9.quest.evilcraft.desc.shovelWeapon.1}"
 				""
@@ -1967,6 +1980,7 @@
 		}
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
+			title: "{atm9.quest.evilcraft.title.uniqueDrop}"
 			description: [
 				"{atm9.quest.evilcraft.desc.uniqueDrop.1}"
 				""
@@ -1997,6 +2011,7 @@
 		}
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
+			title: "{atm9.quest.evilcraft.title.werewolfVillagers}"
 			description: [
 				"{atm9.quest.evilcraft.desc.werewolfVillagers.1}"
 				""
@@ -2026,6 +2041,7 @@
 		}
 		{
 			dependencies: ["40888A2C17D8FFF6"]
+			title: "{atm9.quest.evilcraft.title.veinSword}"
 			description: [
 				"{atm9.quest.evilcraft.desc.veinSword.1}"
 				""

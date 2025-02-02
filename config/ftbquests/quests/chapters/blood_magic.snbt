@@ -253,6 +253,7 @@
 		}
 		{
 			dependencies: ["4B51189C36B8D291"]
+			title: "{atm9.quest.bloodMagic.title.upgradeJourney}"
 			description: ["{atm9.quest.bloodMagic.desc.upgradeJourney.1}"]
 			id: "2C3CA7B9D1A7DC47"
 			rewards: [
@@ -348,6 +349,7 @@
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
+			title: "{atm9.quest.bloodMagic.title.lpBonusFromRune}"
 			description: ["{atm9.quest.bloodMagic.desc.lpBonusFromRune.1}"]
 			id: "08F28A9E4DEA7CD0"
 			rewards: [
@@ -374,6 +376,7 @@
 		}
 		{
 			dependencies: ["4B51189C36B8D291"]
+			title: "{atm9.quest.bloodMagic.title.altarMobSacrifice}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.altarMobSacrifice.1}"
 				""
@@ -526,6 +529,7 @@
 		}
 		{
 			dependencies: ["11D37E7391B49A88"]
+			title: "{atm9.quest.bloodMagic.title.willStorageUpgrade.1}"
 			description: ["{atm9.quest.bloodMagic.desc.willStorageUpgrade.1}"]
 			id: "487275B970530E3F"
 			rewards: [
@@ -557,6 +561,7 @@
 		{
 			dependencies: ["487275B970530E3F"]
 			description: ["{atm9.quest.bloodMagic.desc.willStorageUpgrade.2}"]
+			title: "{atm9.quest.bloodMagic.title.willStorageUpgrade.2}"
 			id: "626C07DB8B8C5A04"
 			rewards: [
 				{
@@ -589,6 +594,7 @@
 		{
 			dependencies: ["626C07DB8B8C5A04"]
 			description: ["{atm9.quest.bloodMagic.desc.willStorageUpgrade.3}"]
+			title: "{atm9.quest.bloodMagic.title.willStorageUpgrade.3}"
 			id: "20458B8987CD6CB9"
 			rewards: [
 				{
@@ -620,6 +626,7 @@
 		}
 		{
 			dependencies: ["5886C648D14180E1"]
+			title: "{atm9.quest.bloodMagic.title.imbuedSlates}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.imbuedSlates.1}"
 				""
@@ -649,6 +656,7 @@
 		}
 		{
 			dependencies: ["375FF0D8ACD2E17F"]
+			title: "{atm9.quest.bloodMagic.title.capacityRuneIncrease}"
 			description: ["{atm9.quest.bloodMagic.desc.capacityRuneIncrease.1}"]
 			id: "0B2B8247DA280E90"
 			rewards: [{
@@ -667,6 +675,7 @@
 		}
 		{
 			dependencies: ["375FF0D8ACD2E17F"]
+			title: "{atm9.quest.bloodMagic.title.lpFlowRateIncrease}"
 			description: ["{atm9.quest.bloodMagic.desc.lpFlowRateIncrease.1}"]
 			id: "47B985B56C582D6A"
 			rewards: [{
@@ -685,6 +694,7 @@
 		}
 		{
 			dependencies: ["431C44439CA54077"]
+			title: "{atm9.quest.bloodMagic.title.finalSlateUse}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.finalSlateUse.1}"
 				""
@@ -720,6 +730,7 @@
 		}
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
+			title: "{atm9.quest.bloodMagic.title.altarCapacityMultiplicativeIncrease}"
 			description: ["{atm9.quest.bloodMagic.desc.altarCapacityMultiplicativeIncrease.1}"]
 			id: "6C0D4CBC089988ED"
 			rewards: [{
@@ -738,6 +749,7 @@
 		}
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
+			title: "{atm9.quest.bloodMagic.title.internalBufferCreation}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.internalBufferCreation.1}"
 				""
@@ -762,6 +774,7 @@
 		}
 		{
 			dependencies: ["2214B7DCE4075A02"]
+			title: "{atm9.quest.bloodMagic.title.tooPowerful}"
 			description: ["{atm9.quest.bloodMagic.desc.tooPowerful}"]
 			id: "396AA75774059D0B"
 			optional: true
@@ -788,6 +801,7 @@
 		}
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
+			title: "{atm9.quest.bloodMagic.title.runeOperationAcceleration}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.runeOperationAcceleration.1}"
 				""
@@ -810,6 +824,7 @@
 		}
 		{
 			dependencies: ["0E8418B42A744030"]
+			title: "{atm9.quest.bloodMagic.title.tauFruitUsage}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.tauFruitUsage.1}"
 				""
@@ -833,6 +848,7 @@
 		}
 		{
 			dependencies: ["50A28E1946047A6E"]
+			title: "{atm9.quest.bloodMagic.title.fruitThirsts}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.fruitThirsts.1}"
 				""
@@ -862,6 +878,7 @@
 		}
 		{
 			dependencies: ["375FF0D8ACD2E17F"]
+			title: "{atm9.quest.bloodMagic.title.alchemicalChamber}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.alchemicalChamber.1}"
 				""
@@ -891,6 +908,7 @@
 		}
 		{
 			dependencies: ["375FF0D8ACD2E17F"]
+			title: "{atm9.quest.bloodMagic.title.lp150k}"
 			id: "0E51D6BB2BC756B6"
 			rewards: [{
 				id: "7848C02921758A7E"
@@ -909,6 +927,7 @@
 		}
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
+			title: "{atm9.quest.bloodMagic.title.lp1M}"
 			id: "048BD38532A1DDCF"
 			rewards: [
 				{
@@ -938,6 +957,7 @@
 				"5E2D15E4A410B5DA"
 				"308581359FEF32E9"
 			]
+			title: "{atm9.quest.bloodMagic.title.demonWillStock}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.demonWillStock.1}"
 				""
@@ -1086,6 +1106,7 @@
 		}
 		{
 			dependencies: ["6AAB831CB3FB536A"]
+			title: "{atm9.quest.bloodMagic.title.alchemyTable}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.alchemyTable.1}"
 				""
@@ -1150,6 +1171,7 @@
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
+			title: "{atm9.quest.bloodMagic.title.lpGainIncrease}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.lpGainIncrease}"
 				""
@@ -1266,6 +1288,7 @@
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
+			title: "{atm9.quest.bloodMagic.title.lp25k}"
 			id: "08143AD0D63FFD1F"
 			rewards: [
 				{
@@ -1292,6 +1315,7 @@
 		}
 		{
 			dependencies: ["7CC2D826CA6BBDDB"]
+			title: "{atm9.quest.bloodMagic.title.arcaneAshes}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.arcaneAshes.1}"
 				""
@@ -1328,6 +1352,7 @@
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
+			title: "{atm9.quest.bloodMagic.title.divinationSigil}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.divinationSigil.1}"
 				""
@@ -1362,6 +1387,7 @@
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
+			title: "{atm9.quest.bloodMagic.title.waterSourceCreation}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.waterSourceCreation}"
 				""
@@ -1392,6 +1418,7 @@
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
+			title: "{atm9.quest.bloodMagic.title.lavaSigil}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.lavaSigil.1}"
 				""
@@ -1422,6 +1449,7 @@
 		}
 		{
 			dependencies: ["4578C0EE82F66BD9"]
+			title: "{atm9.quest.bloodMagic.title.ritualDiviner}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.ritualDiviner.1}"
 				""
@@ -1574,6 +1602,7 @@
 		}
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
+			title: "{atm9.quest.bloodMagic.title.telepositionSigil}"
 			description: [
 				"{atm9.quest.bloodMagic.desc.telepositionSigil.1}"
 				""

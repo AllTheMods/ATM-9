@@ -418,6 +418,7 @@
 				"6A8E748B642DD16F"
 				"06AD25DB96F3A1CC"
 			]
+			title: "{atm9.quest.theurgy.title.multiblockmachine}"
 			description: [
 				"{atm9.quest.theurgy.desc.multiblockmachine.1}"
 				""
@@ -443,7 +444,7 @@
 		{
 			dependencies: ["5844DD2BEE5EC3DC"]
 			description: [
-				"{atm9.quest.theurgy.desc.mercuryvessel}"
+				"{atm9.quest.theurgy.desc.mercuryvessel.1}"
 				""
 				"{image:atm:textures/questpics/theurgy/theurgy_vessel_1.png width:100 height:125 align:center}"
 			]
@@ -779,6 +780,7 @@
 		}
 		{
 			dependencies: ["61DA3D61D7103647"]
+			title: "{atm9.quest.theurgy.title.fermentationvat}"
 			description: ["{atm9.quest.theurgy.desc.fermentationvat.1}"]
 			id: "730F2D3329C4FF88"
 			rewards: [{
@@ -820,6 +822,7 @@
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
+			title: "{atm9.quest.theurgy.title.abundantdivinationrod}"
 			description: ["{atm9.quest.theurgy.desc.abundantdivinationrod.1}"]
 			icon: "minecraft:copper_ingot"
 			id: "7198ED7E97A256A4"
@@ -853,6 +856,7 @@
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
+			title: "{atm9.quest.theurgy.title.commondivinationrod}"
 			description: ["{atm9.quest.theurgy.desc.commondivinationrod.1}"]
 			icon: "minecraft:iron_ingot"
 			id: "2F0D6267569F740B"
@@ -886,6 +890,7 @@
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
+			title: "{atm9.quest.theurgy.title.raredivinationrod}"
 			description: ["{atm9.quest.theurgy.desc.raredivinationrod.1}"]
 			icon: "minecraft:gold_ingot"
 			id: "7119F8C352D057BC"
@@ -919,6 +924,7 @@
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
+			title: "{atm9.quest.theurgy.title.preciousdivinationrod}"
 			description: ["{atm9.quest.theurgy.desc.preciousdivinationrod.1}"]
 			icon: "minecraft:diamond"
 			id: "7878F190BC8ADC82"
@@ -952,6 +958,7 @@
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
+			title: "{atm9.quest.theurgy.title.amethystdivinationrod}"
 			description: ["{atm9.quest.theurgy.desc.amethystdivinationrod.1}"]
 			icon: "minecraft:amethyst_cluster"
 			id: "7A1C117CA8FB7C31"

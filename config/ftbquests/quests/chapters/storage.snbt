@@ -1046,7 +1046,7 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			description: ["Adds a filter that allows you to tell the backpack which items it should keep stocked. Shift-Right Clicking an inventory will refill it."]
+			description: ["{atm9.quest.storage.desc.restock}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "4B62AF0405F68041"
@@ -1087,7 +1087,7 @@
 		}
 		{
 			dependencies: ["1FE052F643401232"]
-			description: ["Shift-Right Click an inventory to empty."]
+			description: ["{atm9.quest.storage.desc.deposit}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "00DB5495C3A44999"
@@ -1150,9 +1150,9 @@
 		{
 			dependencies: ["1FE052F643401232"]
 			description: [
-				"So we got a backpack upgrade to put your backpack in your backpack."
+				"{atm9.quest.storage.desc.inception.1}"
 				""
-				"So you can have your backpack in your backpack when you need your backpack in your backpack."
+				"{atm9.quest.storage.desc.inception.2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
