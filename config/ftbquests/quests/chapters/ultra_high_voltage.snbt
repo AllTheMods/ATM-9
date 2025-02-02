@@ -11,9 +11,9 @@
 	quests: [
 		{
 			description: [
-				"I know it seems odd that we Finished off the last section and started this section with just the Supercomputer. But there is a reason for that."
+				"{atm9.quest.gregtech.uhv.desc.mainFrame.1}"
 				""
-				"There were components that are needed for the Wetware Processor Mainframe, which will be covered in this section. "
+				"{atm9.quest.gregtech.uhv.desc.mainFrame.2}"
 			]
 			id: "2EA74A823D55D472"
 			rewards: [{
@@ -39,6 +39,7 @@
 				"702CE73E39E4D4BD"
 			]
 			description: ["{atm9.quest.gregtech.uhv.desc.starForge.1}"]
+			title: "{atm9.quest.gregtech.uhv.title.starForge}"
 			icon: "gtceu:star_forge"
 			id: "7AE6AF0B5D3390E7"
 			rewards: [{
@@ -102,6 +103,7 @@
 				"054D2D3C20C2D32F"
 				"6786C701B7C4980B"
 			]
+			title: "{}"
 			description: [
 				"{atm9.quest.gregtech.uhv.desc.megaFusionReactor.1}"
 				""

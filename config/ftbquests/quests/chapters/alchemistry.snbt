@@ -67,7 +67,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["Alchemistry is a tech mod inspired by the mod MineChem. This mod allows you to decompose items into the elements that make them up, then recombine them to create new items. Start by making the guidebook."]
+			description: ["{atm9.quest.alchem.desc.basics}"]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -267,7 +267,7 @@
 			description: [
 				"{atm9.quest.alchem.desc.bothreactors}"
 				""
-				"{atm9.quest.alchem.desc.fission}"
+				"{atm9.quest.alchem.desc.fusion}"
 				""
 				""
 				"{image:atm:textures/questpics/alchemistry/fusion_controller_1.png width:175 height:135 align:1}"
@@ -363,6 +363,7 @@
 				}
 			]
 			subtitle: "{atm9.quest.alchem.subt.zirconium}"
+			title: "{atm9.quest.alchem.title.zirconium}"
 			tasks: [{
 				id: "7752162470D8817A"
 				item: "chemlib:zirconium"
@@ -377,6 +378,7 @@
 				"36A2B8D517A57AD4"
 			]
 			description: ["{atm9.quest.alchem.desc.zirconiumdust}"]
+			title: "{atm9.quest.alchem.title.zirconiumdust}"
 			id: "397A33E37610B03E"
 			rewards: [{
 				id: "75AAF2AE058C4FC1"
@@ -394,6 +396,7 @@
 		{
 			dependencies: ["397A33E37610B03E"]
 			description: ["{atm9.quest.alchem.desc.zirconiumingot}"]
+			title: "{atm9.quest.alchem.title.zirconiumingot}"
 			id: "1509AAC1A46BDC2C"
 			rewards: [{
 				id: "24567AD93D7BF40B"
@@ -411,6 +414,7 @@
 		{
 			dependencies: ["71815B287D0F162A"]
 			description: ["{atm9.quest.alchem.desc.H}"]
+			title: "{atm9.quest.alchem.title.H}"
 			hide_dependency_lines: true
 			id: "32B961A93D6CDFDF"
 			rewards: [{
@@ -430,6 +434,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Be}"
 			hide_dependency_lines: true
 			id: "736EC97EDD2DB38A"
 			rewards: [{
@@ -449,6 +454,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Na}"
 			description: ["{atm9.quest.alchem.desc.Na}"]
 			hide_dependency_lines: true
 			id: "5F3609E1DBEAA148"
@@ -469,6 +475,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Mg}"
 			hide_dependency_lines: true
 			id: "544AD58CD2BF33DC"
 			rewards: [{
@@ -535,6 +542,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.K}"
 			description: ["{atm9.quest.alchem.desc.K}"]
 			hide_dependency_lines: true
 			id: "421B67F06A6975A0"
@@ -555,6 +563,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ca}"
 			description: ["{atm9.quest.alchem.desc.Ca}"]
 			hide_dependency_lines: true
 			id: "7D608E7ECA271757"
@@ -575,6 +584,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Sc}"
 			hide_dependency_lines: true
 			id: "0761A8B87B9910FD"
 			rewards: [{
@@ -594,6 +604,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ti}"
 			hide_dependency_lines: true
 			id: "0F22F20F8597501B"
 			rewards: [{
@@ -613,6 +624,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Li}"
 			hide_dependency_lines: true
 			id: "601327570A881136"
 			rewards: [{
@@ -648,6 +660,7 @@
 				}
 			]
 			subtitle: "{atm9.quest.alchem.subt.oxygen}"
+			title: "{atm9.quest.alchem.title.oxygen}"
 			tasks: [{
 				id: "030FC5CB53537A68"
 				item: "chemlib:oxygen"
@@ -663,6 +676,7 @@
 				"066827B2F96192F0"
 			]
 			description: ["{atm9.quest.alchem.desc.leadoxide}"]
+			title: "{atm9.quest.alchem.title.leadoxide}"
 			hide_dependency_lines: false
 			id: "42B681C59981532C"
 			rewards: [{
@@ -683,6 +697,7 @@
 		{
 			dependencies: ["71815B287D0F162A"]
 			description: ["{atm9.quest.alchem.desc.lead}"]
+			title: "{atm9.quest.alchem.title.lead}"
 			hide_dependency_lines: true
 			id: "6657CE5CDFC47BB4"
 			rewards: [{
@@ -704,6 +719,7 @@
 				"3AEDE9828B278466"
 				"02BB0C4DBB426D9D"
 			]
+			title: "{atm9.quest.alchem.title.silicondioxide}"
 			description: ["{atm9.quest.alchem.desc.silicondioxide}"]
 			id: "66629CEE67F85A25"
 			rewards: [{
@@ -724,6 +740,7 @@
 		{
 			dependencies: ["71815B287D0F162A"]
 			description: ["{atm9.quest.alchem.desc.silicon}"]
+			title: "{atm9.quest.alchem.title.silicon}"
 			hide_dependency_lines: true
 			id: "02BB0C4DBB426D9D"
 			rewards: [{
@@ -757,6 +774,7 @@
 				}
 			]
 			subtitle: "{atm9.quest.alchem.subt.potassium}"
+			title: "{atm9.quest.alchem.title.potassium}"
 			tasks: [{
 				id: "671C04341B107871"
 				item: "chemlib:potassium"
@@ -771,6 +789,7 @@
 				"0C882F195627F121"
 			]
 			description: ["{atm9.quest.alchem.desc.potassiumdust}"]
+			title: "{atm9.quest.alchem.title.potassiumdust}"
 			icon: "chemlib:potassium_dust"
 			id: "107AC5D16A8821D6"
 			rewards: [{
@@ -783,13 +802,13 @@
 				item: "chemlib:potassium_dust"
 				type: "item"
 			}]
-			title: "Potassium Dust"
 			x: 5.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["107AC5D16A8821D6"]
 			description: ["{atm9.quest.alchem.desc.potassiumingot}"]
+			title: "{atm9.quest.alchem.title.potassiumingot}"
 			id: "5121FA28244BE1A2"
 			rewards: [{
 				id: "3A5D328882CAFB8E"
@@ -806,6 +825,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.V}"
 			hide_dependency_lines: true
 			id: "7D83A2B077114516"
 			rewards: [{
@@ -825,6 +845,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Cr}"
 			hide_dependency_lines: true
 			id: "5AF17A366A6D108C"
 			rewards: [{
@@ -844,6 +865,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Y}"
 			hide_dependency_lines: true
 			id: "75172C1699EE0E77"
 			rewards: [{
@@ -863,6 +885,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Zr}"
 			hide_dependency_lines: true
 			id: "55700B292E00DDA4"
 			rewards: [{
@@ -882,6 +905,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Mn}"
 			description: ["{atm9.quest.alchem.desc.Mn}"]
 			hide_dependency_lines: true
 			id: "0E1636BD6F19FF71"
@@ -902,6 +926,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Fe}"
 			hide_dependency_lines: true
 			id: "7B972AF08F85F258"
 			rewards: [{
@@ -921,6 +946,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Co}"
 			hide_dependency_lines: true
 			id: "33D424EA1B610647"
 			rewards: [{
@@ -940,6 +966,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ni}"
 			hide_dependency_lines: true
 			id: "5A6609F2E37A1F59"
 			rewards: [{
@@ -959,6 +986,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Cu}"
 			hide_dependency_lines: true
 			id: "0339E89D4A91BFFE"
 			rewards: [{
@@ -978,6 +1006,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Zn}"
 			hide_dependency_lines: true
 			id: "1E8B5246487A38EE"
 			rewards: [{
@@ -997,6 +1026,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ga}"
 			hide_dependency_lines: true
 			id: "7B60587A96617C09"
 			rewards: [{
@@ -1016,6 +1046,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ge}"
 			hide_dependency_lines: true
 			id: "0BA8FA52FF6E49C8"
 			rewards: [{
@@ -1035,6 +1066,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.As}"
 			hide_dependency_lines: true
 			id: "06CB698FE1535CB6"
 			rewards: [{
@@ -1054,6 +1086,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Rb}"
 			hide_dependency_lines: true
 			id: "2A8DF25C55F77E48"
 			rewards: [{
@@ -1073,6 +1106,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Sr}"
 			hide_dependency_lines: true
 			id: "02A6BF4A061AE2AE"
 			rewards: [{
@@ -1092,6 +1126,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Se}"
 			hide_dependency_lines: true
 			id: "62BB91CB65ECF0EF"
 			rewards: [{
@@ -1111,6 +1146,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Br}"
 			hide_dependency_lines: true
 			id: "46B5508300132B0C"
 			rewards: [{
@@ -1134,6 +1170,7 @@
 				"1A988BE2A5158A43"
 			]
 			dependency_requirement: "one_completed"
+			title: "{atm9.quest.alchem.title.Kr}"
 			hide_dependency_lines: true
 			id: "7E8CDD7D62D5F32E"
 			rewards: [{
@@ -1153,6 +1190,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Al}"
 			hide_dependency_lines: true
 			id: "5754728AF4A8F3B7"
 			rewards: [{
@@ -1172,6 +1210,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Si}"
 			hide_dependency_lines: true
 			id: "07F677702175EE67"
 			rewards: [{
@@ -1191,6 +1230,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.P}"
 			hide_dependency_lines: true
 			id: "6593C20C350B9EB1"
 			rewards: [{
@@ -1210,6 +1250,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.S}"
 			hide_dependency_lines: true
 			id: "126C9EE687E79942"
 			rewards: [{
@@ -1229,6 +1270,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Cl}"
 			hide_dependency_lines: true
 			id: "3547C5F64783065B"
 			rewards: [{
@@ -1252,6 +1294,7 @@
 				"1A988BE2A5158A43"
 			]
 			dependency_requirement: "one_completed"
+			title: "{atm9.quest.alchem.title.Ar}"
 			hide_dependency_lines: true
 			id: "01DFC40F1F9D97C2"
 			rewards: [{
@@ -1271,6 +1314,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.B}"
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "371BB9A68E98030B"
@@ -1292,6 +1336,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.C}"
 			hide_dependency_lines: true
 			id: "092600D68AE1B4E2"
 			rewards: [{
@@ -1311,6 +1356,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.N}"
 			hide_dependency_lines: true
 			id: "196D132B7A9C7387"
 			rewards: [{
@@ -1330,6 +1376,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.O}"
 			hide_dependency_lines: true
 			id: "250CD779709634C0"
 			rewards: [{
@@ -1349,6 +1396,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.F}"
 			hide_dependency_lines: true
 			id: "007502FD05085CD3"
 			rewards: [{
@@ -1371,6 +1419,7 @@
 				"01448392C2A13D94"
 				"1A988BE2A5158A43"
 			]
+			title: "{atm9.quest.alchem.title.Ne}"
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "5675ABFC42D47C4C"
@@ -1391,6 +1440,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.He}"
 			hide_dependency_lines: true
 			id: "0D4CD822C38AB4C7"
 			rewards: [{
@@ -1492,6 +1542,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Nb}"
 			hide_dependency_lines: true
 			id: "72AB9CBA0EF98820"
 			rewards: [{
@@ -1511,6 +1562,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Mo}"
 			hide_dependency_lines: true
 			id: "208F22894CA1127D"
 			rewards: [{
@@ -1530,6 +1582,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Tc}"
 			hide_dependency_lines: true
 			id: "210F218372EC644A"
 			rewards: [{
@@ -1549,6 +1602,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ru}"
 			hide_dependency_lines: true
 			id: "429D02044EDC053F"
 			rewards: [{
@@ -1568,6 +1622,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Rh}"
 			hide_dependency_lines: true
 			id: "6DB1428AB6EBC78E"
 			rewards: [{
@@ -1587,6 +1642,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Pd}"
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "02E87412D3024E10"
@@ -1641,6 +1697,7 @@
 		{
 			dependencies: ["71815B287D0F162A"]
 			description: ["{atm9.quest.alchem.desc.64dysprosium}"]
+			title: "{atm9.quest.alchem.title.64dysprosium}"
 			hide_dependency_lines: true
 			id: "686D998697278004"
 			rewards: [{
@@ -1661,6 +1718,7 @@
 		{
 			dependencies: ["71815B287D0F162A"]
 			description: ["{atm9.quest.alchem.desc.64Lutetium}"]
+			title: "{atm9.quest.alchem.title.64Lutetium}"
 			hide_dependency_lines: true
 			id: "6518DDD43E8D7F59"
 			rewards: [{
@@ -1681,6 +1739,7 @@
 		{
 			dependencies: ["71815B287D0F162A"]
 			description: ["{atm9.quest.alchem.desc.64titanium}"]
+			title: "{atm9.quest.alchem.title.64titanium}"
 			hide_dependency_lines: true
 			id: "714A43E7C2468C74"
 			rewards: [{
@@ -1701,6 +1760,7 @@
 		{
 			dependencies: ["71815B287D0F162A"]
 			description: ["{atm9.quest.alchem.desc.64mendelevium}"]
+			title: "{atm9.quest.alchem.title.64mendelevium}"
 			hide_dependency_lines: true
 			id: "408E92AFAC761478"
 			rewards: [{
@@ -1961,6 +2021,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ag}"
 			hide_dependency_lines: true
 			id: "63FE01E6898245FD"
 			rewards: [{
@@ -1980,6 +2041,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Cd}"
 			hide_dependency_lines: true
 			id: "2D5B08AC3C5A6979"
 			rewards: [{
@@ -1999,6 +2061,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.In}"
 			hide_dependency_lines: true
 			id: "70C29B3AFE856E50"
 			rewards: [{
@@ -2018,6 +2081,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Sn}"
 			hide_dependency_lines: true
 			id: "27454687DBF0395E"
 			rewards: [{
@@ -2037,6 +2101,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Sb}"
 			hide_dependency_lines: true
 			id: "11CB255C64E6DAE5"
 			rewards: [{
@@ -2060,6 +2125,7 @@
 				"1A988BE2A5158A43"
 			]
 			dependency_requirement: "one_completed"
+			title: "{atm9.quest.alchem.title.Te}"
 			hide_dependency_lines: true
 			id: "4A956F5A541F3D48"
 			rewards: [{
@@ -2081,6 +2147,8 @@
 			dependencies: ["71815B287D0F162A"]
 			hide_dependency_lines: true
 			id: "2EC007454D60BC9D"
+			title: "{atm9.quest.alchem.title.I}"
+			subtitle: "I (53)"
 			rewards: [{
 				id: "621898B2616CD8B3"
 				type: "xp"
@@ -2097,6 +2165,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Xe}"
 			hide_dependency_lines: true
 			id: "12C9695D8F14B7BE"
 			rewards: [{
@@ -2116,6 +2185,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ba}"
 			hide_dependency_lines: true
 			id: "26461778F7C80BA1"
 			rewards: [{
@@ -2135,6 +2205,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.La}"
 			hide_dependency_lines: true
 			id: "0EDD7D65E318DC50"
 			rewards: [{
@@ -2158,6 +2229,7 @@
 				"1A988BE2A5158A43"
 			]
 			dependency_requirement: "one_completed"
+			title: "{atm9.quest.alchem.title.Cs}"
 			hide_dependency_lines: true
 			id: "188823A5DF5D0D01"
 			rewards: [{
@@ -2177,6 +2249,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Hf}"
 			hide_dependency_lines: true
 			id: "5215D10A46B92A81"
 			rewards: [{
@@ -2196,6 +2269,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ta}"
 			hide_dependency_lines: true
 			id: "58B71D3C7528131A"
 			rewards: [{
@@ -2215,6 +2289,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.W}"
 			hide_dependency_lines: true
 			id: "430CE13E578D4DA1"
 			rewards: [{
@@ -2234,6 +2309,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Re}"
 			hide_dependency_lines: true
 			id: "289D0A9D1D8A3429"
 			rewards: [{
@@ -2253,6 +2329,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Os}"
 			hide_dependency_lines: true
 			id: "75BA57A8F24C305E"
 			rewards: [{
@@ -2272,6 +2349,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ir}"
 			hide_dependency_lines: true
 			id: "5248DA0DF9725DEF"
 			rewards: [{
@@ -2291,6 +2369,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Pt}"
 			hide_dependency_lines: true
 			id: "2112955BD2120AFE"
 			rewards: [{
@@ -2310,6 +2389,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Au}"
 			hide_dependency_lines: true
 			id: "122253C6EFBE2126"
 			rewards: [{
@@ -2329,6 +2409,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Hg}"
 			hide_dependency_lines: true
 			id: "47E55FB53D4E051B"
 			rewards: [{
@@ -2348,6 +2429,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Tl}"
 			hide_dependency_lines: true
 			id: "3817803943459161"
 			rewards: [{
@@ -2356,7 +2438,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Tl (81)_"
+			subtitle: "Tl (81)"
 			tasks: [{
 				id: "16C45C3F873DF66E"
 				item: "chemlib:thallium"
@@ -2367,6 +2449,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Pb}"
 			hide_dependency_lines: true
 			id: "72F8F2C07636D589"
 			rewards: [{
@@ -2386,6 +2469,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Bi}"
 			description: ["{atm9.quest.alchem.desc.Bi}"]
 			hide_dependency_lines: true
 			id: "52050942552AF567"
@@ -2406,6 +2490,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Po}"
 			hide_dependency_lines: true
 			id: "23E1AC0BAD55B9C1"
 			rewards: [{
@@ -2425,6 +2510,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.At}"
 			hide_dependency_lines: true
 			id: "33C09E36CE5B9C08"
 			rewards: [{
@@ -2444,6 +2530,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Rn}"
 			hide_dependency_lines: true
 			id: "4F7B88C71238A24F"
 			rewards: [{
@@ -2463,6 +2550,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Fr}"
 			hide_dependency_lines: true
 			id: "6EBA70B456E00641"
 			rewards: [{
@@ -2481,6 +2569,7 @@
 			y: 12.0d
 		}
 		{
+			title: "{atm9.quest.alchem.title.Ra}"
 			dependencies: ["71815B287D0F162A"]
 			hide_dependency_lines: true
 			id: "27A1337F2CD52B4E"
@@ -2501,6 +2590,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Ac}"
 			hide_dependency_lines: true
 			id: "461D8D0C3EC23236"
 			rewards: [{
@@ -2520,6 +2610,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Rf}"
 			description: ["{atm9.quest.alchem.desc.Rf}"]
 			hide_dependency_lines: true
 			id: "1426CCA90672FAF1"
@@ -2541,6 +2632,7 @@
 		{
 			dependencies: ["1A988BE2A5158A43"]
 			hide_dependency_lines: true
+			title: "{atm9.quest.alchem.title.Db}"
 			id: "39AE281D2713AE3F"
 			rewards: [{
 				id: "6658EACD8FF1E9F8"
@@ -2559,6 +2651,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Sg}"
 			hide_dependency_lines: true
 			id: "0835431D29136FFE"
 			rewards: [{
@@ -2578,6 +2671,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Bh}"
 			hide_dependency_lines: true
 			id: "7677C368564F5FB2"
 			rewards: [{
@@ -2597,6 +2691,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Hs}"
 			hide_dependency_lines: true
 			id: "597BAD37FD74D440"
 			rewards: [{
@@ -2616,6 +2711,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Mt}"
 			hide_dependency_lines: true
 			id: "2D508E37E2EDA74F"
 			rewards: [{
@@ -2635,6 +2731,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Ds}"
 			hide_dependency_lines: true
 			id: "3B9B9E767C472FB8"
 			rewards: [{
@@ -2654,6 +2751,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Rg}"
 			hide_dependency_lines: true
 			id: "44BD4503DF124482"
 			rewards: [{
@@ -2673,6 +2771,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Cn}"
 			hide_dependency_lines: true
 			id: "353EDD78D6BBF0CF"
 			rewards: [{
@@ -2692,6 +2791,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Nh}"
 			hide_dependency_lines: true
 			id: "0E92C19E4E943603"
 			rewards: [{
@@ -2711,6 +2811,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Fl}"
 			hide_dependency_lines: true
 			id: "710DC7F7F0C68ACE"
 			rewards: [{
@@ -2731,6 +2832,7 @@
 		{
 			dependencies: ["1A988BE2A5158A43"]
 			description: ["{atm9.quest.alchem.desc.Mc}"]
+			title: "{atm9.quest.alchem.title.Mc}"
 			hide_dependency_lines: true
 			id: "1FB4AF60D792A517"
 			rewards: [{
@@ -2750,6 +2852,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Lv}"
 			hide_dependency_lines: true
 			id: "0FA1B335718674C0"
 			rewards: [{
@@ -2769,6 +2872,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Ts}"
 			hide_dependency_lines: true
 			id: "7797036B53297A05"
 			rewards: [{
@@ -2789,6 +2893,7 @@
 		{
 			dependencies: ["71815B287D0F162A"]
 			description: ["{atm9.quest.alchem.desc.Og}"]
+			title: "{atm9.quest.alchem.title.Og}"
 			hide_dependency_lines: true
 			id: "376A8F925F139D7F"
 			rewards: [{
@@ -2808,6 +2913,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ce}"
 			hide_dependency_lines: true
 			id: "5B1BD85A4DFEE821"
 			rewards: [{
@@ -2832,6 +2938,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["{atm9.quest.alchem.desc.Pr}"]
+			title: "{atm9.quest.alchem.title.Pr}"
 			hide_dependency_lines: true
 			id: "2C21A303E3D4D9D8"
 			rewards: [{
@@ -2851,6 +2958,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Nd}"
 			hide_dependency_lines: true
 			id: "3826DC9C546D2D5C"
 			rewards: [{
@@ -2871,6 +2979,7 @@
 		{
 			dependencies: ["1A988BE2A5158A43"]
 			description: ["{atm9.quest.alchem.desc.Pm}"]
+			title: "{atm9.quest.alchem.title.Pm}"
 			hide_dependency_lines: true
 			id: "3ED95184EF9A8596"
 			rewards: [{
@@ -2890,6 +2999,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Sm}"
 			hide_dependency_lines: true
 			id: "6E9C736498725207"
 			rewards: [{
@@ -2909,6 +3019,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Eu}"
 			hide_dependency_lines: true
 			id: "3CD95E74D480C1A8"
 			rewards: [{
@@ -2928,6 +3039,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Gd}"
 			description: ["{atm9.quest.alchem.desc.Gd}"]
 			hide_dependency_lines: true
 			id: "23508A9D88F53858"
@@ -2948,6 +3060,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Tb}"
 			hide_dependency_lines: true
 			id: "61CBE513D0A630DA"
 			rewards: [{
@@ -2967,6 +3080,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Dy}"
 			hide_dependency_lines: true
 			id: "12FD18CE25C3D048"
 			rewards: [{
@@ -2986,6 +3100,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Ho}"
 			description: ["{atm9.quest.alchem.desc.Ho}"]
 			hide_dependency_lines: true
 			id: "7D377561EDB4F165"
@@ -3006,6 +3121,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Er}"
 			hide_dependency_lines: true
 			id: "3F1E2455AF9BD723"
 			rewards: [{
@@ -3026,6 +3142,7 @@
 		{
 			dependencies: ["71815B287D0F162A"]
 			description: ["{atm9.quest.alchem.desc.Tm}"]
+			title: "{atm9.quest.alchem.title.Tm}"
 			hide_dependency_lines: true
 			id: "11373202F6B9C2A4"
 			rewards: [{
@@ -3045,6 +3162,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Yb}"
 			hide_dependency_lines: true
 			id: "78B53771C5491991"
 			rewards: [{
@@ -3064,6 +3182,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Lu}"
 			hide_dependency_lines: true
 			id: "747FEAC15A8F9E20"
 			rewards: [{
@@ -3084,6 +3203,7 @@
 		{
 			dependencies: ["71815B287D0F162A"]
 			description: ["{atm9.quest.alchem.desc.Th}"]
+			title: "{atm9.quest.alchem.title.Th}"
 			hide_dependency_lines: true
 			id: "63937F58AC720B31"
 			rewards: [{
@@ -3103,6 +3223,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Pa}"
 			hide_dependency_lines: true
 			id: "18A411E94F4DA642"
 			rewards: [{
@@ -3122,6 +3243,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.U}"
 			hide_dependency_lines: true
 			id: "25D5B6154A00792E"
 			rewards: [{
@@ -3141,6 +3263,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Np}"
 			description: ["{atm9.quest.alchem.desc.Np}"]
 			hide_dependency_lines: true
 			id: "79E421A5F903FE1D"
@@ -3161,6 +3284,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Pu}"
 			hide_dependency_lines: true
 			id: "7B8BB4BC9BBCFF8F"
 			rewards: [{
@@ -3180,6 +3304,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Am}"
 			description: ["{atm9.quest.alchem.desc.Am}"]
 			hide_dependency_lines: true
 			id: "529D3B7BBD22B2F3"
@@ -3200,6 +3325,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Cm}"
 			hide_dependency_lines: true
 			id: "290CECB30364A692"
 			rewards: [{
@@ -3219,6 +3345,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Bk}"
 			hide_dependency_lines: true
 			id: "7F1C37CF2D4455AF"
 			rewards: [{
@@ -3238,6 +3365,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Cf}"
 			hide_dependency_lines: true
 			id: "3D4D5EDA83B05089"
 			rewards: [{
@@ -3257,6 +3385,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Es}"
 			hide_dependency_lines: true
 			id: "2FF3255BD022446B"
 			rewards: [{
@@ -3276,6 +3405,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Fm}"
 			hide_dependency_lines: true
 			id: "65DC6D89BDCF366C"
 			rewards: [{
@@ -3295,6 +3425,8 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Md}"
+			subtitle: "Md (101)"
 			hide_dependency_lines: true
 			id: "6EAF38BCE238A3EA"
 			rewards: [{
@@ -3313,6 +3445,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.No}"
 			description: ["{atm9.quest.alchem.desc.No}"]
 			hide_dependency_lines: true
 			id: "7A079FDC0F29E25D"
@@ -3333,6 +3466,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Lr}"
 			hide_dependency_lines: true
 			id: "568D2BE79260091C"
 			rewards: [{

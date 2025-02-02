@@ -513,7 +513,7 @@
 					id: "itemfilters:or"
 					tag: {
 						display: {
-							Name: "{\"text\":\"Any Fluid Heater IV And Up\"}"
+							Name: "{atm9.quest.gregtech.uv.title.fluidHeaters}"
 						}
 						items: [
 							{
@@ -1569,6 +1569,7 @@
 				""
 				"{atm9.quest.gregtech.uv.desc.advancedLcr.3}"
 			]
+			title: "{atm9.quest.gregtech.uv.title.advancedLcr}"
 			icon: "gtceu:advanced_large_chemical_reactor"
 			id: "13417E27790B9AB2"
 			optional: true
