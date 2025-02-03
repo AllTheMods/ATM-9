@@ -384,7 +384,7 @@
 				{
 					id: "57814182F5AA0BAB"
 					type: "xp"
-					xp: 5
+					xp: 10
 				}
 			]
 			subtitle: "{atm9.quest.storage.subt.drawer}"
@@ -453,7 +453,7 @@
 				{
 					id: "7265B47272F72DA0"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "gear"
@@ -553,10 +553,9 @@
 			size: 2.0d
 			tasks: [{
 				id: "3E7F26D68D9A166B"
-				title: "Storage"
+				title: "{atm9.quest.storage.basic}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.storage.basic}"
 			x: -2.0d
 			y: 3.0d
 		}
@@ -715,10 +714,9 @@
 			subtitle: "{atm9.quest.storage.subt.sophisticated}"
 			tasks: [{
 				id: "034F49638F207523"
-				title: "Iron Chests"
+				title: "{atm9.quest.storage.sophisticated}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.storage.sophisticated}"
 			x: 3.0d
 			y: 0.5d
 		}
@@ -1738,7 +1736,7 @@
 				{
 					id: "1C9DA834CECB25E9"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			shape: "circle"
@@ -1982,10 +1980,9 @@
 			]
 			tasks: [{
 				id: "21FBC4E0F668347C"
-				title: "NBT and YOU!"
+				title: "{atm9.quest.storage.NBT}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.storage.NBT}"
 			x: -2.0d
 			y: 5.0d
 		}
@@ -2008,7 +2005,7 @@
 				{
 					id: "0258F1F46A0CC9EB"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "gear"
