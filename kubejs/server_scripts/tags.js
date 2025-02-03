@@ -1,3 +1,4 @@
+// priority: 0
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
@@ -60,6 +61,7 @@ ServerEvents.tags('item', allthemods => {
   // allow lumber bees to produce bamboo blocks because they are lumber!
   allthemods.add('productivebees:flowers/lumber', ['minecraft:bamboo_block', 'minecraft:stripped_bamboo_block'])
 
+  // weird tag issue w/GT & the Apiary
   allthemods.add('forge:storage_blocks/raw_lepidolite', 'gtceu:raw_lepidolite_block')
 
   //Fix Mythicbotany tags
@@ -148,8 +150,6 @@ ServerEvents.tags('block', allthemods => {
 
   // allow lumber bees to produce bamboo blocks because they are lumber!
   allthemods.add('productivebees:flowers/lumber', ['minecraft:bamboo_block', 'minecraft:stripped_bamboo_block'])
-
-  allthemods.add('forge:storage_blocks/raw_lepidolite', 'gtceu:raw_lepidolite_block')
 })
 
 ServerEvents.tags('fluid', allthemods => {
