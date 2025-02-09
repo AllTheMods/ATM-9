@@ -3,7 +3,7 @@
 
 const $MysticalAgricultureAPI = Java.loadClass('com.blakebr0.mysticalagriculture.api.MysticalAgricultureAPI')
 
-const CropManualDisableList = ["gaia_spirit", "mithril", "tungsten", "titanium", "chrome", "invar", "iridium", "yellorium"]
+const CropManualDisableList = ["gaia_spirit", "mithril", "tungsten", "titanium", "chrome", "yellorium"]
 const CropManualEnableList = []
 
 StartupEvents.postInit(allthemods => {

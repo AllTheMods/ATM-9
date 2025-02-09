@@ -12,6 +12,11 @@
 	[tweaks.sus_recipes]
 		#Adds recipes to craft suspicious gravel and suspicious sand
 		enabled = false
+	
+	[tweaks.shulker_helmet]
+		#Allows wearing shulker shells
+		enabled = false
+
 
 #General settings
 [general]

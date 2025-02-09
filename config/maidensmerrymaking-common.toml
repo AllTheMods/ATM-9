@@ -1,0 +1,11 @@
+["Common Configs for MerryMaking Mod"]
+
+	#Christmas presents can spawn in chests. Set to 0 to disable
+	#Range: > 0
+	christmas_present_chest_spawn = 0
+	#Enable Christmas Creepers to spawn naturally in the world. Set to False to disable
+	christmas_creeper_enabled = false
+	#Enable mobs to spawn wearing Christmas sweaters and hats. Set to False to disable
+	mob_wear_christmas_armor_enabled = false
+	#Easter Eggs will appear naturally in the world. Set to False to disable.
+	easter_egg_spawn = false
