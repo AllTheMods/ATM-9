@@ -1,5 +1,8 @@
-["Common Configs for MerryMaking Mod"]
 
+["Common Configs for MerryMaking Mod"]
+	#mod recipe ingredients can spawn in chests. Set to 0 to disable
+	#Range: > 0
+	ingredients_in_chests_spawn = 1
 	#Christmas presents can spawn in chests. Set to 0 to disable
 	#Range: > 0
 	christmas_present_chest_spawn = 0
@@ -7,5 +10,40 @@
 	christmas_creeper_enabled = false
 	#Enable mobs to spawn wearing Christmas sweaters and hats. Set to False to disable
 	mob_wear_christmas_armor_enabled = false
+	#Enable Santa Hats or sweaters to drop from mobs that are wearing them. Set to False to disable
+	mob_drop_christmas_armor_enabled = true
+	#Tiny Spruce saplings will drop from Spruce Leaves. Set to 0 to disable
+	#Range: > 0
+	tiny_spruce_from_leaves_drop = 1
+	#Enable Holly tree to spawn in world. Set to False to disable
+	holly_enabled = true
+	#Enable Tiny Spruce tree to spawn in world. Set to False to disable
+	tiny_spruce_enabled = true
+	#Enable Clover to grow naturally in the world. Set to False to disable
+	clover_enabled = true
 	#Easter Eggs will appear naturally in the world. Set to False to disable.
 	easter_egg_spawn = false
+	#Easter baskets can spawn in chests. Set to 0 to disable
+	#Range: > 0
+	easter_basket_chest_spawn = 1
+	#Enable Easter Lily flower to grow naturally in the world. Set to False to disable
+	easter_lily_enabled = true
+	#Enable Hydrangea flower to grow naturally in the world.  Set to False to disable
+	hydrangea_enabled = true
+	#Enable Hyacinth flower to grow naturally in the world. Set to False to disable
+	hyacinth_enabled = true
+	#Enable Colored Chickens to spawn naturally in the world. Set to False to disable
+	colored_chicken_enabled = true
+	#Enable Costumed Mobs to spawn in the world. Set to False to disable
+	costumes_enabled = false
+	#Enable Gravestones to spawn in the world. Set to False to disable
+	gravestones_enabled = false
+	#Halloween Discs can spawn in chests. Set to 0 to disable
+	#Range: > 0
+	halloween_disc_chest_spawn = 1
+	#Enable Pine Tree to spawn in the world. Set to False to disable
+	pine_enabled = true
+	#Enable Ham item to drop from pigs. Set to False to disable
+	#Range: > 0
+	ham_drop = 1
+
