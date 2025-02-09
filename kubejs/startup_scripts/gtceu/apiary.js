@@ -19,7 +19,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', allthemods => {
     allthemods.create('comb_processor')
         .category('comb_processor')
         .setEUIO('in')
-        .setMaxIOSize(6, 6, 0, 1)
+        .setMaxIOSize(3, 9, 0, 1)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
 })

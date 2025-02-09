@@ -1,0 +1,46 @@
+{
+    "conditions": [
+        {
+            "condition": "forge:loot_table_id",
+            "loot_table_id": "botania:gaia_guardian_2"
+        },
+        {
+            "condition": "productivelib:killed_by_uuid",
+            "uuid": "bf699a99-b67c-35dc-981f-fb67fe089dbd"
+        }
+    ],
+    "type": "productivelib:ingredient_modifier",
+    "chance": 0.05,
+    "addition": [
+        {
+            "item": "botania:life_essence"
+        },
+        {
+            "item": "botania:blacker_lotus"
+        },
+        {
+            "item": "mythicbotany:fimbultyr_tablet"
+        },
+        {
+            "item": "botania:rune_lust"
+        },
+        {
+            "item": "botania:rune_gluttony"
+        },
+        {
+            "item": "botania:rune_greed"
+        },
+        {
+            "item": "botania:rune_sloth"
+        },
+        {
+            "item": "botania:rune_wrath"
+        },
+        {
+            "item": "botania:rune_envy"
+        },
+        {
+            "item": "botania:rune_pride"
+        }
+    ]
+}

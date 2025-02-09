@@ -42,6 +42,44 @@ ServerEvents.recipes(allthemods => {
         .duration(25600)
         .EUt(ULV)
 
+    // added rotor holder tiers
+    allthemods.shaped('gtceu:uhv_uhv_rotor_holder', ['ABA', 'BCB', 'ABA'], {
+        A: 'gtceu:small_naquadah_alloy_gear',
+        B: 'gtceu:neutronium_gear',
+        C: 'gtceu:uhv_machine_hull'
+    }).id('allthemods:uhv_rotor_holder')
+
+    allthemods.shaped('gtceu:uev_uev_rotor_holder', ['ABA', 'BCB', 'ABA'], {
+        A: 'gtceu:small_unobtronium_gear',
+        B: 'gtceu:vibtronium_gear',
+        C: 'gtceu:alltheneutronium_block'
+    }).id('allthemods:uev_rotor_holder')
+
+    allthemods.shaped('gtceu:uiv_uiv_rotor_holder', ['ABA', 'BCB', 'ABA'], {
+        A: 'gtceu:small_vibtronium_gear',
+        B: 'gtceu:alltheneutronium_gear',
+        C: 'gtceu:unobtronium_block'
+    }).id('allthemods:uiv_rotor_holder')
+
+    // added rotor holder tier dusts
+    allthemods.recipes.gtceu.mixer('alltheneutronium_dust')
+        .itemInputs('allthemodium:allthemodium_dust', '2x gtceu:neutronium_dust')
+        .itemOutputs('gtceu:alltheneutronium_dust')
+        .duration(1200)
+        .EUt(ZPM)
+    
+    allthemods.recipes.gtceu.mixer('vibtronium_dust')
+        .itemInputs('2x allthemodium:vibranium_dust', '3x gtceu:alltheneutronium_dust')
+        .itemOutputs('gtceu:vibtronium_dust')
+        .duration(600)
+        .EUt(UV)
+
+    allthemods.recipes.gtceu.mixer('unobtronium_dust')
+        .itemInputs('3x allthemodium:unobtainium_dust', '4x gtceu:vibtronium_dust')
+        .itemOutputs('gtceu:unobtronium_dust')
+        .duration(900)
+        .EUt(UV)
+
     // ALCR
     allthemods.recipes.gtceu.assembly_line('advanced_large_chemical_reactor')
         .itemInputs('gtceu:large_chemical_reactor', '3x #gtceu:circuits/iv', '15x gtceu:nitinol_plate', '4x gtceu:platinum_single_cable')
@@ -68,6 +106,113 @@ ServerEvents.recipes(allthemods => {
         .stationResearch(b => b.researchStack(Item.of('gtceu:assembly_line')).CWUt(96).EUt(UV))
         .EUt(ZPM)
 
+    // Ore Processing Plant
+    allthemods.recipes.gtceu.assembly_line('ore_processing_plant')
+        .itemInputs('2x gtceu:large_maceration_tower', 'gtceu:large_chemical_bath', 'gtceu:large_centrifuge', 'gtceu:large_sifting_funnel', '8x #gtceu:circuits/zpm', '4x gtceu:zpm_robot_arm', '8x gtceu:zpm_electric_piston', '16x gtceu:zpm_electric_motor', '4x gtceu:zpm_fluid_regulator')
+        .itemOutputs('gtceu:ore_processing_plant')
+        .inputFluids(
+            Fluid.of('gtceu:lubricant', 4000),
+            Fluid.of('gtceu:soldering_alloy', 2304)
+        )
+        .duration(500)
+        .stationResearch(b => b.researchStack(Item.of('gtceu:large_maceration_tower')).CWUt(16).EUt(LuV))
+        .EUt(ZPM)
+
+    // molten piglich heart
+    allthemods.recipes.gtceu.extractor('molten_piglich_heart')
+        .itemInputs('allthemodium:piglich_heart')
+        .outputFluids(Fluid.of('gtceu:molten_piglich_heart', 144))
+        .duration(12500)
+        .EUt(LV)
+
+    allthemods.recipes.gtceu.extractor('molten_piglich_heart_block')
+        .itemInputs('allthemodium:piglich_heart_block')
+        .outputFluids(Fluid.of('gtceu:molten_piglich_heart', 1296))
+        .duration(101250)
+        .EUt(LV)
+    
+    // atmium vib unob alloys
+    allthemods.recipes.gtceu.chemical_reactor('unobtainium_allthemodium_alloy_ingot')
+        .itemInputs(['allthemodium:allthemodium_ingot', 'allthemodium:unobtainium_ingot'])
+        .inputFluids(Fluid.of('gtceu:molten_piglich_heart', 144))
+        .itemOutputs('allthemodium:unobtainium_allthemodium_alloy_ingot')
+        .duration(7800000)
+        .EUt(LV)
+    
+    allthemods.recipes.gtceu.chemical_reactor('unobtainium_allthemodium_alloy_block')
+        .itemInputs(['allthemodium:allthemodium_block', 'allthemodium:unobtainium_block'])
+        .inputFluids(Fluid.of('gtceu:molten_piglich_heart', 1296))
+        .itemOutputs('allthemodium:unobtainium_allthemodium_alloy_block')
+        .duration(63180000)
+        .EUt(LV)
+
+    allthemods.recipes.gtceu.chemical_reactor('unobtainium_vibranium_alloy_ingot')
+        .itemInputs(['allthemodium:vibranium_ingot', 'allthemodium:unobtainium_ingot'])
+        .inputFluids(Fluid.of('gtceu:molten_piglich_heart', 144))
+        .itemOutputs('allthemodium:unobtainium_vibranium_alloy_ingot')
+        .duration(7800000)
+        .EUt(LV)
+    
+    allthemods.recipes.gtceu.chemical_reactor('unobtainium_vibranium_alloy_block')
+        .itemInputs(['allthemodium:vibranium_block', 'allthemodium:unobtainium_block'])
+        .inputFluids(Fluid.of('gtceu:molten_piglich_heart', 1296))
+        .itemOutputs('allthemodium:unobtainium_vibranium_alloy_block')
+        .duration(63180000)
+        .EUt(LV)
+
+    allthemods.recipes.gtceu.chemical_reactor('vibranium_allthemodium_alloy_ingot')
+        .itemInputs(['allthemodium:allthemodium_ingot', 'allthemodium:vibranium_ingot'])
+        .inputFluids(Fluid.of('gtceu:molten_piglich_heart', 144))
+        .itemOutputs('allthemodium:vibranium_allthemodium_alloy_ingot')
+        .duration(7800000)
+        .EUt(LV)
+    
+    allthemods.recipes.gtceu.chemical_reactor('vibranium_allthemodium_alloy_block')
+        .itemInputs(['allthemodium:allthemodium_block', 'allthemodium:vibranium_block'])
+        .inputFluids(Fluid.of('gtceu:molten_piglich_heart', 1296))
+        .itemOutputs('allthemodium:vibranium_allthemodium_alloy_block')
+        .duration(63180000)
+        .EUt(LV)
+
+    // Ad Astra Plates
+    allthemods.recipes.gtceu.bender('desh_plate')
+        .itemInputs('ad_astra:desh_ingot')
+        .circuit(1)
+        .itemOutputs('ad_astra:desh_plate')
+        .duration(100)
+        .EUt(24)
+
+    allthemods.recipes.gtceu.bender('ostrum_plate')
+        .itemInputs('ad_astra:ostrum_ingot')
+        .circuit(1)
+        .itemOutputs('ad_astra:ostrum_plate')
+        .duration(100)
+        .EUt(24)
+
+    allthemods.recipes.gtceu.bender('calorite_plate')
+        .itemInputs('ad_astra:calorite_ingot')
+        .circuit(1)
+        .itemOutputs('ad_astra:calorite_plate')
+        .duration(100)
+        .EUt(24)
+
+    // Rock Breaker recipes for End Stone and Netherrack
+    allthemods.recipes.gtceu.rock_breaker('netherrack')
+        .notConsumable('minecraft:netherrack')
+        .itemOutputs('minecraft:netherrack')
+        .addDataString('fluidA', 'minecraft:lava')
+        .addDataString('fluidB', 'minecraft:water')
+        .duration(16)
+        .EUt(EV)
+
+    allthemods.recipes.gtceu.rock_breaker('end_stone')
+        .notConsumable('minecraft:end_stone')
+        .itemOutputs('minecraft:end_stone')
+        .addDataString('fluidA', 'minecraft:lava')
+        .addDataString('fluidB', 'minecraft:water')
+        .duration(16)
+        .EUt(IV)
+
     // fluix, sky steel dust, and shattered singularity maceration
     allthemods.recipes.gtceu.macerator('macerate_fluix')
         .itemInputs('ae2:fluix_crystal')
@@ -93,6 +238,12 @@ ServerEvents.recipes(allthemods => {
         ingredient: { item: "gtceu:certus_quartz_gem" },
         result: { item: "ae2:charged_certus_quartz_crystal" }
     })
+
+    allthemods.recipes.gtceu.polarizer('ae2/charged_certus')
+        .itemInputs('ae2:certus_quartz_crystal')
+        .itemOutputs('ae2:charged_certus_quartz_crystal')
+        .duration(100)
+        .EUt(LV)
 
     // AE2 printed circuits in forming press
     allthemods.recipes.gtceu.forming_press('ae2/printed_logic_circuit')

@@ -7,7 +7,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', allthemods => {
     allthemods.create('greenhouse')
         .category('greenhouse')
         .setEUIO('in')
-        .setMaxIOSize(4, 4, 1, 0)
+        .setMaxIOSize(6, 6, 1, 0)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.BOILER)
 })

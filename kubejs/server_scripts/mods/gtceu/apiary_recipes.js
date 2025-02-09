@@ -1,3 +1,4 @@
+// priority: 10
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
@@ -90,6 +91,10 @@ ServerEvents.recipes(allthemods => {
         // flower is the flower block/tag/item/fluid
         // outputs looks like [ { item: 'minecraft:dirt', chance: 10000 }, { item: 'minecraft:egg', chance: 4000 } ]
 
+        if (flower == Item.empty && !(flower instanceof $FluidStackJS || flower instanceof Array)) {
+            console.log("flower is null for " + id)
+        }
+
         for (let i = 1; i < 33; i++) {
             let recipeBuilder = allthemods.recipes.gtceu.apiary_ii(id + '/circuit_' + i.toString())
                 .circuit(i)
@@ -113,7 +118,7 @@ ServerEvents.recipes(allthemods => {
                     }
                 }
             })
-            if (flower instanceof $FluidStackJS) {
+            if (flower instanceof $FluidStackJS || (flower instanceof Array && flower[0] instanceof $FluidStackJS)) {
                 recipeBuilder.notConsumableFluid(flower)
             } else {
                 recipeBuilder.notConsumable(flower)
@@ -277,20 +282,35 @@ ServerEvents.recipes(allthemods => {
             }) // end of loop over all results
 
             let flowerThing
+            let flowerArray = []
             if (index != -1) { // e.g. we found the bee's JSON file
                 if (beeData.hasOwnProperty('flowerFluid')) {
                     flower = beeData.flowerFluid
                     if (beeType == "oily") { // special case, I couldn't figure out fluid tags
                         flower = "thermal:crude_oil"
+                        flowerArray = [Fluid.of(flower, 1000), Fluid.of("pneumaticcraft:oil", 1000)]
                     } else if (beeType == "salty") {
                         flower = "mekanism:brine" // I think the salty bee should use brine as a flower and not water
                     }
-                    recipeBuilder.notConsumableFluid(Fluid.of(flower, 1000))
-                    flowerThing = Fluid.of(flower, 1000)
+                    if (flowerArray.length > 0) {
+                        recipeBuilder.notConsumableFluid(flowerArray)
+                        flowerThing = flowerArray
+                    } else {
+                        recipeBuilder.notConsumableFluid(Fluid.of(flower, 1000))
+                        flowerThing = Fluid.of(flower, 1000)
+                    }
+                    // recipeBuilder.notConsumableFluid(Fluid.of(flower, 1000))
+                    // flowerThing = Fluid.of(flower, 1000)
                 } else if (beeData.hasOwnProperty('flowerBlock')) {
                     flower = beeData.flowerBlock
                     if (beeType == "chocolate") { // special case, listed as minecraft:cocoa in PB for some reason
                         flower = "minecraft:cocoa_beans"
+                    } else if (beeType == "molybdenum") {
+                        flower = "gtceu:molybdenum_block"
+                    } else if (beeType == "palladium") {
+                        flower = "gtceu:palladium_block"
+                    } else if (beeType == "neodymium") {
+                        flower = "gtceu:neodymium_block"
                     }
                     recipeBuilder.notConsumable(Item.of(flower))
                     flowerThing = Item.of(flower)

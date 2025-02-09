@@ -15,6 +15,10 @@ GTCEuStartupEvents.registry('gtceu:material', allthemods => {
     allthemods.create('inert_nether_essence')
         .fluid()
         .color(0x500bbf)
+    
+    allthemods.create('molten_piglich_heart')
+        .fluid()
+        .color(0xe6af15)
 
     allthemods.create("trinaquadalloy")
         .ingot().fluid()
@@ -44,7 +48,30 @@ GTCEuStartupEvents.registry('gtceu:material', allthemods => {
         .flags(GTMaterialFlags.GENERATE_PLATE)
         .components('4x nickel', '6x titanium')
         .blastTemp(1583, 'high', GTValues.VA[GTValues.IV], 1200)
-        
+    
+    allthemods.create('alltheneutronium')
+        .ingot().fluid()
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .color(0xfcfc3d).secondaryColor(0x000000)
+        .flags(GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_PLATE)
+        .blastTemp(9000, 'highest', GTValues.VA[GTValues.ZPM], 1200)
+        .rotorStats(1200, 300, 13.0, 655360)
+
+        allthemods.create('vibtronium')
+        .ingot().fluid()
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .color(0x72fcb7).secondaryColor(0x000000)
+        .flags(GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_PLATE)
+        .blastTemp(9000, 'highest', GTValues.VA[GTValues.UV], 1200)
+        .rotorStats(1000, 400, 14.0, 655360 * 2)
+
+        allthemods.create('unobtronium')
+        .ingot().fluid()
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .color(0xe782f2).secondaryColor(0x000000)
+        .flags(GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_PLATE)
+        .blastTemp(10100, 'highest', GTValues.VA[GTValues.UHV], 1200)
+        .rotorStats(1600, 200, 16.0, 655360 * 4)
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
