@@ -1,6 +1,7 @@
 {
 	"atm9.modpack.title": "All The Mods 9",
 
+
 	"atm9.chapters.1.title": "Wilkommen",
 	"atm9.chapters.2.title": "Allthemodium",
 	"atm9.chapters.3.title": "Kopfgeldbrett",
@@ -3870,7 +3871,7 @@
 	"atm9.quest.spawner.apple": "No AI",
 	"atm9.quest.spawner.egg": "Youthful",
 	"atm9.quest.spawner.rods": "Spawn Range",
-	
+
 	"atm9.quest.spawner.desc.apotheosis": "Apotheosis is quite a big mod so I'm dividing it in 3 quests chapters. The Enchanting and Affixes will be separate. This one is for normal game changes.",
 	"atm9.quest.spawner.desc.changes": "Apotheosis adds some small changes to Minecraft, don't worry all are good and helpful!",
 	"atm9.quest.spawner.desc.anvil": "Some of the items changed with Apotheosis is Enchantments for Anvils and Shears. Shears can now use the normal enchants but now including fortune and new enchants. Shears can get Growth Serum, Chromatic Aberation, and Workers Explotiation. You can discover what they do yourself. The Anvils can now be enchanted with Unbreaking and new enchants as well! Splitting and Obleritation. Both are used on the anvil then use the Enchanted Anvil to drop it on an Enchanted Book.",
@@ -3891,8 +3892,8 @@
 	"atm9.quest.spawner.desc.apple": "By using a Golden Apple on a Spawner you suck the souls out the mobs that will be spawned, only leaving a hollow husk of what they used to be. The mobs will lose all AI so they will do basically what an armor stand does. They can't hit you, can't teleport, can't move on their own. They sit there ready to be killed, how exciting!",
 	"atm9.quest.spawner.desc.egg": "This one might be new to ones returning from earlier versions. By using a turtle egg on a spawner, it will only spawn in baby versions of the mobs in it. This only works with Vanilla baby versions of mobs, not modded.",
 	"atm9.quest.spawner.desc.rods": "The Spawn Range is the area of where mobs can spawn. The bigger the area, the more room for them to spawn in. The smaller the area the cheaper the factory.",
-	
-	
+
+
 	"atm9.quest.farm.food": "Food and Farming",
 	"atm9.quest.farm.farming": "The Planter",
 	"atm9.quest.farm.grass": "Punch the Grass",
@@ -3929,7 +3930,7 @@
 	"atm9.quest.farm.market": "Purchasing Farm Supplies",
 	"atm9.quest.farm.chicken": "I'm not gonna make an Egg pun.",
 	"atm9.quest.farm.egg": "The Chickens Must Go",
-	
+
 	"atm9.quest.farm.desc.food": "Welcome to the Food and Farming chapter! \\n \\n Here, you'll find different ways for you to grow and make food!",
 	"atm9.quest.farm.desc.grass": "Let's gather some seeds.",
 	"atm9.quest.farm.desc.flax": "&2Flax Seeds&r are a great way to get string in the early game!",
@@ -3957,7 +3958,7 @@
 	"atm9.quest.farm.desc.wool": "Let's gather some pieces of wool!",
 	"atm9.quest.farm.desc.market": "Markets provide you with a villager than can sell you anything if you have the right amount of emeralds. \\n \\n Spoiler: It's usually just 1 Emerald per item. BUT THEY HAVE EVERYTHING.",
 	"atm9.quest.farm.desc.chicken": "Chickens will lay these naturally. I guess it's not really considered naturally... \\n \\n I guess the chickens are just getting... &oEggs-ercise!!!&r.",
-	
+
 	"atm9.quest.farm.subt.food": "Getting Started",
 	"atm9.quest.farm.subt.farming": "Just wait until you get machines for this.",
 	"atm9.quest.farm.subt.grass": "Block Hand 1, Block Grass 0",
@@ -3982,8 +3983,8 @@
 	"atm9.quest.farm.subt.market": "The villager has more than one way to spawn",
 	"atm9.quest.farm.subt.chicken": "or am I?",
 	"atm9.quest.farm.subt.egg": "How else do you think Fried Chicken is made?",
-	
-	
+
+
 	"atm9.quest.hostile.welcome": "Welcome to &9Hostile Neural Networks&r!",
 	"atm9.quest.hostile.learn": "&aLearning Mobs&r",
 	"atm9.quest.hostile.modeling": "&9Modeling Mobs&r",
@@ -3994,7 +3995,7 @@
 	"atm9.quest.hostile.end": "Generalized End Prediction", 
 	"atm9.quest.hostile.twilight": "Generalized Twilight Prediction",
 	"atm9.quest.hostile.loot": "Creating &dLoot&r",
-	
+
 	"atm9.quest.hostile.desc.welcome": "&6Hostile Neural Networks&r (or HNN for short) is a mod based around simulating mob kills for loot! \\n \\n To do this, you will be collecting 'data' on mobs, then running simulations from the data to create their drops!",
 	"atm9.quest.hostile.desc.learn": "The &9Deep Learner&r is one of the core components of HNN. \\n \\n With this item, you can right click to open up a HUD and store &6Data Models&r to gather data while killing mobs. \\n \\n Each Learner can hold 4 Data Models, and as long as you have the Learner anywhere in your inventory, it will collect data for the models placed inside! \\n \\n Note: You can have multiple Deep Learners in your inventory, and it will count the kills for all Data Models inside all of the Learners.",
 	"atm9.quest.hostile.desc.modeling": "&9Model Frameworks&r are the starting point for creating Data Models. \\n \\n To start collecting data on a specific mob, you'll want to make one of these then &9right click&r the mob you'd like to gather data on. When done properly, the Model Framework will turn into the Data Model of the mob you clicked on. \\n \\n To 'gather data' for that mob, place the newly created Data Model inside of a &aDeep Learner&r, then start killing that specific mob with the Deep Learner in your inventory.",
@@ -4005,11 +4006,11 @@
 	"atm9.quest.hostile.desc.end": "Makes various End materials.", 
 	"atm9.quest.hostile.desc.twilight": "Makes various Twilight Forest materials.",
 	"atm9.quest.hostile.desc.loot": "The &5Loot Fabricator&r is the machine that gets you that sweet, sweet loot from Mob Predictions. \\n \\n When given power and a successful Mob Prediction, you will be able to choose which item you'd like to get from that mob's Data Model. The machine will remember your choice, so it can be automated. \\n \\n Notable Mob Predictions: \\n \\n - &dEnder Dragons&r for &dDragon Eggs&r \\n - &2Zombies&r for Iron \\n - &0Withers&r for &5Nether Stars&r",
-	
+
 	"atm9.quest.hostile.subt.learn": "The Learning HUD",
 	"atm9.quest.hostile.subt.modeling": "For 'Gathering Data'",
-	
-	
+
+
 	"atm9.quest.ma.InEssence": "&aInferium Essence&r",
 	"atm9.quest.ma.properity": "&bProsperity Shards&r",
 	"atm9.quest.ma.crystal": "&9The Infusion Crystal&r",
@@ -4127,7 +4128,7 @@
 	"atm9.quest.ma.uno": "&5Unobtainium Seeds&r",
 	"atm9.quest.ma.magic": "&bMagical Soil&r",
 	"atm9.quest.ma.creative": "Creative Essence",
-	
+
 	"atm9.quest.ma.desc.InEssence": "&dEssence&r is the starting point for all of your growing needs in Mystical Agriculture. \\n \\n &eInferium Essence&r is the base tier of all essences. You can get this from mining, killing mobs, or by making seeds to grow them! \\n \\n To make the bigger and better essences, you'll need to make an &9Infusion Crystal&r. ",
 	"atm9.quest.ma.desc.properity": "&bProsperity Shards&r are used as one of the main crafting mats for several of the recipes in Mystical Agriculture, like seeds, ingots, and more. \\n \\n You'll find these from mining!",
 	"atm9.quest.ma.desc.crystal": "The &9Infusion Crystal&r is used to upgrade to higher tier &dEssences&r. \\n \\n To start, you'll need to create the first tier of Crystal using &2Inferium&r. This Crystal can create &ePrudentium&r by combining 4 Inferium with the Crystal. This will be used to make the next tier Crystal, which will make the next tier of Essences. \\n \\n Eventually, you'll be able to make an Infusion Crystal that works for all tiers and doesn't break!",
@@ -4152,7 +4153,7 @@
 	"atm9.quest.ma.desc.uno": "Requires a Crux (Next Quest)",
 	"atm9.quest.ma.desc.magic": "Place this under the soil to allow magical seeds to grow",
 	"atm9.quest.ma.desc.creative": "This special essence is used for making the &6ATM Star&r.",
-	
+
 	"atm9.quest.ma.subt.InEssence": "&bTier 1&r",
 	"atm9.quest.ma.subt.PruEssence": "&bTier 2&r",
 	"atm9.quest.ma.subt.TerEssence": "&bTier 3&r",
@@ -4161,7 +4162,7 @@
 	"atm9.quest.ma.subt.ASE": "&bTier: Awakened&r",
 	"atm9.quest.ma.subt.InsEssence": "&bTier 6&r",
 
-	
+
 	"atm9.quest.er.title.welcomeToExtremeReactors": "Welcome to &9Extreme Reactors&r!",
 	"atm9.quest.er.title.graphiteForCasings": "Graphite for Casings",
 	"atm9.quest.er.title.ourFirstReactor": "&dOur First Reactor",
@@ -4338,7 +4339,7 @@
 	"atm9.quest.gregtech.intro.desc.voltageConversion.2": "Tools can also be repaired in anvils using the same material of the tool itself, like any vanilla tool",
 	"atm9.quest.gregtech.intro.desc.voltageConversion.3": "A &aHammer&r is used in manually crafting plates, which will be necessary for the next tools!",
 	"atm9.quest.gregtech.intro.subt.introduction": "An Introduction",
-	"atm9.quest.gregtech.intro.anyGTHammer": "Any GT Hammer",
+	"atm9.quest.gregtech.intro.hammers": "GT Hammers",
 	"atm9.quest.gregtech.intro.tools": "Tools",
 	"atm9.quest.gregtech.intro.desc.tools.1": "The &aWrench&r is a crafting tool, sure, but it is also a mining tool for GT machines! Right clicking sets the output side of GT machines and crouch right clicking rotates them",
 	"atm9.quest.gregtech.intro.desc.tools.2": "The &aFile&r is a crafting tool and that's all",
@@ -4425,8 +4426,7 @@
 	"atm9.quest.gregtech.intro.netherLayerOres1": "Nether Layer Ores",
 	"atm9.quest.gregtech.intro.netherLayerOres2": "Nether Layer Ores",
 	"atm9.quest.gregtech.intro.desc.oreSpacing.1": "3 chunks apart, in case you didn't know that already",
-	"atm9.quest.gregtech.intro.endLayerOres1": "End Layer Ores",
-	"atm9.quest.gregtech.intro.endLayerOres2": "End Layer Ores",
+	"atm9.quest.gregtech.intro.endLayerOres": "End Layer Ores",
 
 
 	"atm9.quest.gregtech.steam.desc.steamAgeIntro.1": "Welcome to the Steam Age! Steam machines can process any recipe in JEI up to &e&lUsage: 32 EU/t (LV)&r&r",

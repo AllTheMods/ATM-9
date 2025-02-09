@@ -409,10 +409,9 @@
 			subtitle: "{atm9.quest.bounty.subt.board}"
 			tasks: [{
 				id: "3C380961550177C2"
-				title: "Bounty Board"
+				title: "{atm9.quest.bounty.board}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.bounty.board}"
 			x: 3.0d
 			y: 2.0d
 		}

@@ -113,19 +113,19 @@
 			id: "1827DEEA2DF1B144"
 			rewards: [
 				{
-					id: "28C108EC59F6E7D9"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "2EFEA345691F570D"
 					item: "minecraft:wheat_seeds"
 					type: "item"
 				}
+				{
+					id: "5F69C1D8D617910C"
+					type: "xp"
+					xp: 10
+				}
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Getting Started"
+			subtitle: "{atm9.quest.farm.subt.food}"
 			tasks: [{
 				id: "29267580E91DFEDA"
 				item: {
@@ -159,7 +159,7 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Block Hand 1, Block Grass 0"
+			subtitle: "{atm9.quest.farm.subt.grass}"
 			tasks: [{
 				count: 8L
 				id: "73B6ED422F9292D1"
@@ -187,7 +187,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Whose fleece was....rainbow?"
+			subtitle: "{atm9.quest.farm.subt.wool}"
 			tasks: [{
 				count: 3L
 				icon: "minecraft:white_wool"
@@ -235,14 +235,14 @@
 			id: "635620A03E3505BF"
 			rewards: [
 				{
-					id: "7914440DB4E0A801"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "0B497B4A001CFFC0"
 					item: "minecraft:leather"
 					type: "item"
+				}
+				{
+					id: "5A638FDC17694EA2"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -266,20 +266,20 @@
 					type: "item"
 				}
 				{
-					id: "72142B51809511CF"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4F333F2FC9C0A269"
 					table_id: 487623848494439020L
 					type: "random"
 				}
+				{
+					id: "1900E35FED741F5D"
+					type: "xp"
+					xp: 100
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "The villager has more than one way to spawn"
+			subtitle: "{atm9.quest.farm.subt.market}"
 			tasks: [{
 				id: "1AFEBED0226CEBC1"
 				item: "farmingforblockheads:market"
@@ -298,7 +298,7 @@
 				xp: 10
 			}]
 			shape: "diamond"
-			subtitle: "Get along little doggy."
+			subtitle: "{atm9.quest.farm.subt.animals}"
 			tasks: [{
 				id: "63282E8604721F13"
 				item: "minecraft:lead"
@@ -325,7 +325,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Why aren't there any bulls in the game?"
+			subtitle: "{atm9.quest.farm.subt.milk}"
 			tasks: [{
 				id: "19A9C679111A90BC"
 				item: "minecraft:milk_bucket"
@@ -337,7 +337,7 @@
 		}
 		{
 			dependencies: ["2E9C035EEE7E5C34"]
-			description: ["{atm9.quest.farm.desc.chicken}"]
+			description: ["{atm9.quest.farm.desc.egg}"]
 			id: "1D2EF12FD7FDD217"
 			rewards: [
 				{
@@ -352,14 +352,14 @@
 					xp: 10
 				}
 			]
-			subtitle: "or am I?"
+			subtitle: "{atm9.quest.farm.subt.egg}"
 			tasks: [{
 				count: 3L
 				id: "46974912B1E8E78B"
 				item: "minecraft:egg"
 				type: "item"
 			}]
-			title: "{atm9.quest.farm.chicken}"
+			title: "{atm9.quest.farm.egg}"
 			x: 4.0d
 			y: 1.0d
 		}
@@ -368,17 +368,17 @@
 			id: "1697CC05D08B388D"
 			rewards: [
 				{
-					id: "7A84544510F1D4EE"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "6ABAD303E8397549"
 					item: "croptopia:fried_chicken"
 					type: "item"
 				}
+				{
+					id: "3AD62BBF556F5C60"
+					type: "xp"
+					xp: 10
+				}
 			]
-			subtitle: "How else do you think Fried Chicken is made?"
+			subtitle: "{atm9.quest.farm.subt.chicken}"
 			tasks: [
 				{
 					count: 10L
@@ -393,12 +393,11 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.farm.egg}"
+			title: "{atm9.quest.farm.chicken}"
 			x: 6.0d
 			y: 1.0d
 		}
 		{
-			description: [""]
 			icon: {
 				Count: 1
 				id: "minecraft:wooden_hoe"
@@ -422,7 +421,7 @@
 			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Just wait until you get machines for this"
+			subtitle: "{atm9.quest.farm.subt.farming}"
 			tasks: [{
 				id: "4847C9E5C9116BB7"
 				item: {
@@ -583,7 +582,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Speedrunners Love This Stuff"
+			subtitle: "{atm9.quest.farm.subt.wheat}"
 			tasks: [{
 				count: 3L
 				id: "6890EB2819D88073"
@@ -610,7 +609,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Quick and Simple"
+			subtitle: "{atm9.quest.farm.subt.bread}"
 			tasks: [{
 				count: 3L
 				id: "03C7F9CB0DDB2D9B"
@@ -630,7 +629,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Who needs spiders anyway?"
+			subtitle: "{atm9.quest.farm.subt.flax}"
 			tasks: [{
 				id: "52030BFD91159DAC"
 				item: "supplementaries:flax_seeds"
@@ -646,17 +645,17 @@
 			id: "361DFDB1E1352D6B"
 			rewards: [
 				{
-					id: "2D2FC5CA58E15FD7"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "193719E857969260"
 					item: "minecraft:sugar"
 					type: "item"
 				}
+				{
+					id: "687D9576B06FEFA7"
+					type: "xp"
+					xp: 10
+				}
 			]
-			subtitle: "This grows to the sky now."
+			subtitle: "{atm9.quest.farm.subt.cane}"
 			tasks: [{
 				count: 10L
 				id: "6118A776B40507B7"
@@ -677,7 +676,7 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Smelt a book. Totally won't catch on fire."
+			subtitle: "{atm9.quest.farm.subt.book}"
 			tasks: [{
 				id: "61DBF366AFC8A579"
 				item: "cookingforblockheads:recipe_book"
@@ -698,18 +697,18 @@
 					type: "item"
 				}
 				{
-					id: "18610A9BCEA465F8"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "40EA2F27F5E8685D"
 					table_id: 487623848494439020L
 					type: "random"
 				}
+				{
+					id: "5E15B37ECAEF8EAF"
+					type: "xp"
+					xp: 50
+				}
 			]
-			subtitle: "This is totally worth it btw"
+			subtitle: "{atm9.quest.farm.subt.cookbook}"
 			tasks: [{
 				id: "20FD5552BE10D679"
 				item: "cookingforblockheads:crafting_book"
@@ -738,7 +737,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Betty White was born before Sliced Bread"
+			subtitle: "{atm9.quest.farm.subt.kitchen}"
 			tasks: [{
 				id: "552C067A28FB8869"
 				item: "cookingforblockheads:cooking_table"
@@ -772,7 +771,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "So much room for activities!"
+			subtitle: "{atm9.quest.farm.subt.cabinet}"
 			tasks: [{
 				count: 2L
 				id: "1DAD3C12FDEB5CD4"
@@ -807,7 +806,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "&oWe&r need more cooking space."
+			subtitle: "{atm9.quest.farm.subt.counter}"
 			tasks: [{
 				count: 2L
 				id: "766C32B477A216B8"
@@ -843,7 +842,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "You'll open it, close it, then open it again, just because you're bored."
+			subtitle: "{atm9.quest.farm.subt.fridge}"
 			tasks: [{
 				count: 2L
 				id: "1571EF760DE41F63"
@@ -879,7 +878,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "No Timer Needed"
+			subtitle: "{atm9.quest.farm.subt.stove}"
 			tasks: [{
 				id: "37D8D79B6B216212"
 				item: "cookingforblockheads:oven"
@@ -913,7 +912,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Phenomenal Milking Powers....Itty bitty living space."
+			subtitle: "{atm9.quest.farm.subt.jar}"
 			tasks: [{
 				id: "193EA9F7C05B6F38"
 				item: "cookingforblockheads:cow_jar"
@@ -1019,7 +1018,7 @@
 			}]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Willy would be Proud."
+			subtitle: "{atm9.quest.farm.subt.fish}"
 			tasks: [{
 				id: "5CB4746CCB2E2363"
 				item: {
@@ -1040,15 +1039,15 @@
 			id: "16D0F1E3CEB60ABF"
 			rewards: [
 				{
-					id: "03247C933128C015"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "1AD805EF5C994DC3"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "33B26FC79F880C93"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -1071,15 +1070,15 @@
 			id: "0A64D0937A5F7513"
 			rewards: [
 				{
-					id: "7664E2CF599F9E96"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "0F864C7AA00CC8A9"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "69E2C012A258EEA5"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -1102,15 +1101,15 @@
 			id: "511562EA5811306B"
 			rewards: [
 				{
-					id: "3F6CD2A029F5FC11"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "7DF9A8B80872B680"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "3347B9BD90C472AC"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -1133,15 +1132,15 @@
 			id: "5A1DCD6C7F712A78"
 			rewards: [
 				{
-					id: "4000D1222D505757"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "5A0D21935AEB18B1"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "4E5F90F2EF0F4A40"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -1173,15 +1172,15 @@
 					type: "item"
 				}
 				{
-					id: "7F528DE479E680AE"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "688019DBD32BF755"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "579A8B2C029B3EFD"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -1212,7 +1211,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Pour some sugar on me."
+			subtitle: "{atm9.quest.farm.subt.sugar}"
 			tasks: [{
 				count: 3L
 				id: "56CAB3D2E3421C7C"
@@ -1247,7 +1246,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Why Use 3 Block when 1 Block Do Trick"
+			subtitle: "{atm9.quest.farm.subt.sink}"
 			tasks: [{
 				id: "2872A1297BE6C40D"
 				item: "cookingforblockheads:sink"
@@ -1270,7 +1269,7 @@
 				{
 					id: "5E4853D67766A132"
 					type: "xp"
-					xp: 100
+					xp: 50
 				}
 			]
 			shape: "diamond"

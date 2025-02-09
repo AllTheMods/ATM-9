@@ -47,10 +47,9 @@
 			size: 3.0d
 			tasks: [{
 				id: "5A1784C5676CDC62"
-				title: "Welcome to All The Mods 9!"
+				title: "{atm9.quest.welcome.welcome}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.welcome.welcome}"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -72,10 +71,9 @@
 			size: 1.5d
 			tasks: [{
 				id: "52BB142F044075B4"
-				title: "Quests"
+				title: "{atm9.quest.welcome.quests}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.welcome.quests}"
 			x: 2.5d
 			y: -0.5d
 		}
@@ -99,10 +97,9 @@
 			size: 1.5d
 			tasks: [{
 				id: "10A16F89D4AD238D"
-				title: "Useful Commands"
+				title: "{atm9.quest.welcome.commands}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.welcome.commands}"
 			x: -2.5d
 			y: -0.5d
 		}
@@ -130,10 +127,9 @@
 			size: 1.5d
 			tasks: [{
 				id: "103C42C743E2A2DB"
-				title: "Claiming Chunks"
+				title: "{atm9.quest.welcome.claims}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.welcome.claims}"
 			x: 4.5d
 			y: -0.5d
 		}
@@ -155,10 +151,9 @@
 			size: 1.5d
 			tasks: [{
 				id: "4F13A02FB0055A62"
-				title: "Creating a Team"
+				title: "{atm9.quest.welcome.team}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.welcome.team}"
 			x: -4.5d
 			y: -0.5d
 		}
@@ -237,7 +232,7 @@
 				}
 			]
 			x: 0.0d
-			y: 6.0d
+			y: 5.5d
 		}
 	]
 	title: "{atm9.chapters.1.title}"

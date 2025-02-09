@@ -154,10 +154,9 @@
 			id: "07D875C6BBFF3264"
 			tasks: [{
 				id: "6E24BC7D56597911"
-				title: "Apotheosis"
+				title: "{atm9.quest.spawner.apotheosis}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.spawner.apotheosis}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -167,10 +166,9 @@
 			id: "7C3968AF39557751"
 			tasks: [{
 				id: "1F3314E76D27E430"
-				title: "Basic Game Changes"
+				title: "{atm9.quest.spawner.changes}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.spawner.changes}"
 			x: -1.0d
 			y: 0.0d
 		}

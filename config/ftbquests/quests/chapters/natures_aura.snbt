@@ -60,7 +60,7 @@
 	quests: [
 		{
 			dependencies: ["7DAED14CEC4CDA51"]
-			description: ["{atm9.quest.naturesaura.desc.goldleaves.1}"]
+			description: ["{atm9.quest.naturesaura.desc.goldLeaves}"]
 			id: "4F9D6109EEA5D26A"
 			rewards: [
 				{
@@ -77,21 +77,20 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "{atm9.quest.naturesaura.subt.goldleaves}"
 			tasks: [{
 				count: 4L
 				id: "46CB54014AC0447C"
 				item: "naturesaura:gold_leaf"
 				type: "item"
 			}]
-			title: "{atm9.quest.naturesaura.title.goldleaves}"
+			title: "{atm9.quest.naturesaura.title.goldLeaves}"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4F9D6109EEA5D26A"]
 			description: [
-				"{atm9.quest.naturesaura.desc.ritualofforest.1}"
+				"{atm9.quest.naturesaura.desc.ritualofforest}"
 				"{image:atm:textures/questpics/natures_aura/forest_ritual.png width:295 height:150 align:center}"
 			]
 			icon: "naturesaura:gold_powder"
@@ -152,7 +151,7 @@
 		}
 		{
 			dependencies: ["497AE687B7E95DE8"]
-			description: ["{atm9.quest.naturesaura.desc.eyeenv.1}"]
+			description: ["{atm9.quest.naturesaura.desc.eye}"]
 			id: "12D3C7FC4B3DAB23"
 			rewards: [
 				{
@@ -167,7 +166,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.naturesaura.subt.eyeenv}"
+			subtitle: "{atm9.quest.naturesaura.subt.eye}"
 			tasks: [{
 				id: "5C146B5DA9342F90"
 				item: "naturesaura:eye"
@@ -178,7 +177,7 @@
 		}
 		{
 			dependencies: ["497AE687B7E95DE8"]
-			description: ["{atm9.quest.naturesaura.desc.ancienttrees.1}"]
+			description: ["{atm9.quest.naturesaura.desc.trees}"]
 			hide_dependent_lines: true
 			id: "22ADCF96AE3E609B"
 			rewards: [
@@ -194,19 +193,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.naturesaura.subt.ancienttrees}"
+			subtitle: "{atm9.quest.naturesaura.subt.trees}"
 			tasks: [{
 				id: "457413B665C31128"
 				item: "naturesaura:ancient_sapling"
 				type: "item"
 			}]
-			title: "{atm9.quest.naturesaura.title.ancienttrees}"
+			title: "{atm9.quest.naturesaura.title.trees}"
 			x: 5.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["497AE687B7E95DE8"]
-			description: ["{atm9.quest.naturesaura.desc.tokenofjoy.1}"]
+			description: ["{atm9.quest.naturesaura.desc.tokenofjoy}"]
 			id: "05E668CE6687AC64"
 			rewards: [
 				{
@@ -232,7 +231,7 @@
 		}
 		{
 			dependencies: ["497AE687B7E95DE8"]
-			description: ["{atm9.quest.naturesaura.desc.bottlesofaura.1}"]
+			description: ["{atm9.quest.naturesaura.desc.bottlesofaura}"]
 			id: "5A011CE8EEA3F9D8"
 			rewards: [
 				{
@@ -292,7 +291,7 @@
 				"5A011CE8EEA3F9D8"
 				"3C2F5AB815A6C949"
 			]
-			description: ["{atm9.quest.naturesaura.desc.auracreation.1}"]
+			description: ["{atm9.quest.naturesaura.desc.auracreation}"]
 			id: "71B6F013C8A60EB6"
 			rewards: [
 				{
@@ -320,13 +319,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.naturesaura.title.auracreation }"
+			title: "{atm9.quest.naturesaura.title.auraCreation}"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3C2F5AB815A6C949"]
-			description: ["{atm9.quest.naturesaura.desc.auracache.1}"]
+			description: ["{atm9.quest.naturesaura.desc.auracache}"]
 			id: "0B6D35F5B3A11FD2"
 			rewards: [
 				{
@@ -356,7 +355,7 @@
 				"0B6D35F5B3A11FD2"
 				"1D39634260A47C9A"
 			]
-			description: ["{atm9.quest.naturesaura.desc.auratrove.1}"]
+			description: ["{atm9.quest.naturesaura.desc.auratrove}"]
 			id: "24599D45F5D1606E"
 			rewards: [
 				{
@@ -383,7 +382,7 @@
 		}
 		{
 			dependencies: ["05E668CE6687AC64"]
-			description: ["{atm9.quest.naturesaura.desc.naturalaltar.1}"]
+			description: ["{atm9.quest.naturesaura.desc.naturalaltar}"]
 			icon: "naturesaura:nature_altar"
 			id: "20F9EF925DB1CE05"
 			rewards: [
@@ -450,7 +449,7 @@
 		}
 		{
 			dependencies: ["5A011CE8EEA3F9D8"]
-			description: ["{atm9.quest.naturesaura.desc.structurefinders.1}"]
+			description: ["{atm9.quest.naturesaura.desc.structurefinders}"]
 			id: "3F8A5CBEAE024748"
 			optional: true
 			rewards: [
@@ -490,6 +489,7 @@
 		}
 		{
 			dependencies: ["20F9EF925DB1CE05"]
+			description: ["{atm9.quest.naturesaura.desc.infusedIron}"]
 			id: "3C2F5AB815A6C949"
 			rewards: [
 				{
@@ -509,12 +509,13 @@
 				item: "naturesaura:infused_iron"
 				type: "item"
 			}]
+			title: "{atm9.quest.naturesaura.title.infusedIron}"
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["20F9EF925DB1CE05"]
-			description: ["{atm9.quest.naturesaura.desc.taintedgold.1}"]
+			description: ["{atm9.quest.naturesaura.desc.taintedGold}"]
 			id: "3EC90ADA4E322B14"
 			rewards: [
 				{
@@ -535,7 +536,7 @@
 				item: "naturesaura:tainted_gold"
 				type: "item"
 			}]
-			title: "{atm9.quest.naturesaura.title.taintedgold}"
+			title: "{atm9.quest.naturesaura.title.taintedGold}"
 			x: 8.5d
 			y: 1.5d
 		}
@@ -546,7 +547,7 @@
 				"0EFD0A4AE82153E8"
 			]
 			description: [
-				"{atm9.quest.naturesaura.desc.offering.1}"
+				"{atm9.quest.naturesaura.desc.offering}"
 				"{image:atm:textures/questpics/natures_aura/offering.png width:295 height:150 align:center}"
 			]
 			icon: "naturesaura:offering_table"
@@ -597,7 +598,7 @@
 		}
 		{
 			dependencies: ["5C990F7E5D345A6F"]
-			description: ["{atm9.quest.naturesaura.desc.ingotsoftheskies.1}"]
+			description: ["{atm9.quest.naturesaura.desc.ingotsoftheskies}"]
 			id: "1D39634260A47C9A"
 			rewards: [
 				{
@@ -626,7 +627,7 @@
 				"5C990F7E5D345A6F"
 				"0EFD0A4AE82153E8"
 			]
-			description: ["{atm9.quest.naturesaura.desc.upgradedtokens.1}"]
+			description: ["{atm9.quest.naturesaura.desc.upgradedtokens}"]
 			id: "4AD4FDF70B9BFCC9"
 			rewards: [
 				{
@@ -672,7 +673,7 @@
 				"20F9EF925DB1CE05"
 				"0EFD0A4AE82153E8"
 			]
-			description: ["{atm9.quest.naturesaura.desc.catalysts.1}"]
+			description: ["{atm9.quest.naturesaura.desc.catalysts}"]
 			id: "54F7AD64A403C9BF"
 			rewards: [
 				{
@@ -708,7 +709,7 @@
 				"4AD4FDF70B9BFCC9"
 				"1D39634260A47C9A"
 			]
-			description: ["{atm9.quest.naturesaura.desc.altarofbirthing.1}"]
+			description: ["{atm9.quest.naturesaura.desc.altarofbirthing}"]
 			id: "0FD26FD88E801C0E"
 			rewards: [
 				{
@@ -741,7 +742,7 @@
 			y: 4.5d
 		}
 		{
-			description: ["{atm9.quest.naturesaura.desc.intro.1}"]
+			description: ["{atm9.quest.naturesaura.desc.intro}"]
 			id: "7DAED14CEC4CDA51"
 			rewards: [
 				{
@@ -763,6 +764,7 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "{atm9.quest.naturesaura.subt.intro}"
 			tasks: [{
 				count: 16L
 				id: "06D5CD358CFB4D2D"
@@ -775,7 +777,7 @@
 		}
 		{
 			dependencies: ["05E668CE6687AC64"]
-			description: ["{atm9.quest.naturesaura.desc.othertokens.1}"]
+			description: ["{atm9.quest.naturesaura.desc.othertokens}"]
 			hide_dependent_lines: true
 			id: "0EFD0A4AE82153E8"
 			rewards: [
@@ -814,7 +816,7 @@
 		}
 		{
 			dependencies: ["1D39634260A47C9A"]
-			description: ["{atm9.quest.naturesaura.desc.ingotsofthedepths.1}"]
+			description: ["{atm9.quest.naturesaura.desc.ingotsofthedepths}"]
 			id: "2B4D4E741D855B5A"
 			rewards: [
 				{
@@ -843,7 +845,7 @@
 				"1D39634260A47C9A"
 				"22ADCF96AE3E609B"
 			]
-			description: ["{atm9.quest.naturesaura.desc.netheritefinder.1}"]
+			description: ["{atm9.quest.naturesaura.desc.netheritefinder}"]
 			id: "34ABEF75AE1E5A0F"
 			optional: true
 			rewards: [
@@ -870,7 +872,7 @@
 		}
 		{
 			dependencies: ["5A011CE8EEA3F9D8"]
-			description: ["{atm9.quest.naturesaura.desc.endercratesoculars.1}"]
+			description: ["{atm9.quest.naturesaura.desc.endercratesoculars}"]
 			id: "1ABEC7DE47BD6286"
 			optional: true
 			rewards: [
@@ -908,7 +910,7 @@
 				"4AD4FDF70B9BFCC9"
 				"22ADCF96AE3E609B"
 			]
-			description: ["{atm9.quest.naturesaura.desc.staffofriches.1}"]
+			description: ["{atm9.quest.naturesaura.desc.staffofriches}"]
 			id: "4F03B152479C4AC0"
 			rewards: [
 				{
