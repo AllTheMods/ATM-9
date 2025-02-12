@@ -61,6 +61,14 @@
 			x: 5.5d
 			y: 4.0d
 		}
+		{
+			height: 2.0d
+			image: "ad_astra:textures/painting/mercury.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 10.5d
+		}
 	]
 	order_index: 0
 	progression_mode: "flexible"
@@ -219,10 +227,10 @@
 				""
 				"{atm9.quest.adAstra.desc.launch.5}"
 				""
-				"Moon Info:"
-				"Gravity: 1.625 m/s"
-				"Oxygen: None"
-				"Temperature: -160.0 °C"
+				"{atm9.quest.adAstra.desc.moonInfo.1}"
+				"{atm9.quest.adAstra.desc.moonInfo.2}"
+				"{atm9.quest.adAstra.desc.moonInfo.3}"
+				"{atm9.quest.adAstra.desc.moonInfo.4}"
 			]
 			hide_dependency_lines: true
 			icon: "ad_astra:moon_globe"
@@ -255,9 +263,9 @@
 		{
 			dependencies: ["4E8E49EB9C83188E"]
 			description: [
-				"{atm9.quest.adAstra.desc.ostrum}"
+				"{atm9.quest.adAstra.desc.ostrum.1}"
 				""
-				"Ostrum is used for several new machines, as well as a new Space Suit for us to survive on hotter planets!"
+				""atm9.quest.adAstra.desc.ostrum.2""
 			]
 			id: "2A279B011D09A9EE"
 			rewards: [
@@ -296,10 +304,10 @@
 			description: [
 				"{atm9.quest.adAstra.desc.mars.1}"
 				""
-				"Mars Info:"
-				"Gravity: 3.72076 m/s"
-				"Oxygen: None"
-				"Temperature: -65.0 °C"
+				"{atm9.quest.adAstra.desc.marsInfo.1}"
+				"{atm9.quest.adAstra.desc.marsInfo.2}"
+				"{atm9.quest.adAstra.desc.marsInfo.3}"
+				"{atm9.quest.adAstra.desc.marsInfo.4}"
 			]
 			icon: "ad_astra:mars_globe"
 			id: "4E8E49EB9C83188E"
@@ -328,10 +336,10 @@
 				""
 				"{atm9.quest.adAstra.desc.venus.3}"
 				""
-				"Venus Info:"
-				"Gravity: 8.87 m/s"
-				"Oxygen: none"
-				"Temperature: 464.0 °C"
+				"{atm9.quest.adAstra.desc.venusInfo.1}"
+				"{atm9.quest.adAstra.desc.venusInfo.2}"
+				"{atm9.quest.adAstra.desc.venusInfo.3}"
+				"{atm9.quest.adAstra.desc.venusInfo.4}"
 			]
 			icon: "ad_astra:venus_globe"
 			id: "0EE652B280CB5F55"
@@ -371,10 +379,10 @@
 			description: [
 				"{atm9.quest.adAstra.desc.mercury}"
 				""
-				"Mercury Info:"
-				"Gravity: 3.7 m/s"
-				"Oxygen: none"
-				"Temperature: 167.0 °C"
+				"{atm9.quest.adAstra.desc.mercuryInfo.1}"
+				"{atm9.quest.adAstra.desc.mercuryInfo.2}"
+				"{atm9.quest.adAstra.desc.mercuryInfo.3}"
+				"{atm9.quest.adAstra.desc.mercuryInfo.4}"
 			]
 			icon: "ad_astra:mercury_globe"
 			id: "32738F324B799879"

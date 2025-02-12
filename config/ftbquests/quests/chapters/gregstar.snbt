@@ -52,6 +52,7 @@
 				""
 				"{atm9.quest.gregtech.star.desc.gregStarIntroduction.4}"
 			]
+			title: "{atm9.quest.gregtech.star.title.gregStar}"
 			id: "12B041E34F58FDD2"
 			rewards: [
 				{
@@ -111,6 +112,7 @@
 				""
 				"{atm9.quest.gregtech.star.desc.gregStarBase.2}"
 			]
+			title: "{atm9.quest.gregtech.star.title.gregStarBase}"
 			id: "502FF1A93E06073C"
 			rewards: [
 				{
@@ -225,6 +227,7 @@
 				"44BE268EC7D2689D"
 				"0737D64B0CCAE334"
 			]
+			title: "{atm9.quest.gregtech.star.title.certifications}"
 			description: [
 				"{atm9.quest.gregtech.star.desc.certifications.1}"
 				""
@@ -287,6 +290,7 @@
 				"59908911C4FFF223"
 				"476B99789CA7BD96"
 			]
+			title: "{atm9.quest.gregtech.star.title.starPlating}"
 			description: ["{atm9.quest.gregtech.star.desc.starPlating}"]
 			id: "7AD22973EDC05877"
 			rewards: [
@@ -343,6 +347,7 @@
 				"762BD49C9589EB3F"
 				"176C06C7593C264E"
 			]
+			title: "{atm9.quest.gregtech.star.title.transferenceCoil}"
 			description: ["{atm9.quest.gregtech.star.desc.starCompression}"]
 			id: "43D3E61FA314E3C3"
 			rewards: [
@@ -516,6 +521,7 @@
 				""
 				"{atm9.quest.gregtech.star.desc.blackHoleController.2}"
 			]
+			title: "{atm9.quest.gregtech.star.title.unobtainiumFurnace}"
 			icon: "ironfurnaces:unobtainium_furnace"
 			id: "078F7CEE4CAC39D6"
 			rewards: [
@@ -636,6 +642,7 @@
 				"3673893C88EB5EDE"
 				"70B518EC050678AE"
 			]
+			title: "{atm9.quest.gregtech.star.title.endSteelExchanger}"
 			description: ["{atm9.quest.gregtech.star.desc.advancedComputers}"]
 			icon: {
 				Count: 1
@@ -779,6 +786,7 @@
 				""
 				"{atm9.quest.gregtech.star.desc.theStarThatStartedItAll.2}"
 			]
+			title: "{atm9.quest.gregtech.star.title.patrickStar}"
 			id: "0373198D54FA6B93"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -917,6 +925,7 @@
 				""
 				"{atm9.quest.gregtech.star.desc.massiveMultiblock.3}"
 			]
+			title: "{atm9.quest.gregtech.star.title.universeOrb}"
 			icon: "gtceu:micro_universe_orb"
 			id: "4C33366BAD0256CF"
 			rewards: [{
@@ -991,6 +1000,7 @@
 				""
 				"{atm9.quest.gregtech.star.desc.catalyst.2}"
 			]
+			title: "{atm9.quest.gregtech.star.title.catalyst}"
 			id: "1060C764347CC243"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1127,6 +1137,7 @@
 				""
 				"{atm9.quest.gregtech.star.desc.u235.2}"
 			]
+			title: "{atm9.quest.gregtech.star.title.hyperconductivity}"
 			id: "768951FBE8A5C934"
 			rewards: [
 				{
@@ -1179,6 +1190,7 @@
 		}
 		{
 			dependencies: ["12B041E34F58FDD2"]
+			title: "{atm9.quest.gregtech.star.title.gregStarShard}"
 			description: ["{atm9.quest.gregtech.star.desc.gregStarShard}"]
 			id: "73E639487E878948"
 			rewards: [{
@@ -1204,6 +1216,7 @@
 				""
 				"{atm9.quest.gregtech.star.desc.atmStar.2}"
 			]
+			title: "{atm9.quest.gregtech.star.title.atmStar}"
 			id: "05D6CE1B501F59B5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1532,6 +1545,7 @@
 		}
 		{
 			description: ["{atm9.quest.gregtech.star.desc.weatheringTheStorm.1}"]
+			title: "{atm9.quest.gregtech.star.title.weatheringTheStorm}"
 			id: "70B518EC050678AE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1575,6 +1589,7 @@
 				""
 				"{atm9.quest.gregtech.star.desc.creativeChemicals.2}"
 			]
+			title: "{atm9.quest.gregtech.star.title.microUniverseFocusLens}"
 			id: "65A966D22EC7F9AA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1599,6 +1614,7 @@
 				""
 				"{atm9.quest.gregtech.star.desc.focusedEnergy.2}"
 			]
+			title: "{atm9.quest.gregtech.star.title.energyTransmitter}"
 			id: "350B4AC4ADF7F84B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1654,8 +1670,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -2.0d
-			y: 6.0d
+			x: 0.0d
+			y: 9.0d
 		}
 	]
 	title: "{atm9.chapters.36.title}"
