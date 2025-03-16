@@ -11,7 +11,7 @@
 	#Enable mobs to spawn wearing Christmas sweaters and hats. Set to False to disable
 	mob_wear_christmas_armor_enabled = false
 	#Enable Santa Hats or sweaters to drop from mobs that are wearing them. Set to False to disable
-	mob_drop_christmas_armor_enabled = true
+	mob_drop_christmas_armor_enabled = false
 	#Tiny Spruce saplings will drop from Spruce Leaves. Set to 0 to disable
 	#Range: > 0
 	tiny_spruce_from_leaves_drop = 1
