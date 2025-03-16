@@ -66,7 +66,7 @@
 	#nicknames of players, who considered as modpack creator.
 	#Only this players can overwrite modlist.json
 	#If this feature is enabled and this array is empty, will be appended with nickname of current player.
-	modpack_creators = ["Mitchell52", "whatthedrunk"]
+	modpack_creators = ["mitchell52", "whatthedrunk"]
 	#If enabled, modlist.json will be overwritten on every launch(first tick of TitleScreen),
 	#then game is launched by modpack creator.
 	#So you won't forget to save it before publishing.
