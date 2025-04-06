@@ -161,6 +161,8 @@ ServerEvents.tags('fluid', allthemods => {
     'createaddition:bioethanol', 'createaddition:flowing_bioethanol'])
   allthemods.add('forge:oil', '#forge:crude_oil')
   allthemods.add('forge:nutritional_paste', 'mekanism:nutritional_paste')
+  allthemods.add('forge:ethanol', 'chemlib:ethanol_fluid')
+
 })
 
 ServerEvents.tags('entity_type', allthemods => {
