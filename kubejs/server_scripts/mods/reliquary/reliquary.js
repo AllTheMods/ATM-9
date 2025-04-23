@@ -3,7 +3,6 @@
 
 ServerEvents.recipes(allthemods =>{
     allthemods.remove({id: 'reliquary:rod_of_lyssa'})
-    allthemods.remove({id: 'reliquary:twilight_cloak'})
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
