@@ -1562,8 +1562,19 @@
 			size: 1.75d
 			subtitle: "{atm9.quest.gregtech.star.subt.creativeChemicals}"
 			tasks: [{
-				id: "16816C057E91438E"
-				item: "mekanism:creative_chemical_tank"
+				id: "00F5851F749A3003"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "appmek:chemical"
+							amount: 1000L
+							gasName: "mekanism:polonium"
+							t: 0b
+						}
+					}
+				}
 				type: "item"
 			}]
 			x: -12.0d

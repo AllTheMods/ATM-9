@@ -1,12 +1,35 @@
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
+GTCEuStartupEvents.registry('gtceu:recipe_type', allthemods => {
+    allthemods.create('mega_chemical_reactor')
+        .category('gregstar')
+        .setEUIO('in')
+        .setMaxIOSize(3, 3, 5, 4)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW_MULTIPLE, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.CHEMICAL);
+
+    GTRecipeTypes.LARGE_CHEMICAL_RECIPES.onRecipeBuild((builder, provider) => {
+        GTRecipeTypes.get('mega_chemical_reactor').copyFrom(builder)
+            .duration(Math.max((builder.duration / 2), 1))
+            // .EUt(builder.EUt() * 1.5)
+            .save(provider);
+    });
+
+    GTRecipeTypes.CHEMICAL_RECIPES.onRecipeBuild((builder, provider) => {
+        GTRecipeTypes.get('mega_chemical_reactor').copyFrom(builder)
+            .duration(Math.max((builder.duration / 2), 1))
+            // .EUt(builder.EUt() * 1.5)
+            .save(provider);
+    });
+})
+
 GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
     allthemods.create('advanced_large_chemical_reactor', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .appearanceBlock(GTBlocks.CASING_PTFE_INERT)
-        .recipeTypes('large_chemical_reactor')
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT])
+        .recipeTypes('mega_chemical_reactor')
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('c   c', 'ccccc', 'c   c', 'ccccc', 'c   c')
             .aisle('ccccc', 'cpppc', 'cwwwc', 'cpppc', 'ccccc')
@@ -14,11 +37,13 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .aisle('ccccc', 'cpppc', 'cwwwc', 'cpppc', 'ccccc')
             .aisle('c   c', 'kcccc', 'c   c', 'ccccc', 'c   c')
             .where('k', Predicates.controller(Predicates.blocks(definition.get())))
-            .where('w', Predicates.blocks(GTBlocks.COIL_RTMALLOY.get())
+            // .where('w', Predicates.blocks(GTBlocks.COIL_RTMALLOY.get())
+            .where('w', Predicates.heatingCoils()
                 .or(Predicates.blocks(GTBlocks.CASING_POLYTETRAFLUOROETHYLENE_PIPE.get()))
             )
             .where('p', Predicates.blocks(GTBlocks.CASING_POLYTETRAFLUOROETHYLENE_PIPE.get())
-                .or(Predicates.blocks(GTBlocks.COIL_RTMALLOY.get()))
+                .or(Predicates.heatingCoils())
+                // .or(Predicates.blocks(GTBlocks.COIL_RTMALLOY.get()))
             )
             .where(' ', Predicates.any())
             .where('c', Predicates.blocks(GTBlocks.CASING_PTFE_INERT.get())

@@ -13,7 +13,12 @@ ServerEvents.recipes(allthemods => {
     // neural node recipes
     function neural_node(model, inputs, outputs, duration, power) {
         allthemods.recipes.gtceu.neural_node('kubejs:' + model)
-            .notConsumable(Item.of('hostilenetworks:data_model', '{data_model: {data: 1254, id: "hostilenetworks:' + model + '"}}').weakNBT())
+            .notConsumable(
+                [
+                    Item.of('hostilenetworks:data_model', '{data_model: {data: 1254, id: "hostilenetworks:' + model + '"}}').weakNBT(), 
+                    Item.of('hostilenetworks:data_model', '{data_model: {data: 1255, id: "hostilenetworks:' + model + '"}}').weakNBT()
+                ]
+            )
             .itemInputs(inputs)
             .itemOutputs(outputs)
             .duration(duration)
