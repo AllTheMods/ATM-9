@@ -12,15 +12,15 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', allthemods => {
     GTRecipeTypes.LARGE_CHEMICAL_RECIPES.onRecipeBuild((builder, provider) => {
         GTRecipeTypes.get('mega_chemical_reactor').copyFrom(builder)
             .duration(Math.max((builder.duration / 2), 1))
-            // .EUt(builder.EUt() * 1.5)
             .save(provider);
     });
 
     GTRecipeTypes.CHEMICAL_RECIPES.onRecipeBuild((builder, provider) => {
         GTRecipeTypes.get('mega_chemical_reactor').copyFrom(builder)
             .duration(Math.max((builder.duration / 2), 1))
-            // .EUt(builder.EUt() * 1.5)
             .save(provider);
+
+        GTRecipeTypes.LARGE_CHEMICAL_RECIPES.copyFrom(builder).save(provider);
     });
 })
 
