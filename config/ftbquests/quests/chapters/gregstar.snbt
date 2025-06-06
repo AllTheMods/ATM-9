@@ -152,7 +152,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "{atm9.quest.gregtech.star.subt.precursor}"
+			subtitle: "{atm9.quest.gregtech.star.subt.catalyst}"
 			tasks: [{
 				id: "1D2982FDB07A9275"
 				item: "kubejs:star_housing"
@@ -757,7 +757,7 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "{atm9.quest.gregtech.star.subt.theStarThatStartedItAll}"
+			subtitle: "{atm9.quest.gregtech.star.subt.precursor}"
 			tasks: [
 				{
 					id: "048CC07BDFB7717A"
@@ -786,7 +786,7 @@
 				table_id: 7025454341029952768L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.star.subt.doubleItUp}"
+			subtitle: "{atm9.quest.gregtech.star.subt.theStarThatStartedItAll}"
 			tasks: [{
 				id: "6F4F04DFB8480B74"
 				item: "allthetweaks:patrick_star"
@@ -804,7 +804,7 @@
 				table_id: 6202000790833671070L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.star.subt.screwsForPlates}"
+			subtitle: "{atm9.quest.gregtech.star.subt.doubleItUp}"
 			tasks: [{
 				id: "04345494A9907466"
 				item: "gtceu:double_tungsten_steel_plate"
@@ -822,7 +822,7 @@
 				table_id: 6202000790833671070L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.star.subt.oxygenPlasma}"
+			subtitle: "{atm9.quest.gregtech.star.subt.screwsForPlates}"
 			tasks: [{
 				id: "6406939D8B04D5B5"
 				item: "gtceu:tungsten_steel_screw"
@@ -840,7 +840,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.star.subt.nitrogenPlasma}"
+			subtitle: "{atm9.quest.gregtech.star.subt.oxygenPlasma}"
 			tasks: [{
 				id: "0DAF912DAF6215D1"
 				item: "gtceu:oxygen_plasma_bucket"
@@ -858,7 +858,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.star.subt.argonPlasma}"
+			subtitle: "{atm9.quest.gregtech.star.subt.nitrogenPlasma}"
 			tasks: [{
 				id: "24B5BC6C1ADADCDB"
 				item: "gtceu:nitrogen_plasma_bucket"
@@ -876,7 +876,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.star.subt.heliumPlasma}"
+			subtitle: "{atm9.quest.gregtech.star.subt.argonPlasma}"
 			tasks: [{
 				id: "6B5A8A12A5C6FA8B"
 				item: "gtceu:argon_plasma_bucket"
@@ -894,7 +894,7 @@
 				table_id: 1818042308417101752L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.star.subt.massiveMultiblock}"
+			subtitle: "{atm9.quest.gregtech.star.subt.heliumPlasma}"
 			tasks: [{
 				id: "5770806D18629209"
 				item: "gtceu:helium_plasma_bucket"
@@ -927,7 +927,7 @@
 			}]
 			shape: "heart"
 			size: 1.6d
-			subtitle: "{atm9.quest.gregtech.star.subt.catalyst}"
+			subtitle: "{atm9.quest.gregtech.star.subt.massiveMultiblock}"
 			tasks: [
 				{
 					id: "5C4C327EF7C20629"
