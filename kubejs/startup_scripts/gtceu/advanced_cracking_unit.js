@@ -1,7 +1,5 @@
-
-
-GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create("advanced_cracking_unit", "multiblock")
+GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
+    allthemods.create("advanced_cracking_unit", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
         .machine((holder) => new CoilWorkableElectricMultiblockMachine(holder))
         .recipeTypes(GTRecipeTypes.CRACKING_RECIPES)
