@@ -1,0 +1,33 @@
+
+
+GTCEuStartupEvents.registry('gtceu:machine', event => {
+    event.create("advanced_cracking_unit", "multiblock")
+        .rotationState(RotationState.NON_Y_AXIS)
+        .machine((holder) => new CoilWorkableElectricMultiblockMachine(holder))
+        .recipeTypes(GTRecipeTypes.CRACKING_RECIPES)
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT, (machine, recipe) => GTRecipeModifiers.crackerOverclock(machine, recipe)])
+        .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
+        .pattern(definition => FactoryBlockPattern.start()
+            // Original pattern - no changes needed here now
+            .aisle("BBBBBBB", "BCCCCCB", "BBBBBBB", "BBBBBBB", "BBBBBBB")
+            .aisle("BBBBBBB", "CADAAAC", "EAAAAAE", "EADADAE", "EEBBBEE")
+            .aisle("BBBBBBB", "CDFDFDC", "EADADAE", "EDFDFDE", "EEBGBEE")
+            .aisle("BBBBBBB", "CADADAC", "EAAAAAE", "EADADAE", "EEBBBEE")
+            .aisle("BBBBBBB", "BHHHHHB", "BHHIHHB", "BHHHHHB", "BBBBBBB")
+            .where("A", Predicates.any())
+            .where("B", Predicates.blocks("gtceu:robust_machine_casing"))
+            .where("C", Predicates.blocks("gtceu:tungstensteel_firebox_casing"))
+            .where("D", Predicates.blocks("gtceu:tungstensteel_pipe_casing"))
+            .where("E", Predicates.heatingCoils())
+            .where("F", Predicates.blocks("gtceu:hp_steam_solid_boiler"))
+            .where("G", Predicates.abilities(PartAbility.MUFFLER).setExactLimit(1))
+            .where('H', Predicates.blocks('gtceu:clean_machine_casing').setMinGlobalLimited(10) 
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
+                .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setMaxGlobalLimited(1))
+                .or(Predicates.autoAbilities(definition.getRecipeTypes())))
+            .where('I', Predicates.controller(Predicates.blocks(definition.get())))
+            .build())
+        .workableCasingRenderer("gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
+            "gtceu:block/multiblock/cracking_unit", false);
+
+})
