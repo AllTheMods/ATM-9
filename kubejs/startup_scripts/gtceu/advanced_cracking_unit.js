@@ -2,7 +2,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
     allthemods.create("advanced_cracking_unit", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
         .machine((holder) => new CoilWorkableElectricMultiblockMachine(holder))
-        .recipeTypes(GTRecipeTypes.CRACKING_RECIPES)
+        .recipeTypes('cracker')
         .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK, (machine, recipe) => GTRecipeModifiers.crackerOverclock(machine, recipe)])
         .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
         .pattern(definition => FactoryBlockPattern.start()
