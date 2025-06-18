@@ -25,7 +25,6 @@ ServerEvents.recipes(event => {
      .duration(600)
      .EUt(GTValues.VA[GTValues.ZPM]/2)
      .stationResearch(b => b.researchStack(Item.of('gtceu:cracker')).EUt(30720).CWUt(20, 32000))
-  ServerEvents.recipes(event => {
  event.recipes.gtceu.assembly_line('emberwake_alloy_hearth')
      .itemInputs('4x #gtceu:circuits/uhv',
       '8x gtceu:uv_field_gen',
