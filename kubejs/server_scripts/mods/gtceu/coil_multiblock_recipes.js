@@ -16,8 +16,8 @@ ServerEvents.recipes(event => {
      .itemInputs('2x #gtceu:circuits/luv',
       '8x gtceu:hssg_coil_block',
       '3x gtceu:luv_electric_pump',
-      '1x gtceu:luv_machine_hull'
-      '8x gtceu:tungsten_carbide_huge_fluid_pipe'
+      '1x gtceu:luv_machine_hull',
+      '8x gtceu:tungsten_carbide_huge_fluid_pipe',
    '4x gtceu:indium_tin_barium_titanium_cuprate_double_wire',
      )
      .inputFluids('gtceu:soldering_alloy 1152','gtceu:light_fuel 6000')
