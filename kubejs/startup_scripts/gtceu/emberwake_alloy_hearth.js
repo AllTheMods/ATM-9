@@ -1,11 +1,9 @@
 const CoilWorkableElectricMultiblockMachine = Java.loadClass("com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine")
-Java.loadClass("com.gregtechceu.gtceu.api.GTValues")
-const GCYMRecipeTypes = Java.loadClass("com.gregtechceu.gtceu.common.data.GCYMRecipeTypes")
 GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
 allthemods.create("emberwake_alloy_hearth", "multiblock")
         .machine((holder) => new CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.ALL)
-        .recipeTypes(GCYMRecipeTypes.ALLOY_BLAST_RECIPES)
+        .recipeTypes('alloy_blast_smelter')
         .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT, (machine, recipe) => GTRecipeModifiers.ebfOverclock(machine, recipe)])
         .appearanceBlock(GCYMBlocks.CASING_HIGH_TEMPERATURE_SMELTING)
         .pattern(definition => FactoryBlockPattern.start()
