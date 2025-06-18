@@ -2,7 +2,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
     allthemods.create("superheated_pyrolyzing_oven", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
         .machine((holder) => new CoilWorkableElectricMultiblockMachine(holder))
-        .recipeTypes(GTRecipeTypes.PYROLYSE_RECIPES)
+        .recipeTypes('pyrolyse_oven')
         .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT, (machine, recipe) => GTRecipeModifiers.pyrolyseOvenOverclock(machine, recipe)])
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(definition => FactoryBlockPattern.start()
