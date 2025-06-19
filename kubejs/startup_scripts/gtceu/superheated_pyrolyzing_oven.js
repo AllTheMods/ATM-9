@@ -1,3 +1,13 @@
+GTCEuStartupEvents.registry('gtceu:recipe_type', allthemods => {
+  allthemods.create('superheated_pyrolyzing_oven')
+    .category('dim')
+    .setEUIO('in')
+    .setMaxIOSize(2, 1, 1, 1) 
+    .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
+    .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+    .setSound(GTSoundEntries.CHEMICAL);
+});
+
 GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
     allthemods.create("superheated_pyrolyzing_oven", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
