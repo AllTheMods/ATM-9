@@ -1,0 +1,75 @@
+{
+  "name": "tombstone:abandoned_grave",
+  "rolls": {
+    "type": "minecraft:uniform",
+    "min": 5.0,
+    "max": 10.0
+  },
+  "bonus_rolls": 0.0,
+  "entries": [
+    {
+      "type": "minecraft:item",
+      "weight": 10,
+      "functions": [
+        {
+          "function": "tombstone:check_enabled"
+        }
+      ],
+      "name": "tombstone:essence_of_undeath"
+    },
+    {
+      "type": "minecraft:item",
+      "weight": 50,
+      "functions": [
+        {
+          "function": "tombstone:delayed_nbt_loot"
+        }
+      ],
+      "name": "tombstone:receptacle_of_familiar"
+    },
+    {
+      "type": "minecraft:item",
+      "weight": 200,
+      "functions": [
+        {
+          "function": "tombstone:delayed_nbt_loot"
+        }
+      ],
+      "name": "tombstone:magic_scroll"
+    },
+    {
+      "type": "minecraft:item",
+      "weight": 50,
+      "functions": [
+        {
+          "function": "tombstone:delayed_nbt_loot"
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{ancient:1b}"
+        }
+      ],
+      "name": "tombstone:magic_scroll"
+    },
+    {
+      "type": "minecraft:item",
+      "weight": 200,
+      "functions": [
+        {
+          "function": "minecraft:enchant_randomly"
+        }
+      ],
+      "name": "minecraft:book"
+    },
+    {
+      "type": "minecraft:item",
+      "weight": 300,
+      "functions": [
+        {
+          "function": "tombstone:random_potion"
+        }
+      ],
+      "name": "minecraft:potion"
+    }
+  ]
+}
