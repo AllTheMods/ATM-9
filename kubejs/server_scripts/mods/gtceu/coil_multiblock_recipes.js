@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
      .duration(600)
      .EUt(GTValues.VA[GTValues.ZPM]/2)
      .stationResearch(b => b.researchStack(Item.of('gtceu:cracker')).EUt(30720).CWUt(20, 32000))
- event.recipes.gtceu.assembly_line('emberwake_alloy_hearth')
+ event.recipes.gtceu.assembly_line('multi_faceted_dimensional_alloyfication_factory')
      .itemInputs('4x #gtceu:circuits/uhv',
       '8x gtceu:uv_field_gen',
       '16x gtceu:high_temperature_smelting_casing',
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
    '2x gtceu:neutronium_frame',
      )
      .inputFluids('gtceu:soldering_alloy 1152','gtceu:tritanium 1152', 'gtceu:naquadria 5000')
-     .itemOutputs('gtceu:emberwake_alloy_hearth')
+     .itemOutputs('gtceu:multi_faceted_dimensional_alloyfication_factory')
      .duration(600)
      .EUt(GTValues.VA[GTValues.UHV]/2)
      .stationResearch(b => b.researchStack(Item.of('gtceu:alloy_blast_smelter')).EUt(30720).CWUt(144, 32000))
