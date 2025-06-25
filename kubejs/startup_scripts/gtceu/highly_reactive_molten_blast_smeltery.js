@@ -1,6 +1,6 @@
 const CoilWorkableElectricMultiblockMachine = Java.loadClass("com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine")
 GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
-allthemods.create("multi_faceted_dimensional_ amalgamation_factory", "multiblock")
+allthemods.create("highly_reactive_molten_blast_smeltery", "multiblock")
         .machine((holder) => new CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.ALL)
         .recipeTypes('alloy_blast_smelter')
