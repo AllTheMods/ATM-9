@@ -29,6 +29,7 @@ Korean
 
 Portuguese 
 - oRuiva (https://github.com/oRuiva)
+- PrincessStellar (https://github.com/IzaDellaCruz)
 
 German
 - Aquamatik (https://github.com/Aquamatik)
