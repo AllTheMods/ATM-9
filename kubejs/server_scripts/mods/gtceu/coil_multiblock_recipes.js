@@ -28,8 +28,8 @@ ServerEvents.recipes(event => {
  event.recipes.gtceu.assembly_line('highly_reactive_molten_blast_smeltery')
      .itemInputs('4x #gtceu:circuits/uhv',
       '8x gtceu:uv_field_gen',
-      '4x gtceu:blacklight'
-      '2x gtceu:tritanium_coil_block'
+      '4x gtceu:blacklight',
+      '2x gtceu:tritanium_coil_block',
       '16x gtceu:high_temperature_smelting_casing',
       '1x gtceu:auto_maintenance_hatch',
    '14x gtceu:ruthenium_trinium_americium_neutronate_quadruple_wire',
