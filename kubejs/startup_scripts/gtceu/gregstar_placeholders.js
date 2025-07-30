@@ -2,7 +2,8 @@
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 const $RotorHolderPartMachine = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.part.RotorHolderPartMachine')
-const $RotorHolderMachineRenderer = Java.loadClass('com.gregtechceu.gtceu.client.renderer.machine.RotorHolderMachineRenderer')
+const $IRotorHolderMachine = Java.loadClass('com.gregtechceu.gtceu.api.machine.feature.multiblock.IRotorHolderMachine')
+const $IMultiController = Java.loadClass('com.gregtechceu.gtceu.api.machine.feature.multiblock.IMultiController')
 
 StartupEvents.registry('item', allthemods => {
     // G*
@@ -24,26 +25,38 @@ StartupEvents.registry('item', allthemods => {
 GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
     allthemods.create('uhv_rotor_holder', 'custom')
         .tiers(GTValues.UHV)
-        .definition((tier, builder) => {
-            builder.rotationState(RotationState.ALL)
-                .abilities(PartAbility.ROTOR_HOLDER)
-                .renderer(() => new $RotorHolderMachineRenderer(tier))
+        .definition((tier, builder) => { builder
+            .rotationState(RotationState.ALL)
+            .abilities(PartAbility.ROTOR_HOLDER)
+            .modelPropertyBool($IMultiController.IS_FORMED_PROPERTY, false)
+            .modelPropertyBool($IRotorHolderMachine.HAS_ROTOR_PROPERTY, false)
+            .modelPropertyBool($IRotorHolderMachine.ROTOR_SPINNING_PROPERTY, false)
+            .modelPropertyBool($IRotorHolderMachine.EMISSIVE_ROTOR_PROPERTY, false)
+            .model(GTMachineModels.createRotorHolderModel())
         }).machine((holder) => { return new $RotorHolderPartMachine(holder, GTValues.UHV) })
 
     allthemods.create('uev_rotor_holder', 'custom')
         .tiers(GTValues.UEV)
-        .definition((tier, builder) => {
-            builder.rotationState(RotationState.ALL)
-                .abilities(PartAbility.ROTOR_HOLDER)
-                .renderer(() => new $RotorHolderMachineRenderer(tier))
+        .definition((tier, builder) => { builder
+            .rotationState(RotationState.ALL)
+            .abilities(PartAbility.ROTOR_HOLDER)
+            .modelPropertyBool($IMultiController.IS_FORMED_PROPERTY, false)
+            .modelPropertyBool($IRotorHolderMachine.HAS_ROTOR_PROPERTY, false)
+            .modelPropertyBool($IRotorHolderMachine.ROTOR_SPINNING_PROPERTY, false)
+            .modelPropertyBool($IRotorHolderMachine.EMISSIVE_ROTOR_PROPERTY, false)
+            .model(GTMachineModels.createRotorHolderModel())
         }).machine((holder) => { return new $RotorHolderPartMachine(holder, GTValues.UEV) })
 
     allthemods.create('uiv_rotor_holder', 'custom')
         .tiers(GTValues.UIV)
-        .definition((tier, builder) => {
-            builder.rotationState(RotationState.ALL)
-                .abilities(PartAbility.ROTOR_HOLDER)
-                .renderer(() => new $RotorHolderMachineRenderer(tier))
+        .definition((tier, builder) => { builder
+            .rotationState(RotationState.ALL)
+            .abilities(PartAbility.ROTOR_HOLDER)
+            .modelPropertyBool($IMultiController.IS_FORMED_PROPERTY, false)
+            .modelPropertyBool($IRotorHolderMachine.HAS_ROTOR_PROPERTY, false)
+            .modelPropertyBool($IRotorHolderMachine.ROTOR_SPINNING_PROPERTY, false)
+            .modelPropertyBool($IRotorHolderMachine.EMISSIVE_ROTOR_PROPERTY, false)
+            .model(GTMachineModels.createRotorHolderModel())
         }).machine((holder) => { return new $RotorHolderPartMachine(holder, GTValues.UIV) })
 })
 

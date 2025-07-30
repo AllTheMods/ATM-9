@@ -34,9 +34,8 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where(' ', Predicates.any())
             .build()
         )
-        .workableCasingRenderer(
+        .workableCasingModel(
             "gtceu:block/casings/solid/machine_casing_solid_steel",
-            "gtceu:block/multiblock/assembly_line",
-            false
+            "gtceu:block/multiblock/assembly_line"
         )
 })

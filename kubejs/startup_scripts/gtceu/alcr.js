@@ -73,10 +73,9 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where('F', GTMachines.FLUID_EXPORT_HATCH[5], Direction.SOUTH)
             .where('I', GTMachines.ITEM_EXPORT_BUS[5], Direction.SOUTH)
         .build())
-        .workableCasingRenderer(
+        .workableCasingModel(
             "gtceu:block/casings/solid/machine_casing_inert_ptfe",
-            "gtceu:block/multiblock/large_chemical_reactor",
-            false
+            "gtceu:block/multiblock/large_chemical_reactor"
         )
 })
 

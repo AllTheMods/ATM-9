@@ -29,7 +29,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('apiary_i')
         .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
-        .tooltips(Component.translatable("kubejs.apiary_i.tooltip.bee_eater"))
+        ['tooltips(net.minecraft.network.chat.Component[])'](Component.translatable("kubejs.apiary_i.tooltip.bee_eater"))
         .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ')
@@ -53,13 +53,13 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where(' ', Predicates.any())
             .build()
         )
-        .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_clean_stainless_steel', 'gtceu:block/multiblock/implosion_compressor', false)
+        .workableCasingModel('gtceu:block/casings/solid/machine_casing_clean_stainless_steel', 'gtceu:block/multiblock/implosion_compressor')
 
     allthemods.create('apiary_ii', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('apiary_ii')
         .appearanceBlock(GTBlocks.CASING_TITANIUM_STABLE)
-        .tooltips(Component.translatable("kubejs.apiary_ii.tooltip.bee_requirements"))
+        ['tooltips(net.minecraft.network.chat.Component[])'](Component.translatable("kubejs.apiary_ii.tooltip.bee_requirements"))
         .recipeModifier(GTRecipeModifiers.OC_NON_PERFECT)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ')
@@ -82,7 +82,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where(' ', Predicates.any())
             .build()
         )
-        .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_stable_titanium', 'gtceu:block/multiblock/implosion_compressor', false)
+        .workableCasingModel('gtceu:block/casings/solid/machine_casing_stable_titanium', 'gtceu:block/multiblock/implosion_compressor')
 
     allthemods.create('comb_processor', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
@@ -121,7 +121,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where(' ', Predicates.any())
             .build()
         )
-        .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_solid_steel', 'gtceu:block/multiblock/implosion_compressor', false)
+        .workableCasingModel('gtceu:block/casings/solid/machine_casing_solid_steel', 'gtceu:block/multiblock/implosion_compressor')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.

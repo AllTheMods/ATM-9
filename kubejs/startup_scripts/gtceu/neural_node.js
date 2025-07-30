@@ -50,7 +50,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where(' ', Predicates.any())
             .build()
         )
-        .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_clean_stainless_steel', 'gtceu:block/multiblock/fusion_reactor', false)
+        .workableCasingModel('gtceu:block/casings/solid/machine_casing_clean_stainless_steel', 'gtceu:block/multiblock/fusion_reactor')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
