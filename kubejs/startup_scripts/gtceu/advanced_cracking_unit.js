@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
         .rotationState(RotationState.NON_Y_AXIS)
         .machine((holder) => new CoilWorkableElectricMultiblockMachine(holder))
         .recipeTypes('cracker')
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK, (machine, recipe) => GTRecipeModifiers.crackerOverclock(machine, recipe)])
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK, GTRecipeModifiers.BATCH_MODE, (machine, recipe) => GTRecipeModifiers.crackerOverclock(machine, recipe)])
         .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
         .pattern(definition => FactoryBlockPattern.start()
             // Original pattern - no changes needed here now
@@ -26,6 +26,6 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where('I', Predicates.controller(Predicates.blocks(definition.get())))
             .build())
         .workableCasingRenderer("gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
-            "gtceu:block/multiblock/cracking_unit", false);
+            "gtceu:block/multiblock/cracking_unit");
 
 })
