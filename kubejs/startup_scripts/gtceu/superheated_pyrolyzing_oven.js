@@ -13,7 +13,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
         .rotationState(RotationState.NON_Y_AXIS)
         .machine((holder) => new CoilWorkableElectricMultiblockMachine(holder))
         .recipeTypes('superheated_pyrolyzing_oven')
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT, (machine, recipe) => GTRecipeModifiers.pyrolyseOvenOverclock(machine, recipe)])
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT,GTRecipeModifiers.BATCH_MODE, (machine, recipe) => GTRecipeModifiers.pyrolyseOvenOverclock(machine, recipe)])
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("BBCCCBB", "BBCDCBB", "BBCCCBB", "BBCCCBB", "BBEEEBB", "BBEEEBB")
@@ -38,6 +38,6 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where('I', Predicates.controller(Predicates.blocks(definition.get())))
             .build())
         .workableCasingRenderer("gtceu:block/casings/solid/machine_casing_solid_steel",
-            "gtceu:block/multiblock/pyrolyse_oven", false);
+            "gtceu:block/multiblock/pyrolyse_oven");
 
 })
