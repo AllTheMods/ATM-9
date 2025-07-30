@@ -26,19 +26,20 @@ ServerEvents.recipes(event => {
      .EUt(GTValues.VA[GTValues.ZPM]/2)
      .stationResearch(b => b.researchStack(Item.of('gtceu:cracker')).EUt(30720).CWUt(20, 32000))
  event.recipes.gtceu.assembly_line('highly_reactive_molten_blast_smeltery')
-     .itemInputs('4x #gtceu:circuits/uhv',
+     .itemInputs('16x #gtceu:circuits/uhv',
       '8x gtceu:uv_field_gen',
       '4x gtceu:blacklight',
       '2x gtceu:tritanium_coil_block',
       '16x gtceu:high_temperature_smelting_casing',
       '1x gtceu:auto_maintenance_hatch',
    '14x gtceu:ruthenium_trinium_americium_neutronate_quadruple_wire',
+   '64x gtceu:fine_americium_wire',
    '12x gtceu:neutronium_frame',
      )
      .inputFluids('gtceu:soldering_alloy 1152','gtceu:tritanium 1152', 'gtceu:naquadria 5000')
      .itemOutputs('gtceu:highly_reactive_molten_blast_smeltery')
      .duration(600)
      .EUt(GTValues.VA[GTValues.UHV]/2)
-     .stationResearch(b => b.researchStack(Item.of('gtceu:alloy_blast_smelter')).EUt(30720).CWUt(144, 32000))
+     .stationResearch(b => b.researchStack(Item.of('gtceu:alloy_blast_smelter')).EUt(2097152).CWUt(144, 32000))
 
      })
