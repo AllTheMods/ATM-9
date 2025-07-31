@@ -102,6 +102,9 @@ ServerEvents.tags('item', allthemods => {
 
   allthemods.remove('tombstone:seeds', 'mysticalagriculture:seeds')
   allthemods.remove('forge:seeds', '#mysticalagriculture:seeds')
+
+  //Ad Astra tag
+  allthemods.add('forge:sandstone/venus_sandstone', 'ad_astra:venus_sandstone')
 })
 
 ServerEvents.tags('block', allthemods => {

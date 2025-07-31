@@ -3,6 +3,8 @@
 
 ServerEvents.recipes(allthemods => {
     allthemods.remove({ id: 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot'})
+    allthemods.remove({ type: 'ad_astra:alloying'})
+    allthemods.remove({ id: 'ad_astra:etrionic_blast_furnace'}) //dupe exploit
 
     //oil is oil
     allthemods.custom({

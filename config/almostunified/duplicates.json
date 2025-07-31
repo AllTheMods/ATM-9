@@ -5,7 +5,9 @@
   "ignoredRecipes": [],
   "defaultDuplicateRules": {
     "ignoredFields": [
+      "show_notification",
       "conditions",
+      "category",
       "group"
     ],
     "rules": {
@@ -19,7 +21,9 @@
     "minecraft:crafting_shaped": {
       "ignoredFields": [
         "pattern",
+        "show_notification",
         "conditions",
+        "category",
         "key",
         "group"
       ],
