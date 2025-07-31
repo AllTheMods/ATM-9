@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', allthemods => {
     GTRecipeTypes.FUSION_RECIPES.onRecipeBuild((builder, provider) => {
         GTRecipeTypes.get('mega_fusion_reactor').copyFrom(builder)
             .duration(Math.max((builder.duration / 2), 1))
-            .EUt(builder.EUt() * 1.5)
+            .EUt(builder.EUt().voltage(), builder.EUt().amperage() * 1.5)
             .save(provider);
     });
 })
@@ -74,8 +74,8 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where(' ', Blocks.AIR)
             .where('#', Blocks.AIR)
             .build())*/
-        .workableCasingRenderer("gtceu:block/casings/gcym/atomic_casing",
-            "gtceu:block/multiblock/fusion_reactor", false)
+        .workableCasingModel("gtceu:block/casings/gcym/atomic_casing",
+            "gtceu:block/multiblock/fusion_reactor")
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.

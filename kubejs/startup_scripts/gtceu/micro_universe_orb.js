@@ -105,14 +105,14 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where(' ', Predicates.any())
             .where('#', Predicates.air())
             .build())
-        .workableCasingRenderer("gtceu:block/casings/gcym/atomic_casing",
-            "gtceu:block/multiblock/assembly_line", false)
+        .workableCasingModel("gtceu:block/casings/gcym/atomic_casing",
+            "gtceu:block/multiblock/assembly_line")
 
         allthemods.create('energy_input_hatch', 'custom').tiers(GTValues.MAX)
             .definition((tier, builder) => {
                 builder.rotationState(RotationState.ALL)
                     .abilities(PartAbility.INPUT_ENERGY)
-                    .overlayTieredHullRenderer("energy_hatch.input")
+                    ['overlayTieredHullModel(java.lang.String)']("energy_input_hatch")
             }).machine((holder) => { return new $EnergyHatchPartMachine(holder, GTValues.MAX, $IO.IN, 2) })
         
     })

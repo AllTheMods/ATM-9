@@ -60,7 +60,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where(' ', Predicates.air())
             .build()
         )
-        .workableCasingRenderer('gtceu:block/casings/gcym/secure_maceration_casing', 'gtceu:block/multiblock/gcym/large_maceration_tower', false)
+        .workableCasingModel('gtceu:block/casings/gcym/secure_maceration_casing', 'gtceu:block/multiblock/gcym/large_maceration_tower')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.

@@ -2242,141 +2242,15 @@
 					id: "easy_villagers:villager"
 					tag: {
 						villager: {
-							AbsorptionAmount: 0.0f
-							Age: 0
-							ArmorDropChances: [
-								0.085f
-								0.085f
-								0.085f
-								0.085f
-							]
-							ArmorItems: [
-								{ }
-								{ }
-								{ }
-								{ }
-							]
-							Attributes: [
-								{
-									Base: 0.0d
-									Name: "minecraft:generic.knockback_resistance"
-								}
-								{
-									Base: 0.08d
-									Name: "forge:entity_gravity"
-								}
-								{
-									Base: 0.5d
-									Name: "minecraft:generic.movement_speed"
-								}
-								{
-									Base: 0.0d
-									Name: "forge:step_height_addition"
-								}
-							]
-							Brain: {
-								memories: {
-									"minecraft:job_site": {
-										value: {
-											dimension: "minecraft:overworld"
-											pos: [I;
-												-57
-												68
-												-8
-											]
-										}
-									}
-									"minecraft:last_worked_at_poi": {
-										value: 6669479L
-									}
-								}
-							}
-							CanPickUpLoot: 1b
-							DeathTime: 0s
-							FallFlying: 0b
-							FoodLevel: 0b
-							ForcedAge: 0
-							Gossips: [ ]
-							HandDropChances: [
-								0.085f
-								0.085f
-							]
-							HandItems: [
-								{ }
-								{ }
-							]
-							Health: 20.0f
-							HurtByTimestamp: 0
-							HurtTime: 0s
-							Inventory: [ ]
-							LastGossipDecay: 6668675L
-							LastRestock: 6669479L
-							LeftHanded: 0b
-							Offers: {
-								Recipes: [
-									{
-										buy: {
-											Count: 14b
-											id: "minecraft:emerald"
-										}
-										buyB: {
-											Count: 1b
-											id: "minecraft:air"
-											tag: {
-												gridType: 0
-											}
-										}
-										demand: -8
-										maxUses: 4
-										priceMultiplier: 0.05f
-										rewardExp: 1b
-										sell: {
-											Count: 1b
-											id: "pneumaticcraft:pcb_blueprint"
-										}
-										specialPrice: 0
-										uses: 0
-										xp: 10
-									}
-									{
-										buy: {
-											Count: 7b
-											id: "minecraft:emerald"
-										}
-										buyB: {
-											Count: 1b
-											id: "minecraft:air"
-											tag: {
-												gridType: 0
-											}
-										}
-										demand: -32
-										maxUses: 16
-										priceMultiplier: 0.05f
-										rewardExp: 1b
-										sell: {
-											Count: 1b
-											id: "pneumaticcraft:compressed_iron_block"
-										}
-										specialPrice: 0
-										uses: 0
-										xp: 4
-									}
-								]
-							}
-							PersistenceRequired: 0b
-							RestocksToday: 0
 							VillagerData: {
-								level: 1
 								profession: "pneumaticcraft:mechanic"
-								type: "minecraft:plains"
 							}
-							Xp: 0
 						}
 					}
 				}
 				match_nbt: true
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 0.75d
 			y: 1.0d

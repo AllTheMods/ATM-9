@@ -86,8 +86,8 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where('B', GTMachines.ITEM_EXPORT_BUS[6], Direction.SOUTH)
             .where(' ', Block.getBlock("minecraft:air"))
             .build())
-        .workableCasingRenderer("gtceu:block/casings/gcym/atomic_casing", /*"gtceu:block/casings/gcym/atomic_casing"*/
-            "gtceu:block/multiblock/implosion_compressor", false)
+        .workableCasingModel("gtceu:block/casings/gcym/atomic_casing", /*"gtceu:block/casings/gcym/atomic_casing"*/
+            "gtceu:block/multiblock/implosion_compressor")
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.

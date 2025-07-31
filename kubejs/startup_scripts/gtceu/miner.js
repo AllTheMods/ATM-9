@@ -9,7 +9,7 @@ GTCEuStartupEvents.registry("gtceu:machine", allthemods => {
         builder 
             .rotationState(RotationState.NON_Y_AXIS)
             .recipeType("world_data_scanner")
-            .workableTieredHullRenderer("gtceu:block/machines/scanner")
+            .workableTieredHullModel("gtceu:block/machines/scanner")
         )
 
     allthemods.create("void_miner", "multiblock")
@@ -31,7 +31,7 @@ GTCEuStartupEvents.registry("gtceu:machine", allthemods => {
                 .where("#", Predicates.any())
                 .build()
         )
-        .workableCasingRenderer("gtceu:block/casings/solid/machine_casing_stable_titanium", "gtceu:block/multiblock/large_miner", false)
+        .workableCasingModel("gtceu:block/casings/solid/machine_casing_stable_titanium", "gtceu:block/multiblock/large_miner")
     
 })
 
