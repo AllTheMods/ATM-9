@@ -25,7 +25,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
                 .or(Predicates.autoAbilities(definition.getRecipeTypes())))
             .where('I', Predicates.controller(Predicates.blocks(definition.get())))
             .build())
-        .workableCasingRenderer("gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
+        .workableCasingModel("gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
             "gtceu:block/multiblock/cracking_unit");
 
 })

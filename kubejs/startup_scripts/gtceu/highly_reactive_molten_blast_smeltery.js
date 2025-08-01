@@ -26,5 +26,5 @@ allthemods.create("highly_reactive_molten_blast_smeltery", "multiblock")
             .where("I", Predicates.abilities(PartAbility.MUFFLER).setExactLimit(1))
             .where('J', Predicates.controller(Predicates.blocks(definition.get())))
             .build())
-        .workableCasingRenderer("gtceu:block/casings/gcym/high_temperature_smelting_casing", 'gtceu:block/multiblock/gcym/blast_alloy_smelter');
+        .workableCasingModel("gtceu:block/casings/gcym/high_temperature_smelting_casing", 'gtceu:block/multiblock/gcym/blast_alloy_smelter');
 })

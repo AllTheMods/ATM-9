@@ -37,7 +37,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
             .where("M", Predicates.abilities(PartAbility.MUFFLER).setExactLimit(1))
             .where('I', Predicates.controller(Predicates.blocks(definition.get())))
             .build())
-        .workableCasingRenderer("gtceu:block/casings/solid/machine_casing_solid_steel",
+        .workableCasingModel("gtceu:block/casings/solid/machine_casing_solid_steel",
             "gtceu:block/multiblock/pyrolyse_oven");
 
 })
