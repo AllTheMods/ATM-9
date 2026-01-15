@@ -13,7 +13,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
         .rotationState(RotationState.NON_Y_AXIS)
         .machine((holder) => new CoilWorkableElectricMultiblockMachine(holder))
         .recipeTypes('superheated_pyrolyzing_oven')
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.BATCH_MODE, (machine, recipe) => GTRecipeModifiers.pyrolyseOvenOverclock(machine, recipe)])
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, (machine, recipe) => GTRecipeModifiers.pyrolyseOvenOverclock(machine, recipe), GTRecipeModifiers.BATCH_MODE])
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("BBCCCBB", "BBCDCBB", "BBCCCBB", "BBCCCBB", "BBEEEBB", "BBEEEBB")

@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
     allthemods.create('star_forge', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeTypes('star_forge')
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT_SUBTICK, GTRecipeModifiers.BATCH_MODE])
         .appearanceBlock(GCYMBlocks.CASING_ATOMIC)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("               ", "               ", "               ", "               ", "               ", "      W W      ", "     CWEWC     ", "      W W      ", "               ", "               ", "               ", "               ", "               ")

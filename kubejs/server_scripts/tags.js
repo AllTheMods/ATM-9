@@ -166,6 +166,9 @@ ServerEvents.tags('fluid', allthemods => {
   allthemods.add('forge:nutritional_paste', 'mekanism:nutritional_paste')
   allthemods.add('forge:ethanol', 'chemlib:ethanol_fluid')
 
+  //allow mek using GT salt water
+  allthemods.add('forge:brine', 'gtceu:salt_water')
+
 })
 
 ServerEvents.tags('entity_type', allthemods => {

@@ -24,8 +24,7 @@ ServerEvents.recipes((event) => {
         ["iv", "gtceu:platinum_single_cable"],
         ["luv", "gtceu:niobium_titanium_single_cable"],
         ["zpm", "gtceu:vanadium_gallium_single_cable"],
-        ["uv", "gtceu:yttrium_barium_cuprate_single_cable"],
-        ["uhv", "gtceu:europium_single_cable"]]
+        ["uv", "gtceu:yttrium_barium_cuprate_single_cable"]]
     world_data_scanner.forEach((scanner) => {
         event.shaped("gtceu:" + scanner[0] + "_world_data_scanner", [
             "CDC",

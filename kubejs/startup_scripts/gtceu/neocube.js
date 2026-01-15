@@ -6,7 +6,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
         .rotationState(RotationState.ALL)
         .recipeTypes('assembly_line')
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-        .recipeModifier(GTRecipeModifiers.OC_PERFECT_SUBTICK)
+        .recipeModifiers([GTRecipeModifiers.OC_PERFECT_SUBTICK, GTRecipeModifiers.BATCH_MODE])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('FFFFFFFF', 'LLLLLLLL', 'GLGGGGLG', 'GLG  GLG', 'GLG  GLG', 'GLG  GLG', 'GLG  GLG', 'GLG  GLG', 'GLGGGGLG', 'LLLLLLLL', 'GGGGGGGG', '        ')
             .aisle('FCCCCCCF', 'LAAAAAAL', 'LALIILAL', 'LAI  IAL', 'LAI  IAL', 'LAI  IAL', 'LAI  IAL', 'LAI  IAL', 'LALIILAL', 'LAAAAAAL', 'GCCCCCCG', ' SSSSSS ')

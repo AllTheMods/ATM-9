@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", allthemods => {
     allthemods.create("void_miner", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType("void_miner")
-        .recipeModifier(GTRecipeModifiers.OC_NON_PERFECT)
+        .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT_SUBTICK, GTRecipeModifiers.BATCH_MODE])
         .appearanceBlock(GTBlocks.CASING_TITANIUM_STABLE)
         .pattern((definition) =>
             FactoryBlockPattern.start()

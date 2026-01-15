@@ -21,7 +21,7 @@ ServerEvents.recipes(allthemods => {
                 .inputFluids(Fluid.of('minecraft:water', 1000))
                 .itemOutputs(output)
                 .duration(duration / 2)
-                .EUt(MV)
+                .EUt(LV)
         } else {
             allthemods.recipes.gtceu.greenhouse(id)
                 .circuit(1)
@@ -29,7 +29,7 @@ ServerEvents.recipes(allthemods => {
                 .inputFluids(Fluid.of('minecraft:water', 1000))
                 .itemOutputs(output)
                 .duration(duration)
-                .EUt(MV)
+                .EUt(LV)
         }
     }
 
@@ -73,7 +73,7 @@ ServerEvents.recipes(allthemods => {
                 } else {
                     var recipeMAXBuilder = allthemods.recipes.gtceu.greenhouse('kubejs:gtceu/greenhouse/' + affix[0] + "/" + affix[1] + "_max")
                     var recipeBuilder = allthemods.recipes.gtceu.greenhouse('kubejs:gtceu/greenhouse/' + affix[0] + "/" + affix[1])
-                    recipeBuilder.EUt(MV)
+                    recipeBuilder.EUt(LV)
                         .notConsumable(InputItem.of(input))
                         .inputFluids(Fluid.of('minecraft:water', 1000))
                         .duration(duration / 4)
@@ -100,7 +100,7 @@ ServerEvents.recipes(allthemods => {
             let affix = input.split(':')
             var recipeMAXBuilder = allthemods.recipes.gtceu.greenhouse('kubejs:gtceu/greenhouse/' + affix[0] + "/" + affix[1] + "_max")
             var recipeBuilder = allthemods.recipes.gtceu.greenhouse('kubejs:gtceu/greenhouse/' + affix[0] + "/" + affix[1])
-            recipeBuilder.EUt(MV)
+            recipeBuilder.EUt(LV)
                 .notConsumable(InputItem.of(input))
                 .inputFluids(Fluid.of('minecraft:water', 1000))
                 .duration(duration / 4)
@@ -237,7 +237,7 @@ ServerEvents.recipes(allthemods => {
             .inputFluids(Fluid.of('minecraft:water', 1000))
             .itemOutputs(boostOut)
             .duration(duration / 2)
-            .EUt(MV)
+            .EUt(LV)
         allthemods.recipes.gtceu.greenhouse(id + '_boosted')
             .circuit(1)
             .notConsumable(InputItem.of(inp))
@@ -245,7 +245,7 @@ ServerEvents.recipes(allthemods => {
             .inputFluids(Fluid.of('minecraft:water', 1000))
             .itemOutputs(out)
             .duration(duration)
-            .EUt(MV)
+            .EUt(LV)
 
         allthemods.recipes.gtceu.greenhouse(id + '_max')
             .circuit(4)

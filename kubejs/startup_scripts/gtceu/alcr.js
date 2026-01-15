@@ -29,7 +29,7 @@ GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
         .rotationState(RotationState.NON_Y_AXIS)
         .appearanceBlock(GTBlocks.CASING_PTFE_INERT)
         .recipeTypes('mega_chemical_reactor')
-        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK])
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK, GTRecipeModifiers.BATCH_MODE])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('c   c', 'ccccc', 'c   c', 'ccccc', 'c   c')
             .aisle('ccccc', 'cpppc', 'cwwwc', 'cpppc', 'ccccc')

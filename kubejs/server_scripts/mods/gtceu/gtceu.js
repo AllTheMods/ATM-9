@@ -775,6 +775,78 @@ ServerEvents.recipes(allthemods => {
         .chancedOutput('gtceu:stone_dust', 6700, 800)
         .duration(400)
         .EUt(2)
+
+    //heavy water
+    allthemods.recipes.gtceu.centrifuge('heavy_water')
+        .inputFluids("minecraft:water 100000")
+        .outputFluids("mekanism:heavy_water 10000")
+        .duration(160)
+        .EUt(EV)
+
+    //infinity pipe upgrade
+    allthemods.recipes.gtceu.assembler('infinity_upgrade')
+		.itemInputs(
+			[
+				'64x pipez:ultimate_upgrade',
+				'64x allthemodium:unobtainium_block',
+                '64x quarryplus:adv_quarry',
+                '4x allthetweaks:improbable_probability_device'
+			])
+		.itemOutputs('pipez:infinity_upgrade')
+		.circuit(1)
+		.duration(1000)
+		.EUt(HV)
+
+    //UHV laser hatch fix
+    allthemods.remove({id: 'gtceu:assembler/uhv_256a_laser_target_hatch'})
+    allthemods.remove({id: 'gtceu:assembler/uhv_256a_laser_source_hatch'})
+    allthemods.remove({id: 'gtceu:assembler/uhv_1024a_laser_target_hatch'})
+    allthemods.remove({id: 'gtceu:assembler/uhv_1024a_laser_source_hatch'})
+    allthemods.remove({id: 'gtceu:assembler/uhv_4096a_laser_target_hatch'})
+    allthemods.remove({id: 'gtceu:assembler/uhv_4096a_laser_output_hatch'})
+
+    allthemods.recipes.gtceu.assembler('gtceu:assembler/uhv_256a_target_hatch')
+        .itemInputs(['gtceu:uhv_machine_hull', 'gtceu:diamond_lens', '2x gtceu:uv_sensor', '2x gtceu:uv_electric_pump', 'gtceu:europium_single_cable'])
+        .itemOutputs('gtceu:uhv_256a_laser_target_hatch')
+        .circuit(1)
+        .duration(300)
+        .EUt(UHV)
+
+    allthemods.recipes.gtceu.assembler('gtceu:assembler/uhv_256a_source_hatch')
+        .itemInputs(['gtceu:uhv_machine_hull', 'gtceu:diamond_lens', '2x gtceu:uv_emitter', '2x gtceu:uv_electric_pump', 'gtceu:europium_single_cable'])
+        .itemOutputs('gtceu:uhv_256a_laser_source_hatch')
+        .circuit(1)
+        .duration(300)
+        .EUt(UHV)
+
+    allthemods.recipes.gtceu.assembler('gtceu:assembler/uhv_1024a_target_hatch')
+        .itemInputs(['gtceu:uhv_machine_hull', '2x gtceu:diamond_lens', '4x gtceu:uv_sensor', '4x gtceu:uv_electric_pump', 'gtceu:europium_double_cable'])
+        .itemOutputs('gtceu:uhv_1024a_laser_target_hatch')
+        .circuit(2)
+        .duration(600)
+        .EUt(UHV)
+
+    allthemods.recipes.gtceu.assembler('gtceu:assembler/uhv_1024a_source_hatch')
+        .itemInputs(['gtceu:uhv_machine_hull', '2x gtceu:diamond_lens', '4x gtceu:uv_emitter', '4x gtceu:uv_electric_pump', 'gtceu:europium_double_cable'])
+        .itemOutputs('gtceu:uhv_1024a_laser_source_hatch')
+        .circuit(2)
+        .duration(600)
+        .EUt(UHV)
+
+    allthemods.recipes.gtceu.assembler('gtceu:assembler/uhv_4096a_target_hatch')
+        .itemInputs(['gtceu:uhv_machine_hull', '4x gtceu:diamond_lens', '8x gtceu:uv_sensor', '8x gtceu:uv_electric_pump', 'gtceu:europium_quadruple_cable'])
+        .itemOutputs('gtceu:uhv_4096a_laser_target_hatch')
+        .circuit(3)
+        .duration(1200)
+        .EUt(UHV)
+
+    allthemods.recipes.gtceu.assembler('gtceu:assembler/uhv_4096a_source_hatch')
+        .itemInputs(['gtceu:uhv_machine_hull', '4x gtceu:diamond_lens', '8x gtceu:uv_emitter', '8x gtceu:uv_electric_pump', 'gtceu:europium_quadruple_cable'])
+        .itemOutputs('gtceu:uhv_4096a_laser_source_hatch')
+        .circuit(3)
+        .duration(1200)
+        .EUt(UHV)
+
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
