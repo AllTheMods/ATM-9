@@ -37,8 +37,9 @@
 			y: -7.0d
 		}
 		{
+			click: " "
 			height: 0.3d
-			hover: ["{atm9.quest.ae2.img.star}"]
+			hover: ["atm9.quest.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -52,11 +53,7 @@
 	quests: [
 		{
 			description: [
-				"{atm9.quest.productiveBees.desc.welcome.1}"
-				""
-				"{atm9.quest.productiveBees.desc.welcome.2}"
-				""
-				"{atm9.quest.productiveBees.desc.welcome.3}"
+				"{atm9.quest.productiveBees.desc.welcome}"
 			]
 			id: "13AA91D39A2CABF2"
 			rewards: [
@@ -104,11 +101,7 @@
 		{
 			dependencies: ["29EE878BC8D3A742"]
 			description: [
-				"{atm9.quest.productiveBees.desc.beehiveSetup.1}"
-				""
-				"{atm9.quest.productiveBees.desc.beehiveSetup.2}"
-				""
-				"{atm9.quest.productiveBees.desc.beehiveSetup.3}"
+				"{atm9.quest.productiveBees.desc.beehive}"
 			]
 			id: "109AD73F016D576B"
 			rewards: [{
@@ -122,18 +115,14 @@
 				item: "minecraft:beehive"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.firstBeehive}"
+			title: "{atm9.quest.productiveBees.beehive}"
 			x: 1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["13AA91D39A2CABF2"]
 			description: [
-				"{atm9.quest.productiveBees.desc.beeFarm.1}"
-				""
-				"{atm9.quest.productiveBees.desc.beeFarm.2}"
-				""
-				"{atm9.quest.productiveBees.desc.beeFarm.3}"
+				"{atm9.quest.productiveBees.desc.bee_cage}"
 			]
 			id: "29EE878BC8D3A742"
 			rewards: [
@@ -154,18 +143,14 @@
 				item: "productivebees:bee_cage"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.capturingBees}"
+			title: "{atm9.quest.productiveBees.bee_cage}"
 			x: 1.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["109AD73F016D576B"]
 			description: [
-				"{atm9.quest.productiveBees.desc.advancedBeehive.1}"
-				""
-				"{atm9.quest.productiveBees.desc.advancedBeehive.2}"
-				""
-				"{atm9.quest.productiveBees.desc.advancedBeehive.3}"
+				"{atm9.quest.productiveBees.desc.advanced_beehive}"
 			]
 			id: "7C169A4A39F37FAC"
 			rewards: [
@@ -183,7 +168,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{atm9.quest.productiveBees.subt.noShearing}"
+			subtitle: "{atm9.quest.productiveBees.subt.advanced_beehive}"
 			tasks: [{
 				icon: "productivebees:advanced_oak_beehive"
 				id: "0EF1CA8DED2FF38C"
@@ -194,21 +179,17 @@
 						value: "productivebees:advanced_beehives"
 					}
 				}
-				title: "{atm9.quest.productiveBees.advancedBeehive}"
+				title: "{atm9.quest.productiveBees.advanced_beehive}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.advancedBeehive}"
+			title: "{atm9.quest.productiveBees.advanced_beehive}"
 			x: 1.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
 			description: [
-				"{atm9.quest.productiveBees.desc.nests.1}"
-				""
-				"{atm9.quest.productiveBees.desc.nests.2}"
-				""
-				"{atm9.quest.productiveBees.desc.nests.3}"
+				"{atm9.quest.productiveBees.desc.wood_nest}"
 			]
 			hide_until_deps_visible: false
 			id: "00A17728A387B426"
@@ -217,7 +198,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.overworldBiome.1}"
+			subtitle: "{atm9.quest.productiveBees.subt.wood_nest}"
 			tasks: [
 				{
 					id: "1F2A2E5E1319BBAA"
@@ -250,13 +231,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.productiveBees.woodNest}"
+			title: "{atm9.quest.productiveBees.wood_nest}"
 			x: -4.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			description: ["{atm9.quest.productiveBees.desc.stoneNest}"]
+			description: ["{atm9.quest.productiveBees.desc.stone_nest}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "369D3AF332181DA8"
@@ -265,7 +246,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.overworldBiome.2}"
+			subtitle: "{atm9.quest.productiveBees.subt.stone_nest}"
 			tasks: [{
 				id: "03A3CD871B01984F"
 				item: "productivebees:stone_nest"
@@ -277,9 +258,7 @@
 		{
 			dependencies: ["120BDCB70AD352AC"]
 			description: [
-				"{atm9.quest.productiveBees.desc.dirtNest.1}"
-				""
-				"{atm9.quest.productiveBees.desc.dirtNest.2}"
+				"{atm9.quest.productiveBees.desc.dirt_nest}"
 			]
 			hide_until_deps_visible: false
 			id: "73C70B15582958A5"
@@ -288,7 +267,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.overworldBiome.3}"
+			subtitle: "{atm9.quest.productiveBees.subt.dirt_nest}"
 			tasks: [{
 				id: "75AC4440283F2FD2"
 				item: "productivebees:coarse_dirt_nest"
@@ -299,7 +278,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			description: ["{atm9.quest.productiveBees.desc.sandNest}"]
+			description: ["{atm9.quest.productiveBees.desc.sand_nest}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "06044B4452A6B720"
@@ -308,7 +287,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.desertBiomes}"
+			subtitle: "{atm9.quest.productiveBees.subt.sand_nest}"
 			tasks: [{
 				id: "583141D1F71510B3"
 				item: "productivebees:sand_nest"
@@ -319,7 +298,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			description: ["{atm9.quest.productiveBees.desc.snowNest}"]
+			description: ["{atm9.quest.productiveBees.desc.snow_nest}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "264BFB8C5F79616F"
@@ -328,7 +307,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.coldBiomes}"
+			subtitle: "{atm9.quest.productiveBees.subt.snow_nest}"
 			tasks: [{
 				id: "01C9E075D831E1AD"
 				item: "productivebees:snow_nest"
@@ -340,9 +319,7 @@
 		{
 			dependencies: ["120BDCB70AD352AC"]
 			description: [
-				"{atm9.quest.productiveBees.desc.gravelNest.1}"
-				""
-				"{atm9.quest.productiveBees.desc.gravelNest.2}"
+				"{atm9.quest.productiveBees.desc.gravel_nest}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
@@ -352,7 +329,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.riverBeachBiomes}"
+			subtitle: "{atm9.quest.productiveBees.subt.gravel_nest}"
 			tasks: [{
 				id: "3091212589824103"
 				item: "productivebees:gravel_nest"
@@ -363,7 +340,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			description: ["{atm9.quest.productiveBees.desc.reedNest}"]
+			description: ["{atm9.quest.productiveBees.desc.sugar_cane_nest}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "5CC9CB0911954215"
@@ -372,7 +349,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.overworldBiome.4}"
+			subtitle: "{atm9.quest.productiveBees.subt.sugar_cane_nest}"
 			tasks: [{
 				id: "3BE7523330044E2F"
 				item: "productivebees:sugar_cane_nest"
@@ -383,7 +360,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			description: ["{atm9.quest.productiveBees.desc.slimyNest}"]
+			description: ["{atm9.quest.productiveBees.desc.slimy_nest}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "79D6A251FE3761B3"
@@ -392,7 +369,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.swampBiome}"
+			subtitle: "{atm9.quest.productiveBees.subt.slimy_nest}"
 			tasks: [{
 				id: "255B5D268D66C748"
 				item: "productivebees:slimy_nest"
@@ -403,7 +380,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			description: ["{atm9.quest.productiveBees.desc.glowstoneNest}"]
+			description: ["{atm9.quest.productiveBees.desc.glowstone_nest}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "41CF7CAEE4F60CCD"
@@ -412,7 +389,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.netherGlowing}"
+			subtitle: "{atm9.quest.productiveBees.subt.glowstone_nest}"
 			tasks: [{
 				id: "09F5BBEBACBA280D"
 				item: "productivebees:glowstone_nest"
@@ -431,7 +408,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.ghostlyBeesNether}"
+			subtitle: "{atm9.quest.productiveBees.subt.soul_sand_nest}"
 			tasks: [{
 				id: "432B3806B0D8F356"
 				item: "productivebees:soul_sand_nest"
@@ -443,11 +420,7 @@
 		{
 			dependencies: ["120BDCB70AD352AC"]
 			description: [
-				"{atm9.quest.productiveBees.desc.crystallineNest.1}"
-				""
-				"{atm9.quest.productiveBees.desc.crystallineNest.2}"
-				""
-				"{atm9.quest.productiveBees.desc.crystallineNest.3}"
+				"{atm9.quest.productiveBees.desc.quartz_nest}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
@@ -457,7 +430,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.crystallineNether}"
+			subtitle: "{atm9.quest.productiveBees.subt.quartz_nest}"
 			tasks: [{
 				id: "4356F84A57C41F62"
 				item: "productivebees:nether_quartz_nest"
@@ -468,7 +441,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			description: ["{atm9.quest.productiveBees.desc.netherBrickNest}"]
+			description: ["{atm9.quest.productiveBees.desc.nether_brick_nest}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "349D19F2FCC34B84"
@@ -477,7 +450,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.magmaticNether}"
+			subtitle: "{atm9.quest.productiveBees.subt.nether_brick_nest}"
 			tasks: [{
 				id: "3722A83F8591AC9F"
 				item: "productivebees:nether_brick_nest"
@@ -488,7 +461,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			description: ["{atm9.quest.productiveBees.desc.enderNest}"]
+			description: ["{atm9.quest.productiveBees.desc.end_stone_nest}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "1E9BD4B74DAEA9FC"
@@ -497,7 +470,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.enderEnd}"
+			subtitle: "{atm9.quest.productiveBees.subt.end_stone_nest}"
 			tasks: [{
 				id: "23A45F19E1E556BB"
 				item: "productivebees:end_stone_nest"
@@ -509,9 +482,7 @@
 		{
 			dependencies: ["120BDCB70AD352AC"]
 			description: [
-				"{atm9.quest.productiveBees.desc.obsidianNest.1}"
-				""
-				"{atm9.quest.productiveBees.desc.obsidianNest.2}"
+				"{atm9.quest.productiveBees.desc.obsidian_nest}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
@@ -521,7 +492,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.draconicEnd}"
+			subtitle: "{atm9.quest.productiveBees.subt.obsidian_nest}"
 			tasks: [{
 				id: "727AAC7516CF8B5B"
 				item: "productivebees:obsidian_nest"
@@ -532,7 +503,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			description: [""]
 			hide_dependency_lines: true
 			icon: "minecraft:iron_ingot"
 			id: "114D668C691A2BDF"
@@ -541,7 +511,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.ashyCrystalline}"
+			subtitle: "{atm9.quest.productiveBees.subt.mining_crystalline_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -564,16 +534,16 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.ironComb}"
+				title: "{atm9.quest.productiveBees.task.iron_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.ironBees}"
+			title: "{atm9.quest.productiveBees.iron_bee}"
 			x: 1.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
-			description: ["{atm9.quest.productiveBees.desc.ashyMiningBee}"]
+			description: ["{atm9.quest.productiveBees.desc.ashy_mining_bee}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -588,10 +558,10 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.dirtNest}"
+			subtitle: "{atm9.quest.productiveBees.subt.ashy_mining_bee}"
 			tasks: [{
 				id: "3DE460F842195173"
-				title: "{atm9.quest.productiveBees.ashyMiningBee}"
+				title: "{atm9.quest.productiveBees.task.ashy_mining_bee}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -600,9 +570,7 @@
 		{
 			dependencies: ["131EC039435B8878"]
 			description: [
-				"{atm9.quest.productiveBees.desc.crystallineBee.1}"
-				""
-				"{atm9.quest.productiveBees.desc.crystallineBee.2}"
+				"{atm9.quest.productiveBees.desc.crystalline_bee}"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:quartz"
@@ -612,7 +580,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.quartzNestNether}"
+			subtitle: "{atm9.quest.productiveBees.subt.crystalline_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -635,16 +603,15 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.crystallineComb}"
+				title: "{atm9.quest.productiveBees.task.crystalline_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.crystallineBee}"
+			title: "{atm9.quest.productiveBees.crystalline_bee}"
 			x: -4.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			description: [""]
 			hide_dependency_lines: true
 			icon: "minecraft:copper_ingot"
 			id: "75CD4EE6A542D687"
@@ -653,7 +620,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.crystallineAshyMining}"
+			subtitle: "{atm9.quest.productiveBees.subt.crystalline_mining_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -676,16 +643,16 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.copperComb}"
+				title: "{atm9.quest.productiveBees.task.copper_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.copperBees}"
+			title: "{atm9.quest.productiveBees.copper_bee}"
 			x: 2.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			description: ["{atm9.quest.productiveBees.desc.tinBees}"]
+			description: ["{atm9.quest.productiveBees.desc.tin_bee}"]
 			hide_dependency_lines: true
 			icon: "alltheores:tin_ingot"
 			id: "589EB4602E3F9EEE"
@@ -694,7 +661,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.ashyCrystalline}"
+			subtitle: "{atm9.quest.productiveBees.subt.mining_crystalline_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -717,16 +684,15 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.tinComb}"
+				title: "{atm9.quest.productiveBees.task.tin_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.tinBees}"
+			title: "{atm9.quest.productiveBees.tin_bee}"
 			x: 3.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			description: [""]
 			hide_dependency_lines: true
 			icon: "alltheores:aluminum_ingot"
 			id: "0D5D76B3551CD5A7"
@@ -735,7 +701,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.crystallineAshyMining}"
+			subtitle: "{atm9.quest.productiveBees.subt.crystalline_mining_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -758,16 +724,15 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.aluminumComb}"
+				title: "{atm9.quest.productiveBees.task.aluminum_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.aluminumBees}"
+			title: "{atm9.quest.productiveBees.aluminum_bee}"
 			x: -1.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			description: [""]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			icon: "minecraft:gold_ingot"
@@ -777,7 +742,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.crystallineMason}"
+			subtitle: "{atm9.quest.productiveBees.subt.gold_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -800,10 +765,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.goldComb}"
+				title: "{atm9.quest.productiveBees.task.gold_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.goldBees}"
+			title: "{atm9.quest.productiveBees.gold_bee}"
 			x: 0.0d
 			y: 10.0d
 		}
@@ -817,26 +782,20 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.stoneNest}"
+			subtitle: "{atm9.quest.productiveBees.subt.mason_bee}"
 			tasks: [{
 				id: "4BC7F46B28DC6BA0"
-				title: "{atm9.quest.productiveBees.masonBees}"
+				title: "{atm9.quest.productiveBees.task.mason_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.masonBee}"
+			title: "{atm9.quest.productiveBees.mason_bee}"
 			x: -3.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
 			description: [
-				"{atm9.quest.productiveBees.desc.productiveBees.1}"
-				""
-				"{atm9.quest.productiveBees.desc.productiveBees.2}"
-				""
-				"{atm9.quest.productiveBees.desc.productiveBees.3}"
-				""
-				"{atm9.quest.productiveBees.desc.productiveBees.4}"
+				"{atm9.quest.productiveBees.desc.honey_treat}"
 			]
 			id: "131EC039435B8878"
 			rewards: [
@@ -864,7 +823,7 @@
 		}
 		{
 			dependencies: ["29EE878BC8D3A742"]
-			description: ["{atm9.quest.productiveBees.desc.nestDirection}"]
+			description: ["{atm9.quest.productiveBees.desc.nest_locator}"]
 			id: "68CE30097BADE20E"
 			optional: true
 			rewards: [
@@ -888,13 +847,13 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.findingNests}"
+			title: "{atm9.quest.productiveBees.nest_locator}"
 			x: 2.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
-			description: ["{atm9.quest.productiveBees.desc.upgradeBase}"]
+			description: ["{atm9.quest.productiveBees.desc.upgrade_base}"]
 			hide_dependency_lines: true
 			id: "66324D7D0C51AEAC"
 			rewards: [
@@ -940,7 +899,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.productiveBees.subt.beeProductivity}"
+			subtitle: "{atm9.quest.productiveBees.subt.upgrade_productivity}"
 			tasks: [{
 				id: "23697EE31757EBEB"
 				item: "productivebees:upgrade_productivity"
@@ -952,13 +911,7 @@
 		{
 			dependencies: ["66324D7D0C51AEAC"]
 			description: [
-				"{atm9.quest.productiveBees.desc.hiveCentrifuge.1}"
-				""
-				"{atm9.quest.productiveBees.desc.hiveCentrifuge.2}"
-				""
-				"{atm9.quest.productiveBees.desc.hiveCentrifuge.3}"
-				""
-				"{atm9.quest.productiveBees.desc.hiveCentrifuge.4}"
+				"{atm9.quest.productiveBees.desc.upgrade_time}"
 			]
 			id: "500BEAD94C97DF96"
 			rewards: [
@@ -973,7 +926,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.sonicBees}"
+			subtitle: "{atm9.quest.productiveBees.subt.upgrade_time}"
 			tasks: [{
 				id: "2F69E114B9F17B9A"
 				item: "productivebees:upgrade_time"
@@ -985,11 +938,7 @@
 		{
 			dependencies: ["66324D7D0C51AEAC"]
 			description: [
-				"{atm9.quest.productiveBees.desc.hiveCatcher.1}"
-				""
-				"{atm9.quest.productiveBees.desc.hiveCatcher.2}"
-				""
-				"{atm9.quest.productiveBees.desc.hiveCatcher.3}"
+				"{atm9.quest.productiveBees.desc.upgrade_breeding}"
 			]
 			id: "2182492BCC1B33D8"
 			rewards: [
@@ -1005,7 +954,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.productiveBees.subt.makingBabies}"
+			subtitle: "{atm9.quest.productiveBees.subt.upgrade_breeding}"
 			tasks: [{
 				id: "04E3182336EE3967"
 				item: "productivebees:upgrade_breeding"
@@ -1030,7 +979,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.productiveBees.subt.lumberQuarryBlocks}"
+			subtitle: "{atm9.quest.productiveBees.subt.upgrade_comb_block}"
 			tasks: [{
 				id: "2289A74F096C389C"
 				item: "productivebees:upgrade_comb_block"
@@ -1041,7 +990,7 @@
 		}
 		{
 			dependencies: ["66324D7D0C51AEAC"]
-			description: ["{atm9.quest.productiveBees.desc.enderBeesNecessity}"]
+			description: ["{atm9.quest.productiveBees.desc.upgrade_anti_teleport}"]
 			id: "198EDBAC1D6E2339"
 			rewards: [
 				{
@@ -1056,7 +1005,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.productiveBees.subt.preventTeleport}"
+			subtitle: "{atm9.quest.productiveBees.subt.upgrade_anti_teleport}"
 			tasks: [{
 				id: "09CA837E39927465"
 				item: "productivebees:upgrade_anti_teleport"
@@ -1067,7 +1016,7 @@
 		}
 		{
 			dependencies: ["66324D7D0C51AEAC"]
-			description: ["{atm9.quest.productiveBees.desc.catcherUse}"]
+			description: ["{atm9.quest.productiveBees.desc.upgrade_range}"]
 			id: "14623D25561BA61B"
 			rewards: [
 				{
@@ -1082,7 +1031,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.productiveBees.subt.machineRangeIncrease}"
+			subtitle: "{atm9.quest.productiveBees.subt.upgrade_range}"
 			tasks: [{
 				id: "6E8978E798AB54F7"
 				item: "productivebees:upgrade_range"
@@ -1107,7 +1056,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.productiveBees.subt.beeFilterAddition}"
+			subtitle: "{atm9.quest.productiveBees.subt.upgrade_filter}"
 			tasks: [{
 				id: "553DD93D10666049"
 				item: "productivebees:upgrade_filter"
@@ -1131,7 +1080,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.geneExtraction}"
+			subtitle: "{atm9.quest.productiveBees.subt.upgrade_bee_sampler}"
 			tasks: [{
 				id: "1B0C60960B1ABA92"
 				item: "productivebees:upgrade_bee_sampler"
@@ -1143,11 +1092,7 @@
 		{
 			dependencies: ["7C169A4A39F37FAC"]
 			description: [
-				"{atm9.quest.productiveBees.desc.centrifugeUse.1}"
-				""
-				"{atm9.quest.productiveBees.desc.centrifugeUse.2}"
-				""
-				"{atm9.quest.productiveBees.desc.centrifugeUse.3}"
+				"{atm9.quest.productiveBees.desc.centrifuge}"
 			]
 			id: "33A0E06FE5CFD8F3"
 			rewards: [
@@ -1164,7 +1109,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.processingHoneycombs}"
+			subtitle: "{atm9.quest.productiveBees.subt.centrifuge}"
 			tasks: [{
 				id: "65D52E6A67DD11EB"
 				item: {
@@ -1187,7 +1132,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.productiveBees.centrifuges}"
+				title: "{atm9.quest.productiveBees.task.centrifuge}"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1198,7 +1143,7 @@
 				"5F1784E562C29B66"
 				"100ACB5C8A359BF0"
 			]
-			description: ["{atm9.quest.productiveBees.desc.diamondBeeCreation}"]
+			description: ["{atm9.quest.productiveBees.desc.diamond_bee}"]
 			icon: "minecraft:diamond"
 			id: "1D720AC88431BD70"
 			rewards: [
@@ -1222,7 +1167,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.enderLapis}"
+			subtitle: "{atm9.quest.productiveBees.subt.diamond_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1245,16 +1190,16 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.diamondComb}"
+				title: "{atm9.quest.productiveBees.task.diamond_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.diamondBee}"
+			title: "{atm9.quest.productiveBees.diamond_bee}"
 			x: 8.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["117241986C99E475"]
-			description: ["{atm9.quest.productiveBees.desc.lapisBeeCreation}"]
+			description: ["{atm9.quest.productiveBees.desc.lapis_bee}"]
 			icon: "minecraft:lapis_lazuli"
 			id: "100ACB5C8A359BF0"
 			rewards: [
@@ -1278,7 +1223,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.redstoneBlueBanded}"
+			subtitle: "{atm9.quest.productiveBees.subt.lapis_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1301,16 +1246,16 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.lapisComb}"
+				title: "{atm9.quest.productiveBees.task.lapis_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.lapisBees}"
+			title: "{atm9.quest.productiveBees.lapis_bee}"
 			x: 7.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["437DB2CE10D33A08"]
-			description: ["{atm9.quest.productiveBees.desc.redstoneBeeCreation}"]
+			description: ["{atm9.quest.productiveBees.desc.redstone_bee}"]
 			disable_toast: true
 			icon: "minecraft:redstone"
 			id: "117241986C99E475"
@@ -1335,7 +1280,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.glowingChocolateMining}"
+			subtitle: "{atm9.quest.productiveBees.subt.redstone_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1358,16 +1303,16 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.redstoneComb}"
+				title: "{atm9.quest.productiveBees.task.redstone_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.redstoneBees}"
+			title: "{atm9.quest.productiveBees.redstone_bee}"
 			x: 7.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
-			description: ["{atm9.quest.productiveBees.desc.endStoneNestRequirement}"]
+			description: ["{atm9.quest.productiveBees.desc.ender_bee}"]
 			hide_dependency_lines: true
 			icon: "minecraft:ender_pearl"
 			id: "5F1784E562C29B66"
@@ -1392,7 +1337,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.requiresEndStoneNest}"
+			subtitle: "{atm9.quest.productiveBees.subt.ender_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1415,16 +1360,16 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.enderComb}"
+				title: "{atm9.quest.productiveBees.task.ender_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.enderBees}"
+			title: "{atm9.quest.productiveBees.ender_bee}"
 			x: 8.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["4C0302FF4F63B52E"]
-			description: ["{atm9.quest.productiveBees.desc.glowstoneNestRequirement}"]
+			description: ["{atm9.quest.productiveBees.desc.glowing_bee}"]
 			hide_dependency_lines: false
 			icon: "minecraft:glowstone_dust"
 			id: "437DB2CE10D33A08"
@@ -1471,10 +1416,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.glowingComb}"
+				title: "{atm9.quest.productiveBees.task.glowing_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.glowingBee}"
+			title: "{atm9.quest.productiveBees.glowing_bee}"
 			x: 6.0d
 			y: 5.0d
 		}
@@ -1488,13 +1433,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.spawnsFromDirtNest}"
+			subtitle: "{atm9.quest.productiveBees.subt.chocolate_mining_bee}"
 			tasks: [{
 				id: "4DFDEAD81868CEF4"
-				title: "{atm9.quest.productiveBees.chocolateMiningBee}"
+				title: "{atm9.quest.productiveBees.chocolate_mining_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.chocolateMiningBee}"
+			title: "{atm9.quest.productiveBees.chocolate_mining_bee}"
 			x: -5.0d
 			y: 12.5d
 		}
@@ -1508,10 +1453,10 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.spawnedUsingWoodNest}"
+			subtitle: "{atm9.quest.productiveBees.subt.blue_banded_bee}"
 			tasks: [{
 				id: "12A2CE1C3AE8A033"
-				title: "{atm9.quest.productiveBees.blueBandedBee}"
+				title: "{atm9.quest.productiveBees.task.blue_banded_bee}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -1522,7 +1467,7 @@
 				"1D720AC88431BD70"
 				"39A19138C501B16F"
 			]
-			description: ["{atm9.quest.productiveBees.desc.emeraldBeeCreation}"]
+			description: ["{atm9.quest.productiveBees.desc.emerald_bee}"]
 			icon: "minecraft:emerald"
 			id: "5563BD4934297522"
 			rewards: [
@@ -1546,7 +1491,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.diamondBeeSlimyBee}"
+			subtitle: "{atm9.quest.productiveBees.subt.emerald_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1569,16 +1514,16 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.emeraldComb}"
+				title: "{atm9.quest.productiveBees.task.emerald_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.emeraldBee}"
+			title: "{atm9.quest.productiveBees.emerald_bee}"
 			x: 7.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["4C0302FF4F63B52E"]
-			description: ["{atm9.quest.productiveBees.desc.slimyNestLure}"]
+			description: ["{atm9.quest.productiveBees.desc.slimy_bee}"]
 			icon: "minecraft:slime_ball"
 			id: "39A19138C501B16F"
 			rewards: [
@@ -1602,7 +1547,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.requiresSlimyNest}"
+			subtitle: "{atm9.quest.productiveBees.subt.slimy_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1625,10 +1570,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.slimyComb}"
+				title: "{atm9.quest.productiveBees.task.slimy_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.slimyBee}"
+			title: "{atm9.quest.productiveBees.slimy_bee}"
 			x: 6.0d
 			y: 4.0d
 		}
@@ -1657,7 +1602,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.feedDiamondBeeNetherite}"
+			subtitle: "{atm9.quest.productiveBees.subt.netherite_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1680,10 +1625,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.ancientComb}"
+				title: "{atm9.quest.productiveBees.task.netherite_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.ancientBeeNetherite}"
+			title: "{atm9.quest.productiveBees.netherite_bee}"
 			x: 9.0d
 			y: 4.5d
 		}
@@ -1712,7 +1657,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.feedSkeletalBeeWitheredRose}"
+			subtitle: "{atm9.quest.productiveBees.subt.withered_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1735,10 +1680,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.witheredComb}"
+				title: "{atm9.quest.productiveBees.task.withered_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.witheredBee}"
+			title: "{atm9.quest.productiveBees.withered_bee}"
 			x: 10.0d
 			y: 3.5d
 		}
@@ -1747,7 +1692,7 @@
 				"2CA3707BEE2E3C0D"
 				"399882F3C51DD282"
 			]
-			description: ["{atm9.quest.productiveBees.desc.allthemodiumBeeCreation}"]
+			description: ["{atm9.quest.productiveBees.desc.allthemodium_bee}"]
 			icon: "allthemodium:raw_allthemodium"
 			id: "6EFFF0DC80C1C8A3"
 			rewards: [
@@ -1777,7 +1722,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.ancientWithered}"
+			subtitle: "{atm9.quest.productiveBees.subt.allthemodium_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1800,16 +1745,16 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.allthemodiumComb}"
+				title: "{atm9.quest.productiveBees.task.allthemodium_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.allthemodiumBee}"
+			title: "{atm9.quest.productiveBees.allthemodium_bee}"
 			x: 10.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
-			description: ["{atm9.quest.productiveBees.desc.advancedBeehivesDark}"]
+			description: ["{atm9.quest.productiveBees.desc.skeletal_bee}"]
 			hide_dependency_lines: true
 			icon: "minecraft:skeleton_skull"
 			id: "76E94639E90FEB4E"
@@ -1834,7 +1779,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.spawnedEmptyBeehivesDark}"
+			subtitle: "{atm9.quest.productiveBees.subt.skeletal_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1857,16 +1802,16 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.skeletalComb}"
+				title: "{atm9.quest.productiveBees.task.skeletal_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.skeletalBee}"
+			title: "{atm9.quest.productiveBees.skeletal_bee}"
 			x: 9.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
-			description: ["{atm9.quest.productiveBees.desc.obsidianNestEnd}"]
+			description: ["{atm9.quest.productiveBees.desc.draconic_bee}"]
 			hide_dependency_lines: true
 			icon: "minecraft:dragon_head"
 			id: "00FD36C207845895"
@@ -1891,7 +1836,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.requiresObsidianNest}"
+			subtitle: "{atm9.quest.productiveBees.subt.draconic_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1914,10 +1859,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.draconicComb}"
+				title: "{atm9.quest.productiveBees.task.draconic_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.draconicBee}"
+			title: "{atm9.quest.productiveBees.draconic_bee}"
 			x: 8.0d
 			y: 5.5d
 		}
@@ -1926,7 +1871,7 @@
 				"2CA3707BEE2E3C0D"
 				"00FD36C207845895"
 			]
-			description: ["{atm9.quest.productiveBees.desc.vibraniumBeeCreation}"]
+			description: ["{atm9.quest.productiveBees.desc.vibranium_bee}"]
 			icon: "allthemodium:raw_vibranium"
 			id: "6E819CCD57B15D54"
 			rewards: [
@@ -1956,7 +1901,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.ancientDraconic}"
+			subtitle: "{atm9.quest.productiveBees.subt.vibranium_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1979,10 +1924,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.vibraniumComb}"
+				title: "{atm9.quest.productiveBees.task.vibranium_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.vibraniumBee}"
+			title: "{atm9.quest.productiveBees.vibranium_bee}"
 			x: 9.0d
 			y: 5.5d
 		}
@@ -1992,9 +1937,7 @@
 				"6E819CCD57B15D54"
 			]
 			description: [
-				"{atm9.quest.productiveBees.desc.unobtainiumBeeCreation.1}"
-				""
-				"{atm9.quest.productiveBees.desc.unobtainiumBeeCreation.2}"
+				"{atm9.quest.productiveBees.desc.unobtainium_bee}"
 			]
 			icon: "allthemodium:raw_unobtainium"
 			id: "2BE538246C672689"
@@ -2025,7 +1968,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.allthemodiumVibranium}"
+			subtitle: "{atm9.quest.productiveBees.subt.unobtainium_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2048,16 +1991,15 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.unobtainiumComb}"
+				title: "{atm9.quest.productiveBees.task.unobtainium_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.unobtainiumBee}"
+			title: "{atm9.quest.productiveBees.unobtainium_bee}"
 			x: 10.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			description: [""]
 			hide_dependency_lines: true
 			icon: "alltheores:zinc_ingot"
 			id: "7EAFF64FFE8B5378"
@@ -2066,7 +2008,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.ironSweat}"
+			subtitle: "{atm9.quest.productiveBees.subt.iron_sweat_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2089,10 +2031,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.zincComb}"
+				title: "{atm9.quest.productiveBees.task.zinc_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.zincBees}"
+			title: "{atm9.quest.productiveBees.zinc_bee}"
 			x: 1.0d
 			y: 12.5d
 		}
@@ -2106,7 +2048,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.goldSilver}"
+			subtitle: "{atm9.quest.productiveBees.subt.electrum_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2129,10 +2071,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.electrumComb}"
+				title: "{atm9.quest.productiveBees.task.electrum_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.electrumBees}"
+			title: "{atm9.quest.productiveBees.electrum_bee}"
 			x: 0.0d
 			y: 14.0d
 		}
@@ -2146,7 +2088,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.goldEnder}"
+			subtitle: "{atm9.quest.productiveBees.subt.platinum_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2169,10 +2111,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.platinumComb}"
+				title: "{atm9.quest.productiveBees.task.platinum_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.platinumBees}"
+			title: "{atm9.quest.productiveBees.platinum_bee}"
 			x: 0.0d
 			y: 11.0d
 		}
@@ -2186,7 +2128,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.ironBlueBanded}"
+			subtitle: "{atm9.quest.productiveBees.subt.lead_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2209,16 +2151,15 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.leadComb}"
+				title: "{atm9.quest.productiveBees.task.lead_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.leadBees}"
+			title: "{atm9.quest.productiveBees.lead_bee}"
 			x: 1.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			description: [""]
 			hide_dependency_lines: true
 			icon: "minecraft:blaze_rod"
 			id: "0072C4F028C327CB"
@@ -2227,7 +2168,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.magmaticNomad}"
+			subtitle: "{atm9.quest.productiveBees.subt.blazing_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2250,10 +2191,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.blazingComb}"
+				title: "{atm9.quest.productiveBees.task.blazing_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.blazingBee}"
+			title: "{atm9.quest.productiveBees.blazing_bee}"
 			x: -1.0d
 			y: 10.5d
 		}
@@ -2267,7 +2208,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.copperZinc}"
+			subtitle: "{atm9.quest.productiveBees.subt.brass_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2290,10 +2231,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.brassComb}"
+				title: "{atm9.quest.productiveBees.task.brass_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.brassBees}"
+			title: "{atm9.quest.productiveBees.brass_bee}"
 			x: 1.0d
 			y: 14.5d
 		}
@@ -2307,13 +2248,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.dirtNest}"
+			subtitle: "{atm9.quest.productiveBees.subt.dirt_nest}"
 			tasks: [{
 				id: "4A6ADD52B113E3CA"
-				title: "{atm9.quest.productiveBees.leafcutterBees}"
+				title: "{atm9.quest.productiveBees.task.leaf_cutter_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.leafcutterBee}"
+			title: "{atm9.quest.productiveBees.leaf_cutter_bee}"
 			x: -4.0d
 			y: 14.0d
 		}
@@ -2327,22 +2268,20 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.blueBandedNest}"
+			subtitle: "{atm9.quest.productiveBees.subt.neon_cuckoo_bee}"
 			tasks: [{
 				id: "0CDFF60D581118E3"
-				title: "{atm9.quest.productiveBees.neonCuckooBee}"
+				title: "{atm9.quest.productiveBees.neon_cuckoo_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.neonCuckooBee}"
+			title: "{atm9.quest.productiveBees.neon_cuckoo_bee}"
 			x: -5.0d
 			y: 16.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			description: [
-				"{atm9.quest.productiveBees.desc.ashyMiningBee.1}"
-				""
-				"{atm9.quest.productiveBees.desc.ashyMiningBee.2}"
+				"{atm9.quest.productiveBees.desc.nomad_bee}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -2358,13 +2297,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.ashyMiningBee}"
+			subtitle: "{atm9.quest.productiveBees.subt.nomad_bee}"
 			tasks: [{
 				id: "64248C6FBC867D56"
-				title: "{atm9.quest.productiveBees.nomadBee}"
+				title: "{atm9.quest.productiveBees.nomad_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.nomadBee}"
+			title: "{atm9.quest.productiveBees.nomad_bee}"
 			x: -3.0d
 			y: 15.5d
 		}
@@ -2378,13 +2317,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.reedNest}"
+			subtitle: "{atm9.quest.productiveBees.subt.reed_bee}"
 			tasks: [{
 				id: "6887F86C8673DAF6"
-				title: "{atm9.quest.productiveBees.reedBee}"
+				title: "{atm9.quest.productiveBees.reed_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.reedBee}"
+			title: "{atm9.quest.productiveBees.reed_bee}"
 			x: -5.0d
 			y: 15.5d
 		}
@@ -2398,13 +2337,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.cocoaPodsJungle}"
+			subtitle: "{atm9.quest.productiveBees.subt.sugarbag_bee}"
 			tasks: [{
 				id: "49F452C12DF14873"
 				item: "productivebees:sugarbag_honeycomb"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.sugarbagBee}"
+			title: "{atm9.quest.productiveBees.sugarbag_bee}"
 			x: -4.0d
 			y: 17.0d
 		}
@@ -2418,13 +2357,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.snowNest}"
+			subtitle: "{atm9.quest.productiveBees.subt.sweat_bee}"
 			tasks: [{
 				id: "0A77407CE9055F04"
-				title: "{atm9.quest.productiveBees.sweatBee}"
+				title: "{atm9.quest.productiveBees.sweat_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.sweatBee}"
+			title: "{atm9.quest.productiveBees.sweat_bee}"
 			x: -5.0d
 			y: 13.5d
 		}
@@ -2438,13 +2377,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.woodNests}"
+			subtitle: "{atm9.quest.productiveBees.subt.yellow_carpenter_bee}"
 			tasks: [{
 				id: "3CDFAF37BFB1C89C"
-				title: "{atm9.quest.productiveBees.yellowCarpenterBees}"
+				title: "{atm9.quest.productiveBees.task.yellow_carpenter_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.yellowCarpenterBee}"
+			title: "{atm9.quest.productiveBees.yellow_carpenter_bee}"
 			x: -3.0d
 			y: 14.5d
 		}
@@ -2458,7 +2397,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.advancedBeehivesDark}"
+			subtitle: "{atm9.quest.productiveBees.subt.zombee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2481,10 +2420,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.zomBeeComb}"
+				title: "{atm9.quest.productiveBees.task.zombee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.zomBee}"
+			title: "{atm9.quest.productiveBees.zombee}"
 			x: -3.0d
 			y: 12.5d
 		}
@@ -2498,7 +2437,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.copperTin}"
+			subtitle: "{atm9.quest.productiveBees.subt.bronze_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2521,10 +2460,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.bronzeComb}"
+				title: "{atm9.quest.productiveBees.task.bronze_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.bronzeBees}"
+			title: "{atm9.quest.productiveBees.bronze_bee}"
 			x: 1.0d
 			y: 13.5d
 		}
@@ -2538,7 +2477,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.magmaticLeafcutter}"
+			subtitle: "{atm9.quest.productiveBees.subt.coal_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2561,16 +2500,15 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.coalComb}"
+				title: "{atm9.quest.productiveBees.task.coal_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.coalBee}"
+			title: "{atm9.quest.productiveBees.coal_bee}"
 			x: 2.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			description: [""]
 			hide_dependency_lines: true
 			icon: "alltheores:constantan_ingot"
 			id: "52B22C07818981D0"
@@ -2579,7 +2517,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.copperNickel}"
+			subtitle: "{atm9.quest.productiveBees.subt.constantan_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2602,16 +2540,16 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.constantanComb}"
+				title: "{atm9.quest.productiveBees.task.constantan_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.constantanBee}"
+			title: "{atm9.quest.productiveBees.constantan_bee}"
 			x: 2.0d
 			y: 14.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			description: ["{atm9.quest.productiveBees.desc.breederBee}"]
+			description: ["{atm9.quest.productiveBees.desc.cubee}"]
 			hide_dependency_lines: true
 			icon: "minecraft:chicken"
 			id: "2E51F09F6D9E5EF8"
@@ -2620,12 +2558,12 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.farmerRancher}"
+			subtitle: "{atm9.quest.productiveBees.subt.cubee}"
 			tasks: [{
 				id: "34C16667CDF3E53A"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.cuBee}"
+			title: "{atm9.quest.productiveBees.cubee}"
 			x: -1.0d
 			y: 14.5d
 		}
@@ -2639,13 +2577,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.lapisSkeletal}"
+			subtitle: "{atm9.quest.productiveBees.subt.dye_bee}"
 			tasks: [{
 				id: "4FC90CCB41E58D5A"
-				title: "{atm9.quest.productiveBees.dyeBee}"
+				title: "{atm9.quest.productiveBees.dye_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.dyeBee}"
+			title: "{atm9.quest.productiveBees.dye_bee}"
 			x: 1.0d
 			y: 15.5d
 		}
@@ -2659,7 +2597,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.leadDiamondPlatinum}"
+			subtitle: "{atm9.quest.productiveBees.subt.enderium_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2682,10 +2620,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.enderiumComb}"
+				title: "{atm9.quest.productiveBees.task.enderium_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.enderiumBee}"
+			title: "{atm9.quest.productiveBees.enderium_bee}"
 			x: -1.0d
 			y: 12.5d
 		}
@@ -2699,7 +2637,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.lapisEmerald}"
+			subtitle: "{atm9.quest.productiveBees.subt.experience_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2722,10 +2660,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.experienceComb}"
+				title: "{atm9.quest.productiveBees.task.experience_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.experienceBee}"
+			title: "{atm9.quest.productiveBees.experience_bee}"
 			x: -1.0d
 			y: 15.5d
 		}
@@ -2745,13 +2683,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.lumberRancher}"
+			subtitle: "{atm9.quest.productiveBees.subt.farmer_bee}"
 			tasks: [{
 				id: "212BB84583FE4B8B"
-				title: "{atm9.quest.productiveBees.farmerBees}"
+				title: "{atm9.quest.productiveBees.task.farmer_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.farmerBee}"
+			title: "{atm9.quest.productiveBees.farmer_bee}"
 			x: 2.0d
 			y: 16.0d
 		}
@@ -2765,7 +2703,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.ghostlySkeletalZombee}"
+			subtitle: "{atm9.quest.productiveBees.subt.graves_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2788,10 +2726,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.gravesComb}"
+				title: "{atm9.quest.productiveBees.task.graves_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.gravesBee}"
+			title: "{atm9.quest.productiveBees.graves_bee}"
 			x: 0.0d
 			y: 15.0d
 		}
@@ -2805,7 +2743,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.ironNickel}"
+			subtitle: "{atm9.quest.productiveBees.subt.invar_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2828,10 +2766,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.invarComb}"
+				title: "{atm9.quest.productiveBees.task.invar_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.invarBee}"
+			title: "{atm9.quest.productiveBees.invar_bee}"
 			x: -1.0d
 			y: 13.5d
 		}
@@ -2845,13 +2783,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.yellowGreenCarpenterBee}"
+			subtitle: "{atm9.quest.productiveBees.subt.lumber_bee}"
 			tasks: [{
 				id: "6047113DC2263E46"
-				title: "{atm9.quest.productiveBees.lumberBee}"
+				title: "{atm9.quest.productiveBees.lumber_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.lumberBee}"
+			title: "{atm9.quest.productiveBees.lumber_bee}"
 			x: 3.0d
 			y: 15.5d
 		}
@@ -2865,7 +2803,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.silverTin}"
+			subtitle: "{atm9.quest.productiveBees.subt.lumium_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2888,10 +2826,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.lumiumComb}"
+				title: "{atm9.quest.productiveBees.task.lumium_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.lumiumBee}"
+			title: "{atm9.quest.productiveBees.lumium_bee}"
 			x: 3.0d
 			y: 12.5d
 		}
@@ -2905,7 +2843,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.crystallineNeonCuckoo}"
+			subtitle: "{atm9.quest.productiveBees.subt.menril_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2928,10 +2866,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.menrilComb}"
+				title: "{atm9.quest.productiveBees.task.menril_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.menrilBee}"
+			title: "{atm9.quest.productiveBees.menril_bee}"
 			x: 3.0d
 			y: 16.5d
 		}
@@ -2945,7 +2883,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.ironSweat}"
+			subtitle: "{atm9.quest.productiveBees.subt.iron_sweat_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2968,10 +2906,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.nickelComb}"
+				title: "{atm9.quest.productiveBees.task.nickel_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.nickelBee}"
+			title: "{atm9.quest.productiveBees.nickel_bee}"
 			x: 0.0d
 			y: 12.0d
 		}
@@ -2985,7 +2923,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.magmaticSweat}"
+			subtitle: "{atm9.quest.productiveBees.subt.obsidian_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3008,10 +2946,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.obsidianComb}"
+				title: "{atm9.quest.productiveBees.task.obsidian_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.obsidianBee}"
+			title: "{atm9.quest.productiveBees.obsidian_bee}"
 			x: 1.0d
 			y: 16.5d
 		}
@@ -3025,7 +2963,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.ironNeonCuckoo}"
+			subtitle: "{atm9.quest.productiveBees.subt.osmium_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3048,10 +2986,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.osmiumComb}"
+				title: "{atm9.quest.productiveBees.task.osmium_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.osmiumBee}"
+			title: "{atm9.quest.productiveBees.osmium_bee}"
 			x: 3.0d
 			y: 11.5d
 		}
@@ -3065,13 +3003,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.chocolateMiningDigger}"
+			subtitle: "{atm9.quest.productiveBees.subt.quarry_bee}"
 			tasks: [{
 				id: "471F062B01D0DDA1"
-				title: "{atm9.quest.productiveBees.quarryBee}"
+				title: "{atm9.quest.productiveBees.quarry_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.quarryBee}"
+			title: "{atm9.quest.productiveBees.quarry_bee}"
 			x: 0.0d
 			y: 16.0d
 		}
@@ -3085,7 +3023,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.creeBeeIron}"
+			subtitle: "{atm9.quest.productiveBees.subt.radioactive_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3108,10 +3046,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.radioactiveComb}"
+				title: "{atm9.quest.productiveBees.task.radioactive_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.radioactiveBee}"
+			title: "{atm9.quest.productiveBees.radioactive_bee}"
 			x: 2.0d
 			y: 12.0d
 		}
@@ -3125,13 +3063,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.lumberSweat}"
+			subtitle: "{atm9.quest.productiveBees.subt.rancher_bee}"
 			tasks: [{
 				id: "56E50AF4DB0B9F30"
 				item: "productivebees:honeycomb_milky"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.rancherBee}"
+			title: "{atm9.quest.productiveBees.rancher_bee}"
 			x: 3.0d
 			y: 14.5d
 		}
@@ -3145,7 +3083,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.silverCopper}"
+			subtitle: "{atm9.quest.productiveBees.subt.signalum_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3168,10 +3106,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.signalumComb}"
+				title: "{atm9.quest.productiveBees.task.signalum_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.signalumBee}"
+			title: "{atm9.quest.productiveBees.signalum_bee}"
 			x: 3.0d
 			y: 13.5d
 		}
@@ -3185,7 +3123,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.resinReed}"
+			subtitle: "{atm9.quest.productiveBees.subt.silky_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3208,10 +3146,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.silkyComb}"
+				title: "{atm9.quest.productiveBees.task.silky_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.silkyBee}"
+			title: "{atm9.quest.productiveBees.silky_bee}"
 			x: -1.0d
 			y: 16.5d
 		}
@@ -3225,7 +3163,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.ironMason}"
+			subtitle: "{atm9.quest.productiveBees.subt.silver_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3248,10 +3186,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.silverComb}"
+				title: "{atm9.quest.productiveBees.task.silver_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.silverBee}"
+			title: "{atm9.quest.productiveBees.silver_bee}"
 			x: 1.0d
 			y: 11.5d
 		}
@@ -3265,7 +3203,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.ironCoal}"
+			subtitle: "{atm9.quest.productiveBees.subt.steel_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3288,10 +3226,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.steelComb}"
+				title: "{atm9.quest.productiveBees.task.steel_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.steelBee}"
+			title: "{atm9.quest.productiveBees.steel_bee}"
 			x: 2.0d
 			y: 15.0d
 		}
@@ -3305,13 +3243,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.soulSandNestNether}"
+			subtitle: "{atm9.quest.productiveBees.subt.ghostly_bee}"
 			tasks: [{
 				id: "281AD60CC0AB054F"
 				item: "productivebees:honeycomb_ghostly"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.ghostlyBee}"
+			title: "{atm9.quest.productiveBees.ghostly_bee}"
 			x: -3.0d
 			y: 16.5d
 		}
@@ -3325,7 +3263,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.netherBrickNestNether}"
+			subtitle: "{atm9.quest.productiveBees.subt.magmatic_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3348,21 +3286,17 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.magmaticComb}"
+				title: "{atm9.quest.productiveBees.task.magmatic_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.magmaticBee}"
+			title: "{atm9.quest.productiveBees.magmatic_bee}"
 			x: -5.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			description: [
-				"{atm9.quest.productiveBees.desc.flyBee.1}"
-				""
-				"{atm9.quest.productiveBees.desc.flyBee.2}"
-				""
-				"{atm9.quest.productiveBees.desc.flyBee.3}"
+				"{atm9.quest.productiveBees.desc.bumble_bee}"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:saddle"
@@ -3372,7 +3306,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.overworldBumbleBeeNests}"
+			subtitle: "{atm9.quest.productiveBees.subt.bumble_bee}"
 			tasks: [
 				{
 					id: "4ADD8F6F75D38DE6"
@@ -3391,7 +3325,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.productiveBees.bumbleBee}"
+			title: "{atm9.quest.productiveBees.bumble_bee}"
 			x: -5.0d
 			y: 14.5d
 		}
@@ -3405,13 +3339,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.gravelStoneNest}"
+			subtitle: "{atm9.quest.productiveBees.subt.digger_bee}"
 			tasks: [{
 				id: "6E0961A56194F0A8"
-				title: "{atm9.quest.productiveBees.diggerBees}"
+				title: "{atm9.quest.productiveBees.task.digger_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.diggerBee}"
+			title: "{atm9.quest.productiveBees.digger_bee}"
 			x: -3.0d
 			y: 11.5d
 		}
@@ -3425,7 +3359,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.feedDiamondBeeAmethyst}"
+			subtitle: "{atm9.quest.productiveBees.subt.amethyst_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3448,10 +3382,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.amethystComb}"
+				title: "{atm9.quest.productiveBees.task.amethyst_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.amethystBee}"
+			title: "{atm9.quest.productiveBees.amethyst_bee}"
 			x: 6.0d
 			y: 11.0d
 		}
@@ -3465,7 +3399,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.feedShroombeeBrownMushroom}"
+			subtitle: "{atm9.quest.productiveBees.subt.brown_shroom_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3488,19 +3422,17 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.brownShroombeeComb}"
+				title: "{atm9.quest.productiveBees.task.brown_shroom_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.brownShroombee}"
+			title: "{atm9.quest.productiveBees.brown_shroom_bee}"
 			x: 7.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
 			description: [
-				"{atm9.quest.productiveBees.desc.itemPickup.1}"
-				""
-				"{atm9.quest.productiveBees.desc.itemPickup.2}"
+				"{atm9.quest.productiveBees.desc.collector_bee}"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:hopper"
@@ -3510,13 +3442,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedHopper}"
+			subtitle: "{atm9.quest.productiveBees.subt.collector_bee}"
 			tasks: [{
 				id: "632F557D97247215"
-				title: "{atm9.quest.productiveBees.collectorBee}"
+				title: "{atm9.quest.productiveBees.collector_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.collectorBee}"
+			title: "{atm9.quest.productiveBees.collector_bee}"
 			x: 6.0d
 			y: 17.0d
 		}
@@ -3530,19 +3462,18 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedTNT}"
+			subtitle: "{atm9.quest.productiveBees.subt.cree_bee}"
 			tasks: [{
 				id: "4E787C04DB76613F"
 				item: "productivebees:honeycomb_powdery"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.creeBee}"
+			title: "{atm9.quest.productiveBees.cree_bee}"
 			x: 5.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			description: [""]
 			hide_dependency_lines: true
 			icon: "minecraft:crimson_fungus"
 			id: "176ACC61DC206E55"
@@ -3551,7 +3482,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedCrimsonFungus}"
+			subtitle: "{atm9.quest.productiveBees.subt.crimson_shroom_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3574,10 +3505,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.crimsonShroombeeComb}"
+				title: "{atm9.quest.productiveBees.task.crimson_shroom_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.crimsonShroombee}"
+			title: "{atm9.quest.productiveBees.crimson_shroom_bee}"
 			x: 7.0d
 			y: 12.5d
 		}
@@ -3591,7 +3522,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedFluixPearl}"
+			subtitle: "{atm9.quest.productiveBees.subt.fluix_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3614,10 +3545,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.fluixComb}"
+				title: "{atm9.quest.productiveBees.task.fluix_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.fluixBee}"
+			title: "{atm9.quest.productiveBees.fluix_bee}"
 			x: 5.0d
 			y: 15.5d
 		}
@@ -3631,7 +3562,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedIce}"
+			subtitle: "{atm9.quest.productiveBees.subt.frosty_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3654,16 +3585,16 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.frostyComb}"
+				title: "{atm9.quest.productiveBees.task.frosty_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.frostyBee}"
+			title: "{atm9.quest.productiveBees.frosty_bee}"
 			x: 7.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			description: ["{atm9.quest.productiveBees.desc.itemCollector}"]
+			description: ["{atm9.quest.productiveBees.desc.hoarder_bee}"]
 			hide_dependency_lines: true
 			icon: "minecraft:shulker_box"
 			id: "309059DEDEE7AECD"
@@ -3672,13 +3603,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedShulkerShell}"
+			subtitle: "{atm9.quest.productiveBees.subt.hoarder_bee}"
 			tasks: [{
 				id: "0F45E8D41C62BE78"
-				title: "{atm9.quest.productiveBees.hoarderBee}"
+				title: "{atm9.quest.productiveBees.hoarder_bee}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.hoarderBee}"
+			title: "{atm9.quest.productiveBees.hoarder_bee}"
 			x: 5.0d
 			y: 16.5d
 		}
@@ -3692,7 +3623,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedPeridot}"
+			subtitle: "{atm9.quest.productiveBees.subt.peridot_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3715,10 +3646,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.peridotComb}"
+				title: "{atm9.quest.productiveBees.task.peridot_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.peridotBee}"
+			title: "{atm9.quest.productiveBees.peridot_bee}"
 			x: 5.0d
 			y: 12.5d
 		}
@@ -3732,7 +3663,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedProsperityBlock}"
+			subtitle: "{atm9.quest.productiveBees.subt.prosperity_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3755,10 +3686,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.prosperityComb}"
+				title: "{atm9.quest.productiveBees.task.prosperity_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.prosperiBee}"
+			title: "{atm9.quest.productiveBees.prosperity_bee}"
 			x: 6.0d
 			y: 14.0d
 		}
@@ -3772,7 +3703,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedRedMushroom}"
+			subtitle: "{atm9.quest.productiveBees.subt.red_shroom_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3795,10 +3726,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.redShroombeeComb}"
+				title: "{atm9.quest.productiveBees.task.red_shroom_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.redShroombee}"
+			title: "{atm9.quest.productiveBees.red_shroom_bee}"
 			x: 7.0d
 			y: 14.5d
 		}
@@ -3812,7 +3743,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedRuby}"
+			subtitle: "{atm9.quest.productiveBees.subt.rubee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3835,10 +3766,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.ruBeeComb}"
+				title: "{atm9.quest.productiveBees.task.rubee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.ruBee}"
+			title: "{atm9.quest.productiveBees.rubee}"
 			x: 5.0d
 			y: 13.5d
 		}
@@ -3852,7 +3783,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedSapphire}"
+			subtitle: "{atm9.quest.productiveBees.subt.sapphire_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3875,10 +3806,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.sapphireComb}"
+				title: "{atm9.quest.productiveBees.task.sapphire_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.sapphireBee}"
+			title: "{atm9.quest.productiveBees.sapphire_bee}"
 			x: 5.0d
 			y: 14.5d
 		}
@@ -3892,7 +3823,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedSouliumDagger}"
+			subtitle: "{atm9.quest.productiveBees.subt.soulium_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3915,10 +3846,10 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.souliumComb}"
+				title: "{atm9.quest.productiveBees.task.soulium_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.souliumBee}"
+			title: "{atm9.quest.productiveBees.soulium_bee}"
 			x: 7.0d
 			y: 16.5d
 		}
@@ -3932,7 +3863,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.feedWarpedFungus}"
+			subtitle: "{atm9.quest.productiveBees.subt.warped_shroom_bee}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3955,21 +3886,17 @@
 						}
 					}
 				}
-				title: "{atm9.quest.productiveBees.warpedComb}"
+				title: "{atm9.quest.productiveBees.task.warped_shroom_bee}"
 				type: "item"
 			}]
-			title: "{atm9.quest.productiveBees.warpedShroombee}"
+			title: "{atm9.quest.productiveBees.warped_shroom_bee}"
 			x: 7.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			description: [
-				"{atm9.quest.productiveBees.desc.beeCreation.1}"
-				""
-				"{atm9.quest.productiveBees.desc.beeCreation.2}"
-				""
-				"{atm9.quest.productiveBees.desc.beeCreation.3}"
+				"{atm9.quest.productiveBees.desc.bee_breeding}"
 			]
 			id: "17419401147B5C02"
 			rewards: [{
@@ -3977,26 +3904,20 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.birdsAndBees}"
+			subtitle: "{atm9.quest.productiveBees.subt.bee_breeding}"
 			tasks: [{
 				id: "2153473228DA4678"
-				title: "{atm9.quest.productiveBees.beeBreeding}"
+				title: "{atm9.quest.productiveBees.task.bee_breeding}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.productiveBees.breedingAndConverting}"
+			title: "{atm9.quest.productiveBees.bee_breeding}"
 			x: 1.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			description: [
-				"{atm9.quest.productiveBees.desc.beeFarmFactory.1}"
-				""
-				"{atm9.quest.productiveBees.desc.beeFarmFactory.2}"
-				""
-				"{atm9.quest.productiveBees.desc.beeFarmFactory.3}"
-				""
-				"{atm9.quest.productiveBees.desc.beeFarmFactory.4}"
+				"{atm9.quest.productiveBees.desc.nest_spawning}"
 			]
 			id: "120BDCB70AD352AC"
 			rewards: [{
@@ -4004,10 +3925,10 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.honeyTreatsRequired}"
+			subtitle: "{atm9.quest.productiveBees.subt.nest_spawning}"
 			tasks: [{
 				id: "359396879CBA62D5"
-				title: "{atm9.quest.productiveBees.nestSpawning}"
+				title: "{atm9.quest.productiveBees.task.nest_spawning}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -4015,7 +3936,7 @@
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
-			description: ["{atm9.quest.productiveBees.desc.expansionBoxes}"]
+			description: ["{atm9.quest.productiveBees.desc.expansion_boxes}"]
 			id: "47CEFA06392C4211"
 			rewards: [
 				{
@@ -4031,7 +3952,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.increasingBeeStorage}"
+			subtitle: "{atm9.quest.productiveBees.subt.expansion_boxes}"
 			tasks: [{
 				icon: "productivebees:expansion_box_oak"
 				id: "5860D1574D18BA1A"
@@ -4042,7 +3963,7 @@
 						value: "productivebees:expansion_boxes"
 					}
 				}
-				title: "{atm9.quest.productiveBees.expansionBox}"
+				title: "{atm9.quest.productiveBees.task.expansion_boxes}"
 				type: "item"
 			}]
 			x: 2.0d
@@ -4051,11 +3972,7 @@
 		{
 			dependencies: ["131EC039435B8878"]
 			description: [
-				"{atm9.quest.productiveBees.desc.atmBees.1}"
-				""
-				"{atm9.quest.productiveBees.desc.atmBees.2}"
-				""
-				"{atm9.quest.productiveBees.desc.atmBees.3}"
+				"{atm9.quest.productiveBees.desc.atm_bees}"
 			]
 			icon: "allthemodium:allthemodium_ore"
 			id: "4C0302FF4F63B52E"
@@ -4066,7 +3983,7 @@
 			}]
 			tasks: [{
 				id: "6754D9E162472CA1"
-				title: "{atm9.quest.productiveBees.allthemodiumProgression}"
+				title: "{atm9.quest.productiveBees.task.atm_bees}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -4075,9 +3992,7 @@
 		{
 			dependencies: ["29EE878BC8D3A742"]
 			description: [
-				"{atm9.quest.productiveBees.desc.eccentricTome.1}"
-				""
-				"{atm9.quest.productiveBees.desc.eccentricTome.2}"
+				"{atm9.quest.productiveBees.desc.guide_book}"
 			]
 			id: "6C9E88A61ECCF898"
 			optional: true
@@ -4086,7 +4001,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.beeManual}"
+			subtitle: "{atm9.quest.productiveBees.subt.guide_book}"
 			tasks: [{
 				id: "7CB163461B2D1723"
 				item: {
@@ -4103,7 +4018,7 @@
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
-			description: ["{atm9.quest.productiveBees.desc.collectingGenes}"]
+			description: ["{atm9.quest.productiveBees.desc.gene_indexer}"]
 			hide_dependency_lines: true
 			id: "419DD6FE84B91749"
 			rewards: [
@@ -4119,7 +4034,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.geneCombinerChest}"
+			subtitle: "{atm9.quest.productiveBees.subt.gene_indexer}"
 			tasks: [{
 				id: "2E829A75260DFF75"
 				item: "productivebees:gene_indexer"
@@ -4131,13 +4046,8 @@
 		{
 			dependencies: ["7C169A4A39F37FAC"]
 			description: [
-				"{atm9.quest.productiveBees.desc.bottlerUses.1}"
+				"{atm9.quest.productiveBees.desc.bottler}"
 				""
-				"{atm9.quest.productiveBees.desc.bottlerUses.2}"
-				""
-				"{atm9.quest.productiveBees.desc.bottlerUses.3}"
-				""
-				"{atm9.quest.productiveBees.desc.bottlerUses.4}"
 				"{image:atm:textures/questpics/bees/bottler.png width:100 height:150 align:1}"
 			]
 			hide_dependency_lines: true
@@ -4161,7 +4071,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.honeyISquishedTheBees}"
+			subtitle: "{atm9.quest.productiveBees.subt.bottler}"
 			tasks: [{
 				id: "531FB6E56B95C1CA"
 				item: "productivebees:bottler"
@@ -4173,9 +4083,7 @@
 		{
 			dependencies: ["7C169A4A39F37FAC"]
 			description: [
-				"{atm9.quest.productiveBees.desc.beeCatcher.1}"
-				""
-				"{atm9.quest.productiveBees.desc.beeCatcher.2}"
+				"{atm9.quest.productiveBees.desc.catcher}"
 			]
 			hide_dependency_lines: true
 			id: "7B5A0BFD47D96BDE"
@@ -4192,7 +4100,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.catchesBees}"
+			subtitle: "{atm9.quest.productiveBees.subt.catcher}"
 			tasks: [{
 				id: "4FCB8A72367ADF6E"
 				item: "productivebees:catcher"
@@ -4204,13 +4112,7 @@
 		{
 			dependencies: ["7C169A4A39F37FAC"]
 			description: [
-				"{atm9.quest.productiveBees.desc.beeDaycare.1}"
-				""
-				"{atm9.quest.productiveBees.desc.beeDaycare.2}"
-				""
-				"{atm9.quest.productiveBees.desc.beeDaycare.3}"
-				""
-				"{atm9.quest.productiveBees.desc.beeDaycare.4}"
+				"{atm9.quest.productiveBees.desc.incubator}"
 			]
 			hide_dependency_lines: true
 			id: "3E301F3EEC8C763A"
@@ -4227,7 +4129,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.babyBeeDaycare}"
+			subtitle: "{atm9.quest.productiveBees.subt.incubator}"
 			tasks: [{
 				id: "3D89286F2B7BF9FB"
 				item: "productivebees:incubator"
@@ -4239,11 +4141,7 @@
 		{
 			dependencies: ["7C169A4A39F37FAC"]
 			description: [
-				"{atm9.quest.productiveBees.desc.showingOffBees.1}"
-				""
-				"{atm9.quest.productiveBees.desc.showingOffBees.2}"
-				""
-				"{atm9.quest.productiveBees.desc.showingOffBees.3}"
+				"{atm9.quest.productiveBees.desc.jar_oak}"
 			]
 			hide_dependency_lines: true
 			id: "32FDC5FFA000DAF8"
@@ -4260,7 +4158,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.productiveBees.subt.showingOffBees}"
+			subtitle: "{atm9.quest.productiveBees.subt.jar_oak}"
 			tasks: [{
 				id: "4DA861A4D91D15D5"
 				item: "productivebees:jar_oak"
@@ -4271,7 +4169,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			description: ["{atm9.quest.productiveBees.desc.luresGoldBee}"]
+			description: ["{atm9.quest.productiveBees.desc.nether_gold_nest}"]
 			hide_dependency_lines: true
 			id: "160BD0185954C891"
 			rewards: [{
@@ -4279,7 +4177,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.productiveBees.subt.luresGoldBee}"
+			subtitle: "{atm9.quest.productiveBees.subt.nether_gold_nest}"
 			tasks: [{
 				id: "4EE84594A8A996AF"
 				item: "productivebees:nether_gold_nest"
@@ -4363,12 +4261,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -4388,12 +4281,12 @@
 				{
 					disable_toast: true
 					id: "7B7D16D9A49B8308"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "012F21258836AF43"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

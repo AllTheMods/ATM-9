@@ -88,8 +88,9 @@
 			y: 3.5d
 		}
 		{
+			click: " "
 			height: 11.0d
-			hover: ["atm9.quest.mekanismReactors.fusionReactor"]
+			hover: ["atm9.quest.mekanismReactors.hover.fusion"]
 			image: "atm:textures/questpics/mek/fusion_cutout.png"
 			rotation: 0.0d
 			width: 10.627118644067796d
@@ -97,8 +98,9 @@
 			y: -13.0d
 		}
 		{
+			click: " "
 			height: 12.0d
-			hover: ["atm9.quest.mekanismReactors.industrialTurbine"]
+			hover: ["atm9.quest.mekanismReactors.hover.turbine"]
 			image: "atm:textures/questpics/mek/turbine_cutout.png"
 			rotation: 0.0d
 			width: 10.536144578313253d
@@ -106,8 +108,9 @@
 			y: 0.0d
 		}
 		{
+			click: " "
 			height: 10.0d
-			hover: ["atm9.quest.mekanismReactors.fissionReactor"]
+			hover: ["atm9.quest.mekanismReactors.hover.fission"]
 			image: "atm:textures/questpics/mek/fission_cutout.png"
 			rotation: 0.0d
 			width: 9.661016949152541d
@@ -115,8 +118,9 @@
 			y: 9.5d
 		}
 		{
+			click: " "
 			height: 10.0d
-			hover: ["atm9.quest.mekanismReactors.supercriticalPhaseShifter"]
+			hover: ["atm9.quest.mekanismReactors.hover.sps"]
 			image: "atm:textures/questpics/mek/sps_cutout.png"
 			rotation: 0.0d
 			width: 12.687687687687689d
@@ -182,8 +186,9 @@
 			y: -4.0d
 		}
 		{
+			click: " "
 			height: 0.3d
-			hover: ["atm9.quest.ae2.img.star"]
+			hover: ["atm9.quest.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -191,8 +196,9 @@
 			y: -9.0d
 		}
 		{
+			click: " "
 			height: 0.3d
-			hover: ["atm9.quest.ae2.img.star"]
+			hover: ["atm9.quest.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -207,11 +213,7 @@
 		{
 			dependencies: ["24174700F7FB771C"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.fissionReactorIntro.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fissionReactorIntro.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fissionReactorIntro.3}"
+				"{atm9.quest.mekanismReactors.desc.hazmat_suit}"
 			]
 			id: "36B1995B495AA674"
 			min_width: 350
@@ -229,7 +231,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "{atm9.quest.mekanismReactors.subt.radiationProtection}"
+			subtitle: "{atm9.quest.mekanismReactors.subt.hazmat_suit}"
 			tasks: [
 				{
 					id: "14BF9ADCB8F43ADC"
@@ -252,22 +254,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.suitingUp}"
+			title: "{atm9.quest.mekanismReactors.hazmat_suit}"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["36B1995B495AA674"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.reactorBuildingBasics.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorBuildingBasics.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorBuildingBasics.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorBuildingBasics.4}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorBuildingBasics.5}"
+				"{atm9.quest.mekanismReactors.desc.fission_reactor}"
 			]
 			hide_until_deps_visible: false
 			id: "1482F2D45E8F761D"
@@ -286,7 +280,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{atm9.quest.mekanismReactors.subt.casingsAndGlass}"
+			subtitle: "{atm9.quest.mekanismReactors.subt.fission_reactor}"
 			tasks: [
 				{
 					count: 44L
@@ -301,23 +295,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.fissionReactorBuildingBasics}"
+			title: "{atm9.quest.mekanismReactors.fission_reactor}"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1482F2D45E8F761D"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.fissionReactorPorts.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fissionReactorPorts.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fissionReactorPorts.3}"
-				"{atm9.quest.mekanismReactors.desc.fissionReactorPorts.4}"
-				"{atm9.quest.mekanismReactors.desc.fissionReactorPorts.5}"
-				"{atm9.quest.mekanismReactors.desc.fissionReactorPorts.6}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fissionReactorPorts.7}"
+				"{atm9.quest.mekanismReactors.desc.fission_reactor_port}"
 				""
 				"{image:atm:textures/questpics/mek/port_example.png width:200 height:200 align:1}"
 			]
@@ -343,20 +328,14 @@
 				item: "mekanismgenerators:fission_reactor_port"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.interactingWithFissionReactor}"
+			title: "{atm9.quest.mekanismReactors.fission_reactor_port}"
 			x: 1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1482F2D45E8F761D"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.reactorSafety.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorSafety.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorSafety.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorSafety.4}"
+				"{atm9.quest.mekanismReactors.desc.fission_logic_adapter}"
 				""
 				"{image:atm:textures/questpics/mek/logic_adapter.png width:150 height:125 align:1}"
 			]
@@ -369,22 +348,20 @@
 				xp: 50
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.mekanismReactors.subt.blowUpReactor}"
+			subtitle: "{atm9.quest.mekanismReactors.subt.fission_logic_adapter}"
 			tasks: [{
 				id: "16B10EA105CCC1D3"
 				item: "mekanismgenerators:fission_reactor_logic_adapter"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.reactorFailSafe}"
+			title: "{atm9.quest.mekanismReactors.fission_logic_adapter}"
 			x: 1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["1482F2D45E8F761D"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.reactorAssembly.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorAssembly.2}"
+				"{atm9.quest.mekanismReactors.desc.fission_fuel_assembly}"
 				""
 				"{image:atm:textures/questpics/mek/rod_example.png width:250 height:200 align:1}"
 			]
@@ -417,24 +394,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.insideReactorFuelControl}"
+			title: "{atm9.quest.mekanismReactors.fission_fuel_assembly}"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5FDB48511EC1C580"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.circuitBreaker.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.circuitBreaker.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.circuitBreaker.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.circuitBreaker.4}"
-				""
-				"{atm9.quest.mekanismReactors.desc.circuitBreaker.5}"
-				""
-				"{atm9.quest.mekanismReactors.desc.circuitBreaker.6}"
+				"{atm9.quest.mekanismReactors.desc.circuit_breaker}"
 				""
 				"{image:atm:textures/questpics/mek/example_circuit.png width:200 height:250 align:1}"
 			]
@@ -456,7 +423,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.mekanismReactors.subt.ponderVisual}"
+			subtitle: "{atm9.quest.mekanismReactors.subt.circuit_breaker}"
 			tasks: [
 				{
 					count: 2L
@@ -487,7 +454,7 @@
 							]
 						}
 					}
-					title: "{atm9.quest.mekanismReactors.gravelOrSand}"
+					title: "{atm9.quest.mekanismReactors.task.circuit_breaker}"
 					type: "item"
 				}
 				{
@@ -501,20 +468,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.exampleCircuitBreaker}"
+			title: "{atm9.quest.mekanismReactors.circuit_breaker}"
 			x: 1.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["1DE8B0C9A7195720"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.reactorCooling.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorCooling.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorCooling.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorCooling.4}"
+				"{atm9.quest.mekanismReactors.desc.sink}"
 			]
 			id: "2B76B2F18C2C47D2"
 			min_width: 300
@@ -533,13 +494,13 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.mekanismReactors.subt.highQualityH2O}"
+			subtitle: "{atm9.quest.mekanismReactors.subt.sink}"
 			tasks: [{
 				id: "7E8281C007094843"
 				item: "cookingforblockheads:sink"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.coolingOurReactor}"
+			title: "{atm9.quest.mekanismReactors.sink}"
 			x: 3.0d
 			y: 4.0d
 		}
@@ -549,15 +510,7 @@
 				"3F5010269469EBE0"
 			]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.reactorCompletion.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorCompletion.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorCompletion.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorCompletion.4}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorCompletion.5}"
+				"{atm9.quest.mekanismReactors.desc.geiger_counter}"
 				""
 				"{image:atm:textures/questpics/mek/reactor_interface_1.png width:200 height:150 align:1}"
 				"{image:atm:textures/questpics/mek/reactor_interface_2.png width:200 height:150 align:1}"
@@ -581,22 +534,20 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "{atm9.quest.mekanismReactors.subt.numbers}"
+			subtitle: "{atm9.quest.mekanismReactors.subt.geiger_counter}"
 			tasks: [{
 				id: "7231A50B09F6218A"
 				item: "mekanismgenerators:fission_reactor_casing"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.fissionReactorInterface}"
+			title: "{atm9.quest.mekanismReactors.geiger_counter}"
 			x: 3.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3B81800EE6E77EF2"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.uraniumUses.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.uraniumUses.2}"
+				"{atm9.quest.mekanismReactors.desc.uranium}"
 			]
 			icon: "mekanism:yellow_cake_uranium"
 			id: "7E17AB5A4492929E"
@@ -614,7 +565,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.mekanismReactors.subt.uraniumUse}"
+			subtitle: "{atm9.quest.mekanismReactors.subt.uranium}"
 			tasks: [
 				{
 					id: "5641530385DCA6A7"
@@ -634,7 +585,7 @@
 		}
 		{
 			dependencies: ["7E17AB5A4492929E"]
-			description: ["{atm9.quest.mekanismReactors.desc.yellowCakeProcess}"]
+			description: ["{atm9.quest.mekanismReactors.desc.chemical_oxidizer}"]
 			id: "3AF4E5D4839CEF8B"
 			progression_mode: "linear"
 			rewards: [
@@ -659,20 +610,18 @@
 				{
 					icon: "mekanism:basic_chemical_tank"
 					id: "29D6CA9A77ACACC6"
-					title: "{atm9.quest.mekanismReactors.observeUraniumOxide}"
+					title: "{atm9.quest.mekanismReactors.task.chemical_oxidizer}"
 					type: "checkmark"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.uraniumOxide}"
+			title: "{atm9.quest.mekanismReactors.chemical_oxidizer}"
 			x: 7.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7E4A95B6443F23BC"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.reactorSetup.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorSetup.2}"
+				"{atm9.quest.mekanismReactors.desc.welcome}"
 			]
 			icon: "mekanism:antiprotonic_nucleosynthesizer"
 			id: "24174700F7FB771C"
@@ -684,10 +633,10 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{atm9.quest.mekanismReactors.subt.advancedMekanismRequired}"
+			subtitle: "{atm9.quest.mekanismReactors.subt.welcome}"
 			tasks: [{
 				id: "3153288DCE1C4FEF"
-				title: "{atm9.quest.mekanismReactors.advancedMekanism}"
+				title: "{atm9.quest.mekanismReactors.task.welcome}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -696,9 +645,7 @@
 		{
 			dependencies: ["1DE8B0C9A7195720"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.fissileFuel.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fissileFuel.2}"
+				"{atm9.quest.mekanismReactors.desc.fissile_fuel}"
 			]
 			icon: "mekanism:reprocessed_fissile_fragment"
 			id: "3B81800EE6E77EF2"
@@ -709,7 +656,7 @@
 			}]
 			tasks: [{
 				id: "382818E289EC83A6"
-				title: "{atm9.quest.mekanismReactors.fissileFuelProduction}"
+				title: "{atm9.quest.mekanismReactors.task.fissile_fuel}"
 				type: "checkmark"
 			}]
 			x: 4.5d
@@ -718,13 +665,7 @@
 		{
 			dependencies: ["3B81800EE6E77EF2"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.sulfuricAcid.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.sulfuricAcid.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.sulfuricAcid.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.sulfuricAcid.4}"
+				"{atm9.quest.mekanismReactors.desc.sulfur_dust}"
 			]
 			icon: "gtceu:sulfur_dust"
 			id: "31EEE2875595F315"
@@ -742,7 +683,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{atm9.quest.mekanismReactors.subt.quickRecap}"
+			subtitle: "{atm9.quest.mekanismReactors.subt.sulfur_dust}"
 			tasks: [{
 				id: "14A09EAF150777A3"
 				item: {
@@ -752,19 +693,17 @@
 						value: "forge:dusts/sulfur"
 					}
 				}
-				title: "{atm9.quest.mekanismReactors.sulfurDust}"
+				title: "{atm9.quest.mekanismReactors.task.sulfur_dust}"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.sulfuricAcid}"
+			title: "{atm9.quest.mekanismReactors.sulfur_dust}"
 			x: 5.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["31EEE2875595F315"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.hydrofluoricAcid.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.hydrofluoricAcid.2}"
+				"{atm9.quest.mekanismReactors.desc.fluorite}"
 			]
 			id: "187A3F5B41D1C923"
 			progression_mode: "linear"
@@ -791,7 +730,7 @@
 							value: "forge:gems/fluorite"
 						}
 					}
-					title: "{atm9.quest.mekanismReactors.fluorite}"
+					title: "{atm9.quest.mekanismReactors.task.fluorite}"
 					type: "item"
 				}
 				{
@@ -800,7 +739,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.hydrofluoricAcid}"
+			title: "{atm9.quest.mekanismReactors.fluorite}"
 			x: 7.0d
 			y: 1.5d
 		}
@@ -809,7 +748,7 @@
 				"187A3F5B41D1C923"
 				"3AF4E5D4839CEF8B"
 			]
-			description: ["{atm9.quest.mekanismReactors.desc.uraniumHexafluoride}"]
+			description: ["{atm9.quest.mekanismReactors.desc.chemical_infuser}"]
 			id: "3663E93E169EF8E3"
 			progression_mode: "linear"
 			rewards: [
@@ -830,16 +769,14 @@
 				item: "mekanism:chemical_infuser"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.uraniumHexafluoride}"
+			title: "{atm9.quest.mekanismReactors.chemical_infuser}"
 			x: 8.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3663E93E169EF8E3"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.isotopicCentrifuge.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.isotopicCentrifuge.2}"
+				"{atm9.quest.mekanismReactors.desc.isotopic_centrifuge}"
 			]
 			icon: "mekanism:isotopic_centrifuge"
 			id: "16A6C47E35F3B9D0"
@@ -864,22 +801,14 @@
 				item: "mekanism:isotopic_centrifuge"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.fissileFuel}"
+			title: "{atm9.quest.mekanismReactors.isotopic_centrifuge}"
 			x: 9.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3FFF9018DA2A2763"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.checklist.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.checklist.2}"
-				"{atm9.quest.mekanismReactors.desc.checklist.3}"
-				"{atm9.quest.mekanismReactors.desc.checklist.4}"
-				"{atm9.quest.mekanismReactors.desc.checklist.5}"
-				"{atm9.quest.mekanismReactors.desc.checklist.6}"
-				""
-				"{atm9.quest.mekanismReactors.desc.checklist.7}"
+				"{atm9.quest.mekanismReactors.desc.booting_up}"
 			]
 			icon: "chipped:hazard_red_concrete"
 			id: "3591EAA8E397F992"
@@ -893,23 +822,17 @@
 			size: 1.5d
 			tasks: [{
 				id: "27709080B4B77B09"
-				title: "{atm9.quest.mekanismReactors.readyToGo}"
+				title: "{atm9.quest.mekanismReactors.task.booting_up}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.mekanismReactors.bootingUpReactor}"
+			title: "{atm9.quest.mekanismReactors.booting_up}"
 			x: 9.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["16A6C47E35F3B9D0"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.reactorOperation.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorOperation.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorOperation.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorOperation.4}"
+				"{atm9.quest.mekanismReactors.desc.radioactive_waste_barrel}"
 			]
 			id: "3FFF9018DA2A2763"
 			min_width: 300
@@ -932,18 +855,14 @@
 				item: "mekanism:radioactive_waste_barrel"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.dealingWithNuclearWaste}"
+			title: "{atm9.quest.mekanismReactors.radioactive_waste_barrel}"
 			x: 9.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3591EAA8E397F992"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.nuclearWasteProcessing.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.nuclearWasteProcessing.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.nuclearWasteProcessing.3}"
+				"{atm9.quest.mekanismReactors.desc.pellet_plutonium}"
 			]
 			id: "2E9FC7DC2AC6FD8E"
 			rewards: [
@@ -970,11 +889,7 @@
 		{
 			dependencies: ["3591EAA8E397F992"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.nuclearWasteProcess.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.nuclearWasteProcess.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.nuclearWasteProcess.3}"
+				"{atm9.quest.mekanismReactors.desc.pellet_polonium}"
 			]
 			id: "1FAAF8216CDC3AC6"
 			rewards: [
@@ -1004,9 +919,7 @@
 				"1FAAF8216CDC3AC6"
 			]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.spsConstruction.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.spsConstruction.2}"
+				"{atm9.quest.mekanismReactors.desc.sps}"
 			]
 			id: "068728DE3B9B13C3"
 			progression_mode: "linear"
@@ -1050,23 +963,17 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.spsTitle}"
+			title: "{atm9.quest.mekanismReactors.sps}"
 			x: 6.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["1FAAF8216CDC3AC6"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.fusionReactor.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fusionReactor.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fusionReactor.3}"
+				"{atm9.quest.mekanismReactors.desc.fusion_reactor.part1}"
 				"{image:atm:textures/questpics/mek/fusion_pattern.png width:175 height:175 align:1}"
 				""
-				"{atm9.quest.mekanismReactors.desc.fusionReactor.4}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fusionReactor.5}"
+				"{atm9.quest.mekanismReactors.desc.fusion_reactor.part2}"
 				""
 				"{image:atm:textures/questpics/mek/completed_fusion_reactor.png width:175 height:150 align:1}"
 			]
@@ -1088,7 +995,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{atm9.quest.mekanismReactors.subt.bestPowerSource}"
+			subtitle: "{atm9.quest.mekanismReactors.subt.fusion_reactor}"
 			tasks: [
 				{
 					id: "4005EDF7A97FD97D"
@@ -1114,16 +1021,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.fusionReactorTitle}"
+			title: "{atm9.quest.mekanismReactors.fusion_reactor}"
 			x: 8.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["068728DE3B9B13C3"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.superchargedCoils.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.superchargedCoils.2}"
+				"{atm9.quest.mekanismReactors.desc.supercharged_coil}"
 				""
 				"{image:atm:textures/questpics/mek/sps_coils.png width:200 height:125 align:1}"
 			]
@@ -1152,22 +1057,18 @@
 				item: "mekanism:supercharged_coil"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.superchargedCoilsTitle}"
+			title: "{atm9.quest.mekanismReactors.supercharged_coil}"
 			x: 6.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2331FCDD2F2B709A"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.buildSPS.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.buildSPS.2}"
+				"{atm9.quest.mekanismReactors.desc.build_sps.part1}"
 				""
 				"{image:atm:textures/questpics/mek/basic_sps_shape.png width:250 height:225 align:1}"
 				""
-				"{atm9.quest.mekanismReactors.desc.buildSPS.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.buildSPS.4}"
+				"{atm9.quest.mekanismReactors.desc.build_sps.part2}"
 				""
 				"{image:atm:textures/questpics/mek/sps_complete.png width:300 height:250 align:1}"
 			]
@@ -1193,16 +1094,14 @@
 				item: "mekanism:sps_casing"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.buildSPSTitle}"
+			title: "{atm9.quest.mekanismReactors.build_sps}"
 			x: 6.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["2B3F2F470E06BC40"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.antimatterPellets.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.antimatterPellets.2}"
+				"{atm9.quest.mekanismReactors.desc.pellet_antimatter}"
 			]
 			id: "00EFC7B327E79076"
 			rewards: [
@@ -1231,15 +1130,7 @@
 		{
 			dependencies: ["79757F66DF263FA0"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.laserFocusArray.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.laserFocusArray.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.laserFocusArray.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.laserFocusArray.4}"
-				""
-				"{atm9.quest.mekanismReactors.desc.laserFocusArray.5}"
+				"{atm9.quest.mekanismReactors.desc.laser}"
 				""
 				"{image:atm:textures/questpics/mek/laser_example.png width:200 height:150 align:1} "
 			]
@@ -1271,13 +1162,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.laserFocusArrayTitle}"
+			title: "{atm9.quest.mekanismReactors.laser}"
 			x: 14.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["12D271359D48210E"]
-			description: ["{atm9.quest.mekanismReactors.desc.tritiumProduction}"]
+			description: ["{atm9.quest.mekanismReactors.desc.tritium}"]
 			id: "57534FA0E09C4975"
 			rewards: [
 				{
@@ -1297,18 +1188,14 @@
 				item: "mekanism:solar_neutron_activator"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.tritiumTitle}"
+			title: "{atm9.quest.mekanismReactors.tritium}"
 			x: 12.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["12D271359D48210E"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.deuteriumProduction.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.deuteriumProduction.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.deuteriumProduction.3}"
+				"{atm9.quest.mekanismReactors.desc.deuterium}"
 			]
 			icon: "mekanism:electric_pump"
 			id: "4ABF0727AA569DD9"
@@ -1337,7 +1224,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.deuteriumTitle}"
+			title: "{atm9.quest.mekanismReactors.deuterium}"
 			x: 12.5d
 			y: -8.5d
 		}
@@ -1347,9 +1234,7 @@
 				"4ABF0727AA569DD9"
 			]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.fuelInjector.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fuelInjector.2}"
+				"{atm9.quest.mekanismReactors.desc.hohlraum}"
 			]
 			id: "3593D955361B0C6D"
 			rewards: [
@@ -1370,18 +1255,14 @@
 				item: "mekanismgenerators:hohlraum"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.fuelInjectorTitle}"
+			title: "{atm9.quest.mekanismReactors.hohlraum}"
 			x: 14.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["0152C49AB74B9D32"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.reactorActivation.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorActivation.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.reactorActivation.3}"
+				"{atm9.quest.mekanismReactors.desc.laser_focus_matrix}"
 			]
 			icon: "mekanism:laser"
 			id: "79757F66DF263FA0"
@@ -1404,18 +1285,14 @@
 				item: "mekanismgenerators:laser_focus_matrix"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.frickinLaserBeams}"
+			title: "{atm9.quest.mekanismReactors.laser_focus_matrix}"
 			x: 10.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["0152C49AB74B9D32"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.fuelRequirement.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fuelRequirement.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fuelRequirement.3}"
+				"{atm9.quest.mekanismReactors.desc.fusion_fuel}"
 			]
 			icon: "mekanismgenerators:fusion_fuel_bucket"
 			id: "12D271359D48210E"
@@ -1426,10 +1303,10 @@
 			}]
 			tasks: [{
 				id: "2A6E713A062510B6"
-				title: "{atm9.quest.mekanismReactors.fuelingTheReactor}"
+				title: "{atm9.quest.mekanismReactors.task.fusion_fuel}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.mekanismReactors.fuelingTheFusionReactor}"
+			title: "{atm9.quest.mekanismReactors.fusion_fuel}"
 			x: 10.5d
 			y: -8.0d
 		}
@@ -1439,16 +1316,7 @@
 				"3593D955361B0C6D"
 			]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.fusionReactorPrep.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fusionReactorPrep.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fusionReactorPrep.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fusionReactorPrep.4}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fusionReactorPrep.5}"
-				""
+				"{atm9.quest.mekanismReactors.desc.fusion_control}"
 				""
 				"{image:atm:textures/questpics/mek/fusion_activated.png width:225 height:150 align:1}"
 			]
@@ -1490,20 +1358,14 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.ready}"
+			title: "{atm9.quest.mekanismReactors.fusion_control}"
 			x: 17.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["54D8B9CB3F98040F"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.fusionReactorIntro.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fusionReactorIntro.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fusionReactorIntro.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.fusionReactorIntro.4}"
+				"{atm9.quest.mekanismReactors.desc.forge_energy}"
 				""
 				"{image:atm:textures/questpics/mek/fusion_fuelui1.png width:175 height:150 align:1}"
 			]
@@ -1533,20 +1395,14 @@
 				type: "forge_energy"
 				value: 50000000L
 			}]
-			title: "{atm9.quest.mekanismReactors.endGamePowerSource}"
+			title: "{atm9.quest.mekanismReactors.forge_energy}"
 			x: 20.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["3FFF9018DA2A2763"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.industrialTurbine.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.industrialTurbine.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.industrialTurbine.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.industrialTurbine.4}"
+				"{atm9.quest.mekanismReactors.desc.turbine}"
 				""
 				"{image:atm:textures/questpics/mek/turbine_completed.png width:200 height:225 align:1}"
 			]
@@ -1566,7 +1422,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "{atm9.quest.mekanismReactors.buildingFrame}"
+			subtitle: "{atm9.quest.mekanismReactors.subt.turbine}"
 			tasks: [
 				{
 					count: 52L
@@ -1581,18 +1437,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.industrialTurbine.1}"
+			title: "{atm9.quest.mekanismReactors.turbine}"
 			x: 12.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6313B18820445882"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.turbineValves.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.turbineValves.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.turbineValves.3}"
+				"{atm9.quest.mekanismReactors.desc.turbine_ports}"
 			]
 			id: "233E438357CD89F6"
 			min_width: 300
@@ -1630,20 +1482,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.ports}"
+			title: "{atm9.quest.mekanismReactors.turbine_ports}"
 			x: 14.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6313B18820445882"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.turbineRotor.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.turbineRotor.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.turbineRotor.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.turbineRotor.4}"
+				"{atm9.quest.mekanismReactors.desc.turbine_rotor}"
 			]
 			id: "05D20B506213A449"
 			min_width: 300
@@ -1686,16 +1532,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.rotor}"
+			title: "{atm9.quest.mekanismReactors.turbine_rotor}"
 			x: 14.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6313B18820445882"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.electromagneticCoil}"
-				""
-				"{atm9.quest.mekanismReactors.desc.electromagneticCoil.2}"
+				"{atm9.quest.mekanismReactors.desc.electromagnetic_coil}"
 			]
 			id: "7C61906C6C87C97D"
 			rewards: [
@@ -1727,15 +1571,7 @@
 				"05D20B506213A449"
 			]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.turbineOperation.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.turbineOperation.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.turbineOperation.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.turbineOperation.4}"
-				""
-				"{atm9.quest.mekanismReactors.desc.turbineOperation.5}"
+				"{atm9.quest.mekanismReactors.desc.turbine_power}"
 			]
 			id: "4189BC3DFB551F4C"
 			min_width: 300
@@ -1760,18 +1596,14 @@
 				item: "mekanismgenerators:turbine_casing"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.creatingPower}"
+			title: "{atm9.quest.mekanismReactors.turbine_power}"
 			x: 15.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["24174700F7FB771C"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.powerStorage.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.powerStorage.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.powerStorage.3}"
+				"{atm9.quest.mekanismReactors.desc.lithium_dust}"
 			]
 			icon: "mekanism:upgrade_energy"
 			id: "0FF852DE33E41C90"
@@ -1799,21 +1631,17 @@
 						value: "forge:dusts/lithium"
 					}
 				}
-				title: "{atm9.quest.mekanismReactors.lithiumDust}"
+				title: "{atm9.quest.mekanismReactors.task.lithium_dust}"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.advancedPowerStorage}"
+			title: "{atm9.quest.mekanismReactors.lithium_dust}"
 			x: 3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0FF852DE33E41C90"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.inductionMatrix.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.inductionMatrix.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.inductionMatrix.3}"
+				"{atm9.quest.mekanismReactors.desc.induction_matrix}"
 				""
 				"{image:atm:textures/questpics/mek/induction_matrix.png width:200 height:200 align:1}"
 			]
@@ -1834,7 +1662,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.mekanismReactors.energyCubePapa}"
+			subtitle: "{atm9.quest.mekanismReactors.subt.induction_matrix}"
 			tasks: [
 				{
 					count: 44L
@@ -1855,20 +1683,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.buildingInductionMatrix}"
+			title: "{atm9.quest.mekanismReactors.induction_matrix}"
 			x: 4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0FF852DE33E41C90"]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.inductionMatrixDetails.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.inductionMatrixDetails.2}"
-				""
-				"{atm9.quest.mekanismReactors.desc.inductionMatrixDetails.3}"
-				""
-				"{atm9.quest.mekanismReactors.desc.inductionMatrixDetails.4}"
+				"{atm9.quest.mekanismReactors.desc.induction_detail}"
 				""
 				"{image:atm:textures/questpics/mek/induction_inside.png width:300 height:200 align:1}"
 			]
@@ -1916,7 +1738,7 @@
 							]
 						}
 					}
-					title: "{atm9.quest.mekanismReactors.inductionCells}"
+					title: "{atm9.quest.mekanismReactors.task.induction_detail.cell}"
 					type: "item"
 				}
 				{
@@ -1945,11 +1767,11 @@
 							]
 						}
 					}
-					title: "{atm9.quest.mekanismReactors.inductionProviders}"
+					title: "{atm9.quest.mekanismReactors.task.induction_detail.provider}"
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanismReactors.customizingPowerLimits}"
+			title: "{atm9.quest.mekanismReactors.induction_detail}"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -1959,9 +1781,7 @@
 				"14D772808D1BEAE2"
 			]
 			description: [
-				"{atm9.quest.mekanismReactors.desc.matrixCompletion.1}"
-				""
-				"{atm9.quest.mekanismReactors.desc.matrixCompletion.2}"
+				"{atm9.quest.mekanismReactors.desc.induction_complete}"
 			]
 			icon: "mekanism:ultimate_induction_cell"
 			id: "07ECC87DFF2D3991"
@@ -1986,19 +1806,14 @@
 				item: "mekanism:induction_casing"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanismReactors.completingMatrix}"
+			title: "{atm9.quest.mekanismReactors.induction_complete}"
 			x: 5.0d
 			y: -1.0d
 		}
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -2018,12 +1833,12 @@
 				{
 					disable_toast: true
 					id: "43556EEA05422924"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "314BB5005E524D0A"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

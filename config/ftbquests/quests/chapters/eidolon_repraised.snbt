@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{atm9.quest.eidolonRepraised.desc.intro.1}\\n\\n{atm9.quest.eidolonRepraised.desc.intro.2}\\n\\n{atm9.quest.eidolonRepraised.desc.intro.3}\\n\\n{atm9.quest.eidolonRepraised.desc.intro.4}"]
+			description: ["{atm9.quest.eidolonRepraised.desc.welcome}"]
 			icon: "eidolon:codex"
 			id: "63E611810240C792"
 			rewards: [{
@@ -18,21 +18,20 @@
 				item: "eidolon:codex"
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.eidolonRepraised.subt.darkArts}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.welcome}"
 			tasks: [{
 				id: "15ED5ED72A7965B5"
-				title: "{atm9.quest.eidolonRepraised.welcome}"
+				title: "{atm9.quest.eidolonRepraised.task.welcome}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.eidolonRepraised.arsEcclesia}"
+			title: "{atm9.quest.eidolonRepraised.welcome}"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["63E611810240C792"]
 			description: [
-				"{atm9.quest.eidolonRepraised.desc.pewter.1}"
-				"{atm9.quest.eidolonRepraised.desc.pewter.2}"
+				"{atm9.quest.eidolonRepraised.desc.pewter}"
 			]
 			id: "14E7D8E642DE7463"
 			rewards: [{
@@ -41,7 +40,7 @@
 				item: "eidolon:pewter_ingot"
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.eidolonRepraised.subt.denseAlloy}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.pewter}"
 			tasks: [{
 				id: "158C7AED9CD3E86A"
 				item: "eidolon:pewter_ingot"
@@ -53,12 +52,10 @@
 		{
 			dependencies: ["14E7D8E642DE7463"]
 			description: [
-				"{atm9.quest.eidolonRepraised.desc.ritual.1}"
-				"{atm9.quest.eidolonRepraised.desc.ritual.2}"
-				"{atm9.quest.eidolonRepraised.desc.ritual.3}"
+				"{atm9.quest.eidolonRepraised.desc.ritual}"
 			]
 			id: "158F13367C2E0C6D"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.rumblyTumbleys}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.ritual}"
 			tasks: [
 				{
 					id: "031FAAB3C7C5C8DB"
@@ -78,11 +75,10 @@
 		{
 			dependencies: ["158F13367C2E0C6D"]
 			description: [
-				"{atm9.quest.eidolonRepraised.desc.workbench.1}"
-				"{atm9.quest.eidolonRepraised.desc.workbench.2}"
+				"{atm9.quest.eidolonRepraised.desc.worktable}"
 			]
 			id: "1F317D3C47F4543B"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.normalWorkbench}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.worktable}"
 			tasks: [
 				{
 					id: "578D3B745F4E4831"
@@ -101,9 +97,7 @@
 		{
 			dependencies: ["158F13367C2E0C6D"]
 			description: [
-				"{atm9.quest.eidolonRepraised.desc.crystallization.1}"
-				"{atm9.quest.eidolonRepraised.desc.crystallization.2}"
-				"{atm9.quest.eidolonRepraised.desc.crystallization.3}"
+				"{atm9.quest.eidolonRepraised.desc.soul_shard}"
 			]
 			id: "19E0397F810D8787"
 			rewards: [{
@@ -112,7 +106,7 @@
 				item: "eidolon:soul_shard"
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.eidolonRepraised.subt.undeadVibes}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.soul_shard}"
 			tasks: [{
 				id: "238EAD6EF1ACEF40"
 				item: "eidolon:soul_shard"
@@ -124,16 +118,10 @@
 		{
 			dependencies: ["1F317D3C47F4543B"]
 			description: [
-				"{atm9.quest.eidolonRepraised.desc.crucible.1}"
-				"{atm9.quest.eidolonRepraised.desc.crucible.2}"
-				""
-				"{atm9.quest.eidolonRepraised.desc.crucible.3}"
-				"{atm9.quest.eidolonRepraised.desc.crucible.4}"
-				"{atm9.quest.eidolonRepraised.desc.crucible.5}"
-				"{atm9.quest.eidolonRepraised.desc.crucible.6}"
+				"{atm9.quest.eidolonRepraised.desc.crucible}"
 			]
 			id: "704184F62CA78E1E"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.complicated}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.crucible}"
 			tasks: [{
 				id: "1852A283F796E3F8"
 				item: "eidolon:crucible"
@@ -145,11 +133,7 @@
 		{
 			dependencies: ["704184F62CA78E1E"]
 			description: [
-				"{atm9.quest.eidolonRepraised.desc.arcaneGold.1}"
-				"{atm9.quest.eidolonRepraised.desc.arcaneGold.2}"
-				"{atm9.quest.eidolonRepraised.desc.arcaneGold.3}"
-				"{atm9.quest.eidolonRepraised.desc.arcaneGold.4}"
-				"{atm9.quest.eidolonRepraised.desc.arcaneGold.5}"
+				"{atm9.quest.eidolonRepraised.desc.arcane_gold}"
 			]
 			id: "4224CC1F101E4069"
 			rewards: [{
@@ -158,7 +142,7 @@
 				item: "eidolon:arcane_gold_ingot"
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.eidolonRepraised.subt.magicalGold}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.arcane_gold}"
 			tasks: [{
 				id: "25257D6AE74BDAE8"
 				item: "eidolon:arcane_gold_ingot"
@@ -170,14 +154,10 @@
 		{
 			dependencies: ["704184F62CA78E1E"]
 			description: [
-				"{atm9.quest.eidolonRepraised.desc.chanting.1}"
-				"{atm9.quest.eidolonRepraised.desc.chanting.2}"
-				"{atm9.quest.eidolonRepraised.desc.chanting.3}"
-				"{atm9.quest.eidolonRepraised.desc.chanting.4}"
-				"{atm9.quest.eidolonRepraised.desc.chanting.5}"
+				"{atm9.quest.eidolonRepraised.desc.chanting}"
 			]
 			id: "54423ED491F170B5"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.hayHooZaeLa}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.chanting}"
 			tasks: [
 				{
 					id: "5252EBBF0EAAAA46"
@@ -196,20 +176,17 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.eidolonRepraised.darkWorship}"
+			title: "{atm9.quest.eidolonRepraised.chanting}"
 			x: 4.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["54423ED491F170B5"]
 			description: [
-				"{atm9.quest.eidolonRepraised.desc.animalSacrifice.1}"
-				"{atm9.quest.eidolonRepraised.desc.animalSacrifice.2}"
-				"{atm9.quest.eidolonRepraised.desc.animalSacrifice.3}"
-				"{atm9.quest.eidolonRepraised.desc.animalSacrifice.4}"
+				"{atm9.quest.eidolonRepraised.desc.unholy_symbol}"
 			]
 			id: "4699B9569F9E65A0"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.darknessFlow}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.unholy_symbol}"
 			tasks: [{
 				id: "4FEA60CE9D5B55D0"
 				item: "eidolon:unholy_symbol"
@@ -221,12 +198,10 @@
 		{
 			dependencies: ["4699B9569F9E65A0"]
 			description: [
-				"{atm9.quest.eidolonRepraised.desc.upgradeAltar.1}"
-				"{atm9.quest.eidolonRepraised.desc.upgradeAltar.2}"
-				"{atm9.quest.eidolonRepraised.desc.upgradeAltar.3}"
+				"{atm9.quest.eidolonRepraised.desc.stone_altar}"
 			]
 			id: "29ED1116682B0D10"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.authenticStone}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.stone_altar}"
 			tasks: [
 				{
 					id: "663CAF4D8465C3EA"
@@ -245,12 +220,10 @@
 		{
 			dependencies: ["4699B9569F9E65A0"]
 			description: [
-				"{atm9.quest.eidolonRepraised.desc.scytheFeatures.1}"
-				"{atm9.quest.eidolonRepraised.desc.scytheFeatures.2}"
-				"{atm9.quest.eidolonRepraised.desc.scytheFeatures.3}"
+				"{atm9.quest.eidolonRepraised.desc.reaper_scythe}"
 			]
 			id: "609DC65F437B72F1"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.burning}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.reaper_scythe}"
 			tasks: [{
 				id: "6C74160C4B74BE50"
 				item: {
@@ -267,9 +240,9 @@
 		}
 		{
 			dependencies: ["4699B9569F9E65A0"]
-			description: ["{atm9.quest.eidolonRepraised.desc.axeFeatures}"]
+			description: ["{atm9.quest.eidolonRepraised.desc.cleaving_axe}"]
 			id: "2CA71999959C0184"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.givesHead}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.cleaving_axe}"
 			tasks: [{
 				id: "3E7EFAF49B775EE7"
 				item: {
@@ -297,7 +270,6 @@
 		}
 		{
 			dependencies: ["704184F62CA78E1E"]
-			description: [""]
 			id: "691A7545CC65BEAE"
 			tasks: [{
 				id: "6205A7CD340F55EC"
@@ -309,9 +281,9 @@
 		}
 		{
 			dependencies: ["19741B9F0C926D68"]
-			description: ["{atm9.quest.eidolonRepraised.desc.armorFeatures}"]
+			description: ["{atm9.quest.eidolonRepraised.desc.warlock_suit}"]
 			id: "3FB61F95260D6B7B"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.lookPart}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.warlock_suit}"
 			tasks: [
 				{
 					id: "7089173717BAE4EB"
@@ -347,7 +319,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.eidolonRepraised.warlocksSuit}"
+			title: "{atm9.quest.eidolonRepraised.warlock_suit}"
 			x: 5.5d
 			y: 4.5d
 		}
@@ -368,7 +340,7 @@
 		{
 			dependencies: ["691A7545CC65BEAE"]
 			id: "17740696B9284520"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.terrariaComparison}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.soulfire_wand}"
 			tasks: [{
 				id: "05B7B38C6F1C626A"
 				item: {
@@ -386,7 +358,7 @@
 		{
 			dependencies: ["691A7545CC65BEAE"]
 			id: "5DC9848CC15DCACB"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.chillThrill}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.bonechill_wand}"
 			tasks: [{
 				id: "5507C36A909C47F6"
 				item: {
@@ -403,9 +375,9 @@
 		}
 		{
 			dependencies: ["19741B9F0C926D68"]
-			description: ["{atm9.quest.eidolonRepraised.desc.charmReach}"]
+			description: ["{atm9.quest.eidolonRepraised.desc.prestigious_palm}"]
 			id: "1F09F091F5CF4711"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.touchFaith}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.prestigious_palm}"
 			tasks: [{
 				id: "16645F2195151BDD"
 				item: "eidolon:prestigious_palm"
@@ -416,9 +388,9 @@
 		}
 		{
 			dependencies: ["691A7545CC65BEAE"]
-			description: ["{atm9.quest.eidolonRepraised.desc.ringChallenge}"]
+			description: ["{atm9.quest.eidolonRepraised.desc.glass_hand}"]
 			id: "56CD54A4422FF473"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.cursedRingWarning}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.glass_hand}"
 			tasks: [{
 				id: "63B1DB35E2D14E6F"
 				item: "eidolon:glass_hand"
@@ -430,12 +402,10 @@
 		{
 			dependencies: ["4224CC1F101E4069"]
 			description: [
-				"{atm9.quest.eidolonRepraised.desc.enchanterFeatures.1}"
-				"{atm9.quest.eidolonRepraised.desc.enchanterFeatures.2}"
-				"{atm9.quest.eidolonRepraised.desc.enchanterFeatures.3}"
+				"{atm9.quest.eidolonRepraised.desc.soul_enchanter}"
 			]
 			id: "04C01A5FF3DAC326"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.gatewayApotheosis}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.soul_enchanter}"
 			tasks: [{
 				id: "5DADA59471D036E5"
 				item: "eidolon:soul_enchanter"
@@ -446,9 +416,9 @@
 		}
 		{
 			dependencies: ["158F13367C2E0C6D"]
-			description: ["{atm9.quest.eidolonRepraised.desc.holySymbol}"]
+			description: ["{atm9.quest.eidolonRepraised.desc.holy_water}"]
 			id: "3A88906FC2E72528"
-			subtitle: "{atm9.quest.eidolonRepraised.subt.forgotFlintSteel}"
+			subtitle: "{atm9.quest.eidolonRepraised.subt.holy_water}"
 			tasks: [{
 				id: "308A6145877C4E0A"
 				item: "bloodmagic:holy_water_anointment"
@@ -460,12 +430,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -485,12 +450,12 @@
 				{
 					disable_toast: true
 					id: "368F3AF2A6A780BB"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "267C5419DA4AD7E8"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

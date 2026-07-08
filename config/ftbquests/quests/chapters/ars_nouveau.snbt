@@ -6,8 +6,9 @@
 	icon: "ars_nouveau:creative_spell_book"
 	id: "6AEDA2F9BEB57759"
 	images: [{
+		click: " "
 		height: 0.3d
-		hover: ["{atm9.quest.ae2.img.star}"]
+		hover: ["atm9.quest.img.star"]
 		image: "allthetweaks:item/atm_star"
 		rotation: 0.0d
 		width: 0.3d
@@ -20,9 +21,7 @@
 	quests: [
 		{
 			description: [
-				"{atm9.quest.arsNouveau.welcome}"
-				""
-				"{atm9.quest.arsNouveau.desc.magicModIntro}"
+				"{atm9.quest.arsNouveau.desc.welcome}"
 			]
 			id: "6E0E13806F388D7E"
 			rewards: [{
@@ -35,7 +34,7 @@
 			tasks: [{
 				icon: "ars_nouveau:creative_spell_book"
 				id: "33CEC23CAF6DA6A6"
-				title: "{atm9.quest.arsNouveau.arsNouveau}"
+				title: "{atm9.quest.arsNouveau.task.welcome}"
 				type: "checkmark"
 			}]
 			x: -6.25d
@@ -386,7 +385,6 @@
 		}
 		{
 			dependencies: ["63DD7F5A4441ACE7"]
-			description: [""]
 			id: "36183375DAA54408"
 			rewards: [{
 				id: "4A8CCAD32C41B1F0"
@@ -967,9 +965,7 @@
 		{
 			dependencies: ["3D4D88B8BE881351"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.tier2Glyphs.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.tier2Glyphs.2}"
+				"{atm9.quest.arsNouveau.desc.tier_2_glyphs}"
 			]
 			id: "63DD7F5A4441ACE7"
 			shape: "hexagon"
@@ -977,29 +973,27 @@
 				id: "15C6E9C02D1FBEC0"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.arsNouveau.tier2Glyphs}"
+			title: "{atm9.quest.arsNouveau.tier_2_glyphs}"
 			x: -1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3D4D88B8BE881351"]
-			description: ["{atm9.quest.arsNouveau.desc.tier1Glyphs}"]
+			description: ["{atm9.quest.arsNouveau.desc.tier_1_glyphs}"]
 			id: "441C0659ED28D935"
 			shape: "hexagon"
 			tasks: [{
 				id: "1CC556A6921208B8"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.arsNouveau.tier1Glyphs}"
+			title: "{atm9.quest.arsNouveau.tier_1_glyphs}"
 			x: -5.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3D4D88B8BE881351"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.tier3Glyphs.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.tier3Glyphs.2}"
+				"{atm9.quest.arsNouveau.desc.tier_3_glyphs}"
 			]
 			id: "6F3602F5600A6221"
 			shape: "hexagon"
@@ -1007,16 +1001,14 @@
 				id: "65D68BEEB36FC805"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.arsNouveau.tier3Glyphs}"
+			title: "{atm9.quest.arsNouveau.tier_3_glyphs}"
 			x: 3.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["58EC47584C773B82"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.magebloom.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.magebloom.2}"
+				"{atm9.quest.arsNouveau.desc.magebloom}"
 			]
 			id: "542C6D76B579886C"
 			rewards: [
@@ -1044,11 +1036,7 @@
 		{
 			dependencies: ["18A2FBE2D4133FA2"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.enchantingApparatus.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.enchantingApparatus.2}"
-				""
-				"{atm9.quest.arsNouveau.desc.enchantingApparatus.3}"
+				"{atm9.quest.arsNouveau.desc.enchanting_apparatus}"
 				""
 				"{image:atm:textures/questpics/ars/enchanting_app.png width:200 height:175 align:1}"
 			]
@@ -1072,16 +1060,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.arsNouveau.enchantingApparatus}"
+			title: "{atm9.quest.arsNouveau.enchanting_apparatus}"
 			x: 10.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5C3FF43CF16BCF30"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.arcanePedestals.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.arcanePedestals.2}"
+				"{atm9.quest.arsNouveau.desc.arcane_pedestals}"
 			]
 			id: "18A2FBE2D4133FA2"
 			rewards: [{
@@ -1091,14 +1077,14 @@
 			}]
 			shape: "square"
 			size: 1.25d
-			subtitle: "{atm9.quest.arsNouveau.subt.fancyTables}"
+			subtitle: "{atm9.quest.arsNouveau.subt.arcane_pedestals}"
 			tasks: [{
 				count: 8L
 				id: "5B80C1EF5D85EA64"
 				item: "ars_nouveau:arcane_pedestal"
 				type: "item"
 			}]
-			title: "{atm9.quest.arsNouveau.arcanePedestals}"
+			title: "{atm9.quest.arsNouveau.arcane_pedestals}"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -1430,22 +1416,14 @@
 		{
 			dependencies: ["33682F4B44950123"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.scribesTable.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.scribesTable.2}"
-				""
-				"{atm9.quest.arsNouveau.desc.scribesTable.3}"
-				""
-				"{atm9.quest.arsNouveau.desc.scribesTable.4}"
-				""
-				"{atm9.quest.arsNouveau.desc.scribesTable.5}"
+				"{atm9.quest.arsNouveau.desc.scribes_table}"
 			]
 			id: "3D4D88B8BE881351"
 			rewards: [
 				{
 					id: "090A541FA98CD1FD"
 					table_id: 7708276966210401484L
-					title: "{atm9.quest.arsNouveau.randomTier1Glyph}"
+					title: "{atm9.quest.arsNouveau.reward.tier_1_glyph}"
 					type: "random"
 				}
 				{
@@ -1456,7 +1434,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{atm9.quest.arsNouveau.subt.upgradingSpells}"
+			subtitle: "{atm9.quest.arsNouveau.subt.scribes_table}"
 			tasks: [{
 				id: "5ADEEEE0C217B20F"
 				item: "ars_nouveau:scribes_table"
@@ -1493,13 +1471,7 @@
 		{
 			dependencies: ["6E0E13806F388D7E"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.noviceSpellbook.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.noviceSpellbook.2}"
-				""
-				"{atm9.quest.arsNouveau.desc.noviceSpellbook.3}"
-				""
-				"{atm9.quest.arsNouveau.desc.noviceSpellbook.4}"
+				"{atm9.quest.arsNouveau.desc.novice_spellbook}"
 			]
 			id: "64D0E66CB4FBEC82"
 			rewards: [
@@ -1520,7 +1492,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.arsNouveau.subt.ourFirstSpellbook}"
+			subtitle: "{atm9.quest.arsNouveau.subt.novice_spellbook}"
 			tasks: [{
 				id: "6988873450238F30"
 				item: "ars_nouveau:novice_spell_book"
@@ -1533,16 +1505,14 @@
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.nextUpgrade.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.nextUpgrade.2}"
+				"{atm9.quest.arsNouveau.desc.next_upgrade}"
 			]
 			id: "0D330FAD6C993DBC"
 			rewards: [
 				{
 					id: "26AA78496AAD568F"
 					table_id: 7708276966210401484L
-					title: "{atm9.quest.arsNouveau.randomTier1Glyph}"
+					title: "{atm9.quest.arsNouveau.reward.tier_1_glyph}"
 					type: "random"
 				}
 				{
@@ -1563,9 +1533,7 @@
 		{
 			dependencies: ["0D330FAD6C993DBC"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.finalTierSpellbook.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.finalTierSpellbook.2}"
+				"{atm9.quest.arsNouveau.desc.final_tier}"
 			]
 			id: "17D7D34F519F7E5F"
 			rewards: [
@@ -1592,11 +1560,7 @@
 		{
 			dependencies: ["18A2FBE2D4133FA2"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.ritualBrazier.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.ritualBrazier.2}"
-				""
-				"{atm9.quest.arsNouveau.desc.ritualBrazier.3}"
+				"{atm9.quest.arsNouveau.desc.ritual_brazier}"
 			]
 			id: "457DE8C154641437"
 			rewards: [{
@@ -1617,9 +1581,7 @@
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.potionJar.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.potionJar.2}"
+				"{atm9.quest.arsNouveau.desc.potion_jar}"
 			]
 			id: "04D9F6587EF8D9B7"
 			rewards: [
@@ -1635,7 +1597,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.arsNouveau.subt.storingPotions}"
+			subtitle: "{atm9.quest.arsNouveau.subt.potion_jar}"
 			tasks: [{
 				id: "7F3D9B9E5E4FD3B8"
 				item: "ars_nouveau:potion_jar"
@@ -1647,11 +1609,7 @@
 		{
 			dependencies: ["33682F4B44950123"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.sourceGem.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.sourceGem.2}"
-				""
-				"{atm9.quest.arsNouveau.desc.sourceGem.3}"
+				"{atm9.quest.arsNouveau.desc.source_gem}"
 				""
 				""
 				"{image:atm:textures/questpics/ars/imbuement.png width:200 height:150 align:1}"
@@ -1671,7 +1629,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{atm9.quest.arsNouveau.subt.creatingSourceGems}"
+			subtitle: "{atm9.quest.arsNouveau.subt.source_gem}"
 			tasks: [{
 				id: "78B5B8F9CE9EC702"
 				item: "ars_nouveau:imbuement_chamber"
@@ -1683,9 +1641,7 @@
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.magicalWood}"
-				""
-				"{atm9.quest.arsNouveau.desc.magicalWood.1}"
+				"{atm9.quest.arsNouveau.desc.archwood_logs}"
 			]
 			id: "33682F4B44950123"
 			rewards: [
@@ -1710,7 +1666,7 @@
 							value: "forge:logs/archwood"
 						}
 					}
-					title: "{atm9.quest.arsNouveau.archwoodLogs}"
+					title: "{atm9.quest.arsNouveau.archwood_logs}"
 					type: "item"
 				}
 				{
@@ -1723,22 +1679,18 @@
 							value: "forge:planks/archwood"
 						}
 					}
-					title: "{atm9.quest.arsNouveau.archwoodPlanks}"
+					title: "{atm9.quest.arsNouveau.task.archwood_logs}"
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.arsNouveau.archwoodLogs}"
+			title: "{atm9.quest.arsNouveau.archwood_logs}"
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["40BC67BDEE15D1DE"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.sourceSystem}"
-				""
-				"{atm9.quest.arsNouveau.desc.sourceSystem.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.sourceSystem.2}"
+				"{atm9.quest.arsNouveau.desc.source_system}"
 			]
 			id: "227DBA8836021B0B"
 			rewards: [
@@ -1760,7 +1712,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{atm9.quest.arsNouveau.subt.storingSource}"
+			subtitle: "{atm9.quest.arsNouveau.subt.source_system}"
 			tasks: [{
 				id: "55AA5FAABC23709E"
 				item: "ars_nouveau:source_jar"
@@ -1822,9 +1774,7 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.magebloomSeed}"
-				""
-				"{atm9.quest.arsNouveau.desc.magebloomSeed.1}"
+				"{atm9.quest.arsNouveau.desc.magebloom_seed}"
 			]
 			id: "58EC47584C773B82"
 			rewards: [
@@ -1841,14 +1791,14 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.arsNouveau.subt.growingMagic}"
+			subtitle: "{atm9.quest.arsNouveau.subt.magebloom_seed}"
 			tasks: [{
 				count: 3L
 				id: "6CB12C3C6401287A"
 				item: "ars_nouveau:magebloom_crop"
 				type: "item"
 			}]
-			title: "{atm9.quest.arsNouveau.magebloomSeed}"
+			title: "{atm9.quest.arsNouveau.magebloom_seed}"
 			x: 13.0d
 			y: 0.0d
 		}
@@ -1906,11 +1856,7 @@
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.volcanicSourcelink}"
-				""
-				"{atm9.quest.arsNouveau.desc.volcanicSourcelink.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.volcanicSourcelink.2}"
+				"{atm9.quest.arsNouveau.desc.volcanic_sourcelink}"
 			]
 			id: "19D02325579F2AA8"
 			rewards: [
@@ -1937,11 +1883,7 @@
 		{
 			dependencies: ["0E2AD156E5EF263A"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.runicChalk}"
-				""
-				"{atm9.quest.arsNouveau.desc.runicChalk.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.runicChalk.2}"
+				"{atm9.quest.arsNouveau.desc.runic_chalk}"
 			]
 			id: "151648179684B088"
 			rewards: [{
@@ -1949,7 +1891,7 @@
 				table_id: 4108383404435779231L
 				type: "random"
 			}]
-			subtitle: "{atm9.quest.arsNouveau.subt.placeableSpells}"
+			subtitle: "{atm9.quest.arsNouveau.subt.runic_chalk}"
 			tasks: [{
 				id: "2E649D2172E6D537"
 				item: {
@@ -2257,15 +2199,7 @@
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.spellCreation}"
-				""
-				"{atm9.quest.arsNouveau.desc.spellCreation.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.spellCreation.2}"
-				""
-				"{atm9.quest.arsNouveau.desc.spellCreation.3}"
-				""
-				"{atm9.quest.arsNouveau.desc.spellCreation.4}"
+				"{atm9.quest.arsNouveau.desc.spell_creation}"
 				""
 				"{image:atm:textures/questpics/ars/spellbook.png width:200 height:150 align:1}"
 			]
@@ -2282,7 +2216,7 @@
 			}]
 			tasks: [{
 				id: "1B916AE67F84E6D7"
-				title: "{atm9.quest.arsNouveau.creatingYourFirstSpell}"
+				title: "{atm9.quest.arsNouveau.spell_creation}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -2292,8 +2226,6 @@
 			dependencies: ["64D0E66CB4FBEC82"]
 			description: [
 				"{atm9.quest.arsNouveau.desc.mana}"
-				""
-				"{atm9.quest.arsNouveau.desc.mana.1}"
 			]
 			icon: {
 				Count: 1
@@ -2321,7 +2253,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.arsNouveau.subt.magePower}"
+			subtitle: "{atm9.quest.arsNouveau.subt.mana}"
 			tasks: [{
 				id: "01FD75641E5EA5E4"
 				title: "{atm9.quest.arsNouveau.mana}"
@@ -2332,7 +2264,7 @@
 		}
 		{
 			dependencies: ["5766C8B9E850C186"]
-			description: ["{atm9.quest.arsNouveau.desc.sourceGems}"]
+			description: ["{atm9.quest.arsNouveau.desc.source_gems}"]
 			id: "40BC67BDEE15D1DE"
 			rewards: [
 				{
@@ -2360,16 +2292,14 @@
 				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{atm9.quest.arsNouveau.sourceGems}"
+			title: "{atm9.quest.arsNouveau.source_gems}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["33682F4B44950123"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.dowsingRod}"
-				""
-				"{atm9.quest.arsNouveau.desc.dowsingRod.1}"
+				"{atm9.quest.arsNouveau.desc.dowsing_rod}"
 			]
 			id: "3142A40E1EAEBAA3"
 			optional: true
@@ -2378,7 +2308,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.arsNouveau.subt.magicFinder}"
+			subtitle: "{atm9.quest.arsNouveau.subt.dowsing_rod}"
 			tasks: [{
 				id: "07469C1ABB23F686"
 				item: {
@@ -2409,7 +2339,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.arsNouveau.subt.generatesSourceFromMobDeathsAndAnimalBreeding}"
+			subtitle: "{atm9.quest.arsNouveau.subt.vitalic_sourcelink}"
 			tasks: [{
 				id: "33072A37F4A28A77"
 				item: "ars_nouveau:vitalic_sourcelink"
@@ -2421,9 +2351,7 @@
 		{
 			dependencies: ["04D9F6587EF8D9B7"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.alchemicalSourcelink}"
-				""
-				"{atm9.quest.arsNouveau.desc.alchemicalSourcelink.1}"
+				"{atm9.quest.arsNouveau.desc.alchemical_sourcelink}"
 			]
 			id: "41A0BE357C8A74E1"
 			rewards: [
@@ -2439,7 +2367,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.arsNouveau.subt.powerThroughPotions}"
+			subtitle: "{atm9.quest.arsNouveau.subt.alchemical_sourcelink}"
 			tasks: [{
 				id: "2D08E66F6D607676"
 				item: "ars_nouveau:alchemical_sourcelink"
@@ -2451,9 +2379,7 @@
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.sourceBerries}"
-				""
-				"{atm9.quest.arsNouveau.desc.sourceBerries.1}"
+				"{atm9.quest.arsNouveau.desc.mycelial_sourcelink}"
 			]
 			id: "77145113CD5B26FB"
 			rewards: [
@@ -2469,7 +2395,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.arsNouveau.subt.generatesSourceFromNearbyFood}"
+			subtitle: "{atm9.quest.arsNouveau.subt.mycelial_sourcelink}"
 			tasks: [{
 				id: "3F5621FA53258210"
 				item: "ars_nouveau:mycelial_sourcelink"
@@ -2481,9 +2407,7 @@
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.plantSourcelink}"
-				""
-				"{atm9.quest.arsNouveau.desc.plantSourcelink.1}"
+				"{atm9.quest.arsNouveau.desc.agronomic_sourcelink}"
 			]
 			id: "2D0CF18C8B2ABB7D"
 			rewards: [
@@ -2499,7 +2423,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.arsNouveau.subt.createsSourceUsingTheGrowthOfPlants}"
+			subtitle: "{atm9.quest.arsNouveau.subt.agronomic_sourcelink}"
 			tasks: [{
 				id: "7CEAACDBB77206CC"
 				item: "ars_nouveau:agronomic_sourcelink"
@@ -2510,7 +2434,7 @@
 		}
 		{
 			dependencies: ["40BC67BDEE15D1DE"]
-			description: ["{atm9.quest.arsNouveau.desc.sourcestones}"]
+			description: ["{atm9.quest.arsNouveau.desc.sourcestone}"]
 			id: "5C3FF43CF16BCF30"
 			rewards: [
 				{
@@ -2524,7 +2448,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.arsNouveau.subt.formerlyKnownAsArcaneStones}"
+			subtitle: "{atm9.quest.arsNouveau.subt.sourcestone}"
 			tasks: [{
 				count: 8L
 				id: "03EB390E79866058"
@@ -2532,13 +2456,13 @@
 				title: "{atm9.quest.arsNouveau.sourcestone}"
 				type: "item"
 			}]
-			title: "{atm9.quest.arsNouveau.sourcestones}"
+			title: "{atm9.quest.arsNouveau.sourcestone}"
 			x: 5.199999999999999d
 			y: 0.0d
 		}
 		{
 			dependencies: ["542C6D76B579886C"]
-			description: ["{atm9.quest.arsNouveau.desc.scribesTable}"]
+			description: ["{atm9.quest.arsNouveau.desc.inscribe_spells}"]
 			id: "0E2AD156E5EF263A"
 			rewards: [
 				{
@@ -2571,7 +2495,7 @@
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
-			description: ["{atm9.quest.arsNouveau.desc.dominionWand}"]
+			description: ["{atm9.quest.arsNouveau.desc.dominion_wand}"]
 			id: "1D86B2E553503E53"
 			rewards: [
 				{
@@ -2591,18 +2515,14 @@
 				item: "ars_nouveau:dominion_wand"
 				type: "item"
 			}]
-			title: "{atm9.quest.arsNouveau.summoningHelp}"
+			title: "{atm9.quest.arsNouveau.dominion_wand}"
 			x: 10.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.enchantersSword.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.enchantersSword.2}"
-				""
-				"{atm9.quest.arsNouveau.desc.enchantersSword.3}"
+				"{atm9.quest.arsNouveau.desc.enchanters_sword}"
 			]
 			id: "14DB8A515CA50932"
 			rewards: [
@@ -2635,9 +2555,7 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.enchantersShield.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.enchantersShield.2}"
+				"{atm9.quest.arsNouveau.desc.enchanter_shield}"
 			]
 			id: "3182E8AF755104E4"
 			rewards: [
@@ -2670,11 +2588,7 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.enchantersMirror.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.enchantersMirror.2}"
-				""
-				"{atm9.quest.arsNouveau.desc.enchantersMirror.3}"
+				"{atm9.quest.arsNouveau.desc.enchanters_mirror}"
 			]
 			id: "632BC46928CC9A8C"
 			rewards: [
@@ -2705,13 +2619,7 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.enchantersBow.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.enchantersBow.2}"
-				""
-				"{atm9.quest.arsNouveau.desc.enchantersBow.3}"
-				""
-				"{atm9.quest.arsNouveau.desc.enchantersBow.4}"
+				"{atm9.quest.arsNouveau.desc.enchanters_bow}"
 			]
 			id: "51162B9185A45BB1"
 			rewards: [
@@ -2742,13 +2650,7 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.jarOfLight.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.jarOfVoiding.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.jarOfVoiding.2}"
-				""
-				"{atm9.quest.arsNouveau.desc.jarOfVoiding.3}"
+				"{atm9.quest.arsNouveau.desc.jar}"
 			]
 			id: "6DAA82B5F94AF9F8"
 			rewards: [
@@ -2781,7 +2683,7 @@
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
-			description: ["{atm9.quest.arsNouveau.desc.ringOfDiscount}"]
+			description: ["{atm9.quest.arsNouveau.desc.discount_ring}"]
 			id: "0A1ABE9CF7740AAA"
 			rewards: [
 				{
@@ -2813,7 +2715,7 @@
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
-			description: ["{atm9.quest.arsNouveau.desc.randomPotionBelt}"]
+			description: ["{atm9.quest.arsNouveau.desc.random_potion_belt}"]
 			id: "088FCB5267CB7A89"
 			rewards: [
 				{
@@ -2839,9 +2741,7 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.levitationBelt.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.levitationBelt.2}"
+				"{atm9.quest.arsNouveau.desc.levitation_belt}"
 			]
 			id: "3FD702B5AB006402"
 			rewards: [
@@ -2868,9 +2768,7 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.amuletOfManaBoost}"
-				""
-				"{atm9.quest.arsNouveau.desc.amuletOfManaRegen}"
+				"{atm9.quest.arsNouveau.desc.amulet}"
 			]
 			id: "6A1C0B17B22CE50F"
 			rewards: [
@@ -2898,18 +2796,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.arsNouveau.theAmulets}"
+			title: "{atm9.quest.arsNouveau.amulet}"
 			x: 10.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{atm9.quest.arsNouveau.desc.castersWand.1}"
-				""
-				"{atm9.quest.arsNouveau.desc.castersWand.2}"
-				""
-				"{atm9.quest.arsNouveau.desc.castersWand.3}"
+				"{atm9.quest.arsNouveau.desc.casters_wand}"
 			]
 			id: "111649D7E16D869F"
 			rewards: [
@@ -2940,12 +2834,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -2965,12 +2854,12 @@
 				{
 					disable_toast: true
 					id: "1ADC909E4FF8D317"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "1B90FEC3CEB286C8"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

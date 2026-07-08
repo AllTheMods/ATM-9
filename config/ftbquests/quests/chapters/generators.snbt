@@ -284,7 +284,7 @@
 	quests: [
 		{
 			dependencies: ["47750F3CB020104C"]
-			description: ["{atm9.quest.generators.desc.ironfurnaces.1}"]
+			description: ["{atm9.quest.generators.desc.iron_furnace}"]
 			id: "2748ACEAB96A5F60"
 			rewards: [
 				{
@@ -305,7 +305,7 @@
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.ironfurnaces}"
+			title: "{atm9.quest.generators.iron_furnace}"
 			x: 0.0d
 			y: -4.0d
 		}
@@ -315,7 +315,7 @@
 				"61847F47CCA225D9"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{atm9.quest.generators.desc.goldenfurnace}"]
+			description: ["{atm9.quest.generators.desc.gold_furnace}"]
 			id: "420FE84DEE12CCE0"
 			rewards: [
 				{
@@ -341,13 +341,13 @@
 				item: "ironfurnaces:gold_furnace"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.goldenfurnace}"
+			title: "{atm9.quest.generators.gold_furnace}"
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["420FE84DEE12CCE0"]
-			description: ["{atm9.quest.generators.desc.diamondfurnace.1}"]
+			description: ["{atm9.quest.generators.desc.diamond_furnace}"]
 			id: "21EA29A8C7F950CE"
 			rewards: [
 				{
@@ -368,13 +368,13 @@
 				item: "ironfurnaces:diamond_furnace"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.diamondfurnace}"
+			title: "{atm9.quest.generators.diamond_furnace}"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["21EA29A8C7F950CE"]
-			description: ["{atm9.quest.generators.desc.emeraldfurnace.1}"]
+			description: ["{atm9.quest.generators.desc.emerald_furnace}"]
 			id: "711DDD55CEC439E5"
 			rewards: [
 				{
@@ -395,7 +395,7 @@
 				item: "ironfurnaces:emerald_furnace"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.emeraldfurnace}"
+			title: "{atm9.quest.generators.emerald_furnace}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -405,7 +405,7 @@
 				"711DDD55CEC439E5"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{atm9.quest.generators.desc.obsidianfurnace.1}"]
+			description: ["{atm9.quest.generators.desc.obsidian_furnace}"]
 			id: "32C7D8AE859BF89E"
 			rewards: [
 				{
@@ -431,13 +431,13 @@
 				item: "ironfurnaces:obsidian_furnace"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.obsidianfurnace}"
+			title: "{atm9.quest.generators.obsidian_furnace}"
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["21EA29A8C7F950CE"]
-			description: ["{atm9.quest.generators.desc.crystalfurnace.1}"]
+			description: ["{atm9.quest.generators.desc.crystal_furnace}"]
 			id: "2354BC5330350DF6"
 			rewards: [
 				{
@@ -458,13 +458,13 @@
 				item: "ironfurnaces:crystal_furnace"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.crystalfurnace}"
+			title: "{atm9.quest.generators.crystal_furnace}"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["47750F3CB020104C"]
-			description: ["{atm9.quest.generators.desc.copperfurnace.1}"]
+			description: ["{atm9.quest.generators.desc.copper_furnace}"]
 			id: "661C072E48F8D41F"
 			rewards: [
 				{
@@ -484,7 +484,7 @@
 				item: "ironfurnaces:copper_furnace"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.copperfurnace}"
+			title: "{atm9.quest.generators.copper_furnace}"
 			x: -2.0d
 			y: -4.0d
 		}
@@ -494,7 +494,7 @@
 				"2748ACEAB96A5F60"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{atm9.quest.generators.desc.silverfurnace.1}"]
+			description: ["{atm9.quest.generators.desc.silver_furnace}"]
 			id: "61847F47CCA225D9"
 			rewards: [
 				{
@@ -520,7 +520,7 @@
 				item: "ironfurnaces:silver_furnace"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.silverfurnace}"
+			title: "{atm9.quest.generators.silver_furnace}"
 			x: 2.0d
 			y: -4.0d
 		}
@@ -529,7 +529,7 @@
 				"0AD2B11565B484E7"
 				"7A615E2A152917AD"
 			]
-			description: ["{atm9.quest.generators.desc.rainbowfurnace.1}"]
+			description: ["{atm9.quest.generators.desc.million_furnace}"]
 			hide_dependency_lines: true
 			hide_details_until_startable: true
 			id: "2EE8FCB63A338BC4"
@@ -553,17 +553,19 @@
 					Count: 1
 					id: "ironfurnaces:million_furnace"
 					tag: {
-						"minecraft:custom_name": "{\"extra\":[{\"color\":\"aqua\",\"text\":\"R\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"i\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"red\",\"text\":\"b\"},{\"color\":\"yellow\",\"text\":\"o\"},{\"color\":\"blue\",\"text\":\"w\"},{\"color\":\"red\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"c\"},{\"color\":\"yellow\",\"text\":\"e\"}],\"text\":\"\"}"
+						display: { 
+							Name: "{\"extra\":[{\"color\":\"rainbow\",\"translate\":\"atm9.quest.generators.task.display.million_furnace\"}],\"text\":\"\"}"
+						}
 					}
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.rainbowfurnace}"
+			title: "{atm9.quest.generators.million_furnace}"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
-			description: ["{atm9.quest.generators.desc.generatorintro.1}"]
+			description: ["{atm9.quest.generators.desc.welcome}"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "47750F3CB020104C"
@@ -580,13 +582,13 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.generatorintro}"
+			title: "{atm9.quest.generators.welcome}"
 			x: 3.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["47750F3CB020104C"]
-			description: ["{atm9.quest.generators.desc.coppergenerator.1}"]
+			description: ["{atm9.quest.generators.desc.copper_generator}"]
 			id: "618F1434757C8E69"
 			rewards: [
 				{
@@ -605,13 +607,13 @@
 				item: "generatorgalore:copper_generator"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.coppergenerator}"
+			title: "{atm9.quest.generators.copper_generator}"
 			x: 7.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["618F1434757C8E69"]
-			description: ["{atm9.quest.generators.desc.irongenerator.1}"]
+			description: ["{atm9.quest.generators.desc.iron_generator}"]
 			id: "61F265D9A5713A4D"
 			rewards: [
 				{
@@ -636,7 +638,7 @@
 		}
 		{
 			dependencies: ["61F265D9A5713A4D"]
-			description: ["{atm9.quest.generators.desc.goldgenerator.1}"]
+			description: ["{atm9.quest.generators.desc.gold_generator}"]
 			id: "25A3E30F722B38B6"
 			rewards: [
 				{
@@ -656,13 +658,13 @@
 				item: "generatorgalore:gold_generator"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.goldgenerator}"
+			title: "{atm9.quest.generators.gold_generator}"
 			x: 7.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["25A3E30F722B38B6"]
-			description: ["{atm9.quest.generators.desc.culinarygenerator.1}"]
+			description: ["{atm9.quest.generators.desc.culinary_generator}"]
 			id: "1C73E60FC70408D4"
 			rewards: [
 				{
@@ -687,7 +689,7 @@
 		}
 		{
 			dependencies: ["25A3E30F722B38B6"]
-			description: ["{atm9.quest.generators.desc.diamondgenerator.1}"]
+			description: ["{atm9.quest.generators.desc.diamond_generator}"]
 			id: "28FEB4C11AD1AE7C"
 			rewards: [
 				{
@@ -707,13 +709,13 @@
 				item: "generatorgalore:diamond_generator"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.diamondgenerator}"
+			title: "{atm9.quest.generators.diamond_generator}"
 			x: 7.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["28FEB4C11AD1AE7C"]
-			description: ["{atm9.quest.generators.desc.netheritegenerator.1}"]
+			description: ["{atm9.quest.generators.desc.netherite_generator}"]
 			id: "07BEB974DF1E5AD3"
 			rewards: [
 				{
@@ -733,13 +735,13 @@
 				item: "generatorgalore:netherite_generator"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.netheritegenerator}"
+			title: "{atm9.quest.generators.netherite_generator}"
 			x: 6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["28FEB4C11AD1AE7C"]
-			description: ["{atm9.quest.generators.desc.emeraldgenerator.1}"]
+			description: ["{atm9.quest.generators.desc.emerald_generator}"]
 			id: "076A648E3E3245C9"
 			rewards: [
 				{
@@ -759,13 +761,13 @@
 				item: "generatorgalore:emerald_generator"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.emeraldgenerator}"
+			title: "{atm9.quest.generators.emerald_generator}"
 			x: 8.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["28FEB4C11AD1AE7C"]
-			description: ["{atm9.quest.generators.desc.obsidiangenerator.1}"]
+			description: ["{atm9.quest.generators.desc.obsidian_generator}"]
 			id: "311F43D48B9C26FF"
 			rewards: [
 				{
@@ -785,13 +787,13 @@
 				item: "generatorgalore:obsidian_generator"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.obsidiangenerator}"
+			title: "{atm9.quest.generators.obsidian_generator}"
 			x: 7.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1C73E60FC70408D4"]
-			description: ["{atm9.quest.generators.desc.honeygenerator.1}"]
+			description: ["{atm9.quest.generators.desc.honey_generator}"]
 			id: "68972BA647FDCF8F"
 			rewards: [
 				{
@@ -811,13 +813,13 @@
 				item: "generatorgalore:honey_generator"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.honeygenerator}"
+			title: "{atm9.quest.generators.honey_generator}"
 			x: 9.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["1C73E60FC70408D4"]
-			description: ["{atm9.quest.generators.desc.potiongenerator.1}"]
+			description: ["{atm9.quest.generators.desc.potion_generator}"]
 			id: "7297391D026EE9A6"
 			rewards: [
 				{
@@ -843,13 +845,13 @@
 				item: "generatorgalore:potion_generator"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.potiongenerator}"
+			title: "{atm9.quest.generators.potion_generator}"
 			x: 9.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["311F43D48B9C26FF"]
-			description: ["{atm9.quest.generators.desc.enchantmentgenerator.1}"]
+			description: ["{atm9.quest.generators.desc.enchantment_generator}"]
 			id: "6A1145678E80FB8E"
 			rewards: [
 				{
@@ -875,13 +877,13 @@
 				item: "generatorgalore:enchantment_generator"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.enchantmentgenerator}"
+			title: "{atm9.quest.generators.enchantment_generator}"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["311F43D48B9C26FF"]
-			description: ["{atm9.quest.generators.desc.magmaticgenerator.1}"]
+			description: ["{atm9.quest.generators.desc.magmatic_generator}"]
 			id: "552CA2ABE659A507"
 			rewards: [
 				{
@@ -901,13 +903,13 @@
 				item: "generatorgalore:magmatic_generator"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.magmaticgenerator}"
+			title: "{atm9.quest.generators.magmatic_generator}"
 			x: 7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["311F43D48B9C26FF"]
-			description: ["{atm9.quest.generators.desc.endergenerator.1}"]
+			description: ["{atm9.quest.generators.desc.ender_generator}"]
 			id: "69201157ECFBB426"
 			rewards: [
 				{
@@ -927,13 +929,13 @@
 				item: "generatorgalore:ender_generator"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.endergenerator}"
+			title: "{atm9.quest.generators.ender_generator}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["07BEB974DF1E5AD3"]
-			description: ["{atm9.quest.generators.desc.netherstargenerator.1}"]
+			description: ["{atm9.quest.generators.desc.netherstar_generator}"]
 			id: "1843C79133DFB024"
 			rewards: [
 				{
@@ -958,7 +960,7 @@
 		}
 		{
 			dependencies: ["69201157ECFBB426"]
-			description: ["{atm9.quest.generators.desc.halitosisgenerator.1}"]
+			description: ["{atm9.quest.generators.desc.halitosis_generator}"]
 			id: "40DB6E3DE87F16EF"
 			rewards: [
 				{
@@ -978,13 +980,13 @@
 				item: "generatorgalore:halitosis_generator"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.halitosisgenerator}"
+			title: "{atm9.quest.generators.halitosis_generator}"
 			x: 5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["32C7D8AE859BF89E"]
-			description: ["{atm9.quest.generators.desc.netheritefurnace.1}"]
+			description: ["{atm9.quest.generators.desc.netherite_furnace}"]
 			id: "79C4CF8D7312FC28"
 			rewards: [
 				{
@@ -1005,7 +1007,7 @@
 				item: "ironfurnaces:netherite_furnace"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.netheritefurnace}"
+			title: "{atm9.quest.generators.netherite_furnace}"
 			x: -3.0d
 			y: -2.0d
 		}
@@ -1021,7 +1023,7 @@
 		}
 		{
 			dependencies: ["78D1C97A542133D8"]
-			description: ["{atm9.quest.generators.desc.augmentblasting.1}"]
+			description: ["{atm9.quest.generators.desc.augment_blasting}"]
 			icon_scale: 1.5d
 			id: "73FF01D830A669AA"
 			rewards: [{
@@ -1037,13 +1039,13 @@
 				item: "ironfurnaces:augment_blasting"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.augmentblasting}"
+			title: "{atm9.quest.generators.augment_blasting}"
 			x: -7.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["78D1C97A542133D8"]
-			description: ["{atm9.quest.generators.desc.augmentsmoking.1}"]
+			description: ["{atm9.quest.generators.desc.augment_smoking}"]
 			icon_scale: 1.5d
 			id: "33436ED0D9F128BD"
 			rewards: [{
@@ -1058,13 +1060,13 @@
 				item: "ironfurnaces:augment_smoking"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.augmentsmoking}"
+			title: "{atm9.quest.generators.augment_smoking}"
 			x: -6.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["78D1C97A542133D8"]
-			description: ["{atm9.quest.generators.desc.augmentfactory.1}"]
+			description: ["{atm9.quest.generators.desc.augment_factory}"]
 			icon_scale: 1.5d
 			id: "49F08DE190AAD0D8"
 			rewards: [{
@@ -1079,13 +1081,13 @@
 				item: "ironfurnaces:augment_factory"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.augmentfactory}"
+			title: "{atm9.quest.generators.augment_factory}"
 			x: -7.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["78D1C97A542133D8"]
-			description: ["{atm9.quest.generators.desc.augmentgenerator.1}"]
+			description: ["{atm9.quest.generators.desc.augment_generator}"]
 			icon_scale: 1.5d
 			id: "07753C5D94312A50"
 			rewards: [{
@@ -1099,13 +1101,13 @@
 				item: "ironfurnaces:augment_generator"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.augmentgenerator}"
+			title: "{atm9.quest.generators.augment_generator}"
 			x: -6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["78D1C97A542133D8"]
-			description: ["{atm9.quest.generators.desc.augmentspeed.1}"]
+			description: ["{atm9.quest.generators.desc.augment_speed}"]
 			icon_scale: 1.5d
 			id: "7F67849DE9F700D8"
 			rewards: [{
@@ -1120,13 +1122,13 @@
 				item: "ironfurnaces:augment_speed"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.augmentspeed}"
+			title: "{atm9.quest.generators.augment_speed}"
 			x: -7.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["78D1C97A542133D8"]
-			description: ["{atm9.quest.generators.desc.augmentfuel.1}"]
+			description: ["{atm9.quest.generators.desc.augment_fuel}"]
 			icon_scale: 1.5d
 			id: "538821E23E39BE97"
 			rewards: [{
@@ -1141,12 +1143,12 @@
 				item: "ironfurnaces:augment_fuel"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.augmentfuel}"
+			title: "{atm9.quest.generators.augment_fuel}"
 			x: -6.0d
 			y: -1.0d
 		}
 		{
-			description: ["{atm9.quest.generators.desc.halloween.1}"]
+			description: ["{atm9.quest.generators.desc.item_spooky}"]
 			id: "686B25F2E9D8CC97"
 			rewards: [{
 				id: "2F6385518AC2519D"
@@ -1154,7 +1156,9 @@
 					Count: 1
 					id: "minecraft:jack_o_lantern"
 					tag: {
-						"minecraft:custom_name": "\"Spooky Pumpkin\""
+						display: {
+							Name: "{\"translate\": \"atm9.quest.generators.task.display.item_spooky\"}"
+						}
 					}
 				}
 				type: "item"
@@ -1164,12 +1168,12 @@
 				item: "ironfurnaces:item_spooky"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.halloween}"
+			title: "{atm9.quest.generators.item_spooky}"
 			x: -1.0d
 			y: 1.0d
 		}
 		{
-			description: ["{atm9.quest.generators.desc.christmas.1}"]
+			description: ["{atm9.quest.generators.desc.item_xmas}"]
 			id: "553220A2CD7CAFE4"
 			rewards: [{
 				id: "24C4930CF7FE42C9"
@@ -1177,7 +1181,9 @@
 					Count: 1
 					id: "minecraft:spruce_sapling"
 					tag: {
-						"minecraft:custom_name": "\"Christmas Tree Sapling\""
+						display:{
+							Name: "{\"translate\": \"atm9.quest.generators.task.display.item_xmas\"}"
+						}
 					}
 				}
 				type: "item"
@@ -1187,12 +1193,12 @@
 				item: "ironfurnaces:item_xmas"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.christmas}"
+			title: "{atm9.quest.generators.item_xmas}"
 			x: 1.0d
 			y: 1.0d
 		}
 		{
-			description: ["{atm9.quest.generators.desc.wirelessheat.1}"]
+			description: ["{atm9.quest.generators.desc.heater}"]
 			id: "20EC8001A05CE2C8"
 			rewards: [{
 				id: "5A8FFF85B18A2973"
@@ -1224,7 +1230,7 @@
 		}
 		{
 			dependencies: ["79C4CF8D7312FC28"]
-			description: ["{atm9.quest.generators.desc.rainbowcore.1}"]
+			description: ["{atm9.quest.generators.desc.rainbow_core}"]
 			hide_details_until_startable: true
 			id: "7A615E2A152917AD"
 			rewards: [
@@ -1246,7 +1252,7 @@
 				item: "ironfurnaces:rainbow_core"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.rainbowcore}"
+			title: "{atm9.quest.generators.rainbow_core}"
 			x: -3.0d
 			y: -1.0d
 		}
@@ -1261,7 +1267,7 @@
 				"711DDD55CEC439E5"
 				"32C7D8AE859BF89E"
 			]
-			description: ["{atm9.quest.generators.desc.rainbowplating.1}"]
+			description: ["{atm9.quest.generators.desc.rainbow_plating}"]
 			hide_dependency_lines: true
 			hide_details_until_startable: true
 			id: "0AD2B11565B484E7"
@@ -1285,13 +1291,13 @@
 				item: "ironfurnaces:rainbow_plating"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.rainbowplating}"
+			title: "{atm9.quest.generators.rainbow_plating}"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2EE8FCB63A338BC4"]
-			description: ["{atm9.quest.generators.desc.rainbowcoal.1}"]
+			description: ["{atm9.quest.generators.desc.rainbow_coal}"]
 			hide_details_until_startable: true
 			id: "062AA943A1629A86"
 			rewards: [{
@@ -1304,12 +1310,12 @@
 				item: "ironfurnaces:rainbow_coal"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.rainbowcoal}"
+			title: "{atm9.quest.generators.rainbow_coal}"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
-			description: ["{atm9.quest.generators.desc.configuration.1}"]
+			description: ["{atm9.quest.generators.desc.item_copy}"]
 			id: "757B14D08A9A03C4"
 			rewards: [{
 				count: 3
@@ -1322,7 +1328,7 @@
 				item: "ironfurnaces:item_copy"
 				type: "item"
 			}]
-			title: "{atm9.quest.generators.title.configuration}"
+			title: "{atm9.quest.generators.item_copy}"
 			x: -5.0d
 			y: -2.0d
 		}
@@ -1338,7 +1344,7 @@
 				"711DDD55CEC439E5"
 				"32C7D8AE859BF89E"
 			]
-			description: ["{atm9.quest.generators.desc.rainbowgenerator.1}"]
+			description: ["{atm9.quest.generators.desc.rainbow_generator}"]
 			hide_dependency_lines: true
 			id: "0ADBE90B33ACC9FB"
 			rewards: [
@@ -1401,19 +1407,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.generators.title.rainbowgenerator}"
+			title: "{atm9.quest.generators.rainbow_generator}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -1433,12 +1434,12 @@
 				{
 					disable_toast: true
 					id: "1250A409C17F7F7C"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "24D94D6FD4DEDF41"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

@@ -23,8 +23,9 @@
 			y: -1.5d
 		}
 		{
+			click: " "
 			height: 2.0d
-			hover: ["Alchemistry"]
+			hover: ["atm9.quest.alchem.img.alchem"]
 			image: "atm:textures/questpics/alchemistry/alchemistry_logo.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -38,10 +39,8 @@
 		{
 			dependencies: ["611891F4FB775BD3"]
 			description: [
-				"{atm9.quest.alchem.desc.dissolver.1}"
-				""
-				"{atm9.quest.alchem.desc.dissolver.2}"
-				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"26E6ED94168A05C4\"}, \"text\": \"Click here to checkout the Questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+				"{atm9.quest.alchem.desc.dissolver}"
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"26E6ED94168A05C4\"}, \"translate\":\"atm9.quest.alchem.click.dissolver\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
 			id: "71815B287D0F162A"
 			rewards: [
@@ -56,18 +55,20 @@
 					xp: 50
 				}
 			]
-			subtitle: "{atm9.quest.alchem.subt.dissolving}"
+			subtitle: "{atm9.quest.alchem.subt.dissolver}"
 			tasks: [{
 				id: "2298898337AC0825"
 				item: "alchemistry:dissolver"
 				type: "item"
 			}]
-			title: "{atm9.quest.alchem.dissolving}"
+			title: "{atm9.quest.alchem.dissolver}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			description: ["Alchemistry is a tech mod inspired by the mod MineChem. This mod allows you to decompose items into the elements that make them up, then recombine them to create new items. Start by making the guidebook."]
+			description: [
+				"{atm9.quest.alchem.desc.welcome}"
+			]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -95,19 +96,21 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{atm9.quest.alchem.subt.basics}"
+			subtitle: "{atm9.quest.alchem.subt.welcome}"
 			tasks: [{
 				id: "37801C29C0F1525E"
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			title: "{atm9.quest.alchem.basics}"
+			title: "{atm9.quest.alchem.welcome}"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["{atm9.quest.alchem.desc.combining}"]
+			description: [
+				"{atm9.quest.alchem.desc.combiner}"
+			]
 			hide_dependent_lines: true
 			id: "3AEDE9828B278466"
 			rewards: [{
@@ -115,19 +118,21 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{atm9.quest.alchem.subt.combining}"
+			subtitle: "{atm9.quest.alchem.subt.combiner}"
 			tasks: [{
 				id: "0BB33DDA43FE1468"
 				item: "alchemistry:combiner"
 				type: "item"
 			}]
-			title: "{atm9.quest.alchem.combining}"
+			title: "{atm9.quest.alchem.combiner}"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["{atm9.quest.alchem.desc.compacting}"]
+			description: [
+				"{atm9.quest.alchem.desc.compactor}"
+			]
 			hide_dependent_lines: true
 			id: "0C882F195627F121"
 			rewards: [{
@@ -135,13 +140,13 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{atm9.quest.alchem.subt.compacting}"
+			subtitle: "{atm9.quest.alchem.subt.compactor}"
 			tasks: [{
 				id: "75EBDEDB404E5CF7"
 				item: "alchemistry:compactor"
 				type: "item"
 			}]
-			title: "{atm9.quest.alchem.compacting}"
+			title: "{atm9.quest.alchem.compactor}"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -154,13 +159,13 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{atm9.quest.alchem.subt.atomizing}"
+			subtitle: "{atm9.quest.alchem.subt.atomizer}"
 			tasks: [{
 				id: "7C06D2ECF1F3B470"
 				item: "alchemistry:atomizer"
 				type: "item"
 			}]
-			title: "{atm9.quest.alchem.atomizing}"
+			title: "{atm9.quest.alchem.atomizer}"
 			x: -3.5d
 			y: -1.0d
 		}
@@ -173,21 +178,19 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{atm9.quest.alchem.subt.liquifying}"
+			subtitle: "{atm9.quest.alchem.subt.liquifier}"
 			tasks: [{
 				id: "1100B607C6CC157F"
 				item: "alchemistry:liquifier"
 				type: "item"
 			}]
-			title: "{atm9.quest.alchem.liquifying}"
+			title: "{atm9.quest.alchem.liquifier}"
 			x: -3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1509AAC1A46BDC2C"]
 			description: [
-				"{atm9.quest.alchem.desc.bothreactors}"
-				""
 				"{atm9.quest.alchem.desc.fission}"
 				""
 				""
@@ -265,9 +268,7 @@
 		{
 			dependencies: ["5121FA28244BE1A2"]
 			description: [
-				"{atm9.quest.alchem.desc.bothreactors}"
-				""
-				"{atm9.quest.alchem.desc.fission}"
+				"{atm9.quest.alchem.desc.fusion}"
 				""
 				""
 				"{image:atm:textures/questpics/alchemistry/fusion_controller_1.png width:175 height:135 align:1}"
@@ -344,9 +345,7 @@
 		{
 			dependencies: ["3DFA36ECFEE6003F"]
 			description: [
-				"{atm9.quest.alchem.desc.zirconium.1}"
-				""
-				"{atm9.quest.alchem.desc.zirconium.2}"
+				"{atm9.quest.alchem.desc.zirconium}"
 			]
 			id: "36A2B8D517A57AD4"
 			rewards: [
@@ -376,7 +375,9 @@
 				"0C882F195627F121"
 				"36A2B8D517A57AD4"
 			]
-			description: ["{atm9.quest.alchem.desc.zirconiumdust}"]
+			description: [
+				"{atm9.quest.alchem.desc.zirconium_dust}"
+			]
 			id: "397A33E37610B03E"
 			rewards: [{
 				id: "75AAF2AE058C4FC1"
@@ -393,7 +394,9 @@
 		}
 		{
 			dependencies: ["397A33E37610B03E"]
-			description: ["{atm9.quest.alchem.desc.zirconiumingot}"]
+			description: [
+				"{atm9.quest.alchem.desc.zirconium_ingot}"
+			]
 			id: "1509AAC1A46BDC2C"
 			rewards: [{
 				id: "24567AD93D7BF40B"
@@ -410,7 +413,9 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["{atm9.quest.alchem.desc.H}"]
+			description: [
+				"{atm9.quest.alchem.desc.H}"
+			]
 			hide_dependency_lines: true
 			id: "32B961A93D6CDFDF"
 			rewards: [{
@@ -419,7 +424,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "H (1)"
+			subtitle: "{atm9.quest.alchem.subt.H}"
 			tasks: [{
 				id: "721261EF8343AE88"
 				item: "chemlib:hydrogen"
@@ -438,7 +443,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Be (4)"
+			subtitle: "{atm9.quest.alchem.subt.Be}"
 			tasks: [{
 				id: "557947913EF0F0F6"
 				item: "chemlib:beryllium"
@@ -449,7 +454,9 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["{atm9.quest.alchem.desc.Na}"]
+			description: [
+				"{atm9.quest.alchem.desc.Na}"
+			]
 			hide_dependency_lines: true
 			id: "5F3609E1DBEAA148"
 			rewards: [{
@@ -458,7 +465,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Na (11)"
+			subtitle: "{atm9.quest.alchem.subt.Na}"
 			tasks: [{
 				id: "2AEC8690D75EEAAB"
 				item: "chemlib:sodium"
@@ -477,7 +484,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Mg (12)"
+			subtitle: "{atm9.quest.alchem.subt.Mg}"
 			tasks: [{
 				id: "00DAFD219614B061"
 				item: "chemlib:magnesium"
@@ -492,9 +499,7 @@
 				"66629CEE67F85A25"
 			]
 			description: [
-				"{atm9.quest.alchem.desc.reactors.1}"
-				""
-				"{atm9.quest.alchem.desc.reactors.2}"
+				"{atm9.quest.alchem.desc.reactors}"
 			]
 			icon: "alchemistry:reactor_casing"
 			id: "3DFA36ECFEE6003F"
@@ -535,7 +540,9 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["{atm9.quest.alchem.desc.K}"]
+			description: [
+				"{atm9.quest.alchem.desc.K}"
+			]
 			hide_dependency_lines: true
 			id: "421B67F06A6975A0"
 			rewards: [{
@@ -544,7 +551,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "K (19)"
+			subtitle: "{atm9.quest.alchem.subt.K}"
 			tasks: [{
 				id: "503777CE89A61F0B"
 				item: "chemlib:potassium"
@@ -555,7 +562,9 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["{atm9.quest.alchem.desc.Ca}"]
+			description: [
+				"{atm9.quest.alchem.desc.Ca}"
+			]
 			hide_dependency_lines: true
 			id: "7D608E7ECA271757"
 			rewards: [{
@@ -564,7 +573,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ca (20)"
+			subtitle: "{atm9.quest.alchem.subt.Ca}"
 			tasks: [{
 				id: "77D0DA0648434AAB"
 				item: "chemlib:calcium"
@@ -583,7 +592,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Sc (21)"
+			subtitle: "{atm9.quest.alchem.subt.Sc}"
 			tasks: [{
 				id: "0109E18AFE20E108"
 				item: "chemlib:scandium"
@@ -602,7 +611,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ti (22)"
+			subtitle: "{atm9.quest.alchem.subt.Ti}"
 			tasks: [{
 				id: "17EAE4C83ED653D7"
 				item: "chemlib:titanium"
@@ -621,7 +630,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Li (3)"
+			subtitle: "{atm9.quest.alchem.subt.Li}"
 			tasks: [{
 				id: "00E0D68B79CD8D5E"
 				item: "chemlib:lithium"
@@ -632,7 +641,9 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["{atm9.quest.alchem.desc.oxygen}"]
+			description: [
+				"{atm9.quest.alchem.desc.oxygen}"
+			]
 			id: "066827B2F96192F0"
 			rewards: [
 				{
@@ -662,7 +673,9 @@
 				"6657CE5CDFC47BB4"
 				"066827B2F96192F0"
 			]
-			description: ["{atm9.quest.alchem.desc.leadoxide}"]
+			description: [
+				"{atm9.quest.alchem.desc.lead_oxide}"
+			]
 			hide_dependency_lines: false
 			id: "42B681C59981532C"
 			rewards: [{
@@ -682,7 +695,9 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["{atm9.quest.alchem.desc.lead}"]
+			description: [
+				"{atm9.quest.alchem.desc.lead}"
+			]
 			hide_dependency_lines: true
 			id: "6657CE5CDFC47BB4"
 			rewards: [{
@@ -704,7 +719,9 @@
 				"3AEDE9828B278466"
 				"02BB0C4DBB426D9D"
 			]
-			description: ["{atm9.quest.alchem.desc.silicondioxide}"]
+			description: [
+				"{atm9.quest.alchem.desc.silicon_dioxide}"
+			]
 			id: "66629CEE67F85A25"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -723,7 +740,9 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["{atm9.quest.alchem.desc.silicon}"]
+			description: [
+				"{atm9.quest.alchem.desc.silicon}"
+			]
 			hide_dependency_lines: true
 			id: "02BB0C4DBB426D9D"
 			rewards: [{
@@ -741,7 +760,9 @@
 		}
 		{
 			dependencies: ["3DFA36ECFEE6003F"]
-			description: ["{atm9.quest.alchem.desc.potassium}"]
+			description: [
+				"{atm9.quest.alchem.desc.potassium}"
+			]
 			id: "390CF74633F52E0B"
 			rewards: [
 				{
@@ -770,7 +791,9 @@
 				"390CF74633F52E0B"
 				"0C882F195627F121"
 			]
-			description: ["{atm9.quest.alchem.desc.potassiumdust}"]
+			description: [
+				"{atm9.quest.alchem.desc.potassium_dust}"
+			]
 			icon: "chemlib:potassium_dust"
 			id: "107AC5D16A8821D6"
 			rewards: [{
@@ -783,13 +806,15 @@
 				item: "chemlib:potassium_dust"
 				type: "item"
 			}]
-			title: "Potassium Dust"
+			title: "{atm9.quest.alchem.potassium_dust}"
 			x: 5.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["107AC5D16A8821D6"]
-			description: ["{atm9.quest.alchem.desc.potassiumingot}"]
+			description: [
+				"{atm9.quest.alchem.desc.potassium_ingot}"
+			]
 			id: "5121FA28244BE1A2"
 			rewards: [{
 				id: "3A5D328882CAFB8E"
@@ -814,7 +839,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "V (23)"
+			subtitle: "{atm9.quest.alchem.subt.V}"
 			tasks: [{
 				id: "3CC5FDBBF173999D"
 				item: "chemlib:vanadium"
@@ -833,7 +858,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Cr (24)"
+			subtitle: "{atm9.quest.alchem.subt.Cr}"
 			tasks: [{
 				id: "6699787BF6AD1B3E"
 				item: "chemlib:chromium"
@@ -852,7 +877,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Y (39)"
+			subtitle: "{atm9.quest.alchem.subt.Y}"
 			tasks: [{
 				id: "64C736615E19F0E4"
 				item: "chemlib:yttrium"
@@ -871,7 +896,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Zr (40)"
+			subtitle: "{atm9.quest.alchem.subt.Zr}"
 			tasks: [{
 				id: "75BFB87E21C4A3FF"
 				item: "chemlib:zirconium"
@@ -882,7 +907,9 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["{atm9.quest.alchem.desc.Mn}"]
+			description: [
+				"{atm9.quest.alchem.desc.Mn}"
+			]
 			hide_dependency_lines: true
 			id: "0E1636BD6F19FF71"
 			rewards: [{
@@ -891,7 +918,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Mn (25)"
+			subtitle: "{atm9.quest.alchem.subt.Mn}"
 			tasks: [{
 				id: "7D3ECFB0BD73FE0A"
 				item: "chemlib:manganese"
@@ -910,7 +937,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Fe (26)"
+			subtitle: "{atm9.quest.alchem.subt.Fe}"
 			tasks: [{
 				id: "4B1C7F68DB3BC087"
 				item: "chemlib:iron"
@@ -929,7 +956,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Co (27)"
+			subtitle: "{atm9.quest.alchem.subt.Co}"
 			tasks: [{
 				id: "40DFFC7A860FE7D5"
 				item: "chemlib:cobalt"
@@ -948,7 +975,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ni (28)"
+			subtitle: "{atm9.quest.alchem.subt.Ni}"
 			tasks: [{
 				id: "19A603C22C5399FB"
 				item: "chemlib:nickel"
@@ -967,7 +994,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Cu (29)"
+			subtitle: "{atm9.quest.alchem.subt.Cu}"
 			tasks: [{
 				id: "3B2D7526B8902404"
 				item: "chemlib:copper"
@@ -986,7 +1013,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Zn (30)"
+			subtitle: "{atm9.quest.alchem.subt.Zn}"
 			tasks: [{
 				id: "3C28C13240703E3E"
 				item: "chemlib:zinc"
@@ -1005,7 +1032,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ga (31)"
+			subtitle: "{atm9.quest.alchem.subt.Ga}"
 			tasks: [{
 				id: "38E6A365D614B2F3"
 				item: "chemlib:gallium"
@@ -1024,7 +1051,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ge (32)"
+			subtitle: "{atm9.quest.alchem.subt.Ge}"
 			tasks: [{
 				id: "6CDE26D6BA301EA2"
 				item: "chemlib:germanium"
@@ -1043,7 +1070,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "As (33)"
+			subtitle: "{atm9.quest.alchem.subt.As}"
 			tasks: [{
 				id: "4B08F5DB6BB819C6"
 				item: "chemlib:arsenic"
@@ -1062,7 +1089,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Rb (37)"
+			subtitle: "{atm9.quest.alchem.subt.Rb}"
 			tasks: [{
 				id: "42595FC4C29E66ED"
 				item: "chemlib:rubidium"
@@ -1081,7 +1108,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Sr (38)"
+			subtitle: "{atm9.quest.alchem.subt.Sr}"
 			tasks: [{
 				id: "01C5C2097D0429A3"
 				item: "chemlib:strontium"
@@ -1100,7 +1127,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Se (34)"
+			subtitle: "{atm9.quest.alchem.subt.Se}"
 			tasks: [{
 				id: "2CF68DEAC6197D5E"
 				item: "chemlib:selenium"
@@ -1119,7 +1146,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Br (35)"
+			subtitle: "{atm9.quest.alchem.subt.Br}"
 			tasks: [{
 				id: "3ABC806C11416AF9"
 				item: "chemlib:bromine"
@@ -1142,7 +1169,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Kr (36)"
+			subtitle: "{atm9.quest.alchem.subt.Kr}"
 			tasks: [{
 				id: "3B73BA2272F3C8D5"
 				item: "chemlib:krypton"
@@ -1161,7 +1188,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Al (13)"
+			subtitle: "{atm9.quest.alchem.subt.Al}"
 			tasks: [{
 				id: "1D0905AB44D71721"
 				item: "chemlib:aluminum"
@@ -1180,7 +1207,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Si (14)"
+			subtitle: "{atm9.quest.alchem.subt.Si}"
 			tasks: [{
 				id: "52F4AB10A3D905F6"
 				item: "chemlib:silicon"
@@ -1199,7 +1226,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "P (15)"
+			subtitle: "{atm9.quest.alchem.subt.P}"
 			tasks: [{
 				id: "56032D4791F00C7F"
 				item: "chemlib:phosphorus"
@@ -1218,7 +1245,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "S (16)"
+			subtitle: "{atm9.quest.alchem.subt.S}"
 			tasks: [{
 				id: "469BD87CC8728E64"
 				item: "chemlib:sulfur"
@@ -1237,7 +1264,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Cl (17)"
+			subtitle: "{atm9.quest.alchem.subt.Cl}"
 			tasks: [{
 				id: "70CDB2A4A4C048BA"
 				item: "chemlib:chlorine"
@@ -1260,7 +1287,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ar (18)"
+			subtitle: "{atm9.quest.alchem.subt.Ar}"
 			tasks: [{
 				id: "56403CAC6622BE02"
 				item: "chemlib:argon"
@@ -1281,7 +1308,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "B (5)"
+			subtitle: "{atm9.quest.alchem.subt.B}"
 			tasks: [{
 				id: "0D1B440DDED8B855"
 				item: "chemlib:boron"
@@ -1300,7 +1327,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "C (6)"
+			subtitle: "{atm9.quest.alchem.subt.C}"
 			tasks: [{
 				id: "5ABA485C9317E1BE"
 				item: "chemlib:carbon"
@@ -1319,7 +1346,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "N (7)"
+			subtitle: "{atm9.quest.alchem.subt.N}"
 			tasks: [{
 				id: "6B236FD3DA7E3858"
 				item: "chemlib:nitrogen"
@@ -1338,7 +1365,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "O (8)"
+			subtitle: "{atm9.quest.alchem.subt.O}"
 			tasks: [{
 				id: "74DB2A6229DAAC32"
 				item: "chemlib:oxygen"
@@ -1357,7 +1384,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "F (9)"
+			subtitle: "{atm9.quest.alchem.subt.F}"
 			tasks: [{
 				id: "41670E74CAFAFFCD"
 				item: "chemlib:fluorine"
@@ -1380,7 +1407,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ne (10)"
+			subtitle: "{atm9.quest.alchem.subt.Ne}"
 			tasks: [{
 				id: "06CEDFB74A5969F6"
 				item: "chemlib:neon"
@@ -1399,7 +1426,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "He (2)"
+			subtitle: "{atm9.quest.alchem.subt.He}"
 			tasks: [{
 				id: "6087278E005DE365"
 				item: "chemlib:helium"
@@ -1411,8 +1438,7 @@
 		{
 			dependencies: ["71815B287D0F162A"]
 			description: [
-				"{atm9.quest.alchem.desc.graphite.1}"
-				"{atm9.quest.alchem.desc.graphite.2}"
+				"{atm9.quest.alchem.desc.graphite}"
 			]
 			hide_dependency_lines: true
 			id: "1154F68732C0022F"
@@ -1445,7 +1471,7 @@
 				"1154F68732C0022F"
 				"0C882F195627F121"
 			]
-			description: ["{atm9.quest.alchem.desc.graphitedust}"]
+			description: ["{atm9.quest.alchem.desc.graphite_dust}"]
 			id: "3B7E8D0231C9B3B6"
 			rewards: [
 				{
@@ -1460,14 +1486,14 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.alchem.subt.graphitedust}"
+			subtitle: "{atm9.quest.alchem.subt.graphite_dust}"
 			tasks: [{
 				count: 16L
 				id: "3C4452F30B048B44"
 				item: "gtceu:graphite_dust"
 				type: "item"
 			}]
-			title: "{atm9.quest.alchem.graphitedust}"
+			title: "{atm9.quest.alchem.graphite_dust}"
 			x: 13.5d
 			y: -3.0d
 		}
@@ -1500,7 +1526,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Nb (41)"
+			subtitle: "{atm9.quest.alchem.subt.Nb}"
 			tasks: [{
 				id: "5577BB7FA064BCAB"
 				item: "chemlib:niobium"
@@ -1519,7 +1545,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Mo (42)"
+			subtitle: "{atm9.quest.alchem.subt.Mo}"
 			tasks: [{
 				id: "6E3A6037D2DC438A"
 				item: "chemlib:molybdenum"
@@ -1538,7 +1564,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Tc (43)"
+			subtitle: "{atm9.quest.alchem.subt.Tc}"
 			tasks: [{
 				id: "7BA75482694C0B5F"
 				item: "chemlib:technetium"
@@ -1557,7 +1583,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ru (44)"
+			subtitle: "{atm9.quest.alchem.subt.Ru}"
 			tasks: [{
 				id: "7EFBAB507E26408C"
 				item: "chemlib:ruthenium"
@@ -1576,7 +1602,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Rh (45)"
+			subtitle: "{atm9.quest.alchem.subt.Rh}"
 			tasks: [{
 				id: "374311827B08F051"
 				item: "chemlib:rhodium"
@@ -1596,7 +1622,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Pd (46)"
+			subtitle: "{atm9.quest.alchem.subt.Pd}"
 			tasks: [{
 				id: "054D417B6675D85E"
 				item: "chemlib:palladium"
@@ -1613,7 +1639,7 @@
 				"714A43E7C2468C74"
 				"3AEDE9828B278466"
 			]
-			description: ["{atm9.quest.alchem.desc.netherstars}"]
+			description: ["{atm9.quest.alchem.desc.nether_stars}"]
 			id: "04017B926E892C90"
 			rewards: [
 				{
@@ -1628,19 +1654,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.alchem.subt.netherstars}"
+			subtitle: "{atm9.quest.alchem.subt.nether_stars}"
 			tasks: [{
 				id: "6A0FA092FAD03B08"
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			title: "{atm9.quest.alchem.netherstars}"
+			title: "{atm9.quest.alchem.nether_stars}"
 			x: 13.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["{atm9.quest.alchem.desc.64dysprosium}"]
+			description: ["{atm9.quest.alchem.desc.dysprosium}"]
 			hide_dependency_lines: true
 			id: "686D998697278004"
 			rewards: [{
@@ -1648,7 +1674,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
+			subtitle: "{atm9.quest.alchem.subt.to_nether_star}"
 			tasks: [{
 				count: 64L
 				id: "774ED308B068D0B2"
@@ -1660,7 +1686,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["{atm9.quest.alchem.desc.64Lutetium}"]
+			description: ["{atm9.quest.alchem.desc.Lutetium}"]
 			hide_dependency_lines: true
 			id: "6518DDD43E8D7F59"
 			rewards: [{
@@ -1668,7 +1694,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
+			subtitle: "{atm9.quest.alchem.subt.to_nether_star}"
 			tasks: [{
 				count: 64L
 				id: "086F3317E603E4DB"
@@ -1680,7 +1706,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["{atm9.quest.alchem.desc.64titanium}"]
+			description: ["{atm9.quest.alchem.desc.titanium}"]
 			hide_dependency_lines: true
 			id: "714A43E7C2468C74"
 			rewards: [{
@@ -1688,7 +1714,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
+			subtitle: "{atm9.quest.alchem.subt.to_nether_star}"
 			tasks: [{
 				count: 64L
 				id: "5F5177384C91A83A"
@@ -1700,7 +1726,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["{atm9.quest.alchem.desc.64mendelevium}"]
+			description: ["{atm9.quest.alchem.desc.mendelevium}"]
 			hide_dependency_lines: true
 			id: "408E92AFAC761478"
 			rewards: [{
@@ -1708,7 +1734,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
+			subtitle: "{atm9.quest.alchem.subt.to_nether_star}"
 			tasks: [{
 				count: 64L
 				id: "20C233EDB2490C7A"
@@ -1793,7 +1819,7 @@
 						]
 					}
 				}
-				title: "ATO Element Dusts"
+				title: "{atm9.quest.alchem.task.dust}"
 				type: "item"
 			}]
 			title: "{atm9.quest.alchem.dust}"
@@ -1873,7 +1899,7 @@
 						]
 					}
 				}
-				title: "ATO Elements"
+				title: "{atm9.quest.alchem.task.element}"
 				type: "item"
 			}]
 			title: "{atm9.quest.alchem.element}"
@@ -1952,7 +1978,7 @@
 						]
 					}
 				}
-				title: "ATO Element Ingots"
+				title: "{atm9.quest.alchem.task.ingot}"
 				type: "item"
 			}]
 			title: "{atm9.quest.alchem.ingot}"
@@ -1969,7 +1995,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ag (47)"
+			subtitle: "{atm9.quest.alchem.subt.Ag}"
 			tasks: [{
 				id: "2AF8E4C62223AC82"
 				item: "chemlib:silver"
@@ -1988,7 +2014,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Cd (48)"
+			subtitle: "{atm9.quest.alchem.subt.Cd}"
 			tasks: [{
 				id: "77F924D7DA376268"
 				item: "chemlib:cadmium"
@@ -2007,7 +2033,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "In (49)"
+			subtitle: "{atm9.quest.alchem.subt.In}"
 			tasks: [{
 				id: "17FEC6B4D67CBF1C"
 				item: "chemlib:indium"
@@ -2026,7 +2052,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Sn (50)"
+			subtitle: "{atm9.quest.alchem.subt.Sn}"
 			tasks: [{
 				id: "4CB49337F9271E35"
 				item: "chemlib:tin"
@@ -2045,7 +2071,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Sb (51)"
+			subtitle: "{atm9.quest.alchem.subt.Sb}"
 			tasks: [{
 				id: "05C7F2D570D49A7C"
 				item: "chemlib:antimony"
@@ -2068,7 +2094,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Te (52)"
+			subtitle: "{atm9.quest.alchem.subt.Te}"
 			tasks: [{
 				id: "0DEB5075C1B2DF61"
 				item: "chemlib:tellurium"
@@ -2087,7 +2113,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "I (53)"
+			subtitle: "{atm9.quest.alchem.subt.I}"
 			tasks: [{
 				id: "444E63D97CDF7C73"
 				item: "chemlib:iodine"
@@ -2106,7 +2132,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Xe (54)"
+			subtitle: "{atm9.quest.alchem.subt.Xe}"
 			tasks: [{
 				id: "261750FC677A126F"
 				item: "chemlib:xenon"
@@ -2125,7 +2151,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ba (56)"
+			subtitle: "{atm9.quest.alchem.subt.Ba}"
 			tasks: [{
 				id: "7E1C8868C003F0EB"
 				item: "chemlib:barium"
@@ -2144,7 +2170,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "La (57)"
+			subtitle: "{atm9.quest.alchem.subt.La}"
 			tasks: [{
 				id: "11157B2FE2308D9C"
 				item: "chemlib:lanthanum"
@@ -2167,7 +2193,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Cs (55)"
+			subtitle: "{atm9.quest.alchem.subt.Cs}"
 			tasks: [{
 				id: "2C7C0457F7F4BF7F"
 				item: "chemlib:cesium"
@@ -2186,7 +2212,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hf (72)"
+			subtitle: "{atm9.quest.alchem.subt.Hf}"
 			tasks: [{
 				id: "06FF674346FF905D"
 				item: "chemlib:hafnium"
@@ -2205,7 +2231,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ta (73)"
+			subtitle: "{atm9.quest.alchem.subt.Ta}"
 			tasks: [{
 				id: "01501CAAD7393833"
 				item: "chemlib:tantalum"
@@ -2224,7 +2250,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "W (74)"
+			subtitle: "{atm9.quest.alchem.subt.W}"
 			tasks: [{
 				id: "25D765D8EAF040F8"
 				item: "chemlib:tungsten"
@@ -2243,7 +2269,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Re (75)"
+			subtitle: "{atm9.quest.alchem.subt.Re}"
 			tasks: [{
 				id: "4F9C34843447CDD0"
 				item: "chemlib:rhenium"
@@ -2262,7 +2288,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Os (76)"
+			subtitle: "{atm9.quest.alchem.subt.Os}"
 			tasks: [{
 				id: "0923FBB15F4189F6"
 				item: "chemlib:osmium"
@@ -2281,7 +2307,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ir (77)"
+			subtitle: "{atm9.quest.alchem.subt.Ir}"
 			tasks: [{
 				id: "51AF7FBFB0FD9791"
 				item: "chemlib:iridium"
@@ -2300,7 +2326,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Pt (78)"
+			subtitle: "{atm9.quest.alchem.subt.Pt}"
 			tasks: [{
 				id: "7A5FE9F3F09F7C04"
 				item: "chemlib:platinum"
@@ -2319,7 +2345,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Au (79)"
+			subtitle: "{atm9.quest.alchem.subt.Au}"
 			tasks: [{
 				id: "0718F9A920FAF6D0"
 				item: "chemlib:gold"
@@ -2338,7 +2364,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hg (80)"
+			subtitle: "{atm9.quest.alchem.subt.Hg}"
 			tasks: [{
 				id: "5D2AE754F356168A"
 				item: "chemlib:mercury"
@@ -2357,7 +2383,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Tl (81)"
+			subtitle: "{atm9.quest.alchem.subt.Tl}"
 			tasks: [{
 				id: "16C45C3F873DF66E"
 				item: "chemlib:thallium"
@@ -2376,7 +2402,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Pb (82)"
+			subtitle: "{atm9.quest.alchem.subt.Pb}"
 			tasks: [{
 				id: "437105FD2A516742"
 				item: "chemlib:lead"
@@ -2396,7 +2422,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Bi (83)"
+			subtitle: "{atm9.quest.alchem.subt.Bi}"
 			tasks: [{
 				id: "42DCCCC1A47621E3"
 				item: "chemlib:bismuth"
@@ -2415,7 +2441,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Po (84)"
+			subtitle: "{atm9.quest.alchem.subt.Po}"
 			tasks: [{
 				id: "40946B2896B32F22"
 				item: "chemlib:polonium"
@@ -2434,7 +2460,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "At (85)"
+			subtitle: "{atm9.quest.alchem.subt.At}"
 			tasks: [{
 				id: "712EB9A74424B6F7"
 				item: "chemlib:astatine"
@@ -2453,7 +2479,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Rn (86)"
+			subtitle: "{atm9.quest.alchem.subt.Rn}"
 			tasks: [{
 				id: "13EF5592CE552EFD"
 				item: "chemlib:radon"
@@ -2472,7 +2498,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Fr (87)"
+			subtitle: "{atm9.quest.alchem.subt.Fr}"
 			tasks: [{
 				id: "3B9B41A4F6366B94"
 				item: "chemlib:francium"
@@ -2491,7 +2517,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ra (88)"
+			subtitle: "{atm9.quest.alchem.subt.Ra}"
 			tasks: [{
 				id: "751E2171EB234DFA"
 				item: "chemlib:radium"
@@ -2510,7 +2536,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ac (89)"
+			subtitle: "{atm9.quest.alchem.subt.Ac}"
 			tasks: [{
 				id: "053559AC021C7389"
 				item: "chemlib:actinium"
@@ -2530,7 +2556,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Rf (104)"
+			subtitle: "{atm9.quest.alchem.subt.Rf}"
 			tasks: [{
 				id: "2A6AF757F11F8B6C"
 				item: "chemlib:rutherfordium"
@@ -2549,7 +2575,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Db (105)"
+			subtitle: "{atm9.quest.alchem.subt.Db}"
 			tasks: [{
 				id: "5B808FE936352930"
 				item: "chemlib:dubnium"
@@ -2568,7 +2594,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Sg (106)"
+			subtitle: "{atm9.quest.alchem.subt.Sg}"
 			tasks: [{
 				id: "2F4CC4391CBFF20C"
 				item: "chemlib:seaborgium"
@@ -2587,7 +2613,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Bh (107)"
+			subtitle: "{atm9.quest.alchem.subt.Bh}"
 			tasks: [{
 				id: "17B8CB542784F4AA"
 				item: "chemlib:bohrium"
@@ -2606,7 +2632,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hs (108)"
+			subtitle: "{atm9.quest.alchem.subt.Hs}"
 			tasks: [{
 				id: "3F5DFD19C498673F"
 				item: "chemlib:hassium"
@@ -2625,7 +2651,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Mt (109)"
+			subtitle: "{atm9.quest.alchem.subt.Mt}"
 			tasks: [{
 				id: "468C62BBC543B0EC"
 				item: "chemlib:meitnerium"
@@ -2644,7 +2670,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ds (110)"
+			subtitle: "{atm9.quest.alchem.subt.Ds}"
 			tasks: [{
 				id: "40C0D1AAD565A99C"
 				item: "chemlib:darmstadtium"
@@ -2663,7 +2689,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Rg (111)"
+			subtitle: "{atm9.quest.alchem.subt.Rg}"
 			tasks: [{
 				id: "480881EFB680DF25"
 				item: "chemlib:roentgenium"
@@ -2682,7 +2708,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Cn (112)"
+			subtitle: "{atm9.quest.alchem.subt.Cn}"
 			tasks: [{
 				id: "0395964E3E756EEF"
 				item: "chemlib:copernicium"
@@ -2701,7 +2727,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Nh (113)"
+			subtitle: "{atm9.quest.alchem.subt.Nh}"
 			tasks: [{
 				id: "588809E4E7C40274"
 				item: "chemlib:nihonium"
@@ -2720,7 +2746,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Fl (114)"
+			subtitle: "{atm9.quest.alchem.subt.Fl}"
 			tasks: [{
 				id: "3C1963D45B8ABCB5"
 				item: "chemlib:flerovium"
@@ -2740,7 +2766,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Mc (115)"
+			subtitle: "{atm9.quest.alchem.subt.Mc}"
 			tasks: [{
 				id: "73C7D914F9C2272A"
 				item: "chemlib:moscovium"
@@ -2759,7 +2785,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Lv (116)"
+			subtitle: "{atm9.quest.alchem.subt.Lv}"
 			tasks: [{
 				id: "47028725613A31AC"
 				item: "chemlib:livermorium"
@@ -2778,7 +2804,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ts (117)"
+			subtitle: "{atm9.quest.alchem.subt.Ts}"
 			tasks: [{
 				id: "42508802D035AAB0"
 				item: "chemlib:tennessine"
@@ -2798,7 +2824,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Og (118)"
+			subtitle: "{atm9.quest.alchem.subt.Og}"
 			tasks: [{
 				id: "30422B894F248DDB"
 				item: "chemlib:oganesson"
@@ -2817,7 +2843,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ce (58)"
+			subtitle: "{atm9.quest.alchem.subt.Ce}"
 			tasks: [{
 				id: "15D2D59C935DD31E"
 				item: "chemlib:cerium"
@@ -2841,7 +2867,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Pr (59)"
+			subtitle: "{atm9.quest.alchem.subt.Pr}"
 			tasks: [{
 				id: "1DB581D67D5592DD"
 				item: "chemlib:praseodymium"
@@ -2860,7 +2886,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Nd (60)"
+			subtitle: "{atm9.quest.alchem.subt.Nd}"
 			tasks: [{
 				id: "6DBF13FB389E3785"
 				item: "chemlib:neodymium"
@@ -2880,7 +2906,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Pm (61)"
+			subtitle: "{atm9.quest.alchem.subt.Pm}"
 			tasks: [{
 				id: "2C28E60B3C078099"
 				item: "chemlib:promethium"
@@ -2899,7 +2925,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Sm (62)"
+			subtitle: "{atm9.quest.alchem.subt.Sm}"
 			tasks: [{
 				id: "559B9B606584B359"
 				item: "chemlib:samarium"
@@ -2918,7 +2944,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Eu (63)"
+			subtitle: "{atm9.quest.alchem.subt.Eu}"
 			tasks: [{
 				id: "0351541B10AE75AE"
 				item: "chemlib:europium"
@@ -2938,7 +2964,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Gd (64)"
+			subtitle: "{atm9.quest.alchem.subt.Gd}"
 			tasks: [{
 				id: "2ED10AE6C7353DA7"
 				item: "chemlib:gadolinium"
@@ -2957,7 +2983,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Tb (65)"
+			subtitle: "{atm9.quest.alchem.subt.Tb}"
 			tasks: [{
 				id: "53F6E6C654959F7B"
 				item: "chemlib:terbium"
@@ -2976,7 +3002,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Dy (66)"
+			subtitle: "{atm9.quest.alchem.subt.Dy}"
 			tasks: [{
 				id: "01A0EB76FDB3B0A8"
 				item: "chemlib:dysprosium"
@@ -2996,7 +3022,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Ho (67)"
+			subtitle: "{atm9.quest.alchem.subt.Ho}"
 			tasks: [{
 				id: "267CC3F4F8FB0C14"
 				item: "chemlib:holmium"
@@ -3015,7 +3041,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Er (68)"
+			subtitle: "{atm9.quest.alchem.subt.Er}"
 			tasks: [{
 				id: "447F72D07317EA51"
 				item: "chemlib:erbium"
@@ -3035,7 +3061,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Tm (69)"
+			subtitle: "{atm9.quest.alchem.subt.Tm}"
 			tasks: [{
 				id: "3A6020A17DA536F7"
 				item: "chemlib:thulium"
@@ -3054,7 +3080,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Yb (70)"
+			subtitle: "{atm9.quest.alchem.subt.Yb}"
 			tasks: [{
 				id: "761B2843841AE0B9"
 				item: "chemlib:ytterbium"
@@ -3073,7 +3099,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Lu (71)"
+			subtitle: "{atm9.quest.alchem.subt.Lu}"
 			tasks: [{
 				id: "0A302B7D8C4F3020"
 				item: "chemlib:lutetium"
@@ -3093,7 +3119,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Th (90)"
+			subtitle: "{atm9.quest.alchem.subt.Th}"
 			tasks: [{
 				id: "47C9B4D81877CF30"
 				item: "chemlib:thorium"
@@ -3112,7 +3138,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Pa (91)"
+			subtitle: "{atm9.quest.alchem.subt.Pa}"
 			tasks: [{
 				id: "352F4951947C0FF7"
 				item: "chemlib:protactinium"
@@ -3131,7 +3157,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "U (92)"
+			subtitle: "{atm9.quest.alchem.subt.U}"
 			tasks: [{
 				id: "0AD72F45B87A0BE9"
 				item: "chemlib:uranium"
@@ -3151,7 +3177,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Np (93)"
+			subtitle: "{atm9.quest.alchem.subt.Np}"
 			tasks: [{
 				id: "77C9380A7D4D0596"
 				item: "chemlib:neptunium"
@@ -3170,7 +3196,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Pu (94)"
+			subtitle: "{atm9.quest.alchem.subt.Pu}"
 			tasks: [{
 				id: "0C6BBCD54017F402"
 				item: "chemlib:plutonium"
@@ -3190,7 +3216,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Am (95)"
+			subtitle: "{atm9.quest.alchem.subt.Am}"
 			tasks: [{
 				id: "66CC0DB0821FFBDA"
 				item: "chemlib:americium"
@@ -3209,7 +3235,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Cm (96)"
+			subtitle: "{atm9.quest.alchem.subt.Cm}"
 			tasks: [{
 				id: "75BFDFCFCFDB72CE"
 				item: "chemlib:curium"
@@ -3228,7 +3254,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Bk (97)"
+			subtitle: "{atm9.quest.alchem.subt.Bk}"
 			tasks: [{
 				id: "1463F4F91B9847A7"
 				item: "chemlib:berkelium"
@@ -3247,7 +3273,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Cf (98)"
+			subtitle: "{atm9.quest.alchem.subt.Cf}"
 			tasks: [{
 				id: "741469FE26B8F903"
 				item: "chemlib:californium"
@@ -3266,7 +3292,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Es (99)"
+			subtitle: "{atm9.quest.alchem.subt.Es}"
 			tasks: [{
 				id: "1830F8D09D3CADEF"
 				item: "chemlib:einsteinium"
@@ -3285,7 +3311,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Fm (100)"
+			subtitle: "{atm9.quest.alchem.subt.Fm}"
 			tasks: [{
 				id: "53A390D3130DAD09"
 				item: "chemlib:fermium"
@@ -3304,7 +3330,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Md (101)"
+			subtitle: "{atm9.quest.alchem.subt.Md}"
 			tasks: [{
 				id: "791F518B2DDDA533"
 				item: "chemlib:mendelevium"
@@ -3324,7 +3350,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "No (102)"
+			subtitle: "{atm9.quest.alchem.subt.No}"
 			tasks: [{
 				id: "4ABEA5D5C01D41B5"
 				item: "chemlib:nobelium"
@@ -3343,7 +3369,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Lr (103)"
+			subtitle: "{atm9.quest.alchem.subt.Lr}"
 			tasks: [{
 				id: "3746F5CE2095187E"
 				item: "chemlib:lawrencium"
@@ -3355,12 +3381,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -3380,12 +3401,12 @@
 				{
 					disable_toast: true
 					id: "1955A724EC26AC9E"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "26B2473C746FB5AF"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

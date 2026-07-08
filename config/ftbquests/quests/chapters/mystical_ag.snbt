@@ -8,8 +8,9 @@
 	id: "5C764279146E5E66"
 	images: [
 		{
+			click: " "
 			height: 0.3d
-			hover: ["Needed for the ATM Star"]
+			hover: ["atm9.quest.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -17,8 +18,9 @@
 			y: 2.85d
 		}
 		{
+			click: " "
 			height: 0.3d
-			hover: ["Needed for the ATM Star"]
+			hover: ["atm9.quest.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -32,7 +34,7 @@
 	quests: [
 		{
 			dependencies: ["54D6F7F8FE859729"]
-			description: ["{atm9.quest.ma.desc.altar}"]
+			description: ["{atm9.quest.ma.desc.infusion}"]
 			id: "6D750A38944E9B68"
 			rewards: [
 				{
@@ -61,7 +63,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.ma.altar}"
+			title: "{atm9.quest.ma.infusion}"
 			x: -18.799999999999997d
 			y: 0.7999999999999998d
 		}
@@ -93,7 +95,7 @@
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.InfFarm}"]
+			description: ["{atm9.quest.ma.desc.inferium_farmland}"]
 			hide_until_deps_visible: true
 			id: "7DFF18CFEB0B8DBE"
 			rewards: [
@@ -122,7 +124,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.ma.InfFarm}"
+			title: "{atm9.quest.ma.inferium_farmland}"
 			x: -19.5d
 			y: -3.0d
 		}
@@ -367,7 +369,7 @@
 				item: "mysticalagriculture:prudentium_farmland"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.PruFarm}"
+			title: "{atm9.quest.ma.prudentium_farmland}"
 			x: -14.5d
 			y: -3.0d
 		}
@@ -827,7 +829,7 @@
 				item: "mysticalagriculture:tertium_farmland"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.TerFarm}"
+			title: "{atm9.quest.ma.tertium_farmland}"
 			x: -9.5d
 			y: -3.0d
 		}
@@ -1287,7 +1289,7 @@
 				item: "mysticalagriculture:imperium_farmland"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.ImpFarm}"
+			title: "{atm9.quest.ma.imperium_farmland}"
 			x: -4.5d
 			y: -3.0d
 		}
@@ -1546,7 +1548,7 @@
 				item: "mysticalagriculture:supremium_farmland"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.SupFarm}"
+			title: "{atm9.quest.ma.supremium_farmland}"
 			x: 0.5d
 			y: -3.0d
 		}
@@ -1572,7 +1574,7 @@
 				item: "mysticalagriculture:wither_skeleton_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.witherskele}"
+			title: "{atm9.quest.ma.wither_skeleton}"
 			x: 0.5d
 			y: 0.5d
 		}
@@ -1747,7 +1749,7 @@
 				item: "mysticalagradditions:insanium_farmland"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InsFarm}"
+			title: "{atm9.quest.ma.insanium_farmland}"
 			x: 6.5d
 			y: -3.5d
 		}
@@ -1840,7 +1842,7 @@
 			y: 2.3d
 		}
 		{
-			description: ["{atm9.quest.ma.desc.InEssence}"]
+			description: ["{atm9.quest.ma.desc.inferium_essence}"]
 			id: "1CC4F8570A7A99EB"
 			rewards: [
 				{
@@ -1868,13 +1870,13 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{atm9.quest.ma.subt.InEssence}"
+			subtitle: "{atm9.quest.ma.subt.inferium_essence}"
 			tasks: [{
 				id: "667004CD0469493D"
 				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InEssence}"
+			title: "{atm9.quest.ma.inferium_essence}"
 			x: -19.5d
 			y: -1.5d
 		}
@@ -1913,7 +1915,7 @@
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.InfGrowth}"]
+			description: ["{atm9.quest.ma.desc.inferium_growth}"]
 			hide_until_deps_visible: true
 			id: "4821419D44F8083F"
 			rewards: [
@@ -1934,7 +1936,7 @@
 				item: "mysticalagriculture:inferium_growth_accelerator"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InfGrowth}"
+			title: "{atm9.quest.ma.inferium_growth}"
 			x: -20.5d
 			y: -0.5d
 		}
@@ -1951,7 +1953,7 @@
 				item: "mysticalagriculture:prudentium_growth_accelerator"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.PruGrowth}"
+			title: "{atm9.quest.ma.prudentium_growth}"
 			x: -15.5d
 			y: -0.5d
 		}
@@ -1968,7 +1970,7 @@
 				item: "mysticalagriculture:tertium_growth_accelerator"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.TerGrowth}"
+			title: "{atm9.quest.ma.tertium_growth}"
 			x: -10.5d
 			y: -0.5d
 		}
@@ -1985,7 +1987,7 @@
 				item: "mysticalagriculture:imperium_growth_accelerator"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.ImpGrowth}"
+			title: "{atm9.quest.ma.imperium_growth}"
 			x: -5.5d
 			y: -0.5d
 		}
@@ -2002,13 +2004,13 @@
 				item: "mysticalagriculture:supremium_growth_accelerator"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.SupGrowth}"
+			title: "{atm9.quest.ma.supremium_growth}"
 			x: -0.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.InfWater}"]
+			description: ["{atm9.quest.ma.desc.inferium_water}"]
 			hide_until_deps_visible: true
 			id: "62D04566426DD979"
 			rewards: [
@@ -2036,7 +2038,7 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InfWater}"
+			title: "{atm9.quest.ma.inferium_water}"
 			x: -20.5d
 			y: -2.5d
 		}
@@ -2068,7 +2070,7 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.PruWater}"
+			title: "{atm9.quest.ma.prudentium_water}"
 			x: -15.5d
 			y: -2.5d
 		}
@@ -2100,7 +2102,7 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.TerWater}"
+			title: "{atm9.quest.ma.tertium_water}"
 			x: -10.5d
 			y: -2.5d
 		}
@@ -2138,7 +2140,7 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.ImpWater}"
+			title: "{atm9.quest.ma.imperium_water}"
 			x: -5.5d
 			y: -2.5d
 		}
@@ -2170,13 +2172,13 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.SupWater}"
+			title: "{atm9.quest.ma.supremium_water}"
 			x: -0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.InfApple}"]
+			description: ["{atm9.quest.ma.desc.inferium_apple}"]
 			hide_until_deps_visible: true
 			id: "1F88C697817A7680"
 			rewards: [
@@ -2197,7 +2199,7 @@
 				item: "mysticalagradditions:inferium_apple"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InfApple}"
+			title: "{atm9.quest.ma.inferium_apple}"
 			x: -18.5d
 			y: -2.5d
 		}
@@ -2214,7 +2216,7 @@
 				item: "mysticalagradditions:prudentium_apple"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.PruApple}"
+			title: "{atm9.quest.ma.prudentium_apple}"
 			x: -13.5d
 			y: -2.5d
 		}
@@ -2231,7 +2233,7 @@
 				item: "mysticalagradditions:tertium_apple"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.TerApple}"
+			title: "{atm9.quest.ma.tertium_apple}"
 			x: -8.5d
 			y: -2.5d
 		}
@@ -2248,7 +2250,7 @@
 				item: "mysticalagradditions:imperium_apple"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.ImpApple}"
+			title: "{atm9.quest.ma.imperium_apple}"
 			x: -3.5d
 			y: -2.5d
 		}
@@ -2265,7 +2267,7 @@
 				item: "mysticalagradditions:supremium_apple"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.SupApple}"
+			title: "{atm9.quest.ma.supremium_apple}"
 			x: 1.5d
 			y: -2.5d
 		}
@@ -2282,13 +2284,13 @@
 				item: "mysticalagradditions:insanium_apple"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InsApple}"
+			title: "{atm9.quest.ma.insanium_apple}"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.InfGear}"]
+			description: ["{atm9.quest.ma.desc.insanium_gear}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: true
 			id: "2A7E3F2CD335EAD0"
@@ -2357,7 +2359,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.ma.InfGear}"
+			title: "{atm9.quest.ma.insanium_gear}"
 			x: -18.0d
 			y: -1.5d
 		}
@@ -2430,7 +2432,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.ma.PruGear}"
+			title: "{atm9.quest.ma.prudentium_gear}"
 			x: -13.0d
 			y: -1.5d
 		}
@@ -2503,7 +2505,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.ma.TerGear}"
+			title: "{atm9.quest.ma.tertium_gear}"
 			x: -8.0d
 			y: -1.5d
 		}
@@ -2576,7 +2578,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.ma.ImpArmor}"
+			title: "{atm9.quest.ma.imperium_armor}"
 			x: -3.0d
 			y: -1.5d
 		}
@@ -2649,7 +2651,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.ma.SupGear}"
+			title: "{atm9.quest.ma.supremium_gear}"
 			x: 2.0d
 			y: -1.5d
 		}
@@ -2693,7 +2695,7 @@
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.PruEssence}"]
+			description: ["{atm9.quest.ma.desc.prudentium_essence}"]
 			hide_dependency_lines: true
 			id: "73350AD668200E99"
 			rewards: [
@@ -2711,13 +2713,13 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{atm9.quest.ma.subt.PruEssence}"
+			subtitle: "{atm9.quest.ma.subt.prudentium_essence}"
 			tasks: [{
 				id: "4B2621F8D8FA7CA7"
 				item: "mysticalagriculture:prudentium_essence"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.PruEssence}"
+			title: "{atm9.quest.ma.prudentium_essence}"
 			x: -14.5d
 			y: -1.5d
 		}
@@ -2740,13 +2742,13 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{atm9.quest.ma.subt.TerEssence}"
+			subtitle: "{atm9.quest.ma.subt.tertium_essence}"
 			tasks: [{
 				id: "6A85B770B8EA032B"
 				item: "mysticalagriculture:tertium_essence"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.TerEssence}"
+			title: "{atm9.quest.ma.tertium_essence}"
 			x: -9.5d
 			y: -1.5d
 		}
@@ -2769,13 +2771,13 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{atm9.quest.ma.subt.ImpEssence}"
+			subtitle: "{atm9.quest.ma.subt.imperium_essence}"
 			tasks: [{
 				id: "4BEC4730588463FE"
 				item: "mysticalagriculture:imperium_essence"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.ImpEssence}"
+			title: "{atm9.quest.ma.imperium_essence}"
 			x: -4.5d
 			y: -1.5d
 		}
@@ -2799,13 +2801,13 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{atm9.quest.ma.subt.SupEssence}"
+			subtitle: "{atm9.quest.ma.subt.supremium_essence}"
 			tasks: [{
 				id: "247349D4951C789F"
 				item: "mysticalagriculture:supremium_essence"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.SupEssence}"
+			title: "{atm9.quest.ma.supremium_essence}"
 			x: 0.5d
 			y: -1.5d
 		}
@@ -2828,13 +2830,13 @@
 			]
 			shape: "hexagon"
 			size: 2.5d
-			subtitle: "{atm9.quest.ma.subt.InsEssence}"
+			subtitle: "{atm9.quest.ma.subt.insanium_essence}"
 			tasks: [{
 				id: "179DC208291D3C90"
 				item: "mysticalagradditions:insanium_essence"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InsEssence}"
+			title: "{atm9.quest.ma.insanium_essence}"
 			x: 6.5d
 			y: -1.5d
 		}
@@ -2866,7 +2868,7 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.AwaWater}"
+			title: "{atm9.quest.ma.awakened_supremium_water}"
 			x: 2.0d
 			y: 5.0d
 		}
@@ -2937,13 +2939,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.ma.AwaGear}"
+			title: "{atm9.quest.ma.awakened_supremium_gear}"
 			x: -1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.InfTools}"]
+			description: ["{atm9.quest.ma.desc.inferium_tool}"]
 			hide_until_deps_visible: true
 			id: "4EF5DE3FBA2A7AE3"
 			rewards: [
@@ -3053,10 +3055,10 @@
 						]
 					}
 				}
-				title: "Inferium Tools and Weapons"
+				title: "{atm9.quest.ma.task.inferium_tool}"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InfTools}"
+			title: "{atm9.quest.ma.inferium_tool}"
 			x: -21.0d
 			y: -1.5d
 		}
@@ -3170,10 +3172,10 @@
 						]
 					}
 				}
-				title: "Prudentium Tools and Weapons"
+				title: "{atm9.quest.ma.task.prudentium_tool}"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.PruTools}"
+			title: "{atm9.quest.ma.prudentium_tool}"
 			x: -16.0d
 			y: -1.5d
 		}
@@ -3287,10 +3289,10 @@
 						]
 					}
 				}
-				title: "Tertium Tools and Weapons"
+				title: "{atm9.quest.ma.task.tertium_tool}"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.TerTools}"
+			title: "{atm9.quest.ma.tertium_tool}"
 			x: -11.0d
 			y: -1.5d
 		}
@@ -3410,10 +3412,10 @@
 						]
 					}
 				}
-				title: "Imperium Tools and Weapons"
+				title: "{atm9.quest.ma.task.imperium_tool}"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.ImpTools}"
+			title: "{atm9.quest.ma.imperium_tool}"
 			x: -6.0d
 			y: -1.5d
 		}
@@ -3491,10 +3493,10 @@
 						]
 					}
 				}
-				title: "Supremium Tools and Weapons"
+				title: "{atm9.quest.ma.task.supremium_tool}"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.SupTool}"
+			title: "{atm9.quest.ma.supremium_tool}"
 			x: -1.0d
 			y: -1.5d
 		}
@@ -3572,10 +3574,10 @@
 						]
 					}
 				}
-				title: "Awakened Supremium Tools and Weapons"
+				title: "{atm9.quest.ma.task.awakened_supremium_tool}"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.AwaTools}"
+			title: "{atm9.quest.ma.awakened_supremium_tool}"
 			x: 0.5d
 			y: 5.5d
 		}
@@ -3610,13 +3612,13 @@
 			]
 			shape: "octagon"
 			size: 2.5d
-			subtitle: "{atm9.quest.ma.subt.ASE}"
+			subtitle: "{atm9.quest.ma.subt.awakened_supremium}"
 			tasks: [{
 				id: "3DB6441F3AE36AAB"
 				item: "mysticalagriculture:awakened_supremium_block"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.ASE}"
+			title: "{atm9.quest.ma.awakened_supremium}"
 			x: 0.5d
 			y: 3.5d
 		}
@@ -3747,7 +3749,7 @@
 				item: "mysticalagradditions:insanium_block"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InsBlock}"
+			title: "{atm9.quest.ma.insanium_block}"
 			x: 6.5d
 			y: 0.5d
 		}
@@ -3800,7 +3802,7 @@
 				"0F031E62E5235251"
 				"67C4A4D6DD93DB0E"
 			]
-			description: ["{atm9.quest.ma.desc.atm}"]
+			description: ["{atm9.quest.ma.desc.crux}"]
 			id: "06401FE7C8D75FC1"
 			rewards: [{
 				count: 3
@@ -3839,12 +3841,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -3864,12 +3861,12 @@
 				{
 					disable_toast: true
 					id: "13EFAE42DD3F7B13"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "599F5834A5A18F01"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

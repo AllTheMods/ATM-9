@@ -13,7 +13,9 @@
 	id: "5E31DF282998B992"
 	images: [
 		{
+			click: " "
 			height: 0.3d
+			hover: ["atm9.quest.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -21,7 +23,9 @@
 			y: 3.5d
 		}
 		{
+			click: " "
 			height: 0.3d
+			hover: ["atm9.quest.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -163,7 +167,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{atm9.quest.pneumatic.desc.pneumatic}"]
+			description: ["{atm9.quest.pneumatic.desc.welcome}"]
 			hide_dependency_lines: false
 			id: "371A34B297C8A8EF"
 			min_width: 250
@@ -186,19 +190,19 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{atm9.quest.pneumatic.subt.pneumatic}"
+			subtitle: "{atm9.quest.pneumatic.subt.welcome}"
 			tasks: [{
 				id: "1D5049AE4BC0BA39"
 				item: "pneumaticcraft:ingot_iron_compressed"
 				type: "item"
 			}]
-			title: "{atm9.quest.pneumatic.pneumatic}"
+			title: "{atm9.quest.pneumatic.welcome}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["371A34B297C8A8EF"]
-			description: ["{atm9.quest.pneumatic.desc.reinforcedStone}"]
+			description: ["{atm9.quest.pneumatic.desc.reinforced_stone}"]
 			id: "65E2AF881709C896"
 			min_required_dependencies: 1
 			rewards: [{
@@ -206,20 +210,20 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{atm9.quest.pneumatic.subt.reinforcedStone}"
+			subtitle: "{atm9.quest.pneumatic.subt.reinforced_stone}"
 			tasks: [{
 				count: 32L
 				id: "052A7C7918C3A0D5"
 				item: "pneumaticcraft:reinforced_stone"
 				type: "item"
 			}]
-			title: "{atm9.quest.pneumatic.reinforcedStone}"
+			title: "{atm9.quest.pneumatic.reinforced_stone}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["371A34B297C8A8EF"]
-			description: ["{atm9.quest.pneumatic.desc.compressedArmor}"]
+			description: ["{atm9.quest.pneumatic.desc.compressed_iron_armor}"]
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:compressed_iron_chestplate"
@@ -243,7 +247,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.compressedArmor}"
+			subtitle: "{atm9.quest.pneumatic.subt.compressed_iron_armor}"
 			tasks: [
 				{
 					id: "304A15731EA889F5"
@@ -290,14 +294,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.pneumatic.compressedArmor}"
+			title: "{atm9.quest.pneumatic.compressed_iron_armor}"
 			x: -2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["371A34B297C8A8EF"]
 			dependency_requirement: "one_completed"
-			description: ["{atm9.quest.pneumatic.desc.autoCompressedIron}"]
+			description: ["{atm9.quest.pneumatic.desc.auto_compressed_iron}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: true
 			id: "6FD65139CD50A8C0"
@@ -317,7 +321,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.autoCompressedIron}"
+			subtitle: "{atm9.quest.pneumatic.subt.auto_compressed_iron}"
 			tasks: [{
 				id: "47CC78B479496E5B"
 				item: {
@@ -341,7 +345,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.pneumatic.autoCompressedIron}"
+				title: "{atm9.quest.pneumatic.task.auto_compressed_iron}"
 				type: "item"
 			}]
 			x: 1.5d
@@ -380,7 +384,7 @@
 			subtitle: "{atm9.quest.pneumatic.subt.understand}"
 			tasks: [{
 				id: "1EEC7B67E037F766"
-				title: "{atm9.quest.pneumatic.understand}"
+				title: "{atm9.quest.pneumatic.task.understand}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -517,7 +521,7 @@
 		{
 			dependencies: ["371A34B297C8A8EF"]
 			description: [
-				"{atm9.quest.pneumatic.desc.fluidTank}"
+				"{atm9.quest.pneumatic.desc.small_tank}"
 				""
 				"{image:pneumaticcraft:textures/patchouli/small_tanks.png width:250 height:250 align:center fit:true}"
 			]
@@ -527,7 +531,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.pneumatic.subt.fluidTank}"
+			subtitle: "{atm9.quest.pneumatic.subt.small_tank}"
 			tasks: [{
 				id: "0E4936A2C65706CB"
 				item: "pneumaticcraft:small_tank"
@@ -544,7 +548,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.pneumatic.subt.mediunFluidTank}"
+			subtitle: "{atm9.quest.pneumatic.subt.medium_tank}"
 			tasks: [{
 				id: "66A0A8D0385970E1"
 				item: "pneumaticcraft:medium_tank"
@@ -561,7 +565,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.pneumatic.subt.hugeFluidTank}"
+			subtitle: "{atm9.quest.pneumatic.subt.huge_tank}"
 			tasks: [{
 				id: "338B9093062C93C3"
 				item: "pneumaticcraft:huge_tank"
@@ -578,7 +582,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.pneumatic.subt.largeFluidTank}"
+			subtitle: "{atm9.quest.pneumatic.subt.large_tank}"
 			tasks: [{
 				id: "4C8F07DD812CFC23"
 				item: "pneumaticcraft:large_tank"
@@ -617,7 +621,7 @@
 		}
 		{
 			dependencies: ["371A34B297C8A8EF"]
-			description: ["{atm9.quest.pneumatic.desc.directionHopper}"]
+			description: ["{atm9.quest.pneumatic.desc.omnidirectional_hopper}"]
 			id: "74015945716FD10A"
 			rewards: [
 				{
@@ -632,7 +636,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.directionHopper}"
+			subtitle: "{atm9.quest.pneumatic.subt.omnidirectional_hopper}"
 			tasks: [{
 				id: "6ABBA72726C25C03"
 				item: "pneumaticcraft:omnidirectional_hopper"
@@ -643,7 +647,7 @@
 		}
 		{
 			dependencies: ["371A34B297C8A8EF"]
-			description: ["{atm9.quest.pneumatic.desc.liquidHopper}"]
+			description: ["{atm9.quest.pneumatic.desc.liquid_hopper}"]
 			id: "0FF050EC1EA6EAED"
 			rewards: [
 				{
@@ -658,7 +662,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.liquidHopper}"
+			subtitle: "{atm9.quest.pneumatic.subt.liquid_hopper}"
 			tasks: [{
 				id: "23CB951DCC261A67"
 				item: "pneumaticcraft:liquid_hopper"
@@ -720,7 +724,7 @@
 		}
 		{
 			dependencies: ["0AEAEA976ED0C470"]
-			description: ["{atm9.quest.pneumatic.desc.camouflage}"]
+			description: ["{atm9.quest.pneumatic.desc.camo_applicator}"]
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:camo_applicator"
@@ -735,7 +739,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{atm9.quest.pneumatic.subt.camouflage}"
+			subtitle: "{atm9.quest.pneumatic.subt.camo_applicator}"
 			tasks: [{
 				id: "2669B32EE3AEDEF8"
 				item: "pneumaticcraft:camo_applicator"
@@ -773,7 +777,7 @@
 		{
 			dependencies: ["6CA01DCE1F4A0EC3"]
 			description: [
-				"{atm9.quest.pneumatic.desc.gasLift}"
+				"{atm9.quest.pneumatic.desc.gas_lift}"
 				""
 				"{image:pneumaticcraft:textures/patchouli/oil_pumping.png width:200 height:200 align:right fit:true}"
 			]
@@ -792,7 +796,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.gasLift}"
+			subtitle: "{atm9.quest.pneumatic.subt.gas_lift}"
 			tasks: [
 				{
 					id: "14E8E26455BB6C0F"
@@ -916,7 +920,7 @@
 		}
 		{
 			dependencies: ["5AEE86EB39FD4087"]
-			description: ["{atm9.quest.pneumatic.desc.betterHeat}"]
+			description: ["{atm9.quest.pneumatic.desc.heat_sink}"]
 			hide_dependency_lines: false
 			id: "3F9CCCFEF4E84166"
 			optional: true
@@ -932,19 +936,19 @@
 					xp: 50
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.betterHeat}"
+			subtitle: "{atm9.quest.pneumatic.subt.heat_sink}"
 			tasks: [{
 				id: "2B250211827F00CD"
 				item: "pneumaticcraft:heat_sink"
 				type: "item"
 			}]
-			title: "{atm9.quest.pneumatic.betterHeat}"
+			title: "{atm9.quest.pneumatic.heat_sink}"
 			x: 6.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["5AEE86EB39FD4087"]
-			description: ["{atm9.quest.pneumatic.desc.movingHeat}"]
+			description: ["{atm9.quest.pneumatic.desc.heat_pipe}"]
 			id: "75D3F3C1D4A3EAA2"
 			rewards: [
 				{
@@ -958,13 +962,13 @@
 					xp: 50
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.movingHeat}"
+			subtitle: "{atm9.quest.pneumatic.subt.heat_pipe}"
 			tasks: [{
 				id: "54D71DF75158990B"
 				item: "pneumaticcraft:heat_pipe"
 				type: "item"
 			}]
-			title: "{atm9.quest.pneumatic.movingHeat}"
+			title: "{atm9.quest.pneumatic.heat_pipe}"
 			x: 8.0d
 			y: 5.5d
 		}
@@ -1171,7 +1175,7 @@
 		}
 		{
 			dependencies: ["54169B69725C49DF"]
-			description: ["{atm9.quest.pneumatic.desc.autoPlastic}"]
+			description: ["{atm9.quest.pneumatic.desc.auto_plastic}"]
 			hide_until_deps_visible: true
 			id: "3F657CF4EBDDC3C4"
 			optional: true
@@ -1189,7 +1193,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.autoPlastic}"
+			subtitle: "{atm9.quest.pneumatic.subt.auto_plastic}"
 			tasks: [{
 				id: "7D244ADE2C7FFA02"
 				item: {
@@ -1213,7 +1217,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.pneumatic.autoPlastic}"
+				title: "{atm9.quest.pneumatic.task.auto_plastic}"
 				type: "item"
 			}]
 			x: 15.0d
@@ -1221,7 +1225,7 @@
 		}
 		{
 			dependencies: ["54169B69725C49DF"]
-			description: ["{atm9.quest.pneumatic.desc.empty}"]
+			description: ["{atm9.quest.pneumatic.desc.empty_pcb}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1242,7 +1246,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.empty}"
+			subtitle: "{atm9.quest.pneumatic.subt.empty_pcb}"
 			tasks: [{
 				id: "071DA0091E3B96EA"
 				item: "pneumaticcraft:empty_pcb"
@@ -1347,7 +1351,8 @@
 		{
 			dependencies: ["7040CA41C0A3C2F2"]
 			description: [
-				"{atm9.quest.pneumatic.desc.charging}"
+				"{atm9.quest.pneumatic.desc.uv_light_box}"
+				""
 				"{image:atm:textures/questpics/pneumaticcraft/uv_charging.png width:200 height:100 align:center}"
 			]
 			id: "2CC56A4F06E53307"
@@ -1363,13 +1368,13 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.charging}"
+			subtitle: "{atm9.quest.pneumatic.subt.uv_light_box}"
 			tasks: [{
 				id: "2F86488FC900EE22"
 				item: "pneumaticcraft:uv_light_box"
 				type: "item"
 			}]
-			title: "{atm9.quest.pneumatic.charging}"
+			title: "{atm9.quest.pneumatic.uv_light_box}"
 			x: 18.5d
 			y: 5.5d
 		}
@@ -1670,7 +1675,7 @@
 		{
 			dependencies: ["3CFE522A4B7CC2EC"]
 			description: [
-				"{atm9.quest.pneumatic.desc.smartChest}"
+				"{atm9.quest.pneumatic.desc.smart_chest}"
 				"{image:atm:textures/questpics/pneumaticcraft/smart_chest_ui.png width:200 height:100 align:center}"
 			]
 			id: "440B1E1D4951F808"
@@ -1680,7 +1685,7 @@
 				table_id: 4882501005851525094L
 				type: "random"
 			}]
-			subtitle: "{atm9.quest.pneumatic.subt.smartChest}"
+			subtitle: "{atm9.quest.pneumatic.subt.smart_chest}"
 			tasks: [{
 				id: "101850E9F188F7BD"
 				item: "pneumaticcraft:smart_chest"
@@ -1710,7 +1715,7 @@
 		}
 		{
 			dependencies: ["43EF5513A1C52A37"]
-			description: ["{atm9.quest.pneumatic.desc.vegetableOil}"]
+			description: ["{atm9.quest.pneumatic.desc.vegetable_oil}"]
 			id: "649167FC31EB916E"
 			rewards: [
 				{
@@ -1725,19 +1730,19 @@
 					xp: 50
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.vegetableOil}"
+			subtitle: "{atm9.quest.pneumatic.subt.vegetable_oil}"
 			tasks: [{
 				id: "5CD3D552F51AEF08"
 				item: "pneumaticcraft:vegetable_oil_bucket"
 				type: "item"
 			}]
-			title: "{atm9.quest.pneumatic.vegetableOil}"
+			title: "{atm9.quest.pneumatic.vegetable_oil}"
 			x: 9.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["649167FC31EB916E"]
-			description: ["{atm9.quest.pneumatic.desc.fishNChips}"]
+			description: ["{atm9.quest.pneumatic.desc.cod_n_chips}"]
 			id: "42951D14ADCD9332"
 			rewards: [
 				{
@@ -1751,13 +1756,13 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.fishNChips}"
+			subtitle: "{atm9.quest.pneumatic.subt.cod_n_chips}"
 			tasks: [{
 				id: "569BF001CEBF7853"
 				item: "pneumaticcraft:cod_n_chips"
 				type: "item"
 			}]
-			title: "{atm9.quest.pneumatic.fishNChips}"
+			title: "{atm9.quest.pneumatic.cod_n_chips}"
 			x: 8.0d
 			y: 6.5d
 		}
@@ -1901,7 +1906,7 @@
 		}
 		{
 			dependencies: ["54169B69725C49DF"]
-			description: ["{atm9.quest.pneumatic.desc.constructionBricks}"]
+			description: ["{atm9.quest.pneumatic.desc.plastic_bricks}"]
 			icon: "pneumaticcraft:plastic_brick_red"
 			id: "482E558BCFEE6B7E"
 			optional: true
@@ -1917,7 +1922,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.constructionBricks}"
+			subtitle: "{atm9.quest.pneumatic.subt.plastic_bricks}"
 			tasks: [{
 				id: "25FF884779D98BAD"
 				item: {
@@ -1927,7 +1932,7 @@
 						value: "pneumaticcraft:plastic_bricks"
 					}
 				}
-				title: "{atm9.quest.pneumatic.constructionBricks}"
+				title: "{atm9.quest.pneumatic.task.plastic_bricks}"
 				type: "item"
 			}]
 			x: 13.5d
@@ -1936,10 +1941,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -1959,12 +1961,12 @@
 				{
 					disable_toast: true
 					id: "0CD2482221534ED9"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "7AAE25A5D1C4E2FA"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]
@@ -1999,7 +2001,7 @@
 		}
 		{
 			dependencies: ["54169B69725C49DF"]
-			description: ["{atm9.quest.pneumatic.desc.reinforcedTube}"]
+			description: ["{atm9.quest.pneumatic.desc.reinforced_pressure_tube}"]
 			id: "32C3E14578D48E6C"
 			optional: true
 			rewards: [
@@ -2014,7 +2016,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.reinforcedTube}"
+			subtitle: "{atm9.quest.pneumatic.subt.reinforced_pressure_tube}"
 			tasks: [{
 				id: "5EE58C7A02CDDEAB"
 				item: "pneumaticcraft:reinforced_pressure_tube"
@@ -2182,7 +2184,7 @@
 						value: "forge:chests"
 					}
 				}
-				title: "{atm9.quest.pneumatic.chest}"
+				title: "{atm9.quest.pneumatic.task.assembly}"
 				type: "item"
 			}]
 			title: "{atm9.quest.pneumatic.assembly}"
@@ -2257,7 +2259,7 @@
 		}
 		{
 			dependencies: ["3A9AC6AB4407DC32"]
-			description: ["{atm9.quest.pneumatic.desc.advancedTube}"]
+			description: ["{atm9.quest.pneumatic.desc.advanced_pressure_tube}"]
 			id: "64E2E05B228EA53E"
 			rewards: [
 				{
@@ -2272,7 +2274,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.advancedTube}"
+			subtitle: "{atm9.quest.pneumatic.subt.advanced_pressure_tube}"
 			tasks: [{
 				id: "5109AD27D2D93269"
 				item: "pneumaticcraft:advanced_pressure_tube"
@@ -2283,7 +2285,7 @@
 		}
 		{
 			dependencies: ["3A9AC6AB4407DC32"]
-			description: ["{atm9.quest.pneumatic.desc.autoPCBs}"]
+			description: ["{atm9.quest.pneumatic.desc.pcb}"]
 			icon: "pneumaticcraft:unassembled_pcb"
 			id: "3334D15766A47A46"
 			rewards: [
@@ -2310,7 +2312,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.pneumatic.autoPCBs}"
+			title: "{atm9.quest.pneumatic.pcb}"
 			x: 29.0d
 			y: 7.0d
 		}
@@ -2343,7 +2345,7 @@
 		}
 		{
 			dependencies: ["1427B3AB09510D20"]
-			description: ["{atm9.quest.pneumatic.desc.pneumaticArmor}"]
+			description: ["{atm9.quest.pneumatic.desc.pneumatic_armor}"]
 			hide_dependent_lines: true
 			icon: {
 				Count: 1
@@ -2368,7 +2370,7 @@
 			]
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "Compressed Iron Man"
+			subtitle: "{atm9.quest.pneumatic.subt.pneumatic_armor}"
 			tasks: [
 				{
 					id: "0CC30ECC352D1A6E"
@@ -2415,13 +2417,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.pneumatic.pneumaticArmor}"
+			title: "{atm9.quest.pneumatic.pneumatic_armor}"
 			x: 23.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["64E2E05B228EA53E"]
-			description: ["{atm9.quest.pneumatic.desc.fluxCompressor}"]
+			description: ["{atm9.quest.pneumatic.desc.flux_compressor}"]
 			id: "7395B41685F4BC1A"
 			rewards: [
 				{
@@ -2436,19 +2438,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.fluxCompressor}"
+			subtitle: "{atm9.quest.pneumatic.subt.flux_compressor}"
 			tasks: [{
 				id: "0FF09F8AE76CDC96"
 				item: "pneumaticcraft:flux_compressor"
 				type: "item"
 			}]
-			title: "{atm9.quest.pneumatic.fluxCompressor}"
+			title: "{atm9.quest.pneumatic.flux_compressor}"
 			x: 28.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["64E2E05B228EA53E"]
-			description: ["{atm9.quest.pneumatic.desc.advancedCompressor}"]
+			description: ["{atm9.quest.pneumatic.desc.advanced_air_compressor}"]
 			id: "2745297337E13E9E"
 			rewards: [
 				{
@@ -2463,7 +2465,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.advancedCompressor}"
+			subtitle: "{atm9.quest.pneumatic.subt.advanced_air_compressor}"
 			tasks: [{
 				id: "31D49013ABE68843"
 				item: "pneumaticcraft:advanced_air_compressor"
@@ -2477,7 +2479,7 @@
 				"64E2E05B228EA53E"
 				"4F5348D0C83C3B0D"
 			]
-			description: ["{atm9.quest.pneumatic.desc.solarCompressor}"]
+			description: ["{atm9.quest.pneumatic.desc.solar_compressor}"]
 			id: "31BCE63F5E016323"
 			rewards: [
 				{
@@ -2497,14 +2499,14 @@
 				item: "pneumaticcraft:solar_compressor"
 				type: "item"
 			}]
-			title: "{atm9.quest.pneumatic.solarCompressor}"
+			title: "{atm9.quest.pneumatic.solar_compressor}"
 			x: 30.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["3E16CF590C911129"]
 			description: [
-				"{atm9.quest.pneumatic.desc.liquidCompressor}"
+				"{atm9.quest.pneumatic.desc.liquid_compressor}"
 				""
 				"{image:pneumaticcraft:textures/gui/gui_liquid_compressor.png width:200 height:200 align:left fit:true}"
 			]
@@ -2527,14 +2529,14 @@
 				item: "pneumaticcraft:liquid_compressor"
 				type: "item"
 			}]
-			title: "{atm9.quest.pneumatic.liquidCompressor}"
+			title: "{atm9.quest.pneumatic.liquid_compressor}"
 			x: -1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2745297337E13E9E"]
 			description: [
-				"{atm9.quest.pneumatic.desc.electrostaticCompressor}"
+				"{atm9.quest.pneumatic.desc.electrostatic_compressor}"
 				""
 				"{image:pneumaticcraft:textures/patchouli/electrostatic_compressor.png width:100 height:100 align:left fit:true}"
 			]
@@ -2557,14 +2559,14 @@
 				item: "pneumaticcraft:electrostatic_compressor"
 				type: "item"
 			}]
-			title: "{atm9.quest.pneumatic.electrostaticCompressor}"
+			title: "{atm9.quest.pneumatic.electrostatic_compressor}"
 			x: 31.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3E16CF590C911129"]
 			description: [
-				"{atm9.quest.pneumatic.desc.thermalCompressor}"
+				"{atm9.quest.pneumatic.desc.thermal_compressor}"
 				""
 				"{image:pneumaticcraft:textures/patchouli/thermal_compressor.png width:100 height:100 align:left fit:true}"
 			]
@@ -2587,7 +2589,7 @@
 				item: "pneumaticcraft:thermal_compressor"
 				type: "item"
 			}]
-			title: "{atm9.quest.pneumatic.thermalCompressor}"
+			title: "{atm9.quest.pneumatic.thermal_compressor}"
 			x: -1.5d
 			y: 4.5d
 		}
@@ -2659,7 +2661,7 @@
 		}
 		{
 			dependencies: ["43EF5513A1C52A37"]
-			description: ["{atm9.quest.pneumatic.desc.heatFrame}"]
+			description: ["{atm9.quest.pneumatic.desc.heat_frame}"]
 			icon_scale: 0.9d
 			id: "657DB994B029F61C"
 			rewards: [
@@ -2686,7 +2688,7 @@
 		}
 		{
 			dependencies: ["520EFA7F446AFBF2"]
-			description: ["{atm9.quest.pneumatic.desc.diamondBit}"]
+			description: ["{atm9.quest.pneumatic.desc.drill_bit_diamond}"]
 			id: "0CC48C2AA553A314"
 			rewards: [
 				{
@@ -2717,7 +2719,7 @@
 		}
 		{
 			dependencies: ["3A9AC6AB4407DC32"]
-			description: ["{atm9.quest.pneumatic.desc.solarCells}"]
+			description: ["{atm9.quest.pneumatic.desc.solar_cell}"]
 			id: "4F5348D0C83C3B0D"
 			rewards: [{
 				id: "0BB0961B1CEFF51B"
@@ -2730,7 +2732,7 @@
 				item: "pneumaticcraft:solar_cell"
 				type: "item"
 			}]
-			title: "{atm9.quest.pneumatic.solarCells}"
+			title: "{atm9.quest.pneumatic.solar_cell}"
 			x: 30.5d
 			y: 5.5d
 		}
@@ -2808,7 +2810,7 @@
 				"0CC48C2AA553A314"
 				"5303509A1C2B1CCD"
 			]
-			description: ["{atm9.quest.pneumatic.desc.netheriteBit}"]
+			description: ["{atm9.quest.pneumatic.desc.drill_bit_netherite}"]
 			id: "2338E5269CA23C91"
 			rewards: [
 				{
@@ -2828,7 +2830,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.netheriteBit}"
+			subtitle: "{atm9.quest.pneumatic.subt.drill_bit_netherite}"
 			tasks: [{
 				id: "69AA17BB9454C502"
 				item: "pneumaticcraft:drill_bit_netherite"
@@ -2848,7 +2850,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max4}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_4}"
 			tasks: [{
 				id: "56BDDA593D3B1F80"
 				item: "pneumaticcraft:armor_upgrade"
@@ -2860,7 +2862,8 @@
 		{
 			dependencies: ["2E8F851A4E98F741"]
 			description: [
-				"{atm9.quest.pneumatic.desc.blockTracker}\\n"
+				"{atm9.quest.pneumatic.desc.block_tracker}"
+				""
 				"{image:atm:textures/questpics/pneumaticcraft/block_tracker.png width:150 height:150 align:center}"
 			]
 			hide_until_deps_visible: true
@@ -2871,7 +2874,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "38913385C6596A2C"
 				item: "pneumaticcraft:block_tracker_upgrade"
@@ -2882,7 +2885,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			description: ["{atm9.quest.pneumatic.desc.chargingU}"]
+			description: ["{atm9.quest.pneumatic.desc.charging}"]
 			hide_until_deps_visible: true
 			id: "15007DCAF701B361"
 			rewards: [{
@@ -2891,7 +2894,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max6}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_6}"
 			tasks: [{
 				id: "1928F18246D756C3"
 				item: "pneumaticcraft:charging_upgrade"
@@ -2902,7 +2905,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			description: ["{atm9.quest.pneumatic.desc.CoordinateTracker}"]
+			description: ["{atm9.quest.pneumatic.desc.coordinate_tracker}"]
 			hide_until_deps_visible: true
 			id: "0D9560C8E247F9E7"
 			rewards: [{
@@ -2911,7 +2914,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "6BA9AF2FC89F6318"
 				item: "pneumaticcraft:coordinate_tracker_upgrade"
@@ -2931,7 +2934,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "25B9C04D15AD877B"
 				item: "pneumaticcraft:elytra_upgrade"
@@ -2951,7 +2954,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "4CD22650AF767C94"
 				item: "pneumaticcraft:ender_visor_upgrade"
@@ -2962,7 +2965,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			description: ["{atm9.quest.pneumatic.desc.entityTracker}"]
+			description: ["{atm9.quest.pneumatic.desc.entity_tracker}"]
 			hide_until_deps_visible: true
 			id: "00D7BCC68D971A53"
 			rewards: [{
@@ -2971,7 +2974,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "1770D13680FE56E5"
 				item: "pneumaticcraft:entity_tracker_upgrade"
@@ -2991,7 +2994,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "62759E3F6B218631"
 				item: "pneumaticcraft:flippers_upgrade"
@@ -3011,7 +3014,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "2B5CBF4C29BB8D74"
 				item: "pneumaticcraft:gilded_upgrade"
@@ -3022,7 +3025,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			description: ["{atm9.quest.pneumatic.desc.jetBootsI}"]
+			description: ["{atm9.quest.pneumatic.desc.jet_boots_1}"]
 			hide_until_deps_visible: true
 			id: "7953C87C488A2AF7"
 			rewards: [{
@@ -3031,7 +3034,7 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "29C129CF9FD88E83"
 				item: "pneumaticcraft:jet_boots_upgrade_1"
@@ -3042,7 +3045,7 @@
 		}
 		{
 			dependencies: ["7953C87C488A2AF7"]
-			description: ["{atm9.quest.pneumatic.desc.jetBootsII}"]
+			description: ["{atm9.quest.pneumatic.desc.jet_boots_2}"]
 			id: "312331F6DB0CE5F4"
 			rewards: [{
 				id: "412AF3B474EC6916"
@@ -3050,7 +3053,7 @@
 				xp: 200
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "6245D0F4985FCC51"
 				item: "pneumaticcraft:jet_boots_upgrade_2"
@@ -3061,7 +3064,7 @@
 		}
 		{
 			dependencies: ["312331F6DB0CE5F4"]
-			description: ["{atm9.quest.pneumatic.desc.jetBootsIII}"]
+			description: ["{atm9.quest.pneumatic.desc.jet_boots_3}"]
 			id: "521656D425E2FDBA"
 			rewards: [{
 				id: "276DEDDF9D716494"
@@ -3069,7 +3072,7 @@
 				xp: 300
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "503D496B7DA06BC3"
 				item: "pneumaticcraft:jet_boots_upgrade_3"
@@ -3080,7 +3083,7 @@
 		}
 		{
 			dependencies: ["521656D425E2FDBA"]
-			description: ["{atm9.quest.pneumatic.desc.jetBootsIV}"]
+			description: ["{atm9.quest.pneumatic.desc.jet_boots_4}"]
 			id: "36D72D759C4E8823"
 			rewards: [{
 				id: "09AEB7C55E9F0369"
@@ -3088,7 +3091,7 @@
 				xp: 400
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "231FBEDE107DDE52"
 				item: "pneumaticcraft:jet_boots_upgrade_4"
@@ -3099,7 +3102,7 @@
 		}
 		{
 			dependencies: ["36D72D759C4E8823"]
-			description: ["{atm9.quest.pneumatic.desc.jetBootsV}"]
+			description: ["{atm9.quest.pneumatic.desc.jet_boots_5}"]
 			id: "7D6B4AEF806AF62E"
 			rewards: [{
 				id: "547A45FE1424A345"
@@ -3107,7 +3110,7 @@
 				xp: 500
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "54EEA3A3443CEAF6"
 				item: "pneumaticcraft:jet_boots_upgrade_5"
@@ -3118,7 +3121,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			description: ["{atm9.quest.pneumatic.desc.jumpingI}"]
+			description: ["{atm9.quest.pneumatic.desc.jumping_1}"]
 			hide_until_deps_visible: true
 			id: "6674270897997BF7"
 			rewards: [{
@@ -3127,7 +3130,7 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "0E5C54B2D623F21C"
 				item: "pneumaticcraft:jumping_upgrade_1"
@@ -3138,7 +3141,7 @@
 		}
 		{
 			dependencies: ["6674270897997BF7"]
-			description: ["{atm9.quest.pneumatic.desc.jumpingII}"]
+			description: ["{atm9.quest.pneumatic.desc.jumping_2}"]
 			id: "61B479079DC1C69C"
 			rewards: [{
 				id: "5E94499890458B4C"
@@ -3146,7 +3149,7 @@
 				xp: 200
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "67CA81F6C904192D"
 				item: "pneumaticcraft:jumping_upgrade_2"
@@ -3157,7 +3160,7 @@
 		}
 		{
 			dependencies: ["61B479079DC1C69C"]
-			description: ["{atm9.quest.pneumatic.desc.jumpingIII}"]
+			description: ["{atm9.quest.pneumatic.desc.jumping_3}"]
 			id: "5B9F933ECD6B24FD"
 			rewards: [{
 				id: "112BE6DC675D2F06"
@@ -3165,7 +3168,7 @@
 				xp: 300
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "73EDD4B23EA0A44D"
 				item: "pneumaticcraft:jumping_upgrade_3"
@@ -3176,7 +3179,7 @@
 		}
 		{
 			dependencies: ["5B9F933ECD6B24FD"]
-			description: ["{atm9.quest.pneumatic.desc.jumpingIV}"]
+			description: ["{atm9.quest.pneumatic.desc.jumping_4}"]
 			id: "61BA2932EC86DA2E"
 			rewards: [{
 				id: "38A921DA170F7F2A"
@@ -3184,7 +3187,7 @@
 				xp: 400
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "6121D228F525D2CB"
 				item: "pneumaticcraft:jumping_upgrade_4"
@@ -3204,7 +3207,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "79B7A8E4CF588749"
 				item: "pneumaticcraft:night_vision_upgrade"
@@ -3224,7 +3227,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "2221DBEACD67BAA8"
 				item: "pneumaticcraft:radiation_shielding_upgrade"
@@ -3244,7 +3247,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "28F4D0896C1552B8"
 				item: "pneumaticcraft:scuba_upgrade"
@@ -3256,7 +3259,8 @@
 		{
 			dependencies: ["2E8F851A4E98F741"]
 			description: [
-				"{atm9.quest.pneumatic.desc.itemSearch}\\n"
+				"{atm9.quest.pneumatic.desc.search}"
+				""
 				"{image:atm:textures/questpics/pneumaticcraft/item_search_upgrade.png width:200 height:200 align:center}"
 			]
 			hide_until_deps_visible: true
@@ -3267,7 +3271,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "19B70A70A1FD2BFA"
 				item: "pneumaticcraft:search_upgrade"
@@ -3287,7 +3291,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max1}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_1}"
 			tasks: [{
 				id: "060F81A9199D170A"
 				item: "pneumaticcraft:stomp_upgrade"
@@ -3361,7 +3365,7 @@
 		}
 		{
 			dependencies: ["2745297337E13E9E"]
-			description: ["{atm9.quest.pneumatic.desc.advancedLiquidCompressor}"]
+			description: ["{atm9.quest.pneumatic.desc.advanced_liquid_compressor}"]
 			id: "02643BAD1AE747C6"
 			rewards: [
 				{
@@ -3386,7 +3390,7 @@
 		}
 		{
 			dependencies: ["7953C87C488A2AF7"]
-			description: ["{atm9.quest.pneumatic.desc.jetBoots}"]
+			description: ["{atm9.quest.pneumatic.desc.jet_boots}"]
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:pneumatic_boots"
@@ -3410,20 +3414,20 @@
 				}
 			]
 			size: 0.5d
-			subtitle: "{atm9.quest.pneumatic.subt.jetBoots}"
+			subtitle: "{atm9.quest.pneumatic.subt.jet_boots}"
 			tasks: [{
 				advancement: "pneumaticcraft:fly_into_wall"
 				criterion: ""
 				id: "7E5FD45CE2223A25"
 				type: "advancement"
 			}]
-			title: "{atm9.quest.pneumatic.jetBoots}"
+			title: "{atm9.quest.pneumatic.jet_boots}"
 			x: 23.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["0AEAEA976ED0C470"]
-			description: ["{atm9.quest.pneumatic.desc.chargingModule}"]
+			description: ["{atm9.quest.pneumatic.desc.charging_module}"]
 			id: "22572456571C3F8D"
 			rewards: [
 				{
@@ -3448,7 +3452,7 @@
 		}
 		{
 			dependencies: ["22572456571C3F8D"]
-			description: ["{atm9.quest.pneumatic.desc.expansionCard}"]
+			description: ["{atm9.quest.pneumatic.desc.expansion_card}"]
 			id: "132DF9ECEFFB3B71"
 			rewards: [
 				{
@@ -3500,7 +3504,7 @@
 		}
 		{
 			dependencies: ["24042326B4632DD4"]
-			description: ["{atm9.quest.pneumatic.desc.logisticsFrames}"]
+			description: ["{atm9.quest.pneumatic.desc.logistics_frame}"]
 			id: "26BEA64C80ECE1A6"
 			rewards: [
 				{
@@ -3515,7 +3519,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "{atm9.quest.pneumatic.subt.logisticsFrames}"
+			subtitle: "{atm9.quest.pneumatic.subt.logistics_frame}"
 			tasks: [{
 				id: "0D7C2FB0CA6401BD"
 				item: {
@@ -3546,7 +3550,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.pneumatic.logisticsFrames}"
+				title: "{atm9.quest.pneumatic.task.logistics_frame}"
 				type: "item"
 			}]
 			x: 7.0d
@@ -3554,7 +3558,7 @@
 		}
 		{
 			dependencies: ["24042326B4632DD4"]
-			description: ["{atm9.quest.pneumatic.desc.logisticsConfig}"]
+			description: ["{atm9.quest.pneumatic.desc.logistics_configurator}"]
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:logistics_configurator"
@@ -3587,7 +3591,7 @@
 		{
 			dependencies: ["24042326B4632DD4"]
 			description: [
-				"{atm9.quest.pneumatic.desc.logisticsModule}"
+				"{atm9.quest.pneumatic.desc.logistics_module}"
 				""
 				"{image:pneumaticcraft:textures/patchouli/logistics_module.png width:100 height:100 align:left fit:true}"
 			]
@@ -3647,7 +3651,7 @@
 		}
 		{
 			dependencies: ["65E2AF881709C896"]
-			description: ["{atm9.quest.pneumatic.desc.minigunAmmo}"]
+			description: ["{atm9.quest.pneumatic.desc.gun_ammo}"]
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:gun_ammo"
@@ -3720,7 +3724,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.pneumatic.minigunAmmo}"
+				title: "{atm9.quest.pneumatic.task.gun_ammo}"
 				type: "item"
 			}]
 			x: 5.0d
@@ -3737,7 +3741,7 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.pneumatic.subt.max6}"
+			subtitle: "{atm9.quest.pneumatic.subt.max_6}"
 			tasks: [{
 				id: "4D1B9FC3927FAE26"
 				item: "pneumaticcraft:magnet_upgrade"

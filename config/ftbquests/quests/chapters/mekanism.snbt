@@ -20,11 +20,7 @@
 		{
 			dependencies: ["0650996C7818ADB5"]
 			description: [
-				"{atm9.quest.mekanism.desc.metallurgicInfuser.1}"
-				""
-				"{atm9.quest.mekanism.desc.metallurgicInfuser.2}"
-				""
-				"{atm9.quest.mekanism.desc.metallurgicInfuser.3}"
+				"{atm9.quest.mekanism.desc.metallurgic_infuser}"
 			]
 			id: "162CE44400A63575"
 			rewards: [
@@ -48,7 +44,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{atm9.quest.mekanism.subt.startingMachine}"
+			subtitle: "{atm9.quest.mekanism.subt.metallurgic_infuser}"
 			tasks: [{
 				id: "28277BA9F319240D"
 				item: "mekanism:metallurgic_infuser"
@@ -60,11 +56,7 @@
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"{atm9.quest.mekanism.desc.oreFactory.1}"
-				""
-				"{atm9.quest.mekanism.desc.oreFactory.2}"
-				""
-				"{atm9.quest.mekanism.desc.oreFactory.3}"
+				"{atm9.quest.mekanism.desc.enrichment_chamber}"
 			]
 			id: "08DDE018A804BFE7"
 			rewards: [
@@ -85,7 +77,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.subt.breaksOresIntoDusts}"
+			subtitle: "{atm9.quest.mekanism.subt.enrichment_chamber}"
 			tasks: [{
 				id: "1AE233B4CCFE99F7"
 				item: "mekanism:enrichment_chamber"
@@ -97,9 +89,7 @@
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"{atm9.quest.mekanism.desc.strongIngots.1}"
-				""
-				"{atm9.quest.mekanism.desc.strongIngots.2}"
+				"{atm9.quest.mekanism.desc.osmium_compressor}"
 			]
 			id: "195729280394ABFB"
 			rewards: [
@@ -114,7 +104,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.subt.goodForTwoThings}"
+			subtitle: "{atm9.quest.mekanism.subt.osmium_compressor}"
 			tasks: [{
 				id: "6934C61AFEB0443D"
 				item: "mekanism:osmium_compressor"
@@ -125,7 +115,7 @@
 		}
 		{
 			dependencies: ["6C25D42C36175BF4"]
-			description: ["{atm9.quest.mekanism.desc.crushesThings}"]
+			description: ["{atm9.quest.mekanism.desc.crusher}"]
 			id: "7AE502EDB73BD57A"
 			rewards: [
 				{
@@ -145,7 +135,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.subt.crushesThings}"
+			subtitle: "{atm9.quest.mekanism.subt.crusher}"
 			tasks: [{
 				id: "431D7329CFCAF880"
 				item: "mekanism:crusher"
@@ -157,9 +147,7 @@
 		{
 			dependencies: ["4BDE773C3359D584"]
 			description: [
-				"{atm9.quest.mekanism.desc.miningMachine.1}"
-				""
-				"{atm9.quest.mekanism.desc.miningMachine.2}"
+				"{atm9.quest.mekanism.desc.digital_miner}"
 			]
 			id: "7EA6B942D1294ED6"
 			rewards: [
@@ -182,7 +170,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{atm9.quest.mekanism.subt.biggerRobotFriend}"
+			subtitle: "{atm9.quest.mekanism.subt.digital_miner}"
 			tasks: [{
 				id: "36FE95268A543F7C"
 				item: "mekanism:digital_miner"
@@ -194,9 +182,7 @@
 		{
 			dependencies: ["58B125BD4876054C"]
 			description: [
-				"{atm9.quest.mekanism.desc.liquidStorage.1}"
-				""
-				"{atm9.quest.mekanism.desc.liquidStorage.2}"
+				"{atm9.quest.mekanism.desc.fluid_tank}"
 			]
 			hide_dependency_lines: true
 			id: "6DB1AAAD926486BC"
@@ -214,7 +200,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{atm9.quest.mekanism.subt.bucketMode}"
+			subtitle: "{atm9.quest.mekanism.subt.fluid_tank}"
 			tasks: [{
 				id: "54BEF9EA9F1D4374"
 				item: "mekanism:basic_fluid_tank"
@@ -245,7 +231,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{atm9.quest.mekanism.subt.miniRobot}"
+			subtitle: "{atm9.quest.mekanism.subt.robit}"
 			tasks: [{
 				id: "171E6682D1578C63"
 				item: "mekanism:robit"
@@ -273,7 +259,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{atm9.quest.mekanism.subt.requiresHydrogen}"
+			subtitle: "{atm9.quest.mekanism.subt.jetpack}"
 			tasks: [{
 				id: "71E922FC5BBF154C"
 				item: "mekanism:jetpack"
@@ -284,7 +270,7 @@
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["{atm9.quest.mekanism.desc.upgradingToFactories}"]
+			description: ["{atm9.quest.mekanism.desc.tier_installer}"]
 			hide_dependency_lines: true
 			id: "07AD45DCF9EE3C2E"
 			rewards: [
@@ -301,7 +287,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{atm9.quest.mekanism.subt.upgradingToFactories}"
+			subtitle: "{atm9.quest.mekanism.subt.tier_installer}"
 			tasks: [{
 				id: "28A769E7676E358F"
 				item: "mekanism:basic_tier_installer"
@@ -386,9 +372,7 @@
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"{atm9.quest.mekanism.desc.wirelessTransfer.1}"
-				""
-				"{atm9.quest.mekanism.desc.wirelessTransfer.2}"
+				"{atm9.quest.mekanism.desc.quantum_entangloporter}"
 			]
 			hide_dependency_lines: true
 			id: "7CC49360D07086B8"
@@ -412,7 +396,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{atm9.quest.mekanism.subt.wirelessEverything}"
+			subtitle: "{atm9.quest.mekanism.subt.quantum_entangloporter}"
 			tasks: [{
 				id: "0526878F9506FB48"
 				item: "mekanism:quantum_entangloporter"
@@ -423,7 +407,7 @@
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["{atm9.quest.mekanism.desc.powerStorage}"]
+			description: ["{atm9.quest.mekanism.desc.energy_cube}"]
 			hide_dependency_lines: true
 			id: "09408C6DCAC90318"
 			rewards: [
@@ -440,7 +424,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{atm9.quest.mekanism.subt.storingPower}"
+			subtitle: "{atm9.quest.mekanism.subt.energy_cube}"
 			tasks: [{
 				id: "19C3A9D5E656FAA5"
 				item: "mekanism:basic_energy_cube"
@@ -524,7 +508,7 @@
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["{atm9.quest.mekanism.desc.basicAlloy}"]
+			description: ["{atm9.quest.mekanism.desc.alloy_infused}"]
 			hide_dependency_lines: true
 			id: "166971866A9234C7"
 			rewards: [
@@ -540,7 +524,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.mekanism.subt.basicAlloyCrafting}"
+			subtitle: "{atm9.quest.mekanism.subt.alloy_infused}"
 			tasks: [{
 				id: "72CE838EFDDE6479"
 				item: "mekanism:alloy_infused"
@@ -599,7 +583,7 @@
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["{atm9.quest.mekanism.desc.basicControlCircuit}"]
+			description: ["{atm9.quest.mekanism.desc.control_circuit}"]
 			hide_dependency_lines: true
 			id: "0498A578D0EC3254"
 			rewards: [
@@ -615,7 +599,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.mekanism.subt.basicControlCircuit}"
+			subtitle: "{atm9.quest.mekanism.subt.control_circuit}"
 			tasks: [{
 				id: "5E51F5B17F77573E"
 				item: "mekanism:basic_control_circuit"
@@ -708,11 +692,7 @@
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"{atm9.quest.mekanism.desc.steelCrafting.1}"
-				""
-				"{atm9.quest.mekanism.desc.steelCrafting.2}"
-				""
-				"{atm9.quest.mekanism.desc.steelCrafting.3}"
+				"{atm9.quest.mekanism.desc.steel}"
 			]
 			hide_dependency_lines: true
 			id: "1B6DDF50D00CBB31"
@@ -740,7 +720,7 @@
 						value: "forge:ingots/steel"
 					}
 				}
-				title: "{atm9.quest.mekanism.steelIngot}"
+				title: "{atm9.quest.mekanism.task.steel}"
 				type: "item"
 			}]
 			title: "{atm9.quest.mekanism.steel}"
@@ -749,7 +729,6 @@
 		}
 		{
 			dependencies: ["1B6DDF50D00CBB31"]
-			description: [""]
 			id: "23F165DEAD225B10"
 			rewards: [
 				{
@@ -766,7 +745,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{atm9.quest.mekanism.subt.transferringPower}"
+			subtitle: "{atm9.quest.mekanism.subt.universal_cable}"
 			tasks: [{
 				id: "56F8A49135418FD8"
 				item: "mekanism:basic_universal_cable"
@@ -866,7 +845,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{atm9.quest.mekanism.subt.transferringFluids}"
+			subtitle: "{atm9.quest.mekanism.subt.mechanical_pipe}"
 			tasks: [{
 				id: "45B151086147D98D"
 				item: "mekanism:basic_mechanical_pipe"
@@ -966,7 +945,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{atm9.quest.mekanism.subt.transferringGasses}"
+			subtitle: "{atm9.quest.mekanism.subt.pressurized_tube}"
 			tasks: [{
 				id: "685BFFC7BDA40FC3"
 				item: "mekanism:basic_pressurized_tube"
@@ -993,7 +972,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{atm9.quest.mekanism.subt.transferringItems}"
+			subtitle: "{atm9.quest.mekanism.subt.logistical_transporter}"
 			tasks: [{
 				id: "3F972BE9DFCA1EB5"
 				item: "mekanism:basic_logistical_transporter"
@@ -1020,7 +999,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{atm9.quest.mekanism.subt.transferringHeat}"
+			subtitle: "{atm9.quest.mekanism.subt.thermodynamic_conductor}"
 			tasks: [{
 				id: "5F4FEC0FD7C5CC33"
 				item: "mekanism:basic_thermodynamic_conductor"
@@ -1308,11 +1287,7 @@
 				"407EFAF528871014"
 			]
 			description: [
-				"{atm9.quest.mekanism.desc.purification.1}"
-				""
-				"{atm9.quest.mekanism.desc.purification.2}"
-				""
-				"{atm9.quest.mekanism.desc.purification.3}"
+				"{atm9.quest.mekanism.desc.purification_chamber}"
 			]
 			id: "6C25D42C36175BF4"
 			rewards: [
@@ -1333,7 +1308,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.subt.clumps}"
+			subtitle: "{atm9.quest.mekanism.subt.purification_chamber}"
 			tasks: [{
 				id: "4983AE3B954BF2FE"
 				item: "mekanism:purification_chamber"
@@ -1345,9 +1320,7 @@
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"{atm9.quest.mekanism.desc.smelter.1}"
-				""
-				"{atm9.quest.mekanism.desc.smelter.2}"
+				"{atm9.quest.mekanism.desc.energized_smelter}"
 			]
 			id: "488DBE69595F38F8"
 			optional: true
@@ -1369,7 +1342,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.subt.poweredFurnace}"
+			subtitle: "{atm9.quest.mekanism.subt.energized_smelter}"
 			tasks: [{
 				id: "5A081977DB9407EA"
 				item: "mekanism:energized_smelter"
@@ -1381,11 +1354,7 @@
 		{
 			dependencies: ["08DDE018A804BFE7"]
 			description: [
-				"{atm9.quest.mekanism.desc.electrolyticSeparator.1}"
-				""
-				"{atm9.quest.mekanism.desc.electrolyticSeparator.2}"
-				""
-				"{atm9.quest.mekanism.desc.electrolyticSeparator.3}"
+				"{atm9.quest.mekanism.desc.electrolytic_separator}"
 			]
 			id: "18D88932916C7A98"
 			rewards: [
@@ -1406,7 +1375,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.subt.breakItDown}"
+			subtitle: "{atm9.quest.mekanism.subt.electrolytic_separator}"
 			tasks: [{
 				id: "054CC6FB5173F8A3"
 				item: "mekanism:electrolytic_separator"
@@ -1418,9 +1387,7 @@
 		{
 			dependencies: ["407EFAF528871014"]
 			description: [
-				"{atm9.quest.mekanism.desc.generator.1}"
-				""
-				"{atm9.quest.mekanism.desc.generator.2}"
+				"{atm9.quest.mekanism.desc.gas_burning_generator}"
 			]
 			id: "3EC9D0DA61B45328"
 			rewards: [
@@ -1447,7 +1414,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.subt.burnGases}"
+			subtitle: "{atm9.quest.mekanism.subt.gas_burning_generator}"
 			tasks: [{
 				id: "2C13E8B67BC61E34"
 				item: "mekanismgenerators:gas_burning_generator"
@@ -1459,9 +1426,7 @@
 		{
 			dependencies: ["263220DCCDB90E29"]
 			description: [
-				"{atm9.quest.mekanism.desc.oreProcessing.1}"
-				""
-				"{atm9.quest.mekanism.desc.oreProcessing.2}"
+				"{atm9.quest.mekanism.desc.chemical_injection_chamber}"
 			]
 			id: "4F1C04C0F6769825"
 			rewards: [
@@ -1482,7 +1447,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.subt.oreShards}"
+			subtitle: "{atm9.quest.mekanism.subt.chemical_injection_chamber}"
 			tasks: [{
 				id: "443DCB7E2E45F3DD"
 				item: "mekanism:chemical_injection_chamber"
@@ -1494,9 +1459,7 @@
 		{
 			dependencies: ["603877AB96321F1A"]
 			description: [
-				"{atm9.quest.mekanism.desc.chemicalCombiner.1}"
-				""
-				"{atm9.quest.mekanism.desc.chemicalCombiner.2}"
+				"{atm9.quest.mekanism.desc.chemical_infuser}"
 			]
 			id: "04E2D539E33B7B0F"
 			rewards: [
@@ -1511,7 +1474,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.subt.chemicalCombiner}"
+			subtitle: "{atm9.quest.mekanism.subt.chemical_infuser}"
 			tasks: [{
 				id: "31D203EC92BEA66F"
 				item: "mekanism:chemical_infuser"
@@ -1523,15 +1486,7 @@
 		{
 			dependencies: ["4F1C04C0F6769825"]
 			description: [
-				"{atm9.quest.mekanism.desc.hydrogenChloride.1}"
-				""
-				"{atm9.quest.mekanism.desc.hydrogenChloride.2}"
-				""
-				"{atm9.quest.mekanism.desc.hydrogenChloride.3}"
-				""
-				"{atm9.quest.mekanism.desc.hydrogenChloride.4}"
-				""
-				"{atm9.quest.mekanism.desc.hydrogenChloride.5}"
+				"{atm9.quest.mekanism.desc.thermal_evaporation}"
 				"{image:atm:textures/questpics/mek/thermalplant.png width:100 height:100 align:1}"
 			]
 			id: "603877AB96321F1A"
@@ -1555,7 +1510,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.subt.brine}"
+			subtitle: "{atm9.quest.mekanism.subt.thermal_evaporation}"
 			tasks: [
 				{
 					id: "716D483EFC35F6F3"
@@ -1575,20 +1530,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanism.thermalEvaporationPlant}"
+			title: "{atm9.quest.mekanism.thermal_evaporation}"
 			x: 5.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["1112E4E2CCEB2467"]
 			description: [
-				"{atm9.quest.mekanism.desc.additionalMachines.1}"
-				""
-				"{atm9.quest.mekanism.desc.additionalMachines.2}"
-				""
-				"{atm9.quest.mekanism.desc.additionalMachines.3}"
-				""
-				"{atm9.quest.mekanism.desc.additionalMachines.4}"
+				"{atm9.quest.mekanism.desc.chemical_dissolution_chamber}"
 			]
 			id: "4F436770D30D8520"
 			rewards: [
@@ -1615,16 +1564,14 @@
 				item: "mekanism:chemical_dissolution_chamber"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanism.startTier4}"
+			title: "{atm9.quest.mekanism.chemical_dissolution_chamber}"
 			x: 9.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4F436770D30D8520"]
 			description: [
-				"{atm9.quest.mekanism.desc.waterVapor.1}"
-				""
-				"{atm9.quest.mekanism.desc.waterVapor.2}"
+				"{atm9.quest.mekanism.desc.rotary_condensentrator}"
 			]
 			id: "4236B9F071BE18F3"
 			rewards: [
@@ -1650,15 +1597,7 @@
 		{
 			dependencies: ["4F436770D30D8520"]
 			description: [
-				"{atm9.quest.mekanism.desc.sulfurDioxide.1}"
-				""
-				"{atm9.quest.mekanism.desc.sulfurDioxide.2}"
-				""
-				"{atm9.quest.mekanism.desc.sulfurDioxide.3}"
-				""
-				"{atm9.quest.mekanism.desc.sulfurDioxide.4}"
-				""
-				"{atm9.quest.mekanism.desc.sulfurDioxide.5}"
+				"{atm9.quest.mekanism.desc.chemical_oxidizer}"
 			]
 			id: "2E274BEEF2B0B8C7"
 			rewards: [
@@ -1688,7 +1627,7 @@
 							value: "forge:dusts/sulfur"
 						}
 					}
-					title: "{atm9.quest.mekanism.anySulfurDust}"
+					title: "{atm9.quest.mekanism.task.chemical_oxidizer}"
 					type: "item"
 				}
 			]
@@ -1698,13 +1637,7 @@
 		{
 			dependencies: ["603877AB96321F1A"]
 			description: [
-				"{atm9.quest.mekanism.desc.thermalEvaporation.1}"
-				""
-				"{atm9.quest.mekanism.desc.thermalEvaporation.2}"
-				""
-				"{atm9.quest.mekanism.desc.thermalEvaporation.3}"
-				""
-				"{atm9.quest.mekanism.desc.thermalEvaporation.4}"
+				"{atm9.quest.mekanism.desc.heater}"
 			]
 			id: "027084AE2DF5EBA6"
 			optional: true
@@ -1720,7 +1653,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.subt.hotBrine}"
+			subtitle: "{atm9.quest.mekanism.subt.heater}"
 			tasks: [{
 				id: "6E75525A5D88EF23"
 				item: {
@@ -1739,21 +1672,17 @@
 						]
 					}
 				}
-				title: "{atm9.quest.mekanism.heaters}"
+				title: "{atm9.quest.mekanism.task.heater}"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanism.heatingBrine}"
+			title: "{atm9.quest.mekanism.heater}"
 			x: 5.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"{atm9.quest.mekanism.desc.customPortal.1}"
-				""
-				"{atm9.quest.mekanism.desc.customPortal.2}"
-				""
-				"{atm9.quest.mekanism.desc.customPortal.3}"
+				"{atm9.quest.mekanism.desc.teleporter}"
 			]
 			hide_dependency_lines: true
 			id: "7B0DFA55B4D8B16D"
@@ -1776,7 +1705,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{atm9.quest.mekanism.subt.teleportationFinest}"
+			subtitle: "{atm9.quest.mekanism.subt.teleporter}"
 			tasks: [
 				{
 					count: 9L
@@ -1790,16 +1719,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.mekanism.customPortals}"
+			title: "{atm9.quest.mekanism.teleporter}"
 			x: -9.0d
 			y: 3.75d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"{atm9.quest.mekanism.desc.portableBattery.1}"
-				""
-				"{atm9.quest.mekanism.desc.portableBattery.2}"
+				"{atm9.quest.mekanism.desc.energy_tablet}"
 			]
 			hide_dependency_lines: true
 			id: "1FC7E9DBF92BE6AA"
@@ -1817,7 +1744,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{atm9.quest.mekanism.subt.portableBattery}"
+			subtitle: "{atm9.quest.mekanism.subt.energy_tablet}"
 			tasks: [{
 				id: "79EF9001D76FD91D"
 				item: "mekanism:energy_tablet"
@@ -1918,7 +1845,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.mekanism.subt.tooLoud}"
+			subtitle: "{atm9.quest.mekanism.subt.upgrade_muffling}"
 			tasks: [{
 				id: "126FB3CA8F2CCF11"
 				item: "mekanism:upgrade_muffling"
@@ -1979,7 +1906,7 @@
 		}
 		{
 			dependencies: ["1FC7E9DBF92BE6AA"]
-			description: ["{atm9.quest.mekanism.desc.configureItems}"]
+			description: ["{atm9.quest.mekanism.desc.configurator}"]
 			hide_dependency_lines: true
 			id: "5E116409DC7D30BB"
 			progression_mode: "linear"
@@ -1997,7 +1924,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{atm9.quest.mekanism.subt.wrench}"
+			subtitle: "{atm9.quest.mekanism.subt.configurator}"
 			tasks: [{
 				id: "2612CACBDDF9AD1A"
 				item: "mekanism:configurator"
@@ -2009,11 +1936,7 @@
 		{
 			dependencies: ["18D88932916C7A98"]
 			description: [
-				"{atm9.quest.mekanism.desc.breakingWater.1}"
-				""
-				"{atm9.quest.mekanism.desc.breakingWater.2}"
-				""
-				"{atm9.quest.mekanism.desc.breakingWater.3}"
+				"{atm9.quest.mekanism.desc.sink}"
 			]
 			id: "407EFAF528871014"
 			rewards: [
@@ -2028,13 +1951,13 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.subt.infiniteWater}"
+			subtitle: "{atm9.quest.mekanism.subt.sink}"
 			tasks: [{
 				id: "16DAFC5C5846015A"
 				item: "cookingforblockheads:sink"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanism.waterSource}"
+			title: "{atm9.quest.mekanism.sink}"
 			x: -2.0d
 			y: -3.0d
 		}
@@ -2113,7 +2036,7 @@
 		}
 		{
 			dependencies: ["58B125BD4876054C"]
-			description: ["{atm9.quest.mekanism.desc.gasStorage}"]
+			description: ["{atm9.quest.mekanism.desc.chemical_tank}"]
 			hide_dependency_lines: true
 			id: "41EB0C570FC54F43"
 			rewards: [
@@ -2130,7 +2053,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{atm9.quest.mekanism.subt.storingGas}"
+			subtitle: "{atm9.quest.mekanism.subt.chemical_tank}"
 			tasks: [{
 				id: "665B9818855C0028"
 				item: "mekanism:basic_chemical_tank"
@@ -2214,7 +2137,7 @@
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["{atm9.quest.mekanism.desc.solarPower}"]
+			description: ["{atm9.quest.mekanism.desc.solar_generator}"]
 			hide_dependency_lines: true
 			id: "74200A48498DD7F8"
 			rewards: [
@@ -2231,7 +2154,7 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "{atm9.quest.mekanism.subt.solarPower}"
+			subtitle: "{atm9.quest.mekanism.subt.solar_generator}"
 			tasks: [{
 				id: "22ACFEB806D68385"
 				item: "mekanismgenerators:solar_generator"
@@ -2243,11 +2166,7 @@
 		{
 			dependencies: ["6F62B5510FA881CD"]
 			description: [
-				"{atm9.quest.mekanism.desc.heatGeneratorModes.1}"
-				""
-				"{atm9.quest.mekanism.desc.heatGeneratorModes.2}"
-				""
-				"{atm9.quest.mekanism.desc.heatGeneratorModes.3}"
+				"{atm9.quest.mekanism.desc.heat_generator}"
 			]
 			id: "0650996C7818ADB5"
 			rewards: [
@@ -2264,7 +2183,7 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "{atm9.quest.mekanism.subt.basicPowerGen}"
+			subtitle: "{atm9.quest.mekanism.subt.heat_generator}"
 			tasks: [{
 				id: "7BA12BAB8271E170"
 				item: "mekanismgenerators:heat_generator"
@@ -2275,7 +2194,7 @@
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["{atm9.quest.mekanism.desc.bioFuelEnergy}"]
+			description: ["{atm9.quest.mekanism.desc.bio_generator}"]
 			hide_dependency_lines: true
 			id: "6CD1720B76F47806"
 			rewards: [
@@ -2303,9 +2222,7 @@
 		{
 			dependencies: ["74200A48498DD7F8"]
 			description: [
-				"{atm9.quest.mekanism.desc.upgradeWorth.1}"
-				""
-				"{atm9.quest.mekanism.desc.upgradeWorth.2}"
+				"{atm9.quest.mekanism.desc.advanced_solar_generator}"
 			]
 			id: "4EDD96EB60EF5814"
 			rewards: [
@@ -2333,9 +2250,7 @@
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"{atm9.quest.mekanism.desc.windPowerOption.1}"
-				""
-				"{atm9.quest.mekanism.desc.windPowerOption.2}"
+				"{atm9.quest.mekanism.desc.wind_generator}"
 			]
 			hide_dependency_lines: true
 			id: "7778937DF377C1B4"
@@ -2353,7 +2268,7 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "{atm9.quest.mekanism.subt.windPower}"
+			subtitle: "{atm9.quest.mekanism.subt.wind_generator}"
 			tasks: [{
 				id: "50624A39AD15A8A6"
 				item: "mekanismgenerators:wind_generator"
@@ -2364,11 +2279,7 @@
 		}
 		{
 			description: [
-				"{atm9.quest.mekanism.desc.modOverview.1}"
-				""
-				"{atm9.quest.mekanism.desc.modOverview.2}"
-				""
-				"{atm9.quest.mekanism.desc.modOverview.3}"
+				"{atm9.quest.mekanism.desc.welcome}"
 			]
 			icon: {
 				Count: 1
@@ -2397,13 +2308,13 @@
 			]
 			shape: "square"
 			size: 2.0d
-			subtitle: "{atm9.quest.mekanism.subt.startFactory}"
+			subtitle: "{atm9.quest.mekanism.subt.welcome}"
 			tasks: [{
 				id: "10CE7D11B912F418"
 				item: "alltheores:raw_osmium"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanism.mekanism}"
+			title: "{atm9.quest.mekanism.welcome}"
 			x: -13.0d
 			y: -2.0d
 		}
@@ -2423,7 +2334,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.baseCraftingIngot}"
+			subtitle: "{atm9.quest.mekanism.subt.osmium}"
 			tasks: [{
 				id: "52967F83338A3AC3"
 				item: "alltheores:osmium_ingot"
@@ -2436,13 +2347,7 @@
 		{
 			dependencies: ["7AE502EDB73BD57A"]
 			description: [
-				"{atm9.quest.mekanism.desc.setupOverview.1}"
-				""
-				"{atm9.quest.mekanism.desc.setupOverview.2}"
-				""
-				"{atm9.quest.mekanism.desc.setupOverview.3}"
-				""
-				"{atm9.quest.mekanism.desc.setupOverview.4}"
+				"{atm9.quest.mekanism.desc.ore}"
 			]
 			id: "263220DCCDB90E29"
 			rewards: [
@@ -2460,10 +2365,10 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{atm9.quest.mekanism.tier2OreFactory}"
+			subtitle: "{atm9.quest.mekanism.subt.ore}"
 			tasks: [{
 				id: "46C4C1AD9FA5BEE2"
-				title: "{atm9.quest.mekanism.ourSetupSoFar}"
+				title: "{atm9.quest.mekanism.task.ore}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -2475,13 +2380,7 @@
 				"04E2D539E33B7B0F"
 			]
 			description: [
-				"{atm9.quest.mekanism.desc.factorySetup.1}"
-				""
-				"{atm9.quest.mekanism.desc.factorySetup.2}"
-				""
-				"{atm9.quest.mekanism.desc.factorySetup.3}"
-				""
-				"{atm9.quest.mekanism.desc.factorySetup.4}"
+				"{atm9.quest.mekanism.desc.factory}"
 			]
 			id: "1112E4E2CCEB2467"
 			rewards: [{
@@ -2489,10 +2388,10 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.mekanism.tier3OreFactory}"
+			subtitle: "{atm9.quest.mekanism.subt.factory}"
 			tasks: [{
 				id: "57F40CFA03BD36EF"
-				title: "{atm9.quest.mekanism.theHardPart}"
+				title: "{atm9.quest.mekanism.task.factory}"
 				type: "checkmark"
 			}]
 			x: 6.5d
@@ -2501,9 +2400,7 @@
 		{
 			dependencies: ["08DDE018A804BFE7"]
 			description: [
-				"{atm9.quest.mekanism.desc.endGameMaterials.1}"
-				""
-				"{atm9.quest.mekanism.desc.endGameMaterials.2}"
+				"{atm9.quest.mekanism.desc.reaction_chamber}"
 			]
 			id: "587A19FC348387C5"
 			rewards: [
@@ -2534,7 +2431,7 @@
 		}
 		{
 			dependencies: ["7AE502EDB73BD57A"]
-			description: ["{atm9.quest.mekanism.desc.bioFuel}"]
+			description: ["{atm9.quest.mekanism.desc.bio_fuel}"]
 			id: "3B43DB1A6B0A7B44"
 			rewards: [
 				{
@@ -2554,16 +2451,14 @@
 				item: "mekanism:bio_fuel"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanism.bioFuel}"
+			title: "{atm9.quest.mekanism.bio_fuel}"
 			x: 1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3B43DB1A6B0A7B44"]
 			description: [
-				"{atm9.quest.mekanism.desc.substrates.1}"
-				""
-				"{atm9.quest.mekanism.desc.substrates.2}"
+				"{atm9.quest.mekanism.desc.substrate}"
 			]
 			id: "5047792C6EF6D2AD"
 			rewards: [
@@ -2584,13 +2479,13 @@
 				item: "mekanism:substrate"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanism.substrates}"
+			title: "{atm9.quest.mekanism.substrate}"
 			x: 1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["5047792C6EF6D2AD"]
-			description: ["{atm9.quest.mekanism.desc.hdpePellet}"]
+			description: ["{atm9.quest.mekanism.desc.hdpe_pellet}"]
 			id: "76A38CCA5816CDAD"
 			rewards: [
 				{
@@ -2611,13 +2506,13 @@
 				item: "mekanism:hdpe_pellet"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanism.hdpePellets}"
+			title: "{atm9.quest.mekanism.hdpe_pellet}"
 			x: 1.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["76A38CCA5816CDAD"]
-			description: ["{atm9.quest.mekanism.desc.hdpeSheet}"]
+			description: ["{atm9.quest.mekanism.desc.hdpe_sheet}"]
 			id: "47106CE1937C4340"
 			rewards: [
 				{
@@ -2665,7 +2560,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{atm9.quest.mekanism.allInOneTool}"
+			subtitle: "{atm9.quest.mekanism.subt.atomic_disassembler}"
 			tasks: [{
 				id: "79F38A9428A0A23D"
 				item: "mekanism:atomic_disassembler"
@@ -2677,11 +2572,7 @@
 		{
 			dependencies: ["08DDE018A804BFE7"]
 			description: [
-				"{atm9.quest.mekanism.desc.enrichItems.1}"
-				""
-				"{atm9.quest.mekanism.desc.enrichItems.2}"
-				""
-				"{atm9.quest.mekanism.desc.enrichItems.3}"
+				"{atm9.quest.mekanism.desc.enriched}"
 			]
 			id: "0F326EEEC2EBE4E5"
 			rewards: [
@@ -2697,22 +2588,20 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.enrichYourItemsFirst}"
+			subtitle: "{atm9.quest.mekanism.subt.enriched}"
 			tasks: [{
 				id: "4B60ACBCC3B46D1D"
 				item: "mekanism:enriched_carbon"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanism.enrichedItems}"
+			title: "{atm9.quest.mekanism.enriched}"
 			x: -4.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4F436770D30D8520"]
 			description: [
-				"{atm9.quest.mekanism.desc.oreSlurry.1}"
-				""
-				"{atm9.quest.mekanism.desc.oreSlurry.2}"
+				"{atm9.quest.mekanism.desc.chemical_washer}"
 			]
 			id: "4AFF81D3D0E78255"
 			rewards: [
@@ -2727,7 +2616,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.givingOresABath}"
+			subtitle: "{atm9.quest.mekanism.subt.chemical_washer}"
 			tasks: [{
 				id: "1DA159AA61B37545"
 				item: "mekanism:chemical_washer"
@@ -2739,9 +2628,7 @@
 		{
 			dependencies: ["4F436770D30D8520"]
 			description: [
-				"{atm9.quest.mekanism.desc.crystals.1}"
-				""
-				"{atm9.quest.mekanism.desc.crystals.2}"
+				"{atm9.quest.mekanism.desc.chemical_crystallizer}"
 			]
 			id: "3999760881C855FA"
 			rewards: [
@@ -2756,7 +2643,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.mekanism.turnsOreSlurryIntoCrystals}"
+			subtitle: "{atm9.quest.mekanism.subt.chemical_crystallizer}"
 			tasks: [{
 				id: "6F2B3A4206C129B0"
 				item: "mekanism:chemical_crystallizer"
@@ -2771,11 +2658,7 @@
 				"4AFF81D3D0E78255"
 			]
 			description: [
-				"{atm9.quest.mekanism.desc.factoryLayout.1}"
-				""
-				"{atm9.quest.mekanism.desc.factoryLayout.2}"
-				""
-				"{atm9.quest.mekanism.desc.factoryLayout.3}"
+				"{atm9.quest.mekanism.desc.ore_factory}"
 				""
 				"{image:atm:textures/questpics/mek/mekanism_flowchart.png width:300 height:150 align:1 fit:true}"
 			]
@@ -2788,10 +2671,10 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{atm9.quest.mekanism.thisIsALotIKnow}"
+			subtitle: "{atm9.quest.mekanism.subt.ore_factory}"
 			tasks: [{
 				id: "3B3B58C438FD4397"
-				title: "{atm9.quest.mekanism.tier4OreProcessingFactorySummary}"
+				title: "{atm9.quest.mekanism.task.ore_factory}"
 				type: "checkmark"
 			}]
 			x: 9.0d
@@ -2800,9 +2683,7 @@
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"{atm9.quest.mekanism.desc.poweredItemCharger.1}"
-				""
-				"{atm9.quest.mekanism.desc.poweredItemCharger.2}"
+				"{atm9.quest.mekanism.desc.chargepad}"
 			]
 			hide_dependency_lines: true
 			id: "4204702AA6FBF40B"
@@ -2834,9 +2715,7 @@
 				"2E274BEEF2B0B8C7"
 			]
 			description: [
-				"{atm9.quest.mekanism.desc.antimatterPellets.1}"
-				""
-				"{atm9.quest.mekanism.desc.antimatterPellets.2}"
+				"{atm9.quest.mekanism.desc.advanced_mekanism}"
 			]
 			icon: "mekanism:pellet_antimatter"
 			id: "7E4A95B6443F23BC"
@@ -2847,10 +2726,10 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{atm9.quest.mekanism.thePathToReactors}"
+			subtitle: "{atm9.quest.mekanism.subt.advanced_mekanism}"
 			tasks: [{
 				id: "60BF6E0420C91050"
-				title: "{atm9.quest.mekanism.advancedMekanism}"
+				title: "{atm9.quest.mekanism.task.advanced_mekanism}"
 				type: "checkmark"
 			}]
 			x: 9.0d
@@ -2859,12 +2738,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -2884,12 +2758,12 @@
 				{
 					disable_toast: true
 					id: "16F845475F9E5089"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "22A1ED0E7CF3404B"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

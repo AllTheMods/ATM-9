@@ -13,8 +13,9 @@
 	id: "769974FDAD5DBEB1"
 	images: [
 		{
+			click: " "
 			height: 0.3d
-			hover: ["{atm9.quest.ae2.img.star}"]
+			hover: ["atm9.quest.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -77,9 +78,7 @@
 		{
 			dependencies: ["438E233A9014DA73"]
 			description: [
-				"{atm9.quest.adAstra.desc.tier2Rocket.1}"
-				""
-				"{atm9.quest.adAstra.desc.tier2Rocket.2}"
+				"{atm9.quest.adAstra.desc.tier_2_rocket}"
 			]
 			id: "4EA0E385FF7E5FEB"
 			rewards: [
@@ -113,7 +112,7 @@
 		}
 		{
 			dependencies: ["0EE652B280CB5F55"]
-			description: ["{atm9.quest.adAstra.desc.tier4Rocket}"]
+			description: ["{atm9.quest.adAstra.desc.tier_4_rocket}"]
 			id: "210A0DC6D5CAC236"
 			tasks: [{
 				id: "68DB1231F3A96C65"
@@ -132,9 +131,7 @@
 		{
 			dependencies: ["438E233A9014DA73"]
 			description: [
-				"{atm9.quest.adAstra.desc.spaceStations.1}"
-				""
-				"{atm9.quest.adAstra.desc.spaceStations.2}"
+				"{atm9.quest.adAstra.desc.space_stations}"
 			]
 			icon: "ad_astra:space_painting"
 			id: "3017721842588919"
@@ -165,16 +162,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.adAstra.spaceStations}"
+			title: "{atm9.quest.adAstra.space_stations}"
 			x: -4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["58452F7D73C30E72"]
 			description: [
-				"{atm9.quest.adAstra.desc.lander.1}"
-				""
-				"{atm9.quest.adAstra.desc.lander.2}"
+				"{atm9.quest.adAstra.desc.desh}"
 			]
 			id: "438E233A9014DA73"
 			rewards: [
@@ -217,20 +212,7 @@
 				"4785659E5022FEE7"
 			]
 			description: [
-				"{atm9.quest.adAstra.desc.launch.1}"
-				""
-				"{atm9.quest.adAstra.desc.launch.2}"
-				""
-				"{atm9.quest.adAstra.desc.launch.3}"
-				""
-				"{atm9.quest.adAstra.desc.launch.4}"
-				""
-				"{atm9.quest.adAstra.desc.launch.5}"
-				""
-				"Moon Info:"
-				"Gravity: 1.625 m/s"
-				"Oxygen: None"
-				"Temperature: -160.0 °C"
+				"{atm9.quest.adAstra.desc.moon}"
 			]
 			hide_dependency_lines: true
 			icon: "ad_astra:moon_globe"
@@ -253,10 +235,10 @@
 				advancement: "ad_astra:moon"
 				criterion: ""
 				id: "39A95AE27E68114B"
-				title: "{atm9.quest.adAstra.landOnMoon}"
+				title: "{atm9.quest.adAstra.task.moon}"
 				type: "advancement"
 			}]
-			title: "{atm9.quest.adAstra.toTheMoon}"
+			title: "{atm9.quest.adAstra.moon}"
 			x: -3.0d
 			y: 1.5d
 		}
@@ -264,8 +246,6 @@
 			dependencies: ["4E8E49EB9C83188E"]
 			description: [
 				"{atm9.quest.adAstra.desc.ostrum}"
-				""
-				"Ostrum is used for several new machines, as well as a new Space Suit for us to survive on hotter planets!"
 			]
 			id: "2A279B011D09A9EE"
 			rewards: [
@@ -302,12 +282,7 @@
 		{
 			dependencies: ["4EA0E385FF7E5FEB"]
 			description: [
-				"{atm9.quest.adAstra.desc.mars.1}"
-				""
-				"Mars Info:"
-				"Gravity: 3.72076 m/s"
-				"Oxygen: None"
-				"Temperature: -65.0 °C"
+				"{atm9.quest.adAstra.desc.mars}"
 			]
 			icon: "ad_astra:mars_globe"
 			id: "4E8E49EB9C83188E"
@@ -323,23 +298,14 @@
 				id: "51EA8D3FA1966B84"
 				type: "advancement"
 			}]
-			title: "{atm9.quest.adAstra.visitMars}"
+			title: "{atm9.quest.adAstra.mars}"
 			x: -3.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7CA42B3CA84A21B5"]
 			description: [
-				"{atm9.quest.adAstra.desc.venus.1}"
-				""
-				"{atm9.quest.adAstra.desc.venus.2}"
-				""
-				"{atm9.quest.adAstra.desc.venus.3}"
-				""
-				"Venus Info:"
-				"Gravity: 8.87 m/s"
-				"Oxygen: none"
-				"Temperature: 464.0 °C"
+				"{atm9.quest.adAstra.desc.venus}"
 			]
 			icon: "ad_astra:venus_globe"
 			id: "0EE652B280CB5F55"
@@ -370,7 +336,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.adAstra.visitVenus}"
+			title: "{atm9.quest.adAstra.venus}"
 			x: 3.0d
 			y: 6.5d
 		}
@@ -378,11 +344,6 @@
 			dependencies: ["7CA42B3CA84A21B5"]
 			description: [
 				"{atm9.quest.adAstra.desc.mercury}"
-				""
-				"Mercury Info:"
-				"Gravity: 3.7 m/s"
-				"Oxygen: none"
-				"Temperature: 167.0 °C"
 			]
 			icon: "ad_astra:mercury_globe"
 			id: "32738F324B799879"
@@ -404,7 +365,7 @@
 				id: "7302AF42EB62C1D2"
 				type: "advancement"
 			}]
-			title: "{atm9.quest.adAstra.visitMercury}"
+			title: "{atm9.quest.adAstra.mercury}"
 			x: 1.0d
 			y: 8.0d
 		}
@@ -414,12 +375,7 @@
 				"7B2A7B2298DAE8EC"
 			]
 			description: [
-				"{atm9.quest.adAstra.desc.glacio.1}"
-				""
-				"Glacio Info:"
-				"Gravity: 3.721 m/s"
-				"Oxygen: Yes"
-				"Temperature: -20.0 °C"
+				"{atm9.quest.adAstra.desc.glacio}"
 			]
 			icon: "ad_astra:glacio_globe"
 			id: "0B407DE1771F3304"
@@ -436,19 +392,13 @@
 				id: "60ADF70F2398E2F8"
 				type: "advancement"
 			}]
-			title: "{atm9.quest.adAstra.visitGlacio}"
+			title: "{atm9.quest.adAstra.glacio}"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			description: [
-				"{atm9.quest.adAstra.desc.intro.1}"
-				""
-				"{atm9.quest.adAstra.desc.intro.2}"
-				""
-				"{atm9.quest.adAstra.desc.intro.3}"
-				""
-				"{atm9.quest.adAstra.desc.intro.4}"
+				"{atm9.quest.adAstra.desc.welcome}"
 			]
 			icon: {
 				Count: 1
@@ -484,16 +434,14 @@
 				item: "alltheores:steel_ingot"
 				type: "item"
 			}]
-			title: "{atm9.quest.adAstra.toTheStars}"
+			title: "{atm9.quest.adAstra.welcome}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0D8AC4FB1F61B07A"]
 			description: [
-				"{atm9.quest.adAstra.desc.hammerUsage.1}"
-				""
-				"{atm9.quest.adAstra.desc.hammerUsage.2}"
+				"{atm9.quest.adAstra.desc.hammer}"
 			]
 			icon: {
 				Count: 1
@@ -535,16 +483,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.adAstra.makingPlates}"
+			title: "{atm9.quest.adAstra.hammer}"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["0D4A85FBCE0015E1"]
 			description: [
-				"{atm9.quest.adAstra.desc.nasaWorkbench.1}"
-				""
-				"{atm9.quest.adAstra.desc.nasaWorkbench.2}"
+				"{atm9.quest.adAstra.desc.tier_1_rocket}"
 			]
 			icon: {
 				Count: 1
@@ -584,16 +530,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.adAstra.makingFirstRocket}"
+			title: "{atm9.quest.adAstra.tier_1_rocket}"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["0D4A85FBCE0015E1"]
 			description: [
-				"{atm9.quest.adAstra.desc.spaceGear.1}"
-				""
-				"{atm9.quest.adAstra.desc.spaceGear.2}"
+				"{atm9.quest.adAstra.desc.space_gear}"
 			]
 			hide_dependency_lines: true
 			id: "02057E81D8139BAE"
@@ -658,20 +602,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.adAstra.suitingUp}"
+			title: "{atm9.quest.adAstra.space_gear}"
 			x: -1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0D4A85FBCE0015E1"]
 			description: [
-				"{atm9.quest.adAstra.desc.fuelRefinery.1}"
-				""
-				"{atm9.quest.adAstra.desc.fuelRefinery.2}"
-				""
-				"{atm9.quest.adAstra.desc.fuelRefinery.3}"
-				""
-				"{atm9.quest.adAstra.desc.fuelRefinery.4}"
+				"{atm9.quest.adAstra.desc.fuel_refinery}"
 			]
 			hide_dependency_lines: true
 			icon: "ad_astra:fuel_refinery"
@@ -709,20 +647,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.adAstra.fuelingUp}"
+			title: "{atm9.quest.adAstra.fuel_refinery}"
 			x: 1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["02057E81D8139BAE"]
 			description: [
-				"{atm9.quest.adAstra.desc.oxygenPrep.1}"
-				""
-				"{atm9.quest.adAstra.desc.oxygenPrep.2}"
-				""
-				"{atm9.quest.adAstra.desc.oxygenPrep.3}"
-				""
-				"{atm9.quest.adAstra.desc.oxygenPrep.4}"
+				"{atm9.quest.adAstra.desc.oxygen}"
 			]
 			hide_dependency_lines: true
 			icon: "ad_astra:oxygen_loader"
@@ -760,16 +692,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.adAstra.preparingOxygen}"
+			title: "{atm9.quest.adAstra.oxygen}"
 			x: -1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["0D4A85FBCE0015E1"]
 			description: [
-				"{atm9.quest.adAstra.desc.launchPad.1}"
-				""
-				"{atm9.quest.adAstra.desc.launchPad.2}"
+				"{atm9.quest.adAstra.desc.launch_pad}"
 			]
 			hide_dependency_lines: true
 			id: "05B977269171EB06"
@@ -792,18 +722,14 @@
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
-			title: "{atm9.quest.adAstra.launchingIntoSpace}"
+			title: "{atm9.quest.adAstra.launch_pad}"
 			x: 1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2A279B011D09A9EE"]
 			description: [
-				"{atm9.quest.adAstra.desc.newSpaceSuit.1}"
-				""
-				"{atm9.quest.adAstra.desc.newSpaceSuit.2}"
-				""
-				"{atm9.quest.adAstra.desc.newSpaceSuit.3}"
+				"{atm9.quest.adAstra.desc.netherite_space_gear}"
 			]
 			icon: {
 				Count: 1
@@ -880,16 +806,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.adAstra.gearingUpForTheHeat}"
+			title: "{atm9.quest.adAstra.netherite_space_gear}"
 			x: 1.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["0EE652B280CB5F55"]
 			description: [
-				"{atm9.quest.adAstra.desc.bestSpaceSuit}"
-				""
-				"{atm9.quest.adAstra.desc.bestSpaceSuitFeatures}"
+				"{atm9.quest.adAstra.desc.jet_suit}"
 			]
 			id: "7B2A7B2298DAE8EC"
 			rewards: [
@@ -952,20 +876,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.adAstra.jetSuit}"
+			title: "{atm9.quest.adAstra.jet_suit}"
 			x: 3.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["2A279B011D09A9EE"]
 			description: [
-				"{atm9.quest.adAstra.desc.cryoFuel.1}"
-				""
-				"{atm9.quest.adAstra.desc.cryoFuel.2}"
-				""
-				"{atm9.quest.adAstra.desc.cryoFuel.3}"
-				""
-				"{atm9.quest.adAstra.desc.cryoFuel.4}"
+				"{atm9.quest.adAstra.desc.fuel}"
 			]
 			id: "088D685775ED92EE"
 			rewards: [
@@ -986,18 +904,14 @@
 				item: "ad_astra:cryo_freezer"
 				type: "item"
 			}]
-			title: "{atm9.quest.adAstra.efficientFuel}"
+			title: "{atm9.quest.adAstra.fuel}"
 			x: -1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["58452F7D73C30E72"]
 			description: [
-				"{atm9.quest.adAstra.desc.spaceBreathing.1}"
-				""
-				"{atm9.quest.adAstra.desc.spaceBreathing.2}"
-				""
-				"{atm9.quest.adAstra.desc.spaceBreathing.3}"
+				"{atm9.quest.adAstra.desc.space_breathing}"
 			]
 			id: "59ADE76689E381AA"
 			optional: true
@@ -1040,18 +954,14 @@
 					weak_nbt_match: true
 				}
 			]
-			title: "{atm9.quest.adAstra.dontWantToUseASpaceSuit}"
+			title: "{atm9.quest.adAstra.space_breathing}"
 			x: -4.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3017721842588919"]
 			description: [
-				"{atm9.quest.adAstra.desc.oxygenForBases.1}"
-				""
-				"{atm9.quest.adAstra.desc.oxygenForBases.2}"
-				""
-				"{atm9.quest.adAstra.desc.oxygenForBases.3}"
+				"{atm9.quest.adAstra.desc.oxygen_distributor}"
 			]
 			id: "72B3CDA595D08587"
 			tasks: [{
@@ -1059,19 +969,14 @@
 				item: "ad_astra:oxygen_distributor"
 				type: "item"
 			}]
-			title: "{atm9.quest.adAstra.oxygenForYourBases}"
+			title: "{atm9.quest.adAstra.oxygen_distributor}"
 			x: -4.0d
 			y: 5.5d
 		}
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -1091,12 +996,12 @@
 				{
 					disable_toast: true
 					id: "63671C4CE146D8C4"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "3F68281087FDC3BE"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

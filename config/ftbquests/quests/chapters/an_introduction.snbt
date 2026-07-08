@@ -29,11 +29,7 @@
 	quests: [
 		{
 			description: [
-				"{atm9.quest.gregtech.intro.desc.energyMeasurement}"
-				""
-				"{atm9.quest.gregtech.intro.desc.energyUtilization}"
-				""
-				"{atm9.quest.gregtech.intro.desc.energyProduction}"
+				"{atm9.quest.gregtech.intro.desc.energy}"
 			]
 			id: "4F086B3CF27D5C1A"
 			rewards: [{
@@ -42,10 +38,10 @@
 				xp: 10
 			}]
 			size: 1.5d
-			subtitle: "{atm9.quest.gregtech.intro.subt.safetyRead}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.energy}"
 			tasks: [{
 				id: "7B1C0F47F1D43B20"
-				title: "{atm9.quest.gregtech.intro.energyConcepts}"
+				title: "{atm9.quest.gregtech.intro.task.energy}"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.gregtech.intro.energy}"
@@ -55,16 +51,7 @@
 		{
 			dependencies: ["4F086B3CF27D5C1A"]
 			description: [
-				"{atm9.quest.gregtech.intro.desc.machineCableRating}"
-				""
-				"{atm9.quest.gregtech.intro.desc.machineVoltageDanger}"
-				""
-				"{atm9.quest.gregtech.intro.desc.cableVoltageDanger}"
-				""
-				"{atm9.quest.gregtech.intro.desc.lvVoltageis}"
-				"{atm9.quest.gregtech.intro.desc.mvVoltageis}"
-				"{atm9.quest.gregtech.intro.desc.hvVoltageis}"
-				"{atm9.quest.gregtech.intro.desc.voltageContinuation}"
+				"{atm9.quest.gregtech.intro.desc.voltage}"
 			]
 			id: "66D86E1EDEBF542B"
 			rewards: [{
@@ -74,7 +61,7 @@
 			}]
 			tasks: [{
 				id: "0F0F3C716F921B64"
-				title: "{atm9.quest.gregtech.intro.voltage}"
+				title: "{atm9.quest.gregtech.intro.task.voltage}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -83,11 +70,7 @@
 		{
 			dependencies: ["4F086B3CF27D5C1A"]
 			description: [
-				"{atm9.quest.gregtech.intro.desc.voltage.1}"
-				""
-				"{atm9.quest.gregtech.intro.desc.voltage.2}"
-				""
-				"{atm9.quest.gregtech.intro.desc.voltage.3}"
+				"{atm9.quest.gregtech.intro.desc.amperage}"
 			]
 			id: "6635E4C76260C4CB"
 			rewards: [{
@@ -97,7 +80,7 @@
 			}]
 			tasks: [{
 				id: "58DC240BC9900646"
-				title: "{atm9.quest.gregtech.intro.amperage}"
+				title: "{atm9.quest.gregtech.intro.task.amperage}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -109,11 +92,7 @@
 				"6635E4C76260C4CB"
 			]
 			description: [
-				"{atm9.quest.gregtech.intro.desc.amperage.1}"
-				""
-				"{atm9.quest.gregtech.intro.desc.amperage.2}"
-				""
-				"{atm9.quest.gregtech.intro.desc.amperage.3}"
+				"{atm9.quest.gregtech.intro.desc.measurement}"
 			]
 			id: "459787E9F1029CC6"
 			rewards: [{
@@ -124,7 +103,7 @@
 			subtitle: "{atm9.quest.gregtech.intro.subt.measurement}"
 			tasks: [{
 				id: "4CC5C3088A4F5C7D"
-				title: "{atm9.quest.gregtech.intro.voltageLoss}"
+				title: "{atm9.quest.gregtech.intro.task.measurement}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -133,15 +112,7 @@
 		{
 			dependencies: ["66D86E1EDEBF542B"]
 			description: [
-				"{atm9.quest.gregtech.intro.desc.voltageLoss.1}"
-				""
-				"{atm9.quest.gregtech.intro.desc.voltageLoss.2}"
-				""
-				"{atm9.quest.gregtech.intro.desc.voltageLoss.3}"
-				""
-				"{atm9.quest.gregtech.intro.desc.voltageLoss.4}"
-				""
-				"{atm9.quest.gregtech.intro.desc.voltageLoss.5}"
+				"{atm9.quest.gregtech.intro.desc.voltage_conversion}"
 			]
 			id: "33590A79C5C554C8"
 			rewards: [{
@@ -151,7 +122,7 @@
 			}]
 			tasks: [{
 				id: "4BE4C9994786C1D0"
-				title: "{atm9.quest.gregtech.intro.voltageConversion}"
+				title: "{atm9.quest.gregtech.intro.task.voltage_conversion}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -166,11 +137,7 @@
 				"33590A79C5C554C8"
 			]
 			description: [
-				"{atm9.quest.gregtech.intro.desc.voltageConversion.1}"
-				""
-				"{atm9.quest.gregtech.intro.desc.voltageConversion.2}"
-				""
-				"{atm9.quest.gregtech.intro.desc.voltageConversion.3}"
+				"{atm9.quest.gregtech.intro.desc.tools}"
 			]
 			hide_dependency_lines: true
 			id: "790F509BAA15A68E"
@@ -180,7 +147,7 @@
 				table_id: 487623848494439020L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.intro.subt.introduction}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.tools}"
 			tasks: [{
 				id: "30443BA4C089AA8B"
 				item: {
@@ -190,7 +157,7 @@
 						value: "forge:tools/hammers"
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.hammers}"
+				title: "{atm9.quest.gregtech.intro.task.tools}"
 				type: "item"
 			}]
 			title: "{atm9.quest.gregtech.intro.tools}"
@@ -200,11 +167,7 @@
 		{
 			dependencies: ["790F509BAA15A68E"]
 			description: [
-				"{atm9.quest.gregtech.intro.desc.tools.1}"
-				""
-				"{atm9.quest.gregtech.intro.desc.tools.2}"
-				""
-				"{atm9.quest.gregtech.intro.desc.tools.3}"
+				"{atm9.quest.gregtech.intro.desc.handy_tools}"
 			]
 			id: "5D3C8198D9756004"
 			rewards: [{
@@ -223,7 +186,7 @@
 							value: "forge:tools/wrenches"
 						}
 					}
-					title: "{atm9.quest.gregtech.intro.gtWrenches}"
+					title: "{atm9.quest.gregtech.intro.task.handy_tools.wrenches}"
 					type: "item"
 				}
 				{
@@ -235,7 +198,7 @@
 							value: "forge:tools/files"
 						}
 					}
-					title: "{atm9.quest.gregtech.intro.gtFiles}"
+					title: "{atm9.quest.gregtech.intro.task.handy_tools.files}"
 					type: "item"
 				}
 				{
@@ -247,34 +210,18 @@
 							value: "forge:tools/saws"
 						}
 					}
-					title: "{atm9.quest.gregtech.intro.gtSaws}"
+					title: "{atm9.quest.gregtech.intro.task.handy_tools.saws}"
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.intro.handyTools}"
+			title: "{atm9.quest.gregtech.intro.handy_tools}"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["5D3C8198D9756004"]
 			description: [
-				"{atm9.quest.gregtech.intro.desc.handyTools.1}"
-				""
-				"{atm9.quest.gregtech.intro.desc.handyTools.2}"
-				""
-				"{atm9.quest.gregtech.intro.desc.handyTools.3}"
-				""
-				"{atm9.quest.gregtech.intro.desc.handyTools.4}"
-				""
-				"{atm9.quest.gregtech.intro.desc.handyTools.5}"
-				""
-				"{atm9.quest.gregtech.intro.desc.handyTools.6}"
-				""
-				"{atm9.quest.gregtech.intro.desc.handyTools.7}"
-				""
-				"{atm9.quest.gregtech.intro.desc.handyTools.8}"
-				""
-				"{atm9.quest.gregtech.intro.desc.handyTools.9}"
+				"{atm9.quest.gregtech.intro.desc.all_tools}"
 			]
 			id: "17BA6F1E5179DB8C"
 			min_width: 400
@@ -284,7 +231,7 @@
 				table_id: 487623848494439020L
 				type: "loot"
 			}]
-			subtitle: "{atm9.quest.gregtech.intro.subt.eventually}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.all_tools}"
 			tasks: [
 				{
 					id: "15389D4D64D19ACA"
@@ -295,7 +242,7 @@
 							value: "forge:tools/screwdrivers"
 						}
 					}
-					title: "{atm9.quest.gregtech.intro.gtScrewdrivers}"
+					title: "{atm9.quest.gregtech.intro.task.all_tools.screwdrivers}"
 					type: "item"
 				}
 				{
@@ -307,7 +254,7 @@
 							value: "forge:tools/wire_cutters"
 						}
 					}
-					title: "{atm9.quest.gregtech.intro.gtWireCutters}"
+					title: "{atm9.quest.gregtech.intro.task.all_tools.wire_cutters}"
 					type: "item"
 				}
 				{
@@ -319,7 +266,7 @@
 							value: "forge:tools/mortars"
 						}
 					}
-					title: "{atm9.quest.gregtech.intro.gtMortars}"
+					title: "{atm9.quest.gregtech.intro.task.all_tools.mortars}"
 					type: "item"
 				}
 				{
@@ -331,7 +278,7 @@
 							value: "forge:tools/knives"
 						}
 					}
-					title: "{atm9.quest.gregtech.intro.gtKnives}"
+					title: "{atm9.quest.gregtech.intro.task.all_tools.knives}"
 					type: "item"
 				}
 				{
@@ -343,7 +290,7 @@
 							value: "forge:tools/mallets"
 						}
 					}
-					title: "{atm9.quest.gregtech.intro.gtMallets}"
+					title: "{atm9.quest.gregtech.intro.task.all_tools.mallets}"
 					type: "item"
 				}
 				{
@@ -355,7 +302,7 @@
 							value: "forge:tools/crowbars"
 						}
 					}
-					title: "{atm9.quest.gregtech.intro.gtCrowbars}"
+					title: "{atm9.quest.gregtech.intro.task.all_tools.crowbars}"
 					type: "item"
 				}
 				{
@@ -367,7 +314,7 @@
 							value: "forge:tools/scythes"
 						}
 					}
-					title: "{atm9.quest.gregtech.intro.gtScythes}"
+					title: "{atm9.quest.gregtech.intro.task.all_tools.scythes}"
 					type: "item"
 				}
 				{
@@ -379,7 +326,7 @@
 							value: "forge:tools/plungers"
 						}
 					}
-					title: "{atm9.quest.gregtech.intro.gtPlungers}"
+					title: "{atm9.quest.gregtech.intro.task.all_tools.plungers}"
 					type: "item"
 				}
 				{
@@ -391,21 +338,17 @@
 							value: "forge:tools/butchery_knives"
 						}
 					}
-					title: "{atm9.quest.gregtech.intro.gtButcheryKnives}"
+					title: "{atm9.quest.gregtech.intro.task.all_tools.butcheryKnives}"
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.gregtech.intro.allTheTools}"
+			title: "{atm9.quest.gregtech.intro.all_tools}"
 			x: 2.0d
 			y: -4.5d
 		}
 		{
 			description: [
-				"{atm9.quest.gregtech.intro.desc.allTheTools.1}"
-				""
-				"{atm9.quest.gregtech.intro.desc.allTheTools.2}"
-				""
-				"{atm9.quest.gregtech.intro.desc.allTheTools.3}"
+				"{atm9.quest.gregtech.intro.desc.overworld_ores}"
 			]
 			disable_toast: true
 			icon: "minecraft:grass_block"
@@ -421,7 +364,7 @@
 				id: "5E966121508B53EA"
 				type: "dimension"
 			}]
-			title: "{atm9.quest.gregtech.intro.overworldLayerOres}"
+			title: "{atm9.quest.gregtech.intro.overworld_ores}"
 			x: -5.5d
 			y: 0.5d
 		}
@@ -434,7 +377,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.gregtech.intro.subt.aluminium}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.bauxite_vein}"
 			tasks: [{
 				id: "5FF14D712FF20F3A"
 				item: {
@@ -469,10 +412,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.bauxiteVein}"
+			title: "{atm9.quest.gregtech.intro.bauxite_vein}"
 			x: 6.0d
 			y: -4.5d
 		}
@@ -527,10 +470,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.magnetiteVein}"
+			title: "{atm9.quest.gregtech.intro.magnetite_vein}"
 			x: 7.5d
 			y: -3.5d
 		}
@@ -543,7 +486,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.gregtech.intro.subt.indeed}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.naquadah_vein}"
 			tasks: [{
 				id: "71DDF8155FD8FCAA"
 				item: {
@@ -570,10 +513,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.naquadahVein}"
+			title: "{atm9.quest.gregtech.intro.naquadah_vein}"
 			x: 7.5d
 			y: -1.5d
 		}
@@ -612,10 +555,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.pitchblendeVein}"
+			title: "{atm9.quest.gregtech.intro.pitchblende_vein}"
 			x: 4.5d
 			y: -3.5d
 		}
@@ -662,10 +605,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.scheeliteVein}"
+			title: "{atm9.quest.gregtech.intro.scheelite_vein}"
 			x: 4.5d
 			y: -1.5d
 		}
@@ -720,10 +663,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.sheldoniteVein}"
+			title: "{atm9.quest.gregtech.intro.sheldonite_vein}"
 			x: 6.0d
 			y: -0.5d
 		}
@@ -736,7 +679,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.gregtech.intro.subt.ironVein}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.netherrack_goethite_ore}"
 			tasks: [{
 				id: "7FA60EE3F8F0C57B"
 				item: {
@@ -775,10 +718,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.goethiteVein}"
+			title: "{atm9.quest.gregtech.intro.goethite_vein}"
 			x: 7.0d
 			y: 1.5d
 		}
@@ -813,10 +756,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.berylliumVein}"
+			title: "{atm9.quest.gregtech.intro.beryllium_vein}"
 			x: 8.0d
 			y: 2.5d
 		}
@@ -855,10 +798,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.certusQuartzVein}"
+			title: "{atm9.quest.gregtech.intro.certus_quartz_vein}"
 			x: 8.0d
 			y: 4.5d
 		}
@@ -871,7 +814,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.gregtech.intro.subt.manganeseSource}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.netherrack_grossular_ore}"
 			tasks: [{
 				id: "047722F89EBCC4DE"
 				item: {
@@ -906,10 +849,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.grossularVein}"
+			title: "{atm9.quest.gregtech.intro.grossular_vein}"
 			x: 7.0d
 			y: 5.5d
 		}
@@ -964,10 +907,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.molybdenumVein}"
+			title: "{atm9.quest.gregtech.intro.molybdenum_vein}"
 			x: 6.0d
 			y: 5.5d
 		}
@@ -1006,10 +949,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.bastnasiteVein}"
+			title: "{atm9.quest.gregtech.intro.bastnasite_vein}"
 			x: 5.0d
 			y: 5.5d
 		}
@@ -1040,10 +983,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.quartziteVein}"
+			title: "{atm9.quest.gregtech.intro.quartzite_vein}"
 			x: 4.0d
 			y: 4.5d
 		}
@@ -1056,7 +999,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.gregtech.intro.subt.redstoneYield}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.redstone_vein}"
 			tasks: [{
 				id: "778C0EDD0752F465"
 				item: {
@@ -1091,10 +1034,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.redstoneVein}"
+			title: "{atm9.quest.gregtech.intro.redstone_vein}"
 			x: 4.0d
 			y: 3.5d
 		}
@@ -1149,10 +1092,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.saltpeterVein}"
+			title: "{atm9.quest.gregtech.intro.saltpeter_vein}"
 			x: 4.0d
 			y: 2.5d
 		}
@@ -1199,10 +1142,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.sulfurVein}"
+			title: "{atm9.quest.gregtech.intro.sulfur_vein}"
 			x: 5.0d
 			y: 1.5d
 		}
@@ -1241,10 +1184,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.tetrahedriteVein}"
+			title: "{atm9.quest.gregtech.intro.tetrahedrite_vein}"
 			x: 6.0d
 			y: 1.5d
 		}
@@ -1295,10 +1238,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.topazVein}"
+			title: "{atm9.quest.gregtech.intro.topaz_vein}"
 			x: 8.0d
 			y: 3.5d
 		}
@@ -1345,10 +1288,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.apatiteVein}"
+			title: "{atm9.quest.gregtech.intro.apatite_vein}"
 			x: -7.5d
 			y: 0.5d
 		}
@@ -1379,10 +1322,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.cassiteriteVein}"
+			title: "{atm9.quest.gregtech.intro.cassiterite_vein}"
 			x: -8.0d
 			y: 1.5d
 		}
@@ -1438,10 +1381,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.chalcopyriteVein}"
+			title: "{atm9.quest.gregtech.intro.chalcopyrite_vein}"
 			x: -6.0d
 			y: 2.0d
 		}
@@ -1488,10 +1431,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.galenaVein}"
+			title: "{atm9.quest.gregtech.intro.galena_vein}"
 			x: -8.0d
 			y: -0.5d
 		}
@@ -1538,10 +1481,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.garnetSandVein}"
+			title: "{atm9.quest.gregtech.intro.garnet_sand_vein}"
 			x: -4.0d
 			y: 2.5d
 		}
@@ -1592,10 +1535,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.garnetVein}"
+			title: "{atm9.quest.gregtech.intro.garnet_vein}"
 			x: -4.0d
 			y: 1.5d
 		}
@@ -1608,7 +1551,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.gregtech.intro.subt.ironContent}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.goethite_ore}"
 			tasks: [{
 				id: "6029CFFA9BD91661"
 				item: {
@@ -1651,10 +1594,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.goethiteVein}"
+			title: "{atm9.quest.gregtech.intro.goethite_vein}"
 			x: -3.0d
 			y: 1.5d
 		}
@@ -1667,7 +1610,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.gregtech.intro.subt.lubricantSource}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.soapstone_vein}"
 			tasks: [{
 				id: "0AABC07011A622BB"
 				item: {
@@ -1710,10 +1653,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.soapstoneVein}"
+			title: "{atm9.quest.gregtech.intro.soapstone_vein}"
 			x: -7.0d
 			y: 2.5d
 		}
@@ -1752,10 +1695,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.magnetiteVein}"
+			title: "{atm9.quest.gregtech.intro.magnetite_vein}"
 			x: -3.0d
 			y: -0.5d
 		}
@@ -1810,10 +1753,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.mineralSandVein}"
+			title: "{atm9.quest.gregtech.intro.mineral_sand_vein}"
 			x: -4.0d
 			y: -0.5d
 		}
@@ -1834,7 +1777,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.gregtech.intro.subt.cobaltitePresence}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.garnierite_vein}"
 			tasks: [{
 				id: "0430C905BE3CA0CF"
 				item: {
@@ -1861,10 +1804,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.garnieriteVein}"
+			title: "{atm9.quest.gregtech.intro.garnierite_vein}"
 			x: -3.5d
 			y: -1.5d
 		}
@@ -1919,10 +1862,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.saltsVein}"
+			title: "{atm9.quest.gregtech.intro.salts_vein}"
 			x: -7.0d
 			y: -0.5d
 		}
@@ -1944,7 +1887,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.gregtech.intro.subt.diamondPotential}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.graphite_vein}"
 			tasks: [{
 				id: "7B87E500C6FB74B3"
 				item: {
@@ -1963,10 +1906,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.graphiteVein}"
+			title: "{atm9.quest.gregtech.intro.graphite_vein}"
 			x: -4.5d
 			y: -1.5d
 		}
@@ -1979,7 +1922,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.gregtech.intro.subt.lapisLocation}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.lazurite_vein}"
 			tasks: [{
 				id: "3A308744C31E3ED4"
 				item: {
@@ -2014,10 +1957,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.lazuriteVein}"
+			title: "{atm9.quest.gregtech.intro.lazurite_vein}"
 			x: -7.5d
 			y: -1.5d
 		}
@@ -2072,10 +2015,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.kyaniteVein}"
+			title: "{atm9.quest.gregtech.intro.kyanite_vein}"
 			x: -5.0d
 			y: 2.0d
 		}
@@ -2088,7 +2031,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.gregtech.intro.subt.goodManganeseSource}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.grossular_ore}"
 			tasks: [{
 				id: "0CD83CD8CF777CB9"
 				item: {
@@ -2131,10 +2074,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.grossularVein}"
+			title: "{atm9.quest.gregtech.intro.grossular_vein}"
 			x: -6.5d
 			y: -1.5d
 		}
@@ -2173,10 +2116,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.bentoniteVein}"
+			title: "{atm9.quest.gregtech.intro.bentonite_vein}"
 			x: -3.5d
 			y: 0.5d
 		}
@@ -2215,10 +2158,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.cinnabarVein}"
+			title: "{atm9.quest.gregtech.intro.cinnabar_vein}"
 			x: -7.0d
 			y: 1.5d
 		}
@@ -2239,7 +2182,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "{atm9.quest.gregtech.intro.subt.sapphireSource}"
+			subtitle: "{atm9.quest.gregtech.intro.subt.almandine_vein}"
 			tasks: [{
 				id: "558C014604ECC490"
 				item: {
@@ -2282,10 +2225,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.gregtech.intro.validOres}"
+				title: "{atm9.quest.gregtech.intro.task.vein}"
 				type: "item"
 			}]
-			title: "{atm9.quest.gregtech.intro.almandineVein}"
+			title: "{atm9.quest.gregtech.intro.almandine_vein}"
 			x: -5.5d
 			y: 3.0d
 		}
@@ -2297,7 +2240,9 @@
 				"459787E9F1029CC6"
 				"33590A79C5C554C8"
 			]
-			description: ["{atm9.quest.gregtech.intro.desc.oreFinder.1}"]
+			description: [
+				"{atm9.quest.gregtech.intro.desc.ore_finder}"
+			]
 			hide_dependency_lines: true
 			id: "55C47B868C5ECF54"
 			rewards: [{
@@ -2317,7 +2262,9 @@
 		}
 		{
 			dependencies: ["55C47B868C5ECF54"]
-			description: ["{atm9.quest.gregtech.intro.desc.fluidFinder.1}"]
+			description: [
+				"{atm9.quest.gregtech.intro.desc.fluid_finder}"
+			]
 			id: "55F0472830CC6BF6"
 			rewards: [{
 				id: "6ECEEE679E6910B8"
@@ -2335,7 +2282,9 @@
 		}
 		{
 			dependencies: ["55F0472830CC6BF6"]
-			description: ["{atm9.quest.gregtech.intro.desc.oreFluidFinder.1}"]
+			description: [
+				"{atm9.quest.gregtech.intro.desc.ore_fluid_finder}"
+			]
 			id: "2E5EF984B9CE0CB9"
 			rewards: [{
 				count: 8
@@ -2353,7 +2302,9 @@
 			y: 5.5d
 		}
 		{
-			description: ["{atm9.quest.gregtech.intro.desc.oreFrequency.1}"]
+			description: [
+				"{atm9.quest.gregtech.intro.desc.nether_ores}"
+			]
 			icon: "minecraft:netherrack"
 			id: "0D20644407244A60"
 			rewards: [{
@@ -2366,12 +2317,14 @@
 				id: "500548E772861A58"
 				type: "dimension"
 			}]
-			title: "{atm9.quest.gregtech.intro.netherLayerOres}"
+			title: "{atm9.quest.gregtech.intro.nether_ores}"
 			x: 6.0d
 			y: 3.5d
 		}
 		{
-			description: ["{atm9.quest.gregtech.intro.desc.oreSpacing.1}"]
+			description: [
+				"{atm9.quest.gregtech.intro.desc.end_ores}"
+			]
 			icon: "minecraft:end_stone"
 			id: "244220A5D9F4C702"
 			rewards: [{
@@ -2384,19 +2337,14 @@
 				id: "540231448A4DE43B"
 				type: "dimension"
 			}]
-			title: "{atm9.quest.gregtech.intro.endLayerOres}"
+			title: "{atm9.quest.gregtech.intro.end_ores}"
 			x: 6.0d
 			y: -2.5d
 		}
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -2416,12 +2364,12 @@
 				{
 					disable_toast: true
 					id: "67C278CBE8BD4F0C"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "405256482E90B52E"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

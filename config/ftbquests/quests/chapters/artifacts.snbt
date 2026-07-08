@@ -115,7 +115,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{atm9.quest.artifacts.desc.rootedboots.1}"]
+			description: ["{atm9.quest.artifacts.desc.rooted_boots}"]
 			id: "010607466D565B53"
 			rewards: [{
 				id: "6D6B518024477701"
@@ -129,12 +129,12 @@
 				item: "artifacts:rooted_boots"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.rootedboots}"
+			title: "{atm9.quest.artifacts.rooted_boots}"
 			x: 1.5d
 			y: 3.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.flippers.1}"]
+			description: ["{atm9.quest.artifacts.desc.flippers}"]
 			id: "3EC8A0B89788D079"
 			rewards: [{
 				id: "3DBB1369A1072D6F"
@@ -148,12 +148,12 @@
 				item: "artifacts:flippers"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.flippers}"
+			title: "{atm9.quest.artifacts.flippers}"
 			x: 1.5d
 			y: 2.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.steadfastboots.1}"]
+			description: ["{atm9.quest.artifacts.desc.steadfast_boots}"]
 			hide_details_until_startable: false
 			id: "2215FB0777D7029D"
 			rewards: [{
@@ -168,12 +168,12 @@
 				item: "artifacts:steadfast_spikes"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.steadfastboots}"
+			title: "{atm9.quest.artifacts.steadfast_boots}"
 			x: 0.5d
 			y: 3.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.snowshoes.1}"]
+			description: ["{atm9.quest.artifacts.desc.snowshoes}"]
 			id: "74B352457BF1541B"
 			rewards: [{
 				id: "69C1A25CAD2D3CCD"
@@ -191,7 +191,7 @@
 			y: 3.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.runningshoes.1}"]
+			description: ["{atm9.quest.artifacts.desc.running_shoes}"]
 			id: "4A7AEBEB87CEC274"
 			rewards: [{
 				id: "69F5A7BBB1BB1E8D"
@@ -205,12 +205,12 @@
 				item: "artifacts:running_shoes"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.runningshoes}"
+			title: "{atm9.quest.artifacts.running_shoes}"
 			x: 3.5d
 			y: 2.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.kittyslippers.1}"]
+			description: ["{atm9.quest.artifacts.desc.kitty_slippers}"]
 			id: "122E6E7CABCB17E7"
 			rewards: [{
 				id: "3A58636456616D1C"
@@ -224,12 +224,12 @@
 				item: "artifacts:kitty_slippers"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.kittyslippers}"
+			title: "{atm9.quest.artifacts.kitty_slippers}"
 			x: 4.5d
 			y: 2.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.bunnyhoppers.1}"]
+			description: ["{atm9.quest.artifacts.desc.bunny_hoppers}"]
 			id: "5040B3D29F238BC0"
 			rewards: [{
 				id: "1E6151B989D869C6"
@@ -243,12 +243,12 @@
 				item: "artifacts:bunny_hoppers"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.bunnyhoppers}"
+			title: "{atm9.quest.artifacts.bunny_hoppers}"
 			x: 3.5d
 			y: 3.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.aquadashers.1}"]
+			description: ["{atm9.quest.artifacts.desc.aqua_dashers}"]
 			id: "4D3379D38237F830"
 			rewards: [{
 				id: "4510DA55C581FEC0"
@@ -262,12 +262,12 @@
 				item: "artifacts:aqua_dashers"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.aquadashers}"
+			title: "{atm9.quest.artifacts.aqua_dashers}"
 			x: 0.5d
 			y: 2.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.pickaxeheater.1}"]
+			description: ["{atm9.quest.artifacts.desc.pickaxe_heater}"]
 			id: "62622137648A4F56"
 			rewards: [{
 				id: "18456401DB9D3025"
@@ -281,12 +281,12 @@
 				item: "artifacts:pickaxe_heater"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.pickaxeheater}"
+			title: "{atm9.quest.artifacts.pickaxe_heater}"
 			x: -4.0d
 			y: -4.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.onionring.1}"]
+			description: ["{atm9.quest.artifacts.desc.onion_ring}"]
 			id: "50A32AC6EDBC5854"
 			rewards: [{
 				id: "59745674479F06CA"
@@ -299,12 +299,12 @@
 				item: "artifacts:onion_ring"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.onionring}"
+			title: "{atm9.quest.artifacts.onion_ring}"
 			x: 9.0d
 			y: -3.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.goldenhook.1}"]
+			description: ["{atm9.quest.artifacts.desc.golden_hook}"]
 			id: "7188DC06A28AE30E"
 			rewards: [{
 				id: "2FBB621508A8CEF0"
@@ -317,12 +317,12 @@
 				item: "artifacts:golden_hook"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.goldenhook}"
+			title: "{atm9.quest.artifacts.golden_hook}"
 			x: 8.5d
 			y: -5.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.vampiricglove.1}"]
+			description: ["{atm9.quest.artifacts.desc.vampiric_glove}"]
 			id: "73FC51144FC2DA52"
 			rewards: [{
 				id: "781ED9999B2D7532"
@@ -335,12 +335,12 @@
 				item: "artifacts:vampiric_glove"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.vampiricglove}"
+			title: "{atm9.quest.artifacts.vampiric_glove}"
 			x: 8.0d
 			y: -3.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.pocketpiston.1}"]
+			description: ["{atm9.quest.artifacts.desc.pocket_piston}"]
 			id: "3B3BD39BA02DCA13"
 			rewards: [{
 				id: "4D40E063E2F9390D"
@@ -354,12 +354,12 @@
 				item: "artifacts:pocket_piston"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.pocketpiston}"
+			title: "{atm9.quest.artifacts.pocket_piston}"
 			x: -3.5d
 			y: -5.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.firegauntlet.1}"]
+			description: ["{atm9.quest.artifacts.desc.fire_gauntlet}"]
 			id: "427014BDE06DE631"
 			rewards: [{
 				id: "2BF8794A6D7F9115"
@@ -372,12 +372,12 @@
 				item: "artifacts:fire_gauntlet"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.firegauntlet}"
+			title: "{atm9.quest.artifacts.fire_gauntlet}"
 			x: 9.0d
 			y: -4.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.powerglove.1}"]
+			description: ["{atm9.quest.artifacts.desc.power_glove}"]
 			id: "3705D303CF423804"
 			rewards: [{
 				id: "6F62F8697F0A4955"
@@ -391,12 +391,12 @@
 				item: "artifacts:power_glove"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.powerglove}"
+			title: "{atm9.quest.artifacts.power_glove}"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.feralclaws.1}"]
+			description: ["{atm9.quest.artifacts.desc.feral_claws}"]
 			id: "6A452BFC8A967C39"
 			rewards: [{
 				id: "20016E77FF31BCAC"
@@ -410,12 +410,12 @@
 				item: "artifacts:feral_claws"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.feralclaws}"
+			title: "{atm9.quest.artifacts.feral_claws}"
 			x: -2.5d
 			y: -5.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.diggingclaws.1}"]
+			description: ["{atm9.quest.artifacts.desc.digging_claws}"]
 			id: "3525D5DCC3A534D9"
 			rewards: [{
 				id: "4BFDFF2C6BA31B48"
@@ -428,12 +428,12 @@
 				item: "artifacts:digging_claws"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.diggingclaws}"
+			title: "{atm9.quest.artifacts.digging_claws}"
 			x: 7.5d
 			y: -5.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.chorusbelt.1}"]
+			description: ["{atm9.quest.artifacts.desc.chorus_belt}"]
 			id: "5DE7C4FD5FA29236"
 			rewards: [{
 				id: "0380882824DC8E99"
@@ -447,12 +447,12 @@
 				item: "artifacts:chorus_totem"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.chorusbelt}"
+			title: "{atm9.quest.artifacts.chorus_belt}"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.heliumflamingo.1}"]
+			description: ["{atm9.quest.artifacts.desc.helium_flamingo}"]
 			id: "589F1D502F680075"
 			rewards: [{
 				id: "00D2E9494C734CA6"
@@ -466,12 +466,12 @@
 				item: "artifacts:helium_flamingo"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.heliumflamingo}"
+			title: "{atm9.quest.artifacts.helium_flamingo}"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.crystalheart.1}"]
+			description: ["{atm9.quest.artifacts.desc.crystal_heart}"]
 			id: "623796B1D7981E59"
 			rewards: [{
 				id: "3027186FA88FABC9"
@@ -485,12 +485,12 @@
 				item: "artifacts:crystal_heart"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.crystalheart}"
+			title: "{atm9.quest.artifacts.crystal_heart}"
 			x: 1.5d
 			y: 0.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.antidotevessel.1}"]
+			description: ["{atm9.quest.artifacts.desc.antidote_vessel}"]
 			id: "1E40ACF3E69A4100"
 			rewards: [{
 				id: "578EFA09A59C3A5D"
@@ -504,12 +504,12 @@
 				item: "artifacts:antidote_vessel"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.antidotevessel}"
+			title: "{atm9.quest.artifacts.antidote_vessel}"
 			x: 2.5d
 			y: 0.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.universalattractor.1}"]
+			description: ["{atm9.quest.artifacts.desc.universal_attractor}"]
 			id: "5EB7CE3A1DCD3E9B"
 			rewards: [{
 				id: "1817838D24DCDA78"
@@ -523,12 +523,12 @@
 				item: "artifacts:universal_attractor"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.universalattractor}"
+			title: "{atm9.quest.artifacts.universal_attractor}"
 			x: 3.5d
 			y: 0.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.obsidianskull.1}"]
+			description: ["{atm9.quest.artifacts.desc.obsidian_skull}"]
 			id: "4933CF4675E77D50"
 			rewards: [{
 				id: "02568992CBF08933"
@@ -542,12 +542,12 @@
 				item: "artifacts:obsidian_skull"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.obsidianskull}"
+			title: "{atm9.quest.artifacts.obsidian_skull}"
 			x: 1.0d
 			y: -0.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.cloudinabottle.1}"]
+			description: ["{atm9.quest.artifacts.desc.cloud_in_a_bottle}"]
 			id: "436E4E3515BCCDE9"
 			rewards: [{
 				id: "5F5218AF7DDA4A5E"
@@ -561,12 +561,12 @@
 				item: "artifacts:cloud_in_a_bottle"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.cloudinabottle}"
+			title: "{atm9.quest.artifacts.cloud_in_a_bottle}"
 			x: 4.0d
 			y: -0.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.charmofsinking.1}"]
+			description: ["{atm9.quest.artifacts.desc.charm_of_sinking}"]
 			id: "221C9EDA651144BA"
 			rewards: [{
 				id: "55AA38EE9ED49639"
@@ -580,12 +580,12 @@
 				item: "artifacts:charm_of_sinking"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.charmofsinking}"
+			title: "{atm9.quest.artifacts.charm_of_sinking}"
 			x: 2.0d
 			y: -6.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.thornpendant.1}"]
+			description: ["{atm9.quest.artifacts.desc.thorn_pendant}"]
 			id: "3446803FB59D8875"
 			rewards: [{
 				id: "5EF9D42C4CBE3023"
@@ -599,12 +599,12 @@
 				item: "artifacts:thorn_pendant"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.thornpendant}"
+			title: "{atm9.quest.artifacts.thorn_pendant}"
 			x: 3.0d
 			y: -6.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.flamependant.1}"]
+			description: ["{atm9.quest.artifacts.desc.flame_pendant}"]
 			id: "27E951F4F4F6F847"
 			rewards: [{
 				id: "273EA262F2D7DECB"
@@ -618,12 +618,12 @@
 				item: "artifacts:flame_pendant"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.flamependant}"
+			title: "{atm9.quest.artifacts.flame_pendant}"
 			x: 1.0d
 			y: -4.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.shockpendant.1}"]
+			description: ["{atm9.quest.artifacts.desc.shock_pendant}"]
 			id: "70C7D92844089DEB"
 			rewards: [{
 				id: "217B91C6A932A4BB"
@@ -637,12 +637,12 @@
 				item: "artifacts:shock_pendant"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.shockpendant}"
+			title: "{atm9.quest.artifacts.shock_pendant}"
 			x: 2.0d
 			y: -3.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.panicpendant.1}"]
+			description: ["{atm9.quest.artifacts.desc.panic_necklace}"]
 			id: "0E716B90E60C486B"
 			rewards: [{
 				id: "22C524CB13F399AF"
@@ -656,12 +656,12 @@
 				item: "artifacts:panic_necklace"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.panicpendant}"
+			title: "{atm9.quest.artifacts.panic_necklace}"
 			x: 3.0d
 			y: -3.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.crossnecklace.1}"]
+			description: ["{atm9.quest.artifacts.desc.cross_necklace}"]
 			id: "72D6265E35814927"
 			rewards: [{
 				id: "39385ECA2FB24EB2"
@@ -675,12 +675,12 @@
 				item: "artifacts:cross_necklace"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.crossnecklace}"
+			title: "{atm9.quest.artifacts.cross_necklace}"
 			x: 0.5d
 			y: -5.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.luckyscarf.1}"]
+			description: ["{atm9.quest.artifacts.desc.lucky_scarf}"]
 			id: "7503823ACDDB0491"
 			rewards: [{
 				id: "4539536E7B821D61"
@@ -694,12 +694,12 @@
 				item: "artifacts:lucky_scarf"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.luckyscarf}"
+			title: "{atm9.quest.artifacts.lucky_scarf}"
 			x: 4.0d
 			y: -4.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.scarfofinvisibility.1}"]
+			description: ["{atm9.quest.artifacts.desc.scarf_of_invisibility}"]
 			id: "145E7D1A88B83DDD"
 			rewards: [{
 				id: "05D654079C1B9F5C"
@@ -713,12 +713,12 @@
 				item: "artifacts:scarf_of_invisibility"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.scarfofinvisibility}"
+			title: "{atm9.quest.artifacts.scarf_of_invisibility}"
 			x: 4.5d
 			y: -5.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.anglerhat.1}"]
+			description: ["{atm9.quest.artifacts.desc.anglers_hat}"]
 			id: "29448D08C8777425"
 			rewards: [{
 				id: "08D5119D4D25F06B"
@@ -732,12 +732,12 @@
 				item: "artifacts:anglers_hat"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.anglerhat}"
+			title: "{atm9.quest.artifacts.anglers_hat}"
 			x: 1.0d
 			y: -10.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.cowboyhat.1}"]
+			description: ["{atm9.quest.artifacts.desc.cowboy_hat}"]
 			id: "6FBE5B5D5027B32C"
 			rewards: [{
 				id: "77D71AB2874AB8F9"
@@ -751,12 +751,12 @@
 				item: "artifacts:cowboy_hat"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.cowboyhat}"
+			title: "{atm9.quest.artifacts.cowboy_hat}"
 			x: 4.0d
 			y: -10.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.superstitioushat.1}"]
+			description: ["{atm9.quest.artifacts.desc.superstitious_hat}"]
 			id: "5F5E43B3F51CAE9E"
 			rewards: [{
 				id: "48522341AACBFC58"
@@ -770,12 +770,12 @@
 				item: "artifacts:superstitious_hat"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.superstitioushat}"
+			title: "{atm9.quest.artifacts.superstitious_hat}"
 			x: 2.0d
 			y: -10.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.villagerhat.1}"]
+			description: ["{atm9.quest.artifacts.desc.villager_hat}"]
 			id: "73B73870B29DFAD9"
 			rewards: [{
 				id: "6EB5F3C9CF92E388"
@@ -789,12 +789,12 @@
 				item: "artifacts:villager_hat"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.villagerhat}"
+			title: "{atm9.quest.artifacts.villager_hat}"
 			x: 3.0d
 			y: -10.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.nightvisiongoggles.1}"]
+			description: ["{atm9.quest.artifacts.desc.night_vision_goggles}"]
 			id: "2AD78E22988A92D3"
 			rewards: [{
 				id: "7C67BEBBE04DD801"
@@ -808,12 +808,12 @@
 				item: "artifacts:night_vision_goggles"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.nightvisiongoggles}"
+			title: "{atm9.quest.artifacts.night_vision_goggles}"
 			x: 2.0d
 			y: -12.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.snorkel.1}"]
+			description: ["{atm9.quest.artifacts.desc.snorkel}"]
 			id: "16255FB20F35A9D9"
 			rewards: [{
 				id: "7C177C45CE7EF70A"
@@ -827,12 +827,12 @@
 				item: "artifacts:snorkel"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.snorkel}"
+			title: "{atm9.quest.artifacts.snorkel}"
 			x: 2.0d
 			y: -11.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.noveltydrinkinghat.1}"]
+			description: ["{atm9.quest.artifacts.desc.novelty_drinking_hat}"]
 			id: "3E0643EA9183CDAE"
 			rewards: [{
 				id: "62951CA67B5891DC"
@@ -846,12 +846,12 @@
 				item: "artifacts:novelty_drinking_hat"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.noveltydrinkinghat}"
+			title: "{atm9.quest.artifacts.novelty_drinking_hat}"
 			x: 3.0d
 			y: -12.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.plasticdrinkinghat.1}"]
+			description: ["{atm9.quest.artifacts.desc.plastic_drinking_hat}"]
 			id: "2607F3DC07049785"
 			rewards: [{
 				id: "4BE1052205794E92"
@@ -865,12 +865,12 @@
 				item: "artifacts:plastic_drinking_hat"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.plasticdrinkinghat}"
+			title: "{atm9.quest.artifacts.plastic_drinking_hat}"
 			x: 3.0d
 			y: -11.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.whoopiecushion.1}"]
+			description: ["{atm9.quest.artifacts.desc.whoopee_cushion}"]
 			id: "789AF6D0A6321945"
 			rewards: [{
 				id: "182AD6DED1A3AD09"
@@ -884,13 +884,13 @@
 				item: "artifacts:whoopee_cushion"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.whoopiecushion}"
+			title: "{atm9.quest.artifacts.whoopee_cushion}"
 			x: 7.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4564B577CB4EC046"]
-			description: ["{atm9.quest.artifacts.desc.everlastingsteak.1}"]
+			description: ["{atm9.quest.artifacts.desc.eternal_steak}"]
 			id: "161A90E134592D0E"
 			rewards: [{
 				id: "052B82F5AF8D6071"
@@ -904,12 +904,12 @@
 				item: "artifacts:eternal_steak"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.everlastingsteak}"
+			title: "{atm9.quest.artifacts.eternal_steak}"
 			x: -3.0d
 			y: -4.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.everlastingbeef.1}"]
+			description: ["{atm9.quest.artifacts.desc.everlasting_beef}"]
 			id: "4564B577CB4EC046"
 			rewards: [{
 				id: "11871674D7964023"
@@ -923,12 +923,12 @@
 				item: "artifacts:everlasting_beef"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.everlastingbeef}"
+			title: "{atm9.quest.artifacts.everlasting_beef}"
 			x: -2.0d
 			y: -4.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.umbrella.1}"]
+			description: ["{atm9.quest.artifacts.desc.umbrella}"]
 			id: "3E1A3BC8642390B3"
 			rewards: [{
 				id: "758FA82E41A36862"
@@ -942,12 +942,12 @@
 				item: "artifacts:umbrella"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.umbrella}"
+			title: "{atm9.quest.artifacts.umbrella}"
 			x: 8.0d
 			y: -4.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.artifacts.1}"]
+			description: ["{atm9.quest.artifacts.desc.artifacts}"]
 			id: "5CE44C58A470E48E"
 			rewards: [{
 				id: "2E1F8B18F7C92706"
@@ -962,19 +962,14 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "{atm9.quest.artifacts.title.artifacts}"
+			title: "{atm9.quest.artifacts.artifacts}"
 			x: 2.5d
 			y: -7.75d
 		}
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -994,12 +989,12 @@
 				{
 					disable_toast: true
 					id: "40AAAD7874C101F2"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "41EA9328FD147F9A"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

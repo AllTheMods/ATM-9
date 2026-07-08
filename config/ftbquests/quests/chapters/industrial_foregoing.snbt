@@ -7,8 +7,9 @@
 	id: "193F91842D2ED7D9"
 	images: [
 		{
+			click: " "
 			height: 0.3d
-			hover: ["atm9.quest.ae2.img.star"]
+			hover: ["atm9.quest.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -16,8 +17,9 @@
 			y: 7.437925170068027d
 		}
 		{
+			click: " "
 			height: 0.3d
-			hover: ["atm9.quest.ae2.img.star"]
+			hover: ["atm9.quest.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -25,11 +27,9 @@
 			y: -3.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: [
-				"atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.1"
-				"atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.2"
-			]
+			hover: ["atm9.quest.industrialForegoing.hover.front_mycelial"]
 			image: "industrialforegoing:block/reactor_front_mycelial"
 			rotation: 0.0d
 			width: 1.0d
@@ -37,8 +37,9 @@
 			y: 17.0d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.crimedMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_crimed"]
 			image: "industrialforegoing:block/generators/generator_front_crimed"
 			rotation: 0.0d
 			width: 1.0d
@@ -46,8 +47,9 @@
 			y: 14.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.culinaryMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_culinary"]
 			image: "industrialforegoing:block/generators/generator_front_culinary"
 			rotation: 0.0d
 			width: 1.0d
@@ -55,8 +57,9 @@
 			y: 14.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.deathMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_death"]
 			image: "industrialforegoing:block/generators/generator_front_death"
 			rotation: 0.0d
 			width: 1.0d
@@ -64,8 +67,9 @@
 			y: 14.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.disenchantmentMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_disenchantment"]
 			image: "industrialforegoing:block/generators/generator_front_disenchantment"
 			rotation: 0.0d
 			width: 1.0d
@@ -73,8 +77,9 @@
 			y: 14.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.enderMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_ender"]
 			image: "industrialforegoing:block/generators/generator_front_ender"
 			rotation: 0.0d
 			width: 1.0d
@@ -82,8 +87,9 @@
 			y: 15.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.explosiveMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_explosive"]
 			image: "industrialforegoing:block/generators/generator_front_explosive"
 			rotation: 0.0d
 			width: 1.0d
@@ -91,8 +97,9 @@
 			y: 16.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.frostyMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_frosty"]
 			image: "industrialforegoing:block/generators/generator_front_frosty"
 			rotation: 0.0d
 			width: 1.0d
@@ -100,8 +107,9 @@
 			y: 17.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.furnaceMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_furnace"]
 			image: "industrialforegoing:block/generators/generator_front_furnace"
 			rotation: 0.0d
 			width: 1.0d
@@ -109,8 +117,9 @@
 			y: 18.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.halitosisMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_halitosis"]
 			image: "industrialforegoing:block/generators/generator_front_halitosis"
 			rotation: 0.0d
 			width: 1.0d
@@ -118,8 +127,9 @@
 			y: 19.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.magmaMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_magmatic"]
 			image: "industrialforegoing:block/generators/generator_front_magmatic"
 			rotation: 0.0d
 			width: 1.0d
@@ -127,8 +137,9 @@
 			y: 19.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.meatallurgicMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_meatallurgic"]
 			image: "industrialforegoing:block/generators/generator_front_meatallurgic"
 			rotation: 0.0d
 			width: 1.0d
@@ -136,8 +147,9 @@
 			y: 19.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.netherstarMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_netherstar"]
 			image: "industrialforegoing:block/generators/generator_front_netherstar"
 			rotation: 0.0d
 			width: 1.0d
@@ -145,8 +157,9 @@
 			y: 19.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.pinkMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_pink"]
 			image: "industrialforegoing:block/generators/generator_front_pink"
 			rotation: 0.0d
 			width: 1.0d
@@ -154,8 +167,9 @@
 			y: 18.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.potionMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_potion"]
 			image: "industrialforegoing:block/generators/generator_front_potion"
 			rotation: 0.0d
 			width: 1.0d
@@ -163,8 +177,9 @@
 			y: 17.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.rocketMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_rocket"]
 			image: "industrialforegoing:block/generators/generator_front_rocket"
 			rotation: 0.0d
 			width: 1.0d
@@ -172,8 +187,9 @@
 			y: 16.5d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.slimeyMycelialGenerator"]
+			hover: ["atm9.quest.industrialForegoing.hover.front_slimey"]
 			image: "industrialforegoing:block/generators/generator_front_slimey"
 			rotation: 0.0d
 			width: 1.0d
@@ -183,7 +199,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.fluidExtractor"]
+			hover: ["atm9.quest.industrialForegoing.hover.fluid_extractor"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -193,7 +209,7 @@
 		{
 			click: "#294C729B9EBD7A3C"
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.blockPlacer"]
+			hover: ["atm9.quest.industrialForegoing.hover.block_placer"]
 			image: "industrialforegoing:block/block_placer_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -201,8 +217,9 @@
 			y: 2.01207482993199d
 		}
 		{
+			click: " "
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.acaciaLogs"]
+			hover: ["atm9.quest.industrialForegoing.hover.acacia_log"]
 			image: "chipped:block/acacia_log/firewood_acacia_log"
 			rotation: 0.0d
 			width: 1.0d
@@ -212,7 +229,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.fluidExtractor"]
+			hover: ["atm9.quest.industrialForegoing.hover.fluid_extractor"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -222,7 +239,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.fluidExtractor"]
+			hover: ["atm9.quest.industrialForegoing.hover.fluid_extractor"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -232,7 +249,7 @@
 		{
 			click: "#6FF04DD735346BED"
 			height: 1.0d
-			hover: ["atm9.quest.industrialForegoing.latexProcessingUnit"]
+			hover: ["atm9.quest.industrialForegoing.hover.latex_processing_unit"]
 			image: "industrialforegoing:block/latex_processing_unit_front"
 			rotation: 0.0d
 			width: 1.0d
@@ -256,11 +273,9 @@
 			y: 17.0d
 		}
 		{
+			click: " "
 			height: 7.0d
-			hover: [
-				"atm9.quest.industrialForegoing.hover.witherInStasisFeatures.1"
-				"atm9.quest.industrialForegoing.hover.witherInStasisFeatures.2"
-			]
+			hover: ["atm9.quest.industrialForegoing.hover.ether_gas"]
 			image: "atm:textures/questpics/industrialforegoing/ether_gas_setup.png"
 			order: 10
 			rotation: 0.0d
@@ -310,16 +325,14 @@
 				id: "1997E42FA9EA414C"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.industrialForegoing.industrialForegoing}"
+			title: "{atm9.quest.industrialForegoing.welcome}"
 			x: 1.007653061224488d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6E616DB197387C86"]
 			description: [
-				"{atm9.quest.industrialForegoing.desc.extractLatex}"
-				""
-				"{atm9.quest.industrialForegoing.desc.checkJEI}"
+				"{atm9.quest.industrialForegoing.desc.fluid_extractor}"
 			]
 			id: "0EC2053B191C55C6"
 			rewards: [
@@ -431,7 +444,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.industrialForegoing.itemAndFluidTransport}"
+			title: "{atm9.quest.industrialForegoing.transporter}"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -490,7 +503,7 @@
 		}
 		{
 			dependencies: ["6FF04DD735346BED"]
-			description: ["{atm9.quest.industrialForegoing.desc.givesPlastic}"]
+			description: ["{atm9.quest.industrialForegoing.desc.dryrubber}"]
 			id: "0EA9E52B67B533DF"
 			rewards: [{
 				id: "2152C5EA52C0D06F"
@@ -551,7 +564,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.industrialForegoing.commonBlackHoleStorage}"
+			title: "{atm9.quest.industrialForegoing.common_black_hole}"
 			x: 9.5d
 			y: -1.0d
 		}
@@ -575,8 +588,7 @@
 		{
 			dependencies: ["690CFF61CE787D43"]
 			description: [
-				"{atm9.quest.industrialForegoing.desc.morePinkSlime}"
-				"{atm9.quest.industrialForegoing.desc.moreMeat}"
+				"{atm9.quest.industrialForegoing.desc.mob_slaughter}"
 			]
 			id: "1823CC81D613892B"
 			rewards: [
@@ -660,7 +672,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.industrialForegoing.pinkSlimeAndLiquidMeat}"
+			title: "{atm9.quest.industrialForegoing.slime_meat_bucket}"
 			x: 11.5d
 			y: 0.0d
 		}
@@ -702,7 +714,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.industrialForegoing.conveyorInsertionAndExtraction}"
+			title: "{atm9.quest.industrialForegoing.conveyor_upgrade}"
 			x: 5.5d
 			y: 1.5d
 		}
@@ -743,7 +755,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.industrialForegoing.otherConveyorUpgrades}"
+			title: "{atm9.quest.industrialForegoing.other_conveyor_upgrade}"
 			x: 6.5d
 			y: 2.0d
 		}
@@ -768,13 +780,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.industrialForegoing.fluids}"
+			title: "{atm9.quest.industrialForegoing.fluid}"
 			x: 9.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
-			description: ["{atm9.quest.industrialForegoing.desc.blockAutomation}"]
+			description: ["{atm9.quest.industrialForegoing.desc.block}"]
 			id: "2CCFEE98FE3B2E97"
 			optional: true
 			rewards: [{
@@ -794,7 +806,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.industrialForegoing.blocks}"
+			title: "{atm9.quest.industrialForegoing.block}"
 			x: 8.5d
 			y: -3.0d
 		}
@@ -824,7 +836,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.industrialForegoing.animals}"
+			title: "{atm9.quest.industrialForegoing.animal}"
 			x: 6.0d
 			y: -2.0d
 		}
@@ -849,7 +861,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.industrialForegoing.plants}"
+			title: "{atm9.quest.industrialForegoing.plant}"
 			x: 6.5d
 			y: -3.0d
 		}
@@ -874,7 +886,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.industrialForegoing.bioPower}"
+			title: "{atm9.quest.industrialForegoing.biofuel}"
 			x: 5.5d
 			y: -1.0d
 		}
@@ -899,7 +911,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.industrialForegoing.otherMachines}"
+			title: "{atm9.quest.industrialForegoing.other_machines}"
 			x: 7.5d
 			y: -3.5d
 		}
@@ -908,7 +920,7 @@
 				"690CFF61CE787D43"
 				"1823CC81D613892B"
 			]
-			description: ["{atm9.quest.industrialForegoing.desc.meatTube}"]
+			description: ["{atm9.quest.industrialForegoing.desc.meat_feeder}"]
 			id: "4C366515E3CCB0B2"
 			tasks: [{
 				id: "381C116FAD6B2236"
@@ -1085,7 +1097,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.industrialForegoing.simpleBlackHoleStorage}"
+			title: "{atm9.quest.industrialForegoing.simple_black_hole}"
 			x: 9.0d
 			y: 4.5d
 		}
@@ -1203,7 +1215,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.industrialForegoing.laserDrills}"
+			title: "{atm9.quest.industrialForegoing.laser_drill}"
 			x: 12.0d
 			y: 5.0d
 		}
@@ -1230,8 +1242,7 @@
 				"418E57E34FFC19E1"
 			]
 			description: [
-				"{atm9.quest.industrialForegoing.desc.laserDrillSuggestion.1}"
-				"{atm9.quest.industrialForegoing.desc.laserDrillSuggestion.2}"
+				"{atm9.quest.industrialForegoing.desc.ether_gas}"
 			]
 			id: "7E39FB9F3E973009"
 			rewards: [{
@@ -1895,11 +1906,7 @@
 				"0F8FE6692717AA6A"
 			]
 			description: [
-				"{atm9.quest.industrialForegoing.desc.mycelialReactorFeatures.1}"
-				""
-				"{atm9.quest.industrialForegoing.desc.mycelialReactorFeatures.2}"
-				""
-				"{atm9.quest.industrialForegoing.desc.mycelialReactorFeatures.3}"
+				"{atm9.quest.industrialForegoing.desc.mycelial_reactor_info}"
 			]
 			id: "0FAAE744E156D8EF"
 			rewards: [{
@@ -1909,10 +1916,10 @@
 			}]
 			tasks: [{
 				id: "1F1A69738DE70DB6"
-				title: "{atm9.quest.industrialForegoing.mycelialReactor}"
+				title: "{atm9.quest.industrialForegoing.task.mycelial_reactor_info}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.industrialForegoing.mycelialReactorQuestion}"
+			title: "{atm9.quest.industrialForegoing.mycelial_reactor_info}"
 			x: 11.5d
 			y: 14.0d
 		}
@@ -1924,12 +1931,7 @@
 			]
 			dependency_requirement: "one_started"
 			description: [
-				"{atm9.quest.industrialForegoing.desc.etherGas.1}"
-				"{atm9.quest.industrialForegoing.desc.etherGas.2}"
-				""
-				"{atm9.quest.industrialForegoing.desc.etherGas.3}"
-				""
-				"{atm9.quest.industrialForegoing.desc.etherGas.4}"
+				"{atm9.quest.industrialForegoing.desc.ether_gas_info}"
 			]
 			id: "3CB7884B7B32CF00"
 			rewards: [{
@@ -1939,7 +1941,7 @@
 			}]
 			tasks: [{
 				id: "335D80E83360A7DB"
-				title: "{atm9.quest.industrialForegoing.etherGasQuestion}"
+				title: "{atm9.quest.industrialForegoing.task.ether_gas_info}"
 				type: "checkmark"
 			}]
 			x: 21.0d
@@ -1947,37 +1949,22 @@
 		}
 		{
 			description: [
-				"{atm9.quest.industrialForegoing.desc.latexIntro.1}"
-				""
-				"{atm9.quest.industrialForegoing.desc.latexIntro.2}"
-				""
-				"{atm9.quest.industrialForegoing.desc.latexIntro.3}"
-				""
-				"------------------------"
-				""
-				"{atm9.quest.industrialForegoing.desc.latexIntro.4}"
-				""
-				"{atm9.quest.industrialForegoing.desc.latexIntro.5}"
+				"{atm9.quest.industrialForegoing.desc.latex_info}"
 			]
 			id: "1BA3D15FFE7DBE59"
 			tasks: [{
 				id: "391AB5CA0E5C35FD"
-				title: "{atm9.quest.industrialForegoing.latexQuestion}"
+				title: "{atm9.quest.industrialForegoing.task.latex_info}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.industrialForegoing.latexAndPlasticQuestion}"
+			title: "{atm9.quest.industrialForegoing.latex_info}"
 			x: 3.130612244897911d
 			y: 1.603911564625868d
 		}
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -1997,12 +1984,12 @@
 				{
 					disable_toast: true
 					id: "05072073E048223B"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "29F056B23D70B9F7"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

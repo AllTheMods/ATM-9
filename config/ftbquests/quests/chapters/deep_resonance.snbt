@@ -7,6 +7,7 @@
 	id: "57354476668A066B"
 	images: [
 		{
+			click: " "
 			height: 5.0d
 			hover: ["atm9.quest.deep.img.generator"]
 			image: "atm:textures/questpics/deepresonance/deep_generator.png"
@@ -16,6 +17,7 @@
 			y: -4.5d
 		}
 		{
+			click: " "
 			height: 3.0d
 			hover: ["atm9.quest.deep.img.smelter"]
 			image: "atm:textures/questpics/deepresonance/deep_smelter.png"
@@ -25,6 +27,7 @@
 			y: 4.5d
 		}
 		{
+			click: " "
 			height: 3.0d
 			hover: ["atm9.quest.deep.img.purifier"]
 			image: "atm:textures/questpics/deepresonance/deep_purifier.png"
@@ -34,6 +37,7 @@
 			y: 4.5d
 		}
 		{
+			click: " "
 			height: 1.2d
 			hover: ["atm9.quest.deep.img.laser"]
 			image: "atm:textures/questpics/deepresonance/deep_laser.png"
@@ -43,6 +47,7 @@
 			y: 4.5d
 		}
 		{
+			click: " "
 			height: 1.9428571428571426d
 			hover: ["atm9.quest.deep.img.crystallizer"]
 			image: "atm:textures/questpics/deepresonance/deep_crystallizer.png"
@@ -52,6 +57,7 @@
 			y: 4.5d
 		}
 		{
+			click: " "
 			height: 1.5d
 			hover: ["atm9.quest.deep.img.crystal"]
 			image: "atm:textures/questpics/deepresonance/deep_crystal.png"
@@ -167,7 +173,7 @@
 						value: "deepresonance:resonant_ore"
 					}
 				}
-				title: "Any #deepresonance:resonant_ore"
+				title: "{atm9.quest.deep.task.ore}"
 				type: "item"
 			}]
 			title: "{atm9.quest.deep.ore}"
@@ -725,12 +731,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -750,12 +751,12 @@
 				{
 					disable_toast: true
 					id: "32EFCC38CE3D89BF"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "18209D4B51FA9562"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

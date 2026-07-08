@@ -6,7 +6,9 @@
 	icon: "thermal:machine_frame"
 	id: "658721DF03EC997D"
 	images: [{
+		click: " "
 		height: 0.3d
+		hover: ["atm9.quest.img.star"]
 		image: "allthetweaks:item/atm_star"
 		rotation: 0.0d
 		width: 0.3d
@@ -18,7 +20,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{atm9.quest.thermalExpansion.desc.modIntro}"]
+			description: ["{atm9.quest.thermalExpansion.desc.welcome}"]
 			icon: "thermal:upgrade_augment_3"
 			id: "2C50B0E024C3D92E"
 			rewards: [
@@ -53,9 +55,7 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"{atm9.quest.thermalExpansion.desc.redstoneFurnaceFeatures.1}"
-				""
-				"{atm9.quest.thermalExpansion.desc.redstoneFurnaceFeatures.2}"
+				"{atm9.quest.thermalExpansion.desc.furnace}"
 			]
 			id: "22BC123D486CC3E3"
 			rewards: [{
@@ -64,19 +64,19 @@
 				table_id: 7377440633892994587L
 				type: "random"
 			}]
-			subtitle: "{atm9.quest.thermalExpansion.subt.poweredFurnace}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.furnace}"
 			tasks: [{
 				id: "288B38C43A7C6D48"
 				item: "thermal:machine_furnace"
 				type: "item"
 			}]
-			title: "{atm9.quest.thermalExpansion.redstoneFurnace}"
+			title: "{atm9.quest.thermalExpansion.furnace}"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["22BC123D486CC3E3"]
-			description: ["{atm9.quest.thermalExpansion.desc.pulverizerFeatures}"]
+			description: ["{atm9.quest.thermalExpansion.desc.pulverizer}"]
 			id: "55C8DD9A754545BD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -84,7 +84,7 @@
 				table_id: 7377440633892994587L
 				type: "random"
 			}]
-			subtitle: "{atm9.quest.thermalExpansion.subt.breaksOresIntoDusts}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.pulverizer}"
 			tasks: [{
 				id: "06665E87CB134F3C"
 				item: "thermal:machine_pulverizer"
@@ -96,9 +96,7 @@
 		{
 			dependencies: ["55C8DD9A754545BD"]
 			description: [
-				"{atm9.quest.thermalExpansion.desc.inductionFurnaceFeatures.1}"
-				""
-				"{atm9.quest.thermalExpansion.desc.inductionFurnaceFeatures.2}"
+				"{atm9.quest.thermalExpansion.desc.smelter}"
 			]
 			id: "452F51995AD0461C"
 			rewards: [{
@@ -107,7 +105,7 @@
 				table_id: 7377440633892994587L
 				type: "random"
 			}]
-			subtitle: "{atm9.quest.thermalExpansion.subt.theAlloyMaker}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.smelter}"
 			tasks: [{
 				id: "63C10CF0EF19F2C8"
 				item: "thermal:machine_smelter"
@@ -118,7 +116,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["{atm9.quest.thermalExpansion.desc.machineFrame}"]
+			description: ["{atm9.quest.thermalExpansion.desc.frame}"]
 			id: "5F385CBA98795C62"
 			rewards: [
 				{
@@ -133,7 +131,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.basicFrameForMachines}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.frame}"
 			tasks: [{
 				id: "3EC446E752907C94"
 				item: "thermal:machine_frame"
@@ -160,7 +158,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.generatesPowerByBurningItems}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.stirling}"
 			tasks: [{
 				id: "4BEE939AC38768ED"
 				item: "thermal:dynamo_stirling"
@@ -171,7 +169,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["{atm9.quest.thermalExpansion.desc.liquidFuelGenerator}"]
+			description: ["{atm9.quest.thermalExpansion.desc.compression}"]
 			hide_dependency_lines: true
 			id: "7FE2EED58AB791E8"
 			rewards: [
@@ -188,7 +186,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.generatesPowerUsingLiquidFuel}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.compression}"
 			tasks: [{
 				id: "6E5C2E9D729210C9"
 				item: "thermal:dynamo_compression"
@@ -220,7 +218,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.generatesPowerUsingLava}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.magmatic}"
 			tasks: [{
 				id: "52A52D9AC73D57A6"
 				item: "thermal:dynamo_magmatic"
@@ -254,7 +252,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.generatesPowerUsingGems}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.lapidary}"
 			tasks: [{
 				id: "7B973B2B2EED7921"
 				item: "thermal:dynamo_lapidary"
@@ -265,7 +263,6 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: [""]
 			hide_dependency_lines: true
 			id: "2EAE9EDE6EFA59F0"
 			rewards: [
@@ -287,7 +284,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.generatesPowerUsingEnchantedItems}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.disenchantment}"
 			tasks: [{
 				id: "0E3CDD1130A56248"
 				item: "thermal:dynamo_disenchantment"
@@ -320,7 +317,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.generatesPowerUsingFood}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.gourmand}"
 			tasks: [{
 				id: "795A2D642A7B7D50"
 				item: "thermal:dynamo_gourmand"
@@ -332,9 +329,7 @@
 		{
 			dependencies: ["2C50B0E024C3D92E"]
 			description: [
-				"{atm9.quest.thermalExpansion.desc.baseUpgrade.1}"
-				""
-				"{atm9.quest.thermalExpansion.desc.baseUpgrade.2}"
+				"{atm9.quest.thermalExpansion.desc.upgrade_augment_1}"
 			]
 			hide_dependency_lines: true
 			id: "76084BE1BBCF941F"
@@ -352,7 +347,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.tier1BaseUpgrade}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.upgrade_augment_1}"
 			tasks: [{
 				id: "3EE6189C5B2FDD2F"
 				item: "thermal:upgrade_augment_1"
@@ -364,9 +359,7 @@
 		{
 			dependencies: ["2C50B0E024C3D92E"]
 			description: [
-				"{atm9.quest.thermalExpansion.desc.tier2Upgrade.1}"
-				""
-				"{atm9.quest.thermalExpansion.desc.tier2Upgrade.2}"
+				"{atm9.quest.thermalExpansion.desc.upgrade_augment_2}"
 			]
 			hide_dependency_lines: true
 			id: "246CD1925FD6761C"
@@ -384,7 +377,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.tier2BaseUpgrade}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.upgrade_augment_2}"
 			tasks: [{
 				id: "6AD321AC8D6BFDAD"
 				item: "thermal:upgrade_augment_2"
@@ -395,7 +388,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["{atm9.quest.thermalExpansion.desc.tier3Upgrade}"]
+			description: ["{atm9.quest.thermalExpansion.desc.upgrade_augment_3}"]
 			hide_dependency_lines: true
 			id: "034FC4BCCCD7D154"
 			rewards: [
@@ -412,7 +405,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.tier3BaseUpgrade}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.upgrade_augment_3}"
 			tasks: [{
 				id: "5237B4381DA7BE1B"
 				item: "thermal:upgrade_augment_3"
@@ -423,7 +416,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["{atm9.quest.thermalExpansion.desc.infiniteWaterSource}"]
+			description: ["{atm9.quest.thermalExpansion.desc.water_gen}"]
 			hide_dependency_lines: true
 			id: "213FFA67A680E534"
 			rewards: [
@@ -450,7 +443,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["{atm9.quest.thermalExpansion.desc.itemCharger}"]
+			description: ["{atm9.quest.thermalExpansion.desc.charge_bench}"]
 			hide_dependency_lines: true
 			id: "5FDEAA78891874FD"
 			rewards: [
@@ -467,7 +460,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.chargesItems}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.charge_bench}"
 			tasks: [{
 				id: "2BB7C4355B61F638"
 				item: "thermal:charge_bench"
@@ -479,9 +472,7 @@
 		{
 			dependencies: ["2C50B0E024C3D92E"]
 			description: [
-				"{atm9.quest.thermalExpansion.desc.stoneProducer.1}"
-				""
-				"{atm9.quest.thermalExpansion.desc.stoneProducer.2}"
+				"{atm9.quest.thermalExpansion.desc.rock_gen}"
 			]
 			hide_dependency_lines: false
 			id: "4EA8BA9753D0DD81"
@@ -500,7 +491,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.cobblestoneGenerator}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.rock_gen}"
 			tasks: [{
 				id: "2720B59BB163F73B"
 				item: "thermal:device_rock_gen"
@@ -512,9 +503,7 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"{atm9.quest.thermalExpansion.desc.convertBlocks.1}"
-				""
-				"{atm9.quest.thermalExpansion.desc.convertBlocks.2}"
+				"{atm9.quest.thermalExpansion.desc.crucible}"
 			]
 			id: "0897F7A3203E45AF"
 			rewards: [
@@ -542,9 +531,7 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"{atm9.quest.thermalExpansion.desc.machineWorks.1}"
-				""
-				"{atm9.quest.thermalExpansion.desc.machineWorks.2}"
+				"{atm9.quest.thermalExpansion.desc.insolator}"
 			]
 			id: "648B483B128A32F5"
 			rewards: [
@@ -613,7 +600,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.vacuumItems}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.collector}"
 			tasks: [{
 				id: "3819DBE6E95E998E"
 				item: "thermal:device_collector"
@@ -624,7 +611,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["{atm9.quest.thermalExpansion.desc.spreadEffects}"]
+			description: ["{atm9.quest.thermalExpansion.desc.potion_diffuser}"]
 			hide_dependency_lines: true
 			id: "66858700C3DDCB9E"
 			rewards: [
@@ -651,7 +638,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["{atm9.quest.thermalExpansion.desc.chargeItems}"]
+			description: ["{atm9.quest.thermalExpansion.desc.tinker_bench}"]
 			id: "74F524F4F0231A78"
 			rewards: [
 				{
@@ -677,7 +664,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["{atm9.quest.thermalExpansion.desc.enchantCapacity}"]
+			description: ["{atm9.quest.thermalExpansion.desc.energy_cell}"]
 			hide_dependency_lines: true
 			id: "037E566ACC83FE07"
 			rewards: [
@@ -711,7 +698,7 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.thermalExpansion.storingPower}"
+			title: "{atm9.quest.thermalExpansion.energy_cell}"
 			x: -1.25d
 			y: 1.9499999999999997d
 		}
@@ -757,7 +744,7 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.thermalExpansion.storingFluids}"
+			title: "{atm9.quest.thermalExpansion.fluid_cell}"
 			x: 5.25d
 			y: 1.9499999999999997d
 		}
@@ -772,7 +759,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.storeXP}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.xp_storage_augment}"
 			tasks: [{
 				id: "66656B02B957573F"
 				item: "thermal:xp_storage_augment"
@@ -799,7 +786,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.increaseRF.1}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.coil_augment}"
 			tasks: [{
 				id: "2F608F433D9A3363"
 				item: {
@@ -834,10 +821,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.thermalExpansion.expandedRFCoil}"
+				title: "{atm9.quest.thermalExpansion.coil_augment}"
 				type: "item"
 			}]
-			title: "{atm9.quest.thermalExpansion.expandedRFCoil}"
+			title: "{atm9.quest.thermalExpansion.coil_augment}"
 			x: 1.5d
 			y: 3.1999999999999993d
 		}
@@ -859,7 +846,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.increaseRF.2}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.coil_storage_augment}"
 			tasks: [{
 				id: "7B5C9FA866C0588A"
 				item: {
@@ -894,7 +881,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.thermalExpansion.stabilizedRFCoil}"
+				title: "{atm9.quest.thermalExpansion.task.coil_storage_augment}"
 				type: "item"
 			}]
 			x: 2.5d
@@ -918,7 +905,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.increaseRFTransfer}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.coil_xfer_augment}"
 			tasks: [{
 				id: "775A7E11D20688CD"
 				item: {
@@ -953,7 +940,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.thermalExpansion.highFluxRFCoil}"
+				title: "{atm9.quest.thermalExpansion.task.coil_xfer_augment}"
 				type: "item"
 			}]
 			x: 3.5d
@@ -970,7 +957,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.increaseTankStorage}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.tank_augment}"
 			tasks: [{
 				id: "5DFD1C0334466FF2"
 				item: {
@@ -1009,7 +996,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.thermalExpansion.expandedTankConstruction}"
+				title: "{atm9.quest.thermalExpansion.task.tank_augment}"
 				type: "item"
 			}]
 			x: 2.0d
@@ -1036,7 +1023,6 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: [""]
 			hide_dependency_lines: true
 			id: "74DD4F8A13EAD3ED"
 			rewards: [
@@ -1053,7 +1039,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.increaseSpeed}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.speed_augment}"
 			tasks: [{
 				id: "46E665F97A2BECB6"
 				item: {
@@ -1084,7 +1070,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.thermalExpansion.fluxLinkageAmplifier}"
+				title: "{atm9.quest.thermalExpansion.task.speed_augment}"
 				type: "item"
 			}]
 			x: 0.5d
@@ -1108,7 +1094,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.increaseEfficiency}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.efficiency_augment}"
 			tasks: [{
 				id: "1E0593F1AA073CFD"
 				item: {
@@ -1139,7 +1125,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.thermalExpansion.fluxEfficiency}"
+				title: "{atm9.quest.thermalExpansion.task.efficiency_augment}"
 				type: "item"
 			}]
 			x: 1.0d
@@ -1163,7 +1149,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.increaseOutput}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.output_augment}"
 			tasks: [{
 				id: "497485048E0AD20D"
 				item: {
@@ -1190,7 +1176,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.thermalExpansion.auxiliaryProcessSieve}"
+				title: "{atm9.quest.thermalExpansion.task.output_augment}"
 				type: "item"
 			}]
 			x: 2.0d
@@ -1220,7 +1206,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.reduceCatalyst}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.catalyst_augment}"
 			tasks: [{
 				id: "6C996D5E63879519"
 				item: {
@@ -1247,7 +1233,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.thermalExpansion.catalyticReclamationChamber}"
+				title: "{atm9.quest.thermalExpansion.task.catalyst_augment}"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1264,7 +1250,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.voidByproducts}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.null_augment}"
 			tasks: [{
 				id: "784D4494897AF202"
 				item: "thermal:machine_null_augment"
@@ -1291,7 +1277,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.increaseGenerationRate}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.dynamo_output_augment}"
 			tasks: [{
 				id: "3861678346D376C1"
 				item: {
@@ -1322,7 +1308,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.thermalExpansion.auxiliaryReactionChamber}"
+				title: "{atm9.quest.thermalExpansion.task.dynamo_output_augment}"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1346,7 +1332,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.increaseFuelEfficiency}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.fuel_augment}"
 			tasks: [{
 				id: "3D6A9C7EE22C2ADF"
 				item: {
@@ -1377,7 +1363,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.thermalExpansion.multiCycleInjectors}"
+				title: "{atm9.quest.thermalExpansion.task.fuel_augment}"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1394,7 +1380,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.increaseAoEEffect}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.area_augment}"
 			tasks: [{
 				id: "705AE21001A4E9C7"
 				item: {
@@ -1425,7 +1411,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.thermalExpansion.radialEnhancement}"
+				title: "{atm9.quest.thermalExpansion.task.area_augment}"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1454,7 +1440,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.amplifyPotionEffect}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.amplifier_augment}"
 			tasks: [{
 				id: "08ED05EBDFF0B4D9"
 				item: "thermal:potion_amplifier_augment"
@@ -1480,7 +1466,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.increasePotionDuration}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.duration_augment}"
 			tasks: [{
 				id: "501A3B2548F6DB3E"
 				item: "thermal:potion_duration_augment"
@@ -1491,7 +1477,7 @@
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["{atm9.quest.thermalExpansion.desc.extractDyes}"]
+			description: ["{atm9.quest.thermalExpansion.desc.centrifuge}"]
 			id: "3475E12711B6BB98"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1500,7 +1486,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.separateItems}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.centrifuge}"
 			tasks: [{
 				id: "2183800CED355EEB"
 				item: "thermal:machine_centrifuge"
@@ -1512,9 +1498,7 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"{atm9.quest.thermalExpansion.desc.createPresses.1}"
-				""
-				"{atm9.quest.thermalExpansion.desc.createPresses.2}"
+				"{atm9.quest.thermalExpansion.desc.press}"
 			]
 			hide_dependency_lines: true
 			id: "5963FBEB78A79668"
@@ -1543,9 +1527,7 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"{atm9.quest.thermalExpansion.desc.convertItems.1}"
-				""
-				"{atm9.quest.thermalExpansion.desc.convertItems.2}"
+				"{atm9.quest.thermalExpansion.desc.chiller}"
 			]
 			id: "469443A3BA0C3BEE"
 			rewards: [{
@@ -1565,7 +1547,7 @@
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["{atm9.quest.thermalExpansion.desc.convertLiquids}"]
+			description: ["{atm9.quest.thermalExpansion.desc.refinery}"]
 			hide_dependency_lines: true
 			id: "627D6FDC3D8C42F6"
 			rewards: [
@@ -1593,9 +1575,7 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"{atm9.quest.thermalExpansion.desc.workLikeCokeOven.1}"
-				""
-				"{atm9.quest.thermalExpansion.desc.workLikeCokeOven.2}"
+				"{atm9.quest.thermalExpansion.desc.pyrolyzer}"
 			]
 			hide_dependency_lines: true
 			id: "5ECC93FB8F676E3F"
@@ -1623,7 +1603,7 @@
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["{atm9.quest.thermalExpansion.desc.combineLiquidsItems}"]
+			description: ["{atm9.quest.thermalExpansion.desc.bottler}"]
 			hide_dependency_lines: true
 			id: "469663FE3DA932EF"
 			rewards: [
@@ -1650,7 +1630,7 @@
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["{atm9.quest.thermalExpansion.desc.createLiquidPotions}"]
+			description: ["{atm9.quest.thermalExpansion.desc.brewer}"]
 			hide_dependency_lines: true
 			id: "1BCE8D02CDD13838"
 			rewards: [
@@ -1693,7 +1673,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.thermalExpansion.subt.autoCrafter}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.crafter}"
 			tasks: [{
 				id: "72EC640A6F6C69C1"
 				item: "thermal:machine_crafter"
@@ -1704,7 +1684,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["{atm9.quest.thermalExpansion.desc.earlyGameMiningGadget}"]
+			description: ["{atm9.quest.thermalExpansion.desc.drill}"]
 			hide_dependency_lines: true
 			id: "5257468DC6C11851"
 			rewards: [
@@ -1721,7 +1701,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.earlyGameMiningGadget}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.drill}"
 			tasks: [{
 				id: "38EE8C011F7E3FEC"
 				item: {
@@ -1752,7 +1732,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.rfPoweredHandsaw}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.saw}"
 			tasks: [{
 				id: "504ABB4FCF4AA14E"
 				item: {
@@ -1776,7 +1756,7 @@
 				type: "random"
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.thermalExpansion.subt.tier4BaseUpgrade}"
+			subtitle: "{atm9.quest.thermalExpansion.subt.upgrade_augment}"
 			tasks: [{
 				id: "41B789CFB591439D"
 				item: "thermal_extra:upgrade_augment"
@@ -1788,12 +1768,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -1813,12 +1788,12 @@
 				{
 					disable_toast: true
 					id: "2D270CF1DED60859"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "2980A563E185D60D"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

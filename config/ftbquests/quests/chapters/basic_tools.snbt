@@ -164,7 +164,7 @@
 	quests: [
 		{
 			dependencies: ["5151CDD8FCDE7A07"]
-			description: ["{atm9.quest.tools.desc.tier1}"]
+			description: ["{atm9.quest.tools.desc.tier_1}"]
 			id: "57F47BA495B27F83"
 			rewards: [{
 				count: 32
@@ -177,13 +177,13 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.tier1}"
+			title: "{atm9.quest.tools.tier_1}"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["57F47BA495B27F83"]
-			description: ["{atm9.quest.tools.desc.tier2}"]
+			description: ["{atm9.quest.tools.desc.tier_2}"]
 			icon: "minecraft:iron_ore"
 			id: "3917DECAEF56A06A"
 			rewards: [{
@@ -197,13 +197,13 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.tier2}"
+			title: "{atm9.quest.tools.tier_2}"
 			x: -2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3917DECAEF56A06A"]
-			description: ["{atm9.quest.tools.desc.tier3}"]
+			description: ["{atm9.quest.tools.desc.tier_3}"]
 			icon: "minecraft:diamond_ore"
 			id: "6601450C63FEEE61"
 			rewards: [{
@@ -217,13 +217,13 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.tier3}"
+			title: "{atm9.quest.tools.tier_3}"
 			x: -3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6601450C63FEEE61"]
-			description: ["{atm9.quest.tools.desc.tier4}"]
+			description: ["{atm9.quest.tools.desc.tier_4}"]
 			id: "17FE0C7748DD65CA"
 			rewards: [{
 				id: "2C89B133ECDB0D55"
@@ -235,13 +235,13 @@
 				item: "minecraft:ancient_debris"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.tier4}"
+			title: "{atm9.quest.tools.tier_4}"
 			x: -2.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["17FE0C7748DD65CA"]
-			description: ["{atm9.quest.tools.desc.tier5}"]
+			description: ["{atm9.quest.tools.desc.tier_5}"]
 			icon: "allthemodium:allthemodium_ore"
 			id: "03E05018D64DDEE1"
 			tasks: [{
@@ -249,13 +249,13 @@
 				item: "allthemodium:raw_allthemodium"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.tier5}"
+			title: "{atm9.quest.tools.tier_5}"
 			x: -3.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["03E05018D64DDEE1"]
-			description: ["{atm9.quest.tools.desc.tier6}"]
+			description: ["{atm9.quest.tools.desc.tier_6}"]
 			icon: "allthemodium:unobtainium_ore"
 			id: "09733948CBCB3FB9"
 			tasks: [{
@@ -263,7 +263,7 @@
 				item: "allthemodium:raw_unobtainium"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.tier6}"
+			title: "{atm9.quest.tools.tier_6}"
 			x: -2.5d
 			y: -2.5d
 		}
@@ -276,7 +276,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier1}"
+			subtitle: "{atm9.quest.tools.subt.tier_1}"
 			tasks: [{
 				id: "2E885362FFDF770D"
 				item: {
@@ -300,7 +300,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier2}"
+			subtitle: "{atm9.quest.tools.subt.tier_2}"
 			tasks: [{
 				id: "4CDD283558108D8B"
 				item: {
@@ -324,7 +324,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier3}"
+			subtitle: "{atm9.quest.tools.subt.tier_3}"
 			tasks: [{
 				id: "41A47F38D96A9747"
 				item: {
@@ -348,7 +348,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier4}"
+			subtitle: "{atm9.quest.tools.subt.tier_4}"
 			tasks: [{
 				id: "3CAFF729F25A9850"
 				item: {
@@ -372,7 +372,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier5}"
+			subtitle: "{atm9.quest.tools.subt.tier_5}"
 			tasks: [{
 				id: "111144CBEF06EC7F"
 				item: {
@@ -396,7 +396,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier3}"
+			subtitle: "{atm9.quest.tools.subt.tier_3}"
 			tasks: [{
 				id: "30CDC00635935527"
 				item: {
@@ -442,7 +442,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.3pick1}"
+				title: "{atm9.quest.tools.task.3pick1}"
 				type: "item"
 			}]
 			x: -0.5d
@@ -457,7 +457,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier5}"
+			subtitle: "{atm9.quest.tools.subt.tier_5}"
 			tasks: [{
 				id: "40971F256D8743D9"
 				item: {
@@ -481,7 +481,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier4}"
+			subtitle: "{atm9.quest.tools.subt.tier_4}"
 			tasks: [{
 				id: "45C9F5CDC7FD3229"
 				item: {
@@ -505,7 +505,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier6}"
+			subtitle: "{atm9.quest.tools.subt.tier_6}"
 			tasks: [{
 				id: "2500C7ACDE984FBD"
 				item: {
@@ -565,7 +565,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.6pick2}"
+				title: "{atm9.quest.tools.task.6pick2}"
 				type: "item"
 			}]
 			x: 0.0d
@@ -580,7 +580,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier2}"
+			subtitle: "{atm9.quest.tools.subt.tier_2}"
 			tasks: [{
 				id: "4A58C303DAC0C081"
 				item: {
@@ -604,7 +604,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier1}"
+			subtitle: "{atm9.quest.tools.subt.tier_1}"
 			tasks: [{
 				id: "4E240FF2592F5CD4"
 				item: {
@@ -628,7 +628,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier6}"
+			subtitle: "{atm9.quest.tools.subt.tier_6}"
 			tasks: [{
 				id: "6CCC0DE3A3CC048E"
 				item: {
@@ -702,7 +702,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.6pick3}"
+				title: "{atm9.quest.tools.task.6pick3}"
 				type: "item"
 			}]
 			x: 1.0d
@@ -717,7 +717,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier2}"
+			subtitle: "{atm9.quest.tools.subt.tier_2}"
 			tasks: [{
 				id: "1680A9E188D1F4E1"
 				item: {
@@ -741,7 +741,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier3}"
+			subtitle: "{atm9.quest.tools.subt.tier_3}"
 			tasks: [{
 				id: "33689D889904670A"
 				item: {
@@ -766,7 +766,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.3pick2}"
+				title: "{atm9.quest.tools.task.3pick2}"
 				type: "item"
 			}]
 			x: 0.5d
@@ -781,7 +781,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier6}"
+			subtitle: "{atm9.quest.tools.subt.tier_6}"
 			tasks: [{
 				id: "3994D5448E03DF6B"
 				item: {
@@ -813,7 +813,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.6pick4}"
+				title: "{atm9.quest.tools.task.6pick4}"
 				type: "item"
 			}]
 			x: 2.0d
@@ -828,7 +828,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier1}"
+			subtitle: "{atm9.quest.tools.subt.tier_1}"
 			tasks: [{
 				id: "5E5533CDA9CA9C18"
 				item: {
@@ -852,7 +852,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier5}"
+			subtitle: "{atm9.quest.tools.subt.tier_5}"
 			tasks: [{
 				id: "31D48DF4CE59F793"
 				item: {
@@ -876,7 +876,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier5}"
+			subtitle: "{atm9.quest.tools.subt.tier_5}"
 			tasks: [{
 				id: "1162C2EBA5671A9E"
 				item: {
@@ -900,7 +900,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier4}"
+			subtitle: "{atm9.quest.tools.subt.tier_4}"
 			tasks: [{
 				id: "6996A70A79D41BC2"
 				item: {
@@ -961,7 +961,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.4pick1}"
+				title: "{atm9.quest.tools.task.4pick1}"
 				type: "item"
 			}]
 			x: 1.0d
@@ -976,7 +976,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier1}"
+			subtitle: "{atm9.quest.tools.subt.tier_1}"
 			tasks: [{
 				id: "48FBE7B7D70A0833"
 				item: {
@@ -1000,7 +1000,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier2}"
+			subtitle: "{atm9.quest.tools.subt.tier_2}"
 			tasks: [{
 				id: "6ACFECB8D48FC52A"
 				item: {
@@ -1024,7 +1024,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier3}"
+			subtitle: "{atm9.quest.tools.subt.tier_3}"
 			tasks: [{
 				id: "35227D0C9A4DC669"
 				item: {
@@ -1046,7 +1046,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier4}"
+			subtitle: "{atm9.quest.tools.subt.tier_4}"
 			tasks: [
 				{
 					id: "3D7B36B1CBAB6ADF"
@@ -1236,7 +1236,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier2}"
+			subtitle: "{atm9.quest.tools.subt.tier_2}"
 			tasks: [{
 				id: "6D6CF45BE39E11BB"
 				item: {
@@ -1872,7 +1872,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier1}"
+			subtitle: "{atm9.quest.tools.subt.tier_1}"
 			tasks: [{
 				id: "079736CCF9AC8123"
 				item: {
@@ -1932,7 +1932,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.1pick1}"
+				title: "{atm9.quest.tools.task.1pick1}"
 				type: "item"
 			}]
 			x: -0.5d
@@ -1947,7 +1947,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier6}"
+			subtitle: "{atm9.quest.tools.subt.tier_6}"
 			tasks: [{
 				id: "0C40B254FF7C7636"
 				item: {
@@ -1974,7 +1974,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.6pick1}"
+				title: "{atm9.quest.tools.task.6pick1}"
 				type: "item"
 			}]
 			x: -1.0d
@@ -1989,7 +1989,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier3}"
+			subtitle: "{atm9.quest.tools.subt.tier_3}"
 			tasks: [{
 				id: "78D7E717C343E174"
 				item: {
@@ -2143,7 +2143,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.3pick3}"
+				title: "{atm9.quest.tools.task.3pick3}"
 				type: "item"
 			}]
 			x: 1.5d
@@ -2158,7 +2158,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier4}"
+			subtitle: "{atm9.quest.tools.subt.tier_4}"
 			tasks: [{
 				id: "29308D4A6CE0C509"
 				item: {
@@ -2293,7 +2293,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.4pick2}"
+				title: "{atm9.quest.tools.task.4pick2}"
 				type: "item"
 			}]
 			x: 2.0d
@@ -2308,7 +2308,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier6}"
+			subtitle: "{atm9.quest.tools.subt.tier_6}"
 			tasks: [{
 				id: "5B5634EA99833425"
 				item: {
@@ -2431,7 +2431,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.6pick5}"
+				title: "{atm9.quest.tools.task.6pick5}"
 				type: "item"
 			}]
 			x: 3.0d
@@ -2499,7 +2499,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.4sword1}"
+				title: "{atm9.quest.tools.task.4sword1}"
 				type: "item"
 			}]
 			x: 1.0d
@@ -2539,7 +2539,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.5sword1}"
+				title: "{atm9.quest.tools.task.5sword1}"
 				type: "item"
 			}]
 			x: 2.0d
@@ -2593,7 +2593,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.6sword1}"
+				title: "{atm9.quest.tools.task.6sword1}"
 				type: "item"
 			}]
 			x: 0.0d
@@ -2647,7 +2647,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.6sword2}"
+				title: "{atm9.quest.tools.task.6sword2}"
 				type: "item"
 			}]
 			x: 1.0d
@@ -2720,7 +2720,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.7sword1}"
+				title: "{atm9.quest.tools.task.7sword1}"
 				type: "item"
 			}]
 			x: 1.0d
@@ -2788,7 +2788,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.7sword2}"
+				title: "{atm9.quest.tools.task.7sword2}"
 				type: "item"
 			}]
 			x: 2.0d
@@ -2835,7 +2835,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.9sword2}"
+				title: "{atm9.quest.tools.task.9sword2}"
 				type: "item"
 			}]
 			x: 0.0d
@@ -2882,7 +2882,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.9sword1}"
+				title: "{atm9.quest.tools.task.9sword1}"
 				type: "item"
 			}]
 			x: -1.0d
@@ -2929,7 +2929,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.12sword2}"
+				title: "{atm9.quest.tools.task.12sword2}"
 				type: "item"
 			}]
 			x: 1.5d
@@ -2969,7 +2969,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.12sword1}"
+				title: "{atm9.quest.tools.task.12sword1}"
 				type: "item"
 			}]
 			x: 0.5d
@@ -2978,12 +2978,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -3003,12 +2998,12 @@
 				{
 					disable_toast: true
 					id: "05828F635F0966DA"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "4AF4F930CB819414"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]
@@ -3138,7 +3133,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier6}"
+			subtitle: "{atm9.quest.tools.subt.tier_6}"
 			tasks: [{
 				id: "5CC0D27CD1902BC3"
 				item: {
@@ -3227,7 +3222,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.6pick6}"
+				title: "{atm9.quest.tools.task.6pick6}"
 				type: "item"
 			}]
 			x: 4.0d
@@ -3314,7 +3309,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{atm9.quest.tools.subt.tier5}"
+			subtitle: "{atm9.quest.tools.subt.tier_5}"
 			tasks: [{
 				id: "765F1AC84FD1DBE1"
 				item: "mysticalagriculture:awakened_supremium_pickaxe"

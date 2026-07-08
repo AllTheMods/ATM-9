@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{atm9.quest.rs.desc.refined}"]
+			description: ["{atm9.quest.rs.desc.welcome}"]
 			id: "01F18150EC923482"
 			rewards: [
 				{
@@ -26,19 +26,19 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{atm9.quest.rs.subt.refined}"
+			subtitle: "{atm9.quest.rs.subt.welcome}"
 			tasks: [{
 				id: "196B8B6D59ABFC74"
 				item: "refinedstorage:controller"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.refined}"
+			title: "{atm9.quest.rs.welcome}"
 			x: -6.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7604D8B3C9FCCFD9"]
-			description: ["{atm9.quest.rs.desc.1kstorage}"]
+			description: ["{atm9.quest.rs.desc.1k_storage}"]
 			id: "4101F8275B41C79B"
 			rewards: [{
 				id: "0E75917E7E00D711"
@@ -51,13 +51,13 @@
 				item: "refinedstorage:1k_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.1kstorage}"
+			title: "{atm9.quest.rs.1k_storage}"
 			x: -0.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4101F8275B41C79B"]
-			description: ["{atm9.quest.rs.desc.4kstorage}"]
+			description: ["{atm9.quest.rs.desc.4k_storage}"]
 			id: "3FD801D7DE9176FB"
 			rewards: [
 				{
@@ -77,13 +77,13 @@
 				item: "refinedstorage:4k_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.4kstorage}"
+			title: "{atm9.quest.rs.4k_storage}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3FD801D7DE9176FB"]
-			description: ["{atm9.quest.rs.desc.16kstorage}"]
+			description: ["{atm9.quest.rs.desc.16k_storage}"]
 			id: "03C78165C5CBD9E1"
 			rewards: [
 				{
@@ -103,13 +103,13 @@
 				item: "refinedstorage:16k_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.16kstorage}"
+			title: "{atm9.quest.rs.16k_storage}"
 			x: -0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["03C78165C5CBD9E1"]
-			description: ["{atm9.quest.rs.desc.64kstorage}"]
+			description: ["{atm9.quest.rs.desc.64k_storage}"]
 			id: "3F8EEE1AD4420702"
 			rewards: [
 				{
@@ -129,13 +129,13 @@
 				item: "refinedstorage:64k_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.64kstorage}"
+			title: "{atm9.quest.rs.64k_storage}"
 			x: -0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["123807F4BBE75120"]
-			description: ["{atm9.quest.rs.desc.65536kstorage}"]
+			description: ["{atm9.quest.rs.desc.65536k_storage}"]
 			id: "1D2700821045CCF2"
 			rewards: [
 				{
@@ -155,13 +155,13 @@
 				item: "extradisks:65536k_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.65536kstorage}"
+			title: "{atm9.quest.rs.65536k_storage}"
 			x: 0.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["7DD638E4111D66E7"]
-			description: ["{atm9.quest.rs.desc.256kstorage}"]
+			description: ["{atm9.quest.rs.desc.256k_storage}"]
 			id: "4C1F13F5A0E273EF"
 			rewards: [{
 				id: "03F16EB9DA9624AD"
@@ -174,13 +174,13 @@
 				item: "extradisks:256k_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.256kstorage}"
+			title: "{atm9.quest.rs.256k_storage}"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["4C1F13F5A0E273EF"]
-			description: ["{atm9.quest.rs.desc.1024kstorage}"]
+			description: ["{atm9.quest.rs.desc.1024k_storage}"]
 			id: "7C94F6AE2A793858"
 			rewards: [{
 				id: "12217A7AEFD0B703"
@@ -193,13 +193,13 @@
 				item: "extradisks:1024k_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.1024kstorage}"
+			title: "{atm9.quest.rs.1024k_storage}"
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7C94F6AE2A793858"]
-			description: ["{atm9.quest.rs.desc.4096kstorage}"]
+			description: ["{atm9.quest.rs.desc.4096k_storage}"]
 			id: "52ACADDFCB0E22AB"
 			rewards: [
 				{
@@ -219,13 +219,13 @@
 				item: "extradisks:4096k_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.4096kstorage}"
+			title: "{atm9.quest.rs.4096k_storage}"
 			x: 1.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["52ACADDFCB0E22AB"]
-			description: ["{atm9.quest.rs.desc.16384kstorage}"]
+			description: ["{atm9.quest.rs.desc.16384k_storage}"]
 			id: "123807F4BBE75120"
 			rewards: [
 				{
@@ -245,13 +245,13 @@
 				item: "extradisks:16384k_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.16384kstorage}"
+			title: "{atm9.quest.rs.16384k_storage}"
 			x: 0.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1D2700821045CCF2"]
-			description: ["{atm9.quest.rs.desc.262mstorage}"]
+			description: ["{atm9.quest.rs.desc.262144k_storage}"]
 			id: "4966162FBA933453"
 			rewards: [
 				{
@@ -276,13 +276,13 @@
 				item: "extradisks:262144k_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.262mstorage}"
+			title: "{atm9.quest.rs.262144k_storage}"
 			x: -0.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["4966162FBA933453"]
-			description: ["{atm9.quest.rs.desc.1048mstorage}"]
+			description: ["{atm9.quest.rs.desc.1048576k_storage}"]
 			id: "718A2040D868E09F"
 			rewards: [
 				{
@@ -302,7 +302,7 @@
 				item: "extradisks:1048576k_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.1048mstorage}"
+			title: "{atm9.quest.rs.1048576k_storage}"
 			x: -1.0d
 			y: 4.5d
 		}
@@ -596,7 +596,7 @@
 				item: "cabletiers:elite_importer"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.eliteI}"
+			title: "{atm9.quest.rs.elite_importer}"
 			x: -6.5d
 			y: -7.5d
 		}
@@ -614,13 +614,13 @@
 				item: "cabletiers:ultra_importer"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.ultraI}"
+			title: "{atm9.quest.rs.ultra_importer}"
 			x: -6.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["6092490EC9008A05"]
-			description: ["{atm9.quest.rs.desc.eliteD}"]
+			description: ["{atm9.quest.rs.desc.elite_destructor}"]
 			id: "6D81DF90E9C2C049"
 			rewards: [{
 				id: "37B580B60ADC023E"
@@ -633,13 +633,13 @@
 				item: "cabletiers:elite_destructor"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.eliteD}"
+			title: "{atm9.quest.rs.elite_destructor}"
 			x: -4.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["6D81DF90E9C2C049"]
-			description: ["{atm9.quest.rs.desc.ultraD}"]
+			description: ["{atm9.quest.rs.desc.ultra_destructor}"]
 			id: "0D4FE97640F2CA60"
 			rewards: [{
 				id: "13DA1147475AF6BF"
@@ -652,13 +652,13 @@
 				item: "cabletiers:ultra_destructor"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.ultraD}"
+			title: "{atm9.quest.rs.ultra_destructor}"
 			x: -4.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["2CFEE04BA574921E"]
-			description: ["{atm9.quest.rs.desc.eliteC}"]
+			description: ["{atm9.quest.rs.desc.elite_constructor}"]
 			id: "6DB06E3984D0CF97"
 			rewards: [{
 				id: "15DEC3015C064B0E"
@@ -671,13 +671,13 @@
 				item: "cabletiers:elite_constructor"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.eliteC}"
+			title: "{atm9.quest.rs.elite_constructor}"
 			x: -5.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["6DB06E3984D0CF97"]
-			description: ["{atm9.quest.rs.desc.ultraC}"]
+			description: ["{atm9.quest.rs.desc.ultra_constructor}"]
 			id: "1F55A483008F74FE"
 			rewards: [{
 				id: "6E7CC639224A46F1"
@@ -690,13 +690,13 @@
 				item: "cabletiers:ultra_constructor"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.ultraC}"
+			title: "{atm9.quest.rs.ultra_constructor}"
 			x: -5.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["4CD83943865018EA"]
-			description: ["{atm9.quest.rs.desc.eliteE}"]
+			description: ["{atm9.quest.rs.desc.elite_exporter}"]
 			id: "6973A5923AF7BF05"
 			rewards: [{
 				id: "18AB4575E10AC20E"
@@ -709,13 +709,13 @@
 				item: "cabletiers:elite_exporter"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.eliteE}"
+			title: "{atm9.quest.rs.elite_exporter}"
 			x: -7.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["6973A5923AF7BF05"]
-			description: ["{atm9.quest.rs.desc.ultraE}"]
+			description: ["{atm9.quest.rs.desc.ultra_exporter}"]
 			id: "5BB7648DC10E1E08"
 			rewards: [{
 				id: "7E7CF0891D09698A"
@@ -728,13 +728,13 @@
 				item: "cabletiers:ultra_exporter"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.ultraE}"
+			title: "{atm9.quest.rs.ultra_exporter}"
 			x: -7.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["7604D8B3C9FCCFD9"]
-			description: ["{atm9.quest.rs.desc.64kfluid}"]
+			description: ["{atm9.quest.rs.desc.64k_fluid}"]
 			id: "4B81E84CAE814BA9"
 			rewards: [{
 				id: "2DAA28CC2526657D"
@@ -747,13 +747,13 @@
 				item: "refinedstorage:64k_fluid_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.64kfluid}"
+			title: "{atm9.quest.rs.64k_fluid}"
 			x: -2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4B81E84CAE814BA9"]
-			description: ["{atm9.quest.rs.desc.256kfluid}"]
+			description: ["{atm9.quest.rs.desc.256k_fluid}"]
 			id: "39C8E1705EF1CD31"
 			rewards: [{
 				id: "2F50B3D8AFF81B1E"
@@ -766,13 +766,13 @@
 				item: "refinedstorage:256k_fluid_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.256kfluid}"
+			title: "{atm9.quest.rs.256k_fluid}"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["39C8E1705EF1CD31"]
-			description: ["{atm9.quest.rs.desc.1024kfluid}"]
+			description: ["{atm9.quest.rs.desc.1024k_fluid}"]
 			id: "60244F26B9ABED49"
 			rewards: [{
 				id: "5A3901DB229F523B"
@@ -785,13 +785,13 @@
 				item: "refinedstorage:1024k_fluid_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.1024kfluid}"
+			title: "{atm9.quest.rs.1024k_fluid}"
 			x: -2.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["60244F26B9ABED49"]
-			description: ["{atm9.quest.rs.desc.4096kfluid}"]
+			description: ["{atm9.quest.rs.desc.4096k_fluid}"]
 			id: "3751015CD5C84134"
 			rewards: [{
 				id: "1BF095899A5270F5"
@@ -804,13 +804,13 @@
 				item: "refinedstorage:4096k_fluid_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.4096kfluid}"
+			title: "{atm9.quest.rs.4096k_fluid}"
 			x: -2.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7DD638E4111D66E7"]
-			description: ["{atm9.quest.rs.desc.16384kfluid}"]
+			description: ["{atm9.quest.rs.desc.16384k_fluid}"]
 			id: "53CA0D6B4D5A17D5"
 			rewards: [{
 				id: "632DE7C72BB9103B"
@@ -823,13 +823,13 @@
 				item: "extradisks:16384k_fluid_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.16384kfluid}"
+			title: "{atm9.quest.rs.16384k_fluid}"
 			x: -3.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["53CA0D6B4D5A17D5"]
-			description: ["{atm9.quest.rs.desc.65536kfluid}"]
+			description: ["{atm9.quest.rs.desc.65536k_fluid}"]
 			id: "64D6C395B6304F40"
 			rewards: [{
 				id: "78883095DF1F6CC5"
@@ -842,13 +842,13 @@
 				item: "extradisks:65536k_fluid_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.65536kfluid}"
+			title: "{atm9.quest.rs.65536k_fluid}"
 			x: -4.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["64D6C395B6304F40"]
-			description: ["{atm9.quest.rs.desc.262mfluid}"]
+			description: ["{atm9.quest.rs.desc.262144k_fluid}"]
 			id: "17920C436DDBBD07"
 			rewards: [
 				{
@@ -868,13 +868,13 @@
 				item: "extradisks:262144k_fluid_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.262mfluid}"
+			title: "{atm9.quest.rs.262144k_fluid}"
 			x: -3.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["17920C436DDBBD07"]
-			description: ["{atm9.quest.rs.desc.1048mfluid}"]
+			description: ["{atm9.quest.rs.desc.1048576k_fluid}"]
 			id: "49772923B8AF0F1F"
 			rewards: [
 				{
@@ -895,7 +895,7 @@
 				item: "extradisks:1048576k_fluid_storage_part"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.1048mfluid}"
+			title: "{atm9.quest.rs.1048576k_fluid}"
 			x: -2.0d
 			y: 4.5d
 		}
@@ -1055,7 +1055,7 @@
 		}
 		{
 			dependencies: ["6B04FC81351CD1AB"]
-			description: ["{atm9.quest.rs.desc.WG}"]
+			description: ["{atm9.quest.rs.desc.wireless_grid}"]
 			id: "15ECBC8E174FA39B"
 			rewards: [
 				{
@@ -1075,13 +1075,13 @@
 				item: "refinedstorage:wireless_grid"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.WG}"
+			title: "{atm9.quest.rs.wireless_grid}"
 			x: 5.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["6B04FC81351CD1AB"]
-			description: ["{atm9.quest.rs.desc.WFG}"]
+			description: ["{atm9.quest.rs.desc.wireless_fluid}"]
 			id: "7FA85713C86166DA"
 			rewards: [
 				{
@@ -1101,13 +1101,13 @@
 				item: "refinedstorage:wireless_fluid_grid"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.WFG}"
+			title: "{atm9.quest.rs.wireless_fluid}"
 			x: 6.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["6B04FC81351CD1AB"]
-			description: ["{atm9.quest.rs.desc.WCG}"]
+			description: ["{atm9.quest.rs.desc.wireless_crafting}"]
 			id: "744842B2AED28344"
 			rewards: [
 				{
@@ -1127,7 +1127,7 @@
 				item: "refinedstorageaddons:wireless_crafting_grid"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.WCG}"
+			title: "{atm9.quest.rs.wireless_crafting}"
 			x: 4.5d
 			y: -3.5d
 		}
@@ -1299,7 +1299,7 @@
 				item: "cabletiers:elite_disk_manipulator"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.eliteDM}"
+			title: "{atm9.quest.rs.elite_disk_manipulator}"
 			x: -1.5d
 			y: -5.0d
 		}
@@ -1318,13 +1318,13 @@
 				item: "cabletiers:ultra_disk_manipulator"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.ultraDM}"
+			title: "{atm9.quest.rs.ultra_disk_manipulator}"
 			x: -1.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["2E2811D1A0F2A492"]
-			description: ["{atm9.quest.rs.desc.infiniterange}"]
+			description: ["{atm9.quest.rs.desc.infinity}"]
 			id: "3E0D29502690E02F"
 			rewards: [
 				{
@@ -1344,7 +1344,7 @@
 				item: "rsinfinitybooster:infinity_card"
 				type: "item"
 			}]
-			title: "{atm9.quest.rs.infiniterange}"
+			title: "{atm9.quest.rs.infinity}"
 			x: 5.5d
 			y: -0.5d
 		}
@@ -1422,7 +1422,7 @@
 				"4101F8275B41C79B"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{atm9.quest.rs.desc.1kstorage_block}"]
+			description: ["{atm9.quest.rs.desc.storage_block}"]
 			id: "62625CAF6649AB53"
 			optional: true
 			rewards: [{
@@ -1449,7 +1449,7 @@
 						]
 					}
 				}
-				title: "{atm9.quest.rs.storage_blocks}"
+				title: "{atm9.quest.rs.task.storage_blocks}"
 				type: "item"
 			}]
 			x: -1.5d
@@ -1676,12 +1676,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -1701,12 +1696,12 @@
 				{
 					disable_toast: true
 					id: "018045F124343014"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "1A1CB7786D31C490"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

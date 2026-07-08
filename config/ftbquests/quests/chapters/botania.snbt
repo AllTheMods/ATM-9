@@ -7,8 +7,9 @@
 	icon: "botania:lexicon"
 	id: "1883B79BDB2AAE5D"
 	images: [{
+		click: " "
 		height: 0.3d
-		hover: ["{atm9.quest.ae2.img.star}"]
+		hover: ["atm9.quest.img.star"]
 		image: "allthetweaks:item/atm_star"
 		rotation: 0.0d
 		width: 0.3d
@@ -310,9 +311,7 @@
 		{
 			dependencies: ["79BE48D56622542F"]
 			description: [
-				"{atm9.quest.botania.desc.pureDaisyIntro}"
-				""
-				"{atm9.quest.botania.desc.pureDaisyFunction.1}"
+				"{atm9.quest.botania.desc.pure_daisy}"
 			]
 			hide_until_deps_visible: false
 			id: "4E02DC8A474A4A2F"
@@ -334,13 +333,13 @@
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.firstFlower}"
+			title: "{atm9.quest.botania.pure_daisy}"
 			x: 7.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4E02DC8A474A4A2F"]
-			description: ["{atm9.quest.botania.desc.usePureDaisy}"]
+			description: ["{atm9.quest.botania.desc.livingrock}"]
 			id: "23ADD20D9B1AE0F3"
 			rewards: [
 				{
@@ -368,7 +367,7 @@
 		}
 		{
 			dependencies: ["4E02DC8A474A4A2F"]
-			description: ["{atm9.quest.botania.desc.usePureDaisyWood}"]
+			description: ["{atm9.quest.botania.desc.livingwood}"]
 			id: "597E4D997A20736D"
 			rewards: [
 				{
@@ -397,13 +396,7 @@
 		{
 			dependencies: ["23ADD20D9B1AE0F3"]
 			description: [
-				"{atm9.quest.botania.desc.manaPoolIntro.1}"
-				""
-				"{atm9.quest.botania.desc.manaPoolIntro.2}"
-				""
-				"{atm9.quest.botania.desc.manaPoolIntro.3}"
-				""
-				"{atm9.quest.botania.desc.manaPoolIntro.4}"
+				"{atm9.quest.botania.desc.mana_pool}"
 			]
 			hide_until_deps_visible: false
 			id: "7A359C1F5E041C4F"
@@ -447,11 +440,11 @@
 							]
 						}
 					}
-					title: "{atm9.quest.botania.starterGeneratingFlowers}"
+					title: "{atm9.quest.botania.task.mana_pool}"
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.mana}"
+			title: "{atm9.quest.botania.mana_pool}"
 			x: 9.0d
 			y: 1.7999999999999994d
 		}
@@ -461,11 +454,7 @@
 				"205BBDFBCA582E3B"
 			]
 			description: [
-				"{atm9.quest.botania.desc.manaInfusion.1}"
-				""
-				"{atm9.quest.botania.desc.manaInfusion.2}"
-				""
-				"{atm9.quest.botania.desc.manaInfusion.3}"
+				"{atm9.quest.botania.desc.mana_infuse}"
 			]
 			hide_until_deps_visible: false
 			id: "70C5A902C0D26628"
@@ -530,20 +519,16 @@
 						]
 					}
 				}
-				title: "{atm9.quest.botania.manaInfusedMaterials}"
+				title: "{atm9.quest.botania.task.mana_infuse}"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.creatingManaResources}"
+			title: "{atm9.quest.botania.mana_infuse}"
 			x: 12.5d
 			y: 2.5d
 		}
 		{
 			description: [
-				"{atm9.quest.botania.desc.botaniaIntro}"
-				""
-				"{atm9.quest.botania.desc.mysticalFlowersNeed}"
-				""
-				"{atm9.quest.botania.desc.lexicaBotaniaInfo}"
+				"{atm9.quest.botania.desc.mystical_flowers}"
 			]
 			id: "13D401048A926A74"
 			rewards: [
@@ -575,23 +560,17 @@
 						value: "botania:mystical_flowers"
 					}
 				}
-				title: "{atm9.quest.botania.mysticalFlowers}"
+				title: "{atm9.quest.botania.task.mystical_flowers}"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.welcomeBotania}"
+			title: "{atm9.quest.botania.mystical_flowers}"
 			x: 5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["13D401048A926A74"]
 			description: [
-				"{atm9.quest.botania.desc.petalApothecaryIntro.1}"
-				""
-				"{atm9.quest.botania.desc.petalApothecaryIntro.2}"
-				""
-				"{atm9.quest.botania.desc.petalApothecaryIntro.3}"
-				""
-				"{atm9.quest.botania.desc.petalApothecaryIntro.4}"
+				"{atm9.quest.botania.desc.apothecary_default}"
 			]
 			id: "79BE48D56622542F"
 			min_width: 250
@@ -620,7 +599,7 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			description: ["{atm9.quest.botania.desc.floralFertilizer}"]
+			description: ["{atm9.quest.botania.desc.fertilizer}"]
 			hide_until_deps_visible: false
 			id: "371E5E1E435E41AA"
 			rewards: [
@@ -648,7 +627,7 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			description: ["{atm9.quest.botania.desc.endoflameFunction}"]
+			description: ["{atm9.quest.botania.desc.endoflame}"]
 			id: "177658CA70DB0C89"
 			rewards: [
 				{
@@ -669,16 +648,14 @@
 				item: "botania:endoflame"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.burningItems}"
+			title: "{atm9.quest.botania.endoflame}"
 			x: 1.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
 			description: [
-				"{atm9.quest.botania.desc.manastarUse.1}"
-				""
-				"{atm9.quest.botania.desc.manastarUse.2}"
+				"{atm9.quest.botania.desc.manastar}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -761,9 +738,7 @@
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
 			description: [
-				"{atm9.quest.botania.desc.waterSourceMana.1}"
-				""
-				"{atm9.quest.botania.desc.waterSourceMana.2}"
+				"{atm9.quest.botania.desc.hydroangeas}"
 				""
 				"{image:atm:textures/questpics/botania/hydrosample.png width:150 height:125 align:1}"
 			]
@@ -794,7 +769,7 @@
 				item: "botania:hydroangeas"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.waterMana}"
+			title: "{atm9.quest.botania.hydroangeas}"
 			x: 1.5d
 			y: 1.0d
 		}
@@ -1456,7 +1431,7 @@
 		}
 		{
 			dependencies: ["7A359C1F5E041C4F"]
-			description: ["{atm9.quest.botania.desc.blackLotus}"]
+			description: ["{atm9.quest.botania.desc.black_lotus}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "5E2AA5695D1F21D7"
@@ -1486,19 +1461,17 @@
 						]
 					}
 				}
-				title: "{atm9.quest.botania.blackLotus}"
+				title: "{atm9.quest.botania.task.black_lotus}"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.elusiveManaLotus}"
+			title: "{atm9.quest.botania.black_lotus}"
 			x: 10.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["205BBDFBCA582E3B"]
 			description: [
-				"{atm9.quest.botania.desc.manaSpreaderIntro.1}"
-				""
-				"{atm9.quest.botania.desc.manaSpreaderIntro.2}"
+				"{atm9.quest.botania.desc.mana_spreader}"
 			]
 			id: "1C48F2612F2FA828"
 			rewards: [
@@ -1519,20 +1492,14 @@
 				item: "botania:mana_spreader"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.directingMana}"
+			title: "{atm9.quest.botania.mana_spreader}"
 			x: 9.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["597E4D997A20736D"]
 			description: [
-				"{atm9.quest.botania.desc.wandOfTheForestIntro.1}"
-				""
-				"{atm9.quest.botania.desc.wandOfTheForestIntro.2}"
-				""
-				"{atm9.quest.botania.desc.wandOfTheForestIntro.3}"
-				""
-				"{atm9.quest.botania.desc.wandOfTheForestIntro.4}"
+				"{atm9.quest.botania.desc.twig_wand}"
 			]
 			hide_until_deps_visible: false
 			id: "205BBDFBCA582E3B"
@@ -1555,18 +1522,14 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.wrench}"
+			title: "{atm9.quest.botania.twig_wand}"
 			x: 9.0d
 			y: 3.2d
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
 			description: [
-				"{atm9.quest.botania.desc.upgradeManaSpreader.1}"
-				""
-				"{atm9.quest.botania.desc.upgradeManaSpreader.2}"
-				""
-				"{atm9.quest.botania.desc.upgradeManaSpreader.3}"
+				"{atm9.quest.botania.desc.lens_normal}"
 			]
 			id: "6FBE0BF8A7ADBB26"
 			min_width: 300
@@ -1582,20 +1545,14 @@
 				item: "botania:lens_normal"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.upgradingManaSpreaders}"
+			title: "{atm9.quest.botania.lens_normal}"
 			x: 12.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["7A359C1F5E041C4F"]
 			description: [
-				"{atm9.quest.botania.desc.manaSplitter.1}"
-				""
-				"{atm9.quest.botania.desc.manaSplitter.2}"
-				""
-				"{atm9.quest.botania.desc.manaSplitter.3}"
-				""
-				"{atm9.quest.botania.desc.manaSplitter.4}"
+				"{atm9.quest.botania.desc.mana_distributor}"
 			]
 			id: "2CBBE8EF07B1D3DA"
 			shape: "diamond"
@@ -1611,13 +1568,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.manipulatingManaStorage}"
+			title: "{atm9.quest.botania.mana_distributor}"
 			x: 8.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
-			description: ["{atm9.quest.botania.desc.alchemyCatalyst}"]
+			description: ["{atm9.quest.botania.desc.alchemy_catalyst}"]
 			id: "32DF4BC46620F952"
 			rewards: [
 				{
@@ -1643,7 +1600,7 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["{atm9.quest.botania.desc.conjurationCatalyst}"]
+			description: ["{atm9.quest.botania.desc.conjuration_catalyst}"]
 			id: "1DCFC67A8E3DCA2C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1662,11 +1619,7 @@
 		{
 			dependencies: ["7A359C1F5E041C4F"]
 			description: [
-				"{atm9.quest.botania.desc.manaTablet.1}"
-				""
-				"{atm9.quest.botania.desc.manaTablet.2}"
-				""
-				"{atm9.quest.botania.desc.manaTablet.3}"
+				"{atm9.quest.botania.desc.mana_tablet}"
 			]
 			id: "2162EA0216E27D68"
 			rewards: [
@@ -1688,13 +1641,13 @@
 				item: "botania:mana_tablet"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.transferringManaFromPools}"
+			title: "{atm9.quest.botania.mana_tablet}"
 			x: 9.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2162EA0216E27D68"]
-			description: ["{atm9.quest.botania.desc.bandOfMana}"]
+			description: ["{atm9.quest.botania.desc.mana_ring}"]
 			id: "379AC75F99212089"
 			rewards: [
 				{
@@ -1720,7 +1673,7 @@
 		}
 		{
 			dependencies: ["379AC75F99212089"]
-			description: ["{atm9.quest.botania.desc.greaterBandOfMana}"]
+			description: ["{atm9.quest.botania.desc.mana_ring_greater}"]
 			id: "2F01BF021E1BE0A2"
 			shape: "diamond"
 			tasks: [{
@@ -1733,7 +1686,7 @@
 		}
 		{
 			dependencies: ["6A56574BC562B227"]
-			description: ["{atm9.quest.botania.desc.bandOfAuraUpgrade}"]
+			description: ["{atm9.quest.botania.desc.aura_ring_greater}"]
 			id: "70C25BFA6FFA1799"
 			rewards: [
 				{
@@ -1758,7 +1711,7 @@
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: ["{atm9.quest.botania.desc.bandOfAura}"]
+			description: ["{atm9.quest.botania.desc.aura_ring}"]
 			hide_dependency_lines: false
 			id: "6A56574BC562B227"
 			rewards: [
@@ -1785,9 +1738,7 @@
 		{
 			dependencies: ["70C5A902C0D26628"]
 			description: [
-				"{atm9.quest.botania.desc.manaweaveRobes.1}"
-				""
-				"{atm9.quest.botania.desc.manaweaveRobes.2}"
+				"{atm9.quest.botania.desc.manaweave_robes}"
 			]
 			id: "05A845C811A9A4A0"
 			optional: true
@@ -1856,13 +1807,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.manaweaveRobes}"
+			title: "{atm9.quest.botania.manaweave_robes}"
 			x: 14.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
-			description: ["{atm9.quest.botania.desc.manasteelArmor}"]
+			description: ["{atm9.quest.botania.desc.manasteel_armor}"]
 			hide_until_deps_visible: false
 			id: "64DB69F741EA5BEE"
 			rewards: [
@@ -1924,7 +1875,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.manasteelArmor}"
+			title: "{atm9.quest.botania.manasteel_armor}"
 			x: 12.5d
 			y: -0.5d
 		}
@@ -2040,7 +1991,7 @@
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
-			description: ["{atm9.quest.botania.desc.terrasteelArmor}"]
+			description: ["{atm9.quest.botania.desc.terrasteel_armor}"]
 			hide_until_deps_visible: false
 			id: "10F2044D080D6209"
 			rewards: [
@@ -2108,13 +2059,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.terrasteelArmor}"
+			title: "{atm9.quest.botania.terrasteel_armor}"
 			x: 16.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
-			description: ["{atm9.quest.botania.desc.terraTruncator}"]
+			description: ["{atm9.quest.botania.desc.terra_axe}"]
 			id: "3C84D684B3A5D7B6"
 			rewards: [
 				{
@@ -2145,7 +2096,7 @@
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
-			description: ["{atm9.quest.botania.desc.terraBlade}"]
+			description: ["{atm9.quest.botania.desc.terra_sword}"]
 			id: "24C0F267B330CD23"
 			rewards: [
 				{
@@ -2177,13 +2128,7 @@
 		{
 			dependencies: ["23A2865FBE7831AB"]
 			description: [
-				"{atm9.quest.botania.desc.terraShatterer.1}"
-				""
-				"{atm9.quest.botania.desc.terraShatterer.2}"
-				""
-				"{atm9.quest.botania.desc.terraShatterer.3}"
-				""
-				"{atm9.quest.botania.desc.terraShatterer.4}"
+				"{atm9.quest.botania.desc.terra_pick}"
 			]
 			id: "4143C1CF83DE922E"
 			min_width: 300
@@ -2218,11 +2163,7 @@
 		{
 			dependencies: ["23A2865FBE7831AB"]
 			description: [
-				"{atm9.quest.botania.desc.rodOfTerraFirma.1}"
-				""
-				"{atm9.quest.botania.desc.rodOfTerraFirma.2}"
-				""
-				"{atm9.quest.botania.desc.rodOfTerraFirma.3}"
+				"{atm9.quest.botania.desc.terraform_rod}"
 			]
 			id: "2EB6088D4E85DA42"
 			optional: true
@@ -2244,20 +2185,14 @@
 				item: "botania:terraform_rod"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.flatteningTheLand}"
+			title: "{atm9.quest.botania.terraform_rod}"
 			x: 16.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
 			description: [
-				"{atm9.quest.botania.desc.runicAltar.1}"
-				""
-				"{atm9.quest.botania.desc.runicAltar.2}"
-				""
-				"{atm9.quest.botania.desc.runicAltar.3}"
-				""
-				"{atm9.quest.botania.desc.runicAltar.4}"
+				"{atm9.quest.botania.desc.runic_altar}"
 			]
 			id: "0631F054A9B97A40"
 			min_width: 300
@@ -2310,17 +2245,17 @@
 							]
 						}
 					}
-					title: "{atm9.quest.botania.basicRunes}"
+					title: "{atm9.quest.botania.task.runic_altar}"
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.creatingRunes}"
+			title: "{atm9.quest.botania.runic_altar}"
 			x: 12.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: ["{atm9.quest.botania.desc.botanicalBrewery}"]
+			description: ["{atm9.quest.botania.desc.brewery}"]
 			id: "30F7B68093D76590"
 			optional: true
 			rewards: [
@@ -2346,7 +2281,7 @@
 		}
 		{
 			dependencies: ["30F7B68093D76590"]
-			description: ["{atm9.quest.botania.desc.incenseSticks}"]
+			description: ["{atm9.quest.botania.desc.incense_stick}"]
 			id: "0D9354ABA2AE2A11"
 			optional: true
 			rewards: [
@@ -2372,7 +2307,7 @@
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: ["{atm9.quest.botania.desc.creatingTerrasteel}"]
+			description: ["{atm9.quest.botania.desc.terra_plate}"]
 			id: "65238A6DCDDDFA0D"
 			rewards: [
 				{
@@ -2398,20 +2333,14 @@
 				item: "botania:terra_plate"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.creatingMorePowerfulIngots}"
+			title: "{atm9.quest.botania.terra_plate}"
 			x: 14.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["65238A6DCDDDFA0D"]
 			description: [
-				"{atm9.quest.botania.desc.tAPlate.1}"
-				""
-				"{atm9.quest.botania.desc.tAPlate.2}"
-				""
-				"{atm9.quest.botania.desc.tAPlate.3}"
-				""
-				"{atm9.quest.botania.desc.tAPlate.4}"
+				"{atm9.quest.botania.desc.terrasteel}"
 				""
 				"{image:atm:textures/questpics/botania/t_a_plate_base.png width:200 height:150 align:1}"
 			]
@@ -2452,22 +2381,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.creatingTerrasteel}"
+			title: "{atm9.quest.botania.terrasteel}"
 			x: 16.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"{atm9.quest.botania.desc.upgradeSparks.1}"
-				""
-				"{atm9.quest.botania.desc.upgradeSparks.2}"
-				""
-				"{atm9.quest.botania.desc.upgradeSparks.3}"
-				""
-				"{atm9.quest.botania.desc.upgradeSparks.4}"
-				""
-				"{atm9.quest.botania.desc.upgradeSparks.5}"
+				"{atm9.quest.botania.desc.spark_upgrade}"
 			]
 			id: "5CB5F4CD521F6361"
 			min_width: 300
@@ -2502,19 +2423,17 @@
 						]
 					}
 				}
-				title: "{atm9.quest.botania.sparkAugments}"
+				title: "{atm9.quest.botania.spark_upgrade}"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.sparkAugments}"
+			title: "{atm9.quest.botania.spark_upgrade}"
 			x: 21.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["1EF7664F5D8C5FF1"]
 			description: [
-				"{atm9.quest.botania.desc.elvenTradeFeatures.1}"
-				""
-				"{atm9.quest.botania.desc.elvenTradeFeatures.2}"
+				"{atm9.quest.botania.desc.alfheim}"
 			]
 			icon: "botania:dragonstone"
 			id: "3A20210242A1C865"
@@ -2590,26 +2509,18 @@
 							]
 						}
 					}
-					title: "{atm9.quest.botania.alfheimResources}"
+					title: "{atm9.quest.botania.task.alfheim}"
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.communingWithElves}"
+			title: "{atm9.quest.botania.alfheim}"
 			x: 20.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
 			description: [
-				"{atm9.quest.botania.desc.portalSetup.1}"
-				""
-				"{atm9.quest.botania.desc.portalSetup.2}"
-				""
-				"{atm9.quest.botania.desc.portalSetup.3}"
-				""
-				"{atm9.quest.botania.desc.portalSetup.4}"
-				""
-				"{atm9.quest.botania.desc.portalSetup.5}"
+				"{atm9.quest.botania.desc.portal}"
 				""
 				"{image:atm:textures/questpics/botania/elven_portal.png width:200 height:175 align:1}"
 			]
@@ -2654,18 +2565,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.openingThePortal}"
+			title: "{atm9.quest.botania.portal}"
 			x: 18.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"{atm9.quest.botania.desc.gaiaSpiritQuest.1}"
-				""
-				"{atm9.quest.botania.desc.gaiaSpiritQuest.2}"
-				""
-				"{atm9.quest.botania.desc.gaiaSpiritQuest.3}"
+				"{atm9.quest.botania.desc.gaia_pylon}"
 				""
 				"{image:atm:textures/questpics/botania/gaia_ritual.png width:300 height:100 align:1}"
 			]
@@ -2697,16 +2604,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.summoningGuardianOfGaia}"
+			title: "{atm9.quest.botania.gaia_pylon}"
 			x: 22.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"{atm9.quest.botania.desc.elementiumArmorFeatures.1}"
-				""
-				"{atm9.quest.botania.desc.elementiumArmorFeatures.2}"
+				"{atm9.quest.botania.desc.elementium_armor}"
 			]
 			hide_until_deps_visible: false
 			id: "2F388BE777C43EB6"
@@ -2775,9 +2680,7 @@
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"{atm9.quest.botania.desc.terraShattererFeatures.1}"
-				""
-				"{atm9.quest.botania.desc.terraShattererFeatures.2}"
+				"{atm9.quest.botania.desc.elementium_pickaxe}"
 			]
 			id: "2230244B2CE5851D"
 			rewards: [
@@ -2809,7 +2712,7 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["{atm9.quest.botania.desc.gravityAffectedBlockBreaking}"]
+			description: ["{atm9.quest.botania.desc.elementium_shovel}"]
 			id: "1C53DEE5CED13E92"
 			rewards: [
 				{
@@ -2840,7 +2743,7 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["{atm9.quest.botania.desc.skullDropping}"]
+			description: ["{atm9.quest.botania.desc.elementium_axe}"]
 			id: "76A4FCDF04AD6656"
 			rewards: [
 				{
@@ -2871,7 +2774,7 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["{atm9.quest.botania.desc.instantMoisten}"]
+			description: ["{atm9.quest.botania.desc.elementium_hoe}"]
 			id: "1BCA04665A8F5EF5"
 			rewards: [
 				{
@@ -2902,7 +2805,7 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["{atm9.quest.botania.desc.pixieSpawnAugmentation}"]
+			description: ["{atm9.quest.botania.desc.elementium_sword}"]
 			id: "497C981D49B7FBD6"
 			rewards: [
 				{
@@ -2933,7 +2836,7 @@
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
-			description: ["{atm9.quest.botania.desc.bestManaSpreader}"]
+			description: ["{atm9.quest.botania.desc.gaia_spreader}"]
 			hide_until_deps_visible: false
 			id: "4E03AC9D56202353"
 			rewards: [
@@ -2960,9 +2863,7 @@
 		{
 			dependencies: ["04CE14D92603FC7A"]
 			description: [
-				"{atm9.quest.botania.desc.gaiaSpiritRewards.1}"
-				""
-				"{atm9.quest.botania.desc.gaiaSpiritRewards.2}"
+				"{atm9.quest.botania.desc.gaia}"
 			]
 			icon: "botania:gaia_head"
 			id: "0331107259F7B68C"
@@ -2995,13 +2896,13 @@
 					value: 1L
 				}
 			]
-			title: "{atm9.quest.botania.gaiaSpirits}"
+			title: "{atm9.quest.botania.gaia}"
 			x: 24.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
-			description: ["{atm9.quest.botania.desc.moreGaiaSpiritsChallenge}"]
+			description: ["{atm9.quest.botania.desc.gaia_ingot}"]
 			hide_until_deps_visible: false
 			id: "27CD17C4B3613171"
 			rewards: [
@@ -3022,13 +2923,13 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.guardianOfGaia2}"
+			title: "{atm9.quest.botania.gaia_ingot}"
 			x: 26.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["27CD17C4B3613171"]
-			description: ["{atm9.quest.botania.desc.harderGuardianRewards}"]
+			description: ["{atm9.quest.botania.desc.dice}"]
 			id: "50A2D68A83A50F47"
 			rewards: [
 				{
@@ -3050,18 +2951,14 @@
 				item: "botania:dice"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.diceOfFate}"
+			title: "{atm9.quest.botania.dice}"
 			x: 28.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
 			description: [
-				"{atm9.quest.botania.desc.corporeaFunnelUsage.1}"
-				""
-				"{atm9.quest.botania.desc.corporeaFunnelUsage.2}"
-				""
-				"{atm9.quest.botania.desc.corporeaFunnelUsage.3}"
+				"{atm9.quest.botania.desc.corporea_funnel}"
 			]
 			id: "4ECFB1256BD6A7AA"
 			rewards: [{
@@ -3080,11 +2977,7 @@
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"{atm9.quest.botania.desc.corporeaNetworkSetup.1}"
-				""
-				"{atm9.quest.botania.desc.corporeaNetworkSetup.2}"
-				""
-				"{atm9.quest.botania.desc.corporeaNetworkSetup.3}"
+				"{atm9.quest.botania.desc.corporea_network}"
 			]
 			id: "634E71DBAE81D197"
 			min_width: 300
@@ -3113,18 +3006,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.theCorporeaNetwork}"
+			title: "{atm9.quest.botania.corporea_network}"
 			x: 20.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
 			description: [
-				"{atm9.quest.botania.desc.corporeaIndexUsage.1}"
-				""
-				"{atm9.quest.botania.desc.corporeaIndexUsage.2}"
-				""
-				"{atm9.quest.botania.desc.corporeaIndexUsage.3}"
+				"{atm9.quest.botania.desc.corporea_index}"
 			]
 			id: "7DF7F9CD9A795E69"
 			rewards: [{
@@ -3145,7 +3034,7 @@
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
-			description: ["{atm9.quest.botania.desc.corporeaCrystalCubeUsage}"]
+			description: ["{atm9.quest.botania.desc.corporea_crystal_cube}"]
 			id: "7440E522FC31C341"
 			optional: true
 			rewards: [{
@@ -3283,32 +3172,24 @@
 		{
 			dependencies: ["79BE48D56622542F"]
 			description: [
-				"{atm9.quest.botania.desc.floraTypes.1}"
-				""
-				"{atm9.quest.botania.desc.floraTypes.2}"
-				""
-				"{atm9.quest.botania.desc.floraTypes.3}"
-				""
-				"{atm9.quest.botania.desc.floraTypes.4}"
+				"{atm9.quest.botania.desc.flora}"
 			]
 			hide_until_deps_visible: false
 			id: "7B3FAF5CA4DD217C"
 			min_width: 400
 			tasks: [{
 				id: "7F362CF1D18C7FB1"
-				title: "{atm9.quest.botania.functionalFlora}"
+				title: "{atm9.quest.botania.task.flora}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.botania.functionalAndGeneratingFlora}"
+			title: "{atm9.quest.botania.flora}"
 			x: 3.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1C48F2612F2FA828"]
 			description: [
-				"{atm9.quest.botania.desc.pulseManaSpreader.1}"
-				""
-				"{atm9.quest.botania.desc.pulseManaSpreader.2}"
+				"{atm9.quest.botania.desc.redstone_spreader}"
 			]
 			id: "4C22BA5824662C7E"
 			optional: true
@@ -3328,7 +3209,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.manaBurstSpeedIncrease}"]
+			description: ["{atm9.quest.botania.desc.lens_speed}"]
 			id: "2D1533268C835672"
 			rewards: [
 				{
@@ -3355,7 +3236,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.manaCapacityDoubling}"]
+			description: ["{atm9.quest.botania.desc.lens_power}"]
 			id: "7A82D66B1B138F0F"
 			rewards: [
 				{
@@ -3382,7 +3263,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.manaLossDecrease}"]
+			description: ["{atm9.quest.botania.desc.lens_time}"]
 			id: "4CED346215DDBAC0"
 			rewards: [
 				{
@@ -3409,7 +3290,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.manaLossRateDecrease}"]
+			description: ["{atm9.quest.botania.desc.lens_efficiency}"]
 			id: "5A7FF6D0AED656DC"
 			rewards: [
 				{
@@ -3436,7 +3317,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.manaBurstBounce}"]
+			description: ["{atm9.quest.botania.desc.lens_bounce}"]
 			id: "504ADBD7E2476827"
 			rewards: [
 				{
@@ -3463,7 +3344,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.gravityEffectIncrease}"]
+			description: ["{atm9.quest.botania.desc.lens_gravity}"]
 			hide_dependency_lines: true
 			id: "665B4A8FF5277316"
 			optional: true
@@ -3490,7 +3371,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.blockBreaking}"]
+			description: ["{atm9.quest.botania.desc.lens_mine}"]
 			hide_dependency_lines: true
 			id: "3722E5A8BE99C5B1"
 			optional: true
@@ -3517,7 +3398,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.damageLivingBeings}"]
+			description: ["{atm9.quest.botania.desc.lens_damage}"]
 			hide_dependency_lines: true
 			id: "533624CA5C2A7BBD"
 			optional: true
@@ -3544,7 +3425,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.passThroughBlocks}"]
+			description: ["{atm9.quest.botania.desc.lens_phantom}"]
 			hide_dependency_lines: true
 			id: "5EF08646D8F4C432"
 			optional: true
@@ -3571,7 +3452,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.homingAbility}"]
+			description: ["{atm9.quest.botania.desc.lens_magnet}"]
 			hide_dependency_lines: true
 			id: "79A19D0B2F94EFDC"
 			optional: true
@@ -3598,7 +3479,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.entropicBurst}"]
+			description: ["{atm9.quest.botania.desc.lens_explosive}"]
 			hide_dependency_lines: true
 			id: "7AD4D212633DAEC8"
 			optional: true
@@ -3625,7 +3506,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.influenceMotion}"]
+			description: ["{atm9.quest.botania.desc.lens_influence}"]
 			hide_dependency_lines: true
 			id: "5732936F1FD1D4AE"
 			optional: true
@@ -3652,7 +3533,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.blockFalling}"]
+			description: ["{atm9.quest.botania.desc.lens_weight}"]
 			hide_dependency_lines: true
 			id: "3CD45533D0BDF26D"
 			optional: true
@@ -3683,9 +3564,7 @@
 				"3A20210242A1C865"
 			]
 			description: [
-				"{atm9.quest.botania.desc.colorDyeRequirement.1}"
-				""
-				"{atm9.quest.botania.desc.colorPainting.2}"
+				"{atm9.quest.botania.desc.lens_paint}"
 			]
 			hide_dependency_lines: true
 			id: "68DC8A2B4BEF9878"
@@ -3717,7 +3596,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{atm9.quest.botania.desc.festiveFireworks}"]
+			description: ["{atm9.quest.botania.desc.lens_firework}"]
 			hide_dependency_lines: true
 			id: "478352E24CE1F45F"
 			optional: true
@@ -3748,7 +3627,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{atm9.quest.botania.desc.continuousParticle}"]
+			description: ["{atm9.quest.botania.desc.lens_flare}"]
 			hide_dependency_lines: true
 			id: "7B95C7407A1F5550"
 			optional: true
@@ -3779,7 +3658,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{atm9.quest.botania.desc.mobOnlyBurst}"]
+			description: ["{atm9.quest.botania.desc.lens_tripwire}"]
 			hide_dependency_lines: true
 			id: "0E7E559F2750F7D3"
 			optional: true
@@ -3807,7 +3686,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.manaCarryDecrease}"]
+			description: ["{atm9.quest.botania.desc.lens_messenger}"]
 			hide_dependency_lines: true
 			id: "182EBB06B81BDF98"
 			optional: true
@@ -3837,7 +3716,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{atm9.quest.botania.desc.redirection}"]
+			description: ["{atm9.quest.botania.desc.lens_redirect}"]
 			hide_dependency_lines: true
 			id: "03C475ABEFF04DEF"
 			optional: true
@@ -3865,7 +3744,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.createFlame}"]
+			description: ["{atm9.quest.botania.desc.lens_light}"]
 			hide_dependency_lines: true
 			id: "0C557A9494F58400"
 			optional: true
@@ -3892,7 +3771,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.moveBlock}"]
+			description: ["{atm9.quest.botania.desc.lens_piston}"]
 			hide_dependency_lines: true
 			id: "14EB725643E9F8FE"
 			optional: true
@@ -3919,7 +3798,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.catchFire}"]
+			description: ["{atm9.quest.botania.desc.lens_fire}"]
 			hide_dependency_lines: true
 			id: "12BEB76EB924379C"
 			optional: true
@@ -3949,7 +3828,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{atm9.quest.botania.desc.lexicaReference}"]
+			description: ["{atm9.quest.botania.desc.lens_warp}"]
 			hide_dependency_lines: true
 			id: "4CC46A4E71320140"
 			optional: true
@@ -3978,9 +3857,7 @@
 		{
 			dependencies: ["0331107259F7B68C"]
 			description: [
-				"{atm9.quest.botania.desc.gaiaTrinkets.1}"
-				""
-				"{atm9.quest.botania.desc.gaiaTrinkets.2}"
+				"{atm9.quest.botania.desc.gaia_equip}"
 			]
 			id: "66F1609053B5407C"
 			optional: true
@@ -4063,22 +3940,17 @@
 						]
 					}
 				}
-				title: "{atm9.quest.botania.gaiaTrinkets}"
+				title: "{atm9.quest.botania.task.gaia_equip}"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.gaiaGearAndTrinkets}"
+			title: "{atm9.quest.botania.gaia_equip}"
 			x: 24.5d
 			y: 1.0d
 		}
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -4098,12 +3970,12 @@
 				{
 					disable_toast: true
 					id: "37BB8E84CF18694C"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "41DE3E2C54A0A251"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

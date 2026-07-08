@@ -11,9 +11,7 @@
 	quests: [
 		{
 			description: [
-				"{atm9.quest.blueSkies.desc.newDimensions.1}"
-				""
-				"{atm9.quest.blueSkies.desc.newDimensions.2}"
+				"{atm9.quest.blueSkies.desc.welcome}"
 			]
 			icon: "blue_skies:blinding_key"
 			id: "79B9098FE66A7130"
@@ -26,21 +24,17 @@
 			size: 1.5d
 			tasks: [{
 				id: "03EA78EF53B95F0F"
-				title: "{atm9.quest.blueSkies.welcome.1}"
+				title: "{atm9.quest.blueSkies.task.welcome}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.blueSkies.welcome.2}"
+			title: "{atm9.quest.blueSkies.welcome}"
 			x: -2.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["79B9098FE66A7130"]
 			description: [
-				"{atm9.quest.blueSkies.desc.findGatekeeper.1}"
-				""
-				"{atm9.quest.blueSkies.desc.findGatekeeper.2}"
-				""
-				"{atm9.quest.blueSkies.desc.findGatekeeper.3}"
+				"{atm9.quest.blueSkies.desc.blue_journal}"
 				""
 				"{image:atm:textures/questpics/blueskies/blueskies_gatekeepershouse.png width:200 height:125 align:1}"
 			]
@@ -51,22 +45,20 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.blueSkies.subt.simpleLife}"
+			subtitle: "{atm9.quest.blueSkies.subt.blue_journal}"
 			tasks: [{
 				id: "0C6C12DEFB35A5C8"
 				item: "blue_skies:blue_journal"
 				type: "item"
 			}]
-			title: "{atm9.quest.blueSkies.findGatekeeper}"
+			title: "{atm9.quest.blueSkies.blue_journal}"
 			x: 0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["198EB5AE0E18E6C3"]
 			description: [
-				"{atm9.quest.blueSkies.desc.gatekeeperKnowledge.1}"
-				""
-				"{atm9.quest.blueSkies.desc.gatekeeperKnowledge.2}"
+				"{atm9.quest.blueSkies.desc.gatekeeper}"
 			]
 			id: "7DC798518DDAAD26"
 			rewards: [{
@@ -76,7 +68,7 @@
 			}]
 			tasks: [{
 				id: "1A4F2611944EF2EE"
-				title: "{atm9.quest.blueSkies.gatekeeperKnowledge}"
+				title: "{atm9.quest.blueSkies.task.gatekeeper}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -85,9 +77,7 @@
 		{
 			dependencies: ["198EB5AE0E18E6C3"]
 			description: [
-				"{atm9.quest.blueSkies.desc.brokenPortal.1}"
-				""
-				"{atm9.quest.blueSkies.desc.brokenPortal.2}"
+				"{atm9.quest.blueSkies.desc.zeal_lighter}"
 				""
 				"{image:atm:textures/questpics/blueskies/blueskies_gatekeeper_portal.png width:200 height:150 align:1}"
 			]
@@ -121,9 +111,7 @@
 		{
 			dependencies: ["13BB7347D271D29C"]
 			description: [
-				"{atm9.quest.blueSkies.desc.everbrightRealm.1}"
-				""
-				"{atm9.quest.blueSkies.desc.everbrightRealm.2}"
+				"{atm9.quest.blueSkies.desc.to_everbright}"
 			]
 			id: "765EBF99FFF4061F"
 			rewards: [{
@@ -135,7 +123,7 @@
 				advancement: "blue_skies:everbright/enter"
 				criterion: ""
 				id: "083086610639994F"
-				title: "{atm9.quest.blueSkies.toEverbright}"
+				title: "{atm9.quest.blueSkies.task.to_everbright}"
 				type: "advancement"
 			}]
 			x: 4.0d
@@ -144,11 +132,7 @@
 		{
 			dependencies: ["13BB7347D271D29C"]
 			description: [
-				"{atm9.quest.blueSkies.desc.everdawnWorld.1}"
-				""
-				"{atm9.quest.blueSkies.desc.everdawnWorld.2}"
-				""
-				"{atm9.quest.blueSkies.desc.everdawnWorld.3}"
+				"{atm9.quest.blueSkies.desc.to_everdawn}"
 			]
 			id: "20ECBCF42E1B0660"
 			rewards: [{
@@ -160,7 +144,7 @@
 				advancement: "blue_skies:everdawn/enter"
 				criterion: ""
 				id: "10AA43B1500FAAAA"
-				title: "{atm9.quest.blueSkies.toEverdawn}"
+				title: "{atm9.quest.blueSkies.task.to_everdawn}"
 				type: "advancement"
 			}]
 			x: 4.0d
@@ -173,9 +157,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{atm9.quest.blueSkies.desc.overworldlyTools.1}"
-				""
-				"{atm9.quest.blueSkies.desc.overworldlyTools.2}"
+				"{atm9.quest.blueSkies.desc.wooden_pickaxes}"
 			]
 			id: "4365BCF6B7A91D24"
 			rewards: [
@@ -207,19 +189,17 @@
 						value: "blue_skies:tools/wooden_pickaxes"
 					}
 				}
-				title: "{atm9.quest.blueSkies.blueSkiesWoodenPickaxe}"
+				title: "{atm9.quest.blueSkies.task.wooden_pickaxes}"
 				type: "item"
 			}]
-			title: "{atm9.quest.blueSkies.somethingIsntRight}"
+			title: "{atm9.quest.blueSkies.wooden_pickaxes}"
 			x: 5.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3E1A86A6D2155B53"]
 			description: [
-				"{atm9.quest.blueSkies.desc.newWeapon.1}"
-				""
-				"{atm9.quest.blueSkies.desc.newWeapon.2}"
+				"{atm9.quest.blueSkies.desc.moonstone_shard}"
 			]
 			id: "6E177CA79B7ABD7C"
 			optional: true
@@ -238,23 +218,21 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.blueSkies.subt.darkness}"
+			subtitle: "{atm9.quest.blueSkies.subt.moonstone_shard}"
 			tasks: [{
 				count: 2L
 				id: "49A5A92F58DB0859"
 				item: "blue_skies:moonstone_shard"
 				type: "item"
 			}]
-			title: "{atm9.quest.blueSkies.newMiningAdventure}"
+			title: "{atm9.quest.blueSkies.moonstone_shard}"
 			x: 6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4365BCF6B7A91D24"]
 			description: [
-				"{atm9.quest.blueSkies.desc.woodenTools.1}"
-				""
-				"{atm9.quest.blueSkies.desc.woodenTools.2}"
+				"{atm9.quest.blueSkies.desc.stone_pickaxe}"
 			]
 			id: "3E1A86A6D2155B53"
 			rewards: [
@@ -270,7 +248,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{atm9.quest.blueSkies.subt.toolProgression}"
+			subtitle: "{atm9.quest.blueSkies.subt.stone_pickaxe}"
 			tasks: [{
 				id: "18DBE4B1BAAA5CC8"
 				item: {
@@ -295,16 +273,16 @@
 						]
 					}
 				}
-				title: "{atm9.quest.blueSkies.blueSkiesStonePickaxe}"
+				title: "{atm9.quest.blueSkies.task.stone_pickaxe}"
 				type: "item"
 			}]
-			title: "{atm9.quest.blueSkies.gettingAnUpgrade}"
+			title: "{atm9.quest.blueSkies.stone_pickaxe}"
 			x: 8.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6E177CA79B7ABD7C"]
-			description: ["{atm9.quest.blueSkies.desc.spearWeapon}"]
+			description: ["{atm9.quest.blueSkies.desc.frostbright_spear}"]
 			id: "5ED6634F52CAC058"
 			optional: true
 			rewards: [
@@ -320,7 +298,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.blueSkies.subt.spartanStyle}"
+			subtitle: "{atm9.quest.blueSkies.subt.frostbright_spear}"
 			tasks: [{
 				id: "0A3B8E7765432D22"
 				item: {
@@ -332,16 +310,14 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.blueSkies.makingANewWeapon}"
+			title: "{atm9.quest.blueSkies.frostbright_spear}"
 			x: 6.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3E1A86A6D2155B53"]
 			description: [
-				"{atm9.quest.blueSkies.desc.pyropeSpeed.1}"
-				""
-				"{atm9.quest.blueSkies.desc.pyropeSpeed.2}"
+				"{atm9.quest.blueSkies.desc.pyrope_gem}"
 			]
 			icon: "blue_skies:pyrope_gem"
 			id: "01E1A7BCDAE8EB9F"
@@ -366,7 +342,7 @@
 				item: "blue_skies:pyrope_gem"
 				type: "item"
 			}]
-			title: "{atm9.quest.blueSkies.redMeansFast}"
+			title: "{atm9.quest.blueSkies.pyrope_gem}"
 			x: 8.5d
 			y: -1.0d
 		}
@@ -508,20 +484,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.blueSkies.pyropeTools}"
+			title: "{atm9.quest.blueSkies.pyrope_tools}"
 			x: 8.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3E1A86A6D2155B53"]
 			description: [
-				"{atm9.quest.blueSkies.desc.aquiteOre.1}"
-				""
-				"{atm9.quest.blueSkies.desc.aquiteOre.2}"
-				""
-				"{atm9.quest.blueSkies.desc.aquiteOre.3}"
-				""
-				"{atm9.quest.blueSkies.desc.aquiteOre.4}"
+				"{atm9.quest.blueSkies.desc.aquite}"
 			]
 			id: "158F48B73171BDE1"
 			rewards: [
@@ -550,13 +520,13 @@
 				item: "blue_skies:aquite"
 				type: "item"
 			}]
-			title: "{atm9.quest.blueSkies.metalTools}"
+			title: "{atm9.quest.blueSkies.aquite}"
 			x: 11.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["158F48B73171BDE1"]
-			description: ["{atm9.quest.blueSkies.desc.diopsideGemstone}"]
+			description: ["{atm9.quest.blueSkies.desc.diopside_gem}"]
 			id: "128C5B7A82FF802E"
 			rewards: [
 				{
@@ -585,16 +555,14 @@
 				item: "blue_skies:diopside_gem"
 				type: "item"
 			}]
-			title: "{atm9.quest.blueSkies.diopside}"
+			title: "{atm9.quest.blueSkies.diopside_gem}"
 			x: 12.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3E1A86A6D2155B53"]
 			description: [
-				"{atm9.quest.blueSkies.desc.ventiumMetal.1}"
-				""
-				"{atm9.quest.blueSkies.desc.ventiumMetal.2}"
+				"{atm9.quest.blueSkies.desc.ventium_ingot}"
 			]
 			id: "229455730219F7B1"
 			rewards: [
@@ -618,22 +586,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.blueSkies.subt.redIron}"
+			subtitle: "{atm9.quest.blueSkies.subt.ventium_ingot}"
 			tasks: [{
 				id: "6A4963E01802CAD5"
 				item: "blue_skies:ventium_ingot"
 				type: "item"
 			}]
-			title: "{atm9.quest.blueSkies.ventium}"
+			title: "{atm9.quest.blueSkies.ventium_ingot}"
 			x: 8.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3E1A86A6D2155B53"]
 			description: [
-				"{atm9.quest.blueSkies.desc.falsiteOre.1}"
-				""
-				"{atm9.quest.blueSkies.desc.falsiteOre.2}"
+				"{atm9.quest.blueSkies.desc.falsite_ingot}"
 			]
 			id: "23CC5B8D9AAD4E12"
 			rewards: [
@@ -664,16 +630,14 @@
 				item: "blue_skies:falsite_ingot"
 				type: "item"
 			}]
-			title: "{atm9.quest.blueSkies.falsite}"
+			title: "{atm9.quest.blueSkies.falsite_ingot}"
 			x: 8.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["158F48B73171BDE1"]
 			description: [
-				"{atm9.quest.blueSkies.desc.charoiteDiamond.1}"
-				""
-				"{atm9.quest.blueSkies.desc.charoiteDiamond.2}"
+				"{atm9.quest.blueSkies.desc.raw_charoite}"
 			]
 			id: "27E3C4E4790F8FF3"
 			rewards: [
@@ -696,18 +660,14 @@
 				item: "blue_skies:raw_charoite"
 				type: "item"
 			}]
-			title: "{atm9.quest.blueSkies.charoite}"
+			title: "{atm9.quest.blueSkies.raw_charoite}"
 			x: 10.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3E1A86A6D2155B53"]
 			description: [
-				"{atm9.quest.blueSkies.desc.crystalDunesFeatures.1}"
-				""
-				"{atm9.quest.blueSkies.desc.crystalDunesFeatures.2}"
-				""
-				"{atm9.quest.blueSkies.desc.crystalDunesFeatures.3}"
+				"{atm9.quest.blueSkies.desc.horizonite_ingot}"
 			]
 			id: "14B4E6B2FC3F6B36"
 			rewards: [
@@ -729,16 +689,14 @@
 				item: "blue_skies:horizonite_ingot"
 				type: "item"
 			}]
-			title: "{atm9.quest.blueSkies.horizonite}"
+			title: "{atm9.quest.blueSkies.horizonite_ingot}"
 			x: 9.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["229455730219F7B1"]
 			description: [
-				"{atm9.quest.blueSkies.desc.horizoniteFeatures.1}"
-				""
-				"{atm9.quest.blueSkies.desc.horizoniteFeatures.2}"
+				"{atm9.quest.blueSkies.desc.tool_box}"
 			]
 			id: "3179DCF0B4458ECC"
 			rewards: [
@@ -838,18 +796,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.blueSkies.horizoniteTools}"
+			title: "{atm9.quest.blueSkies.horizonite_tools}"
 			x: 10.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["14B4E6B2FC3F6B36"]
 			description: [
-				"{atm9.quest.blueSkies.desc.horizoniteForgeFeatures.1}"
-				""
-				"{atm9.quest.blueSkies.desc.horizoniteForgeFeatures.2}"
-				""
-				"{atm9.quest.blueSkies.desc.horizoniteForgeFeatures.3}"
+				"{atm9.quest.blueSkies.desc.horizonite_forge}"
 			]
 			id: "6783F21811D0F149"
 			optional: true
@@ -884,7 +838,7 @@
 		}
 		{
 			dependencies: ["23CC5B8D9AAD4E12"]
-			description: ["{atm9.quest.blueSkies.desc.lanternFeatures}"]
+			description: ["{atm9.quest.blueSkies.desc.warding_pearl}"]
 			id: "3857D8DF87108DAB"
 			optional: true
 			shape: "rsquare"
@@ -899,9 +853,7 @@
 		{
 			dependencies: ["229455730219F7B1"]
 			description: [
-				"{atm9.quest.blueSkies.desc.ventiumUses.1}"
-				""
-				"{atm9.quest.blueSkies.desc.ventiumUses.2}"
+				"{atm9.quest.blueSkies.desc.ventium_tools}"
 			]
 			id: "47EFF4429010E26C"
 			optional: true
@@ -938,7 +890,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.blueSkies.ventiumTools}"
+			title: "{atm9.quest.blueSkies.ventium_tools}"
 			x: 7.0d
 			y: 2.5d
 		}
@@ -1017,7 +969,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.blueSkies.diopsideTools}"
+			title: "{atm9.quest.blueSkies.diopside_tools}"
 			x: 12.0d
 			y: -1.5d
 		}
@@ -1085,7 +1037,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.blueSkies.diopsideArmor}"
+			title: "{atm9.quest.blueSkies.diopside_armor}"
 			x: 13.0d
 			y: -1.5d
 		}
@@ -1164,7 +1116,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.blueSkies.charoiteTools}"
+			title: "{atm9.quest.blueSkies.charoite_tools}"
 			x: 10.0d
 			y: -1.5d
 		}
@@ -1232,18 +1184,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.blueSkies.charoiteArmor}"
+			title: "{atm9.quest.blueSkies.charoite_armor}"
 			x: 11.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["158F48B73171BDE1"]
 			description: [
-				"{atm9.quest.blueSkies.desc.towerSearchFeatures.1}"
-				""
-				"{atm9.quest.blueSkies.desc.towerSearchFeatures.2}"
-				""
-				"{atm9.quest.blueSkies.desc.towerSearchFeatures.3}"
+				"{atm9.quest.blueSkies.desc.blinding_key}"
 			]
 			id: "1F82DBE75059C139"
 			rewards: [
@@ -1267,16 +1215,14 @@
 				item: "blue_skies:blinding_key"
 				type: "item"
 			}]
-			title: "{atm9.quest.blueSkies.starterDungeons}"
+			title: "{atm9.quest.blueSkies.blinding_key}"
 			x: 15.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["158F48B73171BDE1"]
 			description: [
-				"{atm9.quest.blueSkies.desc.dungeonExplorationFeatures.1}"
-				""
-				"{atm9.quest.blueSkies.desc.dungeonExplorationFeatures.2}"
+				"{atm9.quest.blueSkies.desc.soul_fragment}"
 				""
 				"{image:atm:textures/questpics/blueskies/blueskies_everbright_structuredungeon.png width:150 height:125 align:1}"
 			]
@@ -1301,18 +1247,14 @@
 				item: "blue_skies:soul_fragment"
 				type: "item"
 			}]
-			title: "{atm9.quest.blueSkies.structuresAndDungeons}"
+			title: "{atm9.quest.blueSkies.soul_fragment}"
 			x: 11.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["1F82DBE75059C139"]
 			description: [
-				"{atm9.quest.blueSkies.desc.summonerFeatures.1}"
-				""
-				"{atm9.quest.blueSkies.desc.summonerFeatures.2}"
-				""
-				"{atm9.quest.blueSkies.desc.summonerFeatures.3}"
+				"{atm9.quest.blueSkies.desc.summoner}"
 				""
 				"{image:atm:textures/questpics/blueskies/blueskies_everbright_summonersdungeon.png width:175 height:200 align:1}"
 			]
@@ -1332,12 +1274,12 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{atm9.quest.blueSkies.subt.guardianEverbright}"
+			subtitle: "{atm9.quest.blueSkies.subt.summoner}"
 			tasks: [{
 				entity: "blue_skies:summoner"
 				icon: "blue_skies:summoner_spawn_egg"
 				id: "1CBF0C7F2044EA9A"
-				title: "{atm9.quest.blueSkies.theSummoner}"
+				title: "{atm9.quest.blueSkies.task.summoner}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1347,9 +1289,7 @@
 		{
 			dependencies: ["1F82DBE75059C139"]
 			description: [
-				"{atm9.quest.blueSkies.desc.alchemistFeatures.1}"
-				""
-				"{atm9.quest.blueSkies.desc.alchemistFeatures.2}"
+				"{atm9.quest.blueSkies.desc.alchemist}"
 				""
 				""
 				"{image:atm:textures/questpics/blueskies/blueskies_everdawn_alchemistdungeon.png width:175 height:200 align:1}"
@@ -1370,12 +1310,12 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{atm9.quest.blueSkies.subt.guardianEverdawn}"
+			subtitle: "{atm9.quest.blueSkies.subt.alchemist}"
 			tasks: [{
 				entity: "blue_skies:alchemist"
 				icon: "blue_skies:alchemist_spawn_egg"
 				id: "19DF62F00979AEA2"
-				title: "{atm9.quest.blueSkies.theAlchemist}"
+				title: "{atm9.quest.blueSkies.task.alchemist}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1385,11 +1325,7 @@
 		{
 			dependencies: ["3C1212AA4663C39B"]
 			description: [
-				"{atm9.quest.blueSkies.desc.naturesDungeonFeatures.1}"
-				""
-				"{atm9.quest.blueSkies.desc.naturesDungeonFeatures.2}"
-				""
-				"{atm9.quest.blueSkies.desc.naturesDungeonFeatures.3}"
+				"{atm9.quest.blueSkies.desc.starlit_crusher}"
 				""
 				"{image:atm:textures/questpics/blueskies/blueskies_everbright_naturedungeon.png width:200 height:150 align:1}"
 			]
@@ -1408,12 +1344,12 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "{atm9.quest.blueSkies.subt.bossNatureDungeon}"
+			subtitle: "{atm9.quest.blueSkies.subt.starlit_crusher}"
 			tasks: [{
 				entity: "blue_skies:starlit_crusher"
 				icon: "blue_skies:starlit_crusher_spawn_egg"
 				id: "6F7A953BDE02EF55"
-				title: "{atm9.quest.blueSkies.theStarlitCrusher}"
+				title: "{atm9.quest.blueSkies.task.starlit_crusher}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1423,11 +1359,7 @@
 		{
 			dependencies: ["6832C9E6D2E2949E"]
 			description: [
-				"{atm9.quest.blueSkies.desc.arachnophobiaWarning}"
-				""
-				"{atm9.quest.blueSkies.desc.poisonDungeonFeatures.1}"
-				""
-				"{atm9.quest.blueSkies.desc.poisonDungeonFeatures.2}"
+				"{atm9.quest.blueSkies.desc.arachnarch}"
 				""
 				"{image:atm:textures/questpics/blueskies/blueskies_everdawn_poisondungeon.png width:175 height:200 align:1}"
 			]
@@ -1446,12 +1378,12 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "{atm9.quest.blueSkies.subt.bossPoisonDungeon}"
+			subtitle: "{atm9.quest.blueSkies.subt.arachnarch}"
 			tasks: [{
 				entity: "blue_skies:arachnarch"
 				icon: "blue_skies:arachnarch_spawn_egg"
 				id: "1F70E547B959D9A0"
-				title: "{atm9.quest.blueSkies.theArachnarch}"
+				title: "{atm9.quest.blueSkies.task.arachnarch}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1460,7 +1392,7 @@
 		}
 		{
 			dependencies: ["3C1212AA4663C39B"]
-			description: ["{atm9.quest.blueSkies.desc.speedBoost}"]
+			description: ["{atm9.quest.blueSkies.desc.ethereal_arc}"]
 			id: "7E124E6EFC7E8ADD"
 			rewards: [
 				{
@@ -1492,7 +1424,7 @@
 		}
 		{
 			dependencies: ["6832C9E6D2E2949E"]
-			description: ["{atm9.quest.blueSkies.desc.invisibilitySneaking}"]
+			description: ["{atm9.quest.blueSkies.desc.dusk_arc}"]
 			id: "0515422E36E4E9A3"
 			rewards: [
 				{
@@ -1532,7 +1464,7 @@
 				xp: 1000
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.blueSkies.subt.starlitCrusherLoot}"
+			subtitle: "{atm9.quest.blueSkies.subt.crusher_loot}"
 			tasks: [{
 				id: "5977FC8CB2A6A46D"
 				item: {
@@ -1549,7 +1481,7 @@
 		}
 		{
 			dependencies: ["0DB1A5763EDD6A7F"]
-			description: ["{atm9.quest.blueSkies.desc.damageBoostPoisoned}"]
+			description: ["{atm9.quest.blueSkies.desc.poison_arc}"]
 			id: "08DA36DAD1422B0A"
 			rewards: [{
 				id: "0AF4AC6D51F379CB"
@@ -1557,7 +1489,7 @@
 				xp: 1000
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.blueSkies.subt.arachnarchLoot}"
+			subtitle: "{atm9.quest.blueSkies.subt.arachnarch_loot}"
 			tasks: [{
 				id: "05294380E82BC3FE"
 				item: {
@@ -1582,7 +1514,7 @@
 				xp: 1000
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.blueSkies.subt.arachnarchLoot}"
+			subtitle: "{atm9.quest.blueSkies.subt.arachnarch_loot}"
 			tasks: [{
 				id: "7EF8FD8790E83FD4"
 				item: {
@@ -1607,7 +1539,7 @@
 				xp: 1000
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.blueSkies.subt.arachnarchLoot}"
+			subtitle: "{atm9.quest.blueSkies.subt.arachnarch_loot}"
 			tasks: [{
 				id: "0E4B7B4DF6E4B7AA"
 				item: {
@@ -1625,9 +1557,7 @@
 		{
 			dependencies: ["1F944EEA0F397B95"]
 			description: [
-				"{atm9.quest.blueSkies.desc.heartIncrease}"
-				""
-				"{atm9.quest.blueSkies.desc.dragonSoulCrafting}"
+				"{atm9.quest.blueSkies.desc.nature_arc}"
 			]
 			id: "37CBBAB88E2E49AC"
 			rewards: [{
@@ -1636,7 +1566,7 @@
 				xp: 1000
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.blueSkies.subt.starlitCrusherLoot}"
+			subtitle: "{atm9.quest.blueSkies.subt.crusher_loot}"
 			tasks: [{
 				id: "29405FD946DEC4F1"
 				item: {
@@ -1720,12 +1650,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -1745,12 +1670,12 @@
 				{
 					disable_toast: true
 					id: "5A1722CAAF2E820A"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "43F36A8DA767085D"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

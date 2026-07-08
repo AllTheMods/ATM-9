@@ -7,8 +7,9 @@
 	id: "07210DDF872160BA"
 	images: [
 		{
+			click: " "
 			height: 0.5d
-			hover: ["{atm9.quest.ae2.img.star}"]
+			hover: ["atm9.quest.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.5d
@@ -16,8 +17,9 @@
 			y: 4.25d
 		}
 		{
+			click: " "
 			height: 0.5d
-			hover: ["{atm9.quest.ae2.img.star}"]
+			hover: ["atm9.quest.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.5d
@@ -32,7 +34,6 @@
 		{
 			description: [
 				"{atm9.quest.ae2.desc.AE2}"
-				"&o&bappliedenergistics.github.io&f&r."
 			]
 			icon: "ae2:certus_quartz_crystal"
 			id: "2893F483C10293E6"
@@ -337,7 +338,7 @@
 							value: "ae2:glass_cable"
 						}
 					}
-					title: "Glass Cable"
+					title: "{atm9.quest.ae2.task.cables.glass}"
 					type: "item"
 				}
 				{
@@ -349,7 +350,7 @@
 							value: "ae2:covered_cable"
 						}
 					}
-					title: "Covered Cable"
+					title: "{atm9.quest.ae2.task.cables.covered}"
 					type: "item"
 				}
 				{
@@ -361,7 +362,7 @@
 							value: "ae2:covered_dense_cable"
 						}
 					}
-					title: "Dense Covered Cable"
+					title: "{atm9.quest.ae2.task.cables.dense_covered}"
 					type: "item"
 				}
 			]
@@ -403,7 +404,7 @@
 							value: "ae2:smart_cable"
 						}
 					}
-					title: "Smart Cable"
+					title: "{atm9.quest.ae2.task.advanced_cabling.smart}"
 					type: "item"
 				}
 				{
@@ -415,7 +416,7 @@
 							value: "ae2:smart_dense_cable"
 						}
 					}
-					title: "Dense Smart Cable"
+					title: "{atm9.quest.ae2.task.advanced_cabling.dense_smart}"
 					type: "item"
 				}
 			]
@@ -431,7 +432,7 @@
 				{
 					id: "6D1EBB1DBB711A5A"
 					table_id: 5871764666515020368L
-					title: "Random Reward"
+					title: "{atm9.quest.ae2.reward.terminals}"
 					type: "random"
 				}
 				{
@@ -524,7 +525,7 @@
 						value: "ae2:interface"
 					}
 				}
-				title: "ME Interface"
+				title: "{atm9.quest.ae2.task.IO}"
 				type: "item"
 			}]
 			title: "{atm9.quest.ae2.IO}"
@@ -561,7 +562,7 @@
 							value: "ae2:pattern_provider"
 						}
 					}
-					title: "ME Pattern Provider"
+					title: "{atm9.quest.ae2.task.autocrafting}"
 					type: "item"
 				}
 				{
@@ -622,7 +623,7 @@
 						value: "ae2:quartz_wrench"
 					}
 				}
-				title: "Quartz Wrench"
+				title: "{atm9.quest.ae2.wrench}"
 				type: "item"
 			}]
 			title: "{atm9.quest.ae2.wrench}"
@@ -920,7 +921,7 @@
 				"50CD83AC904EC47E"
 				"3CE3D9245F8EC005"
 			]
-			description: ["{atm9.quest.ae2.desc.256}"]
+			description: ["{atm9.quest.ae2.desc.256m}"]
 			id: "51A57E142C686C8F"
 			rewards: [
 				{
@@ -940,7 +941,7 @@
 				item: "megacells:cell_component_256m"
 				type: "item"
 			}]
-			title: "{atm9.quest.ae2.256}"
+			title: "{atm9.quest.ae2.256m}"
 			x: 19.5d
 			y: 3.5d
 		}
@@ -973,7 +974,7 @@
 					id: "ae2:item_storage_cell_1k"
 					tag: { }
 				}
-				title: "ME Item Storage Cell"
+				title: "{atm9.quest.ae2.task.item_storage}"
 				type: "item"
 			}]
 			title: "{atm9.quest.ae2.item_storage}"
@@ -1006,7 +1007,7 @@
 						value: ":fluid_storage_cell_"
 					}
 				}
-				title: "ME Fluid Storage Cell"
+				title: "{atm9.quest.ae2.task.fluid}"
 				type: "item"
 			}]
 			title: "{atm9.quest.ae2.fluid}"
@@ -1252,7 +1253,7 @@
 					id: "ae2:memory_card"
 					tag: { }
 				}
-				title: "Memory Card"
+				title: "{atm9.quest.ae2.memory}"
 				type: "item"
 			}]
 			title: "{atm9.quest.ae2.memory}"
@@ -1337,7 +1338,7 @@
 						value: ":portable_(.*)_cell_"
 					}
 				}
-				title: "ME Portable Cell"
+				title: "{atm9.quest.ae2.task.portable}"
 				type: "item"
 			}]
 			title: "{atm9.quest.ae2.portable}"
@@ -1646,7 +1647,7 @@
 			tasks: [{
 				id: "4E0C5E3A98293C08"
 				item: "ae2:spatial_pylon"
-				title: "Spatial Cell Component"
+				title: "{atm9.quest.ae2.task.pylon}"
 				type: "item"
 			}]
 			title: "{atm9.quest.ae2.pylon}"
@@ -1703,7 +1704,7 @@
 						value: "ae2:spatial_storage_cell_"
 					}
 				}
-				title: "Spatial Storage Cell"
+				title: "{atm9.quest.ae2.SSC}"
 				type: "item"
 			}]
 			title: "{atm9.quest.ae2.SSC}"
@@ -1737,7 +1738,7 @@
 						value: "(.*)crafting_storage"
 					}
 				}
-				title: "Crafting Storage"
+				title: "{atm9.quest.ae2.crafting_storage}"
 				type: "item"
 			}]
 			title: "{atm9.quest.ae2.crafting_storage}"
@@ -1771,7 +1772,7 @@
 						value: "(.*)crafting_accelerator"
 					}
 				}
-				title: "Crafting Co-Processor"
+				title: "{atm9.quest.ae2.crafting_coprocessor}"
 				type: "item"
 			}]
 			title: "{atm9.quest.ae2.crafting_coprocessor}"
@@ -1805,7 +1806,7 @@
 						value: "(ae2|mega)(.*)crafting_monitor"
 					}
 				}
-				title: "Crafting Monitor"
+				title: "{atm9.quest.ae2.crafting_monitor}"
 				type: "item"
 			}]
 			title: "{atm9.quest.ae2.crafting_monitor}"
@@ -1842,7 +1843,7 @@
 							value: "ae2:knife"
 						}
 					}
-					title: "Quartz Cutting Knife"
+					title: "{atm9.quest.ae2.task.anchor}"
 					type: "item"
 				}
 				{
@@ -2234,12 +2235,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -2259,12 +2255,12 @@
 				{
 					disable_toast: true
 					id: "613F2A6A0026C685"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "26D2701D55A6733B"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

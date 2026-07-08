@@ -171,9 +171,10 @@
 			y: 3.0d
 		}
 		{
+			click: " "
 			alpha: 150
 			height: 2.0d
-			hover: ["{atm9.quest.ae2.img.star}"]
+			hover: ["atm9.quest.evilcraft.img.painting"]
 			image: "minecraft:textures/painting/skull_and_roses.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -181,8 +182,9 @@
 			y: 9.0d
 		}
 		{
+			click: " "
 			height: 0.3d
-			hover: ["{atm9.quest.ae2.img.star}"]
+			hover: ["atm9.quest.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -196,11 +198,7 @@
 	quests: [
 		{
 			description: [
-				"{atm9.quest.evilcraft.desc.modIntro.1}"
-				""
-				"{atm9.quest.evilcraft.desc.modIntro.2}"
-				""
-				"{atm9.quest.evilcraft.desc.modIntro.3}"
+				"{atm9.quest.evilcraft.desc.welcome}"
 			]
 			id: "31FD9EA513E0D010"
 			rewards: [
@@ -229,15 +227,7 @@
 		{
 			dependencies: ["31FD9EA513E0D010"]
 			description: [
-				"{atm9.quest.evilcraft.desc.bloodExtractor.1}"
-				""
-				"{atm9.quest.evilcraft.desc.bloodExtractor.2}"
-				""
-				"{atm9.quest.evilcraft.desc.bloodExtractor.3}"
-				""
-				"{atm9.quest.evilcraft.desc.bloodExtractor.4}"
-				""
-				"{atm9.quest.evilcraft.desc.bloodExtractor.5}"
+				"{atm9.quest.evilcraft.desc.blood_extractor}"
 			]
 			id: "7E79F52147B606F9"
 			min_width: 250
@@ -299,18 +289,14 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.evilcraft.collectingBlood}"
+			title: "{atm9.quest.evilcraft.blood_extractor}"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["31FD9EA513E0D010"]
 			description: [
-				"{atm9.quest.evilcraft.desc.darkTemple.1}"
-				""
-				"{atm9.quest.evilcraft.desc.darkTemple.2}"
-				""
-				"{atm9.quest.evilcraft.desc.darkTemple.3}"
+				"{atm9.quest.evilcraft.desc.dark_temple}"
 			]
 			id: "2CB69634F6A6E53E"
 			rewards: [
@@ -332,7 +318,7 @@
 					icon: "evilcraft:environmental_accumulator"
 					id: "52D6F14FEB974305"
 					structure: "evilcraft:dark_temple"
-					title: "{atm9.quest.evilcraft.visitDarkTemple}"
+					title: "{atm9.quest.evilcraft.task.dark_temple}"
 					type: "structure"
 				}
 				{
@@ -348,18 +334,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.evilcraft.darkTemples}"
+			title: "{atm9.quest.evilcraft.dark_temple}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"{atm9.quest.evilcraft.desc.darkPowerGem.1}"
-				""
-				"{atm9.quest.evilcraft.desc.darkPowerGem.2}"
-				""
-				"{atm9.quest.evilcraft.desc.darkPowerGem.3}"
+				"{atm9.quest.evilcraft.desc.dark_power_gem}"
 			]
 			id: "64EC182B81BD8B86"
 			rewards: [
@@ -380,18 +362,14 @@
 				item: "evilcraft:dark_power_gem"
 				type: "item"
 			}]
-			title: "{atm9.quest.evilcraft.infusingGems}"
+			title: "{atm9.quest.evilcraft.dark_power_gem}"
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"{atm9.quest.evilcraft.desc.dryingBlood.1}"
-				""
-				"{atm9.quest.evilcraft.desc.dryingBlood.2}"
-				""
-				"{atm9.quest.evilcraft.desc.dryingBlood.3}"
+				"{atm9.quest.evilcraft.desc.blood_shard}"
 			]
 			id: "1E3471513C75CC54"
 			rewards: [
@@ -413,18 +391,14 @@
 				item: "evilcraft:hardened_blood_shard"
 				type: "item"
 			}]
-			title: "{atm9.quest.evilcraft.dryingBlood}"
+			title: "{atm9.quest.evilcraft.blood_shard}"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["68318811CCC28320"]
 			description: [
-				"{atm9.quest.evilcraft.desc.bloodInfuser.1}"
-				""
-				"{atm9.quest.evilcraft.desc.bloodInfuser.2}"
-				""
-				"{atm9.quest.evilcraft.desc.bloodInfuser.3}"
+				"{atm9.quest.evilcraft.desc.blood_infuser}"
 			]
 			id: "62A262A706CFCAF0"
 			rewards: [
@@ -458,7 +432,7 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.evilcraft.bloodInfuser}"
+			title: "{atm9.quest.evilcraft.blood_infuser}"
 			x: 3.5d
 			y: 5.5d
 		}
@@ -468,9 +442,7 @@
 				"1E3471513C75CC54"
 			]
 			description: [
-				"{atm9.quest.evilcraft.desc.bloodInfusionCores.1}"
-				""
-				"{atm9.quest.evilcraft.desc.bloodInfusionCores.2}"
+				"{atm9.quest.evilcraft.desc.infusion_core}"
 			]
 			id: "68318811CCC28320"
 			rewards: [
@@ -493,16 +465,14 @@
 				item: "evilcraft:blood_infusion_core"
 				type: "item"
 			}]
-			title: "{atm9.quest.evilcraft.infusionCores}"
+			title: "{atm9.quest.evilcraft.infusion_core}"
 			x: 2.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["62A262A706CFCAF0"]
 			description: [
-				"{atm9.quest.evilcraft.desc.undeadSaplings.1}"
-				""
-				"{atm9.quest.evilcraft.desc.undeadSaplings.2}"
+				"{atm9.quest.evilcraft.desc.undead_trees}"
 			]
 			id: "40888A2C17D8FFF6"
 			rewards: [
@@ -531,16 +501,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.evilcraft.undeadTrees}"
+			title: "{atm9.quest.evilcraft.undead_trees}"
 			x: 3.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["62A262A706CFCAF0"]
 			description: [
-				"{atm9.quest.evilcraft.desc.upgradeBloodInfuser.1}"
-				""
-				"{atm9.quest.evilcraft.desc.upgradeBloodInfuser.2}"
+				"{atm9.quest.evilcraft.desc.promise_tier_1}"
 			]
 			icon: "evilcraft:promise_tier_1"
 			id: "62CE0FFAF6352287"
@@ -570,16 +538,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.evilcraft.upgradingMachines}"
+			title: "{atm9.quest.evilcraft.promise_tier_1}"
 			x: 6.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["68318811CCC28320"]
 			description: [
-				"{atm9.quest.evilcraft.desc.repairWithBlood.1}"
-				""
-				"{atm9.quest.evilcraft.desc.repairWithBlood.2}"
+				"{atm9.quest.evilcraft.desc.blood_chest}"
 			]
 			id: "74B0308336F5E017"
 			rewards: [
@@ -617,18 +583,14 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.evilcraft.repairingTools}"
+			title: "{atm9.quest.evilcraft.blood_chest}"
 			x: 1.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["62CE0FFAF6352287"]
 			description: [
-				"{atm9.quest.evilcraft.desc.removeEnchantments.1}"
-				""
-				"{atm9.quest.evilcraft.desc.removeEnchantments.2}"
-				""
-				"{atm9.quest.evilcraft.desc.removeEnchantments.3}"
+				"{atm9.quest.evilcraft.desc.purifier}"
 			]
 			id: "5A8F4CA0F09F4842"
 			rewards: [
@@ -679,7 +641,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.evilcraft.removingEnchantments}"
+			title: "{atm9.quest.evilcraft.purifier}"
 			x: 6.0d
 			y: 7.0d
 		}
@@ -699,7 +661,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "{atm9.quest.evilcraft.subt.increaseSpeed}"
+			subtitle: "{atm9.quest.evilcraft.subt.promise_speed}"
 			tasks: [{
 				id: "776844C7221C165C"
 				item: "evilcraft:promise_speed_0"
@@ -724,7 +686,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "{atm9.quest.evilcraft.subt.increaseEfficiency}"
+			subtitle: "{atm9.quest.evilcraft.subt.promise_efficiency}"
 			tasks: [{
 				id: "0B55C293EACD60B9"
 				item: "evilcraft:promise_efficiency_0"
@@ -736,11 +698,7 @@
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"{atm9.quest.evilcraft.desc.vengeanceSpirit.1}"
-				""
-				"{atm9.quest.evilcraft.desc.vengeanceSpirit.2}"
-				""
-				"{atm9.quest.evilcraft.desc.vengeanceSpirit.3}"
+				"{atm9.quest.evilcraft.desc.vengeance_meterial}"
 			]
 			id: "51B24CC5E9332C1E"
 			rewards: [
@@ -769,7 +727,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.evilcraft.revengeSpirit}"
+			title: "{atm9.quest.evilcraft.vengeance_meterial}"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -810,7 +768,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.evilcraft.rank2}"
+			title: "{atm9.quest.evilcraft.promise_tier_2}"
 			x: 8.0d
 			y: 5.5d
 		}
@@ -850,7 +808,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.evilcraft.rank3}"
+			title: "{atm9.quest.evilcraft.promise_tier_3}"
 			x: 10.0d
 			y: 5.5d
 		}
@@ -859,7 +817,7 @@
 				"1D794DE95C9FF6C7"
 				"12F3A604329EC604"
 			]
-			description: ["{atm9.quest.evilcraft.desc.speedBoost}"]
+			description: ["{atm9.quest.evilcraft.desc.effortless_ring}"]
 			id: "4D7B6842B9F53459"
 			rewards: [
 				{
@@ -887,11 +845,7 @@
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"{atm9.quest.evilcraft.desc.darkTanks.1}"
-				""
-				"{atm9.quest.evilcraft.desc.darkTanks.2}"
-				""
-				"{atm9.quest.evilcraft.desc.darkTanks.3}"
+				"{atm9.quest.evilcraft.desc.dark_tank}"
 			]
 			id: "75CF9EAB75C3907E"
 			rewards: [
@@ -930,16 +884,14 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.evilcraft.storingFluids}"
+			title: "{atm9.quest.evilcraft.dark_tank}"
 			x: -1.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["40888A2C17D8FFF6"]
 			description: [
-				"{atm9.quest.evilcraft.desc.fortunePickaxe.1}"
-				""
-				"{atm9.quest.evilcraft.desc.fortunePickaxe.2}"
+				"{atm9.quest.evilcraft.desc.vengeance_pickaxe}"
 			]
 			id: "10EF30B919EBA5C6"
 			rewards: [
@@ -987,15 +939,7 @@
 				"066438B01655D866"
 			]
 			description: [
-				"{atm9.quest.evilcraft.desc.mobFarm.1}"
-				""
-				"{atm9.quest.evilcraft.desc.mobFarm.2}"
-				""
-				"{atm9.quest.evilcraft.desc.mobFarm.3}"
-				""
-				"{atm9.quest.evilcraft.desc.mobFarm.4}"
-				""
-				"{atm9.quest.evilcraft.desc.mobFarm.5}"
+				"{atm9.quest.evilcraft.desc.spirit_furnace}"
 				""
 				"{image:atm:textures/questpics/evilcraft/evilcraft_spiritfurnace.png width:125 height:150 align:1}"
 			]
@@ -1045,16 +989,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.evilcraft.mobFarmsUsingBlood}"
+			title: "{atm9.quest.evilcraft.spirit_furnace}"
 			x: 8.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["51B24CC5E9332C1E"]
 			description: [
-				"{atm9.quest.evilcraft.desc.captureSpirits.1}"
-				""
-				"{atm9.quest.evilcraft.desc.captureSpirits.2}"
+				"{atm9.quest.evilcraft.desc.closure_box}"
 			]
 			icon: "evilcraft:box_of_eternal_closure"
 			id: "066438B01655D866"
@@ -1086,18 +1028,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.evilcraft.capturingSpirits}"
+			title: "{atm9.quest.evilcraft.closure_box}"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["74B0308336F5E017"]
 			description: [
-				"{atm9.quest.evilcraft.desc.colossalBloodChest.1}"
-				""
-				"{atm9.quest.evilcraft.desc.colossalBloodChest.2}"
-				""
-				"{atm9.quest.evilcraft.desc.colossalBloodChest.3}"
+				"{atm9.quest.evilcraft.desc.colossal_blood_chest}"
 				""
 				""
 				"{image:atm:textures/questpics/evilcraft/bloodchest.png width:250 height:200 align:1}"
@@ -1125,7 +1063,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "{atm9.quest.evilcraft.subt.papaBloodChest}"
+			subtitle: "{atm9.quest.evilcraft.subt.colossal_blood_chest}"
 			tasks: [
 				{
 					id: "685A188F7C39BE43"
@@ -1157,18 +1095,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.evilcraft.colossalRepairs}"
+			title: "{atm9.quest.evilcraft.colossal_blood_chest}"
 			x: 0.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["1DA0A87C471A38AC"]
 			description: [
-				"{atm9.quest.evilcraft.desc.createMobEgg.1}"
-				""
-				"{atm9.quest.evilcraft.desc.createMobEgg.2}"
-				""
-				"{atm9.quest.evilcraft.desc.createMobEgg.3}"
+				"{atm9.quest.evilcraft.desc.spirit_reanimator}"
 			]
 			id: "59036A2741E7A8AA"
 			rewards: [
@@ -1202,7 +1136,7 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.evilcraft.creatingMobEggs}"
+			title: "{atm9.quest.evilcraft.spirit_reanimator}"
 			x: 8.0d
 			y: -0.125d
 		}
@@ -1224,7 +1158,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.evilcraft.subt.reusableEnderPearl}"
+			subtitle: "{atm9.quest.evilcraft.subt.blood_pearl}"
 			tasks: [{
 				id: "20878EDDDF0C77DA"
 				item: {
@@ -1252,7 +1186,7 @@
 		}
 		{
 			dependencies: ["2CB69634F6A6E53E"]
-			description: ["{atm9.quest.evilcraft.desc.maceCharge}"]
+			description: ["{atm9.quest.evilcraft.desc.distortion_mace}"]
 			hide_dependency_lines: true
 			id: "56FB82DEB944F758"
 			rewards: [
@@ -1297,9 +1231,7 @@
 		{
 			dependencies: ["62CE0FFAF6352287"]
 			description: [
-				"{atm9.quest.evilcraft.desc.kineticatorFeatures.1}"
-				""
-				"{atm9.quest.evilcraft.desc.kineticatorFeatures.2}"
+				"{atm9.quest.evilcraft.desc.kineticator}"
 			]
 			hide_dependency_lines: true
 			id: "77B5B23A2C01ED7E"
@@ -1317,7 +1249,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.evilcraft.subt.magnets}"
+			subtitle: "{atm9.quest.evilcraft.subt.kineticator}"
 			tasks: [
 				{
 					id: "7E84245939CD98B9"
@@ -1385,7 +1317,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.evilcraft.subt.summonsZombies}"
+			subtitle: "{atm9.quest.evilcraft.subt.necromancer_staff}"
 			tasks: [{
 				id: "73E9DB8434DF6236"
 				item: {
@@ -1429,7 +1361,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.evilcraft.subt.removesBadEffects}"
+			subtitle: "{atm9.quest.evilcraft.subt.invigorating_pendant}"
 			tasks: [{
 				id: "40CA543BAAC1182D"
 				item: {
@@ -1473,7 +1405,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.evilcraft.subt.lightningScepter}"
+			subtitle: "{atm9.quest.evilcraft.subt.sceptre_of_thunder}"
 			tasks: [{
 				id: "26ADA98532E2CDB7"
 				item: "evilcraft:sceptre_of_thunder"
@@ -1488,7 +1420,7 @@
 				"753B3EF7CC94A6DD"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{atm9.quest.evilcraft.desc.infiniteFoodSource}"]
+			description: ["{atm9.quest.evilcraft.desc.flesh_rejuvenated}"]
 			id: "600F66B13B29708B"
 			rewards: [
 				{
@@ -1532,7 +1464,7 @@
 		}
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
-			description: ["{atm9.quest.evilcraft.desc.primedPendant}"]
+			description: ["{atm9.quest.evilcraft.desc.primed_pendant}"]
 			hide_dependency_lines: true
 			id: "4DF7E2149F4BD8CC"
 			rewards: [
@@ -1549,7 +1481,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{atm9.quest.evilcraft.subt.appliesEffects}"
+			subtitle: "{atm9.quest.evilcraft.subt.primed_pendant}"
 			tasks: [{
 				id: "02AD6938B2B14996"
 				item: {
@@ -1578,7 +1510,7 @@
 		}
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
-			description: ["{atm9.quest.evilcraft.desc.maceExplosion}"]
+			description: ["{atm9.quest.evilcraft.desc.destruction_mace}"]
 			hide_dependency_lines: true
 			id: "290FAB3DE8FD04E7"
 			rewards: [
@@ -1623,9 +1555,7 @@
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"{atm9.quest.evilcraft.desc.shovelWeapon.1}"
-				""
-				"{atm9.quest.evilcraft.desc.shovelWeapon.2}"
+				"{atm9.quest.evilcraft.desc.spikey_claws}"
 			]
 			id: "0B9F2B443813F43C"
 			optional: true
@@ -1661,11 +1591,7 @@
 		{
 			dependencies: ["4EBED8ABC8C863A4"]
 			description: [
-				"{atm9.quest.evilcraft.desc.entangledChaliceFeatures.1}"
-				""
-				"{atm9.quest.evilcraft.desc.entangledChaliceFeatures.2}"
-				""
-				"{atm9.quest.evilcraft.desc.entangledChaliceFeatures.3}"
+				"{atm9.quest.evilcraft.desc.entangled_chalice}"
 			]
 			hide_dependency_lines: true
 			id: "0BB0DF36B079558F"
@@ -1710,16 +1636,14 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "{atm9.quest.evilcraft.entangledChalice}"
+			title: "{atm9.quest.evilcraft.entangled_chalice}"
 			x: 12.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4EBED8ABC8C863A4"]
 			description: [
-				"{atm9.quest.evilcraft.desc.garmonboziaCreation.1}"
-				""
-				"{atm9.quest.evilcraft.desc.garmonboziaCreation.2}"
+				"{atm9.quest.evilcraft.desc.garmonbozia}"
 			]
 			id: "35FA55BE8DF49EE8"
 			rewards: [
@@ -1754,7 +1678,7 @@
 		}
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
-			description: ["{atm9.quest.evilcraft.desc.environmentalAccumulator}"]
+			description: ["{atm9.quest.evilcraft.desc.environmental_accumulator}"]
 			id: "63AE4568375DD1BF"
 			rewards: [
 				{
@@ -1775,16 +1699,14 @@
 				item: "evilcraft:sanguinary_environmental_accumulator"
 				type: "item"
 			}]
-			title: "{atm9.quest.evilcraft.weatherAccumulator}"
+			title: "{atm9.quest.evilcraft.environmental_accumulator}"
 			x: 14.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["2CB69634F6A6E53E"]
 			description: [
-				"{atm9.quest.evilcraft.desc.infiniteWater.1}"
-				""
-				"{atm9.quest.evilcraft.desc.infiniteWater.2}"
+				"{atm9.quest.evilcraft.desc.eternal_water}"
 			]
 			id: "7A93F07BE2E6EC97"
 			rewards: [
@@ -1825,16 +1747,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.evilcraft.letItRain}"
+			title: "{atm9.quest.evilcraft.eternal_water}"
 			x: 0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2CB69634F6A6E53E"]
 			description: [
-				"{atm9.quest.evilcraft.desc.thunderstormPower.1}"
-				""
-				"{atm9.quest.evilcraft.desc.thunderstormPower.2}"
+				"{atm9.quest.evilcraft.desc.lightning}"
 			]
 			id: "674E2690D66ECD6E"
 			rewards: [
@@ -1875,20 +1795,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.evilcraft.thunderstruck}"
+			title: "{atm9.quest.evilcraft.lightning}"
 			x: -0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"{atm9.quest.evilcraft.desc.bloodCleanup.1}"
-				""
-				"{atm9.quest.evilcraft.desc.bloodCleanup.2}"
-				""
-				"{atm9.quest.evilcraft.desc.bloodCleanup.3}"
-				""
-				"{atm9.quest.evilcraft.desc.bloodCleanup.4}"
+				"{atm9.quest.evilcraft.desc.collect_blood}"
 			]
 			id: "525517F1625A9BCB"
 			rewards: [
@@ -1952,7 +1866,7 @@
 							]
 						}
 					}
-					title: "{atm9.quest.evilcraft.sanguinaryPedestal}"
+					title: "{atm9.quest.evilcraft.task.collect_blood}"
 					type: "item"
 				}
 				{
@@ -1961,16 +1875,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.evilcraft.collectingBloodStains}"
+			title: "{atm9.quest.evilcraft.collect_blood}"
 			x: -1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
 			description: [
-				"{atm9.quest.evilcraft.desc.uniqueDrop.1}"
-				""
-				"{atm9.quest.evilcraft.desc.uniqueDrop.2}"
+				"{atm9.quest.evilcraft.desc.flesh_humanoid}"
 			]
 			id: "753B3EF7CC94A6DD"
 			rewards: [
@@ -1998,9 +1910,7 @@
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
 			description: [
-				"{atm9.quest.evilcraft.desc.werewolfVillagers.1}"
-				""
-				"{atm9.quest.evilcraft.desc.werewolfVillagers.2}"
+				"{atm9.quest.evilcraft.desc.flesh_werewolf}"
 			]
 			id: "026A71F98A52E3A5"
 			rewards: [
@@ -2027,9 +1937,7 @@
 		{
 			dependencies: ["40888A2C17D8FFF6"]
 			description: [
-				"{atm9.quest.evilcraft.desc.veinSword.1}"
-				""
-				"{atm9.quest.evilcraft.desc.veinSword.2}"
+				"{atm9.quest.evilcraft.desc.vein_sword}"
 			]
 			id: "7B524DAD8A33BF85"
 			rewards: [
@@ -2068,11 +1976,7 @@
 		{
 			dependencies: ["40888A2C17D8FFF6"]
 			description: [
-				"{atm9.quest.evilcraft.desc.broomCrafting.1}"
-				""
-				"{atm9.quest.evilcraft.desc.broomCrafting.2}"
-				""
-				"{atm9.quest.evilcraft.desc.broomCrafting.3}"
+				"{atm9.quest.evilcraft.desc.broom_part}"
 			]
 			icon: {
 				Count: 1
@@ -2108,7 +2012,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "{atm9.quest.evilcraft.subt.broomBroom}"
+			subtitle: "{atm9.quest.evilcraft.subt.broom_part}"
 			tasks: [
 				{
 					id: "73427CBDD811273E"
@@ -2197,19 +2101,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.evilcraft.bloodBrooms}"
+			title: "{atm9.quest.evilcraft.broom_part}"
 			x: 3.5d
 			y: 10.5d
 		}
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -2229,12 +2128,12 @@
 				{
 					disable_toast: true
 					id: "50DCADFCCAD7BB24"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "40C84C03F35EE9FA"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

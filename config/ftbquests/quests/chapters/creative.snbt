@@ -7,8 +7,9 @@
 	id: "16956970FF49BB4D"
 	images: [
 		{
+			click: " "
 			height: 4.0d
-			hover: ["What do I do with the ATM Star?"]
+			hover: ["atm9.quest.chapter3.img.star"]
 			image: "atm:textures/questpics/creative.png"
 			rotation: 0.0d
 			width: 16.0d
@@ -71,7 +72,7 @@
 								]]
 							}
 							display: {
-								Name: "{\"text\":\"Ultimate Axe of AlfredGG\"}"
+								Name: "{\"translate\":\"atm9.quest.chapter3.reward.welcome\"}"
 							}
 						}
 					}
@@ -281,7 +282,7 @@
 						]
 					}
 				}
-				title: "Creative Power Options"
+				title: "{atm9.quest.chapter3.task.powah}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter3.powah}"
@@ -319,7 +320,7 @@
 						]
 					}
 				}
-				title: "Creative Virtual Storage Power"
+				title: "{atm9.quest.chapter3.task.storage}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter3.storage}"
@@ -354,7 +355,7 @@
 						]
 					}
 				}
-				title: "Creative Pressure"
+				title: "{atm9.quest.chapter3.pressure}"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter3.pressure}"
@@ -408,7 +409,7 @@
 							}
 							HideFlags: 2
 							display: {
-								Name: "{\"text\":\"Not a Neutronium Plunger\"}"
+								Name: "{\"translate\":\"atm9.quest.chapter3.reward.greg\"}"
 							}
 						}
 					}
@@ -429,12 +430,7 @@
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -454,12 +450,12 @@
 				{
 					disable_toast: true
 					id: "543A08791D27BC62"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "71F7DA56C55F4676"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]

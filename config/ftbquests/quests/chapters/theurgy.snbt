@@ -7,7 +7,7 @@
 		Count: 1
 		id: "theurgy:alchemical_sulfur_sulfur"
 		tag: {
-			"theurgy:sulfur.source.id": "#forge:gems/sulfur"
+			"theurgy:alchemical_sulfurs.source.id": "#forge:gems/alchemical_sulfurs"
 		}
 	}
 	id: "007B547630FF0478"
@@ -100,7 +100,7 @@
 		{
 			dependencies: ["0542FE108089A0A2"]
 			description: [
-				"{atm9.quest.theurgy.desc.desalinationplant.1}"
+				"{atm9.quest.theurgy.desc.calcination_oven}"
 				""
 				"{image:atm:textures/questpics/theurgy/theurgy_oven.png width:100 height:100 align:center}"
 			]
@@ -118,13 +118,13 @@
 				item: "theurgy:calcination_oven"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.desalinationplant}"
+			title: "{atm9.quest.theurgy.calcination_oven}"
 			x: 6.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["02593CD4B4AE814C"]
-			description: ["{atm9.quest.theurgy.desc.stratasalt.1}"]
+			description: ["{atm9.quest.theurgy.desc.salt_strata}"]
 			id: "0830195863384CF0"
 			rewards: [{
 				count: 4
@@ -139,13 +139,13 @@
 				item: "theurgy:alchemical_salt_strata"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.stratasalt}"
+			title: "{atm9.quest.theurgy.salt_strata}"
 			x: 4.95d
 			y: -1.1d
 		}
 		{
 			dependencies: ["02593CD4B4AE814C"]
-			description: ["{atm9.quest.theurgy.desc.mineralsalt.1}"]
+			description: ["{atm9.quest.theurgy.desc.salt_mineral}"]
 			id: "616364E6AE05C341"
 			rewards: [{
 				count: 4
@@ -160,7 +160,7 @@
 				item: "theurgy:alchemical_salt_mineral"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.mineralsalt}"
+			title: "{atm9.quest.theurgy.salt_mineral}"
 			x: 4.95d
 			y: -2.2d
 		}
@@ -171,7 +171,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{atm9.quest.theurgy.desc.makesalammoniac.1}"
+				"{atm9.quest.theurgy.desc.ammoniac}"
 				""
 				"{image:atm:textures/questpics/theurgy/theurgy_sal_front.png width:100 height:200 align:center}"
 			]
@@ -198,12 +198,12 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.theurgy.title.makesalammoniac}"
+			title: "{atm9.quest.theurgy.ammoniac}"
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			description: ["{atm9.quest.theurgy.desc.machines.1}"]
+			description: ["{atm9.quest.theurgy.desc.ammoniac_crystal}"]
 			id: "45996B848792379E"
 			rewards: [{
 				id: "08E663CBC638D862"
@@ -211,18 +211,18 @@
 				xp: 50
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.theurgy.subt.machines}"
+			subtitle: "{atm9.quest.theurgy.subt.ammoniac_crystal}"
 			tasks: [{
 				id: "1476F390A6789572"
 				item: "theurgy:sal_ammoniac_crystal"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.machines}"
+			title: "{atm9.quest.theurgy.ammoniac_crystal}"
 			x: 2.5d
 			y: 5.0d
 		}
 		{
-			description: ["{atm9.quest.theurgy.desc.salammoniac.1}"]
+			description: ["{atm9.quest.theurgy.desc.water_bucket}"]
 			id: "76F675A898EAB4E8"
 			rewards: [{
 				id: "521AFCFE3F8C0B95"
@@ -234,13 +234,13 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.salammoniac}"
+			title: "{atm9.quest.theurgy.water_bucket}"
 			x: 1.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["285B3FB38B12F8CA"]
-			description: ["{atm9.quest.theurgy.desc.makealchemicalsulfur}"]
+			description: ["{atm9.quest.theurgy.desc.liquefaction_cauldron}"]
 			id: "6CAD27627A3F8FD7"
 			rewards: [{
 				id: "44A520B3E33E6CF8"
@@ -254,12 +254,12 @@
 				item: "theurgy:liquefaction_cauldron"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.makealchemicalsulfur}"
+			title: "{atm9.quest.theurgy.liquefaction_cauldron}"
 			x: 2.0d
 			y: 3.0d
 		}
 		{
-			description: ["{atm9.quest.theurgy.desc.hot}"]
+			description: ["{atm9.quest.theurgy.desc.heat}"]
 			icon: "minecraft:campfire"
 			icon_scale: 1.5d
 			id: "19A2016B54C6FA34"
@@ -269,10 +269,10 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.theurgy.subt.hot}"
+			subtitle: "{atm9.quest.theurgy.subt.heat}"
 			tasks: [{
 				id: "3489080F5FDE8B1B"
-				title: "{atm9.quest.theurgy.title.hot}"
+				title: "{atm9.quest.theurgy.task.heat}"
 				type: "checkmark"
 			}]
 			x: 8.5d
@@ -281,7 +281,7 @@
 		{
 			dependencies: ["19A2016B54C6FA34"]
 			description: [
-				"{atm9.quest.theurgy.desc.furnaceheat.1}"
+				"{atm9.quest.theurgy.desc.pyromantic_brazier}"
 				""
 				"{image:atm:textures/questpics/theurgy/theurgy_brazier.png width:100 height:100 align:center}"
 			]
@@ -298,13 +298,13 @@
 				item: "theurgy:pyromantic_brazier"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.furnaceheat}"
+			title: "{atm9.quest.theurgy.pyromantic_brazier}"
 			x: 9.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["19A2016B54C6FA34"]
-			description: ["{atm9.quest.theurgy.desc.wirelessheat.1}"]
+			description: ["{atm9.quest.theurgy.desc.caloric_flux_emitter}"]
 			id: "0854AD352218E1C3"
 			rewards: [{
 				count: 10
@@ -313,18 +313,19 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "{atm9.quest.theurgy.subt.caloric_flux_emitter}"
 			tasks: [{
 				id: "527A1DEF45B98C1A"
 				item: "theurgy:caloric_flux_emitter"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.wirelessheat}"
+			title: "{atm9.quest.theurgy.caloric_flux_emitter}"
 			x: 8.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0542FE108089A0A2"]
-			description: ["{atm9.quest.theurgy.desc.makemercury.1}"]
+			description: ["{atm9.quest.theurgy.desc.distiller}"]
 			id: "36926B5EBFF6E55A"
 			rewards: [{
 				id: "3DC18770E98DCB85"
@@ -337,13 +338,13 @@
 				item: "theurgy:distiller"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.makemercury}"
+			title: "{atm9.quest.theurgy.distiller}"
 			x: -1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["36926B5EBFF6E55A"]
-			description: ["{atm9.quest.theurgy.desc.mercury.1}"]
+			description: ["{atm9.quest.theurgy.desc.mercury_shard}"]
 			id: "5844DD2BEE5EC3DC"
 			rewards: [{
 				count: 4
@@ -352,18 +353,19 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "{atm9.quest.theurgy.subt.mercury_shard}"
 			size: 1.2d
 			tasks: [{
 				id: "7F9D6D178F0C221B"
 				item: "theurgy:mercury_shard"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.mercury}"
+			title: "{atm9.quest.theurgy.mercury_shard}"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
-			description: ["{atm9.quest.theurgy.desc.divinationrods.1}"]
+			description: ["{atm9.quest.theurgy.desc.stick}"]
 			icon: "occultism:divination_rod"
 			id: "0460DDEEFDEB0AAF"
 			rewards: [{
@@ -379,12 +381,12 @@
 				item: "minecraft:stick"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.divinationrods}"
+			title: "{atm9.quest.theurgy.stick}"
 			x: -4.5d
 			y: -6.0d
 		}
 		{
-			description: ["{atm9.quest.theurgy.desc.theurgy.1}"]
+			description: ["{atm9.quest.theurgy.desc.welcome}"]
 			hide_dependent_lines: true
 			icon: "theurgy:alchemical_sulfur_sulfur"
 			id: "0542FE108089A0A2"
@@ -408,7 +410,7 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.theurgy}"
+			title: "{atm9.quest.theurgy.welcome}"
 			x: 2.0d
 			y: -4.0d
 		}
@@ -419,7 +421,7 @@
 				"06AD25DB96F3A1CC"
 			]
 			description: [
-				"{atm9.quest.theurgy.desc.multiblockmachine.1}"
+				"{atm9.quest.theurgy.desc.incubator}"
 				""
 				"{image:atm:textures/questpics/theurgy/theurgy_incubator.png width:200 height:200 align:center}"
 			]
@@ -443,7 +445,7 @@
 		{
 			dependencies: ["5844DD2BEE5EC3DC"]
 			description: [
-				"{atm9.quest.theurgy.desc.mercuryvessel}"
+				"{atm9.quest.theurgy.desc.mercury_vessel}"
 				""
 				"{image:atm:textures/questpics/theurgy/theurgy_vessel_1.png width:100 height:125 align:center}"
 			]
@@ -461,7 +463,7 @@
 				item: "theurgy:incubator_mercury_vessel"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.mercuryvessel}"
+			title: "{atm9.quest.theurgy.mercury_vessel}"
 			x: 0.5d
 			y: -1.5d
 		}
@@ -471,7 +473,7 @@
 				"616364E6AE05C341"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{atm9.quest.theurgy.desc.saltvessel.1}"]
+			description: ["{atm9.quest.theurgy.desc.salt_vessel}"]
 			id: "6A8E748B642DD16F"
 			rewards: [{
 				id: "35722C9B9C24116C"
@@ -485,14 +487,14 @@
 				item: "theurgy:incubator_salt_vessel"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.saltvessel}"
+			title: "{atm9.quest.theurgy.salt_vessel}"
 			x: 3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["61DA3D61D7103647"]
 			description: [
-				"{atm9.quest.theurgy.desc.sulfurvessel.1}"
+				"{atm9.quest.theurgy.desc.sulfur_vessel}"
 				""
 				"{image:atm:textures/questpics/theurgy/theurgy_vessel_3.png width:100 height:125 align:center}"
 			]
@@ -510,14 +512,14 @@
 				item: "theurgy:incubator_sulfur_vessel"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.sulfurvessel}"
+			title: "{atm9.quest.theurgy.sulfur_vessel}"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["61DA3D61D7103647"]
 			description: [
-				"{atm9.quest.theurgy.desc.sourcepedestal.1}"
+				"{atm9.quest.theurgy.desc.source_pedestal}"
 				""
 				"{image:atm:textures/questpics/theurgy/theurgy_reform_1.png width:100 height:100 align:center}"
 			]
@@ -533,14 +535,14 @@
 				item: "theurgy:reformation_source_pedestal"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.sourcepedestal}"
+			title: "{atm9.quest.theurgy.source_pedestal}"
 			x: 3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["161E7D934A21F849"]
 			description: [
-				"{atm9.quest.theurgy.desc.targetpedestal.1}"
+				"{atm9.quest.theurgy.desc.target_pedestal}"
 				""
 				"{image:atm:textures/questpics/theurgy/theurgy_reform_2.png width:100 height:100 align:center}"
 			]
@@ -556,13 +558,13 @@
 				item: "theurgy:reformation_target_pedestal"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.targetpedestal}"
+			title: "{atm9.quest.theurgy.target_pedestal}"
 			x: 4.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["1A46A97A00A31C03"]
-			description: ["{atm9.quest.theurgy.desc.resultpedestal.1}"]
+			description: ["{atm9.quest.theurgy.desc.result_pedestal}"]
 			id: "72FADEAEE2DA03AF"
 			rewards: [{
 				id: "2839098B15DDBF50"
@@ -575,13 +577,13 @@
 				item: "theurgy:reformation_result_pedestal"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.resultpedestal}"
+			title: "{atm9.quest.theurgy.result_pedestal}"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["72FADEAEE2DA03AF"]
-			description: ["{atm9.quest.theurgy.desc.poweringit.1}"]
+			description: ["{atm9.quest.theurgy.desc.flux_emitter}"]
 			id: "3EB63AF53E70C931"
 			rewards: [
 				{
@@ -601,13 +603,13 @@
 				item: "theurgy:sulfuric_flux_emitter"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.poweringit}"
+			title: "{atm9.quest.theurgy.flux_emitter}"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
-			description: ["{atm9.quest.theurgy.desc.divinationrodt1.1}"]
+			description: ["{atm9.quest.theurgy.desc.rod_tier_1}"]
 			icon: {
 				Count: 1
 				id: "minecraft:stone_pickaxe"
@@ -645,7 +647,7 @@
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
-			description: ["{atm9.quest.theurgy.desc.divinationrodt2.1}"]
+			description: ["{atm9.quest.theurgy.desc.rod_tier_2}"]
 			icon: {
 				Count: 1
 				id: "minecraft:iron_pickaxe"
@@ -683,7 +685,7 @@
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
-			description: ["{atm9.quest.theurgy.desc.divinationrodt3.1}"]
+			description: ["{atm9.quest.theurgy.desc.rod_tier_3}"]
 			icon: {
 				Count: 1
 				id: "minecraft:diamond_pickaxe"
@@ -721,7 +723,7 @@
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
-			description: ["{atm9.quest.theurgy.desc.divinationrodt4.1}"]
+			description: ["{atm9.quest.theurgy.desc.rod_tier_4}"]
 			icon: {
 				Count: 1
 				id: "minecraft:netherite_pickaxe"
@@ -759,7 +761,7 @@
 		}
 		{
 			dependencies: ["5844DD2BEE5EC3DC"]
-			description: ["{atm9.quest.theurgy.desc.powermercury.1}"]
+			description: ["{atm9.quest.theurgy.desc.mercury_catalyst}"]
 			id: "1C829609915E0012"
 			rewards: [{
 				count: 4
@@ -773,13 +775,13 @@
 				item: "theurgy:mercury_catalyst"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.powermercury}"
+			title: "{atm9.quest.theurgy.mercury_catalyst}"
 			x: -1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["61DA3D61D7103647"]
-			description: ["{atm9.quest.theurgy.desc.fermentationvat.1}"]
+			description: ["{atm9.quest.theurgy.desc.fermentation_vat}"]
 			id: "730F2D3329C4FF88"
 			rewards: [{
 				count: 3
@@ -799,7 +801,7 @@
 		}
 		{
 			dependencies: ["730F2D3329C4FF88"]
-			description: ["{atm9.quest.theurgy.desc.digestionvat.1}"]
+			description: ["{atm9.quest.theurgy.desc.digestion_vat}"]
 			id: "3B6F723B03C4BF55"
 			rewards: [{
 				count: 5
@@ -814,13 +816,13 @@
 				item: "theurgy:digestion_vat"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.digestionvat}"
+			title: "{atm9.quest.theurgy.digestion_vat}"
 			x: -0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
-			description: ["{atm9.quest.theurgy.desc.abundantdivinationrod.1}"]
+			description: ["{atm9.quest.theurgy.desc.rod_abundant}"]
 			icon: "minecraft:copper_ingot"
 			id: "7198ED7E97A256A4"
 			rewards: [{
@@ -853,7 +855,7 @@
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
-			description: ["{atm9.quest.theurgy.desc.commondivinationrod.1}"]
+			description: ["{atm9.quest.theurgy.desc.rod_common}"]
 			icon: "minecraft:iron_ingot"
 			id: "2F0D6267569F740B"
 			rewards: [{
@@ -886,7 +888,7 @@
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
-			description: ["{atm9.quest.theurgy.desc.raredivinationrod.1}"]
+			description: ["{atm9.quest.theurgy.desc.rod_rare}"]
 			icon: "minecraft:gold_ingot"
 			id: "7119F8C352D057BC"
 			rewards: [{
@@ -919,7 +921,7 @@
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
-			description: ["{atm9.quest.theurgy.desc.preciousdivinationrod.1}"]
+			description: ["{atm9.quest.theurgy.desc.rod_precious}"]
 			icon: "minecraft:diamond"
 			id: "7878F190BC8ADC82"
 			rewards: [{
@@ -952,7 +954,7 @@
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
-			description: ["{atm9.quest.theurgy.desc.amethystdivinationrod.1}"]
+			description: ["{atm9.quest.theurgy.desc.divination_rod}"]
 			icon: "minecraft:amethyst_cluster"
 			id: "7A1C117CA8FB7C31"
 			rewards: [{
@@ -984,7 +986,7 @@
 		}
 		{
 			dependencies: ["6CAD27627A3F8FD7"]
-			description: ["{atm9.quest.theurgy.desc.alchemicalsulfur.1}"]
+			description: ["{atm9.quest.theurgy.desc.alchemical_sulfurs}"]
 			icon_scale: 1.3d
 			id: "61DA3D61D7103647"
 			rewards: [{
@@ -1004,22 +1006,17 @@
 						value: "theurgy:alchemical_sulfurs"
 					}
 				}
-				title: "{atm9.quest.theurgy.title.sulfurs}"
+				title: "{atm9.quest.theurgy.task.alchemical_sulfurs}"
 				type: "item"
 			}]
-			title: "{atm9.quest.theurgy.title.sulfur}"
+			title: "{atm9.quest.theurgy.alchemical_sulfurs}"
 			x: 2.0d
 			y: 1.5d
 		}
 		{
 			can_repeat: false
 			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+				"{atm9.quest.desc.copyright}"
 			]
 			disable_toast: true
 			hide_details_until_startable: true
@@ -1039,12 +1036,12 @@
 				{
 					disable_toast: true
 					id: "59E3D940C38B461B"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 				{
 					id: "7E61275AD72116EB"
-					title: "Quests By AllTheMods"
+					title: "{atm9.quest.task.copyright}"
 					type: "checkmark"
 				}
 			]
